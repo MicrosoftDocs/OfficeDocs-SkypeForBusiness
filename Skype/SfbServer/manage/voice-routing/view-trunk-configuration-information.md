@@ -37,7 +37,9 @@ SIP trunk configuration settings can be viewed by using Skype for Business Serve
 
 To view information about all your SIP trunk configuration settings, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
-`Get-CsTrunkConfiguration`
+```powershell
+Get-CsTrunkConfiguration
+```
 
 That will return information similar to this:
 

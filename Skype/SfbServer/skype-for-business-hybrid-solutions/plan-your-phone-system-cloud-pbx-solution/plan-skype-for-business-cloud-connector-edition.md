@@ -540,14 +540,14 @@ Each Edge component requires a certificate from a public certification authority
 
 - **Option 1.** The Subject Name must contain the pool name that you assigned to the Edge components. Note that the Subject Name cannot be sip.sipdomain.com because this name is reserved for the online Skype for Business Edge component. The SAN must contain sip.sipdomain.com and the access Edge pool name:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **Option 2.** If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -563,14 +563,14 @@ You will need to add sip.sipdomain.com for every SIP domain and the name of the 
 
 - **Option 1.** The Subject Name must contain the pool name that you assigned for Edge components. Note that the Subject Name cannot be sip.sipdomain.com because this name is reserved for the online Skype for Business Edge component. The SAN must contain sip.sipdomain.com and the access Edge pool name:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>Option 2.</strong>If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
