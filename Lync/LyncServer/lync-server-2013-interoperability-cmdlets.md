@@ -42,29 +42,29 @@ The following is a list of cmdlets that relate directly to configuring and manag
 
 **Interoperability Cmdlets**
 
-  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ205155(v=OCS.15))
+  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ205155(v=OCS.15))
 
-  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ204841(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205238(v=OCS.15))
-
-  - [New-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205206(v=OCS.15))
-
-  - [Remove-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205408(v=OCS.15))
-
-  - [Set-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ204896(v=OCS.15))
+  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ204841(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ205128(v=OCS.15))
+  - [Get-CsOAuthServer](https://technet.microsoft.com/library/JJ205238(v=OCS.15))
 
-  - [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))
+  - [New-CsOAuthServer](https://technet.microsoft.com/library/JJ205206(v=OCS.15))
 
-  - [Remove-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204820(v=OCS.15))
+  - [Remove-CsOAuthServer](https://technet.microsoft.com/library/JJ205408(v=OCS.15))
 
-  - [Set-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204755(v=OCS.15))
+  - [Set-CsOAuthServer](https://technet.microsoft.com/library/JJ204896(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPartnerApplication](https://technet.microsoft.com/library/JJ205128(v=OCS.15))
+
+  - [New-CsPartnerApplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15))
+
+  - [Remove-CsPartnerApplication](https://technet.microsoft.com/library/JJ204820(v=OCS.15))
+
+  - [Set-CsPartnerApplication](https://technet.microsoft.com/library/JJ204755(v=OCS.15))
 
 </div>
 

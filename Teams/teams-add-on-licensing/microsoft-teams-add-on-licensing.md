@@ -79,7 +79,7 @@ See your plan under "License options based on your plan" for more details about 
 ## How do I use my existing Calling Plans with Teams?
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
@@ -97,5 +97,5 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

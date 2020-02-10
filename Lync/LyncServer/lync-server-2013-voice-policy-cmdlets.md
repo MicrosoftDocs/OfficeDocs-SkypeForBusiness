@@ -43,50 +43,50 @@ The following cmdlets can be used to manage voice policies and dial plans for En
 **Voice Policy**
 
   - <span></span>  
-    [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))
+    [Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))
+    [Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))
+    [New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))
+    [Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))
+    [Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+    [Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+    [Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))
+    [New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+    [Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))
+    [Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 </div>
 

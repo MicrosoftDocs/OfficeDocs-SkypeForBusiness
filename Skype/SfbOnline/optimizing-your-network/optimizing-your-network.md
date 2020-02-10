@@ -71,7 +71,7 @@ To help you will sizing your network, download the [Skype for Business Bandwidth
   
 For more about media quality and QoS, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
   
-For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
+For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/library/gg425841.aspx).
   
 ## Bypass proxies and WAN optimization devices
 
@@ -106,7 +106,7 @@ Additional resources:
     
 - [More on Direct Access, Split Tunneling and Force Tunneling](https://blogs.technet.com/b/tomshinder/archive/2010/03/30/more-on-directaccess-split-tunneling-and-force-tunneling.aspx)
     
-- [Enable Direct Access](https://technet.microsoft.com/en-us/library/jj574163.aspx)
+- [Enable Direct Access](https://technet.microsoft.com/library/jj574163.aspx)
     
 ## Ensure the right ports and protocols are open
 

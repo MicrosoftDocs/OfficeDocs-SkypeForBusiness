@@ -148,10 +148,10 @@ The Centralized Logging Service is configured to define what the logging service
 [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
+[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
+[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
   
 
 </div>

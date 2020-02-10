@@ -69,7 +69,7 @@ Every region within a call admission control (CAC) configuration must have some 
 [Creating or modifying network region routes in Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
 
-[Configure a Network Region Route](https://technet.microsoft.com/en-us/library/gg133706\(v=ocs.15\))  
+[Configure a Network Region Route](https://technet.microsoft.com/library/gg133706\(v=ocs.15\))  
 
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  

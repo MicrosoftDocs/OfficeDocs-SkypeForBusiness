@@ -43,36 +43,36 @@ You cannot configure the Address Book Server settings in Lync Server Control Pan
 **Address Book Server**
 
   - <span></span>  
-    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398132(v=OCS.15))
+    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [New-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398395(v=OCS.15))
+    [New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))
+    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg412784(v=OCS.15))
+    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsAddressBook](https://technet.microsoft.com/en-us/library/Gg398194(v=OCS.15))
+    [Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-CsAddressBookReplication](https://technet.microsoft.com/en-us/library/JJ205232(v=OCS.15))
+    [Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookService](https://technet.microsoft.com/en-us/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/en-us/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 

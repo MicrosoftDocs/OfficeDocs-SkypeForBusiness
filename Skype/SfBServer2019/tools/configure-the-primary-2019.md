@@ -44,7 +44,7 @@ For details about these products and their installation, see the following links
 
 - [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
 
-- [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
+- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 Keep in mind that you can have only one Root Management Server per Skype for Business Server deployment.
 

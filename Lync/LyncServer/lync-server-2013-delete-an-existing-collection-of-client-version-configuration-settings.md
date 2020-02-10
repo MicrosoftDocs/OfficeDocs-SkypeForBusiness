@@ -84,7 +84,7 @@ You can delete client version configuration settings by using the **Remove-CsCli
 
 </div>
 
-For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15)) cmdlet.
+For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.
 
 </div>
 

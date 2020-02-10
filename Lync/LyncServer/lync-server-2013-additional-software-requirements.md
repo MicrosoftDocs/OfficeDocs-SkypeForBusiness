@@ -222,7 +222,7 @@ Directors must run Internet Information Services (IIS), with the following modul
 
 Persistent Chat Front End Servers must run Message Queuing (also known as MSMQ), which is a component of Windows Server.
 
-For information on enabling MSMQ, [click here.](https://technet.microsoft.com/en-us/library/cc771474.aspx)
+For information on enabling MSMQ, [click here.](https://technet.microsoft.com/library/cc771474.aspx)
 
 </div>
 

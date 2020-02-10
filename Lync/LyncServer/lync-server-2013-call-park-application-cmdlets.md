@@ -43,35 +43,35 @@ The following cmdlets can be used to manage Call Park application.
 **Call Park Application**
 
   - <span></span>  
-    [Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
+    [Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))
 
   - <span></span>  
-    [New-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
+    [New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
+    [Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
+    [Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
+    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
+    [Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))
 
   - <span></span>  
-    [New-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
+    [New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
+    [Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
+    [Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))
 
 </div>
 

@@ -99,7 +99,7 @@ Per-user conferencing policies can be assigned by using Windows PowerShell and t
 
 ## To assign a per-user conferencing policy to multiple users
 
-  - This command assigns the per-user conferencing policy HRConferencingPolicy to all the users who work for the Human Resources department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
+  - This command assigns the per-user conferencing policy HRConferencingPolicy to all the users who work for the Human Resources department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -109,7 +109,7 @@ Per-user conferencing policies can be assigned by using Windows PowerShell and t
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-For more information, see the help topic for the [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) cmdlet.
+For more information, see the help topic for the [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\)) cmdlet.
 
 ## See Also
 

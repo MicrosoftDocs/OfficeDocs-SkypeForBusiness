@@ -57,7 +57,7 @@ Administrators with a development background can use the REST web service to obt
 ## See Also
 
 
-[Lync Online reporting](https://technet.microsoft.com/en-us/library/dn362827\(v=ocs.15\))  
+[Lync Online reporting](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  
 
 
 [The Office 365 Reporting Web Service](http://msdn.microsoft.com/en-us/library/office/jj984325.aspx)  

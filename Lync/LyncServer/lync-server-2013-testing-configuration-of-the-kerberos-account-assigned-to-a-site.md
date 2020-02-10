@@ -63,7 +63,7 @@ _**Topic Last Modified:** 2014-06-05_
 
 The Test-CsKerberosAccountAssignment cmdlet enables you to verify that a Kerberos account is associated with a given site, that this account is configured correctly, and that the account is working as expected. Kerberos accounts are computer accounts that can serve as the authentication principal for all the computers in a site that are running Internet Information Server (IIS). Because these accounts use the Kerberos authentication protocol, the accounts are known as Kerberos accounts, and the new authentication process is known as Kerberos web authentication. This enables you to manage all IIS servers by using a single account.
 
-For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) cmdlet.
+For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) cmdlet.
 
 </div>
 
@@ -79,7 +79,7 @@ The following command runs Test-CsKerberosAccountAssignment and saves the output
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) cmdlet.
+For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) cmdlet.
 
 </div>
 
@@ -115,7 +115,7 @@ Here are some common reasons why Test-CsKerberosAccountAssignment might fail:
     
     InvalidKerberosConfiguration: The Kerberos configuration on atl-cs001.litwareinc.com is invalid. The expected assigned account is litwareinc\\kerberostest. Ensure that the account has not expired, and the configured password on the machine matches the Active Directory password of the account.
     
-    You can set the password using the [Set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15)) cmdlet.
+    You can set the password using the [Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) cmdlet.
 
 </div>
 

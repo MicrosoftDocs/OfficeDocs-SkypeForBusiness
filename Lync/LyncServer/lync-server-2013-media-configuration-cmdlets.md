@@ -43,16 +43,16 @@ Use the following cmdlets for media configuration.
 **Media Configuration**
 
   - <span></span>  
-    [Get-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))
+    [Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))
 
   - <span></span>  
-    [New-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))
+    [New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))
+    [Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))
+    [Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))
 
 </div>
 

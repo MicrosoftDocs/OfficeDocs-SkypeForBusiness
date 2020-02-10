@@ -43,21 +43,21 @@ Use the following cmdlets for SLA.
 **Configuring SLA**
 
   - <span></span>  
-    [Get-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))
+    [Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703202(v=OCS.15))
+    [Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703201(v=OCS.15))
+    [Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))
 
 **Configuring SLA delegates**
 
   - <span></span>  
-    [Add-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
+    [Add-CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703203(v=OCS.15))
+    [Remove-CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))
 
 </div>
 

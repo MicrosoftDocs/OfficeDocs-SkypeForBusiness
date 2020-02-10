@@ -424,7 +424,7 @@ If more restrictive rules are required, refer to following whitelisting URLs:
 
 - [Certificate Revocation List URLs](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/library/bb693717.aspx)
 
 - Skype for Business Online Admin PowerShell: \*.online.lync.com
 

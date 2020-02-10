@@ -42,7 +42,7 @@ When you install Lync Server, a global collection of A/V Edge configuration sett
 
   - Settings at the global scope will be used only if there are no service settings configured on the individual server and if there are no site settings for the site where that server is located.
 
-Any of your settings can then be modified by using the Set-CsAVEdgeConfiguration cmdlet. For more information, see the help topics for the [New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15)) and the [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15)) cmdlets.
+Any of your settings can then be modified by using the Set-CsAVEdgeConfiguration cmdlet. For more information, see the help topics for the [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15)) and the [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15)) cmdlets.
 
 <div>
 
@@ -94,8 +94,8 @@ Any of your settings can then be modified by using the Set-CsAVEdgeConfiguration
 
 
 [Audio/Video (A/V) Edge Servers in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))  
-[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))  
+[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))  
+[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))  
   
 
 </div>

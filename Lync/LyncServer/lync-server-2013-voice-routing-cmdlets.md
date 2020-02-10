@@ -43,53 +43,53 @@ Use the following cmdlets to configure voice routes.
 **Voice Routing**
 
   - <span></span>  
-    [Get-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
+    [Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))
 
   - <span></span>  
-    [New-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
+    [New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
+    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
+    [Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
+    [Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
+    [New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
+    [Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
+    [Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204940(v=OCS.15))
+  - [Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))
 
-  - [Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205141(v=OCS.15))
+  - [Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))
 
-  - [New-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205135(v=OCS.15))
+  - [New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))
 
-  - [Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204799(v=OCS.15))
+  - [Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))
 
-  - [Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205313(v=OCS.15))
+  - [Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 </div>
 

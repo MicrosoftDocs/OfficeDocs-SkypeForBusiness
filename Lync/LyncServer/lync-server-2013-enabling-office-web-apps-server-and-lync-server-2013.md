@@ -40,7 +40,7 @@ In order to use these new capabilities administrators must install Office Web Ap
 
 
 > [!NOTE]  
-> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Lync Server 2013. For more detail, refer to the <A href="https://technet.microsoft.com/en-us/library/jj219456(v=office.16).aspx">Office Online Server documentation</A>.
+> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Lync Server 2013. For more detail, refer to the <A href="https://technet.microsoft.com/library/jj219456(v=office.16).aspx">Office Online Server documentation</A>.
 
 
 

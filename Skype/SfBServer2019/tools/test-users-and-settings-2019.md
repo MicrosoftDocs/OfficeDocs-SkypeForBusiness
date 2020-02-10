@@ -366,7 +366,7 @@ The Video Interop Server (VIS) synthetic transaction requires that you download 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet.
+For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>

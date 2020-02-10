@@ -43,18 +43,18 @@ The following is a list of cmdlets that relate directly to managing services:
 **Services**
 
   - <span></span>  
-    [Get-CsService](https://technet.microsoft.com/en-us/library/Gg413038(v=OCS.15))
+    [Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398803(v=OCS.15))
+    [Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))
 
   - <span></span>  
-    [Start-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398561(v=OCS.15))
+    [Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))
 
   - <span></span>  
-    [Stop-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398426(v=OCS.15))
+    [Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))
 
 </div>
 

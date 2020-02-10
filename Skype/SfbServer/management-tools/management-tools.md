@@ -40,6 +40,6 @@ Skype for Business Server 2015 communications software (formerly Lync Server), o
    
 ## See also
 
-[Lync Server 2013 Tools](https://technet.microsoft.com/en-us/library/dn163598%28v=ocs.15%29.aspx)
+[Lync Server 2013 Tools](https://technet.microsoft.com/library/dn163598%28v=ocs.15%29.aspx)
   
-[Lync Server 2010 Tools](https://technet.microsoft.com/en-us/library/dn145002%28v=ocs.14%29.aspx)
+[Lync Server 2010 Tools](https://technet.microsoft.com/library/dn145002%28v=ocs.14%29.aspx)

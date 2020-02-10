@@ -96,7 +96,7 @@ The default action to be taken when users try to sign on using clients that are 
 
 </div>
 
-For details, see the Help topic for the [Set-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg398876(v=OCS.15)) cmdlet.
+For details, see the Help topic for the [Set-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398876(v=OCS.15)) cmdlet.
 
 </div>
 

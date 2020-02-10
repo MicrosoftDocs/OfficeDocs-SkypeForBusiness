@@ -99,7 +99,7 @@ You can assign per-user location policies by using the Grant-CsLocationPolicy cm
 
 ## To assign a per-user location policy to multiple users
 
-  - This command assigns the per-user location policy AccountingDepartmentLocationPolicy to all the users who work for the Accounting department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
+  - This command assigns the per-user location policy AccountingDepartmentLocationPolicy to all the users who work for the Accounting department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -109,5 +109,5 @@ You can assign per-user location policies by using the Grant-CsLocationPolicy cm
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-For more information, see the help topic for the [Grant-CsLocationPolicy](https://technet.microsoft.com/en-us/library/gg413049\(v=ocs.15\)) cmdlet.
+For more information, see the help topic for the [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) cmdlet.
 

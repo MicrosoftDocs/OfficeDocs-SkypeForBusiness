@@ -43,12 +43,12 @@ The following is a list of cmdlets that relate directly to managing other server
 **Other Server Roles**
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 

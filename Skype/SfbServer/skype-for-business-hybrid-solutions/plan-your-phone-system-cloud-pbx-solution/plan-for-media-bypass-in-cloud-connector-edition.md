@@ -81,7 +81,7 @@ For the current release version of the clients in different channels, see [Relea
   
 ## Cloud Connector capacity considerations with media bypass
 
-Without media bypass—and depending on the hardware—a Cloud Connector appliance can handle from 50 to 500 simultaneous calls that require media to travel through a Mediation Server. For more information, see [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
+Without media bypass—and depending on the hardware—a Cloud Connector appliance can handle from 50 to 500 simultaneous calls that require media to travel through a Mediation Server. For more information, see [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx). 
   
 With media bypass enabled, internal clients on the supported version do not use the Mediation Server, so the number of internal clients can increase significantly. 
   
@@ -95,7 +95,7 @@ Always Bypass means that media bypass will be attempted for all PSTN calls with 
   
 Always Bypass requires unobstructed connectivity between users and the PSTN gateways within a PSTN Site. 
   
-For more information, see [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
+For more information, see [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx). 
   
 For example, in the diagram below, Europe users must be well connected to the three Session Border Controllers (SBCs) in Amsterdam while US West users must be well connected to the two SBCs in Seattle. Well connected means that they are either located in the same network sites as the SBCs or gateways, or over WAN links that have proper bandwidth.
   

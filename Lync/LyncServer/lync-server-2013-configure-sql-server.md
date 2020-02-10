@@ -40,7 +40,7 @@ Additionally, each SQL Server instance must be installed and available prior to 
 
 ## To install Microsoft SQL Server 2012
 
-  - See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>.
+  - See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.
 
 </div>
 
