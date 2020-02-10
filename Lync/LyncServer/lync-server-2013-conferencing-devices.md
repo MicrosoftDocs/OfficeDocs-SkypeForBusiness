@@ -1,6 +1,6 @@
 ---
 title: 'Lync Server 2013: Conferencing devices'
-ms.reviewer: 
+ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 f1.keywords:
@@ -40,7 +40,7 @@ Use the topics in this section to learn how to set up and manage your conferenci
 
 
 > [!NOTE]  
-> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
+> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="http://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
 
 
 
@@ -69,4 +69,3 @@ Use the topics in this section to learn how to set up and manage your conferenci
 </div>
 
 </div>
-
