@@ -43,7 +43,6 @@ If you're a small business, you may be able to use this Get started guidance to 
 
 Before you get started, you'll want to plan for your Teams rollout by reviewing the following:
 
-- [Check your environment's readiness for Teams](environment-readiness.md)
 - [Prepare your organization's network for Teams](prepare-network.md)
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 

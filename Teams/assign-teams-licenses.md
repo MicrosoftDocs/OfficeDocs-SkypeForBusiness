@@ -53,7 +53,7 @@ This example assigns an Enterprise E3 license along with a Phone System and a Do
 
 The name of the licenses or product names in the script are listed in italics (see [Phone System and Calling Plans product names or SKUs used for scripting](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting), after the example).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -88,6 +88,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## Phone System and Calling Plans product names or SKUs used for scripting
 
 | Product name | SKU part name |
@@ -126,7 +127,7 @@ The name of the licenses or product names in the script are listed in italics. S
 
 This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -160,6 +161,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## Audio Conferencing product names or SKUS used for scripting
 
 | Product name | SKU part name |

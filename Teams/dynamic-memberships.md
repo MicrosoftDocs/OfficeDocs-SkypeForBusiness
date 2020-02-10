@@ -1,7 +1,7 @@
 ---
 title: Overview of dynamic membership for teams
-author: jambirk
-ms.author: jambirk
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
