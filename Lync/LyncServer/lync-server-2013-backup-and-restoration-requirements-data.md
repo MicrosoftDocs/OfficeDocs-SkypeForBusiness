@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: 'Backup and restoration requirements: data'
 ms:assetid: ecfb8e4d-cb4f-476d-9772-4486bd683c04
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202194(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202194(v=OCS.15)
 ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars

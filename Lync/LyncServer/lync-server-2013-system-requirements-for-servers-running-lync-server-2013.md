@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: System requirements for servers running Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398588(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398588(v=OCS.15)
 ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars

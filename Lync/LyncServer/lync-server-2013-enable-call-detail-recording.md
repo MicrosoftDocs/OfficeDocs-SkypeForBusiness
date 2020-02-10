@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable call detail recording
 ms:assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520980(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520980(v=OCS.15)
 ms:contentKeyID: 48183865
 ms.date: 07/23/2014
 manager: serdars

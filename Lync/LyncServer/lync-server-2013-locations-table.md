@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Locations table
 ms:assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398596(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398596(v=OCS.15)
 ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Database installation using Lync Server Management Shell
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398832(v=OCS.15)
 ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars

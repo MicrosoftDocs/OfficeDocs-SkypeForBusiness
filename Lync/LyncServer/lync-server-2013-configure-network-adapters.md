@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg429707(v=OCS.15)
 ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars

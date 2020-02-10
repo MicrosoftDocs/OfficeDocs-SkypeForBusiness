@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688068(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688068(v=OCS.15)
 ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars

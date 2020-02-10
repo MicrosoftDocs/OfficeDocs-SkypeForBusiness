@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Validating the configuration of Office Web Apps Server
 ms:assetid: f6e8ecbf-305d-4a13-92d0-b61dbd82b0ea
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205393(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205393(v=OCS.15)
 ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars

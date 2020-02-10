@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615015(v=OCS.15)
 ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars

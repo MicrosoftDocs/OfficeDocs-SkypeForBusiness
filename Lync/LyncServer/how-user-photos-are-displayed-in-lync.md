@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
 ms:assetid: b44a364d-a1d2-4d45-b27a-b5f77775e233
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn783119(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn783119(v=OCS.15)
 ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars

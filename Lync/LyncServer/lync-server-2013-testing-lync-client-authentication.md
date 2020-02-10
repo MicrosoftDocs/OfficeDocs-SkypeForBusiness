@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn689120(v=OCS.15)
 ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars

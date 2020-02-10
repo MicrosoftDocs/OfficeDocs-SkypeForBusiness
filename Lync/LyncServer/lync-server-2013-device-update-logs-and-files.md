@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Device Update logs and files
 ms:assetid: f7f822b8-0a62-4ff2-a4cb-1ab1ed7503eb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994090(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994090(v=OCS.15)
 ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using Monitoring Reports
 ms:assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558662(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558662(v=OCS.15)
 ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing over the Edge pool used for Lync Server federation
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688071(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688071(v=OCS.15)
 ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars

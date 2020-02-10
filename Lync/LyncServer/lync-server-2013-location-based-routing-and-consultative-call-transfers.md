@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn362836(v=OCS.15)
 ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars

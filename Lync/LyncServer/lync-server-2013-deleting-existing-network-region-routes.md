@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting existing network region routes
 ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688074(v=OCS.15)
 ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars

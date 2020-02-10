@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: VideoStream table
 ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425928(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425928(v=OCS.15)
 ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: tblChat
 ms:assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615031(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615031(v=OCS.15)
 ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars

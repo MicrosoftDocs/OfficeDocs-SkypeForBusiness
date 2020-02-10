@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrating Lync Online users to Lync on-premises
 ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689115(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn689115(v=OCS.15)
 ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for announcements
 ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg399062(v=OCS.15)
 ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars

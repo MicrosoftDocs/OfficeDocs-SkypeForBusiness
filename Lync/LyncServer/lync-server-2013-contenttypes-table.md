@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ContentTypes table
 ms:assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399007(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg399007(v=OCS.15)
 ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars

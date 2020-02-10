@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing server-to-server authentication (OAuth) and partner applications
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204817(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars

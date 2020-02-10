@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restoring a Standard Edition server
 ms:assetid: d1845663-3138-4fd6-b3e7-337e294d40d8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202190(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202190(v=OCS.15)
 ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars

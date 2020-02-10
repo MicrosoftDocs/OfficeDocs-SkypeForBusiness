@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Performing physical environmental checks
 ms:assetid: 153aee5e-3adf-4dbf-bf41-53e4fba51fb0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720558(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720558(v=OCS.15)
 ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412996(v=OCS.15)
 ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars

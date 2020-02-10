@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Clients supported for Call Park
 ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412958(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412958(v=OCS.15)
 ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars

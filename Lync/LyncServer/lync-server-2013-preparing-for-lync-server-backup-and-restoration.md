@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing for Lync Server backup and restoration
 ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202159(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202159(v=OCS.15)
 ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars

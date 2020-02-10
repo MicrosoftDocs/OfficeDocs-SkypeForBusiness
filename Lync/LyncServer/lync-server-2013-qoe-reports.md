@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720913(v=OCS.15)
 ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars

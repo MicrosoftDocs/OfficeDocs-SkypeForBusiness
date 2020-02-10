@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Autodiscover
 ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945628(v=OCS.15)
 ms:contentKeyID: 51541474
 ms.date: 07/23/2014
 manager: serdars

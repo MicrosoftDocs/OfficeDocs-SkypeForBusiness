@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migration from Lync Server 2010 to Lync Server 2013
 ms:assetid: ef99d4a9-a666-4a92-9994-4d7930f70d55
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205369(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205369(v=OCS.15)
 ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Requirements to publish a topology
 ms:assetid: 841cdf5d-d884-414d-ab50-3bb681b622ed
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195733(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg195733(v=OCS.15)
 ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify an unassigned number range
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412748(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412748(v=OCS.15)
 ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars

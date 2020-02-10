@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable users for Enterprise Voice
 ms:assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413011(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413011(v=OCS.15)
 ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars

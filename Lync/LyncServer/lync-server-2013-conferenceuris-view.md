@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ConferenceUris view
 ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688148(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688148(v=OCS.15)
 ms:contentKeyID: 49733750
 ms.date: 07/23/2014
 manager: serdars

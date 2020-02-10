@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: 'Backup and restoration requirements: tools and permissions'
 ms:assetid: 35ec2e33-f33e-4f84-9e64-6550fd78aa52
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202171(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202171(v=OCS.15)
 ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars

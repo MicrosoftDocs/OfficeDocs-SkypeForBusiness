@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying monitoring
 ms:assetid: 117f4a3e-0670-4388-a553-b9854921145f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398199(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398199(v=OCS.15)
 ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars

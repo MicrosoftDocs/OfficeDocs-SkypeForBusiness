@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Introduction to Lync Server
 ms:assetid: 99dd6b65-e591-421f-852b-ee9fe9588998
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398795(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398795(v=OCS.15)
 ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars

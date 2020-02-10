@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of Lync Server 2013 conferencing scalability
 ms:assetid: 12da650b-4361-4487-91cb-1a2e9a0a7e19
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204687(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204687(v=OCS.15)
 ms:contentKeyID: 48183461
 ms.date: 07/23/2014
 manager: serdars

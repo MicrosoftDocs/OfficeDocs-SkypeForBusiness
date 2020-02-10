@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restoring Response Group settings
 ms:assetid: 4f8e1949-925d-4538-be1d-9ac7c06b2aca
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202174(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202174(v=OCS.15)
 ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars

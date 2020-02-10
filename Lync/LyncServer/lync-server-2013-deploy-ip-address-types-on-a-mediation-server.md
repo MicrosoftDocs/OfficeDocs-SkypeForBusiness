@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204964(v=OCS.15)
 ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars

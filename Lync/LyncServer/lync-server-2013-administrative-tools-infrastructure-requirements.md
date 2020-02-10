@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Administrative tools infrastructure requirements
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg195766(v=OCS.15)
 ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars

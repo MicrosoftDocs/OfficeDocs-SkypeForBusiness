@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Prevent sessions for services
 ms:assetid: 977dcc5c-2aac-48ef-86a1-a8d47b4d9e74
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182553(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182553(v=OCS.15)
 ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars

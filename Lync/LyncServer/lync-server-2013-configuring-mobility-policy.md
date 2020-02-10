@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring mobility policy
 ms:assetid: 595536e0-9bb3-49a3-8d13-1a77351ebc62
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690018(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690018(v=OCS.15)
 ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars

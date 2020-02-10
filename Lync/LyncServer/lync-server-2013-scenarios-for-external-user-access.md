@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425727(v=OCS.15)
 ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars

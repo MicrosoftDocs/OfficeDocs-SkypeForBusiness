@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Media Quality Comparison Report
 ms:assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205236(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205236(v=OCS.15)
 ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars

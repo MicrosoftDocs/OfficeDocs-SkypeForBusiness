@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating or modifying network sites
 ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520975(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520975(v=OCS.15)
 ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars

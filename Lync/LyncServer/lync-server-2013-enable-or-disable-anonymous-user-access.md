@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable anonymous user access
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars

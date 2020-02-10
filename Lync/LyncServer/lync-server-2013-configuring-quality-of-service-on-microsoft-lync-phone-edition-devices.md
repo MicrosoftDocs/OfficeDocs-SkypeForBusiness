@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Quality of Service on Microsoft Lync Phone Edition devices
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205137(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205137(v=OCS.15)
 ms:contentKeyID: 48185004
 ms.date: 07/23/2014
 manager: serdars

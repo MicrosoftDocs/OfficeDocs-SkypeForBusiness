@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Glossary
 ms:assetid: 3d3efa39-df4a-43fc-b639-9fb10a150258
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh393341(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh393341(v=OCS.15)
 ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars

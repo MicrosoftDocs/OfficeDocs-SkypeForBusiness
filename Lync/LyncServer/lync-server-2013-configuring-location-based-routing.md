@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Location-Based Routing
 ms:assetid: 63cdc474-e80f-43b1-a237-9d9ed673300a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994036(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994036(v=OCS.15)
 ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server 2013 user models
 ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398811(v=OCS.15)
 ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars

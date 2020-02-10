@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify normalization rules for Call Park
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398981(v=OCS.15)
 ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars

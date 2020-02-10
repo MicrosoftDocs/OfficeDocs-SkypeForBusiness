@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing locations for ELIN gateways
 ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205288(v=OCS.15)
 ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars

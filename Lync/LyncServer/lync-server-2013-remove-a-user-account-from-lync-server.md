@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688008(v=OCS.15)
 ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Specifying retention of CDR data
 ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182581(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182581(v=OCS.15)
 ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425791(v=OCS.15)
 ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars

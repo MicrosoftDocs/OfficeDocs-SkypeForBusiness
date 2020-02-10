@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test admin permissions
 ms:assetid: 5dda3efd-0f84-4848-819e-87b1551066b1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767945(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn767945(v=OCS.15)
 ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars

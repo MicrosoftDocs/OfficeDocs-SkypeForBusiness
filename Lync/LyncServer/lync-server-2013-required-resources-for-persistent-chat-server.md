@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Required resources
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205211(v=OCS.15)
 ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars

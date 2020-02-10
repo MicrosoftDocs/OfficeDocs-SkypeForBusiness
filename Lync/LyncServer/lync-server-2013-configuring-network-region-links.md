@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring network region links
 ms:assetid: 952bc93e-e6aa-4539-85c7-2b15f14eb382
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182551(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182551(v=OCS.15)
 ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars

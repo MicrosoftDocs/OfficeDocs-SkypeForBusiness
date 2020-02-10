@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring video bandwidth in Lync Server
 ms:assetid: 446bed91-b26f-4ab2-b2f5-36e6810b405b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204842(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204842(v=OCS.15)
 ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars

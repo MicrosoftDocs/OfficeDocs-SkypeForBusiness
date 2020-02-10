@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Check trunk configuration against a phone number
 ms:assetid: 0800d7a3-fc35-482b-a9a4-203d890bfa45
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725206(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn725206(v=OCS.15)
 ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars

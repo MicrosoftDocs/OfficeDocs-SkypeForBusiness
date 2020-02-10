@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrate existing meetings and meeting content
 ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688011(v=OCS.15)
 ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars

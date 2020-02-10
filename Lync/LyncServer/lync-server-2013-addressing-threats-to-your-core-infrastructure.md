@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Addressing threats to your core infrastructure for Lync Server 2013
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518334(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn518334(v=OCS.15)
 ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars

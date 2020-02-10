@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Communicate Group Call Pickup assignment to users
 ms:assetid: f878e6ae-0f2a-4aa2-afb0-5e82eeaeeeef
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945658(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945658(v=OCS.15)
 ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars

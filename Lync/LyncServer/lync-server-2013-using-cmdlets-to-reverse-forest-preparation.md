@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using cmdlets to reverse forest preparation
 ms:assetid: f48c7eb3-ccb0-48e6-ac79-ab7c7062b9d3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413024(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413024(v=OCS.15)
 ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars

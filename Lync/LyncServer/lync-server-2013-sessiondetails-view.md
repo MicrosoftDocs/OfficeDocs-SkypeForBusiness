@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: SessionDetails view
 ms:assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721924(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721924(v=OCS.15)
 ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars

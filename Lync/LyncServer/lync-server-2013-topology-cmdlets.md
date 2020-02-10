@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Topology cmdlets
 ms:assetid: 3ed739a7-d58d-475d-8240-fa8d2c6dc7e3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415648(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415648(v=OCS.15)
 ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars

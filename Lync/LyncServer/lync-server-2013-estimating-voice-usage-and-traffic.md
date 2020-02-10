@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Estimating voice usage and traffic
 ms:assetid: 621b08fb-f894-4d91-ac38-e443401b098b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398439(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398439(v=OCS.15)
 ms:contentKeyID: 48184332
 ms.date: 07/23/2014
 manager: serdars

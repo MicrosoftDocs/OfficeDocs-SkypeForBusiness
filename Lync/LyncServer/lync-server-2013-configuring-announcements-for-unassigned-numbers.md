@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring announcements for unassigned numbers
 ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425944(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425944(v=OCS.15)
 ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars

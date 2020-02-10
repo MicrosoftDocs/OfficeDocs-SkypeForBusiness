@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment guidelines for Mediation Server
 ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398622(v=OCS.15)
 ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars

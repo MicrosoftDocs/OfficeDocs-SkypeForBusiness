@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: MediaLine view
 ms:assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687972(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687972(v=OCS.15)
 ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars

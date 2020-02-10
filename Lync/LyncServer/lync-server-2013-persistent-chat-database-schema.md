@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat database schema
 ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558653(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558653(v=OCS.15)
 ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars

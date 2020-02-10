@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205269(v=OCS.15)
 ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars

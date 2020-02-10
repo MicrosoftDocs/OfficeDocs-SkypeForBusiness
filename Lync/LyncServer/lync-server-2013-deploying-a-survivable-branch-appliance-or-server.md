@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying a Survivable Branch Appliance or Server
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398849(v=OCS.15)
 ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monthly tasks
 ms:assetid: d991f894-f15b-4596-b305-a08a2f6aa296
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720350(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720350(v=OCS.15)
 ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars

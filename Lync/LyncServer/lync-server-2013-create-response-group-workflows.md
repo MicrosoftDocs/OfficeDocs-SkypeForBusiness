@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create Response Group workflows
 ms:assetid: 41272258-728d-42bd-b4d4-2a499734c720
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425918(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425918(v=OCS.15)
 ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars

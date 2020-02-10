@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: MediaList table
 ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398279(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398279(v=OCS.15)
 ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars

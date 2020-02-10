@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Front End pool pairing data security
 ms:assetid: edb852b8-ea86-4948-b756-60fe6ee876d2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721930(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721930(v=OCS.15)
 ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars

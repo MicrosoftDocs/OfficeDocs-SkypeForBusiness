@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Publishing the updated topology to add Archiving databases
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204860(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204860(v=OCS.15)
 ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars

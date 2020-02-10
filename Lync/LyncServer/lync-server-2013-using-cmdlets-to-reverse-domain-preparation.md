@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using cmdlets to reverse domain preparation
 ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398071(v=OCS.15)
 ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars

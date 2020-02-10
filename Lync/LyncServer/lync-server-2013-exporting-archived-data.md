@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Exporting archived data
 ms:assetid: 09450d54-769b-4741-924b-e390664d506f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204657(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204657(v=OCS.15)
 ms:contentKeyID: 48183347
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backup prerequisites for ABC pool failover
 ms:assetid: 652046f5-6086-4592-902d-d5789581977d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945634(v=OCS.15)
 ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Web conferencing overview
 ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425913(v=OCS.15)
 ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a network region
 ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412933(v=OCS.15)
 ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars

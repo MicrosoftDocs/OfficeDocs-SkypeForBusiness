@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558636(v=OCS.15)
 ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars

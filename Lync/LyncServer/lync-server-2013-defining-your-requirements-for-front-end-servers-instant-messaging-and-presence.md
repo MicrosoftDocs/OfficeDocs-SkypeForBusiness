@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your requirements for Front End Servers, instant messaging, and presence
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412956(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412956(v=OCS.15)
 ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars

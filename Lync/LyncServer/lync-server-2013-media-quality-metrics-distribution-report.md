@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205262(v=OCS.15)
 ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars

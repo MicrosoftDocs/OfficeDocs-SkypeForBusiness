@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing Enterprise Voice for users
 ms:assetid: 72cbe2f5-1a01-4a6f-84a5-01f3212a8992
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688091(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688091(v=OCS.15)
 ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars

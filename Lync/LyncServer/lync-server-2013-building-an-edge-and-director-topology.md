@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Building an edge and Director topology
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398202(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398202(v=OCS.15)
 ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars

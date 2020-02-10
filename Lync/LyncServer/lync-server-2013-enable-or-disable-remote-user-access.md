@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable remote user access
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars

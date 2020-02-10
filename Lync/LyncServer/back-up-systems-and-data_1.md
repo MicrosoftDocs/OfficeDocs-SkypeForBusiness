@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Back up systems and data
 ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205174(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205174(v=OCS.15)
 ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars

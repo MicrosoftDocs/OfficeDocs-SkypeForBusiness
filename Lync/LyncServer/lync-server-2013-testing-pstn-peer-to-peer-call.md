@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn690131(v=OCS.15)
 ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars

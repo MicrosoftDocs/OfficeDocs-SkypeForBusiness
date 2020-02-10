@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View client version policy rules
 ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923060(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ923060(v=OCS.15)
 ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars

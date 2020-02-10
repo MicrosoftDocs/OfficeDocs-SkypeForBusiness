@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Server Performance Report
 ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615018(v=OCS.15)
 ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars

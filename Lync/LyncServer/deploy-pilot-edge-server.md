@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
 ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205306(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205306(v=OCS.15)
 ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars

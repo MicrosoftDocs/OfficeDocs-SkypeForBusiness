@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing back the Edge pool used for Lync Server federation or XMPP federation
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721897(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721897(v=OCS.15)
 ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars

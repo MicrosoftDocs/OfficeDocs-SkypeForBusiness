@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported server collocation
 ms:assetid: 3be990a1-5485-4b83-b73f-947ac97821f9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425885(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425885(v=OCS.15)
 ms:contentKeyID: 48183874
 ms.date: 07/23/2014
 manager: serdars

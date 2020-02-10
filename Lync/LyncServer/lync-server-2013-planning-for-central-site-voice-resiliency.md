@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for central site voice resiliency
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398347(v=OCS.15)
 ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars

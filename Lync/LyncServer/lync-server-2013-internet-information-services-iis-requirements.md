@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Internet Information Services (IIS) requirements
 ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398321(v=OCS.15)
 ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars

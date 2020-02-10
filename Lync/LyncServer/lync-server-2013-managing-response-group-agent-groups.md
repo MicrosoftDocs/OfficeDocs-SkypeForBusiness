@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520976(v=OCS.15)
 ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars

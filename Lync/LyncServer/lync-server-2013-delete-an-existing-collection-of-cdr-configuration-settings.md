@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete an existing collection of CDR configuration settings
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688128(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688128(v=OCS.15)
 ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars

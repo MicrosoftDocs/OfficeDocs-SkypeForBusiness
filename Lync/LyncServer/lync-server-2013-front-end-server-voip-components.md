@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Front End Server VoIP components
 ms:assetid: 310e81a7-da45-47d4-95d0-92837e386502
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425812(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425812(v=OCS.15)
 ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Determining your infrastructure requirements
 ms:assetid: ef9af1ed-e6c4-457f-a63b-8fea47c79826
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412986(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412986(v=OCS.15)
 ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars

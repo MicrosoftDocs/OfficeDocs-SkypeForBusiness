@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing location policy
 ms:assetid: 23d06fd3-31ee-4480-ba1e-d179a55b8b14
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690127(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn690127(v=OCS.15)
 ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars

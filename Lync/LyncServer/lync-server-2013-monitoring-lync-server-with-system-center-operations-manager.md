@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring Lync 2013 with SCOM
 ms:assetid: a74bde92-97ff-4d90-acb9-7a70272f0f31
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720343(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720343(v=OCS.15)
 ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scaled Director pool
 ms:assetid: 47a293ce-c964-4685-a9ec-2868dc1f2bc8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204864(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204864(v=OCS.15)
 ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars

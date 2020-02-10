@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your requirements for emergency calls
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398404(v=OCS.15)
 ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars

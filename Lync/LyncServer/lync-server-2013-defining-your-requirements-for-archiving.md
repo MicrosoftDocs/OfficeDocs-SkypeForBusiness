@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your organization's requirements for Archiving
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205276(v=OCS.15)
 ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars

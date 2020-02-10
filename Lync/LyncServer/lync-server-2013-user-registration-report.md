@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User Registration Report
 ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558614(v=OCS.15)
 ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars

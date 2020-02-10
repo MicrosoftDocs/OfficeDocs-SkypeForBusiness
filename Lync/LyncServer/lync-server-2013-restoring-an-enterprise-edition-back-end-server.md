@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restoring an Enterprise Edition Back End Server
 ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202163(v=OCS.15)
 ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars

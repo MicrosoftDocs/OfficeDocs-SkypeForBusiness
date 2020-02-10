@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Device hardware support
 ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412908(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412908(v=OCS.15)
 ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars

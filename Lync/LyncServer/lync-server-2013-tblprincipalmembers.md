@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: tblPrincipalMembers
 ms:assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615022(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615022(v=OCS.15)
 ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars

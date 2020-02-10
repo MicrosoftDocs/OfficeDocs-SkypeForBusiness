@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New role based access control (RBAC) features
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398297(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398297(v=OCS.15)
 ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars

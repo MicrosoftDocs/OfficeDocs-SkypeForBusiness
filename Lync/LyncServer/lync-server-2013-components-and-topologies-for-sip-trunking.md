@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398720(v=OCS.15)
 ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars

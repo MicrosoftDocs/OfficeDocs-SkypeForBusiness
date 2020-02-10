@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Reviewing the DNS Report
 ms:assetid: 453cd63d-229a-4c4c-96c0-4571733398a5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558641(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558641(v=OCS.15)
 ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars

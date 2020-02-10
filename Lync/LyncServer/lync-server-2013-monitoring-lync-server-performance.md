@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring Lync Server 2013 performance
 ms:assetid: 2acfd720-6120-4816-a2d4-30476bd5cd0e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720910(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720910(v=OCS.15)
 ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars

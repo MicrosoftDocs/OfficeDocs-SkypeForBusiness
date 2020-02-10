@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining the network elements used to determine location
 ms:assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398567(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398567(v=OCS.15)
 ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars

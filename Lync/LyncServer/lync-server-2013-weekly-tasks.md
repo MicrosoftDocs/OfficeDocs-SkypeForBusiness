@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Weekly tasks
 ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn722432(v=OCS.15)
 ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars

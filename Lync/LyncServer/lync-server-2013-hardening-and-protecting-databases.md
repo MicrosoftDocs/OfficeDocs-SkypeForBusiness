@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hardening and protecting the databases of Lync Server 2013
 ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518330(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn518330(v=OCS.15)
 ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars

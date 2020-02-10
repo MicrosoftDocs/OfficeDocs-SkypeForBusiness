@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create contact objects for hosted Exchange UM
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412765(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412765(v=OCS.15)
 ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars

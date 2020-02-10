@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398564(v=OCS.15)
 ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars

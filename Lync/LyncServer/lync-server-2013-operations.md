@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Operations
 ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398344(v=OCS.15)
 ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets
 ms:assetid: 3d82eba5-9d68-4e30-9df7-6c5e8ba2d5ea
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204826(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204826(v=OCS.15)
 ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars

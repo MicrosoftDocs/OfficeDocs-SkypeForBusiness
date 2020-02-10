@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425853(v=OCS.15)
 ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars

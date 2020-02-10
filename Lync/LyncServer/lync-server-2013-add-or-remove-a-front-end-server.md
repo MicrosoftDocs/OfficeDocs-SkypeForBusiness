@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Add or remove a Front End Server
 ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205153(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205153(v=OCS.15)
 ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars

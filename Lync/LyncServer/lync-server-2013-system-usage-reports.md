@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: System usage reports
 ms:assetid: 187d316d-2456-417e-b636-05527a18ef06
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558618(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558618(v=OCS.15)
 ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars

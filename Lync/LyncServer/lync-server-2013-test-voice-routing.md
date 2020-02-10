@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test voice routing
 ms:assetid: d3aae909-fef6-440f-b144-0b62dc82bf5d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398915(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398915(v=OCS.15)
 ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars

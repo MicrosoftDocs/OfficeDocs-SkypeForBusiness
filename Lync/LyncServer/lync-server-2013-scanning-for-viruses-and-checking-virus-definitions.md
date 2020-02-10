@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scanning for viruses and checking virus definitions
 ms:assetid: 287c0f43-82d1-4c1d-b08f-77112fcb5bfa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720909(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720909(v=OCS.15)
 ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars

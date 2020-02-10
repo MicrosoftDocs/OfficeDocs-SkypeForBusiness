@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove a Front End Server from a pool
 ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688095(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688095(v=OCS.15)
 ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars

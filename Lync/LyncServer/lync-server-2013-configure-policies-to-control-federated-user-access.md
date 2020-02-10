@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure policies to control federated user access
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars

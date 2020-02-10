@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restore a Device Update rule
 ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994061(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994061(v=OCS.15)
 ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars

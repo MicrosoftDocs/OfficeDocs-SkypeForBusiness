@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create a new URL filter to handle hyperlinks in IM conversations
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182590(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182590(v=OCS.15)
 ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars

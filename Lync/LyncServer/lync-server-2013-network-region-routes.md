@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Network region routes
 ms:assetid: 32da29aa-7612-48fa-a983-72a821651aa3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688018(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688018(v=OCS.15)
 ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars

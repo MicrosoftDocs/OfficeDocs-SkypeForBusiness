@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Group Call Pickup feature
 ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945630(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945630(v=OCS.15)
 ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars

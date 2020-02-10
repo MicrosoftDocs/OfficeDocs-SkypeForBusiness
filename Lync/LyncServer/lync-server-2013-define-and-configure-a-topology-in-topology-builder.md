@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Define and configure a topology in Topology Builder
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398788(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398788(v=OCS.15)
 ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars

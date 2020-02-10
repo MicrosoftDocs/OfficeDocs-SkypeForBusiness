@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ660292(v=OCS.15)
 ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars

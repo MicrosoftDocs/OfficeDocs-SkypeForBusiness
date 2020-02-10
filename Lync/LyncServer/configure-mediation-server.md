@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
 ms:assetid: 583236fd-33cd-4045-81df-baa58ed07779
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204913(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204913(v=OCS.15)
 ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars

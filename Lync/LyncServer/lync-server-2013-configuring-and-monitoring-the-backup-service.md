@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring and monitoring the Backup Service
 ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205252(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205252(v=OCS.15)
 ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars

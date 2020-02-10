@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scheduling details
 ms:assetid: 39ca6fff-2c15-4347-9f1f-6c8687a39a49
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204823(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204823(v=OCS.15)
 ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
 ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688084(v=OCS.15)
 ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars

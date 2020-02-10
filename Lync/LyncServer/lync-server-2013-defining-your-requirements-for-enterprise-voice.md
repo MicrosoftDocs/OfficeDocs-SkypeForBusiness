@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your organization's requirements for Enterprise Voice
 ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425826(v=OCS.15)
 ms:contentKeyID: 48183816
 ms.date: 07/23/2014
 manager: serdars

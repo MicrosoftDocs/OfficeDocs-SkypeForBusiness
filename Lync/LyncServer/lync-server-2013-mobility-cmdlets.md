@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mobility cmdlets
 ms:assetid: 42a30a34-d66b-4c91-b596-a6fc7666e600
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690019(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690019(v=OCS.15)
 ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars

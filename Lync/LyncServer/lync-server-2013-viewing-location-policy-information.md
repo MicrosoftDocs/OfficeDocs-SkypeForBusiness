@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Viewing location policy information
 ms:assetid: 14e41bcb-ea0a-49c2-99b3-1f61fc34416d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520954(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520954(v=OCS.15)
 ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars

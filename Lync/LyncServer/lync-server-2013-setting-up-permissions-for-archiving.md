@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up permissions for Archiving
 ms:assetid: 67f97c94-52f5-4a83-a35c-8c307d5de9a4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204961(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204961(v=OCS.15)
 ms:contentKeyID: 48184364
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205394(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205394(v=OCS.15)
 ms:contentKeyID: 48185865
 ms.date: 07/23/2014
 manager: serdars

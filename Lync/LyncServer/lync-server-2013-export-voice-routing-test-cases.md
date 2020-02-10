@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Export voice routing test cases
 ms:assetid: 489ac472-1a35-4755-b390-48f7cdf31e94
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425957(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425957(v=OCS.15)
 ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars

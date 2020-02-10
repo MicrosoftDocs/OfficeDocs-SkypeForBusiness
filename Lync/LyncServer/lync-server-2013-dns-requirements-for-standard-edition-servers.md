@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS requirements for Standard Edition servers
 ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425900(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425900(v=OCS.15)
 ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars

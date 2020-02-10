@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Device table
 ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398930(v=OCS.15)
 ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars

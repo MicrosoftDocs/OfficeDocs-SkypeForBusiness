@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify a trunk in Topology Builder
 ms:assetid: 81055a82-c6f8-47b2-9779-223b1d842f36
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688110(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688110(v=OCS.15)
 ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars

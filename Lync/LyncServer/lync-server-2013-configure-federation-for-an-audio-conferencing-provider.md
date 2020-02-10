@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure federation for an audio conferencing provider
 ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn510996(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn510996(v=OCS.15)
 ms:contentKeyID: 60595883
 ms.date: 07/24/2014
 manager: serdars

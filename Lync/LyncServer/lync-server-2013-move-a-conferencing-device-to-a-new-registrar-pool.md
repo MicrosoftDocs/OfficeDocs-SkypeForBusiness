@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Move a conferencing device to a new Registrar pool
 ms:assetid: 26e02ca3-e881-4f90-8bf0-b13649108100
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994025(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994025(v=OCS.15)
 ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars

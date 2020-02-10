@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Active Directory infrastructure requirements
 ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412955(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412955(v=OCS.15)
 ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars

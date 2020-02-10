@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enrolling users for smart card authentication
 ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn308570(v=OCS.15)
 ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars

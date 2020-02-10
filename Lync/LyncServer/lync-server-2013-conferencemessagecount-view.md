@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ConferenceMessageCount view
 ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688129(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688129(v=OCS.15)
 ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars

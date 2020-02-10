@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing domains
 ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398721(v=OCS.15)
 ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars

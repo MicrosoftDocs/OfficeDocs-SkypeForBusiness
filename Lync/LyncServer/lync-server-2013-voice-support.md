@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Voice support
 ms:assetid: d151caa8-2ee4-4bfa-be53-428570aae1ea
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398896(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398896(v=OCS.15)
 ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars

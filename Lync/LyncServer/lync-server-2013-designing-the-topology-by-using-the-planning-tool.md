@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Designing the topology by using the Planning Tool
 ms:assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558631(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558631(v=OCS.15)
 ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove Device Update files not associated with a device
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994084(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994084(v=OCS.15)
 ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars

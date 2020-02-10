@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
 ms:assetid: 119e9896-45e5-4f8b-af43-7b09360ada0b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204680(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204680(v=OCS.15)
 ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars

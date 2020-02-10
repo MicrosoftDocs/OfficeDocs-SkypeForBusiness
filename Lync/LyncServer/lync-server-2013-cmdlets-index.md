@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398867(v=OCS.15)
 ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars

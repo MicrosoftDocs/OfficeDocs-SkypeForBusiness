@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: PurgeSettings table
 ms:assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205121(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205121(v=OCS.15)
 ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars

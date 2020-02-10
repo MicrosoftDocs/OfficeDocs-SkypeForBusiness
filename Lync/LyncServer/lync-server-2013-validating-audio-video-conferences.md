@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Validating audio/video conferences
 ms:assetid: 6c8c422a-d501-42cb-820b-b002f9b2250b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720915(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720915(v=OCS.15)
 ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars

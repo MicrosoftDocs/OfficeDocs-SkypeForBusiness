@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting server roles and services cmdlets
 ms:assetid: 03be4cae-bf35-40b2-8e02-477b64afa4c9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415628(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415628(v=OCS.15)
 ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars

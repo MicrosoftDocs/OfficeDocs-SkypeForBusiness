@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Adding server roles
 ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412794(v=OCS.15)
 ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars

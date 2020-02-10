@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set up certificates for the reverse proxy
 ms:assetid: c03a08ec-a67b-4f11-b0d7-6677461beaaa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412938(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412938(v=OCS.15)
 ms:contentKeyID: 48185291
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server best practices
 ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398970(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398970(v=OCS.15)
 ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars

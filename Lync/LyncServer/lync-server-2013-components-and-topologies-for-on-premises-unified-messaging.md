@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425711(v=OCS.15)
 ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars

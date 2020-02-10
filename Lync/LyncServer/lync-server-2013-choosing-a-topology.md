@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425716(v=OCS.15)
 ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars

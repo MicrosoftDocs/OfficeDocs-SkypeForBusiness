@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Client and device software and infrastructure support
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398412(v=OCS.15)
 ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars

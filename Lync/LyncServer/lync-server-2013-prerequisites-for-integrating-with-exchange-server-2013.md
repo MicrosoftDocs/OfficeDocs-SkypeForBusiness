@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721919(v=OCS.15)
 ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars

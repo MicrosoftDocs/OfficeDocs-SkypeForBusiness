@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable a conferencing device
 ms:assetid: d5140e38-d015-4706-9bde-cf2fa748c36b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994070(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994070(v=OCS.15)
 ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Reviewing the Firewall Report
 ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558654(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558654(v=OCS.15)
 ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars

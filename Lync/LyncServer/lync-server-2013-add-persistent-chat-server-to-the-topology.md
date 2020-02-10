@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205049(v=OCS.15)
 ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars

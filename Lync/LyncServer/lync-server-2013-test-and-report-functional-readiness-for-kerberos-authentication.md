@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test and report functional readiness for Kerberos authentication
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398925(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398925(v=OCS.15)
 ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars

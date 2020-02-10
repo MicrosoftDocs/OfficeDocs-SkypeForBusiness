@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring port ranges for your Edge Servers
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars

@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets
 ms:assetid: 8bb8800a-f966-4570-8c8b-db87a91ad783
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362816(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn362816(v=OCS.15)
 ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars

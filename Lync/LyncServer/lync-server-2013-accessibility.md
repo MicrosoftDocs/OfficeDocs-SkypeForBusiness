@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204754(v=OCS.15)
 ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using Stop for the Centralized Logging Service
 ms:assetid: 09ac093e-8f30-4874-84b4-12548ac8c898
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687964(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687964(v=OCS.15)
 ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars

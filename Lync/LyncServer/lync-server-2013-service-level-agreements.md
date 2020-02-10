@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Service level agreements
 ms:assetid: 10899bad-e8b0-422d-83c9-1599fb3a7d17
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720321(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720321(v=OCS.15)
 ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars

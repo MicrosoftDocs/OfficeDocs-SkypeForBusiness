@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing simple URLs
 ms:assetid: 97ad8230-f422-462a-9ce4-6061fa7f2617
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688146(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688146(v=OCS.15)
 ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars

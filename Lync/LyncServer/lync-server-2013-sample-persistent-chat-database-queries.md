@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Sample Persistent Chat database queries
 ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558649(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558649(v=OCS.15)
 ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars

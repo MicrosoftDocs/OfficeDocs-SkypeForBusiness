@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Add a location policy to a network site
 ms:assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425936(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425936(v=OCS.15)
 ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars

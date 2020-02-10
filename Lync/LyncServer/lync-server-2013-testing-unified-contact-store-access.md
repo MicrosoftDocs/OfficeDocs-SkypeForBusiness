@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn727309(v=OCS.15)
 ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars

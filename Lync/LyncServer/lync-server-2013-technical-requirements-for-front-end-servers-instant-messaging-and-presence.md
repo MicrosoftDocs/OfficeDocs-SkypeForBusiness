@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical requirements for Front End Servers, instant messaging, and presence
 ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398269(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398269(v=OCS.15)
 ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars

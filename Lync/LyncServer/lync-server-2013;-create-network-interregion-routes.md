@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create network interregion routes
 ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398529(v=OCS.15)
 ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars

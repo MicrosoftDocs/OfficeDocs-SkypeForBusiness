@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verifying your mobility deployment
 ms:assetid: 72f9b4d3-57b0-4705-9480-cfdca313a70c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690024(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690024(v=OCS.15)
 ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars

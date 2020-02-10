@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: FocusJoinsAndLeaves table
 ms:assetid: e6f0212c-67e9-4061-8720-d0296e855991
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399026(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg399026(v=OCS.15)
 ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398616(v=OCS.15)
 ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars

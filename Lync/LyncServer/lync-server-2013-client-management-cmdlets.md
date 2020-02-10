@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Client management cmdlets
 ms:assetid: 0384f8ab-453d-49d6-aaa7-52439e27b7e9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398087(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398087(v=OCS.15)
 ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars

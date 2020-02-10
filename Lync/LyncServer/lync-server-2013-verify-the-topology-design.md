@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify the topology design
 ms:assetid: c1b61814-239e-4101-aab0-de3db1d8793c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412951(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412951(v=OCS.15)
 ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars

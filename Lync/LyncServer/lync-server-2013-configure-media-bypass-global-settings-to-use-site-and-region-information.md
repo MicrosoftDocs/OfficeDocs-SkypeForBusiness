@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398150(v=OCS.15)
 ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars

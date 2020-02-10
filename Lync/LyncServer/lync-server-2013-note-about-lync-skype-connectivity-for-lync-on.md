@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Note about Lync-Skype connectivity for Lync On
 ms:assetid: 1d0f5c1a-74c6-468f-9877-ad2b1ddf355f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440169(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn440169(v=OCS.15)
 ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars

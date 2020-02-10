@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg195756(v=OCS.15)
 ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars

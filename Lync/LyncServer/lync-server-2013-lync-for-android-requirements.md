@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync for Android requirements
 ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690980(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690980(v=OCS.15)
 ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars

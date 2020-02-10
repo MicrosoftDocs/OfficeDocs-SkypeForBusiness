@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: UserStatistics table
 ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721893(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721893(v=OCS.15)
 ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars

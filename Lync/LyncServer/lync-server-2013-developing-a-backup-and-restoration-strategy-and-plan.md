@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Developing a backup and restoration strategy and plan
 ms:assetid: 17599b76-1a84-4dd6-b695-c19637deb8a6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202164(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202164(v=OCS.15)
 ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars

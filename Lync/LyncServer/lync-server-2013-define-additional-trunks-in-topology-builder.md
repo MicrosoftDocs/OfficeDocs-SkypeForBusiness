@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721915(v=OCS.15)
 ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars

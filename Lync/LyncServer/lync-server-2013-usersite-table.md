@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: UserSite table
 ms:assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398256(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398256(v=OCS.15)
 ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars

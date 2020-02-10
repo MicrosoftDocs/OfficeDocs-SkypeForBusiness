@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment
 ms:assetid: 83bd43ee-c1fe-4b38-bfa7-3eb382817bf9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398664(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398664(v=OCS.15)
 ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Sites
 ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398076(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398076(v=OCS.15)
 ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars

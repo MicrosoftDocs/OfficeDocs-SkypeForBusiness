@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites for enabling Kerberos authentication
 ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425909(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425909(v=OCS.15)
 ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars

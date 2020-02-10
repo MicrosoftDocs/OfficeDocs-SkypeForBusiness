@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New disaster recovery and high availability features
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204892(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204892(v=OCS.15)
 ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars

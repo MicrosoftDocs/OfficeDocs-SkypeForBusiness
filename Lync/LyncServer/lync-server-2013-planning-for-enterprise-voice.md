@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Enterprise Voice
 ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413081(v=OCS.15)
 ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars

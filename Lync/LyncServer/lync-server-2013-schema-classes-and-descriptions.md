@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Schema classes and descriptions
 ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398625(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398625(v=OCS.15)
 ms:contentKeyID: 48184612
 ms.date: 07/23/2014
 manager: serdars

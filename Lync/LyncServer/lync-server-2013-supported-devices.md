@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported devices
 ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205105(v=OCS.15)
 ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars

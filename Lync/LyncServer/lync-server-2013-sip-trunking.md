@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: SIP trunking
 ms:assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398619(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398619(v=OCS.15)
 ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars

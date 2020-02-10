@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Exchange and SharePoint integration support
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205005(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205005(v=OCS.15)
 ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars

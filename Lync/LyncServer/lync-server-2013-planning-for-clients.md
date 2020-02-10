@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for clients
 ms:assetid: 0a99b421-0d7c-41f1-9276-a18beeca86fc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398155(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398155(v=OCS.15)
 ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars

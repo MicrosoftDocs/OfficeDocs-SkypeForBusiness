@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing LIS server configuration
 ms:assetid: 6b06e7ab-522f-41a2-878b-e89cd4e3c6da
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690129(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn690129(v=OCS.15)
 ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars

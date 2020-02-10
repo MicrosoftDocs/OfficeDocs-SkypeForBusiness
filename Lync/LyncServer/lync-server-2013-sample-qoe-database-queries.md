@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Sample QoE database queries
 ms:assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398100(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398100(v=OCS.15)
 ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars

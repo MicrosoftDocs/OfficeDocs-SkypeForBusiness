@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mediation Server component
 ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398399(v=OCS.15)
 ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Replication cmdlets
 ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415677(v=OCS.15)
 ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars

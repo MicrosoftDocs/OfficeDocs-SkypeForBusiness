@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set up network interfaces for Edge Servers
 ms:assetid: b0aecdf6-4ae2-46f6-b9b6-948bfc3df11e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412847(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412847(v=OCS.15)
 ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars

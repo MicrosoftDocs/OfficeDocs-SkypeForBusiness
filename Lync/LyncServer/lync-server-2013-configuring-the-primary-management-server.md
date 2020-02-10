@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring the primary management server
 ms:assetid: 44e2e9a8-c130-4c66-9871-80b1ff11b27c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204844(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204844(v=OCS.15)
 ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars

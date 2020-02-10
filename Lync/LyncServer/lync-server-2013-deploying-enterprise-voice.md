@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412876(v=OCS.15)
 ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restoring an Enterprise Edition member server
 ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202191(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202191(v=OCS.15)
 ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars

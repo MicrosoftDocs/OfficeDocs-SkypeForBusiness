@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment process for Call Park
 ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398283(v=OCS.15)
 ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Add and enable user account for Lync Server
 ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520961(v=OCS.15)
 ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars

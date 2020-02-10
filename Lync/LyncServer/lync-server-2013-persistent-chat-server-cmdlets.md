@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server cmdlets
 ms:assetid: 5aa59edb-db57-406f-9fbd-54bf1a55d31b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204920(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204920(v=OCS.15)
 ms:contentKeyID: 48184226
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ552447(v=OCS.15)
 ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars

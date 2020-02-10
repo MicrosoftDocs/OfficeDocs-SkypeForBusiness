@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure IP address types
 ms:assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204710(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204710(v=OCS.15)
 ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars

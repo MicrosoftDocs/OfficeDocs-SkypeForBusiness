@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test voice rules, routes, and policies
 ms:assetid: ebb9c3fa-6950-4311-87ca-e1ecd9280a43
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725213(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn725213(v=OCS.15)
 ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars

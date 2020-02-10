@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Public instant messaging support
 ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204732(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204732(v=OCS.15)
 ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars

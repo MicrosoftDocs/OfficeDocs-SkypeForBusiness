@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688026(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688026(v=OCS.15)
 ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars

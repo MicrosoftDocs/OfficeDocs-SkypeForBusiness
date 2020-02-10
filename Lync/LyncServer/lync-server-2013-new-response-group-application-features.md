@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Response Group application features
 ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398373(v=OCS.15)
 ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars

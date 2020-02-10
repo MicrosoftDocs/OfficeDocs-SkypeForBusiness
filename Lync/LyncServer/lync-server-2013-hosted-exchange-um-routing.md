@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398512(v=OCS.15)
 ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars

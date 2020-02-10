@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring and assigning Archiving policies
 ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205175(v=OCS.15)
 ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars

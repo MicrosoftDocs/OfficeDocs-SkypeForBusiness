@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for simple URLs
 ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398287(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398287(v=OCS.15)
 ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars

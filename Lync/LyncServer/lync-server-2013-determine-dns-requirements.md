@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Determine DNS requirements
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398758(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398758(v=OCS.15)
 ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars

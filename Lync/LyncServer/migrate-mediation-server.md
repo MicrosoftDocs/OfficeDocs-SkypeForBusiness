@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrate Mediation Server
 ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205173(v=OCS.15)
 ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars

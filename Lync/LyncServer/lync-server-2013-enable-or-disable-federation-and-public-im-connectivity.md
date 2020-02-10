@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars

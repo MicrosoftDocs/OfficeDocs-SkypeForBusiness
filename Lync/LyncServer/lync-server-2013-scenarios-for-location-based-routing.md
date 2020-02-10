@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scenarios for Location-Based Routing
 ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994064(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994064(v=OCS.15)
 ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars

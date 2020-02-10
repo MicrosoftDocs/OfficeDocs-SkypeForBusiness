@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for PSTN connectivity
 ms:assetid: 280f684a-740a-443d-8ecf-574241382a42
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425749(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425749(v=OCS.15)
 ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars

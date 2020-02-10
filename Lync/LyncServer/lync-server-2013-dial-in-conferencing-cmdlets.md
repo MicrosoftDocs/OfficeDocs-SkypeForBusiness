@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Dial-in conferencing cmdlets
 ms:assetid: 0718f82a-91c4-466f-8443-a85002deaa48
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415630(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415630(v=OCS.15)
 ms:contentKeyID: 48183320
 ms.date: 07/23/2014
 manager: serdars

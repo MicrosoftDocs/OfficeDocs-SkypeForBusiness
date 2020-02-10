@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign a per-user location policy
 ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520974(v=OCS.15)
 ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars

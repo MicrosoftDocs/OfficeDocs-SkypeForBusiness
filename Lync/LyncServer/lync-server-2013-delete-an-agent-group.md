@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete an agent group
 ms:assetid: df385fd1-62f4-42b7-a349-4eb38dea50c8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182597(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182597(v=OCS.15)
 ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars

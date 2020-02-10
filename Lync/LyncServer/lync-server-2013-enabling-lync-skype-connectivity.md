@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enabling Lync-Skype connectivity
 ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440170(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn440170(v=OCS.15)
 ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars

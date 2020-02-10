@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Customizing Lync behavior and the user interface
 ms:assetid: 1196dfe5-eb2b-4e57-9bda-d247f341b0b9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398200(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398200(v=OCS.15)
 ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Upgrade or update a Back End Server or Standard Edition server
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721942(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721942(v=OCS.15)
 ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars

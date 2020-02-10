@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing the infrastructure and systems
 ms:assetid: 1254ee38-0679-4714-b293-1050f107c158
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398205(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398205(v=OCS.15)
 ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars

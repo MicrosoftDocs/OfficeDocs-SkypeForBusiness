@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity planning
 ms:assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399017(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg399017(v=OCS.15)
 ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars

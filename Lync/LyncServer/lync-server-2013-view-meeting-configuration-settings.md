@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View meeting configuration settings
 ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721894(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721894(v=OCS.15)
 ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720923(v=OCS.15)
 ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars

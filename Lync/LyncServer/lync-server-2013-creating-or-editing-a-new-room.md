@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating or editing a new room
 ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ215880(v=OCS.15)
 ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars

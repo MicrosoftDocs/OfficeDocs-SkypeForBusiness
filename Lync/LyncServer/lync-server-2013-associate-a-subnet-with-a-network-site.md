@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Associate a subnet with a network site
 ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412804(v=OCS.15)
 ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars

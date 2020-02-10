@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Incoming calls
 ms:assetid: 65b9c1b4-6af7-4527-8c33-22c4442bd209
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994038(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994038(v=OCS.15)
 ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars

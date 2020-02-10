@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Quality of Experience (QoE) database schema
 ms:assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398687(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398687(v=OCS.15)
 ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars

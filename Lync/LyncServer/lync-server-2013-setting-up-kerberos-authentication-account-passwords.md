@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up Kerberos authentication account passwords
 ms:assetid: b435f88e-4a77-4be7-b7e5-c17484303b74
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412870(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412870(v=OCS.15)
 ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg429702(v=OCS.15)
 ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars

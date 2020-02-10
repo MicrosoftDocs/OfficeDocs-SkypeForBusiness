@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn751537(v=OCS.15)
 ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars

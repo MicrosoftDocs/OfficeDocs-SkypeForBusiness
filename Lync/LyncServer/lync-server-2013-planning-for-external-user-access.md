@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for external user access
 ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399048(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg399048(v=OCS.15)
 ms:contentKeyID: 48185903
 ms.date: 07/23/2014
 manager: serdars

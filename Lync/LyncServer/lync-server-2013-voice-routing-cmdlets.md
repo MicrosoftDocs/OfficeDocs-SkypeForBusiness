@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Voice routing cmdlets
 ms:assetid: 8f05b25e-cc62-4d85-a5d8-4ed56f28dfbf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416494(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg416494(v=OCS.15)
 ms:contentKeyID: 48184821
 ms.date: 07/23/2014
 manager: serdars

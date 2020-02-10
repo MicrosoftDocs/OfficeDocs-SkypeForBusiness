@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign an external user access policy to a Lync enabled user
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars

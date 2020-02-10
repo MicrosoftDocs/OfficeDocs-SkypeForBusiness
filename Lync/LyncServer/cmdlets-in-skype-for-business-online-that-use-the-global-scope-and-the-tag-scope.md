@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Cmdlets that use the global scope and the tag scope
 ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn362774(v=OCS.15)
 ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars

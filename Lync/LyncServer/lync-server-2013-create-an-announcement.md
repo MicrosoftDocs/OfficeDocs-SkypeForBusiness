@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create an announcement
 ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412783(v=OCS.15)
 ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars

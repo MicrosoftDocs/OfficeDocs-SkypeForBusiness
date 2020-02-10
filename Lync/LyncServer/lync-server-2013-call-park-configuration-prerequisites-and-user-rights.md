@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Call Park configuration prerequisites and user rights
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425730(v=OCS.15)
 ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars

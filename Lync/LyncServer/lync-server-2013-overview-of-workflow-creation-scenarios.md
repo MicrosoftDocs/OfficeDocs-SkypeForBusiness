@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of workflow creation scenarios
 ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204646(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204646(v=OCS.15)
 ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars

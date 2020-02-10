@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure policies to control XMPP federated user access
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552446(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ552446(v=OCS.15)
 ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars

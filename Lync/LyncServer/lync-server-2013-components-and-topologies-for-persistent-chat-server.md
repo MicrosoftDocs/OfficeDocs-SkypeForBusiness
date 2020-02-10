@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398500(v=OCS.15)
 ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars

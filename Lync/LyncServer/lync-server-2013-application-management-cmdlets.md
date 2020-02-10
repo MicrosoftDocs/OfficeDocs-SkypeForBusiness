@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Application management cmdlets
 ms:assetid: 3b06d974-bda8-4ea6-b8fb-4d9e60265868
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415646(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415646(v=OCS.15)
 ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backing up Archiving and Monitoring databases
 ms:assetid: c120db81-b02c-4a4c-90cd-8aca6cff64f9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202188(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202188(v=OCS.15)
 ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars

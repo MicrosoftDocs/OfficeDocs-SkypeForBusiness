@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Other server role cmdlets
 ms:assetid: 92c455b5-f351-4413-bf18-25eb860d1d86
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415664(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415664(v=OCS.15)
 ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars

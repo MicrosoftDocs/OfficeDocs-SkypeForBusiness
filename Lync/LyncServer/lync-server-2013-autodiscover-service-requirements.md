@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Autodiscover service requirements
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690012(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690012(v=OCS.15)
 ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars

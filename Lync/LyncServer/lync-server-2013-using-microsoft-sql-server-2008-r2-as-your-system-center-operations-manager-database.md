@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687969(v=OCS.15)
 ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars

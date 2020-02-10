@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204957(v=OCS.15)
 ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars

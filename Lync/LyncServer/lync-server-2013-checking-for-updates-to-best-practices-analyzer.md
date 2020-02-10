@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Checking for updates to Best Practices Analyzer
 ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204645(v=OCS.15)
 ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars

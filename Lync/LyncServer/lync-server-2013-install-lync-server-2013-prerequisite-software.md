@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Install Lync Server 2013 prerequisite software
 ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204856(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204856(v=OCS.15)
 ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars

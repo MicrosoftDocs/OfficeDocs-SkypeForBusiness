@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Moving a chat room from one category to another
 ms:assetid: 7e93b8f6-5a18-4476-a432-3918e01bcfa6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215877(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ215877(v=OCS.15)
 ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars

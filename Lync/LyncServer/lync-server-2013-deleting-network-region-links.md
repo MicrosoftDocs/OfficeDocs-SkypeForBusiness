@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting network region links
 ms:assetid: 839273cd-d23f-4b38-84e6-d2dc972f49cd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688114(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688114(v=OCS.15)
 ms:contentKeyID: 49733712
 ms.date: 07/23/2014
 manager: serdars

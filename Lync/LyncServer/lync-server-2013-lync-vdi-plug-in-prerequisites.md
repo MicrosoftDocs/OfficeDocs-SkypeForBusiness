@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync VDI plug-in prerequisites
 ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205304(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205304(v=OCS.15)
 ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars

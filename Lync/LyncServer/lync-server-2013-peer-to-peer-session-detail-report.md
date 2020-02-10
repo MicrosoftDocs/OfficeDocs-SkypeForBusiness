@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Peer-to-Peer Session Detail Report
 ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558659(v=OCS.15)
 ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create Registrar configuration settings
 ms:assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182601(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182601(v=OCS.15)
 ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars

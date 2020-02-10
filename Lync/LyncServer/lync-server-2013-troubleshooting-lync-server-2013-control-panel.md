@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting Lync Server 2013 Control Panel
 ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg195689(v=OCS.15)
 ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars

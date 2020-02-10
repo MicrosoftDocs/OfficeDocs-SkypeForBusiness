@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - Single Director
 ms:assetid: 079c1414-723f-4499-b7d4-a0d7121c1626
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204648(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204648(v=OCS.15)
 ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying branch sites
 ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398217(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398217(v=OCS.15)
 ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars

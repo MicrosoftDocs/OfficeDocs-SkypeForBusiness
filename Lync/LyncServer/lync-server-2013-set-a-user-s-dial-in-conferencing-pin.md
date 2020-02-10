@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set a user's dial-in conferencing PIN
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520985(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520985(v=OCS.15)
 ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Infrastructure requirements for call admission control
 ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398346(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398346(v=OCS.15)
 ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars

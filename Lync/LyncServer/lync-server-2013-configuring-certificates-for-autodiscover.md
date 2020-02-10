@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring certificates for Autodiscover
 ms:assetid: 1842191d-df9a-41e0-9286-08c25f9b5dca
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945617(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945617(v=OCS.15)
 ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars

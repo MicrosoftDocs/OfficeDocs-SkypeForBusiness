@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing calls to unassigned numbers
 ms:assetid: a45a7546-5ee6-4c1e-ab13-20a71a058f80
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688167(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688167(v=OCS.15)
 ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars

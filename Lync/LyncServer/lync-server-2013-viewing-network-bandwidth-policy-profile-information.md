@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Viewing network bandwidth policy profile information
 ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721931(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721931(v=OCS.15)
 ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars

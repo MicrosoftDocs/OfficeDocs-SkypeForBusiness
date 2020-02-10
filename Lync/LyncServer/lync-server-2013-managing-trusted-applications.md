@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing trusted applications
 ms:assetid: 0df4f899-aa7b-470d-a6c2-2e8eb2871aa2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687967(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687967(v=OCS.15)
 ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars

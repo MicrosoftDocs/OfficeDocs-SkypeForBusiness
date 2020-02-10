@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398656(v=OCS.15)
 ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying Lync for Windows Phone
 ms:assetid: b8161a96-16c2-40cf-bb9d-cdb9086642d8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690992(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh690992(v=OCS.15)
 ms:contentKeyID: 51541506
 ms.date: 07/23/2014
 manager: serdars

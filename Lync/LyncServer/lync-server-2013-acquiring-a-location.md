@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Acquiring a location
 ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205110(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205110(v=OCS.15)
 ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars

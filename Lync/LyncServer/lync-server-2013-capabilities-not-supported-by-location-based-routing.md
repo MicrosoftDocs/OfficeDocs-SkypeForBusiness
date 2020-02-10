@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capabilities not supported by Location-Based Routing
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994071(v=OCS.15)
 ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars

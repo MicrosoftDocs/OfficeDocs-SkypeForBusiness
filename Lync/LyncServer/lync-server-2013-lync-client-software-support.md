@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync client software support
 ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412781(v=OCS.15)
 ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars

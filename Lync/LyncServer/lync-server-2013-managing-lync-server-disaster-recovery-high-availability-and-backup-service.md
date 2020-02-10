@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721939(v=OCS.15)
 ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars

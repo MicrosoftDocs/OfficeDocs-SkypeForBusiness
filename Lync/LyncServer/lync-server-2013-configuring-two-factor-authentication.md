@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring two-factor authentication
 ms:assetid: 66cfa755-fe79-4d0f-b267-c3fa3c8f1c74
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308567(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn308567(v=OCS.15)
 ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars

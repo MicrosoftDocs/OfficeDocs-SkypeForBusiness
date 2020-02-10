@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing over the Edge pool used for XMPP federation
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688065(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688065(v=OCS.15)
 ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars

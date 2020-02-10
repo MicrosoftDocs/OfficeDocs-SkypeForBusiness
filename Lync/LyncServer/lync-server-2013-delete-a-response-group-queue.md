@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete a Response Group queue
 ms:assetid: 67c7a489-8c5f-4c6b-9387-9d4c11d43695
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521008(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg521008(v=OCS.15)
 ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Group membership requirements
 ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204623(v=OCS.15)
 ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars

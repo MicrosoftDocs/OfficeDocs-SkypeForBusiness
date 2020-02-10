@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scenarios for the Director
 ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398908(v=OCS.15)
 ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars

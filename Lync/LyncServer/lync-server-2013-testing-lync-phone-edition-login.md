@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing Lync Phone Edition login
 ms:assetid: 1ccde6bf-9a2d-4fcf-b81f-1bc9fee2cfbb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690128(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn690128(v=OCS.15)
 ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars

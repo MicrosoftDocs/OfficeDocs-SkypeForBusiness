@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing the Lync Server 2013 core files and the RTCLocal database
 ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204734(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204734(v=OCS.15)
 ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars

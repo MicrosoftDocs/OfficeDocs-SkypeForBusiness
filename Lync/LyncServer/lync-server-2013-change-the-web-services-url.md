@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520992(v=OCS.15)
 ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars

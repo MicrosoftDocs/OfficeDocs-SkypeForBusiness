@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Push notifications
 ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687991(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687991(v=OCS.15)
 ms:contentKeyID: 49733581
 ms.date: 07/23/2014
 manager: serdars

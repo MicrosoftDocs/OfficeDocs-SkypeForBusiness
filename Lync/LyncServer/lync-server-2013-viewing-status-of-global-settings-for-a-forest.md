@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View status of global settings for a forest
 ms:assetid: 2ab0f2f1-9908-4e6f-aff3-d6b3cc474b6b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747889(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn747889(v=OCS.15)
 ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars

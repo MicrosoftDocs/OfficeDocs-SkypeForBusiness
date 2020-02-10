@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425941(v=OCS.15)
 ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars

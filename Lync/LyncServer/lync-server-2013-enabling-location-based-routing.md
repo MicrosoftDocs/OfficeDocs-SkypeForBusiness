@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enabling Location-Based Routing
 ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994014(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994014(v=OCS.15)
 ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars

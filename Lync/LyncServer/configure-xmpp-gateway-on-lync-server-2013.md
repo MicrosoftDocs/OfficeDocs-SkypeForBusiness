@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721881(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721881(v=OCS.15)
 ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars

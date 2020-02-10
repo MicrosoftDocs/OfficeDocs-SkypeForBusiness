@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Legal information
 ms:assetid: 035d9ad5-7526-44f7-a543-5f65cc66ec6f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398086(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398086(v=OCS.15)
 ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars

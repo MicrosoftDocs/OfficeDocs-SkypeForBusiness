@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg591344(v=OCS.15)
 ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars

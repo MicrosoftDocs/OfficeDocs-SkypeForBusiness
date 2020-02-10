@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Stop Lync Server 2010 services
 ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721863(v=OCS.15)
 ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars

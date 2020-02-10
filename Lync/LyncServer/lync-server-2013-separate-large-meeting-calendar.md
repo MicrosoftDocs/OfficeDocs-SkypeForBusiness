@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Separate large-meeting calendar
 ms:assetid: 4f744b4e-67d8-4264-bfae-7aaa157ee73d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204880(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204880(v=OCS.15)
 ms:contentKeyID: 48184095
 ms.date: 07/23/2014
 manager: serdars

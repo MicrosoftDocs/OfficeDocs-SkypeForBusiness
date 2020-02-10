@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Enterprise CA for smart card authentication
 ms:assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308571(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn308571(v=OCS.15)
 ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Issues with the environment test
 ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205421(v=OCS.15)
 ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars

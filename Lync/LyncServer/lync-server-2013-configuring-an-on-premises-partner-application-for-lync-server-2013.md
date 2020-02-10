@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring an on-premises partner application for Lync Server 2013
 ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204975(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204975(v=OCS.15)
 ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars

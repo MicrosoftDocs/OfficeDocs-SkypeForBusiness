@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ConferenceUris table
 ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412854(v=OCS.15)
 ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing the replica service
 ms:assetid: 4ff2cc91-0036-4c5a-9792-7bf43d8ce18d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727303(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn727303(v=OCS.15)
 ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars

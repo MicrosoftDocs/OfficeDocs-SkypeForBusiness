@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete a Group Call Pickup number range
 ms:assetid: 521891f3-7a5d-45de-92dc-d57025453159
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945629(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ945629(v=OCS.15)
 ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars

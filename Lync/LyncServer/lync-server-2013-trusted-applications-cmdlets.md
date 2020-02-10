@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Trusted applications cmdlets
 ms:assetid: 4d6ae0dc-e3e0-4519-8b74-9e941dea21e0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415652(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415652(v=OCS.15)
 ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars

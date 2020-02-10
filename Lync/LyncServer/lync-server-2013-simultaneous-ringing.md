@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Simultaneous ringing
 ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994079(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994079(v=OCS.15)
 ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars

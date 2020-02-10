@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn338071(v=OCS.15)
 ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars

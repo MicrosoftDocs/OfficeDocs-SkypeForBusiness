@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205142(v=OCS.15)
 ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars

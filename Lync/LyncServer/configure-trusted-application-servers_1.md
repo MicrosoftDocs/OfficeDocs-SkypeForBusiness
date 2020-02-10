@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204865(v=OCS.15)
 ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars

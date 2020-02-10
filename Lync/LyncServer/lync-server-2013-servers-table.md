@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Servers table
 ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398223(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398223(v=OCS.15)
 ms:contentKeyID: 48183487
 ms.date: 07/23/2014
 manager: serdars

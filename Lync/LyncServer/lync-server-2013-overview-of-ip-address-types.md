@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of IP address types for Lync Server
 ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205363(v=OCS.15)
 ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars

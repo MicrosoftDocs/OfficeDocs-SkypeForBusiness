@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a mobility policy
 ms:assetid: fc2dfea0-2215-440d-9f4b-7c985da29211
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721946(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721946(v=OCS.15)
 ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting a message or purging obsolete messages
 ms:assetid: 3f0c612d-6dfd-41a4-a5fe-5ff3448eb0ce
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215874(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ215874(v=OCS.15)
 ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars

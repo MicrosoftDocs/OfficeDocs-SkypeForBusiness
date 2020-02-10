@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hosted Exchange UM integration architecture
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398067(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398067(v=OCS.15)
 ms:contentKeyID: 48183222
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ErrorReport view
 ms:assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721887(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721887(v=OCS.15)
 ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars

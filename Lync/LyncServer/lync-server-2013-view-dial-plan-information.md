@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View dial plan information
 ms:assetid: 25ed0112-a8a7-418a-8c2c-580081be692a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687997(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687997(v=OCS.15)
 ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars

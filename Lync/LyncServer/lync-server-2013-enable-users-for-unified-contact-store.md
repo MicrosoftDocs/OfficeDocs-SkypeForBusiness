@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable users for unified contact store
 ms:assetid: 7b46a01f-beb5-4a33-adb0-35f0502b168d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205024(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205024(v=OCS.15)
 ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars

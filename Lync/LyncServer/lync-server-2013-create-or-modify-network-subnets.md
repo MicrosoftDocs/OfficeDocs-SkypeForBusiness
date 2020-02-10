@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify network subnets
 ms:assetid: 1ba8c4e3-fbc7-4758-88ac-d651fef17bed
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520957(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520957(v=OCS.15)
 ms:contentKeyID: 48183548
 ms.date: 07/23/2014
 manager: serdars

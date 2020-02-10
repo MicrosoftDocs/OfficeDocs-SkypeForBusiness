@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: (Optional) Verify dial-in conferencing
 ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425905(v=OCS.15)
 ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars

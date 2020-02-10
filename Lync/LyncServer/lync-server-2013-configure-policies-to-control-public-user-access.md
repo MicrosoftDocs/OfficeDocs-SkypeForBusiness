@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure policies to control public user access
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mcus view
 ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688127(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688127(v=OCS.15)
 ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars

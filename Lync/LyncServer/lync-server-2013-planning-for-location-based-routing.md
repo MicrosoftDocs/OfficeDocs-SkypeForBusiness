@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Location-Based Routing
 ms:assetid: bb035924-6b52-4f0f-8e05-b76864fb9ef3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994068(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994068(v=OCS.15)
 ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars

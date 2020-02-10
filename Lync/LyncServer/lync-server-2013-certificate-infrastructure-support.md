@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate infrastructure support
 ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425950(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425950(v=OCS.15)
 ms:contentKeyID: 48184047
 ms.date: 07/23/2014
 manager: serdars

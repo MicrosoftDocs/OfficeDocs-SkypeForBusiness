@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Negotiation settings for XMPP federated partners
 ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ552456(v=OCS.15)
 ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 0eb990f0-f720-47a7-aaee-437fbd4c4c33
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687968(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687968(v=OCS.15)
 ms:contentKeyID: 49733554
 ms.date: 07/23/2014
 manager: serdars

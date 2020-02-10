@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Windows Store app requirements
 ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ823129(v=OCS.15)
 ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars

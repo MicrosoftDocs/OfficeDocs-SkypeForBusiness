@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View conferencing policy information
 ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721918(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721918(v=OCS.15)
 ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars

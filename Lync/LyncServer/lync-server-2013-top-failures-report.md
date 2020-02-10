@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Top Failures Report
 ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558640(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558640(v=OCS.15)
 ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars

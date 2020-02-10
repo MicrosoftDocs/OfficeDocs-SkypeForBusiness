@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete an existing collection of client version configuration settings
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ898480(v=OCS.15)
 ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars

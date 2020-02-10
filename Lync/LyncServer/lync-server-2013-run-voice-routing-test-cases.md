@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Run voice routing test cases
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413068(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413068(v=OCS.15)
 ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars

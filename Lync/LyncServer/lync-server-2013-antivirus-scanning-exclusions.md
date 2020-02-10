@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Antivirus scanning exclusions for Lync Server 2013
 ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440138(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn440138(v=OCS.15)
 ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars

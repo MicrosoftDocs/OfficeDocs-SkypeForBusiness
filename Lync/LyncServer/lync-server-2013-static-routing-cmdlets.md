@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Static routing cmdlets
 ms:assetid: 71d5e0cd-8412-4383-818a-95b851a4da4b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416492(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg416492(v=OCS.15)
 ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn743841(v=OCS.15)
 ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars

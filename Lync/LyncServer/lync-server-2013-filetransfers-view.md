@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: FileTransfers view
 ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721914(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721914(v=OCS.15)
 ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars

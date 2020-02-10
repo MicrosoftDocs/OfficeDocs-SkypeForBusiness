@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS requirements for automatic client sign-in
 ms:assetid: 3bcd4bb3-a022-4ffa-b005-1a95ad2b1796
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425884(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425884(v=OCS.15)
 ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars

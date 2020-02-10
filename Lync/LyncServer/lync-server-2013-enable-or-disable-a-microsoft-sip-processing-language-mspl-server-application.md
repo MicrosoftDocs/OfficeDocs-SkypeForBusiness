@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable a Microsoft SIP Processing Language (MSPL) server application
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182573(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182573(v=OCS.15)
 ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity planning for Group Call Pickup
 ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ984297(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ984297(v=OCS.15)
 ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars

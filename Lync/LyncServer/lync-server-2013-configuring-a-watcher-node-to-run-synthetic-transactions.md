@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring a watcher node to run synthetic transactions
 ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205314(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205314(v=OCS.15)
 ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars

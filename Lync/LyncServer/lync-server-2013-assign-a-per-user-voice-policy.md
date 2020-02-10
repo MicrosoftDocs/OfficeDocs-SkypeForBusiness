@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign a per-user voice policy
 ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688155(v=OCS.15)
 ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars

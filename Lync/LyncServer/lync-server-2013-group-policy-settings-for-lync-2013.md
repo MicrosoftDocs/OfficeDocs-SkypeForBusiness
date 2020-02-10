@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Group Policy settings for Lync 2013
 ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204924(v=OCS.15)
 ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars

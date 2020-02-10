@@ -2,7 +2,7 @@
 title: 'Configuring port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers'
 ms.reviewer: 
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
 ms.author: v-lanac

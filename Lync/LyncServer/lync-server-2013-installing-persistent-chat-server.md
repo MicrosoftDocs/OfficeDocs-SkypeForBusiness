@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing Persistent Chat Server
 ms:assetid: 58a17327-5896-4f03-8009-cad28f2ea36f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204918(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204918(v=OCS.15)
 ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Integration of Persistent Chat management tools
 ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688057(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688057(v=OCS.15)
 ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test the pool deployment
 ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413092(v=OCS.15)
 ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars

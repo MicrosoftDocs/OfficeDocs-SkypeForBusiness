@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Best practices for Lync Server environments
 ms:assetid: b0e45d84-09c8-4d3e-aad0-bc6f34ce233b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720348(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720348(v=OCS.15)
 ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars

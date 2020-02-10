@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Exporting and importing voice routing configuration
 ms:assetid: c9b78622-5725-43b0-9ee1-5b82b1e1c8eb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398836(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398836(v=OCS.15)
 ms:contentKeyID: 48185398
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying unified contact store
 ms:assetid: 68959d58-ac8a-45de-afcd-b9de2c36799c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204963(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204963(v=OCS.15)
 ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars

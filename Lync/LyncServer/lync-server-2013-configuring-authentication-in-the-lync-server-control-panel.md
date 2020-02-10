@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring authentication in the Lync Server Control Panel
 ms:assetid: ceede642-a6cb-4916-8731-e34ac42394e3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182588(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182588(v=OCS.15)
 ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars

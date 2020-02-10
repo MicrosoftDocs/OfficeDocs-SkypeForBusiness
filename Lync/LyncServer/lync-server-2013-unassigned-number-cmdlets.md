@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Unassigned number cmdlets
 ms:assetid: 4956dddb-199b-47f4-813f-ef3c461aaf2e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415649(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg415649(v=OCS.15)
 ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars

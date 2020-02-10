@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server 2013 hybrid
 ms:assetid: 3539abf6-e2e2-47fe-aad5-269bdf98c3b7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204805(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204805(v=OCS.15)
 ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars

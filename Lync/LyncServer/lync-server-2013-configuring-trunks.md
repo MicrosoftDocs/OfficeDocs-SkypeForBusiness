@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring trunks
 ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398170(v=OCS.15)
 ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars

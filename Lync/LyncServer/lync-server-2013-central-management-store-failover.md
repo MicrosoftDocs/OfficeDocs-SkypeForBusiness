@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Central Management store failover
 ms:assetid: f464d715-68a4-462c-9584-00f41ab10db0
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205376(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205376(v=OCS.15)
 ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Granting organizational unit permissions
 ms:assetid: 95ee5ffa-39b1-4d80-87a2-27bb364f7396
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398763(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398763(v=OCS.15)
 ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete a common area phone Contact object
 ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994087(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994087(v=OCS.15)
 ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars

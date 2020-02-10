@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring group chat
 ms:assetid: bddcf0be-ebf3-46bc-90c7-2576877734fb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720924(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720924(v=OCS.15)
 ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars

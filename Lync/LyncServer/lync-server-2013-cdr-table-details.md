@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: CDR table details
 ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398693(v=OCS.15)
 ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars

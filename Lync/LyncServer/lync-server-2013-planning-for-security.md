@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for security
 ms:assetid: 17eeba87-cafa-4e9b-852d-c017a7d10d59
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342827(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn342827(v=OCS.15)
 ms:contentKeyID: 56107267
 ms.date: 06/22/2016
 manager: serdars

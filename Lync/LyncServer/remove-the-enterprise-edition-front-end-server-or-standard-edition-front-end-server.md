@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688123(v=OCS.15)
 ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars

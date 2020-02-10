@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing network bandwidth policy profiles
 ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721867(v=OCS.15)
 ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars

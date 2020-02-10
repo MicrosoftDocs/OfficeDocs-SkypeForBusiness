@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Granting permissions
 ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398901(v=OCS.15)
 ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars

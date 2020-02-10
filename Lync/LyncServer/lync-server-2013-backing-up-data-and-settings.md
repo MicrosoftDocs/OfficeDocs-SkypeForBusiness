@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backing up data and settings
 ms:assetid: 21d07888-3dd0-4c17-8a11-34df83a864a5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202168(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Hh202168(v=OCS.15)
 ms:contentKeyID: 51541458
 ms.date: 07/23/2014
 manager: serdars

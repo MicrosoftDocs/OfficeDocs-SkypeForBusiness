@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398694(v=OCS.15)
 ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars

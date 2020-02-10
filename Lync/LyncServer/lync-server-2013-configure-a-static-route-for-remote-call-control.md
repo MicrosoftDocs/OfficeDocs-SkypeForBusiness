@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure a static route for remote call control
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615051(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615051(v=OCS.15)
 ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars

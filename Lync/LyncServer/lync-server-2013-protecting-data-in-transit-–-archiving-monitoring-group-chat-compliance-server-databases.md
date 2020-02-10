@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Protecting data in transit – archiving, monitoring, group chat compliance server databases in Lync Server 2013
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518336(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn518336(v=OCS.15)
 ms:contentKeyID: 62625494
 ms.date: 07/23/2014
 mtps_version: v=OCS.15

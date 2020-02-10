@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported virtualization technologies and known limitations
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204982(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204982(v=OCS.15)
 ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars

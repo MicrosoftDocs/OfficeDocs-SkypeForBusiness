@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - Scaled Director pool, hardware load balancer
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204983(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204983(v=OCS.15)
 ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars

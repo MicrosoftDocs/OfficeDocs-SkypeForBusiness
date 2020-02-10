@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: List of Persistent Chat Server compliance tables
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215878(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ215878(v=OCS.15)
 ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars

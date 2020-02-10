@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Active Directory support
 ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425756(v=OCS.15)
 ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars

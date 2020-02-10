@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Publish the location database
 ms:assetid: dd032b5b-df0e-4017-ac46-e17570c1ab1e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398974(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398974(v=OCS.15)
 ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify settings for Device Update log files
 ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182554(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182554(v=OCS.15)
 ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars

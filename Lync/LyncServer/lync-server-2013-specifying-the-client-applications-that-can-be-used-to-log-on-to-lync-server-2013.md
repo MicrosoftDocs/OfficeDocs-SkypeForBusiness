@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Specifying the client applications that can be used to log on to Lync Server 2013
 ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182591(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182591(v=OCS.15)
 ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars

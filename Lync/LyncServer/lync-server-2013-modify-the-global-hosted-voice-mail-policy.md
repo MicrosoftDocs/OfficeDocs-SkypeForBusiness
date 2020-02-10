@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify the global hosted voice mail policy
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412994(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412994(v=OCS.15)
 ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars

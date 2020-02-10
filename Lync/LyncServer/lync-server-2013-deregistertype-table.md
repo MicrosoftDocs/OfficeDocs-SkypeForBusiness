@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DeRegisterType table
 ms:assetid: 09148118-6209-4fd7-a494-99118689a245
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398142(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398142(v=OCS.15)
 ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars

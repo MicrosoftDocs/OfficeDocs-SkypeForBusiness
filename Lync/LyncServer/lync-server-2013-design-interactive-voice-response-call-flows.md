@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Design interactive voice response call flows
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413020(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413020(v=OCS.15)
 ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398251(v=OCS.15)
 ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars

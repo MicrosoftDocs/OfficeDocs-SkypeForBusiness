@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615047(v=OCS.15)
 ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring the global policy for Archiving
 ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204906(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204906(v=OCS.15)
 ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars

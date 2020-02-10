@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing ability to do group IM
 ms:assetid: ca5545bc-51ac-490f-b96b-917bb742ad04
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743839(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn743839(v=OCS.15)
 ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View user PIN information
 ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688067(v=OCS.15)
 ms:contentKeyID: 49733661
 ms.date: 07/23/2014
 manager: serdars

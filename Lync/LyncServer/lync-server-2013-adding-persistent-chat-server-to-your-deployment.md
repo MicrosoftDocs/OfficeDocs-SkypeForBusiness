@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Adding Persistent Chat Server to your deployment
 ms:assetid: 9ddbbcf9-60bf-4b04-92b9-af7ca66e2362
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205116(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205116(v=OCS.15)
 ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars

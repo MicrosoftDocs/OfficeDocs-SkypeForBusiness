@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Web conferencing requirements
 ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ619171(v=OCS.15)
 ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars

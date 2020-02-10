@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: tblConfig
 ms:assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558663(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg558663(v=OCS.15)
 ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars

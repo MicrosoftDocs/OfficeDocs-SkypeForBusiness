@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412998(v=OCS.15)
 ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars

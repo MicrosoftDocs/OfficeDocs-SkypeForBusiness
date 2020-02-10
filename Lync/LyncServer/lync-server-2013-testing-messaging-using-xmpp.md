@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn727312(v=OCS.15)
 ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars

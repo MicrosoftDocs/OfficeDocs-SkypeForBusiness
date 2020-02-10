@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425945(v=OCS.15)
 ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars

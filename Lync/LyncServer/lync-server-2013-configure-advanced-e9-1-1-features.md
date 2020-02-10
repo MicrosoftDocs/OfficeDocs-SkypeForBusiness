@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure advanced E9-1-1 features
 ms:assetid: 80412a02-88f0-4b8a-a187-cc5f38797dd6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398645(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398645(v=OCS.15)
 ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars

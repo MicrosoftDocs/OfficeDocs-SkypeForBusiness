@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Gallery View
 ms:assetid: 4a609178-47d8-4682-ac8d-29f882801924
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204871(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204871(v=OCS.15)
 ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars

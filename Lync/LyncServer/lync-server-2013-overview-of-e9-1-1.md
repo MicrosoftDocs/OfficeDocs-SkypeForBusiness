@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of E9-1-1
 ms:assetid: c01e6774-bc9f-4c5b-a60b-478b7317b2b7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412936(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412936(v=OCS.15)
 ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars

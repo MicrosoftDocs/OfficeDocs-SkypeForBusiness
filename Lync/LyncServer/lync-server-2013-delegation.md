@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delegation
 ms:assetid: 89e76e5c-3cfb-4504-8d0d-7509c8ba9815
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994045(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ994045(v=OCS.15)
 ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars

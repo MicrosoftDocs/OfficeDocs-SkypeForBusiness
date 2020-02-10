@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing response groups during a disaster
 ms:assetid: 9f14e677-7be8-4f08-88ba-444ec2148ce8
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688154(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688154(v=OCS.15)
 ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars

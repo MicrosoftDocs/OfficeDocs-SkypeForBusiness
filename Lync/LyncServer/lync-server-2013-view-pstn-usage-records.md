@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398458(v=OCS.15)
 ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars

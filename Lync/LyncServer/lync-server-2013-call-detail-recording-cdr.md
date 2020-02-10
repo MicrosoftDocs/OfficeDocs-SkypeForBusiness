@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Call detail recording (CDR)
 ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ688079(v=OCS.15)
 ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars

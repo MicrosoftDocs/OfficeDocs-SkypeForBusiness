@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up Kerberos authentication
 ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398976(v=OCS.15)
 ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars

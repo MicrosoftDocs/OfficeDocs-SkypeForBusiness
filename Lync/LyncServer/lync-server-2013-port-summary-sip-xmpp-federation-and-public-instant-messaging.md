@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ618373(v=OCS.15)
 ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars

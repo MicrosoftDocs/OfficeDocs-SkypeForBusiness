@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Including the security desk
 ms:assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398299(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398299(v=OCS.15)
 ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars

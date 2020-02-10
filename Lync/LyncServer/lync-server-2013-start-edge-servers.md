@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Start Edge Servers
 ms:assetid: fe62b18f-2189-4112-ba90-b1c590cf84d5
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413083(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg413083(v=OCS.15)
 ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars

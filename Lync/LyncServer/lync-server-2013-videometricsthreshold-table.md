@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: VideoMetricsThreshold table
 ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204778(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204778(v=OCS.15)
 ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars

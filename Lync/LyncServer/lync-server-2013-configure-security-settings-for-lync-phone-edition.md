@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure security settings for Lync Phone Edition
 ms:assetid: 6e7cec17-8a79-4428-9300-8821256c46cf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521014(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg521014(v=OCS.15)
 ms:contentKeyID: 48184464
 ms.date: 07/23/2014
 manager: serdars

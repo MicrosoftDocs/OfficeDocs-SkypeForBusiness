@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate summary - DNS and HLB load balanced
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205047(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205047(v=OCS.15)
 ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars

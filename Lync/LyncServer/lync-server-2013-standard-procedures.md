@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Standard procedures
 ms:assetid: 1b45d610-9840-4568-89e5-004ba31a15cf
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720323(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720323(v=OCS.15)
 ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars

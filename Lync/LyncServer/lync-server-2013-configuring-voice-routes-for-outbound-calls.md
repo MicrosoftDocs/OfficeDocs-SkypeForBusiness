@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring voice routes for outbound calls
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425890(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg425890(v=OCS.15)
 ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars

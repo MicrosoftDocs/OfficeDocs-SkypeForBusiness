@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS requirements for Front End pools
 ms:assetid: ba28919c-fbbe-4c54-8bf9-2b0cd3fa39c7
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412910(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412910(v=OCS.15)
 ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars

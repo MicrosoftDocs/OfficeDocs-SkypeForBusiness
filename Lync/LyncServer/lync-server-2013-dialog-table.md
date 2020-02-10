@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Dialog table
 ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398313(v=OCS.15)
 ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars

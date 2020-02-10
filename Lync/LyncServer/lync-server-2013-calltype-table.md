@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: CallType table
 ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412752(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg412752(v=OCS.15)
 ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars

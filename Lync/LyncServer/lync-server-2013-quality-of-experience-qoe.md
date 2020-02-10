@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Quality of Experience (QoE)
 ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ687963(v=OCS.15)
 ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars

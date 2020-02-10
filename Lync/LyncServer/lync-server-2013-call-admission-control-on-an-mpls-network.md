@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Call admission control on an MPLS network
 ms:assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398168(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398168(v=OCS.15)
 ms:contentKeyID: 48183387
 ms.date: 07/23/2014
 manager: serdars

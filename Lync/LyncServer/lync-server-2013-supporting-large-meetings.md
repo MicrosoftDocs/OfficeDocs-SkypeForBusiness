@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supporting large meetings using Lync Server
 ms:assetid: 509a424f-a33d-4e72-8f87-a3ec7bb1ddeb
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204894(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204894(v=OCS.15)
 ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars

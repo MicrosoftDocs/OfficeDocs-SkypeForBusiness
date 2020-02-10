@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port requirements
 ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398798(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398798(v=OCS.15)
 ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars

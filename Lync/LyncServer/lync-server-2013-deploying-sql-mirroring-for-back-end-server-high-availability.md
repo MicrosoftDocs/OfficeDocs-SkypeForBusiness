@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying SQL mirroring for Back End Server high availability
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204992(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204992(v=OCS.15)
 ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars

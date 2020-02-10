@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720917(v=OCS.15)
 ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars

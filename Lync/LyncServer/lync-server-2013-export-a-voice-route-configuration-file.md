@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Export a voice route configuration file
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398081(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg398081(v=OCS.15)
 ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
