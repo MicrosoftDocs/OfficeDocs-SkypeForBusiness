@@ -191,4 +191,4 @@ Use the following table and capture the current adoption and readiness state of 
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Next step</td><td><ul><li>Document the results of the environment assessment.</li></ul></td></tr>
 </table>
 
-After you evaluate your environment, proceed to the next step: [Prepare your network](upgrade-prepare-environment-prepare-network.md).
+After you evaluate your environment, proceed to the next step: [Prepare your network](prepare-network.md).

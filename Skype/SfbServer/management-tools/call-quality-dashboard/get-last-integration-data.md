@@ -46,7 +46,7 @@ This feature is disabled by default and it needs to be enabled by configuring th
   
  **Response Body** - Below is a sample log status.
   
-```
+```json
 {
 "LastSuccessIntegrations": ["01/18/2015 10:30:13",
 "01/18/2015 10:28:29",

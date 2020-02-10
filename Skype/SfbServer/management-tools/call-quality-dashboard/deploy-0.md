@@ -130,7 +130,7 @@ When the installer is done, most likely the SQL Server Agent job will be in prog
   
 Detailed log messages will be shown if debug mode is enabled. To enable debug mode, go to **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**, and update the following line so the value is set to **True**:
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -156,7 +156,7 @@ Next, administrators should add new Allow Rules and give specific users the perm
   
 The configuration details are stored in the web.config located at the Portal's physical directory.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
