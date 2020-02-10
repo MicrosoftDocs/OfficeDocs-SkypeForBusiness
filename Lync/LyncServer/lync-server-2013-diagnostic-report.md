@@ -142,7 +142,7 @@ The following table lists the information provided in the Diagnostic Report for 
 </table>
 
 
-A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx).
 
 </div>
 
