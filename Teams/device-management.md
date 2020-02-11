@@ -36,8 +36,7 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Devices** > **Phones**.
-2. Select **All devices**.  
+In the left navigation, go to **Devices** > **Phones**.
 
 ::: zone-end
 
