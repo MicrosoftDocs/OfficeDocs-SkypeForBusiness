@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto: 
@@ -121,7 +123,7 @@ The following assets should be completed and included in the presentation deck f
 
         -   Identify next steps and what assistance might be required from committee members.
 
--   Quality overview: use reports from the [quality champion](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
+-   Quality overview: Use guidance from [Prepare your network for Teams](prepare-network.md).
 
     -   Be prepared to explain the results of those quality reports in-depth, and include recommendations to remediate any issues noted.
 

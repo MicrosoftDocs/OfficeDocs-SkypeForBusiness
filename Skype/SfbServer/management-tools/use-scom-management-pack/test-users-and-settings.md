@@ -8,6 +8,8 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
@@ -271,19 +273,21 @@ If your watcher node computer is located outside your perimeter network, you wil
     
 2. In the console window, type the following command and then press ENTER. 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+	```console
+	bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+	```
 
-You will see the following message displayed in the command window:
+	You will see the following message displayed in the command window:
+
+	```console
+	BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
-  
-Internet proxy settings for account NetworkService set to NO_PROXY. 
-  
-(connection = default)
-  
-This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
+	Internet proxy settings for account NetworkService set to NO_PROXY. 
+	  
+	(connection = default)
+	```
+	  
+	This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
   
 ### Exchange Unified Messaging Synthetic Transaction
 
@@ -297,7 +301,7 @@ To use the Persistent Chat synthetic transaction, you must first create a channe
   
 You can use the Persistent Chat synthetic transaction to configure this channel: 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -369,7 +373,7 @@ The Video Interop Server (VIS) synthetic transaction requires that you download 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet.
+For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>

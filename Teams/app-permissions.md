@@ -13,6 +13,8 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn what data and permissions apps are requesting from your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
@@ -164,7 +166,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 ## Outgoing webhooks
 
-*Outgoing webhooks* are created on the fly by team owners or team members if sideloading is enabled for a tenant. They aren't capabilities of Teams apps; this information is included for completeness.
+*Outgoing webhooks* are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
 
 ### Required permissions
 

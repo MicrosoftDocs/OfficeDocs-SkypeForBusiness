@@ -11,6 +11,8 @@ ms.reviewer: daryav
 search.appverid: MET150
 description: Learn about admin features in Teams free.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 

@@ -10,6 +10,8 @@ search.appverid: MET150
 ms.reviewer: rowille
 audience: admin
 description: Regularly evaluate opportunities to enhance the Teams service, monitor the Teams roadmap for any interesting feature enhancements.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice

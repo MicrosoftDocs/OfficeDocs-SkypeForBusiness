@@ -9,6 +9,8 @@ audience: admin
 ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
   - SPO_Content

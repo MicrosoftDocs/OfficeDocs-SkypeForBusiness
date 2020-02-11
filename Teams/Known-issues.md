@@ -13,6 +13,8 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto: 
   - Microsoft Teams
@@ -40,6 +42,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Chrome version 80 users are unable to sign in to some apps on the Teams platform.<br/>|After users have properly entered their password credentials to an app's sign-in page, a continuous cycle is initiated where the user is not recognized by the app and redirected back to the app's sign-in page. <br/>|Direct users to use the Teams desktop client. |11/15/19<br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -64,6 +70,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Cloud Video Interop information in Meet Now  <br/> |If you create a Meet Now instance of a meeting in Microsoft Teams with an existing CVI license, it will not populate the CVI information. <br/> |The recommendation is to schedule the meeting to populate this information.  <br/> |6/11/2019  <br/> |
 
 ## Authentication
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (https://ssl.gstatic.com) for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |2/10/20  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -311,7 +321,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
+|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan for a team created from an existing Office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
 
 
 

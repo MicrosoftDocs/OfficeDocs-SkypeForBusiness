@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Microsoft Teams."
