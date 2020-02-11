@@ -18,7 +18,7 @@ appliesto:
 
 # Set up your team targeting schema
 
-To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up the team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and it's applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
+To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and it's applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
 
 > [!IMPORTANT]
 > You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release of teams targeting, only the Tasks app supports hierarchical teams.
@@ -75,7 +75,7 @@ Here's an example of a schema CSV file that would be created to support the hier
 | Seattle Store          | West Regional Office            | 487c0d20-4e55-4dc2-8187-a24c826e0fee | Pacific  | Grocery     |
 | Los Angeles            | West Regional Office            | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 | Pacific  | Electronics |
 
-## Apply the schema in your organization
+## Apply your schema
 
 After you've defined your schema CSV file, you're ready to upload it to Teams. To do this, run the following PowerShell command:
 
@@ -87,4 +87,4 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 
 ### You receive an error message when you upload your schema file
 
-The error message includes information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
+Check the error message as it should include information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
