@@ -3,14 +3,13 @@ title: Sign in to Microsoft Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/15/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
 description: How to sign in to Microsoft Teams by using modern authentication.
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -54,11 +53,14 @@ When users start Teams, their computer won't be able to pull their credentials f
 
 If users are working on a domain-joined computer (for example, if their tenant has enabled Kerberos), they cannot switch user accounts once they've completed modern authentication. If users are not working on a domain-joined computer, they can switch accounts.
 
-## Signing out of Microsoft Teams after completing modern authentication
+## Signing out of Teams after completing modern authentication
 To sign out of Teams, users can click their profile picture at the top of the app, and then select **Sign out**. They can also right-click the app icon in their taskbar, and then select **Log out**. Once they've sign out of Teams, they need to enter their credentials again to launch the app.
 
 ## URLs and IP address ranges
-Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government and other clouds, please read the [guidance available here](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). In addition to this, you'd need to also allow access to https://ssl.gstatic.com.
+Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government and other clouds, read [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). 
+
+> [!IMPORTANT]
+> Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (https://ssl.gstatic.com) for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020), and we'll update this article accordingly at that time.
 
 ## Troubleshooting modern authentication
 
