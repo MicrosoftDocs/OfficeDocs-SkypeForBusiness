@@ -118,9 +118,9 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 
 |Org-wide custom app setting |Team custom app setting |User custom app policy |Effect  |
 |---------|---------|---------|---------|
-| Off    | Off    | Off     |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use PowerShell to remove the custom app.   |
-| Off     | Off     | On        |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use PowerShell to remove the custom app.         |
-| Off    | On        | Off        |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use Windows PowerShell to delete custom apps.         |
+| Off    | Off    | Off     |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone except an admin. You can use PowerShell to remove the custom app.   |
+| Off     | Off     | On        |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone except an admin. You can use PowerShell to remove the custom app.         |
+| Off    | On        | Off        |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone except an admin. You can use Windows PowerShell to delete custom apps.         |
 | Off    | On      | On       |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use PowerShell to remove the custom app.         |
 | On    | Off       | Off         |  The user can't upload custom apps.      |
 | On     | Off       | On         | If the user is a team owner, they can upload custom apps to the team. If the user isn't a team owner, they can't upload custom apps to the team. The user can upload custom apps in the personal context.     |
