@@ -73,7 +73,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (https://ssl.gstatic.com) for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |2/10/20  <br/> |
+|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (https://ssl.gstatic.com) for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |1/30/20  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
