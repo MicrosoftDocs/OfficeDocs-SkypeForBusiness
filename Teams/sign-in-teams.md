@@ -3,7 +3,6 @@ title: Sign in to Microsoft Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/15/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
