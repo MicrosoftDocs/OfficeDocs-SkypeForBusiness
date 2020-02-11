@@ -115,7 +115,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.
+  See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
     
 - To grant the new policy you created to Amos Marble, run:
    
