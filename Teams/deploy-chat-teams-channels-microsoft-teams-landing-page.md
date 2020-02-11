@@ -238,7 +238,7 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (government certificate of competency) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|
