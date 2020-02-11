@@ -514,7 +514,7 @@
 
 
 <!-- ============================================================ -->
-# Hybrid connectivity 
+# Hybrid connectivity
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -529,7 +529,7 @@
 ### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Move users from the cloud to on premises](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -582,7 +582,7 @@
 
 
 # Industries and government guidance
-## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Quickstart for firstline workers](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -633,13 +633,14 @@
 ### [Information barriers in Teams](information-barriers-in-teams.md)
 ### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ### [Place a Teams user or team on legal hold](legal-hold.md)
+### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Search the audit log for events in Teams](audit-log-events.md)
 ### [Use Content Search in Teams](content-search.md)
-### [AppLocker application control policies in Teams](applocker-in-teams.md)
 ### Retention policies in Teams
 #### [Overview](retention-policies.md)
 #### [Retention policies FAQ](retention-policies-FAQ.md)
 #### [Retention policies known issues](retention-policies-known-issues.md)
+### [AppLocker application control policies in Teams](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
