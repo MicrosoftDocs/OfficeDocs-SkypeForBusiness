@@ -74,6 +74,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | Base | Login | Available |
 | | Presence | Available |
 | | Unified presence (Skype for Business and Teams unified) | Available |
+| | Linux client | On the Government backlog |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |
