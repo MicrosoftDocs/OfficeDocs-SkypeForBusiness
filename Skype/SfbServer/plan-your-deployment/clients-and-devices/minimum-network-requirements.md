@@ -42,4 +42,4 @@ The information listed here is a subset of [Office 365 URLs and IP address range
 
 [Deploy Web downloadable clients in Skype for Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Supported platforms for Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

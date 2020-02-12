@@ -71,7 +71,7 @@ To use the Skype for Business Web App, a user must have one of the following sup
 
 Skype Meetings App runs as an app on computers using Windows 10, Windows 8.1, Windows 8, Windows 7, with 32- and 64-bit Internet Explorer 11 or later installed. 
   
-For any other dependencies, refer to [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+For any other dependencies, refer to [Supported platforms for Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ### Skype for Business for Mac
 
@@ -166,4 +166,4 @@ As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 a
 
 [Deploy Web downloadable clients in Skype for Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Supported platforms for Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
