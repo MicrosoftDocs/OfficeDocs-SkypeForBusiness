@@ -23,8 +23,6 @@ Manage the Microsoft Teams Exploratory license
 
 The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now called The Teams Exploratory experience.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)] This experience will be available starting in mid January, 2020.
-
 ## What's in the Teams Exploratory experience?
 
 The service plans included in the Teams Exploratory experience are:
