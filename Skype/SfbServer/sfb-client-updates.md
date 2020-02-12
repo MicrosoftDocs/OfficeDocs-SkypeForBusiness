@@ -57,7 +57,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Update for Skype for Business 2016 |[KB 4092445](https://support.microsoft.com/kb/4092445/) | October 2018|
 |Update for Skype for Business 2016 |[KB 4032255](https://support.microsoft.com/kb/4032255/) | August 2018|
 |Security update for Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221) | July 2018 |
-|Update for Skype for Business 2016 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | June 2018|
+|Update for Skype for Business 2016 |[KB 4022155](https://support.microsoft.com/help/4022155) | June 2018|
 |Update for Skype for Business 2016 |[KB 4018367](https://support.microsoft.com/kb/4018367) | May 2018|
 |Update for Skype for Business 2016 |[KB 4018323](https://support.microsoft.com/kb/4018323) | April 2018|
 |Update for Skype for Business 2016 |[KB 4011725](https://support.microsoft.com/kb/4011725) | March 2018|

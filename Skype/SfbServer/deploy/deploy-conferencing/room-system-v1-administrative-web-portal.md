@@ -44,7 +44,7 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 
 1. Install Skype for Business Server Cumulative Updates in the Skype for Business Server topology.
 
-    To get the update or see what's included with it, see [Updates for Skype for Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
+    To get the update or see what's included with it, see [Updates for Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Create a SIP-enabled Active Directory user.
 

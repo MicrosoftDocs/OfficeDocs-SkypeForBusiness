@@ -508,7 +508,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
     - Download the Skype for Business Update Installer.
     - Run the installer to update Core Components and install the performance counters.
     - **Note:** As of the release of CU6HF2, the auto-update feature currently only will install up to CU6. Therefore, the updater must be run separately to update Core Components to 6.0.9319.516.
-    - Reference: https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015
+    - Reference: https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Install Administrative Tools (Optional): 
     - This will install the Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64), and Microsoft System CLR Types for SQL Server 2014 (x64) using the updated files. Additionally, the Skype for Business Server 2015 Topology Builder and Control Panel will be available on the local machine.
 8. Install Local Configuration Store (Step 1): 

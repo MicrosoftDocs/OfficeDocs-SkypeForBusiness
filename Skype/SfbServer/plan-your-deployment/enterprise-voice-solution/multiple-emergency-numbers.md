@@ -37,7 +37,7 @@ When planning for multiple emergency numbers, keep the following in mind:
 - With the June 2016 Cumulative Update, you can define up to 5 emergency numbers for a given location policy. With the November 2016 Cumulative Update, this number increases to 100.
     
     > [!NOTE]
-    > If you have not yet upgraded to the November 2016 Cumulative Update, see [Updates to Skype for Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). 
+    > If you have not yet upgraded to the November 2016 Cumulative Update, see [Updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - For each emergency number, you can specify zero or more emergency dial masks, which are unique to a given location policy.
     
