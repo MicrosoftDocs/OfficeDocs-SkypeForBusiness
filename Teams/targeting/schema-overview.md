@@ -53,20 +53,20 @@ After you add the three required columns, you can add attribute columns. These a
 - The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Column names must be unique.
 - You can add a maximum of 50 attribute columns.
 
-Each row can contain one value for each attribute, and each value can be up to 100 characters log. The attribute values you specify in each column will be displayed as available filter values for the attribute in Teams apps that use the schema. Each attribute column can have up to 50 unique values.
+Each row can contain one value for each attribute, and each value can be up to 100 characters long. The attribute values you specify in each column will be displayed as available filter values for the attribute in Teams apps that use the schema. Each attribute column can have up to 50 unique values.
 
 ### Add bucket columns
 
 You can add bucket columns to create buckets, which are topics into which tasks can be organized. The publishing team can then use these to categorize tasks for the recipient teams who can then sort their tasks by bucket to focus on relevant tasks.
 
-You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) When you map a bucket to a channel, tasks in the channel are filtered to show only those buckets that are mapped to it.
+You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) When you map a bucket to a channel, tasks in that channel are filtered to show only those buckets that are mapped to it.
 
 When you add a bucket column, note the following:
 
 - The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the schema.
 - The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. **<-IS THIS CORRECT?** For example, #Operations and #Frozen Goods.
 - You can map a bucket to only one channel. This means that each row can contain only one value for each bucket.
-- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** (exactly as is) if you want to map to the General channel.
+- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
 - You can add a maximum of 25 bucket columns.
 
 ### Example
