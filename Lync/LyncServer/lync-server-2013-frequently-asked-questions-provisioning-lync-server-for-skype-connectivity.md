@@ -119,7 +119,7 @@ Once this change goes live, we will no longer be able to provide email updates o
 
 2.  Wait until you see confirmation that your domain has been provisioned by Microsoft.
 
-3.  After you see the confirmation, use the Lync admin center to turn on “external communications”. For more information, see [http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  After you see the confirmation, use the Lync admin center to turn on “external communications”. For more information, see [http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 This order is important.  You must set up the on-premise connectivity before you enable the communications in Lync Online. If the order is reversed, the information entered for on-premise in <https://pic.lync.com> will not go through. If you have already set up Lync Online for external communications with this domain, you must turn it off, wait for 24 hours, and start again, first by entering your on-premise information at <https://pic.lync.com> and then turning on external communications for Lync Online.
 
