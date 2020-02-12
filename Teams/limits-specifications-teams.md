@@ -56,10 +56,13 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
 |Number of file attachments<sup>2</sup>  |10     |
+|Chat size | Approximately 28 KB per post<sup>3</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+
+<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 ### Emailing a channel
 
