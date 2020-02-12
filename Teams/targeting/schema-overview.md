@@ -64,9 +64,9 @@ You can map buckets to standard channels of the team. (Mapping to private channe
 When you add a bucket column, note the following:
 
 - The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the schema.
-- The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
+- The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. **<-IS THIS CORRECT?** For example, #Operations and #Frozen Goods.
 - You can map a bucket to only one channel. This means that each row can contain only one value for each bucket.
-- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
+- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** (exactly as is) if you want to map to the General channel.
 - You can add a maximum of 25 bucket columns.
 
 ### Example
