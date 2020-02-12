@@ -168,7 +168,7 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 ### Assign a policy to a batch of users
 
-In this example, we use ```New-CsBatchPolicyAssignmentOperation``` to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
+In this example, we use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
 
 ```
 $user_ids = Get-Content .\users_ids.txt
