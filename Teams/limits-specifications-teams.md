@@ -65,7 +65,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
-<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
+<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
 ### Emailing a channel
 
