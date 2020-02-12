@@ -71,7 +71,9 @@ If you upgraded from Skype for Business to Teams, the external communications se
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then turn on **Users can communicate with Skype users**.
+
+For detailed step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### Using PowerShell
 
