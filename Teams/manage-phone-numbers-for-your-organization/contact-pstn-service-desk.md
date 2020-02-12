@@ -33,7 +33,7 @@ Then send your request to one of the following email addresses:
 - For help with getting new phone numbers, [send us your request](mailto:gcstnmsd@microsoft.com).
 - For help with porting phone numbers inside the U.S or Canada, [send us your request](mailto:ptn@microsoft.com).
 
-### Outside of USA/Canada
+### Outside the USA or Canada
 - For help with getting and porting phone numbers outside the USA or Canada, [send us your request](mailto:ptneu@microsoft.com).
 
 ## Related topics
