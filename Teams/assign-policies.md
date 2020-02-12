@@ -21,7 +21,7 @@ f1keywords:
 # Assign policies to your users in Microsoft Teams
 
 > [!NOTE]
-> **Two of the Microsoft Teams features discussed in this article, batch policy assignment and group policy assignment, are currently in preview.**
+> **Two of the Microsoft Teams features discussed in this article, [batch policy assignment](#assign-a-policy-to-a-batch-of-users) and [group policy assignment](#assign-a-policy-to-a-group), are currently in preview.**
 
 As an admin, you use policies to control the Teams features that are available to users in your organization. For example, you can set messaging policies to control what chat and channel features are available to users, meeting policies to define the meeting experience, and calling policies to control which calling and call forwarding features are available to users.
 
