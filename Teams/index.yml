@@ -43,7 +43,7 @@ highlightedContent:
       url: /MicrosoftTeams/teams-architecture-solutions-posters
     # Card
     - title: Start here if you're new to Teams
-      itemType: overview
+      itemType: quickstart
       url: /MicrosoftTeams/teams-overview
 
 # additionalContent section (optional)
