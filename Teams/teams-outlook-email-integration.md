@@ -32,7 +32,7 @@ If you want to limit the availability of the add-in to certain users in your org
 
 ## Share to Outlook
 
-**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. This feature is handy if users need to share conversations or status updates with users outside their immediate team or even your organization. Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.  To learn more, see \<link to end user article>.
+**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. This feature is handy if users need to share conversations or status updates with users outside their immediate team or even your organization. Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.  To learn more, see [Share to Outlook from Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
 
 ![Screenshot showing the Share to Outlook feature in Teams](media/share-to-outlook.png)
 
