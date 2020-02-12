@@ -33,7 +33,7 @@ For example, in the following hierarchy, Recall, Communications, and HR, can pub
 
 ## Create your schema
 
-The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view and sort it.
+The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view and sort.
 
 ### Add required columns
 
@@ -49,7 +49,7 @@ The CSV file must contain the following three columns, in the following order, s
 
 After you add the three required columns, you can add attribute columns. These attributes can be used to filter nodes so that you can more easily select the ones you want to publish tasks to. When you add an attribute column, keep the following in mind:
 
-- The column name you specify becomes the category name for the attribute. This value will be displayed in the Teams apps that use the schema.
+- The column name you specify becomes the name of the attribute. This value will be displayed in the Teams apps that use the schema.
 - The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Column names must be unique.
 - You can add a maximum of 50 attribute columns.
 
@@ -57,15 +57,17 @@ Each row can contain one value for each attribute, and each value can be up to 1
 
 ### Add bucket columns
 
-You can also add bucket columns, which are categories or areas into which tasks can be organized. Each column you add represents a bucket value and these values will be displayed in the Buckets list in the Teams apps that use the schema. The publishing team can categorize tasks into buckets for the recipient teams who can then sort their tasks by bucket to more easily view and focus on relevant tasks.  
+You can add bucket columns. The publishing team can categorize tasks into buckets for the recipient teams who can then sort their tasks by bucket to focus on relevant tasks. 
 
-You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) This means that in the Teams apps that use the schema, tasks in the channel are filtered to show only those buckets that are mapped to it.
+You can also map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) When you map a bucket to a channel, tasks in the channel are filtered to show only those buckets that are mapped to it.
 
 When you add a bucket column, note the following:
 
-- The column name must be preceded by a hashtag (#). For example, #Operations or #Frozen Goods.
-- To map a bucket to a channel, enter the channel name in the field. If you want to map more than one channel, separate each channel name with a semicolon (;). If you leave the field blank, the bucket applies to all channels of the team.
-- You can add a maximum of ??? bucket columns.
+- The column name becomes the name of the bucket. Each bucket you specify will be displayed in the Buckets list in the Teams apps that use the schema.
+- The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations or #Frozen Goods.
+- You can only map a bucket to one channel. This means that each row can contain only one value for each bucket.
+- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
+- You can add a maximum of 25 bucket columns.
 
 ### Example
 
