@@ -33,7 +33,7 @@ For example, in the following hierarchy, Recall, Communications, and HR, can pub
 
 ## Create your schema
 
-The team targeting schema is based on a comma-separated values (CSV) file. Every row within the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize tasks sent to recipient teams to make it easier to view, sort, and focus on relevant tasks.
+The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view and sort it.
 
 ### Add required columns
 
@@ -54,6 +54,18 @@ After you add the three required columns, you can add attribute columns. These a
 - You can add a maximum of 50 attribute columns.
 
 Each row can contain one value for each attribute, and each value can be up to 100 characters log. The attribute values you specify in each column will be displayed as available filter values for the attribute in Teams apps that use the schema. Each attribute column can have up to 50 unique values.
+
+### Add bucket columns
+
+You can also add bucket columns, which are categories or areas into which tasks can be organized. Each column you add represents a bucket value and these values will be displayed in the Buckets list in the Teams apps that use the schema. The publishing team can categorize tasks into buckets for the recipient teams who can then sort their tasks by bucket to more easily view and focus on relevant tasks.  
+
+You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) This means that in the Teams apps that use the schema, tasks in the channel are filtered to show only those buckets that are mapped to it.
+
+When you add a bucket column, note the following:
+
+- The column name must be preceded by a hashtag (#). For example, #Operations or #Frozen Goods.
+- To map a bucket to a channel, enter the channel name in the field. If you want to map more than one channel, separate each channel name with a semicolon (;). If you leave the field blank, the bucket applies to all channels of the team.
+- You can add a maximum of ??? bucket columns.
 
 ### Example
 
@@ -87,4 +99,4 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 
 ### You receive an error message when you upload your schema file
 
-Check the error message as it should include information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
+Check the error message as it should include troubleshooting information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
