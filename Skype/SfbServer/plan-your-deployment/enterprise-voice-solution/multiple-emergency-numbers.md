@@ -94,14 +94,14 @@ The following table shows client support for multiple emergency numbers. Microso
 |**Click-to-Run** <br/> |CC (Current Channel) released on May 10, 2016 - Version 1604 (Build 6868.2062)  <br/> |
 ||FRDC (First Release Current Channel) released on June 14, 2016 - Version 1605 (Build 6965.2058)  <br/> |
 ||DC (Deferred Channel) released on October 11, 2016 - Version 1605 (Build 6965.2092)  <br/> |
-|**MSI** <br/> |June 7 update - [https://support.microsoft.com/en-us/kb/3115087](https://support.microsoft.com/en-us/kb/3115087) <br/> |
+|**MSI** <br/> |June 7 update - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac and iOS** <br/> |**Version** <br/> |
 ||Skype for Business Mac client version 16.9  <br/> Skype for Business iOS client version 6.16  <br/> |
 |**Android** <br/> |**Version** <br/> |
 ||Skype for Business Android client version 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Version** <br/> |
-|| Aastra 6721ip and Aastra 6725ip telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
-|| HP 4110 and HP 4120 telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
-||Polycom CX500, Polycom CX600, and Polycom CX3000 telephones - September 2016 cumulative update (Build 7577.4512) - [https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |
+|| Aastra 6721ip and Aastra 6725ip telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
+|| HP 4110 and HP 4120 telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
+||Polycom CX500, Polycom CX600, and Polycom CX3000 telephones - September 2016 cumulative update (Build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
    
 
