@@ -33,7 +33,7 @@ For example, in the following hierarchy, Recall, Communications, and HR, can pub
 
 ## Create your schema
 
-The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view and sort.
+The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
 
 ### Add required columns
 
@@ -57,7 +57,7 @@ Each row can contain one value for each attribute, and each value can be up to 1
 
 ### Add bucket columns
 
-You can add bucket columns to create buckets, which are topics into which tasks can be organized. The publishing team can then use these to categorize tasks into buckets for the recipient teams who can then sort their tasks by bucket to focus on relevant tasks.
+You can add bucket columns to create buckets, which are topics into which tasks can be organized. The publishing team can then use these to categorize tasks for the recipient teams who can then sort their tasks by bucket to focus on relevant tasks.
 
 You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) When you map a bucket to a channel, tasks in the channel are filtered to show only those buckets that are mapped to it.
 
@@ -71,7 +71,7 @@ When you add a bucket column, note the following:
 
 ### Example
 
-Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the three required columns, `TargetName`, `ParentName`, and `TeamID`, two additional attribute columns named `TimeZone` and `StoreType`,and three bucket columns named `Operations`, `Fresh Foods`, and `Frozen Goods`. The `TimeZone` attribute has values for each of the time zones in the United States. The `StoreType` attribute has values that include `Grocery`, `Electronics`, `Clothing`, and `Corporate`, `Regional`, and `Zone`. The `TimeZone` and `StoreType` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns. 
+Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the three required columns, `TargetName`, `ParentName`, and `TeamID`, two additional attribute columns named `TimeZone` and `StoreType`, and three bucket columns named `Operations`, `Fresh Foods`, and `Frozen Goods`. The `TimeZone` attribute has values for each of the time zones in the United States. The `StoreType` attribute has values that include `Grocery`, `Electronics`, `Clothing`, and `Corporate`, `Regional`, and `Zone`. The `TimeZone` and `StoreType` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
 | TargetName             | ParentName                      | TeamId                               | TimeZone | StoreType   |#Operations|#Fresh Foods|#Frozen Goods|
 |------------------------|---------------------------------|--------------------------------------|----------|-------------|---|---|---|
