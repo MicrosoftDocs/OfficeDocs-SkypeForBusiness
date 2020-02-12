@@ -42,7 +42,7 @@ The CSV file must contain the following three columns, in the following order, s
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
 | TargetName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
-| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes.<br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
+| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. <br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
 | TeamID        | Yes, if the team receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if you want it to receive tasks from a parent node. If you want to add a node only for organization and filtering purposes, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.<br> |
 
 ### Add attribute columns
@@ -101,4 +101,4 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 
 ### You receive an error message when you upload your schema file
 
-Check the error message as it should include troubleshooting information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
+Take note of the error message as it should include troubleshooting information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
