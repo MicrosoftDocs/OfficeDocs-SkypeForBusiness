@@ -33,7 +33,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +92,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +110,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
