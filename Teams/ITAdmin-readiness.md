@@ -84,7 +84,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Technical training</h2>
 
-| Module | Video | PowerPoint deck |
+| Module | Video | PowerPoint deck  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
