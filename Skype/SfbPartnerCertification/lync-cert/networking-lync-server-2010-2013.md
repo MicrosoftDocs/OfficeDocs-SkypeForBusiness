@@ -27,7 +27,7 @@ The tables that follows shows the network infrastructure solutions that have bee
 
 Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
-For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
+For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
 Please contact the listed partner for more information on these products.
 

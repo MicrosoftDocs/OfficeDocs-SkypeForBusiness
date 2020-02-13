@@ -24,7 +24,7 @@ To use this feature, the SRS v1 Administrative Web Portal needs to be deployed o
 After the SRS v1 Administrative Web Portal is deployed on the server, administrators can check the status SRS v1 devices by logging on to the site from their own computers or laptops.
 
 > [!IMPORTANT]
-> Download the [Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=46906).
+> Download the [Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 In this topic:
 
@@ -44,7 +44,7 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 
 1. Install Skype for Business Server Cumulative Updates in the Skype for Business Server topology.
 
-    To get the update or see what's included with it, see [Updates for Skype for Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
+    To get the update or see what's included with it, see [Updates for Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Create a SIP-enabled Active Directory user.
 
@@ -77,7 +77,7 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 ## Install the SRS v1 Administrative Web Portal
 <a name="Install_SRS"> </a>
 
-Download the [Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=46906).
+Download the [Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 To install the SRS v1 Administrative Web Portal, use the following steps.
 
