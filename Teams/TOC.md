@@ -257,7 +257,14 @@
 
 ### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
-### [Configure Direct Routing](direct-routing-configure.md)
+
+### Configure Direct routing
+#### [Overview](direct-routing-configure.md)
+#### [Connect the SBC to Direct Routing](direct-routing-connect-the-sbc.md)
+#### [Enable users for Direct Routing](direct-routing-enable-users.md)
+#### [Configure call routing](direct-routing-voice-routing.md)
+#### [Translate phone numbers](direct-routing-translate-numbers.md)
+
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
 
 ### Monitor and troubleshoot Direct Routing

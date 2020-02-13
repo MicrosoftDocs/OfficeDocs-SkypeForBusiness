@@ -43,7 +43,7 @@ Call routing is made up of the following elements:
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
-## Example 1: Call route with one PSTN Usage
+## Example 1: Call routing with one PSTN Usage
 
 The following diagram shows two examples of voice routing policies in a call flow.
 
@@ -81,7 +81,7 @@ The following table summarizes the configuration using three voice routes. In th
 |||||||
 
 
-## Example 1: Configuration steps
+### Example 1: Configuration steps
 
 The following example shows how to:
 
@@ -236,7 +236,7 @@ OnlineVoiceRoutingPolicy
 US Only
 </pre>
 
-## Example 2 - Call route with multiple PSTN Usages
+## Example 2 - Call routing with multiple PSTN Usages
 
 The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
@@ -269,7 +269,7 @@ The following table summarizes routing policy "No Restrictions" usage designatio
  > - The priority for "Other +1" and "International" Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than "Redmond 1" and "Redmond 2."
 
 
-### Configuration steps for Example 2
+### Example 2 - Configuration steps
 
 The following example shows how to:
 
