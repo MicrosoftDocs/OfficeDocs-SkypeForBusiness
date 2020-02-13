@@ -19,7 +19,7 @@ appliesto:
 
 # Information barriers in Microsoft Teams
 
-Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
+Information barriers (IB) are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
 
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
@@ -91,10 +91,10 @@ Currently, users experience the following if an information barrier policy block
 
 ## Will files and SharePoint site experiences connected to Teams honor IB policy?
  
-When a Team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization’s IB policy i.e. only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
+When a team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization’s IB, i.e., only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
 
 For example: In Contoso Bank corporation, user ‘Sesha@contosobank.onmicrosoft.com’ belongs to Investment Banking segment and user ‘Nikita@contosobank.onmicrosoft.com’ belongs to segment Advisory. The organization’s IB policy blocks communication and collaboration between these two segments. 
-When user Sesha creates a Team for Investment Banking segment, the Team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can’t access that site even if she has the site link.
+When user Sesha creates a team for Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can’t access that site even if she has the site link.
 
 ## Required licenses and permissions
 

@@ -65,7 +65,7 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 #### How do I get Shifts? 
 
-If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Check out [Get started in Shifts](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Check out [Get started in Shifts](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### Which devices or platforms is Shifts available on?
 
