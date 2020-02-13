@@ -16,7 +16,7 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -38,27 +38,27 @@ PSTN gateways enable your Enterprise Voice users to make phone calls to, and rec
 
 ## PSTN Gateways Cmdlets
 
-The [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.
+The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.
 
 **PSTN Gateways**
 
   - <span></span>  
-    [Set-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
 </div>
 

@@ -46,7 +46,7 @@ Use the steps in this article when:
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
 
 ![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Teams admin center**
   
@@ -107,9 +107,9 @@ After you enable external communication with other Skype for Business users, you
 ## Tips on setting up communications with federated businesses
 <a name="bk_preview"> </a>
 
-- To configure federation between Skype for Business 2015 and Skype for Business Online, see this  article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- To configure federation between Skype for Business 2015 and Skype for Business Online, see this  article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/library/jj205126.aspx).
     
-- To configure federation between Lync and Skype for Business Online, see this  article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- To configure federation between Lync and Skype for Business Online, see this  article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/library/hh202193.aspx).
     
 - When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
     
