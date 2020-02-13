@@ -62,9 +62,9 @@ You can configure the following tags settings to control how tags are used acros
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
-- **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
-- **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
-- **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
+    - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
+    - **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
+    - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
 ## Manage tags settings for a team
 
