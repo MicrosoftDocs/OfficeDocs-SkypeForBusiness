@@ -16,7 +16,7 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -60,7 +60,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>
+> <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>
 > <LI>
 > <P>For online help and resources for end users, see <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 for Mobile Clients</A>.</P>
 > <LI>

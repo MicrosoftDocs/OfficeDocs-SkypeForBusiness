@@ -78,7 +78,7 @@ The following table lists the VDI partners and their products which have been te
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
-				<p><a href="https://www.microsoft.com/en-us/itpro/windows">https://www.microsoft.com/en-us/itpro/windows</a></p>
+				<p><a href="https://www.microsoft.com/itpro/windows">https://www.microsoft.com/itpro/windows</a></p>
                 <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
 			</td>
 		</tr>

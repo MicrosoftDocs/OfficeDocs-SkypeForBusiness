@@ -102,7 +102,7 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 | | |
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### Examples
 
