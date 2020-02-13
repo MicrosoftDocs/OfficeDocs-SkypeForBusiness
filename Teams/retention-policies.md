@@ -81,7 +81,7 @@ Here's some considerations and limitations to be aware of when working with Team
 
 ### Multiple retention policies and the principles of retention
 
-If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
+If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
 
 - Preservation always wins over deletion
 - Longest preservation period always wins
