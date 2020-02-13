@@ -258,7 +258,7 @@
 ### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
 
-### Configure Direct routing
+### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
 #### [Connect the SBC to Direct Routing](direct-routing-connect-the-sbc.md)
 #### [Enable users for Direct Routing](direct-routing-enable-users.md)
