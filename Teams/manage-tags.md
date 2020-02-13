@@ -3,7 +3,7 @@ title: Manage tags in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: acolonna, jastark
+ms.reviewer: acolonna
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
