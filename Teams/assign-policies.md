@@ -3,7 +3,7 @@ title: Assign policies to your users in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: tomkau, saragava, ritikag
+ms.reviewer: tomkau, saragava, ritikag 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
