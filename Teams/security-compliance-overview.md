@@ -1,7 +1,7 @@
 ---
 title: Overview of security and compliance in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
