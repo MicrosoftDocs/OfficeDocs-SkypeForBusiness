@@ -78,7 +78,7 @@ The partner that you have chosen for your CVI deployment will provide you with a
 
 ### Provision  
 
-During the provision phase, you will assign licenses to the appropriate users according to the partner configuration guide. You will also need to go through the Azure Consent process to provide the partner access to your Teams environment. More information on the Azure Consent process can be found here: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+During the provision phase, you will assign licenses to the appropriate users according to the partner configuration guide. You will also need to go through the Azure Consent process to provide the partner access to your Teams environment. More information on the Azure Consent process can be found here: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### Schedule
 
