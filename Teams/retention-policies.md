@@ -35,7 +35,7 @@ To learn more about retention policies for Office 365, see [Overview of retentio
 
 When you set up a retention policy for Teams or any other workload, you can set them up to:
 
-- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the user app. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires, after which your policy indicates whether to do nothing or delete the data. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams. 
+- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the user app. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires, after which your policy indicates whether to do nothing or delete the data. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams.
 - **Delete data**: Use a retention policy to delete data to ensure that it's not a liability for your organization. With a Teams retention policy, when you delete data, it's permanently deleted from all storage locations on the Teams service.
 
 With retention policies for Teams, you can:
@@ -81,7 +81,7 @@ Here's some considerations and limitations to be aware of when working with Team
 
 ### Multiple retention policies and the principles of retention
 
-If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
+If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
 
 - Preservation always wins over deletion
 - Longest preservation period always wins
