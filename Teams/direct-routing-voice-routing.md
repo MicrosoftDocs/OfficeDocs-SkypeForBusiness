@@ -18,11 +18,13 @@ f1.keywords:
 description: "Learn how to configure voice routing with Microsoft Phone System Direct Routing."
 ---
 
-# Configure voice routing for Direct Routing
+# Configure call routing for Direct Routing
 
-This article describes how to configure voice routing for Phone System Direct Routing.
+This article describes how to configure call routing for Phone System Direct Routing.
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+
+## Call routing overview
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
@@ -41,7 +43,7 @@ Call routing is made up of the following elements:
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
-## Example 1:  Call route with one PSTN Usage
+## Example 1: Call route with one PSTN Usage
 
 The following diagram shows two examples of voice routing policies in a call flow.
 
@@ -79,7 +81,7 @@ The following table summarizes the configuration using three voice routes. In th
 |||||||
 
 
-### Configuration steps for Example 1 
+## Example 1: Configuration steps
 
 The following example shows how to:
 
