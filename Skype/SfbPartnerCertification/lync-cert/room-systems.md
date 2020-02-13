@@ -61,8 +61,8 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 			<td>Lync Server 2013, Lync Online</td>
 			<td rowspan="6">
 				<ul>
-					<li><a href="https://support.microsoft.com/en-us/kb/3061980/">Article ID: 3061980 About the SCEP feature in April 2015 Update</a></li>
-					<li><a href="https://support.microsoft.com/en-us/kb/3048567/">Article ID: 3048567 April 2015 Update Release Notes</a></li>
+					<li><a href="https://support.microsoft.com/kb/3061980/">Article ID: 3061980 About the SCEP feature in April 2015 Update</a></li>
+					<li><a href="https://support.microsoft.com/kb/3048567/">Article ID: 3048567 April 2015 Update Release Notes</a></li>
 					<li><a href="https://support.microsoft.com/kb/2921197/en-us">Article ID: 2921197 User interface elements are not displayed when you restart Lync Room System</a></li>
 					<li><a href="https://support.microsoft.com/kb/2926665/en-us">Article ID: 2926665 Lync Room System whiteboard drawing feature</a></li>
 					<li><a href="https://support.microsoft.com/kb/2920614/en-us">Article ID: 2920614 - Lync Room System device cannot sign in automatically when a user restarts the device</a></li>

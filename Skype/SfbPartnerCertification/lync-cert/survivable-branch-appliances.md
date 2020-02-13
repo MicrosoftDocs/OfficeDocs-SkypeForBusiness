@@ -105,7 +105,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td colspan="2" style="line-height:0;font-size:0;display:none;"> </td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td colspan="2">For more information on this configuration, please see <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
+		<td colspan="2">For more information on this configuration, please see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
