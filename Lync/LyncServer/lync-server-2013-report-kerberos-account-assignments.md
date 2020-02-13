@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Report Kerberos account assignments
 ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398343(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398343(v=OCS.15)
 ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars

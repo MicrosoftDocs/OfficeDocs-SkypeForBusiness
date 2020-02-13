@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting network subnets
 ms:assetid: c1850f38-40a3-48c9-b6f1-f181c5e63b6b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721873(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721873(v=OCS.15)
 ms:contentKeyID: 49733806
 ms.date: 07/23/2014
 manager: serdars

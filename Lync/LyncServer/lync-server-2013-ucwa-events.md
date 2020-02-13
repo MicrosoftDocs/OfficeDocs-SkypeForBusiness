@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: UCWA events
 ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945621(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
 ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars

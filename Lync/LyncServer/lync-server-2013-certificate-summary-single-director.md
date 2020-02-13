@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate summary - Single Director
 ms:assetid: 1b769a76-cbf3-46e9-a955-f6cde5faff93
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204720(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204720(v=OCS.15)
 ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars

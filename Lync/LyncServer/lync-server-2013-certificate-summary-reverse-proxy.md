@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate summary - Reverse proxy
 ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205381(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
 ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars

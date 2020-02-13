@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enterprise Voice cmdlets
 ms:assetid: 7d7c6d94-3ead-4d99-95f7-c31b448ab9e2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415658(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415658(v=OCS.15)
 ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars

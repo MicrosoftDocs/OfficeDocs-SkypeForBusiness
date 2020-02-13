@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Single consolidated edge with private IP addresses and NAT
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399001(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399001(v=OCS.15)
 ms:contentKeyID: 48185691
 ms.date: 07/23/2014
 manager: serdars

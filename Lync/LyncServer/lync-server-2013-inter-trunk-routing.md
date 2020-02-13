@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721940(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
 ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars

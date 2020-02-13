@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205420(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
 ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars

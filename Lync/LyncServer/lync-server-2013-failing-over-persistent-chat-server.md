@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing over Persistent Chat Server
 ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204772(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204772(v=OCS.15)
 ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars

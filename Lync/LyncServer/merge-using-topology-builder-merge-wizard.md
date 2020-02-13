@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
 ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205243(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205243(v=OCS.15)
 ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars

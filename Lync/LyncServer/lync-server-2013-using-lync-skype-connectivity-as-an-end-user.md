@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using Lync-Skype connectivity as an end user
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
-ms:mtpsurl: https://technet.microsoft.com/library/Dn440175(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
 ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars

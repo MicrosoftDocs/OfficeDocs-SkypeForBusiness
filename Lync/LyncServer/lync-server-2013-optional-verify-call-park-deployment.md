@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: (Optional) Verify Call Park deployment
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-ms:mtpsurl: https://technet.microsoft.com/library/Gg413076(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413076(v=OCS.15)
 ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars

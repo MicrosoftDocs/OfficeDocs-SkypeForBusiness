@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mobility performance counters
 ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690046(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
 ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars

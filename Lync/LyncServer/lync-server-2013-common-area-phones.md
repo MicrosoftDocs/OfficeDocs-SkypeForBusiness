@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Common area phones
 ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ994076(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994076(v=OCS.15)
 ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars

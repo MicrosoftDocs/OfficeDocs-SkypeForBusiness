@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing over a pool
 ms:assetid: 10b13732-bc80-4cb2-a71c-56b1d6cb5bbb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204678(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204678(v=OCS.15)
 ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars

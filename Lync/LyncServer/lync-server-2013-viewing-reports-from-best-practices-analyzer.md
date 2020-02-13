@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
-ms:mtpsurl: https://technet.microsoft.com/library/Gg607690(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
 ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars

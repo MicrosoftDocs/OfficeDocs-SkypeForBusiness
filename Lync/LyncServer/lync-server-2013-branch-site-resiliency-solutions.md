@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398234(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
 ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars

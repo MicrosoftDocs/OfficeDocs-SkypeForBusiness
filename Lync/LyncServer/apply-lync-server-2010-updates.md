@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Apply Lync Server 2010 updates
 ms:assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204730(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204730(v=OCS.15)
 ms:contentKeyID: 48183571
 ms.date: 07/23/2014
 manager: serdars

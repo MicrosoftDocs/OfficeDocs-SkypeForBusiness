@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690010(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
 ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars

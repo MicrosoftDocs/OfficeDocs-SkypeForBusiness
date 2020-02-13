@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure IIS
 ms:assetid: bc4ae8cc-ec0c-42f1-9034-058930e530d6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412918(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412918(v=OCS.15)
 ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars

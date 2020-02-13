@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync client video requirements
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688132(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688132(v=OCS.15)
 ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars

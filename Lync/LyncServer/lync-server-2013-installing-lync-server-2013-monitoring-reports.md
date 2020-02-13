@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing Lync Server 2013 Monitoring Reports
 ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204989(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)
 ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars

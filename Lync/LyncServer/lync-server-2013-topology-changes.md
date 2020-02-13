@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Topology changes
 ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688153(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688153(v=OCS.15)
 ms:contentKeyID: 49733756
 ms.date: 07/23/2014
 manager: serdars

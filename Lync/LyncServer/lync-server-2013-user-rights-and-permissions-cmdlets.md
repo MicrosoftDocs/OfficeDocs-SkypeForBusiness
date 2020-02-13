@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User rights and permissions cmdlets
 ms:assetid: b53aae4c-651f-4cbc-a762-ba818d63897e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415672(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415672(v=OCS.15)
 ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars

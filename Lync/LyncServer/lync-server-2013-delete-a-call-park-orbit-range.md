@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete a Call Park orbit range
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182546(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)
 ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars

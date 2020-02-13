@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing Lync Server services
 ms:assetid: b564b450-a746-4ec9-aabb-e076309ccd5f
-ms:mtpsurl: https://technet.microsoft.com/library/Dn689119(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689119(v=OCS.15)
 ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Install Lync Server administration tools
 ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721840(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721840(v=OCS.15)
 ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Export your topology and copy it to external media for edge installation
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398983(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398983(v=OCS.15)
 ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars

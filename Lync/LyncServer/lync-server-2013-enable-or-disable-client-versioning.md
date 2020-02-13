@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable or disable client versioning
 ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
-ms:mtpsurl: https://technet.microsoft.com/library/JJ898475(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)
 ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars

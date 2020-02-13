@@ -8,7 +8,7 @@ author: lanachin
 ms.author: v-lanac
 ms.manager: serdars
 ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
-ms:mtpsurl: https://technet.microsoft.com/library/Gg405409(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars

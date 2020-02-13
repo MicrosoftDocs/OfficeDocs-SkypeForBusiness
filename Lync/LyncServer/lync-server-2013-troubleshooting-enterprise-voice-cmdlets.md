@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting Enterprise Voice cmdlets
 ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415638(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415638(v=OCS.15)
 ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars

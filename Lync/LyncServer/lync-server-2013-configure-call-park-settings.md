@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure Call Park settings
 ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425886(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425886(v=OCS.15)
 ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars

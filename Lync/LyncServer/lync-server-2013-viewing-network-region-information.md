@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Viewing network region information
 ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688076(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688076(v=OCS.15)
 ms:contentKeyID: 49733672
 ms.date: 07/23/2014
 manager: serdars

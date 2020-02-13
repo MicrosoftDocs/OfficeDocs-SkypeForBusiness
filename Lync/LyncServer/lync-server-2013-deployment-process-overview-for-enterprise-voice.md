@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment process overview for Enterprise Voice
 ms:assetid: cf92adbe-aa90-4b05-8e1a-f3794ca68132
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398878(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398878(v=OCS.15)
 ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars

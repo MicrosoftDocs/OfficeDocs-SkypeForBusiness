@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Call Diagnostic Reports
 ms:assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615013(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615013(v=OCS.15)
 ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars

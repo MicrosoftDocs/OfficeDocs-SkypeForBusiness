@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create a per-user hosted voice mail policy
 ms:assetid: 39018a7c-e0c3-46a2-be4e-05604ec67a50
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425867(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425867(v=OCS.15)
 ms:contentKeyID: 48183902
 ms.date: 07/23/2014
 manager: serdars

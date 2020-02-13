@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Address Book Server cmdlets
 ms:assetid: 33da45da-3c57-4d04-9679-f0e5a0cfd37e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415643(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415643(v=OCS.15)
 ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars

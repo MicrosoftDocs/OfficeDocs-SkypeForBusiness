@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Conference Detail Report
 ms:assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204728(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204728(v=OCS.15)
 ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
 ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204990(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)
 ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars

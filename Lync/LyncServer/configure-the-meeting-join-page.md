@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure the meeting join page
 ms:assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204635(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204635(v=OCS.15)
 ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars

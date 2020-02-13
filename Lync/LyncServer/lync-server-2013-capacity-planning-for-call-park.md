@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity planning for Call Park
 ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg416493(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
 ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars

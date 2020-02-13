@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: The conferencing user model
 ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205199(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
 ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars

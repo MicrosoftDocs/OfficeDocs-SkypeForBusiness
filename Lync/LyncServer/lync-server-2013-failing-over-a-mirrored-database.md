@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failing over a mirrored database
 ms:assetid: 70185476-e3d4-440a-9316-fa24b226343e
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204991(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204991(v=OCS.15)
 ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars

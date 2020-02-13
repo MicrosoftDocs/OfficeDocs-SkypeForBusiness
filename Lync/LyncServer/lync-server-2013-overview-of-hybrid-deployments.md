@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of hybrid deployments
 ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205386(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205386(v=OCS.15)
 ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars

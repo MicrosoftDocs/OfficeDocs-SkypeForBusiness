@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify a dial plan
 ms:assetid: a91f02df-cf60-40cf-82fe-e0342c118b91
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412797(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412797(v=OCS.15)
 ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars

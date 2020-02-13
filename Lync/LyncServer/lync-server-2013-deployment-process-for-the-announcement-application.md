@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment process for the Announcement application
 ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398545(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398545(v=OCS.15)
 ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars

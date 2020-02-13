@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing Exchange to Lync notifications
 ms:assetid: ed2d6325-3cf5-4450-9951-03092bcb0a7c
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727315(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727315(v=OCS.15)
 ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New management and administration features
 ms:assetid: 72f7b719-32b0-4736-ba8e-c54bcebf42e5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398546(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398546(v=OCS.15)
 ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars

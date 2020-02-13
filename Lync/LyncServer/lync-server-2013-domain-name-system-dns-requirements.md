@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Domain Name System (DNS) requirements
 ms:assetid: 586cf18e-0080-4eb1-aee5-56843277fdfc
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398386(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398386(v=OCS.15)
 ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Phones table
 ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425923(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)
 ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars

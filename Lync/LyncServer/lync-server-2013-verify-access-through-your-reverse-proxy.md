@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify access through your reverse proxy
 ms:assetid: 3076a786-e022-4d41-91ec-1bf252b2a468
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429697(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429697(v=OCS.15)
 ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars

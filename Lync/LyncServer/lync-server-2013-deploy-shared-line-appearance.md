@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploy Shared Line Appearance
 ms:assetid: 6666dfef-9ecf-4834-af6a-2d5da227dfa3
-ms:mtpsurl: https://technet.microsoft.com/library/Mt712152(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712152(v=OCS.15)
 ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars

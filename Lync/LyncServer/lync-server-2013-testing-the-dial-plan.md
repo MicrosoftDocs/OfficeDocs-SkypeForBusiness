@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
-ms:mtpsurl: https://technet.microsoft.com/library/Dn690130(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
 ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars

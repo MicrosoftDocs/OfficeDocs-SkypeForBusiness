@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring default picture options
 ms:assetid: b1c986f0-6400-447a-9e36-78c1c3a4f793
-ms:mtpsurl: https://technet.microsoft.com/library/Dn205074(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn205074(v=OCS.15)
 ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721879(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
 ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View Lync Phone Edition configuration settings information
 ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687976(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687976(v=OCS.15)
 ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars

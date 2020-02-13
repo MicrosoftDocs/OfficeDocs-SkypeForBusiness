@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ618376(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
 ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars

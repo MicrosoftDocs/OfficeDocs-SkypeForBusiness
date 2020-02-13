@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558607(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)
 ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars

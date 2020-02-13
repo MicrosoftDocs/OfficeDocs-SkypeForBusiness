@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of Archiving
 ms:assetid: 1e3c2ef1-f561-4f57-8b6a-7d78addc1ed1
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204729(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204729(v=OCS.15)
 ms:contentKeyID: 48183570
 ms.date: 07/23/2014
 manager: serdars

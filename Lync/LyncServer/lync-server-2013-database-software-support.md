@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Database software support
 ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398990(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398990(v=OCS.15)
 ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars

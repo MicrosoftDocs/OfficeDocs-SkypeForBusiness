@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Server collocation in an Enterprise Edition Front End pool deployment
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398102(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398102(v=OCS.15)
 ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars

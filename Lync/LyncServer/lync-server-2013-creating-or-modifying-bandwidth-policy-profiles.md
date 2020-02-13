@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating or modifying bandwidth policy profiles
 ms:assetid: 08a2e18f-9b0d-4a2f-aa14-13bbf79ec745
-ms:mtpsurl: https://technet.microsoft.com/library/Gg520945(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520945(v=OCS.15)
 ms:contentKeyID: 48183336
 ms.date: 07/23/2014
 manager: serdars

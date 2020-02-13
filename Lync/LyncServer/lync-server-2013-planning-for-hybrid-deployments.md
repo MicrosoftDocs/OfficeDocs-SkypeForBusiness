@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205403(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
 ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars

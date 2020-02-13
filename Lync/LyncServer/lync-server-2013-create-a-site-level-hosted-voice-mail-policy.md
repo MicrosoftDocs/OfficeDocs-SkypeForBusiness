@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create a site-level hosted voice mail policy
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398216(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)
 ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars

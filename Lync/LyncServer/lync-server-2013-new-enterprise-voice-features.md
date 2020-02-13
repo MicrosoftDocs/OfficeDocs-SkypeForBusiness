@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Enterprise Voice features
 ms:assetid: db0ad7b9-e469-4c29-89d9-52fed018ef08
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398964(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398964(v=OCS.15)
 ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars

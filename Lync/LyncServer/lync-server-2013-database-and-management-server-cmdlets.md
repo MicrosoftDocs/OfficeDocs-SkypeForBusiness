@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Database and Management Server cmdlets
 ms:assetid: b323bd59-8f71-4f03-af94-f3afb8620f4e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415671(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415671(v=OCS.15)
 ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars

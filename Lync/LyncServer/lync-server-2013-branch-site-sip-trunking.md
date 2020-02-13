@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Branch site SIP trunking
 ms:assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412974(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412974(v=OCS.15)
 ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Gateways table
 ms:assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412795(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412795(v=OCS.15)
 ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars

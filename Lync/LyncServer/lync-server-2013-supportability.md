@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supportability
 ms:assetid: 3af43205-09dc-465d-ad64-3621f5622d52
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425877(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425877(v=OCS.15)
 ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars

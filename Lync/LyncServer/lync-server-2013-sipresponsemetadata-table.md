@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: SIPResponseMetaData table
 ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205294(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205294(v=OCS.15)
 ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars

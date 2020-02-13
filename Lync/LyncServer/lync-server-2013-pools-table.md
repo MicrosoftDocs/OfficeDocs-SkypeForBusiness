@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Pools table
 ms:assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398991(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398991(v=OCS.15)
 ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Security checks
 ms:assetid: 053c099f-a078-4121-bfe0-3fe5ef110b79
-ms:mtpsurl: https://technet.microsoft.com/library/Dn725205(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725205(v=OCS.15)
 ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars

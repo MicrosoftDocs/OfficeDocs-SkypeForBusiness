@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using search on capture logs created by the Centralized Logging Service
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687982(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687982(v=OCS.15)
 ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars

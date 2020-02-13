@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727304(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
 ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars

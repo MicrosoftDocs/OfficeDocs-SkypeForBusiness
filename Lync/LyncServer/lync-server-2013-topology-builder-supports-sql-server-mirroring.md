@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Topology Builder supports SQL Server mirroring
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688007(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688007(v=OCS.15)
 ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars

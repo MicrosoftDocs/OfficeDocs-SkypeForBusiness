@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Public Key Infrastructure for Lync Server 2013
 ms:assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-ms:mtpsurl: https://technet.microsoft.com/library/Dn481131(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481131(v=OCS.15)
 ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars

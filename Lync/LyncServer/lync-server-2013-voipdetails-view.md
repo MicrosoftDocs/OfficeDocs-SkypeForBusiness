@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: VoIPDetails view
 ms:assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687973(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687973(v=OCS.15)
 ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars

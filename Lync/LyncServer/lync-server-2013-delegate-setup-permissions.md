@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delegate setup permissions
 ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412735(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)
 ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars

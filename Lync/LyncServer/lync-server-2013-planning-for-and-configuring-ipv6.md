@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for and configuring IPv6
 ms:assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204624(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204624(v=OCS.15)
 ms:contentKeyID: 48183236
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server table details
 ms:assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615034(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615034(v=OCS.15)
 ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars

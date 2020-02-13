@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Manufacturers table
 ms:assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398549(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398549(v=OCS.15)
 ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars

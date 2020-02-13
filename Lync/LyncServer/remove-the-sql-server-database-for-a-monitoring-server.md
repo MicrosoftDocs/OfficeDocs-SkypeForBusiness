@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Monitoring server
 ms:assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721848(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721848(v=OCS.15)
 ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars

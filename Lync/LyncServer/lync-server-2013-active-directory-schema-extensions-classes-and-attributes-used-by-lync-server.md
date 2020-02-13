@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Active Directory schema extensions, classes, and attributes used by Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398379(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398379(v=OCS.15)
 ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars

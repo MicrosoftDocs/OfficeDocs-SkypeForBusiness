@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: (Recommended) Create Conference Directories
 ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
-ms:mtpsurl: https://technet.microsoft.com/library/Dn832056(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn832056(v=OCS.15)
 ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars

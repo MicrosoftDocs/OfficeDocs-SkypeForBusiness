@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721906(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
 ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars

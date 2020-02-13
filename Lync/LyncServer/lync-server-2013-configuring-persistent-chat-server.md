@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Persistent Chat Server
 ms:assetid: d90a4049-b268-4e8e-9f24-0cef08c8d9ed
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205332(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205332(v=OCS.15)
 ms:contentKeyID: 48185635
 ms.date: 07/23/2014
 manager: serdars

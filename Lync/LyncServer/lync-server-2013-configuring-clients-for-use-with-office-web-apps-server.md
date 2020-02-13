@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring clients for use with Office Web Apps Server
 ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205339(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205339(v=OCS.15)
 ms:contentKeyID: 48185668
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS summary - Reverse proxy
 ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204781(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)
 ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars

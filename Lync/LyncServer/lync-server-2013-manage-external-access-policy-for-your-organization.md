@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Manage external access policy for your organization
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
-ms:mtpsurl: https://technet.microsoft.com/library/Gg520995(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars

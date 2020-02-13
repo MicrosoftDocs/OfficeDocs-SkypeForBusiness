@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing location policy
 ms:assetid: 59742679-7e3d-4f1d-8992-a4720b7a123a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688069(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688069(v=OCS.15)
 ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars

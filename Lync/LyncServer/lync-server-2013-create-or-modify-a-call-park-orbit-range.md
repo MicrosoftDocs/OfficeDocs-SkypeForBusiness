@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a Call Park orbit range
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398361(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398361(v=OCS.15)
 ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars

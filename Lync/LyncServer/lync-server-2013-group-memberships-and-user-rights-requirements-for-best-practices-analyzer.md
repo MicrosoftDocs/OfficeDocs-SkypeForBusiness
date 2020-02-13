@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Group memberships and user rights requirements for Best Practices Analyzer
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg591354(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591354(v=OCS.15)
 ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars

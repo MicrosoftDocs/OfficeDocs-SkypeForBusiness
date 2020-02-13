@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure conferencing policy for dial-in
 ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398810(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398810(v=OCS.15)
 ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars

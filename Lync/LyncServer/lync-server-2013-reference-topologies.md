@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Reference topologies
 ms:assetid: 1b9e3467-ee74-4598-a348-16490b098760
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398254(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398254(v=OCS.15)
 ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars

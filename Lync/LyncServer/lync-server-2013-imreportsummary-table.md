@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: IMReportSummary table
 ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204753(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204753(v=OCS.15)
 ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars

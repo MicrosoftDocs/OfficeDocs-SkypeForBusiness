@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Administrator rights and permissions required for setup and administration
 ms:assetid: c386e8b9-c7ce-49b5-9911-c0cf2a4ce181
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412962(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412962(v=OCS.15)
 ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars

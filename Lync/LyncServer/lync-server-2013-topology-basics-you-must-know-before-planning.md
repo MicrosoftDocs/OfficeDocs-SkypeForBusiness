@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Topology basics you must know before planning
 ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398552(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398552(v=OCS.15)
 ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars

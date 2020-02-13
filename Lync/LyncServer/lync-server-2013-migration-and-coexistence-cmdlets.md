@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migration and coexistence cmdlets
 ms:assetid: ff1a56e0-e883-473d-92fe-ca77ea4eb63b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415682(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415682(v=OCS.15)
 ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars

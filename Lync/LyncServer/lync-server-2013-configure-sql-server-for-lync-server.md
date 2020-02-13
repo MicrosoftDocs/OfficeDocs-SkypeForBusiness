@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure SQL Server for Lync Server 2013
 ms:assetid: 375e5cc4-e436-46dc-9b02-5063f35cdcc1
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425848(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425848(v=OCS.15)
 ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars

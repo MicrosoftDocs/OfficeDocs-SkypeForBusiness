@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing a locked-down Active Directory Domain Services
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398492(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398492(v=OCS.15)
 ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars

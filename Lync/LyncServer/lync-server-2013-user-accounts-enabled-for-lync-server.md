@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User accounts enabled for Lync Server 2013
 ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182543(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182543(v=OCS.15)
 ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars

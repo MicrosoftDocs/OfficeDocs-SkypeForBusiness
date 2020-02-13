@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modifying user account properties
 ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687961(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687961(v=OCS.15)
 ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars

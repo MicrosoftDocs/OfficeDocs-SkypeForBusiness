@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Clients supported for Group Call Pickup
 ms:assetid: f4d4975a-ba15-4be5-9078-7b3e0bf2d706
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945655(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945655(v=OCS.15)
 ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars

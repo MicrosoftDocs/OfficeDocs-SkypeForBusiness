@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing UCWA conferencing
 ms:assetid: 62b3866a-0759-4b1f-99ec-5a68d6a74f00
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727306(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727306(v=OCS.15)
 ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars

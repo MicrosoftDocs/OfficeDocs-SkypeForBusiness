@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: VideoClientEvent table
 ms:assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399039(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399039(v=OCS.15)
 ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars

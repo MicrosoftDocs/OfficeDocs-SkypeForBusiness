@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using the Monitoring Dashboard
 ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721905(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)
 ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars

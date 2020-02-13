@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View Microsoft SIP Processing Language (MSPL) server applications
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182575(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182575(v=OCS.15)
 ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars

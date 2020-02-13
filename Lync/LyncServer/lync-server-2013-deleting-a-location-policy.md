@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting a location policy
 ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688125(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)
 ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars

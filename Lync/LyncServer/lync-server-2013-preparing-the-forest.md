@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing the forest
 ms:assetid: 3d188fcb-c64e-46cf-a3a7-9e3ebefed7fd
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425898(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425898(v=OCS.15)
 ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars

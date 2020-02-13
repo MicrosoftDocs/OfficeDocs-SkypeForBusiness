@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Select the Central Management Server
 ms:assetid: 1ca6b7d0-125c-4727-aac4-2d683d23394d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204726(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204726(v=OCS.15)
 ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars

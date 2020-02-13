@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
 ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688161(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688161(v=OCS.15)
 ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars

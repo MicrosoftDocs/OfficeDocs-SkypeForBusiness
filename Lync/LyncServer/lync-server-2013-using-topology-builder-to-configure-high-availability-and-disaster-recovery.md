@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using Topology Builder to configure high availability and disaster recovery
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205172(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
 ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars

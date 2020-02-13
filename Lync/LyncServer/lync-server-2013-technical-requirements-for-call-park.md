@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical requirements for Call Park
 ms:assetid: 38bcf302-2b72-4492-9266-f6dc31b566e1
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204818(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204818(v=OCS.15)
 ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars

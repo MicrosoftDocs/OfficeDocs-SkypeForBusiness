@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backup and restoration worksheets
 ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202169(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
 ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars

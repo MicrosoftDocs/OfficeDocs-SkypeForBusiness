@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical requirements for Response Group
 ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204863(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
 ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars

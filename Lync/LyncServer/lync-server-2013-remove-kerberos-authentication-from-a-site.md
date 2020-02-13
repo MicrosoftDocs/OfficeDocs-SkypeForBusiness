@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove Kerberos authentication from a site
 ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398749(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398749(v=OCS.15)
 ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars

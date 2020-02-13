@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate summary - Autodiscover
 ms:assetid: 16ac96bb-882a-4141-b75c-9530637548d9
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945616(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945616(v=OCS.15)
 ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars

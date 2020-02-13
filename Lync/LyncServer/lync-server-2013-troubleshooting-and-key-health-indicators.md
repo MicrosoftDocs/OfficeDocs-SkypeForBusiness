@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting and Key Health Indicators
 ms:assetid: 14ec9e21-aa2b-4d65-9be4-ef2adfbe9a8b
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720322(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720322(v=OCS.15)
 ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars

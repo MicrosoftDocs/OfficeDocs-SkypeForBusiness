@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete existing Registrar configuration settings
 ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182571(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182571(v=OCS.15)
 ms:contentKeyID: 48185132
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing large meetings
 ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205177(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205177(v=OCS.15)
 ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars

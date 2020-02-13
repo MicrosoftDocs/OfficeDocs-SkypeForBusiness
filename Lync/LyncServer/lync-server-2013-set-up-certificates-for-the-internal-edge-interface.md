@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412750(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
 ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars

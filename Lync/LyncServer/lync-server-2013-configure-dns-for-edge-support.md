@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure DNS for edge support
 ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398756(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)
 ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars

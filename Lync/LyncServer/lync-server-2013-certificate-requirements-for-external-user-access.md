@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398920(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
 ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars

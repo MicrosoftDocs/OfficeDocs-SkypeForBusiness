@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing PIN settings
 ms:assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721898(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721898(v=OCS.15)
 ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars

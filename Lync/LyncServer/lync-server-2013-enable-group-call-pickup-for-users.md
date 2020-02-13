@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable Group Call Pickup for users
 ms:assetid: 20ec5f41-6ba2-4156-82ed-b91d05b62a6d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945620(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945620(v=OCS.15)
 ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars

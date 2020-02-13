@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining the user experience for manually acquiring a location
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398912(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398912(v=OCS.15)
 ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars

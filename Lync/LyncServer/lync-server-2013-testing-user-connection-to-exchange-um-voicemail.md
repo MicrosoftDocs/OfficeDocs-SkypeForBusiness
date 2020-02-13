@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727305(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
 ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars

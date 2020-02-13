@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Response Group
 ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205249(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
 ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars

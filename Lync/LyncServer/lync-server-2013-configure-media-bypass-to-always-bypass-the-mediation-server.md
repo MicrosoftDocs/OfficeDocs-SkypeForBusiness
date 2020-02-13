@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure media bypass to always bypass the Mediation Server
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425846(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
 ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars

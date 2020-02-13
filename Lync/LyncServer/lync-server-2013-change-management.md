@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720336(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
 ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars

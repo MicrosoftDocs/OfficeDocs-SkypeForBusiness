@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Resetting or deleting external user access policies
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
-ms:mtpsurl: https://technet.microsoft.com/library/Gg521003(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521003(v=OCS.15)
 ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Components and topologies for monitoring
 ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412952(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
 ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars

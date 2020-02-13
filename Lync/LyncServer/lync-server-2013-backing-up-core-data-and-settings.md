@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backing up core data and settings
 ms:assetid: 278bc95a-7b8d-4e01-a872-a844830459de
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202170(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202170(v=OCS.15)
 ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars

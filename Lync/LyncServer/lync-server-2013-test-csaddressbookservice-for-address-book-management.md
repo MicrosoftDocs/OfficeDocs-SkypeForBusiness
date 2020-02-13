@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test-CsAddressBookService for Address Book management
 ms:assetid: b88cea74-41fd-4c0e-9284-7135bff27a27
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429720(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429720(v=OCS.15)
 ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars

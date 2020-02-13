@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Application table
 ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425808(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425808(v=OCS.15)
 ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars

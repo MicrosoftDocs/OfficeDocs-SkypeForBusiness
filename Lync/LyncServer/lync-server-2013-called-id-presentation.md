@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Called ID presentation
 ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721892(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721892(v=OCS.15)
 ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars

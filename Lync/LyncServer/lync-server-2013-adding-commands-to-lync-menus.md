@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Adding commands to Lync menus
 ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412788(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412788(v=OCS.15)
 ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars

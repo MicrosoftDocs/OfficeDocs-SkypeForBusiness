@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing PIN policies
 ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721841(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721841(v=OCS.15)
 ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars

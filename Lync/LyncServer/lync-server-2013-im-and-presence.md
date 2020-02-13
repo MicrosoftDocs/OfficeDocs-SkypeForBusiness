@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: IM and presence
 ms:assetid: 6a93ae95-3b64-410b-ab72-74dea232f065
-ms:mtpsurl: https://technet.microsoft.com/library/Gg417162(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417162(v=OCS.15)
 ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrating XMPP federation
 ms:assetid: b8d2b4b9-d0ed-4b48-820a-2c257fbdd2fb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721861(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721861(v=OCS.15)
 ms:contentKeyID: 49733794
 ms.date: 07/23/2014
 manager: serdars

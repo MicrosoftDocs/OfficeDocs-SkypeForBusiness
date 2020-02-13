@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-ms:mtpsurl: https://technet.microsoft.com/library/Dn481135(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
 ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars

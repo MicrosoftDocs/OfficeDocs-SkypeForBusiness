@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Publish the topology
 ms:assetid: 3b5a744b-b3a8-4538-a55e-e2e4f72dff47
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425880(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425880(v=OCS.15)
 ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars

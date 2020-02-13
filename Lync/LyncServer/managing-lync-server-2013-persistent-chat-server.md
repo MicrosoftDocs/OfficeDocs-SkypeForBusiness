@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing Lync Server 2013, Persistent Chat Server
 ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398657(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398657(v=OCS.15)
 ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205357(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
 ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Understanding firewall requirements for SQL Server
 ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425818(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425818(v=OCS.15)
 ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars

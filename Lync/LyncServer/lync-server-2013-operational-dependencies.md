@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Operational dependencies
 ms:assetid: 450b6be2-7fb3-47d7-8b0b-c05faa331e14
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720559(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720559(v=OCS.15)
 ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars

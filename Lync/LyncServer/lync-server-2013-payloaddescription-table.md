@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: PayloadDescription table
 ms:assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412971(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412971(v=OCS.15)
 ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars

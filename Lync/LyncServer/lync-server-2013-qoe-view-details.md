@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: QoE view details
 ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688081(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)
 ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars

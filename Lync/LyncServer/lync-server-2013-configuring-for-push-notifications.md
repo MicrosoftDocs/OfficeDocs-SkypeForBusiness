@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring for push notifications
 ms:assetid: d77f2c06-0fe6-45d5-8f08-808ab871b3e0
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690047(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690047(v=OCS.15)
 ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars

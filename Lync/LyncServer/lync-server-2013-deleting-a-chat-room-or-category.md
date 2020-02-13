@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deleting a chat room or category
 ms:assetid: adccb869-0015-4eba-ac73-718bac7843b5
-ms:mtpsurl: https://technet.microsoft.com/library/JJ215881(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215881(v=OCS.15)
 ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars

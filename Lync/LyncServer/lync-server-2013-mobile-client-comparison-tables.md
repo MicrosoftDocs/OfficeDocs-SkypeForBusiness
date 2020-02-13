@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mobile client comparison tables
 ms:assetid: f3ba3379-afe4-4bc8-a038-9dff9dfd3bff
-ms:mtpsurl: https://technet.microsoft.com/library/Hh691004(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691004(v=OCS.15)
 ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars

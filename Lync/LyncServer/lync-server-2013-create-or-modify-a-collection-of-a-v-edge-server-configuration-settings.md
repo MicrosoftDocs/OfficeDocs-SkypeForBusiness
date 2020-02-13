@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a collection of A/V Edge Server configuration settings
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688039(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688039(v=OCS.15)
 ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars

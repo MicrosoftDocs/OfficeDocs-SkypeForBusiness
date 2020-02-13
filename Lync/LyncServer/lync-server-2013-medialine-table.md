@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: MediaLine table
 ms:assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425920(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425920(v=OCS.15)
 ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View client version configuration settings
 ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
-ms:mtpsurl: https://technet.microsoft.com/library/JJ923062(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
 ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars

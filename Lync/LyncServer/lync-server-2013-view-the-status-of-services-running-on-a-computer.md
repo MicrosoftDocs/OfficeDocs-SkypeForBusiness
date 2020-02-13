@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View the status of services running on a computer
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182606(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182606(v=OCS.15)
 ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars

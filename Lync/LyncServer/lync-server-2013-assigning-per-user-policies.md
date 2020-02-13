@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assigning per-user policies
 ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182561(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182561(v=OCS.15)
 ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars

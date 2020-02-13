@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for response groups
 ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398617(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398617(v=OCS.15)
 ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars

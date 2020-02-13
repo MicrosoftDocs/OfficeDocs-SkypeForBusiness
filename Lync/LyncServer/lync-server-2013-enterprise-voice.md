@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enterprise Voice
 ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
-ms:mtpsurl: https://technet.microsoft.com/library/Gg417163(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
 ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars

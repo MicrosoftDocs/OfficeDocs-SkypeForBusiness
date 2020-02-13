@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Active Directory Domain Services requirements, support, and topologies
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398760(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398760(v=OCS.15)
 ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars

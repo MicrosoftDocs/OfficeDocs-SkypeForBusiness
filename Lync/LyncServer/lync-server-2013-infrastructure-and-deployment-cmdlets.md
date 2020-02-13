@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Infrastructure and deployment cmdlets
 ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398153(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
 ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars

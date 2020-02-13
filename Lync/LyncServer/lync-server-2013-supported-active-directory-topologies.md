@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398173(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
 ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars

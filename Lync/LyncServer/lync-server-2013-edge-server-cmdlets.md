@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Edge Server cmdlets
 ms:assetid: 1a5427f4-a0d1-4652-8135-91333158ffc8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415635(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415635(v=OCS.15)
 ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars

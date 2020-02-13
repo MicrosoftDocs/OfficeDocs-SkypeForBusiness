@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Manage Group Call Pickup during disaster recovery
 ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945618(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945618(v=OCS.15)
 ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars

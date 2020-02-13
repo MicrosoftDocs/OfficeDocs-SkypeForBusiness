@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Providing Lync Server 2013 users voice mail on hosted Exchange UM
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425807(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425807(v=OCS.15)
 ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars

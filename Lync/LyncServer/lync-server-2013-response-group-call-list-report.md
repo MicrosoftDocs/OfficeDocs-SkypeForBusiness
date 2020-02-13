@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Response Group Call List Report
 ms:assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615443(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615443(v=OCS.15)
 ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars

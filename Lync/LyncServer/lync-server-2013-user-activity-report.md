@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558638(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)
 ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars

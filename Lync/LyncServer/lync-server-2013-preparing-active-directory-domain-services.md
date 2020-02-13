@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Preparing Active Directory Domain Services for Lync Server 2013
 ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398630(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398630(v=OCS.15)
 ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars

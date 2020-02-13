@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: (Optional) Verify Response Group deployment
 ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687989(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687989(v=OCS.15)
 ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars

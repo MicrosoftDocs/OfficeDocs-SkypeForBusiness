@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Navigating the Planning Tool
 ms:assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558601(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558601(v=OCS.15)
 ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars

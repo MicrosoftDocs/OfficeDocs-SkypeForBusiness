@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a normalization rule manually
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
-ms:mtpsurl: https://technet.microsoft.com/library/Gg413074(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413074(v=OCS.15)
 ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars

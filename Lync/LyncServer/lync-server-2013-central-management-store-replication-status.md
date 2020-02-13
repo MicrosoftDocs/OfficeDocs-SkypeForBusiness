@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Central management store replication status
 ms:assetid: f514f88d-986b-4e45-b79b-e04a7616c1fe
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720926(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720926(v=OCS.15)
 ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars

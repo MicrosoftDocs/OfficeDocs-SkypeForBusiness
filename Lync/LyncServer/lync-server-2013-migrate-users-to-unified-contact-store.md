@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrate users to unified contact store
 ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204737(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204737(v=OCS.15)
 ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars

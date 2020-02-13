@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User migration
 ms:assetid: a4e4d852-db8e-420a-ba12-a0034800cf2b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205156(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205156(v=OCS.15)
 ms:contentKeyID: 48185056
 ms.date: 07/23/2014
 manager: serdars

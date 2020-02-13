@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: 19c27053-8b21-401f-ad91-75c2dd355e91
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204718(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204718(v=OCS.15)
 ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars

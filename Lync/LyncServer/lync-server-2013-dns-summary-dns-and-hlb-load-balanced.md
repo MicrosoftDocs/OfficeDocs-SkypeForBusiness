@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS summary - DNS and HLB load balanced
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205273(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205273(v=OCS.15)
 ms:contentKeyID: 48185447
 ms.date: 07/23/2014
 manager: serdars

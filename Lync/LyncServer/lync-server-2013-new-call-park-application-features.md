@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Call Park application features
 ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412927(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412927(v=OCS.15)
 ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars

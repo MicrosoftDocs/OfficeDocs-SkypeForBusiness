@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: A/V conferencing overview
 ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
-ms:mtpsurl: https://technet.microsoft.com/library/JJ619186(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)
 ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars

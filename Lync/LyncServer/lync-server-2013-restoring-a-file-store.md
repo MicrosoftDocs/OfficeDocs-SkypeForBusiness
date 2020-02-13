@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Restoring a file store
 ms:assetid: 89916fc6-31d3-4c7f-9eaf-c02584761ef4
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202180(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202180(v=OCS.15)
 ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars

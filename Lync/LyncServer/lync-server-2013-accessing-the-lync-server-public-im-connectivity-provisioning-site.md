@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
-ms:mtpsurl: https://technet.microsoft.com/library/Dn440174(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)
 ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars

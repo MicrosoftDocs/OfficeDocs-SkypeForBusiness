@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg521006(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
 ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars

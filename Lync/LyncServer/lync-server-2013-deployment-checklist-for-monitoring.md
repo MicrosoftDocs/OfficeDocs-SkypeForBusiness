@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment checklist for monitoring
 ms:assetid: 4e798370-277c-4391-84b4-13a972b45ca6
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204874(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204874(v=OCS.15)
 ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars

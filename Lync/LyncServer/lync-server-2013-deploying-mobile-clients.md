@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying mobile clients
 ms:assetid: f6e237f8-f38c-4812-8fd8-c5202e7c4045
-ms:mtpsurl: https://technet.microsoft.com/library/Hh691005(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691005(v=OCS.15)
 ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars

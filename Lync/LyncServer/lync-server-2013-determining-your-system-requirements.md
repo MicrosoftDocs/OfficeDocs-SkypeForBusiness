@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Determining your system requirements
 ms:assetid: 620e81e2-42df-4eda-8498-bd56a14aa0e1
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398438(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398438(v=OCS.15)
 ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars

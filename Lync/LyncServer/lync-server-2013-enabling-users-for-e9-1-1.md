@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enabling users for E9-1-1
 ms:assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425892(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425892(v=OCS.15)
 ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars

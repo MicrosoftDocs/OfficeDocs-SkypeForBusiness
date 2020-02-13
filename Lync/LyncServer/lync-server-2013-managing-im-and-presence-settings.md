@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing IM and presence settings
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182558(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182558(v=OCS.15)
 ms:contentKeyID: 48184933
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying call management features
 ms:assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204706(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204706(v=OCS.15)
 ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars

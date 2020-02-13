@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204653(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204653(v=OCS.15)
 ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars

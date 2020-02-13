@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for conferencing
 ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398781(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398781(v=OCS.15)
 ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars

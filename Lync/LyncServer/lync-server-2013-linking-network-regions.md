@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Linking network regions
 ms:assetid: 5ba6c80a-4124-437f-b57a-8d10534cf209
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688070(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688070(v=OCS.15)
 ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars

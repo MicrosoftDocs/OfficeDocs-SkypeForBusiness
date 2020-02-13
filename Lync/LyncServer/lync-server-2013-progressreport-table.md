@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ProgressReport table
 ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425864(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)
 ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring support for Autodiscover
 ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945622(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
 ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars

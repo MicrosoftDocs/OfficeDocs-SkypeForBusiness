@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Application endpoints cmdlets
 ms:assetid: 940e7d52-1fd0-4f7e-a116-ac5501477fb0
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415665(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415665(v=OCS.15)
 ms:contentKeyID: 48184812
 ms.date: 07/23/2014
 manager: serdars

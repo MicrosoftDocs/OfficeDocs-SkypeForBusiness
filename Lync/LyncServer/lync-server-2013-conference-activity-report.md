@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Conference Activity Report
 ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558627(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558627(v=OCS.15)
 ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars

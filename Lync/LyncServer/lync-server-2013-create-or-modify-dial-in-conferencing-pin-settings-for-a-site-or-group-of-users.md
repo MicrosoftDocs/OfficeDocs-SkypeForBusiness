@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify dial-in conferencing PIN settings for a site or group of users
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412959(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412959(v=OCS.15)
 ms:contentKeyID: 48185326
 ms.date: 07/23/2014
 manager: serdars

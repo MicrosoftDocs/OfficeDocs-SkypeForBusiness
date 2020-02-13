@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical requirements for Group Call Pickup
 ms:assetid: acbabe3d-359a-4936-b7bf-320312101d5a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945643(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945643(v=OCS.15)
 ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars

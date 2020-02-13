@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720325(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720325(v=OCS.15)
 ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars

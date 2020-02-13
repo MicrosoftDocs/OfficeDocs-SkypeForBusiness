@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Tenants table
 ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412950(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)
 ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars

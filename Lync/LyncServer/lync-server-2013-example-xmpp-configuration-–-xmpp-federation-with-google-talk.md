@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Example XMPP configuration – XMPP federation with Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204807(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204807(v=OCS.15)
 ms:contentKeyID: 48183848
 ms.date: 07/23/2014
 mtps_version: v=OCS.15

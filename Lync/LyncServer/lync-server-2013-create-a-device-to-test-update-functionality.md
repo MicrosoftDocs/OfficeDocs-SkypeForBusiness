@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create a device to test update functionality
 ms:assetid: ce509fd1-17b3-4b78-b269-fe5d06fe2e1d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182587(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182587(v=OCS.15)
 ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars

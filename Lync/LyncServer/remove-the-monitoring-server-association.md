@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove the Monitoring server association
 ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721877(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721877(v=OCS.15)
 ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars

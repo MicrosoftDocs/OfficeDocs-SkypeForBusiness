@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg413069(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
 ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars

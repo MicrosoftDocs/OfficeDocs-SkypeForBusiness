@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Disabling uploading and downloading files in chat rooms
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ215882(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215882(v=OCS.15)
 ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars

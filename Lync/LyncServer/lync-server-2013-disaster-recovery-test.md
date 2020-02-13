@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Disaster recovery test
 ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
-ms:mtpsurl: https://technet.microsoft.com/library/Dn747887(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747887(v=OCS.15)
 ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars

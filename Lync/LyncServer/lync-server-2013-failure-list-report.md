@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Failure List Report
 ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615446(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
 ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars

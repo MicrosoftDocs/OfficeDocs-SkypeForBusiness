@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Enterprise Voice resiliency
 ms:assetid: ca116700-1055-4ca5-9b87-4c7f380c3655
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398840(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398840(v=OCS.15)
 ms:contentKeyID: 48185408
 ms.date: 10/17/2014
 manager: serdars

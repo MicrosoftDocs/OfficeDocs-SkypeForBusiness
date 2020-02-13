@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hosted voice mail policies
 ms:assetid: d62a35ed-cbe2-4f06-86b4-e192c18435c1
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398932(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398932(v=OCS.15)
 ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720318(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
 ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars

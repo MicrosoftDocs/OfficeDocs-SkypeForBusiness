@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Prepare Active Directory for Lync Server
 ms:assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688059(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688059(v=OCS.15)
 ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205071(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
 ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars

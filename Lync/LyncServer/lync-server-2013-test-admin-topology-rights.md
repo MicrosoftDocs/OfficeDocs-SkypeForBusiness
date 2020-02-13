@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
-ms:mtpsurl: https://technet.microsoft.com/library/Dn767943(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)
 ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars

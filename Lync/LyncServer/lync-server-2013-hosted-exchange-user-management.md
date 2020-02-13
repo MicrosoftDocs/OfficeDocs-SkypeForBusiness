@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hosted Exchange user management
 ms:assetid: e8723af5-0604-4d7d-bad2-463a9832efb4
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399037(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399037(v=OCS.15)
 ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars

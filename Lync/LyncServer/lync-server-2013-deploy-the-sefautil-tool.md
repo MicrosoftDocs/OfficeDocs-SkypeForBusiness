@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploy the SEFAUtil tool
 ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945659(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945659(v=OCS.15)
 ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars

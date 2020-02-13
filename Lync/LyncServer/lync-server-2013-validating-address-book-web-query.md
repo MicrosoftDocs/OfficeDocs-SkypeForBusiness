@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720925(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)
 ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars

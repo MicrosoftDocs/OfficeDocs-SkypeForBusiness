@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425820(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars

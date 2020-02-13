@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync for iPhone and iPad requirements
 ms:assetid: 35e3455a-1570-4ca6-9ec7-5f5e81fdf268
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690978(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690978(v=OCS.15)
 ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate summary - Scaled Director pool, hardware load balancer
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204846(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204846(v=OCS.15)
 ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars

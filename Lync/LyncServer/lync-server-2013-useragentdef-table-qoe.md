@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: UserAgentDef table (QoE)
 ms:assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205259(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205259(v=OCS.15)
 ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars

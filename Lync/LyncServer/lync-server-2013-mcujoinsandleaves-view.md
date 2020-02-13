@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: McuJoinsAndLeaves view
 ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688088(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688088(v=OCS.15)
 ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars

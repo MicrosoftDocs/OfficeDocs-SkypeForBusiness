@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Features of integrated Unified Messaging and Lync Server
 ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398144(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398144(v=OCS.15)
 ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars

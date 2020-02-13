@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Data collection
 ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399008(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399008(v=OCS.15)
 ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars

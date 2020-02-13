@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a collection of client version configuration settings
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
-ms:mtpsurl: https://technet.microsoft.com/library/JJ898477(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898477(v=OCS.15)
 ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars

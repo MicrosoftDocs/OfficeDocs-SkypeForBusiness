@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Check server certificates
 ms:assetid: 7b0474e8-0efe-47f0-84eb-a1ba575dabfd
-ms:mtpsurl: https://technet.microsoft.com/library/Dn725210(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725210(v=OCS.15)
 ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars

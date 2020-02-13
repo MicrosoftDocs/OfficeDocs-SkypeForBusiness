@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure dial-in conferencing access numbers
 ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398952(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398952(v=OCS.15)
 ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars

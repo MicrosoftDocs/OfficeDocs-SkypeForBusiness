@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204713(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
 ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars

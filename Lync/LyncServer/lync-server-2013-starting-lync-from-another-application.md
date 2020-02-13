@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Starting Lync from another application
 ms:assetid: 573b30b1-6590-4b24-8e96-a41be57cb0ef
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398376(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398376(v=OCS.15)
 ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars

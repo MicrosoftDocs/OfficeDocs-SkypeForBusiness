@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure federation with Lync Online
 ms:assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205126(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205126(v=OCS.15)
 ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars

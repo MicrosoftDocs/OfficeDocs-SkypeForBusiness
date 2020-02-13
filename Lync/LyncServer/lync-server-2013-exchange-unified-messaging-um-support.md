@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Exchange Unified Messaging (UM) support
 ms:assetid: 0da62b8d-7416-4fb8-a405-381ca805c53a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398179(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398179(v=OCS.15)
 ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars

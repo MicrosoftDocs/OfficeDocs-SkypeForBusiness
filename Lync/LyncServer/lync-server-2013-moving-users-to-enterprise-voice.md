@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412758(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
 ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars

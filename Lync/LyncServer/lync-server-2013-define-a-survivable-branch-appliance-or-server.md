@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398280(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)
 ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars

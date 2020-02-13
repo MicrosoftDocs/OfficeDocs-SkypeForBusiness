@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Plan for Shared Line Appearance
 ms:assetid: a35c83d8-f531-445b-a8d2-d5d8cec77c6b
-ms:mtpsurl: https://technet.microsoft.com/library/Mt712151(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712151(v=OCS.15)
 ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars

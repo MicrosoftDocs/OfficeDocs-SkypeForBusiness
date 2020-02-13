@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Server roles
 ms:assetid: 7137fc06-fca2-4e5f-9db5-10c7c29a788c
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398536(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398536(v=OCS.15)
 ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars

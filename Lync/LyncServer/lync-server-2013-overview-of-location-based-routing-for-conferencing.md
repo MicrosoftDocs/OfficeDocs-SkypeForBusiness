@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of Location-Based Routing for conferencing
 ms:assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
-ms:mtpsurl: https://technet.microsoft.com/library/Dn362815(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362815(v=OCS.15)
 ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars

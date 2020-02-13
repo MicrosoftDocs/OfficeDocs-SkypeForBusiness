@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Front End pool ABC failover procedure
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945635(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945635(v=OCS.15)
 ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars

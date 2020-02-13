@@ -2,7 +2,7 @@
 title: 'Configuring port ranges and a Quality of Service for your Edge Servers'
 ms.reviewer: 
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204996(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
 ms.author: v-lanac

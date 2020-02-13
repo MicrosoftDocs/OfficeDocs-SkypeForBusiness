@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure DNS records for a Front End pool or Standard Edition server
 ms:assetid: 02871f2f-6c99-49e6-b441-cd21b16d38ee
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398079(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398079(v=OCS.15)
 ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars

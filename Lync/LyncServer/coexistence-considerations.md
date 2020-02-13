@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Coexistence considerations
 ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205131(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
 ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars

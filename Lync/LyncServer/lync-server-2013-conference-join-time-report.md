@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Conference Join Time Report
 ms:assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205344(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205344(v=OCS.15)
 ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars

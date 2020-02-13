@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up user policies for Archiving in Lync Server
 ms:assetid: 22d6cc76-6b5c-4a8c-bb8a-7996450ec085
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204742(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204742(v=OCS.15)
 ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars

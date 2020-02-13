@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing user presence publishing and subscribing
 ms:assetid: 27694c71-8e63-4aa4-b49f-fa06ccb81949
-ms:mtpsurl: https://technet.microsoft.com/library/Dn743832(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743832(v=OCS.15)
 ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars

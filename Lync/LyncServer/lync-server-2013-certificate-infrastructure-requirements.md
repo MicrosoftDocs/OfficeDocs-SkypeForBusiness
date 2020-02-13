@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate infrastructure requirements
 ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398066(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)
 ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars

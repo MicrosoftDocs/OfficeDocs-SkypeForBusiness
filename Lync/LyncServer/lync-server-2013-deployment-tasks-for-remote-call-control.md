@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558624(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
 ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars

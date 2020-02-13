@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Using scan results to analyze and resolve issues reported by Best Practices Analyzer
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg591350(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591350(v=OCS.15)
 ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars

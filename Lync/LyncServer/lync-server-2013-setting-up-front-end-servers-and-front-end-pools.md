@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up Front End Servers and Front End pools
 ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398827(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
 ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars

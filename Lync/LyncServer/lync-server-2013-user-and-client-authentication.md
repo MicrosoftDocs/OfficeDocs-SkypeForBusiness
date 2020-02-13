@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User and client authentication for Lync Server 2013
 ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-ms:mtpsurl: https://technet.microsoft.com/library/Dn481132(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481132(v=OCS.15)
 ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars

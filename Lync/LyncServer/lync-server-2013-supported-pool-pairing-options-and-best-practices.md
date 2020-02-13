@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported pool pairing options and best practices
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204697(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204697(v=OCS.15)
 ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars

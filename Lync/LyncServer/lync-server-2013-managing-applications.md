@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing applications
 ms:assetid: 34d8bbd0-3010-4b5e-8846-7ae7a0753cbb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688019(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688019(v=OCS.15)
 ms:contentKeyID: 49733610
 ms.date: 07/23/2014
 manager: serdars

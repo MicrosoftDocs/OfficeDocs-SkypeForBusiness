@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ErrorCategory table
 ms:assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204675(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204675(v=OCS.15)
 ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars

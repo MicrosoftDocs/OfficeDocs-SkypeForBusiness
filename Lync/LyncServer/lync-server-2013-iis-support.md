@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Internet Information Services (IIS) support
 ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398987(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398987(v=OCS.15)
 ms:contentKeyID: 48185627
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Release notes
 ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205120(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205120(v=OCS.15)
 ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars

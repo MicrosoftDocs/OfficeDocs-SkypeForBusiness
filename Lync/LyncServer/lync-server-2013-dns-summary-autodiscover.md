@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS summary - Autodiscover
 ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945644(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
 ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars

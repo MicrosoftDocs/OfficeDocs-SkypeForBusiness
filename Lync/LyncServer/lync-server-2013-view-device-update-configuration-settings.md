@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View Device Update configuration settings
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ994059(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994059(v=OCS.15)
 ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars

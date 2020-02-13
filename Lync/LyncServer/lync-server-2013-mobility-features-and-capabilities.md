@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Mobility features and capabilities
 ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
-ms:mtpsurl: https://technet.microsoft.com/library/Hh689983(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)
 ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars

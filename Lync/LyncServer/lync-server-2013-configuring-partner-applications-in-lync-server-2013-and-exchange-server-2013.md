@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688151(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars

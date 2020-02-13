@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up system platforms for Archiving
 ms:assetid: 2df40fdf-0e32-46d4-9fb2-1ce1d7bfa328
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204768(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204768(v=OCS.15)
 ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars

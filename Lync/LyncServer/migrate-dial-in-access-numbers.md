@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: e0dfaed2-64c7-45cb-aaa9-d6117a26625d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721909(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721909(v=OCS.15)
 ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars

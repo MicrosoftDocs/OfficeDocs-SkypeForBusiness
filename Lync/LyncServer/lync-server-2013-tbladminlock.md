@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: tblAdminLock
 ms:assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558665(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558665(v=OCS.15)
 ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars

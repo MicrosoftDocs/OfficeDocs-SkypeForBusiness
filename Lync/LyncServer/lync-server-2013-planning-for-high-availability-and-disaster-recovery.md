@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for high availability and disaster recovery
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204703(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204703(v=OCS.15)
 ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars

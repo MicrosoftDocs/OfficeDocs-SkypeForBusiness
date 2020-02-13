@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scalability
 ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
-ms:mtpsurl: https://technet.microsoft.com/library/Gg417160(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417160(v=OCS.15)
 ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars

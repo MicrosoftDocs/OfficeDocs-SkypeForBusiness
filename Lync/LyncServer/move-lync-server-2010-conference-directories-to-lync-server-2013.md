@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Move Conference Directories
 ms:assetid: 659867e0-ce91-4a95-9787-b1c1566460a8
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727126(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727126(v=OCS.15)
 ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars

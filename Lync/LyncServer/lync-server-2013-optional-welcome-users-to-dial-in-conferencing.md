@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: (Optional) Welcome users to dial-in conferencing
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398846(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)
 ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars

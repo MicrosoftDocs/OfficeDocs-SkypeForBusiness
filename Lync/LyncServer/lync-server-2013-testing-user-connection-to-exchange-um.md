@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing user connection to Exchange UM
 ms:assetid: 0b83fbf4-e124-4efd-a0a9-202eb849af82
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727300(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727300(v=OCS.15)
 ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars

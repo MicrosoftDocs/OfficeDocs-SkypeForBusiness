@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enabling or disabling push notifications for iPhones
 ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688122(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)
 ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars

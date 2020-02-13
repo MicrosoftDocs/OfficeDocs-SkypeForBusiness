@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
-ms:mtpsurl: https://technet.microsoft.com/library/Dn727307(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
 ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars

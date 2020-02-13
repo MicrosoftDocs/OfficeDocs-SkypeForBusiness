@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a dial-in conferencing access number
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398126(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398126(v=OCS.15)
 ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars

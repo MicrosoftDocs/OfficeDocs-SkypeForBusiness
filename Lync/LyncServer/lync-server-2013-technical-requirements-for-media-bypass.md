@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical requirements for media bypass
 ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398435(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398435(v=OCS.15)
 ms:contentKeyID: 48184321
 ms.date: 07/23/2014
 manager: serdars

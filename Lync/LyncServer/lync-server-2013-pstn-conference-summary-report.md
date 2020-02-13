@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: PSTN Conference Summary Report
 ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615014(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615014(v=OCS.15)
 ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars

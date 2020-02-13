@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Persistent Chat Server
 ms:assetid: 57b2f574-234e-4a5a-bb78-8823369ba79e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398381(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398381(v=OCS.15)
 ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars

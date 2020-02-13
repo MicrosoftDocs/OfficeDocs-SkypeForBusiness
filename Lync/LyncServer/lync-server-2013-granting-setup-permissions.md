@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Granting setup permissions
 ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398225(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398225(v=OCS.15)
 ms:contentKeyID: 48183491
 ms.date: 07/23/2014
 manager: serdars

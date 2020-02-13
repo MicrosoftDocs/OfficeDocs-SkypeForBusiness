@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring AD FS 2.0 to support client authentication
 ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
-ms:mtpsurl: https://technet.microsoft.com/library/Dn308565(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308565(v=OCS.15)
 ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars

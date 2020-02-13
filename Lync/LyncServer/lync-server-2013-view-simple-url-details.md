@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View simple URL details
 ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
-ms:mtpsurl: https://technet.microsoft.com/library/Gg521010(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
 ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars

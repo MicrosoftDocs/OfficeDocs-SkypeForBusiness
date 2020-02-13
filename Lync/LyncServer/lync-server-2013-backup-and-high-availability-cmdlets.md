@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backup and high availability cmdlets
 ms:assetid: 5aff41a3-7a0e-4c51-9d5f-7f08e36bf046
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204925(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204925(v=OCS.15)
 ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars

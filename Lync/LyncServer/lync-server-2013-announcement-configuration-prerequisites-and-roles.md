@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Announcement configuration prerequisites and roles
 ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398658(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
 ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars

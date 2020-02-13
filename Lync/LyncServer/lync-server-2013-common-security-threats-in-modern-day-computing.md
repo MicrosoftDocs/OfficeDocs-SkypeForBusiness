@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Common security threats in modern day computing
 ms:assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
-ms:mtpsurl: https://technet.microsoft.com/library/Dn433220(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn433220(v=OCS.15)
 ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars

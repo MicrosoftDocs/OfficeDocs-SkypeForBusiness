@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Import a voice route configuration file
 ms:assetid: 4bac05e5-ed8b-4f10-96b0-b8a65ff356ec
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398301(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398301(v=OCS.15)
 ms:contentKeyID: 48184049
 ms.date: 07/23/2014
 manager: serdars

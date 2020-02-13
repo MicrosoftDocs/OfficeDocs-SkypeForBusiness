@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205026(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
 ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars

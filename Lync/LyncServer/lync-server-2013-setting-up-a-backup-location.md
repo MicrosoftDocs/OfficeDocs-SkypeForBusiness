@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up a backup location
 ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202158(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
 ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars

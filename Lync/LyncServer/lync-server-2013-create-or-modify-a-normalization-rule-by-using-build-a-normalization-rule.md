@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399036(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)
 ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars

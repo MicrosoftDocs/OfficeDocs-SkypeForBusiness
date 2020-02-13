@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Search for Lync Server users
 ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429701(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429701(v=OCS.15)
 ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars

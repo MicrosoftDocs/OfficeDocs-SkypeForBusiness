@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting who can post messages in an auditorium chat room
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
-ms:mtpsurl: https://technet.microsoft.com/library/JJ215873(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215873(v=OCS.15)
 ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars

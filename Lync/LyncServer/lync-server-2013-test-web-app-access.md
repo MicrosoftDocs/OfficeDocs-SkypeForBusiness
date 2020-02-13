@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Test Web App access
 ms:assetid: 17d67ea3-f74d-4952-ac2b-92c0dacc8014
-ms:mtpsurl: https://technet.microsoft.com/library/Dn767944(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767944(v=OCS.15)
 ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars

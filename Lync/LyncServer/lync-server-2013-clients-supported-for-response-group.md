@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398674(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
 ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars

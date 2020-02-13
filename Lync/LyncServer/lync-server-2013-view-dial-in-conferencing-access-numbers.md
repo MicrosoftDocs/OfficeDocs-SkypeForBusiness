@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View dial-in conferencing access numbers
 ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688037(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)
 ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars

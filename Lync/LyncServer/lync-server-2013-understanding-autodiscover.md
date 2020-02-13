@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Understanding Autodiscover
 ms:assetid: d70a15b7-750b-4e0f-9a7f-0254d6d486c3
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945654(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945654(v=OCS.15)
 ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars

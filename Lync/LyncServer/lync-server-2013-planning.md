@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning
 ms:assetid: 6398cd91-8773-41bc-9b66-725d65ba9d66
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398447(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398447(v=OCS.15)
 ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars

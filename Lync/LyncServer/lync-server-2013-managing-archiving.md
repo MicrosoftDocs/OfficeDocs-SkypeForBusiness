@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing Lync Server 2013 Archiving
 ms:assetid: 48c6cc8c-c2c1-4534-9a8a-fd5eb738076a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg520990(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520990(v=OCS.15)
 ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars

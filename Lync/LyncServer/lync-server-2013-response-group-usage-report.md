@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Response Group Usage Report
 ms:assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558632(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558632(v=OCS.15)
 ms:contentKeyID: 48183811
 ms.date: 07/23/2014
 manager: serdars

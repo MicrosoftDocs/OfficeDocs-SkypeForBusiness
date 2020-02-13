@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign policies to a common area phone
 ms:assetid: f0554fd1-b237-49b3-9eb4-26f4b91f5604
-ms:mtpsurl: https://technet.microsoft.com/library/JJ994082(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994082(v=OCS.15)
 ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars

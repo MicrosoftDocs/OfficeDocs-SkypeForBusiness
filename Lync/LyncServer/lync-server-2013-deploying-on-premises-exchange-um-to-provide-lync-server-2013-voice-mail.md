@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398768(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398768(v=OCS.15)
 ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars

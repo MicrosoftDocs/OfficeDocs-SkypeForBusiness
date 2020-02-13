@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server 2010 metropolitan site resiliency
 ms:assetid: 18673ff6-b664-4a57-a89b-cbda8b129e6a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204715(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204715(v=OCS.15)
 ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars

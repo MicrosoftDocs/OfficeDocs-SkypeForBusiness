@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Direct SIP connections support
 ms:assetid: 2107b5b1-b619-4c10-a7db-81d0b9c7f8bf
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398289(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398289(v=OCS.15)
 ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars

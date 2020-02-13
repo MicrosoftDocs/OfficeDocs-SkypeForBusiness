@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Interoperability cmdlets
 ms:assetid: 18444a0b-7b66-4540-a262-775ea10b3b7d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204714(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204714(v=OCS.15)
 ms:contentKeyID: 48183527
 ms.date: 07/23/2014
 manager: serdars

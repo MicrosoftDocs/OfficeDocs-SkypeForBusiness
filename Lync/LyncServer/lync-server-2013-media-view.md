@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Media view
 ms:assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ687981(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687981(v=OCS.15)
 ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars

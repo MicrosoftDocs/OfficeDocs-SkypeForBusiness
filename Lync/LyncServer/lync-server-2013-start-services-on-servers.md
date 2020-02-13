@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Start services on servers
 ms:assetid: fa26eaed-0529-4f32-9f3f-f32c4bd4b1c8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg413059(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413059(v=OCS.15)
 ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars

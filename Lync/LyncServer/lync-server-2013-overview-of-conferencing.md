@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of conferencing
 ms:assetid: 5bb90e69-3d4f-4d59-a1ee-2550de84439f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204928(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204928(v=OCS.15)
 ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars

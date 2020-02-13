@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Ports and protocols for internal servers
 ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398833(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398833(v=OCS.15)
 ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars

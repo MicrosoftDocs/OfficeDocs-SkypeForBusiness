@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: MediationServers table
 ms:assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412743(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412743(v=OCS.15)
 ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create the VoIP routing policy for branch users
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398196(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398196(v=OCS.15)
 ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars

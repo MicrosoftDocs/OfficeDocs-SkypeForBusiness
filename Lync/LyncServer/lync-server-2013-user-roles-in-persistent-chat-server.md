@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: User roles in Persistent Chat Server
 ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-ms:mtpsurl: https://technet.microsoft.com/library/JJ676774(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)
 ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars

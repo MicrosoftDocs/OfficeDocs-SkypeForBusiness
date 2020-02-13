@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hybrid and split-domain - Autodiscover
 ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945652(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
 ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690989(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
 ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars

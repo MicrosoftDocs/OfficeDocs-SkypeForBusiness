@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Operations checklists
 ms:assetid: 263cf20b-bf2f-4a47-951c-6c5fbd0a9445
-ms:mtpsurl: https://technet.microsoft.com/library/Dn745896(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn745896(v=OCS.15)
 ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars

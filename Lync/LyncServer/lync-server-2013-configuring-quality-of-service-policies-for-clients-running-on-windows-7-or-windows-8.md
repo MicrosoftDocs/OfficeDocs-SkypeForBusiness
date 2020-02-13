@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205371(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205371(v=OCS.15)
 ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars

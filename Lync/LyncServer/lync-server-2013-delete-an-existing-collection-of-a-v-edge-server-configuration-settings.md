@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Delete an existing collection of A/V Edge Server configuration settings
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688077(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars

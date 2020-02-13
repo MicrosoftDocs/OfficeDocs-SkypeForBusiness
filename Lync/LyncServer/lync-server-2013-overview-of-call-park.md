@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Overview of Call Park
 ms:assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205124(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205124(v=OCS.15)
 ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars

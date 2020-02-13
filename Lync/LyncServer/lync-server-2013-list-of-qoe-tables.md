@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: List of QoE tables
 ms:assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398236(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398236(v=OCS.15)
 ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars

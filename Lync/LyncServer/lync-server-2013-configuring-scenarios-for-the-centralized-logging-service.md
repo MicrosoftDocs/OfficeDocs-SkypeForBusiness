@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688085(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
 ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars

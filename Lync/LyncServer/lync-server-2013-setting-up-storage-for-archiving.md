@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Setting up storage for Archiving
 ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205392(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)
 ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars

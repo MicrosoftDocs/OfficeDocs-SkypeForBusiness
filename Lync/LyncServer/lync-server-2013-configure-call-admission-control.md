@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure call admission control
 ms:assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398870(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398870(v=OCS.15)
 ms:contentKeyID: 48185464
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing the Operation Manager agent files
 ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205345(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205345(v=OCS.15)
 ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars

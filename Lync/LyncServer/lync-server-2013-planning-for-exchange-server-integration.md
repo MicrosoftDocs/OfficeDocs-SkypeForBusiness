@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Exchange Server integration
 ms:assetid: 75152a25-f3cd-4134-9be7-7a0e6c5d0ed8
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688094(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688094(v=OCS.15)
 ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars

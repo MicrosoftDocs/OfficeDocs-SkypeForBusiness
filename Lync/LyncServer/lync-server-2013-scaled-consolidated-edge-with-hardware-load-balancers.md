@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398478(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
 ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars

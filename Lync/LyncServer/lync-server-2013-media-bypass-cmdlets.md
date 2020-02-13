@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Media bypass cmdlets
 ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415674(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)
 ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Group Call Pickup
 ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945645(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945645(v=OCS.15)
 ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars

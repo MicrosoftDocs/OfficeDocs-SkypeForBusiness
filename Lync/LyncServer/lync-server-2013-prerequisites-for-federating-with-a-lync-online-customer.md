@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites for federating with a Lync Online customer
 ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202196(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)
 ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars

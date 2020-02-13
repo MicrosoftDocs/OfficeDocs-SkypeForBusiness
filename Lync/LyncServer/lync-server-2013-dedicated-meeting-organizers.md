@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Dedicated meeting organizers
 ms:assetid: 2f99049a-ac9a-43e3-a46d-5122b597420f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204775(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204775(v=OCS.15)
 ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars

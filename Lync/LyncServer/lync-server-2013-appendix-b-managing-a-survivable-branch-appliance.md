@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
 ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425797(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
 ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars

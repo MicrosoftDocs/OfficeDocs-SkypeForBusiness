@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set up system platforms
 ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204783(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204783(v=OCS.15)
 ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars

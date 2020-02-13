@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Exchange Unified Messaging integration
 ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399031(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399031(v=OCS.15)
 ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars

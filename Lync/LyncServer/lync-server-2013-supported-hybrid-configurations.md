@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945633(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
 ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars

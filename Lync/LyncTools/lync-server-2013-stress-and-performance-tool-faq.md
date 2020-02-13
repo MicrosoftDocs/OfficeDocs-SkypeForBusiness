@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lync Server 2013 Stress and Performance Tool FAQ
 ms:assetid: a5aff705-320c-4916-8094-23046b2a1b18
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945600(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945600(v=OCS.15)
 ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars

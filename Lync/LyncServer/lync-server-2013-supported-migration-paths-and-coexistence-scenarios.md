@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Supported migration paths and coexistence scenarios
 ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398367(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398367(v=OCS.15)
 ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Set-CsClientPolicy for Address Book management
 ms:assetid: e7788bea-606f-481a-a3a4-1855ac028493
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429723(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429723(v=OCS.15)
 ms:contentKeyID: 48185726
 ms.date: 07/23/2014
 manager: serdars

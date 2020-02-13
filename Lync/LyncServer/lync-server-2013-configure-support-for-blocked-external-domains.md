@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure support for blocked external domains
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
-ms:mtpsurl: https://technet.microsoft.com/library/JJ619176(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619176(v=OCS.15)
 ms:contentKeyID: 49733638
 ms.date: 07/23/2014
 manager: serdars

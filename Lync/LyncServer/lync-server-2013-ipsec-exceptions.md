@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: IPsec exceptions
 ms:assetid: 241f1eca-6f2f-44de-90b1-2cb659cbe27c
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425719(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425719(v=OCS.15)
 ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars

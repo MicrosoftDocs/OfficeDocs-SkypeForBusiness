@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721896(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)
 ms:contentKeyID: 49733830
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure DNS Host records
 ms:assetid: 78a1afcf-41c8-4da5-8740-c6570c19078c
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398593(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398593(v=OCS.15)
 ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
-ms:mtpsurl: https://technet.microsoft.com/library/Dn690133(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)
 ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars

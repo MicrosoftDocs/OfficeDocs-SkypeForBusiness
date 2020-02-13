@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assigning per-user presence policies
 ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182614(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
 ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars

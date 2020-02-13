@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Hardware setup
 ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425852(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425852(v=OCS.15)
 ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars

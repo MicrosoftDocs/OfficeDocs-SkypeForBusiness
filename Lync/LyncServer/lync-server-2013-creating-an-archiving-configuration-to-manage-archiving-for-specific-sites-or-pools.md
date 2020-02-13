@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205251(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)
 ms:contentKeyID: 48185361
 ms.date: 07/23/2014
 manager: serdars

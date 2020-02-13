@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
-ms:mtpsurl: https://technet.microsoft.com/library/Hh202195(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
 ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars

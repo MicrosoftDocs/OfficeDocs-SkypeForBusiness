@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DeviceDriver table
 ms:assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398844(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398844(v=OCS.15)
 ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars

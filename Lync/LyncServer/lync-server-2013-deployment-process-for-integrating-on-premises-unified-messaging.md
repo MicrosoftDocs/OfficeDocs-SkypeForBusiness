@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425737(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
 ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars

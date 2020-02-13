@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398334(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
 ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars

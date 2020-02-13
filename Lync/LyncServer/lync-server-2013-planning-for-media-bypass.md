@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for media bypass
 ms:assetid: 8ac732b6-8538-4d7b-b1a9-2035e419dac2
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398703(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398703(v=OCS.15)
 ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars

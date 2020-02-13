@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify the default URL filter
 ms:assetid: 80a472b3-054e-45a6-80fc-9ee2bda28ee6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182544(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182544(v=OCS.15)
 ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars

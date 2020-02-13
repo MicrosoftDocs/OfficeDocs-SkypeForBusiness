@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Guidance for Location-Based Routing
 ms:assetid: ce88cb39-f486-46d4-af48-cdf047ad3444
-ms:mtpsurl: https://technet.microsoft.com/library/JJ994074(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994074(v=OCS.15)
 ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars

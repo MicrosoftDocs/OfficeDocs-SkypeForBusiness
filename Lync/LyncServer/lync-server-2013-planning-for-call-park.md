@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Call Park
 ms:assetid: e463c4ba-b7e4-42e5-98f0-0c8b842206dd
-ms:mtpsurl: https://technet.microsoft.com/library/Gg399010(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399010(v=OCS.15)
 ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Accessing monitoring data
 ms:assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688116(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688116(v=OCS.15)
 ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars

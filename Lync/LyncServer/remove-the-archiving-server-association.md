@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove the Archiving server association
 ms:assetid: dabac157-71ee-4afe-b0b6-4a083d165ffb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721903(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721903(v=OCS.15)
 ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars

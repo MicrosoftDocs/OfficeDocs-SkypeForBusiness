@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a collection of CDR configuration settings
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721878(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721878(v=OCS.15)
 ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure Automatic Client Sign-In to use the Director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398678(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398678(v=OCS.15)
 ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars

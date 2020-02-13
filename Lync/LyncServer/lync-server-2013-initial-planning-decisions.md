@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Initial planning decisions
 ms:assetid: cbaa5cb3-2b00-4b9f-952d-986a0c9f160b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398855(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398855(v=OCS.15)
 ms:contentKeyID: 48185651
 ms.date: 07/23/2014
 manager: serdars

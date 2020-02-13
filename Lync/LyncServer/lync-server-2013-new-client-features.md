@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New client features
 ms:assetid: 108bef85-329b-4252-8790-b13d271bd03e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398192(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398192(v=OCS.15)
 ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars

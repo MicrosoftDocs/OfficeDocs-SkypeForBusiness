@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New intertrunk feature
 ms:assetid: ca6c97a4-e981-4628-96e3-ab6a083c6c05
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721886(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721886(v=OCS.15)
 ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars

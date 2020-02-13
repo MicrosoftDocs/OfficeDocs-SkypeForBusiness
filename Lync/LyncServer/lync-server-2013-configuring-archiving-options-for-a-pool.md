@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Archiving options for a pool
 ms:assetid: b7cb0fd8-3d31-4858-a75c-c66a7742556e
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205200(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205200(v=OCS.15)
 ms:contentKeyID: 48185230
 ms.date: 07/23/2014
 manager: serdars

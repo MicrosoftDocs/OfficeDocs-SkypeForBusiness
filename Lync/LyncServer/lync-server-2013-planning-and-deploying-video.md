@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning and deploying video
 ms:assetid: dadfb7f3-dfd6-4847-b137-17dacafd7368
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205307(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205307(v=OCS.15)
 ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars

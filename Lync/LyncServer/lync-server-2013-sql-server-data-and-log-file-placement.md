@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: SQL Server data and log file placement
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398479(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)
 ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars

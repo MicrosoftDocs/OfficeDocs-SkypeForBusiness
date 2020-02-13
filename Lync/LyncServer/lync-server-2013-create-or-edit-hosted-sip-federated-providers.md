@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or edit hosted SIP federated providers
 ms:assetid: 0dd6dcb6-a88d-46b8-9c96-b35967309bcd
-ms:mtpsurl: https://technet.microsoft.com/library/JJ552445(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552445(v=OCS.15)
 ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars

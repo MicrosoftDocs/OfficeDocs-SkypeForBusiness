@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Lock or unlock a user PIN
 ms:assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688028(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688028(v=OCS.15)
 ms:contentKeyID: 49733618
 ms.date: 07/23/2014
 manager: serdars

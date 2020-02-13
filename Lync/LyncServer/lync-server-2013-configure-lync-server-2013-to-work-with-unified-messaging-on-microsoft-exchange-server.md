@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398193(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
 ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars

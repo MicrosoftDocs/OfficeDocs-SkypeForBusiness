@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Administrative tools software requirements
 ms:assetid: 2fb172c3-7b84-4e49-981c-2a17e7a00a29
-ms:mtpsurl: https://technet.microsoft.com/library/Gg195653(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195653(v=OCS.15)
 ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars

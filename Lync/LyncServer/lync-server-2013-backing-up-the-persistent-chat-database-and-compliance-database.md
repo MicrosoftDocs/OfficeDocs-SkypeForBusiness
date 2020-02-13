@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Backing up the Persistent Chat database and Compliance database
 ms:assetid: 0950e1a9-5a53-4d4a-bf3a-e57ae1225b69
-ms:mtpsurl: https://technet.microsoft.com/library/JJ215872(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215872(v=OCS.15)
 ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars

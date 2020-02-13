@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Remove-CsWebServiceConfiguration for Address Book management
 ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429713(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429713(v=OCS.15)
 ms:contentKeyID: 48184848
 ms.date: 07/23/2014
 manager: serdars

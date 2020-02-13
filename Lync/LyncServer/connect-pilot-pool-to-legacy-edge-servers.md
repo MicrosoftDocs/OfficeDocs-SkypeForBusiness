@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721875(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
 ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars

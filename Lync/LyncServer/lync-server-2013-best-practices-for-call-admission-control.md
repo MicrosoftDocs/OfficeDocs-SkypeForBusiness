@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Best practices for call admission control
 ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398770(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)
 ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars

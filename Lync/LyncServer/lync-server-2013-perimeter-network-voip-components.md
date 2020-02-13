@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Perimeter network VoIP components
 ms:assetid: 74230008-695d-436a-90b9-9cd060c70f7b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398559(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398559(v=OCS.15)
 ms:contentKeyID: 48184514
 ms.date: 07/23/2014
 manager: serdars

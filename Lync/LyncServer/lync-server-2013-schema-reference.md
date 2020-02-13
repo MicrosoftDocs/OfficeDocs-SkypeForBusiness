@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Schema reference
 ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398370(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398370(v=OCS.15)
 ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars

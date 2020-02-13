@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204848(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
 ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars

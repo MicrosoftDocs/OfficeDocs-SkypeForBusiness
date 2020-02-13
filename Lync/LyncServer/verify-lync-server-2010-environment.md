@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205231(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
 ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars

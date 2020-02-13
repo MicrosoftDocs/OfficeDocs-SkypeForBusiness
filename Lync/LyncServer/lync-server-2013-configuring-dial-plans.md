@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring dial plans
 ms:assetid: d4a4d803-f1a8-4ed9-907e-5f532a0f6c6b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398922(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398922(v=OCS.15)
 ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars

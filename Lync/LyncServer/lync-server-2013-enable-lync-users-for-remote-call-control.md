@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enable Lync users for remote call control
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615048(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615048(v=OCS.15)
 ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars

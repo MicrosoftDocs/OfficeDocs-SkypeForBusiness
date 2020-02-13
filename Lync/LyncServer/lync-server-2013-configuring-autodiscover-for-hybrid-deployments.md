@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring Autodiscover for hybrid deployments
 ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
-ms:mtpsurl: https://technet.microsoft.com/library/JJ945653(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
 ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars

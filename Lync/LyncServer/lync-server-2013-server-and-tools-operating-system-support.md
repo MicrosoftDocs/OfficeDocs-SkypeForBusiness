@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Server and tools operating system support
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412883(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412883(v=OCS.15)
 ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars

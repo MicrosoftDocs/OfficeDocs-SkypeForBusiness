@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ConferenceSessionDetails table
 ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412741(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412741(v=OCS.15)
 ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars

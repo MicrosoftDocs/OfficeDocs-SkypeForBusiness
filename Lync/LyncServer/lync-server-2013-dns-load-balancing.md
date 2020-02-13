@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398634(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)
 ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars

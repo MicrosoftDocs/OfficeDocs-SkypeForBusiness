@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Defining your organizations's requirements for monitoring
 ms:assetid: d587ff04-9af6-4ac1-ad42-076e7a40ac75
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205284(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205284(v=OCS.15)
 ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Modify existing Web Service configuration settings
 ms:assetid: bd9c7aa5-d31c-4fab-b31d-8baae26b1296
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182580(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182580(v=OCS.15)
 ms:contentKeyID: 48185272
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412772(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
 ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars

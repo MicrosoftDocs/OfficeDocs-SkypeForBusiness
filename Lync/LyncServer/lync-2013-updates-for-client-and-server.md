@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Updates for Lync
 ms:assetid: c4341430-7c0b-4119-aa08-91791e95d8c2
-ms:mtpsurl: https://technet.microsoft.com/library/Dn798863(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn798863(v=OCS.15)
 ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars

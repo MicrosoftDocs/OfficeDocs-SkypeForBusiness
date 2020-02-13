@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create or modify a common area phone Contact object
 ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ994083(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994083(v=OCS.15)
 ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars

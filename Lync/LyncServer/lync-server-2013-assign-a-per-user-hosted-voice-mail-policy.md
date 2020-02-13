@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign a per-user hosted voice mail policy
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398919(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398919(v=OCS.15)
 ms:contentKeyID: 48185456
 ms.date: 07/23/2014
 manager: serdars

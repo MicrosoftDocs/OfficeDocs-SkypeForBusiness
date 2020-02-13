@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Creating new add-ins for rooms
 ms:assetid: 463ee8fc-e920-4986-aa5e-d103f8b8dd7f
-ms:mtpsurl: https://technet.microsoft.com/library/JJ215875(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215875(v=OCS.15)
 ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars

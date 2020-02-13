@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Monitoring operating system
 ms:assetid: 72406d3e-54c8-4796-8d6d-2144a5b6f030
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720918(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720918(v=OCS.15)
 ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars

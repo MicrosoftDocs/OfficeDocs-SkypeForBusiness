@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205151(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
 ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars

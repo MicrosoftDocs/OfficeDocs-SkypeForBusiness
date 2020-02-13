@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-ms:mtpsurl: https://technet.microsoft.com/library/Gg615006(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
 ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Assign a Kerberos authentication account to a site
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
-ms:mtpsurl: https://technet.microsoft.com/library/Gg425901(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425901(v=OCS.15)
 ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars

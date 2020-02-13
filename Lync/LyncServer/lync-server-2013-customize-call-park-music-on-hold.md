@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Customize Call Park music on hold
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688031(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)
 ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars

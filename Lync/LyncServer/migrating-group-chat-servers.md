@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migrating Group Chat servers
 ms:assetid: 34bc98f4-919d-4b6f-be82-55bf766a48d0
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688020(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688020(v=OCS.15)
 ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars

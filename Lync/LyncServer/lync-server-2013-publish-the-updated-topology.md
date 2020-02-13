@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Publish the updated topology
 ms:assetid: 59455dd1-6a9e-433f-a714-d3636c068100
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204910(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204910(v=OCS.15)
 ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars

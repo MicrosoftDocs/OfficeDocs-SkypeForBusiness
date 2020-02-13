@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New conferencing features
 ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
-ms:mtpsurl: https://technet.microsoft.com/library/Gg413085(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)
 ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars

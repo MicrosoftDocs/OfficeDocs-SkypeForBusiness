@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Call admission control with a third-party PSTN gateway or PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398762(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398762(v=OCS.15)
 ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars

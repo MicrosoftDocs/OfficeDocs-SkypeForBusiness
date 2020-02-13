@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205264(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
 ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars

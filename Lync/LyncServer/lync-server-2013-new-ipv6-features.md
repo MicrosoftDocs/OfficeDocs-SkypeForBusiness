@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New IPv6 features
 ms:assetid: fafe1ba6-5a58-4e74-bbf7-856ccc73490b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205409(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205409(v=OCS.15)
 ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars

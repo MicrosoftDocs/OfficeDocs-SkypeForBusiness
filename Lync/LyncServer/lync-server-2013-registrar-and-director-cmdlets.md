@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Registrar and Director cmdlets
 ms:assetid: 327c08ab-7e1e-47c0-b280-a001722c116f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415641(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415641(v=OCS.15)
 ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars

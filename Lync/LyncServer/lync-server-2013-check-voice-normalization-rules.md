@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Check voice normalization rules
 ms:assetid: bf71a218-71cd-4b64-b8e8-b3a98b6e87a2
-ms:mtpsurl: https://technet.microsoft.com/library/Dn725212(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725212(v=OCS.15)
 ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars

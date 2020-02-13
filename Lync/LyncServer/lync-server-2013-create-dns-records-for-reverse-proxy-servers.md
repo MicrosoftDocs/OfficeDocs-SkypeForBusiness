@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
-ms:mtpsurl: https://technet.microsoft.com/library/Gg429719(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)
 ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars

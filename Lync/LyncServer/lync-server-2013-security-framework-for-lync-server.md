@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Security framework for Lync Server 2013
 ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-ms:mtpsurl: https://technet.microsoft.com/library/Dn481316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
 ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars

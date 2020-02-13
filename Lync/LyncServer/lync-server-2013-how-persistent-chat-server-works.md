@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: How Persistent Chat Server works
 ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
-ms:mtpsurl: https://technet.microsoft.com/library/JJ683096(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
 ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars

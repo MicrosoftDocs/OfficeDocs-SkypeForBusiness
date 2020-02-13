@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for Front End Servers, instant messaging, and presence
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398714(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398714(v=OCS.15)
 ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars

@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing devices, phones, and client applications
 ms:assetid: 7c52ecc7-e0f6-4684-9fe8-ba45437a08e0
-ms:mtpsurl: https://technet.microsoft.com/library/Gg521021(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521021(v=OCS.15)
 ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars

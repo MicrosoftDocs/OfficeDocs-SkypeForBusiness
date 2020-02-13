@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring support for Archiving
 ms:assetid: 579283fe-909c-46f2-a0c9-52ca1e7d63d8
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204905(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204905(v=OCS.15)
 ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars

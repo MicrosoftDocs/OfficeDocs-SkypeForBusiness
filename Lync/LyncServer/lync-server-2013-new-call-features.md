@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New call features
 ms:assetid: ea6bfb64-f859-4280-bfcf-fd3beb9496e0
-ms:mtpsurl: https://technet.microsoft.com/library/JJ721920(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721920(v=OCS.15)
 ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars

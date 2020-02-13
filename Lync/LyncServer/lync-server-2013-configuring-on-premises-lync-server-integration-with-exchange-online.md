@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-ms:mtpsurl: https://technet.microsoft.com/library/Hh533880(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
 ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars

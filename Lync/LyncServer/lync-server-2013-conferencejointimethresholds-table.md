@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: ConferenceJoinTimeThresholds table
 ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204809(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
 ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars

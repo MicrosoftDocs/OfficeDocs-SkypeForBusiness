@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing meetings and conferences
 ms:assetid: 8d292e37-bf86-4762-8c28-ff6402505215
-ms:mtpsurl: https://technet.microsoft.com/library/Gg182548(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182548(v=OCS.15)
 ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars

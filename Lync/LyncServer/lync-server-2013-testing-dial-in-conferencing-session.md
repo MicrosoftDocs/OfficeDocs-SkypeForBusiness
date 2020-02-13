@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing dial-in conferencing session
 ms:assetid: 6c505be5-5af7-450c-b3ca-10d9122bee5c
-ms:mtpsurl: https://technet.microsoft.com/library/Dn743834(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743834(v=OCS.15)
 ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars

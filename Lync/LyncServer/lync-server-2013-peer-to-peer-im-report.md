@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Peer-to-Peer IM Report
 ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
-ms:mtpsurl: https://technet.microsoft.com/library/Gg558620(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)
 ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars

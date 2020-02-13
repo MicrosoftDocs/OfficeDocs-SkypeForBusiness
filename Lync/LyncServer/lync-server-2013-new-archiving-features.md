@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: New Archiving features
 ms:assetid: c002e367-41ad-498d-9d23-8b117ac435b2
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205225(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205225(v=OCS.15)
 ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars

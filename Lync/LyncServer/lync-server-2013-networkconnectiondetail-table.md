@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: NetworkConnectionDetail table
 ms:assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205185(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205185(v=OCS.15)
 ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars

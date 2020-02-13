@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Viewing status of pools
 ms:assetid: 0d40bfe6-7660-4be4-b8bf-d03658558268
-ms:mtpsurl: https://technet.microsoft.com/library/Dn720319(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720319(v=OCS.15)
 ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars

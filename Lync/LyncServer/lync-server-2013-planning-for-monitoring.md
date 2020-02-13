@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning for monitoring
 ms:assetid: 26cead5a-183c-42f1-a4b0-0e8d61c6159d
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204752(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204752(v=OCS.15)
 ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars

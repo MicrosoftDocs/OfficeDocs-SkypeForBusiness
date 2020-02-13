@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Authenticated user permissions are removed
 ms:assetid: 5fcd70a5-813a-4076-9bb6-5b0d47505038
-ms:mtpsurl: https://technet.microsoft.com/library/Gg398425(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398425(v=OCS.15)
 ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars

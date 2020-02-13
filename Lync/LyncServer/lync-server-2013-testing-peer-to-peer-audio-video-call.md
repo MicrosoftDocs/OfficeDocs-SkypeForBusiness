@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
-ms:mtpsurl: https://technet.microsoft.com/library/Dn743835(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
 ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars

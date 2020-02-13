@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Deploying mobility
 ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
-ms:mtpsurl: https://technet.microsoft.com/library/Hh690055(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)
 ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars

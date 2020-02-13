@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Port summary - Reverse proxy
 ms:assetid: 59b9ac3c-3e6f-4776-b366-174f0dd1f2eb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204932(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204932(v=OCS.15)
 ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars

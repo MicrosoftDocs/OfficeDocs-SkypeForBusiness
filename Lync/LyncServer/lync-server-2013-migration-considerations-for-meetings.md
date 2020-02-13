@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
-ms:mtpsurl: https://technet.microsoft.com/library/Gg412800(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
 ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars

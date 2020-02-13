@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205224(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
 ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars

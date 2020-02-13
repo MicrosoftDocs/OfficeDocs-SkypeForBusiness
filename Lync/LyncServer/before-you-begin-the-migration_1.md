@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Before you begin the migration
 ms:assetid: 5938f360-017d-4658-8f99-e605b4129b18
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204909(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204909(v=OCS.15)
 ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars

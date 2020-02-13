@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: NetworkConfigurationSettings view
 ms:assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688003(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688003(v=OCS.15)
 ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars

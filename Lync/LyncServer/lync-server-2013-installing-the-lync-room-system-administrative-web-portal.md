@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Installing the Lync Room System Administrative Web Portal
 ms:assetid: dd19e368-c338-4e21-a40d-6439d46a9748
-ms:mtpsurl: https://technet.microsoft.com/library/Dn436326(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436326(v=OCS.15)
 ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars

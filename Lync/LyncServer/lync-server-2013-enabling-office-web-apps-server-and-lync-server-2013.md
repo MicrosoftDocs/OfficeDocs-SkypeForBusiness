@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Enabling Office Web Apps Server and Lync Server 2013
 ms:assetid: 3370ab55-9949-4f32-b88b-5cffed6aaad8
-ms:mtpsurl: https://technet.microsoft.com/library/JJ204792(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204792(v=OCS.15)
 ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars

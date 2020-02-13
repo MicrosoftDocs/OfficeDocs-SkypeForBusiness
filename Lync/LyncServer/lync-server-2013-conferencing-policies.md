@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Conferencing policies
 ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
-ms:mtpsurl: https://technet.microsoft.com/library/JJ688133(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688133(v=OCS.15)
 ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars

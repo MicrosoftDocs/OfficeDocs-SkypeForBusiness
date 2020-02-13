@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: View a list of computers running Lync Server 2013
 ms:assetid: 44eeec27-8b99-44f0-b0bd-622c12393d34
-ms:mtpsurl: https://technet.microsoft.com/library/Gg520987(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520987(v=OCS.15)
 ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars

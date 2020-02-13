@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Planning and deploying unified contact store
 ms:assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-ms:mtpsurl: https://technet.microsoft.com/library/JJ205283(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205283(v=OCS.15)
 ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars

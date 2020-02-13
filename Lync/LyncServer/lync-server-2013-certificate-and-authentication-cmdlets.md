@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Certificate and authentication cmdlets
 ms:assetid: ebb51778-3558-49d2-8343-d83e7a731559
-ms:mtpsurl: https://technet.microsoft.com/library/Gg415680(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415680(v=OCS.15)
 ms:contentKeyID: 48185711
 ms.date: 07/23/2014
 manager: serdars
