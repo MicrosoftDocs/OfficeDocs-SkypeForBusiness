@@ -81,7 +81,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     The Organization name is also the Default Domain name in Office 365.
 
-- **Tenant** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- **Tenant** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 To ensure that a hosted voicemail policy was created successfully, run the following command:
 
