@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_rank: Normal
 search.appverid: MET150
 description: Learn the different ways to assign policies to your users in Microsoft Teams.
 f1keywords: 
@@ -23,7 +23,7 @@ f1keywords:
 > [!NOTE]
 > **Two of the Microsoft Teams features discussed in this article, [batch policy assignment](#assign-a-policy-to-a-batch-of-users) and [group policy assignment](#assign-a-policy-to-a-group), are currently in preview.**
 
-As an admin, you use policies to control the Teams features that are available to users in your organization. For example, you can set messaging policies to control what chat and channel features are available to users, meeting policies to define the meeting experience, and calling policies to control which calling and call forwarding features are available to users.
+As an admin, you use policies to control the Teams features that are available to users in your organization. For example, there are calling policies, meeting policies, and messaging policies, to name just a few.
 
 Organizations have different types of users with unique needs and custom policies that you create and assign let you tailor policy settings to different sets of users based on those needs.
 
@@ -39,13 +39,13 @@ If a user is directly assigned a policy (either individually or through a batch 
 
 ![Diagram showing how a directly assigned policy takes precedence](media/assign-policies-example-directly-assigned.png)
 
-If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment priority](#group-assignment-priority) for the given policy type takes precedence.
+If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment ranking](#group-assignment-ranking) for the given policy type takes precedence.
 
-In this example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment priority relative to other groups that the user is a member of and that are also assigned a policy of the same type.  
+In this example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment ranking relative to other groups that the user is a member of and that are also assigned a policy of the same policy type.  
 
 ![Diagram showing how a policy inherited from  group takes precedence](media/assign-policies-example-group.png)
 
-If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. Here's an example.
+If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. Here's an example.
 
 ![Diagram showing how a global policy takes precedence](media/assign-policies-example-global.png)
 
@@ -92,7 +92,7 @@ Each policy type has it's own set of cmdlets for managing it. Use the ```Grant-`
 
  Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
-```
+```powershell
 Import-Module SkypeOnlineConnector
 $Cred = Get-Credential
 $CSSession = New-CsOnlineSession -Credential $Cred
@@ -101,7 +101,7 @@ Import-PSSession -Session $CSSession
 
 In this example, we assign a Teams meeting policy named Student Meeting Policy to a user named Reda.
 
-```
+```powershell
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
@@ -133,25 +133,25 @@ A batch can contain up to 20,000 users. You can specify users by their object Id
 
 If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
 
-```
+```powershell
 Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
 ```
 
 If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
 
-```
+```powershell
 Uninstall-Module MicrosoftTeams -AllVersions
 ```
 
 Run the following to install the latest Microsoft Teams PowerShell module from the PowerShell Test Gallery.
 
-```
+```powershell
 Install-Module MicrosoftTeams -Repository PSTestGallery
 ```
 
 Run the following to connect to Teams and start a session.
 
-```
+```powershell
 Connect-MicrosoftTeams
 ```
 
@@ -163,7 +163,7 @@ You may also want to [download and install the Azure AD PowerShell for Graph mod
 
 Run the following to connect to Azure AD.
 
-```
+```powershell
 Connect-AzureAD
 ```
 
@@ -173,14 +173,14 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 In this example, we use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
 
-```
+```powershell
 $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
 In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their UPNs.
 
-```
+```powershell
 Connect-AzureAD
 $users = Get-AzureADUser
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.UserPrincipalName -OperationName "Example 2 batch"
@@ -192,13 +192,13 @@ To learn more, see [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the ```New-CsBatchPolicyAssignmentOperation``` cmdlet for a given batch.
 
-```
+```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
 If the output shows that an error occurred, run the following to get more information about errors, which are in the ```UserState``` property.
 
-```
+```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
@@ -219,32 +219,32 @@ When you assign the policy, it's immediately assigned to the group. However, not
 
 ### What you need to know about group policy assignment
 
-Before you get started, it's important to understand precedence rules and group policy assignment priority.
+Before you get started, it's important to understand precedence rules and group policy assignment ranking.
 
 #### Precedence rules
 
 For a given policy type, a user's effective policy is determined according to the following:
 
 - A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group. This also means that if a user has a policy of a given type that was directly assigned to them, you have to remove that policy from the user before they can inherit a policy of the same type from a group.
-- If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority.
+- If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest ranking.
 - If a user isn't a member of any groups that are assigned a policy, the global (Org-wide default) policy for that policy type applies to the user.
 
 A user's effective policy is updated according to these rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
-#### Group assignment priority
+#### Group assignment rank
  
-When you assign a policy to a group, you set a priority for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
+When you assign a policy to a group, you assign a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
-The group assignment priority is relative to other group policy assignments of the same type. For example, if you're assigning a calling policy to two groups, set the priority of one assignment to 1 and the other to 2, with 1 being the highest priority. The group assignment priority indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
+The group assignment ranking is relative to other group policy assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
  
-Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher priority.
+Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher ranking.
 
-|Group |Teams calling policy name  |Priority|
+|Group |Teams calling policy name  |Rank|
 |---------|---------|---|
 |Store Managers   |Store Managers Calling Policy         |1|
 |Store Employees    |Store Employees Calling Policy      |2|
 
-If you don't set a priority, the policy assignment is given the lowest priority.
+If you don't assign a ranking, the policy assignment is given the lowest ranking.
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
@@ -253,25 +253,25 @@ If you don't set a priority, the policy assignment is given the lowest priority.
 
 If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
 
-```
+```powershell
 Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
 ```
 
 If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
 
-```
+```powershell
 Uninstall-Module MicrosoftTeams -AllVersions
 ```
 
 Run the following to install the latest Microsoft Teams PowerShell module from the PowerShell Test Gallery.
 
-```
+```powershell
 Install-Module MicrosoftTeams -Repository PSTestGallery
 ```
 
 Run the following to connect to Teams and start a session.
 
-```
+```powershell
 Connect-MicrosoftTeams
 ```
 
@@ -279,10 +279,10 @@ When you're prompted, sign in using your admin credentials.
 
 ### Assign a policy to a group
 
-In this example, we use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a Teams meeting policy named Retail Managers Meeting Policy to a group with an assignment priority of 1.
+In this example, we use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a Teams meeting policy named Retail Managers Meeting Policy to a group with an assignment ranking of 1.
 
-```
-New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Priority 1
+```powershell
+New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
 ```
 
 To learn more, see [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
@@ -293,13 +293,13 @@ Use the ```Get-CsGroupPolicyAssignment``` cmdlet to get all policies assigned to
 
 In this example, we retrieve all policies assigned to a specific group.
 
-```
+```powershell
 Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 ```
 
 In this example, we return all groups that are assigned a Teams meeting policy.
 
-```
+```powershell
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 ```
 
@@ -307,11 +307,11 @@ To learn more, see [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ### Remove a policy from a group
 
-Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to reflect their new priority. The following two tables show this example.
+Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower ranking are updated. For example, if you remove a policy that's assigned a ranking of 2, policies that are assigned a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
-|Group name  |Policy name  |Priority|
+|Group name  |Policy name  |Rank|
 |---------|---------|---------|
 |Sales    |Sales policy       | 1        |
 |West Region     |West Region policy         |2         |
@@ -320,7 +320,7 @@ Here's a list of the policy assignments and priorities for a Teams meeting polic
 
 If we remove the West Region policy from the West Region group, the policy assignments and priorities are updated as follows.
 
-|Group name  |Policy name  |Priority|
+|Group name  |Policy name  |Rank|
 |---------|---------|---------|
 |Sales    |Sales policy       | 1        |
 |Division    |Division policy         |2         |
@@ -328,7 +328,7 @@ If we remove the West Region policy from the West Region group, the policy assig
 
 In this example, we remove the Teams meeting policy from a group.
 
-```
+```powershell
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-0826-40bb-8c94-e5f367076044
 ```
 
@@ -338,14 +338,14 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd``` cmdlet to change that group's policy assignment as follows:
 
-- Change the priority
+- Change the ranking
 - Change the policy of a given policy type
-- Change the policy of a given policy type and the priority
+- Change the policy of a given policy type and the ranking
 
-In this example, we change a group's Teams call park policy to a policy named SupportCallPark and the assignment priority to 3.
+In this example, we change a group's Teams call park policy to a policy named SupportCallPark and the assignment ranking to 3.
 
-```
-Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Priority 3
+```powershell
+Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
 ```
 
 To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
@@ -356,7 +356,7 @@ Here's an example of how to change the effective policy for a user who is direct
 
 First, we use the ```Get-CsUserPolicyAssignment``` cmdlet together with the ```PolicySource``` parameter to get details of the Teams meeting broadcast policies associated with the user. To learn more, see [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment).
 
-```
+```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
@@ -369,10 +369,18 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-Now, we remove the Employee Events policy from the user. This means that the user no longer has a Teams meeting broadcast policy directly assigned to them and will inherit the Vendor Live Events policy that's assigned to the group the user belongs to.
+Now, we remove the Employee Events policy from the user. This means that the user no longer has a Teams meeting broadcast policy directly assigned to them and will inherit the Vendor Live Events policy that's assigned to the group the user belongs to. 
 
-```
+Use the following cmdlet in the Skype for Business PowerShell module to do this.
+
+```powershell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
+```
+
+You can use following cmdlet in the Teams Powershell module to do this at scale though a batch policy assignment, where $users is a list of users that you specify.
+
+```powershell
+New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
 ## Related topics
