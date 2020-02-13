@@ -22,14 +22,14 @@ description: "Learn how to configure voice routing with Microsoft Phone System D
 
 This article describes how to configure voice routing for Phone System Direct Routing.
 
-If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review other steps you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
-- Called number pattern 
-- Called number pattern + specific user who makes the call
+- The called number pattern 
+- The called number pattern plus the specific user who makes the call
  
-SBCs can be designated as active and backup. When the SBC that is configured as active for this number pattern, or number pattern + specific user, is not available, then the calls will be routed to a backup SBC.
+SBCs can be designated as active and backup. When the SBC that is configured as active is not available for a specific call route, then the call will be routed to a backup SBC.
  
 Call routing is made up of the following elements: 
 
@@ -41,7 +41,7 @@ Call routing is made up of the following elements:
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
-## Examples of voice routing policies with one PSTN Usage 
+## Example 1:  Call route with one PSTN Usage
 
 The following diagram shows two examples of voice routing policies in a call flow.
 
@@ -54,22 +54,22 @@ The following diagram shows two examples of voice routing policies in a call flo
 In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order.
 
   > [!NOTE]
-  > Unless the user also has a Microsoft Calling Plan license, calls to any number except numbers matching the patterns +1 425 XXX XX XX or +1 206 XXX XX XX in the example configuration are dropped. If the user has a Calling Plan license, the call is automatically routed according to the policies of the Microsoft Calling Plan. 
+  > Unless the user also has a Microsoft Calling Plan license, calls to any number except numbers matching the patterns +1 425 XXX XX XX or +1 206 XXX XX XX in the example configuration are dropped. If the user has a Calling Plan license, the call is automatically routed according to the policies of the Microsoft Calling Plan. The Microsoft Calling Plan applies automatically as the last route to all users with the Microsoft Calling Plan license and does not require additional call routing configuration.
 
-The Microsoft Calling Plan applies automatically as the last route to all users with the Microsoft Calling Plan license and does not require additional call routing configuration.
-
-In the example shown in the following diagram, a voice route is added to send calls to all other US and Canadian number (calls that go to called number pattern +1 XXX XXX XX XX).
+In the example shown in the following diagram, a voice route is added to send calls to all other US and Canadian numbers (calls that go to called number pattern +1 XXX XXX XX XX).
 
 ![Shows voice routing policy with a third route](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), Automatic Route is used. If nothing matches the number patterns in the administrator-created online voice routes, route via Microsoft Calling Plan.
+For all other calls:
 
-If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
+- If a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. 
+- If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan.
+- If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
 
   > [!NOTE]
-  > The Priority value for route "Other +1" doesn’t matter in this case, as there is only one route that matches the pattern +1 XXX XXX XX XX. If a user makes a call to +1 324 567 89 89 and both sbc5.contoso.biz and sbc6.contoso.biz are unavailable, the call is dropped.
+  > The Priority value for route "Other +1" doesn’t matter in this case because there is only one route that matches the pattern +1 XXX XXX XX XX. If a user makes a call to +1 324 567 89 89 and both sbc5.contoso.biz and sbc6.contoso.biz are unavailable, the call is dropped.
 
-The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN Usage "US and Canada".
+The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN Usage "US and Canada".  All routes are associated with the PSTN Usage "US and Canada" and the PSTN Usage is associated with the Voice Routing Policy "US Only." 
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -78,18 +78,17 @@ The following table summarizes the configuration using three voice routes. In th
 |US only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
 
-All routes are associated with the PSTN Usage "US and Canada" and the PSTN Usage is associated with the Voice Routing Policy "US Only." In this example, the voice routing policy is assigned to user Spencer Low.
 
-## Example 1. Configure a call route with a single PSTN Usage
+### Configuration steps for Example 1 
 
-The following example shows how to 
+The following example shows how to:
 
 - Create a single PSTN Usage 
 - Configure three voice routes
 - Create a voice routing policy
 - Assign the policy to user Spencer Low
 
-**Step 1:** Create the PSTN Usage "US and Canada".
+**Step 1:** Create the PSTN Usage "US and Canada"
 
 In a Skype for Business Remote PowerShell session, type:
 
@@ -120,7 +119,7 @@ The example below shows the result of  running the PowerShell command `(Get-CSOn
  Two trunks
 </pre>
 
-**Step 2:** In a PowerShell session in Skype for Business Online, create three routes: Redmond 1, Redmond 2, and Other +1, as detailed in the previous table. 
+**Step 2:** In a PowerShell session in Skype for Business Online, create three routes: Redmond 1, Redmond 2, and Other +1, as shown in the previous table
 
 To create the "Redmond 1" route, enter:
 
@@ -214,7 +213,7 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**Step 4:** By using PowerShell, grant the voice routing policy to user Spencer Low:
+**Step 4:** By using PowerShell, grant the voice routing policy to the user Spencer Low:
 
 In a PowerShell session in Skype for Business Online, type:
 
@@ -235,23 +234,21 @@ OnlineVoiceRoutingPolicy
 US Only
 </pre>
 
-## Example 2 - Configure a call route with multiple PSTN Usages
+## Example 2 - Call route with multiple PSTN Usages
 
-The voice routing policy created previously only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
+The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
-In the example that follows, you can create the voice routing policy "No Restrictions." The policy reuses the PSTN Usage "US and Canada" created in the previous example, as well as the new PSTN Usage "International." 
+In the example that follows, you can create the voice routing policy "No Restrictions." The policy reuses the PSTN Usage "US and Canada" created in Example 1, as well as the new PSTN Usage "International."  This routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz. 
 
-This routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz. The examples that are shown assign the US Only policy to user "Spencer Low," and No Restrictions to the user "John Woods."
+The examples that are shown assign the US Only policy to user Spencer Low, and the No Restrictions policy to the user John Woods so that routing occurs as follows:
 
-Spencer Low – Calls allowed only to US and Canadian numbers. When calling to the Redmond number range, the specific set of SBC must be used. Non-US numbers will not be routed unless the Calling Plan license is assigned to the user.
+- Spencer Low – US Only policy.  Calls are allowed only to US and Canadian numbers. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will not be routed unless the Calling Plan license is assigned to the user.
 
-John Woods – Calls allowed to any number. When calling to the Redmond number range, the specific set of SBC must be used. Non-US numbers will be routed via sbc2.contoso.biz and sbc5.contoso.biz.
+- John Woods – International policy.  Calls are allowed to any number. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will be routed using sbc2.contoso.biz and sbc5.contoso.biz.
 
 ![Shows voice routing policy assigned to user Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), Automatic Route is used. If nothing matches the number patterns in the administrator-created online voice routes, route via Microsoft Calling Plan.
-
-If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
+For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed using Microsoft Calling Plan.  If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
 
 ![Shows voice routing policy assigned to user John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -268,6 +265,9 @@ The following table summarizes routing policy "No Restrictions" usage designatio
   > [!NOTE]
   > - The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage "International" must be placed after the PSTN Usage "US Only." To change the order of the PSTN Usages, run the `Set-CSOnlineVoiceRoutingPolicy` command. <br/>For example, to change the order from "US and Canada" first and "International" second to the reverse order run:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - The priority for "Other +1" and "International" Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than "Redmond 1" and "Redmond 2."
+
+
+### Configuration steps for Example 2
 
 The following example shows how to:
 
@@ -356,3 +356,4 @@ The result is that the voice policy applied to John Woods’ calls is unrestrict
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
+[Configure Direct Routing](direct-routing-configure.md)
