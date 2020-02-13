@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Discover all the ways to get help in Microsoft Teams.
 appliesto: 
   - Microsoft Teams

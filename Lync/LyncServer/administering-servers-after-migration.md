@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering servers after migration
 ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205023(v=OCS.15)

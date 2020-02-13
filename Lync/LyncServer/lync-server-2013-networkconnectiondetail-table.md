@@ -3,6 +3,8 @@ title: 'Lync Server 2013: NetworkConnectionDetail table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: NetworkConnectionDetail table
 ms:assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205185(v=OCS.15)

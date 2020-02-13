@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Checking event logs'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking event logs
 ms:assetid: 5500720d-c628-4dbd-84bc-a5becc39b99c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720914(v=OCS.15)

@@ -17,7 +17,8 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: "Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. "
@@ -45,7 +46,7 @@ When ordering new phones for Skype for Business, it is important to buy phones w
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-For more details on Polycom phones, see [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+For more details on Polycom phones, see [Poly Documentation Library](https://documents.polycom.com/category/voice).
   
 For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
   

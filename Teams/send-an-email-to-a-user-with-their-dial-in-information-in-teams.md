@@ -16,7 +16,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Send your users an email with their audio conferencing information in Microsoft Teams."

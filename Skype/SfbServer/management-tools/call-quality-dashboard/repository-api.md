@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
@@ -51,7 +53,7 @@ Repository API supports Cross-Origin Resource Sharing (CORS). CORS is an HTTP fe
   
 Remember to include the exact protocol, host name, and port (if any). Do not to put any forward slash character (/) at the end. Multiple entries can be specified by separating with commas.
   
-```
+```xml
 <repositoryConfiguration>
     <service corsTrustedOrigin="https://<trusted-server>,http://<another-trusted-domain>:8080"" />
     <diagnostics eventLevel="Verbose" systemLoggedEventLevel="Error">

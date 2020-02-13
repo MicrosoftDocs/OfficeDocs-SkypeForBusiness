@@ -9,10 +9,12 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
+f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 

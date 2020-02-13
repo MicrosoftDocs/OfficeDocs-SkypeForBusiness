@@ -15,7 +15,9 @@ ms.custom:
   - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+  - CSH
+ms.custom: 
   - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto: 
   - Microsoft Teams

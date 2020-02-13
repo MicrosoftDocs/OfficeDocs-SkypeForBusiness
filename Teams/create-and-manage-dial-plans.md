@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
 description: Learn how to create and manage calling dial plans (PSTN Calling dial plans) and how to manage them. 

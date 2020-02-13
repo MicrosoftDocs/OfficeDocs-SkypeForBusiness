@@ -3,6 +3,8 @@ title: Remove an authorized host entry
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove an authorized host entry
 ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204902(v=OCS.15)

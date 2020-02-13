@@ -3,6 +3,8 @@ title: Migrating multiple sites and pools
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating multiple sites and pools
 ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688025(v=OCS.15)

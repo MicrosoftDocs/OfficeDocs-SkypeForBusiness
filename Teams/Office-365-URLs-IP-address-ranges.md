@@ -11,7 +11,9 @@ ms.service: msteams
 description: Learn how to properly configure Office 365 URLs and IP address ranges, bypass the forward proxy where available for connections with Microsoft Teams service, and the requirements for networking and security policies.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.network.ports
+f1.keywords:
+  - CSH
+ms.custom: ms.teamsadmincenter.meetingsettings.network.ports
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -25,6 +27,6 @@ Go to [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office3
 
 The Teams calling and meetings experience is built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics. As such, there are URLs and IPs that are required that may be associated with both Skype and Skype for Business.
 
-For all Office 365 workloads, the recommended connection method to Teams services is bypassing the forward proxy where possible. When a proxy server sits between a client and the Office 365 data centers, media might be forced over TCP instead of UDP, which would impact media quality. Download sample proxy PAC files that can be used to configure traffic bypass from [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
+For all Office 365 workloads, the recommended connection method to Teams services is bypassing the forward proxy where possible. When a proxy server sits between a client and the Office 365 data centers, media might be forced over TCP instead of UDP, which would impact media quality. Download sample proxy PAC files that can be used to configure traffic bypass from [Managing Office 365 endpoints](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints).
 
-If your networking and security policies require Office 365 traffic to flow through a proxy server, make sure that the above requirements are already met before deploying Teams into production (review [Proxy Servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md) for guidance).
+If your networking and security policies require Office 365 traffic to flow through a proxy server, make sure that the above requirements are already met before deploying Teams into production. For more information, read [Proxy Servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md).

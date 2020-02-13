@@ -11,7 +11,9 @@ ms.collection:
   - M365-collaboration
   - M365-voice
 ms.reviewer: crowe
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Landing page to deploying cloud voice in Teams

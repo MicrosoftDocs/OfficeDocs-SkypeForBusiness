@@ -13,7 +13,8 @@ appliesto:
 - Lync Server
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788945

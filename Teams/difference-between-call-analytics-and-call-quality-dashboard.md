@@ -16,9 +16,10 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+ - CSH
 ms.custom: 
-  - Reporting
+ - Reporting
 description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems."
 ---
 

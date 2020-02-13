@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
@@ -49,6 +51,7 @@ The following table compares the Teams functionality available for an organizati
 |Discover and join a public team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Become team owner  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 

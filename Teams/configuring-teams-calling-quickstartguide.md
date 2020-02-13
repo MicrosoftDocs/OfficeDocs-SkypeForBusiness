@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille, crowe
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 localization_priority: Normal
 ms.collection: 

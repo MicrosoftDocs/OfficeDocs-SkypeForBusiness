@@ -3,6 +3,8 @@ title: 'Lync Server 2013: FocusJoinsAndLeaves table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FocusJoinsAndLeaves table
 ms:assetid: e6f0212c-67e9-4061-8720-d0296e855991
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399026(v=OCS.15)

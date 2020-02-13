@@ -3,6 +3,8 @@ title: 'Configure media bypass global settings to use site and region informatio
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)

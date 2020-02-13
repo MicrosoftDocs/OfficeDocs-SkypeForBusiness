@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ClientVersions view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)

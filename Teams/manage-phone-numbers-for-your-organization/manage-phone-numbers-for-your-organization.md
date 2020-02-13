@@ -16,12 +16,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.voice.phonenumbers.overview
   - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
   - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
   - ms.lync.lac.VASAMissingGeoCodes
-ms.custom: 
   - Calling Plans
 description: Learn how to get and manage phone numbers for Microsoft Teams for your organization.
 ---

@@ -15,10 +15,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.directrouting.callanalytics
   - ms.teamsadmincenter.users.activity.audioqualitycolumn
-ms.custom: 
   - Reporting
 description: "Use per-user call analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams calls and meetings."
 ---

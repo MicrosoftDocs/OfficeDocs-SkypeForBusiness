@@ -10,6 +10,8 @@ audience: admin
 description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -134,7 +136,7 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
     - Per-user installation  (default)
   
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name>
         ```
     
@@ -142,7 +144,7 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     
     - Per-machine installation
 
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
         ```
 
@@ -160,7 +162,7 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     - Command line:
     This approach removes Teams, yet prevents re-installation of Teams. Run the following command:
   
-      ```
+      ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
       This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.

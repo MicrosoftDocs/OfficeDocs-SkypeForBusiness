@@ -3,6 +3,8 @@ title: Lync Server 2013 Tools
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 3abcfff8-bab6-4d28-81d2-8d6fb6ca83e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn163598(v=OCS.15)

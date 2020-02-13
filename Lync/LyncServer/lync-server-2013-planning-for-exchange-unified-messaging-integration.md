@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for Exchange Unified Messaging integration'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Exchange Unified Messaging integration
 ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399031(v=OCS.15)

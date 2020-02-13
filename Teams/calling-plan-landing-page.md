@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+f1.keywords:
+- NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
 description: Calling Plan landing page

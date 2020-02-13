@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of the Lync Server hybrid environment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Lync Server 2013 hybrid environment
 ms:assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204669(v=OCS.15)

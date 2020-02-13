@@ -13,7 +13,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.overview
   - ms.teamsadmincenter.meetingpolicies.audioandvideo
   - ms.teamsadmincenter.meetingpolicies.contentsharing

@@ -12,8 +12,10 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview​
+f1.keywords: 
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview​
 - Calling Plans
 description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
 ---

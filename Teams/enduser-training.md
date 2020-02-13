@@ -14,7 +14,9 @@ ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing-page
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
   - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto: 

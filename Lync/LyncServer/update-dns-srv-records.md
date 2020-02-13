@@ -3,6 +3,8 @@ title: Update DNS SRV records
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Update DNS SRV records
 ms:assetid: 9542b91a-108c-4980-89ec-634905cbbf26
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688139(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New Archiving features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Archiving features
 ms:assetid: c002e367-41ad-498d-9d23-8b117ac435b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205225(v=OCS.15)

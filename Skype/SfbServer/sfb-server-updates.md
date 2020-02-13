@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skype-for-business-server
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20

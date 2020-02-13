@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -491,7 +493,7 @@ online survey tool.
 Many core planning elements go into optimizing, right-sizing, and remediating
 your network infrastructure to ensure a high-quality, efficient path to the
 Microsoft Teams service. The planning tasks and requirements are covered in our
-[network readiness](upgrade-prepare-environment-prepare-network.md) guidance. Networks often evolve over
+[network readiness](prepare-network.md) guidance. Networks often evolve over
 time due to upgrades, expansion, or other business requirements. It’s important
 that you account for your requirements for Teams in your network planning
 activities.
@@ -636,7 +638,7 @@ the nature of the issue.
 
 1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or itsdependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Office 365 service health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
 
-2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](upgrade-prepare-environment-prepare-network.md) guidance.
+2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 
 3. **Check the known issues list:** Consult the [list of known issues for Teams](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 

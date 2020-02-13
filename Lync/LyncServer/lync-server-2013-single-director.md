@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Single Director'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single Director
 ms:assetid: 2a4821aa-f15f-49b8-beec-0b08676497e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204763(v=OCS.15)

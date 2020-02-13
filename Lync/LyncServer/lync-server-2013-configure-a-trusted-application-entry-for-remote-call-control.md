@@ -3,6 +3,8 @@ title: 'Configure a trusted application entry for remote call control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)

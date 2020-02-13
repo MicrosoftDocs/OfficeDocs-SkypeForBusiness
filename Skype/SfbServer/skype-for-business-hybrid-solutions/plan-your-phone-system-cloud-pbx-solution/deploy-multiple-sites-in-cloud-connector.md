@@ -8,6 +8,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -28,7 +30,7 @@ The following shows an example configuration to deploy Skype for Business Cloud 
   
 PSTN Site 1
   
-```
+```console
 [Common]
 SiteName=Site1
 [EdgeServer]
@@ -46,7 +48,7 @@ ExternalMRPublicIPs=23.99.115.35
 
 PSTN Site 2
   
-```
+```console
 [Common]
 SiteName=Site2
 [EdgeServer]

@@ -7,10 +7,12 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: "Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing."

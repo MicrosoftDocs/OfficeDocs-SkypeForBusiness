@@ -3,6 +3,8 @@ title: Lync Server 2013 scalability
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scalability
 ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417160(v=OCS.15)

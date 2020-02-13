@@ -3,6 +3,8 @@ title: Lync Server 2013 IPsec exceptions
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IPsec exceptions
 ms:assetid: 241f1eca-6f2f-44de-90b1-2cb659cbe27c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425719(v=OCS.15)

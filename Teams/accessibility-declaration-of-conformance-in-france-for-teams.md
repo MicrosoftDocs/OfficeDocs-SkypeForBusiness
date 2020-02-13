@@ -13,7 +13,8 @@ search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Legal
 hideEdit: true

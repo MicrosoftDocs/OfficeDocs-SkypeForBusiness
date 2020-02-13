@@ -15,7 +15,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Microsoft Teams and what the conference ID's parameters should be. "

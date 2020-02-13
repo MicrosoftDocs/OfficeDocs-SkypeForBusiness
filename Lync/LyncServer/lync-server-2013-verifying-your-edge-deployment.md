@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verifying your edge deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying your edge deployment
 ms:assetid: 05ac3530-8756-4c77-8b3b-9d0027029dce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398108(v=OCS.15)

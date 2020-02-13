@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Calling Plans
 description: "See how to search for phone numbers that you can assign to your users, by country or region and city, and specify the quantity of numbers you need."

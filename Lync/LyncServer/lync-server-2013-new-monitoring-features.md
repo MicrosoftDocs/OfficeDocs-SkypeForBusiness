@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New Monitoring features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Monitoring features
 ms:assetid: e810f79d-e805-4e1a-a35e-e99001d0b293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399034(v=OCS.15)

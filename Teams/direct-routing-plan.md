@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
 ---
 
@@ -243,17 +245,15 @@ You need to open ports for all these IP addresses in your firewall to allow inco
 
 ## SIP Signaling: Ports
 
-Port requirements are the same for all Office 365 environments where Direct Routing is offered:
+You must use the following ports for Office 365 environments where Direct Routing is offered:
 - Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
-You must use the following ports:
-
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC|
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only ports 5061 and 5062 must be used)|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 ||||||
 

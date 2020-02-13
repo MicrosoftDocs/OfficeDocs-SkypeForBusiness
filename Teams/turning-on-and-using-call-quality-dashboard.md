@@ -16,12 +16,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Reporting
-description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business."
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
+description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
 # Set up Call Quality Dashboard (CQD)

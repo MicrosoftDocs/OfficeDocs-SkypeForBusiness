@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Licensing
 description: "Customers have been provided a complimentary dial-out capability that will end on November 30, 2019.  Beginning December 1, 2019, each audio conferencing subscription provides 60 minutes per user per month to ANY of the Zone A countries as described in this document. "

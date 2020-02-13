@@ -12,9 +12,10 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 description: Learn how to upload a text file that contains a list of physical location and associated subnets to use as reporting labels for Call Analytics and Call Quality Dashboard reports.
-ms.custom: 
+f1.keywords:
+- CSH
+ms.custom:
   - NewAdminCenter_Update
-f1keywords: 
   - ms.teamsadmincenter.locations.reportinglabels.overview
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
   - ms.teamsadmincenter.locations.overview

@@ -15,9 +15,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords: 
+ - CSH
 ms.custom: 
   - Calling Plans
+  - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 description: Learn about the different phone number types that Teams uses for Calling Plans.
 ---
 

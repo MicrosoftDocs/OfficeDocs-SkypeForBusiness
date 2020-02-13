@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Licensing
 description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. "
@@ -52,9 +53,9 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
 
 1. Sign in to the new Office 365 portal with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
+2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
-3. Expand **Add-on subscriptions**, and then choose **Communications Credits** > **Buy now**.
+3. Select **Communications Credits**.
     
 4. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
     
@@ -87,9 +88,9 @@ When you are setting up Communications Credits, you will need to investigate cal
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
     
-3. In the Action pane under **Product licenses**, click **Edit**.
+3. Choose **Licenses and Apps**.
     
-4. On the **Product licenses** page, toggle **Communications Credits** to **On** to assign this license, and then click **Save**.
+4. Toggle **Communications Credits** to **On** to assign this license, and then select **Save**.
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.

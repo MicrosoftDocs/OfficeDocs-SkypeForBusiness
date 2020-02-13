@@ -13,7 +13,9 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+  - CSH
+ms.custom: 
   - ms.teamsadmincenter.networkplanner.overview
   - ms.teamsadmincenter.networkplanner.personas
 appliesto: 

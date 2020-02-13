@@ -17,7 +17,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn about the features, availability, and how to plan and set up Microsoft Phone System for your business. "

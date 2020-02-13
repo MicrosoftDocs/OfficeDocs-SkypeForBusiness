@@ -11,6 +11,8 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_PracticalGuidance
@@ -25,7 +27,7 @@ This PowerShell script can be leveraged for the cleanup of Microsoft Teams from 
 
 ## Sample script
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script allows you to uninstall the Microsoft Teams app and remove Teams directory for a user.
@@ -56,6 +58,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-````
+```
 
 
