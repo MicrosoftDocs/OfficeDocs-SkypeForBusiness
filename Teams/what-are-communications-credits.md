@@ -47,7 +47,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## What are the Communications Credits rates?
 
-If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) Plans (scroll down to "See rates for where you want to call").
+If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) Plans (scroll down to "See rates for where you want to call").
   
 ## What is it?
 

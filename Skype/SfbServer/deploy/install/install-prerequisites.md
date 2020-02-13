@@ -41,7 +41,7 @@ Skype for Business Server requires the Windows Server operating system and a num
   
 Watch the video steps for **install prerequisites**:
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
+> [!video https://www.microsoft.com/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
   
 ### Install required roles and features for front-end servers
 
