@@ -45,8 +45,8 @@ This page enables Networking professionals to find the information they need for
 
 ## Security
 - [Overview](https://technet.microsoft.com/library/gg195690.aspx)
-- [Internet Boundary](https://technet.microsoft.com/en-us/gg195654.aspx) 
-- [Security Framework](https://technet.microsoft.com/en-us/gg195819.aspx)
+- [Internet Boundary](https://technet.microsoft.com/gg195654.aspx) 
+- [Security Framework](https://technet.microsoft.com/gg195819.aspx)
 
 
 ## Call Admission Control
