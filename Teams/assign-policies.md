@@ -233,7 +233,7 @@ A user's effective policy is updated according to these rules when a user is add
 
 #### Group assignment ranking
  
-When you assign a policy to a group, you assign a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
+When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
 The group assignment ranking is relative to other group policy assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
  
@@ -244,7 +244,7 @@ Say, for example, you have two groups, Store Employees and Store Managers. Both 
 |Store Managers   |Store Managers Calling Policy         |1|
 |Store Employees    |Store Employees Calling Policy      |2|
 
-If you don't assign a ranking, the policy assignment is given the lowest ranking.
+If you don't specify a ranking, the policy assignment is given the lowest ranking.
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
@@ -307,7 +307,7 @@ To learn more, see [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ### Remove a policy from a group
 
-Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower ranking are updated. For example, if you remove a policy that's assigned a ranking of 2, policies that are assigned a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
+Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower ranking are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
