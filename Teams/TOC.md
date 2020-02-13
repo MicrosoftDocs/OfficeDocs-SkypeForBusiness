@@ -636,7 +636,6 @@
 ## [AppLocker application control policies in Teams](applocker-in-teams.md)
 ## Retention policies in Teams
 ### [Overview](retention-policies.md)
-### [Retention policies FAQ](retention-policies-FAQ.md)
 ### [Retention policies known issues](retention-policies-known-issues.md)
 ## [Location of data in Teams](location-of-data-in-teams.md)
 ## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
