@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 description: "tblPrincipalMeta contains the principals that have to be refreshed from Active Directory Domain Services."

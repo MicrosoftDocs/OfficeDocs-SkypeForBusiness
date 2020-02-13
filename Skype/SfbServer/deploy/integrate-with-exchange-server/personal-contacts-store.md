@@ -8,6 +8,8 @@ ms.date: 1/29/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae

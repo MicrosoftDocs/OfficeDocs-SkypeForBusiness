@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -24,7 +26,7 @@ description: "Learn about the planning considerations for Phone System in Office
 
 Learn about the planning considerations for Phone System in Office 365 (Cloud PBX) with on-premises PSTN connectivity.
 
-This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Phone System in Office 365 with on-premises PSTN connectivity enables you to leverage Phone System (Cloud PBX) capabilities for your users. This can help with the following scenarios:
 
@@ -46,7 +48,7 @@ Cloud PBX with on-premises PSTN Connectivity does not offer the same feature set
 > [!CAUTION]
 > Lync Phone Edition devices MUST be updated to minimum required firmware in your on premises environment PRIOR to moving to Skype for Business Online.
 If you move your users from on-premises to online prior to updating the firmware, users will be unable to connect using their phones. To correct this problem, users must be moved back to the on premises environment to have their phones updated to the minimum firmware. DO NOT ATTEMPT TO UPDATE TO MINIMUM FIRMWARE OR HARD RESET THE PHONE PRIOR TO MOVING THE USER BACK TO YOUR ON PREMISES ENVIRONMENT.
- If a hard reset is performed while the device is not at minimum firmware it will default to using PIN Authentication, which is not supported in Skype for Business Online. For more information, please refer to [Getting phones for Skype for Business Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
+ If a hard reset is performed while the device is not at minimum firmware it will default to using PIN Authentication, which is not supported in Skype for Business Online. For more information, please refer to [Getting phones for Skype for Business Online](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
 By deploying Phone System in Office 365 with on-premises PSTN connectivity, you can move your users to the cloud via Skype for Business Online at your own pace, while retaining their on-premises PSTN connectivity. If you have a PBX, you continue to use it to provide PSTN connectivity for the users you move to the cloud. Once a user is moved to Skype for Business Online and Phone System in Office 365, their legacy PBX phone will no longer work, but their phone number will route to any of the Skype for Business clients for PCs or Smart phones as well as Skype for Business-compliant desk phones. Once ported, Phone System in Office 365 users and legacy PBX users can call each other normally as well as make/receive PSTN calls using their normal phone number.
 
@@ -65,7 +67,7 @@ When deploying a cloud-hosted service like Phone System in Office 365 with on-pr
 - **Your enterprise's own network** The quality of the real-time media is heavily dependent on your own network: especially the WiFi network and the quality of the interconnect used to reach the Office 365 cloud.
 
 > [!NOTE]
-> For more information on tuning performance in Skype for Business Online, see [Tune Skype for Business Online performance](https://support.office.com/en-us/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
+> For more information on tuning performance in Skype for Business Online, see [Tune Skype for Business Online performance](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
 
 ## Prerequisites for using Phone System in Office 365 with on-premises PSTN connectivity
 
@@ -94,7 +96,7 @@ In addition you must ensure the following:
 
 - **On-premises Enterprise Voice is configured and tested for on-premises users** This includes PSTN connectivity components. For more information, see the following topics if you are using Skype for Business Server 2015, see [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
-    If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
+    If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg412876%28v=ocs.15%29.aspx).
 
 - **Active Directory synchronization** You must configure Active Directory synchronization using Azure AD Connect. For more information, see [Managing Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
@@ -103,9 +105,9 @@ In addition you must ensure the following:
 
 - **Configure your hybrid deployment** Whether all your Skype for Business users are currently homed either online or on-premises, or if you currently have a mix, you must complete the steps to configure a hybrid deployment of Skype for Business Server or Lync Server 2013, as outlined in [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). For more background information on hybrid deployments, see [Plan hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
 
-    If you are using Lync Server 2013, see [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
+    If you are using Lync Server 2013, see [Lync Server 2013 hybrid](https://technet.microsoft.com/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Recommended) Active Directory Federation Services (AD FS).** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **(Recommended) Active Directory Federation Services (AD FS).** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx).
 
 For information about deploying Phone System in Office 365, see [Enable users for Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](enable-users-for-phone-system.md).
 

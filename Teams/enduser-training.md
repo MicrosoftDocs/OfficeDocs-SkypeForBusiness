@@ -14,7 +14,9 @@ ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing-page
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
   - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto: 
@@ -199,7 +201,7 @@ Watch this short video introducing you to Teams</h3>
                     <div class="cardText">
                         <h3>Posts & messages</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Create and format a post</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Get attention with @mentions</a></p>
+                         <p><a href="https://support.office.com/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Get attention with @mentions</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Save a post or a message</a></p>
                     </div>
                 </div>

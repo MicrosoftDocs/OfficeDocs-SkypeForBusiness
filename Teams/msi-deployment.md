@@ -10,6 +10,8 @@ audience: admin
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+  - NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -98,11 +100,14 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  
 
 For the 32-bit version
-```PowerShell
+
+```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
+
 For the 64-bit version
-```PowerShell
+
+```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 

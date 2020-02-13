@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade. 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

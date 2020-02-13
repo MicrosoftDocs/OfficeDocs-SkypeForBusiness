@@ -11,8 +11,11 @@ ms.reviewer: dearbeen
 description: Prepare for your upgrade to Microsoft Teams Only mode 
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
-f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords:
+- CSH
+ms.custom: 
+ - Teams-upgrade-guidance
+ - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -47,7 +50,7 @@ While thousands of customers have successfully upgraded to Microsoft Teams, ther
  - Office 365 Germany
  - Skype for Business tenant is hosted in South Korea **and** the organization requires Teams data to be stored in South Korea. Currently, organizations with Skype for Business data stored in South Korea that upgrade to Teams will have their Teams data stored in the Asia datacenter region, not in the South Korea datacenter region.
 
-**User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. In particular, we are still working on addressing scenarios for users whose primary device is VDI-based. Please monitor the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) site for announcements.
+**User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. In particular, we are still working on addressing scenarios for users whose primary device is VDI-based. Please monitor the [Office 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) site for announcements.
 
 > [!NOTE]
 > Before you move to Teams Only mode you need to replace or update devices that don’t support Teams. 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: "This article describes how to manage services running in a Skype for Business Server topology."

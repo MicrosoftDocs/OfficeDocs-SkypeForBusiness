@@ -8,6 +8,8 @@ ms.date: 9/25/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -31,7 +33,7 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
   
 ### To enable your users for Phone System in Office 365 voice and voicemail
 
-1. Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers. If it's not, you can download it from [the download center](https://www.microsoft.com/en-us/download/details.aspx?id=39366). You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers. If it's not, you can download it from [the download center](https://www.microsoft.com/download/details.aspx?id=39366). You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Start Windows PowerShell as an administrator.
     

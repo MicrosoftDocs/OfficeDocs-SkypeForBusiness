@@ -10,6 +10,8 @@ audience: admin
 description: Teams client experience and conformance to coexistence modes
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -79,9 +81,9 @@ When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the config
 
 
 
-# Related topics
+## Related topics
 
-[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 

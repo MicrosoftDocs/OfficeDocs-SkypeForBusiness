@@ -13,6 +13,8 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
 ---
@@ -40,7 +42,7 @@ Learn how to manage Teams for your organization.
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
+        <a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
@@ -27,7 +29,7 @@ These resources build on the standard Teams deployment guidance and are designed
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +47,7 @@ These resources build on the standard Teams deployment guidance and are designed
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
+                            <img src="https://docs.microsoft.com/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +65,7 @@ These resources build on the standard Teams deployment guidance and are designed
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +83,7 @@ These resources build on the standard Teams deployment guidance and are designed
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
+                            <img src="https://docs.microsoft.com/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +101,7 @@ These resources build on the standard Teams deployment guidance and are designed
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
                         </div>
                     </div>
                     <div class="cardText">

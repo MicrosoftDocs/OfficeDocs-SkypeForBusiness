@@ -1,0 +1,93 @@
+### YamlMime:Hub
+
+title: Microsoft Teams admin documentation # < 60 chars
+summary: Learn how to roll out and manage Teams, and prepare your users for Teams # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: teams
+
+metadata:
+  title: Microsoft Teams admin documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to roll out and manage Teams, and prepare your users for Teams # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
+  localization_priority: Priority
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: How to roll out Teams
+      itemType: deploy
+      url: /MicrosoftTeams/how-to-roll-out-teams
+    # Card
+    - title: Find training for you and your users
+      itemType: learn
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    # Card
+    - title: Upgrade from Skype for Business to Teams
+      itemType: overview
+      url: /MicrosoftTeams/upgrade-start-here
+    # Card
+    - title: Adoption hub
+      itemType: get-started
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    # Card
+    - title: IT Architecture posters and solutions
+      itemType: architecture
+      url: /MicrosoftTeams/teams-architecture-solutions-posters
+    # Card
+    - title: Start here if you're new to Teams
+      itemType: quickstart
+      url: /MicrosoftTeams/teams-overview
+
+# additionalContent section (optional)
+# Card with links style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - items:
+        # Card
+        - title: Top articles
+          links:
+            - text: Prepare your network for Teams
+              url: /MicrosoftTeams/prepare-network
+            - text: Use Advisor for Teams to help you roll out Teams
+              url: /MicrosoftTeams/use-advisor-teams-roll-out
+            - text: How Teams uses memory
+              url: /MicrosoftTeams/teams-memory-usage-perf
+            - text: Communicate with users from other organizations (guest/external access)
+              url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+            - text: Security and compliance in Teams
+              url: /MicrosoftTeams/security-compliance-overview
+        # Card
+        - title: Voice calling with Teams
+          links:
+            - text: Cloud voice in Microsoft Teams
+              url: /MicrosoftTeams/cloud-voice-landing-page
+            - text: Microsoft 365 Business Voice
+              url: /MicrosoftTeams/business-voice/whats-business-voice
+            - text: Phone System Direct Routing
+              url: /MicrosoftTeams/direct-routing-landing-page
+            - text: Set up common area phones
+              url: /MicrosoftTeams/set-up-common-area-phones
+        # Card
+        - title: More Teams content
+          links:
+            - text: Help content for end-users
+              url: https://support.office.com/Teams
+            - text: Teams tech community
+              url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+            - text: Teams user feedback forum
+              url: https://microsoftteams.uservoice.com/
+            - text: Teams product info
+              url: https://products.office.com/microsoft-teams/group-chat-software
+            - text: Teams developer platform
+              url: https://docs.microsoft.com/microsoftteams/platform/overview
+
+

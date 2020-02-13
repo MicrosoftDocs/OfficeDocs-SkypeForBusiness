@@ -81,7 +81,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     The Organization name is also the Default Domain name in Office 365.
 
-- **Tenant** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- **Tenant** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 To ensure that a hosted voicemail policy was created successfully, run the following command:
 
@@ -97,7 +97,7 @@ For example, the following command assigns a non-Global hosted voicemail policy 
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## Enable a user for Cloud Voicemail
@@ -106,13 +106,17 @@ To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use th
 
 For example, the following command enables a user account for Cloud Voicemail: 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 The cmdlet verifies that a Cloud Voicemail policy--at the global, site, or user level--applies to this user. If no policy applies, the cmdlet fails.  
 
 The next example disables a user account for Cloud Voicemail:
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 The cmdlet verifies that no hosted voicemail policy--at the global, site, or user level--applies to this user. If a policy does apply, the cmdlet fails.
 

@@ -10,6 +10,8 @@ audience: admin
 search.appverid: MET150
 description: Learn about the network settings that you must configure for Location-Based Routing for Direct Routing and enhanced emergency services.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-voice
 appliesto: 

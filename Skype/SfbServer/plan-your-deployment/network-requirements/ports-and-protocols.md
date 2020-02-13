@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -27,7 +29,7 @@ While this may seem a bit daunting at first, the heavy lifting for planning this
   
 You can also find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
 > [!NOTE]
-> - If you're implementing Skype for Business Online (O365) refer to [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid environments will need to reference this topic and also [Plan hybrid connectivity](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - If you're implementing Skype for Business Online (O365) refer to [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid environments will need to reference this topic and also [Plan hybrid connectivity](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - You can have hardware or software firewalls, we don't require specific models or versions. What matters is what ports are whitelisted so the firewall won't impair the functioning of Skype for Business Server.
   
 ## Port and Protocol Details

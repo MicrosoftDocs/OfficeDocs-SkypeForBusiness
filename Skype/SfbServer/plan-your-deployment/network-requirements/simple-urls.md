@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: "Summary: Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server."
@@ -95,13 +97,13 @@ If you have multiple sites that contain Front End pools and your DNS provider su
 
 To configure this, create two GeoDNS addresses. Each address has two DNS A or CNAME records that resolve to two pools which are paired together for disaster recovery purposes. One GeoDNS address is used for internal access, and resolves to the internal web FQDN or load balancer IP address for the two pools. The other GeoDNS address is used for external access and resolves to the external web FQDN or load balancer IP address for the two pools. The following is an example for the Meet simple URL, using the FQDNs for the pools. 
 
-```
+```console
 Meet-int.geolb.contoso.com
      Pool1InternalWebFQDN.contoso.com
      Pool2InternalWebFQDN.contoso.com
 ```
 
-```
+```console
 Meet-ext.geolb.contoso.com
      Pool1ExternalWebFQDN.contoso.com
      Pool2ExternalWebFQDN.contoso.com
@@ -118,7 +120,7 @@ You can set up the same configuration for the Dial-In simple URL. To do so, crea
 
 Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET lyncdiscover.<sipdomain> requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
 
-```
+```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```

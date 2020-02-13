@@ -11,6 +11,8 @@ ms.reviewer: lolaj
 description: Learn about the reporting options available to see how users are using Microsoft Teams and gather feedback on user experiences.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

@@ -17,9 +17,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressGBSyntaxError
 description: "Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.)."
 ---
 

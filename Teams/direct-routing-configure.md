@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
@@ -42,9 +44,9 @@ You can configure your Microsoft Phone System and enable users to use Direct Rou
 
 The following are the three high-level steps to let you connect, or pair, the SBC to the Direct Routing interface: 
 
-- Connect to **Skype for Business Online** admin center using PowerShell 
-- Pair the SBC 
-- Validate the pairing 
+1. Connect to **Skype for Business Online** admin center using PowerShell 
+2. Pair the SBC 
+3. Validate the pairing 
 
 ### Connect to Skype for Business Online by using PowerShell 
 
@@ -197,16 +199,16 @@ To add the phone number and enable for voicemail:
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-For example, to add a phone number for user "Spencer Low," you would enter the following: 
+	For example, to add a phone number for user "Spencer Low," you would enter the following: 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+	```PowerShell
+	Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+	```
 
-The phone number used has to be configured as a full E.164 phone number with country code. 
+	The phone number used has to be configured as a full E.164 phone number with country code. 
 
-  > [!NOTE]
-  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
+	  > [!NOTE]
+	  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 ### Configure Voice Routing 
 
@@ -279,7 +281,7 @@ Validate that the usage was created by entering:
 Get-CSOnlinePSTNUsage
 ``` 
 Which returns a list of names that may be truncated:
-```output
+```console
 Identity	: Global
 Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -480,28 +482,28 @@ Name                      : International
 
 The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 Take note of the order of PSTN Usages:
 
-a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
+  a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
 
-b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+  b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-Which returns
+Which returns:
 
-<pre>
-Identity		      : International 
-OnlinePstnUsages : {US and Canada, International}	 
-Description		 :  
-RouteType	 	      : BYOT
-</pre>
+	<pre>
+	Identity		      : International 
+	OnlinePstnUsages : {US and Canada, International}	 
+	Description		 :  
+	RouteType	 	      : BYOT
+	</pre>
 
 **Step 4**: Assign the voice routing policy to the user "John Woods" using the following command.
 

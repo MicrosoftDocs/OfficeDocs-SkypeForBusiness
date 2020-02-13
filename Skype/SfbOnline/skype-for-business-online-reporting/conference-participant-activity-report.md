@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords: 
-- O365E_ReportsS4BPartActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BPartActivity
 description: "Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. "
 ---
 

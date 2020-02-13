@@ -10,6 +10,8 @@ audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB
@@ -37,7 +39,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing finger with an arrow representing get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing finger with an arrow representing get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +59,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -77,7 +79,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-teams.svg" alt="A grid and a cloud icon representing a hybrid deployment" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="A grid and a cloud icon representing a hybrid deployment" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,7 +99,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/usage-report-teams.svg" alt="A graphical report icon representing usage reports" />
+                            <img src="https://docs.microsoft.com/office/media/icons/usage-report-teams.svg" alt="A graphical report icon representing usage reports" />
                         </div>
                     </div>
                     <div class="cardText">

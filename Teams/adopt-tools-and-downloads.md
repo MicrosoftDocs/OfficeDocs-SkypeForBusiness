@@ -10,6 +10,8 @@ layout: LandingPage
 ms.date: 11/20/2018
 audience: admin 
 ms.service: msteams
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt
@@ -31,7 +33,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -51,7 +53,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +73,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -90,7 +92,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -108,7 +110,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -127,7 +129,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">

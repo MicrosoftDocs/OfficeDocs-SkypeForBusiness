@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
