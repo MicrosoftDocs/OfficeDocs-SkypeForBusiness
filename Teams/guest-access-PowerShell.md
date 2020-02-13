@@ -38,7 +38,7 @@ If you want to block guests in Teams and still want to allow them to access Shar
 
 ## Use PowerShell to turn guest access on or off
 
-1.	Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.	Download the Skype for Business Online PowerShell module from https://www.microsoft.com/download/details.aspx?id=39366
  
 2.	Connect a PowerShell session to the Skype for Business Online endpoint.
 
