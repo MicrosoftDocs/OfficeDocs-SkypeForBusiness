@@ -81,7 +81,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     > [!TIP]
     > After you make the change, it may take up to an hour to take effect in the Skype Meeting Broadcast portal. 
   
-10. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## Configure your network to broadcast meetings with external attendees
 

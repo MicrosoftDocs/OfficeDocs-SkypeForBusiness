@@ -69,7 +69,7 @@ Communications support specialists handle basic call-quality problems. They don'
  ### Set up permissions by assigning admin roles
 <a name="BKMK_SetUpTier"> </a>
 
-To learn how to assign administrative roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+To learn how to assign administrative roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## Upload a .tsv or .csv file to add building, site, and tenant information
 <a name="BKMK_UploadFiles"> </a>
