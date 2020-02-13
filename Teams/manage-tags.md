@@ -76,4 +76,4 @@ If you turned on the **Team owner can override who can apply tags** setting in t
 
 In Teams, the **Members** tab of the Manage team page for a team includes a **Tags** column. Team owners and members (if the feature is enabled for them) can click **Manage tags** next to a member to see the list of suggested tags for that member and add tags to the list.
 
-![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
+![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png) 
