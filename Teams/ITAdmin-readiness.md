@@ -91,10 +91,11 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
-| Network Planning | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
-| Media |[Video](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
+| Media - Why meetings are simple|[Video](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
+| Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck) |
+| Dynamic emergency calling | [Video](https://aka.ms/teams-dec) |  [Deck](https://aka.ms/teams-dec-deck) |
 | Live Events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
