@@ -52,7 +52,7 @@ Please contact the listed partner for more information on these products.
 		<td>HiveOS 6.4r1</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="3"><a href="http://www.arubanetworks.com/solutions/lync">Aruba Networks, Inc.</a></td>
+		<td rowspan="3"><a href="https://www.arubanetworks.com/solutions/lync">Aruba Networks, Inc.</a></td>
 		<td>Aruba Mobility Controller and Aruba AP 204/205, AP 214/215, AP 224/225, AP 274/275 802.11ac Access Points</td>
 		<td>3600</td>
 		<td>AOS 6.4.2.0</td>
@@ -173,7 +173,7 @@ Please contact the listed partner for more information on these products.
 		<td><strong>Qualification</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.arubanetworks.com/solutions/lync">Aruba Networks</a></td>
+		<td><a href="https://www.arubanetworks.com/solutions/lync">Aruba Networks</a></td>
 		<td>S1500, S2500, and S3500 Mobility Access Switches</td>
 	</tr>
 	<tr align="left" valign="top">

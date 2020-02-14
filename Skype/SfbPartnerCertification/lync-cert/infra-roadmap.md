@@ -74,8 +74,8 @@ Download Network Monitor 3.4:
 - [Capture and Decrypt TLS Traffic](https://blogs.technet.com/b/nexthop/archive/2012/02/15/how-to-decrypt-lync-2010-tls-traffic-using-microsoft-network-monitor.aspx)
 
 ## Lync Server partners
-- [Aruba](http://www.arubanetworks.com/lync)
+- [Aruba](https://www.arubanetworks.com/lync)
 - [Brocade](http://www.brocade.com/)
 - [Extreme Networks](http://h17007.www1.hp.com/us/en/networking/index.aspx#.U6LrvXlOVaQ)
-- [Juniper](http://www.arubanetworks.com/lync)
+- [Juniper](https://www.arubanetworks.com/lync)
 

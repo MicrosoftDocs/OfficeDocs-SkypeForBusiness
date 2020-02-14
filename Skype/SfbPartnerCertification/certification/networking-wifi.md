@@ -59,7 +59,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>HiveOS 6.4r1</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.arubanetworks.com/">Aruba, a Hewlett Packard Enterprise Company</a></td>
+			<td rowspan="5"><a href="https://www.arubanetworks.com/">Aruba, a Hewlett Packard Enterprise Company</a></td>
 			<td>AP 204/205, AP 214/215, AP 224/225, AP 274/275 802.11ac</td>
 			<td>Aruba Mobility Controller 3600</td>
 			<td>AOS 6.4.2.0</td>

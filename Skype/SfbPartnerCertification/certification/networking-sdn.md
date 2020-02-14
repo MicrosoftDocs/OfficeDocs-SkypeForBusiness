@@ -33,7 +33,7 @@ This table lists the SDN solutions certified for Skype for Business.
 
 | Vendor  | Certified Product  |
 |:---------|:---------|
-| [Aruba, a Hewlett Packard Enterprise Company](http://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
+| [Aruba, a Hewlett Packard Enterprise Company](https://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
 |[Arrow Systems](http://www.arrowsi.com/) | Prism OneView |
 |[Dell](http://www.dell.com/us/business/p/w-series-airwave/pd) |Wi-Fi |
 |[Extreme Networks](http://www.extremenetworks.com/product/microsoft-lync-solutions) |  OneFabric Connect |
