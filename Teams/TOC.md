@@ -41,6 +41,7 @@
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
+## [Manage tags in Teams](manage-tags.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
@@ -637,7 +638,6 @@
 ## [AppLocker application control policies in Teams](applocker-in-teams.md)
 ## Retention policies in Teams
 ### [Overview](retention-policies.md)
-### [Retention policies FAQ](retention-policies-FAQ.md)
 ### [Retention policies known issues](retention-policies-known-issues.md)
 ## [Location of data in Teams](location-of-data-in-teams.md)
 ## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
