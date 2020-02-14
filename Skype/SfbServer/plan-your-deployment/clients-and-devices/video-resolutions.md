@@ -30,7 +30,7 @@ IT Professionals will find this information useful in assessing the suitability 
 
 Skype for Business uses hardware acceleration for video encoding and decoding based on the H.264/MPEG-4 Part 10 Advanced Video Coding standard. This allows computers with lower CPU clock speeds to encode and decode higher resolution video. Video hardware requirements vary depending on the computer configuration and the video resolution wanted.
   
-Also see [Windows and Mac hardware requirements](https://products.office.com/en-us/office-system-requirements).
+Also see [Windows and Mac hardware requirements](https://products.office.com/office-system-requirements).
   
 ### Video hardware requirements
 

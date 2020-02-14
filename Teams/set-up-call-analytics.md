@@ -40,8 +40,8 @@ As the Teams admin, you have full access to call analytics information for all u
 To learn what each of these roles does, read What does each Teams Support role do?
 
 For more information about Teams admin roles, see [Use Teams admin roles to manage Teams](using-admin-roles.md). To learn how to assign admin roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
-  
 
+To learn how to assign administrative roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## Upload a .tsv or .csv file to add building, site, and tenant information
 <a name="BKMK_UploadFiles"> </a>
