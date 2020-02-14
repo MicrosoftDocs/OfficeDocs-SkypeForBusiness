@@ -1,6 +1,6 @@
 ---
 title: Best practices for organizing teams in Microsoft Teams
-ms.reviewer: 
+ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -20,9 +20,6 @@ appliesto:
 
 Best practices for organizing teams in Microsoft Teams
 ======================================================
-
-> [!TIP]
-> Do you have a best practice or tip for using Teams? Share it with us in the **Comments** section at the end of this article.
 
 Teams are collections of people who gather together around a common goal. This group of people may be within a department or across the organization. What brings them together is the outcome they are driving toward. Members of a team may work at a different pace or create assets differently, but in our experience they often collaborate quickly with each other, a process we call "high velocity teamwork."  
 
@@ -61,6 +58,14 @@ Learn more about [working in channels](https://support.office.com/article/teams-
 
 Currently, you cannot remove or unfavorite the General channel. When naming channels, remember that the channels will be ordered alphabetically after the General channel. In teams with many channels use the "Favorite a channel" feature to control the channels you automatically see when navigating to the team. 
 
+## Create teams for managers and their direct reports
+
+When you roll out Teams, rather than launching with a blank slate" (no teams or channels), we strongly recommend that you set up a base frame work of teams and channels. This will help prevent "team sprawl" when users create numerous teams when they should be creating channels in existing teams. We've created a "People manager framework" that will create a team for each of your 1st and 2nd line people managers, with each manager's direct reports as team members. This is a "point-in-time" script (it doesn't update your teams or channels automatically when people are added or removed from an organization). But it's a valuable tool you can use to impose some order on your Teams structure from the start.This script reads your Azure AD, gets a list of managers and their direct reports. It uses this list to create one team per people manager.
+
 ## Consider setting up moderation in your channels
 
 Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. (Team owners are moderators by default.) For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+## Related topics
+
+[Create an org-wide team in Teams](create-an-org-wide-team.md)
