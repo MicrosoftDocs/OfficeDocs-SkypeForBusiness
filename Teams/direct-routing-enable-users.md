@@ -20,11 +20,17 @@ description: "Learn how to enable users Microsoft Phone System Direct Routing."
 
 # Enable users for Direct Routing
 
-This article describes how to enable users for Phone System Direct Routing.
+This article describes how to enable users for Phone System Direct Routing.  This is step 2 of the following steps for configuring Direct Routing:
+
+- Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
+- **Step 2. Enable users for Direct Routing, voice, and voicemail**    (This article)
+- Step 3. [Configure voice routing](direct-routing-voice-routing.md)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
+
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-When you are ready to enable users for the Direct Routing Service, follow these steps: 
+When you are ready to enable users for the Direct Routing, follow these steps: 
 
 1. Create a user in Office 365 and assign a phone system license. 
 2. Ensure that the user is homed in Skype for Business Online. 

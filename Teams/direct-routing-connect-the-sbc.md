@@ -20,7 +20,12 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 # Connect your SBC to Direct Routing 
 
-This article describes how to connect your SBC to Direct Routing.  
+This article describes how to connect your SBC to Direct Routing.  This is step 1 of the following steps for configuring Direct Routing:
+
+- **Step 1. Connect the SBC with Microsoft Phone System and validate the connection** (This article)
+- Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
+- Step 3. [Configure call routing](direct-routing-voice-routing.md)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 

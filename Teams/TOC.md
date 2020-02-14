@@ -260,7 +260,7 @@
 
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
-#### [Connect the SBC to Direct Routing](direct-routing-connect-the-sbc.md)
+#### [Connect your SBC to Direct Routing](direct-routing-connect-the-sbc.md)
 #### [Enable users for Direct Routing](direct-routing-enable-users.md)
 #### [Configure call routing](direct-routing-voice-routing.md)
 #### [Translate phone numbers](direct-routing-translate-numbers.md)

@@ -18,13 +18,18 @@ f1.keywords:
 description: "Learn how to configure voice routing with Microsoft Phone System Direct Routing."
 ---
 
-# Configure call routing for Direct Routing
+# Configure voice routing for Direct Routing
 
-This article describes how to configure call routing for Phone System Direct Routing.
+This article describes how to configure voice routing for Phone System Direct Routing.  This is step 3 of the following steps for configuring Direct Routing:
+
+- Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
+- Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-emable-users.md)    
+- **Step 3. Configure voice routing** (This article)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-## Call routing overview
+## Voice routing overview
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
@@ -33,7 +38,7 @@ Microsoft Phone System has a routing mechanism that allows a call to be sent to 
  
 SBCs can be designated as active and backup. When the SBC that is configured as active is not available for a specific call route, then the call will be routed to a backup SBC.
  
-Call routing is made up of the following elements: 
+Voice routing is made up of the following elements: 
 
 - **Voice routing policy** – A container for PSTN Usages; can be assigned to a user or to multiple users. 
 
@@ -43,7 +48,7 @@ Call routing is made up of the following elements:
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
-## Example 1: Call routing with one PSTN Usage
+## Example 1: Voice routing with one PSTN Usage
 
 The following diagram shows two examples of voice routing policies in a call flow.
 
@@ -236,7 +241,7 @@ OnlineVoiceRoutingPolicy
 US Only
 </pre>
 
-## Example 2 - Call routing with multiple PSTN Usages
+## Example 2 - Voice routing with multiple PSTN Usages
 
 The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
