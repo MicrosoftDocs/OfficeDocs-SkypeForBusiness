@@ -33,7 +33,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td width="396px"><strong>Software Version Tested</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="6"><a href="http://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
+		<td rowspan="6"><a href="https://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
 		<td>Mediant 800/850 E-SBC</td>
 		<td>6.60A.024.008</td>
 	</tr>
@@ -171,7 +171,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>E3.6</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="4"><a href="http://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
+		<td rowspan="4"><a href="https://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
 		<td width="344px">Mediant 1000 E-SBC</td>
 		<td width="396px">6.20A.037.007</td>
 	</tr>

@@ -40,7 +40,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.audiocodes.com/SBA">Audiocodes</a></td>
+		<td><a href="https://www.audiocodes.com/SBA">Audiocodes</a></td>
 		<td>Mediant 800/1000/2000 SBA</td>
 		<td>SBA 1.1.11.40 / GW 6.60A.022.003</td>
 	</tr>
@@ -80,7 +80,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="4"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+		<td rowspan="4"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 		<td>Mediant 800 SBA</td>
 		<td>SBA: 1.1.8.21,<br />Gateway: 6.00A.033.005</td>
 	</tr>

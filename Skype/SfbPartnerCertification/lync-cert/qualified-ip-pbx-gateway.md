@@ -52,7 +52,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 	</thead>
 	<tbody>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+			<td rowspan="5"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 			<td>Mediant 500</td>
 			<td>6.60A.236.002</td>
 			<td>Basic Gateway</td>
@@ -336,7 +336,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+			<td rowspan="4"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 			<td>Mediant 800 MSBG</td>
 			<td>6.00AL.019.007</td>
 			<td>Enhanced Gateway</td>

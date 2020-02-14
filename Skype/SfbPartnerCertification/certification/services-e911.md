@@ -40,7 +40,7 @@ Learn more about E911 services here: <a href="https://technet.microsoft.com/libr
 |Company | Qualified Product|
 |:----|:----|
 |[West](https://www.west.com/safety-services/enterprise/microsoft/)|Emergency Gateway (EGW) |
-|[Audiocodes](http://www.audiocodes.com/microsoft) | Mediant Gateway &amp; SBA version 6.4 |
+|[Audiocodes](https://www.audiocodes.com/microsoft) | Mediant Gateway &amp; SBA version 6.4 |
 |[Sonus](http://www.sonus.net/solutions/enterprise/microsoft-lync) |SBC 1000 &amp; SBC 2000 |
 |      |         |
 
