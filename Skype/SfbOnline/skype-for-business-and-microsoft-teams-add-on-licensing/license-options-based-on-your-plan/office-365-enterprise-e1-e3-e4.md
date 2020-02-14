@@ -25,7 +25,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E1, E3, and E4
 
-If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business features.
+If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business features.
 
 |||
 |:-----|:-----|
