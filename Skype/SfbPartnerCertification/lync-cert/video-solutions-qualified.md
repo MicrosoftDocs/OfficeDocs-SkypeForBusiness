@@ -388,4 +388,4 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
 * * *
-This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](http://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)
+This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](https://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)

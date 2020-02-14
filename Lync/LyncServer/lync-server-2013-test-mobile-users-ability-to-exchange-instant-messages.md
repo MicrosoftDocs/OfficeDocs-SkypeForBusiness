@@ -174,7 +174,7 @@ After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify th
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-If you receive an error message with authentication headers, that often means that you have not specified a valid user account. Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+If you receive an error message with authentication headers, that often means that you have not specified a valid user account. Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 
 </div>
 

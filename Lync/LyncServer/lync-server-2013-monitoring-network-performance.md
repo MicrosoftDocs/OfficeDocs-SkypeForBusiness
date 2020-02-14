@@ -122,7 +122,7 @@ System Center Operations Manager 2012 would allow administrators to view network
 
 Collects, displays, analyzes resource usage on a server, and measures network traffic. Network Monitor exclusively monitors network activity. By capturing and analyzing network data, and using this data with performance logs, you can determine the network usage, identify network issues, and forecast future network needs.
 
-For more information about Network Monitor 3.4, and to learn how to install and configure Network Monitor and capture and analyze data, review this session: Network Monitor 3.3 Overview. Also, review the [Network Monitor blog](http://blogs.technet.com/b/netmon/).
+For more information about Network Monitor 3.4, and to learn how to install and configure Network Monitor and capture and analyze data, review this session: Network Monitor 3.3 Overview. Also, review the [Network Monitor blog](https://blogs.technet.com/b/netmon/).
 
 </div>
 
