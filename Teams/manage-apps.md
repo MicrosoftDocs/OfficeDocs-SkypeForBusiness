@@ -25,7 +25,7 @@ As an admin, the **Manage apps** page in the Microsoft Teams admin center is whe
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
-In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or teams service admin to access the page.
+In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
 ## View apps in your tenant app catalog
 
@@ -37,24 +37,27 @@ You can view every app in your tenant app catalog including the following inform
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Categories**: Categories that apply to the app.
 - **App status**: Status of the app at the org level, which can be one of the following:
-    - **Allowed**: The app is available for users in your organization.
-    - **Blocked**: The app is blocked and not available for users in your organization.
-    - **Allowed but org-wide disabled**: The app is allowed but disabled in org-wide app settings.
+    - **Allowed**: The app is available for all users in your organization.
+    - **Blocked**: The app is blocked and not available for any users in your organization.<br>
+It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
 - **Version**: App version.
 
 To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
 
 ## Upload a new app
 
-To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app manifest file in .zip format. The .zip file must be a valid Teams app manifest, otherwise the upload will fail. The app isn't highlighted after it's uploaded so you'll need to search your tenant catalog to find it.
+To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app package in .zip format. The app isn't highlighted after it's uploaded so you'll need to search your tenant catalog to find it.
 
-You can also upload apps by using the Teams client. To learn more, see [Publish apps in the Teams tenant app catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
+You can also upload apps by [using the Teams desktop client](tenant-apps-catalog-teams.md#go-to-the-tenant-app-catalog). To learn more, see [Manage your line-of-business apps in Teams](manage-your-lob-apps.md).
 
 ## Allow and block apps
 
-The **Manage apps** page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status. (Previously, you blocked apps by adding them to the blocked list on the app permission policy page.)
+The **Manage apps** page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status. (Blocking and allowing apps at the org level has moved from the **Org-wide settings** pane to here.)
 
-To allow or block an app, select it, and then click **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
+To allow or block an app, select it, and then click **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for any users in your organization.
+
+> [!NOTE]
+> When you block or allow an app on the **Manage apps** page, that app is blocked or allowed for all users in your organization. When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the **Manage apps** page and in the app permission policy that's assigned to the user.
 
 ## Manage org-wide app settings
 
