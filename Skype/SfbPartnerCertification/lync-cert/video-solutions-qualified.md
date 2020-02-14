@@ -383,7 +383,7 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 ## Vendor support
 [LifeSize](http://www.lifesize.com/Partners/Technology_Partners/Microsoft.aspx)
 
-[Polycom](http://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
+[Polycom](https://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
 
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 

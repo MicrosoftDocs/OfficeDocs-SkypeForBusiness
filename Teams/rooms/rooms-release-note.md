@@ -243,7 +243,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
+- Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/product/brio)
 - Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
 
