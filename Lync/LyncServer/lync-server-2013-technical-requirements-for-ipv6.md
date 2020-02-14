@@ -55,9 +55,9 @@ If you plan to configure Lync Server 2013 for IPv6, keep the following requireme
 ## See Also
 
 
-[IP Version 6 Addressing Architecture](http://tools.ietf.org/html/rfc4291)  
-[IPv6 Global Unicast Address Format](http://tools.ietf.org/html/rfc3587)  
-[Unique Local IPv6 Unicast Addresses](http://tools.ietf.org/html/rfc4193)  
+[IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)  
+[IPv6 Global Unicast Address Format](https://tools.ietf.org/html/rfc3587)  
+[Unique Local IPv6 Unicast Addresses](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

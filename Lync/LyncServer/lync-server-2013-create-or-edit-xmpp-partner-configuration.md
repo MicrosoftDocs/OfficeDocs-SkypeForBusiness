@@ -70,7 +70,7 @@ Microsoft Lync Server 2013 integrates an Extensible Messaging and Presence Proto
     
     Refer to the XSF document XEP-0178 for more details on the XMPP requirements. For details, refer to “XEP-0178: Best Practices for Use of SASL EXTERNAL with Certificates”. <http://xmpp.org/extensions/xep-0178.html>
     
-    Refer to the IETF document “Extensible Messaging and Presence Protocol (XMPP): Core“, Section 5.0, STARTTLS Negotiation <http://tools.ietf.org/html/rfc6120>.
+    Refer to the IETF document “Extensible Messaging and Presence Protocol (XMPP): Core“, Section 5.0, STARTTLS Negotiation <https://tools.ietf.org/html/rfc6120>.
     
       - **TLS Negotiation**. Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation –including not valid and known error configurations - see [Negotiation settings for XMPP federated partners in Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
