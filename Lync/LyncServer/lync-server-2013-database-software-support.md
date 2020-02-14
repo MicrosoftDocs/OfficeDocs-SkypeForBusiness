@@ -115,7 +115,7 @@ The following support is included:
 
 For more information about SQL mirroring, see [Back End Server high availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md). For details on how to deploy SQL clustering, see [Configure SQL Server clustering for Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-For more information and best practices for failover clustering in SQL Server 2012, see <http://technet.microsoft.com/library/hh231721.aspx>. For failover clustering in SQL Server 2008, see <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>.
+For more information and best practices for failover clustering in SQL Server 2012, see <https://technet.microsoft.com/library/hh231721.aspx>. For failover clustering in SQL Server 2008, see <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>.
 
 </div>
 

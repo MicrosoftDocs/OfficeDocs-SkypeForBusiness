@@ -90,7 +90,7 @@ For more information about Lync Server 2013 Management Pack, refer to [Monitorin
 
 **Event Comb**   The Event Comb tool collects specific events from the event logs of several computers to one central location. It lets you report on only the event IDs or event sources it specifies. For more information about Event Comb, see the [Account Lockout and Management Tools](https://go.microsoft.com/fwlink/?linkid=35607) website.
 
-**Event triggers**   In Windows Server 2012 you can "Attach a Task to This Event" within the Windows Event Viewer—where an administrator can either run a program, send an email message or display an on-screen message. For more information about this feature, see the Windows Server 2008 R2 topic [Run a Task in Response to a Given Event](http://technet.microsoft.com/library/cc748900.aspx). You can also use command-line tools such as ‘Eventtrigger.exe’ to create and query event logs and associate programs with particular logged events. By using Eventtriggers.exe, you can create event triggers that run programs when specific events occur.
+**Event triggers**   In Windows Server 2012 you can "Attach a Task to This Event" within the Windows Event Viewer—where an administrator can either run a program, send an email message or display an on-screen message. For more information about this feature, see the Windows Server 2008 R2 topic [Run a Task in Response to a Given Event](https://technet.microsoft.com/library/cc748900.aspx). You can also use command-line tools such as ‘Eventtrigger.exe’ to create and query event logs and associate programs with particular logged events. By using Eventtriggers.exe, you can create event triggers that run programs when specific events occur.
 
 <div>
 

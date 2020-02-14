@@ -42,7 +42,7 @@ Use the topics in this section to learn how to create contact objects for common
 
 
 > [!NOTE]  
-> You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone. The Polycom CX3000 IP conferencing phone is another variant common area phone. However, it is intended for use in conference rooms. For details about common area phones, see the Common Area Phones section of <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.
+> You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone. The Polycom CX3000 IP conferencing phone is another variant common area phone. However, it is intended for use in conference rooms. For details about common area phones, see the Common Area Phones section of <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.
 
 
 
