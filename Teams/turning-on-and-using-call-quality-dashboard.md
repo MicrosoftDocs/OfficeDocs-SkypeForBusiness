@@ -40,7 +40,7 @@ CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, S
   
 Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers monitor call and meeting quality at an org-wide level. You'll use CQD to help you *optimize your network*. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
   
-For example, using CQD, you can determine that a user's poor call quality (which you observed using per-user call analytics) is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+For example, using CQD, you can determine that a user's poor call quality (which you observed using per-user call analytics) is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252). 
   
 ![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
@@ -78,7 +78,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 > [!NOTE]
 > Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
-![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
 2. After you select the file data type, click **Browse** to choose a data file.
@@ -362,36 +361,10 @@ As the names indicate, the classification criteria is based on the type of clien
 
 If the default CQD reports don't meet your needs, use these instructions to create a custom report.
 
-From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
-
-
-![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
-
-|             |           |
-| ------------|-----------|
-| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
-| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
-| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
-| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
-
-_Figure 10 - Detailed Reports page_
+From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
-### Editing reports
-
-When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
-
-![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
-
-|             |           |
-| ------------|-----------|
-| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
-| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
-| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
-| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
-
-_Figure 11 - Query Editor_
 
 ### Filtering reports
 
@@ -482,14 +455,15 @@ _Table 4 - Report filters_
 
 ## Why is CQD data from Skype for Business different than CQD data from Teams? 
 
-If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD for Teams (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because CQD in Teams reports on many additional calling scenarios. If you're still using reports from the older CQD from the Skype for Business legacy portal, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
+If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
 
 
-If you see data differences between CQD V2 and V3 make sure that data comparison/validation is done on an 'apples-to-apples' level, not at the aggregated level. For example, when comparing the MSIT ‘Building 30' WiFi Teams Desktop client, the Percentage of Poor Quality should be the same between V2 and V3.
+You’ll likely see more data differences between your older and newer CQD reports at the aggregated or summary level. If you compare data at a more granular level, you’ll get an “apples-to-apples” comparison. For example, if you’re looking at data for an individual building, the Percentage of Poor Quality should be the same between both the older and new CQD reports.
+
 - Pick a scenario with a tight focus, such as corporate wired connections, Windows Desktops, or a single region or building.
-- Check the Teams MR, TR, or MP IP ranges. The Teams ranges are newer than Skype for Business Online, and that can cause connectivity issues involving firewalls
+- Check the Teams MR, TR, or MP IP ranges. The Teams ranges are newer than Skype for Business Online, and that can cause connectivity issues involving firewalls.
 - Don't compare summary or top-level numbers. These comparisons will lead you to compare a large call volume of Skype for Business Online calls on a corporate wired connection to a small volume of Teams calls on an LTE or private network.
 - Beware of location bias and population differences: There are many comparisons that are too dissimilar to be useful:
   - NOAM : APAC
@@ -519,7 +493,7 @@ In order to determine, if there are any unexpected differences, you must look at
 
 ## Comparing Teams and Skype for Business CQD data
 
-Even within the latest CQD for Teams (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
+Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
 - Differences in the mechanisms for ensuring performance and reliability
   - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
@@ -533,7 +507,7 @@ Even within the latest CQD for Teams (cqd.teams.microsoft.com), you'll see diffe
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
 3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
 
-     ![Screenshot: select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 
