@@ -25,10 +25,10 @@ This article describes how to enable users for Phone System Direct Routing.  Thi
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - **Step 2. Enable users for Direct Routing, voice, and voicemail**    (This article)
 - Step 3. [Configure voice routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) 
 
 
-If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 When you are ready to enable users for the Direct Routing, follow these steps: 
 
@@ -39,12 +39,12 @@ When you are ready to enable users for the Direct Routing, follow these steps:
 
 ## Create a user in Office 365 and assign the license 
 
-There are two options for creating a new user in Office 365. However, we recommend that your organization select and use one option to avoid routing issues: 
+There are two options for creating a new user in Office 365. However, Microsoft recommends that your organization select and use one option to avoid routing issues: 
 
 - Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 - Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-If your Skype for Business Online deployment co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create the user in on-premises Active Directory and sync the user to the cloud (Option 1). 
+If your Skype for Business Online deployment co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
@@ -61,7 +61,7 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 
 ## Configure the phone number and enable enterprise voice and voicemail 
 
-After you have created the user and assigned a license, the next step is to configure their phone number and voicemail. This can be done in one step. 
+After you have created the user and assigned a license, the next step is to configure the user's phone number and voicemail. 
 
 To add the phone number and enable for voicemail:
  
@@ -95,4 +95,5 @@ Direct Routing requires that users be in Teams Only mode to ensure incoming call
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
+
 [Configure Direct Routing](direct-routing-configure.md)]

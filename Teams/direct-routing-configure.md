@@ -22,7 +22,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 Microsoft Phone System Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams. The article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
 
-For information about whether Direct Routing is the right solution for your organization, see [Phone System Direct Routing](direct-routing-landing-page.md). Before you start to configure Direct Routing, see [Plan Direct Routing](direct-routing-plan.md) for prerequisite information.
+For information about whether Direct Routing is the right solution for your organization, see [Phone System Direct Routing](direct-routing-landing-page.md). For information about prerequisites and planning your deployment, see [Plan Direct Routing](direct-routing-plan.md).
 
 > [!Tip]
 > You can also watch the following session to learn about the benefits of Direct Routing, how to plan for it, and how to deploy it: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
@@ -43,11 +43,12 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 - **Step 1.** [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md)
 - **Step 2.** [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
 - **Step 3.** [Configure voice routing](direct-routing-voice-routing.md)
-- **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) (Optional)
+- **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
 
 ## See also
 
 [Phone System Direct Routing](direct-routing-landing-page.md)
+
 [Plan Direct Routing](direct-routing-plan.md)
 

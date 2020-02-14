@@ -22,7 +22,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 Sometimes tenant administrators may want to change the number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with Session Border Controllers (SBCs). This article describes how you can specify a Number Translation Rules policy to translate numbers to an alternate format. 
 
-If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 You can use the Number Translation Rules policy to translate numbers for the following:
 
@@ -38,13 +38,13 @@ To assign, configure, and list number manipulation rules on SBCs, use the [New-C
 
 ## Example SBC configuration
 
-For the example scenarios, we run the ```New-CsOnlinePSTNGateway``` cmdlet to create the following SBC configuration.
+For this sceenario, the ```New-CsOnlinePSTNGateway``` cmdlet is run to create the following SBC configuration:
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
-The translation rules assigned to the SBC are summarized in the following table.
+The translation rules assigned to the SBC are summarized in the following table:
 
 |Name  |Pattern |Translation  |
 |---------|---------|---------|
@@ -53,12 +53,13 @@ The translation rules assigned to the SBC are summarized in the following table.
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
 |StripPlus1    |^+1(\d{10})$          | $1         |
 
-In these example scenarios, we have two users, Alice and Bob. Alice is a Teams user and her number is +1 206 555 0100. Bob is a PSTN user and his number is +1 425 555 0100.
+In the following examples, there are two users, Alice and Bob. Alice is a Teams user and her number is +1 206 555 0100. Bob is a PSTN user and his number is +1 425 555 0100.
 
 ## Example 1: Inbound call to a ten-digit number
 
 Bob calls Alice using a non-E.164 ten-digit number. Bob dials 2065550100 to reach Alice.
 SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From header.
+
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
@@ -70,6 +71,7 @@ SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From 
 
 Bob calls Alice using a four-digit number. Bob dials 0100 to reach Alice.
 SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header.
+
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
@@ -84,6 +86,7 @@ SBC is configured to use non-E.164 ten-digit numbers for both Teams and PSTN use
 
 In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan.
 
+
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList ‘StripPlus1’         |
@@ -94,6 +97,7 @@ In this scenario, a dial plan translates the number before sending it to the Dir
 
 Alice calls Bob using a four-digit number. Alice uses 0100 to reach Bob from Calls or by using a contact.
 SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-digit numbers for PSTN users. The dial plan isn't applied in this scenario.
+
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|

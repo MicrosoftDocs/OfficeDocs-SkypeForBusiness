@@ -25,27 +25,27 @@ This article describes how to connect your Session Border Controller (SBC) to Ph
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) 
 
-Before you start to configure Direct Routing, see [Plan Direct Routing](direct-routing-plan.md) for prerequisite information. For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-The following are the three high-level steps to let you connect the SBC to the Direct Routing interface: 
+To connect your SBC to Direct Routing, you'll need to: 
 
-1. Connect to **Skype for Business Online** admin center using PowerShell            **(update for connecting to Teams admin center)**
-2. Connect the SBC to the tenant
-3. Validate the connection 
+1. Connect to **Skype for Business Online** admin center by using PowerShell.            
+2. Connect the SBC to the tenant.
+3. Validate the connection. 
 
 ## Connect to Skype for Business Online by using PowerShell 
 
 You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
-After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
+After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy and paste the following command in the PowerShell session and press Enter: 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
-Your command will return the four functions shown here that will let you manage the SBC. 
+The command returns the four functions shown here that will let you manage the SBC. 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -65,7 +65,7 @@ To connect the SBC to the tenant, in the PowerShell session type the following a
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. We highly recommend setting a maximum call limit in the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
+  > 1. Microsoft recommends setting a maximum call limit in the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
   > 2. You can only pair the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names:<br/><br/>
   > **contoso**.com<br/>**contoso**.onmicrosoft.com<br/><br/>
   > For the SBC name, you can use the name sbc.contoso.com. If you try to pair the SBC with a name sbc.contoso.abc, the system will not let you, as the domain is not owned by this tenant.<br/>

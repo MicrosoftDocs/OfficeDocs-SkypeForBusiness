@@ -25,9 +25,9 @@ This article describes how to configure voice routing for Phone System Direct Ro
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)    
 - **Step 3. Configure voice routing** (This article)
-- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
+- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) 
 
-If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 ## Voice routing overview
 
@@ -40,9 +40,9 @@ SBCs can be designated as active and backup. When the SBC that is configured as 
  
 Voice routing is made up of the following elements: 
 
-- **Voice routing policy** – A container for PSTN Usages; can be assigned to a user or to multiple users. 
+- **Voice routing policy** – A container for PSTN Usages, which can be assigned to a user or to multiple users. 
 
-- **PSTN usages** – A container for voice routes and PSTN usages; can be shared in different voice routing policies. 
+- **PSTN usages** – A container for voice routes and PSTN usages, which can be shared in different voice routing policies. 
 
 - **Voice Routes** – A number pattern and set of online PSTN gateways to use for calls where the calling number matches the pattern.
 
@@ -69,7 +69,7 @@ In the example shown in the following diagram, a voice route is added to send ca
 
 For all other calls:
 
-- If a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. 
+- If a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. 
 - If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan.
 - If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
 
