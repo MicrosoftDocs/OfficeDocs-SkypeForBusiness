@@ -258,6 +258,7 @@
 
 ### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
+### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
@@ -265,6 +266,7 @@
 #### [Enable users for Direct Routing](direct-routing-enable-users.md)
 #### [Configure voice routing](direct-routing-voice-routing.md)
 #### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
 
@@ -274,8 +276,8 @@
 #### [Overview](direct-routing-monitor-and-troubleshoot.md)
 #### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
-### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+
+
 ### Location-Based Routing
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
