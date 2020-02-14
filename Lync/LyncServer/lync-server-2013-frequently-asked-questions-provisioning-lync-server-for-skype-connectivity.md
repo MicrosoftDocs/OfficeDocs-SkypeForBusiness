@@ -133,7 +133,7 @@ This order is important.  You must set up the on-premise connectivity before yo
 
 **Q: How do I add a Windows Live Messenger contact that has an ID containing a domain other than those supported by Windows Live?**
 
-**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user. For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com. For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at http://support.microsoft.com/?kbid=897567.
+**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user. For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com. For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at https://support.microsoft.com/?kbid=897567.
 
 **Q: How long does the provisioning process take?**
 

@@ -168,7 +168,7 @@ _**Topic Last Modified:** 2015-11-13_
     
 
     > [!NOTE]  
-    > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you’re moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
+    > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you’re moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>.
 
     
     </div>

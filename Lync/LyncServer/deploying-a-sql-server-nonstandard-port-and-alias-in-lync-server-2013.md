@@ -72,7 +72,7 @@ To set up a SQL Server non-standard port and alias for use with Lync Server 2013
 
 ## Confirm that Lync Server 2013 has the Latest Updates Applied
 
-It is important to keep Lync Server 2013 up to date. To check for the most recent updates and information on how to apply them, see [Updates for Lync Server 2013](http://support.microsoft.com/kb/2809243).
+It is important to keep Lync Server 2013 up to date. To check for the most recent updates and information on how to apply them, see [Updates for Lync Server 2013](https://support.microsoft.com/kb/2809243).
 
 </div>
 

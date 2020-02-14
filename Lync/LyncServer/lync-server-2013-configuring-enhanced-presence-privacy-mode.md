@@ -59,7 +59,7 @@ With enhanced presence privacy mode, users can restrict their presence informati
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    This command enables privacy mode for all the privacy configuration settings currently in use in the organization. For more information about how the Lync Server enhanced presence privacy mode policy configurations manages contact presence for the Lync 2013 client, see the Microsoft KB article [Enabling Lync Server enhanced presence privacy mode updates the presence status of some Lync contacts to "unavailable"](http://support.microsoft.com/kb/3020057).
+    This command enables privacy mode for all the privacy configuration settings currently in use in the organization. For more information about how the Lync Server enhanced presence privacy mode policy configurations manages contact presence for the Lync 2013 client, see the Microsoft KB article [Enabling Lync Server enhanced presence privacy mode updates the presence status of some Lync contacts to "unavailable"](https://support.microsoft.com/kb/3020057).
 
 </div>
 

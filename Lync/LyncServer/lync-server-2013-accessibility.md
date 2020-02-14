@@ -206,7 +206,7 @@ In addition, you can obtain additional Microsoft publications from Recording for
 
 Microsoft wants to provide the best possible experience for all our customers, including people with disabilities. If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.
 
-[Contact the Disability Answer Desk](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[Contact the Disability Answer Desk](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 Direct Telephone Line: 1-800-936-5900
 
