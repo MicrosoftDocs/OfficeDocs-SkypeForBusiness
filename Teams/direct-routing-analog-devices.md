@@ -1,11 +1,11 @@
 ---
-title: "Configure Direct Routing"
-ms.reviewer: 
+title: "Direct Routing - Connecting analog devices"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.reviewer: NMuravlyannikov
+ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
@@ -15,40 +15,104 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure Microsoft Phone System Direct Routing."
+description: "Read this article to learn how to use analog devices with Microsoft Phone System Direct Routing."
 ---
 
-# Configure Direct Routing
+# How to use analog devices with Phone System Direct Routing
 
-Microsoft Phone System Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams. The article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
+This article describes how to use analog devices with Phone System Direct Routing. To connect analog devices to Direct Routing, you must use an Analog Telephony Adapter (ATA), and this adapter must be supported by the certified Session Border Controller (SBC) vendor. 
 
-For information about whether Direct Routing is the right solution for your organization, see [Phone System Direct Routing](direct-routing-landing-page.md). For information about prerequisites and planning your deployment, see [Plan Direct Routing](direct-routing-plan.md).
+When a user makes a call from an analog device, the signaling and media flow through the Analog Telephony Adapter (ATA) to the SBC.  The SBC sends the call to a Microsoft Teams endpoint or to the Public Switched Telephone Network (PSTN) based on the internal routing table.  When a device makes a call, the route it takes depends on the routing policies created for the device.
 
-> [!Tip]
-> You can also watch the following session to learn about the benefits of Direct Routing, how to plan for it, and how to deploy it: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
+In the following diagram, Direct Routing is configured so that any Teams calls to and from the numbers between +1425 4XX XX XX and +1425 5XX XX XX must take the red route (dotted line), and any PSTN call to and from numbers between +1425 4XX XX XX and any other number except number range +1425 5XX XX XX must take the blue route (solid line). 
 
-To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+![Diagram showing Direct Routing configuration](media/direct-routing-analog-device.png)
 
-Before performing the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor: 
+## Example:  How to configure the use of analog devices with Direct Routing
 
-- [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
+To configure the use of analog devices with Direct Routing, you must connect the Analog Telephony Adapter to the SBC, and configure the SBC to work with Direct Routing. 
 
-For a complete list of supported SBCs, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+This example walks you through the following steps:
 
-To configure Microsoft Phone System and enable users to use Direct Routing, follow these steps: 
+1. Connect the SBC to Direct Routing
+2. Create the PSTN Usage
+3. Create a voice route and associate it with the PSTN Usage
+4. Assign the voice route to the PSTN Usage
+5. Enable the online user
+6. Assign the voice route policy to the user
+7. Assign a voice route policy to an analog device
 
-- **Step 1.** [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md)
-- **Step 2.** [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-- **Step 3.** [Configure voice routing](direct-routing-voice-routing.md)
-- **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
+For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide.
 
+## Step 1.  Connect the SBC to Direct Routing
 
+The following command configures the SBC connection as follows:
+
+- FQDN sbc.contoso.com
+- Signaling port 5068
+- Media bypass mode
+- Call history information forwarded to the SBC-
+- P-Asserted-Identity (PAI) header forwarded along with the call 
+
+```
+PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
+```
+
+## Step 2:  Create the PSTN usage 
+
+The next command creates an empty PSTN usage. Online PSTN usages are string values that are used for call authorization. An online PSTN usage links an online voice policy to a route. This example adds the string "Interop" to the current list of available PSTN usages. 
+
+```
+PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
+```
+
+## Step 3:  Create a voice route and associate it with the PSTN usage:
+
+This command creates a new online voice route with the identity “analog-interop” for the number range +1425 XXX XX XX.  The voice route is applicable to a list of online gateways sbc.contoso.com and associates the route with online PSTN usage “Interop”. A voice route includes a regular expression that identifies which phone numbers will be routed through a given voice route:
+
+```
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "
+```
+
+## Step 4: Assign the voice route to the PSTN usage:
+
+This command creates a new online per-user voice routing policy with the Identity “AnalogInteropPolicy”. This policy is assigned a single online PSTN usage: “Interop”.
+
+```
+PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
+```
+
+## Step 5: Enable the online user
+
+This command modifies the user account with the Identity exampleuser@contoso.com. In this case, the account is modified to enable Enterprise Voice, the Microsoft implementation of VoIP, with enabled voice mail and assigns the number +14255000000 to this user.  This command should be run for each Teams user (excluding ATA device users) in the company tenant.
+
+```
+PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
+```
+
+## Step 6: Assign the voice route policy to a user
+
+This command assigns the per-user online voice routing policy AnalogInteropPolicy to the user with the identity exampleuser@contoso.com.  This command should be run for each Teams user (excluding ATA device users) in the company tenant.
+
+```
+PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
+```
+
+## Step 7:  Assign a voice route to an analog device
+
+This command creates an online voice route with identity “analog-interop” for number range +1425 4XX XX XX applicable to a list of online gateways sbc.contoso.com and associates it with online PSTN usage “Interop”.  This command should be run for each analog device with appropriate phone number pattern. Alternatively, a proper number pattern for analog devices can be used while configuring the online voice route during one of the previous steps.
+
+```
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+```
+
+## Considerations
+
+- Unless otherwise note, an analog device is any device that can send DTMF digits to place a call. For example, analog phones, fax machines, and overhead pagers.
+- Analog phones connected to an ATA are not searchable from Teams. Teams users must manually enter the phone number associated with the device to call that device.  
+ 
 ## See also
 
-[Phone System Direct Routing](direct-routing-landing-page.md)
+[Configure Direct Routing](direct-routing-configure.md)
 
-[Plan Direct Routing](direct-routing-plan.md)
-
+[List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
