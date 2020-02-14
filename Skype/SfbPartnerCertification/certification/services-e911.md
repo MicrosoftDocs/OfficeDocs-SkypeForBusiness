@@ -41,7 +41,7 @@ Learn more about E911 services here: <a href="https://technet.microsoft.com/libr
 |:----|:----|
 |[West](https://www.west.com/safety-services/enterprise/microsoft/)|Emergency Gateway (EGW) |
 |[Audiocodes](https://www.audiocodes.com/microsoft) | Mediant Gateway &amp; SBA version 6.4 |
-|[Sonus](http://www.sonus.net/solutions/enterprise/microsoft-lync) |SBC 1000 &amp; SBC 2000 |
+|[Sonus](https://www.sonus.net/solutions/enterprise/microsoft-lync) |SBC 1000 &amp; SBC 2000 |
 |      |         |
 
 <br>

@@ -254,7 +254,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.sangoma.com/solutions/vega-gateways-for-microsoft-lync/">Sangoma Technologies</a></td>
+			<td rowspan="4"><a href="https://www.sangoma.com/solutions/vega-gateways-for-microsoft-lync/">Sangoma Technologies</a></td>
 			<td>Netborder Express Gateway</td>
 			<td>4.4</td>
 			<td>Basic Gateway</td>
@@ -279,7 +279,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+			<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 			<td>SBC 1000/2000</td>
 			<td>2.2.1, V 3.1.1v285</td>
 			<td>Enhanced Gateway</td>
@@ -559,14 +559,14 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td><a href="http://www.sangoma.com/solutions/netborder-software-for-ms-lync/">Sangoma</a></td>
+			<td><a href="https://www.sangoma.com/solutions/netborder-software-for-ms-lync/">Sangoma</a></td>
 			<td>NetBorder Express</td>
 			<td>6.0.42.4</td>
 			<td>Basic Gateway</td>
 			<td align ="center" valign="middle">&#x2714;+S </td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="6"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+			<td rowspan="6"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 			<td>SBC 1000</td>
 			<td>2.0.1v118</td>
 			<td>Enhanced Gateway</td>

@@ -100,7 +100,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>EC6.4.0</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="http://www.sangoma.com/solutions/session-border-controller-for-ms-lync/">Sangoma Technologies</a></td>
+		<td rowspan="2"><a href="https://www.sangoma.com/solutions/session-border-controller-for-ms-lync/">Sangoma Technologies</a></td>
 		<td>Vega Enterprise SBC</td>
 		<td>2.0</td>
 	</tr>
@@ -109,7 +109,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>2.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="9"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+		<td rowspan="9"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 		<td>SBC 1000</td>
 		<td>2.2.1, 3.1</td>
 	</tr>
@@ -198,7 +198,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td width="396px">4.10.2</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="6"><a href="http://www.sonus.net/lync-sbc5200">Sonus</a></td>
+		<td rowspan="6"><a href="https://www.sonus.net/lync-sbc5200">Sonus</a></td>
 		<td width="344px">SBC 1000</td>
 		<td width="396px">2.0.1v118</td>
 	</tr>
