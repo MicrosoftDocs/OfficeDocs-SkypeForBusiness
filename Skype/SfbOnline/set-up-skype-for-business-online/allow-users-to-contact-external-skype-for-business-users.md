@@ -1,3 +1,8 @@
+https://i.stack.imgur.com/plNQW.png
+
+Ability to do this on admin.microsoft.com is missing.
+
+
 ---
 title: "Allow users to contact external Skype for Business users"
 ms.reviewer: 
