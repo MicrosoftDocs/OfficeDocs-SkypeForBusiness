@@ -33,8 +33,8 @@ You can view every app in your tenant app catalog including the following inform
 
 ![Screenshot of the Managed apps page](media/manage-apps.png)
 
-- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example: 
-    ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
+- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:<br> 
+![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Categories**: Categories that apply to the app.
 - **App status**: Status of the app at the org level, which can be one of the following:
