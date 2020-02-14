@@ -90,7 +90,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
+			<td rowspan="4"><a href="https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
 			<td>ISR 3845</td>
 			<td>15.1.4M6</td>
 			<td>Basic Gateway</td>
@@ -361,7 +361,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;+S</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
+			<td rowspan="5"><a href="https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
 			<td>ISR 29xx / 39xx</td>
 			<td>15.1(3)T</td>
 			<td>Basic Gateway</td>

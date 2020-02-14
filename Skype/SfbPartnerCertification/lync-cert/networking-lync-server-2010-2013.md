@@ -68,7 +68,7 @@ Please contact the listed partner for more information on these products.
 		<td>4.0.0.7</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="4"><a href="http://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
+		<td rowspan="4"><a href="https://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
 		<td>Cisco Wireless LAN Controllers, Cisco Aironet 802.11n Access Points</td>
 		<td>AIR-CT5508-K9</td>
 		<td>SW 7.6</td>

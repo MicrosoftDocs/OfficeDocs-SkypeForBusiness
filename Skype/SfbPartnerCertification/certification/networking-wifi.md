@@ -85,7 +85,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>3507P26</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
+			<td rowspan="3"><a href="https://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
 			<td>Aironet 802.11n</td>
 			<td>AIR-CT5508-K9</td>
 			<td>SW 7.6</td>
