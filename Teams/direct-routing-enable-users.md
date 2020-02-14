@@ -1,5 +1,5 @@
 ---
-title: "Configure Direct Routing"
+title: "Enable users for Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -18,7 +18,7 @@ f1.keywords:
 description: "Learn how to enable users Microsoft Phone System Direct Routing."
 ---
 
-# Enable users for Direct Routing
+# Enable users for Direct Routing, voice, and voicemail
 
 This article describes how to enable users for Phone System Direct Routing.  This is step 2 of the following steps for configuring Direct Routing:
 
@@ -35,8 +35,7 @@ When you are ready to enable users for the Direct Routing, follow these steps:
 1. Create a user in Office 365 and assign a phone system license. 
 2. Ensure that the user is homed in Skype for Business Online. 
 3. Configure the phone number and enable enterprise voice and voicemail. 
-4. Configure voice routing. The route is automatically validated.
-5. Assign Teams Only mode to users.
+4. Assign Teams Only mode to users.
 
 ## Create a user in Office 365 and assign the license 
 
@@ -83,10 +82,6 @@ To add the phone number and enable for voicemail:
 
 	  > [!NOTE]
 	  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
-
-## Configure call routing
-
-For details on how to configure call routing, see [Configure call routing](direct-routing-voice-routing.md).
 
 
 ## Configuring sending calls directly to voicemail

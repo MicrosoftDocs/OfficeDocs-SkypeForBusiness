@@ -1,5 +1,5 @@
 ---
-title: "Configure Direct Routing"
+title: "Connect your SBC to Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -18,22 +18,22 @@ f1.keywords:
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
-# Connect your SBC to Direct Routing 
+# Connect your Session Border Controller (SBC) to Phone System Direct Routing 
 
-This article describes how to connect your SBC to Direct Routing.  This is step 1 of the following steps for configuring Direct Routing:
+This article describes how to connect your Session Border Controller (SBC) to Phone System Direct Routing.  This is step 1 of the following steps for configuring Direct Routing:
 
-- **Step 1. Connect the SBC with Microsoft Phone System and validate the connection** (This article)
+- **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
 - Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-The following are the three high-level steps to let you connect, or pair, the SBC to the Direct Routing interface: 
+The following are the three high-level steps to let you connect the SBC to the Direct Routing interface: 
 
-1. Connect to **Skype for Business Online** admin center using PowerShell 
-2. Pair the SBC to the tenant
-3. Validate the pairing 
+1. Connect to **Skype for Business Online** admin center using PowerShell            **(update for connecting to Teams admin center)**
+2. Connect the SBC to the tenant
+3. Validate the connection 
 
 ## Connect to Skype for Business Online by using PowerShell 
 
@@ -57,9 +57,9 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>   
 
 
-## Pair the SBC to the tenant 
+## Connect the SBC to the tenant 
 
-To pair the SBC to the tenant, in the PowerShell session type the following and press Enter: 
+To connect the SBC to the tenant, in the PowerShell session type the following and press Enter: 
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
@@ -87,7 +87,7 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-There are additional options that can be set during the pairing process. In the previous example, however, only the minimum required parameters are shown. 
+There are additional options that can be set during the connection process. In the previous example, however, only the minimum required parameters are shown. 
  
 The following table lists the additional parameters that you can use in setting parameters for ```New-CsOnlinePstnGateway```.
 
@@ -104,15 +104,15 @@ The following table lists the additional parameters that you can use in setting 
 |No|MediaRelayRoutingLocationOverride |Allows selecting path for media manually. Direct Routing assigns a datacenter for media path based on the public IP of the SBC. We always select closest to the SBC datacenter. However, in some cases a public IP from for example a US range can be assigned to an SBC located in Europe. In this case we will be using not optimal media path. This parameter allows manually set the preferred region for media traffic. We only recommend setting this parameter if the call logs clearly indicate that automatic assignment of the datacenter for media path does not assign the closest to the SBC datacenter. |None|Country codes in ISO format||
 |No|Enabled|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC, while it is being updated or during maintenance. |False|True<br/>False|Boolean|
  
-## Verify the SBC pairing 
+## Verify the SBC connection 
 
-Verify the connection: 
+To verify the connection: 
 - Check if the SBC is on the list of paired SBCs. 
 - Validate SIP Options. 
  
-### Validate if the SBC is on the list of paired SBCs 
+### Check if the SBC is on the list of paired SBCs 
 
-After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
+After you connect the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
 
 The paired gateway should appear in the list as shown in the example below, and verify that the **Enabled** parameter  displays a value of **True**. Enter:
 
@@ -141,31 +141,6 @@ To validate the pairing using outgoing SIP Options, use the SBC management inter
 When Direct Routing sees incoming OPTIONS, it will start sending outgoing SIP Options messages to the SBC FQDN configured in the Contact header field in the incoming OPTIONS message. 
 
 To validate the pairing using incoming SIP Options, use the SBC management interface and see that the SBC sends a reply to the OPTIONS messages coming in from Direct Routing and that the response code it sends is 200 OK.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
 
 
 ## See also

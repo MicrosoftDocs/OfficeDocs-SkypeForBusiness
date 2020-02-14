@@ -1,5 +1,5 @@
 ---
-title: "Configure Direct Routing"
+title: "Configure voice routing for Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
