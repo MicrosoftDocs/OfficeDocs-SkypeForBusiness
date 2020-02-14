@@ -101,7 +101,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>IOS-XE 03.07.00E</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
+			<td rowspan="3"><a href="https://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
 			<td>W-AP204/205, W-AP214/215, W-AP224/225, W-AP274/275 802.11ac</td>
 			<td>Dell Networking W-Series Mobility Controller W-3600</td>
 			<td>AOS 6.4.2.0 and higher</td>
@@ -117,7 +117,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>4.0.0.7 and higher</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+			<td rowspan="3"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
 			<td>IdentiFi Wireless Appliances and IdentiFi 802.11n</td>
 			<td>IdentiFi V2110 Virtual Controller on Vmware</td>
 			<td>9.01.01.0228</td>
@@ -173,7 +173,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 
 |PC Vendor  |Certified Product  |Driver Version Tested  |
 |:----|:----|:----|
-|[Dell, Inc.](http://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)| Lattitude E7450|6.30.223.262|
+|[Dell, Inc.](https://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)| Lattitude E7450|6.30.223.262|
 |[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250|         |
 |  | |  |
  

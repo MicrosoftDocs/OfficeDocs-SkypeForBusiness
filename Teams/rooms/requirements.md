@@ -75,7 +75,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
 - One of the following docking station options to secure a tablet to the meeting room table.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### Certified firmware versions for USB audio and video peripherals
