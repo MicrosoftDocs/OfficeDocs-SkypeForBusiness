@@ -265,6 +265,8 @@
 #### [Enable users for Direct Routing](direct-routing-enable-users.md)
 #### [Configure voice routing](direct-routing-voice-routing.md)
 #### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
+
 
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
 
