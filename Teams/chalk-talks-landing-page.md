@@ -20,7 +20,7 @@ ms.collection:
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams Chalk Talks</h1>
-           Come join Teams experts for a series of live, free, interactive workshops. Targeted to IT professionals, Teams Chalk Talks provide you with the best practices and practical guidance for rolling out some of the most popular Teams features.<br><br>*Click any title below to see available dates and times for the workshops, and register today!*
+           Come join Teams experts for a series of live, free, interactive workshops. Targeted to IT professionals, Teams Chalk Talks provide you with the best practices and practical guidance for rolling out some of the most popular Teams features.<br><br><i>Click any title below to see available dates and times for the workshops, and register today!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
@@ -115,7 +115,7 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What's new in Teams?/h3>
+                        <h3>What's new in Teams?</h3>
                         <p>Have you been waiting on a feature to release in Teams? Come interact with Teams experts who will walk you through the latest and greatest feature releases over the past month - along with best practices for rolling them out.</p>
                     </div>
                 </div>
