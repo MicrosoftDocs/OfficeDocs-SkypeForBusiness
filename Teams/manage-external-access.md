@@ -110,7 +110,7 @@ Have the admin in that organization do these steps:
 
 ## Communicate with Skype users
 
-To let Teams users in your organization chat with and call Skype users and vice versa, do the following. Teams users in your organization can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa. To learn more about how Teams users and Skype users can communicate, including the limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
+Follow these steps to let Teams users in your organization chat with and call Skype users and vice versa. Teams users in your organization can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa. 
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
@@ -119,6 +119,8 @@ To let Teams users in your organization chat with and call Skype users and vice 
 2. Turn on the **Users can communicate with Skype users** setting.
 
     ![Screenshot of Users can communicate with Skype setting turned on](media/manage-external-access-5.png).
+
+To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
 ## Common external access scenarios
 
