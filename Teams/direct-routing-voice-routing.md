@@ -23,7 +23,7 @@ description: "Learn how to configure voice routing with Microsoft Phone System D
 This article describes how to configure voice routing for Phone System Direct Routing.  This is step 3 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
-- Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-emable-users.md)    
+- Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)    
 - **Step 3. Configure voice routing** (This article)
 - Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
 
