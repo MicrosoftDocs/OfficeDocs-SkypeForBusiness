@@ -100,7 +100,7 @@ Use the following cmdlets to manage trusted applications.
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

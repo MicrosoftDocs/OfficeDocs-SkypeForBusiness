@@ -34,7 +34,7 @@ _**Topic Last Modified:** 2012-03-21_
 
 The Lync Server 2010 Best Practices Analyzer tool gathers configuration information from an Lync Server 2010 deployment and determines whether the configuration is set according to Microsoft best practices. You can install the tool on a client computer that runs Microsoft .NET Framework 3.5 Service Pack 1, or directly on the server that runs Lync Server 2010. We recommend that you install and run this tool on a client computer. The Lync Server 2010 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.
 
-You can download the Lync Server 2010 Best Practices Analyzer from the Microsoft Download Center at <http://go.microsoft.com/fwlink/p/?linkid=246173> .
+You can download the Lync Server 2010 Best Practices Analyzer from the Microsoft Download Center at <https://go.microsoft.com/fwlink/p/?linkid=246173> .
 
 </div>
 

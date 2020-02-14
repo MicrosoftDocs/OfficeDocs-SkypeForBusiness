@@ -44,7 +44,7 @@ For information about configuring your on-premises Lync Server deployment for hy
 
   - [Configuring Lync Server 2013 hybrid deployments](lync-server-2013-configuring-hybrid-deployments.md)
 
-For more information about Skype for Business Online, see [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).
+For more information about Skype for Business Online, see [Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396).
 
 </div>
 

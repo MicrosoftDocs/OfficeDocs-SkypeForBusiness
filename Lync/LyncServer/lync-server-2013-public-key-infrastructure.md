@@ -44,7 +44,7 @@ Each certificate is linked to a public key. The server named on the certificate 
 
 
 > [!NOTE]  
-> Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
+> Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
 
 
 

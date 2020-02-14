@@ -54,9 +54,9 @@ Software support for clients and devices of a Lync Server 2013 deployment includ
 > Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010. For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library: 
 > <UL>
 > <LI>
-> <P>Required Lync Server 2010 Components for Devices at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Required Lync Server 2010 Components for Devices at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Device System and Infrastructure Support at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Device System and Infrastructure Support at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

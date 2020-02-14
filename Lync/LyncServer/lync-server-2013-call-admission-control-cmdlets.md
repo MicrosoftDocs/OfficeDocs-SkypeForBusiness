@@ -183,7 +183,7 @@ Use the following cmdlets to manage CAC from the Lync Server Management Shell.
 [Overview of call admission control in Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

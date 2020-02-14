@@ -586,7 +586,7 @@ Antivirus software can trigger application domain restarts, which can result in 
 
 **Workaround:**
 
-To work around this issue, exclude the folders containing Web components and .NET framework from antivirus scanning. For details, see Microsoft Knowledge Base article 312592, "PRB: Random application restarts with 'Application is restarting' error in ASP.NET," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
+To work around this issue, exclude the folders containing Web components and .NET framework from antivirus scanning. For details, see Microsoft Knowledge Base article 312592, "PRB: Random application restarts with 'Application is restarting' error in ASP.NET," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
 
 The following folders should be excluded:
 

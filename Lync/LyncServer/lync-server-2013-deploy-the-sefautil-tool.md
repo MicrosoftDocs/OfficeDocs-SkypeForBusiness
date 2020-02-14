@@ -50,7 +50,7 @@ You can run the SEFAUtil in any Front End pool in your deployment.
 
 
 > [!NOTE]  
-> For more details about running SEFAUtil, see the Technet blog article, "How to get SEFAutil running?" at <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
+> For more details about running SEFAUtil, see the Technet blog article, "How to get SEFAutil running?" at <A href="https://go.microsoft.com/fwlink/?linkid=278940">https://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
 

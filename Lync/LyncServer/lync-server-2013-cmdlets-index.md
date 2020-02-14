@@ -42,7 +42,7 @@ To retrieve a full list of cmdlets available for managing Lync Server, type the 
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-For details about using the Lync Server Management Shell, see the Lync Server Windows PowerShell blog at [http://go.microsoft.com/fwlink/p/?linkId=203150](http://go.microsoft.com/fwlink/p/?linkid=203150).
+For details about using the Lync Server Management Shell, see the Lync Server Windows PowerShell blog at [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150).
 
 <div>
 

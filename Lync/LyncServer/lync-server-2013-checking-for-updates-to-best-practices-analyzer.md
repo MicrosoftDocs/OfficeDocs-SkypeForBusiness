@@ -38,7 +38,7 @@ When you start Best Practices Analyzer, the tool provides you with an option to 
 
 
 > [!NOTE]  
-> If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download. However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>. After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.
+> If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download. However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>. After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.
 
 
 

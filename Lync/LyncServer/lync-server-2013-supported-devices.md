@@ -44,7 +44,7 @@ Lync Server supports all of the phones listed in the following table. Note that 
 
 </div>
 
-For detailed comparison tables about all devices that are optimized to work with Lync, see "Phones and Devices Qualified for Microsoft Lync" at <http://go.microsoft.com/fwlink/p/?linkid=208938>. The phone comparison tables at this website include pricing information and technical specifications.
+For detailed comparison tables about all devices that are optimized to work with Lync, see "Phones and Devices Qualified for Microsoft Lync" at <https://go.microsoft.com/fwlink/p/?linkid=208938>. The phone comparison tables at this website include pricing information and technical specifications.
 
 
 <table>
@@ -119,7 +119,7 @@ For detailed comparison tables about all devices that are optimized to work with
 
 
 > [!NOTE]  
-> Support for analog devices is also provided. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planning to Deploy Analog Devices</A> in the Lync Server 2010 TechNet Library. (Lync Phone Edition works the same way in Lync Server 2013 and Lync Server 2010).
+> Support for analog devices is also provided. For details, see <A href="https://go.microsoft.com/fwlink/p/?linkid=257502">Planning to Deploy Analog Devices</A> in the Lync Server 2010 TechNet Library. (Lync Phone Edition works the same way in Lync Server 2013 and Lync Server 2010).
 
 
 

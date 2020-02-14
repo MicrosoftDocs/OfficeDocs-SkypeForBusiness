@@ -46,7 +46,7 @@ For best performance, we recommend that you run Lync Server on servers with hard
 
 
 > [!NOTE]  
-> NIC teaming is supported and should be transparent to Lync Server. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming</A>.
+> NIC teaming is supported and should be transparent to Lync Server. For details, see <A href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming</A>.
 
 
 

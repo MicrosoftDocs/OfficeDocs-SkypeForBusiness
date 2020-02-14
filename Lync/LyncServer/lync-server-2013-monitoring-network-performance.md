@@ -68,7 +68,7 @@ System Center Operations Manager provides end-to-end service management that is 
 
 More information can be found here:
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+[Microsoft System Center Operations Manager](https://go.microsoft.com/fwlink/p/?linkid=243651)
 
 [Solutions for Microsoft System Center Operations Manager](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 

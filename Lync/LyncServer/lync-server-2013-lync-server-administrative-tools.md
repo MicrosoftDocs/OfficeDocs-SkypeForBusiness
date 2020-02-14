@@ -108,7 +108,7 @@ In Lync Server, the Lync Server Management Shell provides a new method for admin
 
 ## Logging Tool
 
-The Lync Server Logging Tool facilitates troubleshooting by capturing logging and tracing information from the product while the product is running. You can use the tool to run debug sessions on any Lync Server server role. For details about the Logging Tool, see the Lync Server 2010 Logging Tool documentation on the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
+The Lync Server Logging Tool facilitates troubleshooting by capturing logging and tracing information from the product while the product is running. You can use the tool to run debug sessions on any Lync Server server role. For details about the Logging Tool, see the Lync Server 2010 Logging Tool documentation on the TechNet Library at [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265).
 
 <div>
 

@@ -38,7 +38,7 @@ This topic describes the tools that are part of the Lync Server 2013 Resource Ki
 
 ## Installation of the Resource Kit Tools
 
-To install the Lync Server 2013, Resource Kit Tools, download **OCSReskit.msi**. You can download the Resource Kit Tools installer from the Download Center at [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429).
+To install the Lync Server 2013, Resource Kit Tools, download **OCSReskit.msi**. You can download the Resource Kit Tools installer from the Download Center at [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429).
 
 Run **OCSResKit.msi** to do a simple installation. The .msi installs all the tools in the following path: **%Program Files%\\Microsoft Lync Server 2013\\ResKit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 

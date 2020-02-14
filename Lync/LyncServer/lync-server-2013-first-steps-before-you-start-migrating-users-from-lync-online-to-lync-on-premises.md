@@ -38,7 +38,7 @@ Before you start moving Lync Online users to your on-premises environment, check
 
   - Your Lync Online tenant must be configured for remote PowerShell Access.
     
-    To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
+    To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911).
     
     After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:
     

@@ -36,7 +36,7 @@ The archiving and monitoring cmdlets enable administrators to manage instant mes
 
 
 > [!NOTE]
-> For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>. The content of each blog and its URL are subject to change without notice.
+> For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>. The content of each blog and its URL are subject to change without notice.
 
 
 

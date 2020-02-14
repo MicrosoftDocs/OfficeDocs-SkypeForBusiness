@@ -32,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-09-19_
 
-You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment. You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments. For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).
+You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment. You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments. For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651).
 
 Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.
 

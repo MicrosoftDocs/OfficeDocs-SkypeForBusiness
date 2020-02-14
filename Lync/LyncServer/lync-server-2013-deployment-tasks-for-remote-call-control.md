@@ -58,7 +58,7 @@ When you are ready to deploy a SIP/CSTA gateway that can integrate with Lync Ser
 
 The preceding settings are required during user configuration and must be specified as expected by the gateway to route and connect to the PBX properly.
 
-You can refer to vendors on the Microsoft Unified Communications Open Interoperability Program website at [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).
+You can refer to vendors on the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).
 
 </div>
 

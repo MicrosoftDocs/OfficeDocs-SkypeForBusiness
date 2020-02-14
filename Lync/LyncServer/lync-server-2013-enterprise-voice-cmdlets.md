@@ -205,7 +205,7 @@ Most management tasks that apply to Enterprise Voice can be performed from the L
 [Voice application cmdlets in Lync Server 2013](lync-server-2013-voice-application-cmdlets.md)  
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

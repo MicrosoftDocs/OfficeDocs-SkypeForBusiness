@@ -42,7 +42,7 @@ Following are the Lync 2013 for Windows Phone prerequisites.
 
   - Windows Phone 8, codenamed "Apollo," or the latest version.
 
-  - The Windows Phone device must have the latest updates available from Microsoft. For details, see Windows Phone 8 update history at [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961).
+  - The Windows Phone device must have the latest updates available from Microsoft. For details, see Windows Phone 8 update history at [https://go.microsoft.com/fwlink/p/?LinkID=281961](https://go.microsoft.com/fwlink/p/?linkid=281961).
 
   - The device must have 12 MB of available disk space.
 

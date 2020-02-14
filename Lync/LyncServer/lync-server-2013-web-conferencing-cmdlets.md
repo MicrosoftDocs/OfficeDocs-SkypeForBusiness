@@ -140,7 +140,7 @@ The [New-CsClientPolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

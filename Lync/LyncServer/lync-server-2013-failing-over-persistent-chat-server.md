@@ -64,7 +64,7 @@ The Persistent Chat compliance database (mgccomp) is not failed over. The conten
 
 2.  Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.
 
-3.  Apply any unapplied transaction log backups in sequence to the secondary database. For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at http://go.microsoft.com/fwlink/p/?linkid=247428.
+3.  Apply any unapplied transaction log backups in sequence to the secondary database. For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at https://go.microsoft.com/fwlink/p/?linkid=247428.
 
 4.  Bring the backup mgc database online. Using the query window that opens in step 1b, do the following:
     

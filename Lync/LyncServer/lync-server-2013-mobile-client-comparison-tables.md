@@ -62,11 +62,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 > <LI>
 > <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>
 > <LI>
-> <P>For online help and resources for end users, see <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 for Mobile Clients</A>.</P>
+> <P>For online help and resources for end users, see <A href="https://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 for Mobile Clients</A>.</P>
 > <LI>
 > <P>To compare the features available in other Lync 2013 clients, see <A href="lync-server-2013-desktop-client-comparison-tables.md">Client comparison tables for Lync Server 2013</A>.</P>
 > <LI>
-> <P>Lync Server 2013 also supports Lync 2010 mobile apps. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">Mobile Client Comparison Tables</A> in the Lync Server 2010 documentation.</P></LI></UL>
+> <P>Lync Server 2013 also supports Lync 2010 mobile apps. For details, see <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">Mobile Client Comparison Tables</A> in the Lync Server 2010 documentation.</P></LI></UL>
 
 
 

@@ -64,7 +64,7 @@ Use the following cmdlets to configure media bypass.
 
 
 [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

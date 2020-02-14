@@ -34,11 +34,11 @@ _**Topic Last Modified:** 2013-11-21_
 
 The Microsoft® Lync™ Server 2013 capacity planning calculator is available for download at <http://www.microsoft.com/download/details.aspx?id=36828>. It is designed to assist you in determining server requirements based on numbers of users and communication modalities that are enabled at your organization. You enter your organization’s profile, and the calculator provides recommendations that help you plan your topology.
 
-The recommendations created by the calculator are for planning purposes only. Actual load simulation is required to ensure that Lync Server 2013 is adequately provisioned. To perform stress testing under a simulated load, use the [Lync Server 2013 Stress and Performance Tool](http://go.microsoft.com/fwlink/?linkid=282724).
+The recommendations created by the calculator are for planning purposes only. Actual load simulation is required to ensure that Lync Server 2013 is adequately provisioned. To perform stress testing under a simulated load, use the [Lync Server 2013 Stress and Performance Tool](https://go.microsoft.com/fwlink/?linkid=282724).
 
 After you have determined your user profile and the modalities that you want to enable for your users, it is time to use the calculator to plan the number of servers, memory, and bandwidth that you need. This version of the calculator does not provide guidance for disk I/O requirements.
 
-This calculator complements the [Microsoft Lync Server](http://go.microsoft.com/fwlink/?linkid=282725) and [Microsoft Lync Server](lync-server-2013-planning.md). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
+This calculator complements the [Microsoft Lync Server](https://go.microsoft.com/fwlink/?linkid=282725) and [Microsoft Lync Server](lync-server-2013-planning.md). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
 
 You can benefit most from the calculator if you have accurate, detailed information about your specific user profile. For example, the percentage of voice-enabled users, average calls per user per hour, call duration, and the percentage of concurrent users in conferences can make a huge difference in server requirements. The accuracy of the recommendations created by the calculator depends on the accuracy of the information that you provide.
 

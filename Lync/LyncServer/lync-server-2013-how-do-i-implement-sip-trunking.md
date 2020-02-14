@@ -148,7 +148,7 @@ Lync Server 2013 supports only the following codecs:
 
 ## Internet Telephony Service Provider
 
-How you implement the service provider side of a SIP trunk connection varies from one ITSP to another. For deployment information, contact your service provider. For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](http://go.microsoft.com/fwlink/?linkid=287029).
+How you implement the service provider side of a SIP trunk connection varies from one ITSP to another. For deployment information, contact your service provider. For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](https://go.microsoft.com/fwlink/?linkid=287029).
 
 For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.
 

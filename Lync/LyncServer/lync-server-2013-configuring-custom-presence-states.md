@@ -65,7 +65,7 @@ Configuration files have the following properties:
 
 </div>
 
-Localize your custom presence state by specifying one or more locale ID (LCID) schema in the XML configuration file. The example later in this topic shows localization into English - United States (1033), Norwegian - Bokmål (1044), French - France (1036), and Turkish (1055). For a list of LCIDs, see Locale IDs Assigned by Microsoft at <http://go.microsoft.com/fwlink/p/?linkid=157331>.
+Localize your custom presence state by specifying one or more locale ID (LCID) schema in the XML configuration file. The example later in this topic shows localization into English - United States (1033), Norwegian - Bokmål (1044), French - France (1036), and Turkish (1055). For a list of LCIDs, see Locale IDs Assigned by Microsoft at <https://go.microsoft.com/fwlink/p/?linkid=157331>.
 
 <div>
 

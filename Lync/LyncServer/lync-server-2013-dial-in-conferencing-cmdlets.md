@@ -113,7 +113,7 @@ If you do not want to allow dial-in conferencing you can disable this capability
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

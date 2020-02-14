@@ -78,7 +78,7 @@ The Office Setup.exe command line recognizes the command-line options described 
 </table>
 
 
-For details about using the setup command-line options, see <http://go.microsoft.com/fwlink/p/?linkid=267515>.
+For details about using the setup command-line options, see <https://go.microsoft.com/fwlink/p/?linkid=267515>.
 
 </div>
 

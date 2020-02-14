@@ -81,7 +81,7 @@ All of these cmdlets are issued through the Lync Server Management Shell found i
 ## See Also
 
 
-[http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  
+[https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  
   
 
 </div>

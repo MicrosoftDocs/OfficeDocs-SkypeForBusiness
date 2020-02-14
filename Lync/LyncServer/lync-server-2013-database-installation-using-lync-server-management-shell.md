@@ -72,7 +72,7 @@ For installing databases, **Install-CsDatabase** uses three primary methods for 
 
 1.  On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server. For details, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Open the Lync Server 2013 Management Shell. If you have not adjusted the execution policy for Windows PowerShell, you must adjust the policy to allow Windows PowerShell scripts to run. For details, see “Examining the Execution Policy” at [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093).
+2.  Open the Lync Server 2013 Management Shell. If you have not adjusted the execution policy for Windows PowerShell, you must adjust the policy to allow Windows PowerShell scripts to run. For details, see “Examining the Execution Policy” at [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093).
 
 3.  Use the **Install-CsDatabase** cmdlet to install the Central Management store.
     

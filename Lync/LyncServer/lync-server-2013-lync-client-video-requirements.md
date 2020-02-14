@@ -66,7 +66,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 <div>
 
 > [!NOTE]  
-> For details about decoding modes, see <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
+> For details about decoding modes, see <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
 
 
 </div></td>

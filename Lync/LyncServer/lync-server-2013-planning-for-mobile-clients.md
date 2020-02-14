@@ -38,7 +38,7 @@ Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice
 
 
 > [!NOTE]  
-> Lync Server 2013 also supports Lync 2010 mobile clients. For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
+> Lync Server 2013 also supports Lync 2010 mobile clients. For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
 
 
 

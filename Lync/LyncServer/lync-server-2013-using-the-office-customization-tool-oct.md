@@ -48,7 +48,7 @@ Administrators use the OCT to create a setup customization .msp file. As in the 
 
   - **Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\\Receive groups.
 
-For information about the OCT, see <http://go.microsoft.com/fwlink/p/?linkid=267516>.
+For information about the OCT, see <https://go.microsoft.com/fwlink/p/?linkid=267516>.
 
 </div>
 

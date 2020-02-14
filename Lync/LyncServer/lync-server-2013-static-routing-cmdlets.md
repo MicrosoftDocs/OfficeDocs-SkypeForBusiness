@@ -120,7 +120,7 @@ Unless otherwise instructed by Microsoft support personnel, static routes config
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

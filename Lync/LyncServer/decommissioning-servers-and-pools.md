@@ -34,11 +34,11 @@ _**Topic Last Modified:** 2012-09-26_
 
 The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.
 
-  - Decommissioning Standard Edition at [http://go.microsoft.com/fwlink/p/?linkId=205889](http://go.microsoft.com/fwlink/p/?linkid=205889)
+  - Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)
 
-  - Removing Servers and Server Roles at [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)
+  - Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)
 
-  - Removing an Enterprise Pool at [http://go.microsoft.com/fwlink/p/?linkId=205888](http://go.microsoft.com/fwlink/p/?linkid=205888)
+  - Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)
 
 </div>
 

@@ -50,7 +50,7 @@ Lync Server Control Panel requires that Microsoft Silverlight browser plug-in ve
 
 </div>
 
-If your Internet browser blocks installation of Silverlight due to security considerations, add the Uniform Resource Locator (URL) that opens Lync Server Control Panel to the list of trusted sites. In Internet Explorer security settings, ensure that **Run ActiveX controls and plug-ins** is set to **Enabled**. For details, see [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060). Furthermore, ensure that the browser is configured to use SSL 3.0.
+If your Internet browser blocks installation of Silverlight due to security considerations, add the Uniform Resource Locator (URL) that opens Lync Server Control Panel to the list of trusted sites. In Internet Explorer security settings, ensure that **Run ActiveX controls and plug-ins** is set to **Enabled**. For details, see [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060). Furthermore, ensure that the browser is configured to use SSL 3.0.
 
 If the Internet browser is configured to use a proxy server, verify that the browser is configured to bypass the proxy server for sites that are automatically detected as internal sites. Or, add the address to the browser's exception list in the proxy server configuration settings.
 

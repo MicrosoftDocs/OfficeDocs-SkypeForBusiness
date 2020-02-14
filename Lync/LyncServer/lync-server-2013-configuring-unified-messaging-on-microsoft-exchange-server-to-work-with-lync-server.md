@@ -77,7 +77,7 @@ To configure Exchange Unified Messaging (UM) to work with Enterprise Voice, youâ
 
 Before you begin, the documentation in this section assumes that you have deployed the following Exchange 2013 roles: Client Access and Mailbox. In Microsoft Exchange Server 2013, Exchange UM runs as a service on these servers.
 
-For details about deploying Exchange 2013, see the Exchange 2013 TechNet Library at [http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+For details about deploying Exchange 2013, see the Exchange 2013 TechNet Library at [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 Also note the following:
 

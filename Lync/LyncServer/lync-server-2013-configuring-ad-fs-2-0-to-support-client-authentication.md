@@ -38,7 +38,7 @@ There are two possible authentication types that can be configured to allow AD F
 
   - Transport Layer Security Client Authentication
 
-Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN. This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0. For more information about AD FS 2.0 authentication types, see AD FS 2.0: How to Change the Local Authentication Type at [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384).
+Using forms-based authentication, you can develop a web page that allows users to authenticate either by using their username/password or by using their smart card and PIN. This topic focuses on how to implement Transport Layer Security Client Authentication with AD FS 2.0. For more information about AD FS 2.0 authentication types, see AD FS 2.0: How to Change the Local Authentication Type at [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384).
 
 <div>
 

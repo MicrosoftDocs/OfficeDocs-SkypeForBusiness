@@ -50,7 +50,7 @@ To configure this value on a single computer, complete the following procedure:
 
 6.  Verify that the value of PersonalContactStoreOverride is set to 0 and then close Registry Editor.
 
-If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object. For details, see the Group Policy documentation at [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543).
+If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object. For details, see the Group Policy documentation at [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543).
 
 </div>
 

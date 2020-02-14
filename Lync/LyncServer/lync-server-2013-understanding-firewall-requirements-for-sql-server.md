@@ -140,7 +140,7 @@ When using named instances in the SQL Server configuration for databases support
 
 ## SQL Server Documentation
 
-Microsoft SQL Server 2012 documentation provides detailed guidance on how to configure firewall access for databases. For details about Microsoft SQL Server 2012, see “Configuring the Windows Firewall to Allow SQL Server Access” at [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031).
+Microsoft SQL Server 2012 documentation provides detailed guidance on how to configure firewall access for databases. For details about Microsoft SQL Server 2012, see “Configuring the Windows Firewall to Allow SQL Server Access” at [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031).
 
 </div>
 

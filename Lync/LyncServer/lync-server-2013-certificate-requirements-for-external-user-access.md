@@ -36,7 +36,7 @@ Microsoft Lync Server 2013 communications software supports the use of a single
 
 Following are the requirements for the public certificate used for access and web conferencing Edge external interfaces, and the A/V authentication service:
 
-  - The certificate must be issued by an approved public CA that supports subject alternative name. For details, see Microsoft Knowledge Base article 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+  - The certificate must be issued by an approved public CA that supports subject alternative name. For details, see Microsoft Knowledge Base article 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
 
   - If the certificate will be used on an Edge pool, it must be created as exportable, with the same certificate used on each Edge Server in the Edge pool. The exportable private key requirement is for the purposes of the A/V Authentication service, which must use the same private key across all Edge Servers in the pool.
 

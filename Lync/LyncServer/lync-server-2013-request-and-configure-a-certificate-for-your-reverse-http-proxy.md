@@ -151,7 +151,7 @@ To generate a certificate signing request on the computer where the certificate 
 
 **Creating a certificate signing request**
 
-1.  Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**. For details on how to create a certificates console in the Microsoft Management Console (MMC), see [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+1.  Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**. For details on how to create a certificates console in the Microsoft Management Console (MMC), see [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616).
 
 2.  Right-click **Certificates**, click **All Tasks**, click **Advanced Operations**, click **Create Custom Request**.
 
@@ -212,7 +212,7 @@ To generate a certificate signing request on the computer where the certificate 
     
 
     > [!IMPORTANT]
-    > Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes. A list is maintained in the following knowledge base article. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes. A list is maintained in the following knowledge base article. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

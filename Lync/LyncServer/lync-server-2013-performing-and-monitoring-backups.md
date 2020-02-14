@@ -44,7 +44,7 @@ Who can run this cmdlet: By default, members of the following groups are authori
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-All SQL 2012 Back End databases should be backed up as per [SQL best practices](http://go.microsoft.com/fwlink/p/?linkid=290716).
+All SQL 2012 Back End databases should be backed up as per [SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716).
 
 Regular testing of the Disaster Recovery Plan for your Lync Server 2013 infrastructure should be performed in a lab environment that mimics the production environment as closely as possible. Refer to the Monthly Tasks for more information about Disaster Recovery Testing.
 
@@ -57,7 +57,7 @@ Note that the backup frequency can be adjusted, based on your Restore Point and 
 
 [Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
-[SQL best practices](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+[SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
 </div>

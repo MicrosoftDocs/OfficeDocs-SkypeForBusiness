@@ -61,7 +61,7 @@ Be sure that you’ve met the following prerequisites before migrating either Ly
 
 Perform the following steps to properly prepare your source data for migration.
 
-1.  Back up the source databases for either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat. For details about backing up SQL Server, see "Backup Overview (SQL Server)" at <http://go.microsoft.com/fwlink/p/?linkid=254851>.
+1.  Back up the source databases for either Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat. For details about backing up SQL Server, see "Backup Overview (SQL Server)" at <https://go.microsoft.com/fwlink/p/?linkid=254851>.
     
     <div>
     

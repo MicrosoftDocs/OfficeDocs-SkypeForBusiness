@@ -36,9 +36,9 @@ _**Topic Last Modified:** 2015-05-18_
 
 ## In This Section
 
-To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .
+To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](https://go.microsoft.com/fwlink/p/?linkid=390677) .
 
-We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system. Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.
+We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system. Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](https://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.
 
 </div>
 

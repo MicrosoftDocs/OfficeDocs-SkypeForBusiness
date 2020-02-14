@@ -44,7 +44,7 @@ Lync Server 2013, Persistent Chat Server enables users to participate in multipa
 
   - Increase dispersion of important knowledge and information. Documents and links can be included within conversations for access by all the team. By posting questions to a broader team, users can benefit from responses by subject matter experts. Integration with other information systems enables important organizational data to be easily communicated to large groups.
 
-To enable chat rooms in Lync Server 2013, deploy Lync Server 2013 Persistent Chat. For information about enabling chat rooms, see the Persistent Chat Help at <http://go.microsoft.com/fwlink/p/?linkid=270945>. If users are enabled for Lync Server, and Lync Server support is deployed, users can install and use Lync 2013 Persistent Chat to provide chat room support.
+To enable chat rooms in Lync Server 2013, deploy Lync Server 2013 Persistent Chat. For information about enabling chat rooms, see the Persistent Chat Help at <https://go.microsoft.com/fwlink/p/?linkid=270945>. If users are enabled for Lync Server, and Lync Server support is deployed, users can install and use Lync 2013 Persistent Chat to provide chat room support.
 
 If your organization is required to follow compliance regulations, you can optionally deploy Persistent Chat Compliance service.
 

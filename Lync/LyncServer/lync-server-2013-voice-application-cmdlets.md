@@ -288,7 +288,7 @@ The following is a list of cmdlets that deal with voice applications:
 [Enterprise Voice cmdlets in Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -127,7 +127,7 @@ For the best performance of wave files, a 16 kHz, mono, 16-bit Wave file is reco
 
 If you use a Windows Media audio file, consider using low bit rates, and verify the performance of your system under load.
 
-You can use the Microsoft Expression Encoder 4 to convert a file to the Windows Media Audio format. To download Expression Encoder 4, see [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843).
+You can use the Microsoft Expression Encoder 4 to convert a file to the Windows Media Audio format. To download Expression Encoder 4, see [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843).
 
 </div>
 

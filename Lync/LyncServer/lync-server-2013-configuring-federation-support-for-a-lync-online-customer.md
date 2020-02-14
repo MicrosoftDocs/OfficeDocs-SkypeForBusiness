@@ -44,7 +44,7 @@ If you deploy Lync 2013 in your organization, you can federate with the domains 
 
 
 > [!NOTE]  
-> This documentation describes only the procedures for configuring your organization to support federation with an Lync Online 2010 customer. This documentation does not describe the procedures for configuring the Lync Online 2010 customer to support federation. For details about Lync Online services, see Lync Online at <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>.
+> This documentation describes only the procedures for configuring your organization to support federation with an Lync Online 2010 customer. This documentation does not describe the procedures for configuring the Lync Online 2010 customer to support federation. For details about Lync Online services, see Lync Online at <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>.
 
 
 

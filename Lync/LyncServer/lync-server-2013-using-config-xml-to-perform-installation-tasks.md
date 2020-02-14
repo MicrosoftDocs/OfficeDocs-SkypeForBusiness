@@ -126,7 +126,7 @@ The following example shows a Config.xml file for a typical silent installation 
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at <http://go.microsoft.com/fwlink/p/?linkid=267514>.
+Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at <https://go.microsoft.com/fwlink/p/?linkid=267514>.
 
 <div>
 

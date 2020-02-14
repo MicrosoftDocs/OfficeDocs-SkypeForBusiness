@@ -98,7 +98,7 @@ Lync Server 2013 supports Active Directory Domain Services deployments that incl
 
 ## Domain Names
 
-Lync Server does not support single-labeled domains. For example, a forest with a root domain named **contoso.local** is supported, but a root domain named **local** is not supported. For details, see Microsoft Knowledge Base article 300684, “Information about configuring Windows for domains with single-label DNS names,” at [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752).
+Lync Server does not support single-labeled domains. For example, a forest with a root domain named **contoso.local** is supported, but a root domain named **local** is not supported. For details, see Microsoft Knowledge Base article 300684, “Information about configuring Windows for domains with single-label DNS names,” at [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752).
 
 <div>
 

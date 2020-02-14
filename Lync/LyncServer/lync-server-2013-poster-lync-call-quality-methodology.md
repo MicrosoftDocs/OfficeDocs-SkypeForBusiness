@@ -32,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2016-06-24_
 
-This article is a companion to the [Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841) poster, which you can download from the Download Center.
+This article is a companion to the [Lync Call Quality Methodology](https://go.microsoft.com/fwlink/?linkid=391841) poster, which you can download from the Download Center.
 
 ![Poster describing the CQM process](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster describing the CQM process")
 
@@ -66,7 +66,7 @@ The poster explains the following areas:
 
 ## What is Lync CQM?
 
-Call Quality Methodology is a new troubleshooting and service management framework that can better focus efforts to improve enterprise voice services in Lync. When you use CQM, less effort is needed to assure call quality and user satisfaction for enterprise voice services. CQM is more fully explained in the [Call Quality Methodology](http://go.microsoft.com/fwlink/p/?linkid=615208). This article and the poster are summaries of that content.
+Call Quality Methodology is a new troubleshooting and service management framework that can better focus efforts to improve enterprise voice services in Lync. When you use CQM, less effort is needed to assure call quality and user satisfaction for enterprise voice services. CQM is more fully explained in the [Call Quality Methodology](https://go.microsoft.com/fwlink/p/?linkid=615208). This article and the poster are summaries of that content.
 
 CQM breaks down System troubleshooting into three paths or “Roads.” These are: the Server Plant Road, which looks at the servers and the links between them, the End Points Road, which looks at user devices and media used to carry calls, and the Last Mile Road, which addresses integration of traditional switched telephone network calls.
 
@@ -199,9 +199,9 @@ To **Maintain** in the game, state out loud the service management plan regardin
 ## See Also
 
 
-[Lync Server Networking Guide](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server Networking Guide](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync Call Quality Methodology](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

@@ -69,7 +69,7 @@ This topic describes how to configure the Domain Name System (DNS) SRV record th
     
 
     > [!NOTE]
-    > The domain must also be set up as an authoritative, accepted domain in your Exchange Online settings. For details, see Create Accepted Domains at <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>.
+    > The domain must also be set up as an authoritative, accepted domain in your Exchange Online settings. For details, see Create Accepted Domains at <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>.
 
     
     </div>

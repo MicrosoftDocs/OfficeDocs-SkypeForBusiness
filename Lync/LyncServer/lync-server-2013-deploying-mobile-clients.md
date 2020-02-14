@@ -41,9 +41,9 @@ Lync 2013 apps for mobile clients provide instant messaging (IM), enhanced prese
 > Lync Server 2013 also supports Lync 2010 for mobile clients. For details, refer to the following articles in the Lync Server 2010 TechNet library: 
 > <UL>
 > <LI>
-> <P>“Planning for Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
+> <P>“Planning for Mobile Clients” at <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
 > <LI>
-> <P>“Deploying Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
+> <P>“Deploying Mobile Clients” at <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
 
 
 
