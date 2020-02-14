@@ -75,7 +75,7 @@ Download Network Monitor 3.4:
 
 ## Lync Server partners
 - [Aruba](https://www.arubanetworks.com/lync)
-- [Brocade](http://www.brocade.com/)
+- [Brocade](https://www.brocade.com/)
 - [Extreme Networks](http://h17007.www1.hp.com/us/en/networking/index.aspx#.U6LrvXlOVaQ)
 - [Juniper](https://www.arubanetworks.com/lync)
 

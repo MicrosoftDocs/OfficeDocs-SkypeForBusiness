@@ -177,7 +177,7 @@ Please contact the listed partner for more information on these products.
 		<td>S1500, S2500, and S3500 Mobility Access Switches</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.brocade.com/downloads/documents/deployment_guides/Brcd_MS_Lync_Server.pdf">Brocade</a></td>
+		<td><a href="https://www.brocade.com/downloads/documents/deployment_guides/Brcd_MS_Lync_Server.pdf">Brocade</a></td>
 		<td>Brocade MLX, SX, ICX, VDX, 5120</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
