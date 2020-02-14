@@ -1,5 +1,5 @@
 ---
-title: "Configure Direct Routing"
+title: "Translate phone numbers for Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -20,9 +20,16 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 # Translate numbers for outbound and inbound calls to an alternate format
 
-Sometimes tenant administrators may want to change the number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with Session Border Controllers (SBCs). This article describes how you can specify a Number Translation Rules policy to translate numbers to an alternate format. 
+This article describes how to translate numbers for outbound and inbound calls to an alternate format.  This is step 4 of the following steps for configuring Direct Routing:
+
+- Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
+- Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)   
+- Step 3. [Configure voice routing](direct-routing-voice-routing.md)
+- **Step 4. Translate numbers to an alternate format**   (This article)
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+
+Sometimes tenant administrators may want to change the number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with Session Border Controllers (SBCs). This article describes how you can specify a Number Translation Rules policy to translate numbers to an alternate format. 
 
 You can use the Number Translation Rules policy to translate numbers for the following:
 
