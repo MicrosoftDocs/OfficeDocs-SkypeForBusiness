@@ -45,6 +45,8 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 - **Step 3.** [Configure voice routing](direct-routing-voice-routing.md)
 - **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
+If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
+
 
 ## See also
 

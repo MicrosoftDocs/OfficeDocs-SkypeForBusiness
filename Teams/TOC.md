@@ -266,7 +266,7 @@
 #### [Enable users for Direct Routing](direct-routing-enable-users.md)
 #### [Configure voice routing](direct-routing-voice-routing.md)
 #### [Translate phone numbers](direct-routing-translate-numbers.md)
-#### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+#### [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
 
