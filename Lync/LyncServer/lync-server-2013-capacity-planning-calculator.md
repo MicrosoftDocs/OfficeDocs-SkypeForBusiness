@@ -32,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-11-21_
 
-The Microsoft® Lync™ Server 2013 capacity planning calculator is available for download at <http://www.microsoft.com/download/details.aspx?id=36828>. It is designed to assist you in determining server requirements based on numbers of users and communication modalities that are enabled at your organization. You enter your organization’s profile, and the calculator provides recommendations that help you plan your topology.
+The Microsoft® Lync™ Server 2013 capacity planning calculator is available for download at <https://www.microsoft.com/download/details.aspx?id=36828>. It is designed to assist you in determining server requirements based on numbers of users and communication modalities that are enabled at your organization. You enter your organization’s profile, and the calculator provides recommendations that help you plan your topology.
 
 The recommendations created by the calculator are for planning purposes only. Actual load simulation is required to ensure that Lync Server 2013 is adequately provisioned. To perform stress testing under a simulated load, use the [Lync Server 2013 Stress and Performance Tool](https://go.microsoft.com/fwlink/?linkid=282724).
 
