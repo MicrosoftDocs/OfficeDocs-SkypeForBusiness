@@ -84,32 +84,32 @@ For detailed comparison tables about all devices that are optimized to work with
 <tr class="odd">
 <td><p>Polycom CX300 USB desk phone</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX500 IP common area phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> at the Polycom website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX600 IP desk phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX700 IP desk phone</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> at the Polycom website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX3000 IP conference phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX5000 USB conferencing device</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> at the Polycom website</p></td>
 </tr>
 </tbody>
 </table>
