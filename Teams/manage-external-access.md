@@ -110,7 +110,7 @@ Have the admin in that organization do these steps:
 
 ## Communicate with Skype users
 
-Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users in your organization can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa. 
+Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
