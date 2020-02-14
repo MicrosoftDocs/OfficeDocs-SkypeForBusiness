@@ -48,7 +48,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 |[Fortinet](http://www.fortinet.com/) |FortiADC-1500D|4.2.3|[Fortinet ADC Deployment Guide for Lync Server 2013](http://docs.fortinet.com/d/fortiadc-load-balancing-lync)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/) |ALOHA Load Balancer|5.5|[Aloha Deployment Guide for Lync 2010](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |Accelerating Load Balancer (ALB)<br/><hr>Accelerating Load Balancer Extreme (ALB-X) |ALB 2.0 <br/><hr>3.42.1 (Build 1475) |[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
-|[KEMP Technologies](http://www.kemptechnologies.com/) |LoadMaster|7.1-18b|[LoadMaster Deployment Guide](http://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-lync/)|
+|[KEMP Technologies](http://www.kemptechnologies.com/) |LoadMaster|7.1-18b|[LoadMaster Deployment Guide](https://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-lync/)|
 |[Loadbalancer.org](http://loadbalancer.org/) |Enterprise, Enterprise MAX, Enterprise 10G|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](http://pdfs.loadbalancer.org/Microsoft_Lync_2010_Deployment_Guide.pdf)|
 |[Radware](http://www.radware.com/) |  AppDirector  <br/><hr>  Alteon   |v.2.14.03<br/><hr> v.28.1.0   |[Radware AppDirector optimizing the delivery of Microsoft Lync 2010](http://www.radware.com/Partners/TechnologyPartners/Microsoft/)<br/><hr> |
 | |         |         ||
@@ -72,7 +72,7 @@ Software load balancers listed in the table that follows  have been tested by th
 |[F5](https://f5.com/) |BIG-IP Local Traffic Manager Virtual Edition|10.x, 11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/)|ALOHA Load-Balancer Virtual Appliance|5.5|[Deployment guide](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |  Accelerating Load Balancer (ALB)  <br/><hr>  Accelerating Load Balancer Extreme (ALB-X)    |  ALB 2.0   <br/><hr>3.42.1 (Build 1475)|[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
-|[KEMP](http://www.kemptechnologies.com/) |LoadMaster VLM-100, VLM-1000|V5.1|[LoadMaster Deployment Guide for Microsoft Lync 2010](http://kemptechnologies.com/files/downloads/documentation/Lync/KEMP_Lync_2010_Deployment_Guide.pdf)|
+|[KEMP](http://www.kemptechnologies.com/) |LoadMaster VLM-100, VLM-1000|V5.1|[LoadMaster Deployment Guide for Microsoft Lync 2010](https://kemptechnologies.com/files/downloads/documentation/Lync/KEMP_Lync_2010_Deployment_Guide.pdf)|
 |[Loadbalancer.org](http://loadbalancer.org/)|Enterprise VA|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](http://pdfs.loadbalancer.org/Microsoft_Lync_2010_Deployment_Guide.pdf)|
 |[Riverbed Technology](http://www.riverbed.com/) |Stingray Traffic Manager|8.x and up|[Riverbed Stingray and Microsft Lync 2010: Deployment Guide](https://splash.riverbed.com/docs/DOC-1335)|
 |     |         |         | |
