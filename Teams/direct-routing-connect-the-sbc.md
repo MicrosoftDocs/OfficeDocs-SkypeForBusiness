@@ -18,7 +18,7 @@ f1.keywords:
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
-# Connect your Session Border Controller (SBC) to Phone System Direct Routing 
+# Connect your Session Border Controller (SBC) to Direct Routing 
 
 This article describes how to connect your Session Border Controller (SBC) to Phone System Direct Routing.  This is step 1 of the following steps for configuring Direct Routing:
 
@@ -27,7 +27,7 @@ This article describes how to connect your Session Border Controller (SBC) to Ph
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
 - Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) (Optional)
 
-If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites you’ll need to take before you configure your Microsoft Phone System network.  For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+Before you start to configure Direct Routing, see [Plan Direct Routing](direct-routing-plan.md) for prerequisite information. For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 The following are the three high-level steps to let you connect the SBC to the Direct Routing interface: 
 
