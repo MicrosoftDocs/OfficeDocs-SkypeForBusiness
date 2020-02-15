@@ -18,7 +18,7 @@ f1.keywords:
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
-# Translate numbers for outbound and inbound calls to an alternate format
+# Translate phone numbers to an alternate format
 
 This article describes how to translate numbers for outbound and inbound calls to an alternate format.  This is step 4 of the following steps for configuring Direct Routing:
 
@@ -40,7 +40,7 @@ The policy is applied at the SBC level. You can assign multiple translation rule
 
 To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlets.
 
-To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  ```InboundTeamsNumberTranslationRules```, ```InboundPSTNNumberTranslationRules```, ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules```, ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList```, ```OutboundTeamsNumberTranslationRulesList```, and ```OutboundPSTNNumberTranslationRulesList``` parameters.
+To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRulesList, InboundPSTNNumberTranslationRulesList, OutboundTeamsNumberTranslationRulesList, and OutboundPSTNNumberTranslationRulesList parameters.
 
 
 ## Example SBC configuration
@@ -100,7 +100,7 @@ In this scenario, a dial plan translates the number before sending it to the Dir
 |TO    |TO: \<sip:+14255550100@sbc.contoso.com>|TO: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList ‘StripPlus1’       |
 |FROM   |FROM: \<sip:+12065550100@sbc.contoso.com>|FROM: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList ‘StripPlus1’         |
 
-### Example 4: Outbound call using a four-digit non-E.164 number
+## Example 4: Outbound call using a four-digit non-E.164 number
 
 Alice calls Bob using a four-digit number. Alice uses 0100 to reach Bob from Calls or by using a contact.
 SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-digit numbers for PSTN users. The dial plan isn't applied in this scenario.
@@ -115,4 +115,5 @@ SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-di
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
+
 [Configure Direct Routing](direct-routing-configure.md)
