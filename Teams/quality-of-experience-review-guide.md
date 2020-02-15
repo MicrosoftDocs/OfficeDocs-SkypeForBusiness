@@ -24,16 +24,6 @@ This article will help you - the Teams admin or support and helpdesk engineer - 
 
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
-## Categories to monitor and maintain
-
-Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
-
-**<font color="red">SIUNIE and VAMSI, please review this graphic. Since it's all text, I think we can kill it, replace it with a table. </font>**
-
-![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
-
-_Figure 1 - Key operational areas_
-
 Most problems with Teams performance fall into the following categories:
 
 -   Incomplete firewall or proxy configuration
@@ -45,6 +35,35 @@ Most problems with Teams performance fall into the following categories:
 -   Problematic subnets or network devices
 
 If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network in preparation for your Teams rollout, read [Advisor for Teams](use-advisor-teams-roll-out.md) and [Prepare your network for Teams](prepare-network.md).
+
+
+## Categories to monitor and maintain
+
+Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas listed below. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
+
+**Call quality**
+- Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls
+- Break down the metrics by building or network
+- VPN calls
+- Calls using TCP, UDP, or proxy
+
+**Call reliability**
+- Identify and remediate any network or firewall problems
+- Gain insights into the percentages of call setup and drop failures
+- Learn where the majority of call setup and drop failures occur
+
+**User survey**
+- Use Rate My Call data to learn about users' actual experience
+- Where are the poor experiences occurring?
+- Correlate the poor experience with call quality, reliability, and devices
+
+**Devices**
+- Learn which microphones and speakers are most commonly used and their impact on call quality
+- Are the supporting audio, video, USB, and WiFi drivers being regularly patched?
+
+**Clients**
+- Learn which client types and versions are being used and their impact on call quality and reliability
+
 
 
 ## Set up CQD, assign admin roles
