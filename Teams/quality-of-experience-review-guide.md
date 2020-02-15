@@ -198,9 +198,7 @@ Rate My Call (RMC) is built into Teams and Skype for Business. It automatically 
 > [!Note]
 > The human factor: Users often ignore the survey when call quality is good, and they fill it out when call quality is bad. As a result, your RMC reports might be skewed to the poor side even while service metrics are good.
 
-You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
-
-**<font color="red">SIUNIE and VAMSI: This blog post goes back to SfB 2015. We need a more up-to-date reference here. If this blog's information is still relevant, let's move it into an article.</font>**
+You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this article. 
 
 #### Client and device readiness
 
@@ -208,12 +206,7 @@ You need a solid client and device strategy to help ensure that your users have 
 
 ##### Client readiness
 
-A strong client readiness strategy ensures that your users are running the most recent version of the client while enjoying the best experience possible. Microsoft routinely patches the Skype for Business client; ensuring that you keep it up to date in your environment is vital to your overall success. It’s also important to remember to patch network, video, USB, and audio drivers, because they’re often overlooked and can affect the user’s experience. Consider adding network, Wi-Fi, video, USB, and audio drivers to your current patch management process.
-
-We recommend that you not let your client versions fall behind by more than six months. If you’re using Office Click-to-Run, you’re already being kept up to date by the service. Use the included [client versions](#client-versions), as described later in this guide, to assist you with this process. You can also leverage the Rate My Call sample reports to further enhance your client readiness strategy.
-
-> [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Due to this, client readiness and investigative activities aren’t applicable to Teams.
+Keeping the Teams client up-to-date ensures that your users are always getting the best-possible experience. Microsoft releases frequent [updates to the Teams client](teams-client-update.md) (the update installs itself in the background unless you've turned off this functionality - which we don't recommend). It’s also important to remember to patch network, video, USB, and audio drivers, because they’re often overlooked and can affect call and meeting quality. Consider adding network, Wi-Fi, video, USB, and audio drivers to your current patch management process.
 
 
 ##### Device readiness
