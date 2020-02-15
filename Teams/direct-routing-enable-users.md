@@ -30,7 +30,7 @@ This article describes how to enable users for Phone System Direct Routing.  Thi
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-When you are ready to enable users for the Direct Routing, follow these steps: 
+When you are ready to enable users for Direct Routing, follow these steps: 
 
 1. Create a user in Office 365 and assign a phone system license. 
 2. Ensure that the user is homed in Skype for Business Online. 
@@ -39,18 +39,18 @@ When you are ready to enable users for the Direct Routing, follow these steps:
 
 ## Create a user in Office 365 and assign the license 
 
-There are two options for creating a new user in Office 365. However, Microsoft recommends that your organization select and use one option to avoid routing issues: 
+There are two options for creating a new user in Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
 - Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 - Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-If your Skype for Business Online deployment co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 
+If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
 ## Ensure that the user is homed in Skype for Business Online 
 
-Direct Routing requires the user to be homed in Skype for Business Online. You can check this by looking at the RegistrarPool parameter. It needs to have a value in the infra.lync.com domain.
+Direct Routing requires the user to be homed in Skype for Business Online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain.
 
 1. Connect to remote PowerShell.
 2. Issue the command: 
@@ -72,7 +72,7 @@ To add the phone number and enable for voicemail:
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-	For example, to add a phone number for user "Spencer Low," you would enter the following: 
+	For example, to add a phone number for user "Spencer Low," enter the following: 
 
 	```PowerShell
 	Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -86,7 +86,7 @@ To add the phone number and enable for voicemail:
 
 ## Configuring sending calls directly to voicemail
 
-Direct Routing allows you to end the call to a user and send it directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". In this case the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
+Direct Routing allows you to end the call to a user and send it directly to the user's voicemail. If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
@@ -96,4 +96,4 @@ Direct Routing requires that users be in Teams Only mode to ensure incoming call
 
 [Plan Direct Routing](direct-routing-plan.md)
 
-[Configure Direct Routing](direct-routing-configure.md)]
+[Configure Direct Routing](direct-routing-configure.md)

@@ -162,7 +162,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
   > [!CAUTION]
   > Make sure that your regular expression in the NumberPattern attribute is a valid expression. You can test it using this website: [https://www.regexpal.com](https://www.regexpal.com)
 
-In some cases there is a need to route all calls to the same SBC; please use -NumberPattern ".*"
+In some cases, there is a need to route all calls to the same SBC; use -NumberPattern ".*"
 
 Route all calls to same SBC.
 
@@ -245,7 +245,7 @@ US Only
 
 The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
-In the example that follows, you can create the voice routing policy "No Restrictions." The policy reuses the PSTN Usage "US and Canada" created in Example 1, as well as the new PSTN Usage "International."  This routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz. 
+In the example that follows, you can create the voice routing policy "No Restrictions." The policy reuses the PSTN Usage "US and Canada" created in Example 1, as well as the new PSTN Usage "International."  This policy routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz. 
 
 The examples that are shown assign the US Only policy to user Spencer Low, and the No Restrictions policy to the user John Woods so that routing occurs as follows:
 
@@ -363,4 +363,5 @@ The result is that the voice policy applied to John Woods’ calls is unrestrict
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
+
 [Configure Direct Routing](direct-routing-configure.md)

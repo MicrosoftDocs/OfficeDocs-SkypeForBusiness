@@ -1,5 +1,5 @@
 ---
-title: "Connect your SBC to Direct Routing"
+title: "Connect your Session Border Controller (SBC) to Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -25,7 +25,7 @@ This article describes how to connect your Session Border Controller (SBC) to Ph
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternat format](direct-routing-translate-numbers.md) 
+- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
@@ -37,9 +37,9 @@ To connect your SBC to Direct Routing, you'll need to:
 
 ## Connect to Skype for Business Online by using PowerShell 
 
-You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
-After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy and paste the following command in the PowerShell session and press Enter: 
+After you establish a remote PowerShell session, validate that you can see the commands to manage the SBC. To validate the commands, type or copy and paste the following command in the PowerShell session and press Enter: 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
@@ -100,9 +100,9 @@ The following table lists the additional parameters that you can use in setting 
 |No|ForwardCallHistory |Indicates whether call history information will be forwarded through the trunk. If enabled, the Office 365 PSTN Proxy sends two headers: History-info and Referred-By. The default value is **False** ($False). |False|True<br/>False|Boolean|
 |No|ForwardPAI|Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller. If enabled the Privacy:ID header will also be sent. The default value is **False** ($False).|False|True<br/>False|Boolean|
 |No|SendSIPOptions |Defines if an SBC will or will not send the SIP options. If disabled, the SBC will be excluded from Monitoring and Alerting system. We highly recommend that you enable SIP options. Default value is **True**. |True|True<br/>False|Boolean|
-|No|MaxConcurrentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent session is 90% or higher than this value. If parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent session every 24 hours. |Null|Null<br/>1 to 100,000 ||
-|No|MediaRelayRoutingLocationOverride |Allows selecting path for media manually. Direct Routing assigns a datacenter for media path based on the public IP of the SBC. We always select closest to the SBC datacenter. However, in some cases a public IP from for example a US range can be assigned to an SBC located in Europe. In this case we will be using not optimal media path. This parameter allows manually set the preferred region for media traffic. We only recommend setting this parameter if the call logs clearly indicate that automatic assignment of the datacenter for media path does not assign the closest to the SBC datacenter. |None|Country codes in ISO format||
-|No|Enabled|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC, while it is being updated or during maintenance. |False|True<br/>False|Boolean|
+|No|MaxConcurrentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent sessions is 90% or higher than this value. If the parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent sessions every 24 hours. |Null|Null<br/>1 to 100,000 ||
+|No|MediaRelayRoutingLocationOverride |Allows selecting path for media manually. Direct Routing assigns a datacenter for media path based on the public IP of the SBC. We always select closest to the SBC datacenter. However, in some cases a public IP from, for example, a US range can be assigned to an SBC located in Europe. In this case, we will be using not optimal media path. This parameter allows manually set the preferred region for media traffic. Microsoft only recommends setting this parameter if the call logs clearly indicate that automatic assignment of the datacenter for media path does not assign the closest to the SBC datacenter. |None|Country codes in ISO format||
+|No|Enabled|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC while it is being updated or during maintenance. |False|True<br/>False|Boolean|
  
 ## Verify the SBC connection 
 
@@ -112,13 +112,15 @@ To verify the connection:
  
 ### Check if the SBC is on the list of paired SBCs 
 
-After you connect the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
-
-The paired gateway should appear in the list as shown in the example below, and verify that the **Enabled** parameter  displays a value of **True**. Enter:
+After you connect the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: 
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
+
+The paired gateway should appear in the list as shown in the example below, and the **Enabled** parameter should display a value of **True**. 
+
+
 Which returns:
 <pre>
 Identity              : sbc.contoso.com  
@@ -146,3 +148,5 @@ To validate the pairing using incoming SIP Options, use the SBC management inter
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
+
+[Configure Direct Routing](direct-routing-configure.md)

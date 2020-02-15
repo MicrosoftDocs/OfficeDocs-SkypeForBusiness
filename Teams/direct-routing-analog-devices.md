@@ -111,8 +111,9 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 - Unless otherwise note, an analog device is any device that can send DTMF digits to place a call. For example, analog phones, fax machines, and overhead pagers.
 - Analog phones connected to an ATA are not searchable from Teams. Teams users must manually enter the phone number associated with the device to call that device.  
  
+
 ## See also
 
-[Configure Direct Routing](direct-routing-configure.md)
+[Plan Direct Routing](direct-routing-plan.md)
 
-[List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+[Configure Direct Routing](direct-routing-configure.md)

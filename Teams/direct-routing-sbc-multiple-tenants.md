@@ -242,3 +242,9 @@ We highly encourage migrating to the new solution as soon as possible as we will
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
 
+## See also
+
+[Plan Direct Routing](direct-routing-plan.md)
+
+[Configure Direct Routing](direct-routing-configure.md)
+

@@ -45,7 +45,7 @@ To assign, configure, and list number manipulation rules on SBCs, use the [New-C
 
 ## Example SBC configuration
 
-For this sceenario, the ```New-CsOnlinePSTNGateway``` cmdlet is run to create the following SBC configuration:
+For this scenario, the ```New-CsOnlinePSTNGateway``` cmdlet is run to create the following SBC configuration:
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
@@ -60,7 +60,7 @@ The translation rules assigned to the SBC are summarized in the following table:
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
 |StripPlus1    |^+1(\d{10})$          | $1         |
 
-In the following examples, there are two users, Alice and Bob. Alice is a Teams user and her number is +1 206 555 0100. Bob is a PSTN user and his number is +1 425 555 0100.
+In the following examples, there are two users, Alice and Bob. Alice is a Teams user whose number is +1 206 555 0100. Bob is a PSTN user whose number is +1 425 555 0100.
 
 ## Example 1: Inbound call to a ten-digit number
 
