@@ -652,9 +652,6 @@
 # Monitor, maintain, and troubleshoot
 ## Monitor and manage call quality
 ### [Monitor call quality](monitor-call-quality-qos.md)
-### Quality of Service (QoS)
-#### [Set up QoS in Teams](QoS-in-Teams.md)
-#### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 ### Call Quality Dashboard (CQD)
 #### [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
@@ -663,6 +660,9 @@
 ### Per-user call analytics
 #### [Set up call analytics](set-up-call-analytics.md)
 #### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Quality of Service (QoS)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
+#### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
