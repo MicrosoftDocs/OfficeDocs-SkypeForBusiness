@@ -114,11 +114,6 @@ This table shows you what each role can do in CQD:
 
 In this context, quality is a combination of service metrics and user experience.
 
-**<font color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. I'll replace it with a nice-looking table instead. QUESTION: Is this section now incomplete because it doesn't contain all the newer reports & functionality from V3? It looks like this section is V2 only. Can you confirm?</font>**
-
-![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
-
-_Figure 2 - What is quality?_
 
 ### Service metrics
 
