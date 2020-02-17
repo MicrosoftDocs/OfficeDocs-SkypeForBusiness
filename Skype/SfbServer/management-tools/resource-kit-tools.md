@@ -1108,7 +1108,7 @@ Call Forward No Answer to: voicemail
 This example sets the call forward/no answer destination and the ring delay. Here, the /server switch is not provided; SEFAUtil attempts to autodiscover the Skype for Business Server 2015.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Output**
@@ -1145,7 +1145,7 @@ Forward immediate to: sip:anders@contoso.com
 This example immediately disables call forwarding.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Output**
@@ -1376,7 +1376,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### Disable Group Call Pickup
