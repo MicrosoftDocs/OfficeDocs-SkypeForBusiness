@@ -1,7 +1,7 @@
 ---
 title: "Load balancer partner qualification for Lync"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
