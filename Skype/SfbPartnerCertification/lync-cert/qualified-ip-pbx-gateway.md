@@ -52,7 +52,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 	</thead>
 	<tbody>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+			<td rowspan="5"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 			<td>Mediant 500</td>
 			<td>6.60A.236.002</td>
 			<td>Basic Gateway</td>
@@ -90,7 +90,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
+			<td rowspan="4"><a href="https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
 			<td>ISR 3845</td>
 			<td>15.1.4M6</td>
 			<td>Basic Gateway</td>
@@ -254,7 +254,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.sangoma.com/solutions/vega-gateways-for-microsoft-lync/">Sangoma Technologies</a></td>
+			<td rowspan="4"><a href="https://www.sangoma.com/solutions/vega-gateways-for-microsoft-lync/">Sangoma Technologies</a></td>
 			<td>Netborder Express Gateway</td>
 			<td>4.4</td>
 			<td>Basic Gateway</td>
@@ -279,7 +279,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+			<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 			<td>SBC 1000/2000</td>
 			<td>2.2.1, V 3.1.1v285</td>
 			<td>Enhanced Gateway</td>
@@ -336,7 +336,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+			<td rowspan="4"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 			<td>Mediant 800 MSBG</td>
 			<td>6.00AL.019.007</td>
 			<td>Enhanced Gateway</td>
@@ -361,7 +361,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;+S</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
+			<td rowspan="5"><a href="https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd0e4.html">Cisco</a></td>
 			<td>ISR 29xx / 39xx</td>
 			<td>15.1(3)T</td>
 			<td>Basic Gateway</td>
@@ -559,14 +559,14 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td><a href="http://www.sangoma.com/solutions/netborder-software-for-ms-lync/">Sangoma</a></td>
+			<td><a href="https://www.sangoma.com/solutions/netborder-software-for-ms-lync/">Sangoma</a></td>
 			<td>NetBorder Express</td>
 			<td>6.0.42.4</td>
 			<td>Basic Gateway</td>
 			<td align ="center" valign="middle">&#x2714;+S </td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="6"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+			<td rowspan="6"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 			<td>SBC 1000</td>
 			<td>2.0.1v118</td>
 			<td>Enhanced Gateway</td>

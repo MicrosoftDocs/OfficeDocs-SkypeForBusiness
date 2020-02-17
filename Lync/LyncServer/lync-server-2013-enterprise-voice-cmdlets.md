@@ -18,7 +18,7 @@ mtps_version: v=OCS.15
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Enterprise Voice cmdlets in Lync Server 2013
 
@@ -205,7 +205,7 @@ Most management tasks that apply to Enterprise Voice can be performed from the L
 [Voice application cmdlets in Lync Server 2013](lync-server-2013-voice-application-cmdlets.md)  
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

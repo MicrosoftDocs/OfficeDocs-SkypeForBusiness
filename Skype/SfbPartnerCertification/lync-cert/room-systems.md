@@ -75,7 +75,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="2">Polycom</td>
-			<td rowspan="2"><a href="http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="Polycom CX8000">Polycom CX8000</a></td>
+			<td rowspan="2"><a href="https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="Polycom CX8000">Polycom CX8000</a></td>
 			<td>CX8000 Front of Room Single or Dual Display</td>
 			<td>September 2013</td>
 			<td>Crestron RL2 console<br />Front of room camera - Logitech C930e webcam<br />Crestron Speaker<br />Crestron 10 inch Touch Screen<br />Display options include:<br />Sharp 80 inch Interactive LED display (PN-L802B), LG 55 inch multi-touch display (55WT30MS-B)</td>
