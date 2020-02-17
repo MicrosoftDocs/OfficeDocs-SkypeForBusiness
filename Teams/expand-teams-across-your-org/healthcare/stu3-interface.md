@@ -1,7 +1,7 @@
 ---
 title: Patients App and EHR integration STU3 interface
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
