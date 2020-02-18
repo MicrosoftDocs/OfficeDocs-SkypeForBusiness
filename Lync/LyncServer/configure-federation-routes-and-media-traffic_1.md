@@ -36,7 +36,7 @@ Use the procedures that follow to transition the federation route and the media 
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Move remaining users to Lync Server 2013</A></P>
 > <LI>
-> <P>"Remove Servers and Server Roles" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
+> <P>"Remove Servers and Server Roles" at <A href="https://go.microsoft.com/fwlink/p/?linkid=268790">https://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 
