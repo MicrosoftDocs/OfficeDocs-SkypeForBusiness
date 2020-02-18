@@ -1,7 +1,7 @@
 ---
 title: "Phone System–Virtual User licenses "
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference

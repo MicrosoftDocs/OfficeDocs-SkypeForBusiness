@@ -1,7 +1,7 @@
 ---
 title: "Get started with Secure Messaging for Healthcare organizations"
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
