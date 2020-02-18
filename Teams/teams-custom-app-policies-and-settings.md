@@ -97,7 +97,7 @@ If this setting is turned on:
 
 ### Org-wide custom app setting
 
-The org-wide custom app setting, **Allow interaction with custom apps**, applies to everyone in your organization and governs whether they can upload or interact with custom apps. This setting overrides the user and team custom app policy and setting. It's intended to serve as a master on/off switch during security events.
+The **Allow interaction with custom apps** org-wide custom app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can upload or interact with custom apps. This settinoverrides the user and team custom app policy and setting. It's intended to serve as a master on/off switch during security events.
 
 #### Configure the org-wide custom app setting
 

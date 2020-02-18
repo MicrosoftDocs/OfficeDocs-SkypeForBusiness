@@ -45,7 +45,7 @@ To learn more, see [Manage apps in Teams](manage-apps.md).
 
 ## App permission policies
 
-With app permission policies, you can control what apps are available to specific users in your organization.
+With app permission policies, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization.
 
 For example, you can use app permission policies to:
 
