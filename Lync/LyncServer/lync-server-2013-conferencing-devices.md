@@ -18,7 +18,7 @@ mtps_version: v=OCS.15
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Conferencing devices in Lync Server 2013
 
@@ -40,7 +40,7 @@ Use the topics in this section to learn how to set up and manage your conferenci
 
 
 > [!NOTE]  
-> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="http://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
+> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
 
 
 
