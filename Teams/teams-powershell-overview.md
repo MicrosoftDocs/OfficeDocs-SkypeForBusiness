@@ -74,7 +74,7 @@ When we released our generally available version of our PowerShell module, a few
 
 ## Managing policies via PowerShell
 
-The cmdlets for managing policies are in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366).
+Use the cmdlets in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366) to manage policies for individual users.
 
 > [!NOTE]
 > The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
