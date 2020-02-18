@@ -37,12 +37,15 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
+|Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
 &sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; This limit includes archived teams.
 
 &sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+
+<sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 ## Messaging
 
@@ -56,10 +59,13 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
 |Number of file attachments<sup>2</sup>  |10     |
+|Chat size | Approximately 28 KB per post<sup>3</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+
+<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
 ### Emailing a channel
 

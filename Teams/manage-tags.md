@@ -3,7 +3,7 @@ title: Manage tags in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: acolonna, jastark
+ms.reviewer: acolonna
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,6 +20,9 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
+> [!NOTE]
+> Don't see this feature in the Microsoft Teams admin center yet? It's currently being rolled out and might not be available in your organization yet. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+
 Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be added to one or multiple team members to easily connect with the right subset of people. Team owners and members (if the feature is enabled for them) can add one or more tags to a person. The tags can then be used in @mentions by anyone on the team in a channel post to communicate with only those people who are assigned that tag.
 
 > [!NOTE]
@@ -32,6 +35,8 @@ A tag can be added to a person on a specific team. After a tag is added, it can 
 - A store manager wants to post an announcement to a channel and notify all cashiers.
 - A group product manager wants to message all product managers in a channel.
 - A hospital administrator wants to send a message to all radiologists in a channel.
+
+To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 ## Manage tags for your organization
 
@@ -57,9 +62,9 @@ You can configure the following tags settings to control how tags are used acros
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
-- **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
-- **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
-- **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
+    - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
+    - **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
+    - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
 ## Manage tags settings for a team
 
@@ -71,4 +76,4 @@ If you turned on the **Team owner can override who can apply tags** setting in t
 
 In Teams, the **Members** tab of the Manage team page for a team includes a **Tags** column. Team owners and members (if the feature is enabled for them) can click **Manage tags** next to a member to see the list of suggested tags for that member and add tags to the list.
 
-![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
+![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png) 

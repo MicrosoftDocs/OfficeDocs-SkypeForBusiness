@@ -6,7 +6,7 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: jambirk
+  ms.author: dstrome
   manager: serdars
   ms.date: 05/16/2019
   ms.reviewer: lolaj
@@ -25,7 +25,7 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. 
     They both require [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and 
     PBX capabilities in the Office 365 cloud. The license is available as an add-on or as part of the Enterprise E5 licenses. 
