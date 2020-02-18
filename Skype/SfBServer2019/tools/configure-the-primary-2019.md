@@ -1,8 +1,8 @@
 ---
 title: "Configure the Primary Management Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
