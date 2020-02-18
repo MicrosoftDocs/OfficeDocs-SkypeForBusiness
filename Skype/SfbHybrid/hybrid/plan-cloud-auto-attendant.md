@@ -1,7 +1,7 @@
 ---
 title: "Plan a Cloud auto attendant"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
 audience: ITPro

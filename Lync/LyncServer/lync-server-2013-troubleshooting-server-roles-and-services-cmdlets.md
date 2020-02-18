@@ -18,7 +18,7 @@ mtps_version: v=OCS.15
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Troubleshooting server roles and services cmdlets in Lync Server 2013
 
@@ -38,7 +38,7 @@ The troubleshooting cmdlets provide different ways to verify that Microsoft Lync
 
 
 > [!NOTE]
-> For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>. The content of each blog and its URL are subject to change without notice.
+> For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>. The content of each blog and its URL are subject to change without notice.
 
 
 
