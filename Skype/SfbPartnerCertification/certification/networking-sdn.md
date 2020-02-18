@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business - Networking - Wired"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -33,10 +33,10 @@ This table lists the SDN solutions certified for Skype for Business.
 
 | Vendor  | Certified Product  |
 |:---------|:---------|
-| [Aruba, a Hewlett Packard Enterprise Company](http://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
+| [Aruba, a Hewlett Packard Enterprise Company](https://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
 |[Arrow Systems](http://www.arrowsi.com/) | Prism OneView |
-|[Dell](http://www.dell.com/us/business/p/w-series-airwave/pd) |Wi-Fi |
-|[Extreme Networks](http://www.extremenetworks.com/product/microsoft-lync-solutions) |  OneFabric Connect |
+|[Dell](https://www.dell.com/us/business/p/w-series-airwave/pd) |Wi-Fi |
+|[Extreme Networks](https://www.extremenetworks.com/product/microsoft-lync-solutions) |  OneFabric Connect |
 |[IR](http://ir.com/) |Prognosis|
 |[Meru Networks](http://www.merunetworks.com/Products/Software/Meru-Center.html) |Meru Collaborator |
 |[Nectar](http://nectarcorp.com/)  |   UC Diagnostics      |
