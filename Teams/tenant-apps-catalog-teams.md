@@ -33,7 +33,7 @@ To publish apps for your organization, sign in to the Teams client using an acco
 ## Publish an app in the tenant app catalog from the Teams client
 
 > [!NOTE]
-> These steps describe how to publish an app by using the Teams client. You can also publish an app by using the **Manage apps** page in the Microsoft Teams admin center. To learn more, see [Manage apps in Teams](manage-apps.md).
+> These steps describe how to publish an app by using the Teams client. You can also publish an app on the **Manage apps** page in the Microsoft Teams admin center. To learn more, see [Manage apps in Teams](manage-apps.md).
 
 ### Get a Teams app package
 
