@@ -1,7 +1,7 @@
 ---
 title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
