@@ -1,7 +1,7 @@
 ---
 title: Patients app overview
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -99,7 +99,7 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
                         {
                             "coding": [
                                 {
-                                    "system": "http://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
                                     "code": "OAuth"
                                 }
                             ]

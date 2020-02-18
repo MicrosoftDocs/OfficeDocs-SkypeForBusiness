@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -40,7 +40,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.audiocodes.com/SBA">Audiocodes</a></td>
+		<td><a href="https://www.audiocodes.com/SBA">Audiocodes</a></td>
 		<td>Mediant 800/1000/2000 SBA</td>
 		<td>SBA 1.1.11.40 / GW 6.60A.022.003</td>
 	</tr>
@@ -55,7 +55,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>SBA 2.0.4 / GW 4.0-1</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+		<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 		<td>SBC1000</td>
 		<td>2.2.0b181</td>
 	</tr>
@@ -80,7 +80,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="4"><a href="http://www.audiocodes.com/microsoft">Audiocodes</a></td>
+		<td rowspan="4"><a href="https://www.audiocodes.com/microsoft">Audiocodes</a></td>
 		<td>Mediant 800 SBA</td>
 		<td>SBA: 1.1.8.21,<br />Gateway: 6.00A.033.005</td>
 	</tr>
@@ -127,7 +127,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>SBA: 1.0.5,<br />Gateway: 3.0.3</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="http://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+		<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 		<td>SBC1000</td>
 		<td>SBA: 4.0.7577.0, <br />Gateway: 2.0.1v118, 2.0.2v132</td>
 	</tr>
