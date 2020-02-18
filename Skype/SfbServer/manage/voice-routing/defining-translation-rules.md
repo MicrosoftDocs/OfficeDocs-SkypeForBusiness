@@ -50,7 +50,7 @@ You can use either of the following methods to create or modify a translation ru
 - [Write regular expressions manually](#create-or-modify-a-translation-rule-manually) to define the matching pattern and translation rule.
 
 > [!Note]
-> For information about how to write regular expressions, see [.NET Framework Regular Expressions](http://go.microsoft.com/fwlink/p/?linkId=140927). 
+> For information about how to write regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927). 
 
 ### Create or modify a translation rule by using the Build a Translation Rule tool
 
