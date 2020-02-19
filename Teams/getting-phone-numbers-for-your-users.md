@@ -28,11 +28,11 @@ Before you can set up users in your organization to make and receive phone calls
   
 There are three ways to get user numbers:
 
-- **Use the Microsoft Teams admin center.** For some countries/regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
+- **Use the Microsoft Teams admin center.** For some countries and regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

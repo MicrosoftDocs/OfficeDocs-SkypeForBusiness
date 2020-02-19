@@ -31,11 +31,11 @@ In addition to [getting phone numbers for your users](/microsoftteams/getting-ph
   
 There are three ways to get service numbers:
   
-- **Use the Microsoft Teams admin center.** For some countries/regions, you can get service numbers using the Microsoft Teams admin center. See [Get new service numbers](#get-new-service-numbers).
+- **Use the Microsoft Teams admin center.** For some countries and regions, you can get service numbers using the Microsoft Teams admin center. See [Get new service numbers](#get-new-service-numbers).
 
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
 > Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you’re transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
