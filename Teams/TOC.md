@@ -650,9 +650,7 @@
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Search the audit log for events in Teams](audit-log-events.md)
 ### [Use Content Search in Teams](content-search.md)
-### Retention policies in Teams
-#### [Overview](retention-policies.md)
-#### [Retention policies known issues](retention-policies-known-issues.md)
+### [Retention policies in Teams](retention-policies.md)
 ### [AppLocker application control policies in Teams](applocker-in-teams.md)
 
 <!-- ============================================================ -->
