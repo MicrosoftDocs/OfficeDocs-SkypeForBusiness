@@ -116,7 +116,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Upgrading from Skype for Business</h3>
-                        <p>Still using Skype for Business? Come join this interactive workshop series to get everything ou need to kick start a successful transition to Teams for your organization.</p>
+                        <p>Still using Skype for Business? Come join this interactive workshop series to get everything you need to kick start a successful transition to Teams for your organization.</p>
                     </div>
                 </div>
             </div>
