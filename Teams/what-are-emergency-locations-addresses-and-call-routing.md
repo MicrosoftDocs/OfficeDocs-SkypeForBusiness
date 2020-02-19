@@ -152,7 +152,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Emergency call routing
 
-The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md#configure-voice-routing). 
+The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
 (Note: In Skype for Business Server, the emergency number was prefixed with a “+” which required a voice route to be defined to match “+911” for instance. Teams clients do not prepend the “+” with emergency numbers.)
 
