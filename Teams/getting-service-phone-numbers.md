@@ -38,10 +38,7 @@ There are three ways to get service numbers:
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
-> If you need help setting up phone numbers for your organization, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
-
-> [!NOTE]
-> When you transfer your service numbers, we recommended that you [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to ensure that the higher concurrent calling capacity is considered and configured correctly.
+> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you’re transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
   
 ## Get new service numbers
 
@@ -62,7 +59,7 @@ There are three ways to get service numbers:
 
 To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
-If your country or region isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using a Letter of Authorization (LOA). In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
+If your country or region isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
