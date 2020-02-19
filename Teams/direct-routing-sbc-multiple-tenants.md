@@ -210,7 +210,6 @@ However, this has not proved optimal for two reasons:
 
 -  **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
-
 Based on this feedback, Microsoft is bringing in a new logic to provision the trunks for the customer tenants.
 
 Two new entities were introduced:
@@ -241,6 +240,33 @@ We highly encourage migrating to the new solution as soon as possible as we will
  
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
+
+## Considerations for setting up muti-tenant failover 
+
+To set up failover for a multi-tenant environment, you'll need to do the following:
+
+- Provision two trunks for every tenant. These trunks can be shared my multiplte tenants.
+
+- Give each derived trunk its own DNS name.
+
+- Obtain a wildcard certificate for each SBC. So, in the example below, the wilcard certificates would be *.uk1.customers.contoso.com and *.uk2.customers.contoso.com.
+
+**Example:**
+
+**Carrier Tenant**
+Domains:
+uk1.customers.contoso.com
+uk2.customers.contoso.com
+PSTN Gateways:
+uk1.customers.contoso.com:5068
+uk2.customers.contoso.com:5068
+
+**Customer Tenant**
+Domains:
+sbc1.uk1.customers.contoso.com
+sbc1.uk2.customers.contoso.com
+
+
 
 ## See also
 
