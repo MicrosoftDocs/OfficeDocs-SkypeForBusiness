@@ -75,13 +75,6 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 - [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 - Set up and learn how to use reports
 
-Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
-
-This article focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
-
-To accelerate your assessment, we recommend that you download [two curated CQD templates](https://aka.ms/qertemplates). One is for managing all networks, and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
-
-
 ## What is quality?
 
 In this context, quality is a combination of service metrics and user experience.
@@ -424,7 +417,7 @@ In the event that a non-valid data model name is provided, the URL filter will n
 
 ## Import the CQD templates
 
-This guide includes [two curated CQD templates](https://aka.ms/qertemplates). These templates accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+Download [two curated CQD templates](https://aka.ms/qertemplates), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
 
 **To import the templates (.CQDX) into CQD**
 
