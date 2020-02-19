@@ -66,7 +66,7 @@ You can use the Microsoft Teams admin center to transfer your service numbers to
 
 To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
-If your country isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using a Letter of Authorization (LOA). In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
+If your country or region isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using a Letter of Authorization (LOA). In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
