@@ -32,7 +32,7 @@ A carrier:
 - Manages call quality end to end.
 - Charges separately for PSTN services.
 
-Microsoft does not manage carriers. Microsoft offers a PBX (Microsoft Phone System) and a Teams client, certifies phones, and certifies SBCs that can be used with the Microsoft Phone System. Before choosing a carrier, please ensure that your choice has a certified SBC and can manage voice quality end to end.
+Microsoft does not manage carriers. Microsoft offers a PBX (Microsoft Phone System) and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with the Microsoft Phone System. Before choosing a carrier, please ensure that your choice has a certified SBC and can manage voice quality end to end.
 
 The following are the technical implementation steps to configure the scenario.
 
@@ -241,4 +241,10 @@ We highly encourage migrating to the new solution as soon as possible as we will
  
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
+
+## See also
+
+[Plan Direct Routing](direct-routing-plan.md)
+
+[Configure Direct Routing](direct-routing-configure.md)
 
