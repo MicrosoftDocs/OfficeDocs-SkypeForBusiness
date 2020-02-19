@@ -35,12 +35,12 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-teams.svg" alt="Headset" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>So... you wanna make calls with Teams?</h3>
-                        <p>Join us for an in-depth look at adding PSTN calling to your Teams deployment. Together, we'll walk through calling terminology, key concepts, and configurations for Teams.</p>
+                        <h3>So... you want to make calls with Teams?</h3>
+                        <p>Join us for an in-depth look at adding PSTN calling capabilities to your Teams deployment. Together, we'll walk through calling terminology, key concepts, and configurations.</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +54,11 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-devtest.svg" alt="Cloud and test tube symbols" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg" alt="Cloud and test tube symbols" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get more done with apps in Teams</h3>
+                        <h3>Do more with apps in Teams</h3>
                         <p>Take advantage of apps in Teams to integrate your workflows, productivity apps, and the services you use every day into a single, unified experience.</p>
                     </div>
                 </div>
@@ -73,31 +73,12 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/layout-navigation-blue.svg" alt="Layout/navigation symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg" alt="Layout/navigation symbol" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>App template deployments</h3>
-                        <p>Accelerate common line-of-business scenario enablement by deploying app templates for Teams</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Firstline Worker (FLW)</h3>
-                        <p>Blah blah blah blah blah </p>
+                        <h3>Build a Teams app in 60 minutes</h3>
+                        <p>Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +97,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>What's new in Teams?</h3>
-                        <p>Have you been waiting on a feature to release in Teams? Come interact with Teams experts who will walk you through the latest and greatest feature releases over the past month - along with best practices for rolling them out.</p>
+                        <p>Have you been waiting on a feature to release in Teams? Come interact with Teams experts as we walk you through the latest and greatest feature releases over the past month - along with best practices for implementing them.</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +116,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Upgrading from Skype for Business</h3>
-                        <p>If your organization is still using Skype for Business, come join this interactive workshop series to learn our proven framework for building a plan to ensure success with Teams and a smooth transition for your users.</p>
+                        <p>Still using Skype for Business? Come join this interactive workshop series to get everything ou need to kick start a successful transition to Teams for your organization.</p>
                     </div>
                 </div>
             </div>
