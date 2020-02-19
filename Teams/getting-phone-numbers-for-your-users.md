@@ -45,37 +45,36 @@ There are three ways to get user numbers:
 2. Enter a name for the order and if you want, add a description.
 3. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
-    1. Under **Number type**, select the type of number that you want.
-    1. Under **Location**, select a location. If you need to create a new location, click **Add a location**.
-    1. Under **Area code**, select an area code. 
-    2. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
+    2. Under **Number type**, select **User (subscriber)**.
+    3. Under **Location**, select a location. If you need to create a new location, click **Add a location**.
+    4. Under **Area code**, select an area code. 
+    5. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
 4. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 5. When you're ready to place your order, click **Place order**.
-    
+
     > [!IMPORTANT]
     > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
-   **Port or transfer phone numbers from your service provider or phone carrier**
+## Port or transfer phone numbers from your service provider or phone carrier
   
-- If you need 999 or fewer phone numbers for your users, you can use the legacy portal in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) to transfer your phone numbers to Teams.
-    
+- If you need 999 or fewer phone numbers for your users, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams). If your country or region isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md).
+
 - If you need to port more than 999 phone numbers, see [Manage service requests in Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) to submit a port order service request or order to get all of these phone numbers ported over to Office 365.
-    
-## Show phone numbers for your organization
+
+## View the phone numbers for your organization
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** 
 
 In the left navigation, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   
-## What else do you need to know about users' phone numbers?
-    
-- After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
-    
-- You can use the **Phone numbers** page in the Microsoft Teams admin center to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
+## Assign phone numbers to users
+
+After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
-    
+
+
 ## Related topics
 
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
