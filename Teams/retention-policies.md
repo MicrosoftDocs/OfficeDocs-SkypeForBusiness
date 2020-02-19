@@ -151,6 +151,16 @@ To create and manage Teams retention policies by using PowerShell, use the follo
 |[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
 |[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
+## Known issues
+
+The following are known issues for retention policies in Teams that are being tracked and investigated.
+
+- Under **Choose teams** in the **Teams channel messages** location row, you may see Office 365 Groups that aren't also Teams. This will be addressed in the future.
+
+- Under **Choose users** in the **Teams chats** location row, you may see guests and non-mailbox users. Retention policies aren't meant to be set for guests, and we're working to remove these from the list.
+
+- Exchange Life Cycle assistant (ELC) runs daily, but it has an SLA of 7 days. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there's no delay.
+
 ## Related topics
 
 - [Overview of retention policies](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)
