@@ -77,6 +77,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|After changing password of the user account there is Error message - Either your password changed or the server needs your sign-in info again. This continues even using new password. <br/> | Teams will address this issue soon in a fix being rolled out. <br/> | Logout and relogin in incorrect credentials. After failure, enter in your correct credentials. <br/> |01/09/20  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings or from the Control Panel, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Security** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
