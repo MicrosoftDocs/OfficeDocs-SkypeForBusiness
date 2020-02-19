@@ -243,7 +243,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
+- Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/product/brio)
 - Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
 
@@ -253,7 +253,7 @@ Introduced in this update:
 
 - Runs on a Surface Pro (2017) tablet 
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
-- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
+- Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
 - OEM Support for Environment Controls (Crestron)
 
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).
