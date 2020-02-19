@@ -77,38 +77,10 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 
 Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
 
-This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+This article focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
+To accelerate your assessment, we recommend that you download [two curated CQD templates](https://aka.ms/qertemplates). One is for managing all networks, and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
 
-### Intended audience
-
-This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
-
-This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
-
-## Assign roles for accessing CQD
-
-Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
-
-This table shows you what each role can do in CQD:
-
-
-|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
-|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
-|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
-|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
-
-<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
-
-> [!NOTE]
-> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
 ## What is quality?
 
@@ -269,13 +241,9 @@ You should also monitor devices and provide updates whenever you identify proble
 
 Once you've [set up CQD](turning-on-and-using-call-quality-dashboard.md), you're ready to start using it to manage call and meeting quality for your organization.
 
-For more in-depth training and resources, see the [Appendix](#other-resources).
-
-### What is CQD?
-
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization, where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
-
 ### Expectations using CQD
+
+Use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Teams and Skype for Business admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization, where overall patterns can become apparent; this lets you make informed assessments and plan remediation. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
 
 CQD, although useful for analyzing trends and subnets, doesn’t always provide a specific cause for a given scenario. It’s important to understand this and set the correct expectation when using CQD:
 
@@ -285,31 +253,9 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 
 ### CQD reports overview
 
-Use the drop-down menu at the top of the screen to open a report. 
-
--   [Summary reports](turning-on-and-using-call-quality-dashboard.md#summary-reports) are static and can’t be edited, downloaded, or exported. These are aggregate reports.
--   [Default reports](turning-on-and-using-call-quality-dashboard.md#reports-provided-with-cqd) are pre-made reports covering the most common scenarios you'll need. You can't edit these reports, but you can use rich filters to drill down into the data you need to analyze call and meeting quality in your org.
--   [Detailed reports](turning-on-and-using-call-quality-dashboard.md#create-custom-detailed-reports) are fully customizable and can be downloaded to a CSV file, exported, or cloned. Download the CQD templates for a mix of customizable chart and table reports.
-
-For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
+Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
-
-_Figure 4 - CQD report categories_
-
-The summary reports are divided into four categories:
-
--   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD Online.
--   **Location-Enhanced Reports** focus on analyzing quality trends based on location information. To use these reports, you must have uploaded a building file.
--   **Reliability Reports** focus on analyzing reliability trends for audio, video, video-based screen sharing (VBSS), and app sharing.
--   **Quality of Experience Reports** are a “slimmed-down” version of the detailed QER templates, focusing on key areas for analyzing audio quality and reliability.
-
-### Report types
-
-You can choose from two types of reports in CQD, depending on how you want to view your data. Although this guide doesn’t cover the specifics of creating one type of report over another, :
-
--   Chart reports create graphical bar charts to represent data in a visual format. Chart reports are best used to visualize data over a given time period.
--   Table reports are useful for looking at individual measurements and dimensions when you export the reports to CSV files for manipulation in Microsoft Excel.
 
 
 ### Teams vs. Skype for Business
@@ -413,26 +359,17 @@ When investigating a managed network that uses a common subnet, you’ll need to
 
 ## Drill-down filters - narrow the focus of investigations
 
-CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations:
-**<font color="red">I THOUGHT WE HAD A LIST OF THESE SOMEWHERE - was I imagining it?</font>**
-
-To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
+CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
 
 ### Adding and editing drill-down fields
 
 When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
 
-Start by clicking on the “…” button of the report you wish to edit and select “Edit”.
+Start by clicking **…** for the report you want to edit, then select **Edit**.
 
 ![Screenshot of editing a drill-down field](media/qerguide-image-addeditdrilldownfields.png)
 
-Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill through to. Note: Drill-down functionality only works by navigating to different tabs at present. Support for drilling through to a specific expander will be added later.
-Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
-
-![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
-
-Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill through to. Note: Drill-down functionality only works by navigating to different tabs at present. Support for drilling through to a specific expander will be added later.
-Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the **Navigate To** label and select the tab and expander group that you want that Dimension to drill through to. Note: Presently, drill-down functionality only works by navigating to different tabs. Support for drilling through to a specific expander will be added later. Finally, click **Close** to save your changes to the Dimension, then click **Save** to save and close the Query Editor.
 
 ![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
 
@@ -440,11 +377,11 @@ Finally, click “Close” to save your changes to the Dimension, and click “S
 
 In addition to drill-down functionality, CQD also supports specifying Filters with multiple values (OR filters).
 
-In order to select multiple filter values, begin by adding a new filter to the report. Click the “+” button beside the Filters label, enter the name of the Dimension you wish to use, and click “Add”.
+In order to select multiple filter values, begin by adding a new filter to the report. Click **+** beside the **Filters** label, enter the name of the Dimension you want to use, and click **Add**.
 
 ![Screenshot of adding a multi-select filter](media/qerguide-image-addmultiselectfilter.png)
 
-Once you have done so, click the magnifying glass icon by the new filter. You will be shown a text field, and a number of options, such as “Select All” and “Invert”. Enter a value into the text field and click the magnifying glass icon by that field to search for all values that contain that string. Alternately, you may leave the text field empty and just hit the magnifying glass icon to view up to the first 100 options.
+Then, click the magnifying glass icon by the new filter. You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click the magnifying glass icon by that field to search. Alternatively, leave the text field empty and click the magnifying glass icon to view up to the first 100 options.
 
 ```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -583,13 +520,9 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
   ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
-  _Figure 12 - VPN using network name_
-
 - Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
   ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
-
-  _Figure 13 - VPN using building name_
 
 > [!IMPORTANT]
 > Certain VPN implementations don’t accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
@@ -606,13 +539,9 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
    ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
-   _Figure 14 - Tenant Data Upload menu_
-
 2. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
    ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
-
-   _Figure 15 - Building data upload banner_
 
 3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
@@ -622,8 +551,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
    ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
  
-   _Figure 16 - Building data upload error_
-
 6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
 > [!NOTE]
@@ -669,30 +596,9 @@ Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Sub
 
 ![Screen shot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
 
-_Figure 17 - Missing Building Report_
-
 ### Building mapping tools
 
 Let’s face it, mapping out subnets in your organization can be difficult. Large global networks are very complex, with different teams managing their respective regions, and there might be no single source of truth for the network topology. There are two tools available to assist with starting the building mapping exercise, described in the following sections.
-
-#### CQD tools
-
-These tools are based on PowerShell and can leverage Active Directory (AD) Sites and Services and Microsoft DHCP services to help pre-populate your building file.  These tools will help with the following tasks:
-
-1.  Query AD Sites and Services, and create a building file based on the information contained within.
-2.  Query a Microsoft DHCP server or servers to pull subnet information and automatically create a building file.
-3.  Validate an existing building file, checking for duplicates and overlaps.
-4.  Find unmapped subnets in CQD.
-
-For more information about this tool, see [this blog post](https://aka.ms/cqdtools).
-
-**<font color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). Are these tools still relevant for Teams/ If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
-
-#### Network Planner
-
-[Network Planner](network-planner.md), in the Teams admin center, determines and organizes your network requirements for your Cloud Voice deployment in a few steps. By providing your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
-
-Although the Network Planner doesn’t automate the building mapping process entirely, after network information is entered into the Network Planner it can then be exported to a building file ready for upload to CQD.
 
 ## Reliability investigations
 
@@ -720,8 +626,6 @@ This report displays the total amount of streams, stream setup failures, and the
 
 ![Chart that shows percentage of stream setup failures](media/qerguide-image-streamsetupfailures.png)
 
-_Figure 19 - Audio Reliability - Stream Setup Failures_
-
 ##### Analysis
 
 By using this report, you can answer the following questions and determine your next course of action:
@@ -746,13 +650,9 @@ This summary report is used to discover and isolate any buildings or networks th
 
 ![Screenshot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
 
-_Figure 20 - Audio Setup Failures by Subnet_
-
 ##### Remediation 
 
 Focus your first remediation efforts on buildings or subnets that have the largest volume of failures. This will maximize impact on the user experience and help to quickly reduce the rate of organizational call setup failures. The following table lists the two reasons for setup failures as reported by CQD.
-
-_Table 7 – Reasons for Call Setup Failures_
 
 | Call Setup Failures reason       | Typical cause                    |
 |----------------------------------|----------------------------------|
@@ -760,9 +660,6 @@ _Table 7 – Reasons for Call Setup Failures_
 | Missing FW IP Block Exception Rule      | Indicates that network equipment along the path prevented the media path from being established to the Office 365 network. This might be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Teams and Skype for Business traffic. |
 
 Now as you begin your remediation, you can focus your efforts on a particular building or subnet. As the preceding table shows, these issues are due to firewall or proxy configurations. Review the options in the following table for remediation actions.
-
-_Table 8 - Next Steps for Call Setup Failure Remediation_
-
 
 |      Remediation      |                                                                                                                                                                                                                                                                                                                                                                   Guidance                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -778,8 +675,6 @@ Unlike setup failure codes, CDQ has no drop failure code to indicate why drop fa
 This report displays the total amount of audio streams, total drop failures, and the drop failure rate. Point to any one of the columns to display its values, as shown in the following figure. 
 
 ![Chart showing the percentage of streams that were dropped](media/qerguide-image-droppedstreamrate.png)
-
-_Figure 21 - Dropped stream rate_
 
 ##### Analysis
 
@@ -799,10 +694,7 @@ Failures reported here indicate that the call was dropped unexpectedly and resul
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-
 ![Report that lists number and percentage of drop failures](media/qerguide-image-dropfailuresbysubnet.png)
-
-_Figure 22 – Drop failures by subnet_
 
 ##### Remediation
 
@@ -821,8 +713,6 @@ Regardless of your next step, it’s a good practice to notify your helpdesk tha
 
 The following table lists some common methods to manage and remediate drop failures.
 
-_Table 9 - Next steps for call drop remediation_
-
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
 | **Network/internet**                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](#quality-investigations) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
@@ -835,7 +725,7 @@ _Table 9 - Next steps for call drop remediation_
 The next step to assess the state of audio quality across the organization is to investigate Poor Stream Rate (PSR), TCP, and proxy usage. It’s important to remember that CQD data doesn’t provide you a specific root cause, but instead provides you with likely problem areas to begin a collaborative conversation with the appropriate teams for remediation activities. 
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide; however, the methods of investigation explained below will still apply for those reports. Refer to the individual report description for more information. 
+> Not all reports included in the templates are covered in this article; however, the methods of investigation explained below will still apply for those reports. Refer to the individual report description for more information. 
 
 ### Quality
 
@@ -851,11 +741,9 @@ Trending reports display quality information over time and are used to help iden
 > Investigating two-party, PSTN calling, and meeting rooms are similar to investigating conferencing. The focus is to isloate buildings or subnets that have the worst quality and identify the reason for the poor quality.
 
 > [!Important]
-> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don’t reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this guide](#vpn) for modifying the VPN reports if needed by using the building or network name.
+> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don’t reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this article](#vpn) for modifying the VPN reports if needed by using the building or network name.
 
 ![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png)
-
-_Figure 23 – Audio Quality - Conferencing_
 
 ##### Investigation
 
@@ -897,12 +785,10 @@ To assist your investigation into quality issues, use [per-user call analytics](
 
 Don’t forget to let your helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
 
-_Table 10 - Common contributors to high PSR_
-
 | Remediation                              | Guidance                         |
 |------------------------------------------|----------------------------------|
-| **Networks**                                 | **Congestion**: An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. <br><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
-| **Quality of Service (QoS)**  | QoS is a proven tool to help prioritize packets on a congested network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times.<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li></ul> |
+| **Networks**                                 | **Congestion**: An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. <br><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li></ul>|
+| **Quality of Service (QoS)**  | QoS is a proven tool to help prioritize packets on a congested network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times.<ul><li>[Teams QoS guidance](qos-in-teams.md)</li></ul> |
 | **Wi-Fi**               | Wi-Fi can have a significant impact on call quality. Wi-Fi deployments don’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/plan-wifi).<br><br>**Wireless driver**: Ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. Many organizations don’t include wireless drivers in their patch cycles, and these drivers can go unpatched for years. Many wireless issues are solved by ensuring the wireless drivers are up to date.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), also known as Wi-Fi Multimedia, provides basic QoS features to wireless networks. Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services, where speed and latency are vital. Consult your wireless vendor for specifics and consider implementing WMM on your wireless network to prioritize Skype for Business and Teams media.<br><br>**Access point density**: Access points might be too far apart or not in an ideal location. To minimize potential interference, place extra access points in conference rooms and in locations that aren’t obstructed by walls or other objects where the Wi-Fi signal is weak.<br><br>**2.4 GHz versus 5 GHz**: 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. |
 |**Network device** | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure that the network devices from the user to the internet are maintained and up to date. |
 | **VPN**  | VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for media) and rely on TCP only. Consider implementing a VPN split-tunnel solution to help reduce VPN as a source of poor quality. |
@@ -929,8 +815,6 @@ The reports in this section don’t make a distinction between good and poor str
 TCP reports indicates the overall TCP usage over the last seven months. All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Separate reports are available for both conferencing and two-party streams.
 
 ![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png)
-_Figure 25 – Audio Streams with TCP Usage_
-
 
 ##### Investigation
 
@@ -948,8 +832,6 @@ If you notice that the TCP usage trend is increasing or above normal monthly usa
 This report identifies the volume of TCP versus UDP usage reporting on the latest month for audio, video, and video-based screen sharing (VBSS). 
 
 ![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png)
-
-_Figure 26 – TCP vs. UDP - Conferencing_
 
 ##### Analysis
 
@@ -1038,7 +920,7 @@ Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelis
 This section is focused on the tasks for reporting on client versions and the use of certified devices. Reports are available to outline usage for client versions, client type, capture devices and drivers (microphone), video capture devices, and Wi-Fi vendor and driver versions.
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide; however, the methods of investigation explained below still apply. Refer to the individual report description for more information.
+> Not all reports included in the templates are covered in this article; however, the methods of investigation explained below still apply. Refer to the individual report description for more information.
 
 ### Client versions
 
@@ -1054,8 +936,6 @@ The reports in this space focus on identifying Skype for Business client version
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 ![Screenshot of the Client and Devices report](media/qerguide-image-clientversionreport.png)
-
-_Figure 30 - Client version report_
 
 #### Remediation
 
@@ -1107,8 +987,6 @@ The device reports are used to assess device usage by volume and MOS score (audi
 
 ![Screenshot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
-_Figure 31 - Devices (Microphone) Report_
-
 ##### Remediation
 
 Typically, you’ll need to discover and phase out non-certified devices and replace them with certified devices. Some considerations when reviewing the device reports include:
@@ -1129,70 +1007,6 @@ Video drivers are important to keep updated as well. Ensuring that video cards a
 
 Wi-Fi drivers also need to be patched on a regular cadence as well and should be included in your patch management strategy. Many quality issues can be corrected by maintaining up-to-date Wi-Fi drivers. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/networking-wifi).
 
-## Appendix 
-
-### Office 365 network connectivity principles
-
-Before you begin planning your network for Office 365 network connectivity, it’s important to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. The following article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity:
-
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
-
-### Planning for Wi-Fi
-
-Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience:
-
-[Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
-
-### Lync Networking Guide
-
-For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) is still applicable.
-
-**<font color="red">SIUNIE and VAMSI: We need to reference a more up-to-date resource. If anything in this blog is still relevant, let's move it into documentation.</font>**
-
-### Network performance requirements
-
-The quality of real-time media (audio, video, and application sharing) over IP is greatly affected by the quality of end-to-end network connectivity. For optimal Teams or Skype for Business media quality, your network must meet the following network performance metrics.
-
-_Table 12 - Network performance requirements_
-
-| Metric                            | Client to Microsoft Edge           | Customer Edge to Microsoft Edge    |
-|-----------------------------------|------------------------------------|------------------------------------|
-| Latency (one way)                 | \<50 ms                            | \<30 ms                            |
-| Latency (RTT, or round-trip time) | \<100 ms                           | \<60 ms                            |
-| Burst packet loss                 | \<10% during any 200-ms interval   | \<1% during any 200-ms interval    |
-| Packet loss                       | \<1% during any 15-sec interval    | \<0.1% during any 15-sec interval  |
-| Packet inter-arrival Jitter       | \<30 ms during any 15-sec interval | \<15 ms during any 15-sec interval |
-| Packet reorder                    | \<0.05% out-of-order packets       | \< 0.01% out-of-order packets      |
-
-For more information, see [this article about media quality and network performance](https://aka.ms/performancerequirements) for Teams and Skype for Business Online.
-
-### Other resources
-
-
-#### CQD 
-
-- [Set up Call Quality Dashboard (CPD)](turning-on-and-using-call-quality-dashboard.md)
-
-- [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
-
-- [Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
-
-
-### Call Analytics 
-
--   [Set up per-user call analytics](set-up-call-analytics.md)
-
--   [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
-
-### Devices
-
-[Manage your devices in Teams](device-management.md)
-
-### Tenant reporting
-
-[Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
-
 
 ## Related topics
 
@@ -1200,4 +1014,20 @@ For more information, see [this article about media quality and network performa
 
 [Prepare your network for Teams](prepare-network.md)
 
+[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
+[Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+
+[Manage your devices in Teams](device-management.md)
+
+[Set up per-user call analytics](set-up-call-analytics.md)
+
+[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Set up Call Quality Dashboard (CPD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
+
+[Stream classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)

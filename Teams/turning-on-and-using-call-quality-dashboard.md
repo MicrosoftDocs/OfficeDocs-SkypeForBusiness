@@ -52,17 +52,24 @@ Don't miss our [Manage call and meeting quality in Teams](quality-of-experience-
 
 ## Assign admin roles for access to CQD
 
-If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **<font color="red">(SIUNIE, which roles also give access to per-user call analytics?)**</font>
+If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD. 
 
-- Office 365 Global Administrator
-- Office 365 Global Reader
-- Teams Service Administrator
-- Teams Communications Administrator
-- Teams Communications Support Engineer (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant)
-- Teams Communications Support Specialist (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant)
-- Skype for Business Administrator
-- Reports Reader: Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Microsoft 365 admin center, any reports from the [Microsoft 365 usage analytics](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant).
 
+|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
+|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+
+<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 

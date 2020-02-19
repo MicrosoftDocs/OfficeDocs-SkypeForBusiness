@@ -1,10 +1,10 @@
 ---
-title: "Stream Classification in Call Quality Dashboard"
-ms.author: tonysmit
-author: tonysmit
+title: "Stream classification in Call Quality Dashboard"
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
