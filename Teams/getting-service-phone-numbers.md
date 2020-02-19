@@ -24,10 +24,10 @@ description: "Learn how to get new, port, or transfer existing phone numbers for
 
 # Getting service phone numbers
 
-In addition to [getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users), you can search and get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+In addition to [getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
 > [!NOTE]
-> Office 365 Communications Credits must be set up first in order to get toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
+> You have to first set up Communications Credits before you can get toll-free numbers. To learn more, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
   
 There are three ways to get service numbers:
   
@@ -57,10 +57,6 @@ There are three ways to get service numbers:
     2. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
 4. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 5. When you're ready to place your order, click **Place order**.
-  
-## Port or transfer phone numbers from your service provider or phone carrier
-  
-You can use the Microsoft Teams admin center to transfer your service numbers to Teams. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ## Port or transfer existing service numbers
 
