@@ -1,14 +1,13 @@
 ---
-title: Publish apps in the Microsoft Teams Tenant Apps Catalog
+title: Publish apps in the Microsoft Teams tenant app catalog
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
 audience: admin
-description: Guidance for publishing apps in the Microsoft Teams Tenant Apps Catalog.
+description: Guidance for publishing apps in the Microsoft Teams tenant app catalog.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -22,31 +21,31 @@ appliesto:
   - Microsoft Teams
 ---
 
-Publish apps in the Microsoft Teams Tenant Apps Catalog
+Publish apps in the Microsoft Teams tenant app catalog
 =======================================================
 
-You can use the Microsoft Teams Tenant Apps Catalog to test and distribute line-of-business applications to your organization.
+You can use the Microsoft Teams tenant app catalog to test and distribute line-of-business applications to your organization.
 
-The Teams Tenant Apps Catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.
+The Teams tenant app catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.
 
-To publish apps for your organization, sign in to your Teams client using an account with the global admin or teams service admin roles and then follow the instructions below.
+To publish apps for your organization, sign in to the Teams client using an account with either the global admin or teams service admin role and then follow the steps below.
 
-## Publish an app in the Tenant Apps Catalog from the Teams client
+## Publish an app in the tenant app catalog from the Teams client
 
 > [!NOTE]
-> You need to be signed in to the Microsoft Teams client with an account that has either the global admin or teams service admin role enabled to publish apps for your organization. Learn more about [using administrator roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
+> These steps describe how to publish an app by using the Teams client. You can also publish an app on the **Manage apps** page in the Microsoft Teams admin center. To learn more, see [Manage apps in Teams](manage-apps.md).
 
 ### Get a Teams app package
 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Once you have the app package, you can add it to the enterprise app catalog. While all users in the tenant can view the app catalog, only global admins and teams service admins have the ability to publish and manage it.
+A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Once you have the app package, you can add it to the tenant app catalog. While all users in your organization can view the app catalog, only global admins and teams service admins have the ability to publish and manage it.
 
-### Go to the Tenant Apps Catalog
+### Go to the tenant app catalog
 
-Start the Microsoft Teams client and sign in using your global or teams service admin credentials. Select **Apps** on the left side of the app, and then select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
+Start Teams and sign in using your global or teams service admin credentials. Select **Apps** on the left side of the app, and then select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image01.png)
 
-### Add an app to the Tenant Apps Catalog
+### Add an app to the tenant app catalog
 
 1. On the **Apps** page, select **Upload a custom app** > **Upload for Contoso**.
 
@@ -58,11 +57,11 @@ Start the Microsoft Teams client and sign in using your global or teams service 
 
     ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image03.png)
 
-When you go back to your Tenant Apps Catalog, the new enterprise app will be there. Remember, only you and members of your organization have access to this app catalog.
+When you go back to your tenant app catalog, the new enterprise app will be there. Remember, only you and members of your organization have access to this app catalog.
 
-### Update an app in the Tenant Apps Catalog
+### Update an app in the tenant app catalog
 
-1. From your Tenant Apps Catalog, select “**…**” on the top right of the app you want to update.
+1. From your tenant app catalog, select “**…**” on the top right of the app you want to update.
 
 2. Navigate to the updated app package and select it, and then click **Open**.
 
@@ -70,10 +69,14 @@ When you go back to your Tenant Apps Catalog, the new enterprise app will be the
 
 The app will be revised to version 2.0. You can also delete the app for your entire company from this menu.
 
-## Use the Office 365 admin portal to manage the Tenant Apps Catalog
+## Use the Microsoft Teams admin center to manage the tenant app catalog
 
-If you have apps that need bug fixes, you can temporarily disable apps through the Microsoft 365 admin center > **Teams admin center** > **Teams apps** > **Permission Policies** > <policy name, e.g. "Global (Org-wide default)"> **Tenant apps** > Block specific apps and allow all others and add your app to the list.
+If you have apps that need bug fixes, you can temporarily disable apps for users in an app permission policy.
 
-![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image05.png)
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Select the app permission policy that you want to edit, and then click **Edit**.
+3. Under **Tenant apps**, select **Block specific apps and allow all others**, and then add the apps that you want to block.
 
-Disabling an app will block users from interacting with the app, without deleting the app entirely. These controls give you additional flexibility and control when managing apps in your enterprise.
+Disabling an app blocks users from interacting with the app, without deleting the app entirely. These controls give you additional flexibility and control when managing apps in your organization.
+
+To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
