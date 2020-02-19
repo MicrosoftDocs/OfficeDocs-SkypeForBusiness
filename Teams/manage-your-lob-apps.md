@@ -96,7 +96,7 @@ To allow trusted users to upload custom apps, follow these steps:
 
 ## Step 3: Upload to the tenant app catalog
 
-To make the app available to users in the tenant app store, upload the app. You can do this <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank"> using the Teams desktop client</a> or on the [Manage apps page](manage-apps.md) of the Microsoft Teams admin center.
+To make the app available to users in the tenant app store, upload the app. You can do this <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank"> using the Teams desktop client</a> or on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 Here's a screenshot of the the upload option in the Teams desktop client.
 
