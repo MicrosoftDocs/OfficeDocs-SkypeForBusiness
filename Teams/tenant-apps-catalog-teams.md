@@ -68,3 +68,13 @@ When you go back to your tenant app catalog, the new enterprise app will be ther
     ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image04.png)
 
 The app will be revised to version 2.0. You can also delete the app for your entire company from this menu.
+
+## Use the Microsoft Teams admin center to manage the tenant app catalog
+
+If you have apps that need bug fixes, you can temporarily disable apps for users in an app permission policy.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Select the app permission policy that you want to edit, and then click **Edit**.
+3. Under **Tenant apps**, select **Block specific apps and allow all others**, and then add the apps that you want to block.
+
+To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
