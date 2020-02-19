@@ -77,4 +77,6 @@ If you have apps that need bug fixes, you can temporarily disable apps for users
 2. Select the app permission policy that you want to edit, and then click **Edit**.
 3. Under **Tenant apps**, select **Block specific apps and allow all others**, and then add the apps that you want to block.
 
+Disabling an app blocks users from interacting with the app, without deleting the app entirely. These controls give you additional flexibility and control when managing apps in your organization.
+
 To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
