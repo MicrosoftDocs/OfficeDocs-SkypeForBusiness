@@ -245,28 +245,12 @@ Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on 
 
 To set up failover for a multi-tenant environment, you'll need to do the following:
 
-- Provision two trunks for every tenant. These trunks can be shared my multiplte tenants.
+- For each tenant, add the FQDNs for two different SBCs.  For example:
 
-- Give each derived trunk its own DNS name.
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
 
-- Obtain a wildcard certificate for each SBC. So, in the example below, the wilcard certificates would be *.uk1.customers.contoso.com and *.uk2.customers.contoso.com.
-
-**Example:**
-
-**Carrier Tenant**<br>
-Domains:<br>
-uk1.customers.contoso.com<br>
-uk2.customers.contoso.com<br>
-PSTN Gateways:<br>
-uk1.customers.contoso.com:5068<br>
-uk2.customers.contoso.com:5068<br>
-
-
-**Customer Tenant**<br>
-Domains:<br>
-sbc1.uk1.customers.contoso.com<br>
-sbc1.uk2.customers.contoso.com<br>
-
+- In the Online Voice Routing policies of the users, specify both SBCs.  If one SBC fails, the routing policy will route calls to the second SBC.
 
 
 ## See also
