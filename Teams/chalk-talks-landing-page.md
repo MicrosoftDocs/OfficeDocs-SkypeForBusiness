@@ -5,7 +5,7 @@ title: Microsoft Teams Chalk Talks
 ms.reviewer: nsuter
 manager: serdars
 description: Sign up for free, interactive workshops covering best practices and practical guidance for rolling out some of the most popular Microsoft Teams features.
-localization_priority: Priority
+localization_priority: Normal
 author: lolajacobsen
 audience: admin
 ms.author: lolaj
