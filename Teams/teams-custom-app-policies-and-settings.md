@@ -30,7 +30,7 @@ ms.custom:
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  After you edit the Custom App policy, it can take up to 24 hours for changes to take effect.
+As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  After you edit the custom app policy, it can take up to 24 hours for changes to take effect.
 
 ## Overview of custom apps
 
@@ -97,7 +97,7 @@ If this setting is turned on:
 
 ### Org-wide custom app setting
 
-The **Allow interaction with custom apps** org-wide custom app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can upload or interact with custom apps. This settinoverrides the user and team custom app policy and setting. It's intended to serve as a master on/off switch during security events.
+The **Allow interaction with custom apps** org-wide custom app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can upload or interact with custom apps. This setting overrides the user and team custom app policy and setting. It's intended to serve as a master on/off switch during security events.
 
 #### Configure the org-wide custom app setting
 
@@ -128,4 +128,5 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context.       |
 
  ## Related topics
+ 
 - [Admin settings for apps in Teams](admin-settings.md)

@@ -45,7 +45,7 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 ### Enable or disable Shifts in your organization
 
-Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps page](../../manage-apps.md) page in the Microsoft Teams admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](../../manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
 2. In the list of apps, do one of the following:
@@ -55,7 +55,7 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Enable or disable Shifts for specific users in your organization
 
-To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps page](../../manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
 ### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 
