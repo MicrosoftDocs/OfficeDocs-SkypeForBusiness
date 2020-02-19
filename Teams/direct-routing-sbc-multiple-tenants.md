@@ -254,17 +254,21 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 **Example:**
 
 **Carrier Tenant**
+```
 Domains:
 uk1.customers.contoso.com
 uk2.customers.contoso.com
 PSTN Gateways:
 uk1.customers.contoso.com:5068
 uk2.customers.contoso.com:5068
+```
 
 **Customer Tenant**
+```
 Domains:
 sbc1.uk1.customers.contoso.com
 sbc1.uk2.customers.contoso.com
+```
 
 
 
