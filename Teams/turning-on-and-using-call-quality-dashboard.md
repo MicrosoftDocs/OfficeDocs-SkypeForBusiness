@@ -521,3 +521,6 @@ After the first time you sign in, CQD will begin collecting and processing data.
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
+
+[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
