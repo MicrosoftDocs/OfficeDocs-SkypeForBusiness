@@ -1,7 +1,7 @@
 ---
-title: Manage apps in the Microsoft Teams admin center
-author: LolaJacobsen
-ms.author: lolaj
+title: Manage your apps in the Microsoft Teams admin center
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -9,16 +9,16 @@ audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: rowille
+ms.reviewer: ritikag
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
-description: Manage your Microsoft Teams apps in the Teams admin center.
+description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 ---
-Manage apps in the Microsoft Teams admin center
+Manage your apps in the Microsoft Teams admin center
 ======================================================
 
 As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
