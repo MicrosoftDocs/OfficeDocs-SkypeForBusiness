@@ -97,7 +97,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Discover what's new in Teams?</h3>
-                        <p><font color="red"><i>Coming soon!</i></font>Have you been waiting on a feature to release in Teams? Come interact with Teams experts as we walk you through the latest and greatest feature releases over the past month - along with best practices for implementing them.</p>
+                        <p><font color="red"><i>Coming soon!</i></font>  Have you been waiting on a feature to release in Teams? Come interact with Teams experts as we walk you through the latest and greatest feature releases over the past month - along with best practices for implementing them.</p>
                     </div>
                 </div>
             </div>
