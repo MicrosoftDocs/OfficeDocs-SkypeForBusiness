@@ -59,7 +59,7 @@ There are three ways to get user numbers:
   
 - If you need 999 or fewer phone numbers for your users, use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams). If your country or region isn't listed in the porting wizard, you can [manually submit a port order](manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA).
 
-- If you need to port more than 999 phone numbers, you can [manually submit a port order](manually-submit-port-order.md) or go to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA), and then send it to [the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to get all your numbers transferred.
+- If you need to port more than 999 phone numbers, you can [manually submit a port order](manually-submit-port-order.md) or see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) to download the correct Letter of Authorization (LOA), and then send it to [the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to get all your numbers transferred.
 
 ## View the phone numbers for your organization
 
