@@ -42,7 +42,8 @@ This example walks you through the following steps:
 6. Assign the voice route policy to the user
 7. Assign a voice route policy to an analog device
 
-For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide.
+For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide:
+- [AudioCodes configuration documentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
 
 ## Step 1.  Connect the SBC to Direct Routing
 
