@@ -313,9 +313,9 @@ The port range of the Media Processors (applicable to all environments) is shown
 UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
 | UDP/SRTP | SBC | Media Processor | Defined on the SBC | 49 152 – 53 247     |
 
-## Configure separate trunks for media bypass and non-bedia bypass  
+## Configure separate trunks for media bypass and non-media bypass  
 
-If you are migrating to media bypass from non-media bypass and want to confirm functionality before migrating all usage to bedia bypass, you can create a separate trunk and separate Online Voice Routing policy to route to the media bypass trunk and assign to specific users. 
+If you are migrating to media bypass from non-media bypass and want to confirm functionality before migrating all usage to media bypass, you can create a separate trunk and separate Online Voice Routing policy to route to the media bypass trunk and assign to specific users. 
 
 High-level configuration steps:
 
