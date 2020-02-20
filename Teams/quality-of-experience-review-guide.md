@@ -629,9 +629,6 @@ This summary report is used to discover and isolate any buildings or networks th
 > [!NOTE]
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-
-![Screenshot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
-
 ##### Remediation 
 
 Focus your first remediation efforts on buildings or subnets that have the largest volume of failures. This will maximize impact on the user experience and help to quickly reduce the rate of organizational call setup failures. The following table lists the two reasons for setup failures as reported by CQD.
@@ -720,8 +717,6 @@ Trending reports display quality information over time and are used to help iden
 
 > [!Important]
 > VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don’t reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this article](#vpn) for modifying the VPN reports if needed by using the building or network name.
-
-![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png)
 
 ##### Investigation
 
@@ -823,8 +818,6 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![Screenshot of TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
-
 ##### Remediation
 
 This report identifies specific buildings and subnets that are contributing to the volume of TCP usage. An additional report is also included to identify the Microsoft Relay IP that was used in the call to help isolate missing firewall rules. Focus your remediation efforts on those buildings that have the highest volume of TCP streams to maximize impact.
@@ -872,8 +865,6 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Sreen shot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
-
 ##### Remediation
 
 We [recommend](proxy-servers-for-skype-for-business-online.md) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
@@ -901,8 +892,6 @@ The reports in this space focus on identifying Skype for Business client version
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
-
-![Screenshot of the Client and Devices report](media/qerguide-image-clientversionreport.png)
 
 #### Remediation
 
@@ -951,8 +940,6 @@ The device reports are used to assess device usage by volume and MOS score (audi
 
 > [!Note]
 > You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
-
-![Screenshot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
 ##### Remediation
 
