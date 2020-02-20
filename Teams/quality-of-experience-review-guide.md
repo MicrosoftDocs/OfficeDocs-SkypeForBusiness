@@ -349,6 +349,8 @@ When investigating a managed network that uses a common subnet, you’ll need to
 
 CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
 
+![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
+
 ### Adding and editing drill-down fields
 
 When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
