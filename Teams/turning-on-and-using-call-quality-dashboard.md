@@ -477,3 +477,4 @@ When you filter for Teams only in CQD reports (isTeams = 1), you're filtering fo
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 

@@ -55,6 +55,7 @@
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
+### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
@@ -640,20 +641,20 @@
 
 # Security and compliance
 ## Security
-### [Identity models and authentication in Teams](identify-models-authentication.md)
+### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance
 ### [Overview](security-compliance-overview.md)
-### [Information barriers in Teams](information-barriers-in-teams.md)
-### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
-### [Place a Teams user or team on legal hold](legal-hold.md)
+### [Information barriers](information-barriers-in-teams.md)
+### [Retention policies](retention-policies.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Search the audit log for events in Teams](audit-log-events.md)
-### [Use Content Search in Teams](content-search.md)
-### Retention policies in Teams
-#### [Overview](retention-policies.md)
-#### [Retention policies known issues](retention-policies-known-issues.md)
-### [AppLocker application control policies in Teams](applocker-in-teams.md)
+### eDiscovery
+#### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
+#### [Place a Teams user or team on legal hold](legal-hold.md)
+### Content Search
+#### [Use Content Search](content-search.md)
+#### [Search the audit log for events](audit-log-events.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
