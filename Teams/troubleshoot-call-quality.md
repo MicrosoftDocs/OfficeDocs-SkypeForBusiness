@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot call quality for Microsoft Teams
+title: Troubleshoot call and meeting quality for Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,18 +16,16 @@ appliesto:
   - Microsoft Teams
 ---
 
-#  Troubleshoot call quality for Microsoft Teams
+#  Troubleshoot call and meeting quality for Microsoft Teams
 
-[]: # "Lola comment: This is excerpted from sections 4.1 and 4.2 of the Lync_Server_Networking_Guide_v2.3.docx, https://www.microsoft.com/en-us/download/details.aspx?id=39084"
+<!-- Lola comment: This is excerpted from sections 4.1 and 4.2 of the Lync_Server_Networking_Guide_v2.3.docx, https://www.microsoft.com/en-us/download/details.aspx?id=39084
+-->
 
+Use this in-depth guide to help you troubleshoot call and meeting quality problems in Microsoft Teams. The article is divided into two core parts:
+- troubleshooting scenarios that offer guidance about how to troubleshoot each end-to-end user scenario, most of it derived from real-life experiences, and 
+- troubleshooting methodologies that offer in-depth investigation into some of the most technically challenging network issues.
 
-# 4\. Troubleshooting
-
-This section is divided into two core parts: troubleshooting scenarios that offer guidance about how to troubleshoot each end-to-end user scenario, most of it derived from real-life experiences, and troubleshooting methodologies that offer in-depth investigation into some of the most technically challenging network issues.
-
-We assume that you have followed the best practices advisories in the previous topics.
-
-## 4.1 Troubleshooting Scenarios
+## Troubleshooting a site-wide problem
 
 The following troubleshooting scenarios are described in detail: a site-wide issue of Lync voice quality (a site suddenly reports poor audio quality), and an individual Lync voice quality issue.
 
@@ -63,11 +61,11 @@ If users report noise, echo, low quality audio, or other issues, consult these a
 
 DON’T LINK OUT TO THE ABOVE PLACES – INSTEAD, ADD THIS TO THE ARTICLE:
 
-## Symptoms
+**Symptoms**
 
 When you are on a Lync call or in a Lync conference, a message appears stating that your microphone is capturing too much noise.
 
-## Resolution
+**Resolution**
 
   - Your computer’s fan or spinning hard drive is too close to the microphone.
 
@@ -101,7 +99,7 @@ If the trend reports don’t show anything out of the ordinary, you’ll need to
 
 If [QoE Reports](#Lync_QoE_Reporting) are able to capture the inflection in the quality metrics from a before-the-issue to an after-issue-resolution period, the subnet IP can be passed to the networking team to investigate further. For details about how to fix common network issues that affect Lync audio quality, see [Troubleshooting a Network Segment](#troubleshooting-a-network-segment).
 
-### 4.1.2 Troubleshooting an Individual Lync Voice Quality Issue
+## Troubleshooting an individual voice quality issue
 
 Troubleshoot an individual Lync voice quality issue by using the following procedure:
 
@@ -245,7 +243,7 @@ Use the collected data to eliminate as many potential causes as possible. After 
   - **Environmental  
     **[Troubleshooting Environmental Issues](#troubleshooting-environmental-issues)
 
-## 4.2 Troubleshooting Methodologies
+## Troubleshooting methodologies
 
 Troubleshooting methodologies are common procedures used to find the root cause of symptoms discovered by any of the frequently used methods—help desk user reports, monitoring alerts, or other ad hoc sources. The following methodologies are scoped so that they apply to many escalation paths, yet contain enough details to help discover the root cause.
 
@@ -660,11 +658,11 @@ Voice Activity Detection/Silence Suppression detects the presence or absence of 
 
 Make sure that the configurations of Voice Activity Detection and Silence Suppression are the same across all devices in the environment. Misconfiguration can lead to incorrect reporting of packet loss.
 
-# Appendix A. Lync Audio Quality Model
+## Audio quality model
 
 Understanding the Lync Audio Quality Model will help anyone involved in deploying, monitoring, or troubleshooting Lync Server. An Audio Quality model can explain what factors can modify audio and in what ways, and, more importantly, what factors cannot modify audio. The following sections describe the basics of sound, digital representation and transmission of voice, the various signal processing stages, and finally, the issues that can occur in each stage.
 
-## A.1 Lync Audio Pipeline
+### A.1 Lync Audio Pipeline
 
 The audio pipeline consists of discrete stages from which audio signals are captured and transmitted from one Lync Server endpoint to another, where the audio is received and rendered.
 
@@ -710,13 +708,13 @@ As the audio signal gets transformed and moved along the audio pipeline, the sig
 
 The following topics describe each of these stages, how the audio can be modified, and what effects the various stages have on the subjective quality of audio.
 
-### A.1.1 Analog Audio Source
+#### A.1.1 Analog Audio Source
 
 Analog audio, or sound, is a series of sound pressure waves. In a telephony call scenario, sound is generated by the speaker as well as by sources, such as other speakers in the room, air conditioning units, CPU fans, cars rolling by, and so on. The term *signal* refers to the desired audio in any given context, and the term *noise* refers to everything else that coexists with the signal. Generally, unless the speaker is in a sound chamber, sounds in typical environments are often a mix of signal and noise. The term *signal-to-noise, or* SNR, refers to the amount of desired sound relative to unwanted noise. If the SNR is low, it’s hard to distinguish the preferred audio from the noise. For example, if a person is calling from a crowded trading floor with many other people talking at the same time in close proximity, it’s hard to distinguish and comprehend the speaker’s words. However, if the speaker is in a noisy server room with loud fan noise, the speech may be decipherable, and signal processing elements may be able to clean up the signal to a certain degree.
 
 Basically, the source audio should have as high an SNR as possible to help ensure good conversation quality.
 
-### A.1.2 Analog Audio Capture
+#### A.1.2 Analog Audio Capture
 
 Sound waves are captured when they strike the surface of the microphone membrane, which, in turn, vibrates with the pressure of the individual waves. The vibration is picked up by an electric coil that converts the waves to an analog voltage. The voltage is then transmitted to the analog-to-digital conversion (ADC) described in the next stage. During this stage, the design and placement of the capture device, usually a microphone, can affect the quality of the captured audio. The following characteristics can influence the captured audio:
 
@@ -740,17 +738,17 @@ Sound waves are captured when they strike the surface of the microphone membrane
 
 The audio tuning wizard in the Lync client enables users to test their audio device, and it can also be used to diagnose microphone and source issues.
 
-### A.1.3 Analog-to-Digital Conversion (ADC)
+#### A.1.3 Analog-to-Digital Conversion (ADC)
 
 The analog-to-digital conversion (ADC) process, also called *sampling*, converts the analog voltage from the microphone to a digital or binary representation of the waveform. There are two parameters in the ADC process that affect the quality of the digitized signal—sampling rate and bit depth. The sampling rate should be twice that of the highest frequency that needs to be preserved. For human speech, that sound frequency is 4 kHz, so an 8 kHz sampling rate is sufficient. This is the rate that traditional telephony has used for decades. Lync Server provides *wideband* audio and samples at 16 kHz, and therefore can capture even more frequencies, resulting in a more natural sounding conversation. The second parameter is the bit depth. Generally, 16 bits is enough to adequately represent each sampled value. Even CD audio uses only 16 bits per sample. If the sampling rate or bit depth is too low, the speech quality is significantly impaired. The audio sounds like it’s coming through a walkie-talkie or a CB radio.
 
 Additionally, after the audio has been digitized, many distortions that can affect the signal in the analog form have no effect on the digital form. For example, you won’t hear any other noise, such as car noise, introduced into the signal after this point.
 
-### A.1.4 Digital Signal Packet Capture
+#### A.1.4 Digital Signal Packet Capture
 
 After the audio is digitized, it must still be copied into the Lync client’s memory buffers. Lync must determine how often to read the data from the sound device, and how much of the data to read at one time. Reading too frequently results in excess CPU usage, but lower latency; reading not often enough results in high latency. The delay from which an audio sample is available to be read to when it is actually read is called the *framing delay*. Generally, this delay is 10-20ms, because most codecs operate at 20ms frame sizes. If, for some reason, the data is not available when Lync Server attempts to read it, a glitch might occur. A glitch occurs when Lync Server presents a frame of zeros to the next stage in the pipeline, and the zeros cause a discontinuity in the audio waveform. Physically, the rendering device may be pulled hard from its last location to the center and a sharp sound, or a click or a pop, is heard.
 
-### A.1.5 Digital Signal Preprocessing (DSP)
+#### A.1.5 Digital Signal Preprocessing (DSP)
 
 Digital Signal Pre-processing (DSP) can be applied to the audio waveform before encoding. Certain processing is most optimal at the sender side because other metadata is available to help in the processing. These processes can include:
 
@@ -766,7 +764,7 @@ Digital Signal Pre-processing (DSP) can be applied to the audio waveform before 
     
     Some of these processes can introduce distortions if the source audio requires significant correction. For example, in the earlier scenario where a speaker is in a noisy server room, the noise reduction process may remove much of the noise but cause some distortion in return. Compared to the noisy audio, almost all users prefer the cleaned but distorted audio. However, the listener in a call may not be aware of what the alternative unprocessed audio would sound like had a noise suppression algorithm not been run. Therefore the listener may judge the call based on the distortion and not the underlying conditions of the call. Lync Server addresses this awareness issue by letting the speaker know that they are in a noisy environment. The speaker must still volunteer that bit of information to the caller at the other end. Troubleshooting distortion issues generally involve looking at the call metrics in the Quality of Experience (QoE), or listening to samples of source audio, if available.
 
-### A.1.6 Encoding
+#### A.1.6 Encoding
 
 Encoding the audio before sending it is done only for conserving bandwidth. Uncompressed audio sampled at 16 kHz with 16 bits per sample has a bit rate of 256kbps. That can be compressed to about 1/8 of size by using a good encoder. The choice of the encoder depends on the available bandwidth, available CPU, and capabilities of receiving endpoint. There are a few things to keep in mind in determining if codecs are causing voice quality escalations.
 
@@ -778,21 +776,21 @@ Encoding the audio before sending it is done only for conserving bandwidth. Unco
 
   - Unexpected low bandwidth situations where a lower bit rate codec is selected.
 
-### A.1.7 Encryption
+#### A.1.7 Encryption
 
 The encoded audio packet is encoded for privacy reasons. Lync Server uses secure real-time transport protocol (SRTP), an encryption scheme that helps to ensure against packet loss. There should be no quality degradation associated with SRTP, other than packets that can be discarded if the sender and receiver have bugs in their implementation of the encryption process.
 
-### A.1.8 Protocol Encapsulation
+#### A.1.8 Protocol Encapsulation
 
 Lastly, the encrypted audio is placed in a protocol suitable for real-time transmission. Lync Server uses real-time transport protocol (RTP) and *real-time transport control protocol (*RTCP) to frame the packets. The RTP protocol contains several advanced features to facilitate the transmission and recovery of audio and video. First, the sequence number in each packet helps the receiver know immediately if a packet is received out of order, or lost. The marker bit tells the receiver when a *talkspurt*—a continuous segment of speech between silent intervals where only background noise can be heard—starts.
 
 The RTCP channel transmits metrics about the call, and this channel the basis for much of the network-related metrics seen on QoE reports.
 
-### A.1.9 Transmission
+#### A.1.9 Transmission
 
 The transmission stage involves many devices and individual steps. It is also the most significant stage for this guide’s intended audience, the network administrator. Most of this guide focuses on ways to prevent issues in the transmission of audio and video, so the issues that can affect packets in transit are not described here. Rather, this section addresses the three ways in which packet transit performance can be degraded—jitter, loss, and delay.
 
-#### A.1.9.1 Jitter
+##### A.1.9.1 Jitter
 
 Jitter is the change in delay from packet to packet. The expected delay is equal to the packetization time, or *p-time*. For example, if 20ms of data is sent at a time, a packet of data is sent every 20ms. Any deviation from the 20ms mark is considered jitter. A jitter value of 5ms means, on average, that the packet was early or late 5ms from the expected arrival time.
 
@@ -800,7 +798,7 @@ Jitter can cause poor audio performance because the receiving endpoint attempts 
 
 For Transmission Control Protocol (TCP)-based audio sessions, jitter is also the only impairment because losses are removed by retransmission.
 
-#### A.1.9.2 Loss
+##### A.1.9.2 Loss
 
 Packet loss results directly in the receiver attempting to recover from the loss by using advanced corrective, or *healing*, algorithms. Single packet losses can be healed with minimal distortion. Back-to-back packet losses may cause distortion. Larger bursts of loss result in speech cutout. Of course, the actual speech content plays a big role in how the listener perceives the healed audio. For example, lost packets containing silence will not be missed, but lost packets containing important syllables will be missed much more.
 
@@ -808,41 +806,41 @@ Forward error correction algorithms provide redundancy to help recover the lost 
 
 In this guide, we discuss two different thresholds that are used in QoE reports. A loss threshold of 10 percent is at a high enough mark so that, most likely, the callers have a poor experience. This type of reporting is used for gauging the amount of user listening dissatisfaction. A threshold of 1 percent packet loss, on the other hand, is used to discover infrastructure issues between well-connected endpoints on managed networks.
 
-#### A.1.9.3 Delay
+##### A.1.9.3 Delay
 
 Delay is often measured by using the round-trip delay calculation via the RTCP channel. Delay should be directly correlated to the distance between the callers; therefore, absolute thresholds are not useful for determining whether an issue exists. Although delay figures in the users’ perception of overall quality, issues caused by loss and jitter generally supersede those caused by delay.
 
 In some cases, long delays can cause Line Echo Cancellers to fail when PSTN endpoints are involved in calls.
 
-### A.1.10 Reception
+#### A.1.10 Reception
 
 As packets arrive on the receiving endpoint, they must be read by the Lync client or server process in a timely manner. If the Lync Server transport threads that are running in user context (as opposed to kernel) are blocked or delayed, the appearance of jitter, loss, or delay may exist in the end-to-end metrics, such as QoE network metrics.
 
-### A.1.11 Decryption
+#### A.1.11 Decryption
 
 Decrypting the packets is the counterpart of encrypting them. The only issue that can occur at this stage is the system fails to decrypt the packets, which results in packets being discarded. The result is no audio or audio loss midway through the call.
 
-### A.1.12 Decoding
+#### A.1.12 Decoding
 
 The decoding stage is the counterpart of the encoding stage. Similar to the decryption stage, if the wrong codec is in use, it can result in audio loss. In addition, bugs in the encoder or decoder can cause math errors, which sound like glitches or other unnatural, machine-made noises. For example, the G.711 bit flip is a common coding mistake in G.711 implementations, which produces a distinctive distortion.
 
-### A.1.13 Reassembly, Buffering, and Healing
+#### A.1.13 Reassembly, Buffering, and Healing
 
 After decoding, the audio is in uncompressed digital form. The audio is stored in a large buffer and may contain spaces for missing packets. If the missing packets arrive in time, they can be inserted into the holes with no detrimental effect on quality. If they arrive too late, the algorithmic healer extrapolates the missing data by using the surrounding data. The healing process can produce metallic sounding artifacts, if pushed to extremes. Such artifacts are sure indications that network impairments exist. These are also the only types of artifacts introduced by this processing stage.
 
-### A.1.15 Post processing
+#### A.1.15 Post processing
 
 Before sending the healed audio to the sound device to play back, the audio is run through digital signal processing (DSP) again to improve the audio one last time. Generally, this involves applying gain algorithms because the audio could have come from non-Lync sources that don’t have the benefit of automatic gain control (AGC) at the source.
 
-### A.1.16 Playback
+#### A.1.16 Playback
 
 Lastly, the audio samples are written to the sound device’s render buffer at prescribed intervals. There is a chance that the Lync client can be interrupted by system events or bad drivers so that glitches are created. Glitches on the render side can be diagnosed by examining a Microsoft Network Monitor or Wireshark capture to determine if the audio arriving on the local endpoint is glitch-free. There are also speaker glitch counters in QoE for each client endpoint.
 
-### A.1.17 Digital-to-Analog Conversion (DAC)
+#### A.1.17 Digital-to-Analog Conversion (DAC)
 
 The digital-to-analog conversion (DAC) stage is straightforward and does not have any potential to degrade the audio. We mention it here for complete coverage of the stages.
 
-### A.1.18 Analog Audio Render
+#### A.1.18 Analog Audio Render
 
 The render stage can distort the audio if the speaker device is low quality. However, most of these issues can be easily discovered by the user because they affect all audio coming out of the device. The audio tuning wizard in the Lync client enables users to test their audio device, and can be used to diagnose speaker issues.
 
