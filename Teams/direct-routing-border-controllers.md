@@ -66,5 +66,10 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
+The table below lists devices verified for interoperability between Direct Routing and Analog Devices 
+|                                                       Vendor                                                        |       Product       | Verified
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+
 To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com)
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
