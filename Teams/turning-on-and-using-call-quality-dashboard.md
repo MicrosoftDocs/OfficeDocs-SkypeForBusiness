@@ -42,7 +42,7 @@ Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Busines
   
 For example, using CQD, you can determine that a user's poor call quality (which you observed using per-user call analytics) is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252). 
   
-![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Screenshot of Call Quality Dashboard.](media/teams-monitor-call-quality-qos-image3.png)
 
 In CQD, we encourage you to upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
 
@@ -529,5 +529,5 @@ After the first time you sign in, CQD will begin collecting and processing data.
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md)
  
