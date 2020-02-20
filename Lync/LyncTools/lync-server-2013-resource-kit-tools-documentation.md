@@ -2003,7 +2003,7 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 <tbody>
 <tr class="odd">
 <td><p>Microsoft .Net Framework 4.5</p></td>
-<td><p>http://go.microsoft.com/?linkid=9816306</p></td>
+<td><p>https://go.microsoft.com/?linkid=9816306</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
