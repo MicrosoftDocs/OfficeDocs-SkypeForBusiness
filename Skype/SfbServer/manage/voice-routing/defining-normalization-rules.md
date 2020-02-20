@@ -19,7 +19,7 @@ Skype for Business Server normalization rules use .NET Framework regular express
 
 For details about normalization rules, see [Dial plans and normalization rules](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-For details about how to write regular expressions, see [.NET Framework Regular Expressions](http://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about how to write regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 You can use either of the following methods to define or edit a normalization rule:
 - [Use the **Build a Normalization Rule** tool](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) to specify values for the starting digits, length, digits to remove and digits to add, and then let Skype for Business Server Control Panel generate the corresponding matching pattern and translation rule for you.
