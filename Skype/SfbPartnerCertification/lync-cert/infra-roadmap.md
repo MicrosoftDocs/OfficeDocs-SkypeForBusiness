@@ -27,7 +27,7 @@ description: "Lync Server network infrastructure roadmap."
 ## Lync Server network infrastructure roadmap
 This page enables Networking professionals to find the information they need for planning, deploying, and managing Lync Server on their enterprise network, including details on bandwidth planning, deploying Quality of Service (QoS), network optimization partners and network security.
 
-# Lync Server 2010
+## Lync Server 2010
 
 ## Overview
 
