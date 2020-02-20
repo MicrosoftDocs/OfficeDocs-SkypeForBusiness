@@ -1,7 +1,7 @@
 ---
 title: "Auditing Patients app for Teams IT and compliance admins "
-author: jambirk
-ms.author: jambirk 
+author: dstrome
+ms.author: dstrome 
 manager: serdars
 audience: ITPro
 ms.topic: article 
