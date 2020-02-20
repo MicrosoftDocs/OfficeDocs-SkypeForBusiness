@@ -26,9 +26,15 @@ description: "Use per-user call analytics details about devices, networks, and c
 
 # Use per-user call analytics to troubleshoot poor call quality
 
-Per-user call analytics helps you troubleshoot call or connection problems with Microsoft Teams. You can see detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Office 365 account. If you upload building, site, and tenant information, it will also be shown for each call and session. Use this information to help you figure out why a user had a poor call or meeting experience. 
+This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you’re a Teams admin or a Teams communications support specialist or engineer.
 
-As the Teams admin, you get full access to all call analytics for each user. In addition, you can assign Azure Active Directory roles to support staff. Assign the **Teams communications support specialist** role to users who should have a limited (tier 1 support) view of per-user call data. Assign the **Teams communications support engineer** role to users who need access to all per-user call data. These permission levels prevent access to the rest of the Teams admin center. To learn how to assign these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
+This article assumes that you’ve already set up call analytics. If you haven’t, read [Set up call analytics for Teams](set-up-call-analytics.md).
+
+## Overview
+
+Call analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality. If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use call analytics to help you figure out why a user had a poor call or meeting experience.
+
+As the Teams admin, you get full access to all call analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don’t miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user call analytics
 
@@ -39,8 +45,6 @@ To see all call information and data for a user, go to the [Teams admin center](
 To get additional information about a given session, including detailed media and networking statistics, click a session to see the details.
 
 ![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
-  
-
   
 ## What does each Teams Support role do?
 
@@ -65,35 +69,26 @@ The following table tells you what per-user information is available for each co
   
 ## Troubleshoot user call quality problems 
 
+1. Open the Teams admin center (https://admin.teams.microsoft.com) and sign in with your Teams communications support or Teams admin credentials.
 
-1. Sign in with your Teams communications support or Teams admin credentials.
+2. On the **Dashboard**, in **User Search**, start typing either the name or SIP address of the user whose calls you want to troubleshoot, or select **View users** to see a list of users.
 
-2. In your web browser go to *https://admin.teams.microsoft.com*.
-    
-3. On the **Dashboard**, in **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot or select **View users** to see a list of users.
-    
-    ![Screenshot of the User Search box of per-user call analytics](media/use-call-analytics-to-troubleshoot-image-1.png)
-  
-4. Select the user from the list.
+3. Select the user from the list.
 
-5. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
+4. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
     
-    ![Screenshot of the call history page for a user.](media/use-call-analytics-to-troubleshoot-image-2.png)
-  
-6. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
+5. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
     
-    In the session details for each call or meeting, minor issues appear in yellow. (For example, in the following screenshot, the values are in yellow for Average jitter, Max jitter, and Average packet loss rate.) If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session. 
-    
-    ![Screenshot of the Advanced tab of a user's Call history ](media/use-call-analytics-to-troubleshoot-image-3.png)
-  
-In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is **unavailable**.
+    In the session details for each call or meeting, minor issues appear in yellow. If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session. 
+      
+In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by the a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
   
 For audio sessions that do have Quality of Experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
   
 |**Issue**|**Area**|**Description**|
 |:-----|:-----|:-----|
 |Call setup  <br/> |Session  <br/> |The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.  <br/> |
-|Audio network classified poor call  <br/> |Session  <br/> |Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered. For more information about the conditions used to classify poor calls, see this [Microsoft blog post](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Audio network classified poor call  <br/> |Session  <br/> |Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered.  <br/> |
 |Device not functioning  <br/> |Device  <br/> | A device isn't functioning correctly. Device not functioning ratios are : <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
 ## Related topics
