@@ -19,8 +19,7 @@ ms.collection:
   - M365-collaboration
 ---
 
-PowerShell Script Sample - Microsoft Teams deployment clean up
--------------------------------------------------------------------------
+# PowerShell Script Sample - Microsoft Teams deployment clean up
 
 This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users. It should be executed for every user on a targeted machine. 
 
