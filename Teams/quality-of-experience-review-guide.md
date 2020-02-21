@@ -55,14 +55,6 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 
 
 
-## Set up CQD, assign admin roles
-
-Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
-
-Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to:
-- [Assign admin roles](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to anybody that needs to access CQD
-- [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
-- Set up and learn how to use reports
 
 ## What is quality?
 
@@ -491,9 +483,9 @@ Additionally, the URL-defined filter also supports specifying multi-select value
 In the event that a non-valid data model name is provided, the URL filter will not be applied.
 
 
-## Import the CQD templates
+## Import the CQD report templates
 
-Download [two curated CQD templates](https://aka.ms/qertemplates), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
 
 **To import the templates (.CQDX) into CQD**
 
@@ -963,13 +955,12 @@ This section is focused on the tasks for reporting on client versions and the us
 
 ### Client versions
 
-The reports in this space focus on identifying Skype for Business client versions in use and their relative volume in the environment.
+These reports focus on identifying Skype for Business client versions in use and their relative volume in the environment.
 
 > [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
+> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. As a result, you don't need to monitor Teams client versions (unless you turn off the auto updating, which we don't recommend).
 
-> [!Important]
-> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a [query filter](#query-filters) for Second Tenant ID set to your organization’s [tenant ID](#tenant-id). Alternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
+Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a [query filter](#query-filters) for Second Tenant ID set to your organization’s [tenant ID](#tenant-id). Alternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.

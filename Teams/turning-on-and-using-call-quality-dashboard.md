@@ -36,7 +36,7 @@ CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, S
 
 [Open CQD from the Skype for Business legacy portal](#open-cqd-from-the-skype-for-business-legacy-portal)
 
-## What's the Call Quality Dashboard, and when should I use it?
+## What's CQD, and when should I use it?
   
 Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers monitor call and meeting quality at an org-wide level. You'll use CQD to help you *optimize your network*. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
   
@@ -118,11 +118,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 - A map of IP address and geographical information
 - A map of each wireless AP and its MAC address
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
+
+Don't miss the [sample locations template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+
   
 > [!NOTE]
 > Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
-  
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
 2. After you select the file data type, click **Browse** to choose a data file.
 
@@ -399,6 +401,13 @@ _Table 4 - Report filters_
 | Alphabetic | Filters for any alphabetic characters. | [a-z]                             |
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
+
+## Analyze CQD data in Power BI
+
+Beginning in January 2020, 
+
+: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
 
 ## Why is CQD data from Skype for Business different than CQD data from Teams? 
 
