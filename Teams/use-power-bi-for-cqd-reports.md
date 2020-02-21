@@ -197,9 +197,6 @@ Because the CQD Power BI Connector is less restricted than the browser app in te
 
 If you encounter any additional errors outside of this scope, please notify the CQD team so that we can help troubleshoot the issue and update the documentation as appropriate.
 
-
-
-
 ## Related topics
 
 [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
