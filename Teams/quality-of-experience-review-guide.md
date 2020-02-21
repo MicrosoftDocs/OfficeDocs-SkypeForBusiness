@@ -36,7 +36,7 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 <td><strong>Call quality</strong></td>
 <td><ul>
 <li>
-<p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p>
+Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls
 </li>
 <li>
 <p>Break down the metrics by building or network</p>
