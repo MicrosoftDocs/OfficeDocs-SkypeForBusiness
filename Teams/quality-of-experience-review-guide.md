@@ -24,18 +24,7 @@ This article will help you - the Teams admin or support and helpdesk engineer - 
 
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
-Most problems with Teams performance fall into the following categories:
-
--   Incomplete firewall or proxy configuration
--   Poor Wi-Fi coverage
--   Insufficient bandwidth
--   VPN
--   Inconsistent or outdated client versions and drivers
--   Unoptimized or built-in audio devices
--   Problematic subnets or network devices
-
-If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network in preparation for your Teams rollout, read [Advisor for Teams](use-advisor-teams-roll-out.md) and [Prepare your network for Teams](prepare-network.md).
-
+This article assumes that you've already [set up CQD](turning-on-and-using-call-quality-dashboard.md).
 
 ## Categories to monitor and maintain
 
@@ -233,6 +222,18 @@ You should also monitor devices and provide updates whenever you identify proble
 ## Use CQD to manage call quality
 
 Once you've [set up CQD](turning-on-and-using-call-quality-dashboard.md), you're ready to start using it to manage call and meeting quality for your organization.
+
+Most problems with Teams performance fall into the following categories:
+
+-   Incomplete firewall or proxy configuration
+-   Poor Wi-Fi coverage
+-   Insufficient bandwidth
+-   VPN
+-   Inconsistent or outdated client versions and drivers
+-   Unoptimized or built-in audio devices
+-   Problematic subnets or network devices
+
+If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network in preparation for your Teams rollout, read [Advisor for Teams](use-advisor-teams-roll-out.md) and [Prepare your network for Teams](prepare-network.md).
 
 ### Expectations using CQD
 
