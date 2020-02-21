@@ -3,9 +3,8 @@ title: Use Power BI for CQD reports
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, siunies, gageames
+ms.reviewer: siunies, gageames
 ms.topic: article
-ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -24,9 +23,7 @@ description: "Use Power BI to query and report your Call Quality Dashboard (CQD)
 
 ## Download Power BI query templates for CQD
 
-For CQD reports in Microsoft Teams, if you’d rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you’ll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
-
-Before you can use these PBIX files, you’ll need to install the Power BI Connector for Microsoft Advanced CQD (MicrosoftCallQuality.pqx). See the “Power BI Connector for Microsoft Teams CQD.docx” file to learn how to install this PQX file.
+New in January 2020, for CQD reports in Microsoft Teams, if you’d rather use Power BI to query and report your data, [download our Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). When you open these customizable templates in Power BI, you’ll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
 ## Power BI query templates for CQD
 
@@ -72,7 +69,7 @@ Before you can use these PBIX files, you’ll need to install the Power BI Conne
 </tbody>
 </table>
 
-## Factors that affect query performance
+### Factors that affect query performance
 
 When you customize these queries, if you find that the queries are running very slowly (or timing out), consider these factors:
 
@@ -89,9 +86,9 @@ When you customize these queries, if you find that the queries are running very 
 
 This article describes how to install the Power BI Connector file MicrosoftCallQuality.pqx so you can use it with the downloaded CQD Power BI query templates (PBIX files). For information about the PBIX files, see “Readme – Power BI query templates for Microsoft Teams CQD.docx.”
 
-**Installation**
+### Installation
 
-The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/en-us/power-bi/desktop-connector-extensibility). For the sake of simplicity, here’s a quick explanation:
+The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here’s a quick explanation:
 
 1.  Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.
     
@@ -99,42 +96,41 @@ The process for installing a custom connector and adjusting security to enable u
 
 2.  Download the connector file (either a *\*.mez* or *\*.pqx* file) and place it in the *Custom Connectors* directory.
 
-3.  **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](https://docs.microsoft.com/en-us/power-bi/desktop-connector-extensibility#data-extension-security).
+3.  **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 If a new version of this Power BI Connector for Microsoft Teams is released, simply replace the old connector file in the *Custom Connectors* directory with the new file.
 
-**Setup**
+### Setup
 
 In order to build a report and run queries, you will first need to connect to the CQD data source. Follow the steps below in order to connect:
 
-1.  In the Home tab of Power BI Desktop, click on *Get Data*.
+1. In Power BI Desktop, on the **Home** tab, click **Get Data**.
+   ![Screenshot of the Get Data button in Power BI Desktop](media/use-power-bi-for-cqd-reports1.png)
 
-![A screenshot of a social media post
-Description automatically generated](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image1.png)
 
-2.  The *Get Data* window should appear at this point. Navigate to *Online Services*, then select *Microsoft Call Quality (Beta)* and hit *Connect*.
+2. Under **Online Services**, select **Microsoft Call Quality (Beta)**, then click **Connect**.
 
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image2.png)
+   ![Screenshot of Online Services with the Microsoft Call Quality (Beta) item selected](media/use-power-bi-for-cqd-reports2.png)
 
-3.  You will be prompted to login next. Use the same credentials that you use for CQD.
+3. Sign in with your CQD credentials.
     
-    1.  The login credentials you use for CQD *do not* need to be the same credentials you use for logging into the Power BI Desktop app itself.
+   - The login credentials you use for CQD don't need to be the same credentials you use for logging into the Power BI Desktop app itself.
 
-4.  The next prompt will give you the option between two *Data Connectivity modes*. Select *DirectQuery* and hit *OK*.
+4. At the **Data Connectivity modes** prompt, select **DirectQuery**.
 
-5.  Finally, you will be given a final prompt showing you the entire data model for CQD. No data will be visible at this point, only the data model for CQD. Select *Load* to complete the setup process.
+5. The final prompt shows you the entire data model for CQD. No data will be visible at this point, only the data model for CQD. Select **Load** to complete the setup process.
 
-6.  At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
+6. At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
 
-If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found [here](https://docs.microsoft.com/en-us/power-bi/desktop-quickstart-connect-to-data).
+To learn more, read [Quickstart: Connect to data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
-**Building Queries**
+### Building queries
 
-Once setup is complete, you should see the names of several hundred dimensions and measures load in the *Fields* pane. Constructing actual queries from here is simple, just select the dimensions and measures you want for your query, then drag and drop them onto the page. Here’s a more detailed explanation, with a simple example:
+Once setup is complete, you should see the names of several hundred dimensions and measures load in the **Fields** pane. To construct a query from here, select the dimensions and measures you want for your query, then drag and drop them onto the page. Here’s a more detailed explanation, with a simple example:
 
-1.  Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we will be using the *Table* visualization.
+1.  Select the visualization you want to use from the **Visualizations** pane. A blank version of that visualization should appear on the page. In this example, we'll use the **Table** visualization.
 
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image3.png)
+    ![Power BI Visualizations pane, with the Table button highlighted](media/use-power-bi-for-cqd-reports3.png)
 
 2.  Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
