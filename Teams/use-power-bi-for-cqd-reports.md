@@ -150,7 +150,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
    > [!NOTE]
    > CQD queries require at least one measure in order to run. If your query doesn't load, double check that you have included a measure in the query.
 
-### Creating a Drillthrough Report
+### Create a drillthrough report
 
 [Drillthrough in Power BI](https://docs.microsoft.com/power-bi/desktop-drillthrough) allows you to create focused reports that you can quickly filter using the values of other reports as context. Once you know how to create your first query with the CQD Connector, creating a drillthrough is even simpler.
 
