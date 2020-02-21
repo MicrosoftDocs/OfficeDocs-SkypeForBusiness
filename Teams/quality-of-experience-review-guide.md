@@ -35,57 +35,57 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 <tr class="odd">
 <td><strong>Call quality</strong></td>
 <td><ul>
-<li><blockquote>
+<li>
 <p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Break down the metrics by building or network</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>VPN calls</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Calls using TCP, UDP, or proxy</p>
-</blockquote></li>
+</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Call reliability</strong></td>
 <td><ul>
-<li><blockquote>
+<li>
 <p>Identify and remediate any network or firewall problems</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Gain insights into the percentages of call setup and drop failures</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Learn where the majority of call setup and drop failures occur</p>
-</blockquote></li>
+</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><strong>User survey</strong></td>
 <td><ul>
-<li><blockquote>
+<li>
 <p>Use Rate My Call data to learn about users' actual experience</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Where are the poor experiences occurring?</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Correlate the poor experience with call quality, reliability, and devices</p>
-</blockquote></li>
+</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Devices</strong></td>
 <td><ul>
-<li><blockquote>
+<li>
 <p>Learn which microphones and speakers are most commonly used and their impact on call quality</p>
-</blockquote></li>
-<li><blockquote>
+</li>
+<li>
 <p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p>
-</blockquote></li>
+</li>
 </ul></td>
 </tr>
 <tr class="odd">
