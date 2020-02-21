@@ -381,7 +381,6 @@ If  you created reports or uploaded tenant data (mapping) files to CQD for Skype
 
 Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report’s overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
 
-_Table 3 - Query filters_
 
 | Filter         | Description          | CQD query filter example      |
 |----------------|----------------------|-------------------------------|
