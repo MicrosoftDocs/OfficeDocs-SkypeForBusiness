@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users. 
-
+localization_priority: Normal
 ---
 
 # Teams and Skype interoperability
@@ -23,7 +23,7 @@ Teams users in your organization can chat with and call Skype users by using the
 - Teams users can search for and start a one-on-one text-only conversation or an audio/video call with a Skype user.
 - Skype users can search for and start a one-on-one text-only conversation or an audio/video call with a Teams user.
 
-This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype. For an optimal experience, we recommend Skype version 8.57 and later.
+This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype. For an optimal experience, we recommend Skype version 8.58 and later.
 
 ## Chat and calling experience
 
