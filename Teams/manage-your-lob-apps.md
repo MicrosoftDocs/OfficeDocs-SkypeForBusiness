@@ -96,13 +96,7 @@ To allow trusted users to upload custom apps, follow these steps:
 
 ## Step 3: Upload to the tenant app catalog
 
-To make the app available to users in the tenant app store, upload the app. You can do this <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank"> using the Teams desktop client</a> or on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
-
-Here's a screenshot of the the upload option in the Teams desktop client.
-
-![Screenshot of the Apps page](media/manage-your-lob-apps-store.png)
-
-Here's a screenshot of the upload option on the **Manage apps** page in the Microsoft Teams admin center.
+To make the app available to users in the tenant app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 ![Screenshot of the Manage apps page in the admin center](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -126,6 +120,8 @@ By default, for users to find this app they would have to go to Teams apps store
 
 To update an app, developers should continue to follow [step 1](#step-1-develop-and-test) and [step 2](#step-2-validate-in-production).
 
-You can update the app through the tenant app catalog. To do this, in the Teams desktop client, go to **Apps** > **Built for &lt;Your tenant name&gt;**, click **…** in the upper-right corner of the app, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all permission policies and setup policies remain enforced for the updated app. 
+You can update the app through the tenant app catalog. To do this, in the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all app permission policies and app setup policies remain enforced for the updated app.
 
-![Screenshot of updating an app on the Apps page](media/manage-your-lob-apps-update-app.png)
+## Related apps
+
+- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
