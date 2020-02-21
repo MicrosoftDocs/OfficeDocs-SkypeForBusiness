@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/tenant-apps-catalog-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-apps", 
+      "redirect_document_id": true
+      },    
+    {
       "source_path": "Teams/retention-policies-known-issues.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/retention-policies", 
       "redirect_document_id": false
