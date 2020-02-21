@@ -41,6 +41,7 @@
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
+## [Manage tags in Teams](manage-tags.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
@@ -53,11 +54,11 @@
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
+### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Manage your line-of-business apps](manage-your-lob-apps.md)
-### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -95,6 +96,7 @@
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
+### [Assign policies to your users](assign-policies.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
@@ -257,15 +259,26 @@
 
 ### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
-### [Configure Direct Routing](direct-routing-configure.md)
+### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+
+### Configure Direct Routing
+#### [Overview](direct-routing-configure.md)
+#### [Connect your SBC to Direct Routing](direct-routing-connect-the-sbc.md)
+#### [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
+#### [Configure voice routing](direct-routing-voice-routing.md)
+#### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+#### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
+
+
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
 
 ### Monitor and troubleshoot Direct Routing
 #### [Overview](direct-routing-monitor-and-troubleshoot.md)
 #### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
-### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+
+
 ### Location-Based Routing
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
@@ -514,7 +527,7 @@
 
 
 <!-- ============================================================ -->
-# Hybrid connectivity 
+# Hybrid connectivity
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -529,7 +542,7 @@
 ### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Move users from the cloud to on premises](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -582,7 +595,7 @@
 
 
 # Industries and government guidance
-## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Quickstart for firstline workers](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -625,27 +638,21 @@
 <!-- ============================================================ -->
 
 # Security and compliance
-## [Overview](security-compliance-overview.md)
-## [Information barriers in Teams](information-barriers-in-teams.md)
-## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
-## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Sign in to Teams using modern authentication](sign-in-teams.md)
-## [Place a Teams user or team on legal hold](legal-hold.md)
-## [Search the audit log for events in Teams](audit-log-events.md)
-## [Use Content Search in Teams](content-search.md)
-## [AppLocker application control policies in Teams](applocker-in-teams.md)
-## Retention policies in Teams
-### [Overview](retention-policies.md)
-### [Retention policies FAQ](retention-policies-FAQ.md)
-### [Retention policies known issues](retention-policies-known-issues.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Data collection practices](data-collection-practices.md)
-## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-
+## Security
+### [Identity models and authentication](identify-models-authentication.md)
+### [Sign in to Teams using modern authentication](sign-in-teams.md)
+## Compliance
+### [Overview](security-compliance-overview.md)
+### [Information barriers](information-barriers-in-teams.md)
+### [Retention policies](retention-policies.md)
+### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### eDiscovery
+#### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
+#### [Place a Teams user or team on legal hold](legal-hold.md)
+### Content Search
+#### [Use Content Search](content-search.md)
+#### [Search the audit log for events](audit-log-events.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -671,13 +678,16 @@
 #    
 # Reference
 
+## [Limits and specifications for Teams](limits-specifications-teams.md)
+## [Location of data in Teams](location-of-data-in-teams.md)
+## [Data collection practices](data-collection-practices.md)
+
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ### [Use Network Planner for Teams](network-planner.md)
 ### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-### [Limits and specifications for Teams](limits-specifications-teams.md)
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
@@ -853,3 +863,10 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## Accessibility and conformance
+### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
+### [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
