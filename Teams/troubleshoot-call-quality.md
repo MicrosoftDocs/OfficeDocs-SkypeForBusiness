@@ -59,7 +59,7 @@ The next step is to collect the data needed to confirm network issues as the lik
 
 If users report noise, echo, low quality audio, or other issues, consult these articles for troubleshooting guidance: "Lync Troubleshooting: Your audio device may cause an echo" at <http://go.microsoft.com/fwlink/p/?LinkId=301452> and "Lync Troubleshooting: Your Microphone Is Capturing Too Much Noise" at <http://go.microsoft.com/fwlink/p/?LinkId=301456>.
 
-DON’T LINK OUT TO THE ABOVE PLACES – INSTEAD, ADD THIS TO THE ARTICLE:
+**DON’T LINK OUT TO THE ABOVE PLACES – INSTEAD, ADD THIS TO THE ARTICLE:**
 
 **Symptoms**
 

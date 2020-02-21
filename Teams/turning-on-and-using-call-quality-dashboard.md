@@ -73,6 +73,28 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
+## Data in CQD
+
+New in November 2019, CQD uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
+
+> [!NOTE]
+> Advanced CQD (new in November 2019) merges data from the older CQD pipeline with NRT data from the Advanced CQD pipeline. Queries on the older and Advanced portals for the data from the Archival period produce the same results. Queries on either portal for the NRT Data and NRT Data + EUII periods will be different.
+> 
+<!-- Lola comment: Please check the above note - I'm not sure I've edited it correctly (mostly because I don't really understand what it's saying.)-->
+
+### EUII data
+
+For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
+
+- Full IP address
+- Media Access Control (MAC) Address
+- Basic Service Set identifier (BSSID)
+- Session Initiation Protocol (SIP) URI (Skype for Business only)
+- User Principal Name (UPN)
+- Machine Endpoint Name
+- User Verbatim Feedback
+- Object ID (the Active Directory object ID of the endpoint's user)
+
 ## Upload Tenant Data information
 <a name="BKMKTenantDataInformationUpload"></a>
 
@@ -175,26 +197,7 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 
-## Near-real-time (NRT) data feed
 
-**<font color="red">(SIUNIE, we can get rid of all the v2 & v3 notes, right?)**</font>
-
-New in November 2019, CQD uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
-
-**(REMOVE???)**  CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
-
-### PII and EUII data
-
-For compliance reasons, personally-identifiable information (PII) or end-user identifiable information (EUII) data is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain PII or EUII are cleared, resulting in PII-free NRT data. Fields that contain PII or EUII data are:
-
-- Full IP address
-- Media Access Control (MAC) Address
-- Basic Service Set identifier (BSSID)
-- Session Initiation Protocol (SIP) URI (Skype for Business only)
-- User Principal Name (UPN)
-- Machine Endpoint Name
-- User Verbatim Feedback
-- Object ID (the Active Directory object ID of the endpoint's user)
 
 #### Admin roles with and without EUII access
 
@@ -231,22 +234,6 @@ The URL Date parameter accepts a Day field. Rolling-day reports use dates specif
 
 By default, the current day of the month is used as the last day of the Rolling Day Trend.
 
-### Drill-down functionality
-
-CQD provides drill-down fields in several reports. This is a powerful tool that will help you zero in on problems in your org. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
-
-For example, in Quality Drill Down Reports, click a date to drill into it on the **Locations** tab.
-
-![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
-
-You can add multiple dates from the **Location** tab, such as adding 2019-09-22 to Date: 2019-09-24: 
-
-![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
-
-For in-depth guidance on using drill-down filters, read [Drill-down filters - narrow the focus of investigations](quality-of-experience-review-guide.md#drill-down-filters---narrow-the-focus-of-investigations).
-
-> [!TIP]
-> Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.
 
 ## Data available in CQD reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
@@ -349,7 +336,7 @@ The Inside Test for a Server-Client scenario only considers the client endpoint.
 As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a Wifi network, then CQD classifies it as Wifi.
   
 
-## Reports provided with CQD
+## Detailed reports
 
 |Name  |  |
 |---------|---------|
@@ -373,41 +360,10 @@ From the pull-down list of reports at the top of the screen displayed at login \
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
 
-### Filtering reports
+## Filtering reports
 
-The templates provided include several built-in queries and report filters. The following sections describe the most common filters used throughout the templates.
+CQD provides rich filtering and drill-down functionality that you can use to narrow the focus of your investigations. For an in-depth discussion of all the filtering functionality in CQD, read [Report filters](quality-of-experience-review-guide.md#report-filters).
 
-#### URL filter
-
-You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online.
-
-Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
-
-To implement a URL filter, in the browser address bar, append the following to the end of the URL:
-
-```
-/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
-```
-
-Example:  
-
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
-
-To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
-
-```
-/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
-```
-
-Example:
-
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
-EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
-
-
-> [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
-`1409W3534, 123 manufacturer, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018
 
 ## Migrate reports from previous version of CQD
 
@@ -419,21 +375,6 @@ If  you created reports or uploaded tenant data (mapping) files to CQD for Skype
 4.	From the links on the left, click **Import** and select the exported file. 
 5.	After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
 
-
-##### How to find your tenant ID
-
-The tenant ID in CQD corresponds to the Directory ID in Azure. If you don’t know your Directory ID, you can find it in the Azure portal:
-
-1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
-
-2.  Select **Azure Active Directory**.
-
-3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
-
-You can also find your tenant ID by using PowerShell: 
-  ```
-  Login-AzureRmAccount
-  ```
 
 #### Query filters
 

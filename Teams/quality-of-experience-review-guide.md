@@ -345,13 +345,38 @@ Common subnets are specific private subnets that are used by hotels, home networ
 
 When investigating a managed network that uses a common subnet, you’ll need to use the Second Reflexive Local IP dimension to group subnets. This dimension contains the endpoint’s public IP address.
 
-## Drill-down filters - narrow the focus of investigations
+## Report filters
+
+Use a wide variety of CQD filters to narrow the focus of your investigations.
+
+### Drill-down filters
+
+FROM THE OTHER ARTICLE:
+### Drill-down functionality
+
+CQD provides drill-down fields in several reports. This is a powerful tool that will help you zero in on problems in your org. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
+
+For example, in Quality Drill Down Reports, click a date to drill into it on the **Locations** tab.
+
+![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+
+You can add multiple dates from the **Location** tab, such as adding 2019-09-22 to Date: 2019-09-24: 
+
+![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+
+For in-depth guidance on using drill-down filters, read [Drill-down filters - narrow the focus of investigations](quality-of-experience-review-guide.md#drill-down-filters---narrow-the-focus-of-investigations).
+
+> [!TIP]
+> Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.
+
+============
+THIS ARTICLE
 
 CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
 
 ![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
 
-### Adding and editing drill-down fields
+#### Adding and editing drill-down fields
 
 When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
 
@@ -390,6 +415,59 @@ Certain CQD reports have dashboard-level filters added to them, making it easy t
 ```
 
 ### URL-defined filter values
+
+FROMTHE OTHER ARTICLE
+
+
+### URL filter
+
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online.
+
+Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
+
+To implement a URL filter, in the browser address bar, append the following to the end of the URL:
+
+```
+/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+```
+
+Example:  
+
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+
+To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
+
+```
+/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
+```
+
+Example:
+
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+
+
+> [!NOTE]
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
+`1409W3534, 123 manufacturer, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018
+
+#### How to find your tenant ID
+
+The tenant ID in CQD corresponds to the Directory ID in Azure. If you don’t know your Directory ID, you can find it in the Azure portal:
+
+1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
+
+2.  Select **Azure Active Directory**.
+
+3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
+
+You can also find your tenant ID by using PowerShell: 
+  ```
+  Login-AzureRmAccount
+  ```
+
+===================
+THIS ARTICLE
 
 In addition to defining parameters in the URL such as Trending Month, tenant ID, language, etc., CQD also supports defining filter values for the Product or Dashboard level filters in the URL. This allows users to easily save time by bookmarking URLs with certain filter values pre-selected.
 
