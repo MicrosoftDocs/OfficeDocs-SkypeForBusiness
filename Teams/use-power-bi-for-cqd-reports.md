@@ -23,7 +23,7 @@ description: "Use Power BI to query and report your Call Quality Dashboard (CQD)
 
 ## Download Power BI query templates for CQD
 
-New in January 2020, for CQD reports in Microsoft Teams, if you’d rather use Power BI to query and report your data, [download our Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). When you open these customizable templates in Power BI, you’ll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
+*New in January 2020*: For CQD reports in Microsoft Teams, if you’d rather use Power BI to query and report your data, [download our Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). When you open these templates in Power BI, you’ll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
 ## Power BI query templates for CQD
 
@@ -80,22 +80,22 @@ When you customize these queries, if you find that the queries are running very 
 1.  Amount of building data included
 2.  Tenant size, number of records
 3.  Number of widgets per report page
-4.  Number of rows returned in the query.
+4.  Number of rows returned in the query
 
 
 ## Install Power BI Connector
 
-In order to use the downloaded CQD Power BI query templates (PBIX files), you'll need to install the Power BI Connector file MicrosoftCallQuality.pqx (included in the template download).
+To use the downloaded CQD Power BI query templates (PBIX files), you'll need to install the Power BI Connector file **MicrosoftCallQuality.pqx** (included in the template download).
 
 ### Installation
 
 1.  Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.
     
-    - Certain processes and apps (e.g., OneDrive) may cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is inside your Documents root folder.
+    - Certain processes and apps (e.g., OneDrive) may cause your *Documents* root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is inside your *Documents* root folder.
 
 2.  Download the connector file (either a *\*.mez* or *\*.pqx* file) and place it in the *Custom Connectors* folder.
 
-3.  **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3.  If the connector file is a *\*.mez* file, you'll also need to adjust your security settings as described in the [custom connector setup documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 If a new version of this Power BI Connector for Teams is released, replace the old connector file in the *Custom Connectors* folder with the new file.
 
@@ -106,6 +106,7 @@ To learn more, read [Connector extensibility in Power BI](https://docs.microsoft
 In order to build a report and run queries, you will first need to connect to the CQD data source. Follow the steps below in order to connect:
 
 1. In Power BI Desktop, on the **Home** tab, click **Get Data**.
+
    ![Screenshot of the Get Data button in Power BI Desktop](media/use-power-bi-for-cqd-reports1.png)
 
 
