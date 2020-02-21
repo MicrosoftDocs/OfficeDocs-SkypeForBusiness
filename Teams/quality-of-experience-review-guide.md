@@ -30,29 +30,72 @@ This article assumes that you've already [set up CQD](turning-on-and-using-call-
 
 Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas listed below. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
-**Call quality**
-- Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls
-- Break down the metrics by building or network
-- VPN calls
-- Calls using TCP, UDP, or proxy
-
-**Call reliability**
-- Identify and remediate any network or firewall problems
-- Gain insights into the percentages of call setup and drop failures
-- Learn where the majority of call setup and drop failures occur
-
-**User survey**
-- Use Rate My Call data to learn about users' actual experience
-- Where are the poor experiences occurring?
-- Correlate the poor experience with call quality, reliability, and devices
-
-**Devices**
-- Learn which microphones and speakers are most commonly used and their impact on call quality
-- Are the supporting audio, video, USB, and WiFi drivers being regularly patched?
-
-**Clients**
-- Learn which client types and versions are being used and their impact on call quality and reliability
-
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Call quality</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p>
+</blockquote></li>
+<li><blockquote>
+<p>Break down the metrics by building or network</p>
+</blockquote></li>
+<li><blockquote>
+<p>VPN calls</p>
+</blockquote></li>
+<li><blockquote>
+<p>Calls using TCP, UDP, or proxy</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Call reliability</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Identify and remediate any network or firewall problems</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gain insights into the percentages of call setup and drop failures</p>
+</blockquote></li>
+<li><blockquote>
+<p>Learn where the majority of call setup and drop failures occur</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>User survey</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Use Rate My Call data to learn about users' actual experience</p>
+</blockquote></li>
+<li><blockquote>
+<p>Where are the poor experiences occurring?</p>
+</blockquote></li>
+<li><blockquote>
+<p>Correlate the poor experience with call quality, reliability, and devices</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Devices</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Learn which microphones and speakers are most commonly used and their impact on call quality</p>
+</blockquote></li>
+<li><blockquote>
+<p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>Clients</strong></td>
+<td><ul>
+<li><p>Learn which client types and versions are being used and their impact on call quality and reliability</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 

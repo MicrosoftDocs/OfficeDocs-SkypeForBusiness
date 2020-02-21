@@ -132,7 +132,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 1. Select the visualization you want to use from the **Visualizations** pane. A blank version of that visualization should appear on the page. In this example, we'll use the **Table** visualization.
 
-    ![Screenshot of the Power BI Visualizations pane, with the Table button highlighted](media/use-power-bi-for-cqd-reports3.png)
+   ![Screenshot of the Power BI Visualizations pane, with the Table button highlighted](media/use-power-bi-for-cqd-reports3.png)
 
 2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
