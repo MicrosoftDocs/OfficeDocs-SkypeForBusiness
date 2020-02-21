@@ -39,19 +39,19 @@ New in January 2020, for CQD reports in Microsoft Teams, if you’d rather use P
 <td>CQD Helpdesk Report.pbix</td>
 <td>Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that’s experiencing network problems).</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>CQD Location Enhanced Report.pbix</td>
 <td>Re-imagining CQD SPD location reports. Includes 9 reports, providing Call Quality, Building WiFi, Reliability, and Rate My Call (RMC) information with additional drill-thrus by Building or by User.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>CQD Mobile Device Report.pbix</td>
 <td>Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call. View mobile network, WiFi network, and mobile operating system reports (Android, iOS).</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>CQD PSTN Direct Routing Report.pbix</td>
 <td>Provides insights specific for PSTN calls that go through Direct Routing.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>CQD Summary Report.pbix</td>
 <td><p>Better visualizations, improved presentation, increased information density, and rolling dates. These reports make it easier to identifier outliers. Drill into call quality by location with an easy-to-use interactive map. 9 new reports:</p>
 <ol type="1">
@@ -66,7 +66,7 @@ New in January 2020, for CQD reports in Microsoft Teams, if you’d rather use P
 <li><p>P2P RMC</p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>CQD User Feedback (Rate My Call) Report.pbix</td>
 <td>Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.</td>
 </tr>
