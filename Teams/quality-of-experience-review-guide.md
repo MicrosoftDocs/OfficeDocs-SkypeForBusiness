@@ -30,72 +30,23 @@ This article assumes that you've already [set up CQD](turning-on-and-using-call-
 
 Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas listed below. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Call quality</strong></td>
-<td><ul>
-<li>
-Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls
-</li>
-<li>
-<p>Break down the metrics by building or network</p>
-</li>
-<li>
-<p>VPN calls</p>
-</li>
-<li>
-<p>Calls using TCP, UDP, or proxy</p>
-</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Call reliability</strong></td>
-<td><ul>
-<li>
-<p>Identify and remediate any network or firewall problems</p>
-</li>
-<li>
-<p>Gain insights into the percentages of call setup and drop failures</p>
-</li>
-<li>
-<p>Learn where the majority of call setup and drop failures occur</p>
-</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>User survey</strong></td>
-<td><ul>
-<li>
-<p>Use Rate My Call data to learn about users' actual experience</p>
-</li>
-<li>
-<p>Where are the poor experiences occurring?</p>
-</li>
-<li>
-<p>Correlate the poor experience with call quality, reliability, and devices</p>
-</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Devices</strong></td>
-<td><ul>
-<li>
-<p>Learn which microphones and speakers are most commonly used and their impact on call quality</p>
-</li>
-<li>
-<p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p>
-</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Clients</strong></td>
-<td><ul>
-<li><p>Learn which client types and versions are being used and their impact on call quality and reliability</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+|  |  |
+|---------|---------|
+|<strong>Call quality</strong>     | <ul><li>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</li>
+<li>Break down the metrics by building or network</li>
+<li>VPN calls</li>
+<li>Calls using TCP, UDP, or proxy</li></ul>        |
+|<strong>Call reliability</strong>     |<ul><li>Identify and remediate any network or firewall problems</li>
+<li>Gain insights into the percentages of call setup and drop failures</li>
+<li>Learn where the majority of call setup and drop failures occur</li></ul>         |
+|<strong>User survey</strong>     |<ul><li>Use Rate My Call data to learn about users' actual experience</li>
+<li>Where are the poor experiences occurring?</li>
+<li>Correlate the poor experience with call quality, reliability, and devices</li></ul>         |
+|<strong>Devices</strong>     | <ul><li>Learn which microphones and speakers are most commonly used and their impact on call quality</li>
+<li>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</li></ul>        |
+|<strong>Clients</strong>     | <ul>
+<li>Learn which client types and versions are being used and their impact on call quality and reliability</li></ul>        |
 
 
 
