@@ -95,6 +95,21 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
 
+#### Admin roles with and without EUII access
+
+These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles have EUII access:
+- Global Admin
+- Teams Service Admin
+- Teams Communications Admin
+- Teams Communications Support Engineer
+- Global Reader
+- Skype for Business Admin
+
+These RBAC roles don't have EUII access:
+- Reports Reader
+- Teams Communications Support Specialist
+
+
 ## Upload Tenant Data information
 <a name="BKMKTenantDataInformationUpload"></a>
 
@@ -142,7 +157,6 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma delimited):
-
 
 |Column field name|Data type|Example value|
 |:--- |:--- |:--- |
@@ -197,21 +211,6 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 
-
-
-#### Admin roles with and without EUII access
-
-These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles have EUII access:
-- Global Admin
-- Teams Service Admin
-- Teams Communications Admin
-- Teams Communications Support Engineer
-- Global Reader
-- Skype for Business Admin
-
-These RBAC roles don't have EUII access:
-- Reports Reader
-- Teams Communications Support Specialist
 
 ### Date controls
 
