@@ -30,11 +30,15 @@ New in January 2020, for CQD reports in Microsoft Teams, if you’d rather use P
 <table>
 <thead>
 <tr class="header">
-<th>CQD Helpdesk Report.pbix</th>
-<th>Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that’s experiencing network problems).</th>
+<th>Power BI template name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>CQD Helpdesk Report.pbix</td>
+<td>Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that’s experiencing network problems).</td>
+</tr>
 <tr class="odd">
 <td>CQD Location Enhanced Report.pbix</td>
 <td>Re-imagining CQD SPD location reports. Includes 9 reports, providing Call Quality, Building WiFi, Reliability, and Rate My Call (RMC) information with additional drill-thrus by Building or by User.</td>
