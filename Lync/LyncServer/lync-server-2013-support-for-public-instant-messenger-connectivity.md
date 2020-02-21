@@ -16,7 +16,7 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -38,7 +38,7 @@ _**Topic Last Modified:** 2013-10-07_
 
 This article provides information about support for Public IM Connectivity (PIC). PIC is a feature of Microsoft Lync that allows organizations to enable their Lync users to connect with users of certain public instant messaging (IM) services through their Lync clients and identities.
 
-End-users benefit from being able to connect with customers, partners, and vendors on their terms. IT benefits from supporting a single real-time communications client while maintaining the control, compliance, and archiving features of Lync. Lync-Skype connectivity, [publicly available in May 2013](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), relies on the legacy that Lync/Office Communications Server (OCS)/Live Communications Server (LCS) first established with PIC in connecting to MSN/Windows Live, AOL, and Yahoo.  For more information on Lync-Skype connectivity, see the [Lync-Skype connectivity](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Federation with Windows Live, AOL, and Yahoo are each on a path towards end-of-life. This page documents the status of each service.
+End-users benefit from being able to connect with customers, partners, and vendors on their terms. IT benefits from supporting a single real-time communications client while maintaining the control, compliance, and archiving features of Lync. Lync-Skype connectivity, [publicly available in May 2013](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), relies on the legacy that Lync/Office Communications Server (OCS)/Live Communications Server (LCS) first established with PIC in connecting to MSN/Windows Live, AOL, and Yahoo.  For more information on Lync-Skype connectivity, see the [Lync-Skype connectivity](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Federation with Windows Live, AOL, and Yahoo are each on a path towards end-of-life. This page documents the status of each service.
 
 To use PIC, customers have been required to activate the service for each public IM service provider. The requirements and details for how to do this are dependent upon the IM service provider and the customer's underlying licensing program.
 
