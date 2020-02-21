@@ -354,7 +354,7 @@ As the names indicate, the classification criteria is based on the type of clien
 
 ## Create custom detailed reports
 
-If the default CQD reports don't meet your needs, use these instructions to create a custom report.
+If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports ](use-power-bi-for-cqd-reports.md)instead.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 
@@ -393,7 +393,6 @@ _Table 3 - Query filters_
 
 Report filters are implemented by adding a filter to the rendered report either in the Query Editor or directly to the report. The following report filters are used throughout the template.
 
-_Table 4 - Report filters_
 
 | Filter     | Description                            | CQD report filter example         |
 |------------|----------------------------------------|-----------------------------------|
@@ -404,9 +403,9 @@ _Table 4 - Report filters_
 
 ## Analyze CQD data in Power BI
 
-Beginning in January 2020, 
+Beginning in January 2020, you can use Power BI to query and report your CQD data. [Download customizable Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
-: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+To learn how to use these Power BI templates to analyze and report your CQD data, read [Use Power BI for CQD reports](use-power-bi-for-cqd-reports.md).
 
 
 ## Why is CQD data from Skype for Business different than CQD data from Teams? 
