@@ -32,12 +32,12 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 
 
 |  |  |
-|---------|---------|
-|<strong>Call quality</strong>     | <ul><li>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</li><li>Break down the metrics by building or network</li><li>VPN calls</li><li>Calls using TCP, UDP, or proxy</li></ul>        |
-|<strong>Call reliability</strong>     |<ul><li>Identify and remediate any network or firewall problems</li><li>Gain insights into the percentages of call setup and drop failures</li><li>Learn where the majority of call setup and drop failures occur</li></ul>         |
-|<strong>User survey</strong>     |<ul><li>Use Rate My Call data to learn about users' actual experience</li><li>Where are the poor experiences occurring?</li><li>Correlate the poor experience with call quality, reliability, and devices</li></ul>         |
-|<strong>Devices</strong>     | <ul><li>Learn which microphones and speakers are most commonly used and their impact on call quality</li><li>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</li></ul>        |
-|<strong>Clients</strong>     | <ul><li>Learn which client types and versions are being used and their impact on call quality and reliability</li></ul>        |
+|:---------|:---------|
+|**Call quality**     | <ul><li>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</li><li>Break down the metrics by building or network</li><li>VPN calls</li><li>Calls using TCP, UDP, or proxy</li></ul>        |
+|**Call reliability**     |<ul><li>Identify and remediate any network or firewall problems</li><li>Gain insights into the percentages of call setup and drop failures</li><li>Learn where the majority of call setup and drop failures occur</li></ul>         |
+|**User survey**     |<ul><li>Use Rate My Call data to learn about users' actual experience</li><li>Where are the poor experiences occurring?</li><li>Correlate the poor experience with call quality, reliability, and devices</li></ul>         |
+|**Devices**     | <ul><li>Learn which microphones and speakers are most commonly used and their impact on call quality</li><li>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</li></ul>        |
+|**Clients**     | <ul><li>Learn which client types and versions are being used and their impact on call quality and reliability</li></ul>        |
 
 
 
