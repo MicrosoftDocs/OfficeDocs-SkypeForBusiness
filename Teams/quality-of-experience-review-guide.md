@@ -337,30 +337,10 @@ Use a wide variety of CQD filters to narrow the focus of your investigations.
 
 ### Drill-down filters
 
-FROM THE OTHER ARTICLE:
-### Drill-down functionality
-
-CQD provides drill-down fields in several reports. This is a powerful tool that will help you zero in on problems in your org. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
-
-For example, in Quality Drill Down Reports, click a date to drill into it on the **Locations** tab.
-
-![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
-
-You can add multiple dates from the **Location** tab, such as adding 2019-09-22 to Date: 2019-09-24: 
-
-![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
-
-For in-depth guidance on using drill-down filters, read [Drill-down filters - narrow the focus of investigations](quality-of-experience-review-guide.md#drill-down-filters---narrow-the-focus-of-investigations).
-
-> [!TIP]
-> Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.
-
-============
-THIS ARTICLE
-
-CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
+CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
 
 ![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
+
 
 #### Adding and editing drill-down fields
 
@@ -400,18 +380,11 @@ Certain CQD reports have dashboard-level filters added to them, making it easy t
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
-### URL-defined filter values
+### URL filters
 
-FROMTHE OTHER ARTICLE
+CQD supports adding filters to the URL. This makes it easy to share or bookmark a CQD query. You can define parameters in the URL, such as Trending Month, tenant ID, or language. You can also add Product or Dashboard level filters to the URL.
 
-
-### URL filter
-
-You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online.
-
-Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
-
-To implement a URL filter, in the browser address bar, append the following to the end of the URL:
+To add a filter, append the following to the end of the URL:
 
 ```
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -421,21 +394,27 @@ Example:
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
-To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
+To add a Dashboard-level filter to a URL, that filter must exist in CQD as either a Product or Dashboard level filter. Add these filters to the URL after the Trending Month and before the URL parameters:
 
-```
-/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
-```
+```filter/DATA_MODEL_NAME|VALUE```
 
-Example:
+For example, to apply a Product filter value of Microsoft Teams, you'd add the following:
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
-EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+```filter/[AllStreams].[Is%20Teams]|[True]```
+
+Your entire URL would look something like this:
+
+```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+
+To apply URL filters with multi-select values, separate each value with a pipe ( | ) character. For example:
+
+```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+
+If you specify an invalid name or value, the URL filter won't be applied.
 
 
-> [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
-`1409W3534, 123 manufacturer, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business Online. Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
+
 
 #### How to find your tenant ID
 
@@ -451,29 +430,6 @@ You can also find your tenant ID by using PowerShell:
   ```
   Login-AzureRmAccount
   ```
-
-===================
-THIS ARTICLE
-
-In addition to defining parameters in the URL such as Trending Month, tenant ID, language, etc., CQD also supports defining filter values for the Product or Dashboard level filters in the URL. This allows users to easily save time by bookmarking URLs with certain filter values pre-selected.
-
-To apply a URL filter value to the Dashboard, the filter must first be present as either a Product or Dashboard level filter. Afterwards, add the following text to the URL after the Trending Month and before the URL parameters:
-
-```filter/DATA_MODEL_NAME|VALUE```
-
-For example, if you wished to specify a Product filter value of Microsoft Teams, you would add the following:
-
-```filter/[AllStreams].[Is%20Teams]|[True]```
-
-Your entire URL should take the form of something like the following:
-
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
-
-Additionally, the URL-defined filter also supports specifying multi-select values by adding more filter values each separated by a pipe character. For example:
-
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
-
-In the event that a non-valid data model name is provided, the URL filter will not be applied.
 
 
 ## Import the CQD report templates
