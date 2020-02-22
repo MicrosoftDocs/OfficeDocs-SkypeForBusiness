@@ -158,11 +158,11 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 2.  Select the dimension you want to use as a drillthrough filter and drag them onto the **Drillthrough** field under on the **Visualizations** pane.
 
-   ![Screenshot of the Power BI Drillthrough field, with Add drillthrough fields here selected](media/use-power-bi-for-cqd-reports6.png)
+      ![Screenshot of the Power BI Drillthrough field, with Add drillthrough fields here selected](media/use-power-bi-for-cqd-reports6.png)
 
 3.  From here, any other query on another page that uses that dimension can now drillthrough to that page, automatically applying the drillthrough dimension’s value as a filter.
 
-   ![Screenshot of the Drillthrough dimension available elsewhere in Power BI](media/use-power-bi-for-cqd-reports7.png)
+      ![Screenshot of the Drillthrough dimension available elsewhere in Power BI](media/use-power-bi-for-cqd-reports7.png)
 
 Unlike CQD, Power BI supports non-sequential drillthrough. As long as a query includes the necessary dimension, it can drillthrough to any other page.
 
