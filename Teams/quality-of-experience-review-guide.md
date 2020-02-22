@@ -42,10 +42,10 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 
 |                        |                                     |
 |:-----------------------|:------------------------------------|
-|**Call quality**     | Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls<br><br>Break down the metrics by building or network<br><br>VPN calls<br><br>Calls using TCP, UDP, or proxy     |
-|**Call reliability**     |Identify and remediate any network or firewall problems<br><br>Gain insights into the percentages of call setup and drop failures<br><br>Learn where the majority of call setup and drop failures occur         |
-|**User survey**     |Use Rate My Call data to learn about users' actual experience<br><br>Where are the poor experiences occurring?<br><br>Correlate the poor experience with call quality, reliability, and devices         |
-|**Devices**     | Learn which microphones and speakers are most commonly used and their impact on call quality<br><br>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?        |
+|**Call quality**     | Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls<br>Break down the metrics by building or network<br>VPN calls<br>Calls using TCP, UDP, or proxy     |
+|**Call reliability**     |Identify and remediate any network or firewall problems<br>Gain insights into the percentages of call setup and drop failures<br>Learn where the majority of call setup and drop failures occur         |
+|**User survey**     |Use Rate My Call data to learn about users' actual experience<br>Where are the poor experiences occurring?<br>Correlate the poor experience with call quality, reliability, and devices         |
+|**Devices**     | Learn which microphones and speakers are most commonly used and their impact on call quality<br>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?        |
 |**Clients**     | Learn which client types and versions are being used and their impact on call quality and reliability        |
 
 
