@@ -45,4 +45,4 @@ Add the following Teams folders to your antivirus safe list.
 |Category  |Location  |
 |---------|---------|
 |Program files  |%localappdata%\Microsoft\Teams|
-|Data files     |%appdata%\Microsoft\Teams\|
+|Data files     |%appdata%\Microsoft\Teams\ |
