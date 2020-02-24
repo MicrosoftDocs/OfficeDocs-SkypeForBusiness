@@ -109,5 +109,7 @@ When you are setting up users in your organization to make and receive phone cal
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  
