@@ -48,6 +48,63 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 |**Devices**     | Learn which microphones and speakers are most commonly used and their impact on call quality<br>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?        |
 |**Clients**     | Learn which client types and versions are being used and their impact on call quality and reliability        |
 
+<table>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Call quality</strong></td>
+<td>
+<ol type="1">
+<li><p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p></li>
+<li><p>Break down the metrics by building or network</p></li>
+<li><p>VPN calls</p></li>
+<li><p>Calls using TCP, UDP, or proxy</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><strong>Call reliability</strong></td>
+<td><ol type="1">
+<li><p>Identify and remediate any network or firewall problems</p></li>
+<li><p>Gain insights into the percentages of call setup and drop failures</p></li>
+<li><p>Learn where the majority of call setup and drop failures occur</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>CQD Mobile Device Report.pbix</td>
+<td>Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call. View mobile network, WiFi network, and mobile operating system reports (Android, iOS).</td>
+</tr>
+<tr class="even">
+<td>CQD PSTN Direct Routing Report.pbix</td>
+<td>Provides insights specific for PSTN calls that go through Direct Routing.</td>
+</tr>
+<tr class="odd">
+<td>CQD Summary Report.pbix</td>
+<td><p>Better visualizations, improved presentation, increased information density, and rolling dates. These reports make it easier to identifier outliers. Drill into call quality by location with an easy-to-use interactive map. 9 new reports:</p>
+<ol type="1">
+<li><p>Quality Overall</p></li>
+<li><p>Reliability Overall</p></li>
+<li><p>RMC (Rate My Call) Overall</p></li>
+<li><p>Conference Quality</p></li>
+<li><p>P2P Quality</p></li>
+<li><p>Conference Reliability</p></li>
+<li><p>P2P Reliability</p></li>
+<li><p>Conference RMC</p></li>
+<li><p>P2P RMC</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>CQD User Feedback (Rate My Call) Report.pbix</td>
+<td>Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## What is quality?
 
