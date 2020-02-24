@@ -17,9 +17,9 @@ ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype 
 
 # Block inbound calls
 
-Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a global tenant list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
+Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 
-This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a global tenant basis. It's not available on a per-user basis.  
+This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant-global basis. It's not available on a per-user basis.  
 
 This feature isn't yet available for Direct Routing.
 
