@@ -12,7 +12,7 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 
 <sup>1</sup> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix. To learn more, read [Allow a participant to give or request control](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control).
 
-<sup>2</sup> Blur your background feature cannot be used in Internet browsers at this time. This feature is only available in the Teams desktop client.
+<sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
 
 > [!NOTE]
 > As long as an operating system can run the supported browser, Teams is supported. For example, running Firefox on the Linux operating system is an option for using Teams.
