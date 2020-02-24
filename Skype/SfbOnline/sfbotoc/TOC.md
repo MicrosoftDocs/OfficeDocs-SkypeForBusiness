@@ -129,6 +129,7 @@
 ###[More about Calling Line ID and Calling Party Name](/microsoftteams/more-about-calling-line-ID-and-calling-party-name?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Set up Calling Plans](/microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Block inbound calls](../what-is-phone-system-in-office-365/block-inbound-calls.md)
 ### [Toll-free number limits and restrictions](/microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Argentina](/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Australia](/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -195,7 +196,6 @@
 ### [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Phone System in Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Block inbound calls](../what-is-phone-system-in-office-365/block-inbound-calls.md)
 ### [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Setting up Common Area Phones (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)

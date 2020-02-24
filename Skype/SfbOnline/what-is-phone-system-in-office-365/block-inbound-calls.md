@@ -12,14 +12,14 @@ ms.reviewer: roykuntz
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-ms.custom: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
+ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
 ---
 
 # Block inbound calls
 
 Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant-global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected. 
 
-This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant-global basis. It's not available on a per user basis.  
+This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a global tenant basis. It's not available on a per-user basis.  
 
 This feature isn't yet available for Direct Routing.
 
@@ -42,11 +42,10 @@ removes a blocked number pattern from the tenant list.
 - [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern)
 modifies one or more parameters of a blocked number pattern in the tenant list.
 
-Viewing and activating the entire call blocking feature is managed through the **CsTenantBlockingCallingNumbers** commands **Get** and **Set**. 
-- **Get-CsTenantBlockedCallingNumbers**
-Returns the parameters for the global blocked number list including Enabled (True/False). There's a single global tenant policy that can't be modified manually other than to turn the feature on or off.
-- **Set-CsTenantBlockedCallingNumbers**
-Allows modifying the global tenant blocked calls to be turned on and off at the tenant level.
+Viewing and activating the entire call blocking feature is managed through the **CsTenantBlockingCallingNumbers** commands **Get** and **Set**.
+
+- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the parameters for the global blocked number list including Enabled (True/False). There's a single global tenant policy that can't be modified manually other than to turn the feature on or off.
+- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) allows modifying the global tenant blocked calls to be turned on and off at the tenant level.
 
 ### Examples
 
@@ -78,6 +77,7 @@ If the identity isn't known, use the **Get-CsInboundBlockedNumberPattern** cmdle
 Allow time for replication before you test and validate.
 
 #### View all number patterns
+
 Running this cmdlet returns a list of all blocked numbers that are entered for a tenant: 
 
 ```
