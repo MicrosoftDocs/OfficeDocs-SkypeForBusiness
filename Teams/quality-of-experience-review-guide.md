@@ -75,31 +75,25 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 </ol></td>
 </tr>
 <tr class="odd">
-<td>CQD Mobile Device Report.pbix</td>
-<td>Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call. View mobile network, WiFi network, and mobile operating system reports (Android, iOS).</td>
-</tr>
-<tr class="even">
-<td>CQD PSTN Direct Routing Report.pbix</td>
-<td>Provides insights specific for PSTN calls that go through Direct Routing.</td>
-</tr>
-<tr class="odd">
-<td>CQD Summary Report.pbix</td>
-<td><p>Better visualizations, improved presentation, increased information density, and rolling dates. These reports make it easier to identifier outliers. Drill into call quality by location with an easy-to-use interactive map. 9 new reports:</p>
-<ol type="1">
-<li><p>Quality Overall</p></li>
-<li><p>Reliability Overall</p></li>
-<li><p>RMC (Rate My Call) Overall</p></li>
-<li><p>Conference Quality</p></li>
-<li><p>P2P Quality</p></li>
-<li><p>Conference Reliability</p></li>
-<li><p>P2P Reliability</p></li>
-<li><p>Conference RMC</p></li>
-<li><p>P2P RMC</p></li>
+<td>User survey</td>
+<td><ol type="1">
+<li><p>Use Rate My Call data to learn about users' actual experience</p></li>
+<li><p>Where are the poor experiences occurring?</p></li>
+<li><p>Correlate the poor experience with call quality, reliability, and devices</p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>CQD User Feedback (Rate My Call) Report.pbix</td>
-<td>Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.</td>
+<td>Devices</td>
+<td><ol type="1">
+<li><p>Learn which microphones and speakers are most commonly used and their impact on call quality</p></li>
+<li><p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>Clients</td>
+<td><ol type="1">
+<li><p>Learn which client types and versions are being used and their impact on call quality and reliability  </p></li>
+</ol></td>
 </tr>
 </tbody>
 </table>
