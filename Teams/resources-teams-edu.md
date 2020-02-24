@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams resources for Education admins
-author: ChuckEdmonson
-ms.author: chucked
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: 
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
-description: Lists Teams resources that are helpful for Teams for Education admins.
+ms.reviewer: olbesede
+description: Lists Teams resources that are helpful to Teams for Education admins.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -43,7 +43,7 @@ Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!
 |---------|---------|
 |Email templates<br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-templates.png)    |GIFs <br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-gifs.png)      |
 |Web banners<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-web-banners.png)    |Videos<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-videos.png)          |
-|Digital screen alerts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-digital-screen-adverts.png)   |Email and newsletter banners <br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-newsletter-banners.png)       |
+|Digital screen alerts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## Call to action
 
