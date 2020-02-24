@@ -336,6 +336,11 @@ The Inside Test for a Server-Client scenario only considers the client endpoint.
 
 As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a Wifi network, then CQD classifies it as Wifi.
   
+- The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
+- The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
+- Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
+- If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
+- There must be 14 columns for each row (or 15 if you want to add the optional column), each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 ## Detailed reports
 
