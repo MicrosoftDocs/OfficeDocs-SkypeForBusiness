@@ -42,7 +42,7 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 <td><strong>Call quality</strong></td>
 <td>
 <ul type="1">
-<li><p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p></li>
+<li>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</li>
 <li><p>Break down the metrics by building or network</p></li>
 <li><p>VPN calls</p></li>
 <li><p>Calls using TCP, UDP, or proxy</p></li>
@@ -370,7 +370,7 @@ Use a wide variety of CQD filters to narrow the focus of your investigations.
 
 ### Drill-down filters
 
-CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
+CQD reports feature several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
 
 ![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
 
