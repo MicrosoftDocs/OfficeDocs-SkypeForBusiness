@@ -313,27 +313,27 @@ The port range of the Media Processors (applicable to all environments) is shown
 UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
 | UDP/SRTP | SBC | Media Processor | Defined on the SBC | 49 152 – 53 247     |
 
-## Configure separate trunks for Media Bypass and non Media Bypass  
+## Configure separate trunks for media bypass and non-media bypass  
 
-If you are migrating to Media Bypass from non Media Bypass and want to confirm functionality before migrating all usage to Media Bypass, you can create a separate trunk and separate Online Voice Routing Policy to route to the Media Bypass trunk and assign to specific users. 
+If you are migrating to media bypass from non-media bypass and want to confirm functionality before migrating all usage to media bypass, you can create a separate trunk and separate Online Voice Routing policy to route to the media bypass trunk and assign to specific users. 
 
 High-level configuration steps:
 
-- Identity users to test Media Bypass
+- Identify users to test media bypass.
 
 - Create two separate trunks with different FQDNs: one enabled for media bypass; the other not. 
 
   Both trunks point to the same SBC. The ports for TLS SIP signaling must be different. The ports for media must be the same.
 
-- Create new Online Voice Routing Policy and assign media bypass trunk to the corresponding routes associated with the PSTN usage for this policy.
+- Create a new Online Voice Routing policy and assign the media bypass trunk to the corresponding routes associated with the PSTN usage for this policy.
 
-- Assign the new Online Voice Routing Policy to users you have identified to test Media Bypass 
+- Assign the new Online Voice Routing policy to users you have identified to test media bypass.
 
 The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with non media bypass trunk | 980 | sbc1.contoso.com:5060 | true
+Users with non-media bypass trunk | 980 | sbc1.contoso.com:5060 | true
 Users with media bypass trunk | 20 | sbc2.contoso.com:5061 | false | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
