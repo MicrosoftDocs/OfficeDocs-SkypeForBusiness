@@ -26,7 +26,7 @@ Microsoft Teams resources for Education admins
 
 Get your school excited about Microsoft Teams with emails, posters, handouts, and more resources that you are free to use now. You can also reach students online and across campus with the new digital toolkit filled with banners, GIFs, and videos. Get started today!
 
-Please read the terms and conditions before you use these materials.
+Please read the [terms and conditions](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) before you use these materials.
 
 ### Physical assets
 
