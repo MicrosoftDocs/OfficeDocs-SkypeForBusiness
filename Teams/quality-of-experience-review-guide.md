@@ -41,7 +41,7 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 <tr class="odd">
 <td><strong>Call quality</strong></td>
 <td>
-Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls
+<p>Break down the metrics by internal calls (within your organization, such as VPN, WiFi, wired) or external calls</p>
 <p>Break down the metrics by building or network</p>
 <p>VPN calls</p>
 <p>Calls using TCP, UDP, or proxy</p>
@@ -49,31 +49,29 @@ Break down the metrics by internal calls (within your organization, such as VPN,
 </tr>
 <tr class="even">
 <td><strong>Call reliability</strong></td>
-<td><ul type="1">
-<li><p>Identify and remediate any network or firewall problems</p></li>
-<li><p>Gain insights into the percentages of call setup and drop failures</p></li>
-<li><p>Learn where the majority of call setup and drop failures occur</p></li>
-</ol></td>
+<td><p>Identify and remediate any network or firewall problems</p>
+<p>Gain insights into the percentages of call setup and drop failures</p>
+<p>Learn where the majority of call setup and drop failures occur</p>
+</td>
 </tr>
 <tr class="odd">
 <td><strong>User survey</strong></td>
-<td><ul type="1">
-<li><p>Use Rate My Call data to learn about users' actual experience</p></li>
-<li><p>Where are the poor experiences occurring?</p></li>
-<li><p>Correlate the poor experience with call quality, reliability, and devices</p></li>
-</ol></td>
+<td>
+<p>Use Rate My Call data to learn about users' actual experience</p>
+<p>Where are the poor experiences occurring?</p>
+<p>Correlate the poor experience with call quality, reliability, and devices</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Devices</strong></td>
-<td><ul type="1">
-<li><p>Learn which microphones and speakers are most commonly used and their impact on call quality</p></li>
-<li><p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p></li>
-</ol></td>
+<td><p>Learn which microphones and speakers are most commonly used and their impact on call quality</p>
+<p>Are the supporting audio, video, USB, and WiFi drivers being regularly patched?</p>
+</td>
 </tr>
 <tr class="odd">
 <td><strong>Clients</strong></td>
-<td><ul type="1">
-<li><p>Learn which client types and versions are being used and their impact on call quality and reliability  </p></li>
+<td>
+<p>Learn which client types and versions are being used and their impact on call quality and reliability  </p>
 </ol></td>
 </tr>
 </tbody>
