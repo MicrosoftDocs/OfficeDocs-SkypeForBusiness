@@ -57,15 +57,15 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (build 537)     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (build 537)     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (build 216)    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |   
-| | Edgemarc Series |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+| | EdgeMarc Series |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
