@@ -103,14 +103,6 @@ for each ($user in $users)
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP | 
 
-## Audio Conferencing: tips and scripts for assigning licenses
-
-Here's what you need to know before assigning Audio Conferencing licenses.
-
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an Audio Conferencing license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
-
-- **Next steps**: After you assign Audio Conferencing licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
-
 ## Assign an Audio Conferencing license to one user
 
 The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
