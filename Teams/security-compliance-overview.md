@@ -46,9 +46,9 @@ Advance Threat protection (ATP) is available for Microsoft Teams, along with Sha
 
 How the affected content is managed subsequent to detection is up to the settings you've selected in O365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, the [Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) article will have detailed information on how to get started.
 
-### Safe Attachments
+### Safe Links
 
-While, at this time, ATP safe attachments are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know.
+While, at this time, ATP safe links are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know.
 
 ## Compliance
 
