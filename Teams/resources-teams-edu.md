@@ -32,7 +32,7 @@ Please read the terms and conditions before you use these materials.
 
 | |  |
 |---------|---------|
-|Posters<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-posters.png)     |Handouts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-handouts.png)|
+|[Posters](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters.zip?raw=true)<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-posters.png)     |Handouts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-handouts.png)|
 |Flyers<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-flyers.png)   |Book adverts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-book-adverts.png)         |
 
 ### Digital assets
