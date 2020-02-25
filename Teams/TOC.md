@@ -263,10 +263,10 @@
 
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
-#### [Connect your SBC to Direct Routing](direct-routing-connect-the-sbc.md)
-#### [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-#### [Configure voice routing](direct-routing-voice-routing.md)
-#### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [Step 1: Connect your SBC](direct-routing-connect-the-sbc.md)
+#### [Step 2: Enable users](direct-routing-enable-users.md)
+#### [Step 3: Configure voice routing](direct-routing-voice-routing.md)
+#### [Step 4: Translate phone numbers](direct-routing-translate-numbers.md)
 #### [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
