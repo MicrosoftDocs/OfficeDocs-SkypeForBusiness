@@ -40,19 +40,23 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 > [!NOTE]
 > Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
 
-### Safe Attachments
-
-Content para here.
-
 ### Advance Threat Protection (ATP)
 
-Content para here.
+Advance Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive for Business, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
+
+How the affected content is managed subsequent to detection is up to the settings you've selected in O365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, the [Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) article will have detailed information on how to get started.
+
+### Safe Attachments
+
+While at this time, ATP safe attachments are not available in Microsoft Teams, they should become available at a later date, and you can check back here for an update when that happens.
 
 ## Compliance
 
 Teams has a wide range of information to help you with audit log search, eDiscovery and legal hold for channels, chats and files, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the Office 365 Security & Compliance Center to manage these settings.
 
 ### Retention Policies
+
+Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review the [Retention policies in Microsoft Teams](retention-policies.md) article.
 
 ### Data Loss Prevention (DLP)
 
@@ -97,7 +101,7 @@ During a litigation, it is often required that all data associated with a user (
 
 Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts and/or report on audit events by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log search for Microsoft Teams events in the Office 365 Security & Compliance Center.
 
-### Information Protection Architecture
+## Information Protection Architecture
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
 
