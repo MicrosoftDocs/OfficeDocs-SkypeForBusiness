@@ -77,9 +77,6 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.
 3. Redeploy the MSI package to that particular computer.
 
-> [!TIP]
-> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via Configuration Manager.
-
 ## Prevent Teams from starting automatically after installation
 
 The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can use Group Policy to set a policy setting or disable auto launch for the MSI installer.
