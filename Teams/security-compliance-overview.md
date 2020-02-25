@@ -48,11 +48,11 @@ How the affected content is managed subsequent to detection is up to the setting
 
 ### Safe Attachments
 
-While, at this time, ATP safe attachments are not available in Microsoft Teams, they should become available at a later date, and you can check back here for an update when that happens.
+While, at this time, ATP safe attachments are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know.
 
 ## Compliance
 
-Teams has a wide range of information to help you with audit log search, eDiscovery and legal hold for channels, chats and files, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the Office 365 Security & Compliance Center to manage these settings.
+Teams has a wide range of information to help you with compliance areas, including retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the Office 365 Security & Compliance Center to manage these settings.
 
 ### Retention Policies
 
@@ -66,13 +66,15 @@ For information on Data Loss Prevention in Teams, please review [DLP for Microso
 
 ### eDiscovery
 
-Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
+Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
 
-For more details about how to do eDiscovery in Security & Compliance Center and run compliance content search for Teams content, please go to the links below:
+For more details about how to do O365 eDiscovery in Security & Compliance Center and run compliance content search for Teams content, please go to the links below:
 
 [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
 [Content Search](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
+
+We have a Teams-specific article for more information, [eDiscovery of guest-to-guest chats](eDiscovery-investigation.md).
 
 Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their [requirements](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery). The following table outlines the differences between the two:
 
@@ -89,20 +91,27 @@ Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their [r
 
 ### Legal Hold
 
-During a litigation, it is often required that all data associated with a user (custodian) or a Team is preserved as immutable so that it can be used as evidence for the case. This is achieved by placing either a user (user mailbox) or a Team on legal hold. When any team within Teams is put on In-Place Hold (subset of the mailbox or site collection thru targeted queries or filtered content) or Litigation Hold (entire mailbox or site collection), the hold is placed on the groups mailbox. This ensures that even if end users delete or edit channel messages that are ingested into the group mailbox, immutable copies of that content are maintained and available in eDiscovery search. Legal Holds are generally applied within the context of an eDiscovery case. Please see [this help article](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Office 365 Security & Compliance Center.
+During litigation, you may need all data associated with a user (custodian) or a Team to be preserved as immutable, so that it can be used as evidence for the case. You can do this by placing either a user (user mailbox) or a Team on legal hold. For a team legal hold, the team's mailbox can be put on the following holds:
+
+- In-Place Hold (a subset of the mailbox or site collection through targeted queries or filtered content is put on hold) or
+- Litigation Hold (the entire mailbox or site collection is placed on hold)
+
+In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
+
+Please see the [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) article to understand more about preservation and holds in the Office 365 Security & Compliance Center. For more Teams-specific information on legal hold, we also have our [Place a Microsoft Teams user or team on legal hold](legal-hold.md) article for you to learn more.
 
 ### Compliance Content Search
 
-Content search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [Content Search in O365](https://docs.microsoft.com/microsoft-365/compliance/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security & Compliance Center.
+Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [Content Search in O365](https://docs.microsoft.com/microsoft-365/compliance/content-search) article to learn more about how to conduct a compliance content search for Microsoft Teams and other O365 content in the Office 365 Security & Compliance Center.
 
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
 
-If you'd like further information on configuring content search, review the [Content search in Microsoft Teams](content-search.md) article.
+If you'd like further Teams-specific information on configuring content search, review the [Content search in Microsoft Teams](content-search.md) article.
 
 ### Auditing and Reporting
 
-Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts and/or report on audit events by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log search for Microsoft Teams events in the Office 365 Security & Compliance Center.
+Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for O365. To learn more about searching for Microsoft Teams events in the Office 365 Security & Compliance Center, we also have [Turn on auditing in Teams](audit-log-events.md).
 
 ## Information Protection Architecture
 
@@ -167,7 +176,7 @@ To see which region houses data for your tenant, go to the [Microsoft 365 admin 
 
 ![Screenshot of Data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-### How Conditional Access policies work for Teams
+## How Conditional Access policies work for Teams
 
 Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
 
