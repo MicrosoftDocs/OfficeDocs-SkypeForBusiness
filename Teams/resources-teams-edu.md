@@ -32,8 +32,8 @@ Please read the terms and conditions before you use these materials.
 
 | |  |
 |---------|---------|
-|[Posters](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters.zip?raw=true)<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-posters.png)     |Handouts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-handouts.png)|
-|Flyers<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-flyers.png)   |Book adverts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-book-adverts.png)         |
+|[Posters](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters.zip?raw=true)<br>![Screenshot of a Teams poster](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Screenshot of a Teams handout](media/edu-adoption-handouts.png)|
+|[Flyers](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Screenshot of a Teams flyer](media/edu-adoption-flyers.png)   |[Book adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Screenshot of a Teams book advert](media/edu-adoption-book-adverts.png)         |
 
 ### Digital assets
 
@@ -79,5 +79,3 @@ Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!
 |Ready-to-print packets  |        |
 |---------|---------|
 |**Get started with Microsoft Teams for Education - Tips and Tricks**<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Screenshot of Get started with Microsoft Teams for Education packet.](media/package-teams-edu-get-started.png)    |
-
-
