@@ -20,13 +20,9 @@ ROBOTS: NOINDEX, NOFO
 
 # Admin permissions needed to buy Microsoft 365 Business Voice
 
-Hi! You've been sent to this page because you tried to buy a Microsoft 365 Business Voice license but don't have the permissions needed to do so.
+Hi! You've been sent to this page because you tried to buy a [Microsoft 365 Business Voice](../whats-business-voice.md) license but don't have the permissions needed to do so.
 
 First off, if you clicked a link by accident and didn't mean to try and buy Business Voice licenses, you can just close this page. If you **do** want to buy Business Voice licenses (or you're interested in learning more about Business Voice), read on!
-
-## What is Business Voice?
-
-Business Voice turns computers and devices running Microsoft Teams into a complete business calling solution. With it, you can place and receive calls to and from anyone in the world; hold audio conferences with just a few, or dozens, of attendees; and more! To learn more about Business Voice and everything you can do with it, check out [What's Business Voice](../whats-business-voice.md).
 
 ## How can I buy Business Voice?
 
