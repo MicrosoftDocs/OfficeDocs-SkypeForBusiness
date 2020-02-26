@@ -47,7 +47,7 @@ Be sure to check out the [Digital Toolkit Guidance](https://github.com/Microsoft
 
 ## Call to action
 
-- Visit the [Teams for Education page](https://www.microsoft.com/education/products/teams) for trainings, videos, and interactive demos 
+- Visit the [Teams for Education page](https://www.microsoft.com/en-us/education/products/teams/default.aspx) for trainings, videos, and interactive demos
 - Turn on Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
 - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
 - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
