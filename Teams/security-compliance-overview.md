@@ -22,6 +22,9 @@ appliesto:
 
 # Security and compliance in Microsoft Teams
 
+> [!IMPORTANT]
+> As a customer of Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn’t have access to uploaded content. Like OneDrive for Business and SharePoint Online, customer data stays within the tenant. You can check out more about our trust and security related information at the [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams follows the same guidance and principles as the Microsoft Trust Center.
+
 Microsoft Teams is built on the Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in O365, please review our O365 content. [The O365 security roadmap](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) is a good place to start. For more information on planning for compliance in O365, you can start with [the plan for security and compliance](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) article.
 
 This article will provide further information about Teams-specific security and compliance. You should review these Microsoft Mechanics videos about security and compliance:
@@ -48,7 +51,17 @@ How the affected content is managed after detection is up to the settings you've
 
 ### Safe Links
 
-While, at this time, ATP safe links are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know.
+While, at this time, ATP safe links are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know. In the meantime, for information on O365 Safe Links, please review [Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+
+### How Conditional Access policies work for Teams
+
+Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
+
+Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the azure portal, go to: [Azure Active Directory Quickstart](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
+
+Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
+
+Microsoft Teams desktop application supports AppLocker.  For more information about AppLocker prerequisites, please see: Requirements to use [AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
 
 ## Compliance
 
@@ -148,13 +161,14 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |![An icon representing a decision point](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
 |![An icon representing the next steps](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
 
-Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Microsoft 365 admin center. By default, tenant admins have access.
+Before enabling any of these features, make sure you have access to the Security & Compliance Center in the Microsoft 365 admin center. By default, tenant admins have access.
 
-Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
+> [!NOTE]
+> Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
 
 ## Location of data in Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, South Korea, South Africa, Americas, APAC, and EMEA regions.
+Data in Teams resides in the geographic region associated with your Office 365 tenant. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md)
 
 > [!IMPORTANT]
 > Teams currently offers data residency in Australia, Canada, France, India, Japan, United Kingdom, South Korea, and South Africa for new tenants only.
@@ -176,22 +190,6 @@ To see which region houses data for your tenant, go to the [Microsoft 365 admin 
 
 ![Screenshot of Data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-## How Conditional Access policies work for Teams
-
-Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
-
-Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the azure portal, go to: [Azure Active Directory Quickstart](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
-
-Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
-
-Microsoft Teams desktop application supports AppLocker.  For more information about AppLocker prerequisites, please see: Requirements to use [AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
-
-## Privacy
-
-As a customer of Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn’t have access to uploaded content. Like OneDrive for Business and SharePoint Online, customer data stays within the tenant.
-
-Check out more about our trust and security related information at the [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams follows the same guidance and principles as the Microsoft Trust Center.
-
 ## Compliance standards
 
 Teams is Tier D-compliant. This includes the following standards: ISO 27001, ISO 27018, SSAE16 SOC 1 and SOC 2, HIPAA, and EU Model Clauses (EUMC). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
@@ -199,5 +197,3 @@ Teams is Tier D-compliant. This includes the following standards: ISO 27001, ISO
 Services in compliance categories C and D that have industry-leading compliance commitments are enabled by default. Services in categories A and B come with controls to turn on or turn off these services for an entire organization. Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams also supports Cloud Security Alliance compliance.
 
 ## Related topics
-
-[Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)
