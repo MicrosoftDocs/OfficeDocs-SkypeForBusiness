@@ -106,8 +106,8 @@ Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their [r
 
 During litigation, you may need all data associated with a user (custodian) or a Team to be preserved as immutable, so that it can be used as evidence for the case. You can do this by placing either a user (user mailbox) or a Team on legal hold. For a team legal hold, the team's mailbox can be put on the following holds:
 
-- In-Place Hold (a subset of the mailbox or site collection through targeted queries or filtered content is put on hold) or
-- Litigation Hold (the entire mailbox or site collection is placed on hold)
+- In-Place Hold (a subset of the mailbox or site collection through targeted queries or filtered content is put on hold), or
+- Litigation Hold (the entire mailbox or site collection is placed on hold).
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
@@ -143,14 +143,14 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 When it comes to information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
 
-For information on determining the licensing needs to implement features for security and compliance, please review: [Licensing for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+For information on determining the licensing needs to implement features for security and compliance, please review: [Licensing for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 > [!NOTE]
 > Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
 
 ## Location of data in Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md)
+Data in Teams resides in the geographic region associated with your Office 365 tenant. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md).
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
