@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # Security and compliance
+## [Overview](security-compliance-overview.md)
 ## Security
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance
-### [Overview](security-compliance-overview.md)
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
