@@ -141,27 +141,9 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 ## Licensing
 
-When it comes to the information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
+When it comes to information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
 
-| Information Protection Capability | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
-|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archive              |               -                |              -              |            -             |             Yes             |           Yes            |
-|        In-Place eDiscovery        |               -                |              -              |            -             |             Yes             |           Yes            |
-|        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Yes            |
-|            Legal Hold             |               -                |              -              |            -             |             Yes             |           Yes            |
-|     Compliance Content Search     |               -                |             Yes             |           Yes            |             Yes             |           Yes            |
-|      Auditing and Reporting       |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
-|       Conditional Access\*        |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
-
-> [!NOTE]
-> \*Conditional Access requires additional licenses
-
-| |  |  |
-|---------|---------|---------|
-|![An icon representing a decision point](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
-|![An icon representing the next steps](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
-
-Before enabling any of these features, make sure you have access to the Security & Compliance Center in the Microsoft 365 admin center. By default, tenant admins have access.
+For information on determining the licensing needs to implement features for security and compliance, please review: [Licensing for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
 > [!NOTE]
 > Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
@@ -170,23 +152,7 @@ Before enabling any of these features, make sure you have access to the Security
 
 Data in Teams resides in the geographic region associated with your Office 365 tenant. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md)
 
-> [!IMPORTANT]
-> Teams currently offers data residency in Australia, Canada, France, India, Japan, United Kingdom, South Korea, and South Africa for new tenants only.
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, Japan, and South Korea will continue to have their Teams data stored in the APAC region. Existing tenants in Canada will continue to have their data stored in the Americas. Existing tenants in France, United Kingdom, and South Africa will continue to have their data stored in the EMEA region.
-
-More information on South African data residency for Teams can be found in Varun Sagar's blog post, [Microsoft Teams launches South African Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
-
-Further reading about South Korean data residency for Teams comes courtesy of Varun Sagar's blog post, [Microsoft Teams launches South Korean Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171).
-
-To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827).
-
-For more information on Canada data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178).
-
-To learn more about the launch of Australia and Japan data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches Australia and Japan Data Residency](https://go.microsoft.com/fwlink/?linkid=867773).
-
-To learn more about the launch of France data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches France Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
-
-To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
+If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
 ![Screenshot of Data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
