@@ -1,5 +1,5 @@
 ---
-title: Set up the Team Targeting schema
+title: Set up your team targeting hierarchy
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
-description: Learn how to set up the team targeting schema to support a hierarchy of teams.
+description: Learn how to set up a team hierarchy in your organization that you can use to publish content to a large set of teams.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -16,28 +16,28 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up your team targeting schema
+# Set up your team targeting hierarchy
 
-To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and it's applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
+To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
 
 > [!IMPORTANT]
 > You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release of teams targeting, only the Tasks app supports hierarchical teams.
 
-## Plan your schema
+## Plan your hierarchy
 
 Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Nodes at the bottom of the hierarchy (those without children) are teams that can be targeted for tasks while other nodes (parents) are organizational groups with permission to publish tasks downward.
 
-For example, in the following hierarchy, Recall, Communications, and HR, can publish tasks to every bottom node in the hierarchy, whereas North East Zonal Office can only publish tasks to New York Store and Boston Store. This hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. The North East Zonal Office group can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York and Boston stores.
+For example, in the following hierarchy, Recall, Communications, and HR, can publish tasks to every bottom node in the hierarchy, whereas North East Office can only publish tasks to New York Store and Boston Store. This hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. The North East Office group can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York and Boston stores.
 
 ![Team targeting hierarchical example](../media/team-targeting-schema-example.png)
 
-## Create your schema
+## Create your hierarchy
 
-The team targeting schema is based on a comma-separated values (CSV) file. Every row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
+The schema is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
 
 ### Add required columns
 
-The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. You can have up to 10,000 nodes in the schema.
+The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. At launch, we expect to support 10,000 nodes in the schema and plan to work with customers to raise this limit for larger organizations.
 
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
@@ -49,11 +49,11 @@ The CSV file must contain the following three columns, in the following order, s
 
 After you add the three required columns, you can add attribute columns. These attributes can be used to filter nodes so that you can more easily select the ones you want to publish tasks to. When you add an attribute column, keep the following in mind:
 
-- The column name you specify becomes the name of the attribute. This value will be displayed in the Teams apps that use the schema.
+- The column name you specify becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
 - The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Column names must be unique.
 - You can add a maximum of 50 attribute columns.
 
-Each row can contain one value for each attribute, and each value can be up to 100 characters long. The attribute values you specify in each column will be displayed as available filter values for the attribute in Teams apps that use the schema. Each attribute column can have up to 50 unique values.
+Each row can contain one value for each attribute, and each value can be up to 100 characters long. The attribute values you specify in each column will be displayed as available filter values for the attribute in Teams apps that use the hierarchy. Each attribute column can have up to 50 unique values.
 
 ### Add bucket columns
 
@@ -63,7 +63,7 @@ You can map buckets to standard channels of the team. (Mapping to private channe
 
 When you add a bucket column, note the following:
 
-- The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the schema.
+- The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy.
 - The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. **<-IS THIS CORRECT?** For example, #Operations and #Frozen Goods.
 - You can map a bucket to only one channel. This means that each row can contain only one value for each bucket.
 - To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
@@ -89,9 +89,9 @@ Here's an example of a schema CSV file that would be created to support the hier
 | Seattle Store          | West Regional Office            | 487c0d20-4e55-4dc2-8187-a24c826e0fee | Pacific  | Grocery     ||||
 | Los Angeles            | West Regional Office            | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 | Pacific  | Electronics ||||
 
-## Apply your schema
+## Apply your hierarchy
 
-After you've defined your schema CSV file, you're ready to upload it to Teams. To do this, run the following PowerShell command:
+After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following PowerShell command:
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
