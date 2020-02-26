@@ -163,3 +163,6 @@ Teams is Tier D-compliant. This includes the following standards: ISO 27001, ISO
 Services in compliance categories C and D that have industry-leading compliance commitments are enabled by default. Services in categories A and B come with controls to turn on or turn off these services for an entire organization. Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams also supports Cloud Security Alliance compliance.
 
 ## Related topics
+
+[M365 Security](https://docs.microsoft.com/microsoft-365/security/)
+[M365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
