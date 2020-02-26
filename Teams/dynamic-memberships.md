@@ -1,7 +1,7 @@
 ---
 title: Overview of dynamic membership for teams
-author: jambirk
-ms.author: jambirk
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

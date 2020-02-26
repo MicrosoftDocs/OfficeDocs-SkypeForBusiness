@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to create and manage an org-wide team in Teams.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

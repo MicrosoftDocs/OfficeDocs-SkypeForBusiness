@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: "Summary: Read this topic to learn about planning your conferencing topology in Skype for Business Server."
@@ -69,7 +71,7 @@ Web conferencing requires the following:
 - Integration with Office Web Apps Server/Office Online Server, which is necessary in order to share PowerPoint files during a conference.
     
 > [!NOTE]
-> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server. For more detail, refer to the [Office Online Server documentation](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
+> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server. For more detail, refer to the [Office Online Server documentation](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx). 
   
 Skype for Business Server provides the following ways to configure Office Web Apps Server/Office Online Server. Depending on your needs you can:
   

@@ -10,6 +10,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to enable the Teams desktop client application with AppLocker application control policies.
 appliesto: 
   - Microsoft Teams
@@ -35,7 +37,7 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 For the Teams client app (all files, all versions) add the following to the Executable Rules & DLL Rules:
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE

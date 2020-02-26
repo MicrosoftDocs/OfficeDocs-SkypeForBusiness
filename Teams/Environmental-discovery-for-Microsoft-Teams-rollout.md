@@ -8,6 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: How to perform a detailed environmental discovery as you plan your journey from Skype for Business to Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -26,8 +28,7 @@ You perform a detailed discovery of your environment to better understand its
 current state and to reveal any difficulties or — even further — possible blockers
 to the execution of your Teams rollout.
 
-Discovery Questionnaire
-=======================
+## Discovery Questionnaire
 
 The sample questionnaire below walks you through a set of questions to confirm
 that your organization is ready for the successful rollout of Audio Conferencing and Phone System with Calling Plans capabilities in Teams.

@@ -16,9 +16,10 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - ms.teamsadmincenter.callparkpolicies.overview
+ - CSH
 ms.custom: 
-  - Phone System
+ - Phone System
+ - ms.teamsadmincenter.callparkpolicies.overview
 description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
 ---
 

@@ -17,10 +17,11 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
+  - CSH
 ms.custom: 
   - Reporting
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
@@ -350,7 +351,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
 - Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
+- There must be 14 columns for each row (or 15 if you want to add the optional column), each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -476,3 +477,4 @@ When you filter for Teams only in CQD reports (isTeams = 1), you're filtering fo
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 

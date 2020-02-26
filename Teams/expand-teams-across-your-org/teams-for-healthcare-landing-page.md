@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: 
@@ -29,7 +31,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +49,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +67,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
+                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">

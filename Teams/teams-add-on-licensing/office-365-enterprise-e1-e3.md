@@ -13,6 +13,8 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: 
   - Licensing
@@ -22,7 +24,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E1 and E3
 
-If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) or [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) plan, here are the add-on licenses you need to buy to get more Microsoft Teams features.
+If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software) or [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) plan, here are the add-on licenses you need to buy to get more Microsoft Teams features.
 
 |To add this feature|Here's what you need to do|
 |:------------------|:--------------------------|

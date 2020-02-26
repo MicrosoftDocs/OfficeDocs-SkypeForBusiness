@@ -13,6 +13,8 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto: 
   - Microsoft Teams
@@ -40,7 +42,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
+|Chrome version 80 users are unable to sign in to some apps on the Teams platform.<br/>|After users have properly entered their password credentials to an app's sign-in page, a continuous cycle is initiated where the user is not recognized by the app and redirected back to the app's sign-in page. <br/>|Direct users to use the Teams desktop client. |11/15/19<br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" or "Azure DevOps" tab in the desktop app.<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser, IP address restrictions, or Device Compliance) then that website may not render as a tab inside of Teams in the desktop app. <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -67,11 +73,19 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |1/30/20  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|After changing password of the user account there is Error message - Either your password changed or the server needs your sign-in info again. This continues even using new password. <br/> | Teams will address this issue soon in a fix being rolled out. <br/> | Logout and relogin in incorrect credentials. After failure, enter in your correct credentials. <br/> |01/09/20  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings or from the Control Panel, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Security** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | No workaround. <br/> |8/2/17  <br/> |
+|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Note Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. Reference https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |8/2/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -311,7 +325,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
+|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan for a team created from an existing Office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
 
 
 

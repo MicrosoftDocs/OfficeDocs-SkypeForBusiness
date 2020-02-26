@@ -1,17 +1,19 @@
 ---
 title: Quality of Experience Review Guide for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies, gageames
 audience: admin
 description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
@@ -1135,8 +1137,6 @@ The most common cause of HTTP usage is missing exception rules in proxies. By us
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-For more information about using proxies with Skype for Business Online and Teams, see [this article](proxy-servers-for-skype-for-business-online.md).
-
 ## Endpoint investigations
 
 This section is focused on the tasks for reporting on client versions and the use of certified devices. Reports are available to outline usage for client versions, client type, capture devices and drivers (microphone), video capture devices, and Wi-Fi vendor and driver versions.
@@ -1309,3 +1309,4 @@ For more information, see [this article about media quality and network performa
 -   [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+ 

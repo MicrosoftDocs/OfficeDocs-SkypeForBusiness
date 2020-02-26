@@ -10,6 +10,8 @@ ms.reviewer: daro
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+  - CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
   - M365-collaboration
@@ -72,6 +74,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | Base | Login | Available |
 | | Presence | Available |
 | | Unified presence (Skype for Business and Teams unified) | Available |
+| | Linux client | On the Government backlog |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |

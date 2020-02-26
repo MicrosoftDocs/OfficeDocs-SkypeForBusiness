@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 
@@ -30,7 +32,7 @@ A carrier:
 - Manages call quality end to end.
 - Charges separately for PSTN services.
 
-Microsoft does not manage carriers. Microsoft offers a PBX (Microsoft Phone System) and a Teams client, certifies phones, and certifies SBCs that can be used with the Microsoft Phone System. Before choosing a carrier, please ensure that your choice has a certified SBC and can manage voice quality end to end.
+Microsoft does not manage carriers. Microsoft offers a PBX (Microsoft Phone System) and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with the Microsoft Phone System. Before choosing a carrier, please ensure that your choice has a certified SBC and can manage voice quality end to end.
 
 The following are the technical implementation steps to configure the scenario.
 
@@ -208,7 +210,6 @@ However, this has not proved optimal for two reasons:
 
 -  **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
-
 Based on this feedback, Microsoft is bringing in a new logic to provision the trunks for the customer tenants.
 
 Two new entities were introduced:
@@ -239,4 +240,22 @@ We highly encourage migrating to the new solution as soon as possible as we will
  
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
+
+## Considerations for setting up muti-tenant failover 
+
+To set up failover for a multi-tenant environment, you'll need to do the following:
+
+- For each tenant, add the FQDNs for two different SBCs.  For example:
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- In the Online Voice Routing policies of the users, specify both SBCs.  If one SBC fails, the routing policy will route calls to the second SBC.
+
+
+## See also
+
+[Plan Direct Routing](direct-routing-plan.md)
+
+[Configure Direct Routing](direct-routing-configure.md)
 

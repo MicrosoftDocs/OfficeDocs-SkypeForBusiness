@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Get guidance on how to plan to move your StaffHub teams to Shifts in Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -42,7 +44,7 @@ Use the timeline as guidance for planning your move from StaffHub to Teams and c
 |10    |Communicate to StaffHub users about the transition to Shifts in Teams         |[StaffHub to Teams sample email communication to users](staffhub-to-teams-email-template.md)         |
 |11     |Install Teams clients         |[Get clients for Teams](../../get-clients.md) |
 |12    |Assign the FirstLineWorker app setup policy to users (or create and assign a custom app setup policy) to pin the Shifts app to Teams clients  |[Assign the FirstlineWorker app setup policy to users](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|13     |Train users on how to use Shifts and Teams         |[Onboard users to Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Shifts Help documentation](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams Help documentation](https://support.office.com/teams)<br><br>[Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|13     |Train users on how to use Shifts and Teams         |[Onboard users to Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Shifts Help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams Help documentation](https://support.office.com/teams)<br><br>[Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |Review your list of StaffHub teams to make sure that all users on those teams should be moved to Teams. Remove users who shouldn't be on the schedule. |         |
 
 ## Move your organization's StaffHub teams to Teams

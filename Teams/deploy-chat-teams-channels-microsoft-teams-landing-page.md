@@ -12,7 +12,9 @@ description: Step-by-step guidance for rolling out chat, teams, channels, and ap
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
   - Microsoft Teams
@@ -46,7 +48,7 @@ Before you roll out Teams across your organization, take time to confirm that yo
 
 |Ask yourself|Action |
 |------------|-------|
-|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li> [Check your environment's readiness for Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
+|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## Core deployment decisions
@@ -236,7 +238,7 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (government certificate of competency) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|

@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -39,11 +41,8 @@ If you don't want to customize anything immediately, you're done! You can start 
 
 <table>
     <tr>
-        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td>
-
-        
+        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 For more information, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?

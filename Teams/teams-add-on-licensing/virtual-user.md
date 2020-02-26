@@ -1,7 +1,7 @@
 ---
 title: "Phone System–Virtual User licenses "
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -12,6 +12,8 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: 
   - Licensing
@@ -60,7 +62,7 @@ Contoso should consider redesigning the auto attendant and call queue system. If
 If you decide to switch the license on your resource account from a Phone System license to a Phone System–Virtual User license: 
 
 1. Get the new Phone System–Virtual User license. 
-2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Phone System–Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Phone System–Virtual User license and remove the broken resource account. 

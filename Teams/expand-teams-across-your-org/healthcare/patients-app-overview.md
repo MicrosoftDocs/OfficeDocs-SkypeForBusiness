@@ -1,12 +1,14 @@
 ---
 title: "Patients app for Teams admins "
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article 
 ms.service: msteams 
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection: 
   - M365-collaboration
