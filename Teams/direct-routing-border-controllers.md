@@ -65,7 +65,7 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20.7      |     |    |    
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
