@@ -374,7 +374,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 **Example:**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
 
@@ -467,7 +467,7 @@ For more in-depth training and resources, see the [Appendix](#other-resources).
 
 You can access CQD one of three ways:
 
--   Go to <https://cqd.lync.com>.
+-   Go to <https://cqd.teams.microsoft.com>.
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
@@ -538,7 +538,7 @@ To implement a URL filter, in the browser address bar, append the following to t
 
 Example:  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
 
@@ -548,11 +548,11 @@ To filter the reports for Teams or Skype for Business, append the following to t
 
 Example:
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
 
 
 #### Query filters
@@ -586,7 +586,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 **To import the templates (.CQDX) into CQD Online**
 
-1. Go to <https://cqd.lync.com>.
+1. Go to <https://cqd.teams.microsoft.com>.
 
 2. Authenticate by using your Office 365 Administrative credentials.
 
@@ -706,7 +706,7 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1. Go to CQD Online by browsing to <https://cqd.lync.com>.
+1. Go to CQD Online by browsing to <https://cqd.teams.microsoft.com>.
 
 2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
