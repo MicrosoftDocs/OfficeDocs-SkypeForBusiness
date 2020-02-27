@@ -51,7 +51,7 @@ The parameters that determine the thread routing method are:
     - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
-> If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities, more details [here](native-chat-for-external-users.md). If it's not the case, the conversation remains an interop experience with text only messages.
+> If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). If either of the  conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages.
 
 ## Chat and call routing
 
