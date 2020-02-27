@@ -28,7 +28,7 @@ Data in Teams resides in the geographic region associated with your Office 365 t
 
 ## Where your Teams data is stored
 
-To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
+To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Settings** > **Organization profile**. Scroll down to **Data location**. For example, if your data is located in North America you will see:
 
 ![Screenshot of data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
