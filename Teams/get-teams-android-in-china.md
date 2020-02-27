@@ -23,7 +23,6 @@ If you're in China, use the links in this article to get Microsoft Teams for And
 
 |Store  |QR code  |
 |---------|---------|
-| Tencent:  https://aka.ms/TeamsTencent     | ![QR code for Teams on Android from Tencent store](media/get-teams-android-in-china-tencent.png)        |
 | Lenovo: https://aka.ms/TeamsLenovo      | ![QR code for Teams on Android from Lenovo store](media/get-teams-android-in-china-lenovo.png)        |
 | Xiaomi: https://aka.ms/TeamsXiaomi     |![QR code for Teams on Android from Xiaomi store](media/get-teams-android-in-china-xiaomi.png)         |
 |Huawei: https://aka.ms/TeamsHuawei     | ![QR code for Teams on Android from Huawei store](media/get-teams-android-in-china-huawei.png)        |
