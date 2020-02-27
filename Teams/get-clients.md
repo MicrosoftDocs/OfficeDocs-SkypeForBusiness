@@ -3,7 +3,6 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -176,6 +175,8 @@ The web client performs browser version detection upon connecting to [https://te
 ## Mobile clients
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work. 
+
+In China, here's how to [get Teams for Android](get-teams-android-in-china.md). 
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
