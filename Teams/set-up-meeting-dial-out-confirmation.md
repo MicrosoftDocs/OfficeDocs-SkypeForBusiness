@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn how to set up 
+description: Learn how to set up Teams to request a dial-out confirmation to prevent voicemail systems from connecting to meetings when the called person is unable to answer the call. 
 localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
