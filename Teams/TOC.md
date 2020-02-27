@@ -54,11 +54,11 @@
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
+### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Manage your line-of-business apps](manage-your-lob-apps.md)
-### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -263,10 +263,10 @@
 
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
-#### [Connect your SBC to Direct Routing](direct-routing-connect-the-sbc.md)
-#### [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-#### [Configure voice routing](direct-routing-voice-routing.md)
-#### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [Step 1: Connect your SBC](direct-routing-connect-the-sbc.md)
+#### [Step 2: Enable users](direct-routing-enable-users.md)
+#### [Step 3: Configure voice routing](direct-routing-voice-routing.md)
+#### [Step 4: Translate phone numbers](direct-routing-translate-numbers.md)
 #### [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
@@ -638,21 +638,21 @@
 <!-- ============================================================ -->
 
 # Security and compliance
+## [Overview](security-compliance-overview.md)
 ## Security
-### [Identity models and authentication in Teams](identify-models-authentication.md)
+### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance
-### [Overview](security-compliance-overview.md)
-### [Information barriers in Teams](information-barriers-in-teams.md)
-### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
-### [Place a Teams user or team on legal hold](legal-hold.md)
+### [Information barriers](information-barriers-in-teams.md)
+### [Retention policies](retention-policies.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Search the audit log for events in Teams](audit-log-events.md)
-### [Use Content Search in Teams](content-search.md)
-### Retention policies in Teams
-#### [Overview](retention-policies.md)
-#### [Retention policies known issues](retention-policies-known-issues.md)
-### [AppLocker application control policies in Teams](applocker-in-teams.md)
+### eDiscovery
+#### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
+#### [Place a Teams user or team on legal hold](legal-hold.md)
+### Content Search
+#### [Use Content Search](content-search.md)
+#### [Search the audit log for events](audit-log-events.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -695,6 +695,7 @@
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
+### [Get Teams for Android in China](get-teams-android-in-china.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
 ### [Install Teams using MSI](msi-deployment.md)
