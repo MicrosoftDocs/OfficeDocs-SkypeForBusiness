@@ -97,7 +97,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>How to enable Teams for Firstline Worker engagement</h3>
-                        <p><font color="red"><i>Coming soon!</i></font>Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.</p>
+                        <p><font color="red"><i>Coming soon!</i></font> Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.</p>
                     </div>
                 </div>
             </div>
