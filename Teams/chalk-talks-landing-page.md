@@ -29,7 +29,7 @@ ms.collection:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols3">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
+        <a href="https://aka.ms/ChalkTalkCalling"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -48,7 +48,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
+        <a href="https://aka.ms/ChalkTalkApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -67,7 +67,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -86,7 +86,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <a href="https://aka.ms/ChalkTalkFLW"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -105,7 +105,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <a href="https://aka.ms/ChalkTalkWhatsNew"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,7 +124,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
+        <a href="https://aka.ms/SkypeToTeamsPlanning"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
