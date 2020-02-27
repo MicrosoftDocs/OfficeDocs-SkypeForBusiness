@@ -51,7 +51,7 @@ The parameters that determine the thread routing method are:
     - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
-> Currently, all federation involving Teams leverages the Skype for Business federation pipeline as well as Teams – Skype for Business interoperability. We are planning native Teams – Teams federation. The present document will be updated upon release of native federation.
+> If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities, more details [here](native-chat-for-external-users.md). If it's not the case, the conversation remains an interop experience with text only messages.
 
 ## Chat and call routing
 
