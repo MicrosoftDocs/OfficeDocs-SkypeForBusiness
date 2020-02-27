@@ -24,8 +24,10 @@ If you're in China, use the links in this article to get Microsoft Teams for And
 |Store  |QR code  |
 |---------|---------|
 | Tencent:  https://aka.ms/TeamsTencent     | ![QR code for Teams on Android from Tencent store](media/get-teams-android-in-china-tencent.png)        |
-| Lenovo: https://aka.ms/TeamsLenovo      |         |
-| Xiaomi: https://aka.ms/TeamsXiaomi     |         |
-|Huawei: https://aka.ms/TeamsHuawei     |         |
-|Oppo: search for “Teams” in the Oppo store     |         |
-|Baidu: https://aka.ms/teams_baidu_direct_dl     |         |
+| Lenovo: https://aka.ms/TeamsLenovo      | ![QR code for Teams on Android from Lenovo store](media/get-teams-android-in-china-lenovo.png)        |
+| Xiaomi: https://aka.ms/TeamsXiaomi     |![QR code for Teams on Android from Xiaomi store](media/get-teams-android-in-china-xiaomi.png)         |
+|Huawei: https://aka.ms/TeamsHuawei     | ![QR code for Teams on Android from Huawei store](media/get-teams-android-in-china-huawei.png)        |
+|Oppo: search for “Teams” in the Oppo store     | ![QR code for Teams on Android from Oppo store](media/get-teams-android-in-china-oppo.png)        |
+|Baidu: https://aka.ms/teams_baidu_direct_dl     | ![QR code for Teams on Android from Baidu store](media/get-teams-android-in-china-baidu.png)        |
+
+For information about getting other mobile Teams clients, see [Get clients for Teams](get-clients.md#mobile-clients).
