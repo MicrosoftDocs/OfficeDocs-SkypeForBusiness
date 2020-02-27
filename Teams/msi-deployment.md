@@ -51,9 +51,9 @@ Teams can also be included with a deployment of Office 365 ProPlus. For more inf
 
 ### PC installation
 
-The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
+The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
-Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
+Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
 > [!Important]
 > We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service.
@@ -61,7 +61,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 #### Target computer requirements
 
 - .NET framework 4.5 or later
-- Windows 7 or later
+- Windows 8.1 or later
 - Windows Server 2012 R2 or later
 - 3 GB of disk space for each user profile (recommended)
 
@@ -74,7 +74,7 @@ For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams 
 If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
 1. Uninstall Teams App installed for every user profile.
-2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.
+2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.
 3. Redeploy the MSI package to that particular computer.
 
 ## Prevent Teams from starting automatically after installation
