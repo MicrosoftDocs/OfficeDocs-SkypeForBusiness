@@ -20,9 +20,9 @@ appliesto:
 
 Use the best practices in this article to support your users who work remotely or from home.
 
-1.  Make sure [Teams is turned on for everyone](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)
+1.  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
     
-      - Look at [Teams Exploratory](eams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company
+      - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams
     
@@ -38,4 +38,4 @@ Use the best practices in this article to support your users who work remotely o
     
       - Send out information about your org’s work-from-home and health and safety policies
     
-      - Use [Live events](/teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach
+      - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach
