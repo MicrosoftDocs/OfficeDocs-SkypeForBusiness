@@ -99,12 +99,12 @@ The following table shows where you can manage features during the migration.
 |External access settings     |    X    |      |       |
 |User management    |         |         |    X     |    
 |Audio conferencing     |    X     |    X     |         |
-|Calling plans     |         |    X     |         |
-|Phone System    |         |     X    |         |
-|Phone number management     |         |   X      |         |
+|Calling plans     |    X    |    X     |         |
+|Phone System    |    X    |     X    |         |
+|Phone number management     |    X    |   X      |         |
 |Licensing for Cloud voice features     |         |         |    X     |
-|Auto attendants     |         |    X     |         |
-|Call queues     |         |    X     |         |
+|Auto attendants     |    X    |          |         |
+|Call queues     |    X    |          |         |
 
 ## Manage settings after the migration
 
