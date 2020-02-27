@@ -27,7 +27,7 @@ This article describes some of the limits, specifications, and other requirement
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of teams a user or admin can create | Subject to a 250 object limit&sup1;         |
+|Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000|
 |Number of members in a team | 5,000       |
 |Number of owners per team | 100   |
@@ -39,7 +39,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of Private channels per team    |30|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
-&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins and Teams Service Administrators are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; This limit includes archived teams.
 
