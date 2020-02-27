@@ -92,6 +92,25 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>How to enable Teams for Firstline Worker engagement</h3>
+                        <p><font color="red"><i>Coming soon!</i></font>Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
                             <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
                         </div>
                     </div>
