@@ -35,20 +35,23 @@ You can use the Microsoft Teams admin center or PowerShell to configure and conn
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 2. Click **Add**.
-3. Enter an FQDN for the SBC. Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the *.onmicrosoft.com domain name isn't supported. For example, if you have two domain names, contoso.com and contoso.on.microsoft.com, use sbc.contoso.com as the SBC name.
+3. Enter an FQDN for the SBC. Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.on.microsoft.com`, use `sbc.contoso.com` as the SBC name.
 4. Configure the following settings for the SBC, based on your organization's needs.
 
-    - **Enabled**: Turn on or turn off the SBC. For example, you may have to turn off an SBC during maintenance or to change its settings.
-    - **SIP signaling port**: Specify an SIP signaling port between 1 and 65535.
+    ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
+
+    - **Enabled**: Turn on or turn off the SBC for outbound calls. For example, you may have to turn off an SBC during maintenance or to change settings.
+    - **SIP signaling port**: Specify an SIP signaling port between 1 and 65535. This is the listening port that's used to communicate with Direct Routing by using the Transport Layer (TLS) protocol.
     - **Send SIP options**: Set whether the SBC will send SIP options messages. We highly recommend that you turn on this setting. When this setting is off, the SBC is excluded from the Monitoring and Alert system.
     - **Forward call history**: Set whether call history information is forwarded to the SBC. When you turn this on, the Office 365 proxy sends a History-info and Referred-by header.
     - **Forward P-Asserted-identity (PAI) header**: Set whether the PAI header, which provides a way to verify the identify of the caller, is forwarded along with the call.
-    - **Concurrent call capacity**: When you set a value, the alerting system will notify you when the number of concurrent sessions is 90 percent or higher than this value. If you don't set a value, alerts aren't generated. However, the monitoring system will report the number of concurrent sessions every 24 hours.
-    - **Failover response codes**:
-    - **Failover time (seconds):**
-    - **Preferred country or region for media traffic**:
-    - **SBC supports PIDF/LO for emergency calls**:
-    - **Ring phone while trying to find the user**:
+    - **Concurrent call capacity**: When you set a value, the alerting system will notify you when the number of concurrent sessions is 90 percent or higher than tis value. If you don't set a value, alerts aren't generated. However, the monitoring system will report the number of concurrent sessions every 24 hours.
+    - **Failover response codes**: When you specify a failover response code, this forces Direct Routing to try another SBC (if another SBC exists in the voice routing policy of the user) when it receives the specified codes if the SBC can't make a call because of network or other issues. To learn more, see [Failover of specific SIP codes received from the Session Border Controller (SBC)](direct-routing-trunk-failover-on-outbound-call.md#failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc).
+    - **Failover time (seconds)**: When you set this value, outbound calls that aren't answered by the gateway within the time that you set are routed to the next available trunk. If there are no additional trunks, the call is automatically dropped. The default value is 10 seconds. In an organization with slow networks and gateway responses, this could potentially result in calls being dropped unnecessarily.
+    - **Preferred country or region for media traffic**: Set your preferred country or region for media traffic. We recommend that you set this only if the call logs clearly indicate that the default assignment of the datacenter for the media path doesn't use the path closest to the SBC datacenter. <br>By default, Direct Routing assigns a datacenter based on the public IP address of the SBC, and always selects the path closest to the SBC datacenter. However, in some cases, the default path might not be the optimal path. This parameter allows you to manually set the preferred region for media traffic. 
+    - **SBC supports PIDF/LO for emergency calls**: Specify whether the SBC supports Presence Information Data Format Location Object (PIDF/LO) for emergency calls
+    - **Ring phone while trying to find the user**: Set whether an audio signal is played to the caller to indicate that Teams is in the process of establishing the call. This setting only applies to Direct Routing in non-media bypass mode. Sometimes inbound calls from the PSTN to Teams clients can take longer than expected to be established. When this happens, the caller might not hear anything, the Teams client doesn't ring, and the call might be canceled by some telecommunications providers. This setting helps to avoid unexpected silences that can occur in these scenarios.
+5. When you're done, click **Save**.
 
 ## Using PowerShell
 
