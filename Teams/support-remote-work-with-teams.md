@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: dansteve
 localization_priority: Priority
 search.appverid: MET150
-description: Use the tips in this article to help remote workers in your organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
+description: Use this guidance to help remote workers in your organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
 appliesto: 
   - Microsoft Teams
 ---
@@ -26,6 +26,9 @@ Use the best practices in this article to support your users who work remotely o
     
       - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company
 
+2.  Make sure your users know about Teams. Download the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to get presentations, sample emails, posters, and getting-started guides.
+    - 
+
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams
     
       - Read our new articles about working remotely and share them with your users:
@@ -39,6 +42,7 @@ Use the best practices in this article to support your users who work remotely o
      [iOS](https://go.microsoft.com/fwlink/?LinkId=835758)
      
      [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
+
      *Note: If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md)*
 
 4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries
