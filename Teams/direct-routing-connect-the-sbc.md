@@ -35,7 +35,7 @@ You can use the Microsoft Teams admin center or PowerShell to configure and conn
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 2. Click **Add**.
-3. Enter an FQDN for the SBC. Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.on.microsoft.com`, use `sbc.contoso.com` as the SBC name.
+3. Enter an FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.on.microsoft.com`, use `sbc.contoso.com` as the SBC name.
 4. Configure the following settings for the SBC, based on your organization's needs.
 
     ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
@@ -97,6 +97,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > In addition to the domain registered in your tenant, it's important that there is a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
+Here's an example:
+
 ```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
@@ -112,7 +114,7 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-There are additional options that can be set during the connection process. In the previous example, however, only the minimum required parameters are shown. 
+There are additional options that can be set during the connection process. In the previous example, however, only the minimum required parameters are shown.
  
 The following table lists the additional parameters that you can use for ```New-CsOnlinePstnGateway```.
 
@@ -164,11 +166,11 @@ Enabled               : True
 
 #### Validate SIP options
 
-To validate the pairing using outgoing SIP Options, use the SBC management interface and confirm that the SBC receives 200 OK responses to its outgoing OPTIONS messages.
+To validate the pairing using outgoing SIP options, use the SBC management interface and confirm that the SBC receives 200 OK responses to its outgoing OPTIONS messages.
 
 When Direct Routing sees incoming OPTIONS, it will start sending outgoing SIP Options messages to the SBC FQDN configured in the Contact header field in the incoming OPTIONS message. 
 
-To validate the pairing using incoming SIP Options, use the SBC management interface and see that the SBC sends a reply to the OPTIONS messages coming in from Direct Routing and that the response code it sends is 200 OK.
+To validate the pairing using incoming SIP options, use the SBC management interface and see that the SBC sends a reply to the OPTIONS messages coming in from Direct Routing and that the response code it sends is 200 OK.
 
 ## See also
 
