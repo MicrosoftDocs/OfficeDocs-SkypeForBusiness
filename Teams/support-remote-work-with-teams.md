@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: dansteve
 localization_priority: Priority
 search.appverid: MET150
-description: Use the tips in this article to help remote workers in your organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
+description: Use this guidance to help remote workers in your organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
 appliesto: 
   - Microsoft Teams
 ---
