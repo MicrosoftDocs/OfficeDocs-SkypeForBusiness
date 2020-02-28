@@ -18,8 +18,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Search the audit log for events in Microsoft Teams
-==================================================
+# Search the audit log for events in Microsoft Teams
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
@@ -47,20 +47,23 @@ Before you can look at audit data, you have to first turn on auditing in the [Se
 
 ## Retrieve Teams data from the audit log
 
-
-1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search**, select **Audit log search**.
-
-
-
-2. Use **Search** to filter by the activities, dates, and users you want to audit.
-
-3. Export your results to Excel for further analysis.
+1. To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search**, select **Audit log search**.
+1. Use **Search** to filter by the activities, dates, and users you want to audit.
+1. Export your results to Excel for further analysis.
 
 > [!IMPORTANT]
 > Audit data is only visible in the Audit Log if auditing is turned on.
 
+## External user scenario
+
+## Mass delete scenario
+
+As mentioned above, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites.
+
+
+
 ## Video: TechTip: Using Audit Log Search in Teams
 
-Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center. 
+Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center.
 
 > [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]
