@@ -15,10 +15,10 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure Microsoft Phone System Direct Routing."
+description: "Learn how to configure and connect your SBC to Phone System Direct Routing."
 ---
 
-# Connect your Session Border Controller (SBC) to Direct Routing 
+# Connect your Session Border Controller (SBC) to Direct Routing
 
 This article describes how to configure a Session Border Controller (SBC) and connect it to Phone System Direct Routing.  This is step 1 of the following steps to configure Direct Routing:
 
@@ -29,7 +29,7 @@ This article describes how to configure a Session Border Controller (SBC) and co
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-You can use the Microsoft Teams admin center or PowerShell to configure an SBC and connect it to Direct Routing.
+You can use the Microsoft Teams admin center or PowerShell to configure and connect an SBC to Direct Routing.
 
 ## Using the Microsoft Teams admin center
 
@@ -38,12 +38,12 @@ You can use the Microsoft Teams admin center or PowerShell to configure an SBC a
 3. Enter an FQDN for the SBC. Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the *.onmicrosoft.com domain name isn't supported. For example, if you have two domain names, contoso.com and contoso.on.microsoft.com, use sbc.contoso.com as the SBC name.
 4. Configure the following settings for the SBC, based on your organization's needs.
 
-    - **Enabled**:
-    - **SIP signaling port**:
-    - **Send SIP options**:
-    - **Forward call history**:
-    - **Forward P-Asserted-identity (PAI) header**:
-    - **Concurrent call capacity**:
+    - **Enabled**: Turn on or turn off the SBC. For example, you may have to turn off an SBC during maintenance or to change its settings.
+    - **SIP signaling port**: Specify an SIP signaling port between 1 and 65535.
+    - **Send SIP options**: Set whether the SBC will send SIP options messages. We highly recommend that you turn on this setting. When this setting is off, the SBC is excluded from the Monitoring and Alert system.
+    - **Forward call history**: Set whether call history information is forwarded to the SBC. When you turn this on, the Office 365 proxy sends a History-info and Referred-by header.
+    - **Forward P-Asserted-identity (PAI) header**: Set whether the PAI header, which provides a way to verify the identify of the caller, is forwarded along with the call.
+    - **Concurrent call capacity**: When you set a value, the alerting system will notify you when the number of concurrent sessions is 90 percent or higher than this value. If you don't set a value, alerts aren't generated. However, the monitoring system will report the number of concurrent sessions every 24 hours.
     - **Failover response codes**:
     - **Failover time (seconds):**
     - **Preferred country or region for media traffic**:
