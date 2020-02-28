@@ -54,21 +54,21 @@ You can use the Microsoft Teams admin center or PowerShell to configure and conn
 
 To connect your SBC to Direct Routing, you'll need to:
 
-1. Connect to Skype for Business Online by using PowerShell.
-2. Connect the SBC to the tenant.
-3. Validate the connection.
+1. [Connect to Skype for Business Online by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+2. [Connect the SBC to the tenant](#connect-the-sbc-to-the-tenant).
+3. [Verify the SBC connection](#verify-the-sbc-connection).
 
 ### Connect to Skype for Business Online by using PowerShell
 
-You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
  
-After you establish a remote PowerShell session, validate that you can see the commands to manage the SBC. To validate the commands, type or copy and paste the following command in the PowerShell session and press Enter: 
+After you establish a remote PowerShell session, verify that you can see the commands to manage the SBC. To verify the commands, type or copy and paste the following command in the PowerShell session, and then press Enter: 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
-The command returns the four functions shown here that will let you manage the SBC. 
+The command returns the four functions shown here that will let you manage the SBC.
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -81,7 +81,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### Connect the SBC to the tenant 
 
-To connect the SBC to the tenant, in the PowerShell session type the following and press Enter: 
+To connect the SBC to the tenant, in the PowerShell session, type the following, and then press Enter:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
@@ -126,13 +126,14 @@ The following table lists the additional parameters that you can use for ```New-
 |No|MediaRelayRoutingLocationOverride |Allows selecting path for media manually. Direct Routing assigns a datacenter for media path based on the public IP of the SBC. We always select closest to the SBC datacenter. However, in some cases a public IP from, for example, a US range can be assigned to an SBC located in Europe. In this case, we will be using not optimal media path. This parameter allows manually set the preferred region for media traffic. Microsoft only recommends setting this parameter if the call logs clearly indicate that automatic assignment of the datacenter for media path does not assign the closest to the SBC datacenter. |None|Country codes in ISO format||
 |No|Enabled|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC while it's being updated or during maintenance. |False|True<br/>False|Boolean|
  
-### Verify the SBC connection 
+### Verify the SBC connection
 
-To verify the connection: 
-- Check if the SBC is on the list of paired SBCs. 
-- Validate SIP Options. 
+To verify the connection:
+
+- [Check whether the SBC is on the list of paired SBCs](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs).
+- [Validate SIP options](#validate-sip-options).
  
-#### Check if the SBC is on the list of paired SBCs 
+#### Check whether the SBC is on the list of paired SBCs
 
 After you connect the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: 
 
@@ -158,7 +159,7 @@ MaxConcurrentSessions : 100
 Enabled               : True 
 </pre>
 
-#### Validate SIP Options flow 
+#### Validate SIP options
 
 To validate the pairing using outgoing SIP Options, use the SBC management interface and confirm that the SBC receives 200 OK responses to its outgoing OPTIONS messages.
 
