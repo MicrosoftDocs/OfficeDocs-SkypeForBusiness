@@ -92,7 +92,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. We recommend that you set a maximum call limit in the SBC using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
-  > 2. You can only pair the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com<br/>**contoso**.onmicrosoft.com, use sbc.contoso.con for the SBC name. If you try to pair the SBC with a name uch as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
+  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.con for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
   > In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
@@ -140,7 +140,7 @@ To verify the connection:
  
 #### Check whether the SBC is on the list of paired SBCs
 
-After you connect the SBC, use the Use the [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
+After you connect the SBC, use the [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
