@@ -26,8 +26,10 @@ Use the best practices in this article to support your users who work remotely o
     
       - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company
 
+      - Remote employees rely more heavily on meetings and audio conferencing. If you haven't yet rolled out these workloads, check out [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md).
+
 2.  Make sure your users know about Teams. Download the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to get presentations, sample emails, posters, and getting-started guides.
-    - 
+
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams
     
@@ -56,7 +58,7 @@ Use Teams to stay in touch with your employees:
     
 - Send out information about your org’s work-from-home and health and safety policies
     
-- Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach
+- Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
 
 ## Personal considerations
 
