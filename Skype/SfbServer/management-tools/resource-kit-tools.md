@@ -21,7 +21,7 @@ This topic describes the tools in the Skype for Business Server 2015 Resource Ki
 
 ## Installation of the Resource Kit Tools
 
-To install the Skype for Business Server 2015 Resource Kit, download [OCSReskit.msi](https://www.microsoft.com/en-us/download/details.aspx?id=52631) from the Download Center.
+To install the Skype for Business Server 2015 Resource Kit, download [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) from the Download Center.
 
 Run **OCSResKit.msi** to do a simple installation. The .msi installs all the tools in the following path: **%Program Files%\Skype for Business Server 2015\ResKit**. Tools that are self-contained executables are in this folder. Tools that also have supporting files are in their own subfolders.
 
@@ -1108,7 +1108,7 @@ Call Forward No Answer to: voicemail
 This example sets the call forward/no answer destination and the ring delay. Here, the /server switch is not provided; SEFAUtil attempts to autodiscover the Skype for Business Server 2015.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Output**
@@ -1145,7 +1145,7 @@ Forward immediate to: sip:anders@contoso.com
 This example immediately disables call forwarding.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Output**
@@ -1376,7 +1376,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### Disable Group Call Pickup
@@ -1427,11 +1427,11 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 | **Prerequisite**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
-| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
-| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
-| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
-| Internet Information Server Updates  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
-| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | Skype for Business Server 2015 Setup.exe  <br/> | Copy from Skype for Business Server 2015 media  <br/>                   |
 
 ### Parameter

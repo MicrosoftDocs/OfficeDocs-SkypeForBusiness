@@ -46,7 +46,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
+|[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" or "Azure DevOps" tab in the desktop app.<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser, IP address restrictions, or Device Compliance) then that website may not render as a tab inside of Teams in the desktop app. <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -73,7 +73,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (https://ssl.gstatic.com) for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |2/10/20  <br/> |
+|Teams requires access to Google Gstatic <br/> |Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020). <br/> | No workaround. <br/> |1/30/20  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|After changing password of the user account there is Error message - Either your password changed or the server needs your sign-in info again. This continues even using new password. <br/> | Teams will address this issue soon in a fix being rolled out. <br/> | Logout and relogin in incorrect credentials. After failure, enter in your correct credentials. <br/> |01/09/20  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -81,7 +85,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | No workaround. <br/> |8/2/17  <br/> |
+|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Note Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. Reference https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |8/2/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

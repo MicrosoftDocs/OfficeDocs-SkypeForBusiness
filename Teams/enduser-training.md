@@ -132,7 +132,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Quick starts</h3>
-                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Download this quick start guide (PDF) to learn the basics</a></p>
+                         <p><a href="https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Download this quick start guide (PDF) to learn the basics</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Follow the articles in this quick start to get up to speed quickly</a></p>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ Watch this short video introducing you to Teams</h3>
                     <div class="cardText">
                         <h3>Posts & messages</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Create and format a post</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Get attention with @mentions</a></p>
+                         <p><a href="https://support.office.com/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Get attention with @mentions</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Save a post or a message</a></p>
                     </div>
                 </div>

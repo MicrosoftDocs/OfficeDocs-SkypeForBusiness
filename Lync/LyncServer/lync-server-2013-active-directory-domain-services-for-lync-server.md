@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Active Directory Domain Services for Lync Server 2013
 
@@ -66,7 +66,7 @@ For details, see [Active Directory infrastructure requirements for Lync Server 2
 
 
 > [!NOTE]  
-> We recommend that you deploy global settings to the Configuration container instead of the System container. This does not enhance security, but can result in scalability improvements for some Active Directory Domain Services topologies. If you are migrating from Microsoft Office Communications Server 2007 and have used the System container but plan to use the Configuration container, you MUST move the settings in the System container BEFORE you do any upgrade preparations. To migrate your System container settings to the Configuration container, see Office Communications Server 2007 Global Settings Migration Tool at <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
+> We recommend that you deploy global settings to the Configuration container instead of the System container. This does not enhance security, but can result in scalability improvements for some Active Directory Domain Services topologies. If you are migrating from Microsoft Office Communications Server 2007 and have used the System container but plan to use the Configuration container, you MUST move the settings in the System container BEFORE you do any upgrade preparations. To migrate your System container settings to the Configuration container, see Office Communications Server 2007 Global Settings Migration Tool at <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
 
 
 
@@ -214,7 +214,7 @@ Additionally, to enable Microsoft Office Communications Server 2007 R2 and Micro
 </table>
 
 
-To support trusted servers of previous releases, you must run the best practices analyzer tool. For details about running the best practices analyzer, see [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633).
+To support trusted servers of previous releases, you must run the best practices analyzer tool. For details about running the best practices analyzer, see [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633).
 
 </div>
 

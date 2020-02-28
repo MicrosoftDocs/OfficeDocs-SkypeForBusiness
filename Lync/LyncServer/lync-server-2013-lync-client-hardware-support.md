@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Lync client hardware support in Lync Server 2013
 
@@ -82,7 +82,7 @@ This section describes the recommended hardware for Lync 2013 and the Online Mee
 <td><p>Telephony</p></td>
 <td><p>Microphone and speakers, headset with microphone, or equivalent device(s). Recommended devices:</p>
 <ul>
-<li><p>Phones with the “Optimized for Microsoft Lync” logo (see Phones and Devices Qualified for Microsoft Lync at <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> for a list)</p></li>
+<li><p>Phones with the “Optimized for Microsoft Lync” logo (see Phones and Devices Qualified for Microsoft Lync at <a href="https://go.microsoft.com/fwlink/p/?linkid=208938">https://go.microsoft.com/fwlink/p/?LinkID=208938</a> for a list)</p></li>
 <li><p>Phones that run Lync Phone Edition</p></li>
 </ul></td>
 </tr>

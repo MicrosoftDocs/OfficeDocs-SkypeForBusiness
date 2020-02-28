@@ -291,15 +291,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 The following versions of SQL Server are supported:
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (Skype for Business Server 2019 CQD only)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   
@@ -311,7 +306,7 @@ In all cases, "Database Engine Services" and "Analysis Services" must be install
   
 When configuring the SSAS setup, in the Analysis Services Configuration, set "Server Mode" to "Multidimensional and Data Mining Mode". 
   
-For additional help in installing and configuring SQL Server Business Intelligence Features, see [Install Analysis Services in Multidimensional and Data Mining Mode](https://msdn.microsoft.com/en-us/library/ms143708%28v=sql.110%29.aspx).
+For additional help in installing and configuring SQL Server Business Intelligence Features, see [Install Analysis Services in Multidimensional and Data Mining Mode](https://msdn.microsoft.com/library/ms143708%28v=sql.110%29.aspx).
   
 #### Account Requirements
 

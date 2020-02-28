@@ -169,7 +169,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -179,9 +179,9 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Firstline Workers with Teams</h3>
-                        <p>Learn about the firstline worker capabilities in Teams.</p>
-                        <p><i>Audience: End users</i></p>
+                        <h3>Empower your Firstline Workers with Teams</h3>
+                        <p>Learn how Teams enables digital transformation that brings limitless potential to your entire workforce.</p>
+                        <p><i>Audience: Business decision makers, IT decision makers</i></p>
                     </div>
                 </div>
             </div>
