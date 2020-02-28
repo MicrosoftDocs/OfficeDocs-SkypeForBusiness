@@ -26,9 +26,8 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 ---
 # PSTN Service Desk Contact
 
-If you need help with acquiring/getting or transferring/porting telephone numbers to us but need assistance, please let us know how we can help you by sending us an email.
+If you need help with acquiring phone numbers from Microsoft or with porting existing phone numbers to Microsoft, send an email request with the following information:
 
-Please include as many details as you can in your email request, such as:
   - Your Organization ID (Tenant ID) or active domains.
   - What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).
   - How many numbers you require (if this is for number acquisition).
