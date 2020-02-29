@@ -24,7 +24,7 @@ Use the best practices in this article to support your users who work remotely o
 
 1.  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
     
-      - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company
+      - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company.
 
       - Remote employees rely more heavily on meetings and audio conferencing. If you haven't yet rolled out these workloads, check out [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md).
 
@@ -36,7 +36,7 @@ Use the best practices in this article to support your users who work remotely o
 
     - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue: Dialing into Skype for Business/Teams conference IDs](#known-issue-dialing-into-skype-for-businessteams-conference-ids) at the bottom of this article.
 
-2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams
+2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
     
       - Read our new articles about working remotely and share them with your users:
         
@@ -44,15 +44,12 @@ Use the best practices in this article to support your users who work remotely o
 
         [Working remotely with Teams and Office 365](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)
 
-3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app
-     
-     [iOS](https://go.microsoft.com/fwlink/?LinkId=835758)
-     
-     [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
+3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758)   [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
-     *Note: If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md)*
+    > [!NOTE]
+    > If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md)
 
-4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries
+4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
 
 ## Communications
@@ -60,7 +57,7 @@ Use the best practices in this article to support your users who work remotely o
 Use Teams to stay in touch with your employees:
 - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template
     
-- Send out information about your org’s work-from-home and health and safety policies
+- Send out information about your org’s work-from-home and health and safety policies.
     
 - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
 
