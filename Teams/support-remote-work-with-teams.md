@@ -38,8 +38,10 @@ Use the best practices in this article to support your users who work remotely o
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
     
-      - Read our new articles about working remotely and share them with your users:
+      - Read our new content about working remotely and share it with your users:
         
+        Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+
         [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
         [Working remotely with Teams and Office 365](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)
