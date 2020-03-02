@@ -29,9 +29,9 @@ Take a look at this short video to see some examples of how to structure cross-o
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
-## Build your team gradually
+## Add teams gradually
 
-When you first roll out Teams, we recommend starting with a small number of team members to brainstorm as you move forward, and then add new people or groups as you go. The great thing with Teams is that, when you add new people or groups, they can quickly get up to speed on what has already been discussed, as the conversations and files are available to users regardless of when they join. Avoid the temptation to create a bunch of different teams that have the same set of members; instead create channels in a single team.
+When you first roll out Teams, we recommend starting with a small number of teams and team members. Add new people or groups as you go. The great thing with Teams is that, when you add new people or groups, they can quickly get up to speed on what's already been discussed, as the conversations and files are available to users regardless of when they join. Avoid the temptation to create a bunch of different teams that have the same set of members; instead, create channels in a single team.
 
 ## Create channels to focus discussions
 
@@ -56,11 +56,11 @@ By default, the **General channel** is created for you when you create the team.
 
 You can't remove, rename, or unfavorite the General channel. Channels appear in alphabetical order (with the General channel at the top). In teams with many channels, use **Hide** or **Show** to display the channels you use the most.
 
-To learn more, peruse the **Work in channels** tab on the [Tams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) page.
+To learn more, peruse the **Work in channels** tab on the [Teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) page.
 
 ## Create teams for managers and their direct reports
 
-When you roll out Teams, rather than launching with a blank slate" (no teams or channels), we strongly recommend that you set up a base framework of teams and channels. This helps to prevent "team sprawl," where users create numerous teams when they should be creating channels in existing teams. To help you get started with a well-designed teams and channels structure, we've created a PowerShell script that creates a team for each of your 1st and 2nd line people managers, with each manager's direct reports as team members. This is a "point-in-time" script (it doesn't update your teams or channels automatically when people are added or removed from an organization). But it's a valuable tool you can use to impose some order on your Teams structure from the start. This script reads your Azure AD, gets a list of managers and their direct reports. It uses this list to create one team per people manager. 
+When you roll out Teams, rather than launching with a "blank slate" (no teams or channels), we strongly recommend that you set up a base framework of teams and channels. This helps to prevent "team sprawl," where users create numerous teams when they should be creating channels in existing teams. To help you get started with a well-designed teams and channels structure, we've created a PowerShell script that creates a team for each of your 1st and 2nd line people managers, with each manager's direct reports as team members. This is a "point-in-time" script (it doesn't update your teams or channels automatically when people are added or removed from an organization). But it's a valuable tool you can use to impose some order on your Teams structure from the start. This script reads your Azure AD, gets a list of managers and their direct reports. It uses this list to create one team per people manager. 
 
 ### How to use the PowerShell script 
 
