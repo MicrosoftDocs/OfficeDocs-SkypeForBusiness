@@ -82,7 +82,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | InterOp (1:1 Teams-Skype for Business chat) | Available |
 | Teams | Channel message | Available |
 | | Channel files | Available |
-| | OneNote tab | On the Government backlog |
+| | OneNote tab | Available |
 | | Email a channel | Not available |
 | | Add member | Available |
 | | Guest access | Available |
@@ -123,7 +123,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Skype consumer - Teams call support | Available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
-| Store | App Store | On the Government backlog |
+| Store | App Store | Available, see [App permission policies for GCC](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies#app-permission-policies-for-gcc) |
 | Search | Messages | Available |
 | | People | Available |
 | | Files | Available |
