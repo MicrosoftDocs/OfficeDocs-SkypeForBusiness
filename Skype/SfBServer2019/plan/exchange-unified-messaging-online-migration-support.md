@@ -10,10 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
+description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service on February 8, 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
 # Exchange Unified Messaging Online migration support
+
+> [!IMPORTANT]
+> The Unified Messaging service in Exchange Online is out of support as of February 28, 2020, 5PM Pacific Time. All voicemail accounts have been migrated to Cloud Voicemail service by Microsoft. Any remaining auto attendant traffic won't be monitored and might be disrupted at any time.
 
 In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
