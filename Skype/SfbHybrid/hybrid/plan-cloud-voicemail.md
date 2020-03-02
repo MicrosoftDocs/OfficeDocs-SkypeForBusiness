@@ -83,18 +83,13 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 - Exchange Server 2019 no longer provides Exchange UM functionality
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
-Version interoperability and supported topologies for Cloud Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. Cloud Voicemail only works with Skype for Business Server and Exchange Server 2019 or Exchange Online.
+Version interoperability and supported topologies for Cloud Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. You need to use Cloud Voicemail if you want to use Skype for Business 2019 with Exchange Online or Exchange Server 2019.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail |
-| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Cloud Voicemail<sup>1</sup> | Cloud Voicemail <br> Exchange Online UM<sup>2</sup> |
-| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM<sup>2</sup> |
-
-<sup>1</sup> Don't see this option yet? It's currently being rolled out and might not be available in your organization yet. See Step 6, Consider opting in, in [Exchange Unified Messaging Online migration support](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) to opt-in for planned connectivity to Cloud Voicemail.
-
-<sup>2</sup> Until deprecated. See [Exchange Unified Messaging Online migration support](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) for more information. 
+| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail |
+| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail |
 
 Microsoft recommends the following migration paths:
 
