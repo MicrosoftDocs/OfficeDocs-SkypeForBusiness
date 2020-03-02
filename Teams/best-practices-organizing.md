@@ -1,5 +1,5 @@
 ---
-title: Best practices for organizing teams in Microsoft Teams
+title: Best practices for creating and organizing teams in Microsoft Teams
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Best practices for organizing teams in Microsoft Teams
+Best practices for creating and organizing teams in Microsoft Teams
 ======================================================
 
 Teams are collections of people who gather together around a common goal. This group of people may be within a department or across the organization. What brings them together is the outcome they are driving toward. Members of a team may work at a different pace or create assets differently, but in our experience they often collaborate quickly with each other, a process we call "high velocity teamwork."  
