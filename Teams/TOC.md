@@ -4,6 +4,8 @@
 
 # [Architecture & telephony solutions posters](teams-architecture-solutions-posters.md)  
 
+# [Support remote workers (WFH)](support-remote-work-with-teams.md)
+
 # Training 
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [Set up meeting dial-out confirmation for your users](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
