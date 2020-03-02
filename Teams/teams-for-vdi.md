@@ -347,7 +347,8 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
     - Application sharing is not supported.
 - Give control and take control:  
     - Not supported during a screen sharing or application sharing session.
-    - Supported during a PowerPoint sharing session.  
+    - Supported during a PowerPoint sharing session.
+- When screen sharing in a multi-monitor setup, only the main monitor is shared.
 - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
