@@ -95,7 +95,7 @@ After team setup, team owners can [customize their team’s settings](https://su
 
 ### Create Staff teams for staff communication and collaboration
 
-Staff type teams are designed for school administrators and staff to easily share information and work together on school-wide initiatives, including making announcements, settings up meetings, sharing content, and bringing in external apps, like Planner for task tracking. School administrators can add school staff members to the team via the team creation wizard, [adding members after the team is created](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), or by [sharing a join code or link to the team](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f).  [Creating channels](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) is a great way to organize conversation and files by workstream or subject. [The Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4?ui=en-US&rs=en-US&ad=US) is an excellent place to learn about team owner duties and capabilities.
+Staff type teams are designed for school administrators and staff to easily share information and work together on school-wide initiatives, including making announcements, settings up meetings, sharing content, and bringing in external apps, like Planner for task tracking. School administrators can add school staff members to the team via the team creation wizard, [adding members after the team is created](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), or by [sharing a join code or link to the team](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Creating channels](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) is a great way to organize conversation and files by workstream or subject. [The Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4?ui=en-US&rs=en-US&ad=US) is an excellent place to learn about team owner duties and capabilities.
 
 ## Teams meeting scenarios
 
@@ -112,7 +112,24 @@ Some instruction needs larger audiences and additional production capabilities. 
 You can learn more about how Microsoft Teams is used in Education at: [Microsoft Teams for Education](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 
 > [!NOTE]
-> Some key Microsoft Teams features are not specific to education.   Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/en-us/teams).
+> Some key Microsoft Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/en-us/teams).
 
+## Adoption content
 
+Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Microsoft Teams. The [Microsoft Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/en-us/learningPath/18793af1) and [OneNote](https://education.microsoft.com/en-us/learningPath/b6e3b5f2) are used in the classroom.
 
+Additional adoption resources include:
+
+- ["You can in :90" quick tip videos](https://www.youtube.com/playlist?list=PLiluTszfwwMKx-yVe7ekBX6gsLIHf1Z8k)
+- [Microsoft Teams for Education video playlist](https://www.youtube.com/playlist?list=PLiluTszfwwMKicAo6agloFALEB5WvYNYs)
+
+## Support Readiness
+
+IT professionals and support staff can get up to speed with Teams architecture and underlying use of Microsoft 365 capabilities with the Microsoft Teams IT architecture posters and admin technical training.
+
+Additional support resources include:
+
+[Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+[Monitor and manage call quality](monitor-call-quality-qos.md)
+[Verify service health for Teams](service-health.md)
+[Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
