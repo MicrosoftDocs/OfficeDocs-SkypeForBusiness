@@ -67,7 +67,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer.
 3. Click **Preview invite** to see a preview of your meeting invitation.
-4. When you're done, click **Save**. 
+4. When you're done, click **Save**.
 5. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
 ## Set how you want to handle real-time media traffic for Teams meetings
