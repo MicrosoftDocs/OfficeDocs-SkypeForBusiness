@@ -44,13 +44,13 @@ From here, you can view and manage phones and collaboration bars enrolled in Tea
 
 Here's some examples of how you can manage Teams devices in your organization.  
     
-| To do this...             | Do this                                                                                                                                          |
-|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Change device information | Select a device > **Edit**. You can edit details such as device name, user information, asset tag, and add notes.                                |
-| Manage software updates   | Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. |
-| Restart a device          | Select a device > **Restart**.                                                                                                                   |
-| View device history       | Select a device > **History**. You can view the update history for the device.                                                                   |
-| View diagnostics          | Select a device > **Diagnostics**.                                                                                                               |
+|To do this...  |Do this |
+|---------|---------|
+|Change device information   | Select a device > **Edit**. You can edit details such as device name, asset tag, and add notes.     |
+|Manage software updates   |Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install.    |
+|Restart a device   |Select a device > **Restart**.          |
+|View device history  | Select a device > **History**. You can view the update history for the device.     |
+|View diagnostics  | Select a device > **Diagnostics**.        |
 
 ## Use configuration profiles in Teams
 
