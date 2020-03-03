@@ -3,7 +3,6 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -36,7 +35,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), Windows Server (2012 R2+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (in `.deb` and `.rpm` formats.). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
+The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for 32-bit and 64-bit versions of Windows (8.1 or later) and Windows Server (2012 R2 or later), as well as for macOS (10.10 or later) and Linux (in `.deb` and `.rpm` formats). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -176,6 +175,8 @@ The web client performs browser version detection upon connecting to [https://te
 ## Mobile clients
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work. 
+
+In China, here's how to [get Teams for Android](get-teams-android-in-china.md). 
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 

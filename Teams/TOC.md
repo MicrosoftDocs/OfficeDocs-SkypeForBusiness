@@ -4,6 +4,8 @@
 
 # [Architecture & telephony solutions posters](teams-architecture-solutions-posters.md)  
 
+# [Support remote workers (WFH)](support-remote-work-with-teams.md)
+
 # Training 
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [Set up meeting dial-out confirmation for your users](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
@@ -263,10 +266,10 @@
 
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
-#### [Connect your SBC to Direct Routing](direct-routing-connect-the-sbc.md)
-#### [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-#### [Configure voice routing](direct-routing-voice-routing.md)
-#### [Translate phone numbers](direct-routing-translate-numbers.md)
+#### [Step 1: Connect your SBC](direct-routing-connect-the-sbc.md)
+#### [Step 2: Enable users](direct-routing-enable-users.md)
+#### [Step 3: Configure voice routing](direct-routing-voice-routing.md)
+#### [Step 4: Translate phone numbers](direct-routing-translate-numbers.md)
 #### [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
@@ -619,8 +622,10 @@
 ##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [Connect the Patients app to Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [Audit logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Get Started with remote learning](remote-learning-edu.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
@@ -696,6 +701,7 @@
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
+### [Get Teams for Android in China](get-teams-android-in-china.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
 ### [Install Teams using MSI](msi-deployment.md)
@@ -720,6 +726,7 @@
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Manage the Office 365 E1 Trial offer](e1-trial-license.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
