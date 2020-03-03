@@ -24,7 +24,7 @@ Use the best practices in this article to support your users who work remotely o
 
 1.  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
     
-      - Look at [Teams Exploratory](teams-exploratory.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company.
+      - Look at the [Office 365 E1 Trial](e1-trial-license.md) or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company.
 
       - Remote employees rely more heavily on meetings and audio conferencing. If you haven't yet rolled out these workloads, check out [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md).
 
