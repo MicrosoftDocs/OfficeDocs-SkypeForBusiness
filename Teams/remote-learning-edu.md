@@ -112,11 +112,11 @@ Some instruction needs larger audiences and additional production capabilities. 
 You can learn more about how Microsoft Teams is used in Education at: [Microsoft Teams for Education](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 
 > [!NOTE]
-> Some key Microsoft Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/en-us/teams).
+> Some key Microsoft Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/teams).
 
 ## Adoption content
 
-Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Microsoft Teams. The [Microsoft Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/en-us/learningPath/18793af1) and [OneNote](https://education.microsoft.com/en-us/learningPath/b6e3b5f2) are used in the classroom.
+Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Microsoft Teams. The [Microsoft Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
 
 Additional adoption resources include:
 
