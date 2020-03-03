@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Remote learning startup guidance for Microsoft Teams for EDU.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
