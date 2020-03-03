@@ -23,6 +23,8 @@ New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams
 
 To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
 
+Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).
+
 ## How to get an E1 Trial license
 
 Contact your Microsoft account representative. They'll get you a promo code that you can use to sign up for the E1 Trial. 
