@@ -36,8 +36,18 @@ Microsoft Teams leverages Microsoft 365 capabilities to authenticate users and p
 
 ### 1. Allow users to create teams
 
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams that meet their needs. **By default, everyone can create Office 365 groups and Teams**. There are times when this capability may not be appropriate; for example, some customers may want to restrict primary-secondary students from creating Teams. If needed, Office 365 group and Team creation can be restricted to certain security groups within your environment.
 
+Higher education customers benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary educators may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Office 365 group and Team creation can be restricted to all instructors and staff.
 
 ### 2. Configure user experiences using policies
+
+[Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
+
+Higher education staff, educators, and students benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Microsoft Teams, including enabling translate capabilities in the messaging policy and allowing for automatic meeting transcription in the meeting policy.
+
+Primary school students may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the ‘Global (Org-wide default) polices.
+
+Here’s a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
 
