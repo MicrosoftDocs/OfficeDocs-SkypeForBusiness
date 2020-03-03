@@ -23,6 +23,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -54,6 +55,12 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+### 4.3.42.0 (03/02/2020)
+
+Introduced in this update:
+
+- Policy updates for "Windows Updates for Business" 
+- Fix for device events reporting showing error in Azure Monitor
 
 ### 4.3.33.0 (1/10/2020)
 
