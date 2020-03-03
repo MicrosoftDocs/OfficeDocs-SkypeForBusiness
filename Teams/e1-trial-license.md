@@ -1,5 +1,5 @@
 ---
-title: Manage the Office 365 E1 Trial
+title: Manage the free Office 365 E1 Trial
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,7 +19,7 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-New in March 2020, a 6-month Office 365 E1 Trial, including Microsoft Teams, is now available. Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
+New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available. Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
 
 To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
 
