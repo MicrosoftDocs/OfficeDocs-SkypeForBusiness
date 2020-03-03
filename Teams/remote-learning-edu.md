@@ -50,4 +50,34 @@ Primary school students may need restricted capabilities provided to students. P
 
 Here’s a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
+#### Messaging policy
+
+- Change set to 'off'
+- Giphy content rating set to 'strict'
+- Translate messages set to 'on'
+- Send urgent messages using priority notifications set to 'off'
+- Remove users from group chats set to 'off'
+
+#### Meeting policy
+
+- Allow Meet now in channels set to 'off'
+- Allow the Outlook add-in set to 'off'
+- Allow channel meeting scheduling set to 'off'
+- Allow scheduling of private meetings set to 'off'
+- Allow Meet now in private meetings set to 'off'
+
+#### Live events policy
+
+- Allow scheduling set to 'off'
+
+#### Calling policy
+
+- Make private calls set to 'off'
+
+#### Teams policy
+
+- Create private channels set to 'off'
+
+When restricting capabilities, primary school staff and educators should be assigned policies that give access to those core capabilities students do not have. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). Assign these policies to your staff and educators via security group membership.
+
 
