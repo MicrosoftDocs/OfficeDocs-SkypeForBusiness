@@ -7,6 +7,7 @@ manager: serdars
 description: Sign up for free, interactive workshops covering best practices and practical guidance for rolling out some of the most popular Microsoft Teams features.
 localization_priority: Normal
 author: lolajacobsen
+ROBOTS: NOINDEX, NOFOLLOW
 audience: admin
 ms.author: lolaj
 ms.service: msteams
@@ -67,7 +68,6 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -78,15 +78,13 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Build a Teams app in 60 minutes</h3>
-                        <p>Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
+                        <p><font color="red"><i>Coming soon!</i></font> Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
                     </div>
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
-        <a href="https://aka.ms/ChalkTalkFLW"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -102,10 +100,8 @@ ms.collection:
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
-        <a href="https://aka.ms/ChalkTalkWhatsNew"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -121,7 +117,6 @@ ms.collection:
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
         <a href="https://aka.ms/SkypeToTeamsPlanning"target="_blank">
