@@ -175,7 +175,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Switch to Teams from Skype for Business</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">Get started with Teams</a></p>
+                         <p><a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">Online training: Get started with Teams</a></p>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Article: Switch to Teams from Skype for Business</a></p>
                          <p><a href="https://www.youtube.com/watch?v=yCLqmvEp7Pk&list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk&index=7&t=21s">On-demand live training: Switch from Skype for Business to Teams</a></p>
                     </div>
