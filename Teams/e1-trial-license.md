@@ -19,9 +19,9 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-New in March 2020, the Office 365 E1 Trial is a free 6-month E1 license that will help you turn on Microsoft Teams for any users in your organization who don't have it. Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
+New in March 2020, a 6-month Office 365 E1 Trial, including Microsoft Teams, is now available. Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
 
-To learn what's available with the E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
 
 ## How to get an E1 Trial license
 
@@ -34,13 +34,15 @@ Click the promo code in the email your account rep will send you.
 
 ## Who's eligible?
 
-- Anyone who hasn't already activated any other Office 365 E1 trials. 
+This offer is intended for customers managed by a Microsoft account rep. It's for organizations who haven't activated any other Office 365 E1 trials in the past. 
 
-- Anyone who doesn't have an Office 365 license that includes Teams for everyone in their organization. If some people do and some people don't have an Office 365 license that includes Teams, you can use the E1 Trial for the people who don't yet have Teams.
+After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code. In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).
 
 ## Who isn't eligible
 
-Your organization isn't eligible for this offer if you're a GCC, GCC High, DoD, or EDU customer.
+- This offer isn't available for GCC, GCC High, DoD, or EDU customers. We're working on a GCC version of the E1 Trial - it'll be available soon. 
+
+- EDU customers should use the free Office 365 A1 license.
 
 ## Manage the E1 Trial
 
@@ -80,4 +82,6 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
 
 [Manage Teams settings for your organization](enable-features-office-365.md)
+
+[Manage the Teams Exploratory experience](teams-exploratory.md)
 
