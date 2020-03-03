@@ -101,8 +101,18 @@ Staff type teams are designed for school administrators and staff to easily shar
 
 ### Collaborative meetings for virtual classes
 
-Microsoft Teams meetings support up to 250 concurrent attendees, including the ability to have audio, video, content sharing, whiteboards, and shared notes. Meetings can be scheduled within the Microsoft Teams client for meeting within a private space or within a team channel, for open awareness so all team members know about it.  Meetings can be recorded and saved for attendees to review later. These recordings can also be transcribed to easily find content that had been discussed. A laptop or mobile phone webcam, microphone, and speaker can be used for meetings modalities, and you can get premium audio/video quality can be delivered from Microsoft Teams optimized devices.
+[Microsoft Teams meetings](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) support up to 250 concurrent attendees, including the ability to have audio, video, [content sharing](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), whiteboards, and shared notes. Meetings can be scheduled within the Microsoft Teams client for [meeting within a private space or within a team channel](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), so all team members know about it. Meetings can be recorded and saved for attendees to review later. These recordings can also be transcribed to easily find content that had been discussed. A laptop or mobile phone webcam, microphone, and speaker can be used for meetings, and you can get premium audio/video quality from [Microsoft Teams optimized devices](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ### District/University events or updates
 
-Some meetings instruction needs require a larger audiences and additional production capabilities. Often tThese meetings often have defined presenters, producers, and moderated Q&A. Microsoft Teams supports these meetings sessions using Microsoft Teams live events. Live events Events can be used for scenarios , such as district or university-wide updates,  and superintendent/presidential/or chancellor  addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: plan and schedule a live event, produce a live event, attend a live event, and moderating a Q&A.
+Some instruction needs larger audiences and additional production capabilities. These meetings often have defined presenters, producers, and moderated Q&A. Microsoft Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md). Live Events can be used for scenarios, such as district or university-wide updates, leadership addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: [plan and schedule a live event](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produce a live event](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [attend a live event](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac), and [moderating a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
+
+## Recommended Tips & Tricks
+
+You can learn more about how Microsoft Teams is used in Education at: [Microsoft Teams for Education](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+
+> [!NOTE]
+> Some key Microsoft Teams features are not specific to education.   Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/en-us/teams).
+
+
+
