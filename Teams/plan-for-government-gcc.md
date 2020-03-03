@@ -123,7 +123,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Skype consumer - Teams call support | Available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
-| Store | App Store | On the Government backlog |
+| Store | App Store | Available |
 | Search | Messages | Available |
 | | People | Available |
 | | Files | Available |
@@ -135,7 +135,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | | eDiscovery | Available |
 
 > [!Note]
-
 > Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
 
 
