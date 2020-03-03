@@ -179,17 +179,17 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 ### Using PowerShell
 
-1. Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.
+1. Install and connect to the [Microsoft Teams PowerShell module](https://www.poshtestgallery.com/packages/MicrosoftTeams) with your admin account.
 2. Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
 3. Promote a member to an owner.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### Using Graph API
