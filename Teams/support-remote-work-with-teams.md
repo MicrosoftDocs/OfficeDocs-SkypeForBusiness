@@ -53,6 +53,8 @@ Use the best practices in this article to support your users who work remotely o
 
 4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
+7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
+
 
 ## Communications
 
