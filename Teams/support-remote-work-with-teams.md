@@ -51,7 +51,7 @@ Share these assets and videos with your end users to help them get started quick
 
 - Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams
 
-- Download the **[Quick Start Guide](http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams QS.pdf)** to learn the Teams basics
+- Download the **[Quick Start Guide](http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics
 
 - Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams
 
@@ -67,18 +67,6 @@ Share these assets and videos with your end users to help them get started quick
 
 - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams
 
-
-## Personal considerations
-
-Here are some tips for successfully working from home:
-
-- Have a defined physical work space with good lighting and proper ergonomics.
-
-- Set clear boundaries on your work hours and commitments, and use the Teams [presence status](https://support.office.com/article/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e) to indicate when you're away.
-
-- “Commute” to and from your work-from-home office deliberately; don’t turn work-from-home into home-equals-work.
-
-- Get up and take a break periodically. Go for a walk, stretch, make yourself a cup of tea.
 
 ## Additional resources for supporting remote workers
 
@@ -116,7 +104,7 @@ Here are some tips for successfully working from home:
 
 
 
-## Known issue - China: Dialing into Skype for Business or Teams conference IDs
+### Known issue - China: Dialing into Skype for Business or Teams conference IDs
 
 The following is a summary of a Feb 7, 2020 Message center post (MC203397):
 
