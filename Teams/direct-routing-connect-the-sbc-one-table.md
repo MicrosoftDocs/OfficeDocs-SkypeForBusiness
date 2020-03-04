@@ -36,11 +36,10 @@ You can use the Microsoft Teams admin center or PowerShell to configure and conn
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 2. Click **Add**.
 3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.on.microsoft.com`, use `sbc.contoso.com` as the SBC name.
-4. Configure the following settings for the SBC, based on your organization's needs.
+4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
     ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
 
-  For details on each of these settings, see [SBC settings](#sbc-settings).
 5. When you're done, click **Save**.
 
 ## Using PowerShell
@@ -107,7 +106,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> This example shows only the minimum required parameters. There are additional parameters that you can set by using the for the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
+> This example shows only the minimum required parameters. There are additional parameters that you can set  with the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
  
 ### Verify the SBC connection
 
@@ -170,7 +169,7 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Ring phone while trying to find the user**|GenerateRingingWhileLocatingUser<br>**ADDED**|Set whether an audio signal is played to the caller to indicate that Teams is in the process of establishing the call. This setting only applies to Direct Routing in non-media bypass mode. Sometimes inbound calls from the PSTN to Teams clients can take longer than expected to be established. When this happens, the caller might not hear anything, the Teams client doesn't ring, and the call might be canceled by some telecommunications providers. This setting helps to avoid unexpected silences that can occur in these scenarios.|True|True<br/>False|Boolean|
 |No|**Bypass mode**<br>**INCLUDE?**|MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
 
-To  learn more, [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway). 
+To learn more, [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway). 
 
 ## See also
 
