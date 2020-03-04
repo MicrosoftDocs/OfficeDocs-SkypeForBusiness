@@ -599,7 +599,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-   ![Screen shot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+   ![Screenshot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6. Repeat steps 4 and 5 for the second CQD template.
 
@@ -685,13 +685,13 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 - Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12 - VPN using network name_
 
 - Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
   _Figure 13 - VPN using building name_
 
@@ -1125,7 +1125,7 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Sreenshot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
+![Screenshot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
 _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
