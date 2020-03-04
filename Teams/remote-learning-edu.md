@@ -23,9 +23,7 @@ Learning online can be just as personal, engaging and socially connected as lear
 
 Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting teachers create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
 
-Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow teachers to organize interactive lessons and provide effective and timely feedback.
-
-School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow teachers to organize interactive lessons and provide effective and timely feedback. School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
 
 Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to create collaborative class spaces, provide a virtual meeting platform, facilitate learning with assignments and feedback, and lead live calls with students.
 
