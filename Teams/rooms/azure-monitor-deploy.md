@@ -25,7 +25,7 @@ You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.
 
-![Screen shot of sample :::no-loc text="Log Analytics"::: view for :::no-loc text="Microsoft Teams Rooms":::](../media/Deploy-Azure-Monitor-1.png "Sample :::no-loc text="Log Analytics"::: view for :::no-loc text="Microsoft Teams Rooms":::")
+![Screen shot of sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
 
 At a high level, you need to perform the following tasks:
 
