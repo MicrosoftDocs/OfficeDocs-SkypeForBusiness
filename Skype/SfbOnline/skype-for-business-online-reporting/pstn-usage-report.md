@@ -67,7 +67,7 @@ This is what the report looks like.
 
      **Audio Conferencing Call Types**
      *    **conf_in** (an inbound call to the Audio Conferencing bridge). For records of this call type, the user specified in the **User ID** column corresponds to the organizer of the meeting.
-     *    **conf_out** (an outbound call from the Audio Conferencing bridge usually to add a PSTN number to the conference). For records of this call type, the user specified in the **User ID** column corresponds to the organizer of the meeting.
+     *    **conf_out** (an outbound call from the Audio Conferencing bridge, usually to add a PSTN number to the conference). For records of this call type, the user specified in the **User ID** column corresponds to the organizer of the meeting.
 
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (an inbound PSTN call to the UC application such as auto attendant or call queue) 
