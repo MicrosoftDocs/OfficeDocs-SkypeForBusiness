@@ -18,23 +18,73 @@ appliesto:
 
 # Support remote workers using Microsoft Teams
 
-Use the best practices in this article to support your users who work remotely or from home.
+Does your organization want to get started with Microsoft Teams to support your users who work remotely or from home? Use the guidance in this article to get up and running quickly.
 
-## Technical
+## IT admin guidance
 
-1.  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
+-  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
     
-      - Look at the [Teams E1 Trial](e1-trial-license.md), [Teams Exploratory](teams-exploratory.md), or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company.
+- If you don't have Teams licenses for everyone, use one of these offers to make Teams available to everyone:
 
-      - Remote employees rely more heavily on meetings and audio conferencing. If you haven't yet rolled out these workloads, check out [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md).
+      - Look at [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) or the [Teams E1 Trial](e1-trial-license.md). The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
 
-2.  Tell your users about Teams. Download the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to get presentations, sample emails, posters, and getting-started guides.
+      - [Teams Exploratory](teams-exploratory.md) may also be an option. 
+
+- Understand how to get your organization started with [Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams). This tutorial walks you through planning and rolling out meetings in Teams.
+
+For additional things you might need to do, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
 
-5.  Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
-    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
+## End user communications
 
-    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue: Dialing into Skype for Business/Teams conference IDs](#known-issue-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
+Ready to roll out Teams to your users? Get the [Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip), which contains these great email templates:
+
+- Use the **Announcement Email** to tell users that Teams is available for them
+
+- Send **Your First Day in Teams Email** to help users feel productive quickly
+
+- A few days later, send out the **Tips and Tricks Email** to help your users get the most out of Teams
+
+## End user guidance
+Share these assets and videos with your end users to help them get started quickly:
+
+- Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams
+
+- Download the **[Quick Start Guide](http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams QS.pdf)** to learn the Teams basics
+
+- Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams
+
+- Watch the **[Meetings videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams
+
+## Go deeper
+
+- Start your Teams journey with a series of live, **[interactive workshops](teams-in-30-workshops.md)** designed to help get mid-sized organizations (500-5000 employees) up and running with Teams 
+
+- Join one of our **[online classes](instructor-led-training-teams-landing-page.md)** to see Teams in action and get your questions answered  
+
+- Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more
+
+- Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams
+
+
+## Personal considerations
+
+Here are some tips for successfully working from home:
+
+- Have a defined physical work space with good lighting and proper ergonomics.
+
+- Set clear boundaries on your work hours and commitments, and use the Teams [presence status](https://support.office.com/article/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e) to indicate when you're away.
+
+- “Commute” to and from your work-from-home office deliberately; don’t turn work-from-home into home-equals-work.
+
+- Get up and take a break periodically. Go for a walk, stretch, make yourself a cup of tea.
+
+## Additional resources for supporting remote workers
+
+1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
+  - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
+
+  - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue: Dialing into Skype for Business/Teams conference IDs](#known-issue-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
     
@@ -55,27 +105,13 @@ Use the best practices in this article to support your users who work remotely o
 
 7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
 
-
-## Communications
-
-Use Teams to stay in touch with your employees:
-- [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
+8. Use Teams to stay in touch with your employees:
+   - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
-- Send out information about your org’s work-from-home and health and safety policies.
+   - Send out information about your org’s work-from-home and health and safety policies.
     
-- Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
+   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
 
-## Personal considerations
-
-Here are some tips for successfully working from home:
-
-- Have a defined physical work space with good lighting and proper ergonomics.
-
-- Set clear boundaries on your work hours and commitments, and use the Teams [presence status](https://support.office.com/article/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e) to indicate when you're away.
-
-- “Commute” to and from your work-from-home office deliberately; don’t turn work-from-home into home-equals-work.
-
-- Get up and take a break periodically. Go for a walk, stretch, make yourself a cup of tea.
 
 ## Known issue: Dialing into Skype for Business or Teams conference IDs
 
