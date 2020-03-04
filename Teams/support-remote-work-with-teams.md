@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-ms.reviewer: dansteve
+ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
 description: Use this guidance to help remote workers in your organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
