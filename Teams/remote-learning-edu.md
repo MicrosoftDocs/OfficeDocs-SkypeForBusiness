@@ -131,10 +131,8 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
-- [Troubleshoot Team installation and update issues](troubleshoot-installation.md)
-- [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Verify service health for Teams](service-health.md)
-- [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/en-us/microsoftteams/teams-for-vdi)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
