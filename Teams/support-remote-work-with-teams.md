@@ -43,9 +43,10 @@ Ready to roll out Teams to your users? Get the [Customer Success Kit](https://do
 
 - Send **Your First Day in Teams Email** to help users feel productive quickly
 
-- A few days later, send out the **Tips and Tricks Email** to help your users get the most out of Teams
+- A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams
 
 ## End user guidance
+
 Share these assets and videos with your end users to help them get started quickly:
 
 - Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams
@@ -84,7 +85,7 @@ Here are some tips for successfully working from home:
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
   - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
 
-  - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue: Dialing into Skype for Business/Teams conference IDs](#known-issue-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
+  - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
     
@@ -101,10 +102,6 @@ Here are some tips for successfully working from home:
     > [!NOTE]
     > If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md).
 
-4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
-
-7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
-
 8. Use Teams to stay in touch with your employees:
    - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
@@ -112,8 +109,14 @@ Here are some tips for successfully working from home:
     
    - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
 
+4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
-## Known issue: Dialing into Skype for Business or Teams conference IDs
+7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
+
+
+
+
+## Known issue - China: Dialing into Skype for Business or Teams conference IDs
 
 The following is a summary of a Feb 7, 2020 Message center post (MC203397):
 
