@@ -32,7 +32,7 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 - Understand how to get your organization started with [Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams). This tutorial walks you through planning and rolling out meetings in Teams.
 
-For additional things you might need to do, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
+For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
 
 ## End user communications
