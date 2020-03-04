@@ -3,7 +3,6 @@ title: Microsoft Teams resources for Education admins
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.reviewer: 
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -22,19 +21,19 @@ appliesto:
 
 Microsoft Teams is a platform that brings conversations, content, assignments, and apps together in one place. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
 
-Use the best practices in this article to start using Microsoft Teams for your educational needs to enable remote learning capabilities. Microsoft Teams can be used to enable class collaboration engaging students in conversations, providing a virtual meeting platform, and distributing assignments. School administrators and staff can stay up-to-date and collaborate using Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Teams can be used to enable class collaboration engaging students in conversations, providing a virtual meeting platform, and distributing assignments. School administrators and staff can stay up-to-date and collaborate using Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
 
-Microsoft Teams has [clients](get-clients.md) available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS) to make sure all your staff and students can stay connected.
+Teams has [clients](get-clients.md) available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS) to make sure all your staff and students can stay connected.
 
-Learn more about Microsoft Teams usage scenarios at the [Teams for education webinar series](https://aka.ms/TeamsEDUWebinars).
+Learn more about Teams usage scenarios at the [Teams for education webinar series](https://aka.ms/TeamsEDUWebinars).
 
 ## User accounts, licenses, and identity security
 
-Microsoft Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
+Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
 
 [Teams licenses need to be enabled for users](user-access.md) before they can start using Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Office 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
-## Easily set up Microsoft Teams
+## Easily set up Teams
 
 These are the two things you need to do to get up and running with Teams:
 
@@ -48,7 +47,7 @@ Higher education customers benefit when you let everyone, including students, cr
 
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
-**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Microsoft Teams, including [enabling translate capabilities in the messaging policy](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings) and allowing for automatic meeting transcription in the meeting policy.
+**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
 
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the ‘Global (Org-wide default)' polices.
 
@@ -82,7 +81,7 @@ Here’s a set of common non-default policy configurations that would be assigne
 
 - Create private channels set to 'off'
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](assign-policies.md#assign-a-policy-to-a-group).
 
 ## Start using Teams
 
@@ -97,38 +96,38 @@ After team setup, team owners can [customize their team’s settings](https://su
 
 ### Create Staff teams for staff communication and collaboration
 
-[Staff type teams](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) are designed for school administrators and staff to easily share information and work together on school-wide initiatives, including making announcements, settings up meetings, sharing content, and bringing in external apps, like [Planner for task tracking](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2). School administrators can add school staff members to the team via the team creation wizard, [adding members after the team is created](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), or by [sharing a join code or link to the team](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Creating channels](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) is a great way to organize conversation and files by workstream or subject. [The Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4?ui=en-US&rs=en-US&ad=US) is an excellent place to learn about team owner duties and capabilities.
+[Staff type teams](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) are designed for school administrators and staff to easily share information and work together on school-wide initiatives, including making announcements, settings up meetings, sharing content, and bringing in external apps, like [Planner for task tracking](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2). School administrators can add school staff members to the team via the team creation wizard, [adding members after the team is created](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), or by [sharing a join code or link to the team](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Creating channels](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) is a great way to organize conversation and files by workstream or subject. [The Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4) is an excellent place to learn about team owner duties and capabilities.
 
 ## Teams meeting scenarios
 
 ### Collaborative meetings for virtual classes
 
-[Microsoft Teams meetings](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) support up to 250 concurrent attendees, including the ability to have audio, video, [content sharing](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), whiteboards, and shared notes. Meetings can be scheduled within the Microsoft Teams client for [meeting within a private space or within a team channel](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), so all team members know about it. Meetings can be recorded and saved for attendees to review later. These recordings can also be [transcribed to easily find content](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308) that had been discussed. A laptop or mobile phone webcam, microphone, and speaker can be used for meetings, and you can get premium audio/video quality from [Microsoft Teams optimized devices](https://products.office.com/microsoft-teams/across-devices/devices).
+[Microsoft Teams meetings](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) support up to 250 concurrent attendees, including the ability to have audio, video, [content sharing](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), whiteboards, and shared notes. Meetings can be scheduled within the Teams client for [meeting within a private space or within a team channel](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), so all team members know about it. Meetings can be recorded and saved for attendees to review later. These recordings can also be [transcribed to easily find content](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308) that had been discussed. A laptop or mobile phone webcam, microphone, and speaker can be used for meetings, and you can get premium audio/video quality from [Microsoft Teams optimized devices](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ### District/University events or updates
 
-Some instruction needs larger audiences and additional production capabilities. These meetings often have defined presenters, producers, and moderated Q&A. Microsoft Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md). Live Events can be used for scenarios, such as district or university-wide updates, leadership addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: [plan and schedule a live event](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produce a live event](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [attend a live event](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac), and [moderating a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
+Some instruction needs larger audiences and additional production capabilities. These meetings often have defined presenters, producers, and moderated Q&A. Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md). Live Events can be used for scenarios, such as district or university-wide updates, leadership addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: [plan and schedule a live event](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produce a live event](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [attend a live event](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac), and [moderating a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
 
 ## Recommended Tips & Tricks
 
-You can learn more about how Microsoft Teams is used in Education at: [Microsoft Teams for Education](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+You can learn more about how Teams is used in Education at: [Microsoft Teams for Education](https://support.office.com/article/Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 
 > [!NOTE]
-> Some key Microsoft Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Microsoft Teams Help and Learning](https://support.office.com/teams).
+> Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
 
 ## Adoption content
 
-Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Microsoft Teams. The [Microsoft Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
+Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
 
 Additional adoption resources include:
 
 - ["You can in :90" quick tip videos](https://www.youtube.com/playlist?list=PLiluTszfwwMKx-yVe7ekBX6gsLIHf1Z8k)
-- [Microsoft Teams for Education video playlist](https://www.youtube.com/playlist?list=PLiluTszfwwMKicAo6agloFALEB5WvYNYs)
+- [Teams for Education video playlist](https://www.youtube.com/playlist?list=PLiluTszfwwMKicAo6agloFALEB5WvYNYs)
 - [BLOG: See how this school uses Teams for distance learning](https://www.wellingtoncollege.cn/tianjin-international/teaching-and-learning-update/)
 
 ## Support Readiness
 
-IT professionals and support staff can get up to speed with Teams architecture and underlying use of Microsoft 365 capabilities with the Microsoft Teams IT architecture posters and admin technical training.
+IT professionals and support staff can get up to speed with Teams architecture and underlying use of Microsoft 365 capabilities with the [Teams IT architecture posters](teams-architecture-solutions-posters.md) and [admin technical training](itadmin-readiness.md).
 
 Additional support resources include:
 
@@ -137,4 +136,4 @@ Additional support resources include:
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Microsoft Teams help center](https://support.office.com/en-us/teams)
+- [Team help center](https://support.office.com/en-us/teams)
