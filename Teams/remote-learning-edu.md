@@ -19,23 +19,15 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
-What is Teams?
-
-
-Microsoft Teams is the digital hub that brings conversations, content, and apps together in one place, allowing teachers to create vibrant learning environments. With Class Teams, you can create collaborative class spaces, facilitate learning with assignments and feedback, and lead live calls with students. Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Students can use the Microsoft tools they are most familiar with—Word, PowerPoint, OneNote, and Excel—as well as access websites and other frequently used third-party apps. Built-in OneNote Class Notebooks and end-to-end assignment management allows teachers to organize interactive lessons and provide effective and timely feedback.
-
- 
-
-How does Teams enable online or remote teaching and learning?
-
-Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch in a Class Team. Many students who learn online say they feel they more of a voice in the class and they feel more connected to their teachers and peers than they did in the classroom. And just like in a classroom, teachers can use the apps and functions of Teams in the ways that support their pedagogy.
-
-
-
+Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
 
 Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting teachers create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
 
-Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to enable class collaboration engaging students in conversations, providing a virtual meeting platform, and distributing assignments. School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow teachers to organize interactive lessons and provide effective and timely feedback.
+
+School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+
+Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to create collaborative class spaces, provide a virtual meeting platform, facilitate learning with assignments and feedback, and lead live calls with students.
 
 Teams has [clients](get-clients.md) available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS) to make sure all your staff and students can stay connected.
 
