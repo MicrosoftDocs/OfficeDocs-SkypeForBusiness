@@ -152,7 +152,7 @@ To validate the pairing using incoming SIP options, use the SBC management inter
 
 ## SBC settings
 
-The following table lists the options that you can set for the SBC.
+This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet.
 
 |Required?|Microsoft Teams admin center setting|PowerShell parameter|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
