@@ -53,6 +53,25 @@ appliesto:
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Ready your end users</h3>
+                    <p>Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</p><p>Audience: Adoption and change owners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
         <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
@@ -90,25 +109,6 @@ appliesto:
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Ready your end users</h3>
-                    <p>Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</p><p>Audience: Adoption and change owners</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,6 +129,26 @@ appliesto:
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams Chalk Talks</h3>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>Audience: IT admins, Adoption and change owners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     
