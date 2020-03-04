@@ -136,12 +136,12 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg" alt="Lightbulb idea" />
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Teams Chalk Talks</h3>
-                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>Audience: IT admins, Adoption and change owners</p>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>Audience: IT admins, adoption and change owners</p>
                     </div>
                 </div>
             </div>
