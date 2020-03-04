@@ -65,7 +65,7 @@ Share these assets and videos with your end users to help them get started quick
 
 - Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more
 
-- Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams
+- Read **[How to roll out Teams](How-to-roll-out-teams.md)** to learn how to get ready for and manage Teams
 
 
 ## Additional resources for supporting remote workers
