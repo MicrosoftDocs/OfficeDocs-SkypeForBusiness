@@ -68,13 +68,13 @@ Share these assets and videos with your end users to help them get started quick
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
 
 3. Go deeper: Learn more about rolling out Teams.
-   - As a mid-sized organization (500-5000 users), start your Teams journey with live, **[interactive workshops](teams-in-30-workshops.md)**
+   - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md)
 
-   - Join one of our **[online classes](instructor-led-training-teams-landing-page.md)** to see Teams in action and get your questions answered  
+   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered  
 
-   - Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more
+   - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more
 
-   - Read **[How to roll out Teams](How-to-roll-out-teams.md)** to learn how to get ready for and manage Teams
+   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams
 
 
     
