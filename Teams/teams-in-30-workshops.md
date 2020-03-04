@@ -136,7 +136,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg" alt="Lightbulb idea" />
                         </div>
                     </div>
                     <div class="cardText">
