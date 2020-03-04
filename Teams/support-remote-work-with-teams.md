@@ -22,22 +22,22 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 ## IT admin guidance
 
--  Make sure [Teams is turned on for everyone](assign-teams-licenses.md)
+-  Make sure **[Teams is turned on for everyone](assign-teams-licenses.md)**
     
 - If you don't have Teams licenses for everyone, use one of these offers to make Teams available to everyone:
 
-   - Look at [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) or the [Teams E1 Trial](e1-trial-license.md). The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
+   - Look at **[Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** or the **[Teams E1 Trial](e1-trial-license.md)**. The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
 
    - [Teams Exploratory](teams-exploratory.md) may also be an option. 
 
-- Understand how to get your organization started with [Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams). This tutorial walks you through planning and rolling out meetings in Teams.
+- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. This tutorial walks you through planning and rolling out meetings in Teams.
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
 
 ## End user communications
 
-Ready to roll out Teams to your users? Get the [Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip), which contains these great email templates:
+Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, which contains these great email templates:
 
 - Use the **Announcement Email** to tell users that Teams is available for them
 
