@@ -26,9 +26,9 @@ Does your organization want to get started with Microsoft Teams to support your 
     
 - If you don't have Teams licenses for everyone, use one of these offers to make Teams available to everyone:
 
-      - Look at [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) or the [Teams E1 Trial](e1-trial-license.md). The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
+   - Look at [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) or the [Teams E1 Trial](e1-trial-license.md). The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
 
-      - [Teams Exploratory](teams-exploratory.md) may also be an option. 
+   - [Teams Exploratory](teams-exploratory.md) may also be an option. 
 
 - Understand how to get your organization started with [Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams). This tutorial walks you through planning and rolling out meetings in Teams.
 
