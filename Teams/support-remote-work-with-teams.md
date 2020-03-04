@@ -84,7 +84,6 @@ Share these assets and videos with your end users to help them get started quick
 
       - [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [Working remotely with Teams and Office 365](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)
 
 3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
