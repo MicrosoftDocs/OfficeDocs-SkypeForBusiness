@@ -30,7 +30,7 @@ Does your organization want to get started with Microsoft Teams to support your 
 
    - [Teams Exploratory](teams-exploratory.md) may also be an option. 
 
-- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. This tutorial walks you through planning and rolling out meetings in Teams.
+- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
