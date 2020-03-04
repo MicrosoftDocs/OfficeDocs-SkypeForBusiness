@@ -53,8 +53,7 @@ appliesto:
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
