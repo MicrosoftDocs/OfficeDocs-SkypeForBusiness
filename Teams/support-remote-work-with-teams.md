@@ -57,16 +57,6 @@ Share these assets and videos with your end users to help them get started quick
 
 - Watch the **[Meetings videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams
 
-## Go deeper
-
-- Start your Teams journey with a series of live, **[interactive workshops](teams-in-30-workshops.md)** designed to help get mid-sized organizations (500-5000 employees) up and running with Teams 
-
-- Join one of our **[online classes](instructor-led-training-teams-landing-page.md)** to see Teams in action and get your questions answered  
-
-- Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more
-
-- Read **[How to roll out Teams](How-to-roll-out-teams.md)** to learn how to get ready for and manage Teams
-
 
 ## Additional resources for supporting remote workers
 
@@ -76,6 +66,17 @@ Share these assets and videos with your end users to help them get started quick
    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
+
+3. Go deeper: Learn more about rolling out Teams.
+   - As a mid-sized organization (500-5000 users), start your Teams journey with live, **[interactive workshops](teams-in-30-workshops.md)**
+
+   - Join one of our **[online classes](instructor-led-training-teams-landing-page.md)** to see Teams in action and get your questions answered  
+
+   - Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more
+
+   - Read **[How to roll out Teams](How-to-roll-out-teams.md)** to learn how to get ready for and manage Teams
+
+
     
 3. Read our new content about working remotely and share it with your users:
         
