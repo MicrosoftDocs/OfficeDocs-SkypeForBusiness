@@ -20,10 +20,10 @@ appliesto:
 # Get started with Microsoft Teams for remote learning
 
 > [!NOTE]
-> This article is a great resource for ITAdmins to implement Microsoft Teams for EDU. If you are an school leader or a teacher, these resources may help you out:
+> This article is a great resource for getting your school set up for remote learning. If you are an educator or a school leader, these resources may help you out:
 > - A collection of articles written for teachers including how-to guidance for the most important [first steps in teaching in Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-US&ad=US).
 > - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [Transform Learning with Microsoft Teams](https://education.microsoft.com/course/9c9f5c11/overview).
-> - A 1-hour online courses in the Microsoft Educator Center leads teachers through teaching in Class Teams. [Crafting a Collaborative Learning Environment with Class Teams](https://education.microsoft.com/course/b1e15cfc/overview).
+> - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [Crafting a Collaborative Learning Environment with Class Teams](https://education.microsoft.com/course/b1e15cfc/overview).
 
 Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
 
