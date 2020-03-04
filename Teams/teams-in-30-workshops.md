@@ -130,7 +130,7 @@ appliesto:
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
