@@ -141,7 +141,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Teams Chalk Talks</h3>
-                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>Audience: IT admins, adoption and change owners</p>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>Audience: IT admins</p>
                     </div>
                 </div>
             </div>
