@@ -169,8 +169,6 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Ring phone while trying to find the user**|GenerateRingingWhileLocatingUser<br>**ADDED**|Set whether an audio signal is played to the caller to indicate that Teams is in the process of establishing the call. This setting only applies to Direct Routing in non-media bypass mode. Sometimes inbound calls from the PSTN to Teams clients can take longer than expected to be established. When this happens, the caller might not hear anything, the Teams client doesn't ring, and the call might be canceled by some telecommunications providers. This setting helps to avoid unexpected silences that can occur in these scenarios.|True|True<br/>False|Boolean|
 |No|**Bypass mode**<br>**INCLUDE?**|MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
 
-To learn more, [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway). 
-
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
