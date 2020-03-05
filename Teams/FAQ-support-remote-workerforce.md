@@ -33,7 +33,7 @@ Although Microsoft is doing the best possible efforts to avoid problems, an unex
 
 ###  What are the general Microsoft guidelines regarding network optimization for Microsoft 365? Some of my users in China are having a bad experience; what should I do to optimize our network?
 
-Because of unique needs in China, customer may need to take specific action: 
+Because of unique needs in China, customers may need to take specific actions: 
 
 - [Office 365 enterprise performance for China](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
 
