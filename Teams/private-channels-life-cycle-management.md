@@ -182,13 +182,13 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 1. Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
 2. Promote a member to an owner.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### Using Graph API
