@@ -1,5 +1,5 @@
 ---
-title: FAQ: Support your remote workforce
+title: FAQ - Support your remote workforce
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
