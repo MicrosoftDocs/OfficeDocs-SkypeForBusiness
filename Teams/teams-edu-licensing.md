@@ -25,7 +25,7 @@ Microsoft Teams is a digital hub that brings conversations, content, and apps to
 To get started, IT administrators need to use the Microsoft 365 Admin Center to [enable Microsoft Teams for your school](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Once complete, you must assign licenses to user accounts so your faculty, staff, and students can access Office 365 services, such as Microsoft Teams.
 
-You can assign licenses to user accounts either individually or automatically through group membership. To assign Office 365 licenses to individual, or a small set of user accounts via the Microsoft 365 admin center, follow this article. To assign licenses automatically through group membership, see one of our supporting articles:
+You can assign licenses to user accounts either individually or automatically through group membership. This article will walk you through how to assign Office 365 licenses to an individual or a small set of user accounts via the Microsoft 365 admin center. To assign licenses automatically through group membership, see one of our supporting articles:
 
 - [Office 365 Powershell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 - [Group-based Licensing in Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
@@ -43,11 +43,19 @@ You can assign licenses to users on either the **Active users** page, or on the 
 When you use the **Licenses** page to assign licenses, you assign licenses for a specific product to up to 20 users. On the **Licenses** page, you see a list of all the products you have subscriptions for, together with the total number of licenses for each product, how many licenses are assigned, and how many are available.
 
 1. In the admin center, go to the **Billing** > [Licenses](https://go.microsoft.com/fwlink/p/?linkid=842264) page.
-1. Select a product for which you want to assign licenses. Microsoft Teams is part of the free Office 365 A1 for Students SKU.
-1. Select **Assign licenses**.
-1. In the **Assign licenses to users** pane, begin typing a name, which should generate a list of names. Choose the name you're looking for from the results to add it to the list. You can add up to 20 users at a time.
-1. Select **Turn apps and services on or off** to assign or remove access to specific items, such as Microsoft Teams. Ensure **Microsoft Teams** and **Office for the web (Education)** are selected.
-1. When you're finished, select **Assign**, then select **Close**.
+
+   ![Screenshot of billing window and menu options.](media/EDU-Lic-Billing-License.png)
+2. Select a product for which you want to assign licenses. Microsoft Teams is part of the free Office 365 A1 for Students SKU.
+
+   ![Screenshot the Licenses page with products available to assign licenses for.](media/EDU-Lic-Licenses-Products.png)
+3. Select **Assign licenses**.
+
+   ![Screenshot of the Users section of the page and the Assign licenses option with a plus sign in front of it.](media/EDU-Lic-Assign-Licenses.png)
+4. In the **Assign licenses to users** pane, begin typing a name, which should generate a list of names. Choose the name you're looking for from the results to add it to the list. You can add up to 20 users at a time.
+
+   ![Screenshot the Assign licenses to users page, with a partial name typed in, showing the search results for that partial name.](media/EDU-Lic-Assign-Licenses-Users.png)
+5. Select **Turn apps and services on or off** to assign or remove access to specific items, such as Microsoft Teams. Ensure **Microsoft Teams** and **Office for the web (Education)** are selected.
+6. When you're finished, select **Assign**, then select **Close**.
 
 To change the apps and services a user has access to:
 
@@ -58,10 +66,12 @@ To change the apps and services a user has access to:
 ## Assign licenses to an individual or multiple users on the Active users page
 
 1. In the admin center, go to the **Users** > [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822) page.
-1. Select the circles next to the name(s) of the user(s) you want to assign license(s) to.
-1. At the top, select **More options (...)**, then select **Manage product licenses**.
-1. In the **Manage product licenses** pane, select **Add to existing product license assignments** > **Next**.
-1. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** and are selected.
+
+![Screenshot of the Active users menu option in the Microsoft O365 Admin Center.](media/EDU-Lic-Active-Users.png)
+2. Select the circles next to the name(s) of the user(s) you want to assign license(s) to.
+3. At the top, select **More options (...)**, then select **Manage product licenses**.
+4. In the **Manage product licenses** pane, select **Add to existing product license assignments** > **Next**.
+5. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** and are selected.
 
 By default, all services associated with those license(s) are automatically assigned to the user(s). You can limit which services are available to the users. Switch the toggles to the **Off** position for the services that you don't want the users to have.
 6. At the bottom of the pane, select Add > Close.
