@@ -42,7 +42,9 @@ After you've used your E1 Trial promo code, you can't use it again, nor can you 
 
 ## Who isn't eligible
 
-- This offer isn't available for GCC, GCC High, DoD, or EDU customers. We're working on a GCC version of the E1 Trial - it'll be available soon. 
+- This offer isn't available for GCC, GCC High, DoD, or EDU customers. 
+
+- For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md). 
 
 - EDU customers should use the free Office 365 A1 license.
 
