@@ -51,7 +51,7 @@ We recommend that users install and use our rich desktop clients instead of web 
 
 ### Is Teams free to help with the COVID-19 (coronavirus) outbreak? How does this work? I don’t have Microsoft 365.  
 
-Microsoft Teams is available for free through a couple of different programs:
+Teams is available for free through a couple of different programs:
 
 **Individuals**
 - Sign in with your work or school credentials at [https://products.office.com/microsoft-teams](https://products.office.com/microsoft-teams). We'll automatically route you to the version of Teams associated with your organization’s account, even if you don't have a license.
