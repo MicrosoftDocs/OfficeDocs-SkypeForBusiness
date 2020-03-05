@@ -35,23 +35,23 @@ For more, read [Additional resources for supporting remote workers](#additional-
 
 Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, which contains these great email templates:
 
-- Use the **Announcement Email** to tell users that Teams is available for them
+- Use the **Announcement Email** to tell users that Teams is available for them.
 
-- Send **Your First Day in Teams Email** to help users feel productive quickly
+- Send **Your First Day in Teams Email** to help users feel productive quickly.
 
-- A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams
+- A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams.
 
 ## End user guidance
 
 Share these assets and videos with your end users to help them get started quickly:
 
-- Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams
+- Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams.
 
-- Download the **[Quick Start Guide](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics
+- Download the **[Quick Start Guide](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics.
 
-- Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams
+- Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams.
 
-- Watch the **[Meetings videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams
+- Watch the **[Meetings videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams.
 
 
 ## Additional resources for supporting remote workers
@@ -61,6 +61,7 @@ Share these assets and videos with your end users to help them get started quick
 2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
 
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
+
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
 
    - If you're in China, check out [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
@@ -70,13 +71,14 @@ Share these assets and videos with your end users to help them get started quick
 2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
 
 3. Go deeper: Learn more about rolling out Teams.
-   - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md)
 
-   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered  
+   - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md).
 
-   - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more
+   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered.
 
-   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams
+   - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
+
+   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
 
 
     
