@@ -80,7 +80,7 @@ Now, the domain functional level of any domain you deploy Skype for Business Ser
     
 - Windows Server 2003
     
-Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controller available.
+Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controller available at the same site as the Skype for Business Server.
   
 Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
   
