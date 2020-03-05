@@ -231,6 +231,9 @@ To learn more about auto attendants, see [Set up a Cloud auto attendant](https:/
 
 #### Known issues
 
+**Disable Subscriber Access after migration to avoid greeting inconsistency**
+Subscriber access might continue to work for your tenant until the service is completely retired, even after all of your users has been migrated to Cloud Voicemail. To avoid user confusion and inconsistent experience, please disable subscriber access since greetings changed after migration from there will not take affect. To do that, remove the EXUM contact for each subscriber access line using Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact 
+
 **Auto Attendant Call Transfer to PSTN**
 Customers are encouraged to configure a temporarily workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number, or to an RGS instance. 
  
