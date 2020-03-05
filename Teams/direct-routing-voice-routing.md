@@ -103,7 +103,7 @@ The following example shows how to:
 
 #### Step 2: Create three voice routes (Redmond 1, Redmond 2, and Other +1)
 
-The following steps describe how to create a voice route. Use these  steps to create the Redmond 1, Redmond 2, and Other +1 routes using the settings outlined in the earlier table.
+The following steps describe how to create a voice route. Use these steps to create the three voice routes named Redmond 1, Redmond 2, and Other +1 for this example by using the settings outlined in the earlier table.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Direct Routing**, and then select the **Voice routes** tab.
 2. Click **Add**, and then enter a name and description for the voice route.
