@@ -675,7 +675,7 @@
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
-## [FAQ: Support your remote workforce](FAQ-support-remote-workerforce.md)
+## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
 ## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

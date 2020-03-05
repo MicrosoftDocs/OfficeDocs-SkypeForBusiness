@@ -35,7 +35,7 @@ Although Microsoft is doing the best possible efforts to avoid problems, an unex
 
 Because of unique needs in China, customers may need to take specific actions: 
 
-- [Office 365 enterprise performance for China](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
 
 - [General guidelines for any network where Microsoft 365 is being used](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
 
