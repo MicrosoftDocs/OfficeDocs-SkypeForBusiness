@@ -60,8 +60,12 @@ Share these assets and videos with your end users to help them get started quick
 
 ## Additional resources for supporting remote workers
 
+1. Read our [FAQ: Support your remote workforce](FAQ-support-remote-workerforce.md), which we're updating regularly.
+
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
+
+   - If you're in China, check out [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
