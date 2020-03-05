@@ -23,13 +23,13 @@ This article answers the most frequently asked questions about how IT admins can
 Check out [Support your remote workers with Teams](support-remote-work-with-teams.md), which will answer many of your questions and help you get ready to support a remote workforce.
 
 
-### Is Microsoft taking proactive action to be ready for the added workload of users working from home to avoid service disruption? All those 1-1 calls will now use Microsoft infrastructure.
+### Is Microsoft taking proactive action to be ready for the added workload of users working from home to avoid service disruption? All those 1:1 calls will now use Microsoft infrastructure.
 
 Microsoft has been significantly expanding capacity in key regions with the recent announcements regarding the COVID-19 (coronavirus) outbreak. We are monitoring the situation and our services very closely to ensure that our services are available for our customers. One of the benefits of a cloud service is the ability to scale dynamically, including utilization of our significant supply chain, reallocation of resources between services, and redistribution of load. We have seen an increase in the utilization of Microsoft Teams which we have responded to and continue to monitor closely.
 
 ### With the actions that Microsoft is taking, do we anticipate problems?
 
-Although Microsoft is doing the best possible efforts to avoid problems, an unexpected peak in an area due to a spread of the virus may create temporary issues. While we're actively monitoring and adding capacity as needed, you might feel impact until we're able to add capacity in those cases. Also, there are external situations that Microsoft doesn’t have control over. We foresee ISPs and telephony carriers are also taking proactive action, but they may or may not have the capacity to handle more load with more people working from home. We are working across industry with a focus on networking infrastructure.  We are seeing some utilization issues with public ingress/egress to China, but otherwise there are no issues identified.
+Although Microsoft is making the best-possible efforts to avoid problems, an unexpected peak in an area due to a spread of the virus may create temporary issues. While we're actively monitoring and adding capacity as needed, you might feel impact until we're able to add capacity in those areas. Also, there are external situations that Microsoft doesn’t have control over. We foresee ISPs and telephony carriers are also taking proactive action, but they may or may not have the capacity to handle more load with more people working from home. We are working across industry with a focus on networking infrastructure.  We are seeing some utilization issues with public ingress/egress to China, but otherwise there are no issues identified.
 
 ###  What are the general Microsoft guidelines regarding network optimization for Microsoft 365? Some of my users in China are having a bad experience; what should I do to optimize our network?
 
