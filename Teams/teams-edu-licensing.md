@@ -50,3 +50,18 @@ When you use the **Licenses** page to assign licenses, you assign licenses for a
 1. When you're finished, select **Assign**, then select **Close**.
 
 To change the apps and services a user has access to:
+
+1. Select the row that contains the user.
+1. In the right pane, select or deselect the apps and services that you want to give access to or remove access from.
+1. When you're finished, select **Save**, then select **Close**.
+
+## Assign licenses to an individual or multiple users on the Active users page
+
+1. In the admin center, go to the **Users** > [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822) page.
+1. Select the circles next to the name(s) of the user(s) you want to assign license(s) to.
+1. At the top, select **More options (...)**, then select **Manage product licenses**.
+1. In the **Manage product licenses** pane, select **Add to existing product license assignments** > **Next**.
+1. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** and are selected.
+
+By default, all services associated with those license(s) are automatically assigned to the user(s). You can limit which services are available to the users. Switch the toggles to the **Off** position for the services that you don't want the users to have.
+6. At the bottom of the pane, select Add > Close.
