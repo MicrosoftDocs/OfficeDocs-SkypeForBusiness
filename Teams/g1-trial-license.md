@@ -63,7 +63,7 @@ To upgrade G1 Trial users to a paid subscription:
 
 3.  Assign the newly purchased license.
 
-For more information, see [Teams for Government](teams-for-government-landing-page.md).
+For more information, see [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md).
 
 > [!NOTE]
 > If the G1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
