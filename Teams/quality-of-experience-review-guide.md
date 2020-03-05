@@ -374,7 +374,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 **Example:**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
 
@@ -467,17 +467,17 @@ For more in-depth training and resources, see the [Appendix](#other-resources).
 
 You can access CQD one of three ways:
 
--   Go to <https://cqd.lync.com>.
+-   Go to <https://cqd.teams.microsoft.com>.
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
-![Screen shot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
+![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
 _Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Screen shot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
 _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
@@ -486,13 +486,13 @@ _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Screen shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
+![Screenshot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
 
 _Figure 9 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
-![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
+![screenshot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
@@ -509,7 +509,7 @@ Point to bar charts and trend lines in the report to display detailed values. Th
 
 When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
 
-![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
+![Screenshot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
@@ -538,7 +538,7 @@ To implement a URL filter, in the browser address bar, append the following to t
 
 Example:  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
 
@@ -548,11 +548,11 @@ To filter the reports for Teams or Skype for Business, append the following to t
 
 Example:
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
 
 
 #### Query filters
@@ -586,7 +586,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 **To import the templates (.CQDX) into CQD Online**
 
-1. Go to <https://cqd.lync.com>.
+1. Go to <https://cqd.teams.microsoft.com>.
 
 2. Authenticate by using your Office 365 Administrative credentials.
 
@@ -599,7 +599,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-   ![Screen shot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+   ![Screenshot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6. Repeat steps 4 and 5 for the second CQD template.
 
@@ -685,13 +685,13 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 - Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12 - VPN using network name_
 
 - Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
   _Figure 13 - VPN using building name_
 
@@ -706,17 +706,17 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1. Go to CQD Online by browsing to <https://cqd.lync.com>.
+1. Go to CQD Online by browsing to <https://cqd.teams.microsoft.com>.
 
 2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
    _Figure 14 - Tenant Data Upload menu_
 
 3. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
    _Figure 15 - Building data upload banner_
 
@@ -773,7 +773,7 @@ Browse to the **Detailed Reports** page in CQD Online and navigate to the **Miss
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-![Screen shot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
+![Screenshot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
 
 _Figure 17 - Missing Building Report_
 
@@ -1125,7 +1125,7 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Sreen shot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
+![Screenshot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
 _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
