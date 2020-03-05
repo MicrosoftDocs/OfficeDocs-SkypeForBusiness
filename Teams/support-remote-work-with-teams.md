@@ -51,7 +51,7 @@ Share these assets and videos with your end users to help them get started quick
 
 - Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams
 
-- Download the **[Quick Start Guide](http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics
+- Download the **[Quick Start Guide](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics
 
 - Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams
 
