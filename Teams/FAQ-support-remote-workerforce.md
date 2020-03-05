@@ -101,6 +101,6 @@ IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-t
 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
-Please read our blog at <insert link> that details the recommendations we are giving our own users.
+Please read our blog that details the recommendations we are giving our own users.
 
 
