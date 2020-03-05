@@ -67,7 +67,7 @@ Teams is available for free through a couple of different programs:
 - If you work in Education and want to set up teachers, students, and administrators on Teams, use Office 365 A1, the free version of Office 365 available to educational institutions. Sign up at [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
 
-### I have Microsoft 365 already, but I don’t use Teams. Are you providing trial licenses?    
+### I have Microsoft 365 already, but I don’t use Teams. Are you providing trial licenses?
 
 If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-set-up.md) for all your users. Once it's turned on, your users can run Teams, either by installing  [desktop](get-clients.md#desktop-client) and [mobile](get-clients.md#mobile-clients) clients, or [from the browser](get-clients.md#mobile-clients) at [https://teams.microsoft.com](https://teams.microsoft.com). 
 
@@ -75,19 +75,19 @@ If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-
 
 Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#).
 
-If aren't eligible for FastTrack or want to get started on your own, start with [How to roll out Teams](How-to-roll-out-teams.md) and our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as little as 30 days.
+If you aren't eligible for FastTrack or want to get started on your own, read [How to roll out Teams](How-to-roll-out-teams.md) and check out our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as few as 30 days.
 
-For EDU tenants, Microsoft offers [School Data Sync](https://docs.microsoft.com/schooldatasync/), which helps you to sync information from a school's Student Information System (SIS). For help deploying Microsoft 365, read [Microsoft 365 Education deployment overview](https://docs.microsoft.com/microsoft-365/education/deploy/). Don't miss our new article, [Get started with Teams for remote learning](remote-learning-edu.md).
+For Education (EDU) tenants, Microsoft offers [School Data Sync](https://docs.microsoft.com/schooldatasync/), which helps you to sync information from a school's Student Information System (SIS). For help deploying Microsoft 365, read [Microsoft 365 Education deployment overview](https://docs.microsoft.com/microsoft-365/education/deploy/). Don't miss our new article, [Get started with Teams for remote learning](remote-learning-edu.md).
 
-### How are we are going to get help to have Teams working for my company so my users can work from home during this crisis? 
+### Where do I find help getting Teams running for my company so my users can work from home during this crisis? 
 
 Read [Support remote workers using Teams](support-remote-work-with-teams.md). It covers most of the common tasks and questions on getting started with Teams for remote workers.
 
-### Can I use Calling Plans with the Office 365 Trial that Microsoft is offering? Can I assign a telephone number to my users? How much am I going to pay?
+### Can I use Calling Plans with the Office 365 E1 Trial that Microsoft is offering? Can I assign a telephone number to my users? How much am I going to pay?
 
-Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
+Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee, you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
 
-### Can I set up an Auto Attendant with the Teams Trial Microsoft is offering so I can have an emergency line internally at my company to deal with COVID-19 (coronavirus)? 
+### Can I set up an Auto Attendant with the new Teams E1 Trial so I can have an emergency line internally at my company to deal with COVID-19 (coronavirus)? 
 
 To set up a [Cloud Auto Attendant](what-are-phone-system-auto-attendants.md) in Teams, you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md) in addition to Teams. We recommend working with your Microsoft partner or sales representative to obtain and deploy this. 
 
