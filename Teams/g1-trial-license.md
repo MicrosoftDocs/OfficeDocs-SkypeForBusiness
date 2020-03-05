@@ -29,7 +29,7 @@ Don't miss all of our guidance for [supporting remote workers with Teams](suppo
 
 Contact your Microsoft account representative. They'll get you a promo code that you can use to sign up for the G1 Trial.
 
-## How to sign up for G1
+## How to sign up for the G1 Trial
 
 Follow the instructions in the email your account rep will send you.
 
@@ -39,7 +39,7 @@ This offer is intended for US government customers who will operate in the GCC c
 
 After you've used your G1 Trial promo code, you can't use it again, nor can you activate another G1 Trial code.
 
-## Who isn't eligible**
+## Who isn't eligible
 
   - This is not available for commercial, GCC High, DoD, or EDU customers.
 
@@ -63,7 +63,7 @@ To upgrade G1 Trial users to a paid subscription:
 
 3.  Assign the newly purchased license.
 
-For more information, see [Teams for Government]teams-for-government-landing-page.md).
+For more information, see [Teams for Government](teams-for-government-landing-page.md).
 
 > [!NOTE]
 > If the G1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
