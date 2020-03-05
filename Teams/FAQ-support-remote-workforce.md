@@ -22,6 +22,8 @@ This article answers the most frequently asked questions about how IT admins can
 
 Check out [Support your remote workers with Teams](support-remote-work-with-teams.md), which will answer many of your questions and help you get ready to support a remote workforce.
 
+And don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+
 
 ### Is Microsoft taking proactive action to be ready for the added workload of users working from home to avoid service disruption? All those 1:1 calls will now use Microsoft infrastructure.
 
