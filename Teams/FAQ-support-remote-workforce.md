@@ -98,9 +98,9 @@ End users: [Collaborate with Office 365](https://support.office.com/article/coll
 IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-teams.md).
 
 
-
+<!-- ============================================================ 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
 Please read our blog that details the recommendations we are giving our own users.
-
+-->
 
