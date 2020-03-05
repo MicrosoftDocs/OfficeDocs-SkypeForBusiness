@@ -67,11 +67,18 @@ To change the apps and services a user has access to:
 
 1. In the admin center, go to the **Users** > [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822) page.
 
-![Screenshot of the Active users menu option in the Microsoft O365 Admin Center.](media/EDU-Lic-Active-Users.png)
+   ![Screenshot of the Active users menu option in the Microsoft O365 Admin Center.](media/EDU-Lic-Active-Users.png)
 2. Select the circles next to the name(s) of the user(s) you want to assign license(s) to.
+
+   ![Screenshot of the Active users page and a list of the active users on that page, with some users selected because a circle next to their names is filled).](media/EDU-Lic-Active-Users-List.png)
 3. At the top, select **More options (...)**, then select **Manage product licenses**.
+
+   ![Screenshot of the Manage product licenses tab and a user underneat, listing as unlicensed.](media/EDU-Lic-Manage-Product-Licenses.png)
 4. In the **Manage product licenses** pane, select **Add to existing product license assignments** > **Next**.
+
+   ![Screenshot of the Manage product licenses window, with the Add to existing product license assignments radio button selected.](media/EDU-Lic-Add-Existing-Product.png)
 5. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** and are selected.
 
-By default, all services associated with those license(s) are automatically assigned to the user(s). You can limit which services are available to the users. Switch the toggles to the **Off** position for the services that you don't want the users to have.
+   ![Screenshot Microsoft Teams and Office for the web, Education, selected on the Add to existing products tab.](media/EDU-Lic-Add-Existing-Products.png)
+   By default, all services associated with those license(s) are automatically assigned to the user(s). You can limit which services are available to the users. Switch the toggles to the **Off** position for the services that you don't want the users to have.
 6. At the bottom of the pane, select Add > Close.
