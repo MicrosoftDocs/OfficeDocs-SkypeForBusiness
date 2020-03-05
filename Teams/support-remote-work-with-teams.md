@@ -22,14 +22,10 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 ## IT admin guidance
 
--  Make sure **[Teams is turned on for everyone](assign-teams-licenses.md)**
+- Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 Trial](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
+
+-  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
     
-- If you don't have Teams licenses for everyone, use one of these offers to make Teams available to everyone:
-
-   - Look at **[Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** or the **[Teams E1 Trial](e1-trial-license.md)**. The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.
-
-   - [Teams Exploratory](teams-exploratory.md) may also be an option. 
-
 - Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
@@ -60,8 +56,14 @@ Share these assets and videos with your end users to help them get started quick
 
 ## Additional resources for supporting remote workers
 
+1. Read our [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+
+2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
+
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
+
+   - If you're in China, check out [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
@@ -84,6 +86,8 @@ Share these assets and videos with your end users to help them get started quick
 
       - [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
+      - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
+
 
 3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
@@ -91,6 +95,7 @@ Share these assets and videos with your end users to help them get started quick
     > If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md).
 
 8. Use Teams to stay in touch with your employees:
+
    - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
    - Send out information about your org’s work-from-home and health and safety policies.
