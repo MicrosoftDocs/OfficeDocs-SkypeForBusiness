@@ -77,7 +77,7 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Build a Teams app in 60 minutes</h3>
+                        <h3>Deploy a Teams app in 60 minutes</h3>
                         <p><font color="red"><i>Coming soon!</i></font> Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
                     </div>
                 </div>

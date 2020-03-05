@@ -19,9 +19,20 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
-Microsoft Teams is a platform that brings conversations, content, assignments, and apps together in one place. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
+> [!NOTE]
+> This article is a great resource for getting your school set up for remote learning. If you are an educator or a school leader, these resources may help:
+>
+> - A collection of articles written for teachers including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+> - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 
-Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Teams can be used to enable class collaboration engaging students in conversations, providing a virtual meeting platform, and distributing assignments. School administrators and staff can stay up-to-date and collaborate using Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
+
+Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting teachers create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
+
+Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow teachers to organize interactive lessons and provide effective and timely feedback. School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+
+Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to create collaborative class spaces, provide a virtual meeting platform, facilitate learning with assignments and feedback, and lead live calls with students.
 
 Teams has [clients](get-clients.md) available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS) to make sure all your staff and students can stay connected.
 
@@ -32,6 +43,8 @@ Learn more about Teams usage scenarios at the [Teams for education webinar serie
 Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
 
 [Teams licenses need to be enabled for users](user-access.md) before they can start using Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Office 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+
+Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire school started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
 ## Easily set up Teams
 
@@ -49,9 +62,9 @@ Higher education customers benefit when you let everyone, including students, cr
 
 **Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
 
-**Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the ‘Global (Org-wide default)' polices.
+**Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
-Here’s a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
+Here's a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
 #### Messaging policy
 
@@ -89,10 +102,10 @@ Here’s a set of common non-default policy configurations that would be assigne
 
 Microsoft Teams for Education offers [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classrooms with specific features, including: Assignments, a OneNote classroom notebook, a [class materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) for securing read-only content for students, and the ability to mute disruptive students. There are a couple of ways in which class teams can be deployed:
 
-1. [School Data Sync](https://sds.microsoft.com/) (SDS) can be **setup by IT**, allowing class teams to be created for all classes based on information in the school information system. This process will provision teams for each section and keep your instructor and student rosters in sync. [Educators will have the ability to prepare their team](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) before admitting students. Alternatively, if an educator doesn’t use the team, students won’t be admitted into the team because the educator never clicks ‘activate’. SDS supports over 80 different School Information Systems (SIS systems) for data import, and the [SDS support team](https://aka.ms/SDSSupport) is ready to assist you in planning and configuration.
+1. [School Data Sync](https://sds.microsoft.com/) (SDS) can be **setup by IT**, allowing class teams to be created for all classes based on information in the school information system. This process will provision teams for each section and keep your instructor and student rosters in sync. [Educators will have the ability to prepare their team](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) before admitting students. Alternatively, if an educator doesn't use the team, students won't be admitted into the team because the educator never clicks 'activate'. SDS supports over 80 different School Information Systems (SIS systems) for data import, and the [SDS support team](https://aka.ms/SDSSupport) is ready to assist you in planning and configuration.
 1. **Educators set up** their own class type team and invite students. Educators can do this via [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it's best to have educators add their students to the team to ensure the students get access, and are notified that they've been added to a team.
 
-After team setup, team owners can [customize their team’s settings](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) including adding a [team picture](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [create channels](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45?ui=en-US&rs=en-US&ad=US) for class subjects or group collaboration areas, [add an app](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) like Quizlet/Flipgrid/Kahoot to surface existing educational content, and [mention their team for their first post](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) to notify everyone and start the conversation.
+After team setup, team owners can [customize their team's settings](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) including adding a [team picture](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [create channels](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45) for class subjects or group collaboration areas, [add an app](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) like Quizlet/Flipgrid/Kahoot to surface existing educational content, and [mention their team for their first post](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) to notify everyone and start the conversation.
 
 ### Create Staff teams for staff communication and collaboration
 
@@ -131,11 +144,9 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
-- [Troubleshoot Team installation and update issues](troubleshoot-installation.md)
+- [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Verify service health for Teams](service-health.md)
-- [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Team help center](https://support.office.com/en-us/teams)
+- [Team help center](https://support.office.com/teams)
