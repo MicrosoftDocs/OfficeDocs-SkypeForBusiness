@@ -26,6 +26,8 @@ appliesto:
 > - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 
+Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
+
 Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
 
 Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting teachers create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
