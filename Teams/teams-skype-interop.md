@@ -39,10 +39,6 @@ A Skype user may choose not to appear in search results. In this case, they won'
 
 Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user and have to first accept the message before they can reply to it.
 
-Here's an example of the notification that Teams users get:
-
-PLACEHOLDER FOR IMAGE
-
 - If the Teams user selects **Accept**, the conversation is accepted, and both users can chat and call each other.
 - If the Teams user selects **Block**, the conversation is blocked, and subsequent messages and calls from that Skype user are blocked.
 - If the Teams user selects **View messages**, the message is displayed in Teams, which helps the user decide whether to accept or block the conversation.
