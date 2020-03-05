@@ -30,7 +30,7 @@ Tags in Microsoft Teams let users communicate with a subset of people on a team.
 
 ## How tags work
 
-A tag can be added to a person on a specific team. After a tag is added, it can be used in @mentions in any standard channel of the team or used to start a chat with the tag members. Here's some examples of how tags can be used in Teams:
+A tag can be added to a person on a specific team. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag. Here's some examples of how tags can be used in Teams:
 
 - A store manager wants to post an announcement to a channel and notify all cashiers.
 - A group product manager wants to message all product managers in a channel.
