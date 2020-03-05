@@ -34,7 +34,7 @@ It's important to know that assigning a voice routing policy to a user doesn't e
 
 ### Using the Microsoft Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.<br>
     ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png) 
 2. Enter a name and description for the policy.
 3. Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add. If you need to create a new PSTN usage record, click **Add**.
@@ -88,4 +88,4 @@ See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/mod
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Configure voice routing for Direct Routing](direct-routing-voice-routing.md)
-- [[Enable Location-Based Routing for Direct Routing]](location-based-routing-enable.md)
+- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
