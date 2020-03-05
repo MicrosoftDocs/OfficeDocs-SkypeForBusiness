@@ -93,7 +93,6 @@ Share these assets and videos with your end users to help them get started quick
     > If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md).
 
 8. Use Teams to stay in touch with your employees:
-   - New March 5, 2020: Check out our [Crisis Communications PowerApp](https://powerapps.microsoft.com/blog/crisis-communication-a-power-platform-template/).
 
    - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
