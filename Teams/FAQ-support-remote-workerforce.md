@@ -41,9 +41,9 @@ Because of unique needs in China, customers may need to take specific actions:
 
 - [Prepare your organization’s network for Teams](prepare-network.md)
 
-### My users are reporting bad calls, or their calls are not connecting. What should I do to get help? Is Microsoft making sure that there are support resources to make sure I will get the help I need in this crisis? 
+### My users are reporting bad calls, or their calls are not connecting. What should I do to get help? 
 
-Before you [contact Support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), make sure you've followed all of our [networking recommendations](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). To help you troubleshoot call quality, use [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). We also recommend checking the [Service health dashboard](https://docs.microsoft.com/office365/enterprise/view-service-health) in the Microsoft 365 admin center for any current advisories or issues with Microsoft services.
+We're here to help. Before you [contact Support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), make sure you've followed all of our [networking recommendations](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). To help you troubleshoot call quality, use [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). We also recommend checking the [Service health dashboard](https://docs.microsoft.com/office365/enterprise/view-service-health) in the Microsoft 365 admin center for any current advisories or issues with Microsoft services.
 
 ### What other actions can I take to have a better experience? 
 
