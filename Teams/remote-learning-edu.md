@@ -21,9 +21,10 @@ appliesto:
 
 > [!NOTE]
 > This article is a great resource for getting your school set up for remote learning. If you are an educator or a school leader, these resources may help:
-> - A collection of articles written for teachers including how-to guidance for the most important [first steps in teaching in Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [Transform Learning with Microsoft Teams](https://education.microsoft.com/course/9c9f5c11/overview).
-> - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [Crafting a Collaborative Learning Environment with Class Teams](https://education.microsoft.com/course/b1e15cfc/overview).
+>
+> - A collection of articles written for teachers including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+> - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 
 Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
 
@@ -104,7 +105,7 @@ Microsoft Teams for Education offers [specific team types](https://support.offic
 1. [School Data Sync](https://sds.microsoft.com/) (SDS) can be **setup by IT**, allowing class teams to be created for all classes based on information in the school information system. This process will provision teams for each section and keep your instructor and student rosters in sync. [Educators will have the ability to prepare their team](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) before admitting students. Alternatively, if an educator doesn't use the team, students won't be admitted into the team because the educator never clicks 'activate'. SDS supports over 80 different School Information Systems (SIS systems) for data import, and the [SDS support team](https://aka.ms/SDSSupport) is ready to assist you in planning and configuration.
 1. **Educators set up** their own class type team and invite students. Educators can do this via [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it's best to have educators add their students to the team to ensure the students get access, and are notified that they've been added to a team.
 
-After team setup, team owners can [customize their team's settings](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) including adding a [team picture](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [create channels](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45?ui=en-US&rs=en-US&ad=US) for class subjects or group collaboration areas, [add an app](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) like Quizlet/Flipgrid/Kahoot to surface existing educational content, and [mention their team for their first post](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) to notify everyone and start the conversation.
+After team setup, team owners can [customize their team's settings](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) including adding a [team picture](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [create channels](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45) for class subjects or group collaboration areas, [add an app](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) like Quizlet/Flipgrid/Kahoot to surface existing educational content, and [mention their team for their first post](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) to notify everyone and start the conversation.
 
 ### Create Staff teams for staff communication and collaboration
 
@@ -143,8 +144,9 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
-- [Troubleshoot Team installation and update issues](troubleshoot-installation.md)
+- [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Team help center](https://support.office.com/en-us/teams)
+- [Team help center](https://support.office.com/teams)
