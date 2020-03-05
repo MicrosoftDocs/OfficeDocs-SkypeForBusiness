@@ -30,7 +30,7 @@ You can assign licenses to user accounts either individually or automatically th
 - [Office 365 Powershell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 - [Group-based Licensing in Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
-You can assign licenses to users on either the **Active users** page, or on the **Licenses** page. Which method you use depends on whether you want to assign product licenses to specific users, or assign users licenses to specific products.
+You can assign licenses to users on either the **Licenses** page, or on the **Active Users** page. Which method you use depends on whether you want to assign product licenses to specific users, or assign users licenses to specific products.
 
 > [!NOTE]
 > If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.
@@ -40,7 +40,7 @@ You can assign licenses to users on either the **Active users** page, or on the 
 > [!NOTE]
 > You must be a Global admin, Billing admin, License admin, or User management admin. For more information, see [About Office 365 admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
-When you use the **Licenses** page to assign licenses, you assign licenses for a specific product to up to 20 users. On the **Licenses** page, you see a list of all the products you have subscriptions for, together with the total number of licenses for each product, how many licenses are assigned, and how many are available.
+When you use the **Licenses** page to assign licenses, you assign licenses for a specific product for up to 20 users. On the **Licenses** page, you see a list of all the products you have subscriptions for, together with the total number of licenses for each product, how many licenses are assigned, and how many are available.
 
 1. In the admin center, go to the **Billing** > [Licenses](https://go.microsoft.com/fwlink/p/?linkid=842264) page.
 
@@ -60,7 +60,7 @@ When you use the **Licenses** page to assign licenses, you assign licenses for a
 To change the apps and services a user has access to:
 
 1. Select the row that contains the user.
-1. In the right pane, select or deselect the apps and services that you want to give access to or remove access from.
+1. In the right pane, select or deselect the apps and services that you want to give access to, or remove access from.
 1. When you're finished, select **Save**, then select **Close**.
 
 ## Assign licenses to an individual or multiple users on the Active users page
@@ -77,7 +77,7 @@ To change the apps and services a user has access to:
 4. In the **Manage product licenses** pane, select **Add to existing product license assignments** > **Next**.
 
    ![Screenshot of the Manage product licenses window, with the Add to existing product license assignments radio button selected.](media/EDU-Lic-Add-Existing-Product.png)
-5. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** and are selected.
+5. In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have. Ensure **Microsoft Teams** and **Office for the web (Education)** are selected.
 
    ![Screenshot Microsoft Teams and Office for the web, Education, selected on the Add to existing products tab.](media/EDU-Lic-Add-Existing-Products.png)
    By default, all services associated with those license(s) are automatically assigned to the user(s). You can limit which services are available to the users. Switch the toggles to the **Off** position for the services that you don't want the users to have.
