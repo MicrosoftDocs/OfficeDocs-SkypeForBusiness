@@ -76,9 +76,9 @@ If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-
 
 ### How do I get help to get started with Teams and make sure the deployment is successful?
 
-Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#).
+Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). FastTrack setup guidance for Microsoft 365 is available to all Office 365 tenant administrators. To access this guidance, sign into [https://aka.ms/setupguidance](https://aka.ms/setupguidance) with your admin credentials.
 
-If you aren't eligible for FastTrack or want to get started on your own, read [How to roll out Teams](How-to-roll-out-teams.md) and check out our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as few as 30 days.
+If you want to get started on your own, read [How to roll out Teams](How-to-roll-out-teams.md) and check out our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as few as 30 days.
 
 For Education (EDU) tenants, Microsoft offers [School Data Sync](https://docs.microsoft.com/schooldatasync/), which helps you to sync information from a school's Student Information System (SIS). For help deploying Microsoft 365, read [Microsoft 365 Education deployment overview](https://docs.microsoft.com/microsoft-365/education/deploy/). Don't miss our new article, [Get started with Teams for remote learning](remote-learning-edu.md).
 
