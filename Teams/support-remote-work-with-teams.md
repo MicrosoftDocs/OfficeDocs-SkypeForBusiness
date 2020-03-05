@@ -26,8 +26,6 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
     
-- [Teams Exploratory](teams-exploratory.md) may also be an option. 
-
 - Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
@@ -59,6 +57,8 @@ Share these assets and videos with your end users to help them get started quick
 ## Additional resources for supporting remote workers
 
 1. Read our [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+
+2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
 
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
