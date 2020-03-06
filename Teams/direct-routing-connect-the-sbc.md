@@ -41,7 +41,7 @@ You can use the Microsoft Teams admin center or PowerShell to configure and conn
     ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
 
     - **Enabled**: Turn on or turn off the SBC for outbound calls. For example, you may have to temporarily turn off the SBC while it's being updated or during maintenance.
-    - **SIP signaling port**: Specify an SIP signaling port between 1 and 65535. This is the listening port that's used to communicate with Direct Routing by using the Transport Layer (TLS) protocol.
+    - **SIP signaling port** (Required): Specify an SIP signaling port between 1 and 65535. This is the listening port that's used to communicate with Direct Routing by using the Transport Layer (TLS) protocol.
     - **Send SIP options**: Set whether the SBC will send SIP options messages. We highly recommend that you turn on this setting. When this setting is off, the SBC is excluded from the Monitoring and Alert system.
     - **Forward call history**: Set whether call history information is forwarded to the SBC. When you turn this on, the Office 365 proxy sends a History-info and Referred-by header.
     - **Forward P-Asserted-identity (PAI) header**: Set whether the PAI header, which provides a way to verify the identify of the caller, is forwarded along with the call.
