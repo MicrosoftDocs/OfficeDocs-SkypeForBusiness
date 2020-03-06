@@ -33,7 +33,7 @@ For more, read [Additional resources for supporting remote workers](#additional-
 
 ## End user communications
 
-Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, which contains these great email templates:
+Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)**, which contains these great email templates:
 
 - Use the **Announcement Email** to tell users that Teams is available for them.
 
