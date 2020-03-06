@@ -27,6 +27,26 @@ For CQD reports in Teams, if you’d rather use Power BI to query and report you
 Before you can use these PBIX files, you’ll need to install the Power BI Connector for Microsoft Advanced CQD (MicrosoftCallQuality.pqx), included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Read the *Power BI Connector for Microsoft Teams CQD.docx* file (also included in the download) to learn how to install this PQX file.
 
 
+|  |  |
+|---------|---------|
+|CQD Helpdesk Report.pbix     |Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that’s experiencing network problems).         |
+|CQD Location Enhanced Report.pbix     | Re-imagining CQD SPD location reports. Includes 9 reports, providing Call Quality, Building WiFi, Reliability, and Rate My Call (RMC) information with additional drill-thrus by Building or by User.        |
+|CQD Mobile Device Report.pbix     | Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call. View mobile network, WiFi network, and mobile operating system reports (Android, iOS).        |
+|CQD PSTN Direct Routing Report.pbix     |Provides insights specific for PSTN calls that go through Direct Routing. To learn more, read [Using the CQD PSTN Direct Routing Report](CQD-PSTN-report.md).         |
+|CQD Summary Report.pbix     |Better visualizations, improved presentation, increased information density, and rolling dates. These reports make it easier to identifier outliers. Drill into call quality by location with an easy-to-use interactive map. 9 new reports:</p><ol type="1">
+<li><p>Quality Overall</p></li>
+<li><p>Reliability Overall</p></li>
+<li><p>RMC (Rate My Call) Overall</p></li>
+<li><p>Conference Quality</p></li>
+<li><p>P2P Quality</p></li>
+<li><p>Conference Reliability</p></li>
+<li><p>P2P Reliability</p></li>
+<li><p>Conference RMC</p></li>
+<li><p>P2P RMC</p></li>
+</ol>         |
+|CQD Teams Utilization Report.pbix     | Shows how users in your organization are using Teams and how much. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md).        |
+|CQD User Feedback (Rate My Call) Report.pbix     | Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.        |
+
 
 ## Related topics
 
