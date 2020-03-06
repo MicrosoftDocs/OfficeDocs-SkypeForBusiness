@@ -21,7 +21,9 @@ ms.collection:
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams Chalk Talks</h1>
-           Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users.<br><br><i>Click any workshop title below to see available dates and times, and sign up today!</i>
+           Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users.<br><br>
+           **Prerequisite**: Take [Teams in 30](teams-in-30-workshops.md) training first. Chalk Talks build on what you'll learn at Teams in 30.<br><br>
+           <i>Click any workshop title below to see available dates and times, and sign up today!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 

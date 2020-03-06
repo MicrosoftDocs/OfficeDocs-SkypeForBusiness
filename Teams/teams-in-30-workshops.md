@@ -44,7 +44,7 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams in 30</h3>
+                        <h3>Get started with Teams in 30 (Start here!)</h3>
                         <P>Start your Teams in 30 journey on the right foot. Understand the program, who should participate, and what resources you can use to ensure your success.</P>
                         <p>*Audience: Business sponsors, IT admins, adoption and change owners*</p>
                     </div>
@@ -141,7 +141,9 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Teams Chalk Talks</h3>
-                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p><p>*Audience: IT admins*</p>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p>
+                    <p>**Prerequisite**: Teams in 30 training. Chalk Talks build on what you'll learn in the Teams in 30 sessions.</p>
+                    <p>*Audience: IT admins*</p>
                     </div>
                 </div>
             </div>
