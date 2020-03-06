@@ -101,9 +101,8 @@ End users: [Collaborate with Office 365](https://support.office.com/article/coll
 IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-teams.md).
 
 
-<!-- ============================================================ 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
