@@ -41,7 +41,7 @@ In your initial teams, we suggest pinning the following items for easy reference
 |----------------- | ---------- |
 | **Microsoft Teams Deployment** ||
 | General | Web tab: [Teams documentation](https://aka.ms/SuccessWithTeams) |
-| Awareness and adoption | [Teams Adoption Hub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| Awareness and adoption | [Teams Adoption Hub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | Business engagement | Wiki – Engagement guidance<br/>Form – Request for Teams consultation<br/>List – Engagement requests |
 |Early adopters | Pinned feedback community <br/> OneNote for FAQ and common themes |
 | Feedback and reporting | Pinned Office 365 usage report (for Office 365 admins only) |
