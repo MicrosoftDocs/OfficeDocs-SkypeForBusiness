@@ -672,6 +672,7 @@
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
