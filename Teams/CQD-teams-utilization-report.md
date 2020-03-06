@@ -20,6 +20,7 @@ description: "Use the Teams Utilization Power BI report to track Microsoft Teams
 # Use CQD Power BI report to view Microsoft Teams utilization
 
 
+
 ## Related topics
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
