@@ -73,7 +73,7 @@ The last chart for the Audio minutes page shows audio minute usage on a global m
 
 ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report11.png)
 
-## Drill- through capabilities
+## Drill-through capabilities
 
 As previously noted, users can drill into the daily and regional usage reports.
 
