@@ -34,13 +34,13 @@ To configure the use of analog devices with Direct Routing, you must connect the
 
 This example walks you through the following steps:
 
-1. Connect the SBC to Direct Routing
-2. Create the PSTN Usage
-3. Create a voice route and associate it with the PSTN Usage
-4. Assign the voice route to the PSTN Usage
-5. Enable the online user
-6. Assign the voice route policy to the user
-7. Create a voice route for an analog device
+1. Connect the SBC to Direct Routing.
+2. Create the PSTN Usage.
+3. Create a voice route and associate it with the PSTN Usage.
+4. Assign the voice route to the PSTN Usage.
+5. Enable the online user.
+6. Assign the voice route policy to the user.
+7. Create a voice route for an analog device.
 
 For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide:
 - [AudioCodes configuration documentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
