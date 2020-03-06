@@ -42,7 +42,7 @@ To realize maximum benefit and business outcomes with Teams, users must actually
 
 - Enlisting peer champions to help evangelize and encourage fellow users.
 - Checking the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
-- Leveraging the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to enhance awareness and share best practices.
+- Leveraging the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) to enhance awareness and share best practices.
 - Implementing a formal [adoption and change management strategy](http://www.successwithteams.com/) to help sustain adoption growth.
 
 ## Prepare for new functionality
