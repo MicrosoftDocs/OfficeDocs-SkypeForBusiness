@@ -37,6 +37,7 @@ Currently, Advanced CQD and CQD are both available for use. Advanced CQD is avai
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
+Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
 
 ## Latest changes and updates
