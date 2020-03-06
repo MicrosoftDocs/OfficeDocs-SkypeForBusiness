@@ -142,7 +142,7 @@ appliesto:
                     <div class="cardText">
                     <h3>Teams Chalk Talks</h3>
                     <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</p>
-                    <p><strong>Prerequisite</strong>: Teams in 30 training. Chalk Talks build on what you'll learn in the Teams in 30 sessions on this page.</p>
+                    <p><strong>Prerequisite</strong>: Teams in 30 workshops. Chalk Talks build on what you'll learn in the workshops you find on this page.</p>
                     <p><i>Audience: IT admins</i></p>
                     </div>
                 </div>
