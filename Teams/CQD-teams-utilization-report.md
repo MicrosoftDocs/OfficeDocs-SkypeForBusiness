@@ -85,14 +85,11 @@ The Daily Usage report allows an administrator to identify peak consumption peri
 
 This data can be used to identify regions having problems during peak consumption times.
 
-1.  On the Call Count Summary page, drill-through on a specific date
-    
-    1.  Look at the hourly trend that day to find the peak utilization.
-
-![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report13.png)
+1.  On the Call Count Summary page, drill-through on a specific date. Look at the hourly trend that day to find the peak utilization.
+  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report13.png)
 
 2.  Click on the column for that day to display metrics for that hour.
-![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report14.png)
+  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report14.png)
     
     1.  The table below the chart will display the metrics for that hour. This can be sorted by any column header; however, we would be interested in finding problematic areas.  
         ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report15.png)
@@ -104,16 +101,13 @@ This data can be used to identify regions having problems during peak consumptio
 The Regional Audio Details drill down specifically shows the audio minute usage for the selected region. Users with access to CQD can see usage trends for both P2P and conference audio within the selected region.
 
 1.  On the Call Count Summary page, drill-through to as specific region through the table.
-
-![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report16.png)
+  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report16.png)
 
 2.  Select the row with the region additional information is needed for.
-
-![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report17.png)
+  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report17.png)
 
 3.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
-
-![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report18.png)
+  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report18.png)
 
 The regional audio trend can be used to show how users are impacted by external influences in the world. Specifically, right now, we would expect to see the external usage for the EMEA and APAC regions to increase with people being asked to work remotely.
 
