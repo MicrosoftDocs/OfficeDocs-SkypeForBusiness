@@ -44,6 +44,7 @@ This example walks you through the following steps:
 
 For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide:
 - [AudioCodes configuration documentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Ribbon configuration documentation](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## Step 1.  Connect the SBC to Direct Routing
 
