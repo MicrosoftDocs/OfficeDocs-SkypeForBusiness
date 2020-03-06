@@ -43,13 +43,14 @@ The main page (Call Count Summary) immediately provides the number of audio, vid
 1. The middle graph functions as the 90-day graph does, however it provides a daily usage view for the past 30 days and allows a user to right click and drill down into details for a specific day.
   ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report4.png)
 
-Moving to the bottom left section of the page, we have a table providing total values for each media type over the last past year. The table also has an available drill down should a user want to see a regional data breakdown.
-  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report5.png)
+On the bottom left section of the page, you'll find a table providing total values for each media type over the past year. 
+    ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report5.png)
   
-  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report6.png)
+The table also has an available drill down where you can see a regional data breakdown.
+    ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report6.png)
 
 To the right of the table, a bar chart shows clients with the most use (calls/streams) for the past 30 days.
-  ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report7.png)
+   ![Screenshot: Call County Summary Report](media/CQD-teams-utilization-report7.png)
 
 
 The last set of charts for this page show each media type individually, with a breakdown showing conference and P2P usage. The charts below show that there is a significantly higher number of conference usage as compared to P2P.
