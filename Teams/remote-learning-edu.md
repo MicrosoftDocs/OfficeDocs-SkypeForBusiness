@@ -132,7 +132,7 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 ## Adoption content
 
-Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
+Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
 
 Additional adoption resources include:
 
