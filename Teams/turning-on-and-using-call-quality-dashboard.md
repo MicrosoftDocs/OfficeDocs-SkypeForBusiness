@@ -33,6 +33,12 @@ Call Quality Dashboard (CQD) provides insight into the quality of calls made usi
 
 Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
 
+## Use Power BI to analyze CQD data
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
+
+
 ## Latest changes and updates
 
 
