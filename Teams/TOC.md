@@ -71,6 +71,7 @@
 ### External access (federation)
 #### [Manage external access](manage-external-access.md)
 #### [Native Teams chat for external users](native-chat-for-external-users.md)
+#### [Teams and Skype interoperability](teams-skype-interop.md)
 
 
 ### Guest access
@@ -148,7 +149,7 @@
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
-### [Audio Conferencing subscription “Dial-Out”/“Call Me At” benefit](audio-conferencing-subscription-dial-out.md)
+### [Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit](audio-conferencing-subscription-dial-out.md)
 
 ### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -626,6 +627,7 @@
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
+### [Teams Licensing for Education](teams-edu-licensing.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
@@ -676,6 +678,7 @@
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
+## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
 ## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
