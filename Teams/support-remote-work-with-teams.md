@@ -107,6 +107,7 @@ Share these assets and videos with your end users to help them get started quick
 7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
 
 
+1. Make sure your users have the devices they need to be seen and heard. Check out [Teams-certified devices](https://aka.ms/TeamsDevices) for personal and shared spaces.
 
 
 ### Known issue - China: Dialing into Skype for Business or Teams conference IDs
