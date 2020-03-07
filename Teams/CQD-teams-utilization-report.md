@@ -1,5 +1,5 @@
 ---
-title: "Use CQD Power BI report to view Microsoft Teams utilization"
+title: "View Microsoft Teams utilization in Power BI using CQD data"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -17,7 +17,7 @@ localization_priority: Normal
 description: "Use the Teams Utilization Power BI reports to track Microsoft Teams usage in your organization."
 ---
 
-# Use CQD Power BI reports to view Microsoft Teams utilization
+# View Microsoft Teams utilization in Power BI using CQD data
 
 New in March 2020, we've added a Teams Utilization report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
