@@ -674,6 +674,7 @@
 ### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
 ### Use Power BI to analyze CQD data
 #### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
+#### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
 #### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
 #### [Using the CQD PSTN report](CQD-PSTN-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
