@@ -34,7 +34,7 @@ Before you can use these PBIX files, you’ll need to [Install the Power BI Conn
 |CQD Mobile Device Report.pbix     | Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call. View mobile network, WiFi network, and mobile operating system reports (Android, iOS).        |
 |CQD PSTN Direct Routing Report.pbix     |Provides insights specific for PSTN calls that go through Direct Routing. To learn more, read [Using the CQD PSTN Direct Routing Report](CQD-PSTN-report.md).         |
 |CQD Summary Report.pbix     |Better visualizations, improved presentation, increased information density, and rolling dates. These reports make it easier to identifier outliers. Drill into call quality by location with an easy-to-use interactive map. 9 new reports:</p>- Quality Overall<br>- Reliability Overall<br>- RMC (Rate My Call) Overall<br>- Conference Quality<br>- P2P Quality<br>- Conference Reliability<br>- P2P Reliability<br>- Conference RMC<br>- P2P RMC         |
-|CQD Teams Utilization Report.pbix     | Shows how users in your organization are using Teams and how much. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md).        |
+|**(New!)**CQD Teams Utilization Report.pbix     | Shows how users in your organization are using Teams and how much. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md).        |
 |CQD User Feedback (Rate My Call) Report.pbix     | Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.        |
 
 
