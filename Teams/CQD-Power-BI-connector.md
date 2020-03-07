@@ -24,9 +24,8 @@ Before you can use the Power BI query templates for CQD (PBIX files), you’ll n
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
-This article describes how to install the Power BI Connector file MicrosoftCallQuality.pqx so you can use it with the downloaded CQD Power BI query templates (PBIX files). 
 
-**Installation**
+## Installation
 
 The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here’s a quick explanation:
 
@@ -38,7 +37,7 @@ The process for installing a custom connector and adjusting security to enable u
 
 If a new version of this Power BI Connector for Microsoft Teams is released, simply replace the old connector file in the *Custom Connectors* directory with the new file.
 
-**Setup**
+## Setup
 
 In order to build a report and run queries, you will first need to connect to the CQD data source. Follow the steps below in order to connect:
 
@@ -60,7 +59,7 @@ In order to build a report and run queries, you will first need to connect to th
 
 If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found [here](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
-**Building Queries**
+## Building Queries
 
 Once setup is complete, you should see the names of several hundred dimensions and measures load in the *Fields* pane. Constructing actual queries from here is simple, just select the dimensions and measures you want for your query, then drag and drop them onto the page. Here’s a more detailed explanation, with a simple example:
 
@@ -82,7 +81,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 **Note:** CQD queries require at least one measure in order to run. If your query does not load, double check that you have included a measure in the query.
 
-**Creating a Drillthrough Report**
+## Creating a Drillthrough Report
 
 [Drillthrough in Power BI](https://docs.microsoft.com/power-bi/desktop-drillthrough) allows you to create focused reports that you can quickly filter using the values of other reports as context. Once you know how to create your first query with the CQD Connector, creating a drillthrough is even simpler.
 
@@ -98,7 +97,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 Unlike Advanced CQD, Power BI supports non-sequential drillthrough. So long as a query includes the necessary dimension, it can drillthrough to any other page.
 
-**Limitations**
+## Limitations
 
 Despite making use of Power BI, not all Power BI functionality is support by the CQD Connector, either as a result of limitations on CQD data model or on DirectQuery connectors in general. The list below notes some of the Connector’s more noteworthy limitations, but this list should not be considered exhaustive:
 
@@ -114,7 +113,7 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 Please note, although the Connector is in preview, these limitations are unlikely to change with the final release of the Connector. Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
-**Error Codes**
+## Error Codes
 
 Because the CQD Power BI Connector is less restricted than the browser app in terms of kinds of queries you can construct, you may occasionally encounter a number of errors while building your queries. In the event that you receive an error message of the type “CQDError. RunQuery – Query Execution Error”, reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you may encounter with the CQD Power BI Connector:
 
@@ -128,7 +127,7 @@ Because the CQD Power BI Connector is less restricted than the browser app in te
 
 If you encounter any additional errors outside of this scope, please notify the CQD team so that we can help troubleshoot the issue and update the documentation as appropriate.
 
-**Footnotes**
+## Footnotes
 
 **<sup>1</sup>** Certain processes and apps (e.g. OneDrive) may cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is placed inside of the current root folder Documents folder.
 
