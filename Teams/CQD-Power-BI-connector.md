@@ -18,7 +18,7 @@ description: "Install Power BI Connector to use CQD query templates"
 ---
 
 
-## Install Power BI Connector to use CQD query templates
+# Install Power BI Connector to use CQD query templates
 
 Before you can use the Power BI query templates for CQD (PBIX files), you’ll need to install the Power BI Connector for Microsoft CQD, using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 

@@ -18,7 +18,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 ---
 
 
-## Use Power BI to analyze CQD data for Microsoft Teams
+# Use Power BI to analyze CQD data for Microsoft Teams
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
