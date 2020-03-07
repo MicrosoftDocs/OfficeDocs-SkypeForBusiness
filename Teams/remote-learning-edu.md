@@ -149,7 +149,11 @@ IT professionals and support staff can get up to speed with Teams architecture a
 Additional support resources include:
 
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
+- [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Student Help center](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [How to quickly optimize Office 365 traffic for remote staff](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
