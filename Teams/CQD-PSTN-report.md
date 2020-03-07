@@ -101,7 +101,7 @@ From the NER Good Percentage Hourly Trend, you can find the dip happens around 2
 
 ## Network Parameters
 
-All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](prepare-network), and look at the Customer Edge to Microsoft Edge recommended values.
+All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](prepare-network.md), and look at the Customer Edge to Microsoft Edge recommended values.
 
   - **Jitter** – Is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP (The RTP Control Protocol).
 
