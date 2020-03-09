@@ -6,11 +6,11 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: tbinder
-  ms.reviewer: tbinder
+  ms.author: lolaj
+  author: LolaJacobsen
+  ms.reviewer: shalenc
   manager: serdars
-  ms.date: 02/27/2018
-  ms.service: msteams
+    ms.service: msteams
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
@@ -29,8 +29,8 @@ items:
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
     This training is for you if you’re:
-    -   An IT pro.
-    -   Responsible for planning, deploying, or managing Teams.
+    -   An IT pro
+    -   Responsible for planning, deploying, or managing Teams
     -   Interested in meetings in Teams
 
     We’ll cover the following sections:
@@ -91,6 +91,7 @@ items:
            part of the channel discussion.
        -   The meeting and the discussion is visible to everyone who is a member of
            the team.
+       -   Turn on live captions for meetings and live events. In addition, they turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension.
     -   Garth also needs to sync with individual people but doesn’t want these
         meetings to be visible to others. For these purposes, Garth schedules a
         "Private Meeting".

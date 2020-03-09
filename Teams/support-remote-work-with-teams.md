@@ -106,14 +106,14 @@ Share these assets and videos with your end users to help them get started quick
     
    - Send out information about your org's work-from-home and health and safety policies.
     
-   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
+   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. Turn on live captions for [meetings](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) and [live events](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). In addition, turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension. 
 
 4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
 7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
 
 
-1. Make sure your users have the devices they need to be seen and heard. Check out [Teams-certified devices](https://aka.ms/TeamsDevices) for personal and shared spaces.
+1. Make sure your users have the devices they need to be seen and heard clearly. Check out [Teams-certified devices](https://aka.ms/TeamsDevices) for personal and shared spaces.
 
 
 ### Known issue - China: Dialing into Skype for Business or Teams conference IDs
