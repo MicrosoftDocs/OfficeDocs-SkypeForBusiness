@@ -51,7 +51,7 @@ How the affected content is managed after detection is up to the settings you've
 
 ### Safe Links
 
-While, at this time, ATP safe links are not available in Microsoft Teams, they should become available at a later date, and when that happens, we'll update this content to let you know. In the meantime, for information on O365 Safe Links, please review [Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+While, at this time, ATP safe links are not available in Microsoft Teams, they are now in public preview through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on O365 Safe Links, please review [Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
 
 ### How Conditional Access policies work for Teams
 

@@ -52,6 +52,13 @@ The following phones are Certified for Microsoft Teams:
 |Yealink CP 960 |73.15.0.20|December 2018|
 |Yealink T58 & T56 series |58.15.0.20|December 2018|
 
+## Certified Collaboration Bars
+
+The following Collaboration bars are Certified for Microsoft Teams:
+
+|Collaboration bar Model|Firmware Version|Release Date |
+|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|February 2020|
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
