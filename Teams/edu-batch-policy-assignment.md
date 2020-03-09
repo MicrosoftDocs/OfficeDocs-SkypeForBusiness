@@ -113,7 +113,7 @@ $students = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).Sku
 
 ## Assign a policy to a batch of users
 
-Now, we assign the appropriate policies to users in bulk. The maximum number of users that you can assign or update policies for at a time is 20,000. If you have more than 20,000 students or 20,000 faculty, you’ll need to submit multiple batches.
+Now, we assign the appropriate policies to users in bulk. The maximum number of users that you can assign or update policies for is 20,000 at a time. If you have more than 20,000 students or 20,000 faculty, you’ll need to submit multiple batches.
 
 Run the following to assign StudentMeetingPolicy to your students.
 
@@ -132,7 +132,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ## Get the status of a batch assignment
 
-Each of these bulk operations returns an operation ID, which you can use to track the progress of the assignments or identify any failures. For example, run the following:
+Each of these bulk operations returns an operation ID, which you can use to track the progress of the policy assignments or identify any failures. For example, run the following:
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
@@ -150,7 +150,7 @@ $students.count
 $faculty.count
 ```
 
-Instead of providing the whole list of user IDs, run the following command to specify the first 20,000, and then the next 20,000, and so on.
+Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
 
 ```powershell
 Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName StudentPolicy -Identities $students[0..19999].ObjectId
