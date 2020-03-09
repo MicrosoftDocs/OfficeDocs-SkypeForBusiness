@@ -10,7 +10,7 @@ metadata:
   author: LolaJacobsen
   ms.reviewer: shalenc
   manager: serdars
-    ms.service: msteams
+  ms.service: msteams
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
