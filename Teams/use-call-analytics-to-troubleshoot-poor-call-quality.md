@@ -26,25 +26,27 @@ description: "Use per-user call analytics details about devices, networks, and c
 
 # Use per-user call analytics to troubleshoot poor call quality
 
-This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you’re a Teams admin or a Teams communications support specialist or engineer.
+This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you're a Teams admin or a Teams communications support specialist or engineer.
 
-This article assumes that you’ve already set up call analytics. If you haven’t, read [Set up call analytics for Teams](set-up-call-analytics.md).
+This article assumes that you've already set up call analytics. If you haven't, read [Set up call analytics for Teams](set-up-call-analytics.md).
 
-## Overview
+## Introduction to call analytics
 
-Call analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality. If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use call analytics to help you figure out why a user had a poor call or meeting experience.
+Call analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality (any of these can be a factor in poor call or meeting quality). If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use call analytics to help you figure out why a user had a poor call or meeting experience.
 
-As the Teams admin, you get full access to all call analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don’t miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
+Call analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
+   
+As the Teams admin, you get full access to all call analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user call analytics
 
 To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Call History** tab on the user's profile page. Here you'll find all calls and meetings for that user for the last 30 days.
 
-![Screenshot of all analytics user data.](media/teams-monitor-call-quality-qos-image1.png)
+![Screenshot of all analytics user data](media/teams-monitor-call-quality-qos-image1.png)
 
 To get additional information about a given session, including detailed media and networking statistics, click a session to see the details.
 
-![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Screenshot of call analytics user session data](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
   
 ## What does each Teams Support role do?
 
@@ -91,6 +93,7 @@ For audio sessions that do have Quality of Experience (QoE) data, the following 
 |Audio network classified poor call  <br/> |Session  <br/> |Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered.  <br/> |
 |Device not functioning  <br/> |Device  <br/> | A device isn't functioning correctly. Device not functioning ratios are : <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
+
 ## Related topics
 [Set up per-user call analytics](set-up-call-analytics.md)
 

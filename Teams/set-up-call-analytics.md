@@ -37,7 +37,7 @@ When you're ready to start using per-user call analytics, read [Use per-user cal
 
 As the Teams admin, you have full access to call analytics information for all users. We've created some specialized Azure Active Directory roles that you can assign to support staff and helpdesk agents so they can also access per-user call analytics (without having access to the rest of the Teams admin center). Assign the **Teams communications support specialist** role to users who should have a limited view of per-user call analytics (Tier 1 support). Assign the **Teams communications support engineer** role to users who need full access to per-user call analytics (Tier 2 support). Neither role has access to the rest of the Teams admin center.
 
-To learn what each of these roles does, read What does each Teams Support role do?
+To learn what each of these roles does, read [What does each Teams Support role do](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
 For more information about Teams admin roles, see [Use Teams admin roles to manage Teams](using-admin-roles.md). To learn how to assign admin roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
