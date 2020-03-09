@@ -141,7 +141,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                     <h3>Teams Chalk Talks</h3>
-                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Chalk Talks assume you've completed basic Teams rollout.</p>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Chalk Talks assume you've completed a basic Teams rollout.</p>
                     <p><strong>Prerequisite</strong>: [Teams in 30](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-workshops) workshop attendance OR already enabled for Teams across your organization.</p>
                     <p><i>Audience: IT admins</i></p>
                     </div>
