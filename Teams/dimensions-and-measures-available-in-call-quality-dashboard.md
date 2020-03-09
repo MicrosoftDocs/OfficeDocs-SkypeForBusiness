@@ -433,11 +433,11 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |PSTN Event Info Time|Date|The time in UTC format when an outbound call starts from the Microsoft network or an inbound call reaches the Microsoft network.<br/>**Example:** 2020-02-06 20:57:53.1750000||
 |PSTN MP Location|String|The Media Processor location will show the media path when in non-bypass mode.<br/>**Example:** USWE||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it is false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
-|Jitter|Milliseconds|The variation in arrival time of RTP packets. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard) for more information.<br/>**Example:** 5.982||
+|Jitter|Milliseconds|The variation in arrival time of RTP packets. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 5.982||
 |Packet Loss Rate|Percentage|The percentage of streams between Mediation Server and SBC or Gateway, if available.
-Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard) for more information.<br/>**Example:** 1.2%||
+Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 1.2%||
 |Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed.
-Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard) for more information.<br/>**Example:** 3.49||
+Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 3.49||
 ||||
 
 ### Notes on dimension data type/units
