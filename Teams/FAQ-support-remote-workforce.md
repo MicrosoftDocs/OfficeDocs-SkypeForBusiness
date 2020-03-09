@@ -86,6 +86,14 @@ For Education (EDU) tenants, Microsoft offers [School Data Sync](https://docs.mi
 
 Read [Support remote workers using Teams](support-remote-work-with-teams.md). It covers most of the common tasks and questions on getting started with Teams for remote workers.
 
+### I just got started with Microsoft 365 so I can use Teams to support my remote workers or students. I've signed up for the service, but when a user tries to use Teams, they get this error: "You're missing out! Ask your admin to enable Microsoft Teams." What should I do?
+
+After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individual or in bulk to Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+
+If you're licensing or enabling a user for the first time but you've had Microsoft 365 for a while, you might need to [Turn on Teams](Office-365-set-up.md) for your organization. Check [I have Microsoft 365 already, but I don’t use Teams. Are you providing trial licenses?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) in this article.
+
+
+
 ### Can I use Calling Plans with the Office 365 E1 Trial that Microsoft is offering? Can I assign a telephone number to my users? How much am I going to pay?
 
 Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee, you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
@@ -101,9 +109,8 @@ End users: [Collaborate with Office 365](https://support.office.com/article/coll
 IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-teams.md).
 
 
-<!-- ============================================================ 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
