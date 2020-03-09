@@ -592,7 +592,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second RxAGC Signal Level|Range (Decibels) |Average signal level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the first inbound audio stream.||
 | Avg Second RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the second inbound audio stream.| |
-| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|    Average level of speaker loopback signal (after any device offload effects have been applied).|
+| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|  Average level of speaker loopback signal (after any device offload effects have been applied).|
 | Avg Second Render Loopback Signal Level|Range (Decibels) | Average level of second speaker loopback signal (after any device offload effects have been applied).|
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
 |Avg Second Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by second endpoints. |
@@ -629,7 +629,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
  Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
-|Avg Network Jitter |Milliseconds |    Average of network jitter computed over 20 second windows during the session. |
+|Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. |
 | Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
 | Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.| |
 | Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.| |
