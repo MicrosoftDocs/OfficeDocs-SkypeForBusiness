@@ -84,7 +84,7 @@ Share these assets and videos with your end users to help them get started quick
     
 3. Read our new content about working remotely and share it with your users:
         
-      - [Work remotely with Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
+      - *New March 9, 2020*: [Work remotely with Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
 
       - Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
