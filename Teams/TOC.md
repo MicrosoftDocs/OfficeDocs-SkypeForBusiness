@@ -268,6 +268,7 @@
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
 #### [Step 1: Connect your SBC](direct-routing-connect-the-sbc.md)
+#### [Step 1: Connect your SBC](direct-routing-connect-the-sbc-one-table.md)
 #### [Step 2: Enable users](direct-routing-enable-users.md)
 #### [Step 3: Configure voice routing](direct-routing-voice-routing.md)
 #### [Step 4: Translate phone numbers](direct-routing-translate-numbers.md)
@@ -428,6 +429,7 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
+### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
