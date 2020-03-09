@@ -44,6 +44,8 @@ Run the following to connect to Azure AD.
 Connect-AzureAD
 ```
 
+When you're prompted, sign in using your admin credentials.
+
 To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 ### Install and connect to the pre-release version of the Teams PowerShell module
@@ -55,8 +57,7 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
-
-When you're prompted, sign in using your admin credentials.
+When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 ## Identify your students and your teachers
 
