@@ -20,17 +20,21 @@ f1keywords:
 
 # Getting ready for school to start?
 
-Do you need to give your students and faculty access to different features in Microsoft Teams? You can quickly identify the students and faculty in your organization by license type and then assign them the appropriate policy by using PowerShell. In this tutorial, we’ll show you how to assign meeting policies to large batches of users. We assume you’ve already created two different meeting policies named StudentMeetingPolicy and FacultyMeetingPolicy.
+Do you need to give your students and faculty access to different features in Microsoft Teams? You can quickly identify the students and faculty in your organization by license type and then assign them the appropriate policy by using PowerShell. 
 
-## Install and connect to the Azure AD PowerShell for Graph module and the pre-release Teams PowerShell module
+In this tutorial, we’ll show you how to assign meeting policies to large batches of users. We assume you’ve already created two different meeting policies named StudentMeetingPolicy and FacultyMeetingPolicy.
 
-To follow these steps, you’ll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the pre-release version of the Microsoft Teams PowerShell module (to assign the policies to those users).
+![Screenshot of the Meeting policies page in the Teams admin center](media/edu-batch-policy-assignment.png)
+
+## Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
+
+To follow the steps in this article, you’ll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the pre-release version of the Microsoft Teams PowerShell module (to assign the policies to those users).
 
 ### Install and connect to the Azure AD PowerShell for Graph module
 
 Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an administrator), and then run the following to install the Azure Active Directory PowerShell for Graph module.
 
-```powerShell
+```powershell
 Install-Module AzureAD
 ```
 
@@ -77,23 +81,33 @@ When you're prompted, sign in using your admin credentials.
 
 First, run the following to identify all your students and teachers by license type. This tells you what SKUs are in use in your organization. You can identify all the users that have a Student SKU assigned and all teachers that have a Faculty SKU assigned.
 
-```powerShell
+```powershell
 Get-AzureADSubscribedSku
 ```
 
-```powerShell
+```powershell
 $skus = Get-AzureADSubscribedSku
 ```
 
-In this example, the organization’s Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370” and the Student license SkuId is “46c119d4-0379-4a9d-85e4-97c66d3f909e”.
+Which returns:
 
-Next, we identify the users that have each of these licenses and collect them all together.
+```
+ObjectId                                                                  SkuPartNumber      SkuId
+--------                                                                  -------------      -----
+ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+```
 
-```powerShell
+
+In this example, the output shows that the organization’s Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370” and the Student license SkuId is “46c119d4-0379-4a9d-85e4-97c66d3f909e”.
+
+Next, we run the following to identify the users that have each of these licenses and collect them all together.
+
+```powershell
 $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
 ```
 
-```powerShell
+```powershell
 $students = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “46c119d4-0379-4a9d-85e4-97c66d3f909e”)
 ```
 
@@ -103,13 +117,13 @@ Now, we assign the appropriate policies to users in bulk. The maximum number of 
 
 Run the following to assign StudentMeetingPolicy to your students.
 
-```powerShell
+```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName StudentMeetingPolicy -Identity $students.ObjectId
 ```
 
 Run the following to assign FacultyMeetingPolicy to your teachers.
 
-```powerShell
+```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName FacultyMeetingPolicy -Identity $faculty.ObjectId
 ```
 
@@ -120,7 +134,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 Each of these bulk operations returns an operation ID, which you can use to track the progress of the assignments or identify any failures. For example, run the following:
 
-```powerShell
+```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
