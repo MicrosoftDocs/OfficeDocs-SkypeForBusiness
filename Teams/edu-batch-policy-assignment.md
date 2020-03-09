@@ -48,7 +48,7 @@ To learn more, see [Connect with the Azure Active Directory PowerShell for Graph
 
 ### Install and connect to the pre-release version of the Teams PowerShell module
 
-The cmdlets are in the pre-release version of the Teams PowerShell module. Follow these steps in [Install and connect to the Microsoft Teams PowerShell module](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+The cmdlets are in the pre-release version of the Teams PowerShell module. Follow the steps in [Install and connect to the Microsoft Teams PowerShell module](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
 
 Run the following to connect to Teams and start a session.
 
