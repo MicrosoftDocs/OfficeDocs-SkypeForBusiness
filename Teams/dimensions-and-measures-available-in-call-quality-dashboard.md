@@ -592,7 +592,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second RxAGC Signal Level|Range (Decibels) |Average signal level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the first inbound audio stream.||
 | Avg Second RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the second inbound audio stream.| |
-| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|  Average level of speaker loopback signal (after any device offload effects have been applied).|
+| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|
 | Avg Second Render Loopback Signal Level|Range (Decibels) | Average level of second speaker loopback signal (after any device offload effects have been applied).|
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
 |Avg Second Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by second endpoints. |
