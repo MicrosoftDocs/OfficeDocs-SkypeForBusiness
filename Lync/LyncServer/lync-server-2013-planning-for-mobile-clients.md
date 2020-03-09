@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for mobile clients'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Planning for mobile clients in Lync Server 2013
 
@@ -36,7 +38,7 @@ Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice
 
 
 > [!NOTE]  
-> Lync Server 2013 also supports Lync 2010 mobile clients. For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
+> Lync Server 2013 also supports Lync 2010 mobile clients. For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
 
 
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -23,7 +25,7 @@ You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.
 
-![Screen shot of sample :::no-loc text="Log Analytics"::: view for :::no-loc text="Microsoft Teams Rooms":::](../media/Deploy-Azure-Monitor-1.png "Sample :::no-loc text="Log Analytics"::: view for :::no-loc text="Microsoft Teams Rooms":::")
+![Screenshot of sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
 
 At a high level, you need to perform the following tasks:
 
@@ -58,7 +60,7 @@ You need to configure :::no-loc text="Log Analytics"::: to collect the logs requ
 
 To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Microsoft Teams Rooms"::: events, see [:::no-loc text="Windows"::: event log data sources in :::no-loc text="Azure Monitor":::](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Screen shot of event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
+![Screenshot of event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
 
 > [!IMPORTANT]
 > Configure :::no-loc text="Windows"::: Event Log settings and enter **:::no-loc text="Skype Room System":::** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
@@ -366,7 +368,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 5.  Configure the Alert logic settings:<br>
     **Based on:** Number of results<br>
     **Condition:** Greater then<br>
-    **Treshold:** 0<br>
+    **Threshold:** 0<br>
 
 6. Configure Evaluation settings and select **Done**: <br>
     **Period (in minutes):** 60<br>
@@ -376,7 +378,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
     1.  Select **Create New**
     2.  Provide suitable names for the *Action group name* and *Short Name* fields.
     3.  Specify a unique *Action Name* and select **Email/SMS/Push/Voice**, and then select **Edit details**.
-    4.  Select the Email checkbox and provide the email address of the person or group that will recieve the alerts.
+    4.  Select the **Email** checkbox and provide the email address of the person or group that will receive the alerts.
     5.  You may also provide your phone number to get notified with SMS, a voice call or both.
     6. Select **OK**.
 

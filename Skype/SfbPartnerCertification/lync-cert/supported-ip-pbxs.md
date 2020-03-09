@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync - IP PBXs"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788945
@@ -56,7 +57,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="3">
-				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41152">Lync 2013 and Avaya Aura 6.1 Integration Guide v1.3</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/download/details.aspx?id=41152">Lync 2013 and Avaya Aura 6.1 Integration Guide v1.3</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>REFER can be set to enabled and RTCP set to Disabled.</li>
@@ -227,7 +228,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="3">
-				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&amp;id=2187">Integrating Microsoft Lync Server 2010 and Avaya Communications Manager S8300</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/download/details.aspx?displaylang=en&amp;id=2187">Integrating Microsoft Lync Server 2010 and Avaya Communications Manager S8300</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Avaya IP-PBX, the configuration requires setting &quot;Alternate Route Timer(sec)&quot; value from default of 10 sec to 30 sec. The configuration should show &quot;Alternate Route Timer(sec): 30&quot; in the corresponding SIP signaling group.</li>
@@ -245,7 +246,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="10">Cisco</td>
-			<td colspan="3">Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=26800">Integrating Microsoft Lync Server 2010 and Cisco Unified Communications Manager</a></td>
+			<td colspan="3">Documentation: <a href="https://www.microsoft.com/download/details.aspx?id=26800">Integrating Microsoft Lync Server 2010 and Cisco Unified Communications Manager</a></td>
 		</tr>
 		<tr align="left" valign="top">
             <td>Cisco Unified Communications Manager<br />Cisco Unified Session Manager<em></td>

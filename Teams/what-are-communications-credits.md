@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Licensing
 description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
@@ -46,7 +47,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## What are the Communications Credits rates?
 
-If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) Plans.
+If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) Plans (scroll down to "See rates for where you want to call").
   
 ## What is it?
 
@@ -62,7 +63,7 @@ You can set up consumption billing using a **one-time funding** of the pre-paid 
 > [!NOTE]
 > You can see the plans and pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**. 
   
-In the **Microsoft 365 admin center** > **Billing** > **Subscriptions**, you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+In the **Microsoft 365 admin center** > **Billing** > **Purchase Services** > **Add Ons** you can select Communication Credits to add the credits, and you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## Communications Credits
 

@@ -14,7 +14,10 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+f1.keywords: 
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ---
 # Skype for Business Online Admin
 
@@ -40,7 +43,7 @@ Learn how to manage Skype for Business Online for your organization.
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
+        <a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

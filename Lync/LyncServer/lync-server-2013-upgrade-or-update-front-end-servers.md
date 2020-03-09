@@ -3,20 +3,22 @@ title: 'Lync Server 2013: Upgrade or update Front End Servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204736(v=OCS.15)
 ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+<div data-xmlns="https://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Upgrade or update Front End Servers in Lync Server 2013
 
@@ -34,7 +36,7 @@ The Front End Servers in an Enterprise Edition pool are organized into *upgrade 
 
 When you upgrade servers, you must do so one Upgrade Domain at a time. Bring each Server in one Upgrade Domain down, upgrade it, and then restart it before you move on to another Upgrade Domain. Be sure to keep track of which Upgrade Domains and Servers that you have upgraded so far. Use the following flowchart diagram when upgrading each server.
 
-:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Upgrade or Update Front End Servers":::
+![Upgrade or Update Front End Servers](images/upgradeupdatefrontendserverslync2013.png)
 
 <div>
 

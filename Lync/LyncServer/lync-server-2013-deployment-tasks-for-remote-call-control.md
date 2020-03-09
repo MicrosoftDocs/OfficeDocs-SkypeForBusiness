@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deployment tasks for remote call control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deployment tasks for remote call control in Lync Server 2013
 
@@ -56,7 +58,7 @@ When you are ready to deploy a SIP/CSTA gateway that can integrate with Lync Ser
 
 The preceding settings are required during user configuration and must be specified as expected by the gateway to route and connect to the PBX properly.
 
-You can refer to vendors on the Microsoft Unified Communications Open Interoperability Program website at [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).
+You can refer to vendors on the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).
 
 </div>
 

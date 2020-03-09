@@ -10,6 +10,8 @@ audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+  - CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
   - M365-collaboration
@@ -35,7 +37,7 @@ The Microsoft 365 Government - DoD environment provides compliance with US gover
 
 You can find more information about the Microsoft 365 Government – DoD offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform’s benefits, which are centered on meeting compliance requirements within the United States.
+The [Office 365 US Government service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform’s benefits, which are centered on meeting compliance requirements within the United States.
 
 
 > [!Tip]
@@ -72,6 +74,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | Base | Login | Available |
 | | Presence | Available |
 | | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| | Linux client | On the Government backlog |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |

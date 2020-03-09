@@ -1,7 +1,7 @@
 ---
 title: "Validated Lync Applications"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -16,7 +16,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788946
@@ -30,7 +31,7 @@ Applications built on the Lync SDN API provide the ability to quickly detect qua
 
 Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third party testing and then included here.
 
-Developers can download the [Lync SDN API](https://www.microsoft.com/en-us/download/details.aspx?id=39714) from the Microsoft Download Center.
+Developers can download the [Lync SDN API](https://www.microsoft.com/download/details.aspx?id=39714) from the Microsoft Download Center.
 
 ## Aruba Networks Wi-Fi
 * * *

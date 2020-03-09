@@ -1,7 +1,7 @@
 ---
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788949
@@ -382,9 +383,9 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 ## Vendor support
 [LifeSize](http://www.lifesize.com/Partners/Technology_Partners/Microsoft.aspx)
 
-[Polycom](http://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
+[Polycom](https://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
 
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
 * * *
-This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](http://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)
+This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](https://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)

@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Apply Lync Server 2010 updates
 ms:assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204730(v=OCS.15)
@@ -15,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Apply Lync Server 2010 updates
 
@@ -31,9 +33,9 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-19_
 
-Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment. For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment. For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <https://go.microsoft.com/fwlink/p/?linkid=232630>.
 
-To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).
+To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).
 
 </div>
 

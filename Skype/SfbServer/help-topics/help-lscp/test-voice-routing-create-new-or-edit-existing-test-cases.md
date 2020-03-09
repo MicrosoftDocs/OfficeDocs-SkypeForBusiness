@@ -7,7 +7,9 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTestCaseEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

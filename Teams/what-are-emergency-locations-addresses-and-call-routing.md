@@ -15,10 +15,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.locations.emergencyaddresses.overview
   - ms.lync.lac.AddressAndLocation
-ms.custom: 
   - Calling Plans
   - Direct Routing
 description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
@@ -151,9 +152,9 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Emergency call routing
 
-The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md#configure-voice-routing). 
+The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
-(Note: In Skype for Business Server, the emergency number was prefixed with a “+” which required a voice route to be defined to match “+911” for instance. Teams clients do not prepend the “+” with emergency numbers.)
+(Note: Teams clients prepend the “+” sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911. This behavior will be modified in the coming months so that Teams emergency calls will no longer be sending a "+" preceding the number; that is, 911.)
 
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 

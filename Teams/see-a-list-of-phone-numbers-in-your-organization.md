@@ -17,7 +17,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Calling Plans
 description: "Learn how to use the Microsoft Teams admin center to see a list of all the phone numbers in your organization and all the numbers that are assigned to users or unassigned."
@@ -108,5 +109,7 @@ When you are setting up users in your organization to make and receive phone cal
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  

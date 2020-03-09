@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync client software support'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client software support
 ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Lync client software support in Lync Server 2013
 
@@ -117,9 +119,9 @@ This section summarizes software support for Lync 2013 and the Online Meeting Ad
 
 Lync 2013 is available only for Windows. However, Lync Server 2013 supports the following clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported). For details about supported features, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Lync for Mac 2011 (see “Lync for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
+  - Microsoft Lync for Mac 2011 (see “Lync for Mac 2011 Deployment Guide” at [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786))
 
-  - Microsoft Communicator for Mac 2011 (see “Communicator for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))
+  - Microsoft Communicator for Mac 2011 (see “Communicator for Mac 2011 Deployment Guide” at [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787))
 
 </div>
 
@@ -149,7 +151,7 @@ Lync Server 2013 clients support integration with various versions of Microsoft 
 
 ## Using Mandatory Profiles
 
-If users are planning to use Lync 2013 conferencing features, they should not use Active Directory Domain Services mandatory profiles to sign in to the Lync 2013 client. Because mandatory profiles are read-only user profiles, the public key infrastructure (PKI) keys that are required for Lync 2013 conferencing cannot be saved to the profile. For details, see Microsoft Knowledge Base article 2552221, “Lync 2010 conferencing feature fails when the user is signed in using a mandatory user profile,” at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
+If users are planning to use Lync 2013 conferencing features, they should not use Active Directory Domain Services mandatory profiles to sign in to the Lync 2013 client. Because mandatory profiles are read-only user profiles, the public key infrastructure (PKI) keys that are required for Lync 2013 conferencing cannot be saved to the profile. For details, see Microsoft Knowledge Base article 2552221, “Lync 2010 conferencing feature fails when the user is signed in using a mandatory user profile,” at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
 
 </div>
 

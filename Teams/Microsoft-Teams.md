@@ -10,7 +10,9 @@ author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority
-f1keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
@@ -34,7 +36,7 @@ f1keywords:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -53,7 +55,7 @@ f1keywords:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -72,7 +74,7 @@ f1keywords:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -91,7 +93,7 @@ f1keywords:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -104,13 +106,13 @@ f1keywords:
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-architecture-solutions-posters">
+                                <a href="https://docs.microsoft.com/microsoftteams/teams-architecture-solutions-posters">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -128,7 +130,7 @@ f1keywords:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -151,7 +153,7 @@ f1keywords:
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
+                                                <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Community">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -170,7 +172,7 @@ f1keywords:
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
+                                                <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -189,7 +191,7 @@ f1keywords:
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">

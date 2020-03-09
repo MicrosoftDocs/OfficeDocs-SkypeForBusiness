@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Windows PowerShell cmdlets for Address Book management
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell cmdlets for Address Book management
 ms:assetid: 73bfa949-5628-4156-ad20-fe07a0dc6216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429708(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Windows PowerShell cmdlets for Address Book Services in Lync Server 2013
 
@@ -79,7 +81,7 @@ All of these cmdlets are issued through the Lync Server Management Shell found i
 ## See Also
 
 
-[http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  
+[https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  
   
 
 </div>

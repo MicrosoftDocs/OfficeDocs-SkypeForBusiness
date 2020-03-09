@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Checking for updates to Best Practices Analyzer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking for updates to Best Practices Analyzer
 ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Checking for updates to Best Practices Analyzer in Lync Server 2013
 
@@ -36,7 +38,7 @@ When you start Best Practices Analyzer, the tool provides you with an option to 
 
 
 > [!NOTE]  
-> If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download. However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>. After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.
+> If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download. However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>. After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.
 
 
 

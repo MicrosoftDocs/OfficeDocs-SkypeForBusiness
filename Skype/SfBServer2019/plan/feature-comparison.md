@@ -1,12 +1,14 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2019"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -24,10 +26,10 @@ description: "Summary: Skype for Business Server 2019 or Skype for Business Onli
 
 Some features available with Skype for Business Server 2019 are not available in Skype for Business Online; see [Online or Hybrid user account limitations](feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
 
-The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
+The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/skype-for-business/it-pros) for more details.
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016, as well as the Skype for Business 2019 client. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016, as well as the Skype for Business 2019 client. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]

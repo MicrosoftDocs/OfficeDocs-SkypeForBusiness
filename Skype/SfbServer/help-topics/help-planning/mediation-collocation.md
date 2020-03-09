@@ -7,7 +7,9 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
@@ -20,7 +22,7 @@ description: "The Mediation Server is collocated with the Front End Server by de
  
 The Mediation Server is collocated with the Front End Server by default. The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended. Collocation in Skype for Business Server functions just as it did in Lync Server 2013. For details, see the following topics:
   
-- [Supported server collocation in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
+- [Supported server collocation in Lync Server 2013](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
     
 - [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     

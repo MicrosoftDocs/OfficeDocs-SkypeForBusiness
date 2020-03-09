@@ -10,6 +10,8 @@ audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -61,7 +63,7 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Assess your environment and complete Teams technical onboarding** | Ensure your environment is ready for Teams to help optimize the user experience and facilitate your upgrade over time. | [Evaluate your environment before upgrading to Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Optimize network for Teams, particularly for real-time media scenarios** | If you’re deploying audio, video, or meetings, take these additional steps to optimize your network for that functionality. | [Prepare your network for upgrading to Teams](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **Optimize network for Teams, particularly for real-time media scenarios** | If you’re deploying audio, video, or meetings, take these additional steps to optimize your network for that functionality. | [Prepare your network for upgrading to Teams](prepare-network.md) |
 | **3** | **Assess organizational change readiness and define teamwork scenarios** | Understand your user base to prepare the right value messaging and level of education to facilitate and accelerate user adoption. | [Organizational change readiness](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **Prepare a user readiness plan to define how you will communicate, train, and support users** | Personalize your communications, training and support plan to ensure optimal receptiveness to the new technology. | [Prepare a user readiness plan](upgrade-user-readiness.md)<br><br>[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Announce the pending launch of Microsoft Teams** | Communicate early to help users feel included, reduce confusion and generate excitement. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |

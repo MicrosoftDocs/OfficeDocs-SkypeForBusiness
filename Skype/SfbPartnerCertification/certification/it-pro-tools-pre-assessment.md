@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business certification program - Network Pre-Assessment"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947964
@@ -25,7 +26,7 @@ Network Pre-Assessment tools allow a customer to determine if their network meet
 
 For an on-premises deployment readiness assessment, the tool assesses the performance of the customer’s Local Area Network and Wide Area Network against user defined thresholds for quality of experience.
 
-For an online service network readiness assessment, the tool assesses the performance of the network connection between the customer’s site and the Microsoft Network Edge sites or between the customer’s site and the Microsoft Azure cloud. The tools assess against the network performance targets as defined in [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
+For an online service network readiness assessment, the tool assesses the performance of the network connection between the customer’s site and the Microsoft Network Edge sites or between the customer’s site and the Microsoft Azure cloud. The tools assess against the network performance targets as defined in [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="617" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>

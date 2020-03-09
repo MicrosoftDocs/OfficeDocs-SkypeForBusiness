@@ -15,7 +15,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools. "

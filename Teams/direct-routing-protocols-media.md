@@ -12,6 +12,8 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Direct Routing protocols
 appliesto:
 - Microsoft Teams
@@ -99,13 +101,13 @@ To support early media, the SBC may start streaming the media to the peer ICE ca
 
 The SBC must support SRTP encryption cipher AES_CM_128_HMAC_SHA1_80 for offer and answer in the following format:
 
-```
+```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
 The following is an example of the crypto attribute in the SDP offer from the SBC:
 
-```
+```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
 ```
 
@@ -127,7 +129,7 @@ Currently, there are no Teams client that offer only DTLS; however Google has an
 
 Offer must contain SDES and can contain DTLS optional in the following format:
 
-```
+```console
 m=audio 54056 UDP/TLS/RTP/SAVP 0 8 76 77 18 9 101 13
 a=rtcp:54056
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:krXco0QRglwErMqtbMs2zSw29tBdmdgXpEYZhQmp|2^31
@@ -138,7 +140,7 @@ a=rtcp-mux
 
 ### Format for answer containing SDES to SBC
 
-```
+```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
 a=rtcp:54056
 a=crypto:2 AES_CM_128_HMAC_SHA1_80 inline:fBc61ikv1kMy0sF85DblNqTzVAbFa7hJQ9GKb6Yj|2^31|1:1
@@ -151,7 +153,7 @@ a=rtcp-mux
 
 ### Format for SDES only offer to SBC
 
-```
+```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126
 a=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:Hr4D2cgUu9+Uza5Igz/JkVx59DAxDbaxJg862ibQ|2^31
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:JPEaIxHegfuv53ykBPZk8hV0GO8kTiiqRMfHimEE|2^31

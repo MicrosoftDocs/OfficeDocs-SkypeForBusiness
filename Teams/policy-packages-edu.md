@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams policy packages for EDU admins
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -13,7 +13,9 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams. 

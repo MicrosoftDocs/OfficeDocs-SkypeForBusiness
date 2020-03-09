@@ -12,7 +12,9 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto: 
   - Microsoft Teams

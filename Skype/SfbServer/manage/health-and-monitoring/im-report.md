@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: "Summary: Learn about the Peer-to-Peer IM Report in Skype for Business Server."

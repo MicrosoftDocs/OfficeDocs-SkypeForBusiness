@@ -10,6 +10,8 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.reviewer: mikedav
 description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
 appliesto: 
@@ -51,7 +53,7 @@ This example assigns an Enterprise E3 license along with a Phone System and a Do
 
 The name of the licenses or product names in the script are listed in italics (see [Phone System and Calling Plans product names or SKUs used for scripting](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting), after the example).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -86,6 +88,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## Phone System and Calling Plans product names or SKUs used for scripting
 
 | Product name | SKU part name |
@@ -99,14 +102,6 @@ for each ($user in $users)
 | Domestic Calling Plan (120 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN5 |
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP | 
-
-## Audio Conferencing: tips and scripts for assigning licenses
-
-Here's what you need to know before assigning Audio Conferencing licenses.
-
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an Audio Conferencing license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
-
-- **Next steps**: After you assign Audio Conferencing licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## Assign an Audio Conferencing license to one user
 
@@ -124,7 +119,7 @@ The name of the licenses or product names in the script are listed in italics. S
 
 This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -158,6 +153,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## Audio Conferencing product names or SKUS used for scripting
 
 | Product name | SKU part name |

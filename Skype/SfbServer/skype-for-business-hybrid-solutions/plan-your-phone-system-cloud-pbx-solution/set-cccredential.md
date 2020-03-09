@@ -8,6 +8,8 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: "The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment."

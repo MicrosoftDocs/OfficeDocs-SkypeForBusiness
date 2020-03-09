@@ -14,6 +14,8 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -35,7 +37,7 @@ Historically, the guidance has been for customers in this situation to consolida
 Consolidation of all users from on-premises into the cloud in a single Office 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met:
 
 - There must be at most one Office 365 tenant involved. Consolidation in scenarios with more than one Office 365 tenant is not supported.
-- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). Note that these other on-premises organizations *can* sync to AAD if desired with [new functionality to disable online SIP domains](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) available as of December 2018.
+- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). Note that these other on-premises organizations *can* sync to AAD if desired with [new functionality to disable online SIP domains](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) available as of December 2018.
 
 Customers with deployments of Skype for Business in multiple forests must fully migrate all users of a single hybrid Skype for Business forest individually into the Office 365 tenant using Shared SIP Address Space functionality, and then disable hybrid with that on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user’s on-premises directory.  
 
@@ -56,9 +58,9 @@ The basic steps to get from the original state to the desired end state are belo
 2.	Make sure all relevant SIP domains across both on-premises deployments are verified Office 365 domains.
 3.	Pick one Skype for Business deployment that will be hybrid with Office 365. In this example, we’ll use OriginalCompany.<span>com.
 4.	[Enable AAD Connect for the forest](configure-azure-ad-connect.md) that will first become hybrid (OriginalCompany.<span>com). 
-5.	If you will be introducing Teams into your organization, set the tenant-wide policy for [TeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy) to SfBWithTeamsCollab or one of the other SfB modes (SfBOnly or SfBWithTeamsCollabAndMeetings). This is critical to ensure routing of calls and chats from users who move to Teams Only to users who remain on premises.
+5.	If you will be introducing Teams into your organization, set the tenant-wide policy for [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) to SfBWithTeamsCollab or one of the other SfB modes (SfBOnly or SfBWithTeamsCollabAndMeetings). This is critical to ensure routing of calls and chats from users who move to Teams Only to users who remain on premises.
 6.	It is recommended at this point (but not yet required until step 11) to [enable AAD Connect for the other forest](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com). Assuming AAD Connect is enabled in both forests, the org looks like **[Figure A](#figure-a)**, which may be a common starting point for some orgs. 
-7.	For any SIP domains hosted by other on-premises deployments (in this case, AcquiredCompany.<span>com), [disable these SIP domains in Skype for Business Online](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) using `Disable-CsOnlineSipDomain` in PowerShell. (This is new functionality as of December 2018.)
+7.	For any SIP domains hosted by other on-premises deployments (in this case, AcquiredCompany.<span>com), [disable these SIP domains in Skype for Business Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) using `Disable-CsOnlineSipDomain` in PowerShell. (This is new functionality as of December 2018.)
 8.	[Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) for OriginalCompany.<span>com (the one deployment that still has enabled online SIP domains).
 9.	In the hybrid deployment (OriginalCompany.<span>com), start [moving users from Skype for Business on premises to the cloud](move-users-between-on-premises-and-cloud.md) (whether Teams Only or not) so that account is homed in Skype for Business Online. Now the organization looks like **[Figure B](#figure-b)**. The key changes from Figure A are:
     - Users from both on-premises directories are now in AAD.
@@ -69,11 +71,11 @@ The basic steps to get from the original state to the desired end state are belo
     - Disable the ability to communicate with Office 365 in OriginalCompany.<span>com on-premises.
     - Update DNS records for OriginalCompany.<span>com to point to Office 365.
 11.	If not done already, [enable AAD Connect for the next forest](cloud-consolidation-aad-connect.md) that will go hybrid (AcquiredCompany.<span>com). At this point, the organization looks like **[Figure C](#figure-c)**. This may be another common starting point for some organizations. 
-12.	In PowerShell, [enable the SIP domains for the next on-premises deployment](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) that will go hybrid, AcquiredCompany.<span>com. This is done using `Enable-CsOnlineSipDomain`, which is new functionality available as of December 2018.
+12.	In PowerShell, [enable the SIP domains for the next on-premises deployment](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) that will go hybrid, AcquiredCompany.<span>com. This is done using `Enable-CsOnlineSipDomain`, which is new functionality available as of December 2018.
 13.	If you are using closed federation, you must add any SIP domains (excluding *.microsoftonline.com)  of the pure online tenant as Allowed Domains in **same** Office 365. Note that it can take some time before the change takes effect and there is no harm in doing this early, so we suggest doing this well in advance of moving to step 14.
 14.	Update the on-premises environment to accept any SIP domains from the online tenant, so they match.
     - [Update the SAN in all edge certificates](cloud-consolidation-edge-certificates.md) to be the same value as before, plus values for any existing online SIP domains (except *.microsoftonline.com), in this case, Sip.OriginalCompany.<span>com.
-    - Make sure OriginalCompany.<span>com is an [allowed domain](https://docs.microsoft.com/en-us/powershell/module/skype/new-csalloweddomain) in the on-premises deployment, AcquiredCompany. Add allowed domains.
+    - Make sure OriginalCompany.<span>com is an [allowed domain](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) in the on-premises deployment, AcquiredCompany. Add allowed domains.
 15.	[Enable Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) between on-premises AcquiredCompany.<span>com and the cloud.
 16.	As desired, [migrate users from on-premises to the cloud](move-users-between-on-premises-and-cloud.md). You can migrate users either directly to [TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) mode or you can migrate them first to Skype for Business Online. During this state, the organization looks like **[Figure D](#figure-d)**.
 17.	Once all users are migrated, [disable hybrid with the on-premises environment](cloud-consolidation-disabling-hybrid.md) to *make the organization pure cloud*!
@@ -90,7 +92,7 @@ The diagrams below show the configuration at various key points during this proc
 
 ##### Figure B:
 
-- AcquiredCompany.<span>com is a [disabled](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) online SIP domain. All users are on-premises. If they use Teams they do not have federation or interoperability. While in this stage, Microsoft recommends using Teams for Channels only.
+- AcquiredCompany.<span>com is a [disabled](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) online SIP domain. All users are on-premises. If they use Teams they do not have federation or interoperability. While in this stage, Microsoft recommends using Teams for Channels only.
 - Skype for Business Hybrid has been enabled for one of the on-premises organizations.
 - Some users in the hybrid organization have been moved to the cloud (user A as indicated by purple shading). These users can be either Skype for Business Online users or Teams Only users with full interoperability and federation support.<br><br>
     ![Figure B diagram](../media/cloudconsolidationfigb.png)

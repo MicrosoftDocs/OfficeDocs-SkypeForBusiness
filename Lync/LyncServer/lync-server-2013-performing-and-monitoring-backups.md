@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Performing and monitoring backups'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Performing and monitoring backups
 ms:assetid: 2df415d4-0f37-460e-99ff-4035a9a2f445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720912(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Performing and monitoring backups in Lync Server 2013
 
@@ -42,7 +44,7 @@ Who can run this cmdlet: By default, members of the following groups are authori
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-All SQL 2012 Back End databases should be backed up as per [SQL best practices](http://go.microsoft.com/fwlink/p/?linkid=290716).
+All SQL 2012 Back End databases should be backed up as per [SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716).
 
 Regular testing of the Disaster Recovery Plan for your Lync Server 2013 infrastructure should be performed in a lab environment that mimics the production environment as closely as possible. Refer to the Monthly Tasks for more information about Disaster Recovery Testing.
 
@@ -55,7 +57,7 @@ Note that the backup frequency can be adjusted, based on your Restore Point and 
 
 [Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
-[SQL best practices](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+[SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
 </div>

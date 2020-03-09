@@ -1,8 +1,10 @@
 ---
 title: 'Lync Server 2013: Conferencing devices'
-ms.reviewer: 
+ms.reviewer:
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing devices
 ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994050(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Conferencing devices in Lync Server 2013
 
@@ -38,7 +40,7 @@ Use the topics in this section to learn how to set up and manage your conferenci
 
 
 > [!NOTE]  
-> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
+> For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.
 
 
 
@@ -67,4 +69,3 @@ Use the topics in this section to learn how to set up and manage your conferenci
 </div>
 
 </div>
-

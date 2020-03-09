@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection: 
 - M365-voice
 appliesto: 
@@ -15,7 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage emergency call routing policies in Microsoft Teams. 
-f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
@@ -109,7 +111,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular teams policy. In this example, it's HR Emergency Call Routing Policy.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 

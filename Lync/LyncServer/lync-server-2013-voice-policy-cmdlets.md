@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Voice policy cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policy cmdlets
 ms:assetid: 92744ec6-754d-498b-b430-dcd5c985ce10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415663(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Voice policy cmdlets in Lync Server 2013
 
@@ -41,50 +43,50 @@ The following cmdlets can be used to manage voice policies and dial plans for En
 **Voice Policy**
 
   - <span></span>  
-    [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))
+    [Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))
+    [Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))
+    [New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))
+    [Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))
+    [Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+    [Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+    [Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))
+    [New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+    [Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))
+    [Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 </div>
 
@@ -96,7 +98,7 @@ The following cmdlets can be used to manage voice policies and dial plans for En
 [Enterprise Voice cmdlets in Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

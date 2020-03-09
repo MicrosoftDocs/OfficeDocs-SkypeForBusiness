@@ -9,6 +9,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Configure a meeting policy to let users share their desktops in Teams chats or meetings
 ms.collection: 
   - M365-collaboration

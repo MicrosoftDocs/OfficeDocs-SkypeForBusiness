@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring Windows 8 for Virtual Smart Cards'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Windows 8 for Virtual Smart Cards
 ms:assetid: 4916c167-4ee3-4f3e-b65c-33e588595112
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308564(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2013-07-03_
 
 One factor to consider when deploying two-factor authentication and smart card technology is the cost of implementation. Windows 8 provides a number of new security capabilities, and one of the most interesting new features is support for virtual smart cards.
 
-For computers equipped with a Trusted Platform Module (TPM) chip that meets specification version 1.2, organizations can now get the benefits of smart card logon without making any additional investments in hardware. For more information, see Using Virtual Smart Cards with Windows 8 at [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365).
+For computers equipped with a Trusted Platform Module (TPM) chip that meets specification version 1.2, organizations can now get the benefits of smart card logon without making any additional investments in hardware. For more information, see Using Virtual Smart Cards with Windows 8 at [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365).
 
 <div>
 

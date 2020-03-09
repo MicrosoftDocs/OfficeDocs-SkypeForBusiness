@@ -17,9 +17,11 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords: 
+- CSH
 ms.custom: 
   - Audio Conferencing
+  - ms.teamsadmincenter.audioconferencing.overview
 ---
 
 # Audio Conferencing in Office 365
@@ -41,7 +43,7 @@ After attendees have joined meeting, they can also dial out and invite other cal
 See [Dialing out from a Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) or [Dialing out from a Skype for Business meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## What does it cost?
-For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## Where is it available?
 With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.

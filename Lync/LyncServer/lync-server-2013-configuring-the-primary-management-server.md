@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring the primary management server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the primary management server
 ms:assetid: 44e2e9a8-c130-4c66-9871-80b1ff11b27c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204844(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configuring the primary management server in Lync Server 2013
 
@@ -54,9 +56,9 @@ When you install System Center Operations Manager 2012 or System Center Operatio
 
   - Data warehouse
 
-These components and their installation will not be discussed in detail in this document. For details about System Center Operations Manager 2007 R2, see the Operations Manager 2007 R2 documentation at <http://go.microsoft.com/fwlink/p/?linkid=257526> and the System Center Operations Manager 2012 documentation at <http://go.microsoft.com/fwlink/p/?linkid=257527>. You should follow those instructions if you are going to use SQL Server 2005 or SQL Server 2008 Service Pack 1 as your back-end database.
+These components and their installation will not be discussed in detail in this document. For details about System Center Operations Manager 2007 R2, see the Operations Manager 2007 R2 documentation at <https://go.microsoft.com/fwlink/p/?linkid=257526> and the System Center Operations Manager 2012 documentation at <https://go.microsoft.com/fwlink/p/?linkid=257527>. You should follow those instructions if you are going to use SQL Server 2005 or SQL Server 2008 Service Pack 1 as your back-end database.
 
-If you are using System Center Operations Manager 2012 then you can use SQL Server 2012 as your back-end database. For details about SQL Server 2012, see Books Online for SQL Server 2012 at [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528).
+If you are using System Center Operations Manager 2012 then you can use SQL Server 2012 as your back-end database. For details about SQL Server 2012, see Books Online for SQL Server 2012 at [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528).
 
 Keep in mind that you can only have a single Primary Management Server per Lync Server deployment. Also, while you can use either System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, you cannot run the two applications simultaneously—you must choose one or the other. For example, if you are running System Center Operations Manager 2012 then all your System Center agents must also be running System Center Operations Manager 2012. You cannot have some agents running System Center Operations Manager 2012 and other agents running System Center Operations Manager 2007 R2.
 

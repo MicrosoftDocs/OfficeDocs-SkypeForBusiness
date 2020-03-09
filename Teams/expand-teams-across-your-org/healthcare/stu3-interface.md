@@ -1,12 +1,14 @@
 ---
 title: Patients App and EHR integration STU3 interface
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -45,7 +47,7 @@ These are the minimum required fields:
    1. Mode
    2. Interaction
    3. Resource: Type
-   4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
 See [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) for other details on this field set.
@@ -127,7 +129,7 @@ See the following example of the call:
                 "type": {
                   "coding": [
                     {
-                      "system": "http://hl7.org/fhir/v2/0203",
+                      "system": "https://hl7.org/fhir/v2/0203",
                       "code": "MR",
                       "display": "Medical record number",
                       "userSelected": false
@@ -203,7 +205,7 @@ See the following example of the call:
           "type": {
             "coding": [
               {
-                "system": "http://hl7.org/fhir/v2/0203",
+                "system": "https://hl7.org/fhir/v2/0203",
                 "code": "MR",
               }
             ],
@@ -225,7 +227,7 @@ See the following example of the call:
 
 * * *
 
-See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) for other details on this field set.
+See [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) for other details on this field set.
 
 ## Observation
 
@@ -268,7 +270,7 @@ Refer to this example of the call:
               {
                 "coding": [
                   {
-                    "system": "http://hl7.org/fhir/observation-category",
+                    "system": "https://hl7.org/fhir/observation-category",
                     "code": "vital-signs"
                   }
                 ],
@@ -363,11 +365,11 @@ See the following example of this call:
     }
 
 * * *
-See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) for other details on this field set.
+See [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) for other details on this field set.
 
 ## Encounter
 
-These are the minimum required fields, which are a subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
+These are the minimum required fields, which are a subset of the [US Core Encounter profile](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
 
 1. Status
 2. Type[0].Coding[0].Display
@@ -385,7 +387,7 @@ A resource search uses the GET method and the following parameters:
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
-See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) for other details on this field set.
+See [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) for other details on this field set.
 
 ## AllergyIntolerance
 
@@ -461,7 +463,7 @@ See the following example of the call:
 
 * * *
 
-See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) for other details on this field set.
+See [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) for other details on this field set.
 
 ## Medication Request
 
@@ -498,4 +500,4 @@ A resource search uses the GET method and the following parameters:
 
 1. Patient = \<patient id>
 
-See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) for other details on this field set.
+See [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) for other details on this field set.

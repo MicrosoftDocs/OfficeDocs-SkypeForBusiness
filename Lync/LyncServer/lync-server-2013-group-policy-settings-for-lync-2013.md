@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Group Policy settings for Lync 2013'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group Policy settings for Lync 2013
 ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Group Policy settings for Lync 2013
 
@@ -30,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-03_
 
-In previous versions of Lync and Office Communicator, a stand-alone Communicator.adm administrative template was available for configuring client Group Policy settings. For Lync 2013, new administrative template files (.admx and .adml files) are included along with the Office Group Policy Administrative Template. The availability of Lync 2013 .admx and .adml files allows you to download templates and centrally manage Group Policy settings for all your Office programs and language packs. For details, see “Office 2013 Administrative Template files (ADMX, ADML)” in the Office 2013 documentation at <http://go.microsoft.com/fwlink/p/?linkid=267516>.
+In previous versions of Lync and Office Communicator, a stand-alone Communicator.adm administrative template was available for configuring client Group Policy settings. For Lync 2013, new administrative template files (.admx and .adml files) are included along with the Office Group Policy Administrative Template. The availability of Lync 2013 .admx and .adml files allows you to download templates and centrally manage Group Policy settings for all your Office programs and language packs. For details, see “Office 2013 Administrative Template files (ADMX, ADML)” in the Office 2013 documentation at <https://go.microsoft.com/fwlink/p/?linkid=267516>.
 
 <div>
 

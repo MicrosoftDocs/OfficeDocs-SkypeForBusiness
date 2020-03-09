@@ -11,6 +11,8 @@ audience: admin
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

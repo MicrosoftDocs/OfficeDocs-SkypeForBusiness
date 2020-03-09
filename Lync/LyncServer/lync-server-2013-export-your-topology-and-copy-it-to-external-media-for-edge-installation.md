@@ -3,6 +3,8 @@ title: 'Export your topology and copy it to external media for edge installation
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export your topology and copy it to external media for edge installation
 ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398983(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Export your Lync Server 2013 topology and copy it to external media for edge installation
 

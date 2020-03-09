@@ -1,7 +1,7 @@
 ---
 title: User presence in Teams
-author: jambirk
-ms.author: jambirk
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -12,6 +12,8 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

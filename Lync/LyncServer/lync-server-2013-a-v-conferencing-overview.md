@@ -3,6 +3,8 @@ title: Lync Server 2013 A/V conferencing overview
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: A/V conferencing overview
 ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Overview of A/V conferencing in Lync Server 2013
 
@@ -36,7 +38,7 @@ To plan for A/V conferencing, you need to understand the network bandwidth requi
 
 Before you enable users for A/V conferencing, ensure that your network can handle the resulting load. Without sufficient network bandwidth, the user experience may be severely degraded. You can use call admission control (CAC) to manage the network bandwidth used by A/V Conferencing. This is important for restricted networks, such as limited bandwidth links between central and branch sites. For details, see [Overview of call admission control in Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). For details about media bandwidth requirements, see [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-If you deploy audio conferencing in your network, your users will need audio devices such as headsets to participate in an audio conference. If you deploy video conferencing, you need to deploy video devices, such as webcams for users. We recommend that you use unified communications (UC) devices that are certified by Microsoft for all device types, to ensure an optimal user experience. For details about UC-certified devices, see "Phones and Devices for Lync" at [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861). For either audio or video devices, device deployment, and user training are important steps for you to consider and plan for.
+If you deploy audio conferencing in your network, your users will need audio devices such as headsets to participate in an audio conference. If you deploy video conferencing, you need to deploy video devices, such as webcams for users. We recommend that you use unified communications (UC) devices that are certified by Microsoft for all device types, to ensure an optimal user experience. For details about UC-certified devices, see "Phones and Devices for Lync" at [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861). For either audio or video devices, device deployment, and user training are important steps for you to consider and plan for.
 
 The following sections describe the features for audio and video conferencing, including information about managing bandwidth and selecting the appropriate clients.
 

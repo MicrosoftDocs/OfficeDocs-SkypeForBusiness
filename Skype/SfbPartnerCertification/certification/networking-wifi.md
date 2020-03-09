@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business - Networking Wi-Fi"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - mt147899
@@ -58,7 +59,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>HiveOS 6.4r1</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="5"><a href="http://www.arubanetworks.com/">Aruba, a Hewlett Packard Enterprise Company</a></td>
+			<td rowspan="5"><a href="https://www.arubanetworks.com/">Aruba, a Hewlett Packard Enterprise Company</a></td>
 			<td>AP 204/205, AP 214/215, AP 224/225, AP 274/275 802.11ac</td>
 			<td>Aruba Mobility Controller 3600</td>
 			<td>AOS 6.4.2.0</td>
@@ -84,7 +85,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>3507P26</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
+			<td rowspan="3"><a href="https://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
 			<td>Aironet 802.11n</td>
 			<td>AIR-CT5508-K9</td>
 			<td>SW 7.6</td>
@@ -100,7 +101,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>IOS-XE 03.07.00E</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
+			<td rowspan="3"><a href="https://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
 			<td>W-AP204/205, W-AP214/215, W-AP224/225, W-AP274/275 802.11ac</td>
 			<td>Dell Networking W-Series Mobility Controller W-3600</td>
 			<td>AOS 6.4.2.0 and higher</td>
@@ -116,7 +117,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>4.0.0.7 and higher</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+			<td rowspan="3"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
 			<td>IdentiFi Wireless Appliances and IdentiFi 802.11n</td>
 			<td>IdentiFi V2110 Virtual Controller on Vmware</td>
 			<td>9.01.01.0228</td>
@@ -172,7 +173,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 
 |PC Vendor  |Certified Product  |Driver Version Tested  |
 |:----|:----|:----|
-|[Dell, Inc.](http://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)| Lattitude E7450|6.30.223.262|
+|[Dell, Inc.](https://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)| Lattitude E7450|6.30.223.262|
 |[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250|         |
 |  | |  |
  

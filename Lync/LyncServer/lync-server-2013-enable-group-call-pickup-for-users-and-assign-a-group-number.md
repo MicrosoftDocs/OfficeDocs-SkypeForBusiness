@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable Group Call Pickup for users and assign a group 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Group Call Pickup for users and assign a group number
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945650(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Enable Group Call Pickup for users in Lync Server 2013 and assign a group number
 

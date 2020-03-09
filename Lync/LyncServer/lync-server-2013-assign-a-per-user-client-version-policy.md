@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user client version policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user client version policy
 ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)
@@ -85,7 +87,7 @@ For details about creating per-user client version policies, see [Specifying the
 
 ## Assigning a Per-User Client Version Policy by Using Windows PowerShell Cmdlets
 
-You can assign per-user client version policies by using the Grant-CsClientVersionPolicy cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+You can assign per-user client version policies by using the Grant-CsClientVersionPolicy cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## To assign a per-user client version policy to a single user
 
@@ -95,7 +97,7 @@ You can assign per-user client version policies by using the Grant-CsClientVersi
 
 ## To assign a per-user client version policy to multiple users
 
-  - This command assigns the per-user client version policy RedmondClientVersionPolicy to all the users who are currently assigned the voice policy RedmondVoicePolicy. For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
+  - This command assigns the per-user client version policy RedmondClientVersionPolicy to all the users who are currently assigned the voice policy RedmondVoicePolicy. For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -105,7 +107,7 @@ You can assign per-user client version policies by using the Grant-CsClientVersi
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-For more information, see the help topic for the [Grant-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/gg412903\(v=ocs.15\)) cmdlet.
+For more information, see the help topic for the [Grant-CsClientVersionPolicy](https://technet.microsoft.com/library/gg412903\(v=ocs.15\)) cmdlet.
 
 ## See Also
 

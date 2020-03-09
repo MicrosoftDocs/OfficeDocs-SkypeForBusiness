@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Disable Group Call Pickup for users'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable Group Call Pickup for users
 ms:assetid: 91b06f9e-2840-45a2-bbb3-6a29179b9a9f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945638(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Disable Group Call Pickup for users in Lync Server 2013
 

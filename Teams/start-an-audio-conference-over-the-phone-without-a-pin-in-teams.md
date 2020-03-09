@@ -16,7 +16,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn how to enable or disable anonymous callers from joining a meeting from the Teams admin center. "

@@ -13,6 +13,8 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: 
   - Licensing
@@ -48,7 +50,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> If you are looking for how much it costs, see [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Phone System](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
-|**Calling Plans** <br/> |Calls to other Teams users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
+|**Calling Plans** <br/> |Calls to other Teams users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Microsoft Teams Rooms** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Microsoft Teams Rooms](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -77,7 +79,7 @@ See your plan under "License options based on your plan" for more details about 
 ## How do I use my existing Calling Plans with Teams?
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
@@ -95,5 +97,5 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

@@ -6,7 +6,9 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
@@ -21,7 +23,7 @@ description: "Skype for Business Server web conferencing includes document colla
 Skype for Business Server web conferencing includes document collaboration, application sharing, and desktop sharing.
   
 > [!NOTE]
-> Skype for Business Server uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations. Web conferencing features function exactly the same as they do in Microsoft Lync 2013. For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype for Business Server uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations. Web conferencing features function exactly the same as they do in Microsoft Lync 2013. For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx). 
   
 For planning details about enabling web conferencing in your organization, see the following topics: 
   

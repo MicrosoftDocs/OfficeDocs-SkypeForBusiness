@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
@@ -45,7 +47,7 @@ Get Cube operation returns the list of available dimensions and measurements.
 > [!NOTE]
 > This sample is only showing first two elements of each groups of Cube elements. 
   
-```
+```json
 {
 "Kpis": [{
 "FriendlyName": "Poor Trend Month",

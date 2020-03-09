@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

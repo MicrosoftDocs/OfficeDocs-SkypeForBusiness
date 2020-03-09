@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Public Key Infrastructure'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Public Key Infrastructure for Lync Server 2013
 ms:assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481131(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Public Key Infrastructure for Lync Server 2013
 
@@ -42,7 +44,7 @@ Each certificate is linked to a public key. The server named on the certificate 
 
 
 > [!NOTE]  
-> Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
+> Not all public CAs comply with the requirements of Lync Server 2013 certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see Unified Communications Certificate Partners at <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>.
 
 
 

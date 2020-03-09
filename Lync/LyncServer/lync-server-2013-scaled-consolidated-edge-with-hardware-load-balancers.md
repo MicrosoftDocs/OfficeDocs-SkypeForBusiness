@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Scaled consolidated edge with hardware load balancers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Scaled consolidated edge with hardware load balancers in Lync Server 2013
 
@@ -97,9 +99,9 @@ For details, see the “Hardware Load Balancer Requirements for A/V Edge” sect
 ## See Also
 
 
-[IP Version 6 Addressing Architecture](http://tools.ietf.org/html/rfc4291)  
-[IPv6 Global Unicast Address Format](http://tools.ietf.org/html/rfc3587)  
-[Unique Local IPv6 Unicast Addresses](http://tools.ietf.org/html/rfc4193)  
+[IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)  
+[IPv6 Global Unicast Address Format](https://tools.ietf.org/html/rfc3587)  
+[Unique Local IPv6 Unicast Addresses](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

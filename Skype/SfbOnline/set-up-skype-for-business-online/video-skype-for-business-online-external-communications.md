@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: "Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. "
@@ -32,7 +33,7 @@ Set up Skype for Business Online external communications so your users can commu
 ***
   
 ## Related topics
-[Set up Skype for Business Online external communications](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guided walkthrough)
+[Set up Skype for Business Online external communications](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guided walkthrough)
 
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 

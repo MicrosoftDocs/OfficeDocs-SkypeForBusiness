@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788945
@@ -26,7 +27,7 @@ The tables that follows shows the network infrastructure solutions that have bee
 
 Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
-For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
+For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
 Please contact the listed partner for more information on these products.
 
@@ -51,7 +52,7 @@ Please contact the listed partner for more information on these products.
 		<td>HiveOS 6.4r1</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="3"><a href="http://www.arubanetworks.com/solutions/lync">Aruba Networks, Inc.</a></td>
+		<td rowspan="3"><a href="https://www.arubanetworks.com/solutions/lync">Aruba Networks, Inc.</a></td>
 		<td>Aruba Mobility Controller and Aruba AP 204/205, AP 214/215, AP 224/225, AP 274/275 802.11ac Access Points</td>
 		<td>3600</td>
 		<td>AOS 6.4.2.0</td>
@@ -67,7 +68,7 @@ Please contact the listed partner for more information on these products.
 		<td>4.0.0.7</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="4"><a href="http://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
+		<td rowspan="4"><a href="https://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
 		<td>Cisco Wireless LAN Controllers, Cisco Aironet 802.11n Access Points</td>
 		<td>AIR-CT5508-K9</td>
 		<td>SW 7.6</td>
@@ -88,7 +89,7 @@ Please contact the listed partner for more information on these products.
 		<td>IOS-XE: 03.07.00E / AireOS 8.0.100.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="3"><a href="http://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
+		<td rowspan="3"><a href="https://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
 		<td>Dell Networking W-Series Mobility Controller and W-AP204/205, W-AP214/215, W-AP224/225, W-AP274/275 802.11ac Access Points.</td>
 		<td>W-3600</td>
 		<td>AOS 6.4.2.0 and higher</td>
@@ -104,7 +105,7 @@ Please contact the listed partner for more information on these products.
 		<td>4.0.0.7 and higher</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="http://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+		<td rowspan="2"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
 		<td>IdentiFi Wireless Appliances and IdentiFi 802.11n Access Points</td>
 		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
 		<td>9.01.01.0228</td>
@@ -172,15 +173,15 @@ Please contact the listed partner for more information on these products.
 		<td><strong>Qualification</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.arubanetworks.com/solutions/lync">Aruba Networks</a></td>
+		<td><a href="https://www.arubanetworks.com/solutions/lync">Aruba Networks</a></td>
 		<td>S1500, S2500, and S3500 Mobility Access Switches</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.brocade.com/downloads/documents/deployment_guides/Brcd_MS_Lync_Server.pdf">Brocade</a></td>
+		<td><a href="https://www.brocade.com/downloads/documents/deployment_guides/Brcd_MS_Lync_Server.pdf">Brocade</a></td>
 		<td>Brocade MLX, SX, ICX, VDX, 5120</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="http://www.dell.com/learn/us/en/04/campaigns/networking?c=us%26l=en%26s=bsd">Dell, Inc.</a></td>
+		<td rowspan="2"><a href="https://www.dell.com/learn/us/en/04/campaigns/networking?c=us%26l=en%26s=bsd">Dell, Inc.</a></td>
 		<td>
 			<p>Dell Networking OS9.5 and higher with Dell Networking Switch Models:</p>
 			<p>S4810, S6000, S5000, S4820T, Z9500, Z9000, M I/0 aggregator, MXL 10/40 GbE</p>
@@ -193,7 +194,7 @@ Please contact the listed partner for more information on these products.
 		</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.extremenetworks.com/partners/tsp/convergence/microsoft-lync">Extreme Networks</a></td>
+		<td><a href="https://www.extremenetworks.com/partners/tsp/convergence/microsoft-lync">Extreme Networks</a></td>
 		<td>ExtremeXOS 15.3.14</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">

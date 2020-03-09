@@ -3,6 +3,8 @@ title: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectiv
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Frequently Asked Questions: Provisioning Lync Server 2013 for Skype connectivity
 
@@ -117,7 +119,7 @@ Once this change goes live, we will no longer be able to provide email updates o
 
 2.  Wait until you see confirmation that your domain has been provisioned by Microsoft.
 
-3.  After you see the confirmation, use the Lync admin center to turn on “external communications”. For more information, see [http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  After you see the confirmation, use the Lync admin center to turn on “external communications”. For more information, see [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 This order is important.  You must set up the on-premise connectivity before you enable the communications in Lync Online. If the order is reversed, the information entered for on-premise in <https://pic.lync.com> will not go through. If you have already set up Lync Online for external communications with this domain, you must turn it off, wait for 24 hours, and start again, first by entering your on-premise information at <https://pic.lync.com> and then turning on external communications for Lync Online.
 
@@ -131,7 +133,7 @@ This order is important.  You must set up the on-premise connectivity before yo
 
 **Q: How do I add a Windows Live Messenger contact that has an ID containing a domain other than those supported by Windows Live?**
 
-**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user. For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com. For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at http://support.microsoft.com/?kbid=897567.
+**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user. For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com. For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at https://support.microsoft.com/?kbid=897567.
 
 **Q: How long does the provisioning process take?**
 

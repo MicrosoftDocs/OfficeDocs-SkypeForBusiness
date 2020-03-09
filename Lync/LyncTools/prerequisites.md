@@ -3,6 +3,8 @@ title: Prerequisites
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites
 ms:assetid: 48016bea-be3b-4ba5-8df8-d8ad4d9243d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945592(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Prerequisites
 
@@ -58,11 +60,11 @@ To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013
 
 Your client computer must meet the following software requirements:
 
-  - You must have the [Microsoft .NET Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212) runtime installed.
+  - You must have the [Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) runtime installed.
 
   - On Windows Server 2008/Windows Server 2012, the Desktop Experience feature must be enabled.
 
-  - You must have the [Microsoft Visual C++ 2012 redistributable package](http://go.microsoft.com/fwlink/?linkid=143216) (x64) installed.
+  - You must have the [Microsoft Visual C++ 2012 redistributable package](https://go.microsoft.com/fwlink/?linkid=143216) (x64) installed.
 
   - A fully configured Lync Server 2013 deployment.
 

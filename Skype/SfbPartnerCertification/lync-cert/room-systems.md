@@ -1,7 +1,7 @@
 ---
 title: "Lync Room Systems"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788944
@@ -60,8 +61,8 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 			<td>Lync Server 2013, Lync Online</td>
 			<td rowspan="6">
 				<ul>
-					<li><a href="https://support.microsoft.com/en-us/kb/3061980/">Article ID: 3061980 About the SCEP feature in April 2015 Update</a></li>
-					<li><a href="https://support.microsoft.com/en-us/kb/3048567/">Article ID: 3048567 April 2015 Update Release Notes</a></li>
+					<li><a href="https://support.microsoft.com/kb/3061980/">Article ID: 3061980 About the SCEP feature in April 2015 Update</a></li>
+					<li><a href="https://support.microsoft.com/kb/3048567/">Article ID: 3048567 April 2015 Update Release Notes</a></li>
 					<li><a href="https://support.microsoft.com/kb/2921197/en-us">Article ID: 2921197 User interface elements are not displayed when you restart Lync Room System</a></li>
 					<li><a href="https://support.microsoft.com/kb/2926665/en-us">Article ID: 2926665 Lync Room System whiteboard drawing feature</a></li>
 					<li><a href="https://support.microsoft.com/kb/2920614/en-us">Article ID: 2920614 - Lync Room System device cannot sign in automatically when a user restarts the device</a></li>
@@ -74,7 +75,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="2">Polycom</td>
-			<td rowspan="2"><a href="http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="Polycom CX8000">Polycom CX8000</a></td>
+			<td rowspan="2"><a href="https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="Polycom CX8000">Polycom CX8000</a></td>
 			<td>CX8000 Front of Room Single or Dual Display</td>
 			<td>September 2013</td>
 			<td>Crestron RL2 console<br />Front of room camera - Logitech C930e webcam<br />Crestron Speaker<br />Crestron 10 inch Touch Screen<br />Display options include:<br />Sharp 80 inch Interactive LED display (PN-L802B), LG 55 inch multi-touch display (55WT30MS-B)</td>

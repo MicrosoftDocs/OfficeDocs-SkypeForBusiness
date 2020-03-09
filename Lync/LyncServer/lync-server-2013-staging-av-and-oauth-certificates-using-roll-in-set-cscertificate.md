@@ -3,6 +3,8 @@ title: 'Staging AV and OAuth certificates using -Roll in Set-CsCertificate'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate
 
@@ -165,8 +167,8 @@ When the effective time is reached (7/21/2012 1:00:00 AM), all new tokens are is
 
 
 [Set up Edge certificates for Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))  
-[Remove-CsCertificate](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))  
+[Set-CsCertificate](https://technet.microsoft.com/library/Gg398518(v=OCS.15))  
+[Remove-CsCertificate](https://technet.microsoft.com/library/Gg412895(v=OCS.15))  
   
 
 </div>

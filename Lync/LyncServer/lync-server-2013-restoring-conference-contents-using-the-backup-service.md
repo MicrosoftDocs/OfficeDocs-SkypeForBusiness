@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restoring conference contents using the Backup Service
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring conference contents using the Backup Service
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688030(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Restoring conference contents using the Backup Service in Lync Server 2013
 

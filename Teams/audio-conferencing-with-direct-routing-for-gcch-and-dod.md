@@ -15,6 +15,8 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Learn how you can use Audio Conferencing with Direct Routing in GCCH and DoD environments."
 ---
@@ -85,7 +87,7 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your users
 
-To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ### Step 5: (Optional) See a list of Audio Conferencing numbers in Teams
 

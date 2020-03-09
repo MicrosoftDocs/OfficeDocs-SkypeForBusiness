@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Setting up reverse proxy servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Setting up reverse proxy servers for Lync Server 2013
 
@@ -58,7 +60,7 @@ You can use Microsoft Forefront Threat Management Gateway 2010, Microsoft Intern
 
 
 > [!IMPORTANT]  
-> Internet Information Server Application Request Routing (IIS ARR) is a fully tested and supported option for implementing a reverse proxy for Lync Server 2010 and Lync Server 2013. In November, 2012, Microsoft ceased license sales of ForeFront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties. Also, many third party hardware load balancers and firewalls provide reverse proxy support. For hardware load balancers and firewalls that provide reverse proxy features, check with your vendor for specific instructions on how to configure their product to provide reverse proxy support for Lync Server. You can also view third parties that have submitted documentation for their product to Microsoft. Support is provided by the third party for their solution. To see third parties that are active in providing solutions, see <A href="http://go.microsoft.com/fwlink/?linkid=268730">Infrastructure qualified for Microsoft Lync</A>.
+> Internet Information Server Application Request Routing (IIS ARR) is a fully tested and supported option for implementing a reverse proxy for Lync Server 2010 and Lync Server 2013. In November, 2012, Microsoft ceased license sales of ForeFront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties. Also, many third party hardware load balancers and firewalls provide reverse proxy support. For hardware load balancers and firewalls that provide reverse proxy features, check with your vendor for specific instructions on how to configure their product to provide reverse proxy support for Lync Server. You can also view third parties that have submitted documentation for their product to Microsoft. Support is provided by the third party for their solution. To see third parties that are active in providing solutions, see <A href="https://go.microsoft.com/fwlink/?linkid=268730">Infrastructure qualified for Microsoft Lync</A>.
 
 
 
@@ -87,27 +89,27 @@ The following topics and procedures use Forefront Threat Management Gateway 2010
 To successfully deploy Forefront Threat Management Gateway 2010 as your reverse proxy, you need to setup and configure a server, using the prerequisites and hardware requirements defined in the Forefront Threat Management Gateway 2010 documentation. See the following topic set to properly configure the hardware and to install Forefront Threat Management Gateway 2010 on the server before proceeding.
 
   - <span></span>  
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront Threat Management Gateway (TMG) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Forefront TMG 2010 hardware recommendations](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Forefront TMG 2010 hardware recommendations](https://go.microsoft.com/fwlink/?linkid=291293)
 
 To successfully deploy IIS ARR as your reverse proxy, review the following topics to configure the hardware and the prerequisite software.
 
   - <span></span>  
-    To install IIS on Windows Server 2008 or Windows Server 2008 R2, see [Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+    To install IIS on Windows Server 2008 or Windows Server 2008 R2, see [Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2](https://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
-    To install IIS on Windows Server 2012, see [Installing IIS 8 on Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+    To install IIS on Windows Server 2012, see [Installing IIS 8 on Windows Server 2012](https://go.microsoft.com/fwlink/?linkid=291297)
 
   - <span></span>  
-    To install IIS on Windows Server 2012 R2, see [Installing IIS 8.5 on Windows Server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+    To install IIS on Windows Server 2012 R2, see [Installing IIS 8.5 on Windows Server 2012 R2](https://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
-    To download the Application Request Routing extension for IIS, follow the instructions at [Application Request Routing v2.5 Download](http://go.microsoft.com/fwlink/?linkid=291298)
+    To download the Application Request Routing extension for IIS, follow the instructions at [Application Request Routing v2.5 Download](https://go.microsoft.com/fwlink/?linkid=291298)
 
   - <span></span>  
-    To install ARR, for the instructions at [Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)
+    To install ARR, for the instructions at [Install Application Request Routing Version 2](https://go.microsoft.com/fwlink/?linkid=291299)
     
     <div>
     

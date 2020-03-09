@@ -15,11 +15,12 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.DashboardOrganizationInformation
-- ms.lync.lac.DashboardUserStatistics
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.DashboardOrganizationInformation
+- ms.lync.lac.DashboardUserStatistics
 description: "Learn what Skype for business user statistics are available, such as the number of enabled users, conference enabled users, or users that are enabled for Office 365."
 ---
 
@@ -35,7 +36,7 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
 |Skype for Business Online users  <br/> |To add or block people from using the Skype for Business app, see [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) or [Remove licenses from users in Office 365 for business](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> For a complete list of what to do when a user leaves your business, see [Remove a former employee from Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
 |Users enabled for Audio Conferencing  <br/> |To enable people for Audio Conferencing, see [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
 |Users in the cloud  <br/> |This is the number of Skype for Business Online users who have Office 365 accounts.  <br/> To add people to your Office 365 subscription (that is, create Office 365 accounts for them), see [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Users synced and homed online  <br/> |This is the number of hybrid users that are created in a Skype for Business Server on-premises deployment but are synced to Office 365.  <br/> To set up a Skype for Business hybrid connectivity see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
+|Users synced and homed online  <br/> |This is the number of hybrid users that are created in a Skype for Business Server on-premises deployment but are synced to Office 365.  <br/> To set up a Skype for Business hybrid connectivity see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > If you see Unavailable listed, this means there is no information or there were errors. 

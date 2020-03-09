@@ -10,6 +10,8 @@ audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
   - M365-collaboration
@@ -121,7 +123,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Skype consumer - Teams call support | Available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
-| Store | App Store | On the Government backlog |
+| Store | App Store | Available |
 | Search | Messages | Available |
 | | People | Available |
 | | Files | Available |
@@ -133,7 +135,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | | eDiscovery | Available |
 
 > [!Note]
-
 > Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
 
 

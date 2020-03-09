@@ -1,7 +1,7 @@
 ---
 title: "Virtual Desktop Infrastructure for Lync Server 2013"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788944
@@ -64,7 +65,7 @@ The following table lists the VDI partners and their products which have been te
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
-				<p><a href="http://www.citrix.com/products/xendesktop/overview.html" title="http://www.citrix.com/products/xendesktop/overview.html">http://www.citrix.com/products/xendesktop/overview.html</a></p>
+				<p><a href="https://www.citrix.com/products/xendesktop/overview.html" title="https://www.citrix.com/products/xendesktop/overview.html">https://www.citrix.com/products/xendesktop/overview.html</a></p>
 				<p>Note: Citrix VDI solution for Lync Plugin is currently approved for use with Win7 client OS. Testing on Win8 and 8.1 is in progress. For the best experience, Microsoft recommends updating to the latest available Lync cumulative update.</p>
 			</td>
 		</tr>
@@ -77,7 +78,7 @@ The following table lists the VDI partners and their products which have been te
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
-				<p><a href="https://www.microsoft.com/en-us/itpro/windows">https://www.microsoft.com/en-us/itpro/windows</a></p>
+				<p><a href="https://www.microsoft.com/itpro/windows">https://www.microsoft.com/itpro/windows</a></p>
                 <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
 			</td>
 		</tr>

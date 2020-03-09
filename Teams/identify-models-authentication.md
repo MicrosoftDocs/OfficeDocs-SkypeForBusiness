@@ -10,6 +10,8 @@ ms.reviewer: anach
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
@@ -56,4 +58,4 @@ Once the users are enrolled for MFA, the next time a user signs in, they will se
 |Tenant Type  |Available MFA Second Factor options  |Notes  |
 |---------|---------|---------|
 |**Cloud Only**     |MFA for Office 365 <ul><li>Phone Call</li><li>Text Message</li><li>Mobile App Notification</li><li>Mobile App Verification Code</li></ul>        |[Plan for multi-factor authentication for Office 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Azure AD Identity Provider Compatibility Docs](https://www.microsoft.com/en-us/download/details.aspx?id=56843)         |
+|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Azure AD Identity Provider Compatibility Docs](https://www.microsoft.com/download/details.aspx?id=56843)         |

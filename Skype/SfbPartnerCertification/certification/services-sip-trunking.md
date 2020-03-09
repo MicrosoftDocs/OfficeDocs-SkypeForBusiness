@@ -1,7 +1,7 @@
 ---
 title: "Services for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947484
@@ -44,7 +45,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Cebod Telecom](http://www.cebodtelecom.com) | Business SIP Trunking / Cloud PBX | |
 |[Cincinnati Bell Business / CBTS](https://www.cincinnatibell.com/)| SIP Trunking|         |
 |[Circuit ID](http://www.circuitid.com/cloud-sip/?ePlatform=lync) |Cloud SIP|         |
-|[Colt Technology Services](http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)|VoIP Access|         |
+|[Colt Technology Services](https://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)|VoIP Access|         |
 |[Columbus Business Solutions](http://www.columbus-business.com/) |CBS Cloud Voice|&#x2714;|
 |[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip) |Comscentre Sip Connect for Microsoft Lync|         |
 |[DIDforSale](http://www.didforsale.com/microsoft-skype-business-sip-trunks) |Business SIP Trunk / Cloud PBX |         |

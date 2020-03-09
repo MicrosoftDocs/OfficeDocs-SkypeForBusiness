@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
@@ -30,7 +32,7 @@ Skype for Business Server is available in Standard Edition and Enterprise Editio
 Skype for Business Server is an advanced product, and the exact installation process depends a great deal on your specific circumstances. This section walks you through the general steps to install the product. However, each procedure might be different depending on your environment and planning decisions. For example, for small organizations a single server, running Skype for Business Server Standard Edition might be appropriate, whereas a large multinational organization might have 50 servers at locations around the world dedicated to the product.
   
 > [!NOTE]
-> To learn about the latest Cumulative Updates, see [Updates for Skype for Business Server](https://support.microsoft.com/en-us/kb/3061064). After installing the CU1 patch an administrator needs to execute the  `Update-CsAdminRole` cmdlet. This cmdlet is required to access the new GCP cmdlets over Remote PowerShell.
+> To learn about the latest Cumulative Updates, see [Updates for Skype for Business Server](https://support.microsoft.com/kb/3061064). After installing the CU1 patch an administrator needs to execute the  `Update-CsAdminRole` cmdlet. This cmdlet is required to access the new GCP cmdlets over Remote PowerShell.
   
 > [!IMPORTANT]
 > The procedures in this section serve as an example using a narrowly defined set of requirements and assume specific decisions have already been made. The actual procedures you need to install Skype for Business Server will likely be very different. Use the procedures in this section as an example only and not as a step-by-step guide for installing Skype for Business Server in every environment. 

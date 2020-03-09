@@ -14,13 +14,14 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
-- ms.lync.lac.UsersExternalAccess
-- ms.lync.lac.UsersGeneralOptions
-- ms.lync.lac.UsersLyncToPhoneMoreInfo
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
 - LIL_Placement
+- ms.lync.lac.UsersExternalAccess
+- ms.lync.lac.UsersGeneralOptions
+- ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: "Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. "
 ---
 
@@ -37,7 +38,7 @@ To allow (or block) everyone in your business to communicate with external peopl
 ## Configure general settings for one user
 <a name="__toc325019204"> </a>
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
@@ -61,7 +62,7 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
 |:-----|:-----|
 |Audio and HD video  <br/> |Allow this person to record audio meetings, audio and video meetings, or don't allow them to schedule any meetings (none).  <br/> |
 |Record conversations and meetings  <br/> |Choose what this person is allowed to record.  <br/> This option is not available with Skype for Business Basic.  <br/> |
-|For compliance, turn off non-archived features  <br/> | Choose this option if you're legally required to preserve electronically stored information. <br/>  Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) set up in the Exchange admin center. It turns off the following features: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/> |
+|For compliance, turn off non-archived features  <br/> | Choose this option if you're legally required to preserve electronically stored information. <br/>  Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) set up in the Exchange admin center. It turns off the following features: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/> |
    
 To configure these settings in bulk, use PowerShell. See [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   

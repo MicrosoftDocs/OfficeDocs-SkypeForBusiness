@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Client and device software and infrastructure support'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and device software and infrastructure support
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Client and device software and infrastructure support in Lync Server 2013
 
@@ -52,9 +54,9 @@ Software support for clients and devices of a Lync Server 2013 deployment includ
 > Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010. For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library: 
 > <UL>
 > <LI>
-> <P>Required Lync Server 2010 Components for Devices at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Required Lync Server 2010 Components for Devices at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Device System and Infrastructure Support at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Device System and Infrastructure Support at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

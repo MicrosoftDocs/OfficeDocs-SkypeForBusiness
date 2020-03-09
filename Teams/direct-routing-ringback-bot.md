@@ -7,6 +7,8 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 description: Learn how to use the Ringback bot for Direct Routing to prevent unexpected silences that can occur when a call is being established.
 localization_priority: Normal
 ms.collection: 

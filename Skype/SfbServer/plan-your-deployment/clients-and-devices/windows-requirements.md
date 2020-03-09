@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -22,7 +24,7 @@ description: "Summary: Review the Windows client support requirements while plan
  
 **Summary:** Review the Windows client support requirements while planning Skype for Business Server.
   
-This section summarizes software required to support the Skype for Business Windows clients.  These clients are installed when Office 365 installs, and are also available at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
+This section summarizes software required to support the Skype for Business Windows clients.  These clients are installed when Office 365 installs, and are also available at [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
   
 > [!NOTE]
 > The Online Meeting Add-in for Skype for Business, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Skype for Business. 
@@ -39,7 +41,7 @@ This section summarizes software required to support the Skype for Business Wind
    
 ## Hardware
 
-Refer to the Office 365 [System requirements](https://products.office.com/en-us/office-system-requirements) for the hardware required to run the Skype for Business client.
+Refer to the Office 365 [System requirements](https://products.office.com/office-system-requirements) for the hardware required to run the Skype for Business client.
   
 ## Skype Meetings App and Skype for Business Web App 
 
@@ -73,6 +75,6 @@ Following are the Skype for Business for Windows Phone prerequisites.
   
 [Skype for Business on Mac client requirements](mac-requirements.md)
 
-[Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
+[Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 system requirements](https://products.office.com/en-us/office-system-requirements)
+[Office 365 system requirements](https://products.office.com/office-system-requirements)

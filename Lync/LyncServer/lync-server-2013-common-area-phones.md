@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Common area phones'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common area phones
 ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994076(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Common area phones in Lync Server 2013
 
@@ -40,7 +42,7 @@ Use the topics in this section to learn how to create contact objects for common
 
 
 > [!NOTE]  
-> You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone. The Polycom CX3000 IP conferencing phone is another variant common area phone. However, it is intended for use in conference rooms. For details about common area phones, see the Common Area Phones section of <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.
+> You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone. The Polycom CX3000 IP conferencing phone is another variant common area phone. However, it is intended for use in conference rooms. For details about common area phones, see the Common Area Phones section of <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.
 
 
 

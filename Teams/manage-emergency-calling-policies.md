@@ -10,12 +10,14 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage emergency calling policies in Microsoft Teams. 
-f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 ---
 
 # Manage emergency calling policies in Microsoft Teams
@@ -103,7 +105,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular teams policy. In this example, it's Operations Emergency Call Routing Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 

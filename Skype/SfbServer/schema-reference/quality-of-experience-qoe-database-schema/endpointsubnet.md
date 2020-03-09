@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 description: "The EndpointSubnet table is a supporting table. Each record represents one subnet captured from endpoints."

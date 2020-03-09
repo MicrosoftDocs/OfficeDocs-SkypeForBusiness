@@ -3,6 +3,8 @@ title: Lync Server 2013 Resource Kit Tools Documentation
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945604(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Lync Server 2013 Resource Kit Tools Documentation
 
@@ -36,7 +38,7 @@ This topic describes the tools that are part of the Lync Server 2013 Resource Ki
 
 ## Installation of the Resource Kit Tools
 
-To install the Lync Server 2013, Resource Kit Tools, download **OCSReskit.msi**. You can download the Resource Kit Tools installer from the Download Center at [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429).
+To install the Lync Server 2013, Resource Kit Tools, download **OCSReskit.msi**. You can download the Resource Kit Tools installer from the Download Center at [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429).
 
 Run **OCSResKit.msi** to do a simple installation. The .msi installs all the tools in the following path: **%Program Files%\\Microsoft Lync Server 2013\\ResKit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
 
@@ -2001,27 +2003,27 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 <tbody>
 <tr class="odd">
 <td><p>Microsoft .Net Framework 4.5</p></td>
-<td><p>http://go.microsoft.com/?linkid=9816306</p></td>
+<td><p>https://go.microsoft.com/?linkid=9816306</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=23650</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=23650</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Powershell version 3.0</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=34595</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34595</p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++ 2010 Redistributable</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=5555</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=5555</p></td>
 </tr>
 <tr class="odd">
 <td><p>Internet Information Server Updates</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=34869</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34869</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=17331</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013 Setup.exe</p></td>
@@ -2184,7 +2186,7 @@ This tool allows the administrator to perform the following operations:
 
 
 > [!NOTE]  
-> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the <STRONG>MoveConferenceData</STRONG> parameter. For details about this parameter, see the <A href="https://technet.microsoft.com/en-us/library/gg398528(v=ocs.15)">Move-CsUser</A> cmdlet.
+> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the <STRONG>MoveConferenceData</STRONG> parameter. For details about this parameter, see the <A href="https://technet.microsoft.com/library/gg398528(v=ocs.15)">Move-CsUser</A> cmdlet.
 
 
 

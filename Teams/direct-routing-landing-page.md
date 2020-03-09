@@ -11,7 +11,9 @@ ms.collection:
   - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords:
+- NOCSH
 description: Landing page for Direct Routing
 appliesto: 
   - Microsoft Teams
@@ -45,7 +47,7 @@ These are the core decisions to consider for Direct Routing.
 
 |Ask yourself|Action |
 | :------------|:-------|
-|For which users will I enable Direct Routing? | For more information, see [Enable users for Direct Routing Service](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+|For which users will I enable Direct Routing? | For more information, see [Enable users for Direct Routing Service](direct-routing-configure.md). |
 Do I have the required licenses for Direct Routing? | For more information, see [Licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
@@ -65,8 +67,8 @@ You'll need to configure Phone System to route the calls to the specific SBCs.
 
 |Ask yourself|Action |
 |:------------|:-------|
-| What voice routing policies, PSTN usage, and voice routes do I need to create? | For voice routing  information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing).
-| Which users will be assigned to the voice routing policy that I define? | See the examples in [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing). |
+| What voice routing policies, PSTN usage, and voice routes do I need to create? | For voice routing  information, see [Configure Voice Routing](direct-routing-configure.md).
+| Which users will be assigned to the voice routing policy that I define? | See the examples in [Configure Voice Routing](direct-routing-configure.md). |
 |||
 
 ### Ensure incoming calls land in the Teams client using TeamsUpgradePolicy

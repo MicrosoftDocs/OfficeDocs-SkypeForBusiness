@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -28,12 +30,12 @@ Organizations that have Skype for Business Server (or Lync Server) on-premises a
 
 ## Background information
 
-Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Office 365.  Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. *Users in your organization will be represented in both your on-premises and online directories.*
+Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Office 365.  Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. *Users in your organization will be represented in both your on-premises and online directories.*
 
 
 ## Configuring Azure AD when you have Skype for Business Server 
 
-Whether you have one on-premises Active Directory forest or multiple forests, Azure AD Connect can be used in a variety of supported topologies, as described in [Topologies for Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies).  From the perspective of Skype for Business Server, there are three main variations: 
+Whether you have one on-premises Active Directory forest or multiple forests, Azure AD Connect can be used in a variety of supported topologies, as described in [Topologies for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies).  From the perspective of Skype for Business Server, there are three main variations: 
 
 1. A single forest, which contains authoritative user identities and hosts Skype for Business Server. 
 
@@ -60,7 +62,7 @@ This scenario is often referred to as a resource forest topology. Users’ autho
 
 ### Multiple Skype for Business Server deployments in multiple forests 
 
-In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Office 365 tenant.  Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using AAD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain). For more details on how to consolidate such an environment into Office 365, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
+In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Office 365 tenant.  Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using AAD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using [disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain). For more details on how to consolidate such an environment into Office 365, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
 
 ## General requirements 
 
@@ -68,7 +70,7 @@ Both the Teams and Skype for Business Online services require that the correct A
 
  If users’ identities exist across multiple forests, Azure AD Connect should do the merge. When this guidance is followed,Azure AD Connect will automatically synchronize the correct attributes, provided you do not modify either the Connectors or Sync Rules in Azure AD Connect. 
   
-If you do not synchronize from all forests that contain user identities and the Skype for Business Server deployment, you must still ensure the relevant identity and Skype for Business attributes are correctly populated into Azure AD for any user using Teams or Skype for Business (whether on-premises or online)--which will likely require additional on-premises directory synchronization. For more information, see [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
+If you do not synchronize from all forests that contain user identities and the Skype for Business Server deployment, you must still ensure the relevant identity and Skype for Business attributes are correctly populated into Azure AD for any user using Teams or Skype for Business (whether on-premises or online)--which will likely require additional on-premises directory synchronization. For more information, see [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
 In such scenarios, it is the customer’s responsibility to ensure proper configuration for populating the attributes into Azure AD. Keep the following in mind: 
 
@@ -78,10 +80,10 @@ In such scenarios, it is the customer’s responsibility to ensure proper config
 
 ## Related information
 
-- [What is hybrid identity](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [What is hybrid identity](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
+- [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Topologies for Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Topologies for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSummaryPage
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: "Migration from Microsoft Office Communications Server 2007 R2 to Lync Server 2013 uses features of Topology Builder to merge the existing topologies. The summary screen specifies all of the actions and selections that you have made during the configuration of the merger of the Office Communications Server 2007 R2 into the Lync Server 2013 topology builder configuration."

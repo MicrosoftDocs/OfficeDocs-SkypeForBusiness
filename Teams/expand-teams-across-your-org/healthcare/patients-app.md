@@ -1,12 +1,14 @@
 ---
 title: Patients app overview
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -97,7 +99,7 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
                         {
                             "coding": [
                                 {
-                                    "system": "http://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
                                     "code": "OAuth"
                                 }
                             ]

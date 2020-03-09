@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -302,7 +304,7 @@ The CceService account is created during the Skype for Business Cloud Connector 
 
 An Office 365 tenant with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
 
-Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Create a dedicated Skype for Business administrator account for Cloud Connector online management, for example CceOnlineManagmentAdministrator. This account will be used by appliance to add or remove appliance, enable or disable automatic OS update, enable or disable automatic binary update. Set the password for this account to never expire so that you do not need to change it for the service each time it expires.
 

@@ -1,11 +1,13 @@
 ---
 title: "Configure a resource account in Skype for Business Server 2019"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
 ms.audience: ITPro
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

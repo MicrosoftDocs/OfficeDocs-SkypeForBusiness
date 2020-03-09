@@ -1,12 +1,14 @@
 ---
 title: Patients App and EHR integration DSTU2 interface
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -47,7 +49,7 @@ All the following FHIR resources should be accessible by direct resource referen
    1. Mode
    2. Interaction
    3. Resource: Type
-   4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)
 
 See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.
@@ -94,7 +96,7 @@ In addition to the Argonaut fields, for a great user experience the Patients app
           "type": {
             "coding": [
               {
-                "system": "http://hl7.org/fhir/v2/0203",
+                "system": "https://hl7.org/fhir/v2/0203",
                 "code": "MR"
               }
             ]

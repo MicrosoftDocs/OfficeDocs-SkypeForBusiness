@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using two-factor authentication with Lync client'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Using two-factor authentication with Lync client and Lync Server 2013
 

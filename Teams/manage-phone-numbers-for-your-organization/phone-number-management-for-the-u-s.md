@@ -16,15 +16,16 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Calling Plans
-description: "Use this table to find information on getting and managing phone numbers in the United States (and Puerto Rico) for Microsoft Teams."
+description: "Use this table to find information on getting and managing phone numbers in the United States (including Puerto Rico) for Microsoft Teams."
 ---
 
 # Phone number management for the U.S.
 
-Use this table to find information on getting and managing phone numbers in the United States (and Puerto Rico) for Microsoft Teams.
+Use this table to find information on getting and managing phone numbers in the United States (including Puerto Rico) for Microsoft Teams.
 
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   

@@ -1,7 +1,7 @@
 ---
 title: "SIP Trunking and E-911 services partner qualification for Lync"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788947
@@ -40,7 +41,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[C3NTRO](http://c3ntro.com/landing/sip/rznbcwnebh.html)  | Lync SIP Connect |  |
 |[Circuit ID](http://www.circuitid.com/cloud-sip/?ePlatform=lync)  | Cloud SIP |  |
 |[Lync Trunk](http://www.cirque.dk/da-dk/erhverv/microsoft-certificering.html)  |Cirque A/S  |&#x2714;  |
-|[Colt Technology Services](http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)  |VoIP Access  |  |
+|[Colt Technology Services](https://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)  |VoIP Access  |  |
 |[Columbus Business Solutions](http://www.columbus-business.com/)  | CBS Cloud Voice | &#x2714; |
 |[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip)  |Comscentre Sip Connect for Microsoft Lync |  |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365)  |SIP Trunking  |&#x2714;  |
@@ -105,7 +106,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Cellip](http://www.cellip.com/tjanster/microsoft-lync/) |Sip-trunk Lync|&#x2714;|
 |[CenturyLink](http://www.centurylink.com) |SIP Trunk|         |
 |[Cirque A/S](http://www.cirque.dk/)     |LYNC Trunk|&#x2714;|
-|[Colt](http://www.colt.net/uk/en/products-services/telephony/index.htm#tabArea)|Colt VoIP Access|         |
+|[Colt](https://www.colt.net/uk/en/products-services/telephony/index.htm#tabArea)|Colt VoIP Access|         |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365)     |SIP Trunking|         |
 |[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)     |SIP Trunk|         |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/) |SIP Trunking|         |

@@ -8,6 +8,8 @@ ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: "Summary: Read this topic to learn about hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015."
@@ -62,9 +64,9 @@ On the database server, be sure that one of the following software applications 
 
 - Microsoft SQL Server 2017 with the latest service pack.
 
-- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
-- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
+- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
 - Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
 

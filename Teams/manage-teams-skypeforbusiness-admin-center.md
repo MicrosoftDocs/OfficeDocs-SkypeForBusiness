@@ -10,9 +10,11 @@ ms.reviewer:
 search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Microsoft 365 admin center to the new Microsoft Teams admin center.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+  - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -97,12 +99,12 @@ The following table shows where you can manage features during the migration.
 |External access settings     |    X    |      |       |
 |User management    |         |         |    X     |    
 |Audio conferencing     |    X     |    X     |         |
-|Calling plans     |         |    X     |         |
-|Phone System    |         |     X    |         |
-|Phone number management     |         |   X      |         |
+|Calling plans     |    X    |    X     |         |
+|Phone System    |    X    |     X    |         |
+|Phone number management     |    X    |   X      |         |
 |Licensing for Cloud voice features     |         |         |    X     |
-|Auto attendants     |         |    X     |         |
-|Call queues     |         |    X     |         |
+|Auto attendants     |    X    |          |         |
+|Call queues     |    X    |          |         |
 
 ## Manage settings after the migration
 

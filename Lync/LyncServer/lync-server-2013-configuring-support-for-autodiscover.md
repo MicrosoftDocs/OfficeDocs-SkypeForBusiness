@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring support for Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for Autodiscover
 ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configuring support for Autodiscover in Lync Server 2013
 
@@ -44,7 +46,7 @@ The autodiscover service acts as a single location for all clients to request in
 
 </div>
 
-The following information and tables define, per scenario, what configurations (if any) you need to implement to provide the full and effective use of the autodiscover service. The information in the following topics is specific to Microsoft Lync Server 2013. If you are looking for guidance on how to plan Mobility for Lync Server 2010, see [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). To deploy Mobility for Lync Server 2010, see [http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+The following information and tables define, per scenario, what configurations (if any) you need to implement to provide the full and effective use of the autodiscover service. The information in the following topics is specific to Microsoft Lync Server 2013. If you are looking for guidance on how to plan Mobility for Lync Server 2010, see [https://go.microsoft.com/fwlink/?LinkId=275113](https://go.microsoft.com/fwlink/?linkid=275113). To deploy Mobility for Lync Server 2010, see [https://go.microsoft.com/fwlink/?LinkId=275114](https://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

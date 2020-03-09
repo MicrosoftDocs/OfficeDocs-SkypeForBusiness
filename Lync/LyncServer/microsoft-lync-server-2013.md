@@ -3,6 +3,8 @@ title: Microsoft Lync Server 2013
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Microsoft Lync Server 2013
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2014-03-14_
 
 Microsoft Lync Server 2013 communications software offers instant messaging (IM), presence, conferencing, and telephony solutions that can support enterprise-level collaboration requirements.
 
-Want to download a copy of the Lync Server 2013 documentation? You can download the **LyncServer2013\_ITPro** compiled help (.chm) file from the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103).
+Want to download a copy of the Lync Server 2013 documentation? You can download the **LyncServer2013\_ITPro** compiled help (.chm) file from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103).
 
 The following tables list the topics in the Lync Server 2013 documentation library.
 

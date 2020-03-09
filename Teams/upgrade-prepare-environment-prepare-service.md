@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Use this guidance to prepare your tenant for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -39,7 +41,7 @@ The following checklists walk you through the steps for deploying Microsoft Team
 
 - [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [Configure networking](onboarding-checklist-configure-networking.md)
+- [Prepare your network](prepare-network.md)
 
 - [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

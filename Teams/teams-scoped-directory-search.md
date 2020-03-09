@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 description: Learn how to use Microsoft Teams scoped directory search to provide customized views of the directory.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
@@ -47,7 +49,7 @@ To learn how to use address book policies, read [Information Barrier policies in
 
 2. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
 
-3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**.
+3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (ABP)**, turn the toggle **On**.
 
     ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 

@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure clients for migration
 ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
@@ -15,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure clients for migration
 
@@ -41,13 +43,13 @@ This topic contains the recommended client deployment steps you should take prio
     
       - [Apply Office Communications Server 2007 R2 updates](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Description of the cumulative update package for Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Description of the cumulative update package for Communicator 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [Obtaining Software Updates for Devices](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [Obtaining Software Updates for Devices](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  On Office Communications Server 2007 R2, use Client Version Filtering to allow only Office Communications Server 2007 R2 clients with the most current updates installed to sign in.
 
-3.  On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in. Follow the steps described in **Configuring Client Version Filtering** at [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table. For each version filter, assign the action **Block**.
+3.  On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in. Follow the steps described in **Configuring Client Version Filtering** at [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table. For each version filter, assign the action **Block**.
     
     
     <table>

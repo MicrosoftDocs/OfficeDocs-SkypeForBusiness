@@ -15,10 +15,11 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.TenantInMigration
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.TenantInMigration
 description: "Learn what you can and can't use in Skype for Business admin center, and other features when your service is being migrated to another Microsoft data center. "
 ---
 

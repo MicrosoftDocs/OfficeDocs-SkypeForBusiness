@@ -3,6 +3,8 @@ title: 'Administrator rights and permissions required for setup and administrati
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrator rights and permissions required for setup and administration
 ms:assetid: c386e8b9-c7ce-49b5-9911-c0cf2a4ce181
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412962(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Administrator rights and permissions required for setup and administration of Lync Server 2013
 

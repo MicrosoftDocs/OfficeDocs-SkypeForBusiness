@@ -11,6 +11,8 @@ ms.reviewer: lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
@@ -20,7 +22,7 @@ appliesto:
 Download these tools to walk you through planning, delivering, and adopting Teams in your organization.
 
 
-- [Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 
     This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization. It includes two quick-start guides for administrators and team leaders, and use case examples for every department. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.
 

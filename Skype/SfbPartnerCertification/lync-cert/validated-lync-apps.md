@@ -1,7 +1,7 @@
 ---
 title: "Validated Lync Applications"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Lync 2013
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788946

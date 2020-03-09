@@ -14,7 +14,9 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: "Learn about managing resource accounts in Microsoft Teams"
 ---

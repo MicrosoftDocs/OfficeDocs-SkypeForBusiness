@@ -1,17 +1,19 @@
 ---
 title: Implement QoS and Monitor Call Analytics in Microsoft Teams
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: jambirk
+ms.reviewer: 
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+f1.keywords:
+ - NOCSH
 appliesto: 
   - Microsoft Teams
 ---
