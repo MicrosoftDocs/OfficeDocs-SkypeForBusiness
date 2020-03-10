@@ -273,7 +273,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams tips & tricks</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Article: Teams tips & tricks</a></p>
+                        <p><a href="https://www.microsoft.com/tips/home">Article: Teams tips & tricks</a></p>
                     </div>
                 </div>
             </div>
