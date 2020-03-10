@@ -1,5 +1,5 @@
 ---
-title: Assign policies to large sets of users in your school in bulk
+title: Assign policies to large sets of users in your school
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,26 +14,28 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use batch policy assignment to assign policies to your large sets of user sin your educational institution in bulk. 
+description: Learn how to use batch policy assignment to assign policies to large sets of user in your educational institution in bulk. 
 f1keywords: 
 ---
 
-# Assign policies to large sets of users in your school in bulk
+# Assign policies to large sets of users in your school
 
-Do you need to give your students and educators access to different features in Microsoft Teams? You can quickly identify the users in your organization by license type and then assign them the appropriate policy. This tutorial shows you how to use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy to users in bulk. 
+Do you need to give your students and educators access to different features in Microsoft Teams? You can quickly identify the users in your organization by license type and then assign them the appropriate policy. This tutorial shows you how to use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy to users in bulk.
 
-Keep in mind that users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
+Remember that in Teams, users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
 
-- Edit the Global (Org-wide default) policy to restrict capabilities for students.
-- Create a custom policy that allows core capabilities such as private chat and meeting scheduling and assign it to your staff and educators.
+- Edit and use the Global (Org-wide default) policy to restrict capabilities for students.
+- Create a custom policy that allows core capabilities such as private chat and meeting scheduling and assign the policy to your staff and educators.
 
-In this tutorial, students will get the Global meeting policy and we use PowerShell to assign a custom policy named EducatorMeetingPolicy to staff and educators in bulk. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
+In this tutorial, students will get the Global meeting policy and we use PowerShell to assign a custom meeting policy named EducatorMeetingPolicy to staff and educators in bulk. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
 
 ![Screenshot of the Meeting policies page in the Teams admin center](media/edu-batch-policy-assignment.png)
 
+Follow these steps to assign a custom meeting policy to staff and educators in bulk.
+
 ## Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
 
-To follow the steps in this article, you’ll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the pre-release version of the Microsoft Teams PowerShell module (to assign the policies to those users).
+Before you perform the steps in this article, you’ll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the pre-release version of the Microsoft Teams PowerShell module (to assign the policies to those users).
 
 ### Install and connect to the Azure AD PowerShell for Graph module
 
@@ -64,7 +66,7 @@ Connect-MicrosoftTeams
 ```
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
-## Identify your students and your teachers
+## Identify your users
 
 First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
@@ -98,7 +100,7 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 
 ## Assign a policy in bulk
 
-Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. If you have more than 20,000 staff and educators, you’ll need to submit multiple batches.
+Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. For example, if you have more than 20,000 staff and educators, you’ll need to submit multiple batches.
 
 Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
 
@@ -131,7 +133,7 @@ Instead of providing the whole list of user IDs, run the following to specify th
 Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName StudentPolicy -Identities $faculty[0..19999].ObjectId
 ```
 
-You can change the range of user IDs until you reach the full list of users. For example, specify ```$faculty[0..19999``` for the first batch, specify ```$faculty[20000..39999``` for the second batch, specify ```$faculty[40000..59999``` for the third batch, and so on.
+You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
 
 ## FAQ
 
