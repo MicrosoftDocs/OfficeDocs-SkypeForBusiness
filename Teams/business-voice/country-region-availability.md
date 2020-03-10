@@ -21,10 +21,9 @@ appliesto:
 
 # Country and region availability for Business Voice
 
-Microsoft 365 Business Voice is available in all countries and regions except Australia. The features and functionality available with Business Voice may different depending on the country or region in which your organization is located. See the following table to see what's available with Business Voice in your country or region.
+Microsoft 365 Business Voice is available in over 70 countries and regions. Whether Business Voice includes a [Domestic Calling Plan](what-to-buy.md#domestic-calling-plan) or not depends on the country or region in which your organization is located. Take a look at the table below to see if Business Voice is available in your country or region and whether Calling Plan is included or not.
 
 To see what's included in Business Voice with Calling Plan and without Calling Plan, see [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
-
 
 | Country or region    | Business Voice<br> with Calling Plan | Business Voice<br> without Calling Plan | Getting Started wizard |
 |----------------------|--------------------------------------|-----------------------------------------|------------------------|
