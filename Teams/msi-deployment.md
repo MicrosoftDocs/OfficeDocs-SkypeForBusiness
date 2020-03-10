@@ -94,18 +94,18 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 
 ### Disable auto launch for the MSI installer
 
-You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  
+You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  You can also set the **ALLUSERS=1** parameter to specify a per-machine installation.
 
 For the 32-bit version
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 For the 64-bit version
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 When a user logs in to Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the user manually starts Teams, Teams automatically starts whenever the user logs in.
