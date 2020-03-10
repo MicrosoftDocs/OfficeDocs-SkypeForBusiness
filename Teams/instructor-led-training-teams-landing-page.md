@@ -200,7 +200,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Master working from home with Teams</h3>
-                        <p><strong><font color="#4B53BC">NEW!</font></strong>Learn best practices for staying connected to your team and maintaining productivity.</p>
+                        <p><strong><font color="#4B53BC">NEW!</font></strong> Learn best practices for staying connected to your team and maintaining productivity.</p>
                         <p><i>Audience: End users, team and department managers</i></p>
                     </div>
                 </div>
