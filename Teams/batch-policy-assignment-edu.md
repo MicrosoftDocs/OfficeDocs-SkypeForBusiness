@@ -143,6 +143,14 @@ Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy
 
 You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
 
+## Get the policies assigned to a user
+
+Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to hannah@contoso.com.
+
+```powershell
+Get-CsUserPolicyAssignment -Identity hannah@contoso.com
+```
+
 ## FAQ
 
 **I want to make sure that all users that are students or faculty automatically get licenses assigned. How can I do that?**
