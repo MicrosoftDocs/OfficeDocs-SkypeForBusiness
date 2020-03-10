@@ -26,24 +26,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 ## What's in the Teams Exploratory experience?
 
 The service plans that an admin will see as part of the Teams Exploratory experience are:
- - Exchange Online (Plan 1)
- - Power Automate for Office 365
- - Insights by MyAnalytics
- - Microsoft Forms (Plan E1)
- - Microsoft Planner
- - Microsoft Search
- - Microsoft StaffHub
- - Microsoft Stream for O365 E1 SKU
- - Microsoft Teams
- - Mobile Device Management for Office 365
- - Office Mobile Apps for Office 365 
- - Office Online
- - PowerApps for Office 365
- - SharePoint Online (Plan 1)
- - Sway
- - To-Do (Plan 1)
- - Whiteboard (Plan 1)
- - Yammer Enterprise
+![Screenshot of the Teams Exploratory licenses page in the admin center.](media/iw-exploratory-enable-1.png)
 
 
 ## Who's eligible?
