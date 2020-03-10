@@ -1,5 +1,5 @@
 ---
-title: Getting ready for school to start?
+title: Assign policies to large sets of users in your school in bulk
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,15 +14,20 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use batch policy assignment to assign policies to your students and teachers in bulk. 
+description: Learn how to use batch policy assignment to assign policies to your large sets of user sin your educational institution in bulk. 
 f1keywords: 
 ---
 
-# Getting ready for school to start?
+# Assign policies to large sets of users in your school in bulk
 
-Do you need to give your students and faculty access to different features in Microsoft Teams? You can quickly identify the students and faculty in your organization by license type and then assign them the appropriate policy by using PowerShell. 
+Do you need to give your students and educators access to different features in Microsoft Teams? You can quickly identify the users in your organization by license type and then assign them the appropriate policy. This tutorial shows you how to use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy to users in bulk. 
 
-In this tutorial, we’ll show you how to assign meeting policies to large batches of users. We assume you’ve already created two different meeting policies named StudentMeetingPolicy and FacultyMeetingPolicy.
+Keep in mind that users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
+
+- Edit the Global (Org-wide default) policy to restrict capabilities for students.
+- Create a custom policy that allows core capabilities such as private chat and meeting scheduling and assign it to your staff and educators.
+
+In this tutorial, students will get the Global meeting policy and we use PowerShell to assign a custom policy named EducatorMeetingPolicy to staff and educators in bulk. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
 
 ![Screenshot of the Meeting policies page in the Teams admin center](media/edu-batch-policy-assignment.png)
 
@@ -50,7 +55,7 @@ To learn more, see [Connect with the Azure Active Directory PowerShell for Graph
 
 ### Install and connect to the pre-release version of the Teams PowerShell module
 
-The cmdlets are in the pre-release version of the Teams PowerShell module. Follow the steps in [Install and connect to the Microsoft Teams PowerShell module](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+The cmdlets you'll need are in the pre-release version of the Teams PowerShell module. Follow the steps in [Install and connect to the Microsoft Teams PowerShell module](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
 
 Run the following to connect to Teams and start a session.
 
@@ -61,7 +66,7 @@ When you're prompted, sign in using the same admin credentials you used to conne
 
 ## Identify your students and your teachers
 
-First, run the following to identify all your students and teachers by license type. This tells you what SKUs are in use in your organization. You can identify all the users that have a Student SKU assigned and all teachers that have a Faculty SKU assigned.
+First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
 ```powershell
 Get-AzureADSubscribedSku
@@ -80,30 +85,22 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365ED
 ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
+In this example, the output shows that the Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370”.
 
-In this example, the output shows that the organization’s Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370” and the Student license SkuId is “46c119d4-0379-4a9d-85e4-97c66d3f909e”.
+> [!NOTE]
+> To see a list of Education SKUs and SKU IDs, see TBD.
 
-Next, we run the following to identify the users that have each of these licenses and collect them all together.
+Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
 $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
 ```
 
-```powershell
-$students = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “46c119d4-0379-4a9d-85e4-97c66d3f909e”)
-```
-
 ## Assign a policy in bulk
 
-Now, we assign the appropriate policies to users in bulk. The maximum number of users that you can assign or update policies for is 20,000 at a time. If you have more than 20,000 students or 20,000 faculty, you’ll need to submit multiple batches.
+Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. If you have more than 20,000 staff and educators, you’ll need to submit multiple batches.
 
-Run the following to assign StudentMeetingPolicy to your students.
-
-```powershell
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName StudentMeetingPolicy -Identity $students.ObjectId
-```
-
-Run the following to assign FacultyMeetingPolicy to your teachers.
+Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName FacultyMeetingPolicy -Identity $faculty.ObjectId
@@ -114,7 +111,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ## Get the status of a bulk assignment
 
-Each of these bulk operations returns an operation ID, which you can use to track the progress of the policy assignments or identify any failures. For example, run the following:
+Each bulk assignment returns an operation ID, which you can use to track the progress of the policy assignments or identify any failures that might occur. For example, run the following:
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
@@ -122,11 +119,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 
 ## Assign a policy in bulk if you have more than 20,000 users
 
-First, run the following to see how many students and teachers you have:
-
-```powershell
-$students.count
-```
+First, run the following to see how many staff and educators you have:
 
 ```powershell
 $faculty.count
@@ -135,10 +128,10 @@ $faculty.count
 Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName StudentPolicy -Identities $students[0..19999].ObjectId
+Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName StudentPolicy -Identities $faculty[0..19999].ObjectId
 ```
 
-You can change the range of user IDs until you reach the full list of users. For example, ```$students[0..19999```.
+You can change the range of user IDs until you reach the full list of users. For example, specify ```$faculty[0..19999``` for the first batch, specify ```$faculty[20000..39999``` for the second batch, specify ```$faculty[40000..59999``` for the third batch, and so on.
 
 ## FAQ
 
