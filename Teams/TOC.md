@@ -626,6 +626,7 @@
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
+### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Teams Licensing for Education](teams-edu-licensing.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
