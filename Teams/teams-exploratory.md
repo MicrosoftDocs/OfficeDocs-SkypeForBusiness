@@ -26,6 +26,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 ## What's in the Teams Exploratory experience?
 
 The service plans that an admin will see as part of the Teams Exploratory experience are:
+
 ![Screenshot of the Teams Exploratory licenses page in the admin center.](media/iw-exploratory-enable-1.png)
 
 
