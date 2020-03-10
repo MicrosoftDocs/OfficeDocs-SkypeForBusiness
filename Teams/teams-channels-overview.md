@@ -73,7 +73,7 @@ Team owners can manage team-wide settings directly in Microsoft Teams. Settings 
 
 Take three minutes to check out this go-to-guide video for team owners:
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
 

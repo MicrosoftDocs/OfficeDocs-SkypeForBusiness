@@ -150,6 +150,10 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 The meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the admin can open the recording video URL in Microsoft Stream in admin mode. The admin can delete the recording, update any recording metadata, or change permissions for the recording video. Learn more about [admin capabilities in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
 
+> [!NOTE]
+> See [Manage user data in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) and [Permissions and privacy in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) for additional information on managing recordings and user access.
+
+
 ## Compliance and eDiscovery for meeting recordings
 
 The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
