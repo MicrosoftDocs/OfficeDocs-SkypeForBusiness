@@ -89,15 +89,16 @@ This is what the report looks like.
      *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing
-> [!NOTE]
-> If you would like to run a report to include only pay per minute calls that are not included in your calling or conferencing subscription, filter the report with capability "MCOPSTNPP". Doing so will provide an itemization of all pay per minute calls.  For pay per minute audio conferencing, filter by "MCOMEETACPEA" instead of "MCOPSTNPP".  
-***
+     
+  > [!NOTE]
+  > If you would like to run a report to include only pay per minute calls that are not included in your calling or conferencing subscription, filter the report with capability "MCOPSTNPP". Doing so will provide an itemization of all pay per minute calls.  For pay per minute audio conferencing, filter by "MCOMEETACPEA" instead of "MCOPSTNPP".  
+
 > [!NOTE]
 > You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
-***
+
 > [!NOTE]
 > If you have a Telstra calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra for your reporting needs. 
-***
+
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
 ![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a COMMA delimited Excel file, by clicking or tapping the **Export to Excel** button. You can export data up to one year from the current date unless country specific regulation prohibit retention of the data for 12 months.<br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
