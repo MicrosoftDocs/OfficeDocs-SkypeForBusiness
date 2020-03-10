@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Lists Education Faculty and Student licensing plans and and SKU IDs. 
+description: Lists Education Faculty and Student licensing plans and SKU IDs. 
 f1keywords: 
 ---
 
