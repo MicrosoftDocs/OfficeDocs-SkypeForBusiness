@@ -24,8 +24,10 @@ Do you need to give your students and educators access to different features in 
 
 Remember that in Teams, users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
 
-- Edit and use the Global (Org-wide default) policy to restrict capabilities for students.
+- Edit and use the Global (Org-wide default) policy to restrict capabilities for students. 
 - Create a custom policy that allows core capabilities such as private chat and meeting scheduling and assign the policy to your staff and educators.
+
+Keep in mind that the Global policy will apply to all users in your school until you create a custom policy and assign it to your staff and educators.
 
 In this tutorial, students will get the Global meeting policy and we use PowerShell to assign a custom meeting policy named EducatorMeetingPolicy to staff and educators in bulk. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
 
