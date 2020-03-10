@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use batch policy assignment to assign policies to large sets of user in your educational institution in bulk. 
+description: Learn how to use batch policy assignment to assign policies to large sets of users in your educational institution in bulk for remote school (teleschool, tele-school) purposes. 
 f1keywords: 
 ---
 
