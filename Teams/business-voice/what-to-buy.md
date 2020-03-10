@@ -51,12 +51,15 @@ There are two types of Calling Plans:
 
 ### Domestic Calling Plan
 
-The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table shows the number of minutes for each country or region where Calling Plan is included with Business Voice:
 
-|Where the user is located          |Monthly allotment for domestic calls |
-|-----------------------------------|-------------------------------------|
+|Where the user is located          |Monthly allotment for domestic calls  |
+|-----------------------------------|--------------------------------------|
 |Canada                             | 3,000                                |
 |United Kingdom                     | 1,200                                |
+|United States                      | 3,000                                |
+
+Calling Plan isn't included with Business Voice in countries or regions not listed in the preceding table. For a list of all countries and regions in which Business Voice is available, see [Business Voice availability](country-region-availability.md).
 
 Calls between the United States and Canada are considered domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
