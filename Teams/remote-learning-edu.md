@@ -25,6 +25,8 @@ appliesto:
 > - A collection of articles written for teachers including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - If you're a teacher, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Parents and guardians can also go to our [Parent Support Page](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
 
 Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -96,7 +98,7 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 - Create private channels set to 'off'
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](assign-policies.md#assign-a-policy-to-a-group).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](batch-policy-assignment-edu).
 
 ## Start using Teams
 
@@ -132,7 +134,7 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 ## Adoption content
 
-Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
+Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
 
 Additional adoption resources include:
 
@@ -147,7 +149,11 @@ IT professionals and support staff can get up to speed with Teams architecture a
 Additional support resources include:
 
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
+- [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Student Help center](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [How to quickly optimize Office 365 traffic for remote staff](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
