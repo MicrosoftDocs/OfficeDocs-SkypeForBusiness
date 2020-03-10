@@ -421,6 +421,23 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Building Name Pair  | Enumerated pair  | Pair of the building name for the first and second endpoint.  | &bull; The building name for an endpoint could not be determined. This could be because the endpoint is located outside the corporate network, or is accessing the network from a site without a subnet mapping. <br/> **Example value:** Main Building : Branch Site Building |
 | Inside Corp Pair  | Enumerated pair <br/>**Possible values:** <br/> Inside : Inside <br/> Inside : Outside <br/> Outside : Outside | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping.   |   |
 | Scenario Pair  | Enumerated pair  | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail. <br/> **Note:** The pairs are separated by '--'. <br/> **Example value:** Client-Inside--Client-Inside-wifi  | &bull; The network connectivity type was unknown for either or both endpoints.  |
+|**PSTN**|||
+|PSTN Call End Reason (SIP response code)|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP explanation, please see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
+|PSTN Trunk FQDN|String|FQDN is the fully qualified domain name (FQDN) of the Session Border Controller (SBC).<br/>**Example:** sbcgw.contoso.com||
+|PSTN Carrier Name|String|The company that is authorized by regulatory agencies to operate a telecommunications system.<br/>**Example:** Colt|Direct Routing does not have a carrier. Only a calling plan has a carrier.|
+|PSTN Call Type|String|This string combines the service type and call type.<br/><br/>Service type:<br/>user -> calling plan<br/>byot -> direct routing<br/>conf -> audio conferencing<br/>ucap -> voice app<br/>emergency -> emergency number<br/><br/>Call type:<br/>In -> inbound call<br/>Out -> outbound call<br/>Out_transfer -> outbound call gets transferred to third person<br/>Out_forward -> outbound call gets forwarded to third person<br/>Out_conf ->  outbound call with ad-hoc PSTN participant<br/><br/>**Example:** ByotIn||
+|PSTN Connectivity Type|String|PSTN connectivity type includes Direct Routing, Calling Plan, or Audio Conferencing. At this time, only Direct Routing is available in the Call Quality Dashboard (CQD).<br/>**Example:** Direct Routing||
+|PSTN Final SIP Code Phrase|String|The reason phrase corresponding to the SIP response code and Microsoft response code.<br/>**Example:** BYE||
+|PSTN Call End Sub Reason|Int|A response code sent out from the Microsoft component that indicates specific actions that occurred.<br/>**Example:** 540000||
+|PSTN Event Type|String|An event type that provides telemetry.<br/>**Example:** End||
+|PSTN Event Info Time|Date|The time in UTC format when an outbound call starts from the Microsoft network or an inbound call reaches the Microsoft network.<br/>**Example:** 2020-02-06 20:57:53.1750000||
+|PSTN MP Location|String|The Media Processor location will show the media path when in non-bypass mode.<br/>**Example:** USWE||
+|First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it is false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
+|Jitter|Milliseconds|The variation in arrival time of RTP packets. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 5.982||
+|Packet Loss Rate|Percentage|The percentage of streams between Mediation Server and SBC or Gateway, if available.
+Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 1.2%||
+|Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed.
+Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 3.49||
 ||||
 
 ### Notes on dimension data type/units
@@ -575,7 +592,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second RxAGC Signal Level|Range (Decibels) |Average signal level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the first inbound audio stream.||
 | Avg Second RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the second inbound audio stream.| |
-| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|	Average level of speaker loopback signal (after any device offload effects have been applied).|
+| Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|
 | Avg Second Render Loopback Signal Level|Range (Decibels) | Average level of second speaker loopback signal (after any device offload effects have been applied).|
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
 |Avg Second Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by second endpoints. |
@@ -612,7 +629,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
  Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
-|Avg Network Jitter |Milliseconds |	Average of network jitter computed over 20 second windows during the session. |
+|Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. |
 | Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
 | Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.| |
 | Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.| |
@@ -646,6 +663,25 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Device Glitches Event Ratio|Percentage|Average fraction of the call that the second endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | First Device Glitches Event Count|Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
 | Second Device Glitches Event Count|Number of stream where the second endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
+| PSTN Total Attempts Count | Number of calls | Total attempted calls, including successful calls and failed calls in the selected time range.|
+|PSTN Total Connected Count | Number of calls | Total successfully connected calls in the selected time range.|
+|PSTN Inbound Attempts Count | Number of calls | Total inbound attempted calls, including successful calls and failed calls in the select time range.|
+|PSTN Inbound Connected Count | Number of calls | Total inbound successfully connected calls in the selected time range.|
+|PSTN Outbound Attempts Count | Number of calls | Total outbound attempted calls, including successful calls and failed calls in the selected time range.|
+|PSTN Outbound Connected Count | Number of Calls | Total outbound successfully connected calls in the selected time range.|
+|PSTN Total Minutes | Minutes | Total minutes | Total minute usage in the selected time range.|
+|PSTN Inbound Total Minutes | Minutes | Total inbound minute usage in the selected time range.|
+|PSTN Outbound Total Minutes | Minutes | Total outbound minute usage in the selected time range.|
+|PSTN Active User Count | Number of users | The number of users who made at least one connected call during that day.|
+|PSTN Average Call Duration | Minutes | The average duration of all connected calls in the selected time range. Normally, a 1:1 PSTN call is four to five minutes. However, this average can differ for each company.|
+|PSTN Total Inbound Concurrent Call Count | Number of calls | Maximum number of simultaneous active inbound calls in a minute.|
+|PSTN Total Outbound Concurrent Call Count | Number of calls | Maximum number of simultaneous active outbound calls in a minute.|
+|P50 Latency | Milliseconds | 50% of the requests should be faster than given latency.|
+|P50 Jitter | Milliseconds | 50% of the requests should be faster than given Jitter.|
+|P50 Packet Loss Rate | Percentage | 50% of the requests should have lower than the given Packet Loss Rate.|
+|PSTN Outgoing Post Dial Delay| Milliseconds | The delay that occurs on outgoing calls measured from the time a number has been dialed until the caller or called party hears ringing.|
+|PSTN Incoming Post Dial Delay | Milliseconds | The time or delay that occurs on incoming calls measured from the time a number has been dialed until the caller or called party hears ringing.|
+|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100|
 ||||
 
 ## Filters
