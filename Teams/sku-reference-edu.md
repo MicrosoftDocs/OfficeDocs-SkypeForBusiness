@@ -66,4 +66,3 @@ This article lists Education Faculty and Student licensing plans (also called SK
 ## Related topics
 
 - [Assign policies to large sets of users in your school](batch-policy-assignment-edu.md)
-- [Assign Microsoft Teams licenses for EDU](teams-edu-licensing.md)

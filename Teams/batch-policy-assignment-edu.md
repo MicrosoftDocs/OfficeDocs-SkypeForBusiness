@@ -107,7 +107,7 @@ Now, we assign the appropriate policies to users in bulk. The maximum number of 
 Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
 
 ```powershell
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName FacultyMeetingPolicy -Identity $faculty.ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
 ```
 
 > [!NOTE]
@@ -138,7 +138,7 @@ $faculty.count
 Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName StudentPolicy -Identities $faculty[0..19999].ObjectId
+Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
 ```
 
 You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
