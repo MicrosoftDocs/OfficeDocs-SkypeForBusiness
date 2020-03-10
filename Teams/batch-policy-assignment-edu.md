@@ -153,7 +153,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## FAQ
 
-**I want to make sure that all users that are students or faculty automatically get licenses assigned. How can I do that?**
+**I want to make sure that all users that are students, staff, and educators automatically get licenses assigned. How can I do that?**
 
 The Teams product team is doing work to support assigning policies to security groups. At that time, you’ll be able to create groups for your students and teachers, and then the appropriate policies to those groups. Note that explicit user assignments (such as the policies that you’ve assigned using this tutorial) will override policies inherited from a group. When this feature is supported, we’ll provide more instructions on how to use policy assignment to groups and update your users to ensure they get the inherited group policies.
 
