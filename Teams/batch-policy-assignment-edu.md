@@ -92,7 +92,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 In this example, the output shows that the Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370”.
 
 > [!NOTE]
-> To see a list of Education SKUs and SKU IDs, see TBD.
+> To see a list of Education SKUs and SKU IDs, see [Education SKU reference](sku-reference-edu.md).
 
 Next, we run the following to identify the users that have this license and collect them all together.
 
@@ -119,6 +119,12 @@ Each bulk assignment returns an operation ID, which you can use to track the pro
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
+```
+
+To view the assignment status of each user in the batch operation, run the following. Details of each user are in the ```UserState``` property.
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
 ## Assign a policy in bulk if you have more than 20,000 users
