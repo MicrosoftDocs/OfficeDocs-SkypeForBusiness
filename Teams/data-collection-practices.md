@@ -112,6 +112,4 @@ You can see [Set up your network for Skype for Business Online](https://support.
 If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## Related topics
-[Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/default.mspx)
-
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
