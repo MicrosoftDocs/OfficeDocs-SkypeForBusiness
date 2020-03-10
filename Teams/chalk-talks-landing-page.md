@@ -21,7 +21,8 @@ ms.collection:
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams Chalk Talks</h1>
-           Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users.<br><br><i>Click any workshop title below to see available dates and times, and sign up today!</i>
+           Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users.<br><br>
+           <i>Click any workshop title below to see available dates and times, and sign up today!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
@@ -68,6 +69,7 @@ ms.collection:
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -78,11 +80,12 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Deploy a Teams app in 60 minutes</h3>
-                        <p><font color="red"><i>Coming soon!</i></font> Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
+                        <p>Extend Teams using app templates to build tools you use every day right into Teams, so you get your job done within a single experience.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <div class="cardSize">
@@ -111,7 +114,7 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Discover what's new in Teams?</h3>
+                        <h3>Discover what's new in Teams</h3>
                         <p><font color="red"><i>Coming soon!</i></font>  Have you been waiting on a feature to release in Teams? Come interact with Teams experts as we walk you through the latest and greatest feature releases over the past month - along with best practices for implementing them.</p>
                     </div>
                 </div>

@@ -66,8 +66,8 @@ This is what the report looks like.
      *    **user_out_forwarding** (the user forwarded the call to a PSTN number)
 
      **Audio Conferencing Call Types**
-     *    **conf_in** (an inbound call to the Audio Conferencing bridge) 
-     *    **conf_out** (an outbound call from the Audio Conferencing bridge usually to add a PSTN number to the conference)
+     *    **conf_in** (an inbound call to the Audio Conferencing bridge). For records of this call type, the user specified in the **User ID** column corresponds to the organizer of the meeting.
+     *    **conf_out** (an outbound call from the Audio Conferencing bridge, usually to add a PSTN number to the conference). For records of this call type, the user specified in the **User ID** column corresponds to the organizer of the meeting.
 
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (an inbound PSTN call to the UC application such as auto attendant or call queue) 
@@ -89,12 +89,13 @@ This is what the report looks like.
      *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing
+     
 > [!NOTE]
 > If you would like to run a report to include only pay per minute calls that are not included in your calling or conferencing subscription, filter the report with capability "MCOPSTNPP". Doing so will provide an itemization of all pay per minute calls.  For pay per minute audio conferencing, filter by "MCOMEETACPEA" instead of "MCOPSTNPP".  
-***
+
 > [!NOTE]
 > You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
-***
+
 > [!NOTE]
 > If you have a Telstra calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra for your reporting needs. 
 ***
