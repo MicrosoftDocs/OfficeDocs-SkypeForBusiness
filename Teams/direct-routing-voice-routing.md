@@ -367,7 +367,6 @@ To learn more, see [Manage voice routing policies](manage-voice-routing-policies
 To learn more, see [Manage voice routing policies](manage-voice-routing-policies.md).
 
 ### Using PowerShell
-### Using PowerShell
 
 #### Step 1: Create the "International" PSTN usage
 
