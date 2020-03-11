@@ -23,7 +23,7 @@ appliesto:
 Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) that indicates the user’s current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online.
 
 > [!IMPORTANT]
-> If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams. Workaround: To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.
+> If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. This is resolved in Teams version 1.3.00.2160 and higher. Please ensure you have updated to the latest version of Teams, and restarted the Outlook client; then you can safely remove the Skype for Business client if desired.
 
 Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
 
