@@ -26,7 +26,7 @@ appliesto:
 > - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - If you're a teacher, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Parents and guardians can also go to our [Parent Support Page](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
+> - Parents and guardians can also go to our [**Parent Support Page**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
 
 Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -98,7 +98,7 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 - Create private channels set to 'off'
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](batch-policy-assignment-edu).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu.md).
 
 ## Start using Teams
 
