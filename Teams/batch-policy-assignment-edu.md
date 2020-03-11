@@ -37,14 +37,14 @@ Follow these steps to assign a custom meeting policy to staff and educators in b
 
 ## Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
 
-Before you perform the steps in this article, you’ll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the pre-release version of the Microsoft Teams PowerShell module (to assign the policies to those users).
+Before you perform the steps in this article, you'll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the Microsoft Teams PowerShell module (to assign the policies to those users).
 
 ### Install and connect to the Azure AD PowerShell for Graph module
 
 Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an administrator), and then run the following to install the Azure Active Directory PowerShell for Graph module.
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Run the following to connect to Azure AD.
@@ -55,11 +55,21 @@ Connect-AzureAD
 
 When you're prompted, sign in using your admin credentials.
 
-To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-### Install and connect to the pre-release version of the Teams PowerShell module
+### Install and connect to the Microsoft Teams PowerShell module
 
-The cmdlets you'll need are in the pre-release version of the Teams PowerShell module. Follow the steps in [Install and connect to the Microsoft Teams PowerShell module](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Run the following to connect to Teams and start a session.
+
+```powershell
+Connect-MicrosoftTeams
+```
 
 Run the following to connect to Teams and start a session.
 
@@ -89,7 +99,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365ED
 ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
-In this example, the output shows that the Faculty license SkuId is “e97c048c-37a4-45fb-ab50-922fbf07a370”.
+In this example, the output shows that the Faculty license SkuId is "e97c048c-37a4-45fb-ab50-922fbf07a370".
 
 > [!NOTE]
 > To see a list of Education SKUs and SKU IDs, see [Education SKU reference](sku-reference-edu.md).
@@ -97,12 +107,12 @@ In this example, the output shows that the Faculty license SkuId is “e97c048c-
 Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## Assign a policy in bulk
 
-Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. For example, if you have more than 20,000 staff and educators, you’ll need to submit multiple batches.
+Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. For example, if you have more than 20,000 staff and educators, you'll need to submit multiple batches.
 
 Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
 
@@ -111,7 +121,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> To assign a different policy type in bulk, like TeamsMessagingPolicy, you’ll need to change ```PolicyType``` to the policy that you're assigning and ```PolicyName``` to the policy name.
+> To assign a different policy type in bulk, like TeamsMessagingPolicy, you'll need to change ```PolicyType``` to the policy that you're assigning and ```PolicyName``` to the policy name.
 
 ## Get the status of a bulk assignment
 
@@ -155,9 +165,9 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **I want to make sure that all users that are students, staff, and educators automatically get licenses assigned. How can I do that?**
 
-The Teams product team is doing work to support assigning policies to security groups. At that time, you’ll be able to create groups for your students and teachers, and then the appropriate policies to those groups. Note that explicit user assignments (such as the policies that you’ve assigned using this tutorial) will override policies inherited from a group. When this feature is supported, we’ll provide more instructions on how to use policy assignment to groups and update your users to ensure they get the inherited group policies.
+The Teams product team is doing work to support assigning policies to security groups. At that time, you'll be able to create groups for your students and teachers, and then the appropriate policies to those groups. Note that explicit user assignments (such as the policies that you've assigned using this tutorial) will override policies inherited from a group. When this feature is supported, we'll provide more instructions on how to use policy assignment to groups and update your users to ensure they get the inherited group policies.
 
-**I’m not familiar with PowerShell for Teams. Where can I learn more?**
+**I'm not familiar with PowerShell for Teams. Where can I learn more?**
 
 See [Teams Powershell overview](teams-powershell-overview.md).
 
