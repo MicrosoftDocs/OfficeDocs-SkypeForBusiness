@@ -98,7 +98,7 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 - Create private channels set to 'off'
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu.md).
 
 ## Start using Teams
 
