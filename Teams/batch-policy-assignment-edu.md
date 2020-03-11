@@ -62,7 +62,7 @@ To learn more, see [Connect with the Azure Active Directory PowerShell for Graph
 Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
 
 ```powershell
-Install-Module MicrosoftTeams -Name MicrosoftTeams
+Install-Module -Name MicrosoftTeams
 ```
 
 Run the following to connect to Teams and start a session.
