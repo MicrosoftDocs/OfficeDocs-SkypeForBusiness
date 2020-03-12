@@ -85,7 +85,7 @@ The following table summarizes the configuration using three voice routes. In th
 |US only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
 
-*** I didn't change anything here but I think there's a typo in the table. "US only" the voice route not the PSTN usage. Should "US only" be changed to "US and Canada"?**
+**??? I didn't change anything here but I think there's a typo in the table. "US only" is the voice routing policy, not the PSTN usage. Should "US only" be changed to "US and Canada"?**
 
 ## Example 1: Configuration steps
 
@@ -316,7 +316,7 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 |US Only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route for any number pattern |
 
-**??? I didn't change anything here but I think there's a typo in the table. "US only" the voice route not the PSTN usage. Should "US only" be changed to "US and Canada"?**
+**??? I didn't change anything here but I think there's a typo in the table. "US only" is the voice routing policy, not the PSTN usage. Should "US only" be changed to "US and Canada"?**
 
   > [!NOTE]
   > - The order of PSTN usages in voice routing policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN usage "International" must be placed after the PSTN usage "US Only." To change the order of the PSTN usages, run the `Set-CSOnlineVoiceRoutingPolicy` command. <br/>For example, to change the order from "US and Canada" first and "International" second to the reverse order run:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
