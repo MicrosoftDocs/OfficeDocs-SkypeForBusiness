@@ -32,7 +32,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 - Gateway configurations
 - Calling policies
 
-You can use the Microsoft Team admin center or PowerShell to enable Location-Based Routing. 
+You can use the [Microsoft Team admin center](#using-the-microsoft-teams-admin-center) or [PowerShel](#using-powershell)l to enable Location-Based Routing.
 
 ## Using the Microsoft Teams admin center
 
