@@ -70,12 +70,6 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 ## Identify your users
