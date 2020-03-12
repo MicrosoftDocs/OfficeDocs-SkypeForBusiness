@@ -22,7 +22,7 @@ f1.keywords:
 
 # Manage voice routing policies in Microsoft Teams
 
-If you've deployed Phone System Direct Routing in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the public switched telephone network (PSTN) using your on-premises telephony infrastructure.
+If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure.
 
 A voice routing policy is a container for PSTN usage records. You create and manage voice routing policies by going to **Voice** > **Voice routing policies** in the Microsoft Teams admin center or by using Windows PowerShell.
 

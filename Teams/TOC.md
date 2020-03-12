@@ -268,7 +268,6 @@
 ### Configure Direct Routing
 #### [Overview](direct-routing-configure.md)
 #### [Step 1: Connect your SBC](direct-routing-connect-the-sbc.md)
-#### [Step 1: Connect your SBC](direct-routing-connect-the-sbc-one-table.md)
 #### [Step 2: Enable users](direct-routing-enable-users.md)
 #### [Step 3: Configure voice routing](direct-routing-voice-routing.md)
 #### [Step 4: Translate phone numbers](direct-routing-translate-numbers.md)
