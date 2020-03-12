@@ -24,10 +24,10 @@ Check out [Support your remote workers with Teams](support-remote-work-with-team
 
 ### Is Microsoft taking proactive action to be ready for the added workload of users working from home to avoid service disruption? All those 1:1 calls will now use Microsoft infrastructure.
 
-Microsoft has been significantly expanding capacity in key regions with the recent announcements regarding the COVID-19 (coronavirus) outbreak. We are monitoring the situation and our services very closely to ensure that our services are available for our customers. One of the benefits of a cloud service is the ability to scale dynamically, including utilization of our significant supply chain, reallocation of resources between services, and redistribution of load. We have seen an increase in the utilization of Microsoft Teams which we have responded to and continue to monitor closely. We are also working to stay ahead of PTSN needs, working to procure enough telephone numbers as needed.
+Microsoft has been significantly expanding capacity in key regions with the recent announcements regarding the COVID-19 (coronavirus) outbreak. We are monitoring the situation and our services very closely to ensure that our services are available for our customers. One of the benefits of a cloud service is the ability to scale dynamically, including utilization of our significant supply chain, reallocation of resources between services, and redistribution of load. We have seen an increase in the utilization of Microsoft Teams which we have responded to and continue to monitor closely. We are also working to stay ahead of Calling Plans demand, and working to procure enough telephone numbers as needed.
 
 > [!NOTE]
-> If you are already set up with O365 and are having PTSN issues, please go to the **Message Center** and review the **MC205458** message center post.
+> If you're already set up with M365, and want to know more about the actions Microsoft is taking, please go to the Message Center and review the **MC205458** message center post.
 
 Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
 
