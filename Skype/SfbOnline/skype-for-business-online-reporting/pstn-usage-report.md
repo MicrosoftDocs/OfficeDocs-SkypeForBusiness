@@ -104,13 +104,13 @@ This is what the report looks like.
 
 ## Exporting PSTN usage report
 
-Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country specific regulations prohibit retention of the data for 12 months.
+Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis.
 
-Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data. When the server completes the export, you will receive a zip file named "**Calls.Export.{identifier}.zip**", with the identifier being an unique ID for the export, which can be used for troubleshooting.
+Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data. When the server completes the export, you will receive a zip file named "**Calls.Export.[`identifier`].zip**", with the identifier being an unique ID for the export, which can be used for troubleshooting.
 
-If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.{UTC date}.csv**". In addition to PSTN and Direct Routing files, the archive contains file "**parameters.json**", with the selected export time range and Capabilities (if any).
+If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.[`UTC date`].csv**". In addition to PSTN and Direct Routing files, the archive contains file "**parameters.json**", with the selected export time range and Capabilities (if any).
 
 Exported file is a Comma Separated Values (CSV) file, compliant with [RFC 4180](https://tools.ietf.org/html/rfc4180) standard. The file can be opened in Excel or any other standards-compliant editor without requiring any transformations.
 
