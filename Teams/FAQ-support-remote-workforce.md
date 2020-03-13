@@ -29,7 +29,7 @@ Microsoft has been significantly expanding capacity in key regions with the rece
 > [!NOTE]
 > If you're already set up with M365, and want to know more about the actions Microsoft is taking, please go to the Message Center and review the **MC205458** message center post.
 
-Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
 
 ### With the actions that Microsoft is taking, do we anticipate problems?
 
