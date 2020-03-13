@@ -80,11 +80,11 @@ The following explains the different scenarios, and when Shared Correlation ID i
 4.	Existing call 3 with correlation ID “f45e9a25-9f94-46e7-a457-84f5940efde9”. PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type	Dr_Out_User_Transfer	45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID	f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## Exporting the reports
-Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.
+Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready. Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis. Exported files contain additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
-Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data. When the server completes the export, you will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being an unique ID for the export, which can be used for troubleshooting.
+ You will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being an unique ID for the export that can be used for troubleshooting.
 
 If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.`[UTC date]`.csv**" and Direct Routing "**DirectRouting.calls.`[UTC date]`.csv**".
 
