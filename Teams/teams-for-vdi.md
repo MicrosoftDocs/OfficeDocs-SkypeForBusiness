@@ -153,7 +153,7 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
         The next interactive logon session starts Teams and asks for credentials.
 
     > [!NOTE]
-    > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments and the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation. Users can then uninstall Teams if they have admin credentials.
+    > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. Users can then uninstall Teams if they have admin credentials. It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments and the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
 
 3. Uninstall the MSI from the VDI VM.
 
@@ -162,7 +162,6 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     - PowerShell script (recommended)
 
     - Command line:
-    This approach removes Teams, yet prevents re-installation of Teams. Run the following command:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
