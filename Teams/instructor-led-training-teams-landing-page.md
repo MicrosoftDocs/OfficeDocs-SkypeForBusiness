@@ -195,7 +195,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-teams.svg" alt="Headset" />
                         </div>
                     </div>
                     <div class="cardText">
