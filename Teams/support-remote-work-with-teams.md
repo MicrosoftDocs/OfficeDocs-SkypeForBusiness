@@ -60,6 +60,8 @@ Share these assets and videos with your end users to help them get started quick
 
 2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
 
+1. If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
+
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
 
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
@@ -84,6 +86,10 @@ Share these assets and videos with your end users to help them get started quick
     
 3. Read our new content about working remotely and share it with your users:
         
+      - Microsoft blog (March 10, 2020): [Staying productive while working remotely with Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
+      
+      - [Work remotely with Teams](https://products.office.com/microsoft-teams/work-remotely)
+
       - Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -91,6 +97,8 @@ Share these assets and videos with your end users to help them get started quick
       - [Work remotely with Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
       - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
+
+      - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
 
 3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
@@ -102,16 +110,16 @@ Share these assets and videos with your end users to help them get started quick
 
    - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
-   - Send out information about your org’s work-from-home and health and safety policies.
+   - Send out information about your org's work-from-home and health and safety policies.
     
-   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. 
+   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. Turn on live captions for [meetings](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) and [live events](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). In addition, turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension. 
 
 4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
 7. If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).
 
 
-1. Make sure your users have the devices they need to be seen and heard. Check out [Teams-certified devices](https://aka.ms/TeamsDevices) for personal and shared spaces.
+1. Make sure your users have the devices they need to be seen and heard clearly. Check out [Teams-certified devices](https://aka.ms/TeamsDevices) for personal and shared spaces.
 
 
 ### Known issue - China: Dialing into Skype for Business or Teams conference IDs
@@ -126,7 +134,7 @@ We recommend the following if you're having audio conferencing problems:
 - Join the call or meeting from the desktop or mobile clients, using VoIP.
 
 If you need to log a support ticket, please include the following:
-	
+    
 - Exact time of call
 - Conference bridge number dialed
 - Caller phone network

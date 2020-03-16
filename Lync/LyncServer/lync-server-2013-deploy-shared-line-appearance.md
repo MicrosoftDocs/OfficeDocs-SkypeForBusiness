@@ -48,7 +48,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
         ```powershell
         New-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                        https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
                         $true -Priority (Get-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/UserServices').Priority 
         ```
