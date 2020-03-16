@@ -116,6 +116,15 @@ The peripherals certification program ensures that USB peripherals such as heads
 |Sennheiser|	SC 635 USB |11/28/2017|
 |Sennheiser|	SC 665 USB|11/28/2017|
 |Plantronics|	Voyager 8200 UC |7/26/2017|
+|Plantronics| EncorePro 510 with DA90 |3/17/2017|
+|Plantronics| EncorePro 710 with DA90 |3/17/2017|
+|Plantronics| EncorePro 720 with DA90 |3/17/2017|
+|Plantronics| EncorePro HW710D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW720D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW510D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW520D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW530D(OTE) with DA90 |3/17/2017|
+|Plantronics|EncorePro HW540D (Convertable) with DA90 |3/17/2017|
 |Yamaha|	YVC-1000MS Speakerphone |7/7/2017|
 |Logitech|	MeetUp |6/7/2017|
 |Jabra|	EVOLVE 75 MS Stereo |6/1/2017|
