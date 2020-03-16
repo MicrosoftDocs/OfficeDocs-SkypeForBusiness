@@ -1756,12 +1756,7 @@
         "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here", 
         "redirect_document_id": false
         },
-    {
-          "source_path": "environment-readiness.md", 
-          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
-          "redirect_document_id": false
-        },
-    {
+   {
           "source_path": "upgrade-plan-for-quality.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false

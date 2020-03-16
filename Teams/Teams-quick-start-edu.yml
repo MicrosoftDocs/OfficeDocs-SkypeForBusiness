@@ -87,26 +87,12 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
     
-    You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
+    You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement.
 
     > [!NOTE]
-    > Before you turn on Teams for your school, make sure you have the proper controls in place. A piloting program helps significantly to ensure the proper users are able to use and give feedback on what types of controls enhance the usage and management of the product. 
-
-    Below are some sample pilot user groups and the teams that could be of interest. 
-
-    |IT department   |Staff pilots   |Educator pilots   |Student pilots   |
-    |---|---|---|---|---|
-    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select staff departments for their project work and collaboration.   |Identify educators to become champions who are excited about Teams in the classroom and in educator collaboration.   |Get students excited about how Teams can help them outside of the classroom. Identify student champions that can use Teams within their extracurricular groups.   |
-    |**Sample teams**   |   |   |   |
-    |IT project coordination (e.g., Teams rollout)    |Project coordination   |Class section collaboration & communications (including syllabus, group project work, TA or breakout sessions)   |Professional society, group coordination & collaboration (e.g., Honor Society, Association of Marketing Students)   |
-    |IT department-to-faculty communications   |Collaboration workspace, announcements   |Inter-department coordination, communications   |Social, philanthropic group coordination & collaboration (e.g., fraternities, sororities)   |
-    |LiveSite issues   |Meetings   |Research project collaboration   |   |
-    |Organization collaboration workspace, announcements   |Executive admin groups   |   |   |
-
-    > [!NOTE]
-    > For help and support with Teams licenses or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+    > Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. Use the Office 365 admin portal to enable Teams for faculty and students.
 
 - title: Configure Teams for your school
   durationInMinutes: 7

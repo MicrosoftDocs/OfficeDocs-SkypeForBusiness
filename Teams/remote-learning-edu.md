@@ -26,7 +26,7 @@ appliesto:
 > - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - If you're a teacher, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Parents and guardians can also go to our [Parent Support Page](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) for help with remote learning.
+> - Parents and guardians can also go to our [**Parent Support Page**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
 
 Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -98,7 +98,7 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 - Create private channels set to 'off'
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies to your staff and educators via security group membership](assign-policies.md#assign-a-policy-to-a-group).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu.md).
 
 ## Start using Teams
 
@@ -106,7 +106,7 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 Microsoft Teams for Education offers [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classrooms with specific features, including: Assignments, a OneNote classroom notebook, a [class materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) for securing read-only content for students, and the ability to mute disruptive students. There are a couple of ways in which class teams can be deployed:
 
-1. [School Data Sync](https://sds.microsoft.com/) (SDS) can be **setup by IT**, allowing class teams to be created for all classes based on information in the school information system. This process will provision teams for each section and keep your instructor and student rosters in sync. [Educators will have the ability to prepare their team](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) before admitting students. Alternatively, if an educator doesn't use the team, students won't be admitted into the team because the educator never clicks 'activate'. SDS supports over 80 different School Information Systems (SIS systems) for data import, and the [SDS support team](https://aka.ms/SDSSupport) is ready to assist you in planning and configuration.
+1. [School Data Sync](https://sds.microsoft.com/) (SDS) can be **setup by IT**, allowing class teams to be created for all classes based on information in the school information system. This process will provision teams for each section and keep your instructor and student rosters in sync. [Educators will have the ability to prepare their team](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) before admitting students. Alternatively, if an educator doesn't use the team, students won't be admitted into the team because the educator never clicks 'activate'. SDS supports over 80 different School Information Systems (SIS systems) for data import, and the [SDS support team](https://aka.ms/SDSSupport) is ready to assist you in planning and configuration. You can also view our [Fast Deployment Guide for Remote Learning](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance) to get started quickly.
 1. **Educators set up** their own class type team and invite students. Educators can do this via [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it's best to have educators add their students to the team to ensure the students get access, and are notified that they've been added to a team.
 
 After team setup, team owners can [customize their team's settings](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) including adding a [team picture](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [create channels](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45) for class subjects or group collaboration areas, [add an app](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) like Quizlet/Flipgrid/Kahoot to surface existing educational content, and [mention their team for their first post](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) to notify everyone and start the conversation.
@@ -149,7 +149,11 @@ IT professionals and support staff can get up to speed with Teams architecture a
 Additional support resources include:
 
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
+- [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
+- [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Student Help center](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [How to quickly optimize Office 365 traffic for remote staff](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
