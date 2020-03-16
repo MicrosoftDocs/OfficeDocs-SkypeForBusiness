@@ -97,7 +97,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 ### Using PowerShell
 
 1. Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the group Id of the team. (You can easily find the group Id in the link to the team.)
+2. Run the following, where &lt;group_id&gt; is the Group ID of the team. (You can easily find the Group ID in the link to the team.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -111,7 +111,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following to get the list of private channel Ids for a given team, where <group_id> is the group Id of the team. You'll need this in subsequent calls. (You can easily find the group Id in the link to the team).
+1. Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team. You'll need this in subsequent calls. (You can easily find the group ID in the link to the team).
 
     **Request**
 
@@ -141,7 +141,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     }
     ```
 
-2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel Id.
+2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.
 
     **Request**
 
@@ -179,46 +179,23 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 ### Using PowerShell
 
-1. Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.
-
-    **Request**
+1. Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **Response**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
-3. Promote a member to an owner.
+2. Promote a member to an owner.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### Using Graph API
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.
+1. Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.
 
     **Request**
 

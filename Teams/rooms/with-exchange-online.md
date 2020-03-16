@@ -42,10 +42,10 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
-    $org='contoso.microsoft.com'
-    $cred=Get-Credential $admin@$org
-    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
+    $org = 'contoso.microsoft.com'
+    $cred = Get-Credential $admin@$org
+    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
+    Import-PSSession $sess -DisableNameChecking
     ```
 
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Microsoft Teams Rooms.
@@ -115,8 +115,9 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 1. Create a remote Windows PowerShell session from a PC as follows:
 
     ``` Powershell
-    Import-Module SkypeOnlineConnector  
-    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-Module SkypeOnlineConnector
+    $cred = Get-Credential
+    $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
     ```
 
