@@ -47,6 +47,7 @@ The following phones are Certified for Microsoft Teams:
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
 |Poly CCX500 | 5.9.12.1111| December 2019|
+|Yealink MP56| 122.15.0.6| March 2020|
 |Yealink VP59 | 91.15.0.16 |June 2019|
 |Yealink T55 | 58.15.0.36 |May 2019|
 |Yealink CP 960 |73.15.0.20|December 2018|
