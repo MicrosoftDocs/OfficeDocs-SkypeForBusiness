@@ -19,14 +19,14 @@ appliesto:
 
 # PowerShell script sample - Export managers and their directs
 
-Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a team for each manager with their directs as team members.
+Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.
 
-To learn about this PowerShell script, read [Create teams for managers and their directs](../create-manager-directs-teams.md).
+To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
 
 If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## Sample script
+## Export-Managers script
 
 ```powershell
 <# 

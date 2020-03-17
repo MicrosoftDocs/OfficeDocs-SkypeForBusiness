@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - Create new teams for managers and their directs
+title: PowerShell script sample - Create new people manager teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,22 +17,22 @@ appliesto:
   - Microsoft Teams
 ---
 
-# PowerShell script sample - Create new teams for managers and their directs
+# PowerShell script sample - Create new people manager teams
 
 Use this PowerShell script to create a team for each manager with their directs as team members. Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.
 
-To learn about this PowerShell script, read [Create teams for managers and their directs](../create-manager-directs-teams.md).
+To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
 
 If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## Sample script
+## Create new people manager teams 
 
 ```powershell
 <# 
 .SYNOPSIS 
   Name: New-TeamsFromManagers.ps1 
-  The purpose of this sample script is to create new Teams based off a list of managers while including respective direct reports.
+  This sample script creates a new team for each people manager that includes the manager and their direct reports, based off the ExportedManagerDirects.txt file. 
    
 .DESCRIPTION 
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports.
