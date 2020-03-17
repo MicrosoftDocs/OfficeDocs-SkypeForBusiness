@@ -37,7 +37,7 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
-## [Create teams for managers and their directs](create-manager-directs-teams.md)
+## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
