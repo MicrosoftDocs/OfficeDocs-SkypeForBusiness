@@ -31,9 +31,11 @@ Then, run the [Create new people manager teams script](scripts/powershell-script
 
 For each team, the script creates a General and "Just for fun" channel. 
 
-## Best practice
+## Best practices
 
-Ask each people manager to add your organization's crisis communications website as a tab to the General channel for each team. 
+- Ask each people manager to add your organization's crisis communications website as a tab to the General channel for each team. 
+
+- Check out the new Crisis Communications app by reading this March 8, 2020 blog post: [Coordinate crisis communications using Microsoft Teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
 
 ## Related topics
 
