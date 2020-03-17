@@ -32,10 +32,10 @@ If you're new to PowerShell and need help getting started, see [Overview of Azur
 <# 
 .SYNOPSIS 
   Name: Export-ManagersDirectsFromAAD.ps1 
-  The purpose of this sample script is to build a list of managers and direct reports to provision Teams for.
+  The purpose of this sample script is to build a list of managers and direct reports to use with the New-TeamsFromManagers.ps1 to create a team for each people manager and their directs.
    
 .DESCRIPTION 
- This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports. It assumes that DisplayName is not null
+ This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports. It assumes that DisplayName is not null.
  
 .NOTES 
   &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided 
