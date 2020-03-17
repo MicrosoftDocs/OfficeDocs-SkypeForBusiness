@@ -104,7 +104,7 @@ When user Sesha creates a team for Investment Banking segment, the team and the 
 
 ## Required licenses and permissions
 
-For more details, including plans and pricing, see [Microsoft Dynamics 365 Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+For more details, including plans and pricing, see [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## More information
 
