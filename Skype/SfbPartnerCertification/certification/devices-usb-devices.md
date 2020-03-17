@@ -30,10 +30,59 @@ The peripherals certification program ensures that USB peripherals such as heads
 * For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 ## Device qualifications
-##### *Updated Jan 15, 2019*
+##### *Updated March 16, 2020*
 
-|Manufacturer| Model	|Qualified|
-|:--- |:--- |:--- |
+|Manufacturer| Model	|Qualified|Certified Program|
+|:--- |:--- |:--- |:---|
+|Poly|Calisto 5300-M|03/05/2020|Microsoft Teams |
+|Poly|Voyager 4210 Office|03/05/2020|Microsoft Teams |
+|Poly|Voyager 4210 UC |03/05/2020|Microsoft Teams |
+|Poly|Voyager 4220 Office |03/05/2020|Microsoft Teams |
+|Poly|Voyager 4220 UC|03/05/2020|Microsoft Teams |
+|Poly|Voyager 5200 Office|03/05/2020|Microsoft Teams |
+|Poly|Voyager 5200 UC|03/05/2020|Microsoft Teams|
+|Poly|Blackwire 3310-M|03/05/2020|Microsoft Teams
+|Poly|Blackwire 3315-M|03/03/2020|Microsoft Teams|
+|Poly|Blackwire 3320-M|03/05/2020|Microsoft Teams|
+|poly|Blackwire 3325-M|03/05/2020|Microsoft Teams|
+|Poly|Calisto 3200-M|01/27/2020|Microsoft Teams|
+|Crestron|CCS-UCA-MIC|12/18/2019|Microsoft Teams <br>Skype for Business|
+|Sennheiser|SP 30T|12/05/2019|Microsoft Teams|
+|Polycom|Elara|11/06/2019|Microsoft Teams|
+|Polycom|Studio Soundbar|10/18/2019|Microsoft Teams|
+|Yealink| UVC30|10/18/2019| Microsoft Teams|
+|Sennheiser|SC 665 USB A|09/29/2019|Skype for Business|
+|Sennheiser|SC 665 USB C|09/29/2019|Skype for Business|
+|Sennheiser|TeamsConnect Ceiling 2|09/19/2019|Skype for Business|
+|Plantronics|Savi 8240 Office|08/22/2019|Skype for Business|
+|Plantronics|Savi 8240 UC|08/22/2019|Skype for Business|
+|Jabra|PanaCast|08/14/2019|Skype for Business|
+|Plantronics|Savi 8220 UC|07/26/2019|Skype for Business|
+|Plantronics|Savi 8210 UC|07/26/2019|Skype for Business|
+|Sennheiser|SP 30|07/25/2019|Skype for Business|
+|Yealink|UVC50 +CPW90|07/01/2019|Skype for Business|
+|Yealink|USB PTZ Camera|07/01/2019|Skype for Business|
+|Yealink|UVC50|07/01/2019|Skype for Business|
+|Crestron| UC-SB1|06/24/2019|Skype for Business|
+|Crestron| UC-SB1-CAM|06/24/2019|Skype for Business|
+|Lenovo|Pro Headset|06/20/2019|Skype for Business|
+|Sennheiser|SDW 3 Series|06/13/2019|Skype for Business|
+|Logitech|Zone Wireless|05/06/2019|Skype for Business|
+|Yealink|YHS33-USB|04/30/2019|Skype for Business|
+|Yealink|UVC80|04/27/2019|Skype for Business|
+|Yealink|MSpeaker|04/27/2019|Skype for Business|
+|Yealink|VCM34|04/27/2019|Skype for Business|
+|Yealink|USB PTZ Camera |04/27/2019|Skype for Business|
+|Yealink|VCM34|04/27/2019|Skype for Business|
+|Crestron|CCS-UC-1|04/01/2019|Skype for Business|
+|Crestron|Huddly IQ|04/01/2019|Skype for Business|
+|Jabra|Evolve 65e|03/08/2019|Skype for Business|
+|Sennheiser|SDW 5036|02/19/2019|Skype for Business|
+|Sennheiser|SDW 5066| 02/19/2019|Skype for Business|
+|Polycom|Trio 8500|02/19/2019|Skype for Business|
+|Sennheiser|SC 660 ANC USB|02/14/2019|Skype for Business|
+|Dell|UC150|01/18/2019|Skype for Business|
+|Plantronics|Blackwire 7725|01/16/2019|Skype for Business|
 |Sennheiser|	SC160 USB A |11/27/2018|
 |Sennheiser|	SC160 USB C |11/27/2018|
 |Jabra|	Evolve 65T |11/26/2018|
@@ -67,6 +116,15 @@ The peripherals certification program ensures that USB peripherals such as heads
 |Sennheiser|	SC 635 USB |11/28/2017|
 |Sennheiser|	SC 665 USB|11/28/2017|
 |Plantronics|	Voyager 8200 UC |7/26/2017|
+|Plantronics| EncorePro 510 with DA90 |3/17/2017|
+|Plantronics| EncorePro 710 with DA90 |3/17/2017|
+|Plantronics| EncorePro 720 with DA90 |3/17/2017|
+|Plantronics| EncorePro HW710D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW720D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW510D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW520D with DA90 |3/17/2017|
+|Plantronics| EncorePro HW530D(OTE) with DA90 |3/17/2017|
+|Plantronics|EncorePro HW540D (Convertable) with DA90 |3/17/2017|
 |Yamaha|	YVC-1000MS Speakerphone |7/7/2017|
 |Logitech|	MeetUp |6/7/2017|
 |Jabra|	EVOLVE 75 MS Stereo |6/1/2017|
