@@ -42,3 +42,8 @@ In response to an increased need for people to work remotely (or work from home)
 - For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md). 
 
 - EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+
+
+## Related topics
+
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

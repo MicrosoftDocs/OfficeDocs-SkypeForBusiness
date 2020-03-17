@@ -89,3 +89,4 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 [Manage the Teams Exploratory experience](teams-exploratory.md)
 
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
