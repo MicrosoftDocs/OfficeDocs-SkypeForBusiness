@@ -1,5 +1,5 @@
 ---
-title: Create people manager teams for managers and their directs
+title: Create people manager teams in Microsoft Teams
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create people manager teams for managers and their directs
+# Create people manager teams in Microsoft Teams
 
 
 When you roll out Microsoft Teams, rather than launching with a "blank slate" (no teams or channels), we strongly recommend that you set up a base framework of teams and channels. This helps to prevent "team sprawl," where users create numerous teams when they should be creating channels in existing teams. To help you get started with a well-designed teams and channels structure, we've created a PowerShell script that creates a team for each of your first and second line people managers, with each manager's direct reports as team members. This is a "point-in-time" script (it doesn't update your teams or channels automatically when people are added or removed from an organization). But it's a valuable tool you can use to impose some order on your Teams structure from the start. This script reads your Azure AD, gets a list of managers and their direct reports. It uses this list to create one team per people manager. 
