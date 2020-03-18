@@ -29,6 +29,9 @@ Don't miss all of our guidance for [supporting remote workers with Teams](suppor
 
 Contact your Microsoft account representative. They'll get you a promo code that you can use to sign up for the E1 Trial. 
 
+For organizations served by a Microsoft partner, work with your partner to get a free 6-month Teams trial. If you don't have a Microsoft partner yet and would like to work with one, go to [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) and search for partners with expertise in Teams.
+
+
 ## How to sign up for E1
 
 Click the promo code in the email your account rep will send you. 
