@@ -1,5 +1,5 @@
 ---
-title: "Management overview for Microsoft Teams Rooms"
+title: "Manage Microsoft Teams Rooms"
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -16,75 +16,59 @@ ms.collection:
 description: "Management overview for Microsoft Teams Rooms."
 ---
 
-# Management overview
+# Manage Microsoft Teams Rooms
 
-It’s essential that you develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users and deliver a great user experience. 
+If you have Microsoft Teams Rooms-certified consoles in your organization, you can manage them from a central location using the Microsoft Teams admin center. You can:
 
-## Monitoring 
+- Perform device management like restarting or blocking devices, downloading device logs, and applying software updates
+- Apply Teams-specific settings
+- Check the health status of Microsoft Teams Room devices and their peripherals
+- Review current and past meeting activity (such as the number of participants and what Teams features were used)
+- See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
 
-Monitoring Microsoft Teams Rooms systems consists of two key activities:
+If you have more than one Teams Rooms console, you can do most actions on multiple consoles at the same time. For example, you can set Teams app configuration on all of your consoles at the same time.
 
-- Device, application, and peripheral device monitoring
-- Quality and reliability monitoring (CQD)
+To manage Teams Rooms consoles, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Devices** > **Teams Rooms**.
 
-### Microsoft Teams Rooms device, application, and peripheral device monitoring
+> [!IMPORTANT]
+> To manage consoles using the Teams admin center, you need to be assigned the Teams Service Administrator role.
 
-To ensure that users are able to use the Microsoft Teams Rooms units, the units must be on, connected to the network with the Microsoft Teams Rooms application correctly configured, and be connected to functioning peripheral devices. 
+## Change console settings
 
-Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries). 
+You can change settings on one or more consoles in your organization. To change console settings, select the console or consoles you want to manage and then select **Settings**. A new pane will open with all of the settings you can change on your consoles. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single console. 
 
-|**Setting**|**Allows**|
-|:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
-|Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
+If you select more than one console, settings that support bulk-editing show the two following options.
 
-Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
-## Remote Management using PowerShell
-<a name="RemotePS"> </a>
+- **Keep existing value** If you choose this option, no changes will be made to the setting on the consoles you selected.
+- **Replace existing value with** If you choose this option, you can update the setting on the consoles you selected with the value you provide.
+    > [!CAUTION]
+    > Existing values on the settings you choose to update will be replaced with the value you provide. If you want to add to a list of existing values, you need to include the existing values with the value you want to add. For example, if a setting has an existing domain list of `contoso.com, fabrikam.com`, and you want to add `northwindtraders.com`, the value you need to provide would be `contoso.com, fabrikam.com, northwindtraders.com`.
+    >
+    > If you select multiple consoles, the setting on all of the consoles you select will be changed to the value you provide. If consoles have different values for a setting, they'll all be updated to the same value.
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). 
-
-Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Microsoft Teams Rooms units across your deployment. 
-
-|    |     |
-|-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
-
-## Quality and reliability monitoring (CQD)
-
-We recommend that you implement ongoing operational quality and reliability monitoring procedures as part of your deployment to monitor the trending of call and meeting quality and reliability, identifying any areas of concern and working toward a resolution. 
-
-When you upload your building information to CQD you can investigate call quality and reliability trends on a per-building level, which makes it easy to compare buildings and focus your attention on specific problems.
-
-We recommend that you review and follow the [Quality of Experience Review Guide](https://aka.ms/qerguide) to identify quality and reliability trends, and create an action plan to resolve them. 
-
-## Updating the Microsoft Teams Rooms OS and Microsoft Teams Rooms application
-
-We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Rooms application to benefit from product updates and improvements. For detailed guidance, see [Manage Microsoft Teams Rooms](rooms-operations.md#software-updates). 
-
-## Windows Updates
-
-Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](updates.md) for details.
-
-
-## Troubleshooting
-
-We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
-
-For more information about troubleshooting and admin mode, see [Admin mode and device management](rooms-operations.md#admin-mode-and-device-management). 
-
-
-## See also
-
-[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-
-[Plan for Microsoft Teams Rooms](rooms-plan.md)
-
-[Deploy Microsoft Teams Rooms](rooms-deploy.md)
-
-[Configure a Microsoft Teams Rooms console](console.md)
-
-[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
+| Section     | Setting                                                      | Description | Accepted values                                        | Supports bulk edit |
+|-------------|--------------------------------------------------------------|-------------|--------------------------------------------------------|--------------------|
+| Account     | **Email**                                                    |             | Email address                                          | No                 |
+|             | **Password**                                                 |             | Password                                               | No                 |
+|             | **Supported meeting mode**                                   |             | On, Off                                                | Yes                |
+|             | **Modern authentication**                                    |             | On, Off                                                | Yes                |
+|             | **Exchange address**                                         |             | Email address                                          | No                 |
+|             | **Domain\username (optional)**                               |             | Account domain and user name                           | No                 |
+|             | **Configure domain**                                         |             | Comma-separated list                                   | Yes                |
+| Meetings    | **Automatic screen sharing**                                 |             | On, Off                                                | Yes                |
+|             | **Show meeting names**                                       |             | On, Off                                                | Yes                |
+|             | **Auto-leave if everyone else left meeting**                 |             | On, Off                                                | Yes                |
+|             | **Join third-party meetings**                                |             | Off, Cisco Webex only, Zoom only, Cisco Webex and Zoom | Yes                |
+| Device      | **Dual monitor mode**                                        |             | On, Off                                                | Yes                |
+|             | **Allow content duplication**                                |             |                                                        | Yes                |
+|             | **Swap screens**                                             |             | N/A                                                    | No                 |
+|             | **Bluetooth beaconing**                                      |             | On, Off                                                | Yes                |
+|             | **Automatically accept proximity-based meeting invitations** |             |                                                        | Yes                |
+|             | **Send logs with feedback**                                  |             | On, Off                                                | Yes                |
+| Peripherals | **Conferencing microphone**                                  |             |                                                        | No                 |
+|             | **Conferencing speaker**                                     |             |                                                        | No                 |
+|             | **Default volume**                                           |             |                                                        | No                 |
+|             | **Default speaker**                                          |             |                                                        | No                 |
+|             | **Default volume**                                           |             |                                                        | No                 |
+|             | **Content camera**                                           |             |                                                        | No                 |
+| Theming     | **Select a theme**                                           |             | Default, Upload custom theme image                     | Yes                |
