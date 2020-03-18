@@ -307,7 +307,7 @@ Media Processors placed in the same datacenters as SIP Proxies. Also, there are 
 
 Location of the Media Processors:
 
-Locations where both SIP proxy and Media Processor components deployed:
+Locations where both SIP proxy and media processor components deployed:
 	- US (two in US West and US East datacenters)
 	- Europe (Amsterdam and Dublin datacenters)
 	- Asia (Singapore and Hong Kong datacenters)
@@ -349,4 +349,3 @@ For more information about supported SBCs, see [List of Session Border Controlle
 ## See also
 
 [Configure Direct Routing](direct-routing-configure.md)
-
