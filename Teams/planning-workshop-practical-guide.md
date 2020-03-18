@@ -29,15 +29,21 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
     Follow our recommended path to rolling out Teams.
 
-- [Workshop: Plan, deliver, & operate Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
+- [Get Teams technical training](https://aka.ms/TeamsAcademy)
 
-    Use this PowerPoint presentation to lead a workshop with your organization to plan your Teams rollout. The workshop introduces Teams, and guides your team through decision points and next steps.
+    Use these technical training resources to educate yourself, teach others, or run workshops.
 
 - [Office 365 Government Customers](plan-for-government-gcc.md)
 
    Your journey to Teams is much like our enterprise customers' experience. As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.
 
+- [Teams for Education - Quick start for admins](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+
+    Use this tutorial to walk you through a Teams rollout for your education organization.
+
 ### See also
+
+[Teams training](training-microsoft-teams-landing-page.md)
 
 [IT admin readiness for Teams](ITAdmin-readiness.md)
 
@@ -47,6 +53,6 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 [Move users from on-premises to Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
-[Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
+[Manage Teams settings for your organization](enable-features-office-365.md)
 
 
