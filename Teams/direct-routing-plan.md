@@ -299,6 +299,26 @@ The port range of the Media Processors is shown in the following table:
   > [!NOTE]
   > Microsoft recommends at least two ports per concurrent call on the SBC.
 
+
+## Media traffic: Media processors geography
+
+The media traffic flows via components called media processors. 
+Media processors are placed in the same datacenters as SIP proxies. Also, there are additional media processors to optimize media flow. For example, we do not have a SIP proxy component now in Australia (SIP flows via Singapore or Hong Kong) but we do have the media processor locally in Australia. The need for the media processors locally is dictated by the latency which we experience by sending traffic long-distance, for example from Australia to Singapore or Hong Kong. While latency in the example of traffic flowing from Australia to Hong Kong or Singapore is acceptable to preserve good call quality for SIP traffic, for real-time media traffic it is not.
+
+Location of the media processors:
+
+Locations where both SIP proxy and media processor components deployed:
+	- US (two in US West and US East datacenters)
+	- Europe (Amsterdam and Dublin datacenters)
+	- Asia (Singapore and Hong Kong datacenters)
+
+Locations where only media processors are deployed (SIP flows via the closest datacenter listed above):
+	- Japan (JP East and West datacenters)
+	- Australia (AU East and West datacenters)
+
+
+
+
 ## Media traffic: Codecs
 
 ### Leg between SBC and Cloud Media Processor or Microsoft Teams client.
@@ -329,6 +349,3 @@ For more information about supported SBCs, see [List of Session Border Controlle
 ## See also
 
 [Configure Direct Routing](direct-routing-configure.md)
-
-
-
