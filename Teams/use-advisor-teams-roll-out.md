@@ -163,5 +163,7 @@ Go to the [Forms help center](https://support.office.com/forms).
 
 [How to roll out Teams](How-to-roll-out-teams.md)
 
+[Best practices for organizing teams in Teams](best-practices-organizing.md)
+
 [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 

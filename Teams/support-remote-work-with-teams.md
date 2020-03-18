@@ -95,7 +95,7 @@ Share these assets and videos with your end users to help them get started quick
       - [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Work remotely with Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
-
+      
       - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
 
       - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
