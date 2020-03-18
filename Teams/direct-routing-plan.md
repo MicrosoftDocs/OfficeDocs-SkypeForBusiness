@@ -312,7 +312,7 @@ Locations where both SIP proxy and Media Processor components deployed:
 	- Europe (Amsterdam and Dublin datacenters)
 	- Asia (Singapore and Hong Kong datacenters)
 
-Locations where only Media Processors deployed (SIP flows via nearest datacenter listed above)
+Locations where only media processors are deployed (SIP flows via the closest datacenter listed above):
 	- Japan (JP East and West datacenters)
 	- Australia (AU East and West datacenters)
 
@@ -349,6 +349,5 @@ For more information about supported SBCs, see [List of Session Border Controlle
 ## See also
 
 [Configure Direct Routing](direct-routing-configure.md)
-
 
 
