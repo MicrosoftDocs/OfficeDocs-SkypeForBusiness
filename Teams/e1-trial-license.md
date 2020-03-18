@@ -36,7 +36,7 @@ Click the promo code in the email your account rep will send you.
 
 ## Who's eligible?
 
-This offer is intended for customers managed by a Microsoft account rep. It's for organizations who haven't activated any other Office 365 E1 trials in the past. 
+This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past. 
 
 After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code. In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).
 
@@ -89,3 +89,4 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 [Manage the Teams Exploratory experience](teams-exploratory.md)
 
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
