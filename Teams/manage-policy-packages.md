@@ -26,7 +26,7 @@ A policy package in Microsoft Teams is a collection of predefined policies and p
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of the policies in the package to meet your organization's needs.
 
-Note: Policy packages aren't available for US Government Cloud Community (GCC) organizations.
+Policy packages aren't available for US Government Cloud Community (GCC) organizations.
 
 ## What is a policy package?
 
