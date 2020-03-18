@@ -305,7 +305,7 @@ The port range of the Media Processors is shown in the following table:
 The media traffic flows via components, called Media Processors. 
 Media Processors placed in the same datacenters as SIP Proxies. Also, there are additional media processors to optimize the media flow. For example, now we do not have a SIP Proxy component in Australia (SIP flows via Singapore or Hong Kong) but we do have the Media Processor locally in Australia. Need of the Media Processors locally dictated by the latency which we  experience by sending traffic on long distance, for example from Australia to Singapore or Hong Kong. While latency in the example of traffic flowing from Australia to Hong Kong or Singapore is acceptable to preserve good call quality for SIP traffic, for Real Time Media traffic it is not.
 
-Location of the Media Processors:
+Location of the media processors:
 
 Locations where both SIP proxy and media processor components deployed:
 	- US (two in US West and US East datacenters)
