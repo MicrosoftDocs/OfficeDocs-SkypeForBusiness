@@ -93,13 +93,26 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Support remote workers</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">Get the guidance you need - including links to training - to support your users who are working from home.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Teams Essentials for IT</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft Mechanics "Teams for IT" video series shows you - the admin - how to roll out, configure, and manage Teams.</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
