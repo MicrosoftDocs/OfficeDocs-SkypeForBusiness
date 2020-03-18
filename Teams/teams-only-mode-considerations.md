@@ -44,8 +44,6 @@ While thousands of customers have successfully upgraded to Microsoft Teams, ther
 
 **Tenant-wide considerations**: We are working on enabling Teams in the following environments; however, for now, administrators shouldn't upgrade any users in their organization if their Skype for Business tenant is hosted in one of the following environments:
 
- - Government Community Cloud High
- - Government Community Cloud DoD
  - Office 365 operated by 21Vianet
  - Office 365 Germany
  - Skype for Business tenant is hosted in South Korea **and** the organization requires Teams data to be stored in South Korea. Currently, organizations with Skype for Business data stored in South Korea that upgrade to Teams will have their Teams data stored in the Asia datacenter region, not in the South Korea datacenter region.
