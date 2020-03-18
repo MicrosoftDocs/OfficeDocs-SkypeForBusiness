@@ -300,7 +300,7 @@ The port range of the Media Processors is shown in the following table:
   > Microsoft recommends at least two ports per concurrent call on the SBC.
 
 
-## Media traffic: Media Processors geography
+## Media traffic: Media processors geography
 
 The media traffic flows via components called media processors. 
 Media processors are placed in the same datacenters as SIP proxies. Also, there are additional media processors to optimize media flow. For example, we do not have a SIP proxy component now in Australia (SIP flows via Singapore or Hong Kong) but we do have the media processor locally in Australia. The need for the media processors locally is dictated by the latency which we experience by sending traffic long-distance, for example from Australia to Singapore or Hong Kong. While latency in the example of traffic flowing from Australia to Hong Kong or Singapore is acceptable to preserve good call quality for SIP traffic, for real-time media traffic it is not.
