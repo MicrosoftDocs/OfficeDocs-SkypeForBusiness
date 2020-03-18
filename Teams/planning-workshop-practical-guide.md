@@ -35,7 +35,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 - [Office 365 Government Customers](plan-for-government-gcc.md)
 
-   Your journey to Teams is much like our enterprise customers' experience. As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.
+   Your journey to Teams is much like our enterprise customers' experience. As Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.
 
 - [Teams for Education - Quick start for admins](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
 
