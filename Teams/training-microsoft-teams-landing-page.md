@@ -12,6 +12,7 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
