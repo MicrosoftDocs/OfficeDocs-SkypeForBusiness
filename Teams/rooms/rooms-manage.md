@@ -26,14 +26,16 @@ If you have Microsoft Teams Rooms-certified consoles in your organization, you c
 - Review current and past meeting activity (such as the number of participants and what Teams features were used)
 - See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
 
-If you have more than one Teams Rooms console, you can do most actions on multiple consoles at the same time. For example, you can set Teams app configuration on all of your consoles at the same time.
-
 To manage Teams Rooms consoles, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Devices** > **Teams Rooms**.
 
 > [!IMPORTANT]
 > To manage consoles using the Teams admin center, you need to be assigned the Teams Service Administrator role.
 
-## Change console settings
+## Making changes to consoles
+
+If you have more than one Teams Rooms console, you can do most actions on multiple consoles at the same time. For example, you can set Teams app configuration on all of your consoles at the same time.
+
+### Console settings
 
 You can change settings on one or more consoles in your organization. To change console settings, select the console or consoles you want to manage and then select **Settings**. A new pane will open with all of the settings you can change on your consoles. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single console. 
 
@@ -51,34 +53,45 @@ If you select more than one console, settings that support bulk-editing show the
 | *Account*                                                    |             |                                                        |                    |
 | **Email**                                                    |             | Email address                                          | No                 |
 | **Password**                                                 |             | Password                                               | No                 |
-| **Supported meeting mode**                                   |             | On, Off                                                | Yes                |
-| **Modern authentication**                                    |             | On, Off                                                | Yes                |
+| **Supported meeting mode**                                   | | Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes|
+| **Modern authentication**                                    |             | On<br>Off                                              | Yes                |
 | **Exchange address**                                         |             | Email address                                          | No                 |
 | **Domain\username (optional)**                               |             | Account domain and user name                           | No                 |
 | **Configure domain**                                         |             | Comma-separated list                                   | Yes                |
 | *Meetings*                                                   |             |                                                        |                    |
-| **Automatic screen sharing**                                 |             | On, Off                                                | Yes                |
-| **Show meeting names**                                       |             | On, Off                                                | Yes                |
-| **Auto-leave if everyone else left meeting**                 |             | On, Off                                                | Yes                |
-| **Join third-party meetings**                                |             | Off, Cisco Webex only, Zoom only, Cisco Webex and Zoom | Yes                |
+| **Automatic screen sharing**                                 |             | On<br>Off                                              | Yes                |
+| **Show meeting names**                                       |             | On<br>Off                                              | Yes                |
+| **Auto-leave if everyone else left meeting**                 |             | On<br>Off                                              | Yes                |
+| **Join third-party meetings**                                |             | Off<br>Cisco Webex only<br>Zoom only<br>Cisco Webex and Zoom | Yes                |
 | *Device*                                                     |             |                                                        |                    |
-| **Dual monitor mode**                                        |             | On, Off                                                | Yes                |
+| **Dual monitor mode**                                        |             | On<br>Off                                              | Yes                |
 | **Allow content duplication**                                |             |                                                        | Yes                |
 | **Swap screens**                                             |             | N/A                                                    | No                 |
-| **Bluetooth beaconing**                                      |             | On, Off                                                | Yes                |
+| **Bluetooth beaconing**                                      |             | On<br>Off                                              | Yes                |
 | **Automatically accept proximity-based meeting invitations** |             |                                                        | Yes                |
-| **Send logs with feedback**                                  |             | On, Off                                                | Yes                |
+| **Send logs with feedback**                                  |             | On<br>Off                                              | Yes                |
 | *Peripherals*                                                |             |                                                        |                    |
 | **Conferencing microphone**                                  |             |                                                        | No                 |
 | **Conferencing speaker**                                     |             |                                                        | No                 |
-| **Default volume**                                           |             |                                                        | No                 |
+| **Default volume**                                           |             | 0-100                                                  | No                 |
 | **Default speaker**                                          |             |                                                        | No                 |
-| **Default volume**                                           |             |                                                        | No                 |
+| **Default volume**                                           |             | 0-100                                                  | No                 |
 | **Content camera**                                           |             |                                                        | No                 |
 | *Theming*                                                    |             |                                                        |                    |
-| **Select a theme**                                           |             | Default, Upload custom theme image                     | Yes                |
+| **Select a theme**                                           |             | Default<br>Upload custom theme image                   | Yes                |
 
-## Console restart options
+### Console updates
+
+You can apply updates to one or more consoles at the same time. Updates you can apply include updates to the Teams Room app, Teams agent, Windows 10, console firmware, and so on. By default, all available updates for a console are selected when you choose to update your consoles. If you don't want to apply an update to a specific console, you can deselect that update. 
+
+To apply updates to one or more consoles, do the following:
+
+1. In **Devices** > **Teams Rooms**, select the consoles you want to update and then select **Update**.
+2. In the **Available updates** pane that appears, you can open each console's details to see which updates will be applied to that console.
+3. If you don't want to apply an update to a console, deselect the update for that console. If you want to deselect an update on multiple consoles, you need to open each console individually and deselect the update.
+4. After you've selected the updates you want to apply, choose your restart option (see [Console restart options](#console-restart-options) for more information). The selected consoles will be updated at the time you specify.
+
+### Console restart options
 
 Some changes to console settings will only take effect after the consoles have been restarted. When you make changes that need a restart, you can choose whether to restart the consoles immediately or schedule a restart. Here are the available restart options:
 
@@ -90,3 +103,27 @@ Some changes to console settings will only take effect after the consoles have b
 
 > [!CAUTION]
 > Consoles in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
+
+## View console information
+
+From the Teams admin center, you an view the overall status of all consoles in your organization and view details of each console individually.
+
+### Teams Rooms system dashboard
+
+The Teams Rooms system dashboard shows you the status and health of all of your consoles at a glance.
+
+### Console details view
+
+To view detailed information about a console, select its name from the console list.
+
+#### Peripherals
+
+#### Health
+
+#### Details
+
+#### Meetings
+
+#### History
+
+
