@@ -80,17 +80,13 @@ First, run the following to identify your staff and educators by license type. T
 Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
-```powershell
-$skus = Get-AzureADSubscribedSku
-```
-
 Which returns:
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 In this example, the output shows that the Faculty license SkuId is "e97c048c-37a4-45fb-ab50-922fbf07a370".
@@ -145,7 +141,7 @@ $faculty.count
 Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
