@@ -13,6 +13,7 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 f1.keywords:
 - CSH
 ms.custom: 
@@ -29,7 +30,7 @@ Whether you're a small business or a multi-national enterprise, the place to sta
 ## Recommended path to Teams
 
 
-We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don’t have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
+We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don't have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
 
 - [Get started](get-started-with-teams-quick-start.md)
 - [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
