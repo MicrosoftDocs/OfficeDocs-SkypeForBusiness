@@ -101,7 +101,7 @@ In this example, the output shows that the Faculty license SkuId is "e97c048c-37
 Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## Assign a policy in bulk
