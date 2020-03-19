@@ -77,7 +77,7 @@ When you're prompted, sign in using the same admin credentials you used to conne
 First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
 ```powershell
-Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 ```powershell
