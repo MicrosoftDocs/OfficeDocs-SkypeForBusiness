@@ -69,7 +69,7 @@ To use these templates, simply change the 'template@odata.bind' property in the 
 
 ### Example: Store template extension script
 
-``` Powershell
+``` PowerShell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
   "DisplayName": "Contoso Store",
@@ -81,3 +81,4 @@ To use these templates, simply change the 'template@odata.bind' property in the 
     }
   ]
 }
+```
