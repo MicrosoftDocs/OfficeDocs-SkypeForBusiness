@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150

@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -27,7 +28,7 @@ You can assign licenses to your users for features like Audio Conferencing, Phon
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses
 
-Here’s what you need to know before assigning Audio Conferencing, Phone System, and Calling Plan licenses.
+Here's what you need to know before assigning Audio Conferencing, Phone System, and Calling Plan licenses.
 
 - **Using on-premises PSTN connectivity for hybrid users?** If so, you only need to assign a Phone System license. You should NOT assign a Calling Plan.
 
@@ -159,10 +160,10 @@ foreach ($user in $users)
 | Product name | SKU part name |
 |--------------|---------------|
 | Audio Conferencing (subscription) | MCOMEETADV | 
-| Audio Conferencing Pay Per Minute (pay as you go)</br>*Note: Requires Communications Credits to be set up and enabled*. |	MCOMEETACPEA |
+| Audio Conferencing Pay Per Minute (pay as you go)</br>*Note: Requires Communications Credits to be set up and enabled*. |    MCOMEETACPEA |
 | Enterprise E1 | STANDARDPACK | 
 | Enterprise E3 | ENTERPRISEPACK |
-| Enterprise E5 (without Audio Conferencing) | 	ENTERPRISEPREMIUM_NOPSTNCONF |
+| Enterprise E5 (without Audio Conferencing) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Enterprise E5 (with Audio Conferencing) | ENTERPRISEPREMIUM |
 
 ##  Communications Credits
