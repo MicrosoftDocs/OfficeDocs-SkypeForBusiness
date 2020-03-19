@@ -46,29 +46,47 @@ If you select more than one console, settings that support bulk-editing show the
     >
     > If you select multiple consoles, the setting on all of the consoles you select will be changed to the value you provide. If consoles have different values for a setting, they'll all be updated to the same value.
 
-| Section     | Setting                                                      | Description | Accepted values                                        | Supports bulk edit |
-|-------------|--------------------------------------------------------------|-------------|--------------------------------------------------------|--------------------|
-| Account     | **Email**                                                    |             | Email address                                          | No                 |
-|             | **Password**                                                 |             | Password                                               | No                 |
-|             | **Supported meeting mode**                                   |             | On, Off                                                | Yes                |
-|             | **Modern authentication**                                    |             | On, Off                                                | Yes                |
-|             | **Exchange address**                                         |             | Email address                                          | No                 |
-|             | **Domain\username (optional)**                               |             | Account domain and user name                           | No                 |
-|             | **Configure domain**                                         |             | Comma-separated list                                   | Yes                |
-| Meetings    | **Automatic screen sharing**                                 |             | On, Off                                                | Yes                |
-|             | **Show meeting names**                                       |             | On, Off                                                | Yes                |
-|             | **Auto-leave if everyone else left meeting**                 |             | On, Off                                                | Yes                |
-|             | **Join third-party meetings**                                |             | Off, Cisco Webex only, Zoom only, Cisco Webex and Zoom | Yes                |
-| Device      | **Dual monitor mode**                                        |             | On, Off                                                | Yes                |
-|             | **Allow content duplication**                                |             |                                                        | Yes                |
-|             | **Swap screens**                                             |             | N/A                                                    | No                 |
-|             | **Bluetooth beaconing**                                      |             | On, Off                                                | Yes                |
-|             | **Automatically accept proximity-based meeting invitations** |             |                                                        | Yes                |
-|             | **Send logs with feedback**                                  |             | On, Off                                                | Yes                |
-| Peripherals | **Conferencing microphone**                                  |             |                                                        | No                 |
-|             | **Conferencing speaker**                                     |             |                                                        | No                 |
-|             | **Default volume**                                           |             |                                                        | No                 |
-|             | **Default speaker**                                          |             |                                                        | No                 |
-|             | **Default volume**                                           |             |                                                        | No                 |
-|             | **Content camera**                                           |             |                                                        | No                 |
-| Theming     | **Select a theme**                                           |             | Default, Upload custom theme image                     | Yes                |
+| Setting                                                      | Description | Accepted values                                        | Supports bulk edit |
+|--------------------------------------------------------------|-------------|--------------------------------------------------------|--------------------|
+| *Account*                                                    |             |                                                        |                    |
+| **Email**                                                    |             | Email address                                          | No                 |
+| **Password**                                                 |             | Password                                               | No                 |
+| **Supported meeting mode**                                   |             | On, Off                                                | Yes                |
+| **Modern authentication**                                    |             | On, Off                                                | Yes                |
+| **Exchange address**                                         |             | Email address                                          | No                 |
+| **Domain\username (optional)**                               |             | Account domain and user name                           | No                 |
+| **Configure domain**                                         |             | Comma-separated list                                   | Yes                |
+| *Meetings*                                                   |             |                                                        |                    |
+| **Automatic screen sharing**                                 |             | On, Off                                                | Yes                |
+| **Show meeting names**                                       |             | On, Off                                                | Yes                |
+| **Auto-leave if everyone else left meeting**                 |             | On, Off                                                | Yes                |
+| **Join third-party meetings**                                |             | Off, Cisco Webex only, Zoom only, Cisco Webex and Zoom | Yes                |
+| *Device*                                                     |             |                                                        |                    |
+| **Dual monitor mode**                                        |             | On, Off                                                | Yes                |
+| **Allow content duplication**                                |             |                                                        | Yes                |
+| **Swap screens**                                             |             | N/A                                                    | No                 |
+| **Bluetooth beaconing**                                      |             | On, Off                                                | Yes                |
+| **Automatically accept proximity-based meeting invitations** |             |                                                        | Yes                |
+| **Send logs with feedback**                                  |             | On, Off                                                | Yes                |
+| *Peripherals*                                                |             |                                                        |                    |
+| **Conferencing microphone**                                  |             |                                                        | No                 |
+| **Conferencing speaker**                                     |             |                                                        | No                 |
+| **Default volume**                                           |             |                                                        | No                 |
+| **Default speaker**                                          |             |                                                        | No                 |
+| **Default volume**                                           |             |                                                        | No                 |
+| **Content camera**                                           |             |                                                        | No                 |
+| *Theming*                                                    |             |                                                        |                    |
+| **Select a theme**                                           |             | Default, Upload custom theme image                     | Yes                |
+
+## Console restart options
+
+Some changes to console settings will only take effect after the consoles have been restarted. When you make changes that need a restart, you can choose whether to restart the consoles immediately or schedule a restart. Here are the available restart options:
+
+- **Immediate restart** If you choose this option, all of the consoles you're making changes to will restart as soon as you select this option.
+- **Scheduled restart** If you choose this option, you can restart the consoles you're making changes to at a time that's less disruptive to your organization.
+  - **Select date and time** - Choose the specific date and time to restart the console. The date and time you choose is local to the console being restarted. 
+  - **Leave update for nightly reboot** Consoles are restarted nightly to perform maintenance. Changes you make to consoles will be applied during this restart.
+  - **Update as soon as device is not in use** Use this option if you want to apply changes as soon as possible but don't want to interrupt in-progress meetings.
+
+> [!CAUTION]
+> Consoles in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
