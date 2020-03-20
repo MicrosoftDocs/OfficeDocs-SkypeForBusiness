@@ -106,6 +106,8 @@ Share these assets and videos with your end users to help them get started quick
 
       - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
+      - Satya Nadella and Teams Product Marketing Manager Aya Tange video about [using Teams to work remotely](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (March 20, 2020)
+
 
 3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
 
