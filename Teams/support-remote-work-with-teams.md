@@ -57,7 +57,9 @@ Share these assets and videos with your end users to help them get started quick
 
 ## Additional resources for supporting remote workers
 
-1. Read our [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+1. Read the [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+
+1. Read our March 6, 2020 blog post, [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
 
 1. Teams for Education
    - If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
