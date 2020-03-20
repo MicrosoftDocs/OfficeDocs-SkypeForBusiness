@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Bring support staff onboard for the experiment phase of your Teams adoption.
+description: Use online training resources to bring support staff onboard for the experiment phase of your Teams adoption.
 f1.keywords:
 - CSH
 ms.custom: Adopt
