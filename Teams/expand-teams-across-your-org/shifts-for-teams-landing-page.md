@@ -104,7 +104,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
