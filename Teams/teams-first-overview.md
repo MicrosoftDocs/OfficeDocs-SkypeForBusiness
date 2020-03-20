@@ -272,7 +272,7 @@ Additionally, as companies around the world are managing the current COVID-19 si
 
 ## Support Services reference
 
-Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Office 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcometo Teams](teams-overview.md).
+Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Office 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
 
 For specifics on each of the services listed above, please follow the links below:
 
