@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
+description: Determine the optimal upgrade path to Microsoft Teams based on your current Skype for Business deployment. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
