@@ -158,4 +158,4 @@ Additional support resources include:
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Team help center](https://support.office.com/teams)
+- [Teams help center](https://support.office.com/teams)
