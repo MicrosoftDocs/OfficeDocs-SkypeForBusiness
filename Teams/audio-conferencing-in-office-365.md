@@ -22,6 +22,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
+description: Learn about Audio Conferencing in Office 365, including cost, availability, and dedicated phone numbers.
 ---
 
 # Audio Conferencing in Office 365
