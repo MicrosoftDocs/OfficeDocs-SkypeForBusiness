@@ -1,5 +1,5 @@
 ---
-title: "Priority Notifications in Teams Messaging "
+title: "Premium Messaging add-on licensing"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,34 +18,46 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about Priority Notifications in Teams Messaging."
+description: "Learn about the Premium Messaging SKU in Microsoft Teams."
 ---
 
-# Messaging policies licensing
+# Premium Messaging add-on licensing
+
+The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Teams. Note that Premium Messaging isn't available for US Government Cloud Community (GCC) organizations.
 
 Premium Messaging includes the following features and capabilities:
 
 ## Priority notifications
 
-As announced in June 2019, users can mark a Teams message as Urgent when they have access to the Priority Notifications feature. Urgent messages are sent with priority notifications that notify the recipient every two (2) minutes for a period of 20 minutes or until the recipient reads the message. This feature maximizes the likelihood that a message is acted upon in a timely manner.
+As announced in June 2019, users can mark a Teams message as Urgent when they have access to the priority notifications feature. Urgent messages sent with priority notifications notify the recipient every two minutes for a period of 20 minutes or until the recipient reads the message, maximizing the likelihood that a message is acted upon in a timely manner.
 
-- Receive a priority notification: All Teams users can receive unlimited priority notifications.
-- Send a priority notification: For the remainder of the Priority Notifications preview trial period that ends March 31, 2020, all users with a subscription that includes paid Teams service can also send unlimited priority notifications.
+The availability of priority notifications is as follows:
 
-*******
+- **Receive priority notifications**: All Teams users can receive unlimited priority notifications.
+- **Send priority notifications**: For the remainder of the priority notifications preview trial period that ends March 31, 2020, all users who have a paid subscription that includes Teams can also send unlimited priority notifications. 
+Starting April 1, 2020 users who don't have the Premium Messaging add-on SKU can send priority notifications as follows:
 
-Until April 1, 2020, unlimited Priority Notifications in Microsoft Teams are available for all users. This promotion is extended to April 1, 2020 from its original end date of December 31, 2019. After April 1, licensed users will be able to send Priority Notifications according to the terms of their subscription.
+|Segment  |Sending up to 5 message included per user per month |
+|---------|---------|
+|Enterprise     |Office 365 F1 / Microsoft 365 F1<br> Office 365 E1 | Office 365 E3 / Microsoft 365 E3 <br>Office 365 E5 / Microsoft 365 E5         |
+|SMB    |Office 365 Business Essentials<br>Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business         |
 
-As announced in June 2019, users can mark a Teams message as Urgent when they have access to the Priority Notifications feature. Urgent messages are sent with Priority Notifications that notify the recipient every two (2) minutes for a period of 20 minutes or until the recipient reads the message. This feature maximizes the likelihood that a message is acted upon in a timely manner.
+Priority notifications is available in the Premium Messaging add-on SKU today for Commercial customers only. 
 
-IT Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited Urgent Messages with Priority Notifications, regardless of license. [Learn more about Priority Notifications](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
+## Tags automatically assigned based on active shifts
 
-|Segment| |Sending up to 5 messages included per user per month| Sending unlimited messages included per user per month|
-|---|---|---|---|
-|Enterprise||Office 365 F1 / Microsoft 365 F1<br> Office 365 E1 | Office 365 E3 / Microsoft 365 E3 <br>Office 365 E5 / Microsoft 365 E5
-|Education ||Office 365 A1 / Microsoft 365 A1|Office 365 A3 / Microsoft 365 A3<br> Office 365 A5 / Microsoft 365 A5
-|SMB       ||Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business|
-|||||
+With this feature, users are automatically assigned tags that match their schedule and shift group name from the Shifts app in Teams. For example:
+
+- When a nurse starts a new chat using a CardiologistOnCall tag, the message is sent to all cardiologists who are scheduled in Shifts to work at that specific time.
+- If a system engineer includes @FieldEngineers in their channel post, the engineers scheduled in Shifts to work during that time receive a notification about the post. 
+
+With tagging by shift, Teams takes the guesswork out of knowing the name of the on-duty staff or responsible individual when you need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams.
+
+- Be assigned to a shift-based tag: All Teams users can be assigned to a shift-based tag and receive messages as part of a shift-based tag.
+- Use a shift-based tag: Only Teams users with Premium Messaging can use a shift-based tag in a chat, channel conversation, or task.
+
+> [!NOTE]
+> We'll be adding more Premium Messaging features in the future.  
 
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|

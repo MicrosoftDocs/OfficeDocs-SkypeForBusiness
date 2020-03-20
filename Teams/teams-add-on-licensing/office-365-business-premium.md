@@ -40,7 +40,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 
  > [!IMPORTANT]
- > If you already have an O365 Business Premium license, when you download O365 from the portal it already includes Microsoft Teams so that you can use to talk to colleagues and external people, similar to the old Skype for Business. However, you can't receive or make calls from phones until you get at least two add-on licenses:
+ > If you already have an Office 365 Business Premium license, when you download Office 365 from the portal, it already includes Microsoft Teams so that you can use to talk to colleagues and external people, similar to the old Skype for Business. However, you can't receive or make calls from phones until you get at least two add-on licenses:
  >- **Phone System**
  >- **A Domestic calling plan** or **Domestic and International Calling Plan**.
 
@@ -51,7 +51,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 1. Sign in to the Microsoft 365 admin center.
 
-2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**.
+2. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
    You'll see the prices and option to buy Audio Conferencing.
 
@@ -59,9 +59,9 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 1. Sign in to the Microsoft 365 admin center.
 
-2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**.
+2. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
-   You’ll see the option to buy Communications Credits.
+   You'll see the option to buy Communications Credits.
 
 3. To add funds to Communications Credits, go to **Billing** > **Subscriptions** > **Communications Credits**.
 
@@ -74,8 +74,16 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 2. Go to the Microsoft 365 admin center.
 
-3. Go to **Billing** > **Purchase services** > **Add-on subscriptions**.
+3. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
     You'll see the prices for Phone System and the option to buy it.
 
 4. After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.
+
+**To get Premium Messaging:**
+
+1. Switch to the E1 or E3 plan.
+2. Go to the Microsoft 365 admin center.
+3. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
+
+    You'll see the prices for Premium Messaging and the option to buy it.
