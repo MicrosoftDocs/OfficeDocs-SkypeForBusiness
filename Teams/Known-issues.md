@@ -44,7 +44,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Troubleshoot a missing dial pad**     |Do the following: <ul><li>Make sure the user has been assigned a [Teams license](assign-teams-licenses.md).</li><li>Make sure the user has a [Calling Plan](calling-plan-landing-page.md) assigned.</li><li>Enable the user for [Enterprise Voice](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail).</li></ul>      |
 |**Troubleshoot Teams sign-in**   |First, make sure the [Microsoft Teams service is healthy](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth). Then check for any common error codes and review [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  You may also need to review [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).         |
 
-### For all Education customers
+### For Education customers
 
 |||
 |---------|---------|
