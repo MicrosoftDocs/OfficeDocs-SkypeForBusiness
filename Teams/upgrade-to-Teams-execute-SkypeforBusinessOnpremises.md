@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from a Skype for Business on-premises deployment.
+description: Considerations for upgrading to Teams from a Skype for Business or Microsoft Lync on-premises deployment.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
