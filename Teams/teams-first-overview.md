@@ -143,7 +143,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 </tbody>
 </table>
 
-## Enablement steps for organizations without Skype for Business or Lync Server
+### Enablement steps for organizations without Skype for Business or Lync Server
 
 1.  Meet pre-requisites detailed in the Start Here section above
 
@@ -223,7 +223,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 </tbody>
 </table>
 
-## Enablement steps for organizations with Skype for Business Server  
+### Enablement steps for organizations with Skype for Business Server  
 
 1.  Meet pre-requisites detailed in the Start Here section above.
 
