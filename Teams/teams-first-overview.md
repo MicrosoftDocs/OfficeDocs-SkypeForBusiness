@@ -160,7 +160,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 6.  Begin planning moving other workloads to Office 365
 
-## Organizations **<span class="underline">with</span>** Skype for Business or Lync server: 
+## Organizations **<span class="underline">with</span>** Skype for Business or Lync server
 
 This starting point assumes that your organization utilizes Skype for Business 2019 or 2015+ or Lync 2013+ server on premises. We already have extensive guidance for organizations migrating from on premises servers to Teams and it should be followed for these scenarios. This guidance is specific to the scenario that Teams is the first application you utilize in Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
