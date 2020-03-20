@@ -41,14 +41,20 @@ If you're a small business, you may be able to use this Get started guidance to 
 
 ## Before you get started
 
-Before you get started, you'll want to plan for your Teams rollout by reviewing the following:
+To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Office 365 deployment:
 
 - [Prepare your organization's network for Teams](prepare-network.md)
+    - This includes configuring your Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
+
+- Get Teams licenses for everybody. Check out [Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
+
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
-You'll also need to make sure you've got Teams licenses for everybody. Check out [Compare Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
-
-
+- Starting from on-premises Skype for Business or Lync Server
+   - If your organization is running on-premises Skype for Business Server (or Lync Server), you must configure Azure AD Connect to synchronize your on-premises directory with Office 365. 
+   - If Teams is your first Office 365 workload, follow the guidance in [Roll out Microsoft Teams First starting from Skype for Business Server](teams-first-from-skype-for-business-server.md).
+   - If you've already rolled out Office 365 with other workloads, use the guidance in [Plan hybrid connectivity between Skype for Business Server and Office 365](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md) instead.
+   
 
 ## Next steps
 Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
