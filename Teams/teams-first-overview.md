@@ -12,7 +12,7 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Office 365 workload.
-ROBOTS: NOIDEX, NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 appliesto: 
   - Microsoft Teams
 ---
