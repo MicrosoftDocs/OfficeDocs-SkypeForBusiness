@@ -33,6 +33,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 |Phone System <br/> |<ol><li>Buy the Office 365 Phone System add-on. </li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md) for Office 365.</li></ul>Or, use the [telephone service from your existing provider](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Cloud Voicemail<br/> |For E1 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
 |Calling Plans<br/> |<ol><li>Buy the Phone System add-on.</li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.</li></ol> <br/> |
+|Premium Messaging<br/> |<ol><li>Buy the Premium Messaging add-on.</li></ol> <br/> |
    
   
 ## E1 and E3 customers: How to see prices and buy
@@ -40,9 +41,9 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 
 1. Sign in to the Microsoft 365 admin center.
 
-2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
+2. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
-3. You'll see the Phone System add-on. Select **Buy now**. 
+3. You'll see the option to buy the Phone System.
 
 After you buy a Phone System license, you'll see the price and option to buy a Calling Plan.
 
@@ -53,7 +54,7 @@ The E3 plan is part of your Action Pack. To buy the Phone System and Audio Confe
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Sign in to the Microsoft 365 admin center and go to **Billing** > **Purchase services** > **Add-on subscriptions**.
+2. Sign in to the Microsoft 365 admin center and go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
     Now you'll see the prices and option to buy the Phone System and Audio Conferencing add-ons.
 
@@ -65,4 +66,3 @@ In a few situations, you won't see the option to buy Microsoft Teams add-ons in 
 - **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Microsoft Teams add-ons. You need to switch to the E3 plan, and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-
