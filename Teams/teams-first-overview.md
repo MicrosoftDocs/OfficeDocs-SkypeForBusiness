@@ -2,7 +2,7 @@
 title: Roll out Microsoft Teams First 
 author: LaszloSomi
 ms.author: lsomi
-manager: serdars
+manager: swerth
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Office 365 workload.
+ROBOTS: NOIDEX, NOFOLLOW
 appliesto: 
   - Microsoft Teams
 ---
