@@ -51,6 +51,8 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
 - Starting from on-premises Skype for Business or Lync Server
+   - [Upgrade from Skype for Business on premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+   
    - [Plan hybrid connectivity between Skype for Business Server and Office 365](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
    
    - If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
