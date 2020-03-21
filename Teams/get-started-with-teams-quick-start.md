@@ -51,12 +51,13 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
 - Starting from on-premises Skype for Business or Lync Server
-   - If your organization is running on-premises Skype for Business Server (or Lync Server), you must configure Azure AD Connect to synchronize your on-premises directory with Office 365. 
-   - If Teams is your first Office 365 workload, follow the guidance in [Roll out Microsoft Teams First starting from Skype for Business Server](teams-first-from-skype-for-business-server.md).
-   - If you've already rolled out Office 365 with other workloads, use the guidance in [Plan hybrid connectivity between Skype for Business Server and Office 365](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md) instead.
+   - [Plan hybrid connectivity between Skype for Business Server and Office 365](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
    
+   - If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
+
 
 ## Next steps
-Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+[Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).
