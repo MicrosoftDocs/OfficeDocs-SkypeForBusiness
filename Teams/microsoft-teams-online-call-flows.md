@@ -16,7 +16,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
-description: Describes how Teams uses Office 365 flows in various topologies.
+description: Learn how Teams uses Office 365 flows in various topologies, as well as unique Team flows used for peer-to-peer media communication.
 ---
 
 # Microsoft Teams call flows

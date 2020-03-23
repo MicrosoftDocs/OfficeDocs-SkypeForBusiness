@@ -15,7 +15,7 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Current list of known issues for the Microsoft Teams client app and admin experience.
+description: Use this list of known issues for the Microsoft Teams client app and admin experience to troubleshoot issues within your organization.
 appliesto: 
   - Microsoft Teams
 ---
@@ -262,11 +262,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Resource accounts sync delay|Can’t assign a phone number to the resource account, or you get the error “The following application instance is not present in BVD.”|Allow 24 hours for syncing. If it has already been 24 hours, remove the phone number assignment, delete the resource account, and create a new one with a different name.|5/18/2019|
+|Resource accounts sync delay|Can't assign a phone number to the resource account, or you get the error "The following application instance is not present in BVD."|Allow 24 hours for syncing. If it has already been 24 hours, remove the phone number assignment, delete the resource account, and create a new one with a different name.|5/18/2019|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Can’t assign a toll service number from the Teams admin center|When you try to assign a toll service number in the Teams admin center, you get the error “You need a phone system license.”|Use PowerShell cmdlets to assign a toll service number instead.|5/18/2019|
+|Can't assign a toll service number from the Teams admin center|When you try to assign a toll service number in the Teams admin center, you get the error "You need a phone system license."|Use PowerShell cmdlets to assign a toll service number instead.|5/18/2019|
 
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
