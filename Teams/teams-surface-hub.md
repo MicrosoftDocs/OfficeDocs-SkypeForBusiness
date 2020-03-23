@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Configure admin settings for Microsoft Teams for Surface Hub.
+description: Learn how to install and configure the Teams for Surface Hub app so that Teams is the default calling and meetings application.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
