@@ -17,6 +17,8 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ms.custom:
+  - seo-marvel-<mar>
 ---
 
 # Microsoft StaffHub to be retired
