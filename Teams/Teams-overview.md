@@ -58,7 +58,6 @@ As the admin, you'll manage Teams through the Microsoft Teams admin center. For 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
-
 To learn more:
 
 - [Use Teams admin roles to manage Teams](using-admin-roles.md)
