@@ -22,7 +22,7 @@ appliesto:
 
 ## Network requirements
 
-If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
+If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if Teams is your first Office 365 workload to quickly support **remote workers** - check the following before you begin your Teams rollout:
 
 1.  Do all your locations have internet access (so they can connect to Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
 
