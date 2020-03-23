@@ -153,7 +153,7 @@ As of February, 2020, eligible users can begin using the latest Microsoft Teams 
 
 ## How long does the Teams Exploratory experience last?
 
-The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until the your next anniversary or renewal cycle. 
+The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until your next anniversary or renewal cycle. 
 
 ### What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?
 
