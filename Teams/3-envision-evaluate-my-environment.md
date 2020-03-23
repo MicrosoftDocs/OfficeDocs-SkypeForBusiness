@@ -1,5 +1,5 @@
 ---
-title: Evaluate your environment for Microsoft Teams cloud voice workloads
+title: Evaluate your environment for cloud voice workloads
 author: rmw2890
 ms.author: Rowille
 manager: serdars
