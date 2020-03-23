@@ -109,7 +109,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 > [!NOTE]
-> Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and you won't receive an error message.
+> Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
 
 When a user logs in to Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the user manually starts Teams, Teams automatically starts whenever the user logs in.
 
