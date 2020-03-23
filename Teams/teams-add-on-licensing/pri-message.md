@@ -38,7 +38,7 @@ As announced in June 2019, users can mark a Teams message as Urgent when they ha
 The availability of priority notifications is as follows:
 
 - **Receive priority notifications**: All Teams users can receive unlimited priority notifications.
-- **Send priority notifications**: For the remainder of the priority notifications preview trial period that ends March 31, 2020, all users who have a paid subscription that includes Teams can also send unlimited priority notifications. 
+- **Send priority notifications**: For the remainder of the priority notifications preview trial period that ends March 31, 2020, all users who have a paid subscription that includes Teams can also send unlimited priority notifications.
 Starting April 1, 2020 users who don't have the Premium Messaging add-on SKU can send priority notifications as follows:
 
 |Segment  |Sending up to 5 messages included per user per month |
@@ -52,7 +52,7 @@ Priority notifications is available in the Premium Messaging add-on SKU today fo
 
 With this feature, users are automatically assigned tags that match their schedule and shift group name from the Shifts app in Teams. For example:
 
-- When a nurse starts a new chat using a CardiologistOnCall tag, the message is sent to all cardiologists who are scheduled in Shifts to work at that specific time.
+- When a nurse types CardiologistOnCall in the **To** line in a new chat, the message is sent to all cardiologists who are scheduled in Shifts to work at that specific time.
 - If a system engineer includes @FieldEngineers in their channel post, the engineers scheduled in Shifts to work during that time receive a notification about the post. 
 
 With tagging by shift, Teams takes the guesswork out of knowing the name of the on-duty staff or responsible individual when you need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams.
