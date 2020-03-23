@@ -82,8 +82,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 **To get Premium Messaging:**
 
-1. Switch to the E1 or E3 plan.
-2. Go to the Microsoft 365 admin center.
-3. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
+1. Go to the Microsoft 365 admin center.
+2. Go to **Billing** > **Purchase services**, and then select **Add-ons**.
 
     You'll see the prices for Premium Messaging and the option to buy it.
