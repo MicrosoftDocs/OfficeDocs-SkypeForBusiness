@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams Patients app EHR integration
+description: Learn about integrating electronic healthcare records into Microsoft Teams using FHIR APIs on top of a medical information system to connect to Microsoft Teams.
 ---
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
@@ -58,13 +58,13 @@ The following sections explain the requirements of the FHIR-only data access lay
 
 ### Authentication  
 
-App-level authorization *with no support for user level authorization* is the more commonly supported way to perform data transformations and expose connections to EHR data through FHIR, even though the EHR system might implement user level authorization. The Interop Service (Partner) gets elevated access to the EHR data, and when they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (the Patients app) integrating with the Interop Service or Platform. The Patients app will not be able to enforce user level authorization, but does support application to application authentication between the Patients app and the Interop partner’s service.
+App-level authorization *with no support for user level authorization* is the more commonly supported way to perform data transformations and expose connections to EHR data through FHIR, even though the EHR system might implement user level authorization. The Interop Service (Partner) gets elevated access to the EHR data, and when they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (the Patients app) integrating with the Interop Service or Platform. The Patients app will not be able to enforce user level authorization, but does support application to application authentication between the Patients app and the Interop partner's service.
 
 The Application to Application authentication model is described below:
 
 Service to service authentication should be done through OAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). The partner service needs to provide the following:
 
-1. The Partner service enables the Patients app to create an account with the Partner, which  enables the Patients app to generate and own client_id and client_secret, managed via an Auth registration portal on the partner’s Authentication server.
+1. The Partner service enables the Patients app to create an account with the Partner, which  enables the Patients app to generate and own client_id and client_secret, managed via an Auth registration portal on the partner's Authentication server.
 2. The Partner service owns the Authentication/Authorization system, which   accepts and verifies (authenticates) the client credentials provided and gives back an access token with tenant hint in scope, as described below.
 3. For security reasons or in a case of a secret breach, the Patients app can re-generate the secret and invalidate or delete the old secret (Example of the same is available in Azure Portal - AAD App Registration)
 4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
@@ -128,7 +128,7 @@ A request for an access token consists of the following parameters:
 
 * * *
 
-The Partner service provides the client_id and client_secret for Patients app, managed via an Auth registration portal on the partner’s side. The Partner service provides the endpoint to request access token using a client credential flow. A successful response must include the token_type, access_token and expires_in parameters.
+The Partner service provides the client_id and client_secret for Patients app, managed via an Auth registration portal on the partner's side. The Partner service provides the endpoint to request access token using a client credential flow. A successful response must include the token_type, access_token and expires_in parameters.
 
 ### Routing: Mapping AAD Tenant to the Provider endpoint
 
