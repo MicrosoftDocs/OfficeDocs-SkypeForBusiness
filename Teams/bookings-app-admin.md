@@ -23,7 +23,7 @@ The following pre-requisite are required for participation in the Microsoft Team
 
 - The Exchange Mailbox must be located in Exchange Online (on-premises Exchange Server mailboxes are not supported)
 
-- The Microsoft Bookings feature must be turned on for the tenant. See [Turn on Bookings feature for the tenant](Turn-on-Bookings-feature-for-the-tenant)
+- The Microsoft Bookings feature must be turned on for the tenant. See [Turn on Bookings feature for the tenant](#turn-on-bookings-feature-for-the-tenant).
 
 - You must have an appropriate license (Microsoft 365 A3, A5, E3, E5 or Business Premium are supported)
 
