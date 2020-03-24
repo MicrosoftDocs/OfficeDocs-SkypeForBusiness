@@ -22,7 +22,7 @@ appliesto:
 
 # Security and Microsoft Teams
 
-Microsoft Teams, as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
+Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
 ## Trustworthy by Design
 
@@ -69,12 +69,12 @@ Spoofing occurs when the attacker determines and uses an IP address of a network
 AAAAAAAAA.  
 
 
-Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
+Within the context of Teams, this situation comes into play only if an administrator has done both of the following:
 
-- Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted).
+- Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted). **CAN THEY EVEN DO THIS WITH TEAMS? THIS WAS ORIGINAL SFB2010**
 - Marked the IP addresses of those connections as trusted hosts.
 
-This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Teams uses. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+This is less of a problem for **Transport Layer Security (TLS)** connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Teams uses **CAN IT THOUGH?!?!**. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
 
 ### Man-in-the-Middle Attack
 
