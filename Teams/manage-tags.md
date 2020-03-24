@@ -24,6 +24,7 @@ Tags in Microsoft Teams let users communicate with a subset of people on a team.
 
 > [!NOTE]
 > Tags are not yet supported in private channels.
+> Tags are not yet available in GCC.
 
 ## How tags work
 
