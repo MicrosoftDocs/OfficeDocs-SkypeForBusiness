@@ -21,18 +21,18 @@ appliesto:
 
 # Create and license Business Voice users and assign them phone numbers
 
-To use :::no-loc text="Microsoft 365 Business Voice":::, you need a :::no-loc text="Microsoft 365"::: account that has a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license. When you have an account and license, you can assign a phone number to it.
+To use :::no-loc text="Microsoft 365 Business Voice":::, you need a :::no-loc text="Microsoft 365"::: account that has a :::no-loc text="Microsoft 365 Business Voice"::: license. When you have an account and license, you can assign a phone number to it.
 
 ## Create and license users
 
 Follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users).
 
 > [!NOTE]
-> In the **Assign product licenses** pane,  select **:::no-loc text="Microsoft 365 Business Voice with SMS":::**.
+> In the **Assign product licenses** pane,  select **:::no-loc text="Microsoft 365 Business Voice":::**.
 
 ## Assign phone numbers to users
 
-After you create users and assigned them a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs to make or receive calls to or from external phone numbers. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
+After you create users and assigned them a :::no-loc text="Microsoft 365 Business Voice"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs to make or receive calls to or from external phone numbers. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
 
 1. Go to https://admin.teams.microsoft.com.
 2. Enter a name and description for the phone number request.
