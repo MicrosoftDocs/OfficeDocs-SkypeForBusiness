@@ -25,7 +25,7 @@ description: "Learn about the Premium Messaging add-on licensing for Microsoft T
 
 The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams.
 
-Note that Premium Messaging currently isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
+Note that Premium Messaging isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations at this time.
 
 ## Premium Messaging SKU features and capabilities
 
