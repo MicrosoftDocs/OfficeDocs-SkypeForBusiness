@@ -33,7 +33,7 @@ This section summarizes software required to support the Skype for Business Wind
 
 |**System component**|**Supported versions**|
 |:-----|:-----|
-|Windows Operating system  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 operating system  <br/> Windows Server 2008 R2 or later with latest service pack  <br/> **Note:** Skype for Business and the Online Meeting Add-in for Skype for Business are not supported on Windows Vista or Windows XP (any version). <br/> |
+|Windows Operating system  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 or later with latest service pack  <br/> **Note:** Skype for Business and the Online Meeting Add-in for Skype for Business are not supported on Windows Vista or Windows XP (any version). <br/> |
 |Installation and updates  <br/> |Administrator rights and permissions  <br/> |
 |Browser  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10 Internet browser <br/> Internet Explorer 9 Internet browser  <br/> Internet Explorer 8 Internet browser  <br/> Internet Explorer 7 Internet browser  <br/> Mozilla Firefox web browser  <br/>  Google Chrome web browser  <br/>**Note:** If you are using Skype for Business with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 8 or later is required.           |
 |Microsoft Office Integration  <br/> | Outlook 2010 or later |
