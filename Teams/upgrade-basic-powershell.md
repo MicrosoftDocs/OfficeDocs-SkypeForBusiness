@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Stopgap for upgrading to Teams if the Admin Center hasn't lit up in your tenant 
+description: Stopgap for upgrading to Teams if the Admin Center hasn't lit up in your tenant. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Assess your organization's readiness to accept change, and prepare a plan for getting users ready to upgrade from Skype for Business to Microsoft Teams 
+description: Assess your organization's readiness to accept change, and prepare a plan for getting users ready to upgrade from Skype for Business to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
