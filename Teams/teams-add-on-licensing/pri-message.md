@@ -3,7 +3,7 @@ title: "Premium Messaging add-on licensing"
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about the Premium Messaging add-on licensing for Microsoft Teams."
+description: "Learn about the messaging features and capabilities available in the Premium Messaging add-on licensing for Microsoft Teams."
 ---
 
 # Premium Messaging add-on licensing
