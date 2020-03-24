@@ -137,29 +137,31 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     - Per-user installation  (default)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         This is the default installation, which installs Teams to the %AppData% user folder. At this point, the golden image setup is complete. Teams will not work properly with per-user installation on a non-persistent setup.
-    
+
     - Per-machine installation
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete. Installing Teams per-machine is required for non-persistent setups.
- 
+
         The next interactive logon session starts Teams and asks for credentials.
 
-3. Uninstall the MSI from the VDI VM. 
+    > [!NOTE]
+    > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials. It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments and the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
+
+3. Uninstall the MSI from the VDI VM.
 
     There are two ways to uninstall Teams:  
   
     - PowerShell script (recommended)
-    
+
     - Command line:
-    This approach removes Teams, yet prevents re-installation of Teams. Run the following command:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
