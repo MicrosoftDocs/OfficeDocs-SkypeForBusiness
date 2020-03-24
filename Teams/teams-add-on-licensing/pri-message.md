@@ -25,11 +25,11 @@ description: "Learn about the Premium Messaging add-on licensing for Microsoft T
 
 The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams.
 
-Note that Premium Messaging isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
+Note that Premium Messaging currently isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
 
 ## Premium Messaging SKU features and capabilities
 
-Premium Messaging for Teams includes the following features. We'll be adding more Premium Messaging features and capabilities in the future.
+Premium Messaging for Teams includes the following features. We'll be adding more features and capabilities in the future.
 
 ### Priority notifications
 
@@ -53,7 +53,7 @@ Priority notifications is available in the Premium Messaging add-on SKU today fo
 With this feature, users are automatically assigned tags that match their schedule and shift group name from the Shifts app in Teams. For example:
 
 - When a nurse types CardiologistOnCall in the **To** line in a new chat, the message is sent to all cardiologists who are scheduled in Shifts to work at that specific time.
-- If a system engineer includes @FieldEngineers in their channel post, the engineers scheduled in Shifts to work during that time receive a notification about the post. 
+- If a system engineer includes @FieldEngineers in their channel post, the engineers scheduled in Shifts to work during that time receive a notification about the post.
 
 With tagging by shift, Teams takes the guesswork out of knowing the name of the on-duty staff or responsible individual when you need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams.
 

@@ -33,7 +33,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 |Phone System <br/> |<ol><li>Buy the Office 365 Phone System add-on. </li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md) for Office 365.</li></ul>Or, use the [telephone service from your existing provider](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Cloud Voicemail<br/> |For E1 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
 |Calling Plans<br/> |<ol><li>Buy the Phone System add-on.</li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.</li></ol> <br/> |
-|Premium Messaging<br/> |Buy the Premium Messaging add-on.<br/> |
+|Premium Messaging<br/> |Buy the [Premium Messaging add-on](pri-message.md).<br/> |
    
   
 ## E1 and E3 customers: How to see prices and buy

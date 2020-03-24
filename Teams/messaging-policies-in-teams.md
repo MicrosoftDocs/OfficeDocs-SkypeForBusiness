@@ -87,7 +87,7 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
-- **Users can send <a name="urgent-message">priority</a> notifications** If you turn this on, users can send a message that uses priority notifications. Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Users can send priority notifications** <a name="urgent-message"></a>If you turn this on, users can send a message that uses [priority notifications](https://support.office.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner. 
 - **Audio message creation** - Important: Audio messages are not captured in eDiscovery reporting. 
     - **Allowed in chats and channels** This means that users can leave audio messages in both chats and channels.
     - **Allowed in chats only** This means that users can leave audio messages in chats, but not in channels.
@@ -99,4 +99,6 @@ Use the following settings to change the global messaging policy or create a new
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
 
 ### Related topics
-[Meeting policies in Teams](meeting-policies-in-teams.md)
+
+- [Premium Messaging add-on licensing](teams-add-on-licensing/pri-message.md)
+- [Meeting policies in Teams](meeting-policies-in-teams.md)
