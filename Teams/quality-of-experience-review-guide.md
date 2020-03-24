@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Quality of Experience Review Guide
+# Learn how to identify areas to improve quality of user experience 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
