@@ -1,7 +1,7 @@
 ---
 title: "Premium Messaging add-on licensing"
-ms.author: tonysmit
-author: tonysmit
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: reference
@@ -23,9 +23,9 @@ description: "Learn about the Premium Messaging add-on licensing for Microsoft T
 
 # Premium Messaging add-on licensing
 
-The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams. 
+The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams.
 
-Note that Premium Messaging isn't available for US Government Community Cloud (GCC) organizations.
+Note that Premium Messaging isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
 
 ## Premium Messaging SKU features and capabilities
 
@@ -46,7 +46,7 @@ Starting April 1, 2020 users who don't have the Premium Messaging add-on SKU can
 |Enterprise     |Office 365 F1 / Microsoft 365 F1<br> Office 365 E1 | Office 365 E3 / Microsoft 365 E3 <br>Office 365 E5 / Microsoft 365 E5         |
 |SMB    |Office 365 Business Essentials<br>Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business         |
 
-Priority notifications is available in the Premium Messaging add-on SKU today for Commercial customers only. 
+Priority notifications is available in the Premium Messaging add-on SKU today for Commercial customers only.
 
 ### Tags automatically assigned to users based on active shifts (coming soon)
 
@@ -58,7 +58,7 @@ With this feature, users are automatically assigned tags that match their schedu
 With tagging by shift, Teams takes the guesswork out of knowing the name of the on-duty staff or responsible individual when you need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams.
 
 - Be assigned to a shift-based tag: All Teams users can be assigned to a shift-based tag and receive messages as part of a shift-based tag.
-- Use a shift-based tag: Only Teams users with Premium Messaging can use a shift-based tag in a chat, channel conversation, or task. 
+- Use a shift-based tag: Only Teams users with Premium Messaging can use a shift-based tag in a chat, channel conversation, or task.
 
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|

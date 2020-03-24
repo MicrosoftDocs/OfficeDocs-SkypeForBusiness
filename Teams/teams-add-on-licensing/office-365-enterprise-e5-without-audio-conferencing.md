@@ -30,5 +30,5 @@ If you have already purchased the Office 365 Enterprise E5 (without Audio Confer
 |Audio Conferencing <br/> | To get this add-on, use the [Switch plans button](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a), if it's available, to move to the Office 365 Enterprise E5 plan that includes Audio Conferencing. You'll get more features, too! </li></ol> |
 |Phone System is included! <br/> | Buy a [Calling Plan](../calling-plans-for-office-365.md) for Office 365. <br/>  Or, use the [telephone service from your existing provider](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Cloud Voicemail is included! <br/> |You don't need to do anything else.  <br/> |
-|Premium Messaging <br/> |<br/> |
+|Premium Messaging <br/> |Buy the Premium Messaging add-on.<br/> |
 
