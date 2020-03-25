@@ -89,7 +89,7 @@ CQD version 1 provided Skype for Business Server 2015 admins the following featu
 
 ## CQD Near-Real-Time (NRT) Data
 
-Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal is available on average in 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
 
 ### PII/EUII Data
 
