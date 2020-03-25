@@ -37,7 +37,9 @@ Business Voice is right for you if your organization has 300 or fewer people and
 * Microsoft 365 E3
 * Microsoft 365 Business
 
-Business Voice is available on all countries and regions except Australia. Features and functionality may differ depending on the country your region your organization is located in. For more information see [Business Voice Availability](country-region-availability.md).
+Microsoft 365 also offers Enterprise Voice for larger customers and those who need greater flexibility in whether certain users should, or shouldn't, receive a particular license. If you have 300 or fewer people in your organization, we recommend Business Voice. However, Enterprise Voice might make sense in some cases. Take a look at [What's the difference between Business Voice and Enterprise Voice](business-enterprise-comparison.md) if you need help deciding which is best for you.
+
+Business Voice is available in all countries and regions except Australia. Features and functionality may differ depending on the country your region your organization is located in. For more information see [Business Voice Availability](country-region-availability.md).
 
 > [!IMPORTANT]
 >
