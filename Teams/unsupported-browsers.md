@@ -30,9 +30,6 @@ If PSTN is unavailable, the user won't see the instructions for accessing the me
 
 People who use the Teams web app on unsupported browsers will experience the following limitations:
 
-> [!NOTE]
-> The limitations below are subject to change. Please see [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers) for updates.
-
 - Audio is available through a PSTN connection only. Users can't use their microphone.
 - Users can't share their camera or see other participants' videos but can view presented content through image-based screen sharing.
 - Users can't share their screen, although they can see a screen that another meeting participant shares.
@@ -41,7 +38,8 @@ People who use the Teams web app on unsupported browsers will experience the fol
 - If the call is interrupted, the meeting won't automatically reconnect.
 - Users can't start meetings.
 
+For more information about browser support in Teams, see [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers).
+
 ## Related topics
 
 - [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers)
