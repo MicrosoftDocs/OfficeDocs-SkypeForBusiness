@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
@@ -143,7 +144,32 @@ Watch this short video introducing you to Teams</h3>
 
 <h2>Featured training</h2>
 <ul class="panelContent cardsW">
-     <li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Working remotely (WFH)</h3>
+                         <p><a href="https://aka.ms/remote-work">Work remotely with Office 365</a></p>
+                        <p><a href="https://support.office.com/article/5144136b-1ff8-476f-bcba-00de0bdaa600">Best practices for collaborating with Office 365</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> 
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Remote learning</h3>
+                         <p><a href="https://www.microsoft.com/en-us/education/remote-learning">Making the transition to remote learning</a></p>
+                        <p><a href="https://aka.ms/TeamsEDUQuickGuide">Teams for Education: Quick Start Guide</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

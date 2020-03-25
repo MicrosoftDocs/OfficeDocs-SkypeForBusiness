@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 appliesto: 
   - Microsoft Teams
 ---
@@ -48,7 +49,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 
 ## Who's eligible?
 
-As long as the user has a managed AAD domain email address and currently does not have/haven’t been assigned a Teams license, they are eligible for this experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
+As long as the user has a managed AAD domain email address and currently does not have/haven't been assigned a Teams license, they are eligible for this experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article. 
 
@@ -73,7 +74,7 @@ Admins can disable the ability for end users to run the Teams Exploratory experi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user’s ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.
+You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
@@ -152,7 +153,7 @@ As of February, 2020, eligible users can begin using the latest Microsoft Teams 
 
 ## How long does the Teams Exploratory experience last?
 
-The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until the your next anniversary or renewal cycle. 
+The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until your next anniversary or renewal cycle. 
 
 ### What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?
 

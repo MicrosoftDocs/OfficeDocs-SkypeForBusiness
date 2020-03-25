@@ -381,22 +381,23 @@ The BuildingKey, BuildingName, BuildingShortName, OwnershipTypeId, BuildingTypeI
 Importing Buildings gives you the ability to get building specific insights (poor calls per building on WiFi/Wired, etc.). 
   
 > [!NOTE]
-> This step is optional, but recommended. 
+> This step is optional, but recommended.
   
-Import Subnets and map them to the Buildings imported in the last step. If you decided not to populate NetworkName, ensure each entry in this table uses a NetworkNameID of 0.
+Import Subnets and map them to the Buildings imported in the last step. If you decided not to populate NetworkName, ensure each entry in this table uses a NetworkNameID of 0. For more information on SQL syntax and parameters for the Call Quality Dashboard, see [Use Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use).
   
  **Sample SQL Syntax**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 The Network, and UpdatedDate parameters are required, the other parameters are optional.
