@@ -86,6 +86,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Email a channel | Not available |
 | | Add member | Available |
 | | Guest access | Available |
+| | Private channels | On the government backlog |
 | Meetings | Schedule meeting | Available |
 | | Join meeting | Available |
 | | VoIP meeting | Available |
