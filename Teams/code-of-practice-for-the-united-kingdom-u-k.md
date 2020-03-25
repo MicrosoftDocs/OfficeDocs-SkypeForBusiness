@@ -1,5 +1,5 @@
 ---
-title: "Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)"
+title: "Code of practice for U.K. - Office 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,6 +22,7 @@ ms.custom:
   - Legal
 hideEdit: true
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
+ms.custom: seo-marvel-<mar>
 ---
 
 # Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)
