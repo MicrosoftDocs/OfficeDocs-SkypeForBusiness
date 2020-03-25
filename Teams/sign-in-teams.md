@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
-description: How to sign in to Microsoft Teams by using modern authentication.
+description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
