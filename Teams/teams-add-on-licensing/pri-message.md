@@ -33,7 +33,7 @@ Premium Messaging for Teams includes the following features. We'll be adding mor
 
 ### Priority notifications
 
-As announced in June 2019, users can mark a Teams message as Urgent when they have access to the priority notifications feature. Urgent messages sent with priority notifications notify the recipient every two minutes for a period of 20 minutes or until the recipient reads the message, maximizing the likelihood that a message is acted upon in a timely manner.
+As announced in June 2019, users can mark a Teams message as Urgent when they have access to the [priority notifications](https://support.office.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) feature. Urgent messages sent with priority notifications notify the recipient every two minutes for a period of 20 minutes or until the recipient reads the message, maximizing the likelihood that a message is acted upon in a timely manner.
 
 The availability of priority notifications is as follows:
 
