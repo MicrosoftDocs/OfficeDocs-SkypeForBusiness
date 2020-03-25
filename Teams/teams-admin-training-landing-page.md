@@ -1,7 +1,7 @@
 ---
 title: Admin training for Microsoft Teams
 ms.reviewer: 
-description: Get the training you need to manage Microsoft Teams in your organization
+description: Get the administrator training and support that you need to manage Microsoft Teams in your organization.
 author: lanachin
 manager: serdars
 audience: admin
