@@ -152,10 +152,7 @@ A trusted user is one whose credentials have been authenticated by AAD in Office
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
-- Modern Authentication (MA) is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
-
-<!-->
-- **Digest protocol** for so-called anonymous users. Anonymous users are outside users who do not have recognized Active Directory credentials but who have been invited to an on-premises conference and possess a valid conference key. Digest authentication is not used for other client interactions.-->
+- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
 
 > [!NOTE]
 > If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
