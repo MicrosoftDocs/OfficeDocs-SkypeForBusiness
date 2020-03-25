@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Before you roll out Microsoft Teams, evaluate and prepare your network to be sure it's ready for Teams. Information includes network requirements, bandwidth requirements, and network optimization guidance.
+description: Learn about preparing your organization's network for Microsoft Teams including network requirements, network optimization, and bandwidth requirements.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

@@ -11,7 +11,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn to create a change management strategy for Microsoft Teams through the identification of key stakeholders, business outcomes, success measures, and management of your campaign.
+description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-<mar>

@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
+description: Defining success for the deployment of Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing for your organization.
 ms.collection: 
   - M365-voice
   - M365-collaboration

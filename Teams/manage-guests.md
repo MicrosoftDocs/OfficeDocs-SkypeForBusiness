@@ -13,7 +13,7 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT admins can add guests at the tenant level, set and manage guest user policies and permissions, determine which users can invite guests, and pull reports on guest user activity.
+description: Learn how to create your first teams and channels, onboard early adopters, monitor usage and feedback, and get resources to plan your organization-wide rollout.
 appliesto: 
   - Microsoft Teams
 ---

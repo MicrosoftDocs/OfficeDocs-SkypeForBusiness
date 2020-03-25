@@ -21,8 +21,7 @@ f1.keywords:
 ms.custom: 
   - Legal
 hideEdit: true
-description: Learn the code of practice for PSTN Calling plans for Skype for Business UK including where to get help, and how to submit complaints and resolve disputes.
-ms.custom: seo-marvel-<mar>
+description: Learn the code of practice for PSTN Calling plans for Skype for Business UK including where to get help, and how to submit complaints and resolve disputes. 
 ---
 
 # Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)
