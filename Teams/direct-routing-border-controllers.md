@@ -1,7 +1,7 @@
 ---
 title: "List of Session Border Controllers certified for Direct Routing"
 ms.author: crowe
-ms.reviewer: NMuravlyannikov
+ms.reviewer: FilippSe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -58,15 +58,15 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (build 537)     |  <ul> <li>[Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Red Sky Horizon Mobility </li> </ul>   |     &#10004;     |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (build 216)    |  <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> Red Sky Horizon Mobility </li> </ul>    |     &#10004;     |   
 | | EdgeMarc Series |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>   |  &#10004;  |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon Mobility </li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
-
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |    
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
