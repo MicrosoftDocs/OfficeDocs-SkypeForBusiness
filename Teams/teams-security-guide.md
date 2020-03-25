@@ -38,26 +38,22 @@ This section identifies the more common threats to the security of the Teams Ser
 
 ### Compromised-Key Attack
 
-A key is a secret code or number that is used to encrypt, decrypt, or validate secret information. There are two sensitive keys in use in public key infrastructure (PKI) that must be considered: the private key that each certificate holder has and the session key that is used after a successful identification and session key exchange by the communicating partners. A compromised-key attack occurs when the attacker determines the private key or the session key. When the attacker is successful in determining the key, the attacker can use the key to decrypt encrypted data without the knowledge of the sender.
-
 Teams uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections.
 
 ### Network Denial-of-Service Attack
 
 The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
-
 - Send invalid data to applications and services running in the attacked network to disrupt their normal function.
 - Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.
 - Hide the evidence of the attacks.
 - Prevent users from accessing network resources.
-
 Teams mitigates against these attacks by running Azure DDOS network protection and by throttling client requests from the same endpoints, subnets, and federated entities.
 
 ### Eavesdropping
 
 Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
-Teams uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+Teams uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken. Add OAuth section/lines.
 
 The TURN protocol is used for real time media purposes. The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The Teams service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
@@ -65,22 +61,13 @@ The TURN protocol is used for real time media purposes. The TURN protocol does n
 
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address.
 
-
-AAAAAAAAA.  
-
-
-Within the context of Teams, this situation comes into play only if an administrator has done both of the following:
-
-- Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted). **CAN THEY EVEN DO THIS WITH TEAMS? THIS WAS ORIGINAL SFB2010**
-- Marked the IP addresses of those connections as trusted hosts.
-
-This is less of a problem for **Transport Layer Security (TLS)** connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Teams uses **CAN IT THOUGH?!?!**. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). An attacker could still spoof the address of the DNS server. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
 
 ### Man-in-the-Middle Attack
 
 A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server.
 
-A man-in-the-middle attack can also occur with media traffic between two clients, except that in Teams point-to-point audio, video, and application sharing streams are encrypted with **SRTP - OR IS IT**, using cryptographic keys that are negotiated between the peers using Session Initiation Protocol (SIP) over TLS.
+A man-in-the-middle attack can also occur with media traffic between two clients, except that in Teams point-to-point audio, video, and application sharing streams are encrypted with SRTP  using cryptographic keys that are negotiated between the peers using Session Initiation Protocol (SIP) over TLS.
 
 ### RTP Replay Attack
 
@@ -88,70 +75,30 @@ A replay attack occurs when a valid media transmission between two parties is in
 
 ### Spim
 
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+Spim is unsolicited commercial instant messages or presence subscription requests, like spam, but in instant message form. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
 
 ### Viruses and Worms
 
 A virus is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce additional, similar code units, but that unlike a virus does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
 
-## Personally Identifiable Information
-
-Teams has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
-
-- **Enhanced presence data** Information that a user can choose to share or not share over a link to a federated partner or with contacts within an organization. This data is not shared with users on a public IM network. Client policies and other client configuration may put some control with the system administrator. In the Teams service, enhanced presence privacy mode can be configured for an individual user to prevent Teams users not on the user's Contacts list from seeing the user's presence information.
-- **Mandatory data** Data that is required for the proper operation of the server or the client. This is information that is necessary at a server or network level for the purposes of routing, state maintenance, and signaling.
-The following tables list the data that is required for Teams to operate.
-
-***Enhanced Presence Data***
-
-|                      |                                                                                            |   |
-|:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Data**             | **Possible** **settings**                                                                  |   |
-| Personal Data        | Name, Title, Company, Email address, Time zone                                             |   |
-| Telephone Numbers    | Work, Mobile, Home                                                                         |   |
-| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |   |
-| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |   |
-|                      |                                                                                            |   |
-
-***Mandatory Data***
-
-|              |                                                                 |   |
-|:-------------|:----------------------------------------------------------------|:--|
-| **Category** | **Possible settings**                                           |   |
-| IP Address   | Actual address of computer or NATed address                     |   |
-| SIP URI      | david.campbell@contoso.com                               |   |
-| Name         | David Campbell (as defined in Active Directory Domain Services) |   |
-|              |                                                                 |   |
-
 ## Security Framework for Teams
 
-This section provides an overview of the fundamental elements that form the security framework for Microsoft Teams.
+This section gives an overview of fundamental elements that form a security framework for Microsoft Teams.
 
-These elements are as follows:
+Core elements are:
 
-- Azure Active Directory (AAD) provides a single trusted back-end repository for user accounts.
-- Public key infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.
-- Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
-- Industry-standard protocols for user authentication, where possible.
-
-The topics in this section describe how each of these fundamental elements works to enhance the security of the Teams service.
+- Azure Active Directory (AAD), which provides a single trusted back-end repository for user accounts. User profile information is stored in AAD through the actions of Microsoft Graph.
+    - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
+- Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
+- Teams uses industry-standard protocols for user authentication, wherever possible.
 
 ### Azure Active Directory
 
-Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments.
-
-### Public Key Infrastructure for Teams
-
-Teams service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.
-
-Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
-
-Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in.
-Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
+Azure Active Directory functions as the directory service for Office 365 (O365). It stores all user directory information and policy assignments.
 
 #### CRL Distribution Points
 
-Teams requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
+O365 traffic takes place over TLS/HTTPS encrypted channels, meaning that certificates are used for encryption of all traffic. Teams requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
 
 #### Enhanced Key Usage
 
@@ -159,39 +106,39 @@ All components of the Teams service require all server certificates to support E
 
 ### TLS and MTLS for Teams
 
-TLS and MTLS protocols provide encrypted communications and endpoint authentication on the Internet. Teams uses these two protocols to create the network of trusted servers and to ensure that all communications over that network are encrypted. All SIP communications between servers occur over MTLS. SIP communications from client to server occur over TLS.
+TLS and MTLS protocols provide encrypted communications and endpoint authentication on the Internet. Teams uses these two protocols to create the network of trusted servers and to ensure that all communications over that network are encrypted. All communications between servers occur over MTLS. Any remaining or legacy SIP communications from client to server occur over TLS.
 
-TLS enables users, through their client software, to authenticate the Teams environment to which they connect. On a TLS connection, the client requests a valid certificate from the server. To be valid, the certificate must have been issued by a CA that is also trusted by the client and the DNS name of the server must match the DNS name on the certificate. If the certificate is valid, the client uses the public key in the certificate to encrypt the symmetric encryption keys to be used for the communication, so only the original owner of the certificate can use its private key to decrypt the contents of the communication. The resulting connection is trusted and from that point is not challenged by other trusted servers or clients. Within this context, Secure Sockets Layer (SSL) as used with Web services can be associated as TLS-based.
+TLS enables users, through their client software, to authenticate the Teams servers to which they connect. On a TLS connection, the client requests a valid certificate from the server. To be valid, the certificate must have been issued by a Certificate Authority (CA) that is also trusted by the client and the DNS name of the server must match the DNS name on the certificate. If the certificate is valid, the client uses the public key in the certificate to encrypt the symmetric encryption keys to be used for the communication, so only the original owner of the certificate can use its private key to decrypt the contents of the communication. The resulting connection is trusted and from that point is not challenged by other trusted servers or clients.
 
 Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication. On an MTLS connection, the server originating a message and the server receiving it exchange certificates from a mutually trusted CA. The certificates prove the identity of each server to the other. In the Teams service, this procedure is followed.
 
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker's computer without the knowledge of either party. TLS and Teams' specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication.
 
+
 ### Encryption for Teams
 
 Teams uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter.
 
-The following table summarizes the protocol used by Teams.
+This table summarizes the protocols used by Teams.
 
-***Traffic Protection***
+
+***Traffic Encryption***
 
 |||
 |:-----|:-----|
-|**Traffic type**|**Protected by**|
+|**Traffic type**|**Encrypted by**|
 |Server-to-server|MTLS|
-|Client-to-server|TLS|
-|Instant messaging and presence|TLS (if configured for TLS)|
-|Audio and video and desktop sharing of media|SRTP|
-|Desktop sharing (signaling)|TLS|
-|Web conferencing|TLS|
-|Meeting content download, address book download, distribution group expansion|HTTPS|
+|Client-to-server (ex. instant messaging and presence)|TLS|
+|Media flows (ex. audio and video sharing of media)|TLS|
+|Audio and video sharing of media|SRTP/TLS|
+|Signaling|TLS|
 |||
 
 #### Media Encryption
 
-Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP.
+Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel.
 
-Teams generates username/passwords for secure access to media relays over TURN. Media relays exchange the username/password over a TLS-secured SIP channel.
+Teams uses a credentials-based token for secure access to media relays over TURN. Media relays exchange the token over a TLS-secured channel.
 
 #### FIPS
 
@@ -199,26 +146,25 @@ Teams uses FIPS (Federal Information Processing Standard) compliant algorithms f
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by AAD in O365.
+A trusted user is one whose credentials have been authenticated by AAD in Office 365 / Microsoft 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
-- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Certificate Based Authentication, O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. Teams tenants created after May 2017 have MA enabled by default. For tenants created before this time, follow the instructions here to turn it on. The Teams clients across PC and mobile, as well as the web client, all support MA.
-- **Org ID** is used when Modern Authentication is not enabled (or not available).
-- **Digest protocol** for so-called anonymous users. Anonymous users are outside users who do not have recognized Active Directory credentials but who have been invited to an on-premises conference and possess a valid conference key. Digest authentication is not used for other client interactions.
+- Modern Authentication (MA) is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
 
-Teams authentication consists of two phases:
+<!-->
+- **Digest protocol** for so-called anonymous users. Anonymous users are outside users who do not have recognized Active Directory credentials but who have been invited to an on-premises conference and possess a valid conference key. Digest authentication is not used for other client interactions.-->
 
-1. A security association is established between the client and the server.
-2. The client and server use the existing security association to sign messages that they send and to verify the messages they receive. Unauthenticated messages from a client are not accepted when authentication is enabled on the server.
+> [!NOTE]
+> If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
 
-User trust is attached to each message that originates from a user, not to the user identity itself. The server checks each message for valid user credentials. If the user credentials are valid, the message is unchallenged not only by the first server to receive it but by all other servers in Teams.
+Teams authentication is accomplished through AAD and OAuth. The process of authentication can be simplified to:
 
-Users with valid credentials issued by a federated partner are trusted but optionally prevented by additional constraints from enjoying the full range of privileges accorded to internal users.
+- User Login > Token issuance > subsequent request use issued token.
+
+Requests from client to server are authenticated and authorized via AAD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [media traversal](#external-user-av-traffic-traversal).
-
-Client certificates provide an alternate way for users to be authenticated by Teams. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge.
 
 ### Windows PowerShell and Team Management Tools
 
@@ -226,55 +172,19 @@ In Teams, IT Admins can manage their service via the O365 Admin portal or by usi
 
 ### Configuring Access to Teams at your Internet Boundary
 
-For Teams to function properly (users able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the Teams cloud is allowed. For more details, see here: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+For Teams to function properly (for users to be able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the Teams cloud is allowed. For more details, see here: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 ### UDP 3478-3481 and TCP 443
 
-
-**ALL SUSPECT - NEEDS REVIEW**
-
-
-The UDP 3478-3481 and TCP 443 ports are used by clients to request service from the A/V Edge service. A client uses these two ports to allocate UDP and TCP ports respectively for the remote party to connect to. To access the A/V Edge service, the client must first have established an authenticated SIP signaling session with Teams registrar to obtain A/V Edge service authentication credentials. These values are sent across the TLS-protected signaling channel and are computer generated to mitigate against dictionary attacks. Clients can then use these credentials for digest authentication with the A/V Edge service to allocate ports for use in a media session. An initial allocate request is sent from the client and responded with a 401 nonce/challenge message from the A/V Edge service. The client sends a second allocate containing the user name and a Hash Message Authentication Code (HMAC) hash of the user name and nonce.
-
-A sequence number mechanism is also in place to prevent replay attacks. The server calculates the expected HMAC based on its own knowledge of the user name and password and if the HMAC values match, the allocate procedure is carried out. Otherwise, the packet is dropped. This same HMAC mechanism is also applied to subsequent messages within this call session. The lifetime of this user name/password value is a maximum of eight hours at which time the client reacquires a new user name/password for subsequent calls.
+The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel. 
 
 ### UDP/TCP 50,000–59,999
 
-
-**OCS 2007 OMG**
-
-
-TCP 50,000 outbound is used for Teams, including for application and desktop sharing, file transfer. UDP/TCP 50,000-59,999 port ranges are used for media sessions with Microsoft Office Communications Server 2007 partners that require NAT/firewall traversal service from the A/V Edge service. Because the A/V Edge service is the sole process using these ports, the size of the port range does not indicate the potential surface of attack. Good security practice is to always minimize the total number of listening ports by not running unnecessary network services. If a network service is not running, it is not exploitable by a remote attacker and the surface of attack of the host computer is reduced. However, within a single service, reducing the number of ports does not provide the same benefit. The A/V Edge service software is no more exposed to attack with 10,000 ports open as it is with 10. The allocation of ports within this range is done randomly and ports not currently allocated do not listen for packets.
-
-### External User A/V Traffic Traversal
-
-Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
-
-![Call sequence in Meeting Join](media/sfbo-call-sequence-security.png)
-
-
-**BAD**
-
-
-1. A user receives an email containing an invitation to join a Teams meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting. The user initiates the join procedure by clicking the meeting URL in the email which initiates a client detection process on the user's machine. If the client is detected, this client is launched. If it is not detected, the user is redirected to the web client.
-2. The Teams client sends a SIP INVITE containing the user's credentials. A federated or remote user joins a conference using their enterprise credentials. For a federated user, the SIP INVITE is first sent to his or her home server, which authenticates the user and forwards the INVITE to Teams. An anonymous user is required to pass digest authentication. Teams authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.
-3. The client sends an INFO request to add the user to the A/V conference.
-
-    The A/V conferences sends an Add User response that contains the token to present to the A/V Conferencing Edge service among other information.
-
-    [Note]
-    All the preceding SIP traffic flowed through the Access Edge service.
-
-    The client connects to the A/V Conference Server, which validates the token and proxies the request, which contains another authorization token, to the internal A/V Conferencing Server. The A/V Conferencing Server validates the Authorization Token, which it originally issued over the SIP channel, to further ensure that a valid user is joining the conference.
-4. Between the client and the A/V Conferencing Server, a media connection is negotiated and setup over SRTP.
-5. A user receives an email containing an invitation to join a Teams meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
+Ports in the high range don't use Transport Relay. Because they are optional ports, you won't find them listed in  Office 365 URLs and IP address ranges. This also means that Teams will function if these ports are blocked, due to the traffic using the port ranges 3478-3481 (Transport Relay). They are used for media transit, but even if these ranges are unblocked, the reduction in delay will be minimal (a few milliseconds). For the most part, issues with media quality will not be impacted by unblocking and using these ports. Any investigation of those issues would need to focus elsewhere.
 
 ### Federation Safeguards for Teams
 
-Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the O365 Admin portal. See more.
-
-
- **WHERE IS MORE?**
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the O365 Admin portal.
 
 ## Addressing Threats to Teams Conferences
 
