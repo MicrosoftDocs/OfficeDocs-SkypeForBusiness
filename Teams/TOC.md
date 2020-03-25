@@ -293,6 +293,10 @@
 #### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
+### Local Media Optimization for Direct Routing
+#### [Plan for Local Media Optimization](direct-routing-media-optimizationon.md)
+#### [Configure Local Media Optimization](direct-routing-media-optimizationon-configure.md)
+
 
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)

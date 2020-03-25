@@ -29,48 +29,48 @@ Local Media Optimization for Direct Routing lets you manage voice quality by:
 -	Keeping media local within the boundaries of corporate network subnets.
 -	Allowing media streams between the Teams clients and the SBCs even if the SBCs are behind corporate firewalls with private IPs and not visible to Microsoft directly.
 
-Media Path Optimization supports two scenarios:
+Local Media Optimization supports two scenarios:
 
-- Centralization of all local trunks through a centralized SBC connected to the main SIP trunk, providing telephony services to all local branch offices of the company.
+- Centralization of all local trunks through a centralized SBC connected to the main SIP trunk--providing telephony services to all local branch offices of the company.
 
-- 	Building a virtual network topology of SBCs, where the SBCs in the local branch offices are connected to a centralized proxy SBC that is visible to, and communicating with, Microsoft Phone System through its external IP address. In a virtual network topology, downstream SBCs are communicating through internal IPs and are not directly visible to Microsoft Phone System.
+- 	Building a virtual network topology of SBCs--where the SBCs in the local branch offices are connected to a centralized proxy SBC that is visible to, and communicating with, Microsoft Phone System through its external IP address. In a virtual network topology, downstream SBCs are communicating through internal IPs and are not directly visible to Phone System.
 
 
 
-## A customer scenario
+## Supported customer scenarios
 
-Assume that Contoso runs multiple businesses across the globe as follows:
-
-Note: Europe and APAC regions are used as examples only. Company might have several different regions with such or similar requirements.
+For this discussion, assume that Contoso runs multiple businesses across the globe as follows. (Note that Europe and APAC regions are used as examples only. A company might have several different regions with similar requirements.)
  
-- In Europe, Contose has offices in approximately 30 countries. Each office has its own PBX. 
+- **In Europe**, Contoso has offices in approximately 30 countries. Each office has its own PBX. 
 
-  Contoso was offered an option to centralize the trunks in one location – Amsterdam for all 30 European offices. Contoso deployed the SBC in Amsterdam, provided enough bandwidth to run calls via the centralized location, connected a central SIP trunk to it and started serving all European locations from Amsterdam. 
+  Contoso was offered an option to centralize the trunks in one location--Amsterdam--for all 30 European offices. Contoso deployed the SBC in Amsterdam, provided enough bandwidth to run calls through the centralized location, connected a central SIP trunk to the centralized location, and started serving all European locations from Amsterdam. 
 
-- In APAC region, Contoso has multiple offices in different countries. 
+- **In the APAC region**, Contoso has multiple offices in different countries. 
 
-  In many countries, the company still has TDM trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to SIP is not possible. Assume there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a  lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having a local PSTN network connectivity.
+  In many countries, the company still has TDM trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to SIP is not possible. Assume there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
 
+Based on their business requirements, Contoso implemented two solutions with Local Media Optimization for Direct Routing:
 
-## Supported scenarios
+- **In Europe**, all trunks are centralized and media flows between the central SBC and the users, based on the user location. 
 
-Contoso implemented two scenarios based on Local Media Optimization for Direct Routing:
-
-- In Europe, all trunks are centralized and media flows between the central SBC and the users, based on the user location. 
-
-  If a user is connected to the local subnet of a corporate network (that is, the user is internal), media flows between the internal IP of the central SBC and the user’s Teams client. 
+  - If a user is connected to the local subnet of a corporate network (that is, the user is internal), media flows between the internal IP of the central SBC and the user’s Teams client. 
   
-  If a user is outside the boundaries of the corporate network--for example, if the user is using a public wireless internet connection, then the user is considered to be external. In this case, the media flows between the external IP of the central SBC and the Teams client.
+  - If a user is outside the boundaries of the corporate network--for example, if the user is using a public wireless Internet connection, then the user is considered to be external. In this case, the media flows between the external IP of the central SBC and the Teams client.
 
-- In the APAC region, a centralized proxy SBC is paired to Microsoft Direct Routing, which directs media between the Direct Routing interface and the downstream SBCs in local branch offices. 
+- **In the APAC region**, a centralized proxy SBC is paired to Microsoft Direct Routing, which directs media between the Direct Routing interface and the downstream SBCs in local branch offices. 
 
-  The downstream SBCs in the local branch offices are not directly visible to Direct Routing in APAC,  but they are paired by using the Set-CSOnlinePSTNGateway cmdlet creating a virtual network topology within Microsoft Phone System. Media always stays local when possible. External users have media flowing between the Teams client and the public IP of the proxy SBC.
+  The downstream SBCs in the local branch offices are not directly visible to Direct Routing in APAC, but they are paired by using the Set-CSOnlinePSTNGateway cmdlet to create a virtual network topology within Microsoft Phone System. Media always stays local when possible. External users have media flowing between the Teams client and the public IP of the proxy SBC.
 
 
 ## Central SBC with centralized trunks
-In order to build a solution where PSTN services are provided to all local branch offices via single central SBC with connected centralized SIP trunk, Contoso tenant administrator paired one SBC (centralsbc.contoso.com) to the service, the SBC has a centralized SIP trunk connected to it. When user is in internal network of the company the SBC provides internal IP of the SBC for media, when user is outside of the corporate network, the SBC provides the external (public) IP of the SBC.
 
-Note: All values within examples, tables or images below are presented only for illustration purposes and are not mandatory or recommended in any way
+To build a solution where PSTN services are provided to all local branch offices through a single central SBC with a connected centralized SIP trunk, the Contoso tenant administrator pairs one SBC (centralsbc.contoso.com) to the service; the SBC has a centralized SIP trunk connected to it. 
+
+- When a user is in the internal network of the company, the SBC provides the internal IP of the SBC for media.
+
+- When user is outside of the corporate network, the SBC provides the external (public) IP of the SBC.
+
+Note: All values within examples, tables, or diagrams are presented only for illustration purposes only.
 
 
 | Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
@@ -80,30 +80,34 @@ Note: All values within examples, tables or images below are presented only for 
 | France | Not deployed | 192.168.7.0/24 | 52.114.76.75 | Not deployed |  Not deployed ||||
 
 
-
 ### Internal user
+
 The following diagram shows the traffic flow when a user is connected to the corporate network in the user’s home branch office or site. 
 
-While on premises, the user is assigned to the local branch office in Germany.  When the user makes a Direct Routing based phone call through Teams, the user’s Teams client communicates to Phone System directly through the REST API, but the media generated during the call flows to the central SBC’s internal IP address. The SBC redirects the flow to  Phone System and the connected PSTN network. The central SBC is visible to  Phone System through the external IP address only. 
+While on premises, the user is assigned to the local branch office in Germany.  When the user makes a Direct Routing phone call through Teams, the user’s Teams client communicates to Phone System directly through the REST API, but the media generated during the call flows to the central SBC’s internal IP address. The SBC redirects the flow to  Phone System and the connected PSTN network. The central SBC is visible to  Phone System through the external IP address only. 
 
-INSERT DIAGRAM HERE
+Picture 1. Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-1.png "Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk")
 
 
 ### External user
 
-The following diagram shows the traffic flow when a user is outside of the office and is not connected to the corporate network. 
+The following diagram shows the traffic flow when a user is not on premises and is not connected to the corporate network (that is, the user’s device is connected to the Internet through a mobile device or public Wi-Fi).
 
-The user is not on premises and is not within the boundaries of the corporate network (that is, the user’s device is connected to the internet through a  mobile device or public Wi-Fi). When the user makes a Direct Routing based phone call through Teams, the user’s Teams client communicates to Phone System directly through the REST API, but, in this case, the media generated during the call flows to the central SBC’s external IP address. The SBC redirects the flow to  Phone System and connected PSTN network. Central SBC is visible to Microsoft Phone System via external IP address only. In this case the behavior is similar no matter the user is local to Germany branch office or any other branch office. User is considered external, because of being outside the boundaries of corporate network.
+When the user makes a Direct Routing phone call through Teams, the user’s Teams client communicates to Phone System directly through the REST API, but, in this case, the media generated during the call flows to the central SBC’s external IP address. The SBC redirects the flow to Phone System and the connected PSTN network. The central SBC is visible to Phone System through the external IP address only. In this case, the behavior is similar whether the user is local to the Germany branch office or to any other branch office. The user is considered external because the user is outside the boundaries of the corporate network.
 
-INSERT DIAGRAM HERE
+Picture 2. The traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-2.png "Traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk")
 
 ## Proxy SBC with connected downstream SBCs
 
-In order to build a solution where PSTN services are provided in all local branch offices in APAC region where centralization of the TDM trunks is not an option, Contoso administrator paired one SBC (proxysbc.contoso.com) also called as proxy SBC to the Direct Routing service. 
-Afterwards, Contoso administrator added some downstream SBCs using PowerShell cmdlet (more details on required steps below in Configuration chapter), indicating that they can be reached via the proxy SBC proxysbc.contoso.com. Downstream SBCs do not have public IPs, however they can be assigned to voice routes. The table below shows the example of network parameters and configuration.
-When user is in the local branch office where the downstream SBC is located, the media traffic flows between the user and the local downstream SBC directly. If user is outside of the office (on a public internet or in a different office) the media flows from the user to the public IP of the Proxy SBC, which proxies it to the relevant downstream SBC (s).
+To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one SBC (proxysbc.contoso.com), also called the proxy SBC, to the Direct Routing service. 
 
+Afterwards, the Contoso administrator adds some downstream SBCs indicating that they can be reached via the proxy SBC proxysbc.contoso.com. Downstream SBCs do not have public IPs, however they can be assigned to voice routes. The table below shows the example of network parameters and configuration.
 
+When a user is in the local branch office where the downstream SBC is located, the media traffic flows between the user and the local downstream SBC directly. If a user is outside of the office (on a public internet or in a different office), the media flows from the user to the public IP of the Proxy SBC, which proxies it to the relevant downstream SBC(s).
 
 | Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
@@ -115,94 +119,171 @@ When user is in the local branch office where the downstream SBC is located, the
 
 ### Internal user 
 
-The illustration below shows the high-level traffic flow for the scenario when user is inside the office in APAC region. On the image below user assigned to local branch office in Vietnam, while on premises, makes a Direct Routing based phone call via Teams. User’s Teams client communicates with Microsoft Phone System directly via REST API, but media generated during the call flows to local SBC’s internal IP address. Local SBC redirects the flow to proxy SBC in Singapore and connected local PSTN network. Proxy SBC is visible to Microsoft Phone System via external IP address only and routes the flow from downstream SBC (in this case local SBC in Vietnam) to Microsoft Phone System. Downstream SBC in local branch office is not visible to Microsoft Phone System directly but is mapped within the virtual network topology that needs to be defined by Contoso administrator while setting up Media Path Optimization.
-Note: The behavior might be different for local users and non-local users depending on the configured Media Path Optimization mode. More details on possible modes and relevant behavior is presented in next chapter. 
+The following diagram shows the high-level traffic flow for the scenario when a user is inside the office in the APAC region. 
+The user, who is assigned to a local branch office in Vietnam, and is on premises, makes a Direct Routing phone call through Teams. 
 
-INSERT DIAGRAM HERE
+- The user’s Teams client communicates with Phone System directly through the REST API, but media generated during the call flows to local SBC’s internal IP address.
+
+- The local SBC redirects the flow to the proxy SBC in Singapore and to the connected local PSTN network.
+
+-  The proxy SBC is visible to Phone System through the external IP address only and routes the flow from the downstream SBC (in this case local SBC in Vietnam) to Phone System. 
+
+The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimization.
+
+Note: The behavior might be different for local users and non-local users depending on the configured Local Media Optimization mode. 
+
+For more information on possible modes and relevant behavior, see Configure Local Media Optimization.
+
+Picture 3. Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network")
 
 ### External user
 
-The figure below shows the traffic flow when a user is outside of the corporate network boundaries. On the illustration user is not on premises (is not within the boundaries of corporate network). User makes a Direct Routing based phone call via Teams to Vietnamese phone number. User’s Teams client communicates with Microsoft Phone System directly via REST API, but media generated during the call flows first to external IP address of the proxy SBC in Singapore. Based on configuration and voice policies (more details in Configuration chapter below) proxy SBC redirects the flow to downstream SBC in Vietnam. Downstream SBC in Vietnam redirects the flow to connected local PSTN network. Proxy SBC is visible to Microsoft Phone System via external IP address only. Downstream SBC in local branch office is not visible to Microsoft Phone System directly but is mapped within the virtual network topology that needs to be defined by Contoso administrator while setting up Media Path Optimization. In the example user is considered external, because of being outside the boundaries of corporate network. 
+The figure below shows the traffic flow when a user is outside of the corporate network boundaries. The user is not on premises (is not within the boundaries of corporate network). The user makes a Direct Routing phone call through Teams to Vietnamese phone number. 
 
-INSERT DIAGRAM HERE
+- The user’s Teams client communicates with Phone System directly through the REST API, but the  media generated during the call flows first to the external IP address of the proxy SBC in Singapore. 
 
+- Based on configuration and voice policies (see the Configure article), the proxy SBC redirects the flow to the downstream SBC in Vietnam. 
+
+- The downstream SBC in Vietnam redirects the flow to the connected local PSTN network. 
+
+The proxy SBC is visible to Phone System through the external IP address only. The downstream SBC in the local branch office is not visible to Phone System directly, but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimizaiton. In the example user is considered external, because of being outside the boundaries of corporate network. 
+
+Picture 4. Traffic flow in case of proxy SBC with connected downstream SBCs when user is external
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
 
 ## Local Media Optimization modes
-Local Media Optimization technology supports two modes:
 
-- Mode 1: Always bypass. In this case if user is internal, the media will flow via local downstream SBC’s internal IP address no matter the actual location of the internal user (e.g. within the same branch office where downstream SBC is located or in some other branch office)
+Local Media Optimization supports two modes:
 
-- Mode 2: Only for local users. In this mode media will flow directly to local downstream SBC’s internal IP address only when generated by internal user located in the same branch office as the downstream SBC. 
+- **Mode 1: Always bypass**. In this case if user is internal, the media will flow through the local downstream SBC’s internal IP address no matter the actual location of the internal user (e.g. within the same branch office where downstream SBC is located or in some other branch office)
 
-To distinguish between Media Path Optimization modes, the tenant administrator needs to set the -BypassMode parameter to either ‘Always’ or ‘OnlyForLocalUsers’ in PowerShell cmdlet Set-CSonlinePSTNGateway for every SBC. More details presented in Configuration chapter below.
+- **Mode 2: Only for local users**. In this mode media will flow directly to local downstream SBC’s internal IP address only when generated by internal user located in the same branch office as the downstream SBC. 
 
-Modes applicability, best practices
-### Mode 1: Always Bypass
+To distinguish between Local Media Optimization modes, the tenant administrator needs to set the -BypassMode parameter to either ‘Always’ or ‘OnlyForLocalUsers’ for every SBC by using the  Set-CSonlinePSTNGateway cmdlet. For more information, see Configure Local Media Optimization.  
 
-Good connection between branch offices – recommended mode is “Always bypass”.
+### Mode 1: Always bypass
 
-Example: A company has a centralized SIP trunk in Amsterdam, which serves 30 countries and has good connectivity between all these 30 sites and local users. Also, there is a branch in Hungary where a local SBC is deployed. In this case the SBC in Hungary can be configured in “Always bypass” mode. Users regardless of the location will connect to the SBC directly via internal IP address of the SBC (for example from Germany to Hungary, see pictures below for reference).
-Case One. The user is in the same location as the SBC defined in Voice Routing Policy
-SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. User is in Hungary within the same subnet of corporate network as local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of Hungarian calls (with area code +36) they should be routed to local Hungarian SBC. All other calls and, in case Hungarian SBC fails, Hungarian calls should be routed to proxy SBC in Amsterdam. Table below summarizes the example configuration. 
+If you have good connection between branch offices, the recommended mode is Always bypass.
+
+For example, assume a company has a centralized SIP trunk in Amsterdam, which serves 30 countries and has good connectivity between all these 30 sites and local users. There is also a branch in Hungary where a local SBC is deployed.
+
+The SBC in Hungary can be configured in “Always bypass” mode. Users, regardless of their location, will connect to the SBC directly through the internal IP address of the SBC (for example from Germany to Hungary, see pictures below for reference).
+
+The following describes two scenarios:
+
+- Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy.
+
+- Scenario 2. The user and gateways are in different sites.
+
+#### Scenario 1. The user is in the same location as the SBC defined in Voice Routing Policy
+
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. User is in Hungary within the same subnet of corporate network as local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of Hungarian calls (with area code +36) they should be routed to local Hungarian SBC. All other calls and, in case Hungarian SBC fails, Hungarian calls should be routed to proxy SBC in Amsterdam. Table below summarizes the example configuration. 
 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Hungary | +36 1 437 2800 | Priority 1: ^\+36(\d{8})$ -HUsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | HUsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass | Teams User <–> HUsbc.contoso.com |
 
-The diagram below shows the high-level traffic flow for internal user in Hungary making a Direct Routing based phone call via Teams to Hungarian number. User’s Teams client communicates with Microsoft Phone System directly via REST API, and media generated during the call flows to local SBC’s internal IP address. Local SBC redirects the flow to proxy SBC in Amsterdam and connected local PSTN network. Proxy SBC is visible to Microsoft Phone System via external IP address only and routes the flow from downstream SBC (in this case local SBC in Hungary) to Microsoft Phone System. Downstream SBC in local branch office is not visible to Microsoft Phone System directly but is mapped within the virtual network topology that needs to be defined by Contoso administrator while setting up Media Path Optimization.
+The diagram below shows the high-level traffic flow for internal user in Hungary making a Direct Routing phone call through Teams to Hungarian number. 
+
+- The user’s Teams client communicates with Phone System directly through the REST AP. 
+
+- The media generated during the call flows to the local SBC’s internal IP address. 
+
+- The local SBC redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
+
+- The proxy SBC is visible to Phone System through the external IP address only and routes the flow from the downstream SBC (in this case, the local SBC in Hungary) to Phone System. 
+
+- The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimization.
 
 
-INSERT DIAGRAM HERE
+Picture 5.  Traffic flow with “Always Bypass” mode and user is in the “home” site
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-5.png "Traffic flow with “Always Bypass” mode and user is in the “home” site")
 
 
+#### Scenario 2: The user and gateways are in different sites
 
-**User and gateways are in different sites**
-SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Internal user in Germany located in local branch office is making a Direct Routing call to Hungary. Voice routing policies specify that in case of Hungarian calls (with area code +36) they should be routed to local Hungarian SBC. All other calls and, in case Hungarian SBC fails, Hungarian calls should be routed to proxy SBC in Amsterdam. Table below summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in Germany, located in the local branch office, is making a Direct Routing call to Hungary. Voice routing policies specify that Hungarian calls (with area code +36) should be routed to local Hungarian SBC. All other calls--and, in case the Hungarian SBC fails, all Hungarian calls--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Germany | +36 1 437 2800 | Priority 1: ^\+36(\d{8})$ -HUsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com |  HUsbc.contoso.com – Always Bypass proxysbc.contoso.com – Always Bypass | Teams User <– > HUsbc.contoso.com |
 
+The following diagram shows the high-level traffic flow when the internal Hungarian user located in Germany makes a Direct Routing phone call through Teams to the Hungarian number. 
 
-The diagram below shows the high-level traffic flow when internal Hungarian user in Germany makes a Direct Routing based phone call via Teams to Hungarian number. User’s Teams client communicates with Microsoft Phone System directly via REST API, and media generated during the call flows directly to Hungarian SBC’s internal IP address. Hungarian SBC redirects the flow to proxy SBC in Amsterdam and connected local PSTN network. 
+- The user’s Teams client communicates with Phone System directly through the REST API.
 
-INSERT DIAGRAM HERE
+- The media generated during the call flows directly to Hungarian SBC’s internal IP address. 
+
+- The Hungarian SBC redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
+
+Picture 6.  Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network)
 
 ### Mode 2: Only for local users
 
+If there are bad connections between local branch offices but good connections between each local branch office and regional office, then the recommended mode is “Only For Local Users”.
 
-Bad connection between local branch offices but good connection between each local branch office and regional office – recommended mode is “Only For Local Users”
+For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible belcause the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
 
-Example: In APAC region Contoso has multiple offices in different countries. In many countries switching to SIP is not possible, company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across APAC region with hundreds of gateways (SBCs). In order to build a solution where PSTN services are provided in all local branch offices in APAC region where centralization of the TDM trunks is not an option, Contoso administrator paired one regional SBC in Singapore as proxy SBC to the Direct Routing service. Direct connection between local branch offices is bad but there is a good connection between each local branch office and regional SBC in Singapore. For regional SBC administrator chose ‘Always Bypass’ mode and for local downstream SBCs ‘Only For Local Users’ mode.
+To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. Direct connection between local branch offices is bad, but there is a good connection between each local branch office and regional SBC in Singapore. For the regional SBC, the administrator chooses ‘Always Bypass’ mode, and for the local downstream SBCs, the administrator chooses ‘Only For Local Users’ mode.
 
-**Case One. The user is in the same location as the SBC defined in Voice Routing Policy**
-SBC in Singapore is configured to be a proxy SBC for local downstream SBCs in Vietnam and Indonesia. User is in Vietnam within the same location as local SBC. Voice routing policies specify that in case of Vietnamese calls (with area code +84) they should be routed to local Vietnamese SBC. All other calls and, in case Vietnamese SBC fails, Vietnamese calls should be routed to proxy SBC in Singapore. Table below summarizes the example configuration. 
+#### Scenario 1. The user is in the same location as the SBC defined in Voice Routing Policy
+
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The user is in Vietnam within the same location as the local SBC. Voice routing policies specify that Vietnamese calls (with area code +84) should be routed to the local Vietnamese SBC. All other calls--and, if the Vietnamese SBC fails, Vietnamese calls--should be routed to the proxy SBC in Singapore. The following table summarizes the example configuration. 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam | +84 4 3926 3000 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – Only For Local Users <br> proxysbc.contoso.com – Always Bypass | Teams User <–> VNsbc.contoso.com |
 
+In the following diagram, a user assigned to the local branch office in Vietnam, while on premises, makes a Direct Routing phone call through Teams. 
 
-In the following diagram, a user assigned to local branch office in Vietnam, while on premises, makes a Direct Routing based phone call via Teams. User’s Teams client communicates with Microsoft Phone System directly via REST API and media generated during the call flows to local SBC’s internal IP address. Local SBC redirects the flow to proxy SBC in Singapore and connected local PSTN network. Proxy SBC is visible to Microsoft Phone System via external IP address only and routes the flow from downstream SBC (in this case local SBC in Vietnam) to Microsoft Phone System. Downstream SBC in local branch office is not visible to Microsoft Phone System directly but is mapped within the virtual network topology.
+- The user’s Teams client communicates with Phone System directly through the REST API. 
 
-INSERT DIAGRAM HERE
+- Media generated during the call flows to the local SBC’s internal IP address. 
+
+- The local SBC redirects the flow to the proxy SBC in Singapore and to the connected local PSTN network. 
+
+- The proxy SBC is visible to Phone System through the external IP address only and routes the flow from the downstream SBC (in this case, the local SBC in Vietnam) to Phone System. 
+
+- The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology.
+
+Picture 7.  Traffic flow with “Only For Local Users” mode and user is in “home” site
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-7.png "Traffic flow with “Only For Local Users” mode and user is in “home” site")
 
 
-**Case two. User and gateways are in different sites**
+#### Scenario 2. User and gateways are in different sites
 
-SBC in Singapore is configured to be a proxy SBC for local downstream SBCs in Vietnam and Indonesia. Internal user in Indonesia located in local branch office is making a Direct Routing call to Vietnam. Voice routing policies specify that in case of Vietnamese calls (with area code +84) they should be routed to local Vietnamese SBC. All other calls and, in case Vietnamese SBC fails, Vietnamese calls should be routed to proxy SBC in Singapore. Proxy SBC in Singapore is set to ‘Always Byass’ mode and local SBC in Vietnam is set to ‘Only For Local Users’ mode. Table below summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Voice routing policies specify that Vietnamese calls (with area code +84) should be routed to the local Vietnamese SBC. All other calls--and, in case the Vietnamese SBC fails, Vietnamese calls--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Indonesia | +84 4 3926 3000 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Only For Local Users <br> proxysbc.contoso.com – Always Bypass | Teams User <–> proxysbc.contoso.com <–> VNsbc.contoso.com |
 
 
-In the following diagram, internal user, while on premises in Indonesian branch office, makes a Direct Routing based phone call via Teams to Vietnamese number. User’s Teams client communicates with Microsoft Phone System directly via REST API and media generated during the call flows to proxy SBC’s internal IP address first. Proxy SBC in Singapore redirects the flow to internal IP address of the downstream SBC in Vietnam and to Microsoft Phone System. Downstream SBC in Vietnam routes the flow to connected local PSTN network. Proxy SBC is visible to Microsoft Phone System via external IP address only. Downstream SBCs in local branch offices are not visible to Microsoft Phone System directly but are mapped within the virtual network topology.
+In the following diagram, the internal user, while on premises in the Indonesian branch office, makes a Direct Routing phone call through Teams to a Vietnamese number. 
 
-INSERT DIAGRAM HERE
+- The user’s Teams client communicates with Phone System directly through the REST API.
 
+- Media generated during the call flows to proxy SBC’s internal IP address first. 
 
+- The proxy SBC in Singapore redirects the flow to the internal IP address of the downstream SBC in Vietnam and to Phone System. 
+
+- The Downstream SBC in Vietnam routes the flow to the connected local PSTN network. 
+
+- The proxy SBC is visible to Phone System through the external IP address only.
+
+- The downstream SBCs in local branch offices are not visible to Phone System directly but are mapped within the virtual network topology.
+
+Picture 8.  Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network
+
+![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
 
 
