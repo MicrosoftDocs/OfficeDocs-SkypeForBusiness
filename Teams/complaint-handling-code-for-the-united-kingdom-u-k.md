@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - Legal
 hideEdit: true
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+description: Make a complaint for Skype for business calling services (PSTN Calling in the UK), timelines for replies, and resolving disputes for unresolved complaints.
 ---
 
 # Calling plans in Office 365 - Complaint handling code for the United Kingdom (U.K.)

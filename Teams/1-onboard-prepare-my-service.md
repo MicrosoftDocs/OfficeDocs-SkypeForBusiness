@@ -1,5 +1,5 @@
 ---
-title: Prepare to deploy Microsoft Teams cloud voice service
+title: Prepare to deploy cloud voice service
 author: rmw2890
 ms.author: Rowille
 manager: serdars
