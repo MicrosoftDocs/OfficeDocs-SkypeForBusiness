@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing Dial-Out/Call Me At minutes"
+title: "Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,8 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
-  - seo-marvel-<mar>
-description: "Customers have been provided a complimentary dial-out capability that will end on November 30, 2019.  Beginning December 1, 2019, each audio conferencing subscription provides 60 minutes per user per month to ANY of the Zone A countries as described in this document. "
+description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 each audio conferencing subscription provides 60 minutes per-user per-month to Zone A countries.
 ---
 
 # Audio Conferencing subscription "Dial-Out"/"Call Me At" minutes benefit

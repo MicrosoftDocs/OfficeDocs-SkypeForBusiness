@@ -21,8 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo.marvel-<mar>
-description: "When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone."
+description: Learn the steps required to assign a new service phone number to your conference bridge to expand coverage for your users.
 ---
 
 # Change the phone numbers on your Audio Conferencing bridge
