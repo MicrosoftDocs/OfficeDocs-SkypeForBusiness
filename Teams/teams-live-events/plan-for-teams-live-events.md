@@ -76,6 +76,7 @@ The following table highlights core capabilities and features offered in live ev
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
+|Maximum amount of Presenters and Producers in a live event |10 total |10 total |10 total |
 |Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
