@@ -187,15 +187,50 @@ Federation provides your organization with the ability to communicate with other
 
 ## Addressing Threats to Teams Meetings
 
-Teams provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+There are two options to control who arrives in Teams meetings and who will have access to the information you present.
 
-Enabling external users to participate in Teams meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, Teams provides the following additional safeguards:
+<!-- sgorantl@microsoft.com Review! -->
+<!-- Ping Soumitra Paul Review!-->
+<!-- Guantlett-->
 
-- Participant roles determine conference control privileges.
+1. You can control who joins your meetings through settings for the **lobby**.
+
+This table shows the results if you change settings to allow users to bypass the lobby to Yes or No.
+
+|Who can bypass  |PSTN users  | Joining Directly| Arriving in the Lobby|
+|---------|---------|---------|---------|
+|EveryoneInCompany (Everyone except external users)     |  Yes    |  In-tenant, Guest, PSTN dial-in users      | Federated users, Anonymous users        |
+|EveryoneInCompany (Everyone except external users)    |  No     |  In-tenant and Guest users       |   Federated users, Anonymous users, PSTN dial-in users      |
+|EveryoneInCompany (Everyone except external users) and Federated users     |  Yes    | In-tenant, Guest, Federated, and PSTN dial-in users        | Anonymous users        |
+|EveryoneInCompany (Everyone except external users) and Federated users     |  No     |   In-tenant, Guest, and Federated users      |  Anonymous and PSTN dial-in users      |
+|Everyone     |  Yes    | In-tenant, Guest, Federated, Anonymous, and PSTN dial-in users        | N/A        |
+
+2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
+
+|Actions  |Presenters  |Attendees  |
+|---------|---------|---------|
+|Speak and share their video     |   Y      |   Y      |
+|Participate in meeting chat     |   Y    |    Y     |
+|Change settings in meeting options     |   Y      |  N       |
+|Mute other participants| Y | N |
+|Remove other participants      |  Y       |   N      |
+|Share content     |     Y    |     N    |
+|Admit other participants from the lobby|  Y       |   N      |
+|Make other participants presenters or attendees     |   Y      | N        |
+|Start or stop recording     |     Y    |    N     |
+|Take control when another participant shares a PowerPoint     |  Y         | N        |
+
+Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and can present information.
+
+Enabling external users to participate in Teams meetings can be very useful, but entails some security risks. To address these risks, Teams uses the following additional safeguards:
+
+- Participant roles determine meeting control privileges.
 - Participant types allow you to limit access to specific meetings.
-- Defined meeting types determine which types of participants can attend.
-- Conference scheduling is restricted to users who have an AAD account and an Teams license.
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
+- Scheduling meetings is restricted to users who have an AAD account and a Teams license.
+- Anonymous, that is, unauthenticated, users who want to join a meeting may not be routed to a lobby to wait.
+
+> [!NOTE]
+> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams.
 
 ### Participant Roles
 
@@ -214,6 +249,7 @@ Meeting participants are also categorized by location and credentials. You can u
 1. **Users that belong to the tenant** These users have a credential in Azure Active Directory for the tenant.
     a. *Inside corpnet* – These users are joining from inside the corporate network.
     b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+    c. Guest Users <add info>
 1. **Users that do not belong to the tenant** These users do not have credentials in Azure Active Directory for the tenant.
     a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by Teams. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.
     b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant.
@@ -224,23 +260,20 @@ Customer data shows that many conferences involve external users. Those same cus
 
 In Teams, anonymous users are transferred to a waiting area called the lobby. Presenters can then either admit these users to the meeting or reject them. These users are transferred to the lobby, the leader is notified, and the users then wait until a leader either accepts or rejects them or their connection times out. While in the lobby, the users hear music.
 
-By default, participants dialing in from the PSTN go directly to the meeting, but this option can be changed to force dial-in participants to go to the lobby.  
-Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
-
-- **Only me, the meeting organizer** Everyone except the organizer must wait in the lobby until admitted.
-- **People I invite from my company** Anyone from your company can get in to the meeting directly, even if not invited.
-- **Anyone from my organization** All Teams users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- **Anyone** Anyone (there are no restrictions) who has access to the meeting link gets in to the meeting directly.
+- **Only me** The meeting organizer. Everyone except the organizer must wait in the lobby until admitted.
+- **Specific people** Anyone from your company can get in to the meeting directly, even if not invited.
+- **People in my organization** All Teams users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
+- **Everyone** Anyone (there are no restrictions) who has access to the meeting link gets in to the meeting directly.
 When any method except Organizer only (locked) is specified, the meeting organizer can also specify People dialing in by phone bypass the lobby.
 
 ### Presenter Capabilities
 
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
 
-- **Organizer only** Only the meeting organizer can present.
-- **People from my company** All internal users can present.
-- **Everyone including people outside my company** Everyone (there are no restrictions) who joins the meeting can present.
-- **People I choose** The meeting organizer specifies which users can present by adding them to a list of presenters.
+- **Only me** Only the meeting organizer can present.
+- **People in my organization** All internal users can present.
+- **Everyone** Everyone (there are no restrictions) who joins the meeting can present.
+- **Specific people** The meeting organizer specifies which users can present by adding them to a list of presenters.
 
 ## Related topics
 
