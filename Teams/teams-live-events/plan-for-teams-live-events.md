@@ -76,7 +76,7 @@ The following table highlights core capabilities and features offered in live ev
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
-|Maximum amount of Presenters and Producers in a live event |10 total |10 total |10 total |
+|Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
@@ -101,6 +101,8 @@ The following table highlights core capabilities and features offered in live ev
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
 <sup>1</sup> The limits that are set might be changed.
+<sup>2</sup> You can have up to 250 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
+
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
