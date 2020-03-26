@@ -59,7 +59,13 @@ Share these assets and videos with your end users to help them get started quick
 
 1. Read the [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
 
-1. Read our March 6, 2020 blog post, [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
+1. Read our recent blog posts:
+   
+   - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [Helping small and medium-sized businesses work remotely with Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
 
 1. Teams for Education
    - If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
@@ -97,6 +103,8 @@ Share these assets and videos with your end users to help them get started quick
    - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
    - Microsoft Security blog (March 26, 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. Read our new content about working remotely and share it with your users:
