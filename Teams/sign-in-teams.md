@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
-description: How to sign in to Microsoft Teams by using modern authentication.
+description: How to sign in to Microsoft Teams by using modern authentication. Includes how to skip automatically adding the UPN user-name when users sign in.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
