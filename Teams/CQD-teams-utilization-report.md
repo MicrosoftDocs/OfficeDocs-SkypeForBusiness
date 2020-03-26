@@ -50,8 +50,9 @@ The main page (Call Count Summary) immediately provides the number of audio, vid
 
 On the bottom left section of the page, you'll find a table providing total values for each media type over the past year. 
     ![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report5.png)
-    ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image5.png)![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image6.png)
+    ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image5.png)
 
+    ![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report6.png)   
 
 To the right of the table, a bar chart shows clients with the most use (calls/streams) for the past 30 days.
    ![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report7.png)
@@ -145,12 +146,14 @@ The Conference Details report provides additional insight for meetings, from an 
 
 Right click a conference the participant bar in the conference ID chart on the Daily usage page to drill down into the conference details.
 
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image16.png) ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image17.png)
+![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report24.png)
+
+![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report25.png)
+  
 
 We can see the participants in the conference as well as all the pertinent information down to packet loss and jitter to assist with potential troubleshooting efforts in the bottom table.
 
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image18.png)
-
+![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report26.png)
 
 
 ### Regional Audio Details
