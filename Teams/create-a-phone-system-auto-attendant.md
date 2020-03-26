@@ -223,7 +223,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 >    - Mobile/MobilePhone
 >    - TelephoneNumber/PhoneNumber
 >    - OtherTelephone
->- The required format to enter the extension in the user phone number field is is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
+>- The required format to enter the extension in the user phone number field is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
 >- Assigning an extension in Teams Admin center is not currently supported. You must either use the [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell command or the Microsoft 365 admin center.
 >- It can take up to 12 hours before changes to the AAD PhoneNumber and MobilePhone attributes are available.
 >- Please do NOT define an extension for the LineUri of a user. This is  not supported currently.
