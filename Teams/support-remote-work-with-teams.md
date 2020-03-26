@@ -73,6 +73,8 @@ Share these assets and videos with your end users to help them get started quick
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
 
    - Read this timely blog (March 6, 2020), [How to quickly optimize Office 365 traffic for remote staff & reduce the load on your infrastructure](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+
+   - March 26, 2020 blog: [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - If you're in China, check out [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
@@ -90,6 +92,11 @@ Share these assets and videos with your end users to help them get started quick
 
    - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
 
+1. Security when everyone's working from home
+
+   - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft Security blog (March 26, 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
     
 3. Read our new content about working remotely and share it with your users:
@@ -105,8 +112,6 @@ Share these assets and videos with your end users to help them get started quick
       - [Work remotely with Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Satya Nadella and Teams Product Marketing Manager Aya Tange video about [using Teams to work remotely](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (March 20, 2020)
 
