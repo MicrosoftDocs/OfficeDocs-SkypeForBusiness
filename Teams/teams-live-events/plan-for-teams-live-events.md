@@ -100,7 +100,7 @@ The following table highlights core capabilities and features offered in live ev
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> The limits that are set might be changed.
+<sup>1</sup> The limits that are set might be changed.<br/>
 <sup>2</sup> You can have up to 250 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
 
 
