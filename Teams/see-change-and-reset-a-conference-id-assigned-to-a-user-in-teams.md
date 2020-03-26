@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to assign a conference ID to a user in Microsoft Teams and what the conference ID's parameters should be. "
+description: Learn how to assign a conference ID to a user in Microsoft Teams and what the conference IDs parameters should be.
 ---
 
 # View and reset a conference ID assigned to a user in Microsoft Teams
