@@ -30,7 +30,7 @@ This guidance is for IT pros who are driving deployments of Office 365 in US fed
 > 
 >These audio/video servers reside within the Microsoft Azure FedRAMP High accreditation boundary servers in the United States and do not store any customer content. However, these servers are processing audio and video for calls and conferences and are operating under our commercial staff during this interim period.<br/>
 > 
->Qualified, screened personnel are monitoring these servers for potential access to customer data by reviewing any interactive log-ons to these servers. Qualified personnel meet GCC requirements for access to customer content. For details about screening requirements, see the [GCC service description](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+>Qualified, screened personnel are monitoring these servers for potential access to customer data by reviewing any interactive log-ons to these servers. Qualified personnel meet GCC requirements for access to customer content. For details about screening requirements, see the [GCC service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
 > 
 >Thank you for your support as we take steps to ensure that our services remain available and reliable in these extraordinary times.<br/>
 
