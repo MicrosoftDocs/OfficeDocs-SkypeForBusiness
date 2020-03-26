@@ -22,7 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
-description: Learn about dialing toll free numbers in Turkey, including availability, wired/fixed line and mobile network availability, and restrictions.
+description: Learn about dialing toll-free numbers in Turkey, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing restrictions in Turkey
