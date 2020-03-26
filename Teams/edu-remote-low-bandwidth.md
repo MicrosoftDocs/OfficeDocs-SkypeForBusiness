@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
-description: Microsoft Teams for EDU article to help with issues relating to low bandwidth. Whether you are a parent, an educator, or an ITAdmin.
+description: Microsoft Teams for EDU article to help with meeting and video issues relating to low bandwidth. Whether you are a parent, an educator, or an ITAdmin, you have options to improve the experience with Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
