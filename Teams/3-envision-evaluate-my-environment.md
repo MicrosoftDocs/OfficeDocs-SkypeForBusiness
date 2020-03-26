@@ -237,7 +237,7 @@ next section.
 
 In the event of a proxy server being deployed, we recommend that you bypass the
 proxy server for all Teams services. Although using a proxy might work, it's
-very likely that quality will be reduced due to media's being forced to use TCP
+very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
 [Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).

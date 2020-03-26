@@ -24,7 +24,7 @@ appliesto:
 
 To help take the guesswork out of your upgrade journey, we've employed a proven framework for implementing change. As illustrated below, each step in the framework builds on the step prior and, for optimal results, we recommend following the steps in order.  
 
-Begin by bringing together the right stakeholders and defining your upgrade plan (eg. scope, goals and timeline). With a plan in place, confirm your technical environment and your end-users are ready for Teams. Then, implement your upgrade in stages, moving from a pilot to an organization-wide upgrade when ready. Once your organization is on Teams, establish an operational plan that monitors for quality and accelerates user adoption.
+Begin by bringing together the right stakeholders and defining your upgrade plan (e.g. scope, goals and timeline). With a plan in place, confirm your technical environment and your end-users are ready for Teams. Then, implement your upgrade in stages, moving from a pilot to an organization-wide upgrade when ready. Once your organization is on Teams, establish an operational plan that monitors for quality and accelerates user adoption.
 
 ![Illustration of the upgrade journey framework](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
@@ -65,8 +65,8 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 | **1** | **Assess your environment and complete Teams technical onboarding** | Ensure your environment is ready for Teams to help optimize the user experience and facilitate your upgrade over time. | [Evaluate your environment before upgrading to Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimize network for Teams, particularly for real-time media scenarios** | If you're deploying audio, video, or meetings, take these additional steps to optimize your network for that functionality. | [Prepare your network for upgrading to Teams](prepare-network.md) |
 | **3** | **Assess organizational change readiness and define teamwork scenarios** | Understand your user base to prepare the right value messaging and level of education to facilitate and accelerate user adoption. | [Organizational change readiness](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Prepare a user readiness plan to define how you will communicate, train, and support users** | Personalize your communications, training and support plan to ensure optimal receptiveness to the new technology. | [Prepare a user readiness plan](upgrade-user-readiness.md)<br><br>[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **Announce the pending launch of Microsoft Teams** | Communicate early to help users feel included, reduce confusion and generate excitement. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **Prepare a user readiness plan to define how you will communicate, train, and support users** | Personalize your communications, training, and support plan to ensure optimal receptiveness to the new technology. | [Prepare a user readiness plan](upgrade-user-readiness.md)<br><br>[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **Announce the pending launch of Microsoft Teams** | Communicate early to help users feel included, reduce confusion, and generate excitement. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Prepare your IT staff for Teams** | Confirm your technical and support staff has everything they need to ready and support your technical environment for Teams. | [Prepare your IT staff for Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 
 ### Pilot: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams
@@ -91,7 +91,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ## Upgrade 
 
-**Make the official move to Teams**. When you upgrade your users, you move them into Teams only  mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users' having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
+**Make the official move to Teams**. When you upgrade your users, you move them into Teams only  mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
 
 ### Upgrade: Implement your upgrade from Skype for Business to Teams
 

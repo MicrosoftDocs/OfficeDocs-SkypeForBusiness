@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Learn how Prepare the network for your organization for Quality of Service (QoS) in Microsoft Teams.
+description: Learn how to prepare the network of your organization for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

@@ -22,7 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
-description: Learn about dialing toll free numbers in China south, including availability, wired/fixed line and mobile network availability, and restrictions.
+description: Learn about dialing toll-free numbers in China south, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing restrictions in China - South (10 800 140 XXXX range)
