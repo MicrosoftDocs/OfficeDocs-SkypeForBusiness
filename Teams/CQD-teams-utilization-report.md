@@ -24,7 +24,7 @@ New in March 2020, we've added a Teams Utilization report to our downloadable [P
 
 This new Teams Utilization reports lets you see how (and how much) your users are using Microsoft Teams. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data.
 
-The Teams Utilization Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage) and [Regional Audio Details](#regional-audio-details), [Conference Details](#_Conference_Details) and [User List](#_Conference_Details) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below.
+The Teams Utilization Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage), [Regional Audio Details](#regional-audio-details), [Conference Details](#conference-details) and [User List](#user-list) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below.
 
 > [!NOTE]
 > Building and subnet data must be populated to provide regional and network filtering capabilities.
@@ -72,22 +72,6 @@ To show the difference in P2P and conference audio, the bottom left chart takes 
 The last chart for the Audio minutes page shows audio minute usage on a global map overlay. This chart will only work if building and subnet data is uploaded to the tenant. The pie chart overlay on the map can be drilled into, subsequently providing regional audio usage.
 
 ![Screenshot: Teams Utilization Reports](media/CQD-teams-utilization-report11.png)
-
-## Regional Audio Details
-
-The Regional Audio Details drill down specifically shows the audio minute usage for the selected region. Users with access to CQD can see usage trends for both P2P and conference audio within the selected region.
-
-1.  On the Call Count Summary page, drill-through to as specific region through the table.
-
-    ![Screenshot: Teams Utilization Reports](media/CQD-teams-utilization-report21.png)
-
-2.  Select the row with the region additional information is needed for.
-    ![Screenshot: Teams Utilization Reports](media/CQD-teams-utilization-report22.png)
-
-3.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
-    ![Screenshot: Teams Utilization Reports](media/CQD-teams-utilization-report23.png)
-
-The regional audio trend can be used to show how users are impacted by external influences in the world. Specifically, right now, we would expect to see the external usage for the EMEA and APAC regions to increase with people being asked to work remotely.
 
 
 ## Drill-through capabilities
@@ -151,6 +135,7 @@ The Regional Audio Details drill down specifically shows the audio minute usage 
   ![Screenshot: Teams Utilization Reports](media/CQD-teams-utilization-report18.png)
 
 The regional audio trend can be used to show how users are impacted by external influences in the world. Specifically, right now, we would expect to see the external usage for the EMEA and APAC regions to increase with people being asked to work remotely.
+
 
 ### User List
 
