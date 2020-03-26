@@ -1,5 +1,5 @@
 ---
-title: "What are the special character restrictions in Teams policies?"
+title: Special character restrictions in Teams policies
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

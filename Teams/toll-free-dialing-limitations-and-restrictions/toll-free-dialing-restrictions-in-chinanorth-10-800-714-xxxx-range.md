@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in China - North (10 800 714 XXXX range)"
+title: Toll-free dialing restrictions in China - North
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

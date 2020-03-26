@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Office 365 for Microsoft Teams"
+title: "Try or purchase Audio Conferencing in Office 365 for Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

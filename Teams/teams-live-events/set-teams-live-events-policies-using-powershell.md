@@ -1,5 +1,5 @@
 ---
-title: Use PowerShell to set live events policies in Microsoft Teams
+title: Use PowerShell to set live events policies
 author: lanachin
 ms.author: v-lanac
 manager: serdars

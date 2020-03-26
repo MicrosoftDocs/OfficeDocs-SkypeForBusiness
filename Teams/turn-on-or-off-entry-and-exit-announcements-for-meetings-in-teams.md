@@ -1,5 +1,5 @@
 ---
-title: "Turn on or off entry and exit announcements for meetings in Microsoft Teams"
+title: "Turn on or off entry and exit announcements for meetings in Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

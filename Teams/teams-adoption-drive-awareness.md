@@ -1,5 +1,5 @@
 ---
-title: Drive awareness and implement training for Microsoft Teams
+title: Drive awareness and implement training
 author: lanachin
 ms.author: v-lanac
 manager: serdars

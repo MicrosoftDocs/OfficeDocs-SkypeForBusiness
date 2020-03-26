@@ -1,5 +1,5 @@
 ---
-title: Prepare a user readiness plan; upgrade from Skype for Business to Teams
+title: Prepare a user readiness plan for upgrading to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

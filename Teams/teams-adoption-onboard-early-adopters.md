@@ -1,5 +1,5 @@
 ---
-title: Onboard early adopters and gather feedback for Microsoft Teams
+title: Onboard early adopters and gather feedback
 author: lanachin
 ms.author: v-lanac
 manager: serdars

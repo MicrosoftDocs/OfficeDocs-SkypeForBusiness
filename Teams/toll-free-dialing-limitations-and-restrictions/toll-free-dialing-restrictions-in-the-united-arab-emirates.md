@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in the United Arab Emirates"
+title: Toll-free dialing restrictions in the United Arab Emirates
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

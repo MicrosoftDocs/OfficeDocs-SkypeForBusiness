@@ -1,5 +1,5 @@
 ---
-title: Upgrade Skype for Business hybrid deployment to Microsoft Teams | PSTN
+title: Upgrade Skype for Business hybrid deployment to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

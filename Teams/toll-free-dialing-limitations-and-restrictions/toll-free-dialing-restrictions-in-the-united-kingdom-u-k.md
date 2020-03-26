@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in the United Kingdom (U.K.)"
+title: Toll-free dialing restrictions in the UK
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

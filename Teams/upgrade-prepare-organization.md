@@ -1,5 +1,5 @@
 ---
-title: Prepare upgrade Skype for Business to Microsoft Teams | Plan User Adoption 
+title: Prepare upgrade Skype for Business to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

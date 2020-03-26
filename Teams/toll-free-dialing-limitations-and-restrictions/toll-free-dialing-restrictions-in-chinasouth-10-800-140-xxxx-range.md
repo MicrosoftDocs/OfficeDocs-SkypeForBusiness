@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in China - South (10 800 140 XXXX range)"
+title: Toll-free dialing restrictions in China - South
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

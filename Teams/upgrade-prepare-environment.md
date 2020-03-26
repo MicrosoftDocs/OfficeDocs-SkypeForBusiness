@@ -1,5 +1,5 @@
 ---
-title: Prepare an environment for upgrade from Skype for Business to Teams
+title: Prepare your environment for upgrading to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

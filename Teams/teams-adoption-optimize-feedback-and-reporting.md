@@ -1,5 +1,5 @@
 ---
-title: Optimize feedback and reporting for your Microsoft Teams adoption
+title: Optimize feedback and reporting for Microsoft Teams adoption
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -33,7 +33,7 @@ Throughout your experiment phase you will be capturing information about how peo
 - Who is approved to use this tool with me?
 - Is it safe for highly confidential information? 
 - Who do I speak with to learn more about Microsoft Teams?
-- Something’s not working. How do I get help?
+- Something's not working. How do I get help?
 
 ## Invest in your champions
 

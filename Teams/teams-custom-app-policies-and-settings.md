@@ -1,5 +1,5 @@
 ---
-title: Manage custom app policies and settings in Microsoft Teams
+title: Manage custom app policies and settings
 author: lanachin
 ms.author: v-lanac
 manager: serdars
