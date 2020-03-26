@@ -1,5 +1,5 @@
 ---
-title: "Set the PIN length for Audio Conferencing meetings in Microsoft Teams"
+title: Set the PIN length for Audio Conferencing meetings
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

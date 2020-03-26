@@ -1,5 +1,5 @@
 ---
-title: "See a list of users that are enabled for Audio Conferencing in Microsoft Teams"
+title: See a list of users enabled for Audio Conferencing
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

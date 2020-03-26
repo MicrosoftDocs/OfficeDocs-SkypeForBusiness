@@ -1,5 +1,5 @@
 ---
-title: Sign in to Microsoft Teams using modern authentication
+title: Sign in to Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Send an email to a user with their Audio Conferencing information in Microsoft Teams"
+title: Email a user their Audio Conferencing information
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

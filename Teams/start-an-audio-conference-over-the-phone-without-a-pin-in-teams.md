@@ -1,5 +1,5 @@
 ---
-title: "Start an Audio Conference over the phone without a PIN in Microsoft Teams"
+title: Start Audio Conference over the phone without a PIN in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Small and Medium Businesses"
+title: Teams templates for Small and Medium Businesses
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -68,7 +68,7 @@ Content-Type: application/json
 {
     "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('SmallBusinessExecutive')",
     "displayName": "Executive",
-    "description": "All posts, announcements and daily collaboration and communication for the company’s leadership team.",
+    "description": "All posts, announcements and daily collaboration and communication for the company's leadership team.",
     "visibility": "Private"
 }
 ```

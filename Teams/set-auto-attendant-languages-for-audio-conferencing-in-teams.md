@@ -1,5 +1,5 @@
 ---
-title: "Set auto attendant languages for Audio Conferencing in Microsoft Teams"
+title: Set Audio Conferencing auto attendant languages
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Set the phone numbers included on invites in Microsoft Teams"
+title: Set the phone numbers included on invites
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
