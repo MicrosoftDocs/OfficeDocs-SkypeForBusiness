@@ -74,7 +74,7 @@ For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams 
 If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
 > [!IMPORTANT]
-> Next steps contains information about how to modify the registry. Make sure to back up the registry before you modify it. Make sure that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Description of the Microsoft Windows registry](https://support.microsoft.com/help/256986).
+> The next steps contain information about how to modify the registry. Make sure that you back up the registry before you modify it and that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Windows registry information for advanced users](https://support.microsoft.com/help/256986).
 
 1. Uninstall the Teams app installed for every user profile. For more information, see [Uninstall Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
 2. Delete the directory recursively under `%localappdata%\Microsoft\Teams\`.
