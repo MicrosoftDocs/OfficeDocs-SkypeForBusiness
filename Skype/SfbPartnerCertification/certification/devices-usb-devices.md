@@ -111,7 +111,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 |Polycom|VoxBox Speakerphone |2/12/2018|Skype for Business|
 |Sennheiser|SDW 5015|04/12/2018|Skype for Business|
 |Jabra|Biz 2400+Link260 USB|01/09/2018|Skype for Business|
-|Jabra|Biz 2300+Link260 USB|01/09/2018Skype for Business|
+|Jabra|Biz 2300+Link260 USB|01/09/2018|Skype for Business|
 |Plantronics|	Voyager 6200 UC |1/5/2018|Skype for Business|
 |Plantronics|	Blackwire C3225 |1/3/2018|Skype for Business|
 |Plantronics|	Blackwire C3220 |1/3/2018|Skype for Business|
