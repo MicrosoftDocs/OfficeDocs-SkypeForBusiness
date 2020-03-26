@@ -64,7 +64,7 @@ The user must have:
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Federated Attendees can only be invited through People & Group <br>
+<sup>1</sup> Federated attendees can only be invited through People & Group <br>
 
 
  
