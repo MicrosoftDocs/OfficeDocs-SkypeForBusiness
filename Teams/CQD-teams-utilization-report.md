@@ -53,9 +53,6 @@ On the bottom left section of the page, you'll find a table providing total valu
     ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image5.png)![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image6.png)
 
 
-  
-
-
 To the right of the table, a bar chart shows clients with the most use (calls/streams) for the past 30 days.
    ![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report7.png)
    ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image7.png)
@@ -85,18 +82,6 @@ The last chart for the Audio minutes page shows audio minute usage on a global m
 
 ![Screenshot: Call Count Summary Report](media/CQD-teams-utilization-report11.png)
 ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image11.png)
-
-### Conference Details
-
-The Conference Details report provides additional insight for meetings, from an attendee list, to the media types used during the session.
-
-Right click a conference the participant bar in the conference ID chart on the Daily usage page to drill down into the conference details.
-
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image16.png) ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image17.png)
-
-We can see the participants in the conference as well as all the pertinent information down to packet loss and jitter to assist with potential troubleshooting efforts in the bottom table.
-
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image18.png)
 
 
 ## Regional Audio Details
@@ -153,6 +138,20 @@ Click on the column for that day to display metrics for that hour.
             ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image15.png)
     
   2.  We see that the IND region is experiencing poor video performance in conferences during this time frame. Subsequently, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame has been identified.
+
+### Conference Details
+
+The Conference Details report provides additional insight for meetings, from an attendee list, to the media types used during the session.
+
+Right click a conference the participant bar in the conference ID chart on the Daily usage page to drill down into the conference details.
+
+![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image16.png) ![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image17.png)
+
+We can see the participants in the conference as well as all the pertinent information down to packet loss and jitter to assist with potential troubleshooting efforts in the bottom table.
+
+![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image18.png)
+
+
 
 ### Regional Audio Details
 
