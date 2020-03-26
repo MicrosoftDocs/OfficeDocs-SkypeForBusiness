@@ -59,13 +59,13 @@ The user must have:
 |**Attendee visibility**       |**Teams production**  |**External app or device production**  |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
-|Guest users                   |  No<sup>1</sup> |  No                  |
-|Everyone in federated company |  No<sup>2</sup> |  No                  |
+|Guest users                   |  Yes            |  No                  |
+|Everyone in federated company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Can watch live events if the live event is set up using the **Org-wide** option.<br>
-<sup>2</sup> Can only watch live events as anonymous users.
+<sup>1</sup> Federated attendees can only be invited through People & Group <br>
+
 
  
 ## Teams live events and Skype Meeting Broadcast
