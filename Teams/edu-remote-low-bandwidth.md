@@ -40,9 +40,8 @@ The important thing to remember, as an ITAdmin, is that while you have solutions
 
 In short, if the low bandwidth issue occurs for a wide group of students, taking action as an ITAdmin makes sense, and it also makes sense if the actions taken at the student/educator level haven't been helpful.
 
-### Further reading for ITAdmins
-
-If you've got the time to invest, the [Quality of Experience Review Guide](quality-of-experience-review-guide.md) is a worthwhile read (this is not EDU-specific, but it will still have valuable information). This will allow experienced ITAdmins to go in-depth on the experience for their educators and students.
+> [!NOTE]
+> If you've got the time to invest, the [Quality of Experience Review Guide](quality-of-experience-review-guide.md) is a worthwhile read (this is not EDU-specific, but it will still have valuable information). This will allow experienced ITAdmins to go in-depth on the experience for their educators and students.
 
 ### Meetings and video
 
