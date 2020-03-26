@@ -43,6 +43,7 @@ Teams uses the PKI features in the Windows Server operating system to protect th
 ### Network Denial-of-Service Attack
 
 The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
+
 - Send invalid data to applications and services running in the attacked network to disrupt their normal function.
 - Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.
 - Hide the evidence of the attacks.
@@ -88,7 +89,7 @@ This section gives an overview of fundamental elements that form a security fram
 Core elements are:
 
 - Azure Active Directory (AAD), which provides a single trusted back-end repository for user accounts. User profile information is stored in AAD through the actions of Microsoft Graph.
-    - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
+  - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
 - Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
 
@@ -116,13 +117,11 @@ Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication
 
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker's computer without the knowledge of either party. TLS and Teams' specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication.
 
-
 ### Encryption for Teams
 
 Teams uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter.
 
 This table summarizes the protocols used by Teams.
-
 
 ***Traffic Encryption***
 
@@ -175,7 +174,7 @@ For Teams to function properly (for users to be able to join meetings etc.), cus
 
 ### UDP 3478-3481 and TCP 443
 
-The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel. 
+The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel.
 
 ### UDP/TCP 50,000–59,999 (Optional)
 
