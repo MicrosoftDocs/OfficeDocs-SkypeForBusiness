@@ -50,6 +50,7 @@ The user must have:
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
 - Permissions to create live events in Stream (for external app or device production).
+- Coexistence mode configured to schedule Teams meetings (*Islands, Meeting First or Teams only*).
 
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events. 
@@ -65,8 +66,6 @@ The user must have:
 |Specific groups / people      |  Yes            |  Yes                 |
 
 <sup>1</sup> Federated attendees can only be invited through People & Group <br>
-
-
  
 ## Teams live events and Skype Meeting Broadcast
 
