@@ -1,5 +1,5 @@
 ---
-title: Prepare your organization's network for Microsoft Teams
+title: Prepare your organization's network for Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,6 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 # Prepare your organization's network for Microsoft Teams 

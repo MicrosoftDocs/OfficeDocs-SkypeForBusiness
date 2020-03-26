@@ -1,5 +1,5 @@
 ---
-title: Tools and workshops - Plan, deliver, and adopt Microsoft Teams
+title: Tools & workshops - Plan, deliver, & adopt Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 # Tools and workshops: Plan, deliver, and adopt Microsoft Teams
@@ -29,7 +30,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 - [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
 
-    This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization’s current Office 365 environment. The workshop leader can use this information to customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
+    This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment. The workshop leader can use this information to customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
 
 - [Workshop: Plan, deliver, & operate Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
 
@@ -37,7 +38,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 - [Office 365 Government Customers](plan-for-government-gcc.md)
 
-   Your journey to Teams is much like our enterprise customers’ experience. As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.
+   Your journey to Teams is much like our enterprise customers' experience. As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.
 
 ### See also
 
