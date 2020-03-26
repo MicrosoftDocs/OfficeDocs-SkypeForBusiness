@@ -109,7 +109,7 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](http://www.ramp.com). 
  
 > [!NOTE] 
-> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will governs your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams. 
+> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams. 
 
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams. 
 
@@ -120,4 +120,3 @@ Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
-
