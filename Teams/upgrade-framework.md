@@ -91,7 +91,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ## Upgrade 
 
-**Make the official move to Teams**. When you upgrade your users, you move them into Teams only  mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users' having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
+**Make the official move to Teams**. When you upgrade your users, you move them into Teams only  mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
 
 ### Upgrade: Implement your upgrade from Skype for Business to Teams
 
