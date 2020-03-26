@@ -189,10 +189,6 @@ Federation provides your organization with the ability to communicate with other
 
 There are two options to control who arrives in Teams meetings and who will have access to the information you present.
 
-<!-- sgorantl@microsoft.com Review! -->
-<!-- Ping Soumitra Paul Review!-->
-<!-- Guantlett-->
-
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
 |Who can bypass  |Bypass Setting  | Joins Directly| Arrives in Lobby|
@@ -276,3 +272,5 @@ Meeting organizers control whether participants can present during a meeting. Ea
 ## Related topics
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
+
+[Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
