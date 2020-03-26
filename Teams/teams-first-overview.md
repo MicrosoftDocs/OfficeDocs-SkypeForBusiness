@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  ms.reviewer: lsomi
+ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Office 365 workload.
@@ -64,7 +64,7 @@ Your journey to Office 365 and features available in Teams depending on your sta
 **Calling features VoIP / PSTN in Teams**: Calling can be Voice over IP (VoIP) or Public Switched Telephone Network (PSTN). VoIP connectivity happens natively between Teams clients, while PSTN connectivity happen when a user dials an outside phone number.  
 
 Teams support two types of PSTN connectivity. Microsoft Calling Plan, when Microsoft provides telephony infrastructure including the phone number for a user, or Direct Routing configuration, where the customer provides the telephony connectivity over a Session Border Controller (SBC) for the Teams user.  
-To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-page.md) and [Phone System Direct Routing](direct-routing-landing-page).
+To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-page.md) and [Phone System Direct Routing](direct-routing-landing-page.md).
 
 **Teams and Channels collaboration in Teams**: In Teams, teams are groups of people brought together for work, projects, or common interests. Teams are made up of channels. Each channel is built around a topic, like "Team Events," a department name, or just for fun. Channels are where you hold meetings, have conversations, and work on files together. During collaboration
 
@@ -289,9 +289,9 @@ For specifics on each of the services listed above, please follow the links belo
 
 ## Related topics
 
-[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters#teams-as-part-of-microsoft-365.md)
+[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+[Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 
 [Support remote workers using Teams](support-remote-work-with-teams.md)
 
