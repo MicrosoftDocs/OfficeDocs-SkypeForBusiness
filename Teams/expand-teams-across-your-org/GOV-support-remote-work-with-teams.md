@@ -40,7 +40,7 @@ Ready to roll out Teams to your users? You can find these great email templates 
 
   - Generate excitement with an **announcement** **letter** and **countdown** **template**
 
-  - Create weekly touchpoints with engaging emails
+  - Create weekly touch points with engaging emails
     
       - Tease the launch of Teams with a **countdown email**
     
