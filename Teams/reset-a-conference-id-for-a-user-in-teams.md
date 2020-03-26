@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools. "
+description: Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools.
 ---
 
 # Reset a conference ID for a user in Microsoft Teams

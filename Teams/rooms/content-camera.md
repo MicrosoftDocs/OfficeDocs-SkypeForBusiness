@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
+description: Use a content camera in a Microsoft Teams Room, which interacts with image-processing software to allow presenters to draw on an analog whiteboard.
 ---
 
 # Content cameras

@@ -19,7 +19,7 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about add-on licenses, what features you'll get with each license, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans."
+description: Learn about add-on licenses, what features you'll get with each license, how to buy them for your product, and how to use your existing carrier with them.
 ---
 
 # Microsoft Teams add-on licensing
