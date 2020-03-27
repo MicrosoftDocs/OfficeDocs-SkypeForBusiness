@@ -52,9 +52,9 @@ Here's a summary of important features the Managed Meeting Rooms service provide
 |Room enrollment     |Easy onboarding with self-enrollment of room devices to Managed Meeting Rooms service.          |
 |Room administration     |Customer portal for managed service capabilities, insights, administrative settings and room group management.         |
 |Monitoring    |Application, operating system, peripheral and firmware health monitoring - automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through Managed Meeting Rooms portal.|
-|Troubleshooting & remediation     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms Service Operation Center (SOC)-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
+|Troubleshooting and remediation     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms Service Operation Center (SOC)-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
 |Update management    |Automated meeting application and firmware update orchestration based on customer configurable deployment rings         |
-|Insights & recommendations   |Usage, incidents, health, and overall reporting (historical views)         |
+|Insights and recommendations   |Usage, incidents, health, and overall reporting (historical views)         |
 
 ## Service prerequisites
 
@@ -122,7 +122,7 @@ Managed Meeting Rooms is available in the following countries and regions.
 |Direction to available documentation for room account setup at request. For sign-in or account configuration issues, initial investigation are performed.     |Execution of recommended remediation or issues with executing recommended remediation, configuration of third-party authentication providers, and configuration of individual-account feature         |Microsoft mainstream support and third-party authentication provider support         |
 |**Peripheral support**    |         |         |
 |Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers.    |Issues that aren't resolved by applying standard configurations or that involve a third-party application.         |OEM support         |
-|RMA and device replacement   |         |         |
+|**RMA and device replacement**   |         |         |
 |Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers. Handoff to OEM support is performed for the OEM to fulfill the replacement or warranty request.    |Procurement, shipping, or installation of replacements.         |OEM support         |
 |**Root cause analysis**     |         |         |
 |All root causes for issues encountered in the meeting room experience are provided when available but are performed on an as-able basis.     |Root cause analysis for third party software issues isn't included.         |Third-party standard support channels         |
