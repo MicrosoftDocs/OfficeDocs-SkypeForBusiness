@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - Strat_SB_PSTN
-description: How to dial toll free numbers in each country/region including details, restrictions, limits for toll-free service availability, and required access codes.
+description: How to dial toll-free numbers in each country/region, including details, restrictions, limits for toll-free service availability, and required access codes.
 ---
 
 # Toll-free dialing limitations and restrictions
