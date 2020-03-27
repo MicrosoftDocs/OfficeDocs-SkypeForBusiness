@@ -39,7 +39,7 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 |Compliance and certifications    |Meets all applicable standards for Microsoft Online Services.         |
 |Customer support   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center. Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
 |Supported devices     |Certified Microsoft Teams Rooms systems and their peripherals.         |
-|Supported regions     |See Supported regions.        |
+|Supported regions     |See [Supported regions](#supported-regions).        |
 |Integration    |Available integration with customer-hosted Service Now.         |
 
 ## Service features
@@ -70,20 +70,20 @@ Your organization or a partner contracted by your organization must be prepared 
 
 The Managed Meeting Rooms service is supported through a dedicated Managed Meeting Rooms SOC. The primary mode for communication from the Managed Meeting Rooms SOC to customers is through the Managed Meeting Rooms portal. The Managed Meeting Rooms SOC provides first response and appropriate escalation on tickets raised by the system or by your organization.
 
-- **Scope**: Incidents pertaining to the meeting room app, room devices, and peripherals are included in Managed Meeting Rooms support.
-- Support for IT Operations only
-- **Supported languages**: English
-- **Support availability through the portal**: 24x7
-- **Initial response time for SOC**: 4 hours
-- **Automated closure of tickets in cases of customer inactivity**:
-    - Customer-initiated tickets: 3 business days
-    - System-initiated tickets: 15 business days
-- **Redirection to broader Microsoft Support**: Issues relating to another Microsoft product outside the scope of Managed Meeting Rooms are directed to the appropriate support team.
-- **Redirection to Original Equipment Manufacturer (OEM) support**: The Managed Meeting Rooms SOC works to understand the issue and where applicable, help orchestrate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.
+|  |  |
+|---------|---------|
+|Scope    |Incidents pertaining to the meeting room app, room devices, and peripherals are included in Managed Meeting Rooms support.|
+|Audience    |IT Operations only         |
+|Supported languages    |English         |
+|Support availability through the portal    | 24X7      |
+|Initial response time for the Managed Meeting Rooms SOC   |  4 hours       |
+|Automated closure of tickets in cases of customer inactivity    |<ul><li>Customer-initiated tickets: 3 business days</li><li>System-initiated tickets: 15 business days</li>   </ul>      |
+|Redirection to broader Microsoft Support    |Issues relating to another Microsoft product outside the scope of Managed Meeting Rooms are directed to the appropriate support team.         |
+|Redirection to Original Equipment Manufacturer (OEM) support    |The Managed Meeting Rooms SOC works to understand the issue and where applicable, help orchestrate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.         |
 
 Additionally, keep in mind that the Managed Meeting Rooms SOC will assist IT Operations in your organization and isn't a replacement for help desk services for your end users.
 
-For more information on Managed Meeting Rooms support coverage, see 
+For more details on Managed Meeting Rooms support coverage, see [Support inclusions and exclusions](#support-inclusions-and-exclusions).
 
 ## Supported regions
 
@@ -116,27 +116,23 @@ Managed Meeting Rooms is available in the following countries and regions.
 
 |What's included |What's excluded |Support channels for excluded items  |
 |---------|---------|---------|
-|Service configuration   |         |         |
-|Investigation and guidance for Microsoft Teams Room Windows configuration including Microsoft Teams Room app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration     |Any third-party software configurations and investigations that are not directly part of the Microsoft Teams Room app. Also, any OEM specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings         |Third-Party standard support channels         |
-|Room account setup    |         |         |
-|Direction to available documentation for room account setup at request. For sign-in or account configuration issues initial investigation will be performed.     |Execution of recommended remediations or issues with executing recommended remediations, and configuration of third-party authentication providers, and individual-account feature configuration         |Microsoft mainstream support, and third-party authentication provider support         |
-|Peripheral support    |         |         |
-|Initial investigations will be performed for certified peripherals such as cameras, microphones, and speakers.    |Issues that are not resolved with applying standard configurations or involve a third-party application.         |OEM support         |
+|**Service configuration**   |         |         |
+|Investigation and guidance for Microsoft Teams Room Windows configuration including Microsoft Teams Room app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration     |Any third-party software configurations and investigations that aren't directly part of the Microsoft Teams Room app. Also, any OEM-specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings         |Third-party standard support channels         |
+|**Room account setup**    |         |         |
+|Direction to available documentation for room account setup at request. For sign-in or account configuration issues, initial investigation are performed.     |Execution of recommended remediation or issues with executing recommended remediation, configuration of third-party authentication providers, and configuration of individual-account feature         |Microsoft mainstream support and third-party authentication provider support         |
+|**Peripheral support**    |         |         |
+|Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers.    |Issues that aren't resolved by applying standard configurations or that involve a third-party application.         |OEM support         |
 |RMA and device replacement   |         |         |
-|Initial investigations will be performed for certified peripherals such as cameras, microphones, and speakers and a handoff to OEM support will be performed for the OEM to fulfill the replacement or warranty request.    |Procurement, shipping, or installation of replacements.         |OEM support         |
-|Root cause analysis     |         |         |
-|All root causes for issues encountered in the meeting room experience will be provided when available but will be performed on an as-able basis.     |Root cause analysis for third party software issues is not included.         |Third-Party standard support channels         |
-|Meeting experience   |         |         |
-|Investigating Issues within the meeting settings on Microsoft Teams Room app, and guidance for properly configuring Quality of Service on the device will be provided at request.      |Root cause analysis, or investigations for call-quality issues or network related issues are excluded from this scope.         |Microsoft mainstream support         |
-|Remediation, onboarding, and ongoing     |         |         |
-|Customers will receive guidance to bring their rooms to standards recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended S/W version guidance from MMR are not in scope.          |         |
+|Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers. Handoff to OEM support is performed for the OEM to fulfill the replacement or warranty request.    |Procurement, shipping, or installation of replacements.         |OEM support         |
+|**Root cause analysis**     |         |         |
+|All root causes for issues encountered in the meeting room experience are provided when available but are performed on an as-able basis.     |Root cause analysis for third party software issues isn't included.         |Third-party standard support channels         |
+|**Meeting experience**   |         |         |
+|Investigating issues within the meeting settings on Microsoft Teams Room app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network related issues are excluded from this scope.         |Microsoft mainstream support         |
+|**Remediation, onboarding, and ongoing**     |         |         |
+|Customers receive guidance to bring their rooms to standards that are recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from MMR aren't in scope.          |         |
 
 ## Data collection
 
 The Managed Meeting Room service monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Managed Meeting Room service doesn't access the live content of a meeting.
 
 Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](http://aka.ms/privacy).  
-
-## Related topics
-
-- 
