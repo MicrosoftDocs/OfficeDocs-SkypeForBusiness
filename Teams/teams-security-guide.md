@@ -213,7 +213,7 @@ There are two options to control who arrives in Teams meetings and who will have
 |Start or stop recording     |     Y    |    N     |
 |Take control when another participant shares a PowerPoint     |  Y         | N        |
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join. 
+Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.  
 
@@ -258,29 +258,29 @@ Many meetings involve external users. Those same customers also want reassurance
 
 ### Participant Admittance
 
-In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out. 
+In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out.
 
 By default, participants dialing in from the PSTN go directly to the meeting once an authenticated user joins the meeting, but this option can be changed to force dial-in participants to go to the lobby.
 
-Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods: 
+Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 
 The defaults are:
 
-- *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted. 
+- *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
 - *People from my organization and trusted organizations* - Authenticated users and external users from Teams and Skype for Business domains that are in the external access allow list can bypass the lobby. All other users will wait in the lobby until admitted.
-- *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.   
+- *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
 
 ### Presenter Capabilities
 
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
 
-- *People in my organization* - All in tenant users, including guests, can present 
+- *People in my organization* - All in tenant users, including guests, can present
 - *People in my organization and trusted organizations* - All in tenant users, including guests, can present and external users from Teams and Skype for Business domains that are in the external access allow list can present.  
 - *Everyone* - All meeting participants are presenters.
 
-### Modify While Meeting is Running 
+### Modify While Meeting is Running
 
-It's possible to modify the meeting options while a meeting is on-going. The change, when saved, will impact the running meeting within seconds. It also effects any future occurrences of the meeting. 
+It's possible to modify the meeting options while a meeting is on-going. The change, when saved, will impact the running meeting within seconds. It also effects any future occurrences of the meeting.
 
 ## Related topics
 
