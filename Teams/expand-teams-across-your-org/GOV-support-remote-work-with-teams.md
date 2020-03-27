@@ -28,7 +28,7 @@ Learn how to get Teams ready in your organization:
 
   - Make sure everyone has access to Teams, using the free 6-month **[Office 365 G1 offer](../g1-trial-license.md)**. Reach out to your Microsoft account team or partner if you need help.
 
-  - If you already have a subscription, make sure that **[Teams is turned on](../assign-teams-licenses.md)**] for everyone.
+  - If you already have a subscription, make sure that **[Teams is turned on](../assign-teams-licenses.md)** for everyone.
 
   - For rapid deployment, visit [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) to get Teams rolled out in your organization.
 
@@ -40,7 +40,7 @@ Ready to roll out Teams to your users? You can find these great email templates 
 
   - Generate excitement with an **announcement** **letter** and **countdown** **template**
 
-  - Create weekly touch points with engaging emails
+  - Create weekly touch points with engaging emails:
     
       - Tease the launch of Teams with a **countdown email**
     
