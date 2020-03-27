@@ -36,7 +36,7 @@ Learn how to get Teams ready in your organization:
 
 ## End user communication
 
-Ready to roll out Teams to your users? You can find these great email templates in the **[Customer Success Kit for Government](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/MSTeams-CustomerSuccessKitforGov.zip?raw=true)**:
+Ready to roll out Teams to your users? You can find these great email templates in the **[Customer Success Kit for Government](https://aka.ms/TeamsCSKGov)**:
 
   - Generate excitement with an **announcement** **letter** and **countdown** **template**
 
