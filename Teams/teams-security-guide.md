@@ -162,7 +162,7 @@ Teams authentication is accomplished through AAD and OAuth. The process of authe
 
 Requests from client to server are authenticated and authorized via AAD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
-For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [media traversal](#external-user-av-traffic-traversal).
+For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
 ### Windows PowerShell and Team Management Tools
 
