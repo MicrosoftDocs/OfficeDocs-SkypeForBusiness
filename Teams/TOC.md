@@ -652,6 +652,7 @@
 # Security and compliance
 ## [Overview](security-compliance-overview.md)
 ## Security
+### [Security Guide](teams-security-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance
