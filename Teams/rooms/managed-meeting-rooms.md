@@ -116,24 +116,27 @@ Managed Meeting Rooms is available in the following countries and regions.
 
 |What's included |What's excluded |Support channels for excluded items  |
 |---------|---------|---------|
-|Row1     |         |         |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
-|Row5     |         |         |
-|Row6     |         |         |
-|Row7     |         |         |
-|Row8     |         |         |
-|Row9     |         |         |
-|Row10     |         |         |
-|Row11     |         |         |
-|Row12     |         |         |
-|Row13     |         |         |
-|Row14     |         |         |
-|Row15     |         |         |
+|Service configuration   |         |         |
+|Investigation and guidance for Microsoft Teams Room Windows configuration including Microsoft Teams Room app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration     |Any third-party software configurations and investigations that are not directly part of the Microsoft Teams Room app. Also, any OEM specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings         |Third-Party standard support channels         |
+|Room account setup    |         |         |
+|Direction to available documentation for room account setup at request. For sign-in or account configuration issues initial investigation will be performed.     |Execution of recommended remediations or issues with executing recommended remediations, and configuration of third-party authentication providers, and individual-account feature configuration         |Microsoft mainstream support, and third-party authentication provider support         |
+|Peripheral support    |         |         |
+|Initial investigations will be performed for certified peripherals such as cameras, microphones, and speakers.    |Issues that are not resolved with applying standard configurations or involve a third-party application.         |OEM support         |
+|RMA and device replacement   |         |         |
+|Initial investigations will be performed for certified peripherals such as cameras, microphones, and speakers and a handoff to OEM support will be performed for the OEM to fulfill the replacement or warranty request.    |Procurement, shipping, or installation of replacements.         |OEM support         |
+|Root cause analysis     |         |         |
+|All root causes for issues encountered in the meeting room experience will be provided when available but will be performed on an as-able basis.     |Root cause analysis for third party software issues is not included.         |Third-Party standard support channels         |
+|Meeting experience   |         |         |
+|Investigating Issues within the meeting settings on Microsoft Teams Room app, and guidance for properly configuring Quality of Service on the device will be provided at request.      |Root cause analysis, or investigations for call-quality issues or network related issues are excluded from this scope.         |Microsoft mainstream support         |
+|Remediation, onboarding, and ongoing     |         |         |
+|Customers will receive guidance to bring their rooms to standards recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended S/W version guidance from MMR are not in scope.          |         |
 
+## Data collection
 
+The Managed Meeting Room service monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Managed Meeting Room service doesn't access the live content of a meeting.
+
+Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](http://aka.ms/privacy).  
 
 ## Related topics
 
-- [Teams PowerShell Overview](teams-powershell-overview.md)
+- 
