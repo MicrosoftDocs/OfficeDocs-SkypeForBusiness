@@ -129,7 +129,7 @@ Managed Meeting Rooms is available in the following countries and regions.
 |**Meeting experience**   |         |         |
 |Investigating issues within the meeting settings on Microsoft Teams Room app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
-|Customers receive guidance to bring their rooms to standards that are recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from MMR aren't in scope.          |         |
+|Customers receive guidance to bring their rooms to standards that are recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Managed Meeting Rooms aren't in scope.          |         |
 
 ## Data collection
 
