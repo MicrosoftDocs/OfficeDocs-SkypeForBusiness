@@ -22,9 +22,9 @@ f1keywords:
 
 Managed Meeting Rooms is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
 
-Managed Meeting Rooms is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Room devices. The service allows organizations to save time, money and expertise that would otherwise be spent on "do it yourself" room management.  
+Managed Meeting Rooms is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Room devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
 
-The Managed Meeting Room service is built on a strong foundation of Microsoft's deep expertise in software-enabled management of end points, machine learning, and intelligent automation. Additionally, Managed Meeting Rooms leverages Microsoft's operational expertise in supporting thousands of rooms across hundreds of customers across the globe, strong partnerships with stakeholders of the room ecosystem as well as Microsoft's global footprint. Managed Meeting Rooms can accommodate any pace of growth an organization may require.
+The Managed Meeting Rooms service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. Additionally, Managed Meeting Rooms leverages Microsoft's operational expertise in supporting thousands of rooms across hundreds of customers across the globe, strong partnerships with stakeholders of the room ecosystem, and global footprint. Managed Meeting Rooms can accommodate any pace of growth an organization may require.
 
 ## Service capabilities
 
@@ -33,8 +33,8 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 |Capabilities  |Description  |
 |---------|---------|
 |**Room planning and rollout**   |Room planning capabilities that allow you to understand your room equipment inventory and make decisions on equipment standards for new room deployments.         |
-|**Monitoring and troubleshooting**  |Room health monitoring that detects problems with the room system and peripherals and provides a proactive and orchestrated incident management response driven by Microsoft.         |
-|**Update management**    |Management and delivery of application and firmware updates for room systems and their peripherals orchestrated by Microsoft.         |
+|**Monitoring and troubleshooting**  |Room health monitoring that detects problems with the room system and peripherals and provides a proactive incident management response driven by Microsoft.         |
+|**Update management**    |Management and delivery of application and firmware updates for room systems and their peripherals performed by Microsoft.         |
 |**Insights and recommendations**     |Insights on room and trending insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
@@ -48,8 +48,8 @@ Here's a summary of important features the Managed Meeting Rooms service provide
 
 |Feature  |Description  |
 |---------|---------|
-|**Inventory management**   |Room inventory tracking with a bulk export option listing room devices and peripherals, makes and models.         |
-|**Room enrollment**   |Easy onboarding with self-enrollment of room devices to Managed Meeting Rooms service.          |
+|**Inventory management**   |Room inventory tracking with a bulk export option that lists room devices, peripherals, makes, and models.         |
+|**Room enrollment**   |Easy onboarding with self-enrollment of room devices to the Managed Meeting Rooms service.          |
 |**Room administration**     |Customer portal for managed service capabilities, insights, administrative settings and room group management.         |
 |**Monitoring**    |Application, operating system, peripheral and firmware health monitoring - automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Managed Meeting Rooms portal.|
 |**Troubleshooting and remediation**     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
@@ -72,14 +72,14 @@ The Managed Meeting Rooms service is supported through a dedicated Managed Meeti
 
 |  |  |
 |---------|---------|
-|**Scope**   |Incidents pertaining to the meeting room app, room devices, and peripherals are included in Managed Meeting Rooms support.|
+|**Scope**   |Incidents related to the meeting room app, room devices, and peripherals are included in Managed Meeting Rooms support.|
 |**Audience**  |IT Operations only         |
 |**Supported languages**    |English         |
 |**Support availability through the portal**   | 24X7      |
 |**Initial response time for the Managed Meeting Rooms SOC**   |  4 hours       |
 |**Automated closure of tickets in cases of customer inactivity**    |Customer-initiated tickets: 3 business days<br>System-initiated tickets: 15 business days</li>   </ul>      |
-|**Redirection to broader Microsoft Support**   |Issues relating to another Microsoft product outside the scope of Managed Meeting Rooms are directed to the appropriate support team.         |
-|**Redirection to Original Equipment Manufacturer (OEM) support**    |The Managed Meeting Rooms SOC works to understand the issue and where applicable, help orchestrate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.         |
+|**Redirection to broader Microsoft Support**   |Issues related to another Microsoft product outside the scope of Managed Meeting Rooms are directed to the appropriate support team.         |
+|**Redirection to Original Equipment Manufacturer (OEM) support**    |The Managed Meeting Rooms SOC works to understand the issue and where applicable, helps coordinate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.         |
 
 Additionally, keep in mind that the Managed Meeting Rooms SOC will assist IT Operations in your organization and isn't a replacement for help desk services for your end users.
 
