@@ -35,7 +35,7 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 |**Room planning and rollout**   |Room planning capabilities that allow you to understand your room equipment inventory and make decisions on equipment standards for new room deployments.         |
 |**Monitoring and troubleshooting**  |Room health monitoring that detects problems with the room system and peripherals and provides a proactive incident management response driven by Microsoft.         |
 |**Update management**    |Management and delivery of application and firmware updates for room systems and their peripherals performed by Microsoft.         |
-|**Insights and recommendations**     |Insights on room and trending insights into customer health, usage, utilization, and equipment reliability.         |
+|**Insights and recommendations**     |Insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
 |**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.         |
