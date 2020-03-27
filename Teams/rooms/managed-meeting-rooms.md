@@ -37,7 +37,7 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 |**Update management**    |Management and delivery of application and firmware updates for room systems and their peripherals orchestrated by Microsoft.         |
 |**Insights and recommendations**     |Insights on room and trending insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
-|**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center. Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
+|**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
 |**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.         |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available integration with customer-hosted Service Now.         |
@@ -51,8 +51,8 @@ Here's a summary of important features the Managed Meeting Rooms service provide
 |**Inventory management**   |Room inventory tracking with a bulk export option listing room devices and peripherals, makes and models.         |
 |**Room enrollment**   |Easy onboarding with self-enrollment of room devices to Managed Meeting Rooms service.          |
 |**Room administration**     |Customer portal for managed service capabilities, insights, administrative settings and room group management.         |
-|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring - automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through Managed Meeting Rooms portal.|
-|**Troubleshooting and remediation**     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms Service Operation Center (SOC)-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
+|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring - automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Managed Meeting Rooms portal.|
+|**Troubleshooting and remediation**     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
 |**Update management**   |Automated meeting application and firmware update orchestration based on customer configurable deployment rings         |
 |**Insights and recommendations**   |Usage, incidents, health, and overall reporting (historical views)         |
 
