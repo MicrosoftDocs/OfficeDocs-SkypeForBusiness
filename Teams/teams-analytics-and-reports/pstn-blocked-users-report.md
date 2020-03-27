@@ -13,7 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
 - M365-voice
-description: Learn how to use the PSTN blocked users report in the Microsoft Teams admin center to get an overview of the Teams users in your organization who are blocked from making PSTN calls.
+description: Use the PSTN blocked users report in Microsoft Teams admin center to get an overview of your organization's Teams users that are blocked from making PSTN calls.
 appliesto: 
 - Microsoft Teams
 ---
