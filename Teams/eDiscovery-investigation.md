@@ -25,7 +25,7 @@ Large Enterprises are often exposed to high penalty legal proceedings that deman
 All Teams 1:1 or group chats are journaled through to the respective users' mailboxes, and all standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business. eDiscovery of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
 > [!NOTE]
-> At this time, we don't support eDiscovery of chat messages in scenarios where guest users are the only participants in a 1:1 or 1:N chat (also known as *guest-to-guest* chats because they don't include home tenant users).
+> At this time, we don't support eDiscovery of chat messages in scenarios where guest users are the only participants in a 1:1 or 1:N chat. These types of chats are also called *guest-to-guest* chats because they don't include home tenant users.
 
 1. To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.
 
