@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Learn about preparing your organization's network for Microsoft Teams including network requirements, network optimization, and bandwidth requirements.
+description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -151,5 +151,4 @@ Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 
 [Identity models and authentication in Teams](identify-models-authentication.md)
 
 [How to roll out Teams](How-to-roll-out-teams.md)
-
 
