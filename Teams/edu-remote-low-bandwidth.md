@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
@@ -87,4 +88,4 @@ There are also situations, and you should proactively discuss them with your edu
 
 It's not reasonable to expect many parents to be able to troubleshoot these issues, and low bandwidth issues may be out of a student or parent's control (their home may not have access to high bandwidth, they may have a lot of people in their immediate area consuming bandwidth and affecting what they can do, there may be internet instability, and so on).
 
-We've put together guidance in our [Use Teams for schoolwork when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) article for parents and students as well, so please review and try these recommendations first.
+We've put together guidance in our [Use Teams for schoolwork when bandwidth is low](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) article for parents and students as well, you can review and try these recommendations if you're having any problems.
