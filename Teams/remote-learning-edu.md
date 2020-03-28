@@ -52,6 +52,9 @@ Teams leverages Microsoft 365 capabilities to authenticate users and provide ser
 
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire school started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
+> [!NOTE]
+> Please review [Updated Guidance for M365 EDU Deployment during COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) for our latest information on EDU deployments.
+
 ## Easily set up Teams
 
 These are the two things you need to do to get up and running with Teams:
