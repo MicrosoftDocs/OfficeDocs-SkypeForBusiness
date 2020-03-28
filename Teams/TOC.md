@@ -629,6 +629,7 @@
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Teams Licensing for Education](teams-edu-licensing.md)
+### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
