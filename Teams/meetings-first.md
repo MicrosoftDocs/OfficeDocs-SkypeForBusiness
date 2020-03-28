@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Meetings First
+title: Meeting First - Microsoft Teams 
 author: lanachin
 ms.author: v-lanac
 manager: serdars

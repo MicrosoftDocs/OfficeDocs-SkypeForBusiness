@@ -16,7 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-description: Coexistence behavior between Teams & Skype for Business including routing parameters, chat & call routing, chats & calls from pre-existing threads, & presence.
+description: Coexistence behavior between Teams & Skype for Business, including routing parameters, chat & call routing, chats & calls from pre-existing threads, & presence.
 ---
 
 # Coexistence with Skype for Business

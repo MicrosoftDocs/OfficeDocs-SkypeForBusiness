@@ -1,5 +1,5 @@
 ---
-title: Content cameras
+title: Learn how to setup content cameras - Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
