@@ -1,5 +1,5 @@
 ---
-title: Use Office 365 and custom connectors in Microsoft Teams
+title: Use Office 365 and custom connectors
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

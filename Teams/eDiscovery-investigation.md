@@ -1,5 +1,5 @@
 ---
-title: Conduct an eDiscovery investigation of content in Microsoft Teams
+title: Conduct an eDiscovery investigation of content
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,6 +16,7 @@ f1.keywords:
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 Conduct an eDiscovery investigation of content in Microsoft Teams
@@ -23,7 +24,7 @@ Conduct an eDiscovery investigation of content in Microsoft Teams
 
 Large Enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI).
 
-All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes, and all standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
+All Teams 1:1 or group chats are journaled through to the respective users' mailboxes, and all standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
 
 > [!NOTE]
 > eDiscovery of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
@@ -36,7 +37,7 @@ All Teams 1:1 or group chats are journaled through to the respective users’ ma
 
     ![Screenshot of a Team Chat folder in a user's mailbox in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-3.  To see private chats in a user’s mailbox, they are also located inside the Team Chat folder under Conversation History.
+3.  To see private chats in a user's mailbox, they are also located inside the Team Chat folder under Conversation History.
 
 ## eDiscovery of guest-to-guest chats
 
@@ -44,7 +45,7 @@ Presently, for a scenario where only guests are participating in 1:1 or 1:N chat
 
 Without a mailbox, guest-to-guest chats (1xN chats in which there are no home tenant users) would not be indexed, and as a result, would not be included in eDiscovery. To facilitate eDiscovery for guest-to-guest chats, a cloud-based mailbox (or phantom mailbox) is created to store the 1xN data. After the Teams chat data is stored in the cloud-based mailbox, it is indexed for eDiscovery and compliance content search.
 
-The following illustration shows how eDiscovery works for guest-to-guest chats in which there isn’t a mailbox.
+The following illustration shows how eDiscovery works for guest-to-guest chats in which there isn't a mailbox.
 
 ![guest-to-guest-chats-with-no-mailbox](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)
 
@@ -77,7 +78,7 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

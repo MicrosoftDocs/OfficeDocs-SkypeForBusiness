@@ -18,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 # Evaluate my environment

@@ -1,5 +1,5 @@
 ---
-title: "Manage the Audio Conferencing settings for a user in Microsoft Teams"
+title: "Manage Audio Conferencing settings for users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

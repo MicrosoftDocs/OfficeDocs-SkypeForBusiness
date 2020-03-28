@@ -1,5 +1,5 @@
 ---
-title: "Country and region availability for Audio Conferencing and Calling Plans"
+title: "Country/region availability - Audio Conferencing, Calling Plans"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

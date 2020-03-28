@@ -1,5 +1,5 @@
 ---
-title: Create a change management strategy for Microsoft Teams
+title: Create a change management strategy
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -14,6 +14,7 @@ f1.keywords:
 description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 Create a change management strategy for Microsoft Teams
