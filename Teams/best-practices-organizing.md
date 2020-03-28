@@ -1,5 +1,5 @@
 ---
-title: Best practices for organizing teams in Microsoft Teams
+title: Best practices for organizing teams
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 Best practices for organizing teams in Microsoft Teams

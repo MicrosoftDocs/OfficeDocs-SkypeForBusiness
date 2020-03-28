@@ -1,5 +1,5 @@
 ---
-title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
+title: Manage Rooms settings with an XML configuration file
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta

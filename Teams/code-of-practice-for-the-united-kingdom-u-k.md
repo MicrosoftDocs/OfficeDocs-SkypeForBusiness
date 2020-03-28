@@ -1,5 +1,5 @@
 ---
-title: "Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)"
+title: "Code of practice for U.K. - Office 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

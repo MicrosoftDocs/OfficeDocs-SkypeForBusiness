@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams settings for your organization
+title: Manage settings for your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
   - ms.teamsadmincenter.teamssettings.overview
+  - seo-marvel-<mar>
 appliesto: 
   - Microsoft Teams
 ---

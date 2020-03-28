@@ -1,5 +1,5 @@
 ---
-title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
+title: Content cameras
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta

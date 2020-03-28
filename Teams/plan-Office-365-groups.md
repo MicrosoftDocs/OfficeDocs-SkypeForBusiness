@@ -1,5 +1,5 @@
 ---
-title: Plan for Office 365 Groups when creating teams in Microsoft Teams
+title: Plan for Office 365 Groups when creating teams
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 Plan for Office 365 Groups when creating teams in Microsoft Teams
