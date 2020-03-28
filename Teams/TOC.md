@@ -567,9 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
-## [Business Voice and Enterprise Voice comparison](business-voice/business-enterprise-comparison.md)
+## [Country and region availability](business-voice/country-region-availability.md)
 ## What to know before buying
 ### [What to buy to get Business Voice](business-voice/what-to-buy.md)
+### [Get help from a reseller or partner](business-voice/reseller-partner-support.md)
 ### [Check your Internet connection](business-voice/get-ready-internet.md)
 ### [Get your users ready](business-voice/prepare-users.md)
 ## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)

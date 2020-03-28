@@ -92,4 +92,4 @@ To see rates for toll-free and international calling, scroll down to "Add time w
 
 ## Maximum number of supported users
 
-The Business Voice license that's available with small and medium-sized Microsoft 365 subscriptions supports up to 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase an Office 365 E3 or E5 subscription.
+The Business Voice license that's available with small and medium-sized Microsoft 365 subscriptions supports up to 300 licensed users. 
