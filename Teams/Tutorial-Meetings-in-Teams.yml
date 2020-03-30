@@ -116,7 +116,7 @@ items:
     (estimated reading time 3 minutes) to understand which platforms Teams is
     available for.
 
-    In addition, by using Audio Conferencing, participates can attend meetings from
+    In addition, by using Audio Conferencing, participants can attend meetings from
     regular phones by dialing in to the meeting or dialing out from the meeting.
     Details about Audio Conferencing will be covered in a dedicated training.
 
@@ -189,7 +189,7 @@ items:
     Use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations,
     and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all
     Teams meetings that users schedule in your organization. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
-    (estimaged time reading time 4 minutes).
+    (estimated time reading time 4 minutes).
 
 - title: Exercise - Configure meetings
   durationInMinutes: 20
@@ -223,9 +223,10 @@ items:
     -   Join a meeting from a browser without signing in to your tenant (you might
         want to use “InPrivate” browsing) to see what it’s like to join a meeting
         anonymously.
-    -   Sign in to the admin portal and change some of the settings for meetings
+    -   Sign in to the Microsoft Teams admin center and change some of the settings for meetings
         (for example, disable scheduling for private meetings). How does this affect
         the user experience?
+    -   As the meeting organizer, end a meeting for all participants.    
 
 - title: Reporting
   durationInMinutes: 2
