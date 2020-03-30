@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - remotework
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
