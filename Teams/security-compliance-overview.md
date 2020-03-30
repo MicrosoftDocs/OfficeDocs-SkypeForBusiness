@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - remotework
 f1.keywords:
   - CSH
 ms.custom: 
