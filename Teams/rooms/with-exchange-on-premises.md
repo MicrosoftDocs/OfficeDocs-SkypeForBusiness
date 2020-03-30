@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
- - seo-marvel-<mar>
+ - seo-marvel-mar2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: 
   - M365-collaboration

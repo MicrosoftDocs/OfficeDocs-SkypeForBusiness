@@ -17,8 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to transfer your phone number from your current service provider to Microsoft Teams.
-ms.custom:
- - seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Transfer phone numbers to Microsoft Teams

@@ -16,7 +16,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Configure network settings for Location-Based Routing

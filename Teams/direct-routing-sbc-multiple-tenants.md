@@ -16,7 +16,7 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Configure a Session Border Controller for multiple tenants

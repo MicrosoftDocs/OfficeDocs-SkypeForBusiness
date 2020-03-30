@@ -13,7 +13,7 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: Teams-upgrade-guidance
- - seo-marvel-<mar>
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
