@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
