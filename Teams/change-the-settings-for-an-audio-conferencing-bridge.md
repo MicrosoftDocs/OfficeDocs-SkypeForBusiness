@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: Change audio conferencing bridge settings including entry and exit notifications, play names or phone numbers, tones, and prompt callers to record their name.
+description: Change audio conferencing bridge settings, including entry and exit notifications, play names or phone numbers, tones, and prompt callers to record their name.
 ---
 
 # Change the settings for an Audio Conferencing bridge

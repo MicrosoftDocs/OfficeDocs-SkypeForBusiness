@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams settings for your organization
+title: Manage settings for your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Learn how to turn on or off Microsoft Teams org-wide settings including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
+description: Learn how to turn on or off Microsoft Teams org-wide settings, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
 localization_priority: Priority
 ms.custom: 
   - NewAdminCenter_Update
@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
   - ms.teamsadmincenter.teamssettings.overview
+  - seo-marvel-<mar>
 appliesto: 
   - Microsoft Teams
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms with Exchange on premises"
+title: Deploy Rooms with Exchange on premises
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
+ - seo-marvel-<mar>
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: 
   - M365-collaboration

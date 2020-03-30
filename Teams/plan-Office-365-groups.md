@@ -1,5 +1,5 @@
 ---
-title: Plan for Office 365 Groups when creating teams in Microsoft Teams
+title: Plan for Office 365 Groups when creating teams
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Learn about planning for Office 365 Groups in Teams including the differences between Groups & Teams conversations, and how Teams respects Groups naming policy.
+description: Learn about planning for Office 365 Groups in Teams, including the differences between Groups & Teams conversations, and how Teams respects Groups naming policy.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-<mar>
 ---
 
 Plan for Office 365 Groups when creating teams in Microsoft Teams

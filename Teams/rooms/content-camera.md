@@ -1,5 +1,5 @@
 ---
-title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
+title: Learn how to setup content cameras - Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta

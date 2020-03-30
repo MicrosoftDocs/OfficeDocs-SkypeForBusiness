@@ -1,5 +1,5 @@
 ---
-title: Manage Teams during the transition to the new Microsoft Teams admin center
+title: Manage Teams transitioning to the new admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,6 +15,7 @@ f1.keywords:
 ms.custom: 
   - NewAdminCenter_Update
   - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+  - seo-marvel-<mar>
 ms.collection: 
   - M365-collaboration
 appliesto: 

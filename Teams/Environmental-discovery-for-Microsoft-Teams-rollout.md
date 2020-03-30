@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams |  Evaluate Environment | Adoption, Discovery
+title: Environmental compatibility - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

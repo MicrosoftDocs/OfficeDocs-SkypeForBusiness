@@ -1,5 +1,5 @@
 ---
-title: "Change the phone numbers on your Audio Conferencing bridge"
+title: "Change phone numbers on Audio Conferencing bridge"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

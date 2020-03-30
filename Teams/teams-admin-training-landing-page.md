@@ -1,5 +1,5 @@
 ---
-title: Admin training for Microsoft Teams
+title: Manage Microsoft Teams for your organization - Microsoft Teams
 ms.reviewer: 
 description: Get the training you need to manage Microsoft Teams in your organization
 author: lanachin
@@ -18,7 +18,7 @@ f1.keywords:
 ms.topic: landing-page
 ms.author: v-lanac
 ---
-# Admin training for Microsoft Teams
+# Learn how to manage Microsoft Teams for your organization
 
 Learn how to manage Teams for your organization.
 
