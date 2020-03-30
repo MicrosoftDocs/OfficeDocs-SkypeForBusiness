@@ -629,6 +629,7 @@
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Teams Licensing for Education](teams-edu-licensing.md)
+### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # Security and compliance
 ## [Overview](security-compliance-overview.md)
 ## Security
+### [Security Guide](teams-security-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance
