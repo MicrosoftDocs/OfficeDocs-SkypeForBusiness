@@ -190,13 +190,12 @@ There are two options to control who arrives in Teams meetings and who will have
 
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
-|Who can bypass  |Bypass Setting  | Joins Directly| Arrives in Lobby|
-|---------|---------|---------|---------|
-|EveryoneInCompany (Everyone except external users)     |  Yes    |  In-tenant, Guest, PSTN dial-in users      | Federated users, Anonymous users        |
-|EveryoneInCompany (Everyone except external users)    |  No     |  In-tenant and Guest users       |   Federated users, Anonymous users, PSTN dial-in users      |
-|EveryoneInCompany (Everyone except external users) and Federated users     |  Yes    | In-tenant, Guest, Federated, and PSTN dial-in users        | Anonymous users        |
-|EveryoneInCompany (Everyone except external users) and Federated users     |  No     |   In-tenant, Guest, and Federated users      |  Anonymous and PSTN dial-in users      |
-|Everyone     |  Yes    | In-tenant, Guest, Federated, Anonymous, and PSTN dial-in users        | N/A        |
+|"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
+|---------|---------|---------|
+|People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+|People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+|Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
+
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
@@ -284,6 +283,12 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 ## Related topics
 
+[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+
+[Optimize Office 365 connectivity for remote users using VPN split tunnelling](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+
+- [Implementing VPN split tunnelling for Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
