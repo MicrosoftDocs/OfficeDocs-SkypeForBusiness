@@ -107,6 +107,13 @@ items:
         situation, Garth schedules an ad-hoc meeting by selecting **Meet Now** in
         the current conversation.
 
+    In Teams, meeting organizers can end a meeting for all meeting participants. This is useful in scenarios such as the following:
+
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.
+
+    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting to end the meeting and remove all participants from it.
+
 - title: Meeting clients
   durationInMinutes: 5
   content: |
@@ -170,6 +177,12 @@ items:
     Review [How Exchange and Microsoft Teams
     interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
     (estimated reading time 3 minutes) to understand potential limitations.
+
+    ### End meetings for all participants
+
+    Meeting organizers can end a meeting for all participants by clicking **End meeting** from within the meeting. This is helpful in scenarios such as the following:
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.  
 
 - title: Meeting configuration options
   durationInMinutes: 20
