@@ -16,6 +16,7 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ---
 
 <div id="main" class="v2">
