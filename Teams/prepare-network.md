@@ -62,7 +62,7 @@ You might want to do additional network optimization if:
 
   - Teams runs slowly (maybe you have insufficient bandwidth)
   - Calls keep dropping (might be due to firewall or proxy blockers)
-  - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
+  - Calls have static and cut out, or voices sound like robots (could be jitter or packet loss)
 
 For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).
 
