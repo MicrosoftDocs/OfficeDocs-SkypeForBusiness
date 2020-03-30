@@ -97,7 +97,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
                         </div>
                     </div>
                     <div class="cardText">
