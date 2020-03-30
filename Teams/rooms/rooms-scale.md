@@ -10,7 +10,8 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom: 
+ - Strat_SB_Admin
  - seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: 

@@ -21,7 +21,6 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: An Office 365 admin can edit the Teams Audio Conferencing settings including provider, default toll or toll-free number, conference ID, or PIN for a user.
 description: An Office 365 admin can edit the Teams Audio Conferencing settings, including provider, default toll or toll-free number, conference ID, or PIN for a user.
 ---
 
