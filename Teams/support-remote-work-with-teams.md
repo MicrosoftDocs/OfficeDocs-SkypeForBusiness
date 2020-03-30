@@ -106,6 +106,14 @@ Share these assets and videos with your end users to help them get started quick
 
    - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
 
+           ○ Brenda: "Top 12 tasks for security teams to support working from home"  
+        https://review.docs.microsoft.com/en-us/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-21vianet&branch=bcarter-top10-security-for-remote-work
+        ○ Split-tunnel VPN article (Thane Peterson, Kelley Vice,  Paul Collinge,  Konstantin Ryvkin)  https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel- ETA 3/27
+        ○ Heidi Payne and Tracy Paddock are updating the SfBO Security Guide for Teams. ETA 3/27
+        https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide
+   - Security and Teams goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
+
+
     
 3. Read our new content about working remotely and share it with your users:
         
