@@ -14,7 +14,7 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: 
   - M365-collaboration
 description: "This article discusses planning considerations for using Azure Monitor to administer Microsoft Teams Rooms devices in your Skype for Business or Teams implementation."
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Plan Microsoft Teams Rooms management with Azure Monitor

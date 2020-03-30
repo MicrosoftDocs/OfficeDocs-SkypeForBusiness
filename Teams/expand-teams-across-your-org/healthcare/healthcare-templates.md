@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: 
 description: Get started with Teams templates for Healthcare organizations
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Healthcare organizations

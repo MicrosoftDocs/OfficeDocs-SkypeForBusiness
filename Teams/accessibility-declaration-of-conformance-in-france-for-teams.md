@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace. "
 ---

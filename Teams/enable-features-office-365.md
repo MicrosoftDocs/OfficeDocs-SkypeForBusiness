@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
   - ms.teamsadmincenter.teamssettings.overview
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

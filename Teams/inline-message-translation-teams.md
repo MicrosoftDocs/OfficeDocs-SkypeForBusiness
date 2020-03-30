@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
