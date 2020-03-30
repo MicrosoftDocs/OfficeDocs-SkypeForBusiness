@@ -106,7 +106,7 @@ items:
     -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.
     -   Ending a meeting for all participants can help reduce your organization's PSTN usage and billing. 
 
-    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting to end the meeting and remove all participants from it.
+    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting in Teams to end it and remove all participants from it.
 
 - title: Considerations for Skype for Business customers
   durationInMinutes: 1
