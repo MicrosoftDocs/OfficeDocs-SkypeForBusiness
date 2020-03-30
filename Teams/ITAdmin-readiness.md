@@ -15,6 +15,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
   - Microsoft Teams

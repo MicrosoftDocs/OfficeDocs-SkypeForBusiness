@@ -17,6 +17,7 @@ f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
+ms.custom: seo-marvel-mar2020
 ---
 # Learn how to manage Microsoft Teams for your organization
 

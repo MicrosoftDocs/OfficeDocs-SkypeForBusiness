@@ -22,6 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.allowsideloading
   - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
   - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - seo-marvel-mar2020
 ---
 
 # Manage custom app policies and settings in Microsoft Teams

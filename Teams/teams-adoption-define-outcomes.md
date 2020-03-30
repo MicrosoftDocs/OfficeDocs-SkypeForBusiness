@@ -7,7 +7,9 @@ ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

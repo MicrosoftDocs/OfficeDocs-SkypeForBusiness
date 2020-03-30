@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn how to turn entry and exit announcements on or off in a Microsoft Teams meeting. "
 ---
 

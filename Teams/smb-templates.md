@@ -16,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: lavenkat
 description: Get started with Teams templates for Small and Medium Businesses
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Small and Medium Businesses

@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
 ---
 

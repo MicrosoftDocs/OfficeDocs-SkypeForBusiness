@@ -16,6 +16,7 @@ f1.keywords:
 description: Learn how to create your first teams and channels, onboard early adopters, monitor usage and feedback, and get resources to plan your organization-wide rollout.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Manage guest access in Microsoft Teams

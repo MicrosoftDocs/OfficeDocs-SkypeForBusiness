@@ -17,6 +17,7 @@ ms.collection:
 description: Set up live for events in Teams, including set up your network, assign licenses, enable live event features and scheduling, and video distribution solutions.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Set up for live events in Microsoft Teams

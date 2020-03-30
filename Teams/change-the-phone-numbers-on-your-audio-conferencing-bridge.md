@@ -21,6 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: Learn the steps required to assign a new service phone number to your conference bridge to expand coverage for your users.
 ---
 

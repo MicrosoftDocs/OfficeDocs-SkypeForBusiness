@@ -22,6 +22,7 @@ ms.custom:
   - ms.lync.lac.AddressAndLocation
   - Calling Plans
   - Direct Routing
+  - seo-marvel-mar2020
 description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
 ---
 

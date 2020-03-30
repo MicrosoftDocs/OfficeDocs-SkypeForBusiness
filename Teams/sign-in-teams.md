@@ -16,6 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Sign in to Microsoft Teams using modern authentication

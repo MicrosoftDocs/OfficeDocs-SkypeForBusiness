@@ -12,7 +12,8 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+ - Teams-upgrade-guidance
  - seo-marvel-<mar>
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

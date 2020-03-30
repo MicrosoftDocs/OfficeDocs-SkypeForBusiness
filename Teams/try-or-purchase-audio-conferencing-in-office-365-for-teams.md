@@ -21,6 +21,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.lync.lac.CpcGettingStarted
+  - seo-marvel-mar2020
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 

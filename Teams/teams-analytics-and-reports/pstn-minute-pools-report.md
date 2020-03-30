@@ -16,6 +16,7 @@ MS.collection:
 description: How to use the Teams PSTN minute pools report in Microsoft Teams admin center to view the minutes consumed within your organization during the current month.
 appliesto: 
 - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 # Microsoft Teams PSTN minute pools report
 

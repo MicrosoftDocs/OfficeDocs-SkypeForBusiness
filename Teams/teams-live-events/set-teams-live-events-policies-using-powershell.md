@@ -17,6 +17,7 @@ ms.collection:
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and the features available in the events.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Use PowerShell to set live events policies in Microsoft Teams

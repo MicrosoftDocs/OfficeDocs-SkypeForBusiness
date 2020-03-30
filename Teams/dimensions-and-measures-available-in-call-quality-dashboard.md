@@ -18,7 +18,8 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom: 
+ - Reporting
  - seo-marvel-<mar>
 description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
