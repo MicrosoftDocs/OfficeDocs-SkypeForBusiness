@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
