@@ -190,13 +190,12 @@ There are two options to control who arrives in Teams meetings and who will have
 
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
-|Who can bypass  |Bypass Setting  | Joins Directly| Arrives in Lobby|
-|---------|---------|---------|---------|
-|EveryoneInCompany (Everyone except external users)     |  Yes    |  In-tenant, Guest, PSTN dial-in users      | Federated users, Anonymous users        |
-|EveryoneInCompany (Everyone except external users)    |  No     |  In-tenant and Guest users       |   Federated users, Anonymous users, PSTN dial-in users      |
-|EveryoneInCompany (Everyone except external users) and Federated users     |  Yes    | In-tenant, Guest, Federated, and PSTN dial-in users        | Anonymous users        |
-|EveryoneInCompany (Everyone except external users) and Federated users     |  No     |   In-tenant, Guest, and Federated users      |  Anonymous and PSTN dial-in users      |
-|Everyone     |  Yes    | In-tenant, Guest, Federated, Anonymous, and PSTN dial-in users        | N/A        |
+|"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
+|---------|---------|---------|
+|People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+|People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+|Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
+
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
