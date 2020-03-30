@@ -14,6 +14,8 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
@@ -72,7 +74,8 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 #### Messaging policy
 
-- Change set to 'off'
+- Delete sent messages set to 'off'
+- Edit sent messages set to 'off'
 - Giphy content rating set to 'strict'
 - Translate messages set to 'on'
 - Send urgent messages using priority notifications set to 'off'
@@ -157,4 +160,4 @@ Additional support resources include:
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Team help center](https://support.office.com/teams)
+- [Teams help center](https://support.office.com/teams)

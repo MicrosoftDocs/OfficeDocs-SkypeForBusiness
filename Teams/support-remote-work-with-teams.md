@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
@@ -56,16 +58,31 @@ Share these assets and videos with your end users to help them get started quick
 
 ## Additional resources for supporting remote workers
 
-1. Read our [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+1. Read the [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+
+1. Read our recent blog posts:
+   
+   - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [Helping small and medium-sized businesses work remotely with Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
+
+1. Teams for Education
+   - If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
+
+   - Don't miss [Get started with Teams for remote learning](remote-learning-edu.md).
 
 2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
-
-1. If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
 
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
 
+   - Read this timely blog (March 6, 2020), [How to quickly optimize Office 365 traffic for remote staff & reduce the load on your infrastructure](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+
+   - March 26, 2020 blog: [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
+   
    - If you're in China, check out [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
@@ -82,6 +99,13 @@ Share these assets and videos with your end users to help them get started quick
 
    - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
 
+1. Security when everyone's working from home
+
+   - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft Security blog (March 26, 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. Read our new content about working remotely and share it with your users:
@@ -95,10 +119,10 @@ Share these assets and videos with your end users to help them get started quick
       - [Collaborate with Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Work remotely with Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
-
+      
       - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
 
-      - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+      - Satya Nadella and Teams Product Marketing Manager Aya Tange video about [using Teams to work remotely](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (March 20, 2020)
 
 
 3.  Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).

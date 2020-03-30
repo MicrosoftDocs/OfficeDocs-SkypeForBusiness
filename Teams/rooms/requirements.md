@@ -58,6 +58,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
