@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Upgrade, Islands Mode, Interop Policy,  Only 
+title: Interoperability between Skype for business and Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

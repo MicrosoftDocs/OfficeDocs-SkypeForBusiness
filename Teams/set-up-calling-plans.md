@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - LIL_Placement
-description: Learn to set up Calling Plans including view plans available in your region, buy & assign licenses, get phone numbers, and add emergency addresses & locations.
+description: Learn to set up Calling Plans, including view plans available in your region, buy & assign licenses, get phone numbers, and add emergency addresses & locations.
 ---
 # Set up Calling Plans
 

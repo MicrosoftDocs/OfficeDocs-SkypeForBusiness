@@ -1,5 +1,5 @@
 ---
-title: "Installing Moodle integration with Microsoft Teams"
+title: Install Moodle integration with Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
