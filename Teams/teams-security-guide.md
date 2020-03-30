@@ -283,7 +283,7 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 ## Related topics
 
-[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/en-us/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
