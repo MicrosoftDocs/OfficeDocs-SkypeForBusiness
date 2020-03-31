@@ -15,6 +15,7 @@ f1.keywords:
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
   - M365-collaboration
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
