@@ -12,6 +12,8 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority

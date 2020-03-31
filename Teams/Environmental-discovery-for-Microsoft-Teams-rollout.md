@@ -17,6 +17,8 @@ ms.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
+ms.custom:
+- seo-marvel-mar2020
 ---
 
 Environmental discovery for a Microsoft Teams rollout

@@ -10,8 +10,6 @@ ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams org-wide settings, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
 localization_priority: Priority
-ms.custom: 
-  - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -19,7 +17,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
   - ms.teamsadmincenter.teamssettings.overview
-  - seo-marvel-<mar>
+  - NewAdminCenter_Update
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
