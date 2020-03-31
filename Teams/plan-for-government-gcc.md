@@ -1,7 +1,7 @@
 ---
 title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,6 +15,7 @@ f1.keywords:
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
   - M365-collaboration
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
@@ -76,75 +77,11 @@ We recommend that you take time to carefully review your [admin and security set
 |-----------|------------|
 | ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
-## Step 4. Understand which capabilities are currently unavailable or disabled by default. 
+## Step 4. Understand which capabilities are currently unavailable or disabled by default.
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. Refer to the following table to see which features are available.
 
-|                             | Feature                     | GCC            |
-|-----------------------------|-----------------------------|----------------|
-| Base | Login | Available |
-| | Presence | Available |
-| | Unified presence (Skype for Business and Teams unified) | Available |
-| Activity | Feed | Available |
-|  | My Activity | Available |
-| Chat | Conversation | Available |
-| | Files | Available |
-| | Org chart | Available |
-| | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | Available |
-| Teams | Channel message | Available |
-| | Channel files | Available |
-| | OneNote tab | On the Government backlog |
-| | Email a channel | Not available |
-| | Add member | Available |
-| | Guest access | Available |
-| Meetings | Schedule meeting | Available |
-| | Join meeting | Available |
-| | VoIP meeting | Available |
-| | Desktop sharing | Available |
-| | Give and take control in sharing | Available |
-| | Connect from a conference room | Available |
-| | Anonymous join | Available |
-| | Cloud recording | Available |
-| | Meeting notes | Available |
-| | Live Events | Available |
-| | Federated meetings | Available |
-| | Surface Hub support | Available |
-| Calls | Contacts | Available |
-| | History | Available |
-| | Voicemail | Available |
-| | VoIP call | Available |
-| | Skype for Business - Teams calling | Available |
-| | Calling Plans | Available |
-| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
-| | Microsoft Phone System direct routing | Available |
-| | Lobby for PSTN callers | Available |
-| | Call queue | Available |
-| | Boss and delegate support | Available |
-| | Consultative and safe transfer | Available |
-| | Do not disturb breakthrough | Available |
-| | Distinctive ring | Available |
-| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | Available |
-| | Forward to group | Available |
-| | Transfer to PSTN call | Available |
-| | Emergency calling - Calling Plans | Available |
-| | Support for existing certified SIP phones | Available |
-| | USB HID | Available |
-| | eDiscovery for both calls and meetings | Available |
-| | Organization auto attendant | Available |
-| | Skype consumer - Teams call support | Available |
-| Files | Recent | Available |
-| | Microsoft Teams | Available |
-| Store | App Store | Available |
-| Search | Messages | Available |
-| | People | Available |
-| | Files | Available |
-| | Slash commands | Available |
-| Compliance | Compliance content search | Available |
-| | Retention | Available |
-| | Audit log search | Available |
-| | Legal hold | Available |
-| | eDiscovery | Available |
+[Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
