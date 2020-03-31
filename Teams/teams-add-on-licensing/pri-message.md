@@ -33,13 +33,6 @@ Originally announced in June 2019, priority notifications for Teams grants users
 
 Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited urgent messages with priority notifications, regardless of license. [Learn more about priority notifications](../messaging-policies-in-teams.md).
 
-|Segment| |Sending up to 5 messages included per user per month| Sending unlimited messages included per user per month|
-|---|---|---|---|
-|Enterprise||Office 365 F1 / Microsoft 365 F1<br> Office 365 E1 | Office 365 E3 / Microsoft 365 E3 <br>Office 365 E5 / Microsoft 365 E5
-|Education ||Office 365 A1 / Microsoft 365 A1|Office 365 A3 / Microsoft 365 A3<br> Office 365 A5 / Microsoft 365 A5
-|SMB       ||Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business|
-|||||
-
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
 ||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
