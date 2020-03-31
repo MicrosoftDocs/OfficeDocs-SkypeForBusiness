@@ -123,6 +123,8 @@ Teams gives Firstline Workers in your organization the tools they need to commun
     </li>
 </ul>
 
+---
+
 ## Featured training
 
 <ul class="panelContent cardsFTitle">
@@ -133,11 +135,11 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What is Shifts?</h3>
+                        <h3>Video: What is Shifts?</h3>
                     </div>
                 </div>
             </div>
@@ -151,29 +153,29 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Create a Shifts schedule</h3>
+                        <h3>Video: Create a Shifts schedule</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-</ul>
+        <li>
         <a href="https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manage a Shifts schedule</h3>
+                        <h3>Video: Manage a Shifts schedule</h3>
                     </div>
                 </div>
             </div>
