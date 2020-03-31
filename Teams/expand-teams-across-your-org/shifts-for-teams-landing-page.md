@@ -171,7 +171,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="A building blocks icon" />
                         </div>
                     </div>
                     <div class="cardText">
