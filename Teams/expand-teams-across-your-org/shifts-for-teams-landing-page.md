@@ -129,7 +129,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/earticle/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821">
+        <a href="https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
