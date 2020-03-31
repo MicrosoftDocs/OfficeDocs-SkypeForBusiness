@@ -27,7 +27,7 @@ We're hearing from customers around the globe how the COVID-19 (Coronavirus) pan
 
 Being able to directly and quickly connect with teammates during fast-changing conditions is essential to maintaining business continuity, and as such, we're extending promotional access to key messaging features in Microsoft Teams.
 
-Originally announced in June 2019, priority notifications for Teams grants users the ability to continually send notifications that repeat every two minutes for up to 20 minutes on all messages marked as *urgent*. On release, we had made priority notifications available as a promotion to all Teams users until April 1, 2020. 
+Originally announced in June 2019, [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) for Teams grants users the ability to continually send notifications that repeat every two minutes for up to 20 minutes on all messages marked as *urgent*. On release, we had made priority notifications available as a promotion to all Teams users until April 1, 2020. 
 
 **To assist our customers and community in their crisis response efforts, we're extending the priority notifications promotion until the second half of 2020.** Ongoing access to priority notifications will be available to facilitate in crisis response and recovery efforts. After the promotion period ends, licensed users will be able to send priority notifications according to the terms of their subscription.
 
