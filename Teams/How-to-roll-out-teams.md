@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

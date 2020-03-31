@@ -13,7 +13,10 @@ search.appverid: MET150
 description: Assess your stakeholders, identify early adopters, and evaluate if your organization is ready for the transition to Teams.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
+
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
