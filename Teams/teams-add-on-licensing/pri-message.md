@@ -1,5 +1,5 @@
 ---
-title: "Priority Notifications in Teams Messaging "
+title: "Priority notifications in Teams Messaging "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about Priority Notifications in Teams Messaging."
+description: "Learn about priority notifications in Teams Messaging."
 ---
 
 # Messaging policies licensing
