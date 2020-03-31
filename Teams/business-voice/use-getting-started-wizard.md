@@ -26,7 +26,9 @@ The Getting Started wizard for Microsoft 365 Business Voice gets you set up quic
 It's a good idea to read this article before you start the wizard. When you're ready to run the wizard, select **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Sign in by using the account you used to create your subscription or another account that's a Global Administrator.
 
 > [!IMPORTANT]
-> The Getting Started wizard is available only to Microsoft 365 tenants in select countries and regions. To see if the Getting Started wizard is available in your tenant's location, check out [Country and region availability for Business Voice](country-region-availability.md). If the Getting Started wizard isn't available in your tenant's location, you'll need to contact a Microsoft reseller or partner to help you set up Business Voice. For more information, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
+> The Getting Started wizard is available only to Microsoft 365 tenants in select countries and regions. To see if the Getting Started wizard is available in your tenant's location, check out [Country and region availability for Business Voice](country-region-availability.md).
+>
+> If the Getting Started wizard isn't available in your tenant's location, contact a Microsoft reseller or partner to help you set up Business Voice. For more information, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 >
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes on on-premises Exchange Server.
 
