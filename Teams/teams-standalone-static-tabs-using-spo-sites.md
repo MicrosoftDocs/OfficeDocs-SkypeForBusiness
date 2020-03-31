@@ -109,7 +109,8 @@ To view and test the new app on a mobile device, open the app drawer by tapping 
 
 The JSON file you generate will look something like the one below.
 
-`{ 
+```JSON
+{ 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
 
@@ -221,4 +222,5 @@ The JSON file you generate will look something like the one below.
 
     } 
 
-} `
+}
+```
