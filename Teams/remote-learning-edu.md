@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
@@ -73,7 +74,8 @@ Here's a set of common non-default policy configurations that would be assigned 
 
 #### Messaging policy
 
-- Change set to 'off'
+- Delete sent messages set to 'off'
+- Edit sent messages set to 'off'
 - Giphy content rating set to 'strict'
 - Translate messages set to 'on'
 - Send urgent messages using priority notifications set to 'off'
