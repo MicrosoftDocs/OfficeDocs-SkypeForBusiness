@@ -12,6 +12,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 description: Use a content camera in a Microsoft Teams Room, which interacts with image-processing software to allow presenters to draw on an analog whiteboard.
 ---
 

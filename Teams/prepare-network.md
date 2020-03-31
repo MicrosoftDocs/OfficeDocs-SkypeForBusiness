@@ -16,8 +16,9 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
----
+ms.custom: 
+  - seo-marvel-mar2020
+  ---
 
 # Prepare your organization's network for Microsoft Teams 
 
