@@ -156,8 +156,9 @@ items:
     sent back; video traffic and application or desktop sharing are received and
     distributed to the attendees.
 
-    Important
-    During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the "Join Teams Meeting" button rather than dialing in by using the PSTN conference numbers or by using "Call me at."" This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
+    <strong>Important!</strong>
+
+    During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
 
     Planning bandwidth isn’t covered in this training, but it will be crucial for
     the user experience.
