@@ -181,9 +181,9 @@ To distinguish between Local Media Optimization modes, the tenant administrator 
 
 If you have good connection between branch offices, the recommended mode is Always bypass.
 
-For example, assume a company has a centralized SIP trunk in Amsterdam, which serves 30 countries and has good connectivity between all these 30 sites and local users. There is also a branch in Hungary where a local SBC is deployed.
+For example, assume a company has a centralized SIP trunk in Amsterdam, which serves 30 countries and has good connectivity between all these 30 sites and local users. There is also a branch in Germany where a local SBC is deployed.
 
-The SBC in Hungary can be configured in “Always bypass” mode. Users, regardless of their location, will connect to the SBC directly through the internal IP address of the SBC (for example from Germany to Hungary, see pictures below for reference).
+The SBC in Germany can be configured in “Always bypass” mode. Users, regardless of their location, will connect to the SBC directly through the internal IP address of the SBC (for example from France to Germany; see the diagram below for reference).
 
 The following describes two scenarios:
 
@@ -191,24 +191,24 @@ The following describes two scenarios:
 
 - Scenario 2. The user and gateways are in different sites.
 
-#### Scenario 1. The user is in the same location as the SBC defined in Voice Routing Policy
+#### Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. User is in Hungary within the same subnet of corporate network as local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of Hungarian calls (with area code +36) they should be routed to local Hungarian SBC. All other calls and, in case Hungarian SBC fails, Hungarian calls should be routed to proxy SBC in Amsterdam. Table below summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +36) they should be routed to the local SBC in Germany. All other calls and, in case the SBC in Germany fails, calls in Germany should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Hungary | +36 1 437 2800 | Priority 1: ^\+36(\d{8})$ -HUsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | HUsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass | Teams User <–> HUsbc.contoso.com |
+| Germany | +49 1 437 2800 | Priority 1: ^\+49(\d{8})$ -DEsbc.contoso.com<br>Priority 2: .* - proxysbc.contoso.com| DEsbc.contoso.com – Always Bypass <br>proxysbc.contoso.com – Always Bypass | Teams User <–> DEsbc.contoso.com |
 
-The diagram below shows the high-level traffic flow for internal user in Hungary making a Direct Routing phone call through Teams to Hungarian number. 
+The diagram below shows the high-level traffic flow for the internal user in Germany making a Direct Routing phone call through Teams to the number in Germany. 
 
-- The user’s Teams client communicates with Phone System directly through the REST AP. 
+- The user’s Teams client communicates with Phone System directly through the REST API. 
 
 - The media generated during the call flows to the local SBC’s internal IP address. 
 
 - The local SBC redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
 
-- The proxy SBC is visible to Phone System through the external IP address only and routes the flow from the downstream SBC (in this case, the local SBC in Hungary) to Phone System. 
+- The proxy SBC is visible to Phone System through the external IP address only and routes the flow from the downstream SBC (in this case, the local SBC in Germany) to Phone System. 
 
 - The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimization.
 
@@ -220,20 +220,20 @@ Diagram 5.  Traffic flow with “Always Bypass” mode and the user is in the �
 
 #### Scenario 2: The user and gateways are in different sites
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Hungary. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in Germany, located in the local branch office, is making a Direct Routing call to Hungary. Voice routing policies specify that Hungarian calls (with area code +36) should be routed to the local Hungarian SBC. All other calls--and, in case the Hungarian SBC fails, all Hungarian calls--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in France, located in the local branch office, is making a Direct Routing call to Germany. Voice routing policies specify that calls to Germany (with area code +36) should be routed to the local SBC in Germany. All other calls--and, in case the SBC in Germany fails, all calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Germany | +36 1 437 2800 | Priority 1: ^\+36(\d{8})$ -HUsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com |  HUsbc.contoso.com – Always Bypass proxysbc.contoso.com – Always Bypass | Teams User <– > HUsbc.contoso.com |
+| France | +49 1 437 2800 | Priority 1: ^\+49(\d{8})$ -DEsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com |  DEsbc.contoso.com  – Always Bypass proxysbc.contoso.com – Always Bypass | Teams User <– > DEsbc.contoso.com  |
 
-The following diagram shows the high-level traffic flow when the internal Hungarian user located in Germany makes a Direct Routing phone call through Teams to the Hungarian number. 
+The following diagram shows the high-level traffic flow when the internal German user located in France makes a Direct Routing phone call through Teams to the number in Germany. 
 
 - The user’s Teams client communicates with Phone System directly through the REST API.
 
-- The media generated during the call flows directly to Hungarian SBC’s internal IP address. 
+- The media generated during the call flows directly to SBC in Germany's internal IP address. 
 
-- The Hungarian SBC redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
+- The SBC in Germany redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
 
 Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in “home” site but in the internal network
 
