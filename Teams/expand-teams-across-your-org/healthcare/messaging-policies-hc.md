@@ -23,13 +23,13 @@ description: Get started with Secure Messaging for Healthcare organizations
 
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams, and are part of the overall deployment of Secure Messaging for Healthcare organizations like Hospitals, clinics, or doctor's offices, where having a message picked up and acted upon in a timely manner is crucial, as is knowing when crucial messages are read.
 
-You can use the default policy or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization. For example, you may choose to only allow certain job roles to use these features (perhaps doctors and nurses only) and other workers (like the janitorial or kitchen staff) to get a more limited set of features. Decide for yourself what needs your organization has, the guidance here is at most a suggestion.
+You can use the global (Org-wide default) policy or create one or more custom messaging policies for people in your organization. Users in your organization will automatically get the global policy unless you create and assign a custom policy. After you create a custom policy, assign it a user or groups of users in your organization. For example, you may choose to only allow certain job roles to use these features (perhaps doctors and nurses only) and other workers (like the janitorial or kitchen staff) to get a more limited set of features. Decide for yourself what needs your organization has, the guidance here is at most a suggestion.
 
-Policies can be easily managed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
+Policies can be easily managed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging policies** in the left navigation pane.
 
- ![Screenshot of the Messaging policies page](../../media/messaging-policies-image1.png)
+ ![Screenshot of the Messaging policies page](../../media/hc-messaging-policy-admin-center.png)
 
-To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
+To edit the existing default Messaging policy for your organization, click **Global (Org-wide default)**, and then make your changes. To create a new custom messaging policy, click **Add** and then select your settings. Choose **Save** when you are done.
 
 ![Screenshot of messaging policy settings](../../media/hc-messaging-policy.png)
 
