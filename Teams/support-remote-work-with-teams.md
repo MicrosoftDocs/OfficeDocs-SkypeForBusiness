@@ -109,7 +109,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Optimize Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Optimize Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
 
