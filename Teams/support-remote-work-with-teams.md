@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
@@ -105,6 +106,13 @@ Share these assets and videos with your end users to help them get started quick
    - Microsoft Security blog (March 26, 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Optimize Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
+
 
     
 3. Read our new content about working remotely and share it with your users:
