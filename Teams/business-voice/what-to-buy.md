@@ -1,5 +1,5 @@
 ---
-title: What do I need to buy to use Microsoft 365 Business Voice?
+title: What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -20,9 +20,14 @@ appliesto:
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
 ---
 
-# What do I need to buy to use Microsoft 365 Business Voice?
+# What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?
 
 ## Microsoft 365 Business Voice licenses
+
+> [!IMPORTANT]
+> The information in this article is applicable to Business Voice with Calling Plan only. Business Voice with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
+>
+> If your tenant is located in a country or region that doesn't support Business Voice with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
 To make or receive phone calls to or from *external* phone numbers in Microsoft Teams, the user needs a Microsoft 365 Business Voice license. The license gives them access to all the features that they need to make or receive phone calls, host audio conferences, and more.
 
