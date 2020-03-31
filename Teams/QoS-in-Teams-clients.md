@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Learn how to prepare the network for your organization for Quality of Service (QoS) in Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

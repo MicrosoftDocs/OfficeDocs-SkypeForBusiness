@@ -17,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: 
 description: Learn how to customize a Secure Messaging policy that can include read receipts and priority notifications.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Secure Messaging for Healthcare organizations

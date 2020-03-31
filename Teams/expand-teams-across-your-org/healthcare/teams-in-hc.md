@@ -17,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: 
 description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams for Healthcare organizations

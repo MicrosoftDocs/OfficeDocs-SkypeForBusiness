@@ -9,6 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Use this timeline to help your organization's transition from StaffHub teams to Shifts in Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal

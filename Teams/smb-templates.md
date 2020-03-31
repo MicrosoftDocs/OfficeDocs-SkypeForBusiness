@@ -16,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: lavenkat
 description: Use Microsoft Teams predefined templates to quickly and easily create teams for small and medium businesses.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Small and Medium Businesses

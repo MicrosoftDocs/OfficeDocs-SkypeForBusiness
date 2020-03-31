@@ -17,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: 
 description: Use Microsoft Teams templates to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Healthcare organizations
