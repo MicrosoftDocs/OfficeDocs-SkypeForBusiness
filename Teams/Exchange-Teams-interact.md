@@ -29,7 +29,7 @@ Users' Exchange mailboxes can be hosted online or on-premises. However, some fea
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, and add and configure connectors, tabs, and bots.
 
-Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can’t modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or above, is running on-premises.
 
@@ -65,7 +65,7 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 
 - SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
-- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Office 365.
+- Users must be assigned a SharePoint Online license if they want to share files in chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in channels, but users are unable to share files in chats without OneDrive for Business storage in Office 365.
 
 - Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
 
@@ -88,6 +88,8 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- - When in **Teams Only** mode, Teams is set as the default SIP/Tel protocol handler for Outlook for Mac. 
 
 > [!TIP]
 > For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
