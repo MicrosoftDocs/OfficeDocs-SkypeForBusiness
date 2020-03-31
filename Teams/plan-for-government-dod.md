@@ -1,7 +1,7 @@
 ---
 title: Plan for Microsoft 365 Government - DoD deployments - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,7 +21,7 @@ appliesto:
 
 # Plan for Microsoft 365 Government - DoD deployments
 
-This guidance is for IT pros who are driving deployments of Office 365 in US federal government entities or other entities that handle data that’s subject to government regulations and requirements, where the use of Microsoft 365 Government – DoD is appropriate to meet these requirements.
+This guidance is for IT pros who are driving deployments of Office 365 in US federal government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government – DoD is appropriate to meet these requirements.
 
 > [!NOTE]
 > If your organization has already met the Microsoft 365 Government – DoD eligibility requirements and applied for and been accepted into the program, you can skip steps 1 and 2 and go directly to step 3.
@@ -30,18 +30,18 @@ This guidance is for IT pros who are driving deployments of Office 365 in US fed
 
 The Microsoft 365 Government - DoD environment provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Office 365, organizations benefit from the following features that are unique to Microsoft 365 Government – DoD:
 
-- Your organization’s customer content is logically segregated from customer content in the commercial Office 365 services from Microsoft.
-- Your organization’s customer content is stored within the United States.
-- Access to your organization’s customer content is restricted to screened Microsoft personnel.
+- Your organization's customer content is logically segregated from customer content in the commercial Office 365 services from Microsoft.
+- Your organization's customer content is stored within the United States.
+- Access to your organization's customer content is restricted to screened Microsoft personnel.
 - Microsoft 365 Government – DoD complies with certifications and accreditations that are required for US Public Sector customers.
 
 You can find more information about the Microsoft 365 Government – DoD offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform’s benefits, which are centered on meeting compliance requirements within the United States.
+The [Office 365 US Government service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform's benefits, which are centered on meeting compliance requirements within the United States.
 
 
 > [!Tip]
-> You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization’s needs.
+> You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization's needs.
 
 
 |    |     |
@@ -62,7 +62,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll need to modify any of the default Microsoft 365 Government - DoD security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll need to modify any of the default Microsoft 365 Government - DoD security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
 
 ## Step 4. Understand which Teams capabilities are currently available in Microsoft 365 Government - DoD
@@ -137,7 +137,7 @@ To accommodate the requirements of our government cloud customers, there are som
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization’s needs.</li></ul> |
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization's needs.</li></ul> |
 
 ## Step 5. Plan for governance
 
@@ -149,6 +149,6 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 ## Step 6. Deploy Teams for collaboration
 
-After you’ve been onboarded to Microsoft 365 Government – DoD, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](How-to-roll-out-teams.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
+After you've been onboarded to Microsoft 365 Government – DoD, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](How-to-roll-out-teams.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
 
 You can also work with [FastTrack](https://www.microsoft.com/fasttrack) or your chosen partner to onboard the service.

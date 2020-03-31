@@ -1,7 +1,7 @@
 ---
 title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
