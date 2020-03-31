@@ -82,7 +82,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 </ul>
 
-### Set up and manage Shifts
+### Set up and manage Shifts for your organization
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -115,6 +115,65 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shifts Help for Firstline Workers</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+## Featured training
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://support.office.com/earticle/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>What is Shifts?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a Shifts schedule</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+        <a href="https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing a video"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Manage a Shifts schedule</h3>
                     </div>
                 </div>
             </div>
