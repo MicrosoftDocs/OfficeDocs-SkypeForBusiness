@@ -83,31 +83,6 @@ items:
     3. **Capture feedback from your educators** on their experience with Office 365 and Teams. Use a channel in Teams when your school has fewer than 5000 individuals. Use a public group in Yammer when your school is larger than this current membership limit in Teams. 
     4. **Nurture your champions and highlight your wins.** Reward educators for embracing these new tools and using them in innovative ways. This, above anything, ensures continued adoption of Office 365 and Teams.
 
-- title: Turn on or turn off Microsoft Teams licenses
-  durationInMinutes: 2
-  content: |
-
-    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Office 365 Admin Center to enable Microsoft Teams for your school.
-
-## Enable Microsoft Teams for your school
-
-    1. Sign in to <a href="https://portal.office.com" target="_blank">Office 365</a> with your work or school account.
-    2. Click **Admin** to go to the [Office 365 admin center](https://aka.ms/enableteamssetting).
-    3. Go to **Settings > Settings** >**Microsoft Teams**. Check **Show all** if you don't see settings right away.
-
-    **Figure 1** - Select Microsoft Teams from the list of services
-
-    ![Select the Microsoft Teams from the list of services](media/enable-microsoft-teams.png).
-
-    4.	Check the **Education – Faculty and Staff** option to enable Teams for faculty and check the **Education – Student** option to enable Teams for students. 
-
-     **Figure 2** - Check the correct option for the license type that you want to configure
-
-     ![Select the Microsoft Teams license that you want to configure](media/enable-microsoft-teams-3.png)
-
-     5.	Click **Save changes**.
-
-    You can find more info about how to control which users in your school can use Microsoft Teams, turn off group creation, configure tenant-level settings, and more by reading the Guide for IT admins getting started guide in the [Meet Microsoft Teams](https://aka.ms/MeetTeamsEdu) page.
 
 - title: Configure Teams for your school
   durationInMinutes: 7
