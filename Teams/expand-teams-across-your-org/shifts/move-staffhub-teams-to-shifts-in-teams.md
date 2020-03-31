@@ -18,7 +18,7 @@ ms.collection:
   - SPO_Content
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams

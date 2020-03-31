@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
   - seo-marvel-mar2020
 description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file

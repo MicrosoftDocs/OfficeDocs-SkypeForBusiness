@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change in Microsoft Teams. "
 ---
 

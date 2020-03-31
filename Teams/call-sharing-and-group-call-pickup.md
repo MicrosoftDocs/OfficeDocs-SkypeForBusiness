@@ -21,7 +21,7 @@ ms.custom:
  - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
  - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
  - Phone System
- - seo-marvel-<mar>
+ - seo-marvel-mar2020
 description: "Call sharing and group call pickup let users share incoming calls with colleagues so that calls can be captured when the user is unavailable."
 ---
 

@@ -15,7 +15,7 @@ f1.keywords:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 

@@ -14,7 +14,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - NewAdminCenter_Update
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

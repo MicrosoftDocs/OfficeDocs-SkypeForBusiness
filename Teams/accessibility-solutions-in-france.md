@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 hideEdit: true
 description: "Fournir des expériences accessibles à tous est au cœur de la mission de Microsoft, qui consiste à  permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion."
 ---

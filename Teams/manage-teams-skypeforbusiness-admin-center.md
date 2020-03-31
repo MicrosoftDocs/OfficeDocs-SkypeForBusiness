@@ -15,7 +15,7 @@ f1.keywords:
 ms.custom: 
   - NewAdminCenter_Update
   - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

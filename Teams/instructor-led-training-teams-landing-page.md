@@ -12,8 +12,9 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
- - seo-marvel-<mar>
+ms.custom: 
+ - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 ---
