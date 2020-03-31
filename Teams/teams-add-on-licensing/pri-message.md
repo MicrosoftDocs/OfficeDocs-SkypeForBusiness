@@ -31,7 +31,7 @@ Originally announced in June 2019, priority notifications for Teams grants users
 
 **To assist our customers and community in their crisis response efforts, we're extending the priority notifications promotion until the second half of 2020.** Ongoing access to priority notifications will be available to facilitate in crisis response and recovery efforts. After the promotion period ends, licensed users will be able to send priority notifications according to the terms of their subscription.
 
-Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited urgent messages with priority notifications, regardless of license. [[Learn more about priority notifications]](../messaging-policies-in-teams.md).
+Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited urgent messages with priority notifications, regardless of license. [Learn more about priority notifications](../messaging-policies-in-teams.md).
 
 |Segment| |Sending up to 5 messages included per user per month| Sending unlimited messages included per user per month|
 |---|---|---|---|
