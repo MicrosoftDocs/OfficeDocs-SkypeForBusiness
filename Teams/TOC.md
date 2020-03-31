@@ -294,8 +294,8 @@
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
 ### Local Media Optimization for Direct Routing
-#### [Plan for Local Media Optimization](direct-routing-media-optimizationon.md)
-#### [Configure Local Media Optimization](direct-routing-media-optimizationon-configure.md)
+#### [Plan for Local Media Optimization](direct-routing-media-optimization.md)
+#### [Configure Local Media Optimization](direct-routing-media-optimization-configure.md)
 
 ### Monitor and troubleshoot Direct Routing
 #### [Overview](direct-routing-monitor-and-troubleshoot.md)
