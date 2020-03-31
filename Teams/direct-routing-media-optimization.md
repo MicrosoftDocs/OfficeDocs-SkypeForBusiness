@@ -195,7 +195,7 @@ The following describes two scenarios:
 
 #### Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +36) they should be routed to the local SBC in Germany. All other calls and, in case the SBC in Germany fails, calls in Germany should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +36) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
@@ -233,7 +233,7 @@ The following diagram shows the high-level traffic flow when the internal German
 
 - The user’s Teams client communicates with Phone System directly through the REST API.
 
-- The media generated during the call flows directly to SBC in Germany's internal IP address. 
+- The media generated during the call flows directly to the SBC in Germany's internal IP address. 
 
 - The SBC in Germany redirects the flow to the proxy SBC in Amsterdam and to the connected local PSTN network. 
 
@@ -247,7 +247,7 @@ If there are bad connections between local branch offices but good connections b
 
 For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible belcause the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
 
-To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. Direct connection between local branch offices is bad, but there is a good connection between each local branch office and regional SBC in Singapore. For the regional SBC, the administrator chooses ‘Always Bypass’ mode, and for the local downstream SBCs, the administrator chooses ‘Only For Local Users’ mode.
+To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. The direct connection between the local branch offices is not good, but there is a good connection between each local branch office and the regional SBC in Singapore. For the regional SBC, the administrator chooses ‘Always Bypass’ mode, and for the local downstream SBCs, the administrator chooses ‘Only For Local Users’ mode.
 
 The following describes two scenarios:
 
@@ -257,7 +257,7 @@ The following describes two scenarios:
 
 #### Scenario 1. The user is in the same location as the SBC defined in Voice Routing Policy
 
-Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The user is in Vietnam within the same location as the local SBC. Voice routing policies specify that Vietnamese calls (with area code +84) should be routed to the local Vietnamese SBC. All other calls--and, if the Vietnamese SBC fails, Vietnamese calls--should be routed to the proxy SBC in Singapore. The following table summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The user is in Vietnam within the same location as the local SBC. Voice routing policies specify that calls in Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, if the SBC in Vietnam fails, calls in Vietnam--should be routed to the proxy SBC in Singapore. The following table summarizes the example configuration. 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
@@ -282,14 +282,14 @@ Diagram 7. Traffic flow with “Only For Local Users” mode and the user is in 
 
 #### Scenario 2. The user and gateways are in different sites
 
-Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Voice routing policies specify that Vietnamese calls (with area code +84) should be routed to the local Vietnamese SBC. All other calls--and, in case the Vietnamese SBC fails, Vietnamese calls--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Voice routing policies specify that calls to Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, in case the SBC in Vietnam fails, calls to Vietnam--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
 
 | User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Indonesia | +84 4 3926 3000 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Only For Local Users <br> proxysbc.contoso.com – Always Bypass | Teams User <–> proxysbc.contoso.com <–> VNsbc.contoso.com |
 
 
-In the following diagram, the internal user, while on premises in the Indonesian branch office, makes a Direct Routing phone call through Teams to a Vietnamese number. 
+In the following diagram, the internal user, while on premises in the Indonesian branch office, makes a Direct Routing phone call through Teams to a number in Vietnam. 
 
 - The user’s Teams client communicates with Phone System directly through the REST API.
 
