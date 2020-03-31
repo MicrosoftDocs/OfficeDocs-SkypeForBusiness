@@ -39,7 +39,7 @@ Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://
 
 - Use the **Announcement Email** to tell users that Teams is available for them.
 
-- Send **Your First Day in Teams Email** to help users feel productive quickly.
+- Send **Countdown - Your First Day in Teams Email** to help users feel productive quickly.
 
 - A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams.
 
