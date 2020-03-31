@@ -38,6 +38,10 @@ Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice Presid
 
 Although Microsoft is doing what we can to avoid problems, an unexpected peak in an area due to a spread of the virus may create temporary issues. While we're actively monitoring and adding capacity as needed, you might feel impact until we're able to add capacity in those areas. Also, there are external situations that Microsoft doesn't have control over. We foresee ISPs and telephony carriers are also taking proactive action, but they may or may not have the capacity to handle more load with more people working from home. We are working across industry with a focus on networking infrastructure. If you have an outage concern, check the Message Center to learn about any current outages.
 
+### What can admins do if attendees are having trouble joining meetings by dialing in, such as if calls aren't getting through?
+
+During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
+
 ### What are the general Microsoft guidelines regarding network optimization for Microsoft 365? Some of my users in China are having a bad experience; what should I do to optimize our network?
 
 Because of unique needs in China, customers may need to take specific actions:
