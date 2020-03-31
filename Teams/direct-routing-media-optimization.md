@@ -76,9 +76,9 @@ Note: All values within examples, tables, or diagrams are presented only for ill
 
 | Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
-| Amsterdam | centralsbc.contoso.com | centralsbc.contoso.com | centralsbc.contoso.com |52.114.76.71| 192.168.5.5 |
-| Germany | Not deployed | 192.168.6.0/24 | 52.114.76.74 | Not deployed |  Not deployed |
-| France | Not deployed | 192.168.7.0/24 | 52.114.76.75 | Not deployed |  Not deployed ||||
+| Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
+| Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
+| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed ||||
 
 
 ### Internal user
@@ -124,9 +124,11 @@ When a user is in the local branch office where the downstream SBC is located, t
 
 | Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
-| Singapore | 192.168.3.0/24 | 99.66.240.130 | proxysbc.contoso.com | 96.66.240.133 | 192.168.3.5 |
-| Vietnam | 192.168.1.0/24 | 99.66.240.110 | VNsbc.contoso.com | None |  192.168.1.5 |
-| Indonesia  | 192.168.2.0/24 | 99.66.240.120 | IDsbc.contoso.com | None |  192.168.2.5 |
+| Vietnam | 192.168.1.0/24 | 172.16.240.110 | VNsbc.contoso.com | None |  192.168.1.5 |
+| Indonesia  | 192.168.2.0/24 | 172.16.240.120 | IDsbc.contoso.com | None |  192.168.2.5 |
+| Singapore | 192.168.3.0/24 | 172.16.240.130 | proxysbc.contoso.com | 172.16.240.133 | 192.168.3.5 |
+
+
 
 ### Internal user 
 
