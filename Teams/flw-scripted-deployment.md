@@ -168,7 +168,9 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 |Teams Desktop Client  |         |Teams Mobile Client  |
 |---------|---------|---------|
-|:::image type="content" source="media/FLW-Teams-Desktop-Client.png" alt-text="A screenshot of the Teams desktop client with apps pinned to the app bar.":::     |         |:::image type="content" source="media/FLW-Teams-Mobile-Client.png" alt-text="A screenshot of the Teams mobile client with apps pinned to the bottom bar.":::         |
+|![A screenshot of the Teams desktop client with apps pinned to the *app* bar.](media/FLW-Teams-Desktop-Client.png)         |         |![A screenshot of the Teams desktop client with apps pinned to the *bottom* bar.](media/FLW-Teams-Mobile-Client.png) |
+
+
 
 *Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically be assigned to the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Firstline Workers and Firstline Managers, in order to provide them a simpler and more streamlined experience to ease onboarding a large number of users simultaneously. You can choose to customize the experience as your business needs.
 
