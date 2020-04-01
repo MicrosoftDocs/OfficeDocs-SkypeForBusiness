@@ -81,8 +81,7 @@ Begin by following the steps below:
      **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
      **Resource Url**: {{subdomain}}.sharepoint.com
 
-        :::image type="content" source="media/tracyp-standalone-static-tabs-using-sharepoint-online-sites-1.PNG" alt-text="Graphic showing the Web App Single Sign-on screen with AAD Application ID GUID and Resource URL for getting the Auth token for SSO, populated.":::
-        
+    ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
 13. **Save** these properties and then navigate to **Test and distribute**. 
 
