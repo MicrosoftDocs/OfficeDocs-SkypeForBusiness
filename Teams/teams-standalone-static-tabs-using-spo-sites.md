@@ -69,7 +69,7 @@ Begin by following the steps below:
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}} 
 
-    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?spfx=true&dest=/sites/ContosoHub 
+    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
 11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
 
@@ -166,7 +166,7 @@ The JSON file you generate will look something like the one below.
 
             "name": "Contoso Net", 
 
-            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?spfx=true&dest=/sites/ContosoNet/", 
+            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
 
             "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet", 
 
@@ -184,7 +184,7 @@ The JSON file you generate will look something like the one below.
 
             "name": "Team Contoso", 
 
-            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?spfx=true&dest=/teams/TeamContoso/", 
+            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/", 
 
             "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso", 
 
