@@ -18,7 +18,8 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about add-on licenses and features for GOV, EDU and non-profit organization plans. "
+  - seo-marvel-mar2020
+description: Learn about add-on licenses and features for government, education, and non-profit organization plans. 
 ---
 
 # GOV, EDU, and non-profit organizations
