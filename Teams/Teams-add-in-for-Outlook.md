@@ -68,7 +68,7 @@ See [Schedule meetings with FindTime](https://support.office.com/article/schedul
 
 ## Authentication requirements
 
-The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
+The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
 
 - If Modern Authentication is not configured for your organization, you should configure Modern Authentication.
 - If Modern Authentication is configured, but they canceled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.
@@ -100,6 +100,10 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 | Skype for Business with Teams collaboration and meetings | Teams |
 | Teams only | Teams |
 
+### Set whether users  use the Teams add-in or the Skype for Business add-in for meetings 
+
+As an admin, you can configure a Teams meeting policy setting to control whether users who are in Islands mode use the Teams meeting add-in or the Skype for Business add-in in Outlook. Create a new policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and assign it to users or edit an existing policy using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). 
+
 ## Other considerations
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
@@ -115,7 +119,7 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Ensure all available updates for Outlook desktop client have been applied.
 - Restart the Teams desktop client.
 - Sign out and then sign back in to the Teams desktop client.
-- Restart the Outlook desktop client. (Make sure Outlook isn’t running in admin mode.)
+- Restart the Outlook desktop client. (Make sure Outlook isn't running in admin mode.)
 - Make sure the logged-in user account name does not contain spaces. (This is a known issue, and will be fixed in a future update.)
 - Make sure single sign-on (SSO) is enabled.
 
