@@ -15,7 +15,7 @@ f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Learn more about Direct Routing, and understand the necessary deployment decisions that you will face.
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

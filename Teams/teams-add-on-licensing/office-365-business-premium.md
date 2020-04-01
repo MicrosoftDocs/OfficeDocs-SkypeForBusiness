@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 description: Learn about add-on licenses, their features, and how to buy these licenses for Office 365 Business Premium plans. 
 ---
 

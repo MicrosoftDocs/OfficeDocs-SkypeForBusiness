@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn about Dynamic team membership based on AAD.
+description: Learn how Microsoft Teams supports teams associated with Office 365 groups by using dynamic membership.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -35,7 +36,7 @@ Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect
 > - Rules can define who is a team member, but not who is a team owner.
 > - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on team and channel sizes.
 > - Owners will not be able to add or remove users as members of the team, since members are defined by dynamic group rules.
-> -	Members will not be able to leave teams backed by dynamic groups.
+> -    Members will not be able to leave teams backed by dynamic groups.
 
 
 ## Creating and managing an Office 365 group with dynamic membership

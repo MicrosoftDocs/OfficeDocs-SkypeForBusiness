@@ -20,7 +20,8 @@ f1.keywords:
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about features available in Microsoft Teams Rooms. "
+  - seo-marvel-apr2020
+description: Learn about the available licenses for different types of calling and meeting features in Microsoft Teams Rooms. 
 ---
 
 # Teams Meeting Room Licensing Update
