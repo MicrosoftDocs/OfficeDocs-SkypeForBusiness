@@ -126,6 +126,9 @@ Channels are dedicated sections within a team to keep conversations organized by
 - **Hospitality** - Front Desk, Maintenance, Housekeeping, Valet and Baggage, Corporate Communications, Training
 - **Retail** - Front of Store, Back of Store, Corporate Communications, Training
 
+> [!NOTE]
+> Channels should not be thought of as a security boundary. They are a means of organizing your workers for the purposes of collaboration.
+
 *Best Practice Discussion*: When designing your channel structure, it's important to keep things simple, especially when you're looking to onboard a lot of users. Resist the urge to create channels for every situation, role, or topic in order to minimize the need for training. Pick 3-5 channels at most to get started. Additional channels can easily be created as the need arises. In fact, it's okay to just use the General channel alone for now!
 
 #### Steps to Create Channels for Teams
@@ -163,10 +166,9 @@ As an admin, you can use app setup policies to do the following:
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-
-TABLE HERE
-
-
+|Teams Desktop Client  |         |Teams Mobile Client  |
+|---------|---------|---------|
+|:::image type="content" source="media/FLW-Teams-Desktop-Client.png" alt-text="A screenshot of the Teams desktop client with apps pinned to the app bar.":::     |         |:::image type="content" source="media/FLW-Teams-Mobile-Client.png" alt-text="A screenshot of the Teams mobile client with apps pinned to the bottom bar.":::         |
 
 *Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically be assigned to the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Firstline Workers and Firstline Managers, in order to provide them a simpler and more streamlined experience to ease onboarding a large number of users simultaneously. You can choose to customize the experience as your business needs.
 
