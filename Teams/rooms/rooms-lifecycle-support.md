@@ -56,7 +56,7 @@ The following table shows recommended and supported versions of Windows 10 that 
 ||||||
 
  
-&#x2780; The Windows 10 1809 version is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after nightly reboot. This issue was addressed in the Windows 10 1903 version.  
+&#x2780; Windows 10, version 1809 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after a nightly reboot. This issue was addressed in Windows 10 version 1903.  
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
