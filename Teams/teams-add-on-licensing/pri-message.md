@@ -23,7 +23,7 @@ description: "Learn about the messaging features and capabilities available in t
 
 # Premium Messaging add-on licensing
 
-The Premium Messaging SKU is available starting April 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams.
+The Premium Messaging SKU is available starting July 1, 2020. Premium Messaging can be added to a paid Microsoft 365 or Office 365 subscription that includes Microsoft Teams.
 
 Note that Premium Messaging isn't available for US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations at this time.
 
@@ -39,7 +39,7 @@ The availability of priority notifications is as follows:
 
 - **Receive priority notifications**: All Teams users can receive unlimited priority notifications.
 - **Send priority notifications**: For the remainder of the priority notifications preview trial period that ends March 31, 2020, all users who have a paid subscription that includes Teams can also send unlimited priority notifications.
-Starting April 1, 2020 users who don't have the Premium Messaging add-on SKU can send priority notifications as follows:
+Starting July 1, 2020 users who don't have the Premium Messaging add-on SKU can send priority notifications as follows:
 
 |Segment  |Sending up to 5 messages included per user per month |
 |---------|---------|
