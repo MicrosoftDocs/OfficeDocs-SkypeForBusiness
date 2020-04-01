@@ -13,7 +13,9 @@ search.appverid: MET150
 description: Use online training resources to bring support staff onboard for the experiment phase of your Teams adoption.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

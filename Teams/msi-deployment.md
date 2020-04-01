@@ -14,6 +14,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

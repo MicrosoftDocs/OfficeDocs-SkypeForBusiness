@@ -16,6 +16,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Use this list of known issues for the Microsoft Teams client app and admin experience to troubleshoot issues within your organization.
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

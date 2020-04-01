@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to control how organizers can use toll-free numbers for their Audio Conferencing Bridge meetings."
+  - seo-marvel-mar2020
+description: Learn how to control how organizers can use toll-free numbers for their Audio Conferencing Bridge meetings.
 ---
 
 # Disabling toll-free numbers for specific Teams users

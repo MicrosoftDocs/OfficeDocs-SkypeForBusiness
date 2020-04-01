@@ -15,6 +15,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Devices
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
