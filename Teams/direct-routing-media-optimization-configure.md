@@ -41,7 +41,7 @@ To configure the user and the SBC sites, you will need to:
 
 1. [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses).  
 
-2. [Define the network regions, network sites, and subnets](#define-network-regions,-sites,-and-subnets).
+2. [Define the network topology](#define-the-network-topology) by configuring the network regions, network sites, and network subnets.
 
 3. [Define the virtual network topology](#define-the-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
 
@@ -76,9 +76,9 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description
 ```
 
 
-## Define network regions, sites, and subnets
+## Define the network topology
 
-This section describes how to define the network regions, site, and subnets for your network topology.
+This section describes how to define the network regions, network sites, and network subnets for your network topology.
 
 All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
@@ -168,9 +168,7 @@ X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMod
 
 The following shows call flows for two modes:
 
- [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses)
-
-- [Always bypass](#always-bypass-mode)
+- [Always Bypass](#always-bypass-mode)
 - [Only for local users](#only-for-local-users-mode)
 
 ### Always Bypass mode
@@ -179,7 +177,7 @@ Always Bypass mode is the simplest option to configure. The tenant administrator
 
 The examples show Always bypass mode for the following scenarios:
 
-- [Outbound calls and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-SBC-with-always-bypass)
+- [Outbound calls and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 - [Inbound calls and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 - [Outbound calls and the user is external](#outbound-calls-and-the-user-is-external-with-always-bypass)
 - [Inbound calls and the user is external](#inbound-calls-and-the-user-is-external-with-always-bypass)
@@ -276,10 +274,10 @@ Local media candidates of the target SBC will be offered only if a user is in th
 
 The following scenarios are described:
 
-- [Outbound call and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
-- [Inbound call and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc- with-only-for-local-users)
-- [User is not at the same location as the SBC but is in the corporate network](#user-is-not-at-the-same-location-as-the-sbc- but-is-in-the-corporate-network-with-Only-for-local users)
-- [Inbound call and the user is internal but is not at the same location as the SBC](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
+- [Outbound calls and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
+- [Inbound calls and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
+- [User is not at the same location as the SBC but is in the corporate network](#user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local users)
+- [Inbound calls and the user is internal but is not at the same location as the SBC](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
 
 The following table shows end user configuration and action:
 
@@ -292,9 +290,6 @@ The following table shows end user configuration and action:
 | Mode | User | Site | Call direction |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |	Internal |Same as SBC	| Outbound |
-
-
-[Manage external trusted IP addresses](#manage-external-trusted-ip-addresses) 
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-SBC).
 
@@ -326,7 +321,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 ![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
 
 
-#### Inbound call and the  user is internal but is not at the same location as the SBC with Only for local users
+#### Inbound call and the user is internal but is not at the same location as the SBC with Only for local users
 
 | Mode |	User |	Site |	Call direction |
 |:------------|:-------|:-------|:-------|
