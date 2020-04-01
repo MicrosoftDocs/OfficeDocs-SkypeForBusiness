@@ -50,7 +50,6 @@ The CSV file must contain the following three columns, in the following order, s
 
 After you add the three required columns, you can add attribute columns. These attributes can be used to filter nodes so that you can more easily select the ones you want to publish tasks to. There are two ways to define your attributes, depending on whether values for that attribute are mutually exclusive.
 
-
 |Ways to add attributes|Description |Example  |
 |---|---------|---------|
 |If the values for an attribute are mutually exclusive, the column name you specify becomes the name of the attribute.|Each row can contain one value for that attribute, and each value can be up to 100 characters long. The set of attribute values you specify in the attribute column will be displayed as available filter values for that attribute in Teams apps that use the hierarchy. Each attribute column can have up to 50 unique values. |You want users to be able to filter stores by layout. The values for this attribute are mutually exclusive because a store can have only one layout. <br><br>To add an attribute to filter stores by layout, add a column named Store layout. In this example, values for the Store layout attribute are Compact, Standard, and Large.
@@ -80,7 +79,11 @@ When you add a bucket column, note the following:
 
 ### Example
 
-Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the three required columns, `TargetName`, `ParentName`, and `InternalID`, three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`, and three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`. 
+Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the following:
+
+- Three required columns named `TargetName`, `ParentName`, and `InternalID`
+- Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
+- Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`. 
 
 The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attributes can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
