@@ -1,5 +1,5 @@
 ---
-title: Teams and Skype interoperability
+title: Create a Teams 'Intranet Portal app' from a SharePoint Online site or page
 author: LanaChin
 ms.author: heidip
 manager: serdars
@@ -14,7 +14,7 @@ description: Take an existing SharePoint Online site or page and create a standa
 localization_priority: Normal
 ---
 
-# Create a Teams 'Intranet Portal tab' from a SharePoint Online site or page
+# Create a Teams 'Intranet Portal app' from a SharePoint Online site or page
 
 Use the steps in this article to create a standalone and static app inside of Teams that links to the intranet site for your org.
 
@@ -79,11 +79,10 @@ Begin by following the steps below:
      
      Example:
      **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
-     **Resource Url**: {{subdomain}}.sharepoint.com 
+     **Resource Url**: {{subdomain}}.sharepoint.com
 
         :::image type="content" source="media/tracyp-standalone-static-tabs-using-sharepoint-online-sites-1.PNG" alt-text="Graphic showing the Web App Single Sign-on screen with AAD Application ID GUID and Resource URL for getting the Auth token for SSO, populated.":::
-
-![Graphic showing the Web App Single Sign-on screen.](media/tracyp-standalone-static-tabs-using-sharepoint-online-sites-1.PNG"  "Tracyp_standalone-static-tabs-using-sharepoint-online-sites-1.PNG")
+        
 
 13. **Save** these properties and then navigate to **Test and distribute**. 
 
