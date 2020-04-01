@@ -140,5 +140,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### Related topics
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
-
+- [Teams PowerShell Overview](../teams-powershell-overview.md)
 
