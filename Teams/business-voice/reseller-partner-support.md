@@ -1,5 +1,5 @@
 ---
-title: What do I need to buy to use Microsoft 365 Business Voice?
+title: Get help from a Microsoft reseller or partner
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -23,24 +23,26 @@ no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Mic
 # Get help from a Microsoft reseller or partner
 
 > [!IMPORTANT]
-> The information in this article is applicable to Business Voice **without** Calling Plan only. Business Voice with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
+> The information in this article is applicable to Business Voice **without** Calling Plan only. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
 >
-> If your tenant is located in a country or region that doesn't support Business Voice with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
+> If your tenant is located in a country or region that supports Business Voice with Calling Plan, check out [Use the Getting Started wizard to set up Business Voice](use-getting-started-wizard.md).
 
-## Microsoft 365 Business Voice licenses
+Setting up Business Voice without Calling Plan requires the configuration of Phone System Direct Routing. Direct Routing enables interoperability between your on-premises telephone hardware; Microsoft Phone System, which is the core feature of Business Voice; and your third-party Public Switched Telephone Network (PSTN) provider. Because Direct Routing requires a deep understanding of Microsoft Phone System, PSTN connectivity, networking, and other technical skills, we recommend that you use a Microsoft partner or seller to set it up. Additionally, Business Voice without Calling Plan licenses are only available from Microsoft partners and resellers.
 
-To make or receive phone calls to or from *external* phone numbers in Microsoft Teams, the user needs a Microsoft 365 Business Voice license. The license gives them access to all the features that they need to make or receive phone calls, host audio conferences, and more.
+A Microsoft partner or reseller can:
 
-Users who don't need to make or receive phone calls to or from external phone numbers just need Teams. They don't need a Microsoft 365 Business Voice license.
+- Obtain the correct Business Voice licenses for your tenant and phone users
+- Help you understand the technical requirements for setting up Business Voice
+- Coordinate with your telephone provider to make sure your phone numbers are properly set up for use with Business Voice
+- Set up communication between your on-premises telephony hardware and Microsoft 365
+- Help you set up Business Voice features like Call Queues, Auto Attendant, Voice Mail, and more
 
-For example, you might have 10 factory employees and 5 office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Microsoft 365 Business Voice license.
+When contacting a Microsoft partner or reseller about setting up Business Voice without Calling Plan, you'll need to provide them with information such as:
 
-Business Voice includes a Domestic Calling Plan, which gives you a certain number of minutes per month to make calls within your country or region. You can purchase an International Calling Plan if you want to make calls to other countries or regions. You use *Communications Credits* to pay for an International Calling Plan, extra minutes per month for a Domestic Calling Plan, and toll-free numbers. You'll learn more about Calling Plans and Communications Credits later in this article.
+- How many users, phones, and other devices, will need to make and receive calls to and from external phone numbers
+- Details about your existing phone system
+- Details about your connection between your phone system and your PSTN provider
+- Your Internet connection
+- Unique design considerations about your organization such as the need to support call centers, phone system call menus (for example, press 1 for Sales, press 2 for Technical Support), conference rooms, phone kiosks, and so on.
+- How many locations your existing phone system supports and how connectivity is set up between them
 
-To learn about Business Voice features, see [Microsoft 365 Business Voice service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
-
-To buy Microsoft 365 Business Voice licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), and then go to **Billing** > **Purchase services**.
-
-## Maximum number of supported users
-
-The Business Voice license that's available with small and medium-sized Microsoft 365 subscriptions supports up to 300 licensed users.
