@@ -28,6 +28,10 @@ To configure Media Path Optimization, the following steps are required. You can 
 1. Configure the user and the SBC sites
 2. Configure the SBCs for Local Media Optimization according to your SBC vendor specification
 
+The following diagram shows the network setup used in the examples throughout this article.
+
+![Diagram showing network setup for examples](media/direct-routing-media-op-9.png "Network setup for examples")
+
 
 ## Configure the user and the SBC sites
 
@@ -44,23 +48,18 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration from the Microsoft side. For information on SBC configuration, see your SBC vendor documenation.
-.
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
+
 Media Path Optimization is supported by following SBC manufacturers:
 
 INSERT TABLE - prior to publishing with SBC vendors and links to configuration spec
 
-Diagram 1. The network setup used in the examples throughout this article:
 
-![Diagram showing network setup for examples](media/direct-routing-media-op-9.png "Network setup for examples")
-
-
-Note: All parameters are case sensitive. Make sure same casing is used during setup.
 
 
 ## Manage external trusted IP addresses
 
-To add public IP addresses of each local branch office, use the New-CsTenantTrustedIPAddress cmdlet . This is the IP address used to connect each local branch office to Microsoft Phone System. Trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
+To add the public IP addresses for each local branch office, use the New-CsTenantTrustedIPAddress cmdlet. This is the IP address used to connect each local branch office to Microsoft Phone System. Trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -77,6 +76,8 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description
 
 
 ## Define network regions, sites, and subnets
+
+All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 ### Define network regions
 
@@ -164,21 +165,21 @@ Table 1. X-MS Headers introduced in Direct Routing on Invites and Re-Invites if 
 
 The following shows call flows for two modes:
 
-- Mode 1:  Always bypass
-- Mode 2:  Only for local users
+- Always bypass
+- Only for local users
 
-### Mode 1: Always Bypass
+### Always Bypass mode
 
 Always Bypass mode is the simplest option to configure.  The tenant administrator can configure a single site for all users and SBCs if all SBCs can be reachable from any site.
 
-Examples show Always bypass mode for the following:
+The examples show Always bypass mode for the following:
 
 - Outbound calls when the user is in the same location as the SBC
 - Inbound calls when the user is in the same location as the SBC
 - Outbound call when the user is external
-- Incoming call when the user is external
+- Inbound call when the user is external
 
-Table 2. Example FQDN and IP addresses 
+The following table shows the FQDN and IP addresses used in the examples:
 
 | FQDN | External IP address | Internal IP Address | Internal subnet | Location | External NAT for Internet egress |
 |:------------|:-------|:-------|:-------|:-------|:-------|
@@ -190,26 +191,22 @@ Table 2. Example FQDN and IP addresses
 
 #### Outbound calls when the user is in the same location as the SBC
 
-Table 3. For outbound calls; AlwaysBypass mode. User in the same location as the SBC
-
 | Mode |	User |	Location |	Call direction |
 |:------------|:-------|:-------| :-------|
 | AlwaysBypass |	Internal |	The same site as SBC |	Outbound |
 
-
-
-Table 4.  End user configuration and action
+The following table shows the end user configuration and action:
 
 | User physical location| User makes or receives a call to/from number | User phone number	| Voice Routing Policy | Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam |	+84 4 3926 3000	| +84 4 5555 5555	| Priority 1: ^\+84(\d{9})$ -VMsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com	| VMsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
 
 
-Diagram 2 shows the SIP ladder for an outbound call; Always bypass mode; with user in the same location as the SBC.
+The following diagram shows the SIP ladder for an outbound call with Always bypass mode, and the user in the same location as the SBC.
 
 ![Diagram showing outbound calls](media/direct-routing-media-op-10.png "Outbound calls")
 
-Table 5 shows the X-MS headers sent by Direct Routing:
+The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
@@ -218,138 +215,115 @@ X-MS-MediaPath: VMsbc.contoso.com |	Specifies which SBC the client must traverse
 X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
 
 
-#### For inbound calls when the user is in the same location as the SBC
-
- Incoming call. User in the same location as the SBC
-
-Table 6.  
+#### Inbound calls and the user is in the same location as the SBC
 
 | Mode | 	User | 	Location | 	Call direction |
 |:------------|:-------|:-------|:-------|:-------|
-| AlwaysBypass |	Internal | The same site as SBC |Incoming |
+| AlwaysBypass |	Internal | The same site as SBC | Inbound |
 
 
-On an incoming call, the location of the user is unknown, and the SBC must guess where the user is. If the guess is not correct, a re-invite will be required. This case assumes user is internal, media can flow directly, and no further actions are required (re-invite).
-The SBC paired to Direct Routing service reports originating SBC location by providing Record-Route and Contact fields. Based on these fields the media path is calculated by Direct Routing.
+On an inbound call, the location of the user is unknown, and the SBC must guess where the user is. If the guess is not correct, a re-invite will be required. This case assumes user is internal, media can flow directly, and no further actions are required (re-invite).
+The SBC connected to the Direct Routing service reports the originating SBC location by providing Record-Route and Contact fields. Based on these fields, the media path is calculated by Direct Routing.
 
 Note: Given that a user can have multiple endpoints support of 183 is not possible. The Direct Routing will always use 180 Ringing in this case. 
 
-Diagram 3 shows the SIP Ladder. Mode AlwaysBypass. Incoming call. User in the same location as the SBC.
+The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user in the same location as the SBC.
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-11.png)
 
 
 #### Outbound calls and user is external
 
-Teble 7...
-
-
 | Mode |	User |	Site |	Call direction
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |	External |	N/A | 	Outgoing |
+AlwaysBypass |	External |	N/A | Outbound |
 
 
-Diagram 4 shows the SIP ladder; Case AlwaysBypass; Outgoing call and user is external.
+The following diagram shows the SIP ladder for an outbound call with AlwaysBypass mode, and the user is external:
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-12.png)
 
-
-
-The Direct Routing sends the following information:
-
-Table 8. X-MS headers send by Direct Routing 
-
+The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
 Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.| X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
 X-MS-MediaPath: proxysbc.contoso.com, VMsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 
-#### Inbound calls and user is external
-
-Table 9
+#### Inbound calls and the user is external
 
 | Mode | User | Site |	Call direction |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |	External |	N/A |	Incoming |
+AlwaysBypass |	External |	N/A |	Inbound |
 
-For an incoming call, the SBC connected to Direct Routing needs to send a re-invite (by default local media candidates always offered) if location of the user is external.
-X-MediaPath calculated based on Record-Route and the SBC user specified.
+For an inbound call, the SBC connected to Direct Routing needs to send a re-invite (by default, local media candidates are always offered) if the location of the user is external.  The X-MediaPath is calculated based on Record-Route and the SBC user specified.
 
-Diagram 5 shows the SIP Ladder; AlwaysBypass mode; incoming call; and user is external.
+The following diagram shows the SIP ladder for an inbound call with AlwaysBypass mode, and the user is external.
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-13.png)
 
 
+### Only for local users mode
 
-### Mode 2: Only for local users
+Local media candidates of the target SBC will be offered only if a user is in the same location as the SBC. In all other cases, media will flow through either an internal or external IP of the proxy SBC.
 
-Local media candidates of the target SBC will be offered only if a user is in the same location as the SBC. In all other cases media will flow via either internal or external IP of the proxy SBC
-Table 10 . End user configuration and action
-
-Table 10
+The following table shows end user configuration and action:
 
 | User physical location |	User makes or receives a call to/from number |	User phone number |	Voice Routing Policy |	Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam | +84 4 3926  3000 |	+84 4 5555 5555 | Priority 1: ^\+84(\d{9})$ -VMsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | VMsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
 
+- Outbund call and user is in the same location as the SBC
+- Inbound call and user is in the same location as the SBC
+- User is not at the same location as the SBC but is in the corporate network
+- Inbound call and internal user but user is not at the same location as the SBC
 
-
-#### Outgoing call and user is in the same location as the SBC
-
-Table 11
+#### Outbound call and user is in the same location as the SBC
 
 | Mode | User | Site | Call direction |
 |:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers |	Internal |Same as SBC	| Outgoing
+| OnlyForLocalUsers |	Internal |Same as SBC	| Outbound |
 
 
+[Manage external trusted IP addresses](#manage-external-trusted-ip-addresses) 
 
-Diagram 6 shows OnlyForLocalUsers mode; outgoing call; and the user is in the same location as the SBC. Same flow as with Mode Always Bypass (Picture 10).
+The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-SBC).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
 
 
-#### Incoming call and user is in the same location as the SBC
-
-Table 12
+#### Inbound call and user is in the same location as the SBC
 
 | Mode | User | Site | Call direction |
 |:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers |	Internal | Same as SBC |Incoming |
+| OnlyForLocalUsers |	Internal | Same as SBC | Inbound |
 
-
-Diagram 7 shows OnlyForLocalUsers mode; incoming call; and the user is in the same location as the SBC. Same flow as with Mode Always Bypass (Picture 11).
+The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-SBC).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
 
 
-#### User is not at the same location as the SBC but in corporate network
-
-
-Mode OnlyForLocalUsers. Outgoing call, internal user but not at the same location as the SBC
+#### User is not at the same location as the SBC but is in the corporate network
 
 | Mode | User | Site |Call direction |
 |:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers	 | Internal |	Different from SBC | Outgoing |
+| OnlyForLocalUsers	 | Internal |	Different from SBC | Outbound |
 
 Direct routing calculates X-MediaPath based on the reported location of the user and mode configured on the SBC.
 
 
-Diagram 8 shows OnlyForLocalUsers mode; outgoing call; and the internal user is not at the same location as the SBC.
+The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
 
 
-
-
-#### Incoming call. Internal user but not at the same location as the SBC**
+#### Inbound call and internal user but user is not at the same location as the SBC
 
 | Mode |	User |	Site |	Call direction |
 |:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers	| Internal |	Different from SBC |	Incoming |
+| OnlyForLocalUsers	| Internal |	Different from SBC |	Inbound |
 
-Diagram 9 shows OnlyForLocalUsers mode. Incoming call. Internal user but not at the same location as the SBC
+The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-17.png)
 
