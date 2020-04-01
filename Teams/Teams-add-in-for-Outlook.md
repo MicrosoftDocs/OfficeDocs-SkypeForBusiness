@@ -59,6 +59,7 @@ The Teams Meeting button shows up in latest builds of the Outlook iOS and Androi
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
 ## Teams Meeting add-in in and FindTime for Outlook
+
 FindTime is an add-in for Outlook that helps users reach a consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
 
 > [!NOTE]  
@@ -100,9 +101,18 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 | Skype for Business with Teams collaboration and meetings | Teams |
 | Teams only | Teams |
 
-### Set whether users  use the Teams add-in or the Skype for Business add-in for meetings 
+### Set whether users can only use Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-in
 
-As an admin, you can configure a Teams meeting policy setting to control whether users who are in Islands mode use the Teams meeting add-in or the Skype for Business add-in in Outlook. Create a new policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and assign it to users or edit an existing policy using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). 
+As an admin, you can configure a Teams meeting policy setting to control which meeting add-in is used for meetings for users who are in Islands mode. You can specify whether users can only use the Teams meeting add-in or both the Teams add-in and the Skype for Business add-in to schedule meetings in Outlook.
+
+You can edit an existing Teams meeting policy using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) or create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+To specify which meeting add-in you want to be available to users, set the **PreferredOutlookAddInsForIslandsMode** parameter as follows:
+
+- Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. This is the default value.
+- Set the parameter to **TeamsOnly** to enable only the Teams Meeting add-in in Outlook. All past and future meeting join links are migrated to Teams meeting join links. This doesn't affect presence, chat, or PSTN calling, which means that users will continue to use Skype for Business for these capabilities.
+
+  If you switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
 ## Other considerations
 
