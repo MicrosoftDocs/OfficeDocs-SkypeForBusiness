@@ -52,7 +52,7 @@ Ready to roll out Teams to your users? You can find these great email templates 
 
 Share these assets and videos with your end users to help them get started quickly:
 
-  - Download the **[Quick Start Guide for Government](https:aka.ms/quickstartgov)** to learn the Teams basics.
+  - Download the **[Quick Start Guide for Government](https://aka.ms/quickstartgov)** to learn the Teams basics.
 
   - Watch the **[Short Quick Start Videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** for a walkthrough of Teams and **[Meetings Videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams.
 
