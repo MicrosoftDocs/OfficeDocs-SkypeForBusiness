@@ -50,7 +50,7 @@ To configure the user and the SBC sites, you will need to:
 
 This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
 
-Local Media Optimization  is supported by following SBC manufacturers:
+Local Media Optimization is supported by the following SBC vendors:
 
 **INSERT TABLE - STILL NEED TABLE OF SBC VENDORS AND LINKS TO CONFIGURATION SPECS**
 
@@ -80,7 +80,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description
 
 This section describes how to define the network regions, network sites, and network subnets for your network topology.
 
-All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
+All parameters are case sensitive so you need to ensure that you use the same case that was used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 ### Define network regions
 
@@ -229,7 +229,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 On an inbound call, the location of the user is unknown, and the SBC must guess where the user is. If the guess is not correct, a re-invite will be required. This case assumes user is internal, media can flow directly, and no further actions are required (re-invite).
 The SBC connected to the Direct Routing service reports the originating SBC location by providing Record-Route and Contact fields. Based on these fields, the media path is calculated by Direct Routing.
 
-Note: Given that a user can have multiple endpoints support of 183 is not possible. The Direct Routing will always use 180 Ringing in this case. 
+Note: Given that a user can have multiple endpoints, support of 183 is not possible. The Direct Routing will always use 180 Ringing in this case. 
 
 The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user is in the same location as the SBC.
 
@@ -276,7 +276,7 @@ The following scenarios are described:
 
 - [Outbound calls and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
 - [Inbound calls and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
-- [User is not at the same location as the SBC but is in the corporate network](#user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local users)
+- [User is not at the same location as the SBC but is in the corporate network](#user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users)
 - [Inbound calls and the user is internal but is not at the same location as the SBC](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
 
 The following table shows end user configuration and action:
@@ -291,7 +291,7 @@ The following table shows end user configuration and action:
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |	Internal |Same as SBC	| Outbound |
 
-The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-SBC).
+The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-sbc).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
 
@@ -302,7 +302,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |	Internal | Same as SBC | Inbound |
 
-The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-SBC).
+The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
 
