@@ -25,7 +25,7 @@ Microsoft 365 Business Voice is available in over 70 countries and regions. All 
 
 Due to local laws and regulations, some Business Voice features, specifically Calling Plans and the Getting Started Wizard, are available only in certain countries and regions. Whether these features are available in your tenant's location determines whether you can set up Business Voice on your own, or if you need help from a Microsoft partner or reseller.
 
-In countries and regions **with** support for Calling Plans and the Getting Started Wizard, you can buy Business Voice from Microsoft, then set up or transfer your existing phone numbers to Microsoft. Doing this will let you manage all of your phone numbers in Microsoft 365. After your move to Business Voice is finished:
+In countries and regions **with** support for Calling Plans and the Getting Started Wizard, you can buy Business Voice from Microsoft and then set up or transfer your existing phone numbers to Microsoft. Doing this will let you manage all of your phone numbers in Microsoft 365. After your move to Business Voice is finished:
 
 - Microsoft 365 becomes your telephone provider. Long distance and toll-free charges are billed directly by Microsoft.
 - You no longer need to subscribe to a third-party telephone provider to manage your phone numbers.
@@ -46,13 +46,15 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 
 | Country or region    | Business Voice<br> with Calling Plan | Business Voice<br> without Calling Plan<br>(Direct routing) | Getting Started wizard |
 |----------------------|--------------------------------------|-----------------------------------------|------------------------|
+| Canada               | X                                    |                                         | X                      |
+| United Kingdom       | X                                    |                                         | X                      |
+| United States        | X                                    |                                         | X                      |
 | Argentina            |                                      | X                                       |                        |
 | Austria              |                                      | X                                       |                        |
 | Belgium              |                                      | X                                       |                        |
 | Bosnia & Herzegovina |                                      | X                                       |                        |
 | Brazil               |                                      | X                                       |                        |
 | Bulgaria             |                                      | X                                       |                        |
-| Canada               | X                                    |                                         | X                      |
 | Chile                |                                      | X                                       |                        |
 | Colombia             |                                      | X                                       |                        |
 | Costa Rica           |                                      | X                                       |                        |
@@ -113,10 +115,8 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | Turkey               |                                      | X                                       |                        |
 | Ukraine              |                                      | X                                       |                        |
 | United Arab Emirates |                                      | X                                       |                        |
-| United Kingdom       | X                                    |                                         | X                      |
-| United States        | X                                    |                                         | X                      |
 | Uruguay              |                                      | X                                       |                        |
 | Venezuela            |                                      | X                                       |                        |
 | Vietnam              |                                      | X                                       |                        |
 
-<sup>1</sup> Calling Plans can be purchased directly from Softbank. For more information about how to purchase Calling Plans, contact Softbank directly.
+<sup>1</sup> Calling Plans can be purchased from Softbank. For more information about how to purchase Calling Plans, contact Softbank directly.
