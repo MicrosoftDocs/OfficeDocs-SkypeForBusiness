@@ -87,7 +87,7 @@ The following table highlights core capabilities and features offered in live ev
 |Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
 |Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 |Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |X |N/A |
-|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  | (coming soon) |N/A |
+|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |N/A |
 |Presenter – PSTN access |X |&#x2714; (Teams) |N/A |
 |Present a screen |X |&#x2714; (Teams) |N/A |
 |Present a PowerPoint (PPT sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
