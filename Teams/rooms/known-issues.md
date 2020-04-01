@@ -26,14 +26,14 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
 |  App out of date         |    The Microsoft Teams Rooms console shows a "system config out of date" error.                |   [Use the Microsoft Teams Rooms recovery tool](recovery-tool.md)             |  None |
-
+|  Device updated to Windows 10 version 1809   |    Device upgraded from Windows 10 1803 to unsupported version 1809 and not upgrading to 1903 |   This can be caused if the [Group Policy or MDM setting for DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/en-us/windows/deployment/update/waas-configure-wufb) is set to the maximum of 365 days. Such a setting prevents an 1803 device from taking any newer updates that have not been in market for 365 days. Windows 10 1809 version is not support for Microsoft Teams Rooms, and has been in-market for 365 days as of March 27th, 2020 while version 1903, will not have been in-market until May 20th, 2020. The fix for this situation is to **remove** any Group Policy or MDM settings for deferring updates - this will allow the system to upgrade to the latest, supported OS version. It is imperitive that the Group Policy or MDM setting be **removed** (left completely unconfigured) and **not set to 0**. If the policy is set to 0, the system will take latest available version which may not yet be supported (sucha as 1909). |  None |
 
 <a name="OS-conflicts"> </a>  
 ## User interface 
 
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
-|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs after the Windows 10 Creators Update (version 1703) is installed on the Surface Pro 4 on which Microsoft Teams Rooms is running. | To work around this issue, manually open the virtual keyboard. To do this, follow these steps:<br><br> **1.** Tap and hold the task bar, and then tap **Show touch keyboard** button. A keyboard icon should appear on the right side of the task bar. <br><br> **2.** Tap the keyboard icon to open the virtual keyboard. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs in Windows 10 1903. | Install 2020-04 Cummulative Update for Windows 10 version 1903 for x64-based Systems through Windows Updates  | None | 
 
 <a name="Hardware"> </a>  
 ## Hardware
@@ -64,9 +64,6 @@ If your Microsoft Teams Rooms device loses trust with the domain, you won't be a
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0. 
 ***
 Microsoft Teams Rooms is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure that you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
-***
-Windows 10 1903 is not yet offered on Microsoft Teams Rooms devices from Crestron due to issues with a graphics driver.
-
 ***
 <a name="See"> </a>  
 ## See also
