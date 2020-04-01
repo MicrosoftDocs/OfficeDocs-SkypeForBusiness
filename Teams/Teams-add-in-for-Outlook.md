@@ -103,7 +103,7 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 
 ### Set whether users can only use Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins
 
-As an admin, you can configure a Teams meeting policy setting to control which meeting add-in is used for meetings for users who are in Islands mode. You can specify whether users can only use the Teams meeting add-in or both the Teams add-in and the Skype for Business add-in to schedule meetings in Outlook.
+As an admin, you can configure a Teams meeting policy setting to control which add-in is used for meetings for users who are in Islands mode. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
 
 You can edit an existing Teams meeting policy using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet or create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet and assign it to users.
 
