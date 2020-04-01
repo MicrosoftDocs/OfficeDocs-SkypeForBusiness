@@ -31,26 +31,18 @@ To configure Media Path Optimization, the following steps are required. You can 
 
 ## Configure the user and the SBC sites
 
-To configure the user and the SBC sites, you will:
+To configure the user and the SBC sites, you will need to:
 
-1. Manage external trusted IP addresses.  
+1. [Manage external trusted IP addresses](#manage-external-trusted-IP-addresses)  
 
    External trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. These need to be added for each site.
 
-2. Define the network regions, network sites, and subnets. See 
+2. [Define the network regions, network sites, and subnets](#define-network-regions-sites-and-subnets).
 
-3. Define the virtual network topology by assigning SBC(s) to site(s) with relevant modes and proxy SBC values by using the following command:
-
-      ```
-      Set-CSOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID>  -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC <proxy SBC FQDN or $null>
-      ```
-   Note the following: 
-   - If the customer has a single SBC, the -ProxySBC parameter must be either mandatory $null or SBC FQDN value (Central SBC with centralized trunks scenario).
-   - The -MediaBypass parameter must be set to $true in order to support Local Media Optimization.
-   - If the SBC doesn’t have the -BypassMode parameter set, X-MS headers will not be sent. 
+3. [Define the virtual network topology](#define-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
 
 
-## Configure SBC(s) for Media Path Optimization according to the SBC vendor specification**
+## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
 This article describes configuration from the Microsoft side. For information on SBC configuration, see your SBC vendor documenation.
 .
@@ -64,6 +56,24 @@ Diagram 1. The network setup used in the examples throughout this article:
 
 
 Note: All parameters are case sensitive. Make sure same casing is used during setup.
+
+
+## Manage external trusted IP addresses
+
+To add public IP addresses of each local branch office, use the New-CsTenantTrustedIPAddress cmdlet . This is the IP address used to connect each local branch office to Microsoft Phone System. Trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
+
+```
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
+```
+
+
+Example of adding trusted IP addresses.
+
+```
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -MaskBits 24 -Description "Vietnam site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -MaskBits 24 -Description "Indonesia site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description "Singapore site trusted IP"
+```
 
 
 ## Define network regions, sites, and subnets
@@ -114,33 +124,19 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “I
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
 ```
 
-### Add external trusted IP addresses for each local branch office
+## Define the virtual network topology 
 
-To add public IP addresses of each local branch offic, use the New-CsTenantTrustedIPAddress cmdlet . This is the IP address used to connect each local branch office to Microsoft Phone System. Trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
-
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
-```
-
-
-Example of adding trusted IP addresses.
-
-```
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -MaskBits 24 -Description "Vietnam site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -MaskBits 24 -Description "Indonesia site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description "Singapore site trusted IP"
-```
-
-
-## Assigning SBCs to the sites
-
-The tenant administrator also specifies the network sites for the PSTN gateway objects by using the following command:
+The tenant administrator defines the virtual network topology by specifying the network sites for the PSTN gateway objects using the Set-CsOnlinePSTNGateway command:
 
 ```
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
-Note: Al parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
+Note the following: 
+   - If the customer has a single SBC, the -ProxySBC parameter must be either mandatory $null or SBC FQDN value (Central SBC with centralized trunks scenario).
+   - The -MediaBypass parameter must be set to $true in order to support Local Media Optimization.
+   - If the SBC doesn’t have the -BypassMode parameter set, X-MS headers will not be sent. 
+   - All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 The following example adds three SBCs to network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
 
@@ -166,7 +162,7 @@ Table 1. X-MS Headers introduced in Direct Routing on Invites and Re-Invites if 
 
 ## Call flows 
 
-The following shows call flows for 
+The following shows call flows for two modes:
 
 - Mode 1:  Always bypass
 - Mode 2:  Only for local users
@@ -174,6 +170,13 @@ The following shows call flows for
 ### Mode 1: Always Bypass
 
 Always Bypass mode is the simplest option to configure.  The tenant administrator can configure a single site for all users and SBCs if all SBCs can be reachable from any site.
+
+Examples show Always bypass mode for the following:
+
+- Outbound calls when the user is in the same location as the SBC
+- Inbound calls when the user is in the same location as the SBC
+- Outbound call when the user is external
+- Incoming call when the user is external
 
 Table 2. Example FQDN and IP addresses 
 
@@ -183,17 +186,11 @@ Table 2. Example FQDN and IP addresses
 | IDsbc.contoso.com | None | 192.168.2.5 | 192.168.2.0/24 | Indonesia | 172.16.240.120 |
 | proxysbc.contoso.com | 172.16.240.133 | 192.168.3.5 | 192.168.3.0/24 | Singapore | 172.16.240.130 |
 
-Examples show Always bypass mode for the following:
 
-- Outbound calls and the user is in the same location as the SBC
-- Inbound calls and the user is in the same location as the SBC
-- Outbound call and the user is external
-- Incoming call and the user is external
 
-#### Outbound calls and the user is in the same location as the SBC
+#### Outbound calls when the user is in the same location as the SBC
 
 Table 3. For outbound calls; AlwaysBypass mode. User in the same location as the SBC
-
 
 | Mode |	User |	Location |	Call direction |
 |:------------|:-------|:-------| :-------|
@@ -202,7 +199,6 @@ Table 3. For outbound calls; AlwaysBypass mode. User in the same location as the
 
 
 Table 4.  End user configuration and action
-
 
 | User physical location| User makes or receives a call to/from number | User phone number	| Voice Routing Policy | Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
@@ -222,9 +218,9 @@ X-MS-MediaPath: VMsbc.contoso.com |	Specifies which SBC the client must traverse
 X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
 
 
-#### For inbound calls and user is in the same location as the SBC
+#### For inbound calls when the user is in the same location as the SBC
 
- Incoming call. User in the same location as the SBC**
+ Incoming call. User in the same location as the SBC
 
 Table 6.  
 
