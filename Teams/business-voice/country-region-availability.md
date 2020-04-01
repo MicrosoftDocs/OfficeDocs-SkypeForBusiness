@@ -23,11 +23,11 @@ appliesto:
 
 Microsoft 365 Business Voice is available in over 70 countries and regions. All of the countries and regions in which Business Voice is available are listed in the table later in this article.
 
-Due to local laws and regulations, some Business Voice features, specifically Calling Plans and the Getting Started Wizard, are available only in certain countries and regions. Whether these features are available in your tenant's location determines whether you can set up Business Voice on your own, or if you need help from a Microsoft partner or reseller.
+Some Business Voice features, specifically Calling Plans and the Getting Started Wizard, are available only in certain countries and regions. Whether these features are available in your tenant's location determines whether you can set up Business Voice on your own, or if you need help from a Microsoft partner or reseller.
 
 In countries and regions **with** support for Calling Plans and the Getting Started Wizard, you can buy Business Voice from Microsoft and then set up or transfer your existing phone numbers to Microsoft. Doing this will let you manage all of your phone numbers in Microsoft 365. After your move to Business Voice is finished:
 
-- Microsoft 365 becomes your telephone provider. Long distance and toll-free charges are billed directly by Microsoft.
+- Microsoft 365 becomes your telephone provider and domestic local and long distance calls are included in Business Voice.  Toll free and international long distance charges are billed directly by Microsoft.
 - You no longer need to subscribe to a third-party telephone provider to manage your phone numbers.
 - You no longer need any on-premises telephony equipment (other than end-user devices such as desk phones).
 
@@ -76,7 +76,7 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | Ireland              |                                      | X                                       |                        |
 | Israel               |                                      | X                                       |                        |
 | Italy                |                                      | X                                       |                        |
-| Japan                | X<sup>1</sup>                        | X                                       |                        |
+| Japan                |                                      | X<sup>1</sup>                           |                        |
 | Jordan               |                                      | X                                       |                        |
 | Kenya                |                                      | X                                       |                        |
 | Latvia               |                                      | X                                       |                        |
@@ -119,4 +119,4 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | Venezuela            |                                      | X                                       |                        |
 | Vietnam              |                                      | X                                       |                        |
 
-<sup>1</sup> Calling Plans can be purchased from Softbank. For more information about how to purchase Calling Plans, contact Softbank directly.
+<sup>1</sup> Business Voice includes the licenses for Phone System and Audio Conferencing. Even though you can't get a Calling Plan through us, you can contact <Softbank> to purchase your licenses and get your phone numbers.
