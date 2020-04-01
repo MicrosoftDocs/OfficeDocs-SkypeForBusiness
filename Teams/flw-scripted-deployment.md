@@ -170,8 +170,6 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 |---------|---------|---------|
 |![A screenshot of the Teams desktop client with apps pinned to the *app* bar.](media/FLW-Teams-Desktop-Client.png)         |         |![A screenshot of the Teams desktop client with apps pinned to the *bottom* bar.](media/FLW-Teams-Mobile-Client.png) |
 
-
-
 *Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically be assigned to the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Firstline Workers and Firstline Managers, in order to provide them a simpler and more streamlined experience to ease onboarding a large number of users simultaneously. You can choose to customize the experience as your business needs.
 
 #### Create the Firstline Manager app setup policy
@@ -181,9 +179,15 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
 3. Enter a name and description for the policy. As an example: **Firstline Manager App Setup Policy**.
+![Firstline manager app setup policy image.](media/FLW-FLM-App-Setup-Policy.png)
+
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
+![Allow user pinning switch image.](media/FLW-Allow-User-Pinning.png)
+
 6. If it's not already listed, add the **Shifts** app. For more information about **Shifts**, click [here](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/FLW-Add-Pinned-Apps.png)
+
 7. Remove Calling, if it appears. Note: removing this feature will not disable it for the user, but will prevent it from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams App Bar, and then click **Save**.
     1. Activity
@@ -191,6 +195,7 @@ The following settings can be customized to meet your business needs. We have ch
     1. Teams
     1. Calendar
     1. Shifts
+    ![Screenshot of the manager apps list in order.](media/FLW-Manager-Pinned-Apps.png)
 
 #### Create the Firstline Worker app setup policy
 
@@ -199,15 +204,22 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
 3. Enter a name and description for the policy. As an example: **Firstline Worker App Setup Policy**.
+![Firstline worker app setup policy image.](media/FLW-FLW-App-Setup-Policy.png)
+
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
+![Allow user pinning switch image.](media/FLW-Allow-User-Pinning.png)
+
 6. If it's not already listed, add the **Shifts** app. For more information about **Shifts**, click here.
+![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/FLW-Add-Pinned-Apps.png)
+
 7. Remove Meetings and Calling, if they appear. Note: removing these features will not disable them for the user, but will prevent them from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams App Bar, and then click **Save**.
     1. Activity
     1. Chat
     1. Teams
     1. Shifts
+    ![Screenshot of the worker apps list in order.](media/FLW-Worker-Pinned-Apps.png)
 
 ### Create app permission policies
 
@@ -221,6 +233,8 @@ The following settings can be customized to meet your business needs. These are 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
+![Shows the add app permission policy page, with sections for Microsoft, third-party, and tenant apps.](media/FLW-add-app-permission-policy.png)
+
 3. Enter a name and description for the policy. As an example: Firstline Manager App Permission Policy.
 4. Under Microsoft apps, select **Allow all apps**.
 5. Under Third-party apps, select **Allow all apps**.
@@ -233,6 +247,8 @@ The following settings can be customized to meet your business needs. These are 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
+![Shows the add app permission policy page, with sections for Microsoft, third-party, and tenant apps.](media/FLW-add-app-permission-policy.png)
+
 3. Enter a name and description for the policy. As an example: Firstline Worker App Permission Policy.
 4. Under Microsoft apps, select **Allow all apps**.
 5. Under Third-party apps, select **Block all apps**.
