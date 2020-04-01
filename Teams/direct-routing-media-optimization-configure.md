@@ -33,11 +33,11 @@ To configure Media Path Optimization, the following steps are required. You can 
 
 To configure the user and the SBC sites, you will need to:
 
-1. [Manage external trusted IP addresses](#manage-external-trusted-IP-addresses)  
+1. [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses)  
 
    External trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. These need to be added for each site.
 
-2. [Define the network regions, network sites, and subnets](#define-network-regions-sites-and-subnets).
+2. [Define the network regions, network sites, and subnets](#define-network-regions,-sites,-and-subnets).
 
 3. [Define the virtual network topology](#define-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
 
