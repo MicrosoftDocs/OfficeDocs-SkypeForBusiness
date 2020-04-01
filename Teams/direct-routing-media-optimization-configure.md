@@ -23,10 +23,12 @@ appliesto:
 
 Configuration for Local Media Optimization is based on network settings that are common to other cloud voice features, such as Location-Based Routing and dynamic emergency calling. To learn more about network regions, network sites, network subnets, and trusted IP addresses, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
-To configure Media Path Optimization, the following steps are required. You can use the Teams Admin Center or PowerShell. For details, see [Manage your network topology](manage-your-network-topology.md).
+Before you configure Local Media Optimization, see [Local media Optimization for Direct Routing](direct-routing-media-optimization.md).  
 
-1. Configure the user and the SBC sites
-2. Configure the SBCs for Local Media Optimization according to your SBC vendor specification
+To configure Local Media Optimization, the following steps are required. You can use the Teams Admin Center or PowerShell. For details, see [Manage your network topology](manage-your-network-topology.md).
+
+1. Configure the user and the SBC sites (as described in this article).
+2. Configure the SBCs for Local Media Optimization (according to your SBC vendor specification).
 
 The following diagram shows the network setup used in the examples throughout this article.
 
@@ -37,29 +39,28 @@ The following diagram shows the network setup used in the examples throughout th
 
 To configure the user and the SBC sites, you will need to:
 
-1. [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses)  
-
-   External trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. These need to be added for each site.
+1. [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses).  
 
 2. [Define the network regions, network sites, and subnets](#define-network-regions,-sites,-and-subnets).
 
-3. [Define the virtual network topology](#define-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
+3. [Define the virtual network topology](#define-the-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
 
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
 This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
 
-Media Path Optimization is supported by following SBC manufacturers:
+Local Media Optimization  is supported by following SBC manufacturers:
 
-INSERT TABLE - prior to publishing with SBC vendors and links to configuration spec
-
-
+**INSERT TABLE - STILL NEED TABLE OF SBC VENDORS AND LINKS TO CONFIGURATION SPECS**
 
 
 ## Manage external trusted IP addresses
 
-To add the public IP addresses for each local branch office, use the New-CsTenantTrustedIPAddress cmdlet. This is the IP address used to connect each local branch office to Microsoft Phone System. Trusted IPs are the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
+External trusted IPs are the Internet external IPs of the enterprise network. These IPs are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You need to add these IPs for each site.
+
+To add the public IP addresses for each local branch office, use the New-CsTenantTrustedIPAddress cmdlet. This is the IP address used to connect each local branch office to Microsoft Phone System. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
+
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -77,11 +78,13 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description
 
 ## Define network regions, sites, and subnets
 
+This section describes how to define the network regions, site, and subnets for your network topology.
+
 All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 ### Define network regions
 
-To define network regions, use the New-CsTenantNetworkRegion cmdlet. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite <site ID> parameter is optional.
+To define network regions, use the New-CsTenantNetworkRegion cmdlet. The RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite <site ID> parameter is optional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -101,7 +104,7 @@ To define network sites, use the New-CsTenantNetworkSite cmdlet. Each network si
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-The following example creates three new network sites, Vietnam, Indonesia and Singapore in the APAC region:
+The following example creates three new network sites, Vietnam, Indonesia, and Singapore in the APAC region:
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
@@ -139,7 +142,7 @@ Note the following:
    - If the SBC doesn’t have the -BypassMode parameter set, X-MS headers will not be sent. 
    - All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
-The following example adds three SBCs to network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
+The following example adds three SBCs to the network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
 
 ```
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
@@ -149,9 +152,9 @@ Set-CSOnlinePSTNGateway -Identity “VMsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-Based on the information above, Direct Routing will include three proprietary SIP Headers to SIP Invites and Re-invites as shown shown in the following table:
+Based on the information above, Direct Routing will include three proprietary SIP Headers to SIP Invites and Re-invites as shown  in the following table.
 
-Table 1. X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMode defined
+X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMode is defined:
 
 | Header name | Values | Comments | 
 |:------------|:-------|:-------|
@@ -165,19 +168,21 @@ Table 1. X-MS Headers introduced in Direct Routing on Invites and Re-Invites if 
 
 The following shows call flows for two modes:
 
-- Always bypass
-- Only for local users
+ [Manage external trusted IP addresses](#manage-external-trusted-ip-addresses)
+
+- [Always bypass](#always-bypass-mode)
+- [Only for local users](#only-for-local-users-mode)
 
 ### Always Bypass mode
 
-Always Bypass mode is the simplest option to configure.  The tenant administrator can configure a single site for all users and SBCs if all SBCs can be reachable from any site.
+Always Bypass mode is the simplest option to configure. The tenant administrator can configure a single site for all users and SBCs if all SBCs are reachable from any site.
 
-The examples show Always bypass mode for the following:
+The examples show Always bypass mode for the following scenarios:
 
-- Outbound calls when the user is in the same location as the SBC
-- Inbound calls when the user is in the same location as the SBC
-- Outbound call when the user is external
-- Inbound call when the user is external
+- [Outbound calls and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-SBC-with-always-bypass)
+- [Inbound calls and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
+- [Outbound calls and the user is external](#outbound-calls-and-the-user-is-external-with-always-bypass)
+- [Inbound calls and the user is external](#inbound-calls-and-the-user-is-external-with-always-bypass)
 
 The following table shows the FQDN and IP addresses used in the examples:
 
@@ -189,7 +194,7 @@ The following table shows the FQDN and IP addresses used in the examples:
 
 
 
-#### Outbound calls when the user is in the same location as the SBC
+#### Outbound calls and the user is in the same location as the SBC with Always Bypass
 
 | Mode |	User |	Location |	Call direction |
 |:------------|:-------|:-------| :-------|
@@ -210,12 +215,13 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
-| Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI | X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
-X-MS-MediaPath: VMsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
-X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
+| Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI | 
+| X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
+| X-MS-MediaPath: VMsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
+|X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
 
 
-#### Inbound calls and the user is in the same location as the SBC
+#### Inbound calls and the user is in the same location as the SBC with Always Bypass
 
 | Mode | 	User | 	Location | 	Call direction |
 |:------------|:-------|:-------|:-------|:-------|
@@ -227,12 +233,12 @@ The SBC connected to the Direct Routing service reports the originating SBC loca
 
 Note: Given that a user can have multiple endpoints support of 183 is not possible. The Direct Routing will always use 180 Ringing in this case. 
 
-The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user in the same location as the SBC.
+The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user is in the same location as the SBC.
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-11.png)
 
 
-#### Outbound calls and user is external
+#### Outbound calls and the user is external with Always Bypass
 
 | Mode |	User |	Site |	Call direction
 |:------------|:-------|:-------|:-------|
@@ -247,10 +253,11 @@ The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
-Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.| X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
-X-MS-MediaPath: proxysbc.contoso.com, VMsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
+|Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.|
+| X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
+| X-MS-MediaPath: proxysbc.contoso.com, VMsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 
-#### Inbound calls and the user is external
+#### Inbound calls and the user is external with Always Bypass
 
 | Mode | User | Site |	Call direction |
 |:------------|:-------|:-------|:-------|
@@ -267,18 +274,20 @@ The following diagram shows the SIP ladder for an inbound call with AlwaysBypass
 
 Local media candidates of the target SBC will be offered only if a user is in the same location as the SBC. In all other cases, media will flow through either an internal or external IP of the proxy SBC.
 
+The following scenarios are described:
+
+- [Outbound call and the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
+- [Inbound call and the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc- with-only-for-local-users)
+- [User is not at the same location as the SBC but is in the corporate network](#user-is-not-at-the-same-location-as-the-sbc- but-is-in-the-corporate-network-with-Only-for-local users)
+- [Inbound call and the user is internal but is not at the same location as the SBC](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
+
 The following table shows end user configuration and action:
 
 | User physical location |	User makes or receives a call to/from number |	User phone number |	Voice Routing Policy |	Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam | +84 4 3926  3000 |	+84 4 5555 5555 | Priority 1: ^\+84(\d{9})$ -VMsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | VMsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
 
-- Outbund call and user is in the same location as the SBC
-- Inbound call and user is in the same location as the SBC
-- User is not at the same location as the SBC but is in the corporate network
-- Inbound call and internal user but user is not at the same location as the SBC
-
-#### Outbound call and user is in the same location as the SBC
+#### Outbound calls and the user is in the same location as the SBC with Only for local users
 
 | Mode | User | Site | Call direction |
 |:------------|:-------|:-------|:-------|
@@ -292,7 +301,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 ![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
 
 
-#### Inbound call and user is in the same location as the SBC
+#### Inbound calls and the user is in the same location as the SBC with Only for local users
 
 | Mode | User | Site | Call direction |
 |:------------|:-------|:-------|:-------|
@@ -303,7 +312,7 @@ The following diagram shows an inbound call with OnlyForLocalUsers mode, and the
 ![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
 
 
-#### User is not at the same location as the SBC but is in the corporate network
+#### User is not at the same location as the SBC but is in the corporate network with Only for local users
 
 | Mode | User | Site |Call direction |
 |:------------|:-------|:-------|:-------|
@@ -317,7 +326,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 ![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
 
 
-#### Inbound call and internal user but user is not at the same location as the SBC
+#### Inbound call and the  user is internal but is not at the same location as the SBC with Only for local users
 
 | Mode |	User |	Site |	Call direction |
 |:------------|:-------|:-------|:-------|
