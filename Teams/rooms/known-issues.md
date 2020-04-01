@@ -33,7 +33,7 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
-|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs in Windows 10 1903. | Install 2020-04 Cummulative Update for Windows 10 version 1903 for x64-based Systems through Windows Updates  | None | 
+|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs in Windows 10, version 1903. | Install 2020-04 Cumulative Update for Windows 10, version 1903 for x64-based Systems through Windows Updates.  | None | 
 
 <a name="Hardware"> </a>  
 ## Hardware
