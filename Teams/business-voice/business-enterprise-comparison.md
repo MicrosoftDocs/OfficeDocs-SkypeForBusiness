@@ -1,5 +1,5 @@
 ---
-title: What’s the difference between Business Voice and Enterprise Voice?
+title: What's the difference between Business Voice and Enterprise Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# What’s the difference between Business Voice and Enterprise Voice?
+# What's the difference between Business Voice and Enterprise Voice?
 
 Microsoft 365 Business Voice and Enterprise Voice in Microsoft Teams provide the same services to both small business and Enterprise users. Both services provide cloud-based phone systems with Phone System, domestic and international calling options, and audio conferencing.
 
@@ -35,17 +35,17 @@ The table below shows the features available to Business Voice and Enterprise Vo
 
 |  Features                                                            | Business Voice | Enterprise Voice  |
 |----------------------------------------------------------------------|----------------|-------------------|
-| [Phone System](../what-is-phone-system-in-office-365)                | X              | X                 |
+| Phone System               | X              | X                 |
 | Caller ID                                                            | X              | X                 |
 | Voice Mail                                                           | X              | X                 |
 | Call Menus                                                           | X              | X                 |
 | Shared Phone Lines                                                   | X              | X                 |
 | Emergency Calling                                                    | X              | X                 |
-| [Domestic Calling](../calling-plan-landing-page)                     | X              | X                 |
+| Domestic Calling                    | X              | X                 |
 | Free calls within country or region                                  | X              | X                 |
 | International plans available                                        | X              | X                 |
 | Toll-free dialing available                                          | X              | X                 |
-| [Audio Conferencing](../audio-conferencing-in-office-365)            | X              | X                 |
+| Audio Conferencing           | X              | X                 |
 | Host conference calls with non-Teams users                           | X              | X                 |
 | Host conference calls with non-internet users                        | X              | X                 |
-| [Business Voice Getting Started](use-getting-started-wizard) wizard  | X              |                   |
+| Business Voice Getting Started wizard  | X              |                   |
