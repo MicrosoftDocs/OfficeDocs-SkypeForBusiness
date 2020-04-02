@@ -55,7 +55,7 @@ additionalContent:
         # Card
         - title: Top articles
           links:
-            - text: <strong>COVID-19 response</strong> - Support remote workers using Teams 
+            - text: COVID-19 response - Support remote workers using Teams 
               url: /MicrosoftTeams/support-remote-work-with-teams
             - text: Prepare your network for Teams
               url: /MicrosoftTeams/prepare-network
