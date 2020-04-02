@@ -34,9 +34,7 @@ In this walkthrough, you'll learn how to:
 
 ## Prerequisites
 
-Download the assets from LINK.
-
-
+Download the assets from [this location](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true).
 
 > [!IMPORTANT]
 > The scripts in the link provided above are provided as-is by Microsoft, and must be modified for your individual needs.
@@ -78,9 +76,7 @@ The following steps will allow you to set up your environment:
 
 ### Download .zip file containing sample PowerShell scripts
 
-Before you can proceed, you'll need to download the scripts at THIS LOCATION.
-
-
+Before you can proceed, you'll need to download the scripts at [this location](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true).
 
 ### Setup Credentials
 
@@ -334,7 +330,7 @@ Now that you've created the users and the policies to modify their experience in
 1. Find the **SecurityGroups.csv** file in the .zip file assets and make sure you have accurate mapping of the policies to the groups.
 1. From PowerShell, run the script **AssignPoliciestoUsers.ps1** from the .zip file assets.
 
-## Test amd validate
+## Test and validate
 
 ### Check for errors
 
@@ -342,11 +338,11 @@ As you ran the earlier scripts, errors or exceptions were written to a .csv file
 
 An example of an exception could be if you tried to create a team that already existed in your tenant.
 
-1. Find the **Logs** folder and review any .csv file it may contain. If there are no exceptions, you may not find a file here.
+1. Find the **Logs** folder and review any .csv file it may contain. If there are no exceptions, you may not find an exception file here.
 
 ### Login to Teams with a test user
 
-Now that we've completed all the steps, it's time to verify the work we've completed.
+Now that you've completed all the steps, it's time to verify the work you've completed.
 
 1. Select a user from your earlier list and log into Teams with that user's credentials.
 1. Verify the look and feel of Teams is what you expected. If not, review the **Create Teams Policies** and the **Assign Teams Policies to Users** sections.
