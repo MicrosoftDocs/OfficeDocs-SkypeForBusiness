@@ -39,19 +39,20 @@ To make it easy for users in your organization to schedule and hold meetings and
 If you already optimized your network when you rolled out Microsoft 365 or Office 365, you're probably all set. In any case - and especially if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers** - read [Prepare your organization's network for Teams](prepare-network.md) to be sure you're ready.
 
 ## Meetings and conferencing
-Set up policies
 
-Train your users to create, join, and manage meetings
+As the admin, you'll configure [meeting settings](meeting-settings-in-teams.md) for everyone. Then you'll use [meeting policies](meeting-policies-in-teams.md) to control what meeting features are (and aren't) available for your users. 
 
-Don't forget about hardware - headsets, cameras, 
+If your users are new to Teams meetings, share our [Manage meetings](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) training with them. Check out our instructor-led online class, [Run effective meetings with Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
+
+Don't forget about [managing your users' devices](device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
 
 ## Live events
-Set up policies
-Train your live event organizers and producers
 
+Similar to meetings, you - the admin - [configure live events](teams-live-events/configure-teams-live-events.md) for everyone. Then set up (and assign) [live event policies](teams-live-events/set-up-for-teams-live-events.md) to control what your users can (and can't) do.
 
+Make sure your live event producers and organizers are trained - send them to [Set up and attend live events](https://support.office.com/article/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
 
-
+If you're new to live events, check out [What are Teams live events?](teams-live-events/what-are-teams-live-events.md) and [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md).
 
 ## Related topics
 
