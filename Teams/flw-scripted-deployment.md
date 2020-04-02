@@ -66,8 +66,12 @@ Download the assets from LINK.
 1. Create and Setup Users
     1. Create users and security groups
     1. Assign licensing to users via group-based licensing
-1. Assign users to Teams
-1. Assign policies to User and Groups
+1. Assign Users and Policies
+    1. Assign users to Teams
+    1. Assign policies to User and Groups
+1. Test and Validate
+    1. Check for Errors
+    1. Login to Teams with a Test User
 
 ## Set up your environment
 
@@ -302,8 +306,9 @@ In order to manage these users at scale more effectively, you need to create two
     1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. Find the **Users.csv** file in the .zip file assets.
 1. Update the **Users.csv** file with your organization's specific information.
-1. Make sure to update the SecurityGroup field to reflect the appropriate name created earlier.
-1. From PowerShell, run the script CreateUsers.ps1 from assets.
+    1. By default, the script we've provided will create a user with a temporary password that must be changed on first login. If you don't want to use the default password, edit the **CreateUsers.ps1** script to meet your requirements.
+    1. Make sure to update the SecurityGroup field to reflect the appropriate name created earlier.
+1. From PowerShell, run the script **CreateUsers.ps1** from assets.
 
 ### Assign licensing to users by Group-Based licensing
 
@@ -311,24 +316,36 @@ Microsoft paid cloud services, such as Office 365, Enterprise Mobility + Securit
 
 In order to enable licensing at scale, Azure AD now includes group-based licensing, and for this reason we created the security groups earlier in this article. You can assign one or more product licenses to a group. Azure AD ensures that the licenses are assigned to all members of the group. Any new members who join the group are assigned the appropriate licenses. Licenses are removed from members who leave the group. This licensing management eliminates the need for automating license management via PowerShell to reflect changes in the organization and departmental structure on a per-user basis.
 
-## Assigning users to teams
+## Assign Users and Policies
+
+### Assigning users to teams
 
 Now that you've created the users and created the Teams, it's time to put all the users in the appropriate Teams.
 
 1. Find the **Users.csv** file in the .zip file assets and make sure you have accurate mapping to Teams in this file.
 1. From PowerShell, run the script **AssignUserstoTeams.ps1** from the .zip file assets.
 
-## Assign Teams policies to users
+### Assign Teams policies to users
 
 Now that you've created the users and the policies to modify their experience in Teams, it's time to assign those policies to the correct users.
 
 1. Find the **SecurityGroups.csv** file in the .zip file assets and make sure you have accurate mapping of the policies to the groups.
 1. From PowerShell, run the script **AssignPoliciestoUsers.ps1** from the .zip file assets.
 
-## Verify user login
+## Test amd validate
+
+### Check for errors
+
+As you ran the earlier scripts, errors or exceptions were written to a .csv file located in the logs folder of the assets. This file can be used to investigate any issues that may have occurred.
+
+An example of an exception could be if you tried to create a team that already existed in your tenant.
+
+1. Find the **Logs** folder and review any .csv file it may contain. If there are no exceptions, you may not find a file here.
+
+### Login to Teams with a Test User
 
 Now that we've completed all the steps, it's time to verify the work we've completed.
 
-1. Select a user from your earlier list and log in with that user's credentials.
+1. Select a user from your earlier list and log into Teams with that user's credentials.
 1. Verify the look and feel of Teams is what you expected. If not, review the **Create Teams Policies** and the **Assign Teams Policies to Users** sections.
 1. Verify the user is in the correct team. If not, review the **Create and Setup Users** and **Assign Users to Teams** sections.
