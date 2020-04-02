@@ -38,9 +38,9 @@ highlightedContent:
       itemType: get-started
       url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
     # Card
-    - title: IT Architecture posters and solutions
+    - title: Security and compliance in Teams
       itemType: architecture
-      url: /MicrosoftTeams/teams-architecture-solutions-posters
+      url: /MicrosoftTeams/security-compliance-overview
     # Card
     - title: Start here if you're new to Teams
       itemType: quickstart
@@ -55,6 +55,8 @@ additionalContent:
         # Card
         - title: Top articles
           links:
+            - text: COVID-19 response: Support remote workers using Teams 
+              url: /MicrosoftTeams/support-remote-work-with-teams
             - text: Prepare your network for Teams
               url: /MicrosoftTeams/prepare-network
             - text: Use Advisor for Teams to help you roll out Teams
@@ -63,8 +65,8 @@ additionalContent:
               url: /MicrosoftTeams/teams-memory-usage-perf
             - text: Communicate with users from other organizations (guest/external access)
               url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-            - text: Security and compliance in Teams
-              url: /MicrosoftTeams/security-compliance-overview
+            - text: IT Architecture posters and solutions
+              url: /MicrosoftTeams/teams-architecture-solutions-posters
         # Card
         - title: Voice calling with Teams
           links:
