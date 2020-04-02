@@ -20,14 +20,14 @@ description: "Install Power BI Connector to use CQD query templates"
 
 # Install Power BI Connector to use CQD query templates
 
-Before you can use the Power BI query templates for CQD (PBIX files), you’ll need to install the Power BI Connector for Microsoft CQD, using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Before you can use the Power BI query templates for CQD (PBIX files), you'll need to install the Power BI Connector for Microsoft CQD, using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
 
 ## Installation
 
-The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here’s a quick explanation:
+The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
 
 1.  Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.<sup>1</sup>
 
@@ -61,7 +61,7 @@ If any of the steps during this setup process were not completely clear, a more 
 
 ## Building Queries
 
-Once setup is complete, you should see the names of several hundred dimensions and measures load in the *Fields* pane. Constructing actual queries from here is simple, just select the dimensions and measures you want for your query, then drag and drop them onto the page. Here’s a more detailed explanation, with a simple example:
+Once setup is complete, you should see the names of several hundred dimensions and measures load in the *Fields* pane. Constructing actual queries from here is simple, just select the dimensions and measures you want for your query, then drag and drop them onto the page. Here's a more detailed explanation, with a simple example:
 
 1.  Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we will be using the *Table* visualization.
 
@@ -91,7 +91,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector6.png)
 
-3.  **That’s it\!** Any other query on another page that uses that dimension can now drillthrough to that page, automatically applying the drillthrough dimension’s value as a filter.
+3.  **That's it\!** Any other query on another page that uses that dimension can now drillthrough to that page, automatically applying the drillthrough dimension's value as a filter.
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector7.png)
 
@@ -99,7 +99,7 @@ Unlike Advanced CQD, Power BI supports non-sequential drillthrough. So long as a
 
 ## Limitations
 
-Despite making use of Power BI, not all Power BI functionality is support by the CQD Connector, either as a result of limitations on CQD data model or on DirectQuery connectors in general. The list below notes some of the Connector’s more noteworthy limitations, but this list should not be considered exhaustive:
+Despite making use of Power BI, not all Power BI functionality is support by the CQD Connector, either as a result of limitations on CQD data model or on DirectQuery connectors in general. The list below notes some of the Connector's more noteworthy limitations, but this list should not be considered exhaustive:
 
 1.  **Calculated Columns –** DirectQuery connectors in general have limited support for calculated columns in Power BI. While some calculated columns may work with the Connector, these should be considered exceptions. As a general rule, calculated columns will not function.
 
@@ -107,15 +107,25 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 3.  **Custom Visuals –** While the CQD Connector does work with a range of custom visuals, we are unable to guarantee compatibility with all custom visuals. Many custom visuals rely on the use of calculated columns or imported data, neither or which are supported by DirectQuery connectors.
 
-4.  **Referencing Cached Data –** Power BI currently does not support referencing cached data from a DirectQuery connector in any way. Any attempt to reference the results of a query will result in a new query.
+4.  **Referencing Cached Data –** Power BI currently does not support referencing cached data from a DirectQuery connector in any way. Any attempt to reference the results of a query will result in a new query. 
 
 5.  **Relative Data Filtering –** Is supported in the CQD Connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* is not stored as a date time object and thus does not support relative date filtering in Power BI.
 
 Please note, although the Connector is in preview, these limitations are unlikely to change with the final release of the Connector. Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
+## Troubleshooting
+
+### I'm trying to use the Date column as a Date slicer. As soon as I convert the data type of this column to Date, I get this error:
+
+> **Couldn't load the data for this visual**: OLE DB or ODBC error: [Expression.Error] We couldn't fold the expression to the data source. Please try a simpler expression. 
+
+Date slicers aren't supported with the Power BI Connector. To specify a date range, apply two filters to the report, specifying a less than and greater than date.
+
+Alternatively, if the dates you want to view are recent, apply a relative date filter to show only data for the last N days/weeks/months.
+
 ## Error Codes
 
-Because the CQD Power BI Connector is less restricted than the browser app in terms of kinds of queries you can construct, you may occasionally encounter a number of errors while building your queries. In the event that you receive an error message of the type “CQDError. RunQuery – Query Execution Error”, reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you may encounter with the CQD Power BI Connector:
+Because the CQD Power BI Connector is less restricted than the browser app in terms of kinds of queries you can construct, you may occasionally encounter a number of errors while building your queries. In the event that you receive an error message of the type "CQDError. RunQuery – Query Execution Error", reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you may encounter with the CQD Power BI Connector:
 
   - **ErrorType 1 - Query Structure Error:** A query structure error is typically caused by the Connector failing to build a properly formatted query. This happens most often when using unsupported functionality, as specified in the Limitations above. Double check that you are not using any calculated columns or custom visuals for that query.
 
