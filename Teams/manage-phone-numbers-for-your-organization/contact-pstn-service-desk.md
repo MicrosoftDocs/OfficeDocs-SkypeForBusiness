@@ -30,6 +30,7 @@ If you need help with getting or transferring numbers to us but need help please
 
   - Your Organization ID (Tenant ID) or active domains.
   - What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).
+    - Include the Area Code(s)/Country/Region from which you would like telephone numbers.
   - How many numbers you require (if this is for number acquisition).
   - Authorizing person on the account and other important details based on your request.
 
