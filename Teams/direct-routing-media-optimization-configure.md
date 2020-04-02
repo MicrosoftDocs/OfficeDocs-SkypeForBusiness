@@ -291,7 +291,7 @@ The following table shows end user configuration and action:
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |	Internal |Same as SBC	| Outbound |
 
-The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-sbc).
+The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-when-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
 
@@ -302,7 +302,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |	Internal | Same as SBC | Inbound |
 
-The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc).
+The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
 ![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
 

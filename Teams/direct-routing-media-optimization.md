@@ -78,7 +78,7 @@ Note: All values within examples, tables, or diagrams are presented for illustra
 
 Table 1. Example network parameters for SBCs 
 
-| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | External IP address of the SBC | Internal IP Address of the SBC |
+| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | SBC external IP address | SBC internal IP address |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
@@ -128,7 +128,7 @@ When a user is in the local branch office where the downstream SBC is located, t
 
 Table 2. Example SBC network information
 
-| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | External IP address of the SBC | Internal IP Address of the SBC |
+| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | SBC external IP address  | SBC internal IP address |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Vietnam | 192.168.1.0/24 | 172.16.240.110 | VNsbc.contoso.com | None |  192.168.1.5 |
 | Indonesia  | 192.168.2.0/24 | 172.16.240.120 | IDsbc.contoso.com | None |  192.168.2.5 |
