@@ -1,5 +1,5 @@
 ---
-title: ITAdmin information for Microsoft Teams RealWear client (Preview)
+title: ITAdmin information for Microsoft Teams for RealWear client (Preview)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: A, ITAdmin walkthrough of the RealWear client for Microsoft Teams.
+description: A, ITAdmin walkthrough of the Microsoft Teams for RealWear client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# RealWear for Microsoft Teams
+# Microsoft Teams for RealWear
 
 > [!NOTE]
 > This is a preview or early release feature.
