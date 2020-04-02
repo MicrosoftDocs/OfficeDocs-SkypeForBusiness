@@ -70,9 +70,9 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 Example of adding trusted IP addresses.
 
 ```
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -MaskBits 24 -Description "Vietnam site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -MaskBits 24 -Description "Indonesia site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 24 -Description "Singapore site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -Description "Vietnam site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -Description "Indonesia site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -Description "Singapore site trusted IP"
 ```
 
 
@@ -130,7 +130,8 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 
 ## Define the virtual network topology 
 
-The tenant administrator defines the virtual network topology by specifying the network sites for the PSTN gateway objects using the Set-CsOnlinePSTNGateway command:
+First, the tenant administrator creates a new SBC configuration for each relevant SBC by using the New-CsOnlinePSTNGateway cmdlet.
+The tenant administrator defines the virtual network topology by specifying the network sites for the PSTN gateway objects using the Set-CsOnlinePSTNGateway cmdlet:
 
 ```
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
@@ -147,7 +148,7 @@ The following example adds three SBCs to the network sites Vietnam, Indonesia, a
 ```
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
 
-Set-CSOnlinePSTNGateway -Identity “VMsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
+Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
@@ -159,8 +160,8 @@ X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMod
 | Header name | Values | Comments | 
 |:------------|:-------|:-------|
 | X-MS-UserLocation | internal/external | Indicates if user is internal or external |
-| Request-URI	INVITE sip: +84439263000@VMsbc.contoso.com SIP /2.0 | SBC FQDN | The FQDN which is targeted for the call even if the SBC is not directly connected to Direct Routing |
-| X-MS-MediaPath | Example: proxysbc.contoso.com, VMsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
+| Request-URI	INVITE sip: +84439263000@VNsbc.contoso.com SIP /2.0 | SBC FQDN | The FQDN which is targeted for the call even if the SBC is not directly connected to Direct Routing |
+| X-MS-MediaPath | Example: proxysbc.contoso.com, VNsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
 | X-MS-UserSite | usersiteID | String defined by tenant administrator |
 
 
@@ -202,7 +203,7 @@ The following table shows the end user configuration and action:
 
 | User physical location| User makes or receives a call to/from number | User phone number	| Voice Routing Policy | Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam |	+84 4 3926 3000	| +84 4 5555 5555	| Priority 1: ^\+84(\d{9})$ -VMsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com	| VMsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
+| Vietnam |	+84 4 3926 3000	| +84 4 5555 5555	| Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com	| VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
 
 
 The following diagram shows the SIP ladder for an outbound call with Always bypass mode, and the user in the same location as the SBC.
@@ -213,9 +214,9 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
-| Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI | 
+| Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI | 
 | X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
-| X-MS-MediaPath: VMsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
+| X-MS-MediaPath: VNsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
 |X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
 
 
@@ -251,9 +252,9 @@ The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
-|Invite +8443926300@VMsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.|
+|Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.|
 | X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
-| X-MS-MediaPath: proxysbc.contoso.com, VMsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
+| X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 
 #### Inbound calls and the user is external with Always Bypass
 
@@ -283,7 +284,7 @@ The following table shows end user configuration and action:
 
 | User physical location |	User makes or receives a call to/from number |	User phone number |	Voice Routing Policy |	Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | +84 4 3926  3000 |	+84 4 5555 5555 | Priority 1: ^\+84(\d{9})$ -VMsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | VMsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
+| Vietnam | +84 4 3926  3000 |	+84 4 5555 5555 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
 
 #### Outbound calls and the user is in the same location as the SBC with Only for local users
 
