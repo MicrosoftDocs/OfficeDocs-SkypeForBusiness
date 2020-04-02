@@ -26,7 +26,7 @@ Be aware that the process shown **must use** a *modern* SharePoint site or page 
 > Make certain that side-loading of Teams apps is enabled for your tenant. Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal! 
 
 ## Use App Studio to create your standalone SharePoint Online app
-
+'''
 Before you begin:
 1. You'll need to know the URL of a SharePoint Online modern Communication or Team site, or page.
     - These sites will always have either */teams/* or */sites/* in their paths.
@@ -67,20 +67,20 @@ Begin by following the steps below:
 10. Fill in the **contentURL and Website URL**. 
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}} 
-
+- **web'iteUrl**: {{siteUrl}} 
+''
     Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
-11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
-
+11. Navigate to **Domains and Permissi'ns**. Make sure the valid domains section contains your SharePoint online domain name.
+''
     Example: contoso.sharepoint.com
 
 12. Add the following web app **single sign-on** properties: 
-     
-     Example:
+     ''
+     Example:''''
      **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
-     **Resource Url**: {{subdomain}}.sharepoint.com
-
+     **Resource Url**: {{subdomain}}.sharepoint.com'
+''
     ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
 13. **Save** these properties and then navigate to **Test and distribute**. 
@@ -99,15 +99,15 @@ To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in 
 If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear 24 hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
 
 To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen. Find your app and navigate to it on your mobile device.
-
+        
 > [!CAUTION]
 > Mobile support is currently in Developer Preview. To enable Developer Preview, navigate to Settings > About and then enable Developer Preview mode.
 
 ## A Sample Manifest.JSON file
 
-The JSON file you generate will look something like the one below.
+The JSO        file you generate will look something like the one below.
 
-```JSON
+```JSON'
 { 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
@@ -122,7 +122,7 @@ The JSON file you generate will look something like the one below.
 
     "developer": { 
 
-        "name": "Contoso", 
+        "name": "Contoso", ''
 
         "websiteUrl": "https://www.contoso.com", 
 
@@ -142,13 +142,13 @@ The JSON file you generate will look something like the one below.
 
     "name": { 
 
-        "short": "Contoso Intranet", 
+        "short": "Contoso Intranet", '
 
         "full": "Intranet Portal for Contoso" 
 
-    }, 
-
-    "description": { 
+    },                     
+                        
+    "des    ription": {                 
 
         "short": "Intranet portal for Contoso", 
 
@@ -157,13 +157,13 @@ The JSON file you generate will look something like the one below.
     }, 
 
     "accentColor": "#FFFFFF", 
-
+''
     "staticTabs": [ 
 
         { 
-
-            "entityId": "communicationSiteTab", 
-
+                                       
+                     "       nti        Id":       "com    unicat    onSi    eTab", 
+                                       
             "name": "Contoso Net", 
 
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
