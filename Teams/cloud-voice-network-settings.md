@@ -1,5 +1,5 @@
 ---
-title: Network settings for cloud voice features in Microsoft Teams
+title: Network settings for cloud voice features
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,6 +16,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Network settings for cloud voice features in Microsoft Teams
@@ -29,7 +30,7 @@ This article gives you an overview of the network settings that are common to Lo
 
 ## Network region
 
-A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region. Each network site must be associated with a network region.
+A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate "India" as a network region. Each network site must be associated with a network region.
 
 The same network regions are shared by Location-Based Routing for Direct Routing and enhanced emergency services. If you already created network regions for one feature, you don't have to create new network regions for the other feature.
 
@@ -49,8 +50,8 @@ For each network site, work with your network admin to determine which IP subnet
 
 ## Trusted IP address
 
-Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user’s endpoint is inside the corporate network before checking for a specific site match.
+Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user's endpoint is inside the corporate network before checking for a specific site match.
 
-If the user’s external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user’s endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
+If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
 
-If the user’s external IP address doesn’t match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
+If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.

@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - Legal
 hideEdit: true
-description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
+description: Learn how Microsoft collects census, usage, and error data to understand Teams and Skype for Business usage and problems in order to plan product improvements.
 ---
 
 # Skype for Business and Microsoft Teams data collection practices

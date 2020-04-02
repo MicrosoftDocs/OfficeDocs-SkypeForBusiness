@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Meetings First
+title: Meeting First - Microsoft Teams 
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+  - Teams-upgrade-guidance
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

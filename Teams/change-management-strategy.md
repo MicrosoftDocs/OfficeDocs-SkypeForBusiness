@@ -1,5 +1,5 @@
 ---
-title: Create a change management strategy for Microsoft Teams
+title: Create a change management strategy
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,9 +11,10 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn to create a change management strategy for Microsoft Teams through the identification of key stakeholders, business outcomes, success measures, and management of your campaign.
+description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Create a change management strategy for Microsoft Teams
@@ -58,7 +59,7 @@ The first rule of a successful adoption is to create a dynamic team comprised of
 |![Service Owners icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Service Owners** are responsible for ensuring people use the service and get value from it. Setting Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.         |
 |![Champions icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Gaining buy-in from every user across an organization is a challenge. **Champions** can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.         |
 
-We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a “collaboration council” to allow for feedback and discussion can be a useful tool depending on your corporate culture.
+We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a "collaboration council" to allow for feedback and discussion can be a useful tool depending on your corporate culture.
 
 
 

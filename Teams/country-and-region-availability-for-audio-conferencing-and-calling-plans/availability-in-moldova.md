@@ -23,7 +23,9 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - Phone System
-  - Calling Plansfor Business and Microsoft Teams available for Moldova."
+  - Calling Plans for Business and Microsoft Teams available for Moldova."
+  - seo-marvel-mar2020
+description: Find information about which Office 365 services for Skype for Business and Microsoft Teams are available in Moldova.
 ---
 
 # Availability in Moldova

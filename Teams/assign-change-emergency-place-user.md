@@ -1,5 +1,5 @@
 ---
-title: "Assign or change the place for an emergency location for a user"
+title: "Assign, change places for emergency locations for users"
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,7 +16,8 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Learn how to assign or change the place for an emergency location for users in your organization.  
+description: Learn how to assign or change the place for an emergency location for users in your organization.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Assign or change the place for an emergency location for a user

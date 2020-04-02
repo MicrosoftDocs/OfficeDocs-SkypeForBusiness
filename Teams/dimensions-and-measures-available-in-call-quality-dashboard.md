@@ -1,5 +1,5 @@
 ---
-title: "Dimensions and measurements available in Call Quality Dashboard"
+title: "Dimensions and measurements - Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,7 +18,9 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom: 
+ - Reporting
+ - seo-marvel-mar2020
 description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "User accounts in a hybrid environment with PSTN connectivity"
+title: "User accounts in hybrid environment with PSTN"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -16,6 +16,7 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
+ms.custom: seo-marvel-mar2020
 ---
 
 # User accounts in a hybrid environment with PSTN connectivity
@@ -51,7 +52,7 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexib
 ### Supportability matrix
 
 
-|**User object created in**  |**User’s Skype for Business service provider**|**User’s Client**|**Voice option**|**Supported**|
+|**User object created in**  |**User's Skype for Business service provider**|**User's Client**|**Voice option**|**Supported**|
 | ------------ | --------- | --------- | --------- | -------- |
 |On premises AD| On premises |Skype for Business   | Enterprise Voice   |Yes|
 |On premises AD|Online| Skype for Business  | Hybrid Voice Connectivity   |Yes |

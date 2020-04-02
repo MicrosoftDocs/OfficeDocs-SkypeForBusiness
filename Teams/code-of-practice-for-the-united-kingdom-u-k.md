@@ -1,5 +1,5 @@
 ---
-title: "Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)"
+title: "Code of practice for U.K. - Office 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,8 +20,9 @@ f1.keywords:
   - CSH
 ms.custom: 
   - Legal
+  - seo-marvel-mar2020
 hideEdit: true
-description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
+description: Learn the code of practice for PSTN Calling plans for Skype for Business UK including, where to get help, and how to submit complaints and resolve disputes. 
 ---
 
 # Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)
@@ -145,4 +146,3 @@ Rates for National Translation Services, Personal Numbers, and 0870 numbers are 
 
 ## Related topics
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

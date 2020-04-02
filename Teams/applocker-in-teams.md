@@ -1,5 +1,5 @@
 ---
-title: AppLocker application control policies in Microsoft Teams
+title: AppLocker control policies
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,6 +15,7 @@ f1.keywords:
 description: Learn how to enable the Teams desktop client application with AppLocker application control policies.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # AppLocker application control policies in Microsoft Teams

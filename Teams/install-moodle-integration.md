@@ -1,5 +1,5 @@
 ---
-title: "Installing Moodle integration with Microsoft Teams"
+title: Install Moodle integration with Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -15,6 +15,8 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

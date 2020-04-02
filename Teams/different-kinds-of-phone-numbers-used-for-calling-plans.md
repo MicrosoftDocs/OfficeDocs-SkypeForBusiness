@@ -1,5 +1,5 @@
 ---
-title: "Different kinds of phone numbers used for Calling Plans"
+title: "Types of phone numbers used for Calling Plans"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+  - seo-marvel-mar2020
 description: Learn about the different phone number types that Teams uses for Calling Plans.
 ---
 

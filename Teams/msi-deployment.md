@@ -1,5 +1,5 @@
 ---
-title: Install Microsoft Teams using MSI via Microsoft Endpoint Configuration Manager
+title: Install Teams using Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Install Microsoft Teams using Microsoft Endpoint Configuration Manager

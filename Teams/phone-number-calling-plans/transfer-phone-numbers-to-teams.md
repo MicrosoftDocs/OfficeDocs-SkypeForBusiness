@@ -16,7 +16,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 
+description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Transfer phone numbers to Microsoft Teams

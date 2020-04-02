@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - Create and assign a messaging policy
+title: PowerShell script sample - Create & assign messaging policy
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # PowerShell script sample - Create and assign a messaging policy

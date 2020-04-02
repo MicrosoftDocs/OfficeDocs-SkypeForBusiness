@@ -1,5 +1,5 @@
 ---
-title: "Change the phone numbers on your Audio Conferencing bridge"
+title: "Change phone numbers on Audio Conferencing bridge"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone."
+  - seo-marvel-mar2020
+description: Learn the steps required to assign a new service phone number to your conference bridge to expand coverage for your users.
 ---
 
 # Change the phone numbers on your Audio Conferencing bridge
@@ -82,13 +83,13 @@ If you updated the default phone numbers that are inlcuded in the meeting invite
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
 
 ```PowerShell
-	Start-CsExMeetingMigration user@contoso.com
+    Start-CsExMeetingMigration user@contoso.com
 ```
 
 - You can also view the meeting migration status. All meetings would be rescheduled once there are no operations in  *Pending*  or *In-Progress*  state.
 
 ```PowerShell
-	Get-CsMeetingMigrationStatus -SummaryOnly
+    Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
 ## Steps when you are unassigning a service phone number for a conferencing bridge
@@ -230,7 +231,7 @@ The result, aside other information like Identity, Name and Region, should also 
 
 **Example**, to unassign, the DefaultServiceNumber "8005551234"
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## About Windows PowerShell

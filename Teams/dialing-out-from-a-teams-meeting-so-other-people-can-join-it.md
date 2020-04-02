@@ -1,5 +1,5 @@
 ---
-title: "Dialing out from a Microsoft Teams meeting so other people can join it"
+title: "Dialing out from a meeting so other people can join"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn what you need and how meeting organizers can call out to other people using Teams."
 ---
 

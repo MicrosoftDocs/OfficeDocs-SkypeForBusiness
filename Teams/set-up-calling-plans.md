@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - LIL_Placement
-description: "For Office 365 Calling Plan, learn how to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers."
+  - seo-marvel-mar2020
+description: Learn to set up Calling Plans, including view plans available in your region, buy & assign licenses, get phone numbers, and add emergency addresses & locations.
 ---
 # Set up Calling Plans
 

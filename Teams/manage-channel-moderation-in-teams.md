@@ -1,5 +1,5 @@
 ---
-title: Set up and manage channel moderation in Microsoft Teams
+title: Set up and manage channel moderation
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,6 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to set up channels for moderation in Microsoft Teams, including how to add team members as channel moderators.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Set up and manage channel moderation in Microsoft Teams

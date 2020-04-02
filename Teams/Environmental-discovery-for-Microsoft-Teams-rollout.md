@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams |  Evaluate Environment | Adoption, Discovery
+title: Environmental compatibility - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,6 +17,8 @@ ms.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
+ms.custom:
+- seo-marvel-mar2020
 ---
 
 Environmental discovery for a Microsoft Teams rollout
