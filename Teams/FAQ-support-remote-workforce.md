@@ -40,7 +40,7 @@ Although Microsoft is doing what we can to avoid problems, an unexpected peak in
 
 ### What can admins do if attendees are having trouble joining meetings by dialing in, such as if calls aren't getting through?
 
-During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
+During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you'll likely experience better audio quality. 
 
 ### What are the general Microsoft guidelines regarding network optimization for Microsoft 365? Some of my users in China are having a bad experience; what should I do to optimize our network?
 
