@@ -39,7 +39,7 @@ Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://
 
 - Use the **Announcement Email** to tell users that Teams is available for them.
 
-- Send **Your First Day in Teams Email** to help users feel productive quickly.
+- Send **Countdown - Your First Day in Teams Email** to help users feel productive quickly.
 
 - A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams.
 
@@ -63,9 +63,9 @@ Share these assets and videos with your end users to help them get started quick
 1. Read our recent blog posts:
    
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
-   - [Helping small and medium-sized businesses work remotely with Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+   - [Helping small and medium-sized businesses work remotely with Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams for Education
@@ -106,6 +106,13 @@ Share these assets and videos with your end users to help them get started quick
    - Microsoft Security blog (March 26, 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Optimize Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
+
 
     
 3. Read our new content about working remotely and share it with your users:
