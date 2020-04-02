@@ -135,6 +135,12 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
 
+### Prevent users from changing their profile photo
+
+Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture.
+
+For example, to prevent students or staff from changing or removing their profile picture, set this policy, and assign it to them.
+
 ## Adoption content
 
 Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
