@@ -39,7 +39,7 @@ highlightedContent:
       url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
     # Card
     - title: Security and compliance in Teams
-      itemType: architecture
+      itemType: overview
       url: /MicrosoftTeams/security-compliance-overview
     # Card
     - title: Start here if you're new to Teams
@@ -55,7 +55,7 @@ additionalContent:
         # Card
         - title: Top articles
           links:
-            - text: COVID-19 response: Support remote workers using Teams 
+            - text: COVID-19 response - Support remote workers using Teams 
               url: /MicrosoftTeams/support-remote-work-with-teams
             - text: Prepare your network for Teams
               url: /MicrosoftTeams/prepare-network
