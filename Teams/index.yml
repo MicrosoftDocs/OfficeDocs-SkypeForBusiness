@@ -26,11 +26,11 @@ highlightedContent:
       itemType: overview
       url: /MicrosoftTeams/support-remote-work-with-teams
     # Card
-      - title: How to roll out Teams
+    - title: How to roll out Teams
       itemType: deploy
       url: /MicrosoftTeams/how-to-roll-out-teams
     # Card
-     - title: Security and compliance in Teams
+    - title: Security and compliance in Teams
       itemType: overview
       url: /MicrosoftTeams/security-compliance-overview
     # Card
