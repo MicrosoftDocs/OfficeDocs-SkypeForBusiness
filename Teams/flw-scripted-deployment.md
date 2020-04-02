@@ -46,13 +46,14 @@ Download the assets from LINK.
 
 - Your tenant must have the appropriate number of licenses available that include Microsoft Teams. If you do not already have these licenses, follow the instructions here to activate the [Office 365 E1 Free Trial](e1-trial-license.md).
 - The user taking these steps must do so in the role of Global Admin or User Admin in Azure AD.
-- Admin Consent is required to register permissions for its Azure AD App Registration.
 - User must have the rights to install and configure software on their local machine.
 
 ## Step-by-step process overview
 
 1. Setup Your Environment
     1. Download the ZIP file containing the sample PowerShell scripts and documentation
+    1. Setup credentials
+    1. Configure local environment
     1. Configure PowerShell Modules and Environmental Variables
     1. Create App Registration
 1. Create and Setup Teams
@@ -78,20 +79,47 @@ Before you can proceed, you'll need to download the scripts at THIS LOCATION.
 
 
 
+### Setup Credentials
+
+In this document and the sample scripts we've chosen to create a reference file that contains your credentials in order to make things easier. This technique removes the need for you to authenticate to all the various service endpoints while maintaining the credentials in a local store. In order to run the subsequent scripts, you'll need to update that reference file with the credentials that are unique to you and your environment. From within each subsequent script, the appropriate credentials are read with the helper function  we've called **GetCreds**, and those credentials are used to connect to the various services.
+
+It's not uncommon for different services to require different credentials. For example you might have different credentials for MicrosoftTeams, AzureAD, and MSonline, in which case you can run SetCred saving each credential file with its own meaningful name.
+
+Examples:
+
+    SetCreds msol-cred.xml
+    SetCreds azuread-cred.xml
+    SetCreds teams-cred.xml
+
+> [!NOTE]
+> The account used for the credentials cannot require MFA.
+
+Here is an example of how the various scripts then use the saved credentials to authenticate:
+
+`` # Connect to MicrosoftTeams
+`` $teams_cred = GetCreds teams-cred.xml
+`` Connect-MicrosoftTeams -Credential $teams_cred
+
+In order to set your credentials, complete the following:
+
+1. Find the **SetCreds.ps1** in the .zip file assets.
+1. From PowerShell run the **SetCreds.ps1** script to save your credentials.
+    1. You will be prompted with "Performing the operation "Export-Clixml"..." and enter 'Y' to approve.
+
+### Configure the local environment
+
+1. Find the **SetConfig.ps1** in the .zip file assets.
+1. From PowerShell run the following command, replacing the bracketed entries with your specific information.
+    1. **SetConfig.ps1** -tenantName <your tenant name> -rootPath "<full path to the root of the git repo>"
+For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
+
 ### Configure PowerShell modules and environmental variables
 
-Before you follow the steps in this article, you'll ned to install and connect to several PowerShell modules, including Azure AD, MSAL, MSCloudUtils, and MicrosoftTeams.
+Before you go further, you'll ned to install and connect to several PowerShell modules, including Azure AD, MSAL, MSCloudUtils, and MicrosoftTeams.
 
 1. Find the **ConfigurePowerShellModules.ps1** in the .zip file assets.
 1. Edit and replace the following environmental variables with your variables:
 1. From PowerShell, run the **ConfigurePowerShellModules.ps1** script.
-
-### Create app registration
-
-For some of the following steps, you'll need to leverage Graph APIs. The following will allow you to create the Azure AD App Registration and assign it the appropriate permissions in order to interact with Graph APIs via PowerShell.
-
-1. Find the **CreateAppRegistration.ps1** in the .zip file assets.
-1. From PowerShell, run the **CreateAppRegistration.ps1** script.
 
 ## Create and set up Teams
 
