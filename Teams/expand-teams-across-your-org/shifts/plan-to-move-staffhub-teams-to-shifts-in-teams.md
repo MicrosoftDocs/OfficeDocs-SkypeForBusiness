@@ -17,7 +17,7 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Plan to move your StaffHub teams to Shifts in Microsoft Teams

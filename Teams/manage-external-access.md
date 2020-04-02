@@ -15,7 +15,7 @@ f1.keywords:
 - CSH
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
-- seo-marvel-<mar>
+- seo-marvel-mar2020
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
   - Microsoft Teams

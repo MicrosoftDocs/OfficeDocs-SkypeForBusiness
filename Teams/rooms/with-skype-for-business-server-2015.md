@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: seo-marvel-<mar>
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Skype for Business Server."
+ms.custom: seo-marvel-mar2020
 ---
 
 # Deploy Microsoft Teams Rooms with Skype for Business Server

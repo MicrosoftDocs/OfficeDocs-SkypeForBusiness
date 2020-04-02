@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 description: "Learn how to enable or disable whether your users can record their names when they join a meeting in Microsoft Teams."
 ---
 

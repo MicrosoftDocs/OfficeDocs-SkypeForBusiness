@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams

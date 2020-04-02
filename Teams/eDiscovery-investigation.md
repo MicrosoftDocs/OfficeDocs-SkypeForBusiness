@@ -16,7 +16,7 @@ f1.keywords:
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 Conduct an eDiscovery investigation of content in Microsoft Teams

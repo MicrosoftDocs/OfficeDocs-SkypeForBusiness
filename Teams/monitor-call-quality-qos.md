@@ -16,7 +16,7 @@ f1.keywords:
  - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-<mar>
+ms.custom: seo-marvel-mar2020
 ---
 
 # Implement QoS and Monitor Call Quality in Microsoft Teams

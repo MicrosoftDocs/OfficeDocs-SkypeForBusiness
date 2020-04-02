@@ -16,7 +16,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
-  - seo-marvel-<mar>
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

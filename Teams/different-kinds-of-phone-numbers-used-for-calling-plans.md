@@ -22,7 +22,6 @@ ms.custom:
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
   - seo-marvel-mar2020
 description: Learn about the different phone number types that Teams uses for Calling Plans.
-ms.custom: seo-marvel-<mar>
 ---
 
 # Different kinds of phone numbers used for Calling Plans
