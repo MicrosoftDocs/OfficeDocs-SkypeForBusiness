@@ -21,7 +21,7 @@ appliesto:
 
 # Teams for Education
 
-With Teams, teachers and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
+With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
 <ul class="panelContent cardsFTitle">
     <li>
