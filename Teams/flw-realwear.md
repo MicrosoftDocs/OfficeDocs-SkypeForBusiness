@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# RealWear for Microsoft Teams
+# Microsoft Teams for RealWear
 
 > [!NOTE]
 > This is a preview or early release feature.
