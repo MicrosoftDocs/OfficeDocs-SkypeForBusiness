@@ -72,11 +72,11 @@ To build a solution where PSTN services are provided to all local branch offices
 
 - When a user is outside of the corporate network, the SBC provides the external (public) IP of the SBC.
 
-Note: All values within examples, tables, or diagrams are presented only for illustration purposes only.
+Note: All values within examples, tables, or diagrams are presented for illustration purposes only.
 
 Table 1. Example network parameters for SBCs 
 
-| Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
+| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | External IP address of the SBC | Internal IP Address of the SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
@@ -122,11 +122,11 @@ To build a solution where PSTN services are provided in all local branch offices
 
 Afterwards, the Contoso administrator adds some downstream SBCs indicating that they can be reached through the proxy SBC proxysbc.contoso.com. Downstream SBCs do not have public IPs, however, they can be assigned to voice routes. The table below shows example network parameters and configuration.
 
-When a user is in the local branch office where the downstream SBC is located, the media traffic flows between the user and the local downstream SBC directly. If a user is outside of the office (on a public internet or in a different office), the media flows from the user to the public IP of the Proxy SBC, which proxies it to the relevant downstream SBC(s).
+When a user is in the local branch office where the downstream SBC is located, the media traffic flows between the user and the local downstream SBC directly. If a user is outside of the office (on a public internet), the media flows from the user to the public IP of the Proxy SBC, which proxies it to the relevant downstream SBC(s).
 
 Table 2. Example SBC network information
 
-| Location | SBC FQDN | Internal subnet | External NAT for Internet egress | External IP address of the SBC | Internal IP Address of the SBC |
+| Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | External IP address of the SBC | Internal IP Address of the SBC |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Vietnam | 192.168.1.0/24 | 172.16.240.110 | VNsbc.contoso.com | None |  192.168.1.5 |
 | Indonesia  | 192.168.2.0/24 | 172.16.240.120 | IDsbc.contoso.com | None |  192.168.2.5 |
@@ -199,7 +199,7 @@ The following describes two scenarios:
 
 #### Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +36) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +49) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 Table 3. Example configuration for Scenario 1
 
@@ -227,7 +227,7 @@ Diagram 5.  Traffic flow with “Always Bypass” mode and the user is in the �
 
 #### Scenario 2: The user and gateways are in different sites
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in France, located in the local branch office, is making a Direct Routing call to Germany. Voice routing policies specify that calls to Germany (with area code +36) should be routed to the local SBC in Germany. All other calls--and, in case the SBC in Germany fails, all calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in France, located in the local branch office, is making a Direct Routing call to Germany. Voice routing policies specify that calls to Germany (with area code +49) should be routed to the local SBC in Germany. All other calls--and, in case the SBC in Germany fails, all calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 Table 4. Example configuration for Scenario 2
 
@@ -251,7 +251,7 @@ Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in �
 
 If there are bad connections between local branch offices but good connections between each local branch office and regional office, then the recommended mode is “Only For Local Users”.
 
-For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible belcause the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
+For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible because the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
 
 To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. The direct connection between the local branch offices is not good, but there is a good connection between each local branch office and the regional SBC in Singapore. For the regional SBC, the administrator chooses ‘Always Bypass’ mode, and for the local downstream SBCs, the administrator chooses ‘Only For Local Users’ mode.
 
