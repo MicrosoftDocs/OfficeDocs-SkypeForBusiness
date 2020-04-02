@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Small and Medium Businesses"
+title: Teams templates for Small and Medium Businesses
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -16,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: lavenkat
 description: Get started with Teams templates for Small and Medium Businesses
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Small and Medium Businesses
@@ -68,7 +69,7 @@ Content-Type: application/json
 {
     "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('SmallBusinessExecutive')",
     "displayName": "Executive",
-    "description": "All posts, announcements and daily collaboration and communication for the company’s leadership team.",
+    "description": "All posts, announcements and daily collaboration and communication for the company's leadership team.",
     "visibility": "Private"
 }
 ```

@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Microsoft Teams

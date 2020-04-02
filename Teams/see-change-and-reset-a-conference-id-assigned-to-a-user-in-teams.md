@@ -1,5 +1,5 @@
 ---
-title: "See, change, and reset a conference ID assigned to a user in Microsoft Teams"
+title: See, change, and reset a user's conference ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: Learn how to assign a conference ID to a user in Microsoft Teams and what the conference IDs parameters should be.
 ---
 

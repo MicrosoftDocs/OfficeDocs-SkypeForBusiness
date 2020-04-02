@@ -1,5 +1,5 @@
 ---
-title: "Set auto attendant languages for Audio Conferencing in Microsoft Teams"
+title: Set Audio Conferencing auto attendant languages
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number in Microsoft Teams."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "What are the special character restrictions in Teams policies?"
+title: Special character restrictions in Teams policies
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.policies.naming.error
+  - seo-marvel-mar2020
 description: "See what issues there are with special characters in the names of policies and what you can do to fix it."
 ---
 

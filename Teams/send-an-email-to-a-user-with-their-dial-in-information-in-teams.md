@@ -1,5 +1,5 @@
 ---
-title: "Send an email to a user with their Audio Conferencing information in Microsoft Teams"
+title: Email a user their Audio Conferencing information
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Send your users an email with their audio conferencing information in Microsoft Teams."
 ---
 

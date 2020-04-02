@@ -23,13 +23,13 @@ appliesto:
 
 # Meetings First
 
-“Meetings First” is targeted at and optimized for Skype for Business Server organizations with Enterprise Voice on premises who want to start using Teams meetings as rapidly as possible. For these organizations, Meetings First is an alternative to using **Islands** mode that prioritizes the Teams meetings experience.
+"Meetings First" is targeted at and optimized for Skype for Business Server organizations with Enterprise Voice on premises who want to start using Teams meetings as rapidly as possible. For these organizations, Meetings First is an alternative to using **Islands** mode that prioritizes the Teams meetings experience.
 
 ## What is Meetings First?
 
 Meetings First is based on the **SfBWithTeamsCollabAndMeetings** coexistence mode. Meetings First is not a product or a feature—it is a configuration that leverages capabilities and features of Teams and Skype for Business to provide a uniquely tailored coexistence experience.
 
-In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There is no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This enables unique “better together” scenarios between Skype for Business and Teams that enhance the user’s experience during coexistence, as well as interoperability scenarios with **Teams Only** users.
+In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There is no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This enables unique "better together" scenarios between Skype for Business and Teams that enhance the user's experience during coexistence, as well as interoperability scenarios with **Teams Only** users.
 
 ![Screenshot of the better together scenario with Teams and Skype for Business](media/meetings-first-meeting-in-meeting.png)
 
@@ -44,7 +44,7 @@ For complex or large organizations, voice migrations are typically done on a sit
 
 Meetings First might not be useful to organizations who have no Enterprise Voice users. These organizations should be able to upgrade to **Teams Only** as soon as they are able to adopt Teams meetings. They should consider skipping Meetings First.
 
-In addition, Meetings First is useful to organizations whose scope is a pure-play meeting solution, for example when a “meetings-only” RFP is being issued.
+In addition, Meetings First is useful to organizations whose scope is a pure-play meeting solution, for example when a "meetings-only" RFP is being issued.
 
 ## Capabilities in Meetings First
 
@@ -54,10 +54,10 @@ Meeting First brings the following capabilities together:
 - [Meetings Migration Service](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): Meetings organized by the user will be migrated to the cloud and converted to Teams meetings as the user is promoted to Meetings First (requires Exchange Online).
 - Streamlined user experience in Teams, centered on Teams meetings and teams and channels (which can, optionally, be hidden using the [App Permissions policy](teams-app-permission-policies.md)); [Teams private chat, calling, and self-presence](teams-client-experience-and-conformance-to-coexistence-modes.md) are not exposed in Meetings First, enabling the deployment and adoption effort to fully focus on meetings.
 - Superior [Teams meeting experience](tutorial-meetings-in-teams.yml).
-- “Better Together” between Teams and Skype for Business: 
+- "Better Together" between Teams and Skype for Business: 
   - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This prevents users from having their private calls overheard by the meetings participants.
     ![Screenshot of the better together scenario with Teams and Skype for Business](media/meetings-first-better-together-hold.png)
-  - Presence reconciliation: Activity in Teams is reflected in the user’s presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
+  - Presence reconciliation: Activity in Teams is reflected in the user's presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
   - Unless otherwise mentioned, Better Together capabilities require recent Windows desktop clients at this time.
 
@@ -75,7 +75,7 @@ Meetings First is supported with any version of the Skype for Business Server (a
 
 Once these requirements are met (and not prior), the users can be [licensed for Office 365 and Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
 
-For the best Meetings First experience, users should be enabled for [Exchange Online](exchange-teams-interact.md), [SharePoint Online, and OneDrive for Business](sharepoint-onedrive-interact.md), and Office 365 Group creation. Meetings First is supported for users whose mailbox is on Exchange on-premises, or who don’t have SharePoint Online or OneDrive For Business, or Office 365 Group creation. However, their experience will be less complete. In particular, for organizations using Exchange Server on-premises, there might be (depending on the version of Exchange Server) some limitations to creating and viewing meetings from the Teams client, as well as with respect to compliance capabilities.
+For the best Meetings First experience, users should be enabled for [Exchange Online](exchange-teams-interact.md), [SharePoint Online, and OneDrive for Business](sharepoint-onedrive-interact.md), and Office 365 Group creation. Meetings First is supported for users whose mailbox is on Exchange on-premises, or who don't have SharePoint Online or OneDrive For Business, or Office 365 Group creation. However, their experience will be less complete. In particular, for organizations using Exchange Server on-premises, there might be (depending on the version of Exchange Server) some limitations to creating and viewing meetings from the Teams client, as well as with respect to compliance capabilities.
 
 At minimum, users must be [licensed for Teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). In addition, they can be licensed for [Audio Conferencing](set-up-audio-conferencing-in-teams.md), if needed.
 
@@ -89,7 +89,7 @@ For your users to have the best possible experience in Teams meetings, you shoul
 
 - Follow the steps in [Meetings and conferencing for Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md), in particular.
 - [Evaluate your environment](3-envision-evaluate-my-environment.md).
-- [Prepare your organization’s network for Microsoft Teams](prepare-network.md).
+- [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 - Upgrade your meeting rooms with Teams capable [meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), or use [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) to enable your existing third-party rooms and devices to join Teams meetings.
 - Equip your users with [certified USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 - Prepare to [drive awareness and adoption for Teams meetings](adopt-microsoft-teams-landing-page.md).
@@ -100,13 +100,13 @@ You might consider running a moderate scale production ready pilot at this stage
 
 ## Configure users for Meetings First
 
-Once you have licensed your users and prepared your organization for Teams meetings, it’s time to enable your users for Meetings First. We’ve made it easy: one single setting will do it all!
+Once you have licensed your users and prepared your organization for Teams meetings, it's time to enable your users for Meetings First. We've made it easy: one single setting will do it all!
 
 All capabilities and user experiences in Meetings First, including the Teams client configuration and [auto-conformance](teams-client-experience-and-conformance-to-coexistence-modes.md) of the user experience, Meetings Migration Service, and Better Together capabilities, are configured by granting the user (or group of users, or tenant default) the [SfBWithTeamsCollabAndMeetings coexistence mode](setting-your-coexistence-and-upgrade-settings.md) either in the [Microsoft Teams admin center](manage-teams-in-modern-portal.md) or by using [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Screenshot of the admin settings to enable Meetings First](media/teams-meeting-admin-settings.png)
 
-Optionally, should you want to hide the Teams and Channels application from the left navigation of your users’ Teams client to further focus their experience on meetings, that can be achieved by using the [App Permission policy](teams-app-permission-policies.md).
+Optionally, should you want to hide the Teams and Channels application from the left navigation of your users' Teams client to further focus their experience on meetings, that can be achieved by using the [App Permission policy](teams-app-permission-policies.md).
 
 ## Reporting and Call Analytics
 

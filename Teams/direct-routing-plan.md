@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
+ms.custom: seo-marvel-mar2020
 description: Learn how Microsoft Phone System Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Microsoft Phone System.
 ---
 

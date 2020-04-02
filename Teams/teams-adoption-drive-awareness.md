@@ -1,5 +1,5 @@
 ---
-title: Drive awareness and implement training for Microsoft Teams
+title: Drive awareness and implement training
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,7 +13,9 @@ search.appverid: MET150
 description: Learn how to increase awareness and implement a training program for Microsoft Teams adoption.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

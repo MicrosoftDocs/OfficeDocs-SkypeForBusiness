@@ -22,6 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
+  - seo-marvel-mar2020
 description: Learn about dialing toll-free numbers in Egypt, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 

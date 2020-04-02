@@ -21,6 +21,7 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
+  - seo-marvel-mar2020
 description: Learn about how many phone numbers you can get in Microsoft Teams based on the type of number and how many licenses you have.
 ---
 
