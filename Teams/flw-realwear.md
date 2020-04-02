@@ -53,4 +53,4 @@ For guidance on third-party EMMs, see [Supported Enterprise Mobility Management 
 
 ## End-user content
 
-For further reading on this from an end-user perspective, please check out 
+For further reading on this from an end-user perspective, please check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
