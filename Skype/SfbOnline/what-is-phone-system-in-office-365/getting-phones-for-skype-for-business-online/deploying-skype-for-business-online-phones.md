@@ -34,7 +34,7 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Before you get started, it's a good idea to download the phone manufacturer's administration guides and phone user manuals.
   
-- For Polycom phones, see the [Polycom Deployment Guide](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- For Polycom phones, see the [Poly Documentation Library](https://documents.polycom.com/category/voice).
     
 - For Yealink phones, see [Yealink Skype for Business HD SIP Phones Solution](http://www.yealink.com/products_top_2.html).
     
@@ -202,7 +202,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as Microsoft Endpoint Configuration Manager. For help using Configuration Manager, See [Packages and programs in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
-   - [Polycom BToE Software Download site](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE Software Download site](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Yealink BToE Software Download](http://www.yealink.com/products_list_10.html)
     

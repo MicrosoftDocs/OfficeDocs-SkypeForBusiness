@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 ms.collection: 
   - Teams_ITAdmin_PracticalGuidance
@@ -108,7 +110,7 @@ For new and existing tenants that haven't yet turned on meeting recording, new r
 
 To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-To learn more about where data is stored across services in Office 365, see [Where is your data located?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+To learn more about where data is stored across services in Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### Turn on or turn off recording transcription
 
@@ -147,6 +149,10 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 ## Manage meeting recordings
 
 The meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the admin can open the recording video URL in Microsoft Stream in admin mode. The admin can delete the recording, update any recording metadata, or change permissions for the recording video. Learn more about [admin capabilities in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
+
+> [!NOTE]
+> See [Manage user data in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) and [Permissions and privacy in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) for additional information on managing recordings and user access.
+
 
 ## Compliance and eDiscovery for meeting recordings
 

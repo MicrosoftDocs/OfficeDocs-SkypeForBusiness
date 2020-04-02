@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -22,7 +24,7 @@ description: "Summary: Review the Windows client support requirements while plan
  
 **Summary:** Review the Windows client support requirements while planning Skype for Business Server.
   
-This section summarizes software required to support the Skype for Business Windows clients.  These clients are installed when Office 365 installs, and are also available at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
+This section summarizes software required to support the Skype for Business Windows clients.  These clients are installed when Office 365 installs, and are also available at [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
   
 > [!NOTE]
 > The Online Meeting Add-in for Skype for Business, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Skype for Business. 
@@ -31,7 +33,7 @@ This section summarizes software required to support the Skype for Business Wind
 
 |**System component**|**Supported versions**|
 |:-----|:-----|
-|Windows Operating system  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 operating system  <br/> Windows Server 2008 R2 or later with latest service pack  <br/> **Note:** Skype for Business and the Online Meeting Add-in for Skype for Business are not supported on Windows Vista or Windows XP (any version). <br/> |
+|Windows Operating system  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 or later with latest service pack  <br/> **Note:** Skype for Business and the Online Meeting Add-in for Skype for Business are not supported on Windows Vista or Windows XP (any version). <br/> |
 |Installation and updates  <br/> |Administrator rights and permissions  <br/> |
 |Browser  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10 Internet browser <br/> Internet Explorer 9 Internet browser  <br/> Internet Explorer 8 Internet browser  <br/> Internet Explorer 7 Internet browser  <br/> Mozilla Firefox web browser  <br/>  Google Chrome web browser  <br/>**Note:** If you are using Skype for Business with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 8 or later is required.           |
 |Microsoft Office Integration  <br/> | Outlook 2010 or later |
@@ -39,7 +41,7 @@ This section summarizes software required to support the Skype for Business Wind
    
 ## Hardware
 
-Refer to the Office 365 [System requirements](https://products.office.com/en-us/office-system-requirements) for the hardware required to run the Skype for Business client.
+Refer to the Office 365 [System requirements](https://products.office.com/office-system-requirements) for the hardware required to run the Skype for Business client.
   
 ## Skype Meetings App and Skype for Business Web App 
 
@@ -73,6 +75,6 @@ Following are the Skype for Business for Windows Phone prerequisites.
   
 [Skype for Business on Mac client requirements](mac-requirements.md)
 
-[Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
+[Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 system requirements](https://products.office.com/en-us/office-system-requirements)
+[Office 365 system requirements](https://products.office.com/office-system-requirements)

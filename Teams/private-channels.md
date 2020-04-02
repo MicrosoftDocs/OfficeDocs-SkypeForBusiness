@@ -11,6 +11,8 @@ audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -53,7 +55,7 @@ To determine whether a private channel is appropriate, consider the following qu
 |Yes     |No         |No         |Create a channel in the existing team.         |
 |No     |No         |No         |Consider creating a new team.         |
 |No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
-|No     |Yes         |No         |Create a new team or create a new private channel in an existing team.         |
+|No     |Yes         |No         |Create a new team and consider creating a private channel.         |
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 

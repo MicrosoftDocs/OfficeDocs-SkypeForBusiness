@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from Skype for Business Online 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,9 +20,11 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Upgrade from Skype for Business Online to Teams
+
 ![Upgrade journey diagram, emphasizing Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
@@ -29,8 +33,6 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 - [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
-
-# Upgrade from Skype for Business Online to Teams
 
 Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 

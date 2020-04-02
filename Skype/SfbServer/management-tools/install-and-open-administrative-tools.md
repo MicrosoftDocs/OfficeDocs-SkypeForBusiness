@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "This topic describes how to install and open the administrative tools you need to deploy and manage Skype for Business."
 ---
@@ -66,14 +68,14 @@ Use the following procedure to open the Topology Builder to define the servers t
 Use one of the following procedures to open the Skype for Business Server Control Panel to manage the configuration of servers, users, clients, and devices in your environment.
 
 > [!NOTE]
-> You can use a user account that is assigned to the CsAdministrator role to perform any task in the Skype for Business Server Control Panel. You can use other roles to log on to the Skype for Business Server Control Panel to perform specific administration tasks, dependent on the task you need to perform. For example, you can use CSArchivingAdministrator to administer Archiving in the Skype for Business Server Control Panel. For details about roles, see [Planning for role-based access control](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). For details about the roles that you can use to perform a specific task, see the documentation for the task. 
+> You can use a user account that is assigned to the CsAdministrator role to perform any task in the Skype for Business Server Control Panel. You can use other roles to log on to the Skype for Business Server Control Panel to perform specific administration tasks, dependent on the task you need to perform. For example, you can use CSArchivingAdministrator to administer Archiving in the Skype for Business Server Control Panel. For details about roles, see [Planning for role-based access control](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx). For details about the roles that you can use to perform a specific task, see the documentation for the task. 
 
 **To open the Skype for Business Server Control Panel from any computer inside your organization’s firewall**
 
 1. From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.
 
     > [!IMPORTANT]
-    > If you have configured an administration simple uniform resource locator (URL), you can access the Skype for Business Server Control Panel from an Internet browser that is running on any computer within your organization’s firewall. For details about configuring the administration simple URL, see [Planning for simple URLs](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx) and [Edit or configure simple URLs](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx). 
+    > If you have configured an administration simple uniform resource locator (URL), you can access the Skype for Business Server Control Panel from an Internet browser that is running on any computer within your organization’s firewall. For details about configuring the administration simple URL, see [Planning for simple URLs](https://technet.microsoft.com/library/gg398287(v=ocs.15).aspx) and [Edit or configure simple URLs](https://technet.microsoft.com/library/gg398063(v=ocs.15).aspx). 
 
 2. Open a browser window, and then enter the Admin URL configured for your organization.
 
@@ -87,7 +89,7 @@ Use one of the following procedures to open the Skype for Business Server Contro
 Use the following procedure to open the Skype for Business Server Management Shell to administer servers, users, clients, and devices in your environment by using the command line.
 
 > [!NOTE]
-> You can use a user account that is assigned to the CsAdministrator role to perform any task in the Skype for Business Server Management Shell. You can log on using other roles to perform specific administration tasks, depending on the task you need to perform. For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration. For details about roles, see [Planning for role-based access control](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.<br/><br/>You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet. 
+> You can use a user account that is assigned to the CsAdministrator role to perform any task in the Skype for Business Server Management Shell. You can log on using other roles to perform specific administration tasks, depending on the task you need to perform. For example, you can use CSArchivingAdministrator to run cmdlets related to Archiving administration. For details about roles, see [Planning for role-based access control](https://technet.microsoft.com/library/gg425917(v=ocs.15).aspx). For details about the roles that you can use to run a specific cmdlet, see the documentation for the cmdlet.<br/><br/>You can also run certain cmdlets by using a user account in the RTCUniversalServerAdmins, RTCUniversalUserAdmins, or RTCUniversalReadOnlyAdmins groups, depending on the cmdlet. 
 
 **To open Skype for Business Server Management Shell**
 

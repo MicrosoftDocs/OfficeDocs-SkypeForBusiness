@@ -17,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure clients for migration
 
@@ -39,7 +39,7 @@ This topic contains the recommended client deployment steps you should take befo
 
 ## To configure clients before migration
 
-1.  Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010. For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+1.  Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010. For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.
 
 2.  On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.
 

@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
@@ -20,7 +22,7 @@ description: "Read this topic to learn about hardware, software, and infrastruct
  
 Read this topic to learn about hardware, software, and infrastructure requirements for running Skype for Business on a Mac.
   
-The [Skype for Business on Mac Client](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) is available for download.
+The [Skype for Business on Mac Client](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac) is available for download.
   
 ## Hardware and software requirements for Skype for Business on Mac
 
@@ -28,7 +30,7 @@ The Skype for Business on Mac client requires Mac OS X El Capitan and higher, an
   
 > [!NOTE]
 > This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac. 
-> Refer to the [System requirements](https://products.office.com/en-us/office-system-requirements) for the minimum hardware required.
+> Refer to the [System requirements](https://products.office.com/office-system-requirements) for the minimum hardware required.
   
 ### Legacy Mac clients
 

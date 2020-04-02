@@ -16,6 +16,8 @@ metadata:
   search.appverid: MET150
   ms.collection:
   - M365-collaboration
+  f1.keywords:
+  - CSH
   ms.custom:
   - NewAdminCenter_Update
   appliesto: 
@@ -23,7 +25,7 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    
+  
     [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
 
     With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, communicate with school staff, coordinate research across institutions, or more easily facilitate student life efforts like clubs or extracurricular activities – all from a single experience in Office 365 for Education.
@@ -41,19 +43,19 @@ items:
   
     ## Before you begin
     
-    1. [Check your environment’s readiness for Teams](environment-readiness.md).
-    2. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
-    3. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
-    4. [Prepare your school's network for Teams](prepare-network.md).
-    5. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+    1. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for educators to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
+    2. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+    3. [Prepare your school's network for Teams](prepare-network.md).
+    4. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 - title: Quick start - Teams planning guide
   durationInMinutes: 4
   content: |
 
+
     ## Step 1: Get your people together
 
-    Assemble a group of individuals from staff, teachers, and the educator community to act as the stakeholder & decision-making group for your Teams deployment. 
+    Assemble a group of individuals from staff, educators, and the educator community to act as the stakeholder & decision-making group for your Teams deployment. 
 
     ## Step 2:  Prioritize your scenarios
 
@@ -82,30 +84,30 @@ items:
     3. **Capture feedback from your educators** on their experience with Office 365 and Teams. Use a channel in Teams when your school has fewer than 5000 individuals. Use a public group in Yammer when your school is larger than this current membership limit in Teams. 
     4. **Nurture your champions and highlight your wins.** Reward educators for embracing these new tools and using them in innovative ways. This, above anything, ensures continued adoption of Office 365 and Teams.
 
-- title: Turn on or turn off Microsoft Teams licenses
+- title: Turn on or off Microsoft Teams Licenses
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
-    
-    You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Office 365 Admin Center to enable Microsoft Teams for your school.
+    ## Turn on Microsoft Teams for your school
 
-    > [!NOTE]
-    > Before you turn on Teams for your school, make sure you have the proper controls in place. A piloting program helps significantly to ensure the proper users are able to use and give feedback on what types of controls enhance the usage and management of the product. 
+    1. Sign in to <a href="https://portal.office.com" target="_blank">Office 365</a> with your work or school account.
+    2. Click **Admin** to go to the [Office 365 admin center](https://aka.ms/enableteamssetting).
+    3. Go to **Settings &gt; Settings &gt; Microsoft Teams**. Check **Show all** if you don't see settings right away.
 
-    Below are some sample pilot user groups and the teams that could be of interest. 
+    **Figure 1** - Select Microsoft Teams from the list of services
 
-    |IT department   |Staff pilots   |Educator pilots   |Student pilots   |
-    |---|---|---|---|---|
-    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select staff departments for their project work and collaboration.   |Identify educators to become champions who are excited about Teams in the classroom and in educator collaboration.   |Get students excited about how Teams can help them outside of the classroom. Identify student champions that can use Teams within their extracurricular groups.   |
-    |**Sample teams**   |   |   |   |
-    |IT project coordination (e.g., Teams rollout)    |Project coordination   |Class section collaboration & communications (including syllabus, group project work, TA or breakout sessions)   |Professional society, group coordination & collaboration (e.g., Honor Society, Association of Marketing Students)   |
-    |IT department-to-faculty communications   |Collaboration workspace, announcements   |Inter-department coordination, communications   |Social, philanthropic group coordination & collaboration (e.g., fraternities, sororities)   |
-    |LiveSite issues   |Meetings   |Research project collaboration   |   |
-    |Organization collaboration workspace, announcements   |Executive admin groups   |   |   |
+    ![Select the Microsoft Teams from the list of services](media/enable-microsoft-teams.png).
 
-    > [!NOTE]
-    > For help and support with Teams licenses or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+    4.	Check the **Education – Faculty and Staff** option to enable Teams for faculty and check the **Education – Student** option to enable Teams for students. 
+
+     **Figure 2** - Check the correct option for the license type that you want to configure
+
+     ![Select the Microsoft Teams license that you want to configure](media/enable-microsoft-teams-3.png)
+
+     5.	Click **Save changes**.
+
+  
 
 - title: Configure Teams for your school
   durationInMinutes: 7

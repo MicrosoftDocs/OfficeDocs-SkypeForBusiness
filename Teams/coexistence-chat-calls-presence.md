@@ -9,6 +9,8 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB
   - M365-collaboration
@@ -49,11 +51,11 @@ The parameters that determine the thread routing method are:
     - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
-> Currently, all federation involving Teams leverages the Skype for Business federation pipeline as well as Teams – Skype for Business interoperability. We are planning native Teams – Teams federation. The present document will be updated upon release of native federation.
+> If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). If either of the  conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages.
 
-# Chat and call routing
+## Chat and call routing
 
-## In-tenant routing for new chats or calls 
+### In-tenant routing for new chats or calls 
 
 The tables below capture routing of in-tenant chat and calls, and are valid for new calls or chats that are not started from a pre-existing thread. It describes which client will receive a new call or chat, if originated by a user on the left, to an in-tenant recipient user on the right.
 
@@ -95,7 +97,7 @@ In the tables that follow:
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## Federated routing for new chats or calls
+### Federated routing for new chats or calls
   
 The tables below capture routing of federated calls and chats, and are valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right.
 
@@ -150,14 +152,14 @@ If the pre-existing persistent thread in Teams was a native thread (i.e. routed 
 
 Skype for Business threads do not persist beyond the 10 min. SIP session timeout. Chats and calls from an existing thread in Skype for Business prior to expiration of the SIP session will be routed in the same manner as the thread. Calls and chats from an existing thread in Skype for Business beyond the SIP session timeout will be routed to the remote party’s Skype for Business, regardless of which client the original thread came from on the other party’s side.
 
-## Availability
+### Availability
 
 Both the in-tenant and federated behaviors described above are available, with the following limitations:
 
 - External attendees whose tenants reside in a different GoLocal deployment or geography won’t see IM chat while in a "federated" meeting
 - Federation and interop between Multitenant O365 and Sovereign Clouds is not supported
 
-# Presence
+## Presence
 
 When you have a situation where some of your users are using the Teams client and others are still using the Skype for Business client, you may have a number of users who are using both clients. You still want presence states to be shared with all users without regard to what client an individual user has. When this is shared across the organization, users can better determine whether it's appropriate to initiate a chat or make a call.
 
@@ -173,7 +175,7 @@ In order to know what behavior to expect, you'll need to understand that Presenc
     * From Skype for Business, any other user will see the Islands user’s Skype for Business presence (both in-tenant and federated); this is aligned with the routing tables above
 
 
-## In-tenant presence
+### In-tenant presence
 
 Messages sent to TeamsOnly users will always land in Teams. Messages sent to SfB\* users will always land in Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always land in the client from which they were originated.
 
@@ -187,7 +189,7 @@ The table describes the Publisher’s presence that will be seen by a Watcher, d
 |Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
-## Federated presence
+### Federated presence
 
 Federated presence is based upon the federated reachability shown in table 2.
 
@@ -201,13 +203,13 @@ The table below describes the Publisher’s presence that will be seen by a Watc
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## Presence in pre-existing threads
+### Presence in pre-existing threads
 
 In order to align presence and reachability in pre-existing threads, the target’s presence exposed in that thread needs to be aligned with the routing of the thread, assuming routing is possible.
 
 In particular, if a recipient you previously had a persistent interop conversation thread with was upgraded to Teams, that thread will no longer reflect accurate presence and will no longer be routable. You should start a new thread.
 
 ## Related Links
-[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

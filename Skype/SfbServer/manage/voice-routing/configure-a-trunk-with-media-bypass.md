@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Follow these steps to configure a trunk with media bypass enabled. "
 ---
@@ -119,7 +121,7 @@ A trunk configuration as described below groups a set of parameters that are app
 20. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
 
     > [!Note]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). (NEED NEW LINK?)
+    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx). (NEED NEW LINK?)
 
 After you have configured the trunk, continue configuring media bypass by choosing between global media bypass options, as described in [Deploy media bypass in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md).
 

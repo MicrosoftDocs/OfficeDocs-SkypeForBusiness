@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
@@ -111,7 +111,7 @@ For more information about call queues, see [Create a Cloud call queue](create-a
 
 ## Step 8: If you want to set up a Cloud auto attendant
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
+Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Teams admin center.
 
 For information about setting up a Cloud auto attendendant, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
 

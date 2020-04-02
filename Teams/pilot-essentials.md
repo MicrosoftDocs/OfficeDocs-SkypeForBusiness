@@ -11,6 +11,8 @@ description: Guidance for starting a Microsoft Teams pilot to explore all that T
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -18,9 +20,11 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Conduct a user pilot
+
 ![Upgrade journey diagram, highlighting Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
@@ -29,11 +33,9 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 - [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# Conduct a user pilot
+By deploying new technologies, your organization can realize business value such as cost savings, security compliance, employee satisfaction, and operational efficiencies, but it can also affect your users' productivity and organizational infrastructure (your network). Before enabling new technology across your organization, conduct a formal user pilot. Just like you'd paint a small patch of color on a wall before painting the whole room, you'd test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
 
-By deploying new technologies, your organization can realize business value such as cost savings, security compliance, employee satisfaction, and operational efficiencies, but it can also affect your users’ productivity and organizational infrastructure (your network). Before enabling new technology across your organization, conduct a formal user pilot. Just like you’d paint a small patch of color on a wall before painting the whole room, you’d test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
-
-To achieve the most realistic results, the pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. Sometimes considered Phase 1 of a rollout, the ideal pilot leverages the preparation you’ve already started and implements your defined plan with a targeted group of users.
+To achieve the most realistic results, the pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. Sometimes considered Phase 1 of a rollout, the ideal pilot leverages the preparation you've already started and implements your defined plan with a targeted group of users.
 
 | | |
 |---|---|
@@ -45,7 +47,7 @@ To achieve the most realistic results, the pilot should involve actual users, mi
 
 ## 1. Outline pilot logistics
 
-A successful pilot has defined start and end dates, and [clearly defined goals](upgrade-define-project-scope.md#project-goals) for measuring success. These goals should align with the scope of your broader project, as you documented when you [defined your project scope](upgrade-define-project-scope.md), and will be used to inform your path forward after your pilot is over. You should also ensure that you’ve included the right stakeholders for the duration of the project. You’ll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
+A successful pilot has defined start and end dates, and [clearly defined goals](upgrade-define-project-scope.md#project-goals) for measuring success. These goals should align with the scope of your broader project, as you documented when you [defined your project scope](upgrade-define-project-scope.md), and will be used to inform your path forward after your pilot is over. You should also ensure that you've included the right stakeholders for the duration of the project. You'll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
 
 Start small, and add to your pilot as appropriate—whether by adding workloads or features, or additional users—making time to assess results and adjust your pilot as you iterate. You might even opt to run subsequent pilots as new Teams features are released per the roadmap.
 
@@ -64,14 +66,14 @@ Your organization might choose to pilot all functionality at once, or use a grad
 
 ## 4. Create your communications plan
 
-It’s crucial to the success of your pilot that you educate pilot participants on what’s happening, when, and why, and what’s expected of them. To drive excitement and maximum participation, be sure to include user value messaging in addition to links to training and support where users can get additional information as they progress through the pilot. Here are a few sample resources to get you started with your pilot communications plan:
+It's crucial to the success of your pilot that you educate pilot participants on what's happening, when, and why, and what's expected of them. To drive excitement and maximum participation, be sure to include user value messaging in addition to links to training and support where users can get additional information as they progress through the pilot. Here are a few sample resources to get you started with your pilot communications plan:
 
 - [Pilot resources](https://aka.ms/UpgradeSuccessKit), including email templates and sample feedback survey questions
 - [Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), a quick-start guide designed to help Skype for Business users get started with Teams
 
 ## 5. Conduct your pilot
 
-With all the logistics in place, you’re now ready to begin your pilot. Conducting your pilot includes communicating with your users, monitoring your network and usage to ensure your network performance and call quality remain healthy, gathering feedback from participants, and reviewing helpdesk tickets for questions related to Teams.
+With all the logistics in place, you're now ready to begin your pilot. Conducting your pilot includes communicating with your users, monitoring your network and usage to ensure your network performance and call quality remain healthy, gathering feedback from participants, and reviewing helpdesk tickets for questions related to Teams.
 
 ### Tips for pilot success
 
@@ -95,7 +97,7 @@ Here's a suggested timeline for a 30-day pilot:
 
 ## 6. Assess learnings and evaluate your go-forward plan
 
-After your pilot is complete, it’s time to gather all feedback surveys, final network stats, and support tickets for analysis against your goals and determine whether you’ll implement your go-forward plan. You might find that your organization is ready for a broad deployment, or you want to extend your pilot to more users, or you want to revisit the pilot at a later date after any concerns you’ve identified have been mitigated. Remember that your pilot is a great way to predict technical and user outcomes in a _controlled_ environment; be thoughtful about jumping ahead too quickly.
+After your pilot is complete, it's time to gather all feedback surveys, final network stats, and support tickets for analysis against your goals and determine whether you'll implement your go-forward plan. You might find that your organization is ready for a broad deployment, or you want to extend your pilot to more users, or you want to revisit the pilot at a later date after any concerns you've identified have been mitigated. Remember that your pilot is a great way to predict technical and user outcomes in a _controlled_ environment; be thoughtful about jumping ahead too quickly.
 
 If your results indicate:
 
@@ -103,7 +105,7 @@ If your results indicate:
   - Extending the pilot to additional participants
   - [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
   - [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
-- **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
+- **Your pilot didn't achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]
 > Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout.

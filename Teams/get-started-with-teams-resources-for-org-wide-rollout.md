@@ -11,6 +11,8 @@ ms.reviewer: lolaj
 description: Know where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

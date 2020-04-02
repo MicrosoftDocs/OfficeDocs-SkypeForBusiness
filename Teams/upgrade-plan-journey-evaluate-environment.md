@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,16 +20,16 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Evaluate your environment before upgrading to Teams
+
 ![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
+This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# Evaluate your environment before upgrading to Teams
 
 This article gives an overview of the requirements for properly evaluating your current environment for operating Teams. By evaluating your environment, you identify risks and requirements that will influence your overall deployment. By identifying these items beforehand, you can adjust your planning to drive success.
 
@@ -37,18 +39,18 @@ To achieve your objective key results (OKRs), you previously made key service de
 
 You identify technical risks as part of an environmental assessment and adoption readiness evaluation, and develop a mitigation plan for each identified risk. You should incorporate this information in the risk register.
 
-All matters related to your existing collaboration infrastructure and Office 365 tenant, networking, endpoints, operations, and adoption and readiness are included as part of the environmental discovery questionnaire. The questionnaire is divided into multiple sections to confirm your organization’s readiness for your Teams deployment in several major areas. Work with your project team to provide the requested information with as much detail as possible to facilitate your planning activities.
+All matters related to your existing collaboration infrastructure and Office 365 tenant, networking, endpoints, operations, and adoption and readiness are included as part of the environmental discovery questionnaire. The questionnaire is divided into multiple sections to confirm your organization's readiness for your Teams deployment in several major areas. Work with your project team to provide the requested information with as much detail as possible to facilitate your planning activities.
 
 > [!TIP]
 > You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
 
 ## Project team
 
-Ensure that you’ve engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakekholders](upgrade-enlist-stakeholders.md).
+Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakekholders](upgrade-enlist-stakeholders.md).
 
 ## Office 365 tenant details
 
-We highly recommend that you have an active Office 365 tenant as you work with this questionnaire. If you haven’t activated or configured an Office 365 tenant yet, see [Plan your setup of Office 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+We highly recommend that you have an active Office 365 tenant as you work with this questionnaire. If you haven't activated or configured an Office 365 tenant yet, see [Plan your setup of Office 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
 Use the following table to capture information about the Office 365 tenant.
 
@@ -59,11 +61,11 @@ Use the following table to capture information about the Office 365 tenant.
 > | Are these tenants Office 365 Multitenant or <br>Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
 > | Which Microsoft Online products are in use today? <br/>Note the number of users enabled for each <br>service in the Comments column. | <input type="checkbox"> Microsoft Teams <br/> <input type="checkbox"> Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox"> Exchange Online <br/> <input type="checkbox"> SharePoint Online <br/> <input type="checkbox"> OneDrive for Business <br/> <input type="checkbox"> Yammer <br/> <input type="checkbox"> Other| |
 > | What license level is enabled for Skype for <br>Business Online users? | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> Standalone | The number of users <br>for each SKU: |
-> | What is the current Active Directory forest <br>functional level in the environment? <br/>If there’s more than one forest, note the details <br>in the Comments column. | <input type="checkbox"> Windows Server 2000 <br/> <input type="checkbox"> Windows Server 2003 <br/> <input type="checkbox"> Windows Server 2008<br/> <input type="checkbox"> Windows Server 2008 R2 <br/> <input type="checkbox"> Windows Server 2012 <br/> <input type="checkbox"> Windows Server 2012 R2 <br/> <input type="checkbox"> Windows Server 2016| |
+> | What is the current Active Directory forest <br>functional level in the environment? <br/>If there's more than one forest, note the details <br>in the Comments column. | <input type="checkbox"> Windows Server 2000 <br/> <input type="checkbox"> Windows Server 2003 <br/> <input type="checkbox"> Windows Server 2008<br/> <input type="checkbox"> Windows Server 2008 R2 <br/> <input type="checkbox"> Windows Server 2012 <br/> <input type="checkbox"> Windows Server 2012 R2 <br/> <input type="checkbox"> Windows Server 2016| |
 > | What are you using for directory <br>synchronization today? |<input type="checkbox"> No sync (cloud only) <br/> <input type="checkbox"> Azure Active Directory <br>&nbsp; &nbsp; &nbsp;Connect <br/> <input type="checkbox"> Other (Specify in the <br>&nbsp; &nbsp; &nbsp;Comments column.)| |
 > | Is federated identity currently deployed? <br/>(Active Directory Federation Services or <br>third-party) | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
-> | If you’re using federated identity, what is the <br>federation infrastructure? | <input type="checkbox"> Windows 2008 R2 AD FS <br/> <input type="checkbox"> Windows 2012 AD FS <br/> <input type="checkbox"> Windows 2012 R2 AD FS <br/> <input type="checkbox"> Windows 2016 AD FS <br/> <input type="checkbox"> Third-party federation <br>&nbsp; &nbsp; &nbsp;gateway <br>&nbsp; &nbsp; &nbsp;(Note the details in the <br>&nbsp; &nbsp; &nbsp;Comments column.) | |
-> | If you currently maintain an active Office 365 <br>tenant, is the SMTP/SIP domain of your <br>targeted users associated with the tenant? | <input type="checkbox"> N/A – No Office 365 <br>&nbsp; &nbsp; &nbsp;tenant in place <br/> <input type="checkbox"> No, users’ SMTP/SIP <br>&nbsp; &nbsp; &nbsp;domain isn’t associated <br>&nbsp; &nbsp; &nbsp;with any tenants in <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox"> Yes, users’ SMTP/SIP <br>&nbsp; &nbsp; &nbsp;domain is associated <br>&nbsp; &nbsp; &nbsp;with an existing tenant <br>&nbsp; &nbsp; &nbsp;in Office 365 | |
+> | If you're using federated identity, what is the <br>federation infrastructure? | <input type="checkbox"> Windows 2008 R2 AD FS <br/> <input type="checkbox"> Windows 2012 AD FS <br/> <input type="checkbox"> Windows 2012 R2 AD FS <br/> <input type="checkbox"> Windows 2016 AD FS <br/> <input type="checkbox"> Third-party federation <br>&nbsp; &nbsp; &nbsp;gateway <br>&nbsp; &nbsp; &nbsp;(Note the details in the <br>&nbsp; &nbsp; &nbsp;Comments column.) | |
+> | If you currently maintain an active Office 365 <br>tenant, is the SMTP/SIP domain of your <br>targeted users associated with the tenant? | <input type="checkbox"> N/A – No Office 365 <br>&nbsp; &nbsp; &nbsp;tenant in place <br/> <input type="checkbox"> No, users' SMTP/SIP <br>&nbsp; &nbsp; &nbsp;domain isn't associated <br>&nbsp; &nbsp; &nbsp;with any tenants in <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox"> Yes, users' SMTP/SIP <br>&nbsp; &nbsp; &nbsp;domain is associated <br>&nbsp; &nbsp; &nbsp;with an existing tenant <br>&nbsp; &nbsp; &nbsp;in Office 365 | |
 > | Do user UPNs match their primary SMTP address? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> Inconsistently | |
 
 ## Existing collaboration platform summary
@@ -86,7 +88,7 @@ Use the following table to capture information about your existing collaboration
 
 ### Microsoft Teams (if applicable)
 
-If applicable, capture the details of your Teams deployment by using the sample table below. If you haven’t deployed Teams, skip this section.
+If applicable, capture the details of your Teams deployment by using the sample table below. If you haven't deployed Teams, skip this section.
 
 > | Question | Answer | Comments |
 > |---|---|---|
@@ -100,7 +102,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 
 ### Skype for Business Online (if applicable)
 
-If applicable, capture the details of your Skype for Business Online deployment by using the sample table below. If you haven’t deployed Skype for Business Online deployment, skip this section.
+If applicable, capture the details of your Skype for Business Online deployment by using the sample table below. If you haven't deployed Skype for Business Online deployment, skip this section.
 
 > | Question | Answer | Comments |
 > |---|---|---|
@@ -112,28 +114,28 @@ If applicable, capture the details of your Skype for Business Online deployment 
 
 ### Skype for Business on-premises (if applicable)
 
-If applicable, capture the details of your Skype for Business deployment by using the sample table below. If you haven’t deployed Skype for Business on-premises, skip this section.
+If applicable, capture the details of your Skype for Business deployment by using the sample table below. If you haven't deployed Skype for Business on-premises, skip this section.
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | What versions of Lync or Skype for Business currently <br>are deployed on-premises? | <input type="checkbox"> Office Communications Server 2007 “R1” <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Server 2019 <br/> <input type="checkbox"> Skype for Business Cloud Connector Edition | |
+> | What versions of Lync or Skype for Business currently <br>are deployed on-premises? | <input type="checkbox"> Office Communications Server 2007 "R1" <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Server 2019 <br/> <input type="checkbox"> Skype for Business Cloud Connector Edition | |
 > | Is hybrid with Skype for Business Online configured? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Is this environment hosted and managed by a third party? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | What modalities and features are currently in use <br>today? | <input type="checkbox"> Instant Messaging and Presence (IM/P) <br/> <input type="checkbox"> Meetings <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Meeting Recording <br/> <input type="checkbox"> Persistent Chat / Group Chat <br/> <input type="checkbox"> Microsoft Audio Conferencing <br>&nbsp; &nbsp; &nbsp;(formerly Dial in Conferencing) on your <br>&nbsp; &nbsp; &nbsp;on-premises Lync Server or <br>&nbsp; &nbsp; &nbsp;Skype for Business deployment <br/> <input type="checkbox"> Third-party audio conferencing <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column) <br/> <input type="checkbox"> Enterprise Voice using on-premises PSTN <br>&nbsp; &nbsp; &nbsp;connectivity <br/> <input type="checkbox"> Calling Plans (formerly PSTN calling) via <br>&nbsp; &nbsp; &nbsp;Hybrid with Skype for Business Online | |
-> | Which version(s) of Edge Server do you have deployed? | <input type="checkbox"> Office Communications Server 2007 “R1” <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Server 2019 | |
+> | Which version(s) of Edge Server do you have deployed? | <input type="checkbox"> Office Communications Server 2007 "R1" <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Server 2019 | |
 > | Do you have Lync or Skype for Business Edge deployed <br>into more than one datacenter? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Select services that your Edge role provides today. | <input type="checkbox"> External user access (corporate users) <br/> <input type="checkbox"> Remote user access (anonymous external <br>&nbsp; &nbsp; &nbsp;meeting participants) <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Media relay | |
-> | Which of the following voice calling features do you <br>currently have dependencies on? <br/>Note any additional dependencies in the Comments <br>column. | <input type="checkbox"> Busy options <br/> <input type="checkbox"> Call park <br/> <input type="checkbox"> Call pickup or group call pickup <br/> <input type="checkbox"> Common area phones, or “hot desking” <br/> <input type="checkbox"> Response groups or hunt groups <br/> <input type="checkbox"> Shared line appearance <br/> <input type="checkbox"> Private line <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Call via work <br/> <input type="checkbox"> Emergency or information numbers <br>&nbsp; &nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox"> Extension dialing <br/> <input type="checkbox"> Auto Attendant <br/> <input type="checkbox"> Subscriber access <br/> <input type="checkbox"> Analog devices <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Caller ID masking or altering <br/> <input type="checkbox"> Location-based routing <br/> <input type="checkbox"> Least-cost routing <br/> <input type="checkbox"> Elevator phones | |
+> | Which of the following voice calling features do you <br>currently have dependencies on? <br/>Note any additional dependencies in the Comments <br>column. | <input type="checkbox"> Busy options <br/> <input type="checkbox"> Call park <br/> <input type="checkbox"> Call pickup or group call pickup <br/> <input type="checkbox"> Common area phones, or "hot desking" <br/> <input type="checkbox"> Response groups or hunt groups <br/> <input type="checkbox"> Shared line appearance <br/> <input type="checkbox"> Private line <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Call via work <br/> <input type="checkbox"> Emergency or information numbers <br>&nbsp; &nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox"> Extension dialing <br/> <input type="checkbox"> Auto Attendant <br/> <input type="checkbox"> Subscriber access <br/> <input type="checkbox"> Analog devices <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Caller ID masking or altering <br/> <input type="checkbox"> Location-based routing <br/> <input type="checkbox"> Least-cost routing <br/> <input type="checkbox"> Elevator phones | |
 
 ## Networking and access to Office 365 services
 
-Use the following table to capture your organization’s networking details and how your users are (or will be) connected to Office 365 services.
+Use the following table to capture your organization's networking details and how your users are (or will be) connected to Office 365 services.
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | How do (or how will) the users in scope for migration <br>access Teams when they’re in the office? <br/>Select all that apply. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxy server <br/> <input type="checkbox"> Public Wi-Fi <br/> <input type="checkbox"> Managed (not public) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft peering) ||
+> | How do (or how will) the users in scope for migration <br>access Teams when they're in the office? <br/>Select all that apply. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxy server <br/> <input type="checkbox"> Public Wi-Fi <br/> <input type="checkbox"> Managed (not public) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft peering) ||
 > | If access to Office 365 is through a proxy server, is there <br>any way to bypass the proxy? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
-> | Is ExpressRoute being used today? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> No, but it’s being planned | |
+> | Is ExpressRoute being used today? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> No, but it's being planned | |
 > | Have you performed a Network Readiness Assessment? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Are users required to use a VPN when connecting to <br>corporate resources remotely? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | If a VPN is used, can Teams traffic be excluded from <br>the VPN to access Office 365 Services directly? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
@@ -162,7 +164,7 @@ Use the following table to capture the details of the operational aspects of you
 > |---|---|---|
 > | What is your operations model for your Lync Server, <br>Skype for Business Server, or Office 365 deployment <br>today? | | |
 > | Can you outline the current support arrangement for <br>Lync Server, Skype for Business Server, or Office 365? | | |
-> | If you’re deploying to multiple countries or regions, <br>does each country/region have its own IT/telephony <br>staff to work with, or will this be managed centrally? | <input type="checkbox"> Regional operations and support <br/> <input type="checkbox"> Centralized operations and support | |
+> | If you're deploying to multiple countries or regions, <br>does each country/region have its own IT/telephony <br>staff to work with, or will this be managed centrally? | <input type="checkbox"> Regional operations and support <br/> <input type="checkbox"> Centralized operations and support | |
 > | Are you following the [Call Quality Methodology](quality-of-experience-review-guide.md)? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Have you assigned an individual or team to the <br>Quality Champion role for the collaboration platform <br>in use? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | How do you monitor your Lync Server, Skype for <br>Business Server, or Office 365 deployment? | | |
@@ -189,4 +191,4 @@ Use the following table and capture the current adoption and readiness state of 
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Next step</td><td><ul><li>Document the results of the environment assessment.</li></ul></td></tr>
 </table>
 
-After you evaluate your environment, proceed to the next step: [Prepare your network](upgrade-prepare-environment-prepare-network.md).
+After you evaluate your environment, proceed to the next step: [Prepare your network](prepare-network.md).

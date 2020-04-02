@@ -11,6 +11,8 @@ ms.reviewer: lolaj
 description: Get started with Microsoft Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -18,6 +20,9 @@ appliesto:
 ---
 
 # Get started with Microsoft Teams
+
+> [!IMPORTANT]
+> If you're rolling out Microsoft Teams quickly in response to an increased demand to support **remote work**, use this Get started guidance to roll out Teams to your entire organization. This guidance applies, even when Teams is your first Office 365 workload.
 
 To get started quickly on Teams, we recommend you create two or three teams and channels for a select group of early adopters. By first rolling out Teams on a small scale, you'll learn Teams by using Teams and gain valuable insights to inform how you deploy Teams across your whole organization. If you're a small business, this Quick start guide is all you need to roll out Teams to your whole organization.
 
@@ -33,23 +38,32 @@ Here's how to roll out your first set of teams and channels so your early adopte
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
 - Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), start by reading [How to roll out Teams](how-to-roll-out-teams.md). We recommend you still begin with this **Get started** section to build your skills and start planning your org-wide deployment. "Plan Teams with Teams." Start small by rolling out Teams with chat, teams, channels, & apps and build from there. These initial experiences will help you spread the word about Teams, generating excitement throughout the organization for your next launch phase. 
+If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), start by reading [How to roll out Teams](how-to-roll-out-teams.md). We recommend you still begin with this **Get started** section to build your skills and start planning your org-wide deployment. "Plan Teams with Teams." Start small by rolling out Teams with chat, teams, channels, and apps and build from there. These initial experiences will help you spread the word about Teams, generating excitement throughout the organization for your next launch phase. 
 
-If you're a small business, you may be able to use this Get started guidance to fully roll out Teams in your organization. Small businesses might not need to do a phased Teams deployment. Be sure to check out the templates that are available specifically for small business to make deployment in your organization easier and more streamlined. See [Get started with Teams templates for Small and Medium Businesses](https://docs.microsoft.com/microsoftteams/smb-templates).
+If you're a small business, or if **you're rolling out Teams quickly to support a newly remote workforce**, use this Get started guidance to fully roll out Teams in your organization. Be sure to check out the templates that are available specifically for small business to make deployment in your organization easier and more streamlined. See [Get started with Teams templates for Small and Medium Businesses](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## Before you get started
 
-Before you get started, you'll want to plan for your Teams rollout by reviewing the following:
+To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Office 365 deployment:
 
-- [Check your environment's readiness for Teams](environment-readiness.md)
 - [Prepare your organization's network for Teams](prepare-network.md)
+    - This includes configuring your Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
+
+- Get Teams licenses for everybody. Check out [Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
+
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
-You'll also need to make sure you've got Teams licenses for everybody. Check out [Compare Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
-
+- Starting from on-premises Skype for Business or Lync Server
+   - [Upgrade from Skype for Business on premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
+   
+   - [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+   
+   > [!NOTE]
+> If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365. 
 
 
 ## Next steps
-Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+[Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).

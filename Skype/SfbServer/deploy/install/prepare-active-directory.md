@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -37,7 +39,7 @@ Skype for Business Server is tightly integrated with Active Directory Domain Ser
   
 Watch the video steps for **Prepare Active Directory**:
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/RE1Ybuk]
+> [!video https://www.microsoft.com/videoplayer/embed/RE1Ybuk]
   
 ### Prepare Active Directory from the Deployment Wizard
 

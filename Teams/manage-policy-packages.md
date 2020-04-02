@@ -12,7 +12,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams.
@@ -23,6 +25,8 @@ description: Learn how to use and manage policy packages in Microsoft Teams.
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of the policies in the package to meet your organization's needs.
+
+Policy packages aren't available for US Government Cloud Community (GCC) organizations.
 
 ## What is a policy package?
 
@@ -36,7 +40,8 @@ Teams currently includes the following policy packages.
 |Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
-|Business voice |Creates an app setup policy that includes the apps for a business voice experience.|
+|Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
+|Small and medium business user (without Business Voice) |This policy package is designed to create a set of policies and apply those settings to small and medium sized business users without any Business Voice features.|
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 |Healthcare (Clinical worker)  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare (Information worker)  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|

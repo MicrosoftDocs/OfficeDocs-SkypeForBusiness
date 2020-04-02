@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from a Skype for Business on-premises deployment.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,9 +20,11 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Upgrade from a Skype for Business on-premises deployment to Teams
+
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of the Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
@@ -30,9 +34,7 @@ This article is part of the Deployment and Implementation stage of your upgrade 
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
-# Upgrade from a Skype for Business on-premises deployment to Teams
-
-Follow the guidance in this article if you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in. 
+Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -45,7 +47,7 @@ For more information, see [Deploy hybrid connectivity between Skype for Business
 
 ## Step 2: Implement your chosen upgrade journey for your organization
 
-After you’ve completed your hybrid setup, you can plan to move your users to Office 365.
+After you've completed your hybrid setup, you can plan to move your users to Office 365.
 
 For more information, see:
 
@@ -55,7 +57,7 @@ For more information, see:
 
 ## Phone System and Teams upgrade
 
-Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing (“Direct Routing”) or the Microsoft-provided Calling Plans for Office 365.
+Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Office 365.
 
 If you're not using Calling Plans in Office 365, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.
 

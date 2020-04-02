@@ -7,11 +7,16 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
+description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
 # Exchange Unified Messaging Online migration support
+
+> [!IMPORTANT]
+> **The Unified Messaging service in Exchange Online is out of support as of February 28, 2020, 5 PM Pacific Time. All voicemail accounts have been migrated to Cloud Voicemail service by Microsoft. Any remaining auto attendant traffic won't be monitored and might be disrupted at any time.**
 
 In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
@@ -225,6 +230,9 @@ New Skype for Business users will be automatically provisioned for Cloud voicema
 To learn more about auto attendants, see [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### Known issues
+
+**Disable Subscriber Access after migration to avoid greeting inconsistency**
+Subscriber access might continue to work for your tenant until the service is completely retired, even after all of your users has been migrated to Cloud Voicemail. To avoid user confusion and inconsistent experience, please disable subscriber access since greetings changed after migration from there will not take affect. To do that, remove the EXUM contact for each subscriber access line using Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact 
 
 **Auto Attendant Call Transfer to PSTN**
 Customers are encouraged to configure a temporarily workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number, or to an RGS instance. 

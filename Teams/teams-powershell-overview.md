@@ -10,6 +10,8 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 description: Learn to use the PowerShell controls for managing Microsoft Teams.
 appliesto: 
   - Microsoft Teams
@@ -23,7 +25,7 @@ Microsoft Teams has a rich set of tools for IT admins to manage the product thro
 
 The PowerShell controls for managing Teams are in two different PowerShell modules: 
 - [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/) : The Teams PowerShell module contains all the cmdlets you need to create and manage teams.  
-- [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
+- [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
 
 The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
 
@@ -72,7 +74,7 @@ When we released our generally available version of our PowerShell module, a few
 
 ## Managing policies via PowerShell
 
-The cmdlets for managing policies are in the [Skype for Business cmdlet module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Use the cmdlets in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366) to manage policies for individual users.
 
 > [!NOTE]
 > The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -104,7 +106,7 @@ Common parameters:
 
 ## Managing configurations via PowerShell
 
-The cmdlets for managing your configuration are in the [Skype for Business cmdlet module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+The cmdlets for managing your configuration are in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Configurations are buckets of settings maintained in the service that cannot be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
 

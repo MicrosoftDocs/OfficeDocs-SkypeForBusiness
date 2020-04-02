@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Tasks and activities required for monitoring quality and usage of Microsoft Teams 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,11 +20,11 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Quality of Experience Review Guide
+
 ![Diagram highlighting Operational Excellence stage of upgrade journey](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
-
-# Quality of Experience Review Guide
 
 The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
 

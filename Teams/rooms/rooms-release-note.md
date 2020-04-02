@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -21,6 +23,8 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -52,6 +56,23 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+### 4.4.25.0 (03/31/2020)
+
+Introduced in this update:
+
+- Modern authentication support for Exchange and Skype for Business
+- Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)
+- Ability to disable duplicate content out of meeting for dual displays rooms using XML
+- Application splash screen
+- Auto-answer setting to improve proximity based meeting join experience 
+- Open Source Software (OSS) notices in device settings
+
+### 4.3.42.0 (03/02/2020)
+
+Introduced in this update:
+
+- Policy updates for "Windows Updates for Business" 
+- Fix for device events reporting showing error in Azure Monitor
 
 ### 4.3.33.0 (1/10/2020)
 
@@ -241,7 +262,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
+- Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/product/brio)
 - Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
 
@@ -251,7 +272,7 @@ Introduced in this update:
 
 - Runs on a Surface Pro (2017) tablet 
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
-- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
+- Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
 - OEM Support for Environment Controls (Crestron)
 
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).

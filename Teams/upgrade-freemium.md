@@ -11,6 +11,8 @@ audience: admin
 search.appverid: MET150
 description: Learn how to upgrade the free version of Microsoft Teams
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 
@@ -19,13 +21,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-Upgrade Microsoft Teams free to Office 365 subscription version
+# Upgrade Microsoft Teams free to Office 365 subscription version
 ======================================================
 
-If your organization is using the free version of Microsoft Teams, you can easily upgrade to the full version by purchasing an Office 365 subscription plan for your users. The full version provides additional Teams features — like scheduling, audio conferencing, enhanced administration, and security capabilities — that the free version doesn’t provide. Office 365 combines the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from virtually anywhere through the internet. When you upgrade Teams, your existing Teams data will not be lost; all your teams, channels, chats, files, and permissions come with you. 
+If your organization is using the free version of Microsoft Teams, you can easily upgrade to the full version by purchasing an Office 365 subscription plan for your users. The full version provides additional Teams features — like scheduling, audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Office 365 combines the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from virtually anywhere through the internet. When you upgrade Teams, your existing Teams data will not be lost; all your teams, channels, chats, files, and permissions come with you. 
 
 > [!NOTE]
-> If you already have an Office 365 subscription, you’re eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](iw-trial-teams.md).
+> If you already have an Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](iw-trial-teams.md).
 
 ## How does Teams free compare to the full version of Teams?
 
@@ -58,17 +60,17 @@ For a detailed comparison of Teams free and Teams features, see [Compare Teams p
 You can upgrade to the full version of Teams if you meet the following requirements:
 
 - You are the person who signed up for the existing Teams free subscription.
-- If you are bringing your own domain, it isn’t already associated with Azure Active Directory (via trial or purchased O365 subscription).
+- If you are bringing your own domain, it isn't already associated with Azure Active Directory (via trial or purchased O365 subscription).
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Office 365 with Teams without going through the upgrade process, you can’t transfer your data because you will already have a separate tenant.
+> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Office 365 with Teams without going through the upgrade process, you can't transfer your data because you will already have a separate tenant.
 
 ## Limitations
 
 Keep the following limitations in mind:
 
-- You can’t switch back to Teams free after you upgrade.
-- You can’t merge multiple Teams free tenants into a single paid tenant.
+- You can't switch back to Teams free after you upgrade.
+- You can't merge multiple Teams free tenants into a single paid tenant.
 - All users must be in the same domain. (All users will get a sign-in in the format *username*@*domain.com*.)
 - All users must be upgraded: a mix of Teams free and paid subscription users in the same tenant is not supported.
 

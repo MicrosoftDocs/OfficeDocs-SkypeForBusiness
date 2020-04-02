@@ -12,7 +12,9 @@ description: Step-by-step guidance for rolling out chat, teams, channels, and ap
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
   - Microsoft Teams
@@ -31,22 +33,15 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
  - [Microsoft Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT), including short (8-10 minute) videos that show you how to roll out, configure, and manage Teams.
 
 > [!TIP]
-> We recommend that you include our featured apps-such as Planner-in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
 ## Chat deployment prerequisites
 
-Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review the following information and make any required changes to your environment.
-
-- To get the full Teams experience, your organization must have deployed [Exchange Online and SharePoint Online](#exchange-and-sharepoint-interoperability), and you must have a verified domain for Office 365 (for example, contoso.com).
-
-- To scale chat, teams, and channels across your organization, make sure all locations have internet access so they can connect to Office 365. At a minimum, make sure that the following common ports are open to the internet from all locations:
-
-    - Open **TCP** ports 80 and 443 for outgoing traffic from clients that will use Teams
-    - Open **UDP** ports 3478 through 3481 for outgoing traffic from clients that will use Teams
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |Ask yourself|Action |
 |------------|-------|
-|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li> [Check your environment's readiness for Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
+|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## Core deployment decisions
@@ -219,7 +214,7 @@ Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Busine
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
@@ -236,7 +231,7 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (government certificate of competency) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|

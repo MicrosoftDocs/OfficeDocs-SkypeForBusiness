@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Skype for Business Server 2019, the SBA must be disassociated from the Front End pool while the pool is upgraded, Once the pool has been migrated to Skype for Business Server 2019, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy topology in Topology Builder and then adding the SBA to the Skype for Business Server 2019 topology. Users homed on the legacy SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Skype for Business Server 2019 topology, those users can then be moved back to the SBA. These steps are summarized below:"
 ---
@@ -54,7 +56,7 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool that
     3. Click **Survivable Branch Appliance**.
     
 9. Follow the directions in the wizard that opens. For information about wizard items, see    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]

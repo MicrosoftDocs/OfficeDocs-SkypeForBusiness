@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice
@@ -30,7 +32,7 @@ The following checklists walk you through the steps for implementing Audio Confe
 
 *  [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Configure networking](onboarding-checklist-configure-networking.md)
+*  [Prepare your network](prepare-network.md)
 
 *  [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "
@@ -45,7 +45,10 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 4. Expand **Add-on subscriptions** and then click to buy a Calling Plan. Choose either the **Domestic Calling Plan** or **Domestic and International Calling Plan**.
 
 > [!NOTE]
-> You don't need a Phone System license. It's included with the Common Area Phone license.
+> If you are using Microsoft Phone System Direct Routing, you do not need a Calling Plan license.
+
+> [!NOTE]
+> You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
 For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -84,6 +87,9 @@ The Common Area Phone license supports:
 6. Assign the licenses to the user. On the same page, click to expand **Product licenses**. Turn on the Common Area Phone and pick either a **Domestic Calling Plan** or a **Domestic and International Calling Plan**. 
 
     ![Screenshot showing license assignment](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> If you are using Microsoft Phone System Direct Routing, you do not need to assign a Calling Plan license.
 
 For more information, see [Add a user](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 

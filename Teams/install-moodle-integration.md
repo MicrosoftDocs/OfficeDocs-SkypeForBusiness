@@ -11,6 +11,8 @@ search.appverid: MET150
 description: "Learn how to install and configure the Moodle integration app for Microsoft Teams"
 keywords: Teams Moodle app integration plugin
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -167,7 +169,7 @@ Once the resources are finished deploying to Azure, you'll need to configure the
 
 Now that you have your Bot deployed to Azure and configured to talk to your Moodle server, it's time to deploy your Microsoft Teams app. To do this you'll load the manifest file you downloaded from the Office 365 Moodle Plugin Team Settings page in the previous step.
 
-Before you can install the app you'll need to make sure external apps and sideloading of apps is enabled. To do so you can follow [these steps](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings). Once you've ensured that external apps are enabled, you can follow the steps below to deploy your app.
+Before you can install the app you'll need to make sure external apps and sideloading of apps is enabled. To do so you can follow [these steps](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Once you've ensured that external apps are enabled, you can follow the steps below to deploy your app.
 
 1. Open Microsoft Teams.
 2. Click the **Store** icon on the lower-left of the navigation bar.

@@ -8,8 +8,12 @@ ms.author: lolaj
 manager: serdars
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
@@ -42,7 +46,7 @@ possible experience. Review the following information and make any required chan
 To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online, and you must have a verified domain for O365
 such as *contoso.com*.
 
-To scale meetings across your organization you should ensure that all user locations have internet access to connect to the Office 365 Services. At a minimum you should make sure that the following common ports are open to the internet from your user’s locations:-
+To scale meetings across your organization you should ensure that all user locations have internet access to connect to the Office 365 Services. At a minimum you should make sure that the following common ports are open to the internet from your user's locations:-
 
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
@@ -106,7 +110,7 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 
 ### Reporting
 
-Use activity reports to see how users in your organization are using Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. 
+Use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. 
 
 
 | Ask yourself | Action |
@@ -192,7 +196,7 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 ### Operate your meetings service
 
-It’s important that you understand the overall health of the Teams service so that you can proactively alert others in your organization of any event that affects the service. The [Operate my service](1-drive-value-operate-my-service.md) articles provide in-depth guidance for service operations.
+It's important that you understand the overall health of the Teams service so that you can proactively alert others in your organization of any event that affects the service. The [Operate my service](1-drive-value-operate-my-service.md) articles provide in-depth guidance for service operations.
 
 |Ask yourself|Action |
 |------------|-------|

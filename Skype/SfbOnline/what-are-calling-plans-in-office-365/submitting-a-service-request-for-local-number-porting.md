@@ -17,9 +17,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: "If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. "
 ---
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Skype for Business Server normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format; in other words, normalization rules take the phone number dialed by a user and convert that number to the format used internally by Skype for Business Server. Each dial plan must be assigned one or more normalization rules."
 ---
@@ -15,9 +17,9 @@ description: "Skype for Business Server normalization rules use .NET Framework r
 
 Skype for Business Server normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format; in other words, normalization rules take the phone number dialed by a user and convert that number to the format used internally by Skype for Business Server. Each dial plan must be assigned one or more normalization rules.
 
-For details about normalization rules, see [Dial plans and normalization rules](https://technet.microsoft.com/en-us/library/gg413082(v=ocs.15).aspx).
+For details about normalization rules, see [Dial plans and normalization rules](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-For details about how to write regular expressions, see [.NET Framework Regular Expressions](http://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about how to write regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 You can use either of the following methods to define or edit a normalization rule:
 - [Use the **Build a Normalization Rule** tool](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) to specify values for the starting digits, length, digits to remove and digits to add, and then let Skype for Business Server Control Panel generate the corresponding matching pattern and translation rule for you.
@@ -29,7 +31,7 @@ Complete the following steps if you want to create or modify a normalization rul
 
 **To define a rule by using Build a Normalization Rule**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. (Optional) Follow the steps in [Create a dial plan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) through step 11 or [Modify a dial plan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) through step 10. 
 4. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, **5DigitExtension**).
@@ -53,13 +55,13 @@ Complete the following steps if you want to create or modify a normalization rul
 8. (Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.
 9. (Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.
     > [!Note] 
-    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test voice routing](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx). 
+    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test voice routing](https://technet.microsoft.com/library/gg398915(v=ocs.15).aspx). 
 
 10. Click **OK** to save the normalization rule.
 11. Click **OK** to save the dial plan.
 12. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     > [!Note]
-    > Whenever you create or change a normalization rule, you must run the Commit all command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). 
+    > Whenever you create or change a normalization rule, you must run the Commit all command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx). 
 
 ## Create or modify a normalization rule manually
 
@@ -67,7 +69,7 @@ Complete the following steps if you want to create or modify a normalization rul
 
 **To define a normalization rule manually**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. (Optional) Follow the steps in [Create a dial plan](GET LINK AFTER MIGRATION) through step 11 or [Modify a dial plan](GET LINK AFTER MIGRATION) through step 10.  
 4. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule **5DigitExtension**).
@@ -83,7 +85,7 @@ Complete the following steps if you want to create or modify a normalization rul
 9. (Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.
 
     > [!Note]
-    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test voice routing](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx). 
+    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test voice routing](https://technet.microsoft.com/library/gg398915(v=ocs.15).aspx). 
 
 10. Click **OK** to save the normalization rule.
 11. Click **OK** to save the dial plan.

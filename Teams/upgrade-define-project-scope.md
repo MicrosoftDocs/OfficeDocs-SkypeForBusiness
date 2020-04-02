@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Scope your upgrade project by refining your vision and goals. 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,25 +20,24 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Define your project scope
 
 ![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
-This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you've identified are key to your project's success. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted project stakeholders](upgrade-enlist-stakeholders.md)
 
-# Define your project scope
-
-Taking time to define your project vision, scope, goals, and governance will help ensure all project stakeholders are aligned and working toward the same end results. This is especially critical given that the technical readiness team and user readiness team will be working independently to pull their respective pieces together. After you complete this section, refer to it throughout your project to ensure you’re on track to achieve the end state you wanted. Use the goals that you identify below to measure against your outcomes, and mitigate as needed.
+Taking time to define your project vision, scope, goals, and governance will help ensure all project stakeholders are aligned and working toward the same end results. This is especially critical given that the technical readiness team and user readiness team will be working independently to pull their respective pieces together. After you complete this section, refer to it throughout your project to ensure you're on track to achieve the end state you wanted. Use the goals that you identify below to measure against your outcomes, and mitigate as needed.
 
 | | |
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what’s your plan to mitigate those risks?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you’ve engaged the right team.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
 
 ## Project vision
 
-Your vision is the “big picture” or eventual end-state that answers the question, “Why are we doing this project?” An ideal vision addresses your organization’s business drivers and user value-add perspectives, as shown in the following examples:
+Your vision is the "big picture" or eventual end-state that answers the question, "Why are we doing this project?" An ideal vision addresses your organization's business drivers and user value-add perspectives, as shown in the following examples:
 
 - **Organization business driver**: Standardizing on Microsoft Teams aligns with our digital workplace transformation and enables us to drive operational efficiencies, eliminate redundant solutions, and save USD5 million.
 - **User value-add**: Microsoft Teams (1) saves time by providing a single location for project notes, Office docs, team members, conversations, and meetings; (2) simplifies communication by using a centralized contact list and persistent chat tracking for quick access to your conversations, and (3) alleviates the frustration of trying to find that lost email attachment by storing and accessing files in one place.
@@ -64,10 +65,10 @@ Your vision might only be realized over time, through various phases. The projec
 
 ## Project goals
 
-Your goals define the outcome you want and enable you to measure the success of the project. Goals can be defined as _objectives and key results_ (OKRs), and the measures of project success can be defined as _key success indicators_ (KSIs). It’s essential that you get full participation from project stakeholders in defining OKRs and KSIs, to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. Goals should include a mix of technical and user-focused success.
+Your goals define the outcome you want and enable you to measure the success of the project. Goals can be defined as _objectives and key results_ (OKRs), and the measures of project success can be defined as _key success indicators_ (KSIs). It's essential that you get full participation from project stakeholders in defining OKRs and KSIs, to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. Goals should include a mix of technical and user-focused success.
 
-- **OKRs** contain the objectives you set at the beginning of the project and the key results you measure on a defined cadence (for example, monthly or quarterly). By reviewing your key results, you can ensure your project deliverables are on schedule, or identify and mitigate issues to get your project back on track. OKRs are typically categorized as “achieved” or “not achieved.”
-- **KSIs** measure quality and success of the key results and complement the binary nature of OKRs by detailing good and/or bad results. When defining KSIs, we recommend that you use “specific, measurable, assignable, realistic, time-related” (SMART) criteria:
+- **OKRs** contain the objectives you set at the beginning of the project and the key results you measure on a defined cadence (for example, monthly or quarterly). By reviewing your key results, you can ensure your project deliverables are on schedule, or identify and mitigate issues to get your project back on track. OKRs are typically categorized as "achieved" or "not achieved."
+- **KSIs** measure quality and success of the key results and complement the binary nature of OKRs by detailing good and/or bad results. When defining KSIs, we recommend that you use "specific, measurable, assignable, realistic, time-related" (SMART) criteria:
   - Specific: target a specific area for improvement
   - Measurable: quantify, or at least suggest an indicator of, progress
   - Assignable: specify who will do it
@@ -91,11 +92,11 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 | **Business driver** | Cost savings | Accounts Payable | \$X million cost expenditure in third-party solutions | Six months, then one year, then five years post-rollout |
 
 > [!TIP]
-> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you’ll capture as part of your user pilot. When considering your timeline, use the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) if you’re waiting for features that aren’t yet available in Teams.
+> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you'll capture as part of your user pilot. When considering your timeline, use the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) if you're waiting for features that aren't yet available in Teams.
 
 ## Risks and mitigation
 
- With any project, unforeseen events or other factors can arise and throw your project off track. It’s important to proactively assess potential risks and define a mitigation plan for overcoming the issues that might arise, so your project can continue toward your goals. A _risk register_ is an excellent tool for tracking project risks—along with how likely they are and their potential impact—and capturing your mitigation plan. The following table shows a sample risk register.
+ With any project, unforeseen events or other factors can arise and throw your project off track. It's important to proactively assess potential risks and define a mitigation plan for overcoming the issues that might arise, so your project can continue toward your goals. A _risk register_ is an excellent tool for tracking project risks—along with how likely they are and their potential impact—and capturing your mitigation plan. The following table shows a sample risk register.
 
 | Risk | Likelihood | Impact | Overall | Mitigation plan |
 |---|---|---|---|-------|
@@ -105,16 +106,16 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 ## Timeline
 
-As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
+As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that's not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
 
 - **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://aka.ms/O365Roadmap) to gauge when Teams will be ready for your organization.
-- **Upgrade groups**: Determine whether you’ll be enabling Teams or upgrading users by upgrade groups, which could affect the timeline of your overall upgrade journey.
+- **Upgrade groups**: Determine whether you'll be enabling Teams or upgrading users by upgrade groups, which could affect the timeline of your overall upgrade journey.
 - **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your upgrade timeline.
 - **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
-- **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
+- **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you've brought together has enough bandwidth to complete all necessary tasks.
 
 As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](https://aka.ms/UpgradePro), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
-After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
+After you've completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
 
 Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.

@@ -10,6 +10,8 @@ audience: admin
 description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,9 +20,11 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Overview
+
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of the Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
@@ -28,11 +32,6 @@ This article is part of the Deployment and Implementation stage of your upgrade 
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
-
-
-
-
-# Overview
 
 The steps you take to perform your upgrade to Teams depends on your current deployment of Skype for Business:
 

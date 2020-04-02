@@ -17,7 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Send your users an email with their audio conferencing information in Microsoft Teams."
