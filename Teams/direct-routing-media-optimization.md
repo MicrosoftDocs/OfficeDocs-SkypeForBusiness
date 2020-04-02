@@ -11,10 +11,9 @@ ms.collection:
   - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
-description: Landing page for Direct Routing
+description: Local Media Optimization for Direct Routing
 appliesto: 
   - Microsoft Teams
 ---
@@ -36,6 +35,9 @@ Local Media Optimization supports two scenarios:
 - 	Building a virtual network topology of SBCs--where the SBCs in the local branch offices are connected to a centralized proxy SBC that is visible to, and communicating with, Microsoft Phone System through its external IP address. In a virtual network topology, downstream SBCs are communicating through internal IPs and are not directly visible to Phone System.
 
 This article describes feature functionality, and customer scenarios and solutions. For details on configuration, see [Configure Local Media Optimization](direct-routing-media-optimization-configure.md). 
+
+  > [!NOTE]
+  > If you want to keep media local within the boundaries of your intranet, Local Media Optimization is recommended. If you already have Media Bypass and you use only the public IP addresses of your SBCs, it is not mandatory to move to Local Media Optimization. You can continue to use Media Bypass. For more information, see [Plan Media Bypass](direct-routing-plan-media-bypass.md).
 
 
 ## Supported customer scenarios
