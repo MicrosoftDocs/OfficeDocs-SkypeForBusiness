@@ -1,5 +1,5 @@
 ---
-title: Quick start - Meetings and live events in Microsoft Teams
+title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
 description: Get started quickly with meetings and live events in Microsoft Teams.
 ms.topic: article
@@ -21,17 +21,19 @@ appliesto:
 ---
 
 
-# Quick start - Meetings and live events in Microsoft Teams
+# Admin quick start - Meetings and live events in Microsoft Teams
 
-There are 2 ways to meet in Microsoft Teams - meetings and live events. 
+There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this article to quickly roll out and configure meetings and live events for your organization. 
 
-Meetings in Teams include audio, video, and screen sharing. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in. 
+**Meetings** in Teams include audio, video, and screen sharing. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in. 
 
-Live events are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people.
+**Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people.
 
 ## Get licenses for meetings and live events
 
 To make it easy for users in your organization to schedule and hold meetings and live events, you need to acquire and assign the right licenses. 
+
+:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
 
 ## Make sure your network's ready
 
