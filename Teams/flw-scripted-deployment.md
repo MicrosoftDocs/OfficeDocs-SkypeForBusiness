@@ -36,11 +36,10 @@ In this walkthrough, you'll learn how to:
 
 Download the assets from LINK.
 
+
+
 > [!IMPORTANT]
 > The scripts in the link provided above are provided as-is by Microsoft, and must be modified for your individual needs.
-
-
-
 
 ## Technical requirements
 
@@ -50,28 +49,28 @@ Download the assets from LINK.
 
 ## Step-by-step process overview
 
-1. Setup Your Environment
+1. **Setup Your Environment**
     1. Download the ZIP file containing the sample PowerShell scripts and documentation
     1. Setup credentials
     1. Configure local environment
     1. Configure PowerShell Modules and Environmental Variables
     1. Create App Registration
-1. Create and Setup Teams
+1. **Create and Setup Teams**
     1. Create Teams
     1. Create Channels for Teams
-1. Create Teams Policies
+1. **Create Teams Policies**
     1. Create Teams Messaging Policies
     1. Create Teams App Setup Policies
     1. Create Teams App Permission Policies
-1. Create and Setup Users
+1. **Create and Setup Users**
     1. Create users and security groups
     1. Assign licensing to users via group-based licensing
-1. Assign Users and Policies
+1. **Assign Users and Policies**
     1. Assign users to Teams
     1. Assign policies to User and Groups
-1. Test and Validate
-    1. Check for Errors
-    1. Login to Teams with a Test User
+1. **Test and Validate**
+    1. Check for errors
+    1. Login to Teams with a test user
 
 ## Set up your environment
 
@@ -90,36 +89,39 @@ In this document and the sample scripts we've chosen to create a reference file 
 It's not uncommon for different services to require different credentials. For example you might have different credentials for MicrosoftTeams, AzureAD, and MSonline, in which case you can run SetCred saving each credential file with its own meaningful name.
 
 Examples:
-
-    SetCreds msol-cred.xml
-    SetCreds azuread-cred.xml
-    SetCreds teams-cred.xml
+SetCreds msol-cred.xml
+SetCreds azuread-cred.xml
+SetCreds teams-cred.xml
 
 > [!NOTE]
 > The account used for the credentials cannot require MFA.
 
 Here is an example of how the various scripts then use the saved credentials to authenticate:
 
-`` # Connect to MicrosoftTeams
-`` $teams_cred = GetCreds teams-cred.xml
-`` Connect-MicrosoftTeams -Credential $teams_cred
+```azurepowershell
+# Connect to MicrosoftTeams
+$teams_cred = GetCreds teams-cred.xml
+Connect-MicrosoftTeams -Credential $teams_cred
+```
 
 In order to set your credentials, complete the following:
 
 1. Find the **SetCreds.ps1** in the .zip file assets.
 1. From PowerShell run the **SetCreds.ps1** script to save your credentials.
-    1. You will be prompted with "Performing the operation "Export-Clixml"..." and enter 'Y' to approve.
+    1. You'll be prompted with "Performing the operation "Export-Clixml"..." and you'll need to enter 'Y' to approve.
 
 ### Configure the local environment
 
 1. Find the **SetConfig.ps1** in the .zip file assets.
 1. From PowerShell run the following command, replacing the bracketed entries with your specific information.
-    1. **SetConfig.ps1** -tenantName <your tenant name> -rootPath "<full path to the root of the git repo>"
-For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
+    1. **SetConfig.ps1** -tenantName [your tenant name] -rootPath "[full path to the root of the git repo]"
+
+For example:
+`.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"`
 
 ### Configure PowerShell modules and environmental variables
 
-Before you go further, you'll ned to install and connect to several PowerShell modules, including Azure AD, MSAL, MSCloudUtils, and MicrosoftTeams.
+Before you go further, you'll need to install and connect to several PowerShell modules, including Azure AD, MSAL, MSCloudUtils, and MicrosoftTeams.
 
 1. Find the **ConfigurePowerShellModules.ps1** in the .zip file assets.
 1. Edit and replace the following environmental variables with your variables:
@@ -139,7 +141,7 @@ Teams are a collection of people, content, and tools within your organization. F
 - Hospital
 - Grocery Store
 
-*Best Practice Discussion*: When designing your teams, it's important to keep in mind [Teams limits and specifications](limits-specifications-teams.md). For smaller organizations, an org-wide team can be used to streamline communication and complement a physical location structure. For others, a structured physical location Team naming convention helps assist Corporate Communications with Cross Posting to multiple teams simultaneously with ease. For example, you can Search and cross post to all Teams with US in the name to target all US locations. More information on Cross-Posting can be found [here](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295).
+*Best Practice Discussion*: When designing your teams, it's important to keep in mind [Teams limits and specifications](limits-specifications-teams.md). For smaller organizations, an org-wide team can be used to streamline communication and complement a physical location structure. For others, a structured physical location Team naming convention helps assist Corporate Communications with Cross Posting to multiple teams simultaneously with ease. For example, you can search and cross-post to all Teams with US in the name to target all US locations. More information on cross-posting can be found [here](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295).
 
 #### Steps to create teams
 
@@ -336,13 +338,13 @@ Now that you've created the users and the policies to modify their experience in
 
 ### Check for errors
 
-As you ran the earlier scripts, errors or exceptions were written to a .csv file located in the logs folder of the assets. This file can be used to investigate any issues that may have occurred.
+As you ran the earlier scripts, errors or exceptions were written to a .csv file located in the logs folder of the .zip file assets. This file can be used to investigate any issues that may have occurred.
 
 An example of an exception could be if you tried to create a team that already existed in your tenant.
 
 1. Find the **Logs** folder and review any .csv file it may contain. If there are no exceptions, you may not find a file here.
 
-### Login to Teams with a Test User
+### Login to Teams with a test user
 
 Now that we've completed all the steps, it's time to verify the work we've completed.
 
