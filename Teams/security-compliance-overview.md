@@ -139,6 +139,11 @@ If you'd like further Teams-specific information on configuring content search, 
 
 Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for O365. To learn more about searching for Microsoft Teams events in the Office 365 Security & Compliance Center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
 
+## Privacy
+
+At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
+
+
 ## Information Protection Architecture
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
