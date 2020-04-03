@@ -117,7 +117,7 @@ Please note, although the Connector is in preview, these limitations are unlikel
 
 ### I'm trying to use the Date column as a Date slicer. As soon as I convert the data type of this column to Date, I get this error:
 
-  **Couldn't load the data for this visual**: OLE DB or ODBC error: [Expression.Error] We couldn't fold the expression to the data source. Please try a simpler expression. 
+> **Couldn't load the data for this visual**: OLE DB or ODBC error: [Expression.Error] We couldn't fold the expression to the data source. Please try a simpler expression. 
 
 Date slicers aren't supported with the Power BI Connector. To specify a date range, apply two filters to the report, specifying a less than and greater than date.
 

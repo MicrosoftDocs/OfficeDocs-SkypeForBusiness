@@ -29,6 +29,9 @@ You can use the following Windows PowerShell cmdlets to set and assign policy se
 
 Here are some examples.
 
+> [!NOTE]
+> Before you can run these cmdlets you must be connected to Skype for Business Online PowerShell. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+
 ## Allow users to schedule live events 
 
 > [!NOTE]
@@ -137,5 +140,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### Related topics
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
-
+- [Teams PowerShell overview](../teams-powershell-overview.md)
 
