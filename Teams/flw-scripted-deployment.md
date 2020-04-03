@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# How to provisions Teams at scale for Firstline Workers
+# How to provision Teams at scale for Firstline Workers
 
 Do you need to rapidly onboard a large number of users to Microsoft Teams and configure a streamlined experience for them? You can quickly provision identities, provision teams, and assign all relevant policies to control the end user experience by walking through the following instructions.
 
