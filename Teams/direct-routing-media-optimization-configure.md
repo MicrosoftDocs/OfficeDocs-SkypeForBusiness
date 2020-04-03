@@ -3,13 +3,13 @@ title: Direct Routing Local Media Optimization
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 04/07/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords:
 - NOCSH

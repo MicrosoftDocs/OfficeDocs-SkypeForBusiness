@@ -3,13 +3,13 @@ title: Direct Routing Local Media Optimization
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 04/07/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -201,11 +201,11 @@ The following describes two scenarios:
 
 #### Scenario 1. The user is in the same location as the SBC defined in the Online Voice Routing Policy
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +49) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Online voice routing policies specify that in case of calls within Germany (with area code +49) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 Table 3. Example configuration for Scenario 1
 
-| User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
+| User physical location | User makes a call to a number | Online Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Germany | +49 1 437 2800 | Priority 1: ^\+49(\d{8})$ -DEsbc.contoso.com<br>Priority 2: .* - proxysbc.contoso.com| DEsbc.contoso.com – Always Bypass <br>proxysbc.contoso.com – Always Bypass | Teams User <–> DEsbc.contoso.com |
 
@@ -229,11 +229,11 @@ Diagram 5.  Traffic flow with “Always Bypass” mode and the user is in the �
 
 #### Scenario 2: The user and gateways are in different sites
 
-The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in France, located in the local branch office, is making a Direct Routing call to Germany. Voice routing policies specify that calls to Germany (with area code +49) should be routed to the local SBC in Germany. All other calls--and, in case the SBC in Germany fails, all calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
+The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. Both SBCs (proxy and downstream) are configured for Always Bypass mode. The internal user in France, located in the local branch office, is making a Direct Routing call to Germany. Online voice routing policies specify that calls to Germany (with area code +49) should be routed to the local SBC in Germany. All other calls--and, in case the SBC in Germany fails, all calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
 Table 4. Example configuration for Scenario 2
 
-| User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
+| User physical location | User makes a call to a number | Online Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | France | +49 1 437 2800 | Priority 1: ^\+49(\d{8})$ -DEsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com |  DEsbc.contoso.com  – Always Bypass proxysbc.contoso.com – Always Bypass | Teams User <– > DEsbc.contoso.com  |
 
@@ -259,17 +259,17 @@ To build a solution where PSTN services are provided in all local branch offices
 
 The following describes two scenarios:
 
-- Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy
+- Scenario 1. The user is in the same location as the SBC defined in the Online Voice Routing Policy
 
 - Scenario 2. The user and gateways are in different sites
 
-#### Scenario 1. The user is in the same location as the SBC defined in Voice Routing Policy
+#### Scenario 1. The user is in the same location as the SBC defined in Online Voice Routing Policy
 
-Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The user is in Vietnam within the same location as the local SBC. Voice routing policies specify that calls in Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, if the SBC in Vietnam fails, calls in Vietnam--should be routed to the proxy SBC in Singapore. The following table summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The user is in Vietnam within the same location as the local SBC. Online voice routing policies specify that calls in Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, if the SBC in Vietnam fails, calls in Vietnam--should be routed to the proxy SBC in Singapore. The following table summarizes the example configuration. 
 
 Table 5. Example configuration for ‘Only For Local Users’ mode Scenario 1
 
-| User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
+| User physical location | User makes a call to a number | Online Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam | +84 4 3926 3000 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br>Priority 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – Only For Local Users <br> proxysbc.contoso.com – Always Bypass | Teams User <–> VNsbc.contoso.com |
 
@@ -292,11 +292,11 @@ Diagram 7. Traffic flow with “Only For Local Users” mode and the user is in 
 
 #### Scenario 2. The user and gateways are in different sites
 
-Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Voice routing policies specify that calls to Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, in case the SBC in Vietnam fails, calls to Vietnam--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Online Voice routing policies specify that calls to Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, in case the SBC in Vietnam fails, calls to Vietnam--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
 
 Table 6. User configuration
 
-| User physical location | User makes a call to a number | Voice Routing Policy | Mode configured for SBC | Media Flow | 
+| User physical location | User makes a call to a number | Online Voice Routing Policy | Mode configured for SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
 | Indonesia | +84 4 3926 3000 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Only For Local Users <br> proxysbc.contoso.com – Always Bypass | Teams User <–> proxysbc.contoso.com <–> VNsbc.contoso.com |
 
