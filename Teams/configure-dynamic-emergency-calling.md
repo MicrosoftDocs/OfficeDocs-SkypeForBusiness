@@ -128,47 +128,41 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and Wireless Access Points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
 
-For a client to obtain a location, you must populate the Location Information Service (LIS) with network identifiers (subnets, wireless access points, switches, and ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
+For a client to obtain a location, you must populate the LIS with network identifiers (subnets, WAPs, switches, ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
 
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Locations** > **Networks & locations**.
 2. Click the tab that represents the network identifier that you want to add, and then click **Add**.
-3. Complete the required fields, add an emergency location, if needed, and then click **Apply**. 
+3. Complete the fields, add an emergency location, and then click **Apply**.
 
 ### Using PowerShell
 
-Use the following cmdlets to add ports, switches, subnets, and wi-fi access points to the LIS.
+Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
-
-
 >[!Important] 
 >If subnets are being used as part of network sites, they must be redefined in the Location Information Service to render dynamic locations.
 
-
 ## Configure emergency policies
 
-You use the following policies to configure emergency calling:
+You use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **TeamsEmergencyCallRoutingPolicy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  You manage this policy by using the New-, Set-, and Grant-CsTeamsEmergencyCallRouting cmdlets. 
+- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
-- **TeamsEmergencyCallingPolicy** - Applies to Calling Plan and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. You manage this policy by using the New-, Set- and Grant-CsTeamsEmergencyCallingPolicy  cmdlets. 
-
-For more information, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md) and [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
-
+- **Emergency calling policy** - Applies to Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 ## Enable users and sites
 
-You can assign **TeamsEmergencyCalling** and **TeamsEmergencyCallROuting** policies to users and to sites.  
+You can assign emergency call routing policies and emergency calling policies to users and to sites.  
 
-The TeamsEmergencyCallRouting policy applies to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
+Emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
 
 For example, to enable a specific user for security desk notification, use the following command:
 
@@ -195,7 +189,6 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 ```
 
 If you assigned an emergency calling policy to a network site and to a user, and if that user is at that network site, the policy that's assigned to the network site overrides the policy that's assigned to the user.
-
 
 ## Test emergency calling
 
