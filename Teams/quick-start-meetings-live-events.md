@@ -40,6 +40,7 @@ If you want to provide a dial-in number for your meetings, organizers or hosts n
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
 
 <sup>1</sup>  Meeting organizers need to have an [Audio Conferencing add-on license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to send an invite that includes dial-in conferencing.
+
 <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 and/or Audio Conferencing license. [Dial plan](what-are-dial-plans.md) may be needed. 
 
 
