@@ -1,5 +1,5 @@
 ---
-title: "Manage Audio Conferencing settings for organizations"
+title: "Manage Audio Conferencing settings"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

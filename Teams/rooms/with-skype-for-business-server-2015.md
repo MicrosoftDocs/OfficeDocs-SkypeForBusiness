@@ -1,5 +1,5 @@
 ---
-title: Deploy Rooms with Skype for Business Server
+title: Deploy Microsoft Teams Rooms with Skype for Business Server
 ms.author: v-lanac
 author: lanachin
 manager: serdars
