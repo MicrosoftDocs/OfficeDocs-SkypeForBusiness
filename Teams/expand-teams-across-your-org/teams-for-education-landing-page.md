@@ -17,6 +17,7 @@ search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Teams for Education

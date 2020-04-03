@@ -19,6 +19,7 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
+  - seo-marvel-mar2020
 description: Learn about add-on licenses, what features you'll get with each license, how to buy them for your product, and how to use your existing carrier with them.
 ---
 

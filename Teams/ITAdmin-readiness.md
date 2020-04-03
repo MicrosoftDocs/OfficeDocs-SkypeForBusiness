@@ -21,7 +21,7 @@ description: Training videos, PowerPoint decks, tutorials, and other resources f
 appliesto: 
   - Microsoft Teams
 ---
-# Getting started with training for Microsoft Teams
+# Getting started with admin training for Microsoft Teams
 
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content. 

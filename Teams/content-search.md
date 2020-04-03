@@ -13,6 +13,7 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
+ms.custom: seo-marvel-mar2020
 description: Learn about using Content Search in Microsoft Teams to query Microsoft Teams information from Exchange, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 
   - Microsoft Teams

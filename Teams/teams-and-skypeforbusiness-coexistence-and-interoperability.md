@@ -20,6 +20,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Understand Microsoft Teams and Skype for Business coexistence and interoperability

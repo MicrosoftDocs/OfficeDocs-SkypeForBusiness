@@ -21,6 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
+  - seo-marvel-mar2020
 description: Learn about the pay-per-minute option to enable Audio Conferencing capabilities for organizations using Microsoft Volume Licensing.
 ---
 

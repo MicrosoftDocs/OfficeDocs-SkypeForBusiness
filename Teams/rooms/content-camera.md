@@ -15,6 +15,7 @@ ms.collection:
 ms.custom:
   - seo-marvel-mar2020
 description: Use a content camera in a Microsoft Teams Room, which interacts with image-processing software to allow presenters to draw on an analog whiteboard.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Content cameras

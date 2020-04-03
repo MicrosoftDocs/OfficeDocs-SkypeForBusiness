@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in the United Kingdom (U.K.)"
+title: Toll-free dialing restrictions in the UK
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,6 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
+  - seo-marvel-mar2020
 description: Learn about dialing toll-free numbers in the United Kingdom, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 

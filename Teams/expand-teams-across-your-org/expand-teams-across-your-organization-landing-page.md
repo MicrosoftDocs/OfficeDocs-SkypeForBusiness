@@ -15,6 +15,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Expand Microsoft Teams across your organization

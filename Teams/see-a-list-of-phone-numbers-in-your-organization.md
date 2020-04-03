@@ -21,6 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
+  - seo-marvel-mar2020
 description: Learn to use the Microsoft Teams admin center to see a list of all phone numbers in your organization and all numbers that are assigned to users or unassigned.
 ---
 

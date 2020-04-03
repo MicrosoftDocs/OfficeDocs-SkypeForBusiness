@@ -16,6 +16,7 @@ MS.collection:
 description: Use the PSTN blocked users report in Microsoft Teams admin center to get an overview of your organization's Teams users that are blocked from making PSTN calls.
 appliesto: 
 - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 # Microsoft Teams PSTN blocked users report
 

@@ -1,5 +1,5 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
+title: Upgrade Skype for Business on-premises to Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,9 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+ - Teams-upgrade-guidance
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

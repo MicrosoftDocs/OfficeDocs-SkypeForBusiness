@@ -1,5 +1,5 @@
 ---
-title: Quality of Experience review guide
+title: Quality of Experience Review Guide for Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -699,7 +699,7 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
   _Figure 13 - VPN using building name_
 
 > [!IMPORTANT]
-> Certain VPN implementations don’t accurately report subnet information. This is because the VPN client is provided with a 32-bit subnet.  As mentioned in the previous section, CQD is unable to properly identify a 32-bit subnet.  To accurately identify a VPN subnet in CQD set the VPN field to 1 in the building file.
+> Certain VPN implementations don't accurately report subnet information. This is because the VPN client is provided with a 32-bit subnet.  As mentioned in the previous section, CQD is unable to properly identify a 32-bit subnet.  To accurately identify a VPN subnet in CQD set the VPN field to 1 in the building file.
 
 
 > [!NOTE]

@@ -19,6 +19,7 @@ ms.custom:
   - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 
