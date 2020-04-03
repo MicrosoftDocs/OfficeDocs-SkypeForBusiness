@@ -20,8 +20,10 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ---
+> [!IMPORTANT]
+> The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
 
-# Security and Microsoft Teams
+ # Security and Microsoft Teams
 
 Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
@@ -284,12 +286,12 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 ## Related topics
 
-[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimize Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunnelling for Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
