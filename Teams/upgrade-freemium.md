@@ -1,5 +1,5 @@
 ---
-title: Upgrade Microsoft Teams free to Office 365 subscription version
+title: Upgrade Microsoft Teams free to Office 365 subscription
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,6 +15,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

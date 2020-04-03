@@ -1,5 +1,5 @@
 ---
-title: Admin training for Microsoft Teams
+title: Admin training resources - Microsoft Teams
 ms.reviewer: 
 author: LanaChin
 ms.author: v-lanac
@@ -16,11 +16,12 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ---
-# Admin training for Microsoft Teams
+# Getting started with admin training for Microsoft Teams
 
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content. 

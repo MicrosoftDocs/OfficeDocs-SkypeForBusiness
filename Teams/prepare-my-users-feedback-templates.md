@@ -1,5 +1,5 @@
 ---
-title: User feedback surveys in Microsoft Teams or Skype for Business
+title: Feedback surveys in Teams or Skype for Business
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,11 +15,12 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # User feedback surveys 
 
-Use feedback surveys to capture users’ experience and insights after your deployment. Questions should elicit feedback about the users’ receptiveness to change, the effectiveness of training resources, how ready was the support plan, and the users’ overall experience. Assess survey responses to measure against the SMART (specific, measurable, attainable, relevant, time-bound) goals you defined during your project planning, and determine any additional action required.
+Use feedback surveys to capture users' experience and insights after your deployment. Questions should elicit feedback about the users' receptiveness to change, the effectiveness of training resources, how ready was the support plan, and the users' overall experience. Assess survey responses to measure against the SMART (specific, measurable, attainable, relevant, time-bound) goals you defined during your project planning, and determine any additional action required.
 
 Customize the questions below, and then transfer them to a survey tool such as SharePoint for easy distribution and analysis.
 
