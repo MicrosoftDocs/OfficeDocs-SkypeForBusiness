@@ -64,6 +64,4 @@ If you're new to live events, check out [What are Teams live events?](teams-live
 
 [Live events in Teams](teams-live-events/what-are-teams-live-events.md)
 
-[Meetings in Teams](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)
-
 [Limits and specifications for Teams](limits-specifications-teams.md)
