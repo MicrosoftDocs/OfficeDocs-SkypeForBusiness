@@ -567,8 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## [Country and region availability](business-voice/country-region-availability.md)
 ## What to know before buying
 ### [What to buy to get Business Voice](business-voice/what-to-buy.md)
+### [Get help from a reseller or partner](business-voice/reseller-partner-support.md)
 ### [Check your Internet connection](business-voice/get-ready-internet.md)
 ### [Get your users ready](business-voice/prepare-users.md)
 ## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
@@ -602,7 +604,6 @@
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Quickstart for firstline workers](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -629,6 +630,7 @@
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Teams Licensing for Education](teams-edu-licensing.md)
+### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
@@ -636,10 +638,17 @@
 ### [Install Moodle integration](install-moodle-integration.md)
 ### [Education SKU reference](sku-reference-edu.md)
 
+## Teams for Firstline Workers
+### [Quickstart for firstline workers](firstline-workers-quickstart.yml)
+### [Firstline workers scripted deployment](flw-scripted-deployment.md)
+### [RealWear for Microsoft Teams](flw-realwear.md)
+### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
+
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
@@ -651,6 +660,7 @@
 # Security and compliance
 ## [Overview](security-compliance-overview.md)
 ## Security
+### [Security Guide](teams-security-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## Compliance

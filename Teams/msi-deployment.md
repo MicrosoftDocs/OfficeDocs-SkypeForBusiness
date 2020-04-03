@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 # Install Microsoft Teams using Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
+> Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients).
 
 To use Microsoft Endpoint Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both 32-bit and 64-bit) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. (You can disable auto launch after installing the app. [See below](#disable-auto-launch-for-the-msi-installer).)
 We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment.
@@ -30,17 +30,20 @@ We recommend that you deploy the package to the computer, so all new users of th
 These are the links to the MSI files:
 
 
-|Entity  |32 bit      |64 bit      |
+|Entity  |32-bit      |64-bit      |
 |---------|---------|---------|
-|Commercial     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Federal Government - GCC     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Federal Government - GCC High    | [32 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Federal Government - DoD     | [32 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Commercial     | [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
+|Federal Government - GCC     | [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
+|Federal Government - GCC High    | [32-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Federal Government - DoD     | [32-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+
+> [!NOTE]
+> Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
 
 Teams can also be included with a deployment of Office 365 ProPlus. For more information, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+> To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## Deployment procedure (recommended)
 
@@ -72,17 +75,21 @@ For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams 
 
 ## Clean up and redeployment procedure
 
-If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
+If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
-1. Uninstall Teams App installed for every user profile.
-2. After uninstall, delete directory recursively under `%localappdata%\Microsoft\Teams\`.
-3. Redeploy the MSI package to that particular computer.
+> [!IMPORTANT]
+> The next steps contain information about how to modify the registry. Make sure that you back up the registry before you modify it and that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Windows registry information for advanced users](https://support.microsoft.com/help/256986).
+
+1. Uninstall the Teams app installed for every user profile. For more information, see [Uninstall Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Delete the directory recursively under `%localappdata%\Microsoft\Teams\`.
+3. Delete the `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` registry value.
+4. Redeploy the MSI package to that particular computer.
 
 ## Prevent Teams from starting automatically after installation
 
 The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can use Group Policy to set a policy setting or disable auto launch for the MSI installer.
 
-#### Use Group Policy (recommended)
+### Use Group Policy (recommended)
 
 Enable the **Prevent Microsoft Teams from starting automatically after installation** Group Policy setting. You can find this policy setting in User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can turn off or turn on the policy setting according to your organization's needs.
 
@@ -97,19 +104,21 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 
 You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  
 
-For the 32-bit version
+For the 32-bit version:
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-For the 64-bit version
+For the 64-bit version:
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 When a user logs in to Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the user manually starts Teams, Teams automatically starts whenever the user logs in.
+
+Note that these examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials on the computer.
 
 > [!Note]
 > If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer won't be able to configure the option to disable auto start.

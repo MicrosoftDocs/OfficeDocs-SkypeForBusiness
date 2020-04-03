@@ -23,6 +23,9 @@ ms.custom: seo-marvel-mar2020
 
 In Microsoft Teams, the **Call me** feature gives users a way to join the audio portion of a meeting by phone. This is handy in scenarios when using a computer for audio might not be possible. Users get the audio portion of the meeting through their cell phone or land line and the content portion of the meeting&mdash;such when another meeting participant shares their screen or plays a video&mdash;through their computer.
 
+> [!IMPORTANT]
+> During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you'll likely experience better audio quality. 
+
 ## The user experience
 
 ### Join a meeting by using phone for audio

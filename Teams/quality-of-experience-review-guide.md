@@ -649,6 +649,7 @@ _Table 5 - Building file structure_
 | Region             | String    | MSUS                      | Recommended |
 | InsideCorp         | Bool      | 1                         | Required    |
 | ExpressRoute       | Bool      | 0                         | Required    |
+| VPN                | Bool      | 0                         | Optional    |
 
 \*While not required by CQD, the templates are configured to display Building and Network name.
 
@@ -698,7 +699,7 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
   _Figure 13 - VPN using building name_
 
 > [!IMPORTANT]
-> Certain VPN implementations don't accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
+> Certain VPN implementations don’t accurately report subnet information. This is because the VPN client is provided with a 32-bit subnet.  As mentioned in the previous section, CQD is unable to properly identify a 32-bit subnet.  To accurately identify a VPN subnet in CQD set the VPN field to 1 in the building file.
 
 
 > [!NOTE]

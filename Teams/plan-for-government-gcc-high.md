@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Government - GCC High deployments
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -71,76 +71,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 To accommodate the requirements of our government cloud customers, there are some differences between Teams in Microsoft 365 Government - GCC High and Teams in the Enterprise plans. Refer to the following table to see which features are available.
 
-|                             | Feature                     | GCC High       |
-|-----------------------------|-----------------------------|----------------|
-| Base | Login | Available |
-| | Presence | Available |
-| | Unified presence (Skype for Business and Teams unified) | Available |
-| | Linux client | On the Government backlog |
-| Activity | Feed | Available |
-|  | My Activity | Available |
-| Chat | Conversation | Available |
-| | Files | Available |
-| | Org chart | Available |
-| | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | Available |
-| Teams | Channel message | Available |
-| | Channel files | Available |
-| | OneNote tab | On the Government backlog |
-| | Email a channel | Not available |
-| | Add member | Available |
-| | Guest access | On the Government backlog |
-| Meetings | Schedule meeting | Available |
-| | Join meeting | Available |
-| | VoIP meeting | Available |
-| | Desktop sharing | Available |
-| | Give and take control in sharing | Available |
-| | Connect from a conference room | Available |
-| | Anonymous join | Available |
-| | Cloud recording | On the Government backlog |
-| | Meeting notes | Available |
-| | Broadcast meetings | On the Government backlog |
-| | Intra-cloud (GCCH to GCCH) Federated meetings | Available |
-| | Surface Hub support | On the Government backlog |
-| Calls | Contacts | Available |
-| | History | Available |
-| | Voicemail | Available |
-| | VoIP call | Available |
-| | Skype for Business - Teams calling | Available |
-| | Calling Plans | Not Available |
-| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
-| | Microsoft Phone System Direct Routing | Available |
-| | Lobby for PSTN callers | On the Government backlog |
-| | Call queue | On the Government backlog |
-| | Boss and delegate support | On the Government backlog |
-| | Consultative and safe transfer | On the Government backlog |
-| | Do not disturb breakthrough | On the Government backlog |
-| | Distinctive ring | On the Government backlog |
-| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | On the Government backlog |
-| | Forward to group | On the Government backlog |
-| | Transfer to PSTN call | On the Government backlog |
-| | Emergency calling - Calling Plans | On the Government backlog |
-| | Support for existing certified SIP phones | On the Government backlog |
-| | USB HID | Available |
-| | eDiscovery for both calls and meetings | Available |
-| | Organization auto attendant | On the Government backlog |
-| | Skype consumer - Teams call support | Not available |
-| Files | Recent | Available |
-| | Microsoft Teams | Available |
-| Store | App Store | Not available |
-| Search | Messages | Available |
-| | People | Available |
-| | Files | Available |
-| | Slash commands | Available |
-| Compliance | Compliance content search | Available |
-| | Retention | Available |
-| | Audit log search | Available |
-| | Legal hold | Available |
-| | eDiscovery | Available |
-
-|    |     |
-|-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization's needs.</li></ul> |
+[Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## Step 5. Plan for governance
 

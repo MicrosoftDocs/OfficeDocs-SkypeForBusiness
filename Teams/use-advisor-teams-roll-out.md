@@ -1,5 +1,5 @@
 ---
-title: Use Advisor for Teams (preview) to help you roll out Microsoft Teams
+title: Use Advisor for Teams (public preview) to help you roll out Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 ms.reviewer: brandber
@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -19,14 +20,14 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom:
-description: "Use Advisor for Teams (preview) to help you plan and complete your Microsoft Teams deployment."
+description: "Use Advisor for Teams (public preview) to help you plan and complete your Microsoft Teams deployment."
 ---
 
 # Use Advisor for Teams to help you roll out Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams (public preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
 Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Office 365 Business Essentials license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
@@ -35,7 +36,7 @@ Advisor for Teams is part of the [Teams admin center](https://admin.teams.micros
 
 For a guided overview of the Advisor for Teams experience, check out the [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics video.
 
-## Using Advisor for Teams (preview)
+## Using Advisor for Teams (public preview)
 
 **Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
@@ -49,7 +50,7 @@ The first time you use Advisor for Teams, it'll create a Deployment team for you
 
 ## Available Advisor for Teams plans
 
-While Advisor for Teams is in preview, we're providing the following two plans:
+While Advisor for Teams is in public preview, we're providing the following two plans:
 
 1. Chat, teams, channels, and apps
     - Tenant assessment
@@ -71,7 +72,7 @@ Each plan includes a tenant readiness assessment that you can use to quickly ide
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, an Office 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
-> Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours. This is temporary - as soon as Advisor for Teams is leaves preview and is generally available, the assessments will update in near real time.
+> Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours. This is temporary - as soon as Advisor for Teams leaves the public preview and is generally available, the assessments will update in near real time.
 
 The sections below describe each assessment, including whether something is a prerequisite or best practices, what each assessment checks is doing and why, and guidance for remediation as needed.
 
@@ -130,7 +131,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 At a minimum, you'll need Office 365 Business Essentials so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team?
-After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the preview period and becomes generally available.
+After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the public preview period and becomes generally available.
 
 ### Can I add or remove channels in the Deployment team?
 Yes, once the Deployment team has been created, you'll manage the channels the same way as any other team.

@@ -27,7 +27,7 @@ If you have an existing Exchange UM auto attendant and call queue system, before
 
 If your Phone System auto attendant or call queue will need a service number, the various dependencies can be met in the following sequence:
 
-1. Obtain a service number
+1. Obtain a service number.
 2. Obtain a free Phone System - [Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 4. Wait for an active directory sync between online and on premises.
@@ -66,7 +66,7 @@ Creating a resource account that uses a phone number would require performing th
 3. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each Phone System auto attendant or call queue, and give each one a name, sip address, and so on.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
@@ -98,12 +98,12 @@ Creating a resource account that uses a phone number would require performing th
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue. User (subscriber) phone numbers can't be assigned to a resource account, only service toll or toll-free phone numbers can be used.
+   The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue. User (subscriber) phone numbers can't be assigned to a resource account, only service toll or toll-free phone numbers can be used.
 
-  You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) for details.
+     You can assign a Direct Routing Hybrid number to your resource account. For details, see [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
+     > [!NOTE]
+     > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
 
 7. Create the Phone System auto attendant or call queue. See one of the following:
 

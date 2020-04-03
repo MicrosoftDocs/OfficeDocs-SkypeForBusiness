@@ -20,7 +20,7 @@ appliesto:
 
 # How Microsoft Teams uses memory
 
-Some Microsoft Teams users have questions about how Teams uses memory. This article describes how memory is used by Teams, and why the Teams desktop application (app) and the Teams web app do not prevent other apps and workloads on the same computer from having enough memory to run optimally. Teams is designed to use modern web technology. To achieve this, the Teams desktop client was developed on Electron, which uses Chromium for rendering. This is the same rendering engine behind many of today’s most popular browsers, including Edge and Chrome.
+Some Microsoft Teams users have questions about how Teams uses memory. This article describes how memory is used by Teams, and why the Teams desktop application (app) and the Teams web app do not prevent other apps and workloads on the same computer from having enough memory to run optimally. Teams is designed to use modern web technology. To achieve this, the Teams desktop client was developed on Electron, which uses Chromium for rendering. This is the same rendering engine behind many of today's most popular browsers, including Edge and Chrome.
 
 ## How Teams works
 
@@ -46,7 +46,7 @@ The following graph depicts memory usage by Teams on four separate systems, each
 
 ![Teams memory usage across different systems](media/teams-memory-usage.png)
 
-When computers have more memory, Teams will use that memory. In systems where memory is scarce, Teams will use less. 
+When computers have more memory, Teams will use that memory. In systems where memory is scarce, Teams will use less.
 
 ### Symptoms of system memory issues
 

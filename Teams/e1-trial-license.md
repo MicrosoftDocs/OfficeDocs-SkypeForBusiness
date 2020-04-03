@@ -12,6 +12,7 @@ localization_priority: Priority
 description: "If you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 E1 Trial for your users who need to work remotely or from home (WFH) in response to the COVID-19 (coronavirus) outbreak."
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 appliesto: 
   - Microsoft Teams
 ---
@@ -28,6 +29,9 @@ Don't miss all of our guidance for [supporting remote workers with Teams](suppor
 ## How to get an E1 Trial license
 
 Contact your Microsoft account representative. They'll get you a promo code that you can use to sign up for the E1 Trial. 
+
+For organizations served by a Microsoft partner, work with your partner to get a free 6-month Teams trial. If you don't have a Microsoft partner yet and would like to work with one, go to [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) and search for partners with expertise in Teams.
+
 
 ## How to sign up for E1
 
@@ -90,3 +94,5 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 [Manage the Teams Exploratory experience](teams-exploratory.md)
 
 [Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+
+[Get assistance deploying Teams](https://go.microsoft.com/fwlink/?linkid=780698)

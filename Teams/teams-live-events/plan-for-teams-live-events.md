@@ -59,13 +59,13 @@ The user must have:
 |**Attendee visibility**       |**Teams production**  |**External app or device production**  |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
-|Guest users                   |  No<sup>1</sup> |  No                  |
-|Everyone in federated company |  No<sup>2</sup> |  No                  |
+|Guest users                   |  Yes            |  No                  |
+|Everyone in federated company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Can watch live events if the live event is set up using the **Org-wide** option.<br>
-<sup>2</sup> Can only watch live events as anonymous users.
+<sup>1</sup> Federated attendees can only be invited through People & Group <br>
+
 
  
 ## Teams live events and Skype Meeting Broadcast
@@ -76,30 +76,33 @@ The following table highlights core capabilities and features offered in live ev
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
+|Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
 |Producer client on Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Producer client on Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Attendee count in Producer UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Producer client on Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Attendee count in Producer UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
-|Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |X |N/A |
-|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  | (coming soon) |N/A |
-|Presenter – PSTN access |X |&#x2714; (Teams) |N/A |
-|Present a screen |X |&#x2714; (Teams) |N/A |
-|Present a PowerPoint (PPT sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
+|Invite a presenter during the meeting |&#x2714; (Skype for Business) |&#x274C; |N/A |
+|Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |&#x274C; |N/A |
+|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
+|Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
+|Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
+|Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
 |Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
-|Auto publish recording to Stream |X |X |&#x2714; |
-|Live captions and subtitles |&#x2714; |&#x2714; |X |
+|Auto publish recording to Stream |&#x274C; |&#x274C; |&#x2714; |
+|Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
 |Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
-|Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
+|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
+|Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> The limits that are set might be changed.
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
+<sup>2</sup> You can have up to 250 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
+
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 

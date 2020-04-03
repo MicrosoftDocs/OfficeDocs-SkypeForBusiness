@@ -498,7 +498,7 @@ Many Measurement values can also be used as filters. The following table lists t
 
 |Measure Name |Units |Description |
 |:--- |:--- |:--- |
-|Total Stream Count |Number of streams |Number media streams regardless of type of media. |
+|Total Stream Count |Number of streams |Number media streams regardless of type of media, including reliability/diagnostics streams that may not have a media type. |
 | Total CDR Available Stream Count | Number of streams |Number of media streams with reliability/diagnostics information available. See [Call detail recording (CDR) in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |Number of streams |Number of streams where either media path could not be established or did not terminate normally. |
 |Total Call Setup Failed Stream Count |Number of streams |Number of streams where media path could not be established between the endpoints at the start of the call. |
