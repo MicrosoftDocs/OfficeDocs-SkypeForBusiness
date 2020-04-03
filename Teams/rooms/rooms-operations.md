@@ -26,7 +26,7 @@ With additional configuration, remote management is possible using Microsoft Azu
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
 
-To collect logs, you must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated PowerShell promt, and issue the following command:
+To collect logs, you must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated PowerShell prompt, and issue the following command:
   
 ```PowerShell
 c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
