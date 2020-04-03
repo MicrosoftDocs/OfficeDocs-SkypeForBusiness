@@ -22,29 +22,33 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
+    - title: COVID-19 response - Support remote workers using Teams 
+      itemType: overview
+      url: /MicrosoftTeams/support-remote-work-with-teams
+    # Card
     - title: How to roll out Teams
       itemType: deploy
       url: /MicrosoftTeams/how-to-roll-out-teams
+    # Card
+    - title: Security and compliance in Teams
+      itemType: overview
+      url: /MicrosoftTeams/security-compliance-overview
     # Card
     - title: Find training for you and your users
       itemType: learn
       url: /MicrosoftTeams/training-microsoft-teams-landing-page
     # Card
     - title: Upgrade from Skype for Business to Teams
-      itemType: overview
+      itemType: how-to-guide
       url: /MicrosoftTeams/upgrade-start-here
     # Card
     - title: Adoption hub
       itemType: get-started
       url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-    # Card
-    - title: IT Architecture posters and solutions
-      itemType: architecture
-      url: /MicrosoftTeams/teams-architecture-solutions-posters
-    # Card
-    - title: Start here if you're new to Teams
-      itemType: quickstart
-      url: /MicrosoftTeams/teams-overview
+
+
+
+
 
 # additionalContent section (optional)
 # Card with links style
@@ -63,8 +67,8 @@ additionalContent:
               url: /MicrosoftTeams/teams-memory-usage-perf
             - text: Communicate with users from other organizations (guest/external access)
               url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-            - text: Security and compliance in Teams
-              url: /MicrosoftTeams/security-compliance-overview
+            - text: IT Architecture posters and solutions
+              url: /MicrosoftTeams/teams-architecture-solutions-posters
         # Card
         - title: Voice calling with Teams
           links:
