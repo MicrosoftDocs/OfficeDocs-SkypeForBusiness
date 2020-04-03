@@ -1,13 +1,13 @@
 ---
-title: Team Targeting
-author: dstrome
-ms.author: dstrome
+title: Tasks in Microsoft Teams
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: marubins
+ms.reviewer: andfried
 search.appverid: MET150
-description: Learn about Team Targeting.
+description: 
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -16,4 +16,5 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Team Targeting
+# Tasks in Microsoft Teams
+

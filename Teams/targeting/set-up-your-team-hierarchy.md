@@ -30,7 +30,7 @@ Before you create the schema that defines your hierarchy, you need to do some pl
 For example, in the following hierarchy, Recall, Retail Communications, and HR, can publish tasks to every bottom node in the hierarchy, whereas North East Zone can only publish tasks to New York Store and Boston Store. This hierarchy allows the Recall, Retail Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. North East Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York and Boston stores.
 
 
-![Team targeting hierarchical example](../media/team-targeting-schema-example.png)
+![Team hierarchical example](../media/team-targeting-schema-example.png)
 
 ## Create your hierarchy
 
