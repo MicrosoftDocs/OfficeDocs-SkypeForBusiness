@@ -164,9 +164,7 @@ You can assign emergency call routing policies and emergency calling policies to
 
 Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
 
-To learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md) and  [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
-
-Here's some PowerShell examples. 
+To learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md) and  [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md). Here's some PowerShell examples.
 
 To enable a specific user for security desk notification, use the following command:
 
