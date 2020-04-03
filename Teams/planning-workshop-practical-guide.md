@@ -1,5 +1,5 @@
 ---
-title: Tools and workshops - Plan, deliver, and adopt Microsoft Teams
+title: Tools & workshops - Plan, deliver, & adopt Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Tools and workshops: Plan, deliver, and adopt Microsoft Teams

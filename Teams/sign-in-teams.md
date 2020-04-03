@@ -1,5 +1,5 @@
 ---
-title: Sign in to Microsoft Teams using modern authentication
+title: Sign in to Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,6 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Sign in to Microsoft Teams using modern authentication

@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to get new, port, or transfer existing phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers) for Teams."
+  - seo-marvel-mar2020
+description: Learn how to get new phone numbers and port or transfer existing numbers for audio conferencing, auto attendants, and call queues (service numbers) for Teams.
 ---
 
 # Getting service phone numbers
@@ -38,7 +39,7 @@ There are three ways to get service numbers:
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
-> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you’re transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
+> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you're transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
   
 ## Get new service numbers
 

@@ -1,5 +1,5 @@
 ---
-title: Turn on Microsoft Teams in your Office 365 organization
+title: Turn on Teams in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,11 +14,12 @@ f1.keywords:
   - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-mar2020
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Teams
+  - Microsoft Team
 ---
 
 # Turn on Teams in your organization
