@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how private chat files are stored, and the relationship between team, standard channel, and the document library.
+description: SharePoint Online & OneDrive for Business interaction with Teams; private chat file storage & interaction between team, standard channel, & document library.
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -17,6 +17,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # How SharePoint Online and OneDrive for Business interact with Microsoft Teams

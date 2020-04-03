@@ -1,5 +1,5 @@
 ---
-title: "Get started with Secure Messaging for Healthcare organizations"
+title: "Secure Messaging for Healthcare organizations"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.reviewer: 
 description: Get started with Secure Messaging for Healthcare organizations
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Secure Messaging for Healthcare organizations

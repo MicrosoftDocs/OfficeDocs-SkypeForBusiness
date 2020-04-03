@@ -1,5 +1,5 @@
 ---
-title: Overview of security and compliance in Microsoft Teams
+title: Overview of security and compliance
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,6 +17,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

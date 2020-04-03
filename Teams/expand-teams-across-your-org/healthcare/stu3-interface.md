@@ -16,7 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams Patients app EHR integration
+description: Learn about the STU3 interface specification in Teams, including setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app.
+ms.custom: seo-marvel-mar2020
 ---
 
 # STU3 interface specification
@@ -246,7 +247,7 @@ A resource search uses the GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _sort=-date
-3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs.
+3. category (we will query for "category=vital-signs") to retrieve the list of vital signs.
 
 Refer to this example of the call:
 
@@ -369,12 +370,12 @@ See [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/conditi
 
 ## Encounter
 
-These are the minimum required fields, which are a subset of the [US Core Encounter profile](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
+These are the minimum required fields, which are a subset of the [US Core Encounter profile](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) "must have" fields).
 
 1. Status
 2. Type[0].Coding[0].Display
 
-In addition, the following fields from US Core Encounter profile’s “must support” fields:
+In addition, the following fields from US Core Encounter profile's "must support" fields:
 
 1. Period.Start
 2. Location[0].Location.Display
@@ -385,7 +386,7 @@ A resource search uses the GET method and the following parameters:
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
 
-The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
+The goal is to be able to retrieve the patient's last known location. Each encounter references a location resource. The reference shall also include the location's display field.
 
 See [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) for other details on this field set.
 

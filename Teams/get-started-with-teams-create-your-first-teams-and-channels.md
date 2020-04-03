@@ -1,5 +1,5 @@
 ---
-title: Create your first teams and channels in Microsoft Teams
+title: Create your first teams and channels
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Create your first teams and channels in Microsoft Teams
@@ -29,10 +30,10 @@ If you haven't installed Teams yet, check out [Get Teams clients](get-clients.md
 
 To learn more, see [Overview of teams and channels in Teams](teams-channels-overview.md) and [Best practices for organizing teams in Teams](best-practices-organizing.md).
 
- We suggest you start with a “Get to know Teams” team where your early adopters can play around, ask questions, and discover the capabilities of Teams. This team can be essential to your success as you begin to experiment with Teams. 
+ We suggest you start with a "Get to know Teams" team where your early adopters can play around, ask questions, and discover the capabilities of Teams. This team can be essential to your success as you begin to experiment with Teams. 
 
 ### "Get to know Teams" team
-Your project team can use the “Getting to know Teams” team to ensure they're set up with Teams clients, have some initial conversations, and explore what Teams can do. You may already have a group of people in your organization who enjoy getting early access to new capabilities. This can be one of their initial teams when you bring them on board and will help you get early feedback.
+Your project team can use the "Getting to know Teams" team to ensure they're set up with Teams clients, have some initial conversations, and explore what Teams can do. You may already have a group of people in your organization who enjoy getting early access to new capabilities. This can be one of their initial teams when you bring them on board and will help you get early feedback.
 
 Here's a suggested structure for the team.
 

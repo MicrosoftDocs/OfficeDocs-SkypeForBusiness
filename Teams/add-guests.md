@@ -14,7 +14,8 @@ ms.reviewer: sbhatta
 f1.keywords:
 - NOCSH
 localization_priority: Priority
-description: "Learn the tools available to an admin to add new guest users to an organization, including the Microsoft Teams desktop and web clients and the Azure Active Directory B2B collaboration portal."
+description: Admins can learn how to add new guest users to an organization in Microsoft Teams desktop and web clients and Azure Active Directory B2B collaboration portal.
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
