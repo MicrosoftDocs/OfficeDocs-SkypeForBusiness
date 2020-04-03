@@ -34,6 +34,8 @@ To make it easy for users in your organization to schedule and hold meetings and
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
 
+To learn more about licensing, read [Office 365 licensing for Teams](Office-365-licensing.md). For details about Audio Conferencing licenses, read [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
 ## Make sure your network's ready
 
 If you already optimized your network when you rolled out Microsoft 365 or Office 365, you're probably all set. In any case - and especially if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers** - read [Prepare your organization's network for Teams](prepare-network.md) to be sure you're ready.
