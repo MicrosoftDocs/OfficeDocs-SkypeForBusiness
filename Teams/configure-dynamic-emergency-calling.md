@@ -135,7 +135,7 @@ For a client to obtain a location, you must populate the LIS with network identi
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Locations** > **Networks & locations**.
-2. Click the tab that represents the network identifier that you want to add, and then click **Add**.
+2. Click the tab that represents the network identifier that you want to add. For example, click , and then click **Add**.
 3. Complete the fields, add an emergency location, and then click **Apply**.
 
 ### Using PowerShell
@@ -160,11 +160,9 @@ Use the following policies to configure emergency calling. You can manage these 
 
 ## Enable users and sites
 
-You can assign emergency call routing policies and emergency calling policies to users and to sites. You can do this in the Microsoft Teams admin center or by using PowerShell. 
+You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
 
-Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
-
-To learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md) and  [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md). Here's some PowerShell examples.
+You assign policies in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md) and  [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md). Here's some PowerShell examples.
 
 To enable a specific user for security desk notification, use the following command:
 
