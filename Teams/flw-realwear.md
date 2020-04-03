@@ -50,3 +50,7 @@ RealWear devices can be managed using Android Device Administrator mode. Support
 ### Third-party Enterprise Mobility Managers (EMMs)
 
 For guidance on third-party EMMs, see [Supported Enterprise Mobility Management Providers](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## End-user content
+
+For further reading on this from an end-user perspective, please check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
