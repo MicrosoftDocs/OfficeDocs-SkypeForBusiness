@@ -147,12 +147,12 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
->[!Important] 
+>[!Important]
 >If subnets are being used as part of network sites, they must be redefined in the Location Information Service to render dynamic locations.
 
 ## Configure emergency policies
 
-You use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
+Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
 - **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
@@ -160,11 +160,15 @@ You use the following policies to configure emergency calling. You can manage th
 
 ## Enable users and sites
 
-You can assign emergency call routing policies and emergency calling policies to users and to sites.  
+You can assign emergency call routing policies and emergency calling policies to users and to sites. You can do this in the Microsoft Teams admin center or by using PowerShell. 
 
-Emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
+Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
 
-For example, to enable a specific user for security desk notification, use the following command:
+To learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md) and  [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
+
+Here's some PowerShell examples. 
+
+To enable a specific user for security desk notification, use the following command:
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
