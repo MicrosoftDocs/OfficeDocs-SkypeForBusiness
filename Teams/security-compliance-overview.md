@@ -143,7 +143,6 @@ Audit log search plugs right into the Office 365 Security & Compliance Center an
 
 At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
 
-
 ## Information Protection Architecture
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
