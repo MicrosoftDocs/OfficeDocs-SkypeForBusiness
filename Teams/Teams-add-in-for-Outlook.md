@@ -32,6 +32,7 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 ![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - There are additional considerations if your organization runs both Teams and Skype for Business. Under some circumstances, the Teams add-in is not available in Outlook. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for details.
 > - User permissions to execute the Regsvr32.exe file is a minimum requirement for the Teams Meeting add-in to be installed on the computer.
 > - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 > - If you are using an Office Outlook installation from the Microsoft Store, the Teams Meeting add-in isn't supported. Users who require this add-in are advised to install Click-to-Run version of Office, as outlined in [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) article.
@@ -68,7 +69,7 @@ See [Schedule meetings with FindTime](https://support.office.com/article/schedul
 
 ## Authentication requirements
 
-The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
+The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
 
 - If Modern Authentication is not configured for your organization, you should configure Modern Authentication.
 - If Modern Authentication is configured, but they canceled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.
@@ -115,7 +116,7 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Ensure all available updates for Outlook desktop client have been applied.
 - Restart the Teams desktop client.
 - Sign out and then sign back in to the Teams desktop client.
-- Restart the Outlook desktop client. (Make sure Outlook isn’t running in admin mode.)
+- Restart the Outlook desktop client. (Make sure Outlook isn't running in admin mode.)
 - Make sure the logged-in user account name does not contain spaces. (This is a known issue, and will be fixed in a future update.)
 - Make sure single sign-on (SSO) is enabled.
 
