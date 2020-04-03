@@ -1791,10 +1791,15 @@
         "redirect_url": "https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots",
         "redirect_document_id": false
       },
-   {
+    {
         "source_path": "Teams/audio-conferencing-videos.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365",
         "redirect_document_id": true
-      }
+      },
+    {
+        "source_path": "Teams/Microsoft-Teams.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/",
+        "redirect_document_id": false
+      }      
   ] 
 }
