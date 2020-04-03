@@ -659,6 +659,7 @@
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
+#### [Location of data in Teams](location-of-data-in-teams.md)
 #### [Place a Teams user or team on legal hold](legal-hold.md)
 ### Content Search
 #### [Use Content Search](content-search.md)
