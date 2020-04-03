@@ -20,8 +20,10 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ---
+> [!IMPORTANT]
+> The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
 
-# Security and Microsoft Teams
+ # Security and Microsoft Teams
 
 Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
@@ -144,7 +146,7 @@ Teams uses a credentials-based token for secure access to media relays over TURN
 
 #### FIPS
 
-Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges.
+Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### User and Client Authentication
 

@@ -12,8 +12,6 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
 
@@ -475,9 +473,8 @@
 ### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
 ### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Upgrade to Teams
 
@@ -560,9 +557,6 @@
 
 ## [Integration with Exchange and SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 Business Voice
@@ -595,11 +589,7 @@
 
 ## [Partner resources](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
@@ -701,8 +691,7 @@
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
