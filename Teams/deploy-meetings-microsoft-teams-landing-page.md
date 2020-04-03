@@ -13,6 +13,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 

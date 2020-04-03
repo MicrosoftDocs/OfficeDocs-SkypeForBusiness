@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 f1.keywords:
 - CSH
 ms.custom: 

@@ -37,8 +37,9 @@ Business Voice is right for you if your organization has 300 or fewer people and
 * Microsoft 365 E3
 * Microsoft 365 Business
 
+Business Voice is available in over 70 countries and regions. Whether you can set up Business Voice on your own, transfer phone numbers to Microsoft 365, and manage your phone numbers in Microsoft 365, depends on the country or region in which your Microsoft 365 tenant is located. For more information, check out [Country and region availability for Business Voice](country-region-availability.md).
+
 > [!IMPORTANT]
-> Business Voice is currently available in Canada and the United Kingdom. More countries and regions will become available in 2020.
 >
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes located on on-premises Exchange Server.
 

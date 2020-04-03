@@ -146,8 +146,8 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>4.1.1</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="http://www.te-systems.de/index.php?id=181&amp;L=2">TE-SYSTEMS</a></td>
-		<td>ANYNODE</td>
+		<td><a href="https://www.anynode.de/features/anynode-and-microsoft-lync/">TE-SYSTEMS</a></td>
+		<td>anynode - The Software SBC</td>
 		<td>1.1.122</td>
 	</tr>
 </table>
@@ -223,8 +223,8 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>1.3.2v83</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="http://www.te-systems.de/index.php?id=181&amp;L=2">TE-SYSTEMS</a></td>
-		<td width="344px">ANYNODE SBC</td>
+		<td><a href="https://www.anynode.de/features/anynode-and-microsoft-lync/">TE-SYSTEMS</a></td>
+		<td width="344px">anynode - The Software SBC</td>
 		<td width="396px">1.0.35</td>
 	</tr>
 </table>
