@@ -51,15 +51,29 @@ This article describes configuration for Microsoft components. For information o
 
 Local Media Optimization is supported by the following SBC vendors:
 
-**INSERT TABLE - STILL NEED TABLE OF SBC VENDORS AND LINKS TO CONFIGURATION SPECS**
+| Vendor | Product |	Software version |
+|:------------|:-------|:-------| :-------|
+| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
+|            |	Mediant 800 SBC |	7.20A.256 |	
+|            |	Mediant 2600 SBC |	7.20A.256 |	
+|            |	Mediant 4000 SBC |	7.20A.256 |	
+|            |	Mediant 1000B SBC |	7.20A.256 |	
+|            |	Mediant 9000 SBC |	7.20A.256 |	
+|            |	Mediant Virtual Edition SBC |	7.20A.256 |	
+|            |	Mediant Cloud Edition SBC |	7.20A.256 |
+| [Ribbon](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5400   | 8.2	|
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWE          | 8.2  |
+|            |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 
 
 ## Manage external trusted IP addresses
 
-External trusted IPs are the Internet external IPs of the enterprise network. These IPs are used to determine if the user's endpoint is inside the corporate network before checking for a specific site match. You need to add these IPs for each site.
+External trusted IPs are the Internet external IPs of the enterprise network. These IP’s are the IP addresses used by Microsoft Teams clients when they connect to Microsoft 365. You need to add these external IPs for each site where you have users using Local Media Optimization.
 
-To add the public IP addresses for each local branch office, use the New-CsTenantTrustedIPAddress cmdlet. This is the IP address used to connect each local branch office to Microsoft Phone System. You can define an unlimited number of trusted IP addresses for a tenant. Both IPv4 and IPv6 addresses need to be defined separately.
-
+To add the public IP addresses for each site, use the New-CsTenantTrustedIPAddress cmdlet. You can define an unlimited number of trusted IP addresses for a tenant. If the external IPs seen by Microsoft 365 are both IPv4 and IPv6 addresses, you need to add both types of IP addresses. You can add both individual external IP addresses and external IP subnets by specifying different MaskBits on the cmdlet.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -69,9 +83,9 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 Example of adding trusted IP addresses.
 
 ```
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -Description "Vietnam site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -Description "Indonesia site trusted IP"
-New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -Description "Singapore site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -MaskBits 32 -Description "Vietnam site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -MaskBits 32 -Description "Indonesia site trusted IP"
+New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description "Singapore site trusted IP"
 ```
 
 
@@ -152,6 +166,8 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
+Note: To ensure uninterrupted operations when Local Media Optimization and Location-Based Routing (LBR) are configured at the same time, downstream SBCs must be enabled for LBR by setting the GatewaySiteLbrEnabled parameter to $true for each downstream SBC. (This setting is not mandatory for the proxy SBC.)
+
 Based on the information above, Direct Routing will include three proprietary SIP Headers to SIP Invites and Re-invites as shown  in the following table.
 
 X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMode is defined:
@@ -162,7 +178,6 @@ X-MS Headers introduced in Direct Routing on Invites and Re-Invites if BypassMod
 | Request-URI	INVITE sip: +84439263000@VNsbc.contoso.com SIP /2.0 | SBC FQDN | The FQDN which is targeted for the call even if the SBC is not directly connected to Direct Routing |
 | X-MS-MediaPath | Example: proxysbc.contoso.com, VNsbc.contoso.com | Order of SBCs that should be used for Media path between the user and target SBC. The final SBC is always last |
 | X-MS-UserSite | usersiteID | String defined by tenant administrator |
-
 
 ## Call flows 
 

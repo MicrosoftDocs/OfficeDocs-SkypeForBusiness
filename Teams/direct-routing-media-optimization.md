@@ -130,9 +130,9 @@ Table 2. Example SBC network information
 
 | Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | SBC external IP address  | SBC internal IP address |
 |:------------|:-------|:-------|:-------|:-------|:-------|
-| Vietnam | 192.168.1.0/24 | 172.16.240.110 | VNsbc.contoso.com | None |  192.168.1.5 |
-| Indonesia  | 192.168.2.0/24 | 172.16.240.120 | IDsbc.contoso.com | None |  192.168.2.5 |
-| Singapore | 192.168.3.0/24 | 172.16.240.130 | proxysbc.contoso.com | 172.16.240.133 | 192.168.3.5 |
+| Vietnam | VNsbc.contoso.com | 192.168.1.0/24 | 172.16.240.110 | None |  192.168.1.5 |
+| Indonesia  | IDsbc.contoso.com | 192.168.2.0/24 | 172.16.240.120 | None |  192.168.2.5 |
+| Singapore | proxysbc.contoso.com |   192.168.3.0/24 | 172.16.240.130 | 172.16.240.133 | 192.168.3.5 |
 
 
 
@@ -195,11 +195,11 @@ The SBC in Germany can be configured in “Always bypass” mode. Users, regardl
 
 The following describes two scenarios:
 
-- Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy.
+- Scenario 1. The user is in the same location as the SBC defined in the Online Voice Routing Policy.
 
 - Scenario 2. The user and gateways are in different sites.
 
-#### Scenario 1. The user is in the same location as the SBC defined in the Voice Routing Policy
+#### Scenario 1. The user is in the same location as the SBC defined in the Online Voice Routing Policy
 
 The SBC in Amsterdam is configured to be a proxy SBC for a local downstream SBC in Germany. The user is in Germany within the same subnet as the corporate network of the local SBC. Both SBCs (proxy and downstream) are configured for Always Bypass mode. Voice routing policies specify that in case of calls within Germany (with area code +49) they should be routed to the local SBC in Germany. All other calls--and in case the SBC in Germany fails, calls in Germany--should be routed to the proxy SBC in Amsterdam. The following table summarizes the example configuration. 
 
