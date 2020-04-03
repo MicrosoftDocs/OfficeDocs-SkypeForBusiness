@@ -1,5 +1,5 @@
 ---
-title: Deploy Rooms with Exchange on premises
+title: Deploy Microsoft Teams Rooms with Exchange on-premises
 ms.author: v-lanac
 author: lanachin
 manager: serdars

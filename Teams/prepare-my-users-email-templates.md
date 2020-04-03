@@ -1,5 +1,5 @@
 ---
-title: Email templates for online phone system rollout
+title: User notification email templates for online phone system rollout
 author: lanachin
 ms.author: v-lanac
 manager: serdars

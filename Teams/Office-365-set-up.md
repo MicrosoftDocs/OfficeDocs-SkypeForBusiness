@@ -19,7 +19,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Team
+  - Microsoft Teams
 ---
 
 # Turn on Teams in your organization
