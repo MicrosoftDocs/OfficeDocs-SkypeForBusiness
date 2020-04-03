@@ -1,5 +1,5 @@
 ---
-title: ITAdmin information for Microsoft Teams RealWear client (Preview)
+title: ITAdmin information for Microsoft Teams for RealWear client (Preview)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: A, ITAdmin walkthrough of the RealWear client for Microsoft Teams.
+description: A, ITAdmin walkthrough of the Microsoft Teams for RealWear client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# RealWear for Microsoft Teams
+# Microsoft Teams for RealWear
 
 > [!NOTE]
 > This is a preview or early release feature.
@@ -50,3 +50,7 @@ RealWear devices can be managed using Android Device Administrator mode. Support
 ### Third-party Enterprise Mobility Managers (EMMs)
 
 For guidance on third-party EMMs, see [Supported Enterprise Mobility Management Providers](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## End-user content
+
+For further reading on this from an end-user perspective, please check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
