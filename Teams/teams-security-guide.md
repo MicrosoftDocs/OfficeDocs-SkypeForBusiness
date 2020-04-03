@@ -20,8 +20,10 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ---
+> [!IMPORTANT]
+> The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
 
-# Security and Microsoft Teams
+ # Security and Microsoft Teams
 
 Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
