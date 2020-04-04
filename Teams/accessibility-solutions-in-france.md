@@ -1,5 +1,5 @@
 ---
-title: "Accessibility for Skype for Business Online"
+title: "Accessibility solutions for Skype for Business Online and Microsoft Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

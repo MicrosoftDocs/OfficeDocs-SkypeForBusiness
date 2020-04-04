@@ -1,5 +1,5 @@
 ---
-title: Plan Rooms management with Azure Monitor
+title: Plan Microsoft Teams Rooms management with Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo

@@ -1,5 +1,5 @@
 ---
-title: Deploy Rooms using Microsoft Endpoint Configuration Manager
+title: Deploy Microsoft Teams Rooms using Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
