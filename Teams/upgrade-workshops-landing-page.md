@@ -16,6 +16,8 @@ localization_priority: Priority
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB
   - M365-collaboration
+ms.custom:
+  - seo-marvel-apr2020
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -24,7 +26,7 @@ appliesto:
     <div class="container">
         <h1>Teams upgrade planning workshops</h1>
            <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <strong>Plan your upgrade</strong> session below.
-            <p>New to Teams? Learn more <a href="https://docs.microsoft.com/microsoftteams/teams-overview">here</a>.
+            <p>New to Teams? Take a look at the <a href="https://docs.microsoft.com/microsoftteams/teams-overview">Microsoft Teams documentation</a>, to learn more.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
