@@ -1,5 +1,5 @@
 ---
-title: Manage the Microsoft Teams Commercial Cloud Trial offer
+title: Manage the Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer
@@ -73,7 +74,7 @@ Admins can disable the ability for end users to claim trial apps and services wi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user’s ability to install trial apps and services.
+You can turn off a user's ability to install trial apps and services.
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
