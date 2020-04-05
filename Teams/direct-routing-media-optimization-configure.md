@@ -61,11 +61,14 @@ Local Media Optimization is supported by the following SBC vendors:
 |            |	Mediant 9000 SBC |	7.20A.256 |	
 |            |	Mediant Virtual Edition SBC |	7.20A.256 |	
 |            |	Mediant Cloud Edition SBC |	7.20A.256 |
-| [Ribbon](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5400   | 8.2	|
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWE          | 8.2  |
-|            |  SBC 5110         | 8.2  |
+| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [Ribbon SBC Edge](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 1000         | 8.1.1, build 527 |
+|            |  SBC 2000         | 8.1.1, build 527 |
+|            |  SBC SWe Lite     | 8.1.0, build 222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 
 
@@ -73,7 +76,7 @@ Local Media Optimization is supported by the following SBC vendors:
 
 External trusted IPs are the Internet external IPs of the enterprise network. These IP’s are the IP addresses used by Microsoft Teams clients when they connect to Microsoft 365. You need to add these external IPs for each site where you have users using Local Media Optimization.
 
-To add the public IP addresses for each site, use the New-CsTenantTrustedIPAddress cmdlet. You can define an unlimited number of trusted IP addresses for a tenant. If the external IPs seen by Microsoft 365 are both IPv4 and IPv6 addresses, you need to add both types of IP addresses. You can add both individual external IP addresses and external IP subnets by specifying different MaskBits on the cmdlet.
+To add the public IP addresses for each site, use the New-CsTenantTrustedIPAddress cmdlet. You can define an unlimited number of trusted IP addresses for a tenant. If the external IPs seen by Microsoft 365 are both IPv4 and IPv6 addresses, you need to add both types of IP addresses. For IPv4, use mask 32. For IPv6, use mask 128. You can add both individual external IP addresses and external IP subnets by specifying different MaskBits on the cmdlet.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -199,7 +202,7 @@ The examples show Always bypass mode for the following scenarios:
 
 The following table shows the FQDN and IP addresses used in the examples:
 
-| FQDN | External IP address | Internal IP Address | Internal subnet | Location | External NAT for Internet egress |
+| FQDN | SBC external IP address | SBC internal IP Address | Internal subnet | Location | External NAT (Trusted IP) |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | VNsbc.contoso.com | None | 192.168.1.5 | 192.168.1.0/24 | Vietnam | 172.16.240.110 |
 | IDsbc.contoso.com | None | 192.168.2.5 | 192.168.2.0/24 | Indonesia | 172.16.240.120 |
@@ -215,7 +218,7 @@ The following table shows the FQDN and IP addresses used in the examples:
 
 The following table shows the end user configuration and action:
 
-| User physical location| User makes or receives a call to/from number | User phone number	| Voice Routing Policy | Mode configured for SBC |
+| User physical location| User makes or receives a call to/from number | User phone number	| Online Voice Routing Policy | Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam |	+84 4 3926 3000	| +84 4 5555 5555	| Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com	| VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
 
@@ -228,7 +231,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
-| Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI | 
+| Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI | 
 | X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
 | X-MS-MediaPath: VNsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
 |X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
@@ -266,7 +269,7 @@ The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
-|Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in voice routing policy is send in the Request URI.|
+|Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI.|
 | X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
 | X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 
@@ -296,7 +299,7 @@ The following scenarios are described:
 
 The following table shows end user configuration and action:
 
-| User physical location |	User makes or receives a call to/from number |	User phone number |	Voice Routing Policy |	Mode configured for SBC |
+| User physical location |	User makes or receives a call to/from number |	User phone number |	Online Voice Routing Policy |	Mode configured for SBC |
 |:------------|:-------|:-------|:-------|:-------|
 | Vietnam | +84 4 3926  3000 |	+84 4 5555 5555 | Priority 1: ^\+84(\d{9})$ -VNsbc.contoso.com <br> Priority 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
 
