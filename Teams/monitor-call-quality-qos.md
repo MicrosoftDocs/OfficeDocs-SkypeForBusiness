@@ -1,5 +1,5 @@
 ---
-title: Implement QoS and Monitor Call Analytics in Microsoft Teams
+title: Implement QoS and Monitor Call Analytics
 author: dstrome
 ms.author: dstrome
 manager: Serdars
@@ -16,6 +16,7 @@ f1.keywords:
  - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Implement QoS and Monitor Call Quality in Microsoft Teams
