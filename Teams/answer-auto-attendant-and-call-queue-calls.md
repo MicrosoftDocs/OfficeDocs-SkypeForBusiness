@@ -1,5 +1,5 @@
 ---
-title: Answer auto attendant and call queue calls directly from Teams
+title: Answer auto attendant and call queue calls
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Answer auto attendant and call queue calls directly from Teams
@@ -39,19 +40,19 @@ The following illustration shows how an incoming call from an auto attendant or 
 
 ![Screenshot of an incoming call notification](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user’s configuration.
+Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user's configuration.
 
 > [!NOTE] 
-> Call queue calls are not forwarded based on the user’s configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn’t forwarded unexpectedly.
+> Call queue calls are not forwarded based on the user's configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
 
 ## Supported clients
 
 Support for auto attendant and call queue calls is available in the following clients:
 
--	Microsoft Teams Windows client (32 and 64-bit versions)
--	Microsoft Teams Mac client
--	Microsoft Teams iPhone app
--	Microsoft Teams Android app
+-    Microsoft Teams Windows client (32 and 64-bit versions)
+-    Microsoft Teams Mac client
+-    Microsoft Teams iPhone app
+-    Microsoft Teams Android app
 
 ## Configure auto attendant and call queue support for Microsoft Teams
 
@@ -59,8 +60,8 @@ To receive auto attendant and call queue calls on Microsoft Teams, you need to c
 
 ## Related topics
 
--	[What is Phone System in Office 365](what-is-phone-system-in-office-365.md)
--	[Create a Cloud call queue](create-a-phone-system-call-queue.md)
--	[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
--	[Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+-    [What is Phone System in Office 365](what-is-phone-system-in-office-365.md)
+-    [Create a Cloud call queue](create-a-phone-system-call-queue.md)
+-    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+-    [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 

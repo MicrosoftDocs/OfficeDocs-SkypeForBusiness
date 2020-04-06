@@ -21,7 +21,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
-description: "In addition to the standard Audio Conferencing per-user license, organizations using Microsoft Volume Licensing can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
+  - seo-marvel-mar2020
+description: Learn about the pay-per-minute option to enable Audio Conferencing capabilities for organizations using Microsoft Volume Licensing.
 ---
 
 # Audio Conferencing pay-per-minute

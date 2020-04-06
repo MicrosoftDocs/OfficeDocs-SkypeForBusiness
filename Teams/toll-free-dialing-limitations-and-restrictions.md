@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - Strat_SB_PSTN
-description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number."
+  - seo-marvel-mar2020
+description: Learn about dialing toll-free numbers in a country/region, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing limitations and restrictions
