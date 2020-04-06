@@ -42,7 +42,7 @@ However, since introducing information barriers, many other areas have found the
 
 For example, Enrico belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Enrico and Pradeep can't communicate with each other because the organization's IB policy blocks communication and collaboration between these two segments. However, Enrico and Pradeep can communicate with Lee in HR.
 
-![Example showing information barriers preventing communication between segments](media/information-barriers-one-one-chat.png)
+![Example showing information barriers preventing communication between segments](media/information-barriers-example.png)
 
 ## When to use information barriers
 
@@ -97,7 +97,11 @@ If there is an existing chat or other communication between users, and a new pol
 
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations.
 
+In this example, Enrico moved to a different department within the organization and is removed from the group chat.
+
     ![Screenshot showing group chat](media/information-barriers-user-changes-job.png)
+
+Enrico can no longer send messages to the group chat.
 
     ![Screenshot showing group chat](media/information-barriers-user-changes-job-2.png)
 
