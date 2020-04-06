@@ -1,5 +1,5 @@
 ---
-title: Audio Conferencing in Microsoft Teams
+title: Configure Audio Conferencing settings - Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out audio conferencing as part of the meetings workload in Microsoft Teams.
 ms.topic: article
@@ -12,14 +12,17 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
-# Audio Conferencing in Microsoft Teams
+# Learn how to deploy audio conferencing in Microsoft Teams
 
 Audio Conferencing is the ability to join a Teams meeting from a regular phone and dial out from a meeting to a phone number. Be sure you've reviewed [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
 

@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot connectivity issues with the Microsoft Teams client
+title: Troubleshoot connectivity issues with Teams client
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -15,7 +15,7 @@ f1.keywords:
 description: Troubleshoot connectivity issues with the Microsoft Teams client, primarily caused by the firewall or proxy connection, and learn how to fix it.
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.custom: seo-marvel-mar2020
 ---
 
 Troubleshoot connectivity issues with the Microsoft Teams client

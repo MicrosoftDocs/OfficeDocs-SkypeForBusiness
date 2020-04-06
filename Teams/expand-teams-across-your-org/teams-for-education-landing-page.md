@@ -1,6 +1,6 @@
 ---
 title: Teams for Education
-description: Use these resources to get the most out of Teams across your organization.
+description: Using Teams for Education to create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. 
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,6 +17,7 @@ search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Teams for Education
