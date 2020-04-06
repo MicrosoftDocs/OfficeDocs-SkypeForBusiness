@@ -291,6 +291,16 @@
 #### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
+### Local Media Optimization for Direct Routing
+#### [Plan for Local Media Optimization](direct-routing-media-optimization.md)
+#### [Configure Local Media Optimization](direct-routing-media-optimization-configure.md)
+
+### Monitor and troubleshoot Direct Routing
+#### [Overview](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [Migrate to Direct Routing](direct-routing-migrating.md)
 
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
