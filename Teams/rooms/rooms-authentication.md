@@ -36,7 +36,10 @@ Before you enable the client-side setting for modern authentication, make sure t
 
 ### Using device settings
 
-On the Microsoft Team Rooms device, go to **More** 
+1. On the Microsoft Team Rooms device, go to **More** (**...**).
+    
+2. Select **Settings**, and then enter the device administrator username and password.
+3. Go to the **Account** tab, turn on **Modern Authentication**, and then select **Save and exit**.
 
 ### Using the XML config file
 
