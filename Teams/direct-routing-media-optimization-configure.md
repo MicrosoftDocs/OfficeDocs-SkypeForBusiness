@@ -66,7 +66,7 @@ Local Media Optimization is supported by the following SBC vendors:
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [Ribbon SBC Edge](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 1000         | 8.1.1, build 527 |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1, build 527 |
 |            |  SBC 2000         | 8.1.1, build 527 |
 |            |  SBC SWe Lite     | 8.1.0, build 222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
