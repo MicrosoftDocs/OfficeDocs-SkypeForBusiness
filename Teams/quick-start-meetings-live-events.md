@@ -59,7 +59,7 @@ If you already prepared your network when you rolled out Microsoft 365 or Office
 
 - Similar to meetings, you - the admin - [configure live events](teams-live-events/configure-teams-live-events.md) for everyone. Then set up (and assign) [live event policies](teams-live-events/set-up-for-teams-live-events.md) to control what your users can (and can't) do.
 
-- Make sure your live event producers and organizers are trained - send them to [Set up and attend live events](https://support.office.com/article/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
+- Make sure your live event producers and organizers are trained - send them to [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
 
 - If you're new to live events, check out [What are Teams live events?](teams-live-events/what-are-teams-live-events.md) and [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md).
 
