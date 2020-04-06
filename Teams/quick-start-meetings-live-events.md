@@ -34,14 +34,11 @@ Anyone can attend a Teams meeting or live event for free - no license is require
 
 For the people who will organize, schedule, and host meetings or live events, they'll need one of the Microsoft 365 or Office 365 licenses listed in the table below. If you're already using Teams, you probably have the license you need for organizing and hosting meetings and live events. 
 
-If you want to provide a dial-in number for your meetings, organizers or hosts need an E5 license or an [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-
-
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
 
 > <sup>1</sup>  Meeting organizers need to have an [Audio Conferencing add-on license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to send an invite that includes dial-in conferencing.
 >
-> <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 and/or Audio Conferencing license. [Dial plan](what-are-dial-plans.md) may be needed. 
+> <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed. 
 
 
 To learn more about licensing, read [Office 365 licensing for Teams](Office-365-licensing.md). 
