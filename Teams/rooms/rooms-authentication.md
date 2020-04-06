@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid:
 ms.collection: 
   - M365-collaboration
-description: "Learn how to enable modern authentication for Microsoft Teams Rooms"
+description: "Learn how configure modern authentication for Microsoft Teams Rooms"
 ---
 
 # Authentication in Microsoft Teams
@@ -88,18 +88,18 @@ However, because Microsoft Teams Rooms uses [resource owner password credentials
 
 ### Configure Exchange Server
 
-To enable hybrid modern authentication in Exchange Server, see [How to configure Exchange Server on-premises to use Hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).
+To enable hybrid modern authentication in Exchange Server, see [How to configure Exchange Server on-premises to use hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).
 
 ### Configure Skype for Business Server
 
-To enable hybrid modern authentication with Skype for Business Server, see [How to configure Skype for Business on-premises to use Hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).
+To enable hybrid modern authentication with Skype for Business Server, see [How to configure Skype for Business on-premises to use hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).
 
 ### Remove or disable Skype for Business and Exchange
 
-If your setup doesn't allow for hybrid modern authentication or you need to remove or disable hybrid modern authentication for Exchange or Skype for Business, see [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
+If your setup doesn't allow for hybrid modern authentication or you need to remove or disable hybrid modern authentication for Exchange or Skype for Business, see [Removing or disabling hybrid modern authentication from Skype for Business and Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
 
 ### Azure AD conditional access
 
-You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location.)
+You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
 No other conditional access policies are supported. For more information about device compliance, see the guidance  [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).  
