@@ -1,5 +1,5 @@
 ---
-title: Define outcomes and success for your Microsoft Teams adoption
+title: Define outcomes and success for adopting Microsoft Teams - Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,9 @@ ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -72,7 +74,7 @@ Teams is a transformative technology, so depending on the size of your organizat
 | Teams First | Teams Core | Teams Go Big | Skype Side by Side | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Lead cloud deployment with Teams | Lead collaboration scenario enablement with Teams | All employees on Teams and organization-wide teams | Enable Teams and Skype for Business | Migrate users from Skype for Business to Teams |
-| - Applicable to new or low usage Office 365 customers <br/>- Lead with Teams in customer-specific scenario <br/>- Highlight integrated user experience and accelerated time to value for Office 365 <br/>- Conduct planning workload enablement together to avoid serial implementation | - Enable Teams along with OneDrive and SharePoint Online <br/>- Create a company intranet to share news resources and video with Microsoft Stream<br/>**Better together**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- For customers with less than 5000 seats (current limitation)<br/>- Enable cross organization collaboration with one team for all<br/>- Automate common tasks (vacation requests, employee surveys, executive engagement) |- Use Teams Core tactics to accelerate collaboration<br/>- Highlight meeting scenario guidance based on size and feature set required</br>- Use Skype for Business for enterprise calling, interoperability, and hybrid scenarios<br/>- Use public roadmap for capability planning. |-	Plan move to Teams from Skype for Business by creating service strategy roadmap for the customer<br/>- Attach to feature release schedule<br/>- Recommend including Side by Side and Teams Core to ease transition
+| - Applicable to new or low usage Office 365 customers <br/>- Lead with Teams in customer-specific scenario <br/>- Highlight integrated user experience and accelerated time to value for Office 365 <br/>- Conduct planning workload enablement together to avoid serial implementation | - Enable Teams along with OneDrive and SharePoint Online <br/>- Create a company intranet to share news resources and video with Microsoft Stream<br/>**Better together**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- For customers with less than 5000 seats (current limitation)<br/>- Enable cross organization collaboration with one team for all<br/>- Automate common tasks (vacation requests, employee surveys, executive engagement) |- Use Teams Core tactics to accelerate collaboration<br/>- Highlight meeting scenario guidance based on size and feature set required</br>- Use Skype for Business for enterprise calling, interoperability, and hybrid scenarios<br/>- Use public roadmap for capability planning. |-    Plan move to Teams from Skype for Business by creating service strategy roadmap for the customer<br/>- Attach to feature release schedule<br/>- Recommend including Side by Side and Teams Core to ease transition
 
 The following are our recommendations for most customer organizations. However, there are exceptions. To get guidance for any scenario not covered here, ask your questions in our Driving Adoption community or reach out to the FastTrack team or Microsoft partner network.
 
@@ -122,7 +124,7 @@ Example team level provisioning and management best practices:
 
 |Team level | Who creates? | Lavels and retention | Considerations |
 | --------- | ------------ | -------------------- | -------------- |
-| Level 1 - Divisional | IT or champion for that group to name it properly | Confidential with standard retention policy applied and 1 year renewal policy | Think of this like reserving a domain name. You want control of how division teams are named and what’s included.  Design the team before adding additional users.|
+| Level 1 - Divisional | IT or champion for that group to name it properly | Confidential with standard retention policy applied and 1 year renewal policy | Think of this like reserving a domain name. You want control of how division teams are named and what's included.  Design the team before adding additional users.|
 | Level 2 - Project/service | Project owner or champion | Confidential or highly confidential depending on content. May have a retention policy. 6 month renewal. | Before creating this, think just beyond the boundary of the project or service you are working on. Would it make more sense to combine forces with another team? Make every effort to minimize the number of teams individual users have to visit when working on the same project or service.|
 | Level 3 – Small on-demand project team | Anyone in the organization | General label with standard retention and 6 month renewal. May include naming convention (prefix/suffix)| Self-service on demand teams. Frictionless provisioning. These facilitate smooth collaboration and communications for small project teams looking to get immediate value from company provided services. |
 

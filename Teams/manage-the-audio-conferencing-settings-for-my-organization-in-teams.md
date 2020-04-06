@@ -1,5 +1,5 @@
 ---
-title: "Manage the Audio Conferencing settings for your organization in Microsoft Teams"
+title: "Manage Audio Conferencing settings"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
 ---
 

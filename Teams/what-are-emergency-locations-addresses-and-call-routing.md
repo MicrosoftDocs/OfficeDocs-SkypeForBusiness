@@ -1,5 +1,5 @@
 ---
-title: "Plan emergency calling, emergency addresses, emergency call routing, dynamic emergency calling"
+title: Plan and manage emergency calling
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,6 +22,7 @@ ms.custom:
   - ms.lync.lac.AddressAndLocation
   - Calling Plans
   - Direct Routing
+  - seo-marvel-mar2020
 description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
 ---
 
@@ -50,7 +51,7 @@ You create emergency addresses for Calling Plan users by using the Teams admin c
 
 ## Emergency address validation
 
-To assign an emergency address to a user or to a network identifier, you must ensure that the emergency address is marked as “validated.”  Address validation ensures that the address is legitimate, and that it cannot be modified after it is assigned. 
+To assign an emergency address to a user or to a network identifier, you must ensure that the emergency address is marked as "validated."  Address validation ensures that the address is legitimate, and that it cannot be modified after it is assigned. 
 
 If you define an emergency address by using the address map search feature in the Teams admin center, the address is automatically marked as validated. You cannot modify a validated emergency address. Therefore, if the format or representation of the address changes, you must create a new address with the updated format.
 
@@ -88,7 +89,7 @@ At this time, only Calling Plan users in the United States can leverage dynamic 
 
 - If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.
 
-- If a Teams client for a United States Calling Plan user doesn’t dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
+- If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
 In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
@@ -154,7 +155,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
-(Note: Teams clients prepend the “+” sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911. This behavior will be modified in the coming months so that Teams emergency calls will no longer be sending a "+" preceding the number; that is, 911.)
+(Note: Teams clients prepend the "+" sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911. This behavior will be modified in the coming months so that Teams emergency calls will no longer be sending a "+" preceding the number; that is, 911.)
 
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 

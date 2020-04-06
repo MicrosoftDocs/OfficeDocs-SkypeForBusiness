@@ -1,5 +1,5 @@
 ---
-title: "Add, change, or remove a place for an emergency location in your organization"
+title: "Add, change, remove places for emergency locations"
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,7 +16,8 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: "Learn how to add, change, or remove a place for an emergency location for your organization in the Microsoft Teams admin center. "
+description: "Learn how to add, change, or remove a place for an emergency location for your organization in the Microsoft Teams admin center."
+ms.custom: seo-marvel-mar2020
 ---
 
 # Add, change, or remove a place for an emergency location in your organization
