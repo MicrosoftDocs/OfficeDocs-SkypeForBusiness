@@ -26,7 +26,7 @@ Modern authentication is recommended for all customers using Microsoft Teams Roo
 
 When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business. A Microsoft Teams Rooms device is a shared device and performs a nightly reboot to ensure smooth functioning and to get critical operating system, driver, firmware, or application updates. The modern authentication mechanism uses the [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization grant type in OAuth 2.0, which doesn't require any user intervention. This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by the Microsoft Teams Rooms application. Because of this, Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).
 
-The other key difference between how modern authentication works on Microsoft Teams Rooms devices and end-user devices is that you can't use a resource account to apply device-level conditional access policies such as "Require device to be marked as complaint", or "Require Hybrid Azure AD joined device", and so on. This is because device-level concepts don't apply to modern authentication. Instead, you can enroll a device in Microsoft Intune and apply compliance policies by using the guidance [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess) for device management.
+The other key difference between how modern authentication works on Microsoft Teams Rooms devices and end-user devices is that you can't use a resource account to apply device-level conditional access policies such as "Require device to be marked as complaint", or "Require Hybrid Azure AD joined device", and so on. This is because device-level concepts don't apply to modern authentication when used at the application level. Instead, you can enroll a device in Microsoft Intune and apply compliance policies by using the guidance [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).
 
 ## Enable modern authentication on a Microsoft Teams Rooms device
 
@@ -57,8 +57,6 @@ Before you begin, make sure you understand the identity models to use with Offic
 
 ### Enable modern authentication in Office 365
 
-Before you turn on modern authentication for a Microsoft Teams Rooms client, make sure that modern authentication is turned on for your Office 365 services.
-
 To turn on modern authentication for Exchange Online, see [Enable modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). If you use Skype for Business Online, you should also make sure that modern authentication is turned on for Skype for Business Online. To learn more, see [Skype for Business Online: Enable your tenant for modern authentication](https://aka.ms/SkypeModernAuth).
 
 We recommended that you do not remove basic authentication policies for Exchange Online or disable basic authentication for your tenant before you have validated that Microsoft Teams Rooms devices can sign in to Exchange Online and Teams or Skype for Business Online successfully when the modern authentication setting is on and that there are no devices that are still configured to use basic authentication.
@@ -73,19 +71,17 @@ To ensure successful authentication to your on-premise Exchange server and/or Sk
 - [What is passthrough authentication?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
 - [What is federation?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
 
-### Prerequisites
+### Prerequisites specific to Microsoft Teams Rooms
 
 The prerequisites to enable modern authentication in your hybrid topology are covered in [Hybrid modern authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview). All the prerequisites discussed in the article apply.
-However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, there are important differences in to be aware of that are specific to Microsoft Team Rooms.
 
-### Prerequisites specific to Microsoft Teams Rooms
+However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, the following are important differences be aware of that are specific to Microsoft Team Rooms.
 
 - You must have Exchange server 2016 CU8 and later or Exchange Server 2019 CU1 and later.
 - You must have Skype for Business Server 2015 CU5 and later or Skype for Business Server 2019 and later.
-- Microsoft Teams Rooms uses Exchange Rest APIs for Autodiscover with modern authentication. Exchange Web Services is still used if modern authentication isn't used or supported.
 - MFA isn't supported regardless of the topology you have.
 - If you use a third-party authentication provider that's supported by Azure AD, it must support OAuth and use  resource owner password credentials authorization.
-- Do not use conditional access policies for a resource account that's used to apply device-level policies. Using conditional access policies will result in sign-in failures because resource account is not a device-level concept in Microsoft Teams Rooms. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess) for device management.
+- Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).
 
 ### Configure Exchange Server
 
@@ -103,4 +99,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location.)
 
-No other conditional access policies are supported. For more information about device compliance, see the guidance  [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess) for device management.  
+No other conditional access policies are supported. For more information about device compliance, see the guidance  [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).  
