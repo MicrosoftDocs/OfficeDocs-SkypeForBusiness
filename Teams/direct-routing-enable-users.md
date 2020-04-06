@@ -75,7 +75,7 @@ To add the phone number and enable for voicemail:
 	For example, to add a phone number for user "Spencer Low," enter the following: 
 
 	```PowerShell
-	Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+	Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 	```
 
 	The phone number used has to be configured as a full E.164 phone number with country code. 
