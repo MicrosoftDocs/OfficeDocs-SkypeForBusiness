@@ -22,6 +22,8 @@ Account management for Microsoft Teams Rooms devices is handled at the applicati
 
 Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
 
+Modern authentication is supported on Microsoft Teams Rooms version 4.4.25.0 and later.
+
 ## Modern authentication
 
 When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business. A Microsoft Teams Rooms device is a shared device and performs a nightly reboot to ensure smooth functioning and to get critical operating system, driver, firmware, or application updates. The modern authentication mechanism uses the [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization grant type in OAuth 2.0, which doesn't require any user intervention. This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by the Microsoft Teams Rooms application. Because of this, Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).
@@ -32,7 +34,8 @@ The other key difference between how modern authentication works on Microsoft Te
 
 For Microsoft Teams Rooms to use modern authentication with Skype for Business and Exchange, enable the client-side setting for modern authentication on the Microsoft Teams Rooms device. You can do this in the device settings or in the XML config file.
 
-Before you enable the client-side setting for modern authentication, make sure that your environment is set up correctly to use modern authentication.
+> [!NOTE]
+> Before you enable the client-side setting for modern authentication, make sure that your environment is set up correctly to use modern authentication.
 
 ### Using device settings
 
