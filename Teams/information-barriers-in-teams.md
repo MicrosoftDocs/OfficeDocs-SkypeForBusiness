@@ -40,6 +40,10 @@ However, since introducing information barriers, many other areas have found the
 - Government: Information access and control is limited across departments and groups.
 - Professional services: A group of people in a company is only able to chat with a client or specific customer via federation or guest access during a customer engagement.
 
+For example, Enrico belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Enrico and Pradeep can't communicate with each other because the organization's IB policy blocks communication and collaboration between these two segments. However, Enrico and Pradeep can communicate with Lee in HR.
+
+![Example showing information barriers preventing communication between segments](media/information-barriers-one-one-chat.png)
+
 ## When to use information barriers
 
 You might want to use information barriers in situations like these:
@@ -67,7 +71,11 @@ Information barrier policies are activated when the following Teams events take 
 - **Members are added to a team** - Whenever you add a user to a team, the user's policy must be evaluated against the information barrier policies of other team members. After the user is successfully added, the user can perform all functions in the team without further checks. If the user's policy blocks them from being added to the team, the user will not show up in search.
 - **A new chat is requested** - Each time a new chat is requested between two or more users, the chat is evaluated to make sure that it isn't violating any information barrier policies. If the conversation violates an information barrier policy, then the conversation isn't initiated.
 
+    Here's an example of a 1:1 chat.
+
      ![Screenshot showing blocked communication in 1:1 chat](media/information-barriers-one-one-chat.png)
+
+    Here's an example of a group chat.
 
     ![Screenshot showing group chat](media/information-barriers-group-chat.png)
 
