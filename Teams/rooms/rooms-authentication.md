@@ -18,7 +18,7 @@ description: "Learn how to enable modern authentication for Microsoft Teams Room
 
 # Authentication in Microsoft Teams
 
-Account management for Microsoft Teams Rooms devices is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences. The device is kept account agnostic to enable always-on capabilities to allow calling scenarios (for devices configured with a Calling Plan) and custom lockdown mechanisms implemented on these devices. This means that authentication for these devices happen in a different way than for end-user devices.  
+Account management for Microsoft Teams Rooms devices is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences. The device is kept account agnostic to allow for always-on capabilities, calling scenarios (for devices configured with a Calling Plan), and custom lockdown mechanisms implemented on these devices. This means that authentication for these devices happen in a different way than for end-user devices.  
 
 Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
 
