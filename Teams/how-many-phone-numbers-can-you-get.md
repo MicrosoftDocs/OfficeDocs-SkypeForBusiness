@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
-description: "When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click Different kinds of phone numbers used for Calling Plans to find out about the different phone numbers that are used in Microsoft Teams."
+  - seo-marvel-mar2020
+description: Learn about how many phone numbers you can get in Microsoft Teams based on the type of number and how many licenses you have.
 ---
 
 # How many phone numbers can you get?

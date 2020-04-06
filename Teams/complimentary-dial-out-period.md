@@ -21,7 +21,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
-description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online and Microsoft Teams PSTN Services Use Terms and Customer's volume licensing agreement."
+  - seo-marvel-mar2020
+description: Learn about the complimentary dial out period for Office 365 Calling Plan and Office 365 Audio Conferencing in Microsoft Teams.
 ---
 
 # Audio Conferencing complimentary dial-out period
@@ -52,9 +53,9 @@ Users with a license usage location (this is the user country location defined i
 - All outbound calls to destinations not in the Zone A country list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
 > [!NOTE]
-> You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as “Outbound Calls to Zone A countries and regions.”
+> You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as "Outbound Calls to Zone A countries and regions."
 
-Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant’s dial-out minutes pool has reached 80% and 100%.
+Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant's dial-out minutes pool has reached 80% and 100%.
 
 For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the Zone A country and region list), the calls and their associated rates are based primarily on the destination of the call and not the country or region of the organizer or the participant initiating the dial-out call. For example, a call to a phone number in France will be billed with the same rate if it its initiated by a meeting participant in the United States or one in France.
 
