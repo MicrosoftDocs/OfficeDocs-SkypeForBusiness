@@ -77,6 +77,12 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) or [Office 365 Security & Compliance Center](https://protection.microsoft.com) to manage these settings.
 
+### Information Barriers
+
+Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level.
+
+For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
+
 ### Communication compliance
 
 Communication compliance in Microsoft 365 allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
