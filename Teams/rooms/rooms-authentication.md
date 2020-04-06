@@ -80,8 +80,8 @@ The prerequisites to enable modern authentication in your hybrid topology are co
 
 However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, the following are important differences be aware of that are specific to Microsoft Team Rooms.
 
-- You must have Exchange server 2016 CU8 and later or Exchange Server 2019 CU1 and later.
-- You must have Skype for Business Server 2015 CU5 and later or Skype for Business Server 2019 and later.
+- You must have Exchange server 2016 CU8 or later, or Exchange Server 2019 CU1 or later.
+- You must have Skype for Business Server 2015 CU5 or later, or Skype for Business Server 2019 or later.
 - MFA isn't supported regardless of the topology you have.
 - If you use a third-party authentication provider that's supported by Azure AD, it must support OAuth and use  resource owner password credentials authorization.
 - Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).
