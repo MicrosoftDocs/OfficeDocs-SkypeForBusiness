@@ -1,5 +1,5 @@
 ---
-title: "Start an Audio Conference over the phone without a PIN in Microsoft Teams"
+title: Start Audio Conference over the phone without a PIN in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn how to enable or disable anonymous callers from joining a meeting from the Teams admin center. "
 ---
 
