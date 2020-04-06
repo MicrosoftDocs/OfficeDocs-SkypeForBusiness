@@ -13,7 +13,8 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about Content Search in Microsoft Teams and how to search against channel conversations from Exchange, file uploads and modifications from SharePoint, and OneNote changes.
+ms.custom: seo-marvel-mar2020
+description: Learn about using Content Search in Microsoft Teams to query Microsoft Teams information from Exchange, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 
   - Microsoft Teams
 ---
@@ -30,7 +31,7 @@ To learn more, read [Content Search in Office 365](https://support.office.com/ar
 
 For example, using **Content Search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.
 
-You can also add query criteria to the **Content Search** to narrow the results returned. In the above example, you can look for content where the keywords “**New Factory Specs”** were used.
+You can also add query criteria to the **Content Search** to narrow the results returned. In the above example, you can look for content where the keywords "**New Factory Specs"** were used.
 
 > [!TIP]
 > After adding search conditions, you can export a report or the data to your computer for analysis.
@@ -64,7 +65,7 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

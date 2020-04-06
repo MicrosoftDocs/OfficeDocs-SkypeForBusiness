@@ -13,10 +13,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection: 
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
+ms.custom: seo-marvel-mar2020
 ---
 # Admin training for Microsoft Teams
 

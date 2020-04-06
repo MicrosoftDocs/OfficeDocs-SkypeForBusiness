@@ -1,5 +1,5 @@
 ---
-title: "Calling plans in Office 365 - Complaint handling code for the United Kingdom (U.K.)"
+title: "Complaint handling code for U.K. - Office 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,8 +20,9 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
+  - seo-marvel-mar2020
 hideEdit: true
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+description: Make a complaint for Skype for business calling services (PSTN Calling in the UK), timelines for replies, and resolving disputes for unresolved complaints.
 ---
 
 # Calling plans in Office 365 - Complaint handling code for the United Kingdom (U.K.)

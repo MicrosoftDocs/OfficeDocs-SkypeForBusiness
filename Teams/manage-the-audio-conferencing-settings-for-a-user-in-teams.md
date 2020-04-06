@@ -1,5 +1,5 @@
 ---
-title: "Manage the Audio Conferencing settings for a user in Microsoft Teams"
+title: "Manage Audio Conferencing settings for users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "As an Office 365 admin, you can edit the Microsoft Teams Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. "
+  - seo-marvel-mar2020
+description: An Office 365 admin can edit the Teams Audio Conferencing settings, including provider, default toll or toll-free number, conference ID, or PIN for a user.
 ---
 
 # Manage the Audio Conferencing settings for a user in Microsoft Teams
