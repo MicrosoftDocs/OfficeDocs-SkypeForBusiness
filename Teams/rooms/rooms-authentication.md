@@ -20,7 +20,7 @@ description: "Learn how to enable modern authentication for Microsoft Teams Room
 
 Account management for Microsoft Teams Rooms devices is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences. The device is kept account agnostic to enable always-on capabilities to allow calling scenarios (for devices configured with a Calling Plan) and custom lockdown mechanisms implemented on these devices. This means that authentication for these devices happen in a different way than for end-user devices.  
 
-Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [Hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
+Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
 
 ## Modern authentication
 
@@ -28,7 +28,7 @@ When you use modern authentication with the Microsoft Teams Rooms application, i
 
 The other key difference between how modern authentication works on Microsoft Teams Rooms devices and end-user devices is that you can't use a resource account to apply device-level conditional access policies such as "Require device to be marked as complaint", or "Require Hybrid Azure AD joined device", and so on. This is because device-level concepts don't apply to modern authentication. Instead, you can enroll a device in Microsoft Intune and apply compliance policies by using the guidance [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess) for device management.
 
-## Enable modern authentication from Microsoft Teams Rooms
+## Enable modern authentication on the Microsoft Teams Rooms device
 
 For Microsoft Teams Rooms to use modern authentication with Skype for Business and Exchange, enable the client-side setting for modern authentication on the Microsoft Teams Rooms device. You can do this in the device settings or in the XML config file.
 
@@ -97,7 +97,7 @@ To enable hybrid modern authentication with Skype for Business Server, see [How 
 
 ### Remove or disable Skype for Business and Exchange
 
-If your setup doesn't allow for Hybrid modern authentication or you need to remove or disable Hybrid modern authentication for Exchange or Skype for Business, see [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
+If your setup doesn't allow for hybrid modern authentication or you need to remove or disable hybrid modern authentication for Exchange or Skype for Business, see [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
 
 ### Azure AD conditional access
 
