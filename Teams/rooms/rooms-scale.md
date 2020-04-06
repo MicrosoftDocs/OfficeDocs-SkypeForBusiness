@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms by using Microsoft Endpoint Configuration Manager"
+title: Deploy Microsoft Teams Rooms using Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom: 
+ - Strat_SB_Admin
+ - seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: 
   - M365-collaboration
@@ -29,7 +31,7 @@ Use the approach illustrated below to guide you through your Configuration Manag
 ![Microsoft Teams Rooms deployment process using Configuration Manager](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
-> This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
+> This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer's guidelines for configurations that aren't based on Surface Pro.
 
 ## Validate prerequisites
 
@@ -41,11 +43,11 @@ To deploy Microsoft Teams Rooms with Configuration Manager, ensure that you meet
 
 -   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) that you can use with different versions of Configuration Manager, and ensure that your deployment includes the correct version.
 
--   The site system servers must have been assigned the distribution point role, and the boot images should be enabled for [preboot execution environment (PXE) support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) to enable network-initiated deployments. If PXE support isn’t enabled, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments.
+-   The site system servers must have been assigned the distribution point role, and the boot images should be enabled for [preboot execution environment (PXE) support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) to enable network-initiated deployments. If PXE support isn't enabled, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments.
 
 -   A network access account must be configured to support new computer (bare metal) deployment scenarios. To learn more about the configuration of a network access account, see [Accounts used in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   We recommend that you enable [multicast support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you’re likely to deploy the same Microsoft Teams Rooms image to multiple units at the same time.
+-   We recommend that you enable [multicast support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you're likely to deploy the same Microsoft Teams Rooms image to multiple units at the same time.
 
 ### Networking requirements
 
@@ -54,14 +56,14 @@ To deploy Microsoft Teams Rooms with Configuration Manager, ensure that you meet
     > [!NOTE]
     > DHCP lease duration must be set to a value longer than the image deployment duration. Otherwise, the deployment might fail.
 
--   Your network, including switches and virtual LANs (VLANs), should be configured to support PXE. Refer to your network vendor for more information about IP Helper and PXE configuration. Alternatively, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments, if PXE support isn’t enabled.
+-   Your network, including switches and virtual LANs (VLANs), should be configured to support PXE. Refer to your network vendor for more information about IP Helper and PXE configuration. Alternatively, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments, if PXE support isn't enabled.
 
     > [!NOTE]
-    > For Surface Pro devices, booting from the network (PXE boot) is only supported when you use an Ethernet adapter or docking station from Microsoft. Third-party Ethernet adapters don’t support PXE boot with Surface Pro. See [Ethernet adapters and Surface deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) for more information.
+    > For Surface Pro devices, booting from the network (PXE boot) is only supported when you use an Ethernet adapter or docking station from Microsoft. Third-party Ethernet adapters don't support PXE boot with Surface Pro. See [Ethernet adapters and Surface deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) for more information.
 
 ## Configure Microsoft Endpoint Configuration Manager for operating system deployment
 
-This article assumes you already have a healthy Configuration Manager deployment, and doesn’t detail all the steps required to deploy and configure Configuration Manager from scratch. The [documentation and the configuration guidance](https://docs.microsoft.com/configmgr/) on the Microsoft Endpoint Configuration Manager is a great resource; we recommend you start with these resources if you haven’t yet deployed Configuration Manager.
+This article assumes you already have a healthy Configuration Manager deployment, and doesn't detail all the steps required to deploy and configure Configuration Manager from scratch. The [documentation and the configuration guidance](https://docs.microsoft.com/configmgr/) on the Microsoft Endpoint Configuration Manager is a great resource; we recommend you start with these resources if you haven't yet deployed Configuration Manager.
 
 Use the following instructions to verify that the operating system deployment (OSD) features are configured properly.
 
@@ -69,7 +71,7 @@ Use the following instructions to verify that the operating system deployment (O
 
 1.  In the Configuration Manager console, go to **Administration** \> **Updates and Servicing**.
 
-2.  Check the installed build and applicable updates that haven’t been installed yet.
+2.  Check the installed build and applicable updates that haven't been installed yet.
 
 3.  Review [Support for Windows 10 in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); if you need to upgrade your deployment, select the update you want to install, and then select **Download**.
 
@@ -88,7 +90,7 @@ Use the following instructions to verify that the operating system deployment (O
 
 4.  *Optional:* To enable multicast support, select the **Multicast** tab, and ensure that the following settings are enabled:
     -   Enable multicast to simultaneously send data to multiple clients
-    -   Configure the UDP port range as per your network team’s recommendation
+    -   Configure the UDP port range as per your network team's recommendation
 
 ### Configure the Network Access Account
 
@@ -99,7 +101,7 @@ Use the following instructions to verify that the operating system deployment (O
 3.  Select the **Network Access Account** tab. Set up one or more accounts, and then select **OK**.
 
 > [!NOTE]
-> The accounts don’t need any special rights, except for the **Access this computer from the network** right on the distribution point server. A generic domain user account will be appropriate. For more information, see [Accounts used in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> The accounts don't need any special rights, except for the **Access this computer from the network** right on the distribution point server. A generic domain user account will be appropriate. For more information, see [Accounts used in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### Configure a boot image
 
@@ -153,9 +155,9 @@ For more information, see [Packages and programs in Configuration Manager](https
 
 ### Create folders for the package source files
 
-Configuration Manager requires package source files to be organized in a specific folder structure when they’re first created and when they’re updated.
+Configuration Manager requires package source files to be organized in a specific folder structure when they're first created and when they're updated.
 
-Create the following folder structure on the Microsoft Endpoint Configuration Manager central administration site or primary site, or on a server share you’re using to host package source files:
+Create the following folder structure on the Microsoft Endpoint Configuration Manager central administration site or primary site, or on a server share you're using to host package source files:
 
 -   SRS v2 - Microsoft Monitoring Agent Package
 -   SRS v2 - OS Updates Package
@@ -235,7 +237,7 @@ Create the following folder structure on the Microsoft Endpoint Configuration Ma
 
 ### Create the root certificate package (optional)
 
-You create this package to distribute the root certificate for devices that won’t be joined to an Active Directory domain. Create this package only if both the following conditions apply:
+You create this package to distribute the root certificate for devices that won't be joined to an Active Directory domain. Create this package only if both the following conditions apply:
 -   Your deployment includes on-premises Lync or Skype for Business Server.
 -   Microsoft Teams Rooms units are configured to work in a workgroup instead of
     a domain member.
@@ -246,7 +248,7 @@ You create this package to distribute the root certificate for devices that won�
 
 3.  Enter the following information to create the package:
     -   Name: **SRS v2 – Root Certificate Package**
-    -   Manufacturer: *Your organization’s name*
+    -   Manufacturer: *Your organization's name*
     -   Version: **1.0.0**
     -   Select the **This package contains source files** check box, enter the path to the **SRS v2 – Root Certificate Package** folder, and then select **Next**.
 
@@ -301,62 +303,62 @@ You create this package to distribute the root certificate for devices that won�
       />
     <style type="text/css">
     body {
-    	background-color: #fdfeff;
-    	color: darkblue;
-    	font-family: Calibri;
-    	font-size: 12pt;
-    	margin: 4em 3em;
+        background-color: #fdfeff;
+        color: darkblue;
+        font-family: Calibri;
+        font-size: 12pt;
+        margin: 4em 3em;
     }
     </style>
     </head>
     <script language="VBScript">
     Public strNewComputerName
     Sub GenerateComputerName()
-    	strComputer = "."
-    	Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
-    	Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
-    	For Each objItem in colItems
-    		strSerialNumber = objItem.SerialNumber
-    	Next
-    	strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
-    	TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
-    	strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
-    	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
-    	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
-    	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-    	TextArea2.innerHTML = strHTMLText
+        strComputer = "."
+        Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+        Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
+        For Each objItem in colItems
+            strSerialNumber = objItem.SerialNumber
+        Next
+        strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
+        TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
+        strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
+        strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
+        strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
+        strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
+        TextArea2.innerHTML = strHTMLText
     End Sub
 
     Sub SetComputerName()
-    	dim result
-    	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-    	If (result = vbYes) then
-    		SET env = CreateObject("Microsoft.SMS.TSEnvironment")
-    		env("OSDComputerName") = strNewComputerName
-    		self.close
-    	elseif (result = vbNo) then
-    		Window_OnLoad
-    	End If
+        dim result
+        result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
+            env("OSDComputerName") = strNewComputerName
+            self.close
+        elseif (result = vbNo) then
+            Window_OnLoad
+        End If
     End Sub
 
     Sub UpdateComputerName()
-    	strNewComputerName = newcomputername.value
-    	if len(trim(strNewComputerName)) = 0 then
-    		MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
-    		exit sub
-    	end if
-    	SetComputerName
+        strNewComputerName = newcomputername.value
+        if len(trim(strNewComputerName)) = 0 then
+            MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
+            exit sub
+        end if
+        SetComputerName
     End Sub
 
     Sub ChangeComputerName()
-    	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
-    	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
+        TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
+        TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
 
     Sub Window_OnLoad
-    	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
-    	oTSProgressUI.CloseProgressDialog
-    	GenerateComputerName
+        Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
+        oTSProgressUI.CloseProgressDialog
+        GenerateComputerName
     End Sub
     </script>
 
@@ -608,7 +610,7 @@ You can download and easily import a sample task sequence and customize it to me
 
    3. **Set SRS Computer Name**: This step includes an HTML application to provide a UI to set a computer name for the Microsoft Teams Rooms unit during the deployment.
       -  This is an optional step, but it can only be disabled if you want to manage computer naming through an alternate process.
-      -  Verify that the **SRS v2 - Set-SRSComputerName** package is selected. If it isn’t, browse to the package and select it.
+      -  Verify that the **SRS v2 - Set-SRSComputerName** package is selected. If it isn't, browse to the package and select it.
 
    4. **Apply Operating System**: This step specifies the operating system image to be deployed and the unattended Sysprep answer file to use.
       -  Verify that the correct Windows 10 Enterprise operating system image file is selected.
@@ -631,7 +633,7 @@ You can download and easily import a sample task sequence and customize it to me
       -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** and **Disable 64-bit file system redirection** are selected.
 
    10. **Install and Configure Monitoring Agent**: This step installs the 64-bit version of the Microsoft Azure Monitor agent and configures the agent to connect to your Log Analytics workspace.
-       -   This step is disabled by default. Enable this step only if you’re going to use the Monitoring Agent to monitor the health of your Microsoft Teams Rooms units.
+       -   This step is disabled by default. Enable this step only if you're going to use the Monitoring Agent to monitor the health of your Microsoft Teams Rooms units.
        -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
        -   See [Configure test devices for Azure Monitoring](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
        -   Verify that the **SRS v2 – Microsoft Monitoring Agent Package** and **Disable 64-bit file system redirection** are selected.
@@ -652,7 +654,7 @@ You can download and easily import a sample task sequence and customize it to me
 
    15. **Restart Computer**: This step reboots the computer after the Windows features are configured. No customization is required for this step.
 
-   16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Microsoft Teams Rooms application. This step doesn’t have any software package associated with it, and no customization is required for it.
+   16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Microsoft Teams Rooms application. This step doesn't have any software package associated with it, and no customization is required for it.
 
    17. **Set up and configure SRS application**: This step configures the Microsoft Teams Rooms application installation for the next boot of the operating system.
        -   Verify that the **SRS v2 – Configure SRS Setup Package** and **Disable 64-bit file system redirection** are selected.
@@ -698,9 +700,9 @@ You can download and easily import a sample task sequence and customize it to me
 Validate and troubleshoot the solution
 --------------------------------------
 
-After you’ve completed the Microsoft Endpoint Configuration Manager task sequences, you’ll need to perform a test run to validate that the task sequence can deploy and configure Microsoft Teams Rooms units.
+After you've completed the Microsoft Endpoint Configuration Manager task sequences, you'll need to perform a test run to validate that the task sequence can deploy and configure Microsoft Teams Rooms units.
 
-1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn’t been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
+1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn't been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
 
 2.  Access the firmware and initiate PXE boot:
 
@@ -716,7 +718,7 @@ After you’ve completed the Microsoft Endpoint Configuration Manager task seque
 
     6.  Do one of the following:
 
-        -   Select **PXE boot**, and drag it to the top of the list. Alternatively, you can swipe left on the network adapter to boot to the device immediately. This won’t affect the boot order.
+        -   Select **PXE boot**, and drag it to the top of the list. Alternatively, you can swipe left on the network adapter to boot to the device immediately. This won't affect the boot order.
         -   Select the USB flash drive that holds the boot media.
 
 3.  Select **Exit**, and then select **Restart Now**.
@@ -727,11 +729,11 @@ After you’ve completed the Microsoft Endpoint Configuration Manager task seque
 
 6.  Select the task sequence that you imported earlier, and then select **Next**.
 
-7.  After the disk configuration is applied, you’ll be prompted to specify a computer name for the device. The user interface will display a recommended computer name based on the serial number of the Surface Pro device. You can either accept the proposed name or specify a new one. Follow the instructions on the computer name assignment screen. When you select **Accept**, the deployment begins.
+7.  After the disk configuration is applied, you'll be prompted to specify a computer name for the device. The user interface will display a recommended computer name based on the serial number of the Surface Pro device. You can either accept the proposed name or specify a new one. Follow the instructions on the computer name assignment screen. When you select **Accept**, the deployment begins.
 
-8.  The rest of the deployment process is automatic and doesn’t ask for any more user input.
+8.  The rest of the deployment process is automatic and doesn't ask for any more user input.
 
-9.  After the deployment task sequence finishes configuring the device, you’ll see the following configuration screen that asks you to configure the Microsoft Teams Rooms application settings.
+9.  After the deployment task sequence finishes configuring the device, you'll see the following configuration screen that asks you to configure the Microsoft Teams Rooms application settings.
 
     ![Initial setup screen for Microsoft Teams Rooms application](../media/room-systems-scale-image2.png)
 

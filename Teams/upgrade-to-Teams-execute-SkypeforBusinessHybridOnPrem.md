@@ -1,5 +1,5 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
+title: Upgrade Skype for Business on-premises to Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,12 +8,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Considerations for upgrading to Teams from a Skype for Business on-premises deployment.  
+description: Deploying and implementing your upgrade to Teams from a Skype for Business Server or Microsoft Lync on-premises deployment.  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+ - Teams-upgrade-guidance
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

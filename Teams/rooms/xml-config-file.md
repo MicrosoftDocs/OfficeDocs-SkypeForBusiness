@@ -1,5 +1,5 @@
 ---
-title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
+title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,7 +13,10 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
-description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
+ms.custom:
+  - seo-marvel-mar2020
+description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Upgrade, Islands Mode, Interop Policy,  Only 
+title: Interoperability between Skype for business and Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,12 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Understand Microsoft Teams and Skype for Business coexistence and interoperability

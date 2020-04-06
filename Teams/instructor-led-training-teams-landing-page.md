@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Instructor-led training and videos for Microsoft Teams users
+title: Instructor-led training and videos for users
 ms.reviewer: dearbeen
 manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
@@ -12,7 +12,9 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ms.custom: 
+ - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
