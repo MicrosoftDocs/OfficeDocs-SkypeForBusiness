@@ -69,6 +69,9 @@ The IB Compliance Management role is responsible for managing information barrie
 Information barrier policies are activated when the following Teams events take place:
 
 - **Members are added to a team** - Whenever you add a user to a team, the user's policy must be evaluated against the information barrier policies of other team members. After the user is successfully added, the user can perform all functions in the team without further checks. If the user's policy blocks them from being added to the team, the user will not show up in search.
+
+    ![Screenshot showing group chat](media/information-barriers-add-members.png)
+
 - **A new chat is requested** - Each time a new chat is requested between two or more users, the chat is evaluated to make sure that it isn't violating any information barrier policies. If the conversation violates an information barrier policy, then the conversation isn't initiated.
 
     Here's an example of a 1:1 chat.
