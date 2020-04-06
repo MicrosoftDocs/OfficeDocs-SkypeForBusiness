@@ -8,6 +8,8 @@ ms.service: msteams
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+ms.custom:
+  - seo-marvel-apr2020
 ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
@@ -98,7 +100,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Note Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. Reference https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |8/2/17  <br/> |
+|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN): Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Note: Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. You can see [Sign in to Microsoft Teams using modern authentication](https://docs.microsoft.com/microsoftteams/sign-in-teams) for reference. <br/> |8/2/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -220,7 +222,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent Strings for MS Teams within the EWSAllowList: `SkypeSpaces/*` and `MicrosoftNinja/*`, including asterisks. The following command can be used: `Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent Strings for MS Teams within the EWSAllowList: `SkypeSpaces/*` and `MicrosoftNinja/*`, including asterisks. The following command can be used: `Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> For more information, see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps). <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

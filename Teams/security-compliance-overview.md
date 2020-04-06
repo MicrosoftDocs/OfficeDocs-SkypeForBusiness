@@ -17,7 +17,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -89,7 +89,7 @@ Retention policies in Microsoft Teams allows you to both retain data that's impo
 
 Data Loss Prevention (DLP) in Microsoft Teams, as well as the larger DLP story for O365, revolves around business readiness when it comes to protecting sensitive documents and data in O365. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
 
-For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams). A good article for O36 DLP concerns is [https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).
+For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams). The [DLP overview documentation](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) topic is a good resource for O365 DLP concerns.
 
 ### eDiscovery
 
