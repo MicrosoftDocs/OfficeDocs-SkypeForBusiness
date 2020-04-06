@@ -16,7 +16,7 @@ ms.collection:
 description: "Learn how configure modern authentication for Microsoft Teams Rooms"
 ---
 
-# Authentication in Microsoft Teams
+# Authentication in Microsoft Teams Rooms
 
 Account management for Microsoft Teams Rooms devices is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences. The device is kept account agnostic to allow for always-on capabilities, calling scenarios (for devices configured with a Calling Plan), and custom lockdown mechanisms implemented on these devices. This means that authentication for these devices happen in a different way than for end-user devices.  
 
