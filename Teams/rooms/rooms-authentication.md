@@ -55,9 +55,9 @@ To apply the setting, see [Manage a Microsoft Teams Rooms console settings remot
 
 Before you begin, make sure you understand the identity models to use with Office 365 and Azure AD. You can find more information at [Office 365 identity models and Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) and at [Hybrid identity and directory synchronization for Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### Enable modern authentication from Office 365
+### Enable modern authentication in Office 365
 
-Before you turn on modern authentication from a Microsoft Teams Rooms client, make sure that modern authentication is turned on for your Office 365 services.
+Before you turn on modern authentication for a Microsoft Teams Rooms client, make sure that modern authentication is turned on for your Office 365 services.
 
 To turn on modern authentication for Exchange Online, see [Enable modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). If you use Skype for Business Online, you should also make sure that modern authentication is turned on for Skype for Business Online. To learn more, see [Skype for Business Online: Enable your tenant for modern authentication](https://aka.ms/SkypeModernAuth).
 
