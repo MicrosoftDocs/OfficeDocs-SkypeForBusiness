@@ -1,5 +1,5 @@
 ---
-title: Best practices for organizing teams in Microsoft Teams
+title: Best practices for organizing teams
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Best practices for organizing teams in Microsoft Teams
@@ -35,7 +36,7 @@ When you first roll out Teams, we recommend starting with a small number of team
 
 ## Create channels to focus discussions
 
-Once you've created your team, it’s a good idea to start to think about the different projects and types of conversations you need to support. Create initial channels so people know where to contribute and to find existing conversations. Use descriptive channel names, to make it easy for people to know where to go for each conversation. Add tools (such as OneNote, Power BI, or Planner) as tabs to a channel so members have everything they need, right in the channel. You can also add a commonly used web page as a tab to a channel. 
+Once you've created your team, it's a good idea to start to think about the different projects and types of conversations you need to support. Create initial channels so people know where to contribute and to find existing conversations. Use descriptive channel names, to make it easy for people to know where to go for each conversation. Add tools (such as OneNote, Power BI, or Planner) as tabs to a channel so members have everything they need, right in the channel. You can also add a commonly used web page as a tab to a channel. 
 
 Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
 

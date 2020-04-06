@@ -1,5 +1,5 @@
 ---
-title: Enhance existing Office 365 groups with Microsoft Teams
+title: Enhance existing Office 365 groups
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Enhance existing Office 365 groups with Microsoft Teams
@@ -39,7 +40,7 @@ You can also add mail-enabled security groups as members of a team. But, if you 
 
 There are two types of privacy settings with Office 365 groups, **public and private**. Whereas both group types can be enabled for Teams, there is a slight difference when it comes to self-service.
 
--   Users can search for public groups and can join by themselves without a need for team owner’s approval.
+-   Users can search for public groups and can join by themselves without a need for team owner's approval.
 
 -   Private groups are not searchable, and users cannot join unless a team owner add them as a member.
 
