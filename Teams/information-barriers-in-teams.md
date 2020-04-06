@@ -99,11 +99,11 @@ If there is an existing chat or other communication between users, and a new pol
 
 In this example, Enrico moved to a different department within the organization and is removed from the group chat.
 
-    ![Screenshot showing group chat](media/information-barriers-user-changes-job.png)
+  ![Screenshot showing group chat](media/information-barriers-user-changes-job.png)
 
 Enrico can no longer send messages to the group chat.
 
-    ![Screenshot showing group chat](media/information-barriers-user-changes-job-2.png)
+  ![Screenshot showing group chat](media/information-barriers-user-changes-job-2.png)
 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
 
