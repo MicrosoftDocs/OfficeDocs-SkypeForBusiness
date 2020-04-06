@@ -1,5 +1,5 @@
 ---
-title: "Set the PIN length for Audio Conferencing meetings in Microsoft Teams"
+title: Set the PIN length for Audio Conferencing meetings
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Microsoft Teams."
 ---
 
