@@ -115,7 +115,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## Help your users learn Teams voicemail features
 
-We have information for your users on managing their voicemail settings as well as other calling features in Teams:
+We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
 
 - [Manage your call settings in Teams](https://support.office.com/en-ie/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f): This article explains how to manage all end user Teams calling features. 
 
@@ -133,5 +133,4 @@ We have training information and articles to help your users be successful with 
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Plan for Skype for Business Server and Exchange Server migration](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-
 
