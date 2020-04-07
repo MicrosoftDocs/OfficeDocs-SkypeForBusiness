@@ -64,7 +64,7 @@ Each country or region has different instructions, different types of phone numb
 
 Sometimes (depending on your country or region) you won't be able to get new user (subscriber) or service (toll or toll-free) phone numbers using the Microsoft Teams admin center or you might need _specific_ phone numbers (vanity requests) or _specific_ area codes.
 
-If so, you will need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our Service Desk will take it from there and start processing your request.
+If so, you will need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our service desk will take it from there and start processing your request.
 
 ### Letters of Authorization (LOAs) to transfer/port existing phone numbers from another service provider to Microsoft Teams
 
