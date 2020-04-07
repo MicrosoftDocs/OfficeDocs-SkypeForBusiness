@@ -99,6 +99,4 @@ You can also adjust these settings remotely using an [XML configuration file](xm
 
 [Microsoft Teams Rooms requirements](requirements.md)
 
-> [!NOTE]
-> Certain Microsoft Teams Room devices that have Microsoft Surface Pro based consoles (such as, Logitech Smartdock and Crestron SR) do not yet support content camera. Support for these devices will added later in CY2019. 
->
+

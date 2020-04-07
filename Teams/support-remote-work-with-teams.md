@@ -28,7 +28,7 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
     
-- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
+- Understand how to get your organization started with **[Meetings and live events in Teams](quick-start-meetings-live-events.md)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
