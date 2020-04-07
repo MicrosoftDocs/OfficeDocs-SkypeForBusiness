@@ -22,7 +22,8 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
-description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
+  - seo-marvel-mar2020
+description: Learn about dialing toll-free numbers in Hungary, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing restrictions in Hungary

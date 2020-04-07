@@ -1,9 +1,8 @@
 ---
-title: Upgrade Microsoft Teams free to Office 365 subscription version
+title: Upgrade Microsoft Teams free to Office 365 subscription
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -15,6 +14,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -33,7 +33,7 @@ If your organization is using the free version of Microsoft Teams, you can easil
 
 Teams free is designed for small to medium businesses and has the following features:
 
-- 300 maximum users
+- 500,000 maximum users
 - Unlimited chat messages and search
 - Guest access
 - Integration with apps and services, including the Online versions of Word, Excel, PowerPoint, and OneNote

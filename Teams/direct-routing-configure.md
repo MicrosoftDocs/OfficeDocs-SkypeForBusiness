@@ -35,6 +35,7 @@ Before performing the steps in these articles, Microsoft recommends that you con
 - [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Metaswitch deployment documentation](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 For a complete list of supported SBCs, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 

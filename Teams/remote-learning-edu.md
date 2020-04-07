@@ -22,8 +22,9 @@ appliesto:
 # Get started with Microsoft Teams for remote learning
 
 > [!NOTE]
-> This article is a great resource for getting your school set up for remote learning. If you are an educator or a school leader, these resources may help:
+> This article is a great resource for getting your school set up for remote learning. If you are an educator, school leader, or IT professional, these resources may help:
 >
+> - Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for adoption and change management.
 > - A collection of articles written for educators including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - A 1-hour online course in the Microsoft Educator Center shows how educators use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - A 1-hour online course in the Microsoft Educator Center leads educators through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
@@ -52,6 +53,9 @@ Teams leverages Microsoft 365 capabilities to authenticate users and provide ser
 
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire school started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
+> [!NOTE]
+> Please review [Updated Guidance for M365 EDU Deployment during COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) for our latest information on EDU deployments.
+
 ## Easily set up Teams
 
 These are the two things you need to do to get up and running with Teams:
@@ -69,6 +73,9 @@ Higher education customers benefit when you let everyone, including students, cr
 **Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
 
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
+
+> [!IMPORTANT]
+> For meeting policies assigned to any users, we recommend setting the "Automatically admin people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users are must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Here's a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
@@ -134,6 +141,12 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
+
+### Prevent users from changing their profile photo
+
+Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off, users can't add, change, or remove their profile picture. To prevent students or staff from changing or removing their profile picture, turn off this setting in the Outlook on the web mailbox policy that's assigned to them.
+
+For example, if a student uploads a profile picture that's approved by your school's IT or HR department, no action is needed. However, if a student uploads a picture that's inappropriate, change the picture according to your school's internal policies.  
 
 ## Adoption content
 

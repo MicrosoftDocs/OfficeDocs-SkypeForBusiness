@@ -24,24 +24,29 @@ ms.custom:
 ROBOTS: NOINDEX, NOFOLLOW
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
 ---
+
 # PSTN Service Desk Contact
 
-If you need help with getting or transferring numbers to us but need help please let us know how we can help you in an email and send it to us. In your email Help request, include as many details as you can and include details such as your organization ID (Tenant ID), domains, what types of numbers you need help with, how many numbers you want, the authorizing person on the account and other important details about your issue.
-
-  - Your Organization ID (Tenant ID) or active domains.
-  - What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).
-  - How many numbers you require (if this is for number acquisition).
-  - Authorizing person on the account and other important details based on your request.
-
-Once you have all the information, send us your request to one the following email addresses that is applicable to your request:
-- **Number Porting**
-    - Porting telephone numbers **inside the United States or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).
-    - Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).
+If you need assistance transferring/porting your existing phone numbers or acquiring new phone numbers for Microsoft Teams, please send us an email and include as many details as possible:
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.]((https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)
+  - What types of phone numbers you need assistance with (**User/Subscriber** or **Service/Toll/Toll-Free**).
+  - Other important details based on your request.
+  - If you would like to **acquire new phone numbers** also include how many you require and the Area Code(s)/Country/Region from which you would like new phone numbers from.
+  
+Once you have that information, send us your request to one the following email addresses below based on your request:
+- **Number Transferring/Porting**
+    - Transferring/Porting your existing phone numbers **inside the United States or Canada** to Microsoft Teams, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).
+    - Transferring/Porting your existing phone numbers **outside the United States or Canada** to Microsoft Teams, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).
     
 - **Number Acquisition**
-    - Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
-    - Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
+    - Acquiring new phone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
+    - Acquiring new phone numbers for the **Rest of the World**, [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
 
+## Additional resources
+
+- To see _if_ and which **Calling Plans** are available in your country or region, read: [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- To assist you on choosing the correct type of phone numbers, read: [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- To get assistance setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 ## Related topics
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

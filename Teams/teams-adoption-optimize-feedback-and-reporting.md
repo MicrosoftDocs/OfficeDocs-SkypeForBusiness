@@ -1,5 +1,5 @@
 ---
-title: Optimize feedback and reporting for your Microsoft Teams adoption
+title: Optimize feedback and reporting for Microsoft Teams adoption
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,7 +13,9 @@ search.appverid: MET150
 description: Learn how to obtain user feedback and use service health reporting in your Teams adoption.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -33,7 +35,7 @@ Throughout your experiment phase you will be capturing information about how peo
 - Who is approved to use this tool with me?
 - Is it safe for highly confidential information? 
 - Who do I speak with to learn more about Microsoft Teams?
-- Something’s not working. How do I get help?
+- Something's not working. How do I get help?
 
 ## Invest in your champions
 
