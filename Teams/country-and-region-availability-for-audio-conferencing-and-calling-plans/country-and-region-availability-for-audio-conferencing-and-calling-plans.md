@@ -1,5 +1,5 @@
 ---
-title: "Country and region availability for Audio Conferencing and Calling Plans"
+title: "Country/region availability - Audio Conferencing, Calling Plans"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,7 +24,8 @@ ms.custom:
   - Phone System
   - Calling Plans
   - LIL_Placement
-description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
+  - seo-marvel-mar2020
+description: Learn if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and toll and toll-free phone numbers are available in a country or region.
 ---
 # Country and region availability for Audio Conferencing and Calling Plans
 

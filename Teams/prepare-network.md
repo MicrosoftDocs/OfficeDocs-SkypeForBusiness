@@ -1,5 +1,5 @@
 ---
-title: Prepare your organization's network for Microsoft Teams
+title: Prepare your organization's network for Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Before you roll out Microsoft Teams, evaluate and prepare your network to be sure it's ready for Teams. Information includes network requirements, bandwidth requirements, and network optimization guidance.
+description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -16,6 +16,8 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: 
+  - seo-marvel-mar2020
 ---
 
 # Prepare your organization's network for Microsoft Teams 
@@ -152,5 +154,4 @@ Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 
 [Identity models and authentication in Teams](identify-models-authentication.md)
 
 [How to roll out Teams](How-to-roll-out-teams.md)
-
 

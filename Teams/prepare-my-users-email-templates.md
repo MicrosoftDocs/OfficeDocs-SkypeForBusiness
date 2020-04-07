@@ -1,5 +1,5 @@
 ---
-title: User adoption email templates for Microsoft Teams or Skype for Business rollouts
+title: User notification email templates for online phone system rollout
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 
 # Facilitate user adoption of your new online phone system
 
-A phone can be a user’s lifeline. Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity. Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.
+A phone can be a user's lifeline. Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity. Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.
 
-This article contains customizable email templates to help inform users about their new phone system. Customize and send the appropriate emails to align with your specific voice deployment. We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users. If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”
+This article contains customizable email templates to help inform users about their new phone system. Customize and send the appropriate emails to align with your specific voice deployment. We've used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users. If applicable for your deployment, replace all references to "Teams" with "Skype for Business."
 
 ## Email number 1: Send three weeks before launch
 
@@ -37,10 +38,10 @@ Body of email:
 ```
 Instant messaging and online meetings have become a common way to communicate
 with others, but your phone can still be a lifeline to getting your job done.
-From building rapport when you can’t be there in person to maintaining momentum
-on a project, sometimes it’s easier to just pick up the phone and talk to
+From building rapport when you can't be there in person to maintaining momentum
+on a project, sometimes it's easier to just pick up the phone and talk to
 someone. At the same time, we understand that many of you work remotely, have
-flexible work schedules or travel frequently and can’t be tethered to your
+flexible work schedules or travel frequently and can't be tethered to your
 desk or phone all day.
 
 To better adapt to how you work, we want to ensure you have flexibility in how
@@ -115,7 +116,7 @@ With this new calling system, you'll be able to...
 
 -   Switch devices, allowing you to take your calls with you and limiting disruption.
 
-CALL TO ACTION. If you haven’t already done so:
+CALL TO ACTION. If you haven't already done so:
 
 -   Order your new headset. To ensure the best audio quality, use an
     approved headset. You can view available options and order yours at <INSERT LINK>.
@@ -148,7 +149,7 @@ Welcome to your new phone system. Your Microsoft Teams application
 has been enabled with phone calling capabilities. You should now see a dial pad
 tab on your client, enabling you to make outgoing calls and listen to
 your voicemail. When a call comes in, you'll receive an alert, just like you
-would for an instant message. Just select the alert to answer the call – it’s
+would for an instant message. Just select the alert to answer the call – it's
 that easy!
 
 CALL TO ACTION

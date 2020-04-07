@@ -1,5 +1,5 @@
 ---
-title: Quick start guide - Configuring Calling Plans in Microsoft Teams
+title: Quick start guide - Configuring Calling Plans
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams
