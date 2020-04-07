@@ -9,12 +9,13 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: Learn about admin features in Teams free.
+description: Learn about who can manage users in Teams free, and learn about the differences between the various Teams plans.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -26,7 +27,7 @@ Manage the free version of Microsoft Teams
 
 In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role. The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center. 
 
-To get the full set of Teams features, including enhanced administration, you’ll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an Office 365 subscription plan for your users. 
+To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an Office 365 subscription plan for your users. 
 
 To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
 

@@ -15,7 +15,7 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "The relevant planning considerations for deploying Microsoft Teams Rooms, and how to deploy and manage the system."
 ---
 
-<h2>Microsoft Teams Rooms</h2>
+<h1>Microsoft Teams Rooms</h1>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">

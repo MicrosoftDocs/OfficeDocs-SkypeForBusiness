@@ -18,7 +18,8 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about add-on licenses, features, and how to buy for Office 365 ProPlus."
+  - seo-marvel-apr2020
+description: Learn about add-on licenses, their specific features, and how to buy these licenses for Office 365 ProPlus.
 ---
 
 # Office 365 ProPlus

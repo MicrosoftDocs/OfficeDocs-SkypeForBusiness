@@ -10,8 +10,9 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings.
+description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
 localization_priority: Normal
+ms.custom: seo-marvel-mar2020
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -64,7 +65,7 @@ The following diagram shows the high-level architecture of our partner solutions
 
 ## Deploy Cloud Video Interop
 
-When deploying a Cloud Video Interop solution, it’s important to understand that you are deploying a partner solution. The general steps you should take to deploy Cloud Video Interop are listed in the following diagram.
+When deploying a Cloud Video Interop solution, it's important to understand that you are deploying a partner solution. The general steps you should take to deploy Cloud Video Interop are listed in the following diagram.
 
 ![Diagram describing deploying CVI in your organization](media/deploying-cvi.png)
 
@@ -72,7 +73,7 @@ When deploying a Cloud Video Interop solution, it’s important to understand th
 
 During the plan phase, you should identify the devices that you will not replace with a native Teams device, and find a Cloud Video Interop partner that can support these devices.  
 
-It’s also important to understand that you will need a license for each user who will schedule meetings in which you want a Cloud Video Interop-enabled device to join. Note that exact licensing requirements can be obtained from the Cloud Video Interop partner. Ensure that this is clear before you start your deployment.
+It's also important to understand that you will need a license for each user who will schedule meetings in which you want a Cloud Video Interop-enabled device to join. Note that exact licensing requirements can be obtained from the Cloud Video Interop partner. Ensure that this is clear before you start your deployment.
 
 ### Configure
 
@@ -88,13 +89,13 @@ After a user is enabled for Cloud Video Interop, any meeting scheduled using eit
 
 ### Join
 
-Depending on the partner solution, there are several ways to join a Cloud Video Interop-enabled meeting. Exact meeting join scenarios will be provided by your Cloud Video Interop partner. We’ve listed some examples below:
+Depending on the partner solution, there are several ways to join a Cloud Video Interop-enabled meeting. Exact meeting join scenarios will be provided by your Cloud Video Interop partner. We've listed some examples below:
 
 - IVR (Interactive Voice Response) 
   - You can dial in to the partner's IVR using the tenantkey@domain.
   - When you are in the partner IVR, you will be prompted to enter the VTC conferenceId, which will then connect you to the Teams meeting.
 - Direct dial 
-  - You can directly dial in to the Teams meeting without interacting with the partner’s IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
+  - You can directly dial in to the Teams meeting without interacting with the partner's IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
 - One-touch dial 
   - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
 

@@ -14,7 +14,8 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
+description: Learn the steps necessary to add people outside your organization as guests to a team in Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -34,7 +35,7 @@ A team owner in Microsoft Teams can add and manage guests in their teams via the
 1. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. 
 1. The guest accepts the invitation.
   Guest users who have an email address that belongs to an Azure Active Directory or Office 365 work or school account can accept the invitation directly. 
-  If the guest doesn’t yet have a Microsoft account associated with their email address, they'll be directed to create one for free. 
+  If the guest doesn't yet have a Microsoft account associated with their email address, they'll be directed to create one for free. 
 1. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
 
 In Teams, guests are clearly identified. A guest user's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).

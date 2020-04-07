@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Complete the checklist to begin your Microsoft Teams adoption. 
+description: Use this quick-start checklist to ensure success as your organization starts to adopt Microsoft Teams. 
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
