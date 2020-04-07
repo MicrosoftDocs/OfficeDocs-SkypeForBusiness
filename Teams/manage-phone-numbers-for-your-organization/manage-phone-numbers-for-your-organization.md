@@ -29,7 +29,7 @@ description: Learn how to get and manage phone numbers for Microsoft Teams for y
 
 # Manage phone numbers for your organization
 
-There are four ways to get user (Subscriber) and service (Toll and Toll-Free) phone numbers for your organization:
+There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for your organization:
 - [Getting **new user** phone numbers in the Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users).
 - [Getting **new service** phone numbers in the Microsoft Teams Admin Center](https://docs.microsoft.com/en-us/microsoftteams/getting-service-phone-numbers#get-new-service-numbers).
 - [**Transfer or _Port_** your existing phone numbers with us](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
