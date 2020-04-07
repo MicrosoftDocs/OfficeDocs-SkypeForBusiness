@@ -193,14 +193,14 @@ Call agents selected must be one of the following:
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
-**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** or **In a meeting** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes.
+**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
 
 You can enable presence-based call routing with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
-> [!IMPORTANT]
-> Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. If you have agents who use Skype for Business, don't enable presence-based call routing.
+> [!CAUTION]
+> Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. Agents who aren't in the call routing list won't receive calls. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
 ### Select an agent opt-out option
 
