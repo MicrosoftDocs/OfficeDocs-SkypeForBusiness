@@ -34,7 +34,7 @@ If your organization is using the free version of Microsoft Teams, you can easil
 
 Teams free is designed for small to medium businesses and has the following features:
 
-- 300 maximum users
+- 500,000 maximum users
 - Unlimited chat messages and search
 - Guest access
 - Integration with apps and services, including the Online versions of Word, Excel, PowerPoint, and OneNote
