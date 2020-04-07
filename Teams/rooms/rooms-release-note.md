@@ -66,6 +66,7 @@ Introduced in this update:
 - Application splash screen
 - Auto-answer setting to improve proximity based meeting join experience 
 - Open Source Software (OSS) notices in device settings
+- Fix for PSOM connectivity when TLS 1.0 and TLS 1.1 are disabled in Skype for Business Server 2015/2019.
 
 ### 4.3.42.0 (03/02/2020)
 
