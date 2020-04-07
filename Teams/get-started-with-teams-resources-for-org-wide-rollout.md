@@ -1,5 +1,5 @@
 ---
-title: Choose a path to your organization-wide rollout of Microsoft Teams
+title: Choose a path to your organization-wide rollout
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Choose a path to your organization-wide rollout of Microsoft Teams
