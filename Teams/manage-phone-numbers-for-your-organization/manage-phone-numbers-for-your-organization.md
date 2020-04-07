@@ -72,7 +72,7 @@ If you need to transfer/port your existing phone numbers, you will need to downl
 
 Please send us an **LOA** if you currently have with another carrier:
 - User (subscriber) numbers.
-- Service (Toll) numbers for audio conferencing bridges, auto attendants or call queues.
+- Service (toll) numbers for audio conferencing bridges, auto attendants, or call queues.
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the local number porting wizard.
 
