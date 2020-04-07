@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -23,7 +22,7 @@ appliesto:
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams upgrade planning workshops</h1>
-           <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <strong>Plan your upgrade</strong> session below.
+           <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <strong>Plan your upgrade</strong> session below. To view these workshops on your own time, visit <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Upgrade to Microsoft Teams</a> on YouTube.
             <p>New to Teams? Learn more <a href="https://docs.microsoft.com/microsoftteams/teams-overview">here</a>.
         <ul class="pivots">
             <li>

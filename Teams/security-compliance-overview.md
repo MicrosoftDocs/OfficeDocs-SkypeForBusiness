@@ -1,5 +1,5 @@
 ---
-title: Overview of security and compliance in Microsoft Teams
+title: Overview of security and compliance
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,6 +17,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -75,6 +76,12 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 ## Compliance
 
 Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) or [Office 365 Security & Compliance Center](https://protection.microsoft.com) to manage these settings.
+
+### Information Barriers
+
+Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level.
+
+For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
 
 ### Communication compliance
 
@@ -138,6 +145,10 @@ If you'd like further Teams-specific information on configuring content search, 
 ### Auditing and Reporting
 
 Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for O365. To learn more about searching for Microsoft Teams events in the Office 365 Security & Compliance Center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
+
+## Privacy
+
+At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
 
 ## Information Protection Architecture
 
