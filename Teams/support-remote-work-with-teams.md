@@ -28,7 +28,7 @@ Does your organization want to get started with Microsoft Teams to support your 
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
     
-- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
+- Understand how to get your organization started with **[Meetings and live events in Teams](quick-start-meetings-live-events.md)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
@@ -87,18 +87,6 @@ Share these assets and videos with your end users to help them get started quick
 
    - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
-2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
-
-3. Go deeper: Learn more about rolling out Teams.
-
-   - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md).
-
-   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered.
-
-   - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
-
-   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
-
 1. Security when everyone's working from home
 
    - [Top tips for working more securely from home](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
@@ -113,6 +101,18 @@ Share these assets and videos with your end users to help them get started quick
 
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
 
+
+2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
+
+3. Go deeper: Learn more about rolling out Teams.
+
+   - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md).
+
+   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered.
+
+   - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
+
+   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
 
     
 3. Read our new content about working remotely and share it with your users:

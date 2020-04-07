@@ -16,7 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams Patients app EHR integration
+description: Learn about the DSTU2 interface specification in Teams, including setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app.
+ms.custom: seo-marvel-mar2020
 ---
 
 # DSTU2 interface specification
@@ -303,12 +304,12 @@ See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DST
 
 ## Encounter
 
-These are the minimum required fields, which are a subset of the US Core Encounter profile “must have” fields:
+These are the minimum required fields, which are a subset of the US Core Encounter profile "must have" fields:
 
 1. Status
 2. Type[0].Coding[0].Display
 
-In addition, the following fields from US Core Encounter profile’s “must support” fields
+In addition, the following fields from US Core Encounter profile's "must support" fields
 
 1. Period.Start
 2. Location[0].Location.Display
@@ -319,7 +320,7 @@ A resource search uses the GET method and the following parameters:
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
 
-The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See the following example of this call.
+The goal is to be able to retrieve the patient's last known location. Each encounter references a location resource. The reference shall also include the location's display field. See the following example of this call.
 * * *
 
     Request:

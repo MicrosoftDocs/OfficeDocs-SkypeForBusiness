@@ -13,9 +13,10 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
 - M365-voice
-description: Learn how to use the Teams PSTN minute pools report in the Microsoft Teams admin center to see the number of minutes consumed during the current month within your organization.
+description: How to use the Teams PSTN minute pools report in Microsoft Teams admin center to view the minutes consumed within your organization during the current month.
 appliesto: 
 - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 # Microsoft Teams PSTN minute pools report
 
