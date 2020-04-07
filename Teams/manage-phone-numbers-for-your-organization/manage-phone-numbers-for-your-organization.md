@@ -71,7 +71,7 @@ If so, you will need to download the correct PDF LOA form (per country or region
 If you need to transfer/port your existing phone numbers, you will need to download, fill and send us a Letter of Authorization (LOA), which gives us permission to request and transfer, on your behalf, those existing numbers from a different service provider into Microsoft Teams.
 
 Please send us an **LOA** if you currently have with another carrier:
-- User (Subscriber) numbers.
+- User (subscriber) numbers.
 - Service (Toll) numbers for audio conferencing bridges, auto attendants or call queues.
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.
