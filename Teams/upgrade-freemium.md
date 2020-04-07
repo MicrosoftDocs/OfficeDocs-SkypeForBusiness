@@ -3,7 +3,6 @@ title: Upgrade Microsoft Teams free to Office 365 subscription
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
