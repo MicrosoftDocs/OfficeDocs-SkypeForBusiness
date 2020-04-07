@@ -22,6 +22,8 @@ appliesto:
 
 Does your organization want to get started with Microsoft Teams to support your users who work remotely or from home? Use the guidance in this article to get up and running quickly.
 
+If you're a small or medium-sized business, don't miss [Empower your small business with remote work](https://aka.ms/remote-business).
+
 ## IT admin guidance
 
 - Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 offer](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
