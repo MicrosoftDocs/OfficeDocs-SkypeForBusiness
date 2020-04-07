@@ -120,6 +120,9 @@ Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication
 
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker's computer without the knowledge of either party. TLS and Teams' specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using encryption that is coordinated using the Public Key cryptography between the two endpoints. An attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication.
 
+> [!NOTE]
+> Teams data is encrypted in transit and at rest. Microsoft uses industry standard technologies such as TLS and SRTP to encrypt all data in transit between users' devices and Microsoft datacenters, and between Microsoft datacenters. This includes messages, files, meetings, and other content. Enterprise data is also encrypted at rest in Microsoft datacenters, in a way that allows organizations to decrypt content if needed, to meet their security and compliance obligations, such as eDiscovery.
+
 ### Encryption for Teams
 
 Teams uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter.
