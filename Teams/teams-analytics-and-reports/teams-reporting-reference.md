@@ -25,7 +25,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Office 365, Teams service admin, Teams Communications admin, or Skype for Business admin.  Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+To access the reports, you must be a global admin in Office 365, Teams service admin, Teams communications admin, or Skype for Business admin. Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 
 > [!NOTE]
 > The reports in the Microsoft Teams admin center are separate from the activity reports for Teams that are part of the Office 365 reports in the Microsoft 365 admin center. For more information about the activity reports in the Microsoft 365 admin center, see [Teams activity reports in the Microsoft 365 admin center](../teams-activity-reports.md)
@@ -35,6 +35,9 @@ To access the reports, you must be a global admin in Office 365, Teams service a
 Here's a list of the Teams reports available in the Microsoft Teams admin center and an overview of some of the information that's available in each report.
 
 We're continually improving the Teams reporting experience and adding features and functionality. Over time, we'll be building additional capabilities into the reports and adding new reports in the Microsoft Teams admin center.
+
+> [!NOTE]
+> Teams communication admins can access the PSTN blocked users, PSTN minute pools, and PSTN usage reports in the Microsoft Teams admin center. They don't have access to the Teams usage, Teams user activity, Teams device usage, or Teams live event usage reports.
 
 |Report  |What's measured? |
 |---------|---------|
