@@ -92,7 +92,7 @@ After you have the hardware in place, you'll need to the install operating syste
 Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option is not listed, and is thus not supported.
 
 > [!NOTE]
-> In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a difference OS. All servers in a pool must have the same OS version.
+> In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
 
 > [!NOTE]
 > 
