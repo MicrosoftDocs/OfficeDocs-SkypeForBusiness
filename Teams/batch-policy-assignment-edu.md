@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - remotework
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
@@ -77,20 +78,16 @@ When you're prompted, sign in using the same admin credentials you used to conne
 First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
 ```powershell
-Get-AzureADSubscribedSku
-```
-
-```powershell
-$skus = Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 Which returns:
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 In this example, the output shows that the Faculty license SkuId is "e97c048c-37a4-45fb-ab50-922fbf07a370".
@@ -101,7 +98,7 @@ In this example, the output shows that the Faculty license SkuId is "e97c048c-37
 Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## Assign a policy in bulk
@@ -145,7 +142,7 @@ $faculty.count
 Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
@@ -160,7 +157,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## FAQ
 
-**I want to make sure that all users that are students, staff, and educators automatically get licenses assigned. How can I do that?**
+**I want to make sure that all users that are students, staff, and educators automatically get policies assigned. How can I do that?**
 
 The Teams product team is doing work to support assigning policies to security groups. At that time, you'll be able to create groups for your students and teachers, and then the appropriate policies to those groups. Note that explicit user assignments (such as the policies that you've assigned using this tutorial) will override policies inherited from a group. When this feature is supported, we'll provide more instructions on how to use policy assignment to groups and update your users to ensure they get the inherited group policies.
 

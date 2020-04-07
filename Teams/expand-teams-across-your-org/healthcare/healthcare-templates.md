@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Healthcare organizations"
+title: "Templates for Healthcare organizations"
 author: kenwith
 ms.author: kenwith
 manager: serdars

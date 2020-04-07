@@ -1,5 +1,5 @@
 ---
-title: Prepare your organization's network for Microsoft Teams
+title: Prepare your organization's network for Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Before you roll out Microsoft Teams, evaluate and prepare your network to be sure it's ready for Teams. Information includes network requirements, bandwidth requirements, and network optimization guidance.
+description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -16,20 +16,23 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
----
+ms.custom: 
+  - seo-marvel-mar2020
+  ---
 
 # Prepare your organization's network for Microsoft Teams 
 
 ## Network requirements
 
-If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
+If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers** - check the following before you begin your Teams rollout:
 
 1.  Do all your locations have internet access (so they can connect to Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
 
     |  |  |
     |---------|---------|
     |Ports     |UDP ports <strong>3478</strong> through <strong>3481</strong>        |
-    |[IP addresses](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong> and <strong>52.112.0.0/14</strong>        |
+    |[IP addresses](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |
+
     
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
@@ -62,7 +65,7 @@ You might want to do additional network optimization if:
 
   - Teams runs slowly (maybe you have insufficient bandwidth)
   - Calls keep dropping (might be due to firewall or proxy blockers)
-  - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
+  - Calls have static and cut out, or voices sound like robots (could be jitter or packet loss)
 
 For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).
 
@@ -151,5 +154,4 @@ Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 
 [Identity models and authentication in Teams](identify-models-authentication.md)
 
 [How to roll out Teams](How-to-roll-out-teams.md)
-
 

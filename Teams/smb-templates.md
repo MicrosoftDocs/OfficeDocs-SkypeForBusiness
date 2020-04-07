@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Small and Medium Businesses"
+title: Teams templates for Small and Medium Businesses
 author: kenwith
 ms.author: kenwith
 manager: serdars

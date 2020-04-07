@@ -1,5 +1,5 @@
 ---
-title: Onboarding checklist for configuring Microsoft Teams core capabilities
+title: Onboarding checklist - Configure core capabilities - Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,6 +16,7 @@ f1.keywords:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Configure Microsoft Teams core capabilities

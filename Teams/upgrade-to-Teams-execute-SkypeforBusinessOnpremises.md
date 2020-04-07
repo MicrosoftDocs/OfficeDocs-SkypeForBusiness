@@ -1,5 +1,5 @@
 ---
-title: Upgrade Skype for Business on-premises to Microsoft Teams | Deploy | Lync
+title: Upgrade Skype for Business on-premises to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars

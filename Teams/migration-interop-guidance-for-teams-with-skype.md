@@ -1,5 +1,5 @@
 ---
-title: Migration and interoperability guidance for organizations using Teams together with Skype for Business
+title: Migration and interoperability - Skype for Business
 author: lanachin
 ms.author: v-lanac
 manager: serdars

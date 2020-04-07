@@ -43,9 +43,7 @@ The table below shows the difference in permissions between an owner and a membe
 |        ***Delete private channel**         |    Yes     |    No|
 |          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
-|           **Add tabs**            |    Yes     |    Yes<sup>2</sup>|
-|        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
-|           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
+|           **Add apps**            |    Yes     |    Yes<sup>2</sup>|
 
 <sup>1</sup> Team owners can create teams unless they've been restricted from doing so. [Permissions to create teams](#permissions-to-create-teams) below.<br>
 <sup>2</sup> An owner can turn off these items at the team level, in which case members would not have access to them.<br>

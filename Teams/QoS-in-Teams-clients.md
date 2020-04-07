@@ -1,5 +1,5 @@
 ---
-title: Implement Quality of Service in Microsoft Teams clients
+title: Implement Quality of Service in Teams clients
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -18,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Set QoS on Windows clients

@@ -14,7 +14,9 @@ ms.reviwer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
+ms.custom: 
+   - ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
+   - seo-marvel-apr2020
 description: Learn how an admin can view information about guest users in Microsoft Teams.
 appliesto: 
   - Microsoft Teams

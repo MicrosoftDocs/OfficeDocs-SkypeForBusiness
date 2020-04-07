@@ -1,5 +1,5 @@
 ---
-title: Turn on inline message translation in Microsoft Teams
+title: Turn on inline message translation
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

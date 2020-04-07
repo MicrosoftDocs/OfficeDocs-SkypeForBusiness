@@ -14,6 +14,8 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 appliesto: 
   - Microsoft Teams
 ---
@@ -22,19 +24,19 @@ appliesto:
 > [!NOTE]
 > This article is a great resource for getting your school set up for remote learning. If you are an educator or a school leader, these resources may help:
 >
-> - A collection of articles written for teachers including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - A 1-hour online course in the Microsoft Educator Center shows how teachers use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
-> - A 1-hour online course in the Microsoft Educator Center leads teachers through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
-> - If you're a teacher, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
+> - A collection of articles written for educators including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+> - A 1-hour online course in the Microsoft Educator Center shows how educators use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - A 1-hour online course in the Microsoft Educator Center leads educators through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - If you're an educator, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Parents and guardians can also go to our [**Parent Support Page**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
 
 Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
-Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and teachers can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Teachers can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their teachers and peers than they did in the classroom. And, just like in a classroom, teachers can use the apps and functions of Teams to support how they work best.
+Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and educators can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Educators can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their educators and peers than they did in the classroom. And, just like in a classroom, educators can use the apps and functions of Teams to support how they work best.
 
-Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting teachers create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
+Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting educators create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
 
-Within Teams, teachers can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow teachers to organize interactive lessons and provide effective and timely feedback. School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
+Within Teams, educators can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow educators to organize interactive lessons and provide effective and timely feedback. School administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
 
 Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to create collaborative class spaces, provide a virtual meeting platform, facilitate learning with assignments and feedback, and lead live calls with students.
 
@@ -46,9 +48,12 @@ Learn more about Teams usage scenarios at the [Teams for education webinar serie
 
 Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
 
-[Teams licenses need to be enabled for users](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams) and then [licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Office 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams licenses need to be enabled for users](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2) and then [licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Office 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire school started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
+
+> [!NOTE]
+> Please review [Updated Guidance for M365 EDU Deployment during COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) for our latest information on EDU deployments.
 
 ## Easily set up Teams
 
@@ -68,11 +73,15 @@ Higher education customers benefit when you let everyone, including students, cr
 
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
+> [!IMPORTANT]
+> For meeting policies assigned to any users, we recommend setting the "Automatically admin people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users are must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
+
 Here's a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
 #### Messaging policy
 
-- Change set to 'off'
+- Delete sent messages set to 'off'
+- Edit sent messages set to 'off'
 - Giphy content rating set to 'strict'
 - Translate messages set to 'on'
 - Send urgent messages using priority notifications set to 'off'
@@ -132,6 +141,12 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
 
+### Prevent users from changing their profile photo
+
+Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off, users can't add, change, or remove their profile picture. To prevent students or staff from changing or removing their profile picture, turn off this setting in the Outlook on the web mailbox policy that's assigned to them.
+
+For example, if a student uploads a profile picture that's approved by your school's IT or HR department, no action is needed. However, if a student uploads a picture that's inappropriate, change the picture according to your school's internal policies.  
+
 ## Adoption content
 
 Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
@@ -157,4 +172,4 @@ Additional support resources include:
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Team help center](https://support.office.com/teams)
+- [Teams help center](https://support.office.com/teams)

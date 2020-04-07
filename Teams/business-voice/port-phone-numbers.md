@@ -21,6 +21,11 @@ appliesto:
 
 # Move (port) phone numbers to Business Voice
 
+> [!IMPORTANT]
+> The information in this article is applicable to Business Voice **with** Calling Plan only. Business Voice with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
+>
+> If your tenant is located in a country or region that doesn't support Business Voice with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
+
 When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you already have phone numbers that you want to keep when you move to Business Voice, you can bring them with you by using a process called phone number porting to bring them over to Business Voice. After you port your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
 
 Before you move numbers to Business Voice, take a look at [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). This article includes answers to questions including what countries and regions are supported, what numbers can and can't be transferred, and what information you'll need.

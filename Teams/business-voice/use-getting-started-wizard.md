@@ -21,13 +21,16 @@ appliesto:
 
 # Use the Getting Started wizard to set up Business Voice
 
+> [!IMPORTANT]
+> The information in this article is applicable to Business Voice **with** Calling Plan only. Business Voice with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
+>
+> If your tenant is located in a country or region that doesn't support Business Voice with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
+
 The Getting Started wizard for Microsoft 365 Business Voice gets you set up quickly to make and receive phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a pilot so a few users can try Business Voice before you roll it out for everyone. Either way, you can start using Business Voice as soon as the wizard is finished!
 
 It's a good idea to read this article before you start the wizard. When you're ready to run the wizard, select **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Sign in by using the account you used to create your subscription or another account that's a Global Administrator.
 
 > [!IMPORTANT]
-> Business Voice is currently available in Canada and the United Kingdom. More countries and regions will become available in 2020.
->
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes on on-premises Exchange Server.
 
 <!-- After you've finished the wizard, you may want to check out the following articles:

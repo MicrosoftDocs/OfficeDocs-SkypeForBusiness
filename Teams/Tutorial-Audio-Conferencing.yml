@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-title: Audio Conferencing in Microsoft Teams
+title: 'Tutorial: Audio Conferencing - Microsoft Teams'
 metadata:
   title: Audio Conferencing in Microsoft Teams
   description: Use this interactive tutorial to learn the requirements, planning steps, and reporting for Audio Conferencing in Microsoft Teams.
@@ -20,6 +20,7 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
+  ms.custom: seo-marvel-mar2020
 
 items:
 - durationInMinutes: 1

@@ -1,5 +1,5 @@
 ---
-title: Plan to move your StaffHub teams to Shifts in Microsoft Teams
+title: Plan to move your StaffHub teams to Shifts
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -18,6 +18,7 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Plan to move your StaffHub teams to Shifts in Microsoft Teams
