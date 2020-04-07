@@ -39,7 +39,7 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 > In Belgium, France, Germany, Ireland, the Netherlands, and Spain, you can't get phone new phone numbers using the Microsoft Teams Admin Center. You have to download and fill out a form. For new phone numbers in Australia, see: [**Telstra Voice Services**](https://aka.ms/TelstraVoicePlan).
 
 ***
-If you know what kind of forms you are looking for use the drop-down to select the country/region where you're getting numbers.
+If you know what kind of forms you are looking for, use the drop-down to select the country/region where you're getting numbers.
 
 **Select your country or region to find the downloadable PDF LOA forms you will need**
 > [!div class="op_single_selector"]
