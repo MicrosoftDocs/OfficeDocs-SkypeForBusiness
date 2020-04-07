@@ -8,10 +8,12 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Take an existing SharePoint Online site or page and create a standalone static tab that can be used as an Intranet portal for your organization. 
-localization_priority: Normal
+localization_priority: Priority
 ---
 
 # Create a Teams 'Intranet Portal app' from a SharePoint Online site or page
@@ -23,11 +25,12 @@ A *Teams Personal App* of your SharePoint intranet site is created, and will app
 Be aware that the process shown **must use** a *modern* SharePoint site or page to work. This process is not available for *classical* sites or pages.
 
 > [!IMPORTANT]
-> Make certain that side-loading of Teams apps is enabled for your tenant. Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal! 
+> Make certain that side-loading of Teams apps is enabled for your tenant. Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal!
 
 ## Use App Studio to create your standalone SharePoint Online app
-'''
+
 Before you begin:
+
 1. You'll need to know the URL of a SharePoint Online modern Communication or Team site, or page.
     - These sites will always have either */teams/* or */sites/* in their paths.
 
@@ -35,14 +38,14 @@ Before you begin:
 
 3. This article will use **{{siteUrl}}** placeholder for your the *URL* of the site or page you chose.
     - Example *URLs*:
-        https://contoso.sharepoint.com/teams/Contoso 
-        *or* 
-        https://contoso.sharepoint.com/sites/Contoso 
+        https://contoso.sharepoint.com/teams/Contoso
+        *or*
+        https://contoso.sharepoint.com/sites/Contoso
 4. Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).
     - Example *paths*:
-        /teams/Contoso 
-        *or* 
-        /sites/Contoso 
+        /teams/Contoso
+        *or*
+        /sites/Contoso
 
 Begin by following the steps below:
 
@@ -64,26 +67,26 @@ Begin by following the steps below:
 
 9. Fill in the **Name** and choose **a new unique Entity ID**.
 
-10. Fill in the **contentURL and Website URL**. 
+10. Fill in the **contentURL and Website URL**.
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **web'iteUrl**: {{siteUrl}} 
-''
-    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+- **websiteUrl**: {{siteUrl}}
 
-11. Navigate to **Domains and Permissi'ns**. Make sure the valid domains section contains your SharePoint online domain name.
-''
+    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+
+11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
+
     Example: contoso.sharepoint.com
 
-12. Add the following web app **single sign-on** properties: 
-     ''
-     Example:''''
+12. Add the following web app **single sign-on** properties:
+
+     Example:
      **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
-     **Resource Url**: {{subdomain}}.sharepoint.com'
-''
+     **Resource Url**: {{subdomain}}.sharepoint.com
+
     ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
-13. **Save** these properties and then navigate to **Test and distribute**. 
+13. **Save** these properties and then navigate to **Test and distribute**.
 
 14. Install the app to test the application personally.
 
@@ -92,6 +95,9 @@ Begin by following the steps below:
 
 15. Now the app is available as a static tab for you to load and view in Teams.
 
+> [!IMPORTANT]
+> We have sample scripts available that perform most of the actions in the steps above. These scripts are zipped and available for download at [this location](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-creation-sp-site.zip?raw=true).
+
 ## Test and view your new static tab
 
 To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar. Find your new app, load it, and test your standalone application in Teams.
@@ -99,7 +105,7 @@ To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in 
 If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear 24 hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
 
 To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen. Find your app and navigate to it on your mobile device.
-        
+
 > [!CAUTION]
 > Mobile support is currently in Developer Preview. To enable Developer Preview, navigate to Settings > About and then enable Developer Preview mode.
 
@@ -108,117 +114,117 @@ To view and test the new app on a mobile device, open the app drawer by tapping 
 The JSO        file you generate will look something like the one below.
 
 ```JSON'
-{ 
+{
 
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
 
-    "manifestVersion": "1.5", 
+    "manifestVersion": "1.5",
 
-    "version": "1.0.0", 
+    "version": "1.0.0",
 
-    "id": "33ebded3-931c-4333-b0c5-b51dd8738873", 
+    "id": "33ebded3-931c-4333-b0c5-b51dd8738873",
 
-    "packageName": "com.contoso.teams.devapp", 
+    "packageName": "com.contoso.teams.devapp",
 
-    "developer": { 
+    "developer": {
 
         "name": "Contoso", ''
 
-        "websiteUrl": "https://www.contoso.com", 
+        "websiteUrl": "https://www.contoso.com",
 
-        "privacyUrl": "https://www.contoso.com/privacy", 
+        "privacyUrl": "https://www.contoso.com/privacy",
 
-        "termsOfUseUrl": "https://www.contoso.com/terms" 
+        "termsOfUseUrl": "https://www.contoso.com/terms"
 
-    }, 
+    },
 
-    "icons": { 
+    "icons": {
 
-        "color": "color.png", 
+        "color": "color.png",
 
-        "outline": "outline.png" 
+        "outline": "outline.png"
 
-    }, 
+    },
 
-    "name": { 
+    "name": {
 
         "short": "Contoso Intranet", '
 
-        "full": "Intranet Portal for Contoso" 
+        "full": "Intranet Portal for Contoso"
 
-    },                     
-                        
-    "des    ription": {                 
+    },
 
-        "short": "Intranet portal for Contoso", 
+    "des    ription": {
 
-        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams" 
+        "short": "Intranet portal for Contoso",
 
-    }, 
+        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams"
 
-    "accentColor": "#FFFFFF", 
-''
-    "staticTabs": [ 
+    },
 
-        { 
-                                       
-                     "       nti        Id":       "com    unicat    onSi    eTab", 
-                                       
-            "name": "Contoso Net", 
+    "accentColor": "#FFFFFF",
 
-            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
+    "staticTabs": [
 
-            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet", 
+        {
 
-            "scopes": [ 
+                     "       nti        Id":       "com    unicat    onSi    eTab",
 
-                "personal" 
+            "name": "Contoso Net",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/",
 
-        }, 
+            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet",
 
-        { 
+            "scopes": [
 
-            "entityId": "teamSiteTab", 
+                "personal"
 
-            "name": "Team Contoso", 
+            ]
 
-            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/", 
+        },
 
-            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso", 
+        {
 
-            "scopes": [ 
+            "entityId": "teamSiteTab",
 
-                "personal" 
+            "name": "Team Contoso",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/",
 
-        } 
+            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso",
 
-    ], 
+            "scopes": [
 
-    "permissions": [ 
+                "personal"
 
-        "identity", 
+            ]
 
-        "messageTeamMembers" 
+        }
 
-    ], 
+    ],
 
-    "validDomains": [ 
+    "permissions": [
 
-        "contoso.sharepoint.com" 
+        "identity",
 
-    ], 
+        "messageTeamMembers"
 
-    "webApplicationInfo": { 
+    ],
 
-        "id": "00000003-0000-0ff1-ce00-000000000000", 
+    "validDomains": [
 
-        "resource": "https://contoso.sharepoint.com" 
+        "contoso.sharepoint.com"
 
-    } 
+    ],
+
+    "webApplicationInfo": {
+
+        "id": "00000003-0000-0ff1-ce00-000000000000",
+
+        "resource": "https://contoso.sharepoint.com"
+
+    }
 
 }
 ```
