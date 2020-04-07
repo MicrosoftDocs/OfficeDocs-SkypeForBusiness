@@ -56,7 +56,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [U.S. & Puerto Rico](phone-number-management-for-the-u-s.md)
 
 ***
-## Here's a bit more information about these Number Request Forms
+## Here's a bit more information about these number request forms
 
 ### Request forms for new phone numbers
 
