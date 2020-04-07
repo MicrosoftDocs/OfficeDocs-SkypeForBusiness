@@ -28,7 +28,7 @@ Before creating a team, think about the goal, project, or work items and who in 
 
 Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
 
-> [!VIDEO https://youtu.be/WkAVgNKn0hs]
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## Add teams gradually
 
