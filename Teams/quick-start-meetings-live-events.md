@@ -74,3 +74,5 @@ If you already prepared your network when you rolled out Microsoft 365 or Office
 [Live events in Teams](teams-live-events/what-are-teams-live-events.md)
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
+
+[Microsoft Technical Community: Live events in Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
