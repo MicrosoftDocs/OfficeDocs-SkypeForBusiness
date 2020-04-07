@@ -84,7 +84,7 @@ Once you have your **filled and signed** LOA, please [**contact our PSTN Service
 
 ## Additional resources
 
-- To see _if_ and which **Calling Plans** are available in your country or region, read: [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- To see _if_ and which calling plans are available in your country or region, read [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To assist you on choosing the correct type of phone numbers, read: [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To get assistance setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help
 ](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
