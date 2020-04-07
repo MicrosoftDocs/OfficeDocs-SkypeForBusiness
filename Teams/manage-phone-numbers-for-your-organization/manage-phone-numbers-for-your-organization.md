@@ -80,7 +80,7 @@ Once you have your **filled and signed** LOA, please [**contact our PSTN Service
 
 ## Still need assistance?
 
-[**Please contact our PSTN Service Desk**](https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) and we will assist you as soon as possible.
+[Please contact our PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) and we will assist you as soon as possible.
 
 ## Additional resources
 
