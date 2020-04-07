@@ -62,7 +62,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 
 Each country or region has different instructions, different types of phone numbers (Geographic/Non-Geographic and service (Toll/Toll-Free)) and rules/regulations for getting phone numbers so they can be used in Microsoft Teams.
 
-Sometimes (depending on your country or region) you won't be able to get new **user** (Subscriber) or **service** (Toll or Toll-Free) phone numbers using the Microsoft Teams Admin Center or you might need _specific_ phone numbers (vanity requests) or _specific_ area codes.
+Sometimes (depending on your country or region) you won't be able to get new user (subscriber) or service (toll or toll-free) phone numbers using the Microsoft Teams admin center or you might need _specific_ phone numbers (vanity requests) or _specific_ area codes.
 
 If so, you will need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our Service Desk will take it from there and start processing your request.
 
