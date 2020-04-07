@@ -76,7 +76,7 @@ Please send us an **LOA** if you currently have with another carrier:
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.
 
-Once you have your **filled and signed** LOA, please [**contact our PSTN Service Desk**](https://docs.microsoft.com/en-us/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) so we can assist you.
+Once you have your **filled and signed** LOA, please [contact our PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) so we can assist you.
 
 ## Still need assistance?
 
