@@ -65,4 +65,6 @@ Per-team analytics gives users a more granular view of usage data for a specific
 
 ## Related topics
 
+- [View analytics for your teams](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams analytics and reporting](teams-reporting-reference.md)
+ 
