@@ -266,7 +266,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
 ### Install the latest Teams PowerShell module from the PowerShell Test Gallery
 
-The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.
+The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.21) from the PowerShell Test Gallery.
 
 > [!NOTE]
 > Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
