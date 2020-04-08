@@ -24,7 +24,7 @@ Microsoft Teams resources for Education admins
 
 ## Resources for remote learning
 
-Does your school or university need to enable Microsoft Teams for remote learning? Get up and running quickly with this [Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any of the below adoption materials!
+Does your school or university need to enable Microsoft Teams for remote learning? Get up and running quickly with the [Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any of the below adoption materials!
 
 ## Adoption content
 
