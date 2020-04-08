@@ -23,7 +23,7 @@ This inherently means that you will have a hybrid implementation of Skype for Bu
 An Auto attendant is a cloud service that accept customer calls and play greetings, provide them with menu options, and interact with callers using speech or the dialpad to route their calls to the right destination. Each auto attendant is assigned a **resource account** (see[Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to an auto attendant in the Microsoft Teams admin center. See [What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what auto attendants are and what options and features exist for auto attendants.
 
 > [!NOTE]
-> You can assign multiple Microsoft service numbers or hybrid numbers to an auto attendant.
+> You can assign multiple Microsoft service numbers, Direct Routing numbers, or hybrid numbers to an auto attendant.
 
 An incoming call to a Cloud auto attendant can take one of several paths, as shown here:
 
