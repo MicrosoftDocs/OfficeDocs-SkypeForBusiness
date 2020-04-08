@@ -629,7 +629,7 @@ The format of the data file you upload must meet the following requirements to p
 
 -   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
 
--   There must be 14 columns for each row. Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+-   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
 
 _Table 5 - Building file structure_
 
