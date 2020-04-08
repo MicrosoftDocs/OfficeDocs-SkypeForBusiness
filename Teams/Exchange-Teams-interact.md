@@ -31,7 +31,7 @@ Users hosted on Exchange Online or Exchange Dedicated vNext can use all the feat
 
 Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
-Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture (if the Outlook on the web mailbox policy allows them to do so), and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or later, is running on-premises.
+Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture (if the Outlook on the web mailbox policy allows them to do so), and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or later, is running on-premises with OAuth configured (preferably via the Hybrid Configuration wizard).
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
@@ -43,7 +43,7 @@ The following table provides a helpful quick reference to feature availability b
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
-|**Exchange On-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported.  
 
