@@ -28,7 +28,7 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 # PSTN Service Desk Contact
 
 If you need assistance transferring/porting your existing phone numbers or acquiring new phone numbers for Microsoft Teams, please send us an email and include as many details as possible:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.]((https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.]((https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
   - What types of phone numbers you need assistance with (**User/Subscriber** or **Service/Toll/Toll-Free**).
   - Other important details based on your request.
   - If you would like to **acquire new phone numbers** also include how many you require and the Area Code(s)/Country/Region from which you would like new phone numbers from.
@@ -46,7 +46,7 @@ Once you have that information, send us your request to one the following email 
 
 - To see _if_ and which **Calling Plans** are available in your country or region, read: [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To assist you on choosing the correct type of phone numbers, read: [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- To get assistance setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- To get assistance setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 ## Related topics
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
