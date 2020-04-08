@@ -71,7 +71,7 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 
 - Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
 
-- To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Additionally, to let Exchange on-premise mailbox users schedule Teams meetings on behalf of other Exchange on-premise mailbox users as their delegate, Teams calendar delegation, you must [Enable Hybrid Modern Authentication for Exchange](https://docs.microsoft.com/en-us/office365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#enable-hma).
 
 > [!NOTE]
 >For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
