@@ -53,12 +53,12 @@ Per-team analytics gives users a more granular view of usage data for a specific
 
     |Item |Description  |
     |--------|-------------|
-    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total users</li> <li>**Posts**: Number of unique messages posted in team chat during the specified time period</li><li>**Replies**: Number of unique replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps</li><li>**Meetings**: Number of Teams meetings scheduled during the specified time period</li> <li>**SharePoint files**: Size of all files shared in channel conversations during the specified time period.</li> </ul> |
+    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of unique messages posted in team chat during the specified time period.</li><li>**Replies**: Number of unique replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps</li><li>**Meetings**: Number of Teams meetings scheduled during the specified time period.</li> <li>**SharePoint files**: Size of all files shared in channel conversations during the specified time period.</li> </ul> |
     |**Active users**   |Number of active and inactive users.|
     |**Role**   |Numbers of users by role, including team owners, team members, and guests.|
     |**Active users** chart  |Number of active users by date. Hover over the dot on a given date to see the number of active users on that date.|
     |**Messages** chart  |Number of unique messages posted in team chat by date. Hover over the dot on a given date to see the number of unique messages posted on that date.|
-    |**Meetings** chart  |Number of meetings scheduled by date. Hover over the dot on a given date to see the number of meetings scheduled on that date.|
+    |**Meetings** chart  |Number of Teams meetings scheduled by date. Hover over the dot on a given date to see the number of meetings scheduled on that date.|
     
 > [!NOTE]
 > We define active users as users who perform an intentional action in the desktop client, mobile client, and web client. Examples of an intentional action include starting a chat, placing a call, sharing a file, editing a document within teams, participating in a meeting, and so on. We strip out passive actions like auto boot, minimizing a screen, or closing the app. We also de-dupe all actions across a single user ID.
