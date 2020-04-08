@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 Manage large teams in Microsoft Teams - best practices
 ======================================================
 
-Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes. 
+Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes. 
 
 ## Create teams from existing groups
 
@@ -33,7 +33,7 @@ Use contact groups, security groups, or Office groups with up to 3,500 members t
 You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams in Microsoft Teams](best-practices-organizing.md).
 ## Restrict channel creation
 
-If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md)
+If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md).
 
 ## Add favorite channels
 
@@ -52,7 +52,6 @@ To prevent addition of distracting applications or bots, team owners can disable
 ## Consider setting up moderation in your channels
 
 Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. (Team owners are moderators by default.) For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
-
 
 ## Related topics
 
