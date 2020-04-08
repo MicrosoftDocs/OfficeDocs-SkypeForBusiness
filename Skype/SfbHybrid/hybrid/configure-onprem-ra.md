@@ -100,7 +100,7 @@ Creating a resource account that uses a phone number would require performing th
 
    The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue. User (subscriber) phone numbers can't be assigned to a resource account, only service toll or toll-free phone numbers can be used.
 
-     You can assign a Direct Routing or hybrid number to your resource account. For details, see [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [Plan Cloud auto attendants](plan-cloud-auto-attendant).
+     You can assign a Direct Routing or hybrid number to your resource account. For details, see [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [Plan Cloud auto attendants](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
      > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
