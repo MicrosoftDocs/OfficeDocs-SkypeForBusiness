@@ -71,7 +71,7 @@ TLS authenticates all parties and encrypts all traffic. Using TLS prevents an at
 
 A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server.
 
-A man-in-the-middle attack can also occur with media traffic between two clients, except that in Teams point-to-point audio, video, and application sharing streams are encrypted with SRTP  using cryptographic keys that are negotiated between the peers using Session Initiation Protocol (SIP) over TLS.
+Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which leverages TLS 1.2 and AES-256 (in GCM mode) encrypted UDP / TCP channel.
 
 ### RTP Replay Attack
 
