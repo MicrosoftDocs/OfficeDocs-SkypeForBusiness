@@ -97,6 +97,9 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 Unlike Advanced CQD, Power BI supports non-sequential drillthrough. So long as a query includes the necessary dimension, it can drillthrough to any other page.
 
+BEST PRACTICE:
+Call Quality connector queries should be designed with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries which contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
+
 ## Limitations
 
 Despite making use of Power BI, not all Power BI functionality is support by the CQD Connector, either as a result of limitations on CQD data model or on DirectQuery connectors in general. The list below notes some of the Connector's more noteworthy limitations, but this list should not be considered exhaustive:
