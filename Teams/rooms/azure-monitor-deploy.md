@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms management with Azure Monitor"
+title: Deploy Microsoft Teams Rooms management with Azure Monitor
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: "This article discusses how to deploy management of Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor."
+ms.custom: seo-marvel-mar2020
 ---
 
 # Deploy :::no-loc text="Microsoft Teams Rooms"::: management with :::no-loc text="Azure Monitor":::
@@ -50,7 +50,7 @@ You need to have a :::no-loc text="Log Analytics"::: workspace to start collecti
 If you need to create a new :::no-loc text="Log Analytics"::: workspace, follow the instructions in the article [Create a :::no-loc text="Log Analytics"::: workspace in the :::no-loc text="Azure"::: portal](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
-> To use :::no-loc text="Log Analytics"::: with :::no-loc text="Azure Monitor":::, you need to have an active :::no-loc text="Azure"::: subscription. If you don’t have an :::no-loc text="Azure"::: subscription, you can create [a free trial subscription](https://azure.microsoft.com/free) as a starting point.
+> To use :::no-loc text="Log Analytics"::: with :::no-loc text="Azure Monitor":::, you need to have an active :::no-loc text="Azure"::: subscription. If you don't have an :::no-loc text="Azure"::: subscription, you can create [a free trial subscription](https://azure.microsoft.com/free) as a starting point.
 
 ### Configure :::no-loc text="Log Analytics"::: to collect :::no-loc text="Microsoft Teams Rooms"::: event logs
 
@@ -100,7 +100,7 @@ After the :::no-loc text="Microsoft Monitoring"::: agent is deployed onto the te
     3.  Use a query to list application error events: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
 > [!IMPORTANT]
-> These sample event logs are required before custom fields can be configured. Don’t proceed to the next step until you have collected the required event logs.
+> These sample event logs are required before custom fields can be configured. Don't proceed to the next step until you have collected the required event logs.
 
 ## Map custom fields
 <a name="Custom_fields"> </a>
@@ -116,7 +116,7 @@ To extract your custom fields out of the captured event logs, follow these steps
    2.  Sample query: `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Select one of the records, select the button to the left, and start the field extraction wizard.
-4. Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
+4. Highlight the data you'd like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
 
    ![Custom field definition](../media/Deploy-Azure-Monitor-4.png "Custom field definition")
 
@@ -328,7 +328,7 @@ Alternatively, you can create your own dashboard and add only the tiles that you
 7.  Select **Apply** and then **Close**.
 8.  Select **Save** to save your dashboard.
 
-Now you’ve completed creating your views.
+Now you've completed creating your views.
 
 ## Configure Alerts in :::no-loc text="Azure Monitor":::
 <a name="Alerts"> </a>
@@ -404,9 +404,9 @@ Repeat the same procedure but use the following query to list devices that have 
     | sort by TimeGenerated desc
     ```
 
-Now you’ve completed defining alerts. You can define additional alerts by using the examples above.
+Now you've completed defining alerts. You can define additional alerts by using the examples above.
 
-When an alert is generated, you’ll get an email that lists the devices that encountered an issue within the last hour.
+When an alert is generated, you'll get an email that lists the devices that encountered an issue within the last hour.
 
 ![Sample :::no-loc text="Azure Monitor"::: alert email](../media/Deploy-Azure-Monitor-6.png "Sample :::no-loc text="Azure Monitor"::: alert email")
 
@@ -416,7 +416,7 @@ After the dashboards and alerts are configured, you can set up and configure :::
 
 Although you can install and configure the :::no-loc text="Microsoft Monitoring"::: agent manually on each device, we highly recommend you leverage existing software deployment tools and methods.
 
-If you’re building your :::no-loc text="Microsoft Teams Rooms"::: devices for the first time, you might want to include the :::no-loc text="Microsoft Monitoring"::: agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
+If you're building your :::no-loc text="Microsoft Teams Rooms"::: devices for the first time, you might want to include the :::no-loc text="Microsoft Monitoring"::: agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
 
 ### Deploying :::no-loc text="Microsoft Monitoring"::: agent by using a Group Policy Object (GPO)
 

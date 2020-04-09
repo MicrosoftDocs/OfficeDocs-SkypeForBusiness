@@ -33,18 +33,11 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
  - [Microsoft Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT), including short (8-10 minute) videos that show you how to roll out, configure, and manage Teams.
 
 > [!TIP]
-> We recommend that you include our featured apps-such as Planner-in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
 ## Chat deployment prerequisites
 
-Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review the following information and make any required changes to your environment.
-
-- To get the full Teams experience, your organization must have deployed [Exchange Online and SharePoint Online](#exchange-and-sharepoint-interoperability), and you must have a verified domain for Office 365 (for example, contoso.com).
-
-- To scale chat, teams, and channels across your organization, make sure all locations have internet access so they can connect to Office 365. At a minimum, make sure that the following common ports are open to the internet from all locations:
-
-    - Open **TCP** ports 80 and 443 for outgoing traffic from clients that will use Teams
-    - Open **UDP** ports 3478 through 3481 for outgoing traffic from clients that will use Teams
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -99,6 +92,10 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 ### Guest access
 
 Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can’t use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+
+> [!NOTE]
+> For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
+
 
 |Ask yourself|Action |
 |------------|-------|

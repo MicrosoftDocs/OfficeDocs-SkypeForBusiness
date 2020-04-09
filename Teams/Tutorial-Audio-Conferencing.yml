@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Audio Conferencing in Microsoft Teams
+title: 'Tutorial: Audio Conferencing - Microsoft Teams'
 metadata:
-  title: Audio Conferencing in Microsoft Teams
+  title: 'Tutorial: Getting started with Audio Conferencing in Microsoft Teams'
   description: Interactive tutorial walks you through Audio Conferencing in Microsoft Teams.
   audience: IT Pro
   level: Intermediate
@@ -19,6 +19,7 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
+  ms.custom: seo-marvel-mar2020
 
 items:
 - durationInMinutes: 1
@@ -99,6 +100,14 @@ items:
         number and bring additional people into the meeting.
     -   Other users can also join from the Teams client on their PC, Mac, or mobile
         device.
+
+    In Teams, meeting organizers can end a meeting for all meeting participants. This is useful in scenarios such as the following:
+
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.
+    -   Ending a meeting for all participants can help reduce your organization's PSTN usage and billing. 
+
+    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting in Teams to end it and remove all participants from it.
 
 - title: Considerations for Skype for Business customers
   durationInMinutes: 1
@@ -199,6 +208,7 @@ items:
     -   Dial out from a meeting to a phone.
     -   Use dual-tone multi-frequency controls while in a meeting to mute and unmute
         a phone.
+    -   End the meeting for all users. 
 
 - title: Drive value
   durationInMinutes: 1

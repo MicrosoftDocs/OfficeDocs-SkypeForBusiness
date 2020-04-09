@@ -21,7 +21,7 @@ appliesto:
 
 
 Microsoft Teams guest access checklist
-==========================================
+=========================================
 
 Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 

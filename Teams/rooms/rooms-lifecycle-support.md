@@ -48,16 +48,13 @@ The following table shows recommended and supported versions of Windows 10 that 
 |Version  |Availability date   |Microsoft Teams Rooms support status   |Microsoft Teams Rooms Minimum application version | Recommended OS build  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 1909 |2019-11-12 |Currently validating, <br/>Not Recommended|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |Supported &#x2780;, <br/>Recommended  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |Skipped, <br/>Not recommended &#x2781;|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |Supported, <br/>Recommended  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |Skipped, <br/>Not recommended &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Supported                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |Not supported                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Not Supported                         |&#x2014; |&#x2014; |
-||||||
 
-&#x2780; Windows 10 1903 is not available for Crestron Flex devices due to an issue with an Intel graphics device driver. Windows 10 1903 will not offered to these devices. Users should not upgrade these devices to 1903 and keep them on Windows 10 1803 until a graphic driver update is made available by Crestron. 
-
-&#x2781; The Windows 10 1809 version is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after nightly reboot. This issue was addressed in the Windows 10 1903 version.  
+&#x2780; Windows 10 version 1809 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. This issue was addressed in  Windows 10 version 1903.  
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 

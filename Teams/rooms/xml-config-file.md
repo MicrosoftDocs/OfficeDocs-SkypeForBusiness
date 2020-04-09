@@ -1,5 +1,5 @@
 ---
-title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
+title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,7 +13,10 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
-description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
+ms.custom:
+  - seo-marvel-mar2020
+description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
@@ -38,10 +41,12 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -84,11 +89,13 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
+|\<ModernAuthEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication.|
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
-|\<SendLogs\> |Container |First &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |String  &#x2778;  || Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
-|\<SendLogsAndFeedback\> |Boolean &#x2777;  || If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs).  |
+| \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. | 
+|\<SendLogs\> |Container |First &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |String  &#x2778;  | | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
+|\<SendLogsAndFeedback\> |Boolean &#x2777;  | | If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs).  |
 | \<Devices\>  |Container |First &#x2776;  | The connected audio device names in the child elements are the same values listed in the Device Manager app. The configuration can contain a device that does not presently exist on the system, such as an A/V device not currently connected to the console. The configuration would be retained for the respective device.  |
 |\<MicrophoneForCommunication\> |String  &#x2778;  ||Sets the microphone used as the recording device in a conference. |
 |\<SpeakerForCommunication\> |String  &#x2778;  ||Device to be used as speaker for the conference. This setting is used to set the speaker device used in a call. |
@@ -102,7 +109,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<CustomThemeColor\> |Container ||Container for the \<RedComponent\>, \<GreenComponent\>, and \<BlueComponent\> values. These values are required for a custom theme. |
 |\<RedComponent\> |Byte (0-255) ||Represents the red color component. |
 |\<GreenComponent\> |Byte (0-255) ||Represents the green color component. |
-|\<BlueComponent\> |Byte (0-255) ||Represents the blue color component. |
+|\<BlueComponent\> |Byte (0-255) ||Represents the blue color component. | 
 | | | |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.

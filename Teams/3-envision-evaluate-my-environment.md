@@ -1,5 +1,5 @@
 ---
-title: Evaluate your environment for Microsoft Teams cloud voice workloads
+title: Evaluate your environment for cloud voice workloads
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Evaluate my environment
@@ -70,7 +71,7 @@ Deployment puts a new technology at a user's fingertips, but business results ar
 
 -   **Readiness and resource preparation:** Creation of targeted and broad-reach awareness, training, and support resources, including focused value messaging to accelerate user buy-in
 
-Use the following considerations to assess your organization’s preparedness to address user change management.
+Use the following considerations to assess your organization's preparedness to address user change management.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
@@ -107,7 +108,7 @@ These are the main takeaways from this guidance. You must:
 
 ## Why should you prepare your network?
 
-Before we look at the steps to be taken, it’s important to understand what can
+Before we look at the steps to be taken, it's important to understand what can
 affect the performance of Teams and thereby user happiness and satisfaction.
 Three major risk areas can affect how users perceive network quality:
 
@@ -140,15 +141,15 @@ emerges (egresses) to the internet. Often, this is done to centralize network
 security devices with the goal of reducing overall cost.
 
 Back-hauling traffic across the WAN increases latency and has a negative impact
-on quality and the user experience. Because Microsoft Teams runs on Microsoft’s
-large global network, there’s often a network peering location close to the
+on quality and the user experience. Because Microsoft Teams runs on Microsoft's
+large global network, there's often a network peering location close to the
 user. A user will most likely get better performance by egressing out of a local
 internet point close to their location and on to our voice-optimized network as
 soon as possible. For some workloads, DNS requests are used to send traffic to
-the nearest front-end server. In such cases, it’s important that when using a
-local egress point, it’s paired with local DNS resolution.
+the nearest front-end server. In such cases, it's important that when using a
+local egress point, it's paired with local DNS resolution.
 
-Optimizing the network path to Microsoft’s global network will improve
+Optimizing the network path to Microsoft's global network will improve
 performance and ultimately provide the best experience for users. For more
 detail, see the blog post [Getting the best connectivity and performance in
 Office
@@ -156,27 +157,27 @@ Office
 
 ### VPN
 
-VPNs provide a valuable service to many organizations. Unfortunately, they’re
+VPNs provide a valuable service to many organizations. Unfortunately, they're
 typically not designed or configured to support real-time media. Some VPNs might
 also not support UDP. VPNs also introduce an extra layer of encryption on top of
-media traffic that’s already encrypted. In addition, connectivity to the Teams
+media traffic that's already encrypted. In addition, connectivity to the Teams
 service might not be efficient due to hair-pinning traffic through a VPN device.
-Furthermore, they aren’t necessarily designed from a capacity perspective to
+Furthermore, they aren't necessarily designed from a capacity perspective to
 accommodate the anticipated loads that Teams will require.
 
 The recommendation is to provide an alternate path that bypasses the VPN for
 Teams traffic. This is commonly known as *split-tunnel VPN*. Split tunneling
-means that traffic for Office 365 won’t traverse the VPN but will go directly to
+means that traffic for Office 365 won't traverse the VPN but will go directly to
 Office 365. This change will have a positive impact on quality, but also
 provides the secondary benefit of reducing load from the VPN devices and the
-organization’s network.
+organization's network.
 
 To implement a split-tunnel, consult with your VPN vendor for the configuration
 details.
 
 ### Wi-Fi
 
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support
+Like VPN, Wi-Fi networks aren't necessarily designed or configured to support
 real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams
 is an important consideration for a high-quality deployment.
 
@@ -200,7 +201,7 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 -   When access points of the same channel are too close together they can cause
     signal overlap and unintentionally compete, resulting in a bad experience
     for the user. Ensure that access points that are next to each other are on
-    channels that don’t overlap.
+    channels that don't overlap.
 
 Each wireless vendor has its own recommendations for deploying its wireless
 solution. We recommend that you consult your vendor for specific guidance.
@@ -229,15 +230,15 @@ If you choose to restrict the target IP address ranges and domains, you must
 ensure that you keep the list of ports and ranges up to date because they might
 change. You can subscribe to [this RSS
 feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when
-changes occur. It’s also a good practice to test whether all ports are opened by
+changes occur. It's also a good practice to test whether all ports are opened by
 running the [Skype for Business Network Assessment
 Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a
 regular basis. You can find out more about the functionality of this tool in the
 next section.
 
 In the event of a proxy server being deployed, we recommend that you bypass the
-proxy server for all Teams services. Although using a proxy might work, it’s
-very likely that quality will be reduced due to media’s being forced to use TCP
+proxy server for all Teams services. Although using a proxy might work, it's
+very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
 [Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
@@ -246,8 +247,8 @@ ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ran
 
 ## Test the network
 
-After you’ve completed your planning and network preparation—including upgrading
-bandwidth and opening ports in the firewall—you should test your network’s
+After you've completed your planning and network preparation—including upgrading
+bandwidth and opening ports in the firewall—you should test your network's
 performance. The results of this testing will paint a clearer picture of any
 network optimization or remediation required for the success of your Audio
 Conferencing or Phone System with Calling Plan implementation.
@@ -270,7 +271,7 @@ Network Assessment Tool**. At the command prompt, start the test for opened
 ports by entering **networkassessmenttool.exe /connectivitycheck**
 
 After running the checks, the tool will either display the message
-“Verifications Completed Successfully” or report on the ports that were blocked.
+"Verifications Completed Successfully" or report on the ports that were blocked.
 It also generates a file named Connectivity_results.txt, which contains the
 output from the tool and stores it in the
 %userprofile%\\appdata\\local\\microsoft skype for business network assessment
@@ -327,7 +328,7 @@ for each segment.
 
 Note that both segments must meet the requirements for a high-quality
 deployment. We recommend that you run the tool multiple times for one hour
-straight to get a good indication of your network’s performance.
+straight to get a good indication of your network's performance.
 
 <!--ENDOFSECTION-->
 
@@ -346,7 +347,7 @@ Teams, you can accomplish this in several ways:
 
 Quality of service (QoS) can be used to battle impairments by prioritizing and
 separating traffic. Some organizations choose to deploy QoS to overcome
-bandwidth issues or restrict the amount of traffic flowing. This won’t improve
+bandwidth issues or restrict the amount of traffic flowing. This won't improve
 quality and will lead to new problems. A root-cause analysis should always be
 performed when network impairments exceed requirements. QoS can be a solution.
 For more information, see [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).

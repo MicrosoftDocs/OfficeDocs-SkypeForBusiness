@@ -23,6 +23,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -55,6 +56,17 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+### 4.4.25.0 (03/31/2020)
+
+Introduced in this update:
+
+- Modern authentication support for Exchange and Skype for Business
+- Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)
+- Ability to disable duplicate content out of meeting for dual displays rooms using XML
+- Application splash screen
+- Open Source Software (OSS) notices in device settings
+- Fix for PSOM connectivity when TLS 1.0 and TLS 1.1 are disabled in Skype for Business Server 2015/2019.
+
 ### 4.3.42.0 (03/02/2020)
 
 Introduced in this update:

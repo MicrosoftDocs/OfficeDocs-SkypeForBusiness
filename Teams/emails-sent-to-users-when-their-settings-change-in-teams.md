@@ -1,5 +1,5 @@
 ---
-title: "Emails sent to users when their settings change in Microsoft Teams"
+title: "Emails sent to users when their settings change"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change in Microsoft Teams. "
 ---
 

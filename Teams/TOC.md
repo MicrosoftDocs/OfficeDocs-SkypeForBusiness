@@ -12,8 +12,6 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
 
@@ -37,6 +35,7 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
+## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
@@ -96,7 +95,6 @@
 ### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
-### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Assign policies to your users](assign-policies.md)
@@ -124,6 +122,7 @@
 <!-- ============================================================ -->
 
 # Meetings and conferencing
+## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
@@ -292,6 +291,16 @@
 #### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
+### Local Media Optimization for Direct Routing
+#### [Plan for Local Media Optimization](direct-routing-media-optimization.md)
+#### [Configure Local Media Optimization](direct-routing-media-optimization-configure.md)
+
+### Monitor and troubleshoot Direct Routing
+#### [Overview](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [Migrate to Direct Routing](direct-routing-migrating.md)
 
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
@@ -474,9 +483,8 @@
 ### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
 ### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Upgrade to Teams
 
@@ -559,15 +567,14 @@
 
 ## [Integration with Exchange and SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 Business Voice
 ## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## [Country and region availability](business-voice/country-region-availability.md)
 ## What to know before buying
 ### [What to buy to get Business Voice](business-voice/what-to-buy.md)
+### [Get help from a reseller or partner](business-voice/reseller-partner-support.md)
 ### [Check your Internet connection](business-voice/get-ready-internet.md)
 ### [Get your users ready](business-voice/prepare-users.md)
 ## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
@@ -592,16 +599,11 @@
 
 ## [Partner resources](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Quickstart for firstline workers](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,6 +630,7 @@
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Teams Licensing for Education](teams-edu-licensing.md)
+### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
@@ -635,10 +638,17 @@
 ### [Install Moodle integration](install-moodle-integration.md)
 ### [Education SKU reference](sku-reference-edu.md)
 
+## Teams for Firstline Workers
+### [Quickstart for firstline workers](firstline-workers-quickstart.yml)
+### [Firstline workers scripted deployment](flw-scripted-deployment.md)
+### [RealWear for Microsoft Teams](flw-realwear.md)
+### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
+
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
@@ -649,9 +659,12 @@
 
 # Security and compliance
 ## [Overview](security-compliance-overview.md)
+## [Location of data in Teams](location-of-data-in-teams.md)
 ## Security
+### [Security Guide](teams-security-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
+### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
@@ -690,8 +703,7 @@
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
@@ -740,6 +752,7 @@
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
+### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Virtual User license](teams-add-on-licensing/virtual-user.md)
