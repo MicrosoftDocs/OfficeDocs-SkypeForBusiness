@@ -95,9 +95,6 @@ Begin by following the steps below:
 
 15. Now the app is available as a static tab for you to load and view in Teams.
 
-> [!IMPORTANT]
-> We have sample scripts available that perform most of the actions in the steps above. These scripts are zipped and available for download at [this location](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-creation-sp-site.zip?raw=true).
-
 ## Test and view your new static tab
 
 To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar. Find your new app, load it, and test your standalone application in Teams.
