@@ -71,7 +71,8 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector4.png)
 
-**Important Note:** Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
+    > [!IMPORTANT] 
+    > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
 
 3.  Next, select any dimensions you want to filter on and drag them to the *Filters on this visual* field in the *Filters* pane. The CQD Power BI Connector currently supports *Basic filtering* (select values from a list of possible dimension values), *Advanced filtering* (manually specify values and operands to filter on, similar to Advanced CQD), and *Relative date filtering* (only available for the *End Time* and *Start Time* dimensions). Filtering according to *Top N* is not supported by CQD.
 
@@ -79,7 +80,8 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 4.  Finally, select the *Format* tab within the *Visualizations* pane to style and format your query.
 
-**Note:** CQD queries require at least one measure in order to run. If your query does not load, double check that you have included a measure in the query.
+    > [!NOTE]
+    > CQD queries require at least one measure in order to run. If your query does not load, double check that you have included a measure in the query.
 
 ## Creating a Drillthrough Report
 
@@ -97,7 +99,8 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 Unlike Advanced CQD, Power BI supports non-sequential drillthrough. So long as a query includes the necessary dimension, it can drillthrough to any other page.
 
-BEST PRACTICE:
+### Best practice
+
 Call Quality connector queries should be designed with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries which contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
 
 ## Limitations
@@ -142,7 +145,7 @@ If you encounter any additional errors outside of this scope, please notify the 
 
 ## Footnotes
 
-**<sup>1</sup>** Certain processes and apps (e.g. OneDrive) may cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is placed inside of the current root folder Documents folder.
+**<sup>1</sup>** Certain processes and apps (e.g., OneDrive) may cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is placed inside of the current root folder Documents folder.
 
 **<sup>2</sup>** The login credentials you use for CQD *do not* need to be the same credentials you use for logging into the Power BI Desktop app itself.
 
