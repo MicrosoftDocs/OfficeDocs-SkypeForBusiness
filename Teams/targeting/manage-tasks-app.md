@@ -24,6 +24,7 @@ The Tasks app in Teams
 - Users can create personal tasks and see their assigned team tasks to manage and prioritize work.
 - 
 
+---
 - Transition into Planner app 
 - Users will see Personal lists and Team lists 
 - Note that they will get a desktop experience and mobile experience.  If the app is installed for a user on desktop, they will also see it on mobile. 
@@ -42,7 +43,7 @@ Tasks in Teams integrates both To Do and Planner, so individuals who frequently 
 
 Tasks is available as an app and as a tab in individual teams. The Tasks app shows users all their personal tasks from To Do and team tasks Planner. The tab is for teams tasks, so it links directly to Planner. Users won't be able to add a To Do tab to a channel but any tasks that are assigned to a user in Planner show up in To Do.
 
-The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is in a team that's defined in the hierarchy. If a user is in a team in the hierarchy, they can publish or receive tasks lists and view reporting for received lists.
+---
 
 ## Set up Tasks
 
@@ -66,6 +67,8 @@ App setup policies let you customize Teams to highlight the apps that are most i
 
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](../teams-app-setup-policies.md).
 ## Publishing tasks
+
+The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is in a team that's defined in the hierarchy. If a user is in a team in the hierarchy, they can publish or receive tasks lists and view reporting for received lists.
 
 ### Scenario
 
