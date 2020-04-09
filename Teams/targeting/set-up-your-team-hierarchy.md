@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
-description: Learn how to set up a team hierarchy in your organization that you can use to publish content to a large set of teams.
+description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -21,11 +21,11 @@ appliesto:
 To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
 
 > [!IMPORTANT]
-> You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release of teams targeting, only the Tasks app supports hierarchical teams.
+> You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release, only the Tasks app supports hierarchical teams. The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks.
 
 ## Plan your hierarchy
 
-Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Nodes at the bottom of the hierarchy (those without children) are teams that can be targeted for tasks while other nodes (parents) are organizational groups with permission to publish tasks downward.
+Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Nodes at the bottom of the hierarchy (those without children) are teams that can receive tasks while other nodes (parents) are organizational groups with permission to publish tasks downward.
 
 For example, in the following hierarchy, Recall, Retail Communications, and HR, can publish tasks to every bottom node in the hierarchy, whereas North East Zone can only publish tasks to New York Store and Boston Store. This hierarchy allows the Recall, Retail Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. North East Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York and Boston stores.
 
@@ -43,8 +43,8 @@ The CSV file must contain the following three columns, in the following order, s
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
 | TargetName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
-| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
-| InternalID        | Yes, if the team receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
+| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
+| InternalID        | Yes, if the team receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 ### Add attribute columns
 
@@ -75,7 +75,7 @@ When you add a bucket column, note the following:
 - The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
 - You can map a bucket to only one channel. This means that each row can contain only one value for each bucket.
 - To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
-- At launch, we expect to support 25 bucket columns. We plan to work with customers to raise this limit for larger organizations.
+- At launch, we expect to support 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 
