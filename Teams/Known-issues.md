@@ -152,6 +152,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Teams on Surface Pro X crashes often. | Current Teams Windows download is not optimized with ARM64 Processor.  | A future ARM client soon to be released to help fix this issue for SPX and/or any other ARM based CPU machines. Please vote on the [Following Teams UserVoice item](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/39333265-offer-a-native-windows-on-arm-arm64-version) for an update when this will be released. | 12/28/2019 |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |Can't start Teams for Surface Hub from Microsoft Store |Microsoft Teams for Surface Hub won't start when you click **Launch** in the Microsoft Store. | Launching the Teams for Surface Hub app from the Microsoft Store listing isn't supported by Windows on Surface Hub. <br> <br/> Please restart your Surface Hub after installing Teams. | 2/27/18 |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
