@@ -67,6 +67,8 @@ Students and educators will get the most out of Teams when they can use it with 
 
 Higher education customers benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary schools may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Office 365 group and Team creation can be restricted to all educators and staff.
 
+For a walkthrough of how to create Teams, check out: [Create a class team in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### 2. Configure user experiences using policies
 
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
@@ -96,6 +98,10 @@ Here's a set of common non-default policy configurations that would be assigned 
 - Allow channel meeting scheduling set to 'off'
 - Allow scheduling of private meetings set to 'off'
 - Allow Meet now in private meetings set to 'off'
+- Optional: Allow IP video set to 'on'
+
+> [!NOTE]
+> This allows educators to be able to see students' videos in real-time.
 
 #### Live events policy
 
@@ -144,6 +150,8 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
+
+If you want to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### Prevent users from changing their profile photo
 
