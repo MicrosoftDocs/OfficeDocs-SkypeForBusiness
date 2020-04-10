@@ -151,6 +151,8 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
 
+If you want to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
+
 ### Prevent users from changing their profile photo
 
 Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off, users can't add, change, or remove their profile picture. To prevent students or staff from changing or removing their profile picture, turn off this setting in the Outlook on the web mailbox policy that's assigned to them.
