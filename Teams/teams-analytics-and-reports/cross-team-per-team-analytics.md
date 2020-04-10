@@ -62,14 +62,13 @@ Users can filter any of these views to see data for a specified time period.
     |**Messages** chart  |Total number of messages posted in team chat by date. Hover over the dot on a given date to see the number of new posts and replies posted on that date.|
 
 > [!TIP]
-> You can also view per-team analytics by clicking a team in list in the [cross-analytics view](#view-cross-team-analytics).
+> You can also view per-team analytics by clicking a team in list in the [cross-team analytics view](#view-cross-team-analytics).
 
 ## View per-channel analytics
 
 1. In Teams, go to the channel that you want, click **More options (...)**, and then click **Manage channel**.
 2. Click the **Analytics** tab.
-3. To view data for all channels in the team, select **All Channels**. To view data for a specific channel, select that channel.
-4. Select a date range to show usage data for the channel.  
+3. Select a date range to show usage data for the channel.  
 
     ![cross-team-and-per-team-analytics-per-team.png](../media/cross-team-and-per-team-analytics-per-team.png)
 
