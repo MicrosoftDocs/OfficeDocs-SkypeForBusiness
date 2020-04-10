@@ -199,7 +199,7 @@ You can enable presence-based call routing with any of the routing methods.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. Agents who aren't in the call routing list won't receive calls. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
 ### Select an agent opt-out option
