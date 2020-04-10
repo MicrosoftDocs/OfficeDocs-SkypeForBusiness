@@ -116,8 +116,6 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
-
-
 ## Teams live events
 
 |Feature     | Maximum limit |
@@ -151,6 +149,15 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## Tags
+
+|Feature  |Maximum limit  |
+|---------|---------|
+|Number of tags per team    | 100        |
+|Number of suggested default tags per team    | 25        |
+|Number of team members assign to a tag    |100         |
+|Number of tags assigned to a user    |25         |
 
 ## Contacts
 

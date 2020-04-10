@@ -116,6 +116,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 > [!IMPORTANT]
 > The voicemail service in Office 365 caches voicemail policies and updates the cache every 4 hours. So, policy changes that you make can take up to 4 hours to be applied.
 
+## Help your users learn Teams voicemail features
+
+We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
+
+- [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). This article explains how to manage all end-user Teams calling features. 
+
 ## Help your users learn Skype for Business voicemail features
 
 We have training information and articles to help your users be successful with Skype for Business voicemail. Point them to the following articles:
