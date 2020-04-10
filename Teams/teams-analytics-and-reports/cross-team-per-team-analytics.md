@@ -1,5 +1,5 @@
 ---
-title: View cross-team and per-team analytics in Teams
+title: View analytics in Teams
 author: LanaChin    
 ms.author: v-lanac
 manager: serdars
@@ -13,19 +13,21 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
 - M365-collaboration
-description: Learn about cross-team analytics and per-team analytics in Teams, which let users see usage data for teams that they are members of.
+description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they are part of.
 appliesto: 
 - Microsoft Teams
 ---
-# View cross-team and per-team analytics in Teams
+# View analytics in Teams
 
-In Microsoft Teams, users can view analytics for teams that they are members or owners of. This information gives users insight into usage patterns and activity on their teams. Users can see data such as the number of active users, posts, replies, and guests in each team.
+In Microsoft Teams, users can view analytics for teams and channels that they are part of. This information gives users insight into usage patterns and activity on their teams. Users can see data such as the number of active users, posts, replies, and more at three levels.
 
-Cross-team analytics gives users a broad overview of usage data for all teams that they are a member or owner of in a single list view. This includes active user and message counts and trend lines for team activity. 
+- Cross-team analytics gives users a broad overview of usage data for all teams that they are a member or owner of in a single list view.
+- Per-team analytics gives users a more granular view, showing usage data for a specific team.
+- Per-channel analytics gives users an even more granular view, showing usage data for a specific channel.
 
-Per-team analytics gives users a more granular view of usage data for a specific team. This includes temporal-based charts for active user and message counts plus deeper breakdowns of user types and activity trends. Users can filter the view to see data for a specific channel in a team or all channels in a team.
+Users can filter any of these views to see data for a specified time period.
 
-## View analytics for all teams that you're a member or owner of
+## View cross-team analytics 
 
 1. In Teams, at the bottom of the teams list, next to **Join or create a team**, click **Manage teams**.
 2. Click the **Analytics** tab, and then select a date range to show usage data for all teams that you're a member or owner of.
@@ -38,11 +40,11 @@ Per-team analytics gives users a more granular view of usage data for a specific
     |**Active users**   |Number of active users on the team and trend line of team activity during the specified time period. 
     |**People**   |Total number of people on the team in the specified time period. This includes team owners, team members, and guests.|
     |**Guests**   |Number of guests on the team during the specified time period. |
-    |**Post**   |Number of unique messages posted in team chat during the specified time period. |
-    |**Reply**   |Number of unique replies in team chat during the specified time period. |
+    |**Posts**   |Number of new messages posted in team chat during the specified time period. |
+    |**Replies**   |Number of replies in team chat during the specified time period. |
     |**Type**   |Whether the team is a private team or public team.|
 
-## View analytics for a team that you're a member or owner of
+## View per-team analytics
 
 1. In Teams, go to the team that you want, click **More options (...)**, and then click **Manage team**.
 2. Click the **Analytics** tab.
@@ -53,12 +55,25 @@ Per-team analytics gives users a more granular view of usage data for a specific
 
     |Item |Description  |
     |--------|-------------|
-    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of unique messages posted in team chat during the specified time period.</li><li>**Replies**: Number of unique replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps</li><li>**Meetings**: Number of Teams meetings scheduled during the specified time period.</li> <li>**SharePoint files**: Size of all files shared in channel conversations during the specified time period.</li> </ul> |
+    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted in team chat during the specified time period.</li><li>**Replies**: Number of replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps added to the team</li><li>**Meetings**: Number of Teams meetings organized at the team level.</li> </ul> |
     |**Active users**   |Number of active and inactive users.|
     |**Role**   |Numbers of users by role, including team owners, team members, and guests.|
-    |**Active users** chart  |Number of active users by date. Hover over the dot on a given date to see the number of active users on that date.|
-    |**Messages** chart  |Number of unique messages posted in team chat by date. Hover over the dot on a given date to see the number of unique messages posted on that date.|
-    |**Meetings** chart  |Number of Teams meetings scheduled by date. Hover over the dot on a given date to see the number of meetings scheduled on that date.|
+    |**Active users** chart  |Number of daily active. Hover over the dot on a given date to see the number of active users on that date.|
+    |**Messages** chart  |Total number of messages posted in team chat by date. Hover over the dot on a given date to see the number of new posts and replies posted on that date.|
+
+## View per-channel analytics
+
+1. In Teams, go to the channel that you want, click **More options (...)**, and then click **Manage channel**.
+2. Click the **Analytics** tab.
+3. To view data for all channels in the team, select **All Channels**. To view data for a specific channel, select that channel.
+4. Select a date range.  
+
+    ![cross-team-and-per-team-analytics-per-team.png](../media/cross-team-and-per-team-analytics-per-team.png)
+
+    |Item |Description  |
+    |--------|-------------|
+    |**Summary**   |Summary of channel activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted to the channel during the specified time period.</li><li>**Replies**: Number of replies in the channel during the specified time period.</li> <li>**Apps**: Number of apps added to the channel</li> </ul> |
+    |**Messages** chart  |Total number of messages posted to the channel chat by date. Hover over the dot on a given date to see the number of new posts and replies posted on that date.|
     
 > [!NOTE]
 > We define active users as users who perform an intentional action in the desktop client, mobile client, and web client. Examples of an intentional action include starting a chat, placing a call, sharing a file, editing a document within teams, participating in a meeting, and so on. We strip out passive actions like auto boot, minimizing a screen, or closing the app. We also de-dupe all actions across a single user ID.
@@ -67,4 +82,3 @@ Per-team analytics gives users a more granular view of usage data for a specific
 
 - [View analytics for your teams](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams analytics and reporting](teams-reporting-reference.md)
- 
