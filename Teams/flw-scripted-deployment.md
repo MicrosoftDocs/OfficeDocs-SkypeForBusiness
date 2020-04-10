@@ -32,6 +32,9 @@ In this walkthrough, you'll learn how to:
 - Apply those policies to users at scale.
 - Assign a large number of users into a designated team.
 
+> [!NOTE]
+> If you've reviewed this information and feel like you need some help or have some questions, you can [**click here**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u) to reach out for White Glove Support.
+
 ## Prerequisites
 
 Download the assets from [this location](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true).
