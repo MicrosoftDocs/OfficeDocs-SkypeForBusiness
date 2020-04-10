@@ -18,11 +18,13 @@ appliesto:
 
 # Manage the Tasks app for your organization in Microsoft Teams
 
-The Tasks app in Teams  
+The Tasks app in Teams. Tasks is available as an app and as a tab in individual teams.
 
-- Set up a team hierarchy to publish tasks to large sets of teams across your organization.
-- Users can create personal tasks and see their assigned team tasks to manage and prioritize work.
-- 
+- Users can create personal tasks and see their assigned team tasks to manage and prioritize work. 
+- For To Do and Planner users, Tasks integrates tasks into one view. Tasks shows users all their personal tasks from To Do and team tasks from Planner. The tab is for teams tasks, so it links directly to Planner. Users won't be able to add a To Do tab to a channel but any tasks that are assigned to a user in Planner show up in To Do.
+- Set up a team hierarchy for your organization to publish tasks lists to assign, and track tasks across locations.
+
+
 
 ---
 - Transition into Planner app 
@@ -33,20 +35,7 @@ The Tasks app in Teams
 - PowerAutomate and Graph APIs  for To Do and Planner - Refer to To Do and Planner documentation 
 - Guest user behavior - Guest users won't see the Tasks app on desktop but they will on mobile. They'll see the tabs in both places.
 
-With Tasks in Teams, now customers can drive consistent execution of store operations at scale across all of an organization's locations. Corporate and regional leadership can send task lists targeted to the relevant locations, such as specific retail stores, and track their progress through automatic real-time reports. Managers have tools to easily direct activities within their stores, and Firstline Workers have a simple prioritized list available via their personal or company-issued device showing them exactly what to do next. Tasks targeting, publishing, and reporting is coming to Teams in the first half of this year. Assign task lists to users. Corporate headquarters can target, assign, and track tasks across locations. Firstline Workers can view tasks assigned to them and across the store.
-
-With Tasks in Teams, organizations can drive consistent execution of store operations at scale across all locations. Corporate and regional leadership can send task lists targeted to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned work.
-
-Scenario: Communications manager creates lists of tasks that need to be completed and choose the set of store teams that should each receive a copy of the tasks. When selecting store teams, can filter by hierarchy, attributes, or a combination of both. Hierarchy and attributes can be completely customized for the organization . Store managers assign the tasks to team members (Charts view, schedule view, board view, list view)apply a filter, and team members (store associate) can prioritize and manage the work assigned to them. Mark task as complete. Communications manager can see percentage of store teams that have assigned and completed tasks. Can drill down to a specific task to see the status within different parts of the organization, drilling down all the way to a specific team. Similarly, see a drill down for the list as a whole to understand assigned and completed status at each level of the organization, including a specific team. Can see each task in the task list of a team Reportingu nderstand the tasks as a whole to understand assignment and completion status of tasks at each level of the organization, can drill down to , specific tasks. Can see status of each 
-
-Tasks in Teams integrates both To Do and Planner, so individuals who frequently divide their attention across personal and team tasks will have a view that includes both.  For users of To Do and Planner, it is also a great way to access tasks while communicating with a team, without having to switch apps.
-
-Tasks is available as an app and as a tab in individual teams. The Tasks app shows users all their personal tasks from To Do and team tasks Planner. The tab is for teams tasks, so it links directly to Planner. Users won't be able to add a To Do tab to a channel but any tasks that are assigned to a user in Planner show up in To Do.
-
-
-
 ---
-
 ## Set up Tasks
 
 ### Enable or disable Tasks in your organization
@@ -68,9 +57,15 @@ To allow or block specific users in your organization from using Tasks, make sur
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
 
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](../teams-app-setup-policies.md).
-## Publishing tasks
+
+## Tasks publishing
+
+With Tasks in Teams, organizations can drive consistent execution of store operations at scale across all locations. Corporate and regional leadership can send task lists targeted to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned work.
+
+Corporate headquarters can target, assign, and track tasks across locations. Firstline Workers can view tasks assigned to them and across the store.
+
+Scenario: Communications manager creates lists of tasks that need to be completed and choose the set of store teams that should each receive a copy of the tasks. When selecting store teams, can filter by hierarchy, attributes, or a combination of both. Hierarchy and attributes can be completely customized for the organization . Store managers assign the tasks to team members (Charts view, schedule view, board view, list view)apply a filter, and team members (store associate) can prioritize and manage the work assigned to them. Mark task as complete. Communications manager can see percentage of store teams that have assigned and completed tasks. Can drill down to a specific task to see the status within different parts of the organization, drilling down all the way to a specific team. Similarly, see a drill down for the list as a whole to understand assigned and completed status at each level of the organization, including a specific team. Can see each task in the task list of a team Reportingu nderstand the tasks as a whole to understand assignment and completion status of tasks at each level of the organization, can drill down to , specific tasks. Can see status of each 
+
+Tasks in Teams integrates both To Do and Planner, so individuals who frequently divide their attention across personal and team tasks will have a view that includes both.  For users of To Do and Planner, it is also a great way to access tasks while communicating with a team, without having to switch apps.
 
 The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is in a team that's defined in the hierarchy. If a user is in a team in the hierarchy, they can publish or receive task lists and view reporting for received lists.
-
-### Scenario
-
