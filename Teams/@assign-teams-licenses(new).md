@@ -54,55 +54,7 @@ This example assigns an Enterprise E3 license along with a Phone System and a Do
 
 The name of the licenses or product names in the script are listed in italics (see [Phone System and Calling Plans product names or SKUs used for scripting](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting), after the example).
 
-```powershell
-#Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
-#Example of text file:
-#user1@domain.com
-#user2@domain.com
-
-#Import Module
-ipmo MSOnline
-#Authenticate to MSOLservice.
-Connect-MSOLService
-#File prompt to select the userlist txt file.
-[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-$OFD = New-Object System.Windows.Forms.OpenFileDialog
-$OFD.filter = "text files (*.*)| *.txt"
-$OFD.ShowDialog() | Out-Null
-$OFD.filename
-If ($OFD.filename -eq '')
-{
- Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-}
-#Create a variable of all users.
-$users = Get-Content $OFD.filename
-#License each user in the $users variable.
-#Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
-International Calling.
-for each ($user in $users)
- {
- Write-host "Assigning License: $user"
- Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
- Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOEV " -ErrorAction SilentlyContinue
- Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
- }
-
-```
-
-## Phone System and Calling Plans product names or SKUs used for scripting
-
-| Product name | SKU part name |
-|--------------|---------------|
-| Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
-| Enterprise E3 | ENTERPRISEPACK | 
-| Enterprise E1 | STANDARDPACK | 
-| Phone System | MCOEV |
-| Domestic & International Calling Plan | MCOPSTN2 |
-| Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
-| Domestic Calling Plan (120 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN5 |
-| Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN6 |
-| Communications Credits | MCOPSTNPP | 
 
 ## Assign an Audio Conferencing license to one user
 

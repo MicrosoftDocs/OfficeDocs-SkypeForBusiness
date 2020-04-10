@@ -23,8 +23,7 @@ appliesto:
 
 Manage user access to Microsoft Teams
 =====================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+
 
 At the user level, access to Microsoft Teams can be enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license.
 
@@ -33,11 +32,11 @@ Use messaging policies, managed from the Teams Admin Center, to control what cha
 > [!NOTE]
 >Microsoft recommends that you turn on Teams for all users in a company so that teams can be formed organically for projects and other dynamic initiatives. Even if you are deciding to pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
-## Manage Teams through the Microsoft 365 admin center
+## Assigning a license to a user for Teams
 
-Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. The administrator must have Office 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
+Teams licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. The administrator must have Office 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
 
-When a license SKU like E3 or E5 is assigned to a user, a Microsoft Teams license is automatically assigned, and the user is enabled for Microsoft Teams. Administrators can have a granular control over all the Office 365 services and licenses, and the Microsoft Teams license for a specific user or a group of users can be enabled or disabled.
+
 
 ![Screenshot of Product licenses section in admin center.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
@@ -71,6 +70,63 @@ To disable Teams for all users with an active license for your named plan, run t
 |![An icon representing a decision point](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Decision Point         |<ul><li>What is your organization’s plan for Teams onboarding across the organization?  (Pilot or Open)</li></ul>         |
 |![An icon representing the next steps](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targeted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Teams.</li></ul>         |
 
+
+<Inserting the bulk license assignment>
+
+`powershell
+#Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+
+#Example of text file:
+#user1@domain.com
+#user2@domain.com
+
+#Import Module
+ipmo MSOnline
+#Authenticate to MSOLservice.
+Connect-MSOLService
+#File prompt to select the userlist txt file.
+[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+$OFD = New-Object System.Windows.Forms.OpenFileDialog
+$OFD.filter = "text files (*.*)| *.txt"
+$OFD.ShowDialog() | Out-Null
+$OFD.filename
+If ($OFD.filename -eq '')
+{
+ Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
+}
+#Create a variable of all users.
+$users = Get-Content $OFD.filename
+#License each user in the $users variable.
+#Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
+International Calling.
+for each ($user in $users)
+ {
+ Write-host "Assigning License: $user"
+ Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+ Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOEV " -ErrorAction SilentlyContinue
+ Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
+ }
+
+```
+## Phone System and Calling Plans product names or SKUs used for scripting
+
+| Product name | SKU part name |
+|--------------|---------------|
+| Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
+| Enterprise E3 | ENTERPRISEPACK | 
+| Enterprise E1 | STANDARDPACK | 
+| Phone System | MCOEV |
+| Domestic & International Calling Plan | MCOPSTN2 |
+| Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
+| Domestic Calling Plan (120 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN6 |
+| Communications Credits | MCOPSTNPP | 
+
 ## Manage Teams at the Office 365 tenant level
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
+## Adding voice features for your Teams users
+
+If you are a small business, go to ---------
+
+If you are an Enterprise or large business, go to --------
