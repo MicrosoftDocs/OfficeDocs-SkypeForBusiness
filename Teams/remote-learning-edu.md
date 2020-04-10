@@ -24,6 +24,7 @@ appliesto:
 > [!NOTE]
 > This article is a great resource for getting your school set up for remote learning. If you're an educator, school leader, or IT professional, these resources may help:
 >
+> - Get your entire school or university up and running on Teams quickly with the [**Getting Started one-pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for security and change management.
 > - A collection of articles written for educators including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - A 1-hour online course in the Microsoft Educator Center shows how educators use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
@@ -66,6 +67,8 @@ Students and educators will get the most out of Teams when they can use it with 
 
 Higher education customers benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary schools may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Office 365 group and Team creation can be restricted to all educators and staff.
 
+For a walkthrough of how to create Teams, check out: [Create a class team in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### 2. Configure user experiences using policies
 
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
@@ -95,6 +98,10 @@ Here's a set of common non-default policy configurations that would be assigned 
 - Allow channel meeting scheduling set to 'off'
 - Allow scheduling of private meetings set to 'off'
 - Allow Meet now in private meetings set to 'off'
+- Optional: Allow IP video set to 'on'
+
+> [!NOTE]
+> This allows educators to be able to see students' videos in real-time.
 
 #### Live events policy
 
@@ -131,6 +138,8 @@ After team setup, team owners can [customize their team's settings](https://supp
 
 [Microsoft Teams meetings](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) support up to 250 concurrent attendees, including the ability to have audio, video, [content sharing](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), whiteboards, and shared notes. Meetings can be scheduled within the Teams client for [meeting within a private space or within a team channel](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), so all team members know about it. Meetings can be recorded and saved for attendees to review later. These recordings can also be [transcribed to easily find content](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308) that had been discussed. A laptop or mobile phone webcam, microphone, and speaker can be used for meetings, and you can get premium audio/video quality from [Microsoft Teams optimized devices](https://products.office.com/microsoft-teams/across-devices/devices).
 
+In Teams, meeting organizers can end a meeting for all participants. With this capability, educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+
 ### District/University events or updates
 
 Some instruction needs larger audiences and additional production capabilities. These meetings often have defined presenters, producers, and moderated Q&A. Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md). Live Events can be used for scenarios, such as district or university-wide updates, leadership addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: [plan and schedule a live event](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produce a live event](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [attend a live event](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac), and [moderating a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
@@ -141,6 +150,8 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
+
+If you want to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### Prevent users from changing their profile photo
 
