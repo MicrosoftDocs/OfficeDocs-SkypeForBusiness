@@ -38,7 +38,7 @@ Users can filter any of these views to see data for a specified time period.
     |Item |Description  |
     |--------|-------------|
     |**Name**   |Name of the team. |
-    |**Active users**   |Number of active users on the team and trend line of team activity during the specified time period. 
+    |**Active users**   |Number of active users on the team and trend line of team activity during the specified time period.
     |**People**   |Total number of people on the team in the specified time period. This includes team owners, team members, and guests.|
     |**Guests**   |Number of guests on the team during the specified time period. |
     |**Posts**   |Number of new messages posted in team chat during the specified time period. |
@@ -55,7 +55,7 @@ Users can filter any of these views to see data for a specified time period.
 
     |Item |Description  |
     |--------|-------------|
-    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted in team chat during the specified time period.</li><li>**Replies**: Number of replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps added to the team</li><li>**Meetings**: Number of Teams meetings organized at the team level.</li> </ul> |
+    |**Summary**   |Summary of team activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted in team chat during the specified time period.</li><li>**Replies**: Number of replies in team chat during the specified time period.</li> <li>**Apps**: Number of apps added to the team.</li><li>**Meetings**: Number of Teams meetings organized at the team level.</li> </ul> |
     |**Active users**   |Number of active and inactive users.|
     |**Role**   |Numbers of users by role, including team owners, team members, and guests.|
     |**Active users** chart  |Number of daily active. Hover over the dot on a given date to see the number of active users on that date.|
@@ -75,7 +75,7 @@ Users can filter any of these views to see data for a specified time period.
 
     |Item |Description  |
     |--------|-------------|
-    |**Summary**   |Summary of channel activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted to the channel during the specified time period.</li><li>**Replies**: Number of replies in the channel during the specified time period.</li> <li>**Apps**: Number of apps added to the channel</li> </ul> |
+    |**Summary**   |Summary of channel activity including the following:<ul><li>**Users**: Total number of users in the specified time period. This includes team owners, team members, and guests.</li> <li>**Posts**: Number of new messages posted to the channel during the specified time period.</li><li>**Replies**: Number of replies in the channel during the specified time period.</li> <li>**Apps**: Number of apps added to the channel.</li> </ul> |
     |**Messages** chart  |Total number of messages posted to the channel chat by date. Hover over the dot on a given date to see the number of new posts and replies posted on that date.|
 
 > [!TIP]
