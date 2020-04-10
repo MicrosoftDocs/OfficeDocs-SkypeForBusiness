@@ -78,7 +78,7 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the "Automatically admin people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users are must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
+> For meeting policies assigned to any users, we recommend setting the "Automatically admin people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Here's a set of common non-default policy configurations that would be assigned to primary-secondary students to limit unmoderated communication between students:
 
