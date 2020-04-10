@@ -54,14 +54,15 @@ Download the assets from [this location](https://aka.ms/flwteamsscale).
     1. Download from the GitHub repository containing the sample PowerShell scripts and documentation
     1. Configure the local environment
     1. Setup credentials
-    1. Configure PowerShell Modules and Environmental Variables
+    1. Configure PowerShell Modules and environmental variables
 1. **Create and Setup Teams**
-    1. Create Teams
-    1. Create Channels for Teams
+    1. Create teams
+    1. Steps to create teams
+    1. Create channels for teams
 1. **Create Teams Policies**
-    1. Create Teams Messaging Policies
-    1. Create Teams App Setup Policies
-    1. Create Teams App Permission Policies
+    1. Create Teams message policies
+    1. Create Teams app setup policies
+    1. Create Teams app permission policies
 1. **Users and Security Groups**
     1. Create users and security groups
     1. Assign licensing to users via group-based licensing
@@ -92,7 +93,7 @@ Setting the local environment variables allows the scripts referenced here to be
 
 For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
-### Setup Credentials
+### Setup credentials
 
 > [!IMPORTANT]
 > How credentials are managed in these scripts may not be appropriate for your use, and they're easily changed to meet your requirements. Always follow your company's standards and practices for securing service accounts and managed identities.
@@ -254,7 +255,7 @@ The following settings can be customized to meet your business needs. We have ch
     1. Shifts
     ![Screenshot of the worker apps list in order.](media/FLW-Worker-Pinned-Apps.png)
 
-### Create app permission policies
+### Create Teams app permission policies
 
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps, or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users who have the policy are unable to install it from the Teams app store. You must be a global admin or Teams service admin to manage these policies.
 
@@ -311,7 +312,7 @@ In order to manage these users at scale more effectively, you need to create two
     1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. From PowerShell, run the script **CreateUsers.ps1** from assets.
 
-### Assign licensing to users by Group-Based licensing
+### Assign licensing to users via group-based licensing
 
 Microsoft paid cloud services, such as Office 365, Enterprise Mobility + Security, Dynamics 365, and other similar products, require licenses. These licenses are assigned to each user who needs access to these services. To manage licenses, administrators use one of the management portals (Office or Azure) and PowerShell cmdlets. Azure Active Directory (Azure AD) is the underlying infrastructure that supports identity management for all Microsoft cloud services. Azure AD stores information about license assignment states for users.
 
