@@ -68,7 +68,7 @@ For more information about disabling basic authentication in Exchange Online, se
 
 ## Hybrid modern authentication
 
-To ensure successful authentication to your on-premises Exchange server and/or Skype for Business server, you must make sure the resource account that's used with Microsoft Teams Rooms is configured to get authorization from Azure AD. To learn more about hybrid identity and methods that works for your organization, read the following topics: 
+To ensure successful authentication to your on-premises Exchange server and/or Skype for Business server, you must make sure the resource account that's used with Microsoft Teams Rooms is configured to get authorization from Azure AD. To learn more about hybrid identity and methods that work for your organization, read the following topics: 
 
 - [What is password hash sync?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
 - [What is passthrough authentication?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
