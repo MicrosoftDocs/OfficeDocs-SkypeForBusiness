@@ -78,7 +78,7 @@ To ensure successful authentication to your on-premises Exchange server and/or S
 
 The prerequisites to enable modern authentication in your hybrid topology are covered in [Hybrid modern authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview). All the prerequisites discussed in the article apply.
 
-However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, the following are important differences to be aware of that are specific to Microsoft Team Rooms.
+However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, the following are important differences to be aware of that are specific to Microsoft Teams Rooms.
 
 - You must have Exchange server 2016 CU8 or later, or Exchange Server 2019 CU1 or later.
 - You must have Skype for Business Server 2015 CU5 or later, or Skype for Business Server 2019 or later.
