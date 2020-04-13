@@ -56,6 +56,9 @@ The following information is about configuring Cloud Voicemail to work with on-p
 
 6. To enable Voicemail features such as customizing greetings, and visual voicemail in Skype for Business clients, connectivity from Office 365 to the Exchange server mailbox via Exchange Web Services is required. To enable this connectivity you must configure the new Exchange Oauth authentication protocol described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Additionally, you must configure integration and Oauth between Skype for Business Online and Exchange server described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
+> [!NOTE]
+> When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
+
 ## Setting voicemail policies in your organization
 
 > [!WARNING]
@@ -113,6 +116,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 > [!IMPORTANT]
 > The voicemail service in Office 365 caches voicemail policies and updates the cache every 4 hours. So, policy changes that you make can take up to 4 hours to be applied.
 
+## Help your users learn Teams voicemail features
+
+We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
+
+- [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). This article explains how to manage all end-user Teams calling features. 
+
 ## Help your users learn Skype for Business voicemail features
 
 We have training information and articles to help your users be successful with Skype for Business voicemail. Point them to the following articles:
@@ -127,5 +136,4 @@ We have training information and articles to help your users be successful with 
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Plan for Skype for Business Server and Exchange Server migration](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-
 

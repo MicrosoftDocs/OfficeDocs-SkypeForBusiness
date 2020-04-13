@@ -26,9 +26,11 @@ Teams are collections of people who gather together around a common goal. This g
 
 Before creating a team, think about the goal, project, or work items and who in your organization can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
+
 Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
 
-> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+ [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+=======
 
 ## Add teams gradually
 
@@ -36,11 +38,11 @@ When you first roll out Teams, we recommend starting with a small number of team
 
 ## Create channels to focus discussions
 
-Once you've created your team, it's a good idea to start to think about the different projects and types of conversations you need to support. Create initial channels so people know where to contribute and to find existing conversations. Use descriptive channel names, to make it easy for people to know where to go for each conversation. Add tools (such as OneNote, Power BI, or Planner) as tabs to a channel so members have everything they need, right in the channel. You can also add a commonly used web page as a tab to a channel. 
+Once you've created your team, it's a good idea to start to think about the different projects and types of conversations you need to support. Create initial channels so people know where to contribute and to find existing conversations. Use descriptive channel names, to make it easy for people to know where to go for each conversation. Add tools (such as OneNote, Power BI, or Planner) as tabs to a channel so members have everything they need, right in the channel. You can also add a commonly used web page as a tab to a channel.
 
-Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
+Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users.
 
-Best practice: Create teams with a larger set of members and more channels. Minimize the number of teams that require a person's participation. Channels within a team should be thought of as topics or workstreams to aid the team in organizing their work to deliver on their joint objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities, and style. 
+Best practice: Create teams with a larger set of members and more channels. Minimize the number of teams that require a person's participation. Channels within a team should be thought of as topics or workstreams to aid the team in organizing their work to deliver on their joint objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities, and style.
 
 Use standard channels for conversations that everyone on the team can contribute to. Take advantage of [Private channels in Teams](private-channels.md) when you need a focused collaboration space with a select group of members.
 
@@ -59,12 +61,11 @@ You can't remove, rename, or unfavorite the General channel. Channels appear in 
 
 To learn more, peruse the **Work in channels** tab on the [Teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) page.
 
-
-
 ## Consider setting up moderation in your channels
 
 Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. (Team owners are moderators by default.) For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ## Related topics
 
-[Create an org-wide team in Teams](create-an-org-wide-team.md)
+- [Create an org-wide team in Teams](create-an-org-wide-team.md)
+- [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
