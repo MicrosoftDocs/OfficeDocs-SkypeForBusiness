@@ -1,7 +1,7 @@
 ---
 title: Manage large teams in Microsoft Teams - best practices
-ms.reviewer: pbethi
-author: CindyChurch
+ms.reviewer: abgupta
+author: cichur
 ms.author: cichur
 manager: serdars
 ms.topic: conceptual
@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 Manage large teams in Microsoft Teams - best practices
 ======================================================
 
-Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes.
+Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes.
 
 ## Value of large teams
 
@@ -42,15 +42,15 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
 
-See [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md) for details.
+See [Create an org-wide team](create-an-org-wide-team.md) for details.
 
 ## Create channels to focus discussions
 
-You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams in Microsoft Teams](best-practices-organizing.md).
+You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams](best-practices-organizing.md).
 
 ## Restrict channel creation
 
-If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members in **Settings > Member permissions**. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md).
+If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members in **Settings > Member permissions**. See [Overview of teams and channels](teams-channels-overview.md).
 
 ![Screen image that shows the member permissions section of the admin console Settings tab.](media/no-channel-creation.png "Screen image that member permissions section of the admin console Settings tab. The allow members to create or delete channels options are unchecked.")
 
@@ -60,7 +60,7 @@ In order to speed up new user engagement and content discovery, you can select f
 
 ![Screen image that shows the channels pane of the admin console.](media/favorite-channels.png "Screen image that shows channels pane of the admin console. Some channels are checked for Show for members.")
 
- See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+ See [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
 ## Disable applications and bots in large teams
 
@@ -68,7 +68,7 @@ To prevent addition of distracting applications or bots, team owners can disable
 
 ![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
 
-See [Apps, bots, & connectors in Microsoft Teams](deploy-apps-microsoft-teams-landing-page.md).
+See [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md).
 
 ## Regulate team and channel mentions
 
@@ -78,9 +78,9 @@ Team and channel mentions can be used to draw the attention of the whole team to
 
 ## Consider setting up moderation in your channels
 
-Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. Team owners are moderators by default. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. Team owners are moderators by default. For more information, see [Set up and manage channel moderation](manage-channel-moderation-in-teams.md).
 
 ## Related topics
 
-- [Best practices for organizing Teams in Microsoft Teams](best-practices-organizing.md)
-- [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md)
+- [Best practices for organizing Teams](best-practices-organizing.md)
+- [Create an org-wide team](create-an-org-wide-team.md)
