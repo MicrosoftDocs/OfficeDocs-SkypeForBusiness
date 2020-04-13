@@ -28,9 +28,9 @@ Microsoft Teams is equally effective at facilitating communications between smal
 
 Use contact groups, security groups, or Office groups to jump start your team. You can import a group to make a team or create a team from an Office group.
 
-**Import a group to make a team:** When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
+**Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
 
-**Create a team from a large O365 group:** When you create a team from a large O365 group, group members are automatically part of the O365 group **and** the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
+**Create a team from a large O365 group**: When you create a team from a large O365 group, group members are automatically part of the O365 group **and** the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
 
 See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
