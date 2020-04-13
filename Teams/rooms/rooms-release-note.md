@@ -64,7 +64,6 @@ Introduced in this update:
 - Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)
 - Ability to disable duplicate content out of meeting for dual displays rooms using XML
 - Application splash screen
-- Auto-answer setting to improve proximity based meeting join experience 
 - Open Source Software (OSS) notices in device settings
 - Fix for PSOM connectivity when TLS 1.0 and TLS 1.1 are disabled in Skype for Business Server 2015/2019.
 
