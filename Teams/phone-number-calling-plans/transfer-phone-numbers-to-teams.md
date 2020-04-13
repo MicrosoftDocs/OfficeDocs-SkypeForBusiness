@@ -34,7 +34,7 @@ Before you start, we recommend that you review the information in [What's a port
 ## Create a port order and transfer your phone numbers to Teams
 
 > [!NOTE]
-> **Currently, you can use this wizard to get phone numbers for the United Kingdom and Canada**. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md). To get the form you need to manually submit a port order, select your country or region in the drop-down list in [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> **Currently, you can use this wizard to get phone numbers for the United Kingdom, United States, and Canada**. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md). To get the form you need to manually submit a port order, select your country or region in the drop-down list in [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Click **Numbers**, and then click **Port** to start the porting wizard.
 2. Review the information on the **Get started** page, and then when you're ready, click **Next**.
