@@ -116,7 +116,7 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Taking charge of AV quality experience</h3>
+                        <h3>Taking charge of AV quality experiences</h3>
                         <p>Are you looking to ensure users have optimal experiences with meetings and voice capabilities in Teams? During this session,  we'll discuss tools, reporting and best practices to help you manage service quality&mdash;from establishing a proactive strategy to resolving common issues as they arise.</p>
                     </div>
                 </div>
