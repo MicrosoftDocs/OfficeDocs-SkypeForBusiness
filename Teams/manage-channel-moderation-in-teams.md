@@ -49,7 +49,7 @@ In this scenario, the team owner adds Marketing leads as moderators so they can 
 
 ### Use a channel for class discussions in Teams for Education
 
-In Teams for Education, a science teacher want to use a channel to engage students in focused discussions on specific classroom topics.
+In Teams for Education, a science teacher wants to use a channel to engage students in focused discussions on specific classroom topics.
 
 In this scenario, the teacher allows their teaching assistants to moderate the channel. The teaching assistants can then create new posts to initiate and drive discussions with students.
 
