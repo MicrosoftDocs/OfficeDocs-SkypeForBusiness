@@ -30,7 +30,7 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Import a group to make a team:** When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
 
-**Create a team from a large O365 group:** When you create a team from a large O365 group, group members are automatically part of the O365 group and the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
+**Create a team from a large O365 group:** When you create a team from a large O365 group, group members are automatically part of the O365 group **and** the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
 
 See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
@@ -44,7 +44,11 @@ If any team member is allowed to create channels, that team can have channel spr
 
 ## Add favorite channels
 
-In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin controls, check the channels under the **Show for members** column. See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin controls, check the channels under the **Show for members** column.
+
+![Screen image that shows the channels pane of the admin console.](media/favorite-channels.png "Screen image that shows channels pane of the admin console. Some channels are checked for Show for members.")
+
+ See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
 ## Disable applications and bots in large teams
 
@@ -62,7 +66,7 @@ Team and channel mentions can be used to draw the attention of the whole team to
 
 ## Consider setting up moderation in your channels
 
-Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. (Team owners are moderators by default.) For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. Team owners are moderators by default. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ## Related topics
 
