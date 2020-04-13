@@ -102,4 +102,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
-No other conditional access policies are supported. For more information about device compliance, see the guidance  [here](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).  
+No other conditional access policies are supported. For more information about device compliance, see the guidance in the [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230) topic.  
