@@ -22,32 +22,43 @@ ms.custom: seo-marvel-mar2020
 Manage large teams in Microsoft Teams - best practices
 ======================================================
 
-Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes. 
+Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes.
 
 ## Create teams from existing groups
 
-Use contact groups, security groups, or Office groups with up to 3,500 members to jump start your team. See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+Use contact groups, security groups, or Office groups to jump start your team. You can import a group to make a team or create a team from an Office group.
+
+**Import a group to make a team:** When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
+
+**Create a team from a large O365 group:** When you create a team from a large O365 group, group members are automatically part of the O365 group and the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
+
+See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
 ## Create channels to focus discussions
 
 You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams in Microsoft Teams](best-practices-organizing.md).
+
 ## Restrict channel creation
 
 If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md).
 
 ## Add favorite channels
 
-In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin controls, check the channels under the **Show for members** column. See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+
+## Disable applications and bots in large teams
+
+To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the admin console under **Settings > Member permissions**, uncheck the three options that allow members to add apps or connectors.
+
+![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
+
+See [Apps, bots, & connectors in Microsoft Teams](deploy-apps-microsoft-teams-landing-page.md)
 
 ## Regulate team and channel mentions
 
 Team and channel mentions can be used to draw the attention of the whole team to certain channel posts. Once a mention is used in a post, a notification is sent to thousands of team members. If the notifications are too frequent, then team members can become overloaded and might complain to team owners. To prevent team or channel mentions, turn off team and channel mentions for members by unchecking the boxes in the teams Settings pane.
 
 ![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "Screen image that shows the at Mentions section of the Settings pane. The options for show and give members access to at mentions are unchecked.")
-
-## Disable applications and bots in large teams
-
-To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. See [Apps, bots, & connectors in Microsoft Teams](deploy-apps-microsoft-teams-landing-page.md)
 
 ## Consider setting up moderation in your channels
 
