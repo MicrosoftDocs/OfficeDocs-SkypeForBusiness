@@ -61,7 +61,11 @@ How the affected content is managed after detection is up to the settings you've
 
 ### Safe Links
 
-While, at this time, ATP safe links are not available in Microsoft Teams, they are now in public preview through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on Office 365 Safe Links, please review [Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+While, at this time, Advanced Threat Protection (ATP) safe links are not available in Microsoft Teams, they are now in [public preview](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on Office 365 Safe Links, please review [Office 365 ATP Safe Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). ATP Safe links is available in both [ATP Plan 1 and ATP Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+
+### Safe Attachments
+
+Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint Online, OneDrive for Business, and Microsoft Teams, and both Office 365 [Advanced Threat Protection Plan 1 and 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) have this capability. Read more about Safe Attachments and how they can help protect your organization [here](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
 
 ### How Conditional Access policies work for Teams
 
@@ -184,7 +188,7 @@ If you need to see which region houses data for your tenant, go to the [Microsof
 
 Teams is Tier D-compliant. This includes the following standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 and SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech), and [EU Model Clauses (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
 
-Services in compliance categories C and D that have industry-leading compliance commitments are enabled by default. Services in categories A and B come with controls to turn on or turn off these services for an entire organization. Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams also supports Cloud Security Alliance compliance.
+Services in compliance categories C and D that have industry-leading compliance commitments are enabled by default. Services in categories A and B come with controls to turn on or turn off these services for an entire organization. Details can be found in the [Compliance standards](security-compliance-overview.md#compliance-standards). Teams also supports Cloud Security Alliance compliance.
 
 ## Related topics
 
