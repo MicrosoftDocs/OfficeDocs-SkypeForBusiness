@@ -50,7 +50,7 @@ The user must have:
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
 - Permissions to create live events in Stream (for external app or device production).
-- Coexistence mode configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams only*).
+- Coexistence mode configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams Only*).
 
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events. 
