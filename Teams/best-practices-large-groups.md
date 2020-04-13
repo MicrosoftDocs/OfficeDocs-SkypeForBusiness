@@ -24,15 +24,25 @@ Manage large teams in Microsoft Teams - best practices
 
 Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for updates on team sizes.
 
+## Value of large teams
+
+Large teams are very useful in enabling the following collaboration scenarios:
+
+- **Department-wide collaboration**: If your organization has multiple departments such as Finance, Operations, R&D etc., then you can create a single team that includes all members in a specific department. Now all communications relevant to a department can be shared in this team, which facilitates instant reach and engagement from members.
+
+- **Collaboration in employee resource groups**: Organizations often have large groups of people with mutual interests who belong to a different department or workgroup. As an example, there can be a group of people who share a passion for personal finance and investing. It's often hard to connect in a large organization. To foster communities for such groups, tenant admins can create a large team that serves as a public company-wide resource group that anyone can join and take advantage of. Eventually, these communities can become a treasure trove of information that both new and existing members can enjoy.
+
+- **Collaboration between internal and external members**: Popular products often develop a community of early adopters who are eager to try new product releases and provide feedback. Early adopters develop a camaraderie with product groups to help shape the product. In such scenarios, tenant admins can set up a large team which includes both internal product groups and external product evaluators to facilitate a rich product development process. These teams can also be used to provide customer support to a select set of customers.
+
 ## Create teams from existing groups
 
 Use contact groups, security groups, or Office groups to jump start your team. You can import a group to make a team or create a team from an Office group.
 
 **Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
 
-**Create a team from a large O365 group**: When you create a team from a large O365 group, group members are automatically part of the O365 group **and** the team. In the future, as team members join or leave the O365 group, they're automatically added or removed from the team.
+**Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, group members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
 
-See [Create your first teams and channels in Microsoft Teams](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
+See [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md) for details.
 
 ## Create channels to focus discussions
 
@@ -40,7 +50,9 @@ You can narrow the group discussions by creating focused channels. See [Best pra
 
 ## Restrict channel creation
 
-If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md).
+If any team member is allowed to create channels, that team can have channel sprawl. Team owners should turn off channel create, update, delete, and restore for members in **Settings > Member permissions**. See [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md).
+
+![Screen image that shows the member permissions section of the admin console Settings tab.](media/no-channel-creation.png "Screen image that member permissions section of the admin console Settings tab. The allow members to create or delete channels options are unchecked.")
 
 ## Add favorite channels
 
@@ -70,4 +82,5 @@ Team owners can turn on moderation for a channel to control who can start new po
 
 ## Related topics
 
-[Create an org-wide team in Teams](create-an-org-wide-team.md)
+- [Best practices for organizing Teams in Microsoft Teams](best-practices-organizing.md)
+- [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md)
