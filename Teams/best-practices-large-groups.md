@@ -30,9 +30,9 @@ Large teams are very useful in enabling the following collaboration scenarios:
 
 - **Department-wide collaboration**: If your organization has multiple departments such as Finance, Operations, R&D etc., then you can create a single team that includes all members in a specific department. Now all communications relevant to a department can be shared in this team, which facilitates instant reach and engagement from members.
 
-- **Collaboration in employee resource groups**: Organizations often have large groups of people with mutual interests who belong to a different department or workgroup. As an example, there can be a group of people who share a passion for personal finance and investing. It's often hard to connect in a large organization. To foster communities for such groups, tenant admins can create a large team that serves as a public company-wide resource group that anyone can join and take advantage of. Eventually, these communities can become a treasure trove of information that both new and existing members can enjoy.
+- **Collaboration in employee resource groups**: Organizations often have large groups of people with mutual interests who belong to a different department or workgroup. As an example, there can be a group of people who share a passion for personal finance and investing. It's often hard to connect in a large organization. To develop communities for such groups, tenant admins can create a large team that serves as a public company-wide resource group that anyone can join and take advantage of. Eventually, these communities collect information that both new and existing members can enjoy.
 
-- **Collaboration between internal and external members**: Popular products often develop a community of early adopters who are eager to try new product releases and provide feedback. Early adopters develop a camaraderie with product groups to help shape the product. In such scenarios, tenant admins can set up a large team which includes both internal product groups and external product evaluators to facilitate a rich product development process. These teams can also be used to provide customer support to a select set of customers.
+- **Collaboration between internal and external members**: Popular products often develop a community of early adopters who are eager to try new product releases and provide feedback. Early adopters develop a relationship with product groups to help shape the product. In such scenarios, tenant admins can set up a large team which includes both internal product groups and external product evaluators to facilitate a rich product development process. These teams can also provide customer support to a select set of customers.
 
 ## Create teams from existing groups
 
@@ -40,7 +40,7 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
 
-**Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, group members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
+**Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
 
 See [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md) for details.
 
@@ -72,7 +72,7 @@ See [Apps, bots, & connectors in Microsoft Teams](deploy-apps-microsoft-teams-la
 
 ## Regulate team and channel mentions
 
-Team and channel mentions can be used to draw the attention of the whole team to certain channel posts. Once a mention is used in a post, a notification is sent to thousands of team members. If the notifications are too frequent, then team members can become overloaded and might complain to team owners. To prevent team or channel mentions, turn off team and channel mentions for members by unchecking the boxes in the teams Settings pane.
+Team and channel mentions can be used to draw the attention of the whole team to certain channel posts. Once a mention is used in a post, a notification is sent to thousands of team members. If the notifications are too frequent, then team members can become overloaded and might complain to team owners. To prevent team or channel mentions, turn off team and channel mentions for members by unchecking the boxes in the teams **Settings** pane.
 
 ![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "Screen image that shows the at Mentions section of the Settings pane. The options for show and give members access to at mentions are unchecked.")
 
