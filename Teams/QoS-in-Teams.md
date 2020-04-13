@@ -73,7 +73,7 @@ A simple analogy is that QoS creates virtual "carpool lanes" in your data networ
 
 ## Select a QoS implementation method
 
-You could implement QoS via port-based tagging, using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows and Mac environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP values, so they will require this method.  
+You could implement QoS via port-based tagging, using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP values, so they will require this method.  
 
 Using this method, your network's router examines an incoming packet, and if the packet arrived using a certain port or range of ports, it identifies it as a certain media type and puts it in the queue for that type, adding a predetermined [DSCP](https://tools.ietf.org/html/rfc2474) mark to the IP Packet header so other devices can recognize its traffic type and give it priority in their queue.
 
