@@ -345,7 +345,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
- Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule. **(coming soon)**
+ Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
   
 |Setting value  |Join behavior |
 |---------|---------|
