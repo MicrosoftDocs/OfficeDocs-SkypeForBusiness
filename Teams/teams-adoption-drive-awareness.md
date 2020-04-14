@@ -48,7 +48,7 @@ Use our resources to deliver end-user training as people begin to use Microsoft 
 
 - [Instructor-led end-user training for Teams](instructor-led-training-teams-landing-page.md)
 - [Administrator training for Teams](itadmin-readiness.md)
-- [Online End-user training](enduser-training.md)
+- [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud) 
 - [Day in the Life Office 365 training cheat sheets](https://aka.ms/O365AdoptionTools)
 
