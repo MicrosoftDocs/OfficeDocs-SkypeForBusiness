@@ -26,7 +26,7 @@ With Tasks in Teams, you can target, assign, and track tasks at scale across you
 
 This article covers what admins need to know about managing the Tasks app in your organization.
 
-With Tasks, 
+## Overview of Tasks
 
 - Users will see Personal lists and Team lists 
 - Note that they will get a desktop experience and mobile experience.  If the app is installed for a user on desktop, they will also see it on mobile. 
