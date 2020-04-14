@@ -39,6 +39,13 @@ Cloud Video Interop is intended for customers who meet the following criteria:
 
 While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Room Systems, for the long term. 
 
+### Office 365 US Government and third-party services
+
+Office 365 provides the ability to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Office 365 ProPlus (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on
+third-party systems that are outside of the Office 365 infrastructure and therefore are not covered by the Office 365 compliance and data protection commitments. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
+
+
+
 ### Partners Certified for Microsoft Teams
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise. 
