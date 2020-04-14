@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 Manage large teams in Microsoft Teams - best practices
 ======================================================
 
-Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes.
+Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes. Increase in team size leads to unique management and operational challenges. This article describes best practices for creating and managing large teams comprised of thousands of members.
 
 ## Value of large teams
 
@@ -42,8 +42,6 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
 
-See [Create an org-wide team](create-an-org-wide-team.md) for details.
-
 ## Create channels to focus discussions
 
 You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams](best-practices-organizing.md).
@@ -62,7 +60,7 @@ In order to speed up new user engagement and content discovery, you can select f
 
  See [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md) for details.
 
-## Disable applications and bots in large teams
+## Regulate applications and bots in large teams
 
 To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the admin console under **Settings > Member permissions**, uncheck the three options that allow members to add apps or connectors.
 
