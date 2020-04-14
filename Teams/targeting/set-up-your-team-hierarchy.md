@@ -18,23 +18,28 @@ appliesto:
 
 # Set up your team targeting hierarchy
 
-To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other, and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
+To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it.
 
 > [!IMPORTANT]
-> You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release, only the Tasks app supports hierarchical teams. The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks.
+> You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release, only the Tasks app supports hierarchical teams. The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams.
+
+Here's an example of how the hierarchy is represented in the Tasks app in Teams. After task lists are created, the publishing team must select the recipient teams to send (publish) the task lists to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br><br>
+
+PLACEHOLDER FOR SCREENSHOT
 
 ## Plan your hierarchy
 
-Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Nodes at the bottom of the hierarchy (those without children) are teams that can receive tasks while other nodes (parents) are organizational groups with permission to publish tasks downward.
+Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Nodes at the bottom of the hierarchy (those without children) are teams that can receive tasks while other nodes (parents) are organizational groups with permission to publish tasks downward. A team can only be represented one time in the hierarchy.
 
-For example, in the following hierarchy, Recall, Retail Communications, and HR, can publish tasks to every bottom node in the hierarchy, whereas North East Zone can only publish tasks to New York Store and Boston Store. This hierarchy allows the Recall, Retail Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. North East Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York and Boston stores.
-
+For example, in the following hierarchy, Recall, Retail Communications, and HR, can publish tasks to every bottom node (team) in the hierarchy, whereas North East Zone can only publish tasks to the New York Store and Boston Store teams. This hierarchy allows the Recall, Retail Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. North East Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
 
 ![Team hierarchical example](../media/team-targeting-schema-example.png)
 
 ## Create your hierarchy
 
-The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it. You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
+The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
+
+You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
 
 ### Add required columns
 
@@ -65,7 +70,7 @@ When you add an attribute column, keep the following in mind:
 
 You can add bucket columns to create buckets, which are topics into which tasks can be organized. Each bucket gets its own column. The buckets you create are made available to the publishing team. The publishing team can then use these buckets to categorize tasks for the recipient teams. If a bucket doesn't already exist on a team, buckets are created on-demand when tasks are published.
 
-By categorizing the work one time centrally, the publishing team can pre-organize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list.  Those teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
+By categorizing the work one time centrally, the publishing team can pre-organize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list. The recipient teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
 
 You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) Whether or not you map buckets to channels of the team, published tasks are always created in a task list in the General channel of the recipient team. When you map a bucket to a channel, each channel will get the same task list added to that channel, but with a default filter to show only those buckets that are mapped to that channel. This entry point is intended to help users focus on the tasks relevant to the channel they're looking at.
 
