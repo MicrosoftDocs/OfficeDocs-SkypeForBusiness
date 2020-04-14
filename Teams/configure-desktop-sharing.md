@@ -50,6 +50,9 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
     ![Screenshot showing sharing mode options](media/configure-desktop-sharing-image3.png)
 
+  > [!Note] 
+  > You don't have to enable the calling policy in order for users to share their screens from chat. However, their audio is turned off until they unmute themselves. In addition, the user sharing the screen can click **Let's Talk** to enable audio.
+
 5. Turn the following settings on or off:
 
     - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.
@@ -66,6 +69,7 @@ You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/power
 
 - Description
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
