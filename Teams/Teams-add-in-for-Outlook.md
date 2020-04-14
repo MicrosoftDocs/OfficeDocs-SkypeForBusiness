@@ -106,7 +106,7 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams.
-- The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
+- The add-in will not work if an Authentication Proxy is in the network path of the user's PC and Teams Services.
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
 
 Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
