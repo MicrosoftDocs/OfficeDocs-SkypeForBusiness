@@ -128,7 +128,7 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Follow these steps:
   - Restart the Teams desktop client.
   - Sign out and then sign back in to the Teams desktop client.
-  - Restart the Outlook desktop client. (Make sure Outlook isn't running in admin mode)
+  - Restart the Outlook desktop client. (Make sure Outlook isn't running in admin mode.)
 
 If you still don't see the add-in, make sure that it isn't disabled in Outlook.
 
