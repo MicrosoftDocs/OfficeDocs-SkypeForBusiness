@@ -132,7 +132,7 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 
 If you still don't see the add-in, make sure that it isn't disabled in Outlook.
 
-- In Outlook, click **File** and then **Options**.
+- In Outlook, choose **File** and then **Options**.
 - Select the **Add-ins** tab of **Outlook Options** dialog box
 - Confirm that **Microsoft Teams Meeting Add-in for Microsoft Office** is listed in the **Active Application Add-ins** list
 - If the Teams Meeting Add-in is listed in the **Disabled Application Add-ins** list, select **COM Add-ins** in **Manage** and click **Go…**
