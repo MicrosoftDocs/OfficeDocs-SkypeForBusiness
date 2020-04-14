@@ -35,7 +35,7 @@ Organizations with Phone System licensed users can assign either a free Microsof
 Your organization is allotted Microsoft 365 Phone System – Virtual User licenses depending on its overall size. Any organization that has at least one license including Phone System or has Phone System added has 25 Virtual User licenses available at no cost. When you add 10 Phone System user licenses in your organization, one more Microsoft 365 Phone System – Virtual User license becomes available.
 
 > [!NOTE]
-> Phone System is an add-on license available with Office 365 E1 and E3. Phone System is also included as part of Office 365 E5 and Microsoft 365 Business Voice licenses.
+> Phone System is an add-on license available with Microsoft 365 E1 and E3. Phone System is also included as part of Microsoft 365 E5 and Microsoft 365 Business Voice licenses.
 
 If your organization uses up the available free Microsoft 365 Phone System – Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account. Most organizations will have enough Virtual User licenses based on the scaling plan. 
 
