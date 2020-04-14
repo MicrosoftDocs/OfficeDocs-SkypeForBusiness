@@ -136,7 +136,7 @@ If you still don't see the add-in, make sure that it isn't disabled in Outlook.
 - Select the **Add-ins** tab of **Outlook Options** dialog box.
 - Confirm that **Microsoft Teams Meeting Add-in for Microsoft Office** is listed in the **Active Application Add-ins** list
 - If the Teams Meeting Add-in is listed in the **Disabled Application Add-ins** list, select **COM Add-ins** in **Manage** and then select **Go…**
-- Set the checkbox next to **Microsoft Teams Meeting Add-in for Microsoft Office**
+- Set the checkbox next to **Microsoft Teams Meeting Add-in for Microsoft Office**.
 - Click OK on all dialog boxes and restart Outlook.
 
 For general guidance about how to manage add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
