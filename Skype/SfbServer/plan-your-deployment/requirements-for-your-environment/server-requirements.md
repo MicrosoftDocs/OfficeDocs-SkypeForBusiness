@@ -69,7 +69,10 @@ Once you have the hardware in place, you'll need to install operating systems (O
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
 |Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
    
-If it's not on this list, it won't work properly, please don't try it for new installations of Skype for Business Server 2015. Note that  in-place upgrade of the operating system is not supported with Lync Server 2013.  You must deploy a separate pool and migrate users to the new pool with a different operating system.
+If it's not on this list, it won't work properly, please don't try it for new installations of Skype for Business Server 2015.
+
+> [!NOTE]
+> In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
   
 > [!NOTE]
 > You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach the end of its support lifecycle on 1/14/2020.
