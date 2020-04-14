@@ -26,7 +26,10 @@ Teams are collections of people who gather together around a common goal. This g
 
 Before creating a team, think about the goal, project, or work items and who in your organization can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-The Microsoft Teams [video playlist](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) provides more information for creating and managing teams.
+
+Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## Add teams gradually
 
