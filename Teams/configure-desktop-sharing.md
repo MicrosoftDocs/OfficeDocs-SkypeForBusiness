@@ -21,7 +21,12 @@ appliesto:
 Configure desktop sharing in Microsoft Teams
 ============================================
 
-Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen.
+Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
+
+- Anonymous user
+- Guest users
+- B2B user
+- Federated user
 
 To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.
 
@@ -31,9 +36,9 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
     ![Screenshot showing Meeting policies selected](media/configure-desktop-sharing-image1.png)
 
-2. On the **Meeting policies** page, select **New policy**.
+2. On the **Meeting policies** page, select **Add**.
 
-    ![Screenshot showing the Meeting policies message](media/configure-desktop-sharing-image2.png)
+    ![Screenshot showing the Meeting policies message](media/addMeeting.png)
 
 3. Give your policy a unique title and enter a brief description.
 
@@ -47,8 +52,8 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 5. Turn the following settings on or off:
 
-    - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.
-    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.
+    - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.
+    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter's desktop or application.
     - **Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
     - **Allow whiteboard** – lets users share a whiteboard.
     - **Allow shared notes** – lets users take shared notes.
