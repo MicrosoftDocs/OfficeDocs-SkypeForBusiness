@@ -1797,6 +1797,10 @@
         "redirect_document_id": true
       },
     {
+        "source_path": "Teams/enduser-training.md",
+        "redirect_url": "https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7",
+        "redirect_document_id": true
+      },    {
         "source_path": "Teams/Microsoft-Teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/",
         "redirect_document_id": false

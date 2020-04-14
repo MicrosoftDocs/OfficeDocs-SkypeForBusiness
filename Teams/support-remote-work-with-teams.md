@@ -62,6 +62,8 @@ Share these assets and videos with your end users to help them get started quick
 
 1. Read the [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
 
+2. [Use Advisor for Teams to help you roll out Teams](use-advisor-teams-roll-out.md). Advisor for Teams (in the Teams admin center) walks you through your Teams deployment.
+
 1. Read our recent blog posts:
    
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -104,7 +106,7 @@ Share these assets and videos with your end users to help them get started quick
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
 
 
-2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
+2.  Share a link to [Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) to help your employees get the most out of Teams.
 
 3. Go deeper: Learn more about rolling out Teams.
 
