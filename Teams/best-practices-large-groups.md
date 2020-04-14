@@ -54,7 +54,7 @@ If any team member is allowed to create channels, that team can have channel spr
 
 ## Add favorite channels
 
-In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin controls, check the channels under the **Show for members** column.
+In order to speed up new user engagement and content discovery, you can select favorite channels that are available to the user by default. In the **Channels** pane of the admin center, check the channels under the **Show for members** column.
 
 ![Screen image that shows the channels pane of the admin console.](media/favorite-channels.png "Screen image that shows channels pane of the admin console. Some channels are checked for Show for members.")
 
@@ -62,7 +62,7 @@ In order to speed up new user engagement and content discovery, you can select f
 
 ## Regulate applications and bots in large teams
 
-To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the admin console under **Settings > Member permissions**, uncheck the three options that allow members to add apps or connectors.
+To prevent addition of distracting applications or bots, team owners can disable, add, remove, and upload apps and connectors for team members. In the admin center under **Settings > Member permissions**, uncheck the three options that allow members to add apps or connectors.
 
 ![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
 
