@@ -106,7 +106,7 @@ Share these assets and videos with your end users to help them get started quick
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
 
 
-2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
+2.  Share a link to [Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) to help your employees get the most out of Teams.
 
 3. Go deeper: Learn more about rolling out Teams.
 
