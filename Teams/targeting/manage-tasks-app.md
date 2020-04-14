@@ -20,16 +20,28 @@ appliesto:
 
 The Tasks app is the task management experience in Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner into a single view. Users can access Tasks as an app on the left side of Teams and as a tab within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize work.
 
-With Tasks in Teams, you can target, assign, and track tasks at scale across your organization. For example, corporate and regional leadership can create and publish task lists to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned tasks. To target and publish tasks lists, you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+With Tasks in Teams, you can target, publish, assign, and track tasks at scale across your organization. For example, corporate and regional leadership can create and publish task lists to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned tasks. To target and publish tasks lists, you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
 [PLACEHOLDER FOR SCREENSHOT]
 
-This article covers what admins need to know about managing the Tasks app in your organization.
+This article covers what you need to know about managing the Tasks app in your organization.
 
 ## Overview of Tasks
 
-- Users will see Personal lists and Team lists 
-- Note that they will get a desktop experience and mobile experience.  If the app is installed for a user on desktop, they will also see it on mobile. 
+Tasks is available as an app and as a tab within individual teams. As we initially roll out this feature, when users add a **Tasks** tab to a team, the tab will be named **Tasks by Planner and To Do**. Later, the tab name will change to **Tasks**.
+
+If the Tasks app is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guest users. It's important to know that guests can only access Tasks from the Teams mobile client. Guests won't see Tasks on Teams desktop or web clients.
+
+**Personal lists** and **Team lists**.  If you don't want Personal lists available to users, you can hide it. To do this, unassign the user's Exchange Online license. To learn more, see [Unassign licenses from users](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which it will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+
+---
+
+Bring individual tasks powered by To Do and team tasks powered by Planner to Tasks in Teams
+The Tasks app is actually the Planner app in Teams. Planner will be renamed to Tasks by Planner and To Do, and then be shortened to Tasks.  Leveraging the power of Planner and the power of To Do into Tasks.
+
+- Ability to disable Exchange license (soon to be To Do license instead) to hide personal lists 
+- How to enable publishing by uploading a CSV (the doc you created) 
+- PowerAutomate and Graph APIs  for To Do and Planner - Refer to To Do and Planner documentation 
 
 
 Tasks in Teams integrates both To Do and Planner, so individuals who frequently divide their attention across personal and team tasks will have a view that includes both.  For users of To Do and Planner, it is also a great way to access tasks while communicating with a team, without having to switch apps.
@@ -37,18 +49,6 @@ Tasks in Teams integrates both To Do and Planner, so individuals who frequently 
 - Users can create personal tasks and see their assigned team tasks on the Teams list to manage and prioritize work. 
 - For To Do and Planner users, Tasks integrates tasks into one view. Tasks shows users all their personal tasks from To Do and team tasks from Planner. The tab is for teams tasks, so it links directly to Planner. Users won't be able to add a To Do tab to a channel but any tasks that are assigned to a user in Planner show up in To Do.
 - Set up a team hierarchy for your organization to publish tasks lists to assign, and track tasks across locations.
-
-- Bring individual tasks powered by To Do and team tasks powered by Planner to Tasks in Teams
-The Tasks app is actually the Planner app in Teams. Planner will be renamed to Tasks by Planner and To Do, and then be shortened to Tasks.  Leveraging the power of Planner and the power of To Do into Tasks.
-
----
-- Transition into Planner app 
-- Users will see Personal lists and Team lists 
-- Note that they will get a desktop experience and mobile experience.  If the app is installed for a user on desktop, they will also see it on mobile. 
-- Ability to disable Exchange license (soon to be To Do license instead) to hide personal lists 
-- How to enable publishing by uploading a CSV (the doc you created) 
-- PowerAutomate and Graph APIs  for To Do and Planner - Refer to To Do and Planner documentation 
-- Guest user behavior - Guest users won't see the Tasks app on desktop but they will on mobile. They'll see the tabs in both places.
 
 ---
 ## Set up Tasks
