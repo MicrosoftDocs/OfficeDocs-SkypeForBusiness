@@ -20,9 +20,11 @@ appliesto:
 
 The Tasks app is the task management experience in Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner into a single view. Users can access Tasks as an app on the left side of Teams and as a tab within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize work.
 
-With Tasks in Teams, you can target, assign, and track tasks at scale across your organizations. For example, corporate and regional leadership can create and send task lists to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned tasks.
+With Tasks in Teams, you can target, assign, and track tasks at scale across your organization. For example, corporate and regional leadership can create and publish task lists to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned tasks.
 
 [PLACEHOLDER FOR SCREENSHOT]
+
+This article covers what admins need to know about managing the Tasks app in your organization.
 
 With Tasks, 
 
