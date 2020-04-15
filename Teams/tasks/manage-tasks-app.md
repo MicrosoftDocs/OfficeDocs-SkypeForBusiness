@@ -60,17 +60,24 @@ To pin the Tasks app for your users, you can edit the global (Org-wide default) 
 
 ## Tasks publishing
 
+
 The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is on a team that's defined in the hierarchy. This means that they can publish or receive task lists and view reporting for received lists.
 
 ### Example scenario
 
 Contoso is rolling out a new food takeout and delivery promotion. To maintain a consistent brand experience, they need to coordinate consistent execution of the rollout across over 300 store locations.
 
-The Marketing team shares the promotion details and tasks with the Retail Communications Manager. The Retail Communications Manager, who serves as the gatekeeper for stores, reviews the information, creates a task list for the promotion, and then  creates a task for each unit of work that needs to be performed. Next, she needs to choose the stores that the promotion applies to. In this case, the promotion only applies to stores in the United States that have a in-store restaurant. In Tasks, she filters the store list by hierarchy and attributes to select the targeted store locations, and then publishes the tasks lists to those stores.
+The Marketing team shares the promotion details and tasks with the Retail Communications Manager. The Retail Communications Manager, who serves as the gatekeeper for stores, reviews the information, creates a task list for the promotion, and then  creates a task for each unit of work that needs to be performed. She then needs to choose the stores that the promotion applies to. In this case, the promotion only applies to stores in the United States that have a in-store restaurant. In Tasks, she filters the store list by hierarchy and attributes to select the targeted store locations, and then publishes the tasks list to those stores.
 
-Store managers at each store location receive a copy of the published task list and assign the tasks to their team. Store employees at each store location now have a prioritized list of tasks assigned to them. When they finish a task, they mark it complete. Some may choose to upload a photo to the task to show their work.
+Store managers at each store location receive a copy of the published task list and assign the tasks to their team members. Store employees at each store location now have a prioritized list of their work. When they finish a task, they mark it complete. Some may choose to upload and attach a photo to the task to show their work.
 
-Contoso headquarters and intermediate managers can view reporting to see the assignment and completion status of tasks at each store and across stores. They can also view attachments if store employees uploaded photos. As the launch date gets closer, they can spot any abnormalities and check in with their team as needed. This visibility allows Contoso to provide a more consistent experience across their stores.
+Contoso headquarters and intermediate managers can view reporting to see the assignment and completion status of tasks at each store and across stores. They can also drill down to a specific task to see the status within different stores and view attachments if store employees uploaded photos. As the launch date gets closer, they can spot any abnormalities and check in with their team as needed. This visibility allows Contoso to improve the efficiency of the rollout and provide a more consistent experience across their stores.
+
+### Set up your team targeting hierarchy
+
+To enable tasks publishing, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and the attributes that can be used to filter your teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communication Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive the tasks, and then publish the tasks to those teams.
+
+For steps on how to set up your team targeting hierarchy, see [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md).
 
 ## Power Automate and Graph API
 
