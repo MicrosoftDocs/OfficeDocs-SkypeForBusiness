@@ -28,7 +28,7 @@ When an organization is considering relying on Microsoft Teams for communication
 
 Since Teams is a cloud-based service, various types of data are processed and stored by Microsoft as part of delivering the service. This data includes:
 
-- **Customer Data** Customer data includes content like your meetings and conversations chats, Voice mail, shared files, recordings and transcriptions. Microsoft will never access your content.
+- **Customer Data** Customer data includes content like your meetings and conversations chats, voicemail, shared files, recordings and transcriptions. Microsoft will never access your content.
   - **Profile Data** Data that is shared within your company about you. Examples include your E-mail address, profile picture, and phone number.
 - **Call History, Call Quality** Microsoft maintains a detailed history of the phone calls you make. This allows you to go back and review your own call records. Microsoft also provides details of meetings and call data to your system administrators. This allows your admins to diagnose issues related to poor call quality and service usage. Additionally, Microsoft maintains calls records for service delivery purposes like billing and troubleshooting.
 - **Support/Feedback Data** Data created when you open a trouble ticket or submit feedback to Microsoft. Microsoft commits to only using that data to resolve your issue or improve the Teams product.
@@ -42,37 +42,43 @@ Microsoft Teams will only use the data provided to deliver the agreed upon servi
 
 ## What third parties have access to personal data?
 
-Microsoft Teams takes strong measures to help protect your personal data from inappropriate access or use by unauthorized persons. This includes restricting access by Microsoft personnel and authorized subcontractors.  
+Microsoft will not disclose personal data except:
 
-Additionally, if you use Microsoft Teams for telephone services, Microsoft may share telephony data with other telephone companies as required to complete a phone call.
+1. as the customer directs (including as required to complete phone calls);
+1. as described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services);
+1. as required by law.
 
-> [!IMPORTANT]
-> Teams does not share your data with advertiser supported services or mine it for marketing. Our policy is backed by agreements and adoption of the international code of practice for cloud privacy, **ISO-IEC 27018**.
+If law enforcement contacts Microsoft with a demand, Microsoft will attempt to redirect the law enforcement agency to request that personal data directly from the customer. If compelled to disclose personal data to law enforcement, Microsoft will promptly notify the customer and provide a copy of the demand unless legally prohibited from doing so. For more information about data that we disclose in response to requests from law enforcement and other government agencies, please see our [Law Enforcement Requests Report](https://www.microsoft.com/about/corporate-responsibility/lerr/).
 
 The [Teams Security Guide](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) has more information about our compliance standards.
 
 ## Where does Teams transfer and store personal data?
 
-Microsoft complies with international data protection laws regarding transfers of customer data across borders. Some examples of this include:
+Personal data is transferred and stored as set forth in the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
 
-- To allow for the continuous flow of information required by international business (including the cross-border transfer of personal data), the Teams service offer customers European Union (EU) Standard Contractual Clauses that provide additional contractual guarantees around transfers of personal data for in-scope cloud services. Our implementation of the [EU Model Clauses](https://go.microsoft.com/fwlink/p/?linkid=2112396) has been validated by EU data protection authorities as being in line with the rigorous privacy standards that regulate international data transfers by companies operating in its member states.
-- In addition to our commitments under the Standard Contractual Clauses and other model contracts, Microsoft is certified to the EU-U.S. Privacy Shield Framework as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information transferred from the EU to the United States. Microsoft participation in the Privacy Shield applies to all personal data that is subject to the Microsoft Privacy Statement and is received from the EU, European Economic Area, and Switzerland.
-- Microsoft also abides by Swiss data protection law regarding the processing of personal data from the European Economic Area and Switzerland.
+For transfers of personal data from the EEA, EU, Switzerland, and the UK, Microsoft is certified to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments they entail. Its Privacy Shield certificate is [at this url](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active).
 
-> [!IMPORTANT]
-> Microsoft will not transfer to any third party (not even for storage purposes) data that you provide to Microsoft through the use of our business cloud services that are covered under the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
+We have information on the [Location of data in Microsoft Teams](location-of-data-in-teams.md) if you need to learn more.
 
-## How long does Microsoft Teams retain data?
+## How long does Microsoft Teams retain personal data?
 
-Microsoft retains your data for the life of your account **unless that data is first deleted by you or your admin**. You have control of your own content like chat messages, e-mail. voicemail and files through your Office applications.
+Microsoft Teams retains your data for the minimum amount of time necessary to deliver the service.
 
-Additionally, your company admin may request the deletion or export of your data or profile. This ability is granted to your admin to support GDPR laws. Once you delete your Teams data (or an admin requests a delete on your behalf) Microsoft ensures that all copies of your data are deleted within 30 days. If your admin requests an export of your data, Microsoft will make the personal data that Microsoft has on you available to your admin.
+Because this data is required to provide the service, this typically means that we retain personal data until the user stops using Microsoft Teams, or until the user deletes personal data.  If a user (or an administrator on the user's behalf) deletes the data, Microsoft will ensure that all copies of the personal data are deleted within 30 days.
 
-If your company stops doing business with Microsoft, your data will all be deleted between 90 and 180 days of service termination.
+If a company terminates service with Microsoft, corresponding personal data will all be deleted between 90 and 180 days of service termination.
 
-> [!NOTE]
-> In some circumstances, local laws require that Microsoft retain telephone records (for billing purposes) for a specific period of time. In those circumstances Microsoft follows the law for each region. Additionally, if a company requests that Microsoft hold a user's data to support a legal obligation, Microsoft will respect the company administrator's request.
+In some circumstances, local laws require that Microsoft Teams retain telephone records (for billing purposes) for a specific period of time, in those circumstances Microsoft Teams follows the law for each region. 
+
+Additionally, if a company requests that Microsoft Teams hold a user's data to support a legal obligation, Microsoft will respect the company administrator's request.
+
+### Right to withdraw consent
+
+If Microsoft Teams processes any personal data based on consent, you may have the right to withdraw your consent at any time. You should direct your request to withdraw consent to your administrator, where your administrator is the controller of the personal data at issue.
 
 ## Contact Details of Microsoft's Data Protection Officer
 
-If you have a privacy concern, complaint or question for the Microsoft Chief Privacy Officer and EU Data Protection Officer, please contact us by using [our web form](https://go.microsoft.com/fwlink/?LinkId=321116). Our EU Data Protection Officer is located at Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Telephone: +353-1-706-3117.
+If you have a privacy concern, complaint or question for the Microsoft Chief Privacy Officer and EU Data Protection Officer, please contact us by using [our web form](https://go.microsoft.com/fwlink/?LinkId=321116). Our EU Data Protection Officer is located at Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Telephone: +353 1 706 3117. You can also raise a concern or lodge a complaint with a data protection authority or other official with jurisdiction.
+
+> [!IMPORTANT]
+> To the extent of any conflict between this document and the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263), the Online Service Terms should be considered authoritative.
