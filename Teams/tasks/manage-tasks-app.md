@@ -64,7 +64,7 @@ With tasks publishing, your organization can publish task lists to selected loca
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
-- Publishers and managers can view assignment and completion summary of tasks at each level, including by location, task list, and individual task.
+- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location, task list, and individual task.
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's defined in the hierarchy. This means that the user can publish or receive task lists and view reporting for received lists.
 
