@@ -50,8 +50,8 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
     ![Screenshot showing sharing mode options](media/configure-desktop-sharing-image3.png)
 
-  > [!Note] 
-  > You don't have to enable the calling policy in order for users to share their screens from chat. However, their audio is turned off until they unmute themselves. In addition, the user sharing the screen can click **Let's Talk** to enable audio.
+  > [!Note]
+  > You don't have to enable the calling policy in order for users to use screen share from chat. However, their audio is turned off until they unmute themselves. In addition, the user sharing the screen can click **Add Audio** to enable audio. If the calling policy is disabled, users won't be able to add audio to the screen share from a chat session.
 
 5. Turn the following settings on or off:
 
