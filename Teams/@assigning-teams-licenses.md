@@ -21,33 +21,38 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Assign licenses to users
+# Assign Teams and Teams add-on licenses to users
 
 ## Assign Teams licenses to users
 
-You enable or disable Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license from a licensing plan before they can use Teams. You can assign Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage Teams licenses. 
+You enable or disable Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license from a licensing plan before they can use Teams.
+
+You can assign Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage Teams licenses.
 
 > [!NOTE]
 > We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
 ### Using the Microsoft 365 admin center
 
-To enable Teams for a user, switch the toggle next to **Microsoft Teams** to **On**. To disable Teams for a user, switch the toggle to **Off**. When the Teams license is disabled, the user will no longer see Teams in the app launcher or homepage. 
+You can manage Teams licenses for users on **Active users** page or the **Licenses page** of the Microsoft 365 admin center.
 
-To learn more, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). 
+- To enable Teams for a user, switch the toggle next to **Microsoft Teams** to **On**.
+- To disable Teams for a user, switch the toggle to **Off**. The user will no longer see Teams in the app launcher or homepage.
+
+To learn more, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Using PowerShell
 
 > [!IMPORTANT]
-> New-MsolLicenseOptions will enable all services that were previously disabled unless explicitly identified in your customized script. As an example, if you wanted to leave both Exchange & Sway disabled while additionally disabling Teams, you'd need to include this in the script or both Exchange & Sway will become enabled for those users you've identified. To use a GUI to manage this functionality, see [Office 365 License Reporting and Management Tool -Assign Remove Licenses in Bulk](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) for more information.
+> New-MsolLicenseOptions will enable all services that were previously disabled unless explicitly identified in your customized script. As an example, if you wanted to leave both Exchange and Sway disabled while additionally disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified. To use a GUI to manage this functionality, see [Office 365 License Reporting and Management Tool -Assign Remove Licenses in Bulk](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) for more information.
 
 Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. Here are the service plan names for Teams:
 
 - Microsoft Teams: TEAMS1
 - Microsoft Teams for GCC: TEAMS_GOV
-- Microsoft TEams for DoD: TEAMS_DOD
+- Microsoft Teams for DoD: TEAMS_DOD
 
-See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)
+For more information, see [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
 
 #### Example
 
