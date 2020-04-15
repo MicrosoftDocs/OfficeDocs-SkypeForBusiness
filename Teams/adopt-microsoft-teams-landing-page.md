@@ -101,7 +101,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
