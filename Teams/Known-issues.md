@@ -291,13 +291,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Phone number blocked|Phone number blocked: Deleting the resource account before removing the phone number will block the phone number.|Contact Microsoft support to release the telephone number.|5/18/2019|
 
-## Presence
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Presence in Outlook and other Office applications not showing after a user is moved to **Teams Only** mode. <br/> |If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams.  <br/> |To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.  <br/> |9/2019  <br/> |
-
-
-
 ## Provisioning
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
