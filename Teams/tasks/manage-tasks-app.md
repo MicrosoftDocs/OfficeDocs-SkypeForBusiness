@@ -70,7 +70,7 @@ The Marketing team shares the promotion details and tasks with the Retail Commun
 
 Store managers at each store location receive a copy of the published task list and assign the tasks to their team. Store employees at each store location now have a prioritized list of tasks assigned to them. When they finish a task, they mark it complete. Some may choose to upload a photo to the task to show their work.
 
-Contoso headquarters and intermediate managers can view reporting to see assignment and completion status of tasks at each store. They can also view attachments if store employees uploaded photos. As the launch date gets closer, they can spot any abnormalities and check in with their team as needed. This visibility into execution progress allows Contoso to provide a more consistent experience across their stores.
+Contoso headquarters and intermediate managers can view reporting to see the assignment and completion status of tasks at each store and across stores. They can also view attachments if store employees uploaded photos. As the launch date gets closer, they can spot any abnormalities and check in with their team as needed. This visibility allows Contoso to provide a more consistent experience across their stores.
 
 ## Power Automate and Graph API
 
