@@ -26,7 +26,7 @@ In addition, Cloud call queues can provide:
 Each call queue is assigned a **resource account** (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
-> You can assign multiple phone numbers to a call queue, but they must be Microsoft service numbers or hybrid numbers.
+> You can assign multiple phone numbers to a call queue, but they must be Microsoft service numbers, Direct Routing numbers, or hybrid numbers.
 
 ## Requirements
 
