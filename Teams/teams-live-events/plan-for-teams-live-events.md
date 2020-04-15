@@ -25,7 +25,7 @@ When you're planning Teams live events to hold large meetings in your organizati
 
 ## Who can attend, create, and schedule live events
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](quick-start-meetings-live-events.md)
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](quick-start-meetings-live-events.md).
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
@@ -66,11 +66,11 @@ The user must have:
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
 |Guest users                   |  Yes            |  No                  |
-|Everyone in federated company |  Yes<sup>1</sup>|  No                  |
+|Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Federated attendees can only be invited through People & Group <br>
+<sup>1</sup> External access (federation) attendees can only be invited through People & Group <br>
 
 ## Teams live events and Skype Meeting Broadcast
 
@@ -91,7 +91,7 @@ The following table highlights core capabilities and features offered in live ev
 |Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
 |Invite a presenter during the meeting |&#x2714; (Skype for Business) |&#x274C; |N/A |
 |Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |&#x274C; |N/A |
-|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
+|External access (federation) & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
 |Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
@@ -119,7 +119,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Americas
 - Europe/Africa
 - Asia Pacific
-- Local data region Canada, India, Australia, Japan, UK
+- Local data region (GoLocal) Canada, India, Australia, Japan, UK
 
 **Exclusions and considerations**
 
