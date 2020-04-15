@@ -25,7 +25,7 @@ When you're planning Teams live events to hold large meetings in your organizati
 
 ## Who can attend, create, and schedule live events
 
-Anyone can attend a live event. Read [Admin quick start - Meetings and live events](quick-start-meetings-live-events.md)
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](quick-start-meetings-live-events.md)
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
@@ -123,7 +123,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Exclusions and considerations**
 
-- **Local data region:** Teams local data region, outside of the ones listed above, are not currently supported.
+- **Local data region:** Teams local data regions, outside of the ones listed above, are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps
