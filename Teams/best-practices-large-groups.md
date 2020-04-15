@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Manage large teams in Microsoft Teams - best practices
+Manage large teams in Microsoft Teams - Best practices
 ======================================================
 
 Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes. Increase in team size leads to unique management and operational challenges. This article describes best practices for creating and managing large teams comprised of thousands of members.
@@ -30,7 +30,7 @@ Large teams are very useful in enabling the following collaboration scenarios:
 
 - **Department-wide collaboration**: If your organization has multiple departments such as Finance, Operations, R&D etc., then you can create a single team that includes all members in a specific department. Now all communications relevant to a department can be shared in this team, which facilitates instant reach and engagement from members.
 
-- **Collaboration in employee resource groups**: Organizations often have large groups of people with mutual interests who belong to a different department or workgroup. As an example, there can be a group of people who share a passion for personal finance and investing. It's often hard to connect in a large organization. To develop communities for such groups, tenant admins can create a large team that serves as a public company-wide resource group that anyone can join and take advantage of. Eventually, these communities collect information that both new and existing members can enjoy.
+- **Collaboration in employee resource groups**: Organizations often have large groups of people with mutual interests who belong to a different department or work group. As an example, there can be a group of people who share a passion for personal finance and investing. It's often hard to connect in a large organization. To develop communities for such groups, tenant admins can create a large team that serves as a public company-wide resource group that anyone can join and take advantage of. Eventually, these communities collect information that both new and existing members can enjoy.
 
 - **Collaboration between internal and external members**: Popular products often develop a community of early adopters who are eager to try new product releases and provide feedback. Early adopters develop a relationship with product groups to help shape the product. In such scenarios, tenant admins can set up a large team which includes both internal product groups and external product evaluators to facilitate a rich product development process. These teams can also provide customer support to a select set of customers.
 
