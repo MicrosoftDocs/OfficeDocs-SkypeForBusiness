@@ -1,5 +1,5 @@
 ---
-title: Conduct an eDiscovery investigation of content
+title: Conduct an eDiscovery investigation of Teams content
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
