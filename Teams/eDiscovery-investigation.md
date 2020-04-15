@@ -1,5 +1,5 @@
 ---
-title: Conduct an eDiscovery investigation of Teams content
+title: Conduct an eDiscovery investigation of content
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn what to do when you need to perform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
+description: Learn what to do when you need to perform eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
