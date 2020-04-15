@@ -350,7 +350,7 @@ The cornerstone of any successful software deployment hinges on how prepared use
 
 For example, both products feature channels, but they’re used differently in each product. For example, often a Channel in Slack is used like a chat in Teams for short-term, transactional conversations. Other notable differences are around threaded/non-threaded conversations and tuning notification settings.
 
-Check out our rich library of [End-user Teams training](enduser-training.md). 
+Check out our rich library of [End-user Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). 
 
 ## Move to Teams 
 Now that your transition plan is defined, you can begin creating your teams and channels in Teams. 
