@@ -20,8 +20,6 @@ appliesto:
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-## Overview of Tasks
-
 The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner into a single, comprehensive view. Users can access Tasks as an app on the left side of Teams and as a tab within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize work.
 
 [PLACEHOLDER FOR SCREENSHOT]
@@ -32,7 +30,7 @@ With Tasks in Teams, you can target, publish, assign, and track tasks at scale a
 
 ## What you need to know about Tasks
 
-Tasks is available as an app and as a tab within individual teams. As we initially roll out this feature, the app will be named **Tasks by Planner and To Do** in Teams. Later on, the app name will change to **Tasks**. Keep in mind that the app comprises all personal tasks from To Do and team tasks from Planner whereas the tab shows only team tasks.
+Tasks is available as an app and as a tab within individual teams. As we initially roll out the app, the app name will appear as **Tasks by Planner and To Do** to users in Teams. Later on, the app name will change to **Tasks**. Keep in mind that the app comprises all personal tasks from To Do and team tasks from Planner whereas the tab shows only team tasks.
 
 With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guest users. It's important to know that guests can only access Tasks from the Teams mobile client. Guests won't see Tasks on Teams desktop or web clients.
 
@@ -62,13 +60,17 @@ To pin the Tasks app for your users, you can edit the global (Org-wide default) 
 
 ## Tasks publishing
 
-With Tasks in Teams, organizations can drive consistent execution of store operations at scale across all locations. Corporate and regional leadership can send task lists targeted to relevant locations, such as retail stores, and track their progress through real-time reports. Managers can direct activities within their stores, and employees have a prioritized list of their assigned work.
+The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is on a team that's defined in the hierarchy. This means that they can publish or receive task lists and view reporting for received lists.
 
-Corporate headquarters can target, assign, and track tasks across locations. Firstline Workers can view tasks assigned to them and across the store.
+### Example scenario
 
-Scenario: Communications manager creates lists of tasks that need to be completed and choose the set of store teams that should each receive a copy of the tasks. When selecting store teams, can filter by hierarchy, attributes, or a combination of both. Hierarchy and attributes can be completely customized for the organization . Store managers assign the tasks to team members (Charts view, schedule view, board view, list view) apply a filter, and team members (store associate) can prioritize and manage the work assigned to them. Mark task as complete. Communications manager can see percentage of store teams that have assigned and completed tasks. Can drill down to a specific task to see the status within different parts of the organization, drilling down all the way to a specific team. Similarly, see a drill down for the list as a whole to understand assigned and completed status at each level of the organization, including a specific team. Can see each task in the task list of a team Reportingu nderstand the tasks as a whole to understand assignment and completion status of tasks at each level of the organization, can drill down to , specific tasks. Can see status of each 
+Contoso is rolling out a new food takeout and delivery promotion. To maintain a consistent brand experience, they need to coordinate consistent execution of the rollout across over 300 store locations.
 
-The **Published lists** tab only shows for a user if your organization uploaded a team hierarchy and the user is in a team that's defined in the hierarchy. If a user is in a team in the hierarchy, they can publish or receive task lists and view reporting for received lists.
+The Marketing team shares the promotion details and tasks with the Retail Communications Manager. The Retail Communications Manager, who serves as the gatekeeper for stores, reviews the information, creates a task list for the promotion, and then  creates a task for each unit of work that needs to be performed. Next, she needs to choose the stores that the promotion applies to. In this case, the promotion only applies to stores in the United States that have a in-store restaurant. In Tasks, she filters the store list by hierarchy and attributes to select the targeted store locations, and then publishes the tasks lists to those stores.
+
+Store managers at each store location receive a copy of the published task list and assign the tasks to their team. Store employees at each store location now have a prioritized list of tasks assigned to them. When they finish a task, they mark it complete. Some may choose to upload a photo to the task to show their work.
+
+Contoso headquarters and intermediate managers can view reporting to see assignment and completion status of tasks at each store. They can also view attachments if store employees uploaded photos. As the launch date gets closer, they can spot any abnormalities and check in with their team as needed. This visibility into execution progress allows Contoso to provide a more consistent experience across their stores.
 
 ## Power Automate and Graph API
 
@@ -76,3 +78,12 @@ Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn mor
 
 - [Planner tasks and plans API overview](https://docs.microsoft.com/graph/planner-concept-overview)
 - [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+
+
+------
+
+ Communications manager creates lists of tasks that need to be completed and choose the set of store teams that should each receive a copy of the tasks. When selecting store teams, can filter by hierarchy, attributes, or a combination of both. Hierarchy and attributes can be completely customized for the organization . Store managers assign the tasks to team members (Charts view, schedule view, board view, list view) apply a filter, and team members (store associate) can prioritize and manage the work assigned to them. Mark task as complete. Communications manager can see percentage of store teams that have assigned and completed tasks. Can drill down to a specific task to see the status within different parts of the organization, drilling down all the way to a specific team. Similarly, see a drill down for the list as a whole to understand assigned and completed status at each level of the organization, including a specific team. Can see each task in the task list of a team Reportingu nderstand the tasks as a whole to understand assignment and completion status of tasks at each level of the organization, can drill down to , specific tasks. Can see status of each 
+
+ Corporate headquarters can target, assign, and track tasks across locations. Firstline Workers can view tasks assigned to them and across the store.
+
+--------
