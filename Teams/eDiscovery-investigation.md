@@ -23,7 +23,11 @@ ms.custom: seo-marvel-mar2020
 
 Large Enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI). Microsoft Teams content can be searched and used during eDiscovery investigations.
 
-All Teams 1:1 or group chats are journaled through to the respective users' mailboxes. All standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business. eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
+## Overview
+
+All Teams 1:1 or group chats are journaled through to the respective users' mailboxes. All standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
+
+eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
 Not all Teams content is eDiscoverable. The following table shows the content types that can be located through eDiscovery.
 
@@ -31,7 +35,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |:--- | --- |:--- |
 | Teams chat messages | Yes | Chat messages from chats where guest users are the only participants in a 1:1 or 1:N chat are not eDiscoverable. |
 | Audio recordings | No | |
-| Time stamp of when a message was read by each user | No | |
+| Time stamp showing when a message was read by each user | No | |
 | Audio recordings | No | |
 | Private channel messages | No | |
 | Emojis, GIFs, stickers | No | |
@@ -44,9 +48,6 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 | Subject | No | |
 | Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 | Name of channel | No | |
-
-> [!NOTE]
-> At this time, we don't support eDiscovery of chat messages in scenarios where guest users are the only participants in a 1:1 or 1:N chat. These types of chats are also called *guest-to-guest* chats because they don't include home tenant users.
 
 - To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Manage eDiscovery cases in the Security & Compliance Center](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.
 
@@ -64,7 +65,7 @@ Records for messages sent in a private channel are delivered to the mailbox of a
 
 Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.
 
-Teams doesn't support eDiscovery Search of a single channel within a team, so the whole team must be searched. To perform an eDiscovery search of content in a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).
+Teams doesn't support eDiscovery search of a single channel within a team, so the whole team must be searched. To perform an eDiscovery search of content in a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).
 
 Use the following steps to identify files and messages in a private channel to include in your eDiscovery search.
 
@@ -113,17 +114,17 @@ Before you perform these steps, make sure you have the [latest version of the Te
 
 ## Advanced eDiscovery
 
-Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, advanced eDiscovery gives compliance admins more tools to identify data sources and analyze their contents.
+Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, advanced eDiscovery gives compliance administrators more tools to identify data sources and analyze their contents.
 
 ### Advanced eDiscovery custodian workflow for Teams content
 
 Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For background and instructions on the custodian workflow, see [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
 
-After adding a custodian, click the **Next** button, then the **Add** button. A window then displays that prompts you to select additional locations, which will show you all of the custodian's memberships and the corresponding SharePoint site locations for their data. From all of these teams and data sources, you can choose the content you want to use for eDiscovery, then place that user and all the data sources that you've identified on hold.
+After adding a custodian, click the **Next** button, then the **Add** button. A window then displays that prompts you to select additional locations, which will show you all of the custodian's memberships and the corresponding SharePoint site locations for their data. From all of these data sources and teams, you can choose the content you want to use for eDiscovery, then place that user and all the data sources that you've identified on hold.
 
-You can select whether to include their Exchange content, their OneDrive content, or both. Exchange content includes all of that user's application content in their mailboxes, such as their email, the Teams content that is stored in their mailbox, and so on. The OneDrive content includes not only the user's content, but also all of the Teams content that is stored in OneDrive, such as 1:1 chats, 1:N chats, and files shared in chats.
+You can select whether to include their Exchange content, their OneDrive content, or both. Exchange content includes all of the application content in the user's mailboxes, such as their email, the Teams content that is stored in their mailbox, and so on. The OneDrive content includes not only the user's content, but also all of the Teams content that is stored in OneDrive, such as 1:1 chats, 1:N chats, and files shared in chats.
 
-You also have the option to associate any team the custodian is a member of, which means channel chat messages and files the custodian has access to are included. Additionally, any other team can be associated with a custodian. For more information, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+You also have the option to associate any team the custodian is a member of so that channel chat messages and files the custodian has access to are included. Additionally, any other team can be associated with a custodian. For more information, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 > [!NOTE]
 > eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
@@ -156,7 +157,7 @@ A conversation review set provides a more intuitive, threaded view of the conver
 
 Functionality such as redaction is available in both types of review sets.
 
-For more information about review sets, see [Review conversation in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
 
 #### Collection options
 
@@ -188,7 +189,7 @@ Click the **Text view** tab to display a plain text view of the extracted text o
 
 Click on the **Annotate view** tab to access annotation features. This tab displays the content in a format that resembles a Teams conversation, but there are also additional options for editing. There is a pencil tool that you can use to make notes, draw on the message, or do fine-grained scratching out for redaction purposes. There is also an **Area redaction** tool that you can use to draw a rectangle that blacks out the area and marks it as "Redacted".
 
-At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. Within this panel, you can apply a tag to all messages within the Teams conversation. You can also label a conversation as responsive or non-responsive, privileged or not privileged, whether it contains "Interesting items", whether it should be included in export, and whether it needs further review. You can also manage and apply other customizable tags.
+At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. Within this panel, you can apply a tag to all messages within the Teams conversation. You can label a conversation as responsive or non-responsive, privileged or not privileged, whether it contains "Interesting items", whether it should be included in export, and whether it needs further review. You can also manage and apply other customizable tags.
 
 #### Action menu
 
