@@ -119,9 +119,11 @@ Some Microsoft Teams content can also be searched and preserved using the [Advan
 
 Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For background and instructions on the custodian workflow, see [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
 
-After you identify and add a custodian, you can select whether to include their Exchange content, their OneDrive content, or both. Exchange content includes all of that user's application content in their mailboxes, such as their email, the Teams content that is stored in their mailbox, and so on. The OneDrive content includes not only the user's content, but also all of the Teams content that is stored in OneDrive.
-
 After adding a custodian, click the **Next** button, then the **Add** button. A window then displays that prompts you to select additional locations, which will show you all of the custodian's memberships and the corresponding SharePoint site locations for their data. From all of these teams and data sources, you can choose the content you want to use for eDiscovery, then place that user and all the data sources that you've identified on hold.
+
+You can select whether to include their Exchange content, their OneDrive content, or both. Exchange content includes all of that user's application content in their mailboxes, such as their email, the Teams content that is stored in their mailbox, and so on. The OneDrive content includes not only the user's content, but also all of the Teams content that is stored in OneDrive, such as 1:1 chats, 1:N chats, and files shared in chats.
+
+You also have the option to associate any team the custodian is a member of, which means channel chat messages and files the custodian has access to are included. Additionally, any other team can be associated with a custodian. For more information, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 > [!NOTE]
 > eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
@@ -144,23 +146,27 @@ After you've created a search and selected it, a window displays with additional
 
 After you finalize your search, you can click the **Add results to review set** button and add it to a review set. For more information about review sets, see [Manage review sets in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) and [Review Sets workflow](#review-sets-workflow) later in this article.
 
-#### Normal review sets and conversational review sets
+#### Normal review sets and conversation review sets
 
-When adding a search to a review set, you can choose from a normal review set or a conversational review set.
+When adding a search to a review set, you can choose from a normal review set or a conversation review set.
 
 A normal review set is similar to an export; it provides the individual `.msg` files for the Teams content and presents the content in a basic view. You would typically use a normal review set when you plan to use other software tools to re-process the files later.
 
-A conversational review set provides a more intuitive, threaded view of the conversations; it displays related messages together in the proper order.
+A conversation review set provides a more intuitive, threaded view of the conversations; it displays related messages together in the proper order.
 
 Functionality such as redaction is available in both types of review sets.
+
+For more information about review sets, see [Review conversation in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
 
 #### Collection options
 
 When adding to a review set, there are several options available as checkboxes under the **Collection Options** section of the window, including **Conversation Retrieval Options** and **Teams Conversations**. If you enable these options, any individual Teams messages that are part of your review set will also be shown with additional messages surrounding them for context. For example, if your query is very specific and only one message is returned as a result, enabling these options will also return several messages leading up to and following the message that matched your query.
 
-Many logical criteria are used to determine whether additional messages provide context to messages that match your query. For example, for Teams content, enabling these options will retrieve the parent message and all the child messages because of the way the messages are threaded. Messages that have very close time stamps will also typically be flagged and retrieved as part of the same conversation, so if there is a gap of several hours, the criteria typically assume that the later messages are part of a separate or new conversation, so those messages will not be included.
+Many logical criteria are used to determine whether additional messages provide context to messages that match your query. For example, for Teams content, enabling these options will retrieve the parent message and all the child messages because of the way the messages are threaded.
 
-There are many heuristics that determine whether additional messages are returned. If you must be certain about which contextual messages will be returned with matches to your search query, you do not need to use these options. You can either collect all content, or you can widen the date range of your search so that more messages are returned as a result of your query.
+Message time stamps are also checked. If a message matches your query, neighboring messages that precede it within a span of 4 hours or that follow it within a span of 4 hours are considered to be part of the conversation and are also included in the results.
+
+If you must be certain about which contextual messages will be returned with matches to your search query, you do not need to use these options. You can either collect all content, or you can widen the date range of your search so that more messages are returned as a result of your query.
 
 ### Review sets workflow
 
@@ -200,10 +206,10 @@ You can choose to export to a Microsoft-provided Azure blob storage container or
 
 When you are ready to begin the export process, click the **Export** button. After export is complete, see [Download export jobs](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) for more information about how you can access the Azure blob storage container and download your exported content.
 
-> [!Note]
+> [!NOTE]
 > Exporting can take an extended period of time. To track the status of the export process, exit the **Review sets** tab and click the **Exports** tab.
 
 ## Related topics
 
-- [eDiscovery in Office 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
+- [eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
