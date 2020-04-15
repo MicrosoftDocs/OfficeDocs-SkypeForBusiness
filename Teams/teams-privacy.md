@@ -40,7 +40,7 @@ Since Teams is a cloud-based service, various types of data are processed and st
 
 Microsoft Teams will only use the data provided to deliver the agreed upon services defined in the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
 
-## What third parties have access to our personal data?
+## What third parties have access to personal data?
 
 Microsoft Teams takes strong measures to help protect your personal data from inappropriate access or use by unauthorized persons. This includes restricting access by Microsoft personnel and authorized subcontractors.  
 
@@ -51,7 +51,7 @@ Additionally, if you use Microsoft Teams for telephone services, Microsoft may s
 
 The [Teams Security Guide](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) has more information about our compliance standards.
 
-## Where does Teams transfer and store our personal data?
+## Where does Teams transfer and store personal data?
 
 Microsoft complies with international data protection laws regarding transfers of customer data across borders. Some examples of this include:
 
@@ -62,7 +62,7 @@ Microsoft complies with international data protection laws regarding transfers o
 > [!IMPORTANT]
 > Microsoft will not transfer to any third party (not even for storage purposes) data that you provide to Microsoft through the use of our business cloud services that are covered under the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
 
-## How long does Microsoft Teams retain our data?
+## How long does Microsoft Teams retain data?
 
 Microsoft retains your data for the life of your account **unless that data is first deleted by you or your admin**. You have control of your own content like chat messages, e-mail. voicemail and files through your Office applications.
 
@@ -73,6 +73,6 @@ If your company stops doing business with Microsoft, your data will all be delet
 > [!NOTE]
 > In some circumstances, local laws require that Microsoft retain telephone records (for billing purposes) for a specific period of time. In those circumstances Microsoft follows the law for each region. Additionally, if a company requests that Microsoft hold a user's data to support a legal obligation, Microsoft will respect the company administrator's request.
 
-## Contact Details of our Data Protection Officer
+## Contact Details of Microsoft's Data Protection Officer
 
 If you have a privacy concern, complaint or question for the Microsoft Chief Privacy Officer and EU Data Protection Officer, please contact us by using [our web form](https://go.microsoft.com/fwlink/?LinkId=321116). Our EU Data Protection Officer is located at Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Telephone: +353-1-706-3117.
