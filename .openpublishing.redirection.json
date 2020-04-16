@@ -1779,7 +1779,7 @@
     {
           "source_path": "upgrade-prepare-environment-prepare-network.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
-          "redirect_document_id": false
+          "redirect_document_id": true
         },    
     {
           "source_path": "Teams/scripts/Powershell-script-teams-deployment-clean-up.md", 
