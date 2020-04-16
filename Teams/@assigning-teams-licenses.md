@@ -37,9 +37,9 @@ You can assign Teams licenses in the Microsoft 365 admin center or by using Powe
 You can manage Teams licenses for users on **Active users** page or the **Licenses page** of the Microsoft 365 admin center.
 
 - To enable Teams for a user, switch the toggle next to **Microsoft Teams** to **On**.
-- To disable Teams for a user, switch the toggle to **Off**. The user will no longer see Teams in the app launcher or homepage.
+- To disable Teams for a user, switch the toggle to **Off**. When the license is disabled, the user will no longer see Teams in the app launcher or homepage.
 
-To learn more, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+For detailed steps on how to assign licenses, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Using PowerShell
 
