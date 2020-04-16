@@ -30,7 +30,7 @@ To configure Skype for Business hybrid, you need to:
 
 Note that if you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
-## Configure your on-premises Edge service to federate with Office 365 or another organisation
+## Configure your on-premises Edge service to federate with Office 365 or another organization
 
 Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:
   
