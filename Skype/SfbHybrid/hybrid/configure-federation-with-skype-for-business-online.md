@@ -41,7 +41,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 If '-EnablePartnerDiscovery' value is set to $True, Skype for Business Server will use DNS records to try and discover partner domains not listed in the AllowedDomains list. If the value is set to $False , Skype for Business Server will only federate with domains found on the AllowedDomains list. This parameter is required if you use DNS service routing.
 
 > [!NOTE]
-> For more details about enabling federation between users of your on-premises Skype for Business deployment and users of a Skype for Business Online organisation, check [this article](https://docs.microsoft.com/en-us/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
+> For more details about enabling federation between users of your on-premises Skype for Business deployment and users of a Skype for Business Online organization, see [Configuring federation support for a Skype for Business Online customer in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
 
 
 ## Configure your on-premises environment to enable shared SIP address space with Office 365
