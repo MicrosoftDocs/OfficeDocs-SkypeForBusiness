@@ -14,8 +14,6 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
-  - remotework
 appliesto: 
   - Microsoft Teams
 ---
