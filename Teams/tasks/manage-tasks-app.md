@@ -24,10 +24,10 @@ appliesto:
 
 The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize work.
 
-[PLACEHOLDER FOR SCREENSHOT]
-
 > [!NOTE]
 > As we roll out the Tasks experience, on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**.
+
+[PLACEHOLDER FOR SCREENSHOT of Tasks app]
 
 For organizations who want to streamline task management for Firstline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their stores, and Firstline Workers have a prioritized list of their assigned tasks. To enable [tasks publishing](#tasks-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
@@ -70,7 +70,7 @@ With tasks publishing, your organization can publish task lists targeted to spec
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
     ![Screenshot of assigning a task](../media/manage-tasks-app-assign.png)
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location, task list, and individual task.<br>
-    ![Screenshot of assigned tasks on mobile](../media/manage-tasks-app-mobile.png)
+    ![Screenshot of assigned tasks on mobile](../media/manage-tasks-app-reporting.png)
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization set up a team targeting hierarchy and the user is on a team that's defined in the hierarchy. This means that the user can publish or receive task lists and view reporting for received lists.
 
