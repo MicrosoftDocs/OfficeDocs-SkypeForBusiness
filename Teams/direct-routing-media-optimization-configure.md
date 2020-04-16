@@ -70,6 +70,12 @@ Local Media Optimization is supported by the following SBC vendors:
 |            |  SBC 2000         | 8.1.1, build 527 |
 |            |  SBC SWe Lite     | 8.1.0, build 222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| Oracle | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
 
 
 ## Manage external trusted IP addresses
