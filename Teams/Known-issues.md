@@ -49,6 +49,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |---------|---------|
 |Your users are seeing a "You're missing out!" message.   |Be sure to [Enable Microsoft Teams for your school](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). In EDU tenants, Teams isn't enabled by default; you'll have to turn it on first. <br><br>Next, review [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) to learn the most up-to-date guidance on setting up your school, lesson planning, meeting virtually, and sharing content with students.<br><br>Finally, be sure to check out Microsoft Teams IT admin training videos, decks, and a lot more at [Admin training for Teams](itadmin-readiness.md).        |
 
+<<<<<<< Updated upstream
 ## Administration
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -394,3 +395,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Dell Encryption can prevent Teams from launching <br/> |Dell Encryption (formerly Dell Data Protection Encryption) can corrupt Teams installation during the update process, leading to a permanent failure to launch the application. <br/> |Exclude the Teams folder at %LocalAppData%\Microsoft\Teams from the encryption policy. <br/> |11/21/19  <br/> |
+=======
+See [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) for more information about resolving problems with Microsoft Teams.
+>>>>>>> Stashed changes
