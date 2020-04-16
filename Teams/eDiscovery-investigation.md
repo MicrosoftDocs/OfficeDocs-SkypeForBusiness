@@ -38,12 +38,12 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 | Time stamp showing when a message was read by each user | No | |
 | Audio recordings | No | |
 | Private channel messages | No | |
-| Emojis, GIFs, stickers | No | |
+| Emojis, GIFs, stickers | Yes | |
 | Code snippets | No | |
 | Chat links | No | |
 | Reactions (likes, hearts, and so on) | No | |
 | Edited messages | Yes | If the user is on hold, previous versions of edited messages are preserved. |
-| Inline images | No | |
+| Inline images | Yes | |
 | Tables | No | |
 | Subject | No | |
 | Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
