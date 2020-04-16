@@ -66,7 +66,7 @@ Because this data is required to provide the service, this typically means that 
 
 If a company terminates service with Microsoft, corresponding personal data will all be deleted between 90 and 180 days of service termination.
 
-In some circumstances, local laws require that Microsoft Teams retain telephone records (for billing purposes) for a specific period of time, in those circumstances Microsoft Teams follows the law for each region. 
+In some circumstances, local laws require that Microsoft Teams retain telephone records (for billing purposes) for a specific period of time, in those circumstances Microsoft Teams follows the law for each region.
 
 Additionally, if a company requests that Microsoft Teams hold a user's data to support a legal obligation, Microsoft will respect the company administrator's request.
 
