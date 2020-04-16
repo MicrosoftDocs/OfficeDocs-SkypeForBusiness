@@ -24,7 +24,7 @@ description: "Summary: Learn how to configure interoperability between your on-p
 
 To configure Skype for Business hybrid, you need to:
 
-- [Configure your on-premises environment service to federate with Office 365 or another organisation](#configure-your-on-premises-edge-service-to-federate-with-office-365).
+- [Configure your on-premises Edge service to federate with Office 365 or another organization](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
 - [Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
 - [Enable shared SIP address space in your Office 365 tenant](#enable-shared-sip-address-space-in-your-office-365-tenant).
 
@@ -89,4 +89,3 @@ For more information about how to establish a remote PowerShell session with Sky
 ## See also
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-
