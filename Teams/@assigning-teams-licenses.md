@@ -23,13 +23,11 @@ appliesto:
 
 # Assign Teams and Teams add-on licenses to users
 
-This article describes how to assign Teams licenses and Teams add-on licenses to users.
+This article describes how to assign Teams licenses and Teams add-on licenses to users. You can assign or remove Teams licenses and Teams add-on licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
 
 ## Assign Teams licenses to users
 
 You enable or disable Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license from a licensing plan before they can use Teams. You can assign licenses to new users when new user accounts are created or to users who have existing accounts.
-
-You can assign or remove Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage Teams licenses.
 
 > [!NOTE]
 > We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
@@ -77,7 +75,13 @@ Run the following command to disable Teams for all users who have an active lice
 
 ## Assign Teams add-on licenses to users
 
-Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. For more information about the add-on licenses that are available for Teams, see LINK.
+Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. For more information about the add-on licenses that are available for Teams, and how to buy them depending on your plan, see LINK.
+
+### Assign an add-on license to one user
+
+For steps on how to assign a license to one user, see [Add users individually or in bulk to Office 365}(https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+
+### Assign an add-on license to multiple users in bulk
 
 ------
 
