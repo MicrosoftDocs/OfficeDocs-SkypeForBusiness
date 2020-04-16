@@ -177,7 +177,7 @@ With the Teams mobile clients, users will see core Teams apps such as Activity, 
 
 #### Can users change the order of apps pinned through a policy?
 
-Users can change the order of their pinned apps on Teams mobile clients, Teams desktop and web clients, if the option "Allow user pinning" is set to On. More details [here](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies)
+Users can change the order of their pinned apps on Teams mobile clients and Teams desktop and web clients if the **Allow user pinning** option is turned on. For more details, see [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
 
 ### Custom Teams apps
 
