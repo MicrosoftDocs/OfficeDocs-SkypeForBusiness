@@ -25,7 +25,7 @@ To create a hierarchy of teams that can be used by your organization to publish 
 > [!IMPORTANT]
 > You won't see a hierarchy of teams when you're browsing teams or channels within them. To see the hierarchy of teams, you need to use an app that supports it. For the initial release, only the Tasks app supports hierarchical teams. The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Before you set up your team targeting hierarchy, see [Manage the Tasks app for your organization in Teams](manage-tasks-app.md) for an overview of tasks publishing.
 
-Here's an example of how the hierarchy is represented in the Tasks app in Teams. After task lists are created, the publishing team must select the recipient teams to send (publish) the task lists to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
+Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team must then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
 ![Screenshot of tasks publishing](../media/manage-tasks-app-publish.png)
 
