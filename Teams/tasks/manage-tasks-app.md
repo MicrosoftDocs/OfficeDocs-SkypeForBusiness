@@ -29,7 +29,7 @@ The Tasks app brings a cohesive task management experience to Microsoft Teams, i
 > [!NOTE]
 > As we roll out the Tasks experience, on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**.
 
-For organizations who want to streamline task management for Firstline Workers, Tasks includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their stores, and Firstline Workers have a prioritized list of their assigned tasks. To enable [tasks publishing](#tasks-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+For organizations who want to streamline task management for Firstline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their stores, and Firstline Workers have a prioritized list of their assigned tasks. To enable [tasks publishing](#tasks-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
 ## What you need to know about Tasks
 
@@ -63,11 +63,14 @@ To pin the Tasks app for your users, you can edit the global (Org-wide default) 
 
 ## Tasks publishing
 
-With tasks publishing, your organization can publish task lists to selected locations (teams) across your organization to define and share a work plan to be completed at those locations.
+With tasks publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
-- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
-- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
-- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location, task list, and individual task.
+- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.<br>
+    ![Screenshot of tasks publishing](../media/manage-tasks-app-publish.png)
+- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
+    ![Screenshot of assigning a task](../media/manage-tasks-app-assign.png)
+- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location, task list, and individual task.<br>
+    ![Screenshot of assigned tasks on mobile](../media/manage-tasks-app-mobile.png)
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization set up a team targeting hierarchy and the user is on a team that's defined in the hierarchy. This means that the user can publish or receive task lists and view reporting for received lists.
 
@@ -85,7 +88,7 @@ Contoso headquarters and intermediate managers can view reporting to see the ass
 
 ### Set up your team targeting hierarchy
 
-To enable tasks publishing in your organization, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and the attributes  used to filter and select teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communication Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive tasks, and then publish the tasks to those teams.
+To enable tasks publishing in your organization, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and the attributes used to filter and select teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communications Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive the task lists, and then publish the task lists to those teams.
 
 For steps on how to set up your team targeting hierarchy, see [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md).
 
