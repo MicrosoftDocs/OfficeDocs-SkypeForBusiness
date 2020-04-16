@@ -22,7 +22,7 @@ appliesto:
 
 # Privacy and Microsoft Teams
 
-When an organization is considering relying on Microsoft Teams for communication and collaboration, privacy is something that needs to be addressed at every level. The questions we have below should address any privacy concerns you may have when planning your Teams implementation, or at any point during Teams usage.
+When an organization is considering relying on Microsoft Teams for communication and collaboration, privacy is something that needs to be addressed at every level. The questions we have below should address the privacy concerns you may have when planning your Teams implementation, or at any point during Teams usage.
 
 ## What personal data does Teams collect and how does Teams use this data?
 
