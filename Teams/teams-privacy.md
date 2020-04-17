@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: stbyer
 description: Privacy guidance and information for Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
