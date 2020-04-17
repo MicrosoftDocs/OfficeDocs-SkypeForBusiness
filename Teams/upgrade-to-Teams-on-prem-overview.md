@@ -216,7 +216,7 @@ When assigning TeamsOnly mode at the tenant level, meeting migration is not trig
 - If you would like display notifications in the Skype for Business client for on-premises users, you must use TeamsUpgradePolicy in the on-premises toolset. Only the NotifySfbUsers parameter is relevant for on-premises users.  On-premises users receive their mode from the online instances of TeamsUpgradePolicy. See the notes in [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants without the ability for admins to downgrade. Organizations with Skype for Business Server on-premises that previously never had an Office 365 subscription prior to Sept 3, 2019 will need to contact Microsoft Support to have their tenant downgraded, once they acquire a subscription with Office 365. 
+> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants if the organization does not have an on-premises deployment of Skype for Business Server (based on DNS detection).  
 
 
 ## Perform the upgrade for your organization
