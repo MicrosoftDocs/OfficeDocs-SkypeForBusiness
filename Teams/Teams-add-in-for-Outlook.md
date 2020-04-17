@@ -111,11 +111,11 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 
 Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
-# Troubleshooting
+## Troubleshooting
 
 Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
-## Teams Meeting add-in in Outlook for Windows does not show
+### Teams Meeting add-in in Outlook for Windows does not show
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
 
@@ -151,6 +151,6 @@ If the add-in still does not show, use the following steps to verify the registr
 - Within TeamsAddin.FastConnect, verify LoadBehavior exists and is set to 3.
   - If LoadBehavior has a value other than 3, change it to 3 and restart Outlook.
 
-## Delegate scheduling does not work
+### Delegate scheduling does not work
 
 If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. 
