@@ -1,9 +1,8 @@
 ---
-title: Manage user access to Microsoft Teams
+title: Manage user access to Microsoft Teams (was user-access)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,7 +11,7 @@ ms.collection:
 f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Learn how to enable or disable user-level access on a per-user basis.
+description: Learn how to manage user access to Teams by assigning or removing a Teams license to users. 
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,25 +20,25 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Assign Teams and Teams add-on licenses to users
+# Assign Teams licenses to users
 
-This article describes how to assign Teams licenses and Teams add-on licenses to users. You can assign or remove Teams licenses and Teams add-on licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
+You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license before they can use Teams. You can assign licenses to new users when new user accounts are created or to users who have existing accounts.
 
-## Assign Teams licenses to users
+By default, when a licensing plan is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can remove or re-assign a Teams license at any time. 
 
-You enable or disable Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license from a licensing plan before they can use Teams. You can assign licenses to new users when new user accounts are created or to users who have existing accounts.
+You can manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
 
 > [!NOTE]
 > We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
-### Using the Microsoft 365 admin center
+## Using the Microsoft 365 admin center
 
-You can manage Teams licenses for users on **Active users** page or the **Licenses** page of the Microsoft 365 admin center.
+You can manage Teams licenses on the **Active users** page of the Microsoft 365 admin center. Use this method to manage Teams licenses for individual users or small groups of users at a time. To manage Teams licenses for a large number of users, such as hundreds or thousands of users, use Powershell.
 
-- To enable Teams for a user, switch the toggle next to **Microsoft Teams** to **On**.
-- To disable Teams for a user, switch the toggle to **Off**. When the license is disabled, the user will no longer see Teams in the app launcher or homepage.
+- To enable Teams for one or more users, select the **Microsoft Teams** check box or switch the toggle to **On**.
+- To disable Teams for one or more users, clear the **Microsoft Teams** check box or switch the toggle to **Off**. When the Teams license is disabled, the user will no longer see Teams in the app launcher or homepage.
 
-For detailed steps on how to assign licenses, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+For detailed steps, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Using PowerShell
 
@@ -50,7 +49,7 @@ You enable and disable Teams through PowerShell as you would for any other servi
 - Microsoft Teams for DoD: TEAMS_DOD
 
 For more information, see:
-- [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
+- [Disable access to services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).
 - [Disable access to services while assigning user licenses](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)
 
 > [!IMPORTANT]
@@ -177,9 +176,3 @@ for each ($user in $users)
 
 ## Manage Teams at the Office 365 tenant level
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
-
-## Adding voice features for your Teams users
-
-If you are a small business, go to ---------
-
-If you are an Enterprise or large business, go to --------
