@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
