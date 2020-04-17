@@ -74,6 +74,9 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 - To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
 > [!NOTE]
+>The Outlook Teams add-in can be used to Schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2013 CU9 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have mailbox on Exchange on-premises.
+
+> [!NOTE]
 >For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
 
 > [!IMPORTANT]
