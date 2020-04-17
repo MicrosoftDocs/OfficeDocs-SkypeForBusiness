@@ -1,10 +1,9 @@
 ---
-title: Assign Teams licenses
-author: LolaJacobsen
-ms.author: lolaj
+title: Assign Teams licenses (was assign-teams-licenses)
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 audience: ITPro
-ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: 
@@ -19,12 +18,17 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Assign Microsoft Teams licenses
+# Assign Teams add-on licenses to users
 
-You can assign licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. This article explains how to add these licenses in bulk and for an individual user. 
+Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. This article explains how to assign these licenses to an individual user and to large sets of users in bulk.
 
 > [!IMPORTANT]
-> See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and how to buy them, depending on your Office 365 plan, so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
+> See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them, depending on your plan, so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization.
+
+## Assign a Teams add-on license to one user
+
+## Assign a Teams add-on license 
+--------
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses
 
