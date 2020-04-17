@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: stbyer
 description: Privacy guidance and information for Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -24,19 +24,26 @@ When an organization is considering relying on Microsoft Teams for communication
 
 ## What personal data does Teams collect and how does Teams use this data?
 
-Since Teams is a cloud-based service, various types of data are processed and stored by Microsoft as part of delivering the service. This data includes:
+Microsoft processes the personal data in Microsoft Teams to deliver the agreed-upon services defined in the [Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263) and ultimately for the purposes determined by the data controller obtaining the service. Microsoft Teams, as a cloud-based service, processes various types of personal data as part of delivering the service. This personal data includes:
 
-- **Customer Data** Customer data includes content like your meetings and conversations chats, voicemail, shared files, recordings and transcriptions. Microsoft will never access your content.
-  - **Profile Data** Data that is shared within your company about you. Examples include your E-mail address, profile picture, and phone number.
-- **Call History, Call Quality** Microsoft maintains a detailed history of the phone calls you make. This allows you to go back and review your own call records. Microsoft also provides details of meetings and call data to your system administrators. This allows your admins to diagnose issues related to poor call quality and service usage. Additionally, Microsoft maintains calls records for service delivery purposes like billing and troubleshooting.
-- **Support/Feedback Data** Data created when you open a trouble ticket or submit feedback to Microsoft. Microsoft commits to only using that data to resolve your issue or improve the Teams product.
-- **Diagnostic and service data** Microsoft also collects various telemetry data related to service usage. This allows Microsoft to deliver the service (troubleshoot, secure and update the product, and monitor performance) as well as perform some internal business operations. Some examples of this are to:
+- **Content** Your meetings and conversations chats, voicemail, shared files, recordings and transcriptions.
+- **Profile Data** Data that is shared within your company about you. Examples include your E-mail address, profile picture, and phone number.
+- **Call History** A detailed history of the phone calls you make, which allows you to go back and review your own call records.
+- **Call Quality data** Details of meetings and call data are available to your system administrators. This allows your administrators to diagnose issues related to poor call quality and service usage.
+- **Support/Feedback data** Information related to troubleshooting tickets or feedback submission to Microsoft.
+- **Diagnostic and service data** Diagnostic data related to service usage. This personal data allows Microsoft to deliver the service (troubleshoot, secure and update the product and monitor performance) as well as perform some internal business operations, such as:
   - Determine revenue
   - Develop metrics
   - Determine service usage
   - Conduct product and capacity planning
 
-Microsoft Teams will only use the data provided to deliver the agreed upon services defined in the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
+To the extent Microsoft Teams processes personal data in connection with Microsoft's legitimate business operations, Microsoft will be an independent data controller for such use and will be responsible for complying with all applicable laws and controller obligations.
+
+## Legal Basis of Processing  
+
+Our customers are controllers for the data provided to Microsoft, as set forth in the [Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263), and they determine legal bases of processing. Microsoft, in turn, processes the data on the customers' instructions, as a processor.
+
+To the extent Microsoft processes personal data in connection with its own legitimate business operations, as described in the [Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263), Microsoft will be an independent controller for such processing, the legal basis of which is legitimate interests. "Microsoft's legitimate business operations" consist of the following, each as incident to delivery of Microsoft Teams to the customer: (1) billing and account management; (2) compensation (e.g., calculating employee commissions and partner incentives); (3) internal reporting and modeling (e.g., forecasting, revenue, capacity planning, product strategy); (4) combatting fraud, cybercrime, or cyber-attacks that may affect Microsoft or Microsoft Products; (5) improving the core functionality of accessibility, privacy or energy-efficiency; and (6) financial reporting and compliance with legal obligations.
 
 ## What third parties have access to personal data?
 
@@ -77,6 +84,3 @@ If Microsoft Teams processes any personal data based on consent, you may have th
 ## Contact Details of Microsoft's Data Protection Officer
 
 If you have a privacy concern, complaint or question for the Microsoft Chief Privacy Officer and EU Data Protection Officer, please contact us by using [our web form](https://go.microsoft.com/fwlink/?LinkId=321116). Our EU Data Protection Officer is located at Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Telephone: +353 1 706 3117. You can also raise a concern or lodge a complaint with a data protection authority or other official with jurisdiction.
-
-> [!IMPORTANT]
-> To the extent of any conflict between this document and the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263), the Online Service Terms should be considered authoritative.
