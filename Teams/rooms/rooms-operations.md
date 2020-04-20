@@ -26,10 +26,10 @@ With additional configuration, remote management is possible using Microsoft Azu
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
 
-To collect logs, you must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated PowerShell prompt, and issue the following command:
+To collect logs, you must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated command prompt, and issue the following command:
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 The logs will be output as a ZIP file in c:\rigel.
@@ -170,9 +170,9 @@ If you want to manage updates manually, and are unable to follow the normal proc
 1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
 2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
