@@ -73,6 +73,8 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 > [!NOTE]
 > Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
 
+If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the [Sample PowerShell script - inbound firewall rule](#sample-powershell-script---inbound-firewall-rule) below. 
+
 ### Mac
 
 Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder.
@@ -212,7 +214,7 @@ There are currently no options available for IT administrators to configure clie
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## Sample PowerShell Script
+## Sample PowerShell script - inbound firewall rule
 
 This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
 
