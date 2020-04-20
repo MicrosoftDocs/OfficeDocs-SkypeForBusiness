@@ -25,7 +25,7 @@ appliesto:
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. However, some features require a hybrid deployment to be in place with your Office 365 tenant.
+Users' Exchange mailboxes can be hosted online or on-premises. Integration with on-premises Exchange requires an Exchange hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots.
 
@@ -35,6 +35,8 @@ Users with mailboxes hosted on-premises must be synchronized to Azure Active Dir
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
+> [!NOTE]
+> Feature integration between on-premises Exchange and Teams requires an Exchange hybrid deployment. This requirement is in addition to version-specific requirements called out in some features in the following table.
 
 **Actions supported:**
 
