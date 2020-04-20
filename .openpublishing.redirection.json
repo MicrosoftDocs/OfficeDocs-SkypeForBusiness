@@ -399,7 +399,7 @@
     {
       "source_path": "Teams/prepare-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/prepare-network", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md",
@@ -1757,29 +1757,29 @@
         "redirect_document_id": false
         },
    {
-          "source_path": "upgrade-plan-for-quality.md", 
+          "source_path": "Teams/upgrade-plan-for-quality.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
         },
     {
-          "source_path": "envision-planning-for-service-management-and-quality-complete-guide.md", 
+          "source_path": "Teams/envision-planning-for-service-management-and-quality-complete-guide.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
         },
     {
-          "source_path": "media-quality-and-network-connectivity-performance.md", 
+          "source_path": "Teams/media-quality-and-network-connectivity-performance.md", 
           "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance", 
           "redirect_document_id": false
         },
     {
-          "source_path": "onboarding-checklist-configure-networking.md", 
+          "source_path": "Teams/onboarding-checklist-configure-networking.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
         },
     {
-          "source_path": "upgrade-prepare-environment-prepare-network.md", 
+          "source_path": "Teams/upgrade-prepare-environment-prepare-network.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
-          "redirect_document_id": true
+          "redirect_document_id": false
         },    
     {
           "source_path": "Teams/scripts/Powershell-script-teams-deployment-clean-up.md", 
