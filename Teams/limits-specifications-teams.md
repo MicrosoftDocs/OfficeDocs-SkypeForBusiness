@@ -106,6 +106,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a meeting  | 250    |
 |Max PowerPoint File Size | 2GB|
 
+> [!NOTE]
+> In a GCC environment there is a limitation where the scheduling assistant can only provide availability for up to 15 people.
+
 ### Meeting expiration
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
