@@ -1,5 +1,5 @@
 ---
-title: Assign Teams licenses (was assign-teams-licenses)
+title: Assign Teams add-on licenses to users (was assign-teams-licenses)
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,21 +13,53 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
+description: "Learn how to assign Teams add-on licenses to users for features like Audio Conferencing, Phone System, and Calling Plans."
 appliesto: 
   - Microsoft Teams
 ---
 
 # Assign Teams add-on licenses to users
 
-Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. This article explains how to assign these licenses to an individual user and to large sets of users in bulk.
+Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. You can use the Microsoft 365 admin center or PowerShell to assign add-on licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
 
-> [!IMPORTANT]
-> See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them, depending on your plan, so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization.
+See [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization.
 
-## Assign a Teams add-on license to one user
+## Using the Microsoft 365 admin center
 
-## Assign a Teams add-on license 
+You can assign Teams add-on licenses on the **Active users** page or the **Licenses page** of the Microsoft 365 admin center. Use the Microsoft 365 admin center to assign licenses to individual users or small groups of users at a time. For example, use the **Licenses** page to assign licenses for up to 20 users at a time. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell.
+
+For detailed steps, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+
+## Using PowerShell
+
+For detailed steps, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+
+Here's a list of licensing plan names (product names) and their corresponding SKU part name that you'll need. For more information, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell) and [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+
+| Product name | SKU part name |
+|--------------|---------------|
+| Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
+| Enterprise E3 | ENTERPRISEPACK | 
+| Enterprise E1 | STANDARDPACK |
+| Audio Conferencing | MCOMEETADV | 
+| Audio Conferencing Pay Per Minute (pay as you go)</br>Requires Communications Credits to be set up and enabled. | MCOMEETACPEA |
+| Enterprise E1 | STANDARDPACK |
+| Enterprise E3 | ENTERPRISEPACK |
+| Enterprise E5 (without Audio Conferencing) | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Enterprise E5 (with Audio Conferencing) | ENTERPRISEPREMIUM |
+| Business Voice (with Calling Plan) | TBD  |
+| Business Voice (without Calling Plan) | TBD |
+| Phone System | MCOEV |
+| Domestic and International Calling Plan | MCOPSTN2 |
+| Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
+| Domestic Calling Plan (120 minutes per user/month for each country) </br>This plan is not available in the United States. | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country) </br>This plan is not available in the United States. | MCOPSTN6 |
+| Communications Credits | MCOPSTNPP |
+
+## Related topics
+
+- [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 --------
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses
