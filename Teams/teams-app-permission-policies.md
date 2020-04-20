@@ -144,6 +144,9 @@ To enable a third-party app for a user or a set of users in your organization, d
 
 ### Working with app permission policies
 
+#### What app interactions do permission policies affect?
+Permission policies govern app usage by controlling installation, discovery, and interaction for end users. Admins can still manage apps in the Microsoft Teams admin center regardless of the permission policies assigned to them.
+
 #### Can I control line of business (LOB) apps?
 Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps. You can create a custom policy or edit the global policy to allow or block custom apps based on the needs of your organization.
 
