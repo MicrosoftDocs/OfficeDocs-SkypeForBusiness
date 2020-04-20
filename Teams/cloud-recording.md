@@ -9,22 +9,18 @@ audience: admin
 ms.collection: 
   - M365-voice
   - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Practical guidance for deploying cloud voice features in Microsoft Teams.
+description: How to turn on and manage meeting recording in Microsoft Teams.
 ms.collection: 
-  - Teams_ITAdmin_PracticalGuidance
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
 ---
 
 # Teams cloud meeting recording
-
-> [!IMPORTANT]
-> **In the future, we're making a configuration change** in which the Teams meeting recording feature will be turned on for customers whose Teams data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region. When this change takes effect, meeting recordings will be stored by default in the nearest Microsoft Stream region. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off meeting recordings and then turn it on after Microsoft Stream is deployed to your in-country region. To learn more, see [Where your meeting recordings are stored](#where-your-meeting-recordings-are-stored).
 
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/stream/), so users can share it securely across their organization.
 
@@ -51,13 +47,13 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 
 This section explains how you can set up and plan for recording Teams meetings.
 
-### Enable Microsoft Stream for users in the organization
+### Turn on Microsoft Stream for users in the organization
 
 Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Office 365 Business Premium, and Office 365 Business Essentials.
 
 Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
-### Ensure that users have upload video permissions in Microsoft Stream
+### Make sure users have upload video permissions in Microsoft Stream
 
 By default, everyone in the company can create content in Stream, once Stream is enabled and the license is assigned to the user. A Microsoft Stream administrator can [restrict employees for creating content](https://docs.microsoft.com/stream/restrict-uploaders) in Stream. The users who are in this restricted list will not be able to record meetings.
 
