@@ -105,7 +105,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 |Max PowerPoint File Size | 2GB|
-|Maximum time a meeting recording is retained | 21 days |
+|Maximum time a meeting recording is retained on Microsoft Stream | 21 days |
 
 ### Meeting expiration
 
