@@ -46,7 +46,7 @@ All matters related to your existing collaboration infrastructure and Office 365
 
 ## Project team
 
-Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakekholders](upgrade-enlist-stakeholders.md).
+Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakeholders](upgrade-enlist-stakeholders.md).
 
 ## Office 365 tenant details
 
@@ -93,7 +93,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | Question | Answer | Comments |
 > |---|---|---|
 > | What types of users are enabled for Teams? | <input type="checkbox"> All users in the organization <br/> <input type="checkbox"> Specific users/user groups <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column) ||
-> | Which Teams features and modalities are in use? | <input type="checkbox"> Channel-based conversations <br/> <input type="checkbox"> Private chat <br/> <input type="checkbox"> Guest access <br/> <input type="checkbox"> Channel meetings <br/> <input type="checkbox"> Private meetings <br/> <input type="checkbox"> Private calling <br/> <input type="checkbox"> Ad-hoc channel meetup <br/> <input type="checkbox"> Videos in meetings <br/> <input type="checkbox"> Screen sharing in meetings <br/> <input type="checkbox"> Audio conferencing <br/><input type="checkbox"> Applications (apps)<br> &nbsp; &nbsp; &nbsp;<input type="checkbox"> Tabs<br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Bots <br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Connectors<br><input type="checkbox"> Custom cloud storage integration <br>&nbsp; &nbsp; &nbsp; (Box, Dropbox, ShareFile, Google Drive) <br/> <input type="checkbox"> Channel email integration <br/> <input type="checkbox"> Other (Specify in the Comments column.) | |
+> | Which Teams features and modalities are in use? | <input type="checkbox"> Channel-based conversations <br/> <input type="checkbox"> Private chat <br/> <input type="checkbox"> Guest access <br/> <input type="checkbox"> Channel meetings <br/> <input type="checkbox"> Private meetings <br/> <input type="checkbox"> Private calling <br/> <input type="checkbox"> Ad-hoc channel meetup <br/> <input type="checkbox"> Videos in meetings <br/> <input type="checkbox"> Screen sharing in meetings <br/> <input type="checkbox"> Audio conferencing <br/><input type="checkbox"> Applications (apps)<br> &nbsp; &nbsp; &nbsp;<input type="checkbox"> Tabs<br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Bots <br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Connectors<br><input type="checkbox"> Custom cloud storage integration <br>&nbsp; &nbsp; &nbsp; (Dropbox, Box, ShareFile, Google Drive, Egnyte) <br/> <input type="checkbox"> Channel email integration <br/> <input type="checkbox"> Other (Specify in the Comments column.) | |
 > | What applications have you deployed to Teams? | | |
 > | Have you specifically blocked any Teams capabilities? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
