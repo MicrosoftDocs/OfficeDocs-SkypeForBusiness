@@ -46,7 +46,7 @@ All matters related to your existing collaboration infrastructure and Office 365
 
 ## Project team
 
-Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakekholders](upgrade-enlist-stakeholders.md).
+Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakeholders](upgrade-enlist-stakeholders.md).
 
 ## Office 365 tenant details
 
