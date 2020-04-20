@@ -37,12 +37,12 @@ You can manually submit a port order by creating a service request in the Micros
 3. In the **Contact support** pane, do the following:
 
     1. Enter a title (for example, Port order request) and description for your request, confirm your phone number and email address, and select your preferred contact method.
-    2. Under **Attachments**, click **Add a file**, and then upload your completed [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers).
+    2. Under **Attachments**, click **Add a file**, and then upload your completed [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Click **Contact me**.
 
 ### Send your Letter of Authorization directly to the PSTN service desk
 
-Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
+Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
 
 - In the United States, [send your request](mailto:ptn@microsoft.com).
 - In Europe, [send your request](mailto:ptneu@microsoft.com).
