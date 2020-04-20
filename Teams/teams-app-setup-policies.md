@@ -179,6 +179,10 @@ With the Teams mobile clients, users will see core Teams apps such as Activity, 
 
 Currently, users can change the order of their pinned apps on Teams mobile clients but not on the Teams desktop or web clients.
 
+#### Does user pinning take precedence?
+
+If the assigned Teams App Setup policy is updated to block user app pinning, Teams removes any apps pinned to the left-hand navigation bar. If the policy is then updated to allow user app pinning, users must re-pin their previously pinned apps.
+
 ### Custom Teams apps
 
 #### My organization built a custom Teams app and published it, either to AppSource or the tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it?
