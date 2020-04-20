@@ -399,7 +399,7 @@ Currently, you can only use PowerShell to set this policy. You can edit an exist
 
 To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
 
-|Setting value |Behavior  |
+|Setting value in PowerShell |Behavior  |
 |---------|---------|
 |**NoFilters**     |User can't customize their video background.|
 |**BlurOnly**     |User has the option to blur their video background. |
