@@ -391,10 +391,13 @@ This is a per-organizer policy. This setting controls whether meeting chat is al
 
 <a name="bkparticipantsandguests"> </a>
 
-
 ## Meeting policy settings - Video filters mode
 
-This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
+This is a per-user policy. This setting controls whether users can customize their video background in a meeting. This setting is currently available only in PowerShell. 
+
+Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet to assign it to users.
+
+To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
 
 |Setting value |Behavior  |
 |---------|---------|
