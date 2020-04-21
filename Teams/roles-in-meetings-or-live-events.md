@@ -44,23 +44,15 @@ Presenters and organizers have access to every feature in a meeting or live even
 
 ## Attendees
 
-The types of users who can be attendees are described as the following:
+There are several types of users who can be attendees.
 
-- In-tenant user - belongs to the organization and has credentials for the tenant.
-- Non-host team user - belongs to the organization but not a member of the hosting team's tenant. (channel meetings only)
-- Anonymous user - does not have an organizational identity and isn't a member of the tenant.
-- Guest user - is invited to join the meeting by a member of the tenant.
-- B2B user - is a business-to-business member who's invited to the meeting by a tenant member. Typically is a guest user.
-- Business-to-Customer (B2C) user - B2C is a member of an outside organization. Typically attends as an anonymous user.
-- External (federation) user - has valid credentials with external partners and is treated as authenticated by Teams, but is still Anonymous to the meeting organizer tenant.
+### In-tenant user
 
-## In-tenant user
+The in-tenant user belongs to the organization and has credentials for the tenant. Learn more about user types in [Security and Microsoft Teams](teams-security-guide#participant-types.md).
 
-Channel meeting
-
-| Feature |  | |||
+|Meeting  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes |Yes | 
 | Whiteboard | Yes | Yes |Yes |
@@ -69,11 +61,9 @@ Channel meeting
 | Schedule a meeting | Yes | N/A | N/A | 
 |||||||
 
-Live event
-
-| Feature |  | |||
+| Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+|  **Feature**       | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes |Yes | 
 | Whiteboard | Yes | Yes |Yes |
@@ -82,13 +72,13 @@ Live event
 | Schedule a meeting | Yes | Yes | Yes | 
 |||||||
 
-## Non-host team user
+### Non-host team user
 
-Channel meeting
+The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organization.](communicate-with-users-from-other-organizations#compare-external-and-guest-access.md).
 
-| Feature |  | |||
+| Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**       | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | No | No | No |
 | Meeting Notes | No | No | No | 
 | Whiteboard | No | No |No |
@@ -97,13 +87,13 @@ Channel meeting
 | Schedule a meeting | No | N/A | N/A | 
 |||||||
 
-## Guest user and B2B
+### Guest user and B2B
 
-Channel meeting
+The guest user is invited to join the meeting by a member of the tenant. A B2B user is a business-to-business member who's invited to the meeting by a tenant member and is typically attends as a guest user. Read more about guest users in [What the guest experience is like](guest-experience#comparison-of-team-member-and-guest-capabilities.md).
 
-| Feature |  | |||
+| Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes | Yes | 
 | Whiteboard | No | No |No |
@@ -112,11 +102,9 @@ Channel meeting
 | Schedule a meeting | No | N/A | N/A | 
 |||||||
 
-Live event
-
-| Feature | | |||
+| Live event  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes | Yes | 
 | Whiteboard | No | No | No |
@@ -125,13 +113,13 @@ Live event
 | Schedule a meeting | No | No | No | 
 |||||||
 
-## Anonymous user and B2C
+### Anonymous user and B2C
 
-Channel meeting
+The anonymous user doesn't have an organizational identity and isn't a member of the tenant. A business-to-customer (B2C) user is a member of an outside organization and typically attends as an anonymous user. Learn more about user types in [Security and Microsoft Teams](teams-security-guide#participant-types.md).
 
-| Feature | | |||
+| Meeting  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | N/A | No | N/A |
 | Meeting Notes | N/A | No | N/A | 
 | Whiteboard | N/A | No | N/A |
@@ -140,11 +128,9 @@ Channel meeting
 | Schedule a meeting | N/A | N/A | N/A | 
 |||||||
 
-Live event
-
-| Feature |  | |||
+| Live event|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Pre-meeting | In-meeting | Post-meeting |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | No | Yes | No |
 | Meeting Notes | N/A | No | N/A | 
 | Whiteboard | N/A | No | N/A |
@@ -153,12 +139,13 @@ Live event
 | Schedule a meeting | N/A | No | N/A | 
 ||||||| 
 
-## External user
+### External user
 
-Channel meeting (Can be addded to a team as a guest only)
+An external (federation) user has valid credentials with external partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about external users in [Communicate with users from other organizations](communicate-with-users-from-other-organizations#external-access.md).
 
-| Feature |  | 
-|---------|---|----------------|
+| Meeting (Can be addded to a team as a guest only) || 
+|-|-|-|
+| **Feature** |||
 | Chat (includes photos and stickers) | N/A |
 | Meeting Notes | N/A |  
 | Whiteboard | N/A | 
@@ -167,11 +154,9 @@ Channel meeting (Can be addded to a team as a guest only)
 | Schedule a meeting | N/A | 
 |||
 
-Live event
-
-| Feature |  | |||
+| Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|         | Can be addded to a team as a guest only | Pre-meeting | In-meeting | Post-meeting |
+|  **Feature**         | Pre-meeting | In-meeting | Post-meeting |
 | Chat (includes photos and stickers) | N/A | Yes | Yes |
 | Meeting Notes | N/A | Yes | Yes | 
 | Whiteboard | N/A | No | No |
