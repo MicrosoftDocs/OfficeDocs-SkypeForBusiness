@@ -12,7 +12,8 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "This article discusses lifecycle support for Microsoft Teams Rooms."
+description: Learn about lifecycle support for Microsoft Teams Rooms, including the dynamic support structure and its phases.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams Rooms app version support

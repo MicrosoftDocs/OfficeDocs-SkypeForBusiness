@@ -13,7 +13,8 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
-description: "This article explains the infrastructure preparations for deploying Microsoft Teams Rooms."
+description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
+ms.custom: seo-marvel-apr2020
 ---
  
 # Prepare your environment

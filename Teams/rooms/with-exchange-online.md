@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online."
+description: Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online and Skype for Business Server on-premises.
 ---
 
 # Deploy Microsoft Teams Rooms with Exchange Online

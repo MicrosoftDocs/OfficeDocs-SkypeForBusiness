@@ -12,7 +12,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: "This article discusses known issues for Microsoft Teams Rooms, by feature area."
+description: Admin can learn about a list of known issues for Microsoft Teams Rooms, including update, user interface, hardware, and limitations and expected behaviors.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Known issues 

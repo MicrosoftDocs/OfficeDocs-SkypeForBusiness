@@ -11,9 +11,10 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Turn on or turn off the guest access feature in Microsoft Teams.
+description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
@@ -35,15 +36,15 @@ After you turn on guest access, it takes 2-24 hours for the changes to take effe
 
 ## Configure guest access in the Teams admin center
 
-1.	Sign in to the Microsoft Teams admin center.
+1.    Sign in to the Microsoft Teams admin center.
 
-2.	Select **Org-wide settings** > **Guest access**.
+2.    Select **Org-wide settings** > **Guest access**.
 
 3. Set **Allow guest access in Microsoft Teams** to **On**.
 
     ![Allow guest access switch set to On ](media/set-up-guests-image1.png)
 
-4.	Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
+4.    Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
     - **Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.
     - **Allow IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.
@@ -64,7 +65,7 @@ After you turn on guest access, it takes 2-24 hours for the changes to take effe
     - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations. 
 
 
-5.	Click **Save**.
+5.    Click **Save**.
 
 ## Use PowerShell to turn guest access on or off
 Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
