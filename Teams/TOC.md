@@ -10,7 +10,7 @@
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](enduser-training.md)
+## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# Security and compliance
+# Security, privacy, and compliance
 ## [Overview](security-compliance-overview.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## Security
+## Security and privacy
 ### [Security Guide](teams-security-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
@@ -728,7 +729,6 @@
 ### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
 ### [How Microsoft Teams uses memory](teams-memory-usage-perf.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)

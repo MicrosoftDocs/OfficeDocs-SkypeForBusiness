@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
@@ -50,6 +50,7 @@ The user must have:
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
 - Permissions to create live events in Stream (for external app or device production).
+- Coexistence mode configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams Only*).
 
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events. 
@@ -65,8 +66,6 @@ The user must have:
 |Specific groups / people      |  Yes            |  Yes                 |
 
 <sup>1</sup> Federated attendees can only be invited through People & Group <br>
-
-
  
 ## Teams live events and Skype Meeting Broadcast
 
@@ -127,4 +126,3 @@ Go to [Set up for Teams live events](set-up-for-teams-live-events.md).
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
-
