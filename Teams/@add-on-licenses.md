@@ -48,37 +48,3 @@ Need to talk to someone about the add-on options? [Contact support for business 
 
 ## Related topics
 
----------
-
-### How do I use my existing Calling Plans with Teams?
-<a name="bkmk_existing"></a>
-
-## Assign add-on licenses
-
-After you decide on which features you want for your Teams users, assign the licenses to them.
-
-### For small and medium businesses (less than 300 users)
-
-Procedure for M365 SMB plans. Go to MAC > Active Users > choose a user > licenses > pick Business Voice.
-
-<Screenshot of licensing>
-
-### If you're a large business or enterprise (more than 300 users)
-
-Procedure for Enterprise or large businesses. Go to MAC > Active Users > choose a user > licenses > pick which features you want.
-
-<Screenshot of licensing>
-
-### Assign add-on licenses in bulk
-
-You can use WIndows PowerShell to assign multiple users a license for Business Voice, Phone System , Audio Conferencing and Calling Plans.
-
-<Tony to figure this mess out.>
-
-## Set up Communication credits
-
-Add the links to the CC topics that are already written. 
-
-## Related topics
-    
-
