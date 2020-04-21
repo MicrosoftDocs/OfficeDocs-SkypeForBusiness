@@ -50,7 +50,7 @@ The trial grants a one-year trial subscription to your entire organization. For 
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the trial](#manage-the-trial), later in this article. 
 
-Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.
+Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Microsoft 365 Apps for business (which doesn't include Teams), they are eligible for the trial.
 
 ## Who is not eligible
 

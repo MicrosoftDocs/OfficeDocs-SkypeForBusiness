@@ -29,7 +29,7 @@ description: "Use Advisor for Teams (public preview) to help you plan and comple
 
 Advisor for Teams (public preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
-Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Office 365 Business Essentials license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
+Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
 > [!IMPORTANT]
 > Advisor for Teams isn't available for Microsoft 365 Government - GCC High or DoD deployments.
@@ -128,7 +128,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
-At a minimum, you'll need Office 365 Business Essentials so you can take advantage of the Advisor for Teams integration with Forms and Planner.
+At a minimum, you'll need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team?
 After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the public preview period and becomes generally available.

@@ -101,27 +101,27 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 - .txt files
 - Media-stack folder
 
-### Office 365 ProPlus considerations
+### Microsoft 365 Apps for enterprise considerations
 
-Consider the following when you deploy Teams with Office 365 ProPlus on VDI.
+Consider the following when you deploy Teams with Microsoft 365 Apps for enterprise on VDI.
 
-#### New deployments of Teams through Office 365 ProPlus
+#### New deployments of Teams through Microsoft 365 Apps for enterprise
 
-Before you deploy Teams through Office 365 ProPlus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
+Before you deploy Teams through Microsoft 365 Apps for enterprise, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
 
-Teams through Office 365 ProPlus is installed per-user. To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
+Teams through Microsoft 365 Apps for enterprise is installed per-user. To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
 
-#### Teams deployments through Office 365 ProPlus updates
+#### Teams deployments through Microsoft 365 Apps for enterprise updates
 
-Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
+Teams is also being added to existing installations of Microsoft 365 Apps for enterprise. Since Microsoft 365 Apps for enterprise installs Teams per-user only, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
 
-#### Using Teams with per-machine installation and Office 365 ProPlus
+#### Using Teams with per-machine installation and Microsoft 365 Apps for enterprise
 
-Office 365 ProPlus doesn't support per-machine installations of Teams. To use per-machine installation, you must exclude Teams from Office 365 ProPlus. See the [Deploy the Teams desktop app to the VM](#deploy-the-teams-desktop-app-to-the-vm) and [How to exclude Teams deployment through Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) sections.
+Microsoft 365 Apps for enterprise doesn't support per-machine installations of Teams. To use per-machine installation, you must exclude Teams from Microsoft 365 Apps for enterprise. See the [Deploy the Teams desktop app to the VM](#deploy-the-teams-desktop-app-to-the-vm) and [How to exclude Teams deployment through Microsoft 365 Apps for enterprise](#how-to-exclude-teams-deployment-through-office-365-proplus) sections.
 
-#### How to exclude Teams deployment through Office 365 ProPlus
+#### How to exclude Teams deployment through Microsoft 365 Apps for enterprise
 
-To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from new installations of Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exclude Teams from new installations of Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### Deploy the Teams desktop app to the VM
 

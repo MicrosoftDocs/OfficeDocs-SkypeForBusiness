@@ -34,7 +34,7 @@ Before you deploy Skype for Business to your users, make sure you've done steps 
 
  **Step-by-step installation instructions:** If you have a small or medium-sized business, we recommend that you simply ask your users to install the Skype for Business app on their PC. Point them to these instructions: [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb). If they are using Macs, point them to [Set up Lync for Mac 2011 for Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88). The Skype for Business app is installed separately from the rest of the Office apps.
   
- **Office 365 ProPlus customers:** If your business is using an Office 365 plan that includes Office 365 ProPlus, such as the E3 plan, the Skype for Business app is installed at the same time your users download and install Word, Excel, PowerPoint, etc. This also means they can't uninstall Skype for Business unless they uninstall all of Office.
+ **Microsoft 365 Apps for enterprise customers:** If your business is using an Office 365 plan that includes Microsoft 365 Apps for enterprise, such as the E3 plan, the Skype for Business app is installed at the same time your users download and install Word, Excel, PowerPoint, etc. This also means they can't uninstall Skype for Business unless they uninstall all of Office.
   
 ### Choose whether to make Skype for Business available to your users
 
@@ -73,9 +73,9 @@ With Office 365, you have several options for deploying the Skype for Business a
   
 - Download the Skype for Business app to your local network from the Microsoft 365 admin center, as described in [Manually deploying Skype for Business to your users](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
     
-- Use the **[Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** to download either Office 365 ProPlus or the Skype for Business app to your local network. Then, use the Office Deployment Tool to deploy the app to your users. The Office Deployment Tool gives you the ability to control certain aspects of the deployment, such as languages and version (32-bit or 64-bit).
+- Use the **[Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** to download either Microsoft 365 Apps for enterprise or the Skype for Business app to your local network. Then, use the Office Deployment Tool to deploy the app to your users. The Office Deployment Tool gives you the ability to control certain aspects of the deployment, such as languages and version (32-bit or 64-bit).
     
-- Use your existing software deployment tools and processes, such as Microsoft Endpoint Configuration Manager, to deploy Office 365 ProPlus or the Skype for Business app to your users. You can use your existing tools and processes with the [Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) or with the software that you've downloaded from the Microsoft 365 admin center.
+- Use your existing software deployment tools and processes, such as Microsoft Endpoint Configuration Manager, to deploy Microsoft 365 Apps for enterprise or the Skype for Business app to your users. You can use your existing tools and processes with the [Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) or with the software that you've downloaded from the Microsoft 365 admin center.
     
 ### More info on using the Office Deployment Tool
 
@@ -107,7 +107,7 @@ For more information about using Configuration Manager to deploy software, see t
     
 - [Deploy applications with Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-If you're deploying the Skype for Business app as part of deploying Office 365 ProPlus, see [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
+If you're deploying the Skype for Business app as part of deploying Microsoft 365 Apps for enterprise, see [Manage Microsoft 365 Apps for enterprise with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
   
 ## Planning for updates to the Skype for Business app
 
@@ -127,11 +127,11 @@ For example, many organizations want to test updates with a group of users befor
   
 For more information about how updates work for Office 365 software, see these articles:
   
-- [Overview of the update process for Office 365 ProPlus](https://technet.microsoft.com/library/dn761709.aspx)
+- [Overview of the update process for Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761709.aspx)
     
-- [Choose how to manage updates to Office 365 ProPlus](https://technet.microsoft.com/library/dn761707.aspx)
+- [Choose how to manage updates to Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761707.aspx)
     
-- [Configure update settings for Office 365 ProPlus](https://technet.microsoft.com/library/dn761708.aspx)
+- [Configure update settings for Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761708.aspx)
     
   **How often to get feature updates**
   
@@ -143,7 +143,7 @@ In addition to where you get updates from, you can also control how often you ge
     
 For some organizations, they want time to test new features, so they want to get feature updates only twice a year instead of every month.
   
-You can control how often you get feature updates by using the Office Deployment Tool or Group Policy to configure the update channel. The Monthly Channel gives you feature updates monthly (approximately), while the Semi-Annual Channel gives you feature updates every six months. For more information about channels, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
+You can control how often you get feature updates by using the Office Deployment Tool or Group Policy to configure the update channel. The Monthly Channel gives you feature updates monthly (approximately), while the Semi-Annual Channel gives you feature updates every six months. For more information about channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
 ## Related topics
 

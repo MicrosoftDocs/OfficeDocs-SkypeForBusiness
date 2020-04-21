@@ -79,7 +79,7 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 ## Compliance
 
-Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) or [Office 365 Security & Compliance Center](https://protection.microsoft.com) to manage these settings.
+Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 Compliance Center](https://compliance.microsoft.com) to manage these settings.
 
 ### Information Barriers
 
@@ -135,11 +135,11 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-Please see the [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) article to understand more about preservation and holds in the Office 365 Security & Compliance Center. For more Teams-specific information on legal hold, we also have our [Place a Microsoft Teams user or team on legal hold](legal-hold.md) article for you to learn more.
+Please see the [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) article to understand more about preservation and holds in the Microsoft 365 Compliance Center. For more Teams-specific information on legal hold, we also have our [Place a Microsoft Teams user or team on legal hold](legal-hold.md) article for you to learn more.
 
 ### Compliance Content Search
 
-Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search) article to learn more about how to conduct a compliance content search for Microsoft Teams and other Office 365 content in the Office 365 Security & Compliance Center.
+Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search) article to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft 365 Compliance Center.
 
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
