@@ -1,10 +1,10 @@
 ---
 title: "Deploy collaboration bars for Microsoft Teams"
-ms.author: v-lanac
-author: lanachin
-manager: serdars
+ms.author: mitressl
+author: flinchbot
+manager: 
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: 
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
@@ -23,11 +23,11 @@ Deployment of collaboration bars for Microsoft Teams essentially breaks down int
 
 - Confirming that your deployment locations (rooms) meet the deployment dependencies
 - Creating Microsoft Teams and Exchange accounts and assigning them to the devices (see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md))
-- Setting up collaboration bars in roms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
+- Setting up collaboration bars in rooms and connecting the peripheral devices you need (see the vendor's documentation for your collaboration bars)
 
 ## Site readiness 
 
-While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
+While the ordered devices are being delivered to your organization, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
 You can find out more about these dependencies in the planning guidance links below:
 
@@ -39,16 +39,16 @@ You can find out more about these dependencies in the planning guidance links be
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>| 
 
 ## Service readiness
 
-To prepare for your collaboration bars for Microsoft Teams deployment, do the following key, central tasks:
+To prepare for your collaboration bars for Microsoft Teams deployment, do the following key tasks:
 
--   Define collaboration bars for Microsoft Teams Rooms resource account features.
--   Prepare an organizational unit and Active Directory group to hold your collaboration bars for Microsoft Teams resource accounts.
+-   Define collaboration bars for Microsoft Teams Rooms resource accounts.
+-   Prepare an Azure Active Directory group to hold your resource accounts.
 
-### Define collaboration bars for Microsoft Teams resource account features 
+### Define collaboration bars for Microsoft Teams resource account 
 
 Depending on the collaboration scenarios that you’ve decided to enable with your collaboration bars for Microsoft Teams deployment, you’ll need to determine the features and capabilities that you assign to each collaboration bar for Microsoft Teams resource account that you enable.
 
@@ -58,7 +58,7 @@ Depending on the collaboration scenarios that you’ve decided to enable with yo
 | Dial-in conferencing            | Enable meetings started *directly* from the collaboration bars for Microsoft Teams console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the collaboration bars for Microsoft Teams to make and receive PSTN calls                                         | Enabled for Phone System                                                |
 
-For more information about Microsoft Teams Rooms accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md).
+For more information about collabortion bars for Microsoft Teams resource accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md).
 
 
 |    |     |
@@ -71,7 +71,7 @@ For more information about Microsoft Teams Rooms accounts, see [Configure accoun
 
 Planning for configuration and deployment covers the following key areas:
 
--   Account provisioning
+-   Resource account provisioning
 -   Device deployment
 -   Microsoft Teams Rooms application and peripheral device configuration
 -   Testing
@@ -79,7 +79,7 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning 
 
-Collaboration bars for Microsoft Teams can use a dedicated and unique resource account, a standard end-user account that must be enabled for both Microsoft Teams and Exchange. If using a dedicated resource account, calendar processing must be configured in Exchange so that the device can automatically accept incoming meeting requests. For more information about creating dedicated resource accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md). 
+Collaboration bars for Microsoft Teams can use a dedicated and unique resource account, or a standard end-user account that must be enabled for both Microsoft Teams and Exchange. If using a dedicated resource account, calendar processing must be configured in Exchange so that the device can automatically accept incoming meeting requests. For more information about creating dedicated resource accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md). 
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding collaboration bars for Microsoft Teams to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*), so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12). 
 
@@ -90,4 +90,4 @@ Collaboration bars for Microsoft Teams can use a dedicated and unique resource a
 
 ### Collaboration bars for Microsoft Teams application configuration
 
-After each collaboration bar for Microsoft Teams has been physically deployed, you’ll need to configure the collaboration bar to assign resource account and password created earlier.
+After each collaboration bar for Microsoft Teams has been physically deployed, you’ll need to configure the collaboration bar to assign the resource account and password created earlier.
