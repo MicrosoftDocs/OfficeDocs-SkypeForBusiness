@@ -29,7 +29,7 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 ## What you need to know before you assign Phone System, Calling Plan, and Communication Credits licenses
 
-Before you get started, review the following
+Before you get started, review the following:
 
 - If you're using on-premises PSTN connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
 
@@ -108,10 +108,10 @@ Use PowerShell to assign licenses to users in bulk.
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    Or, to assign Business Voice with Calling Plans, use the following syntax in the script:
+    To assign a Business Voice with Calling Plan license, use the following syntax in the script:
 
       ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
+      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:TBD" -ErrorAction SilentlyContinue
       ```
 
 For more information, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
