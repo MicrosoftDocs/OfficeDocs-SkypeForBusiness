@@ -48,7 +48,7 @@ A Teams user license can be disabled at any time. Once the license is disabled, 
 ## Manage via PowerShell
 
 > [!IMPORTANT]
-> New-MsolLicenseOptions will enable all services that were previously disabled unless explicitly identified in your customized script. As an example, if you wanted to leave both Exchange & Sway disabled while additionally disabling Teams, you'd need to include this in the script or both Exchange & Sway will become enabled for those users you've identified. To use a GUI to manage this functionality, see [Office 365 License Reporting and Management Tool -Assign Remove Licenses in Bulk](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) for more information.
+> New-MsolLicenseOptions will enable all services that were previously disabled unless explicitly identified in your customized script. As an example, if you wanted to leave both Exchange & Sway disabled while additionally disabling Teams, you'd need to include this in the script or both Exchange & Sway will become enabled for those users you've identified.
 
 Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. The service plan name is TEAMS1 for Microsoft Teams. For GCC the service plan name is TEAMS_GOV. For GCC High the service plan name is TEAMS_GCCHIGH. For DoD the service plan name is TEAMS_DOD (See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)
 
