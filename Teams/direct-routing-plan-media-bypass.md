@@ -310,8 +310,8 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
-| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 49 152 – 53 247     |
+UDP/SRTP | Media Processor | SBC | 3478, 3479 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478, 3479 and 49 152 – 53 247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
 
