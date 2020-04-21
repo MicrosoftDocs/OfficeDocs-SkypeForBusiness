@@ -30,6 +30,7 @@ The available meeting features are:
 - Whiteboard
 - Recording
 - Files
+- Schedule a meeting (for meetings only)
 
 This article describes those user roles and what access they have to meeting and live event features.
 
@@ -69,12 +70,11 @@ The in-tenant user belongs to the organization and has credentials for the tenan
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
 | Files | Yes | Yes | Yes |
-| Schedule a meeting | Yes | Yes | Yes |
 |||||||
 
 ### Non-host team user
 
-The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organization.](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 
 | Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -110,7 +110,6 @@ The guest user is invited to join the meeting by a member of the tenant. A B2B u
 | Whiteboard | No | No | No |
 | Recording | N/A | No | No |
 | Files | No | No | No |
-| Schedule a meeting | No | No | No |
 |||||||
 
 ### Anonymous user and B2C
@@ -136,7 +135,6 @@ The anonymous user doesn't have an organizational identity and isn't a member of
 | Whiteboard | N/A | No | N/A |
 | Recording | N/A | No | N/A |
 | Files | N/A | No | N/A |
-| Schedule a meeting | N/A | No | N/A |
 |||||||
 
 ### External user
@@ -157,12 +155,11 @@ An external (federation) user has valid credentials with external partners and i
 | Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**         | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | N/A | Yes | Yes |
-| Meeting Notes | N/A | Yes | Yes |
-| Whiteboard | N/A | No | No |
-| Recording | N/A | N/A | No |
+| Chat (includes photos and stickers) | No| Yes | Yes |
+| Meeting Notes | No | No | No |
+| Whiteboard | No| No | No |
+| Recording | N/A | No | No |
 | Files | Yes | Yes | Yes |
-| Schedule a meeting | N/A | No | N/A |
 |||||||
 
 ## Related topics
