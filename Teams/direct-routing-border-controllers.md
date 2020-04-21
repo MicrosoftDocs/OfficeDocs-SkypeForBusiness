@@ -16,8 +16,8 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
-ms.custom: seo-marvel-mar2020
+description: Admin can learn about which Session Border Controllers (SBCs) have been certified for Direct Routing.
+ms.custom: seo-marvel-apr2020
 ---
 
 # List of Session Border Controllers certified for Direct Routing

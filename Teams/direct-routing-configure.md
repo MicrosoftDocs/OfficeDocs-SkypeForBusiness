@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure Microsoft Phone System Direct Routing."
+description: Learn how to configure Microsoft Phone System Direct Routing to connect your on-premises telephony infrastructure to Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure Direct Routing

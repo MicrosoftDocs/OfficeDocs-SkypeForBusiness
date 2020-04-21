@@ -9,13 +9,13 @@ ms.service: msteams
 ms.reviewer: 
 audience: admin
 search.appverid: MET150
-description: Learn how to upgrade the free version of Microsoft Teams
+description: Learn how to easily upgrade from the free version of Microsoft Teams to the full version by purchasing an Office 365 subscription plan for your users.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

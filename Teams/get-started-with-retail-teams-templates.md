@@ -11,11 +11,12 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn how to use Teams templates to create team structures designed for retailer needs."
+description: Learn how to use Teams templates to create team structures designed for retailer needs by providing predefined settings, channels, and pre-installed apps.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

@@ -13,12 +13,13 @@ ms.reviewer: sonua
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Practical guidance for deploying cloud voice features in Microsoft Teams.
+description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
 ms.collection: 
   - Teams_ITAdmin_PracticalGuidance
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams cloud meeting recording
@@ -32,7 +33,7 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 
 ## Prerequisites for Teams cloud meeting recording
 
-For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
+For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
 - User needs to be licensed for Microsoft Stream<sup>1</sup> 
