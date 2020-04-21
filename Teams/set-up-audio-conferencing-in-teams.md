@@ -48,6 +48,9 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     > Audio Conferencing is included in Office 365 Enterprise E5 licenses and as an add-on.
         
 2. After you buy the Audio Conferencing licenses, you will need to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
+
+> [!IMPORTANT]
+> Make sure you assign Microsoft as the audio conferencing provider. More details [here](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
     
