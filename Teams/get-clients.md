@@ -103,7 +103,7 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 ### Linux
 
 Users will be able to install native Linux packages in `.deb` and `.rpm` formats.
-Installing the DEB or RPM package will automatically install the package repository
+Installing the DEB or RPM package will automatically install the package repository.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
