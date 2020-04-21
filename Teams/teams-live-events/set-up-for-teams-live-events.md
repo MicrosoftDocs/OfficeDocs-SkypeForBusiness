@@ -30,7 +30,7 @@ Live events produced in Teams require you to [prepare your organization's networ
 
 ## Step 2: Get and assign licenses
 
-Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
+Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## Step 3: Set up live events policies
 
