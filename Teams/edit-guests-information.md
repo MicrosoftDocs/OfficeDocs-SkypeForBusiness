@@ -13,9 +13,10 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
+description: In this article, you will learn how an admin can edit information about guest users in the Azure Active Directory portal.
 appliesto: 
   - Microsoft Teams
+ms.custom: - seo-marvel-apr2020
 ---
 
 Edit guest user information

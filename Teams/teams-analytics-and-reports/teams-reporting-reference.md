@@ -14,9 +14,10 @@ search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection: 
   - M365-collaboration
-description: Learn about the Teams reports that are available in the Microsoft Teams admin center.
+description: In this article, you will learn about the Teams reports that are available in the Microsoft Teams admin center.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams analytics and reporting

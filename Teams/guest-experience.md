@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Learn about the Microsoft Teams functionality available to guest users.
+description: This article describes the Microsoft Teams functionality available to guest users and also answers some of the most common FAQs related to it.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 What the guest experience is like

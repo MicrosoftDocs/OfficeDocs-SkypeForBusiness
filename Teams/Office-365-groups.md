@@ -8,7 +8,7 @@ ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
+description: In this article, you will learn about how Office 365 groups and group memberships work with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 Office 365 Groups and Microsoft Teams

@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
+description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -16,7 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan for lifecycle management in Teams
