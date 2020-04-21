@@ -22,7 +22,7 @@ appliesto:
 
 # Manage user access to Teams
 
-You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must be assigned a Teams license before they can use Teams. You can assign licenses to new users when new user accounts are created or to users who have existing accounts.
+You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must have a Teams license before they can use Teams. You can assign licenses to new users when new user accounts are created or to users who have existing accounts.
 
 By default, when a licensing plan is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
 
@@ -47,7 +47,7 @@ When you remove a Teams license from a user, Teams is disabled for that user, an
 
 ## Using PowerShell
 
-Use PowerShell to manage Teams licenses to users in bulk. You enable and disable Teams through PowerShell in the same way that you would for any other service plan license. You'll need the identifiers for the service plans for Teams, which are as follows:
+Use PowerShell to manage Teams licenses for users in bulk. You enable and disable Teams through PowerShell in the same way that you would for any other service plan license. You'll need the identifiers for the service plans for Teams, which are as follows:
 
 - Microsoft Teams: TEAMS1
 - Microsoft Teams for GCC: TEAMS_GOV
