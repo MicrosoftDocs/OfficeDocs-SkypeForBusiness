@@ -46,7 +46,7 @@ Microsoft MakeCode is a block-based coding platform that brings computer science
 
 MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
-This setting is off by default. To enable MakeCode assignments in Teams, in the **Teams Admin Center**, navigate to the **Assignments** section and turn the MakeCode toggle option to **On**.  Click **Save** and allow up to 24 hours for these settings to take effect.
+This setting is off by default. To enable MakeCode assignments in Teams, in the **Teams Admin Center**, navigate to the **Assignments** section and turn the MakeCode toggle option to **On**. Click **Save** and allow up to 24 hours for these settings to take effect.
 
 For more information on how this feature works, see this [video demonstration](https://makecode.com/blog/teams/teams-assignments).
 
