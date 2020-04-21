@@ -23,58 +23,162 @@ Roles in a Teams meeting or live event
 
 Microsoft Teams meetings and live events support many user types. Users can access various meeting and event features based on their roles inside or outside of an organization. 
 
+The available meeting features are:
+
+- Chat
+- Meeting Notes
+- Whiteboard
+- Recording
+- Files
+
+This article describes those user roles and what access they have to meeting features.
+
 ## Presenters and organizers
 
 Presenters and organizers include the following:
 
 - Presenters from my organization
-- Presenters from other organizations (Live Events restriction) - covers B2B and anonymous/external
+- Presenters from other organizations (Live Events restriction) - this includes business-to-business (B2B) and anonymous/external
 
-Presenters and organizers have access to everything in a meeting or live event.
+Presenters and organizers have access to every feature in a meeting or live event.
 
 ## Attendees
 
 The types of users who can be attendees are described as the following:
 
 - In-tenant user - belongs to the organization and has credentials for the tenant.
+- Non-host team user - belongs to the organization but not a member of the hosting team's tenant. (channel meetings only)
 - Anonymous user - does not have an organizational identity and isn't a member of the tenant.
 - Guest user - is invited to join the meeting by a member of the tenant.
-- B2B user - is a business-to-business member who's invited to the meeting by a tenant member. 
+- B2B user - is a business-to-business member who's invited to the meeting by a tenant member. Typically is a guest user.
+- Business-to-Customer (B2C) user - B2C is a member of an outside organization. Typically attends as an anonymous user.
 - External (federation) user - has valid credentials with external partners and is treated as authenticated by Teams, but is still Anonymous to the meeting organizer tenant.
 
-Attendees are defined as the following:
+## In-tenant user
 
-- Attendees from my organization invited to the meeting (in-tenant user)
-- Attendees from my organization not invited to the meeting [for channel meetings]
-- Attendees from my organization in the team/channel, including B2B guests/B2B users in the team/channel
-- Attendees from my organization not in the team/channel
-- B2B guests in my tenant, B2B users, and elevated guests in my tenant
-- External signed-in users
-- Anonymous users
+Channel meeting
 
-During a channel meeting, attendees have different capabilities, depending on what kind of attendee they are.
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes |Yes | 
+| Whiteboard | Yes | Yes |Yes |
+| Recording | N/A |Yes | Yes | 
+| Files | Yes | Yes | Yes | 
+| Schedule a meeting | Yes | N/A | N/A | 
+|||||||
 
-- Attendee from my organization: Can do everything attendees are allowed to do. To learn more, read [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&amp;amp;rs=en-us&amp;amp;).
-- Attendee who's a member of my organization but not a member of my team:
-  - Can chat, edit meeting notes, and collaborate on shared files, but can't schedule meetings, use the whiteboard, or record meetings.
-- Attendee from an external (federation) organization:
-  - Can't participate in meetings at all. External users can only chat. If you want someone from an external domain to join a meeting, add them as a guest.
-- Attendee who's an anonymous/B2C user:  
-  - Can attend a meeting but can't participate in chat, meeting notes, use the whiteboard, record meetings, or collaborate on files.
+Live event
 
-  During a live meeting, attendees have different capabilities, depending on what kind of attendee they are.
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes |Yes | 
+| Whiteboard | Yes | Yes |Yes |
+| Recording | N/A |Yes | Yes | 
+| Files | Yes | Yes | Yes | 
+| Schedule a meeting | Yes | Yes | Yes | 
+|||||||
 
-- Attendee from my organization: Can do everything attendees are allowed to do. To learn more, read [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&amp;amp;rs=en-us&amp;amp;).
-- Attendee who's a member of my organization but not a member of my team:
-  - Can chat, edit meeting notes, and collaborate on shared files, but can't schedule meetings, use the whiteboard, or record meetings.
-- Attendee from an external (federation) organization:
-  - Can access only chat and files.
-- Attendee who's an anonymous/B2C user:  
-  - Can can only access chat.
+## Non-host team user
 
-  Chat meeting after a meeting has ended
+Channel meeting
 
-  An in-tenant user can access the chat, meeting notes, whiteboard, recording, and files. A guest user can access the chat. All other users have no access.
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | No | No | No |
+| Meeting Notes | No | No | No | 
+| Whiteboard | No | No |No |
+| Recording | N/A | No | No | 
+| Files | No | No | No | 
+| Schedule a meeting | No | N/A | N/A | 
+|||||||
+
+## Guest user and B2B
+
+Channel meeting
+
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes | Yes | 
+| Whiteboard | No | No |No |
+| Recording | N/A |No | No | 
+| Files | Yes | Yes | Yes | 
+| Schedule a meeting | No | N/A | N/A | 
+|||||||
+
+Live event
+
+| Feature | | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes | Yes | 
+| Whiteboard | No | No | No |
+| Recording | N/A | No | No | 
+| Files | No | No | No | 
+| Schedule a meeting | No | No | No | 
+|||||||
+
+## Anonymous user and B2C
+
+Channel meeting
+
+| Feature | | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | N/A | No | N/A |
+| Meeting Notes | N/A | No | N/A | 
+| Whiteboard | N/A | No | N/A |
+| Recording | N/A | No | N/A | 
+| Files | N/A | No | N/A | 
+| Schedule a meeting | N/A | N/A | N/A | 
+|||||||
+
+Live event
+
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | No | Yes | No |
+| Meeting Notes | N/A | No | N/A | 
+| Whiteboard | N/A | No | N/A |
+| Recording | N/A | No | N/A | 
+| Files | N/A | No | N/A | 
+| Schedule a meeting | N/A | No | N/A | 
+||||||| 
+
+## External user
+
+Channel meeting (Can be addded to a team as a guest only)
+
+| Feature |  | 
+|---------|---|----------------|
+| Chat (includes photos and stickers) | N/A |
+| Meeting Notes | N/A |  
+| Whiteboard | N/A | 
+| Recording | N/A |  
+| Files | N/A | 
+| Schedule a meeting | N/A | 
+|||
+
+Live event
+
+| Feature |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|         | Can be addded to a team as a guest only | Pre-meeting | In-meeting | Post-meeting |
+| Chat (includes photos and stickers) | N/A | Yes | Yes |
+| Meeting Notes | N/A | Yes | Yes | 
+| Whiteboard | N/A | No | No |
+| Recording | N/A | N/A | No | 
+| Files | Yes | Yes | Yes | 
+| Schedule a meeting | N/A | No | N/A | 
+|||||||
 
 ## Related topics
 
