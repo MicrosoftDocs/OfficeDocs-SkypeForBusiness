@@ -30,10 +30,26 @@ The peripherals certification program ensures that USB peripherals such as heads
 * For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 ## Device qualifications
-##### *Updated March 30, 2020*
+##### *Updated April, 2020*
 
 |Manufacturer| Model	|Qualified|Certified Program|
 |:--- |:--- |:--- |:---|
+|Yealink|CP700|4/13/2020|Microsoft Teams|
+|Jabra|Evolve2 65 Headset|4/13/2020|Microsoft Teams|
+|EPOS/ Sennheiser|SC Impact Series Headsets|4/9/2020|Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 30|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 45|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 60|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 75 MS|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 75 MS EUL|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 230 USB MS II|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 260 USB MS II|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 630 USB MS|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 635 USB|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 660 USB MS|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 660 ANC USB|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|EPOS/Sennheiser|Impact SC 665 USB|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
+|Logitech| Zone Wireless |4/8/2020|Microsoft Teams|
 |Poly|Voyager 8200 Headset|3/26/2020|Microsoft Teams|
 |Logitech|Zone Wired|3/26/2020|Microsoft Teams|
 |Jabra|Evolve2 40 Headset|3/26/2020|Microsoft Teams|
@@ -206,7 +222,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 |Logitech|	USB Headset Mono H570e	|7/28/2014|Lync|
 |Logitech|	USB Headset Stereo H570e	|7/28/2014|Lync|
 |Polycom|	CX300 R2	|6/11/2014|Skype for Business|
-|Polycom|	CX5100 Unified Conference Station	|5/19/2014|Sype fo Business|
+|Polycom|	CX5100 Unified Conference Station	|5/19/2014|Skype for Business|
 |Sennheiser|	Speakerphone SP 10 ML	|5/1/2014|Lync|
 |Sennheiser|	Speakerphone SP 20 ML |5/1/2014|Lync|
 |Jabra|	MOTION OFFICE MS	|4/09/2014|Lync|
