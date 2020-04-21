@@ -134,6 +134,9 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
+> [!NOTE]
+> Each [private channel](https://docs.microsoft.com/en-us/microsoftteams/private-channels) has its own SharePoint site collection optimized for file sharing and fast provisioning
+
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
 By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
