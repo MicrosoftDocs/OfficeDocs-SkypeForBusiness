@@ -25,7 +25,7 @@ When you're planning Teams live events to hold large meetings in your organizati
 
 ## Who can attend, create, and schedule live events
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](quick-start-meetings-live-events.md).
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
