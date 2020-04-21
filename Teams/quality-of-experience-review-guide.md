@@ -23,7 +23,7 @@ ms.custom:
 # Quality of Experience Review Guide 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
+This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. 
 
 ## Introduction
 
@@ -473,15 +473,15 @@ You can access CQD one of three ways:
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
-![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
+    ![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
-_Figure 7 – Accessing CQD through the Microsoft Teams admin center_
+    _Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+    ![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
-_Figure 8 - Accessing CQD through the Skype for Business admin center_
+    _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 
 ### Getting started
@@ -629,7 +629,7 @@ The format of the data file you upload must meet the following requirements to p
 
 -   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
 
--   There must be 14 columns for each row. Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+-   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
 
 _Table 5 - Building file structure_
 

@@ -10,6 +10,7 @@ audience: admin
 description: Improve Teams performance by excluding certain files and folders from regular antivirus scanning.
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -38,11 +39,3 @@ Add the following Teams programs to your antivirus safe list.
 
 **%localappdata%\Microsoft\Teams\Update.exe**
 
-### Folders
-
-Add the following Teams folders to your antivirus safe list.
-
-|Category  |Location  |
-|---------|---------|
-|Program files  |%localappdata%\Microsoft\Teams|
-|Data files     |%appdata%\Microsoft\Teams\ |
