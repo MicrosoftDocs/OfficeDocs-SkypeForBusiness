@@ -1,7 +1,7 @@
 ---
 title: Communicate with users from other organizations in Microsoft Teams
-author: CindyChurch
-ms.author: cichur
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -48,7 +48,7 @@ There are several types of users who can be attendees.
 
 ### In-tenant user
 
-The in-tenant user belongs to the organization and has credentials for the tenant. Learn more about user types in [Security and Microsoft Teams](teams-security-guide#participant-types.md).
+The in-tenant user belongs to the organization and has credentials for the tenant. Learn more about user types in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
 |Meeting  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -74,7 +74,7 @@ The in-tenant user belongs to the organization and has credentials for the tenan
 
 ### Non-host team user
 
-The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organization.](communicate-with-users-from-other-organizations#compare-external-and-guest-access.md).
+The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organization.](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 
 | Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -89,7 +89,7 @@ The non-host team user belongs to the organization but isn't a member of the hos
 
 ### Guest user and B2B
 
-The guest user is invited to join the meeting by a member of the tenant. A B2B user is a business-to-business member who's invited to the meeting by a tenant member and typically attends as a guest user. Read more about guest users in [What the guest experience is like](guest-experience#comparison-of-team-member-and-guest-capabilities.md).
+The guest user is invited to join the meeting by a member of the tenant. A B2B user is a business-to-business member who's invited to the meeting by a tenant member and typically attends as a guest user. Read more about guest users in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 | Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -115,7 +115,7 @@ The guest user is invited to join the meeting by a member of the tenant. A B2B u
 
 ### Anonymous user and B2C
 
-The anonymous user doesn't have an organizational identity and isn't a member of the tenant. A business-to-customer (B2C) user is a member of an outside organization and typically attends as an anonymous user. Learn more about user types in [Security and Microsoft Teams](teams-security-guide#participant-types.md).
+The anonymous user doesn't have an organizational identity and isn't a member of the tenant. A business-to-customer (B2C) user is a member of an outside organization and typically attends as an anonymous user. Learn more about user types in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
 | Meeting  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -141,7 +141,7 @@ The anonymous user doesn't have an organizational identity and isn't a member of
 
 ### External user
 
-An external (federation) user has valid credentials with external partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about external users in [Communicate with users from other organizations](communicate-with-users-from-other-organizations#external-access.md).
+An external (federation) user has valid credentials with external partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about external users in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
 
 | Meeting (Can be addded to a team as a guest only) ||
 |-|-|-|
