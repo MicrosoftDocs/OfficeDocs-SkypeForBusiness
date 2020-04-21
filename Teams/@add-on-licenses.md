@@ -35,9 +35,9 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |||||
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-**Microsoft 365 Business Voice** <br/> | Business Voice is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, Domestic Calling, and more. It offers Phone System capabilities like call park, call forwarding, auto attendants, call queues, Audio Conferencing, and Calling Plans. To learn more, including whether it's available in your country or region, see [What is Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)<br/> For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
+**Microsoft 365 Business Voice** <br/> | Business Voice is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, Domestic Calling, and more. You get capabilities like call park, call forwarding, auto attendants, call queues, Audio Conferencing, and Calling Plans. To learn more, including whether it's available in your country or region, see [What is Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)<br/> For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of using their computer. Use the [Audio Conferencing](audio-conferencing-in-office-365) feature for these scenarios.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;|&#x2713;|
-|**Toll free numbers for dial-in access to your conferences and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
+|**Toll free numbers for dial-in access to your conferences<br><br> Ability to dial out from a conference to add someone by calling any phone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System is a hosted telephone service that gives you both traditional and innovative PBX capabilities  without the complicated and expensive equipment. [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;|&#x2713;|
 |**Calling Plans** <br/> |Calls to other Teams users are free. If you want users to be able to call phone numbers outside of your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans.  <br/> For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Microsoft Teams Rooms](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |&#x2713;|&#x2713;|
@@ -52,10 +52,6 @@ Need to talk to someone about the add-on options? [Contact support for business 
 
 ### How do I use my existing Calling Plans with Teams?
 <a name="bkmk_existing"></a>
-
-If you're using on-premises PSTN connectivity for hybrid users, you *only* assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
-
-???For Phone System Direct Routing, see [Plan Direct Routing](direct-routing-plan.md#licensing-and-other-requirements).
 
 ## Assign add-on licenses
 
@@ -85,5 +81,4 @@ Add the links to the CC topics that are already written.
 
 ## Related topics
     
-- [Calling Plans for Office 365](../calling-plans-for-office-365.md) and [Set up Calling Plans](../set-up-calling-plans.md)
-- [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md)
+

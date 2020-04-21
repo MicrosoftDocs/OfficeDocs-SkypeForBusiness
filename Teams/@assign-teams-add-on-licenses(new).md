@@ -45,9 +45,7 @@ Before you get started, review the following considerations.
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small groups of users at a time. 
 
-You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell.
-
-The steps are different depending on whether you use the **Licenses** page or **Active users** page. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Using PowerShell
 
@@ -103,16 +101,16 @@ Use PowerShell to assign licenses to users in bulk.
 
 For example, to assign Microsoft 365 Enterprise 1 and Audio Conferencing licenses, use the following syntax in the script:
 
-    ```powershell
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
-    ```
+  ```powershell
+  Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
+  Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
+  ```
 
 Or, to assign Business Voice with Calling Plans, use the following syntax in the script:
 
-    ```powershell
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-    ```
+  ```powershell
+  Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
+  ```
 
 For more information, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
