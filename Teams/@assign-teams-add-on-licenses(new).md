@@ -45,7 +45,9 @@ Before you get started, review the following
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small groups of users at a time. 
 
-You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell. 
+
+For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Using PowerShell
 
@@ -65,7 +67,7 @@ Use PowerShell to assign licenses to users in bulk.
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product name and SKU identifiers for licensing](#product-name-and-sku-identifiers-for-licensing).
 
     ```powershell
-    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Create a text file with a single row that lists the user principal names (UPNs) of users to license. The MSOLservice uses the UPN to license user accounts.
     #Example of text file:
     #user1@domain.com
     #user2@domain.com
