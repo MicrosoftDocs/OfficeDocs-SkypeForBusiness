@@ -1,10 +1,10 @@
 ---
 title: "Creating Resource Accounts for collaborations bars for Microsoft Teams"
-ms.author: v-lanac
-author: lanachin
-manager: serdars
+ms.author: mitressl
+author: flinchbot
+manager: 
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: 
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
@@ -14,10 +14,10 @@ ms.collection:
   - M365-collaboration
 ms.custom: 
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
+description: "Read this topic for information on how to create resource accounts for collaboration bars for Microsoft Teams Rooms."
 ---
 
-# Creating Resource Accounts for collaborations bars for Microsoft Teams
+# Creating resource accounts for collaborations bars for Microsoft Teams
 
 Read this topic for information on how to create resource accounts for collaboration bars for Microsoft Teams.
 
@@ -27,13 +27,13 @@ This article discusses creating a resource account using remote PowerShell.
 
 ## Requirements
 
-Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
+Before you deploy collaboration bars for Microsoft Teams, be sure you have reviewed the [deployment guidance](deployment.md).
 
 - If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.
 
-- Your tenant users must have Exchange mailboxes.
+- Your resource accounts must have Exchange mailboxes.
 
-- Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.
+- Your resource account does require at a minimum a Microsoft 365 E1 license, but it does not require an Exchange Online license. The Meeting Rooms license is recommended.
 
 ### Add a resource account
 
@@ -100,18 +100,19 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet.   For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService` powershell cmdlet.   For details about Azure Active Directory PowerShell module, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
-5.Set the password for huddleroom01@contoso.onmicrosoft.com to not expire using the following syntax:
+5. You need to Set the password for huddleroom01@contoso.onmicrosoft.com to not expire. You also need to assign a usage location to your device account — this determines what license SKUs are available for your account. The usage location is the 2-letter ISO 3166-1 alpha-2
+country code, such as US for United States of America. You can use the followiong syntax to set the password to not expire and the set the country code to US:
 
     ``` PowerShell
-    Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation US
     ```
 
-6. The resource account needs to have a valid Office 365 license, preferably the Meeting Room SKU. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Office 365 tenant as follows:
+6. The resource account needs to have a valid Microsoft 365 license, preferably the Meeting Room SKU. You can use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 tenant as follows:
 
   ``` Powershell
   Get-MsolAccountSku
