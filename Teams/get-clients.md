@@ -41,6 +41,9 @@ The desktop clients provide real-time communications support (audio, video, and 
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
+> [!NOTE]
+> For more details about installing Teams on a Chromebook, please see [How to install and run Microsoft Office on a Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
+
 IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
 
 > [!NOTE]
@@ -100,7 +103,7 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 ### Linux
 
 Users will be able to install native Linux packages in `.deb` and `.rpm` formats.
-Installing the DEB or RPM package will automatically install the package repository
+Installing the DEB or RPM package will automatically install the package repository.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
