@@ -41,13 +41,17 @@ You can manage Teams licenses on the **Licenses** page (for up to 20 users at at
 
 The steps are different depending on whether you use the **Licenses** page or **Active users** page. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-|Active users page|Licenses page |
+|||
 |---------|---------|
-|![Screenshot of Teams license enabled on the Active users page](media/assign-teams-licenses-1.png)    | ![Screenshot of Teams license enabled on the Licenses page](media/assign-teams-licenses-2.png)        |
+|![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
 When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users).
+
+|||
+|---------|---------|
+|![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
 
 ## Using PowerShell
 

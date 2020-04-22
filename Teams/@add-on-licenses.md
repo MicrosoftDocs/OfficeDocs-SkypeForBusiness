@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams add-on licenses"
-ms.author: LanaChin
-author: v-lanac
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
