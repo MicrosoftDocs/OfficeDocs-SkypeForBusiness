@@ -43,7 +43,7 @@ Before you get started, review the following:
 
 ## Using the Microsoft 365 admin center
 
-Use the Microsoft 365 admin center to assign licenses to individual users or small groups of users at a time. 
+Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time. 
 
 You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell. 
 
