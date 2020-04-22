@@ -92,7 +92,7 @@ You can also assign a live events policy to one or more users as follows:
 
 For users to schedule events produced with an external app or device, you must also do the following:
 
-1. Enable Microsoft Stream for users in your organization. Stream is available as part of eligible Office 365 subscriptions or as a standalone service. Stream isn't included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
+1. Enable Microsoft Stream for users in your organization. Stream is available as part of eligible Microsoft 365 or Office 365 subscriptions or as a standalone service. Stream isn't included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
       Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 

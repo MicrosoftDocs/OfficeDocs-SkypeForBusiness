@@ -27,7 +27,7 @@ description: Learn how to setup Skype for Businesses to use another language for
 
 # Change the default language for greetings and emails
 
-If you are an [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
+If you are a [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
   
  **First, read this important info:**
   
@@ -44,7 +44,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 ## Change the system language for everyone in your organization
 
-1. Sign in with your [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Sign in with your [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. In the Microsoft 365 admin center, choose **Settings** > **Settings** > **Organization profile**. 
     
