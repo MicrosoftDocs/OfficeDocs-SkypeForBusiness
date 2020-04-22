@@ -28,7 +28,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 
 - Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 offer](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
 
--  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
+-  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
 - Understand how to get your organization started with **[Meetings and live events in Teams](quick-start-meetings-live-events.md)**. 
 
