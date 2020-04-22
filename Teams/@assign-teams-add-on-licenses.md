@@ -132,18 +132,18 @@ To learn more, see [View licenses and services with PowerShell](https://docs.mic
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
 | Microsoft 365 Business | SPB|
-| Microsoft Business Voice (with Calling Plan) for Canada | BUSINESS_VOICE_MED  |
-| Microsoft Business Voice (with Calling Plan) for the United Kingdom | BUSINESS_VOICE  |
-| Microsoft Business Voice (with Calling Plan) for the United States | BUSINESS_VOICE_MED2  |
+| Microsoft Business Voice (Canada)| BUSINESS_VOICE_MED  |
+| Microsoft Business Voice (United Kingdom) | BUSINESS_VOICE  |
+| Microsoft Business Voice (United States) | BUSINESS_VOICE_MED2  |
 | Microsoft Business Voice (without Calling Plan) | BUSINESS_VOICE_DIRECTROUTING  |
 | Microsoft Business Voice (without Calling Plan) for the United States| BUSINESS_VOICE_DIRECTROUTING _MED |
 | Audio Conferencing | MCOMEETADV | 
-| Audio Conferencing Pay Per Minute (pay as you go)</br>Requires Communications Credits to be set up and enabled. | MCOMEETACPEA |
+| Audio Conferencing Pay Per Minute (pay as you go)</br>*Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
 | Phone System | MCOEV |
 | Domestic and International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
-| Domestic Calling Plan (120 minutes per user/month for each country) </br>This plan isn't available in the United States. | MCOPSTN5 |
-| Domestic Calling Plan (240 minutes per user/month for each country) </br>This plan isn't available in the United States. | MCOPSTN6 |
+| Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
 
 ## Related topics
