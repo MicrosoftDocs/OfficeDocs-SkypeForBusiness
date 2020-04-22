@@ -43,7 +43,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## Set the default dial-in phone number for a meeting organizer
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
     

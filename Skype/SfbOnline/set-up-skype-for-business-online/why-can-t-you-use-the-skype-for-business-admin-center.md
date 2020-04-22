@@ -37,7 +37,7 @@ For more technical details, see [During and after your data move]( https://go.mi
 
 First, let's break down a few terms.
   
-- **Data center** This is the physical location where the information from your Office 365 organization is stored, such as your files and email messages. If you really want to dig in to what Office 365 datacenters are, check out[this article](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Data center** This is the physical location where the information from your Microsoft 365 or Office 365 is stored, such as your files and email messages. If you really want to dig in to what Office 365 datacenters are, check out[this article](https://www.microsoft.com/online/legal/v2/?docid=25).
     
 - **Migrating** This is pretty much the same as "moving." In this case, it means we're moving your Skype for Business Online users and settings from one datacenter to another that's closer to you to improve your service.
     

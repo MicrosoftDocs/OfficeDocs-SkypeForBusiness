@@ -46,7 +46,7 @@ The following table compares the Teams functionality available for an organizati
 |Create meetings or access schedules  <br/> |&#x2713;||
 |Access OneDrive for Business storage  <br/> |&#x2713;||
 |Create tenant-wide and teams/channels guest access policies  <br/> |&#x2713;||
-|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
+|Invite a user outside the Office 365 organization's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
 |Create a team  <br/> |&#x2713;||
 |Discover and join a public team  <br/> |&#x2713;||
 |View organization chart  <br/> |&#x2713;||

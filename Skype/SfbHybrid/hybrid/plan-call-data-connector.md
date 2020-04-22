@@ -57,10 +57,10 @@ The following requirements assume that you already have Skype for Business Serve
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
-- Authenticate to your Office 365 tenant and ensure that you have the following roles enabled:
+- Authenticate to your Office 365 organization and ensure that you have the following roles enabled:
 
   - Skype for Business Server Administrator
-  - Office 365 Global Administrator
+  - Global Administrator
 
 - If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
