@@ -1,5 +1,5 @@
 ---
-title: Communicate with users from other organizations in Microsoft Teams
+title:  Learn about the roles in a Teams live event or meeting
 author: cichur
 ms.author: v-cichur
 manager: serdars
