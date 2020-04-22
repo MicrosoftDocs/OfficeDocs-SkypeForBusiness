@@ -33,19 +33,17 @@ Add-on licenses are licenses for specific Microsoft Teams features. They give yo
 Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have. 
 
 
-#### [Small business plans](#tab/small-business/)
+#### [Small business](#tab/small-business/)
 
-![Small business](../media/@licensingsmall.png)
+![Small business](../media/licensing-small-business-plans.png)
 
+#### [Enterprise-based](#tab/enterprise-1-3/)
 
-#### [Enterprise-based plans](#tab/enterprise-1-3/)
-
-![Enterprise E1 or E3](../media/@licensingsmall2.png)
-
+![Enterprise E1 or E3](../media/licensing-enterprise-plans.png)
 
 #### [Enterprise E5](#tab/enterprise-5/)
 
-![Enterprise E5](../media/@licensingsmall3.png)
+![Enterprise E5](../media/licensing-enterprise-e5.png)
 
 * * *
 ## Voice calling and conferencing features
