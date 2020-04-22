@@ -13,26 +13,26 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the roles in a Teams meeting or live event.
+description: Learn about the roles in a Teams live event or meeting.
 appliesto: 
 - Microsoft Teams
 localization_priority: Priority
 ---
-Roles in a Teams meeting or live event
+Roles in a Teams live event or meeting
 ======================================================
 
-Microsoft Teams meetings and live events support many user types. Users can access various meeting and live event features based on their roles inside or outside of an organization.
+Microsoft Teams live events or meetings support many attendee types. Attendees can access various live event or meeting features based on their roles inside or outside of an organization.
 
 The available meeting features are:
 
-- Chat
+- Chat (includes photos and stickers)
 - Meeting Notes
 - Whiteboard
 - Recording
 - Files
 - Schedule a meeting (for meetings only)
 
-This article describes those user roles and what access they have to meeting and live event features.
+This article describes those attendee roles and what access they have to live event or meeting features.
 
 ## Presenters and organizers
 
@@ -45,16 +45,26 @@ Presenters and organizers have access to every feature in a meeting or live even
 
 ## Attendees
 
-There are several types of users who can be attendees.
+There are several types of live event or meeting attendees.
 
-### In-tenant user
+### In-tenant attendee
 
-The in-tenant user belongs to the organization and has credentials for the tenant. Learn more about user types in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
+The in-tenant attendee belongs to the organization and has credentials for the tenant. Learn more about this attendee in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
+
+| Live event |  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+|  **Feature**       | Pre-meeting | In-meeting | Post-meeting |
+| Chat | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes |Yes |
+| Whiteboard | Yes | Yes |Yes |
+| Recording | N/A |Yes | Yes |
+| Files | Yes | Yes | Yes |
+|||||||
 
 |Meeting  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Chat | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes |Yes |
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
@@ -62,39 +72,24 @@ The in-tenant user belongs to the organization and has credentials for the tenan
 | Schedule a meeting | Yes | N/A | N/A |
 |||||||
 
-| Live event |  | |||
+### Guest attendee 
+
+The guest attendee is outside of your organization and is invited to join the meeting by a member of the tenant. Read more about a guest attendee in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+
+| Live event  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **Feature**       | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | Yes | Yes | Yes |
-| Meeting Notes | Yes | Yes |Yes |
-| Whiteboard | Yes | Yes |Yes |
-| Recording | N/A |Yes | Yes |
-| Files | Yes | Yes | Yes |
-|||||||
-
-### Non-host team user
-
-The non-host team user belongs to the organization but isn't a member of the hosting team's tenant. This user type pertains to meetings only. Read a comparison of external and guest access in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
-
-| Meeting |  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **Feature**       | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | No | No | No |
-| Meeting Notes | No | No | No |
-| Whiteboard | No | No |No |
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
+| Chat | Yes | Yes | Yes |
+| Meeting Notes | Yes | Yes | Yes |
+| Whiteboard | No | No | No |
 | Recording | N/A | No | No |
 | Files | No | No | No |
-| Schedule a meeting | No | N/A | N/A |
 |||||||
-
-### Guest user and B2B
-
-The guest user is invited to join the meeting by a member of the tenant. A B2B user is a business-to-business member who's invited to the meeting by a tenant member and typically attends as a guest user. Read more about guest users in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 | Meeting |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | Yes | Yes | Yes |
+| Chat | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes | Yes |
 | Whiteboard | No | No |No |
 | Recording | N/A |No | No |
@@ -102,24 +97,24 @@ The guest user is invited to join the meeting by a member of the tenant. A B2B u
 | Schedule a meeting | No | N/A | N/A |
 |||||||
 
-| Live event  | | |||
+### Anonymous attendee 
+
+The anonymous attendee doesn't have an organizational identity (not authenticated) and isn't a member of the tenant. Learn more about an anonymous attendee in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
+
+| Live event|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | Yes | Yes | Yes |
-| Meeting Notes | Yes | Yes | Yes |
-| Whiteboard | No | No | No |
-| Recording | N/A | No | No |
-| Files | No | No | No |
+| Chat | No | Yes | No |
+| Meeting Notes | N/A | No | N/A |
+| Whiteboard | N/A | No | N/A |
+| Recording | N/A | No | N/A |
+| Files | N/A | No | N/A |
 |||||||
-
-### Anonymous user and B2C
-
-The anonymous user doesn't have an organizational identity and isn't a member of the tenant. A business-to-customer (B2C) user is a member of an outside organization and typically attends as an anonymous user. Learn more about user types in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
 | Meeting  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | N/A | No | N/A |
+| Chat | N/A | No | N/A |
 | Meeting Notes | N/A | No | N/A |
 | Whiteboard | N/A | No | N/A |
 | Recording | N/A | No | N/A |
@@ -127,40 +122,30 @@ The anonymous user doesn't have an organizational identity and isn't a member of
 | Schedule a meeting | N/A | N/A | N/A |
 |||||||
 
-| Live event|  | |||
+### External (federated) attendee
+
+An external (federated) attendee has valid credentials with external (outside of your organization) partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about an external attendee in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
+
+| Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | No | Yes | No |
-| Meeting Notes | N/A | No | N/A |
-| Whiteboard | N/A | No | N/A |
-| Recording | N/A | No | N/A |
-| Files | N/A | No | N/A |
+|  **Feature**         | Pre-meeting | In-meeting | Post-meeting |
+| Chat | No| Yes | Yes |
+| Meeting Notes | No | No | No |
+| Whiteboard | No| No | No |
+| Recording | N/A | No | No |
+| Files | Yes | Yes | Yes |
 |||||||
 
-### External user
-
-An external (federation) user has valid credentials with external partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about external users in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
-
-| Meeting (Can be addded to a team as a guest only) ||
+| Meeting (Can be added to a team as a guest only) ||
 |-|-|-|
 | **Feature** |||
-| Chat (includes photos and stickers) | N/A |
+| Chat | N/A |
 | Meeting Notes | N/A |  
 | Whiteboard | N/A |
 | Recording | N/A |  
 | Files | N/A |
 | Schedule a meeting | N/A |
 |||
-
-| Live event |  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-|  **Feature**         | Pre-meeting | In-meeting | Post-meeting |
-| Chat (includes photos and stickers) | No| Yes | Yes |
-| Meeting Notes | No | No | No |
-| Whiteboard | No| No | No |
-| Recording | N/A | No | No |
-| Files | Yes | Yes | Yes |
-|||||||
 
 ## Related topics
 
