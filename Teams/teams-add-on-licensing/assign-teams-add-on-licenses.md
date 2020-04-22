@@ -23,7 +23,7 @@ appliesto:
 Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and to large sets of users in bulk.
 
 > [!NOTE]
-> See [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization. After you decide  which features you want for your users, assign the licenses to them.
+> See [Teams add-on licensing](teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization. After you decide  which features you want for your users, assign the licenses to them.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
 
@@ -39,7 +39,7 @@ Before you get started, review the following:
 
 - Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign Communications Credits licenses to them.
 
-- After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](set-up-calling-plans.md).
+- After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](../set-up-calling-plans.md).
 
 ## Using the Microsoft 365 admin center
 
@@ -120,7 +120,7 @@ For more information, see [Assign licenses to user accounts with PowerShell](htt
 
 Here's a partial list of product names and their corresponding SKU part names that you can use as a reference when you use PowerShell to manage licenses in Teams.
 
-To learn more, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference), and [Education SKU reference](sku-reference-edu.md).
+To learn more, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference), and [Education SKU reference](../sku-reference-edu.md).
 
 | Product name| SKU part name |
 |--------------|---------------|
@@ -148,8 +148,8 @@ To learn more, see [View licenses and services with PowerShell](https://docs.mic
 
 ## Related topics
 
-- [Manage user access to Teams](user-access.md)
+- [Manage user access to Teams](../user-access.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
-- [Education SKU reference](sku-reference-edu.md)
+- [Education SKU reference](../sku-reference-edu.md)
 - [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
