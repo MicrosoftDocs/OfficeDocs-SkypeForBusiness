@@ -113,7 +113,7 @@ For the full Teams guest access experience, Office 365 admins need to configure 
 
 - In Microsoft 365 Groups: Turn on **Let group owners add people outside the organization to groups**
 
-    For more information, see [Control guest access in Microsoft 365 Groups](#control-guest-access-in-office-365-groups), above.
+    For more information, see [Control guest access in Microsoft 365 Groups](#control-guest-access-in-microsoft-365-groups), above.
   
 These settings apply at the tenant level and control the guest experience in SharePoint Online, OneDrive for Business, Microsoft 365 Groups, and Teams.
 
