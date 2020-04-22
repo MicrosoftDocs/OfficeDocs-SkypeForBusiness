@@ -39,7 +39,7 @@ This article describes those attendee roles and what access they have to live ev
 Presenters and organizers include the following:
 
 - Presenters from my organization
-- Presenters from other organizations (Live Events restriction) - this includes business-to-business (B2B) and anonymous/external
+- Presenters from other organizations (Live Events restriction) - this includes anonymous and external attendees
 
 Presenters and organizers have access to every feature in a meeting or live event.
 
@@ -72,7 +72,7 @@ The in-tenant attendee belongs to the organization and has credentials for the t
 | Schedule a meeting | Yes | N/A | N/A |
 |||||||
 
-### Guest attendee 
+### Guest attendee
 
 The guest attendee is outside of your organization and is invited to join the meeting by a member of the tenant. Read more about a guest attendee in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
@@ -97,7 +97,7 @@ The guest attendee is outside of your organization and is invited to join the me
 | Schedule a meeting | No | N/A | N/A |
 |||||||
 
-### Anonymous attendee 
+### Anonymous attendee
 
 The anonymous attendee doesn't have an organizational identity (not authenticated) and isn't a member of the tenant. Learn more about an anonymous attendee in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
