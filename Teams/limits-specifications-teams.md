@@ -105,6 +105,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 |Max PowerPoint File Size | 2GB|
+|Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
 ### Meeting expiration
 
