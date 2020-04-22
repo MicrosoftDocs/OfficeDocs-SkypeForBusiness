@@ -55,7 +55,7 @@ Even if you create a separate OU and block inheritance, there are some policies 
   
 You may have multiple approaches to solving these problems. We advise you to consult with your Active Directory experts to ensure you are provided with an OU that has appropriate GPO settings, or at least an OU in which the previously described policies do not exist. It is advised to enable Quality of Service (QoS) for Skype Room System devices.
 
-## See also
+## Related topics
   
 [Device Configuration: Create New or Edit Existing](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

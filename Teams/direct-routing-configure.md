@@ -49,7 +49,7 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
 
-## See also
+## Related topics
 
 [Phone System Direct Routing](direct-routing-landing-page.md)
 

@@ -154,7 +154,7 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
   
  If you would like to rename the computer after joining it to a domain, use the Rename-Computer PowerShell command followed by the computer's new name.
   
-## See also
+## Related topics
 
 [Plan Microsoft Teams Rooms](rooms-plan.md)
 

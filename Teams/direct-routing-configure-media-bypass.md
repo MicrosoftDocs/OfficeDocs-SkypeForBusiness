@@ -55,7 +55,7 @@ For a list of Session Border Controllers (SBCs) certified for Direct Routing, se
 
 
 
-## See also
+## Related topics
 
 [Plan media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 

@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: 
  - Strat_SB_Admin
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: 
   - M365-collaboration
@@ -170,7 +170,7 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 
 For validation, you should be able to use any client to log in to this account.
   
-## See also
+## Related topics
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 

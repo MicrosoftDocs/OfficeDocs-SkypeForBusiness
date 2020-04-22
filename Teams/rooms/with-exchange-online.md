@@ -150,7 +150,7 @@ For validation, you should be able to use any Skype for Business client to log i
 > [!IMPORTANT]
 > If you're using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Meeting Room license.
   
-## See also
+## Related topics
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
