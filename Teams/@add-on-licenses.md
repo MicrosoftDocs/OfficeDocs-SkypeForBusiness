@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams add-on licenses" (was microsoft-teams-add-on-licensing)
+title: "Microsoft Teams add-on licenses"
 ms.author: LanaChin
 author: v-lanac
 manager: serdars
@@ -30,21 +30,27 @@ Add-on licenses are licenses for specific Microsoft Teams features. They give yo
 
 ## What features can I get with add-on licenses?
 
-Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have. For more information, see TBD.
+Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have. 
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
+|**Feature** <br/> |**Description** <br/> |**Small and medium business (<300 users)**|**Large business and enterprise (>300 users)**|
 **Microsoft 365 Business Voice** <br/> | Business Voice is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, Domestic Calling, and more. You get capabilities like call park, call forwarding, auto attendants, call queues, Audio Conferencing, and Calling Plans. To learn more, including whether it's available in your country or region, see [What is Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)<br/> For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of using their computer. Use the [Audio Conferencing](audio-conferencing-in-office-365) feature for these scenarios.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;|&#x2713;|
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of using their computer. Use the [Audio Conferencing](audio-conferencing-in-office-365) feature for these scenarios.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Toll free numbers for dial-in access to your conferences<br><br> Ability to dial out from a conference to add someone by calling any phone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
-|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System is a hosted telephone service that gives you both traditional and innovative PBX capabilities  without the complicated and expensive equipment. [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;|&#x2713;|
-|**Calling Plans** <br/> |Calls to other Teams users are free. If you want users to be able to call phone numbers outside of your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans.  <br/> For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;|&#x2713;|
+|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System is a hosted telephone service that gives you both traditional and innovative PBX capabilities  without the complicated and expensive equipment. [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Calling Plans** <br/> |Calls to other Teams users are free. If you want users to be able to call phone numbers outside of your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans.  <br/> For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Microsoft Teams Rooms](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |&#x2713;|&#x2713;|
+
+<sup>1</sup> If you're a small or medium business who has a Microsoft 365 Enterprise licensing plan, you can still buy add-on licenses for these cloud voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
 
 Depending on the add-on features that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those features already. For most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
 
 Need to talk to someone about the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## Related topics
+
+- [Assign Teams add-on licenses](add-on-licenses.md)
+- [Manage user access to Teams](user-access.md)
+- [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 

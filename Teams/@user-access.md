@@ -1,5 +1,5 @@
 ---
-title: Manage user access to Microsoft Teams (was user-access)
+title: Manage user access to Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Learn how to manage user access to Teams by assigning or removing a Teams license to users. 
+description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
 ms.custom: 
@@ -33,13 +33,17 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 
 ## Using the Microsoft 365 admin center
 
-Use the Microsoft 365 admin center to manage Teams licenses for individual users or small groups of users at a time. 
+Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time.
 
 You can manage Teams licenses on the **Licenses** page (for up to 20 users at at time) or **Active users** page. If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, use Powershell.
 
 ### Assign a Teams license
 
 The steps are different depending on whether you use the **Licenses** page or **Active users** page. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+
+|Active users page|Licenses page |
+|---------|---------|
+|![Screenshot of Teams license enabled on the Active users page](media/assign-teams-licenses-1.png)    | ![Screenshot of Teams license enabled on the Licenses page](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
@@ -53,22 +57,20 @@ Use PowerShell to manage Teams licenses for users in bulk. You enable and disabl
 - Microsoft Teams for GCC: TEAMS_GOV
 - Microsoft Teams for DoD: TEAMS_DOD
 
-### Assign a Teams license
+### Assign Teams licenses in bulk
 
 For detailed steps, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
-### Remove a Teams license
+### Remove Teams licenses in bulk
 
 The following is an example of how to use the [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) and [Set-MsolUserLicense](https://docs.microsoft.com/en-us/powershell/module/msonline/set-msoluserlicense) cmdlets to disable Teams for users who have a specific licensing plan. For example, follow these steps to first disable Teams for all users who have a particular licensing plan. Then enable Teams for each individual user who should have access to Teams.
 
 > [!IMPORTANT]
 > The [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet will enable all services that were previously disabled unless explicitly identified in your custom script. For example, if you want to leave both Exchange and Sway disabled while also disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified.
 
-Run the following command to display all available licensing plans in your organization.
+Run the following command to display all available licensing plans in your organization. To learn more, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
       Get-MsolAccountSku
-
-To learn more, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
 Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
@@ -90,6 +92,7 @@ For more information, see:
 
 ## Related topics
 
+- [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](sku-reference-edu.md)

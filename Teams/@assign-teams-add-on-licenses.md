@@ -1,5 +1,5 @@
 ---
-title: Assign Teams add-on licenses to users (was assign-teams-licenses)
+title: Assign Teams add-on licenses to users
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -31,13 +31,13 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 Before you get started, review the following:
 
-- If you're using on-premises PSTN connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
+- If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
 
-- Latency after assigning licenses: Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If the user isn't assigned a Calling Plan after 24 hours, [contact support for business products - admin help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If the user isn't assigned a Calling Plan after 24 hours, [contact support for business products - admin help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- Error messages: You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
+- You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
 
-- Enterprise E5 plan and Communication Credits: Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign Communications Credits licenses to them.
+- Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign Communications Credits licenses to them.
 
 - After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](set-up-calling-plans.md).
 
@@ -67,7 +67,7 @@ Use PowerShell to assign licenses to users in bulk.
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product name and SKU identifiers for licensing](#product-name-and-sku-identifiers-for-licensing).
 
     ```powershell
-    #Create a text file with a single row that lists the user principal names (UPNs) of users to license. The MSOLservice uses the UPN to license user accounts.
+    #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
     #Example of text file:
     #user1@domain.com
     #user2@domain.com
@@ -108,10 +108,10 @@ Use PowerShell to assign licenses to users in bulk.
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    To assign a Business Voice with Calling Plan license, use the following syntax in the script:
+    To assign a Microsoft Business Voice (without Calling Plan) license, use the following syntax in the script:
 
       ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:TBD" -ErrorAction SilentlyContinue
+      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
       ```
 
 For more information, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
@@ -124,30 +124,32 @@ To learn more, see [View licenses and services with PowerShell](https://docs.mic
 
 | Product name| SKU part name |
 |--------------|---------------|
-| Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
-| Enterprise E5 (without Audio Conferencing) | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Enterprise E5 (with Audio Conferencing) | ENTERPRISEPREMIUM |
-| Enterprise E3 | ENTERPRISEPACK | 
-| Enterprise E1 | STANDARDPACK |
+| Microsoft Enterprise E5 (with Phone System) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (without Audio Conferencing) | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft Enterprise E5 (with Audio Conferencing) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E1 | STANDARDPACK |
+| Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
+| Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
+| Microsoft 365 Business | SPB|
+| Microsoft Business Voice (with Calling Plan) for Canada | BUSINESS_VOICE_MED  |
+| Microsoft Business Voice (with Calling Plan) for the United Kingdom | BUSINESS_VOICE  |
+| Microsoft Business Voice (with Calling Plan) for the United States | BUSINESS_VOICE_MED2  |
+| Microsoft Business Voice (without Calling Plan) | BUSINESS_VOICE_DIRECTROUTING  |
+| Microsoft Business Voice (without Calling Plan) for the United States| BUSINESS_VOICE_DIRECTROUTING _MED |
 | Audio Conferencing | MCOMEETADV | 
 | Audio Conferencing Pay Per Minute (pay as you go)</br>Requires Communications Credits to be set up and enabled. | MCOMEETACPEA |
-| Business Voice (with Calling Plan) | TBD  |
-| Business Voice (without Calling Plan) | TBD |
 | Phone System | MCOEV |
 | Domestic and International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
-| Domestic Calling Plan (120 minutes per user/month for each country) </br>This plan is not available in the United States. | MCOPSTN5 |
-| Domestic Calling Plan (240 minutes per user/month for each country) </br>This plan is not available in the United States. | MCOPSTN6 |
+| Domestic Calling Plan (120 minutes per user/month for each country) </br>This plan isn't available in the United States. | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country) </br>This plan isn't available in the United States. | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
 
 ## Related topics
 
+- [Manage user access to Teams](user-access.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
---------
-
-## Related topics
-
-
-
-
+- [Education SKU reference](sku-reference-edu.md)
+- [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
