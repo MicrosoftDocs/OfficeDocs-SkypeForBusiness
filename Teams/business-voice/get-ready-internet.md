@@ -27,8 +27,8 @@ To get the best Business Voice experience, you need a broadband Internet connect
 
 To follow these steps, you need to have a tenant with one of the following subscriptions:
 
-* Office 365 Business Essentials
-* Office 365 Business Premium
+* Microsoft 365 Business Basic
+* Microsoft 365 Business Standard
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product."
+description: "The new Microsoft 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product."
 ---
 
 # Session details report
@@ -44,7 +44,7 @@ This report, along with the other Skype for Business reports give you details on
     > If you don't see this report listed, go to **Skype for Business admin center** > **Reports** > **Session details**. 
   
     > [!IMPORTANT]
-    > Depending on the Office 365 subscription you have, you might not see all the products and reports that are shown here. 
+    > Depending on the Microsoft 365 or Office 365 subscription you have, you might not see all the products and reports that are shown here. 
   
 ## Interpret the Skype for Business Session details report
 

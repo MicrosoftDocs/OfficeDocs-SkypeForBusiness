@@ -29,7 +29,7 @@ The Skype for Business and Microsoft Teams [Network Testing Companion](https://w
 You can use this tool in the planning phase of a Skype for Business or Microsoft Teams deployment. If you're currently using Teams or Skype for Business Online, you can use this tool to troubleshoot voice quality issues or simply to check your network connection before you make a call or after you’ve had a poor-quality experience.
 
 > [!NOTE]
-> You don't need an Office 365 subscription to download and install the Network Testing Companion.
+> You don't need a Microsoft 365 or Office 365 subscription to download and install the Network Testing Companion.
 
 ## Download the tool and documentation
 

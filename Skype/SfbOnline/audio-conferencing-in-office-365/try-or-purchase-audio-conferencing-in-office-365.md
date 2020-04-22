@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Office 365 for Skype for Business Online"
+title: "Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 
-# Try or purchase Audio Conferencing in Office 365 for Skype for Business Online
+# Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online
 
 > [!Note]
 > For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).

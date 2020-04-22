@@ -72,7 +72,7 @@ This table covers the features relating to managing IM and Presence contacts.
 |Search the corporate address book |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Search Microsoft Outlook contacts |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Manage contact groups |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|Expand distribution groups and Office 365 Groups |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|Expand distribution groups and Microsoft 365 Groups |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |Search for Response Groups  <br/> (not available in Skype for Business Online) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Display recent contacts group |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Display current conversations group |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

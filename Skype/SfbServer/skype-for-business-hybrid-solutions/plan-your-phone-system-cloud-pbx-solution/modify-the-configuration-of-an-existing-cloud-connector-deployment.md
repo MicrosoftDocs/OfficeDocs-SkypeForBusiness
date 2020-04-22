@@ -104,7 +104,7 @@ If there is more than one appliance in the site, you'll need to follow these ste
 
 To modify the configuration for multiple sites in a deployment, follow the steps for a single site, updating one site at a time.
   
-## Modify the configuration of your Office 365 tenant to enable automatic updates
+## Modify the configuration of your Office 365 organization to enable automatic updates
 <a name="BKMK_MultipleSites"> </a>
 
 To enable operating system automatic updates and Bits automatic updates, you must use the Skype for Business tenant admin account for online management and use tenant remote PowerShell as follows.
@@ -156,7 +156,7 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
 ## Update the dedicated tenant admin credentials
 <a name="BKMK_MultipleSites"> </a>
 
-Administrative changes in the Office 365 tenant for Cloud Connector are made from an account with the needed permissions. In Cloud Connector versions before 2.0, that account is a dedicated global tenant admin account. In Cloud Connector versions 2.0 and later, that account can be an Office 365 account with Skype for Business Administrator rights.
+Administrative changes in the Office 365 organization for Cloud Connector are made from an account with the needed permissions. In Cloud Connector versions before 2.0, that account is a dedicated global tenant admin account. In Cloud Connector versions 2.0 and later, that account can be an Office 365 account with Skype for Business Administrator rights.
   
 If your admin account credentials change in Office 365, you also need to update the locally cached credentials in Cloud Connector by running the following Administrator PowerShell command on each Cloud Connector appliance you have deployed:
   

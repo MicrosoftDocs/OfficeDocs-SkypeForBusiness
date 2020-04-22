@@ -87,4 +87,4 @@ Before you perform these steps, make sure you have the [latest version of the Te
 
 ## Related topics
 
-- [eDiscovery cases in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [eDiscovery cases in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
