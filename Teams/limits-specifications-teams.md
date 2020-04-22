@@ -58,6 +58,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Feature  | Maximum limit  |
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
 
@@ -104,6 +105,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
+|Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
