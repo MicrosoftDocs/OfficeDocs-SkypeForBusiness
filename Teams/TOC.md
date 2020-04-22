@@ -741,7 +741,7 @@
 ### [Office 365 licensing for Teams](office-365-licensing.md)
 ### Teams add-on licensing
 #### [Overview](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### [Assign Teams add-on licenses](teams-add-on-licensing/assign-add-on-licenses.md)
+#### [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 #### License options based on your plan
 ##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
 ##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
