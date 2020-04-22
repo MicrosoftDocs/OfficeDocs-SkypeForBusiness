@@ -12,9 +12,10 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how the Teams desktop client is updated.
+description: In this article, you will learn about the process behind updating the Microsoft Teams desktop client.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams update process

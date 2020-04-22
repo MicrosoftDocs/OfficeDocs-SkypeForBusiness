@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
   - seo-marvel-apr2020
-description: "Learn about managing resource accounts in Microsoft Teams"
+description: "In this article, you will learn how to create, edit and manage resource accounts in Microsoft Teams."
 ---
 
 # Manage resource accounts in Microsoft Teams

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: Learn about retention policies and how to create and manage them in Teams.
+description: In this article, you will learn about retention policies and how to create and manage them in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -16,6 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Retention policies in Microsoft Teams
