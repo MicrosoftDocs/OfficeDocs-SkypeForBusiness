@@ -166,7 +166,7 @@ When updating the .ini file, consider the following:
 
 - **SiteName:** The default value is **Site1**. You must update it before you deploy Cloud Connector, because when you run **Register-CcAppliance** to register an appliance to an existing or new site, the cmdlet will use **SiteName** to determine which site to register.
 
-     If you want to register the appliance to a new site, the value of **SiteName** must be unique and different from existing sites. If you want to register the appliance to an existing site, the value for **SiteName** in .ini file must match the name defined in your Office 365 tenant configuration. If you are copying a configuration file from one site to another, make sure you update the value for **SiteName** for each site accordingly.
+     If you want to register the appliance to a new site, the value of **SiteName** must be unique and different from existing sites. If you want to register the appliance to an existing site, the value for **SiteName** in .ini file must match the name defined in your Office 365 organization configuration. If you are copying a configuration file from one site to another, make sure you update the value for **SiteName** for each site accordingly.
 
 - **ServerName:** The server name should not contain the domain name and should be limited to 15 characters.
 
@@ -300,11 +300,11 @@ The CceService account is created during the Skype for Business Cloud Connector 
 
 3. Set its value to **Enabled**.
 
-## Set up your Office 365 tenant
+## Set up your Office 365 organization
 
-An Office 365 tenant with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
+An Office 365 organization with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
 
-Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
+Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 organization. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Create a dedicated Skype for Business administrator account for Cloud Connector online management, for example CceOnlineManagmentAdministrator. This account will be used by appliance to add or remove appliance, enable or disable automatic OS update, enable or disable automatic binary update. Set the password for this account to never expire so that you do not need to change it for the service each time it expires.
 
