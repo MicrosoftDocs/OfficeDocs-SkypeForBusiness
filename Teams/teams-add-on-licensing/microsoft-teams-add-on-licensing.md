@@ -48,6 +48,7 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 ![Enterprise E5](../media/@licensingsmall3.png)
 
 * * *
+## Heading
 
 |||||
 |:-----|:-----|:-----|:-----|
