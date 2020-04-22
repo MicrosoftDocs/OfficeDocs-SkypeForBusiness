@@ -134,7 +134,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 3. If the phone number is a toll-free number, select the phone number from the list, and in the Action pane, click **Unassign**. If the phone number is a toll-number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
 
-4. If the phone number is a toll-fre number, click **Yes** in the confirmation window.
+4. If the phone number is a toll-free number, click **Yes** in the confirmation window.
 
    > [!IMPORTANT]
    > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
