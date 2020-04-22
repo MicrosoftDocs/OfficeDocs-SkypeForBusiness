@@ -1,7 +1,7 @@
 ---
 title: Adopt Microsoft Teams
 ms.reviewer: karuanag
-description: Use these adoption resources to help you plan and deploy Microsoft Teams in your organization.
+description: Learn about the adoption resources available to help you plan and deploy Microsoft Teams in your organization.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -18,6 +18,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams

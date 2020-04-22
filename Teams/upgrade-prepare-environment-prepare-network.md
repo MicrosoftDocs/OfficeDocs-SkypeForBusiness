@@ -7,12 +7,14 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use this guidance to prepare your network for Teams deployment and rollout 
+description: Learn about how to prepare your network for deployment and rollout when upgrading to Microsoft teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

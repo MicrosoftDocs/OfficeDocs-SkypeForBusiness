@@ -13,9 +13,10 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Use PowerShell to allow or block guest access to teams in Microsoft Teams.
+description: Learn about how to use PowerShell to allow or block guest access to all teams or specific teams in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Use PowerShell to control guest access to a team
@@ -38,9 +39,9 @@ If you want to block guests in Teams and still want to allow them to access Shar
 
 ## Use PowerShell to turn guest access on or off
 
-1.	Download the Skype for Business Online PowerShell module from https://www.microsoft.com/download/details.aspx?id=39366
+1.    Download the Skype for Business Online PowerShell module from https://www.microsoft.com/download/details.aspx?id=39366
  
-2.	Connect a PowerShell session to the Skype for Business Online endpoint.
+2.    Connect a PowerShell session to the Skype for Business Online endpoint.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -48,7 +49,7 @@ If you want to block guests in Teams and still want to allow them to access Shar
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.	Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
+3.    Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

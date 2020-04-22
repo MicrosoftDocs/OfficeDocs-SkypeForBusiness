@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Learn how to turn on Microsoft Teams for your Office 365 organization.
+description: Learn how to turn on Microsoft Teams for your Office 365 organization, assign user licenses to control individual access, and allow or block content sources.
 localization_priority: Normal
 f1.keywords:
   - CSH
 ms.custom: 
   - NewAdminCenter_Update
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

@@ -11,9 +11,10 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configure a meeting policy to let users share their desktops in Teams chats or meetings
+description: Learn how to configure a meeting policy to let users share their desktops in Teams chats or meetings.
 ms.collection: 
   - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -47,8 +48,8 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 5. Turn the following settings on or off:
 
-    - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.
-    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.
+    - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.
+    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter's desktop or application.
     - **Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
     - **Allow whiteboard** – lets users share a whiteboard.
     - **Allow shared notes** – lets users take shared notes.

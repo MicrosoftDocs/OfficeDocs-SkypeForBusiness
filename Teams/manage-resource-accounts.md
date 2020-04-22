@@ -33,7 +33,7 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online. For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## Overview
+## Assign a phone number to a Phone System call queue
 
 If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue the process is:
 
@@ -172,7 +172,7 @@ The application ID's that you need to use while creating the application instanc
 1. To create a resource account online for use with an auto attendant, use the following command:
 
 ``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
 ```
 
 2. You will not be able to use the resource account until you apply a license to it. For how to apply a license to an account in the O365 admin center, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).

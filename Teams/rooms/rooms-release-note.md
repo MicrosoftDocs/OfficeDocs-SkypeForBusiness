@@ -12,7 +12,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
+description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Release notes
