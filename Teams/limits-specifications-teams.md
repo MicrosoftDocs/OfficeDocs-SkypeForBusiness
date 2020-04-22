@@ -34,7 +34,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
+|Number of teams an Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
@@ -123,7 +123,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Concurrent live events in an Office 365 tenant | 15 |
+|Concurrent live events in an Office 365 organization | 15 |
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 

@@ -48,7 +48,7 @@ Teams enforces team-wide and organization-wide two-factor authentication, single
 
 Read [Identity models and authentication](identify-models-authentication.md) for more insight into authentication and Teams, and [How modern authentication works](sign-in-teams.md) will help with modern authentication in particular.
 
-Because Teams works in partnership with SharePoint, OneNote, Exchange, and more, you should be comfortable managing security in Office 365 all-up. To learn more about Office 365 security, read [Configure your Office 365 tenant for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+Because Teams works in partnership with SharePoint, OneNote, Exchange, and more, you should be comfortable managing security in Office 365 all-up. To learn more about Office 365 security, read [Configure your Office 365 organization for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 > [!NOTE]
 > Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
@@ -148,7 +148,7 @@ If you'd like further Teams-specific information on configuring content search, 
 
 ### Auditing and Reporting
 
-Audit log search plugs right into the Office 365 Security & Compliance Center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Office 365 Security & Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for Office 365. To learn more about searching for Microsoft Teams events in the Office 365 Security & Compliance Center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
+Audit log search plugs right into the Microsoft 365 Compliance Center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 Compliance Center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 Compliance Center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
 
 ## Privacy
 
@@ -169,7 +169,7 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 ## Licensing
 
-When it comes to information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
+When it comes to information protection capabilities, Microsoft 365 subscriptions, Office 365 subscriptions, and the associated standalone licenses will determine the available feature set.
 
 For information on determining the licensing needs to implement features for security and compliance, please review [Licensing for Office 365 or Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
 
@@ -178,7 +178,7 @@ For information on determining the licensing needs to implement features for sec
 
 ## Location of data in Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md).
+Data in Teams resides in the geographic region associated with your Office 365 organization. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md).
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 

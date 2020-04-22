@@ -26,13 +26,13 @@ To configure Skype for Business hybrid, you need to:
 
 - [Configure your on-premises Edge service to federate with Office 365 or another organization](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
 - [Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
-- [Enable shared SIP address space in your Office 365 tenant](#enable-shared-sip-address-space-in-your-office-365-tenant).
+- [Enable shared SIP address space in your Office 365 organization](#enable-shared-sip-address-space-in-your-office-365-tenant).
 
 Note that if you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## Configure your on-premises Edge service to federate with Office 365 or another organization
 
-Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:
+Federation allows users in your on-premises deployment to communicate with Microsoft 365 or Office 365 users in your organization. To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -60,11 +60,11 @@ Then create a new hosting provider, use the New-CsHostingProvider cmdlet as foll
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## Enable shared SIP address space in your Office 365 tenant
+ ## Enable shared SIP address space in your Office 365 organization
   
-In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Office 365 tenant to enabled shared SIP address space with your on-premises deployment.  
+In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Office 365 organization to enabled shared SIP address space with your on-premises deployment.  
 
-To enable shared SIP address space in your Office 365 tenant, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:
+To enable shared SIP address space in your Office 365 organization, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:
   
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true

@@ -227,7 +227,7 @@ Below are the latency (RTT) targets for the Azure service based network assessme
 
 Azure ExpressRoute for Office 365 is a dedicated network connection for connecting to Office 365. It offers customers the ability to have control over the path their Office 365 network traffic takes. They no longer have to be concerned with the unpredictable routing that happens on the Internet where data is carried by unknown carriers, providers and ISPs. Network traffic that is sent through ExpressRoute is sent directly across the ExpressRoute partner's network to Microsoft's network. This allows customers to treat Office 365 as if it is located in their own off-site data center with a dedicated connection.
   
-Azure ExpressRoute is available for all Office 365 licensing offerings. However, the Azure ExpressRoute Premium Add-on is required for Office 365 to enable global routing. Office 365 customers with at least 500 seats who are implementing ExpressRoute can get the required *ExpressRoute Premium Add-on* at no additional expense.
+Azure ExpressRoute is available for all Office 365 licensing offerings. However, the Azure ExpressRoute Premium Add-on is required for Office 365 to enable global routing. Customers with at least 500 seats who are implementing ExpressRoute can get the required *ExpressRoute Premium Add-on* at no additional expense.
   
 ### Is ExpressRoute required for good media quality?
 

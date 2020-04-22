@@ -33,7 +33,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 ## Teams architecture
 
-Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Teams keeps working even when you're offline or experiencing spotty network conditions.
+Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Teams keeps working even when you're offline or experiencing spotty network conditions.
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -63,7 +63,7 @@ To learn more:
 - [Use Teams admin roles to manage Teams](using-admin-roles.md)
 - [Manage Teams in the Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 - [Manage Teams during the transition to the new Teams admin center](manage-teams-in-modern-portal.md)
-- [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
+- [Manage Teams features in your Microsoft 365 or Office 365](enable-features-office-365.md)
 
 To stay on top of what's coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You'll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 

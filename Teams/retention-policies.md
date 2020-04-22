@@ -118,7 +118,7 @@ To create a retention policy for Teams chats and channel messages, do the follow
         ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Teams chats and channel messages aren't affected by retention policies applied to user or group mailboxes in the **Exchange email** or **Office 365 groups** locations. Even though Teams chats and channel messages are stored in Exchange, they're only affected by retention policies applied to the Teams locations.
+      > Teams chats and channel messages aren't affected by retention policies applied to user or group mailboxes in the **Exchange email** or **Microsoft 365 groups** locations. Even though Teams chats and channel messages are stored in Exchange, they're only affected by retention policies applied to the Teams locations.
 
 6. Review your settings, and then when you're ready, select **Create this policy**.
 
@@ -155,7 +155,7 @@ To create and manage Teams retention policies by using [Office 365 Security & Co
 
 The following are known issues for retention policies in Teams that are being tracked and investigated.
 
-- Under **Choose teams** in the **Teams channel messages** location row, you may see Office 365 Groups that aren't also Teams. This will be addressed in the future.
+- Under **Choose teams** in the **Teams channel messages** location row, you may see Microsoft 365 Groups that aren't also Teams. This will be addressed in the future.
 
 - Under **Choose users** in the **Teams chats** location row, you may see guests and non-mailbox users. Retention policies aren't meant to be set for guests, and we're working to remove these from the list.
 

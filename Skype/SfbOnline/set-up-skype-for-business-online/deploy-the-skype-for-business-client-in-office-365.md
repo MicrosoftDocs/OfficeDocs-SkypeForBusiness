@@ -1,5 +1,5 @@
 ---
-title: "Deploy the Skype for Business client in Office 365"
+title: "Deploy the Skype for Business client in Microsoft 365 aor Office 365"
 ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. "
 ---
 
-# Deploy the Skype for Business client in Office 365
+# Deploy the Skype for Business client in Microsoft 365 or Office 365
 
 This article explains options for how you, the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, can deploy the Skype for Business app to the people in your organization.
   

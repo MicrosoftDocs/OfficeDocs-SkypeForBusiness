@@ -40,7 +40,7 @@ You should consider the following requirements for users and your network infras
 
 You must have the following configured in your environment in order to implement and deploy a hybrid deployment.
 
-  - A Microsoft Office 365 tenant with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
+  - A Microsoft Office 365 organization with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
   - A single on-premises deployment (infrastructure) of Skype for Business Server or Lync Server that is deployed in a supported topology. See Topology Requirements.
     
@@ -154,7 +154,7 @@ The Allowed domains list includes domains that have a partner Edge fully qualifi
 
 The following requirements must be met to successfully configure a hybrid deployment:
 
-  - Domain matching must be configured the same for your on-premises deployment and your Office 365 tenant. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
+  - Domain matching must be configured the same for your on-premises deployment and your Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
 
   - The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.
 

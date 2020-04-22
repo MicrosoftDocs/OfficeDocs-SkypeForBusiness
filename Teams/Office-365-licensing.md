@@ -1,5 +1,5 @@
 ---
-title: Office 365 licensing for Microsoft Teams
+title: Microsoft 365 and Office 365 licensing for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -23,12 +23,12 @@ appliesto:
   - Microsoft Teams
 ---
 
-Office 365 licensing for Microsoft Teams
-========================================
+Microsoft 365 and Office 365 licensing for Microsoft Teams
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-The following Office 365 subscriptions enable users for Teams.
+The following Microsoft 365 and Office 365 subscriptions enable users for Teams.
 
 |Small Business Plans  |Enterprise Plans  |Education Plans  |Developer Plans |
 |---------|---------|---------|---------|
@@ -49,7 +49,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 > [!NOTE]
 > If Skype for Business Online is listed in apps for the selected license, do not remove it. If it's listed and is removed, Teams user setup will not complete successfully.
         
-In terms of Teams core functionalities, there are no differences between the  Office 365 subscriptions. The availability of the compliance capabilities does rely on the correct subscription level. To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md). For a detailed list of features available in each subscription, see the [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+In terms of Teams core functionalities, there are no differences between the subscriptions. The availability of the compliance capabilities does rely on the correct subscription level. To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md). For a detailed list of features available in each subscription, see the [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
 **Cloud voice features**: For Audio Conferencing, your organization will need to buy and assign an Audio Conferencing license to each user who will be setting up dial-in meetings. For Calling Plans, each user will need a Phone System plus a Domestic or Domestic and International Calling Plan. To learn more, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

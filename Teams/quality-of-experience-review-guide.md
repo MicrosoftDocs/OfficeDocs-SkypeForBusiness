@@ -65,16 +65,16 @@ This table shows you what each role can do in CQD:
 
 |  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Global Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
 |Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
 |Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
-|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+|Microsoft 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
 
-<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> In addition to reading CQD reports, the Microsoft 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
@@ -593,7 +593,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 2. Authenticate by using your Office 365 Administrative credentials.
 
    > [!NOTE]
-   > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
+   > You must have the Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
 
 3. Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
 

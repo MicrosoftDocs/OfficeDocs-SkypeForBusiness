@@ -23,14 +23,14 @@ appliesto:
 Authorize guest access in Microsoft Teams
 ===========================================
 
-To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Office 365 tenant. Each authorization level controls the guest experience as shown below:
+To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Office 365 organization. Each authorization level controls the guest experience as shown below:
 
 - **Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform. This authorization level controls the guest experience at the directory, tenant, and application level.
 - **Microsoft Teams**: Controls the guest experience in Microsoft Teams only.
-- **Office 365 Groups**: Controls the guest experience in Office 365 Groups and Microsoft Teams.
-- **SharePoint Online and OneDrive for Business**: Controls the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Microsoft Teams.
+- **Microsoft 365 Groups**: Controls the guest experience in Microsoft 365 Groups and Microsoft Teams.
+- **SharePoint Online and OneDrive for Business**: Controls the guest experience in SharePoint Online, OneDrive for Business, Microsoft 365 Groups, and Microsoft Teams.
 
-These different authorization levels provide you with flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in your Microsoft Teams but want to allow it overall in your organization, just turn off guest access in Microsoft Teams. Another example: You could enable guest access at the Azure AD, Teams, and Groups levels, but then disable the addition of guest users on selected teams that match one or more criteria such as data classification equals confidential. SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Office 365 Groups.
+These different authorization levels provide you with flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in your Microsoft Teams but want to allow it overall in your organization, just turn off guest access in Microsoft Teams. Another example: You could enable guest access at the Azure AD, Teams, and Groups levels, but then disable the addition of guest users on selected teams that match one or more criteria such as data classification equals confidential. SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Microsoft 365 Groups.
 
 > [!NOTE]
 > Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits. 
@@ -65,7 +65,7 @@ Azure AD includes the following settings to configure external users:
 For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
-> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 Groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups).
+> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Microsoft 365 Groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups).
 
 Adding the user guest account manually to Azure AD B2B is not required, as the account will be added to the directory automatically when you add the guest to Teams.
 
@@ -81,25 +81,25 @@ Guest access licensing is part of Azure AD licensing. Guest access is included w
 Guest access is turned off by default in Teams. To turn on guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
 
 
-## Control guest access in Office 365 Groups
+## Control guest access in Microsoft 365 Groups
 
-From Office 365 Groups, you can control adding guest users and guest access to all Office 365 Groups and Microsoft Teams teams in your organization.
+From Microsoft 365 Groups, you can control adding guest users and guest access to all Microsoft 365 Groups and Microsoft Teams teams in your organization.
 
-1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Sign in with your global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
 2. On the left, choose **Settings** and then select **Services &amp; add-ins**.
 
-3. Select **Office 365 Groups**.
+3. Select **Microsoft 365 Groups**.
 
-     ![Screenshot of Office 365 Groups in settings](media/authorize-guest-image2.png)
+     ![Screenshot of Microsoft 365 Groups in settings](media/authorize-guest-image2.png)
   
-4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending on whether you want to let team and group owners outside your organization access Office 365 Groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**. If you turn this toggle to **On**, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 Groups and Microsoft Teams. Set this toggle to **On** if you want to let group and team owners add guest users. 
+4. On the Microsoft 365 Groups page, set the toggle to **On** or **Off**, depending on whether you want to let team and group owners outside your organization access Microsoft 365 Groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**. If you turn this toggle to **On**, you'll see another option to control whether you want to let group and team owners add people outside your organization to Microsoft 365 Groups and Microsoft Teams. Set this toggle to **On** if you want to let group and team owners add guest users. 
  
-   ![Screenshot of Office 365 Groups panel with the options turned on](media/authorize-guest-image3.png)
+   ![Screenshot of Microsoft 365 Groups panel with the options turned on](media/authorize-guest-image3.png)
 
-These settings apply at the tenant level and control the guest experience in Office 365 Groups and Teams.
+These settings apply at the tenant level and control the guest experience in Microsoft 365 Groups and Teams.
 
-See [Guest access in Office 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) for more information about guest access in groups, including how guest access works, how to manage guest access, and answers to frequently asked questions.
+See [Guest access in Microsoft 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) for more information about guest access in groups, including how guest access works, how to manage guest access, and answers to frequently asked questions.
 
 ## Control guest access to SharePoint Online and OneDrive for Business
 
@@ -111,11 +111,11 @@ For the full Teams guest access experience, Office 365 admins need to configure 
 
     For more information, see [Turn external sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
-- In Office 365 Groups: Turn on **Let group owners add people outside the organization to groups**
+- In Microsoft 365 Groups: Turn on **Let group owners add people outside the organization to groups**
 
-    For more information, see [Control guest access in Office 365 Groups](#control-guest-access-in-office-365-groups), above.
+    For more information, see [Control guest access in Microsoft 365 Groups](#control-guest-access-in-office-365-groups), above.
   
-These settings apply at the tenant level and control the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Teams.
+These settings apply at the tenant level and control the guest experience in SharePoint Online, OneDrive for Business, Microsoft 365 Groups, and Teams.
 
 You can manage SharePoint Online external user settings for the team sites connected to Teams. To learn more, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
