@@ -23,7 +23,7 @@ This article lists what online and on-premises topologies are supported with Mod
 
 ## Modern Authentication in Skype for Business
 
-Skype for Business can leverage security advantages of Modern Authentication. Because Skype for Business works closely with Exchange, the login behaviour Skype for Business client users will see will also be effected by the MA status of Exchange. This will also apply if you have a Skype for Business split-domain hybrid. That's a lot of moving parts, but the aim here is an easy to visualize list of supported topologies.
+Skype for Business can leverage security advantages of Modern Authentication. Because Skype for Business works closely with Exchange, the login behavior Skype for Business client users will see will also be affected by the MA status of Exchange. This will also apply if you have a Skype for Business split-domain hybrid. That's a lot of moving parts, but the aim here is an easy to visualize list of supported topologies.
 
 Given Skype for Business, Skype for Business online, Exchange Server, and Exchange online, what topologies are supported with MA?
 
