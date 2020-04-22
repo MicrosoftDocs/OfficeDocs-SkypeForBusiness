@@ -68,7 +68,7 @@ Use PowerShell to assign licenses to users in bulk.
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
-    #Example of text file:
+    #Example of text file:''
     #user1@domain.com
     #user2@domain.com
 
