@@ -739,8 +739,9 @@
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
 ### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Teams licenses](assign-teams-licenses.md)
-### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### Teams add-on licensing
+#### [Overview](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### [Assign Teams add-on licenses](assign-add-on-licenses.md)
 #### License options based on your plan
 ##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
 ##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
