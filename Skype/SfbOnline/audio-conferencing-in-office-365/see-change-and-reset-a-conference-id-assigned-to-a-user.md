@@ -45,7 +45,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 You can view their conference ID and send it to users.
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -73,7 +73,7 @@ You can reset a conference ID for a user if, for example, they forget it.
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 

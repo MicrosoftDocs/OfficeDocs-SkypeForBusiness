@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: "Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
+description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -49,7 +49,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 
 ## Who's eligible?
 
-As long as the user has a managed AAD domain email address and currently does not have/haven't been assigned a Teams license, they are eligible for this experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
+As long as the user has a managed AAD domain email address and currently does not have/haven't been assigned a Teams license, they are eligible for this experience. For example, if a user has Microsoft 365 Apps for business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article. 
 
