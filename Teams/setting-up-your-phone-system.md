@@ -76,7 +76,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 ### Get new service numbers using the Teams admin center
 
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the **Teams admin center**.
 

@@ -47,7 +47,7 @@ Cloud Connector will provide routing between the users homed on premises and onl
 
 Consider the following when planning your Cloud Connector Edition deployment:
 
-- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for an Office 365 tenant that includes Phone System in Office 365. If you do not yet have an Office 365 tenant you can learn how to sign up here: [Office 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
+- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for an Office 365 organization that includes Phone System in Office 365. If you do not yet have an Office 365 organization you can learn how to sign up here: [Office 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
 
 - To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Office 365 account with tenant Global Administrator rights.
 
@@ -96,7 +96,7 @@ This topic contains the following sections:
 ## Cloud Connector Edition components
 <a name="BKMK_Components"> </a>
 
-With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Office 365 tenant that includes Skype for Business Online services.
+With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Office 365 organization that includes Skype for Business Online services.
 
 ![Cloud Connector Edition components](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -257,7 +257,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - External DNS record for Access Edge service of Edge component; for example, ap.\<Domain Name\>. You need one record per PSTN site. This record must contain IP addresses of all Edges for that site.
 
-- An Office 365 tenant with all required DNS and SRV records created.
+- An Office 365 organization with all required DNS and SRV records created.
 
     > [!IMPORTANT]
     > When you integrate your tenant with Cloud Connector Edition, the use of the default domain suffix, .onmicrosoft.com, as a SIP domain for your organization is not supported. > You cannot use sip.\<Domain Name\> as the name of your Cloud Connector Edge Access proxy interface because this DNS record is used by Office 365.
