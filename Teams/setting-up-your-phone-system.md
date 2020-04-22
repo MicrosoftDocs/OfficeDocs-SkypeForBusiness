@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
+  - seo-marvel-apr2020
+description: Step-by-step guide detailing how to set up Phone System (Cloud PBX) for your organization in Office 365.
 ---
 
 # Set up Phone System in your organization
@@ -28,9 +29,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 1: Make sure that Phone System is available in your country or region
 
-1.	First go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
-2.	Under **Phone System**, review the list of features and details. 
-3.	If Phone System is available, go to step 2. 
+1.    First go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
+2.    Under **Phone System**, review the list of features and details. 
+3.    If Phone System is available, go to step 2. 
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 

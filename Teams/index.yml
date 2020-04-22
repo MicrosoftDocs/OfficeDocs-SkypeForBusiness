@@ -7,7 +7,7 @@ brand: teams
 
 metadata:
   title: Microsoft Teams admin documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to roll out and manage Teams, and prepare your users for Teams # Required; article description that is displayed in search results. < 160 chars.
+  description: Learn about Microsoft Teams admin documentation, including how to roll out and manage Teams, and prepare your users for Teams. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   audience: ITPro
@@ -15,6 +15,7 @@ metadata:
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
   localization_priority: Priority
+  ms.custom: seo-marvel-apr2020
 
 # highlightedContent section (optional)
 # Maximum of 8 items

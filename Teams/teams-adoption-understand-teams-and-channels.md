@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn more about structuring teams and channels in Microsoft Teams. 
+description: Learn more about structuring teams and channels in Microsoft Teams and how to use Teams to drive cross-organization collaboration.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

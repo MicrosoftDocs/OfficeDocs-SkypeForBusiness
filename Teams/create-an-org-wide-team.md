@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to create and manage an org-wide team in Teams.
+description: Learn how to create and manage an org-wide team in Teams to provide an automatic way for everyone in a small to medium-sized organization to collaborate.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Create an org-wide team in Microsoft Teams
@@ -66,7 +67,7 @@ Consider setting up channel moderation and giving moderator capabilities to cert
 
 ### Remove accounts that might not belong
 
-Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team.
+Even though members can't leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don't belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team.
 
 ## FAQ
 

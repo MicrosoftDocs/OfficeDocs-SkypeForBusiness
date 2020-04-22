@@ -16,8 +16,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency calling policies in Microsoft Teams. 
+description: Learn how to use and manage emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call. 
 f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage emergency calling policies in Microsoft Teams
@@ -88,7 +89,7 @@ See [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/
 
 #### Assign a custom emergency calling policy to users in a group
 
-You may want to assign a custom emergency calling policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+You may want to assign a custom emergency calling policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
 
 In this example, we assign a policy called Operations Emergency Calling Policy to all users in the Contoso Operations group.  
 
