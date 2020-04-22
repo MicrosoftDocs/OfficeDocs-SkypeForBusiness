@@ -47,6 +47,8 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 ![Enterprise E5](../media/@licensingsmall3.png)
 
+* * *
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
