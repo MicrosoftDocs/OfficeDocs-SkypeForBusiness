@@ -21,12 +21,16 @@ appliesto:
 
 # Plan for live events in Microsoft Teams
 
-When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up. 
+When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up.
 
-## Who can create and schedule live events? 
+## Who can attend, create, and schedule live events
+
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
+
 - An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license
 - A Microsoft Teams license
 - A Microsoft Stream license
@@ -45,6 +49,7 @@ It's important to know that an Office 365 license is required to participate in 
 For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 The user must have:
+
 - Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
 - Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
@@ -53,23 +58,23 @@ The user must have:
 - Coexistence mode configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams Only*).
 
 > [!IMPORTANT]
-> Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events. 
- 
-## Who can watch live events?
+> Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events.
+
+## Who can watch live events
 
 |**Attendee visibility**       |**Teams production**  |**External app or device production**  |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
 |Guest users                   |  Yes            |  No                  |
-|Everyone in federated company |  Yes<sup>1</sup>|  No                  |
+|Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Federated attendees can only be invited through People & Group <br>
- 
+<sup>1</sup> External access (federation) attendees can only be invited through People & Group <br>
+
 ## Teams live events and Skype Meeting Broadcast
 
-The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
+The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast.
 
 |**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
@@ -86,7 +91,7 @@ The following table highlights core capabilities and features offered in live ev
 |Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
 |Invite a presenter during the meeting |&#x2714; (Skype for Business) |&#x274C; |N/A |
 |Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |&#x274C; |N/A |
-|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
+|External access (federation) & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
 |Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
@@ -102,27 +107,31 @@ The following table highlights core capabilities and features offered in live ev
 <sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> You can have up to 250 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
 
-
 ## Regional availability
-You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
+
+You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
 > The region for the event is automatically selected depending on the organizer and the Office 365 organization.
 
 **Available in these regions**
+
 - Americas
 - Europe/Africa
 - Asia Pacific
-- Go Local Canada, India, Australia, Japan, UK
+- Data location for Canada, India, Australia, Japan, UK
 
 **Exclusions and considerations**
-- **Go Locals:** Teams Go Locals, outside of the ones listed above, are not currently supported.
+
+- **Data location:** Teams data locations, outside of the ones listed above, are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps
+
 Go to [Set up for Teams live events](set-up-for-teams-live-events.md).
 
 ### Related topics
+
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
