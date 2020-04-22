@@ -23,7 +23,7 @@ appliesto:
 Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and to large sets of users in bulk.
 
 > [!NOTE]
-> See [Teams add-on licensing](teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization. After you decide  which features you want for your users, assign the licenses to them.
+> See [Teams add-on licensing](microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization. After you decide  which features you want for your users, assign the licenses to them.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
 

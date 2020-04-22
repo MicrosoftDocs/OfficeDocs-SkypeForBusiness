@@ -67,7 +67,7 @@ For detailed steps, see [Assign licenses to user accounts with PowerShell](https
 
 ### Remove Teams licenses in bulk
 
-The following is an example of how to use the [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) and [Set-MsolUserLicense](https://docs.microsoft.com/en-us/powershell/module/msonline/set-msoluserlicense) cmdlets to disable Teams for users who have a specific licensing plan. For example, follow these steps to first disable Teams for all users who have a particular licensing plan. Then enable Teams for each individual user who should have access to Teams.
+The following is an example of how to use the [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) and [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) cmdlets to disable Teams for users who have a specific licensing plan. For example, follow these steps to first disable Teams for all users who have a particular licensing plan. Then enable Teams for each individual user who should have access to Teams.
 
 > [!IMPORTANT]
 > The [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet will enable all services that were previously disabled unless explicitly identified in your custom script. For example, if you want to leave both Exchange and Sway disabled while also disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified.
@@ -96,7 +96,8 @@ For more information, see:
 
 ## Related topics
 
-- [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
+- [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](sku-reference-edu.md)
