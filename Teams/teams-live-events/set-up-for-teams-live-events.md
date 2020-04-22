@@ -25,31 +25,36 @@ ms.custom: seo-marvel-mar2020
 When you're setting up for live events, there are several steps that you must take.
 
 ## Step 1: Set up your network for live events in Teams
+
 Live events produced in Teams require you to [prepare your organization's network for Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## Step 2: Get and assign licenses
-Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
+
+Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## Step 3: Set up live events policies
+
 Live events policies are used to control who in your organization can hold live events and the features that are available in the events they create. You can use the default policy or create one or more custom live events policies. After you create a custom policy, assign it to a user or groups of users in your organization.
 
 > [!NOTE]
-> Users in your organization will get the global policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users, live captions and subtitles (transcription) is turned off, everyone in the organization can join live events, and the recording setting is set to always record. 
+> Users in your organization will get the global policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users, live captions and subtitles (transcription) is turned off, everyone in the organization can join live events, and the recording setting is set to always record.
 
 ### Create or edit a live events policy
+
 <a name="bkcreatepolicy"> </a>
 
 **![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Meetings** > **Live events policies**. 
+1. In the left navigation, go to **Meetings** > **Live events policies**.
 2. Do one of the following:
-- If you want to edit the existing default policy, choose **Global (Org-wide default)**. 
-- If you want to create a new custom policy, choose **New policy**. 
-- If you want to edit a custom policy, select the policy, and then choose **Edit**. 
+
+- If you want to edit the existing default policy, choose **Global (Org-wide default)**.
+- If you want to create a new custom policy, choose **New policy**.
+- If you want to edit a custom policy, select the policy, and then choose **Edit**.
 
     Here are the settings you can change to fit the needs of your organization.
 
-    ![Screen shot of live events policy settings](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center") 
+    ![Screen shot of live events policy settings](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
 |Setting  |Description  |
 |---------|---------|
