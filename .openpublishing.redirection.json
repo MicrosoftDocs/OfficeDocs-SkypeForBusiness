@@ -22,11 +22,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/teams-add-on-licensing/office-365-premium-pro-plus.md", 
-      "redirect_url": "https://docs.microsoft.com/office365/servicedescriptions/teams-service-description", 
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e1-e3.md", 
       "redirect_url": "https://docs.microsoft.com/office365/servicedescriptions/teams-service-description", 
       "redirect_document_id": false
