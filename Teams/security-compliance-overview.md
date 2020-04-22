@@ -113,9 +113,9 @@ For more details about how to do Office 365 eDiscovery in Security & Compliance 
 
 We have a Teams-specific article for more information, [eDiscovery of guest-to-guest chats](eDiscovery-investigation.md).
 
-Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their [requirements](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery). The following table outlines the differences between the two:
+Customers can leverage eDiscovery or [Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
-| |In-place eDiscovery  |Advanced eDiscovery  |
+| |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Case Management     |X        |X         |
 |Access Control  |X         |X         |
