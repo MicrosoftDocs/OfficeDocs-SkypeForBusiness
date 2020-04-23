@@ -61,8 +61,8 @@ Need to talk to someone about all add-on options? [Contact support for business 
 
 The add-on licensing options available to you depends on your Office 365 plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Microsoft 365 Business Standard](office-365-business-premium.md)
+- [Microsoft 365 Apps for enterprise](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 or E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (without Audio Conferencing)](office-365-enterprise-e5-without-audio-conferencing.md)
