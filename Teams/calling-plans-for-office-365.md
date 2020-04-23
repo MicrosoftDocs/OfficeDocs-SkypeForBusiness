@@ -1,5 +1,5 @@
 ---
-title: "Calling Plans for Office 365"
+title: "Calling Plans for Microsoft 365"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,7 +28,7 @@ ms.custom:
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
 
-# Calling Plans for Office 365
+# Calling Plans for Microsoft 365
 
 Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
   

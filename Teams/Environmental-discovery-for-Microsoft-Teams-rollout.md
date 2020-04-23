@@ -34,7 +34,7 @@ to the execution of your Teams rollout.
 The sample questionnaire below walks you through a set of questions to confirm
 that your organization is ready for the successful rollout of Audio Conferencing and Phone System with Calling Plans capabilities in Teams.
 
-All matters related to your existing collaboration infrastructure and Office 365 tenant, networking, endpoints, operations, and adoption and readiness are
+All matters related to your existing collaboration infrastructure and Office 365 organization, networking, endpoints, operations, and adoption and readiness are
 included as part of the environmental discovery questionnaire.
 
 The questionnaire is divided into multiple sections to confirm your
@@ -67,18 +67,18 @@ Capture detailed information about the key stakeholders of your Teams rollout pr
 > | Video Team Lead | | | |
 > | Business Unit Leads | | | |
 
-Office 365 tenant details
+Office 365 organization details
 ---
 
-We highly recommend that you have an active Office 365 tenant as you work with
-this questionnaire. If you haven't activated or configured an Office 365 tenant
+We highly recommend that you have an active Office 365 organization as you work with
+this questionnaire. If you haven't activated or configured an Office 365 organization
 yet, see [Plan your setup of Office 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Use the following table to capture information about the Office 365 tenant.
+Use the following table to capture information about the Office 365 organization.
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | Note the production Office 365 tenant <br>name and ID in the Answer column <br/>If you have more than one tenant <br>associated with your organization, <br>note all the IDs. | Tenant Name: <br/>Tenant ID:| |
+> | Note the production Office 365 organization <br>name and ID in the Answer column <br/>If you have more than one tenant <br>associated with your organization, <br>note all the IDs. | Tenant Name: <br/>Tenant ID:| |
 > | In what regions are the tenants deployed?| | |
 > | Are these tenants Office 365 Multitenant or <br>Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
 > | Which Microsoft Online products are in use today? <br/>Note the number of users enabled for each <br>service in the Comments column. | <input type="checkbox"> Microsoft Teams <br/> <input type="checkbox"> Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox"> Exchange Online <br/> <input type="checkbox"> SharePoint Online <br/> <input type="checkbox"> OneDrive for Business <br/> <input type="checkbox"> Yammer <br/> <input type="checkbox"> Other| |
@@ -117,7 +117,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | Question | Answer | Comments |
 > |---|---|---|
 > | What types of users are enabled for Teams? | <input type="checkbox"> All users in the organization <br/> <input type="checkbox"> Specific users/user groups <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column) ||
-> | Which Teams features and modalities are in use? | <input type="checkbox"> Channel-based conversations <br/> <input type="checkbox"> Private chat <br/> <input type="checkbox"> Guest access <br/> <input type="checkbox"> Channel meetings <br/> <input type="checkbox"> Private meetings <br/> <input type="checkbox"> Private calling <br/> <input type="checkbox"> Ad-hoc channel meetup <br/> <input type="checkbox"> Videos in meetings <br/> <input type="checkbox"> Screen sharing in meetings <br/> <input type="checkbox"> Audio conferencing <br/><input type="checkbox"> Applications (apps)<br> &nbsp; &nbsp; &nbsp;<input type="checkbox"> Tabs<br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Bots <br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Connectors<br><input type="checkbox"> Custom cloud storage integration <br>&nbsp; &nbsp; &nbsp; (Box, Dropbox, ShareFile, Google Drive) <br/> <input type="checkbox"> Channel email integration <br/> <input type="checkbox"> Other (Specify in the Comments column.) | |
+> | Which Teams features and modalities are in use? | <input type="checkbox"> Channel-based conversations <br/> <input type="checkbox"> Private chat <br/> <input type="checkbox"> Guest access <br/> <input type="checkbox"> Channel meetings <br/> <input type="checkbox"> Private meetings <br/> <input type="checkbox"> Private calling <br/> <input type="checkbox"> Ad-hoc channel meetup <br/> <input type="checkbox"> Videos in meetings <br/> <input type="checkbox"> Screen sharing in meetings <br/> <input type="checkbox"> Audio conferencing <br/><input type="checkbox"> Applications (apps)<br> &nbsp; &nbsp; &nbsp;<input type="checkbox"> Tabs<br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Bots <br>&nbsp; &nbsp; &nbsp;<input type="checkbox"> Connectors<br><input type="checkbox"> Custom cloud storage integration <br>&nbsp; &nbsp; &nbsp; (Dropbox, Box, ShareFile, Google Drive, Egnyte) <br/> <input type="checkbox"> Channel email integration <br/> <input type="checkbox"> Other (Specify in the Comments column.) | |
 > | What applications have you deployed to Teams? | | |
 > | Have you specifically blocked any Teams capabilities? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> Linux <br/>  <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |

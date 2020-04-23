@@ -42,7 +42,7 @@ Before you roll out Teams across your organization, take time to confirm that yo
 
 |Ask yourself|Action |
 |------------|-------|
-|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
+|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Microsoft 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## Core deployment decisions
@@ -93,6 +93,10 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 ### Guest access
 
 Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+
+> [!NOTE]
+> For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
+
 
 |Ask yourself|Action |
 |------------|-------|
@@ -185,7 +189,7 @@ Your organization might require that you implement controls on how teams are nam
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### Teams application policy (side-rail control)

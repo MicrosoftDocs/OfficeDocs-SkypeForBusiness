@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Business Premium "
+title: "Microsoft 365 Business Standard "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: Learn about add-on licenses, their features, and how to buy these licenses for Office 365 Business Premium plans. 
+description: Learn about add-on licenses, their features, and how to buy these licenses for Microsoft 365 Business Standard plans. 
 ---
 
-# Office 365 Business Premium
+# Microsoft 365 Business Standard
 
-If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Microsoft Teams to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can use Teams to call and IM each other.
+If you have [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), you can use Microsoft Teams to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can use Teams to call and IM each other.
 
 
 **To make and receive calls from people external to your business, you have these options**:

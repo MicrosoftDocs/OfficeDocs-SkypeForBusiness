@@ -28,7 +28,7 @@ description: Learn about how to turn on and use the Call Quality Dashboard and g
 
 # Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online
 
-Learn how to configure your Office 365 organization to use the Call Quality Dashboard to monitor call quality.
+Learn how to configure your Microsoft 365 or Office 365 to use the Call Quality Dashboard to monitor call quality.
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
@@ -145,11 +145,11 @@ You can add multiple dates from the location tab, such as adding 2019-09-22 to D
 
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
-Before you can start using CQD, activate it for your Office 365 organization as follows:
+Before you can start using CQD, activate it for your Microsoft 365 or Office 365 as follows:
 
 ![An icon that shows the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
+1. Sign in to your Microsoft 365 or Office 365 using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
 3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
 4. On the page that opens \(https://<span>cqd.teams.microsoft.com<span/>\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
@@ -162,7 +162,7 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 
 ![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
 
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
+1. Sign in to your Microsoft 365 or Office 365 using an admin account, and then select the **Admin** tile to open the Admin center.
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
 3. In the Microsoft Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
 
@@ -492,7 +492,7 @@ When you compare data for these two services:
 ### Why can't I see EUII in CQD?
 
 These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
-- Office 365 Reports Reader
+- Microsoft 365 Reports Reader
 - Teams Communications Support Specialist
 
 To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).

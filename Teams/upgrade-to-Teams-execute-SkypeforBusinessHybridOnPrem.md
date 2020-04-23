@@ -37,7 +37,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
-If you've deployed Skype for Business Server or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You need to set up hybrid connectivity with your Office 365 tenant, and determine coexistence requirements if you are moving your users to Teams in phases. 
+If you've deployed Skype for Business Server or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You need to set up hybrid connectivity with your Office 365 organization, and determine coexistence requirements if you are moving your users to Teams in phases. 
 
 > [!IMPORTANT]
 > Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.

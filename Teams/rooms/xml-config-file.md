@@ -36,6 +36,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
@@ -79,10 +80,11 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<SkypeSettings\> |Container for all elements. ||Required. |
 | \<AutoScreenShare\>  |Boolean &#x2777;  |First &#x2776;  | If true, auto screen share is enabled.  |
 |\<HideMeetingName\> |Boolean &#x2777;  |First &#x2776;  |If true, meeting names are hidden. |
-|\<UserAccount\> |Container |First &#x2776;  |Container for credentials parameters. The sign in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com. |
+|\<UserAccount\> |Container |First &#x2776;  |Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com. |
 |\<SkypeMeetingsEnabled\>  |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
-|\<SkypeSignInAddress\> |String  &#x2778;  ||The sign in name for the console's SfB or Teams device account. |
-|\<ExchangeAddress\> |String  &#x2778;  ||The sign in name for the console's Exchange device account. If the ExchangeAddress is omitted, the SkypeSignInAddress will not be reused automatically. |
+|\<SkypeSignInAddress\> |String  &#x2778;  ||The sign-in name for the console's SfB or Teams device account. |
+|\<ExchangeAddress\> |String  &#x2778;  ||The sign-in name for the console's Exchange device account. If the ExchangeAddress is omitted, the SkypeSignInAddress will not be reused automatically. |
+|\<ModernAuthEnabled> |Boolean &#x2777;  |  |Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication.|
 |\<DomainUsername\> |String  &#x2778;  ||The domain and user name of the console device, for example Seattle\RanierConf. |
 |\<Password\> |String 3  || The password parameter is the same password used for the Skype for Business device account sign-in.  |
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |

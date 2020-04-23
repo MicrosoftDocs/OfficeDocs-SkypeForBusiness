@@ -622,7 +622,7 @@ items:
 
     ### Requirements
 
-    -   An Office 365 tenant with appropriate licenses to enable Phone System with
+    -   An Office 365 organization with appropriate licenses to enable Phone System with
     Calling Plans
 
         -   We strongly recommend that you use a dedicated test tenant.

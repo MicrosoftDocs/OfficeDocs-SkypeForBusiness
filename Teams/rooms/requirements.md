@@ -74,7 +74,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
   |Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
 
-- One of the following docking station options to secure a tablet to the meeting room table.
+- Surface Pro devices require one of the following docking station options to secure a tablet to the meeting room table.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )

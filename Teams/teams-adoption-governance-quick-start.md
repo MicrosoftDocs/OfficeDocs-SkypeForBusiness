@@ -60,7 +60,7 @@ The Teams meeting experience is high quality, supports video chatting, and bring
 
 ### Decision 6:  Data security
 
-In preparation for your broad deployment you may opt to use security labels to classify the types of teams in your environment. For the purposes of this experiment we recommend that you refer to [Plan for Governance in Teams](plan-teams-governance.md) and ensure that a basic retention policy has been set on Teams data in your Office 365 organization. You may need to coordinate this work with your technical team because Office 365 administrator rights are required to complete this work.
+In preparation for your broad deployment you may opt to use security labels to classify the types of teams in your environment. For the purposes of this experiment we recommend that you refer to [Plan for Governance in Teams](plan-teams-governance.md) and ensure that a basic retention policy has been set on Teams data in your Microsoft 365 or Office 365. You may need to coordinate this work with your technical team because Office 365 administrator rights are required to complete this work.
 
 ### Decision 7: Length of your experiment
 

@@ -108,6 +108,13 @@ items:
         situation, Garth schedules an ad-hoc meeting by selecting **Meet Now** in
         the current conversation.
 
+    In Teams, meeting organizers can end a meeting for all meeting participants. This is useful in scenarios such as the following:
+
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.
+
+    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting in Teams to end it and remove all participants from it.
+
 - title: Meeting clients
   durationInMinutes: 5
   content: |
@@ -117,7 +124,7 @@ items:
     (estimated reading time 3 minutes) to understand which platforms Teams is
     available for.
 
-    In addition, by using Audio Conferencing, participates can attend meetings from
+    In addition, by using Audio Conferencing, participants can attend meetings from
     regular phones by dialing in to the meeting or dialing out from the meeting.
     Details about Audio Conferencing will be covered in a dedicated training.
 
@@ -175,17 +182,31 @@ items:
     interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
     (estimated reading time 3 minutes) to understand potential limitations.
 
+    ### End meetings for all participants
+
+    Meeting organizers can end a meeting for all participants by clicking **End meeting** from within the meeting. This is helpful in scenarios such as the following:
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.  
+
 - title: Meeting configuration options
-  durationInMinutes: 1
+  durationInMinutes: 20
   content: |
 
-    As an IT administrator, you can enable and disable different types of meetings
-    in addition to disabling modalities such as video or screen sharing. Review
-    [Calls and
-    meetings](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365#calls-and-meetings)
-    (estimated reading time 1 minute) to learn about the options that can be
-    configured from an IT pro perspective. This article also lists the maximum
-    number of meeting participants.
+    As an IT administrator, you can set meeting policies and settings to define the meeting experience.
+
+    ### Meeting policies
+
+    Use Teams meeting policies to control the features that are available to
+    meeting participants for meetings that are scheduled by users in your organization. To learn more, see
+    [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
+    (estimated reading time 16 minutes). 
+
+    ### Meeting settings
+
+    Use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations,
+    and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all
+    Teams meetings that users schedule in your organization. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+    (estimated time reading time 4 minutes).
 
 - title: Exercise - Configure meetings
   durationInMinutes: 20
@@ -196,7 +217,7 @@ items:
     out.
 
     ### Requirements
-    -   An Office 365 tenant with appropriate licenses to use Teams
+    -   An Office 365 organization with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
         -   If you don’t have a test tenant, you can sign up for a trial tenant at
         [Office 365 Enterprise E5
@@ -219,9 +240,10 @@ items:
     -   Join a meeting from a browser without signing in to your tenant (you might
         want to use “InPrivate” browsing) to see what it’s like to join a meeting
         anonymously.
-    -   Sign in to the admin portal and change some of the settings for meetings
+    -   Sign in to the Microsoft Teams admin center and change some of the settings for meetings
         (for example, disable scheduling for private meetings). How does this affect
         the user experience?
+    -   As the meeting organizer, end a meeting for all participants.    
 
 - title: Reporting
   durationInMinutes: 2
@@ -240,7 +262,7 @@ items:
     -   Low quality, on the other hand, means that there are issues with
         connectivity between users and Office 365. Low quality can lead to bad user
         experience and lower usage.
-    Refer to [Office 365 Reports in the Admin Center - Microsoft Teams user
+    Refer to [Microsoft 365 Reports in the Admin Center - Microsoft Teams user
     activity](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
     (estimated reading time 5 minutes) to learn more about the usage reports.
 
@@ -269,5 +291,5 @@ items:
     3.  Stay up to date:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
-        - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+        - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)
     4.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).

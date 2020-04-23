@@ -57,11 +57,11 @@ After you plan the dial plans for your organization and figured out all the norm
 
 ### Add users to a dial plan
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
-2. Select the dial plan by clicking to the left of the dial plan name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, select **Apply**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking the display name.
+3. Select the **Policies** tab.
+4. Click **Edit** to the right of Assigned policies.
+5. From the **Dial plan** drop-down menu, select the dial plan you want to assign to the user and then click **Apply**.
 
 ## Using PowerShell
   
@@ -83,7 +83,7 @@ To learn more, see [Connect to all Office 365 services in a single Windows Power
   
 1. Click **Start** > **Windows PowerShell**.
     
-2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
     
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.

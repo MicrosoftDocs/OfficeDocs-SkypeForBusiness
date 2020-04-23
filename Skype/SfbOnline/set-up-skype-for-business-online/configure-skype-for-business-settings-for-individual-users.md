@@ -42,7 +42,7 @@ You must have [admin permissions](https://support.office.com/article/da585eea-f5
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
     

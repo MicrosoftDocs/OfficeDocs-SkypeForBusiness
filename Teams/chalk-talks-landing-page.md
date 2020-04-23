@@ -88,6 +88,7 @@ ms.collection:
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -98,13 +99,14 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>How to enable Teams for Firstline Worker engagement</h3>
-                        <p><font color="red"><i>Coming soon!</i></font> Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.</p>
+                        <p>Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,8 +116,8 @@ ms.collection:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Discover what's new in Teams</h3>
-                        <p><font color="red"><i>Coming soon!</i></font>  Have you been waiting on a feature to release in Teams? Come interact with Teams experts as we walk you through the latest and greatest feature releases over the past month - along with best practices for implementing them.</p>
+                        <h3>Taking charge of AV quality experiences</h3>
+                        <p>Are you looking to ensure users have optimal experiences with meetings and voice capabilities in Teams? During this session,  we'll discuss tools, reporting and best practices to help you manage service quality&mdash;from establishing a proactive strategy to resolving common issues as they arise.</p>
                     </div>
                 </div>
             </div>

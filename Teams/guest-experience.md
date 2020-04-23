@@ -31,6 +31,11 @@ All team members see a message in the channel thread announcing that the team ow
     
 ![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating that the team has guests and users who are guests are identified with the word GUEST next to their name.")
 
+Check out these videos about the guest experience in Teams:
+- [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
+
 ## Comparison of team member and guest capabilities
 
 The following table compares the Teams functionality available for an organization's team members and its guests.
@@ -47,7 +52,7 @@ The following table compares the Teams functionality available for an organizati
 |Create meetings or access schedules  <br/> |&#x2713;||
 |Access OneDrive for Business storage  <br/> |&#x2713;||
 |Create tenant-wide and teams/channels guest access policies  <br/> |&#x2713;||
-|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
+|Invite a user outside the Office 365 organization's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
 |Create a team  <br/> |&#x2713;||
 |Discover and join a public team  <br/> |&#x2713;||
 |View organization chart  <br/> |&#x2713;||

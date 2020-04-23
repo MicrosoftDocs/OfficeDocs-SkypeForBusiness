@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 This article applies to environments in which you have all of the following: 
  
 - Skype for Business Server or Lync Server 2013 
-- An Office 365 tenant 
+- An Office 365 organization 
 - Hybrid connectivity configured between the Skype for Business Server and Skype for Business Online or Microsoft Teams tenant 
 - Users who are enabled to make and receive Public Switched Telephone Network (PSTN) calls to and from the client
 

@@ -22,13 +22,15 @@ appliesto:
 
 Does your organization want to get started with Microsoft Teams to support your users who work remotely or from home? Use the guidance in this article to get up and running quickly.
 
+If you're a small or medium-sized business, don't miss [Empower your small business with remote work](https://aka.ms/remote-business).
+
 ## IT admin guidance
 
 - Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 offer](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](assign-teams-licenses.md)**.
     
-- Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**. 
+- Understand how to get your organization started with **[Meetings and live events in Teams](quick-start-meetings-live-events.md)**. 
 
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
@@ -59,6 +61,8 @@ Share these assets and videos with your end users to help them get started quick
 ## Additional resources for supporting remote workers
 
 1. Read the [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md), which we're updating regularly.
+
+2. [Use Advisor for Teams to help you roll out Teams](use-advisor-teams-roll-out.md). Advisor for Teams (in the Teams admin center) walks you through your Teams deployment.
 
 1. Read our recent blog posts:
    
@@ -102,7 +106,7 @@ Share these assets and videos with your end users to help them get started quick
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365's enterprise-grade security best practices and procedures.
 
 
-2.  [Send out links to training](enduser-training.md) to help your employees get the most out of Teams.
+2.  Share a link to [Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) to help your employees get the most out of Teams.
 
 3. Go deeper: Learn more about rolling out Teams.
 
