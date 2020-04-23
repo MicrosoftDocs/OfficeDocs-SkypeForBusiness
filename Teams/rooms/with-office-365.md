@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms with Office 365"
+title: "Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,10 +14,10 @@ ms.collection:
   - M365-collaboration
 ms.custom: 
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
+description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365."
 ---
 
-# Deploy Microsoft Teams Rooms with Office 365
+# Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365
 
 Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.
 
@@ -139,7 +139,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. The device account needs to have a valid Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Office 365 tenant as follows:
+6. The device account needs to have a valid Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Office 365 organization as follows:
 
   ``` Powershell
   Get-MsolAccountSku

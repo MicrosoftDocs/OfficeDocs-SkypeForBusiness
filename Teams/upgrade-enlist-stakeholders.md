@@ -56,7 +56,7 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Telephony Lead | Provides insights into telephony design and implementation |
 | Service Owner/ Quality Champion | Owns the operation of Teams all-up, including the quality of the user experience |
 | Desktop and Devices Lead | Provides input into clients, devices, and desktop apps |
-| IT Pro/Tenant Admin | Ensures the network readiness and Office 365 portal configurations are in place |
+| IT Pro/Tenant Admin | Ensures the network readiness and Microsoft 365 admin center configurations are in place |
 | Support/Help Desk Lead | Manages the readiness of your support desk |
 | Change Management Lead | Oversees the user change management and adoption program |
 | Marketing Lead | Designs and implements communications campaigns |
