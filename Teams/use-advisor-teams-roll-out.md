@@ -27,9 +27,9 @@ description: "Use Advisor for Teams (public preview) to help you plan and comple
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (public preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams (public preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
-Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Office 365 Business Essentials license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
+Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
 > [!IMPORTANT]
 > Advisor for Teams isn't available for Microsoft 365 Government - GCC High or DoD deployments.
@@ -93,8 +93,8 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Office 365 Group naming policy configured     |Whether naming standards have been configured for Office 365 Groups. Office 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Office 365 Groups. For more information, read [Office 365 Group naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Office 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Office 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Office 365 Group Expiration Policy](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Office 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Office 365 Group naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Office 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Office 365 Group Expiration Policy](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### Assessments for meetings and conferencing
 
@@ -128,7 +128,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
-At a minimum, you'll need Office 365 Business Essentials so you can take advantage of the Advisor for Teams integration with Forms and Planner.
+At a minimum, you'll need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team?
 After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the public preview period and becomes generally available.

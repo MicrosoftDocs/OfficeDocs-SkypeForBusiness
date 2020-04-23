@@ -41,7 +41,7 @@ Whether you have one on-premises Active Directory forest or multiple forests, Az
 
 2. Multiple forests, only one of which hosts Skype for Business Server, as well as one or more other forests that contain authoritative user identities (the account forests). 
 
-3. Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Office 365 tenant.
+3. Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Office 365 organization.
 
 ### Single forest 
 
@@ -62,7 +62,7 @@ This scenario is often referred to as a resource forest topology. Users’ autho
 
 ### Multiple Skype for Business Server deployments in multiple forests 
 
-In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Office 365 tenant.  Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using AAD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using [disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain). For more details on how to consolidate such an environment into Office 365, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
+In this scenario, there are multiple forests, each containing Skype for Business Server, and a single Office 365 organization.  Each forest containing Skype for Business Server can be synchronized into Azure AD for that tenant using AAD Connect. At most, only one forest can be configured for Skype for Business hybrid at a given time. Before enabling hybrid in a forest, all SIP domains from all other forests must be disabled using [disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain). For more details on how to consolidate such an environment into Office 365, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
 
 ## General requirements 
 

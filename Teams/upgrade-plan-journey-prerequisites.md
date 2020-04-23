@@ -47,7 +47,7 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Learn how [Office 365 groups and Microsoft Teams interact](Office-365-groups.md).
+- Learn how [Microsoft 365 groups and Microsoft Teams interact](Office-365-groups.md).
 
 - If your organization is an educational institution and you use a Student Information System, [deploy School Data Sync](https://docs.microsoft.com/schooldatasync) before deploying Microsoft Teams.
 
