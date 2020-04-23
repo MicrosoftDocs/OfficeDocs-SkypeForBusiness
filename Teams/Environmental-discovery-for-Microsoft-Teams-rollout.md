@@ -34,7 +34,7 @@ to the execution of your Teams rollout.
 The sample questionnaire below walks you through a set of questions to confirm
 that your organization is ready for the successful rollout of Audio Conferencing and Phone System with Calling Plans capabilities in Teams.
 
-All matters related to your existing collaboration infrastructure and Office 365 tenant, networking, endpoints, operations, and adoption and readiness are
+All matters related to your existing collaboration infrastructure and Office 365 organization, networking, endpoints, operations, and adoption and readiness are
 included as part of the environmental discovery questionnaire.
 
 The questionnaire is divided into multiple sections to confirm your
@@ -67,18 +67,18 @@ Capture detailed information about the key stakeholders of your Teams rollout pr
 > | Video Team Lead | | | |
 > | Business Unit Leads | | | |
 
-Office 365 tenant details
+Office 365 organization details
 ---
 
-We highly recommend that you have an active Office 365 tenant as you work with
-this questionnaire. If you haven't activated or configured an Office 365 tenant
+We highly recommend that you have an active Office 365 organization as you work with
+this questionnaire. If you haven't activated or configured an Office 365 organization
 yet, see [Plan your setup of Office 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Use the following table to capture information about the Office 365 tenant.
+Use the following table to capture information about the Office 365 organization.
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | Note the production Office 365 tenant <br>name and ID in the Answer column <br/>If you have more than one tenant <br>associated with your organization, <br>note all the IDs. | Tenant Name: <br/>Tenant ID:| |
+> | Note the production Office 365 organization <br>name and ID in the Answer column <br/>If you have more than one tenant <br>associated with your organization, <br>note all the IDs. | Tenant Name: <br/>Tenant ID:| |
 > | In what regions are the tenants deployed?| | |
 > | Are these tenants Office 365 Multitenant or <br>Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
 > | Which Microsoft Online products are in use today? <br/>Note the number of users enabled for each <br>service in the Comments column. | <input type="checkbox"> Microsoft Teams <br/> <input type="checkbox"> Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox"> Exchange Online <br/> <input type="checkbox"> SharePoint Online <br/> <input type="checkbox"> OneDrive for Business <br/> <input type="checkbox"> Yammer <br/> <input type="checkbox"> Other| |

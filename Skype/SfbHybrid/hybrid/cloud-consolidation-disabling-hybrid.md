@@ -29,7 +29,7 @@ After you have moved all users from on-premises to the cloud, you can decommissi
 
 1. Update DNS records to point to Office 365.
 
-2. Disable split domain in the Office 365 tenant.
+2. Disable split domain in the Office 365 organization.
 
 3. Disable the ability in on-premises to communicate with Office 365.
 
@@ -51,7 +51,7 @@ The organization’s external DNS for the on-premises organization needs to be u
     |CNAME|	meet|	3600|	webdir.online.lync.<span>com|
     |CNAME|	dialin	|3600|	webdir.online.lync.<span>com|
 
-2.	*Disable shared SIP address space in Office 365 tenant.*
+2.	*Disable shared SIP address space in Office 365 organization.*
 The command below needs to be done from a Skype for Business Online PowerShell window.
 
     ```PowerShell
