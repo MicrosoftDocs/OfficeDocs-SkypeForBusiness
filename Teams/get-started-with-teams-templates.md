@@ -11,11 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use Teams templates to create a team with predefined channels.
+description: Learn how to use Teams templates to create collaboration spaces with channels for different topics and preinstall apps to provide content and services.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

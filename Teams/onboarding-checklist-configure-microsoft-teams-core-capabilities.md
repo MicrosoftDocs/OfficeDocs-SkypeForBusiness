@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Follow the core, to-do tasks and activities in this checklist when you configure Teams.
+description: Follow the core, to-do tasks and activities in this checklist when you configure Teams for your organization.
+ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 f1.keywords:
 - NOCSH
