@@ -60,7 +60,7 @@ To get proper identity synchronization, the following attributes need to be sync
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-The [chosen account link attribute](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
+The [chosen account link attribute](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
   
 Do not sync the UPNs between the forests. We found during testing that we needed to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, we were presented with two possibilities, to synchronize the UPN or to not synchronize. 
   
