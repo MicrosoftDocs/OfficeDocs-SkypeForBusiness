@@ -52,7 +52,7 @@ Depending on the add-on features that you want, we recommend comparing whether i
 
 #### [**Business plans**](#tab/small-business/)
 
-Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that Business Voice is designed for small and medium-sized businesses who have up to 300 users.
+Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that Microsoft 365 Business Voice is designed for small and medium-sized businesses who have up to 300 users.
 
 ![Microsoft 365 business plans](../media/licensing-small-business-plans.png)
 

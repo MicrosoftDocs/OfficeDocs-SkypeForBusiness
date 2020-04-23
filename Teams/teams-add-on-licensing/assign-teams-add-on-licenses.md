@@ -148,8 +148,8 @@ To learn more, see [View licenses and services with PowerShell](https://docs.mic
 
 ## Related topics
 
+- [Teams add-on licensing](microsoft-teams-add-on-licensing.md)
 - [Manage user access to Teams](../user-access.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](../sku-reference-edu.md)
-- [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
