@@ -59,8 +59,8 @@ The following table lists the steps required to prepare your environment for a h
 <tr class="even">
 <td></td>
 <td><p>Add your domain and verify ownership</p></td>
-<td><p>Your domain is sometimes also referred to as your <em>vanity domain</em>. You must add your domain to your Office 365 tenant, and then follow the steps to validate the domain with Office 365. This is to confirm that you are the owner of the domain.</p>
-<p>To add your domain to your Office 365 tenant, follow the steps described at <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Add your domain to Office 365</a>.</p>
+<td><p>Your domain is sometimes also referred to as your <em>vanity domain</em>. You must add your domain to your Office 365 organization, and then follow the steps to validate the domain with Office 365. This is to confirm that you are the owner of the domain.</p>
+<p>To add your domain to your Office 365 organization, follow the steps described at <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Add your domain to Office 365</a>.</p>
 <p>Complete all of the steps in each section in the topic, including &quot;Edit DNS records for your Office 365 services.&quot;</p></td>
 </tr>
 <tr class="odd">

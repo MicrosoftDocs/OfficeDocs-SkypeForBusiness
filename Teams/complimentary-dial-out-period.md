@@ -43,7 +43,7 @@ For customers adopting our Office 365 Audio Conferencing service, Microsoft is p
 
 Further, there is a 900 minute cap limit during the complimentary dial out period as such:
 
-Users with a license usage location (this is the user country location defined in the licensing area of the Office 365 admin portal) in ANY country can dial out from a conference to any of the 44 Zone A countries and regions. Each user receives 900 minutes per user per month to ANY of the Zone A countries and regions which is pooled at the tenant level. For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in US, 100 users in the UK and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users.
+Users with a license usage location (this is the user country location defined in the licensing area of the Microsoft 365 admin center) in ANY country can dial out from a conference to any of the 44 Zone A countries and regions. Each user receives 900 minutes per user per month to ANY of the Zone A countries and regions which is pooled at the tenant level. For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in US, 100 users in the UK and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users.
 
 > [!NOTE]
 > Pool size is based on assigned licenses and not purchased licenses.

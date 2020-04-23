@@ -282,7 +282,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 1. Find users who are active in Teams as follows:
 
-   1. From the Office 365 Admin Portal, in the left-hand navigation, go to Reports, and then Usage. 
+   1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage. 
    2. In the “Select a report” dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams. 
    3. Click Export, open Excel, and filter to show only the users who are active in Teams.
 
