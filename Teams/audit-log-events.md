@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Learn how to retrieve Microsoft Teams data from the Office 365 audit log.
+description: Learn how to retrieve Microsoft Teams data from the audit log.
 appliesto: 
   - Microsoft Teams
 ---
@@ -36,11 +36,11 @@ The audit log can help you investigate specific activities across Office 365 ser
 > [!NOTE]
 > Audit events from private channels are also logged as they are for teams and standard channels.
 
-To see the complete list of activities that are audited in Office 365, read [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+To see the complete list of activities that are audited in Microsoft 365, read [Search the audit log in the Microsoft 365 Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help turning on auditing, read [Turn Office 365 audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help turning on auditing, read [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on Auditing.

@@ -64,7 +64,7 @@ Only a service toll number can be set as the default number for your conferencin
 
 The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the defaul phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Audio conferencing** > **Users**, and select the users on the list.
 
@@ -128,7 +128,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
   
 ### Step 3 - Unassign the old phone number from the audio conferencing bridge
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
@@ -164,7 +164,7 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
 
 >
   ```PowerShell

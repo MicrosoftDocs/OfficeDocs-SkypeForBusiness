@@ -92,7 +92,7 @@ Shifts is available in the following languages: Chinese-Simplified, English (U.S
 
 #### Where is Shifts data stored?
 
-Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Office 365 Groups and uses the same storage and support.
+Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Microsoft 365 Groups and uses the same storage and support.
 
 For more information, see [Location of Shifts data](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -126,9 +126,9 @@ Teams supports coexistence with Skype for Business. For more information, see [U
 
 Yes, each manager and team member using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license.
  
-#### In StaffHub, I could add a special prefix to all Office 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
+#### In StaffHub, I could add a special prefix to all Microsoft 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
 
-You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Office 365 Groups, you can use [Office 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Microsoft 365 Groups, you can use [Microsoft 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
 #### Will team names be the same in Teams?
 
@@ -144,7 +144,7 @@ We encourage you to review your existing team rosters on StaffHub and where poss
 
 The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group.
 
-For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
+For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Microsoft 365 or Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
 
 Another option is for admins to run the **Add-StaffHubMember** and **Remove-StaffHubUser** cmdlets to remove a non-provisioned account from a StaffHub team and add the user back to the team with their UPN.
 

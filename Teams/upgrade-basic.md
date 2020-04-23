@@ -109,7 +109,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 Providing ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience. Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.
 
 > [!Note]
-> If needed, you can enable Teams for your users via the Office 365 admin portal at this time.
+> If needed, you can enable Teams for your users via the Microsoft 365 admin center at this time.
 
 **Resources:**
 
