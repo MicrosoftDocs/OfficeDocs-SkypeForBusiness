@@ -144,4 +144,4 @@ if($null -eq $teamsProc) {
 ## Related topics
 
 - [Install Teams using MSI](../msi-deployment.md)
-- [Deploy Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install)
+- [Deploy Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install)
