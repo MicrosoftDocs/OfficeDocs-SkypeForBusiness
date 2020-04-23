@@ -60,7 +60,7 @@ Here are the add-on options available to you if you have a [Microsoft 365 Busine
 
 Here are the add-on options available to you if you have any of these plans.<br> 
 
-Microsoft 365 E1, [E3](https://www.microsoft.com/microsoft-365/enterprise-e3-business-software), [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software), [E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software), Microsoft 365 Education A1, A3, [Office 365 Education A1](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [A3](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Microsoft 365 F3](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise-f3), [Office 365 F3](https://www.microsoft.com/microsoft-365/business/office-365-f3)
+To learn more about these plans, see Microsoft 365 E1, [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise-e3-business-software), [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software), [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software), [Microsoft 365 A1](https://www.microsoft.com/education/buy-license/microsoft365), [Microsoft 365 A3](https://www.microsoft.com/education/buy-license/microsoft365), [Office 365 A1](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Office 365 A3](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Microsoft 365 F3](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise-f3), and [Office 365 F3](https://www.microsoft.com/microsoft-365/business/office-365-f3).
 
 ![E1, E3, A1, A3, and F3 plans](../media/licensing-enterprise-plans.png)
 
@@ -68,7 +68,7 @@ Microsoft 365 E1, [E3](https://www.microsoft.com/microsoft-365/enterprise-e3-bus
 
 These plans include most Teams features. There's a few additional options that you can add.
 
-[Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software), [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software)<br>
+To lean more about what's included in these plans, see [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software), [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software), [Microsoft 365 A5](https://www.microsoft.com/education/buy-license/microsoft365), [Office 365 A5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans). <br>
 
 ![E5, A5 plans](../media/licensing-enterprise-e5.png)
 
