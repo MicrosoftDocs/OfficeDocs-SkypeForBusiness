@@ -50,22 +50,26 @@ Depending on the add-on features that you want, we recommend comparing whether i
 
 See what add-on licenses you need to get calling and cloud voice features, depending on the plan you have.  
 
-#### [Business plans](#tab/small-business/)
+#### [**Business plans**](#tab/small-business/)
 
-Here are the add-on options available to you if you have a Microsoft 365 business plan. Keep in mind that Business Voice is designed for small and medium-sized businesses who have up to 300 users.
+Here are the add-on options available to you if you have a [Microsoft 365 business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that Business Voice is designed for small and medium-sized businesses who have up to 300 users.
 
 ![Microsoft 365 business plans](../media/licensing-small-business-plans.png)
 
-#### [E1, E3, A1, A3, and F3 plans](#tab/enterprise-1-3/)
+#### [**E1, E3, A1, A3, and F3 plans**](#tab/enterprise-1-3/)
 
-Here are the add-on options available to you if you have any of these plans.
+Here are the add-on options available to you if you have any of these plans. 
+
+Microsoft 365 E1, [E3](https://www.microsoft.com/microsoft-365/enterprise-e3-business-software), [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software), [E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software), Microsoft 365 Education A1, A3, [Office 365 Education A1](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [A3](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Microsoft 365 F3](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise-f3), [Office 365 F3](https://www.microsoft.com/microsoft-365/business/office-365-f3)
 
 ![E1, E3, A1, A3, and F3 plans](../media/licensing-enterprise-plans.png)
 
-#### [E5 and A5 plans](#tab/enterprise-5/)
+#### [**E5 and A5 plans**](#tab/enterprise-5/)
 
 These plans include most Teams features. There's a few additional options that you can add.
 
+[Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software), Office 365 E5[
+](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software)
 ![E5, A5 plans](../media/licensing-enterprise-e5.png)
 
 * * *
