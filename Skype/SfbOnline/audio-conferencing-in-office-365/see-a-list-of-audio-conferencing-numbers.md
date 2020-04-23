@@ -47,7 +47,7 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 
 ## To view your audio conferencing phone numbers
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Go to the admin center > **Skype for Business**.
     

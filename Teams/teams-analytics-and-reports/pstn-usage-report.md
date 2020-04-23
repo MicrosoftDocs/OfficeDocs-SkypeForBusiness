@@ -129,7 +129,7 @@ You can export data up to five months (150 days) from the current date unless co
 | :-: | :-: | :-: |:------------------- |
 | 0 | CorrelationId | `uniqueidentifier` | Unique call identifier |
 | 1 | SIP Address | `nvarchar(128)` | The address of the user or bot that made or received the call.<br/>Note that this is actually UserPrincipalName (UPN, sign in name) in Azure Active Directory, which is usually the same as SIP Address |
-| 2 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Office 365 portal |
+| 2 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Microsoft 365 admin center |
 | 3 | User country | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Invite time | `datetimeoffset` | When the initial Invite send on outbound from Teams user or bot call to the SBC, or received on inbound to Teams or bot call by the SIP Proxy component of Direct Routing from the SBC |
 | 5 | Start time | `datetimeoffset` | Time when the SIP proxy received the final answer (SIP Message  "200 OK") from the SBC on outbound (Teams/Bot to a PSTN User), or after the SIP Proxy send the Invite to the next hop within Teams backend on inbound call (PSTN User to a Teams/Bot).<br/>For failed and unanswered calls, this can be equal to invite or failure time |
