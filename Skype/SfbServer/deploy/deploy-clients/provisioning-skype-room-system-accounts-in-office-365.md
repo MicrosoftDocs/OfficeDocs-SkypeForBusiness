@@ -1,5 +1,5 @@
 ---
-title: "Provisioning Skype Room System accounts in Office 365"
+title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: "Read this topic to learn about provisioning Skype Room System accounts in Office 365."
+description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
 
-# Provisioning Skype Room System accounts in Office 365
+# Provisioning Skype Room System accounts in Microsoft 365 and Office 365
  
 Read this topic to learn about provisioning Skype Room System accounts in Office 365.
   
-The following section covers Skype Room System account provisioning for an Office 365 tenant.
+The following section covers Skype Room System account provisioning for an Office 365 organization.
   
-## Office 365 prerequisites
+## Microsoft 365 and Office 365 prerequisites
 
 Your online tenant must meet the following requirements:
   
-- The Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+- The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Your tenant must have the conferencing capability of Skype for Business enabled.
     

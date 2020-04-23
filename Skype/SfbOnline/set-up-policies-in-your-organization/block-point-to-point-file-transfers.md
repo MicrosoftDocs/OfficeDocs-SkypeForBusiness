@@ -64,7 +64,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
 	1. From the **Start Menu** > **Windows PowerShell**.
 		
-	2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+	2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
     
 		> [!NOTE]
 		> You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.

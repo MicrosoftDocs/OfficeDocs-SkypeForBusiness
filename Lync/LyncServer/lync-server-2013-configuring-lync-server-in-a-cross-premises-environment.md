@@ -98,7 +98,7 @@ When the module has been imported, type the following command and then press ENT
 
     Connect-MsolService
 
-After you press ENTER, a credentials dialog box will appear. Enter your Office 365 user name and password in the dialog box, and then click OK.
+After you press ENTER, a credentials dialog box will appear. Enter your Microsoft 365 or Office 365 user name and password in the dialog box, and then click OK.
 
 As soon as you are connected to Office 365 you can then run the following command in order to return information about your service principals:
 
