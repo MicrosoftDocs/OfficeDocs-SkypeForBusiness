@@ -151,7 +151,7 @@ Do one of the following:
 
 Teams includes a built-in FirstlineWorker app setup policy that you can use to customize Teams to highlight the apps that are most important for the Firstline Workers in your organization. When you assign this policy to users, the apps in the policy are pinned to the app bar in Teams for quick and easy access. Other apps added to Teams can be found in the app bar by clicking **... More apps** in the Teams desktop and web clients and by swiping up in the Teams mobile client. By default, the FirstlineWorker app setup policy includes the Activity, Shifts, Chat, and Calling apps.
 
-For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
+For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take a couple of hours to take effect.
 
 We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
 
