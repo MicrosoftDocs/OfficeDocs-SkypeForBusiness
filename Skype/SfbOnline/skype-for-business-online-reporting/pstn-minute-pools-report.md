@@ -42,7 +42,7 @@ This report, along with the other Skype for Business reports, gives you details 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.
     
 > [!NOTE]
-> Depending on the Office 365 subscription you have, you might not see all the same details shown here. 
+> Depending on the Microsoft 365 or Office 365 subscription you have, you might not see all the same details shown here. 
   
 ## Interpret the Skype for Business PSTN minute pools report
 
