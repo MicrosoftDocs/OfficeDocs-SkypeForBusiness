@@ -60,7 +60,7 @@ The following table outlines support for Skype Directory Search.
 > In case a customer has multiple sites in their on-premises deployment, and if they have deployed just one Skype for Business Server Edge server/pool, then Search traffic from all sites will go through the single available Edge server. The administrator needs to make sure the pools from all sites can access the deployed Skype for Business Server Edge server/pool. 
   
 > [!NOTE]
-> Skype graph service will throttle search requests from any on-premises or Office 365 customer if the request rate exceeds 15 requests / second. 
+> Skype graph service will throttle search requests from any on-premises or Microsoft 365 or Office 365 customer if the request rate exceeds 15 requests / second. 
   
 > [!NOTE]
 > For large enterprise on-premises customers, the domains will need to be whitelisted with the Skype search service to allow higher request rates. 
@@ -70,9 +70,9 @@ The following table outlines support for Skype Directory Search.
   
 ## Deploying Skype Connectivity for Skype for Business Online in Office 365
 
-Skype Connectivity is also a feature of Skype for Business Online, which is part of Office 365. You can enable the Skype Connectivity feature from the Skype for Business Administration Center within the Office 365 portal.
+Skype Connectivity is also a feature of Skype for Business Online, which is part of Office 365. You can enable the Skype Connectivity feature from the Skype for Business Administration Center within the Microsoft 365 admin center.
   
-For Office 365 Midsize Business, Office 365 Enterprise, Office 365 Education, and Office 365 for Government: Sign in to the Office 365 portal and navigate to the Skype for Business Administration Center. Go to External Communications. Under Public IM Service Providers, click Enable. If you want to control individual user access to Skype Connectivity, you can do so by editing individual users' External Communications settings.
+For Office 365 Midsize Business, Office 365 Enterprise, Office 365 Education, and Office 365 for Government: Sign in to the Microsoft 365 admin center and navigate to the Skype for Business Administration Center. Go to External Communications. Under Public IM Service Providers, click Enable. If you want to control individual user access to Skype Connectivity, you can do so by editing individual users' External Communications settings.
   
 For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service Settings \> Instant messaging, meetings and conferencing. Turn on External communications. The External communications switch turns on both Skype Connectivity and communications with other organizations that use Skype for Business.
   
@@ -88,7 +88,7 @@ For more information about Skype for Business Online administration, see:
     
 ## Deploying Skype Connectivity for Skype for Business Server
 
-Skype for Business Server uses the federation access architecture to support connectivity with Skype. This connectivity enables your Skype for Business Server users to add Skype. Skype clients can also add Skype for Business users to their contact list. Based on policies administratively set in Skype for Business Server users will be able to communicate using instant messaging, see each other's presence, and initiate audio and video calls. Skype connectivity is also a feature of Skype for Business Online, and can be enabled for Skype for Business Online customers from the Skype for Business Administration Center within the Office 365 portal.
+Skype for Business Server uses the federation access architecture to support connectivity with Skype. This connectivity enables your Skype for Business Server users to add Skype. Skype clients can also add Skype for Business users to their contact list. Based on policies administratively set in Skype for Business Server users will be able to communicate using instant messaging, see each other's presence, and initiate audio and video calls. Skype connectivity is also a feature of Skype for Business Online, and can be enabled for Skype for Business Online customers from the Skype for Business Administration Center within the Microsoft 365 admin center.
   
 > [!NOTE]
 > If Skype for Business Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Skype connectivity. The only change you may want to consider is to rename your existing Messenger PIC entry as Skype. 
