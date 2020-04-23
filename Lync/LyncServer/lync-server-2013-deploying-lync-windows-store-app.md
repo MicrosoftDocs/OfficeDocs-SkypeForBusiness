@@ -133,7 +133,7 @@ If your topology consists of Lync Server 2010 with Office Communications Server 
 
 ## Lync Windows Store App cannot sign in due to a certificate name validation failure
 
-A sign-in issue can occur for Office 365 users who are not running the latest version of Lync Windows Store app. This issue generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**). To fix the issue, users should install the latest version of Lync Windows Store app, which also requires Windows 8.1.
+A sign-in issue can occur for Microsoft 365 or Office 365 users who are not running the latest version of Lync Windows Store app. This issue generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**). To fix the issue, users should install the latest version of Lync Windows Store app, which also requires Windows 8.1.
 
 </div>
 
