@@ -44,15 +44,15 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 <sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise licensing plan, you can still buy add-on licenses for these cloud voice features, however, we recommend that you consider a [Microsoft 365 business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
 
-Depending on the add-on features that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those features already. For most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
-
 ## What calling and cloud voice add-on features are available with my plan?
 
-See what add-on licenses you need to get calling and cloud voice features, depending on the plan you have.  
+See what add-on licenses you need to get calling and cloud voice features, depending on the plan you have. 
+
+Depending on the add-on features that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those features already. For most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
 
 #### [**Business plans**](#tab/small-business/)
 
-Here are the add-on options available to you if you have a [Microsoft 365 business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that Business Voice is designed for small and medium-sized businesses who have up to 300 users.
+Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that Business Voice is designed for small and medium-sized businesses who have up to 300 users.
 
 ![Microsoft 365 business plans](../media/licensing-small-business-plans.png)
 
