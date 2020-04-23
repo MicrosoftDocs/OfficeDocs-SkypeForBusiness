@@ -73,7 +73,7 @@ Before you move a StaffHub team to Teams, make sure that:
 
 - The signed-in user is a global admin.
 - Teams is enabled for all users in the tenant.
-- Office 365 Groups creation is enabled in the tenant.
+- Microsoft 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
 - The StaffHub team has at least one team owner.
 - The StaffHub team contains members.

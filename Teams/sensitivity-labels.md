@@ -33,7 +33,7 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 ## Create, manage, and publish sensitivity labels for Teams
 
-For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Office 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Creating, updating and deleting sensitivity labels require careful sequencing with publishing
