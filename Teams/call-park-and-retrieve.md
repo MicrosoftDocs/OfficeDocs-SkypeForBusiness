@@ -38,7 +38,7 @@ Some of the common scenarios for using call park are:
 
 ## License required
 
-To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For more information about the licensing model, see [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For more information about the licensing model, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## Call park and retrieve feature availability
 
@@ -88,7 +88,7 @@ You can change the default setting by using [Set-CsTeamsCallParkPolicy](https://
 
 ## Troubleshooting
 
-If users can’t see the park or retrieve button: 
+If users can't see the park or retrieve button: 
 
 - Check that the user has the Call Park policy enabled. 
 

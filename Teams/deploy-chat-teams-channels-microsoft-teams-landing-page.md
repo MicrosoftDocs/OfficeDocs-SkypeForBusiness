@@ -91,7 +91,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can’t use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 > [!NOTE]
 > For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -145,11 +145,11 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Office 365 licensing for Teams](office-365-licensing.md).
+Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 |Ask yourself|Action |
 |------------|-------|
-|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Office 365 licensing for Teams](office-365-licensing.md).|
+|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
 
 ### Exchange and SharePoint interoperability 
@@ -235,7 +235,7 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|

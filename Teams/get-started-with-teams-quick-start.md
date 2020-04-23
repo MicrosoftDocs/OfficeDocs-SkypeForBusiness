@@ -50,7 +50,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 - [Prepare your organization's network for Teams](prepare-network.md)
     - This includes configuring your Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
 
-- Get Teams licenses for everybody. Check out [Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
+- Get Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) and [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
