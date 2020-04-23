@@ -65,7 +65,7 @@ To use the Skype for Business Web App, a user must have one of the following sup
 &#x2778; Accessing the Web App from Chrome on Windows will launch a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
   
 > [!NOTE]
-> Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
+> Microsoft 365 and Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
   
 ### Skype Meetings App
 

@@ -1,5 +1,5 @@
 ---
-title: "Hybrid wizard Sign in to Office 365"
+title: "Hybrid wizard Sign in to Microsoft 365 or Office 365"
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -21,13 +21,13 @@ ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: "Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online."
 ---
 
-# Hybrid wizard: Sign in to Office 365
+# Hybrid wizard: Sign in to Microsoft 365 or Office 365
 
 Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.
 
-## Sign in to Office 365
+## Sign in to Microsoft 365 or Office 365
 
-Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.
+Enter the user name and password for your Microsoft 365 or Office 365 organization to login and connect your on-premises deployment with your Microsoft 365 or Office 365 organization. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Microsoft 365 or Office 365, for example, admin@contoso.onmicrosoft.com.
 
 For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
