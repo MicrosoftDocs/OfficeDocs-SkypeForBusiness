@@ -335,7 +335,7 @@ On this page, you can set who is listed in your directory and available for Dial
 
 If you select **All online users**, all eligible users are included in directory search.
 
-**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
+**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Microsoft 365 Groups, distribution lists, and security groups to the directory.
 
 <a name="dialscope"> </a>
 
@@ -345,7 +345,7 @@ On this page, you can set up which users in your organization will be listed in 
 
 If you select **None**, all eligible users are included in directory search.
 
-**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
+**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Microsoft 365 Groups, distribution lists, and security groups.
 
 
 If you leave settings at their default when Dial by Name is enabled, all eligible users are included in directory search.

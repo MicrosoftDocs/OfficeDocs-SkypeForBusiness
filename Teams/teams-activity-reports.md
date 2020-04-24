@@ -89,7 +89,7 @@ You can get a view into Teams device usage by looking at the **Users** and **Dis
 
 The activity reports can be accessed by users that are assigned:
 
-- Office 365 global admin role
+- Global admin role
 - Product-specific admin role (Exchange, Skype for Business, or SharePoint)
 - Reports reader role
 
