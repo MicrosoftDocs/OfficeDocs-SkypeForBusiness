@@ -76,7 +76,7 @@ If your organization has less than 300 users and you have an Enterprise E5 plan,
 
 ![E5, A5 plans](../media/licensing-enterprise-e5.png)
 
-To learn more, see 
+To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 
 #### [**Education**](#tab/education/)
 
