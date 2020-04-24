@@ -21,7 +21,6 @@ If you prefer to use a graphical user interface, you can create a device account
 
 ## <a href="" id="create-device-acct-m365"></a>Create a device account using Microsoft 365 admin center
 
-
 1.  [Create the account in the Microsoft 365 admin center](#create-device-acct-m365-admin-ctr).
 3.  [Use PowerShell to complete device account creation](#create-device-acct-m365-complete-acct).
 4.  [Use PowerShell to configure Exchange properties of the account](#create-device-acct-m365-configure-exch-prop).
@@ -75,3 +74,5 @@ To enable your resource account for Skype for Business Online, run this cmdlet:
     ```PowerShell
     Enable-CsMeetingRoom -Identity $Account.UserPrincipalName -RegistrarPool $Account.RegistrarPool -SipAddressType EmailAddress
     ```
+
+test
