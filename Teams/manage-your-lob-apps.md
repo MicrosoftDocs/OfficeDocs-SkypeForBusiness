@@ -124,13 +124,13 @@ You can update the app through the tenant app catalog. To do this, in the Micros
 
 ### End user update experience
 
-In most cases, after you complete an app update the new version will automatically appear for end users. However, there are some updates to the <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
+In most cases, after you complete an app update the new version will automatically appear for end users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
 * a bot was added or removed
 * an existing bot's "botId" property changed
 * an existing bot's "isNotificationOnly" property changed
 * the bot's "supportsFiles" property changed
-* a Messaging Extension was added or removed
+* a Messaging extension was added or removed
 * a new connector was added
 * a new static tab was added
 * a new configurable tab was added
