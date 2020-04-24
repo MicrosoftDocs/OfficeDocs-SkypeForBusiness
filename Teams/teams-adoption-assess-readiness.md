@@ -15,8 +15,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Adopt
-- seo-marvel-mar2020
-
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
