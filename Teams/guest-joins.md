@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn the steps necessary to add people outside your organization as guests to a team in Microsoft Teams.
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

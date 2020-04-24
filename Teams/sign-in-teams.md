@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
 description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication.
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -17,7 +17,6 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
 ---
 
 Sign in to Microsoft Teams using modern authentication
