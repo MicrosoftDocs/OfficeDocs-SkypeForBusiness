@@ -124,14 +124,27 @@ EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing
 
 
 #### [**Government**](#tab/government/)
+For government-based organization (GCC only), there are three ways to get Cloud Voice features but the option you choose will depend on the features you want and the price for buying your licenses.
 
-![GOV G1 or G3 plans](../media/licensing-gov-g1org3.png)
+> [!NOTE]
+> Cloud Voice features like Audio Conferencing and Phone System and Microsoft 365 Business Voice plans are only available to Government Community Cloud (GCC) customers.
 
-![GOV G5 plan](../media/licensing-gov-g5.png)
+- **Buy Microsoft 365 Business Voice** if you have less than 300 people that need licenses. You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy G1, G3 or G5 licenses.
+- **Buy G1 and G3 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you do this, you will need to add the Cloud Voice features on separately.
+
+    **Adding Cloud Voice to G1 or G3 GOV plans**
+
+    ![GOV G1 or G3 plans](../media/licensing-gov-g1org3.png)
+
+- **Buy A5 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you buy G1 or G3 licenses in the option above and add Cloud Voice features separately or it may make sense or be a better value to simply buy a G5 license that includes all of the Cloud Voice features.
+
+     **GOV G5 with Cloud Voice**
+
+    ![GOV G5 plan](../media/licensing-gov-g5.png)
 
 For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md).
 
-<!Note to Lana: we need to figure out the whole GCC vs non GCC flavors here. Serdar said that GCC doesn't get Business Voice or other voice features.>
+***
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
