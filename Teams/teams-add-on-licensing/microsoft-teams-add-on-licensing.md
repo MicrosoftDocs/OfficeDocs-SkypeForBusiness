@@ -46,19 +46,20 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 ## What voice features are available with my plan?
 
-See what add-on licenses you need to get voice features in Teams, depending on the plan you have,.
+See what add-on licenses you need to get voice features in Teams, depending on the plan you have.
 
 Depending on the voice features that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those features. For example, for most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
 
 #### [**Business**](#tab/small-business/)
 
-For small and medium sized businesses, there are two ways to get cloud voice features. If you are new and have less than 300 users, then you will want to use Microsoft Business Voice. For existing customers with an Enterprise E1 or E3 license you can buy the cloud voice features as add-ons.
+For small and medium sized businesses, there are two ways to get voice features. If you're new and have less than 300 users, you'll want to get [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). If you already have an Enterprise E1 or E3 plan, you can buy voice features as individual add-ons.
 
- For customers with less than 300 users, there are two [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plans to chose from.
-- Microsoft Business Voice with a Calling Plan - OR -
-- Microsoft Business Voice without a Calling Plan.
+If you have less than 300 users, there are two Business Voice plans to choose from.
 
-If you want all phone number management and billing for cloud voice features to be delivered from Microsoft, then you want to use Business Voice with a Calling Plan. If you already get your telephone service from another third party telephone provider, you would want to choose Business Voice without a Calling Plan. For this, you will need to set up and deploy Direct Routing to connect your on-premises Session Border Controllers to Microsoft 365.
+- Microsoft 365 Business Voice with a Calling Plan
+- Microsoft 365 Business Voice without a Calling Plan
+
+If you want all phone number management and billing for voice features to be delivered from Microsoft, get Business Voice with a Calling Plan. If you already get your telephone service from a third-party telephone provider, get Business Voice without a Calling Plan. For this, you'll need to set up and deploy Direct Routing to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365.
 
 **Business Voice with a Calling Plan**
 
@@ -68,9 +69,9 @@ If you want all phone number management and billing for cloud voice features to 
 
 ![Microsoft 365 Business Voice without a calling plan](../media/licensing-small-business-without-callingplan.png)
 
-But keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
+Keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
 
-If you're a small or medium-sized business (less than 300 users) who has already bought Microsoft 365 Enterprise (or EDU, GOV or Nonprofit) licenses, you can still buy add-on licenses for these voice features, however, you have the option of moving from that license and buying and assigning a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be less expensive to get a Business plan with Microsoft Business Voice.
+If you're a small or medium-sized business (less than 300 users) who already has a Microsoft 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for these voice features. However, you have the option to move from that license and buy and assign a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
 ****
 
@@ -102,25 +103,25 @@ If you're a small or medium-sized business (less than 300 users) but who has alr
 
 ****
 #### [**Education**](#tab/education/)
-For schools, there are three ways to get Cloud Voice features but the option you choose will depend on the features you want and the price for buying your licenses.
 
-- **Buy Microsoft 365 Business Voice** if you have less than 300 people that need licenses. You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy A1, A3 or A5 licenses.
-- **Buy A1 and A3 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you do this, you will need to add the Cloud Voice features on separately.
+For schools, there are two ways to get Cloud Voice features.
 
-    **Adding Cloud Voice to A1 or A3 EDU plans**
+- **If you have less than 300 students and/or faculty**  You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy A1, A3 or A5 licenses.
+- **If you have more than 300 students and/or faculty**  You must buy A1 or A3 licenses and add Cloud Voice features separately or it may make sense to simply buy an A5 license that includes all of the Cloud Voice features. Choosing the right plan, will be deciding on the features you want included vs the cost for the licenses.
 
-    ![EDU A1 or A3 plans](../media/licensing-edu-a1ora3.png)
-    Here are the add-on options available to you if you have a [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) or [Office 365 Education](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan) plan.
+**Adding Cloud Voice to A1 or A3 EDU plans**
 
-- **Buy A5 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you buy A1 or A3 licenses in the option above and add Cloud Voice features separately or it may make sense or be a better value to simply buy an A5 license that includes all of the Cloud Voice features.
+Here are the add-on options available to you if you have a [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) or [Office 365 Education](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan) plan.
 
-     **Education A5 with Cloud Voice**
+![EDU A1 or A3 plans](../media/licensing-edu-a1ora3.png)
 
-    ![EDU A5 plan](../media/licensing-edu-a5.png)
+**Enterprise E5 with Cloud Voice**
+
+![EDU A5 plan](../media/licensing-edu-a5.png)
 
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
 
-***
+
 
 #### [**Government**](#tab/government/)
 
