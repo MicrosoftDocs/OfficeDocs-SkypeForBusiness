@@ -14,10 +14,9 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
 ---
 
 # Install Microsoft Teams using Microsoft Endpoint Configuration Manager

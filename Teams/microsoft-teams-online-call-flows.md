@@ -17,7 +17,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 description: Learn how Teams uses Office 365 flows in various topologies, as well as unique Team flows used for peer-to-peer media communication.
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams call flows
