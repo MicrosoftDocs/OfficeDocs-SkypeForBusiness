@@ -62,7 +62,7 @@ Only a service toll number can be set as the default number for your conferencin
  
 ### Step 3 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the defaul phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the default phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Sign in with your work or school account.
 
@@ -78,7 +78,7 @@ After the changes have been saved, the new default phone numbers will be include
 
 For the next two steps, you will need to start Windows PowerShell.
   
-If you updated the default phone numbers that are inlcuded in the meeting invites for some or all of your users, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed using the Meeting Migration Service. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+If you updated the default phone numbers that are included in the meeting invites for some or all of your users, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed using the Meeting Migration Service. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
 
@@ -134,7 +134,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 3. If the phone number is a toll-free number, select the phone number from the list, and in the Action pane, click **Unassign**. If the phone number is a toll-number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
 
-4. If the phone number is a toll-fre number, click **Yes** in the confirmation window.
+4. If the phone number is a toll-free number, click **Yes** in the confirmation window.
 
    > [!IMPORTANT]
    > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
@@ -218,9 +218,9 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 
 ## Troubleshooting
 
-**Unassign button is greyed-out**
+**Unassign button isn't available**
 
-You want to Unassign a number but the button is greyed-out and if while hoovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
+You want to Unassign a number but the button isn't available, and if while hovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
 
 To obtain more information about the bridge(s), run the following Powershell :
 ```PowerShell
