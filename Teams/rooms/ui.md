@@ -7,7 +7,7 @@ manager:
 keywords: create device account, Microsoft 365 UI, Microsoft 365 admin center
 ms.prod: teams-rooms
 ms.sitesec: library
-author: mitressl
+author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.date: 04/10/2020
