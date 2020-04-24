@@ -45,13 +45,17 @@ Before you get started, review the following:
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time. 
 
-You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell. 
+You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products. If you need to assign licenses for a large number of users, such as hundreds or thousands of users, [use Powershell](#using-powershell), or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  
 
 For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Using PowerShell
 
-Use PowerShell to assign licenses to users in bulk.
+Use PowerShell to assign licenses to users in bulk.  To learn more, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+
+### Example script
+
+Here's an example of how to use a script to assign licenses to your users.
 
 1. Install the 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
 2. Install the Microsoft Azure Active Directory Module for Windows PowerShell:
@@ -113,8 +117,6 @@ Use PowerShell to assign licenses to users in bulk.
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
       ```
-
-For more information, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### Product name and SKU identifiers for licensing
 
