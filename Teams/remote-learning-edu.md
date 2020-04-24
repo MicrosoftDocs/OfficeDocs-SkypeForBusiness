@@ -71,6 +71,9 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 ### 2. Configure user experiences using policies
 
+> [!IMPORTANT]
+> If you need to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
+
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
 **Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
@@ -150,8 +153,6 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
-
-If you want to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### Prevent users from changing their profile photo
 
