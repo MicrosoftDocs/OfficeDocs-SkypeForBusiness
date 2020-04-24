@@ -52,7 +52,7 @@ Depending on the voice features that you want, we recommend comparing whether it
 
 #### [**Business plans**](#tab/small-business/)
 
-Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
+Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
 
 ![Microsoft 365 business plans](../media/licensing-small-business-plans.png)
 
@@ -76,19 +76,25 @@ If your organization has less than 300 users and you have an Enterprise E5 plan,
 
 ![E5, A5 plans](../media/licensing-enterprise-e5.png)
 
+To learn more, see 
+
 #### [**Education**](#tab/education/)
+
+To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 #### [**Government**](#tab/government/)
 
+To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
+
 #### [**Nonprofit**](#tab/nonprofit/)
 
-To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
+To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
 #### [**Trial offers**](#tab/trial/)
 
 In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
 
-- [Office 365 E1 Trial](../e1-trial-license.md), including Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past. 
+- [Office 365 E1 Trial](../e1-trial-license.md), which includes Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past.
 
 - For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md). 
 
