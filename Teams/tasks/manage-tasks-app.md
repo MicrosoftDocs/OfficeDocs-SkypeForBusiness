@@ -7,7 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
-description: 
+audience: admin
+description: Learn how to manage the Tasks app for users in your organization.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
