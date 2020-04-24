@@ -56,9 +56,9 @@ Here are the add-on options available to you if you have a [Microsoft 365 Busine
 
 ![Microsoft 365 business plans](../media/licensing-small-business-plans.png)
 
-If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these cloud voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
+If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
 
-#### [**Enterprise**](#tab/enterprise-1-3/)
+#### [**Enterprise**](#tab/enterprise/)
 
 Here are the add-on options available to you if you have any of these plans.<br> 
 
@@ -76,15 +76,15 @@ If your organization has less than 300 users and you have an Enterprise E5 plan,
 
 ![E5, A5 plans](../media/licensing-enterprise-e5.png)
 
-#### [**Education**](#tab/enterprise-1-3/)
+#### [**Education**](#tab/education/)
 
-#### [**Government**](#tab/enterprise-1-3/)
+#### [**Government**](#tab/government/)
 
-#### [**Nonprofit**](#tab/enterprise-5/)
+#### [**Nonprofit**](#tab/nonprofit/)
 
 To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
-#### [**Trial offers**](#tab/enterprise-5/)
+#### [**Trial offers**](#tab/trial/)
 
 In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
 

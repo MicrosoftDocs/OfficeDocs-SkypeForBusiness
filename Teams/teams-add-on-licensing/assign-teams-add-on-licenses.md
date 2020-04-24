@@ -48,8 +48,7 @@ You can assign licenses on the **Licenses** page (for up to 20 users at a time) 
 
 For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-If you need to assign licenses for a large number of users, such as hundreds or thousands of users, [use Powershell](#using-powershell), or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  
-
+If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  
 
 ## Using PowerShell
 
@@ -120,7 +119,7 @@ Here's an example of how to use a script to assign licenses to your users.
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
       ```
 
-### Product name and SKU identifiers for licensing
+## Product name and SKU identifiers for licensing
 
 Here's a partial list of product names and their corresponding SKU part names that you can use as a reference when you use PowerShell to manage licenses in Teams.
 
