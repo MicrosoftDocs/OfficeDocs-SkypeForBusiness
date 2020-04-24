@@ -17,8 +17,7 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
-- ms.teamsadmincenter.orgwidesettings.
-holidays.overview
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Learn how to set up holidays in Microsoft Teams and connect them to your auto attendant using the Holidays feature.
 ---
