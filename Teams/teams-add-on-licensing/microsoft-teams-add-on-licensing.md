@@ -109,14 +109,6 @@ For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md).
 To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
-#### [**Government**](#tab/government/)
-
-To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
-
-#### [**Nonprofit**](#tab/nonprofit/)
-
-To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
-
 #### [**Trial offers**](#tab/trial/)
 
 In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
