@@ -16,6 +16,9 @@ ms.localizationpriority: medium
 
 # Create a resource account using UI
 
+**Test**
+
+[Use the Microsoft Teams Rooms recovery tool](recovery-tool.md)
 
 If you prefer to use a graphical user interface, you can create a device account for your Microsoft Teams Room and collaboration bars with either the [Microsoft 365 UI](#create-device-acct-m365) or the [Exchange Admin Center](#create-device-acct-eac).
 
@@ -30,6 +33,8 @@ If you prefer to use a graphical user interface, you can create a device account
 
 1.  Sign in to Office 365 by visiting https://admin.microsoft.com
 2.  Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
+
+:::image type="content" source="../media/collab-bar-proximity-beacon.gif" alt-text="proximity":::
 
     ![Microsoft 365 admin center.](images/setupdeviceaccto365-02.png)
 
