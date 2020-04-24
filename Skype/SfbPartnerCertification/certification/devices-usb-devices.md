@@ -34,9 +34,18 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 |Manufacturer| Model	|Qualified|Certified Program|
 |:--- |:--- |:--- |:---|
+|Poly|Savi 8210 Office|4/20/2020|Microsoft Teams|
+|Poly|Savi 8210 UC|4/20/2020|Microsoft Teams|
+|Poly|Savi 8220 Office|4/20/2020|Microsoft Teams|
+|Poly|Savi 8220 UC|4/20/2020|Microsoft Teams|
+|Poly|Savi 8240 Office|4/20/2020|Microsoft Teams|
+|Poly|Savi 8240 UC|4/20/2020|Microsoft Teams|
+|Poly|Blackwire 5210 Headset|4/20/2020|Microsoft Teams|
+|Poly|Blackwire 5220 Headset|4/20/2020|Microsoft Teams|
+|Poly|Blackwire 7225 Headset|4/20/2020|Microsoft Teams|
+|Poly|Voyager Focus UC|4/20/2020|Microsoft Teams|
 |Yealink|CP700|4/13/2020|Microsoft Teams|
 |Jabra|Evolve2 65 Headset|4/13/2020|Microsoft Teams|
-|EPOS/ Sennheiser|SC Impact Series Headsets|4/9/2020|Microsoft Teams|
 |EPOS/Sennheiser|Impact SC 30|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
 |EPOS/Sennheiser|Impact SC 45|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
 |EPOS/Sennheiser|Impact SC 60|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
