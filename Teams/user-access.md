@@ -35,7 +35,7 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 
 Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at at time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
-If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use Powershell](#using-powershell), or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). 
+If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use Powershell](#using-powershell) or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 
 ### Assign a Teams license
 
@@ -95,7 +95,6 @@ Run the following command to disable Teams for all users who have an active lice
 
 ## Related topics
 
-- [Assign Teams licenses for EDU](teams-edu-licensing.md)
 - [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 - [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)

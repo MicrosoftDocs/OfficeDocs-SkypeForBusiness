@@ -25,7 +25,12 @@
       "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e1-e3.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
       "redirect_document_id": false
-    },    
+    }, 
+    {
+      "source_path": "Teams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },        
     {
       "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 

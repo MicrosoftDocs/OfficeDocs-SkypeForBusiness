@@ -740,15 +740,8 @@
 ### [Manage user access to Teams](user-access.md)
 ### [Office 365 licensing for Teams](office-365-licensing.md)
 ### Teams add-on licensing
-#### [Overview](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### [Teams add-on license options](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)
-#### License options based on your plan
-##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Manage the Office 365 E1 Trial offer](e1-trial-license.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
