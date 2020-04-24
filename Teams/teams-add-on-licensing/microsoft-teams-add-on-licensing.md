@@ -7,15 +7,15 @@ ms.reviewer: mikedav
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-collaboration
 audience: Admin
-appliesto: 
+appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: 
+ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-mar2020
@@ -46,13 +46,13 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 ## What voice features are available with my plan?
 
-See what add-on licenses you need to get voice features in Teams, depending on the plan you have,. 
+See what add-on licenses you need to get voice features in Teams, depending on the plan you have,.
 
 Depending on the voice features that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those features. For example, for most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
 
 #### [**Business plans**](#tab/small-business/)
 
-Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
+Here are the add-on options available to you if you have a [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan. Keep in mind that [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) is designed for small and medium-sized businesses who have up to 300 users.
 
 ![Microsoft 365 Business Voice with a calling plan](../media/licensing-small-business-with-callingplan.png)
 
@@ -64,7 +64,7 @@ If you're a small or medium-sized business who has a Microsoft 365 Enterprise pl
 
 #### [**Enterprise**](#tab/enterprise/)
 
-Here are the add-on options available to you if you have any of these plans.<br> 
+Here are the add-on options available to you if you have any of these plans.<br>
 
 To learn more about these plans, see Microsoft 365 E1, [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise-e3-business-software), [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software), [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software), [Microsoft 365 A1](https://www.microsoft.com/education/buy-license/microsoft365), [Microsoft 365 A3](https://www.microsoft.com/education/buy-license/microsoft365), [Office 365 A1](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Office 365 A3](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans), [Microsoft 365 F3](https://www.microsoft.com/microsoft-365/microsoft-365-enterprise-f3), and [Office 365 F3](https://www.microsoft.com/microsoft-365/business/office-365-f3).<br>
 
@@ -79,6 +79,8 @@ To lean more about what's included in these plans, see [Microsoft 365 E5](https:
 If your organization has less than 300 users and you have an Enterprise E5 plan, you can reduce overall cost if you switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).<br>
 
 ![Enterprise E5 plan](../media/licensing-ent-e5.png)
+
+To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 
 #### [**Education**](#tab/education/)
 
@@ -105,14 +107,23 @@ For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md).
 ![Nonprofit E5 plan](../media/licensing-np-e5.png)
 
 To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
+To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+
+#### [**Government**](#tab/government/)
+
+To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
+
+#### [**Nonprofit**](#tab/nonprofit/)
+
+To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
 #### [**Trial offers**](#tab/trial/)
 
 In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
 
-- [Office 365 E1 Trial](../e1-trial-license.md), including Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past. 
+- [Office 365 E1 Trial](../e1-trial-license.md), which includes Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past.
 
-- For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md). 
+- For GCC, check out the [Office 365 G1 Trial](../g1-trial-license.md).
 
 - EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
 

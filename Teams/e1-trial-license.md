@@ -54,7 +54,7 @@ After you've used your E1 Trial promo code, you can't use it again, nor can you 
 
 ## Manage the E1 Trial
 
-Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md).
 
 
 Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
@@ -87,7 +87,7 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 
 ## Related topics
 
-[Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Manage user access to Teams](user-access.md)
 
 [Manage Teams settings for your organization](enable-features-office-365.md)
 
