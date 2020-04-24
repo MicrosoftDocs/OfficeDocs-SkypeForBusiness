@@ -100,21 +100,23 @@ To learn more about these plans, see Microsoft 365 E1, [Microsoft 365 E3](https:
 
 ****
 #### [**Education**](#tab/education/)
-For schools, there are two ways to get Cloud Voice features.
-- **If you have less than 300 students and/or faculty**  You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy A1, A3 or A5 licenses.
-- **If you have more than 300 students and/or faculty**  You must buy A1 or A3 licenses and add Cloud Voice features separately or it may make sense to simply buy an A5 license that includes all of the Cloud Voice features. Choosing the right plan, will be deciding on the features you want included vs the cost for the licenses.
+For schools, there are three way to get Cloud Voice features but the option you choose will depend on the features you want and the price for buying your licenses.
 
-**Adding Cloud Voice to A1 or A3 EDU plans**
+- **Buy Microsoft 365 Business Voice** if you have less than 300 people that need licenses. You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy A1, A3 or A5 licenses.
+- **Buy A1 and A3 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you do this, you will need to add the Cloud Voice features on separately.
+    **Adding Cloud Voice to A1 or A3 EDU plans**
 
-![EDU A1 or A3 plans](../media/licensing-edu-a1ora3.png)
+    ![EDU A1 or A3 plans](../media/licensing-edu-a1ora3.png)
 
-**Enterprise E5 with Cloud Voice**
+- **Buy A5 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you buy A1 or A3 licenses in the option above and add Cloud Voice features separately or it may make sense or be a better value to simply buy an A5 license that includes all of the Cloud Voice features.
 
-![EDU A5 plan](../media/licensing-edu-a5.png)
+     **Education A5 with Cloud Voice**
+
+    ![EDU A5 plan](../media/licensing-edu-a5.png)
 
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
 
-
+***
 
 #### [**Government**](#tab/government/)
 
