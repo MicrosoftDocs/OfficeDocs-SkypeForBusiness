@@ -114,8 +114,8 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 ### Add a base domain to the tenant and verify it
 
-1.    In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
-2.    In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
+1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
+2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
     ![Screenshot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
 
@@ -124,8 +124,8 @@ For more information about admin roles and how to assign a role in Office 365, s
 
     ![Screenshot showing confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    Click **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and click **Next**.
-6.    On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
+5. Click **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and click **Next**.
+6. On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
 
     ![Screenshot showing domains with status of Setup complete](media/direct-routing-14-sbc-setup-complete.png)
 
