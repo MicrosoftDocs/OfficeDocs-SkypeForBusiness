@@ -519,7 +519,7 @@ These admin roles can access CQD, but they can't view EUII (end-user identifiabl
 - Microsoft 365 Reports Reader
 - Teams Communications Support Specialist
 
-To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](#assign-roles-for-accessing-cqd).
 
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 
