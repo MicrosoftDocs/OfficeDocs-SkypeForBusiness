@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: anach, kehardy
-description: Learn about where data is stored in Microsoft Teams.
+description: In this article, you will learn about where does the data resides geographically in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Location of data in Microsoft Teams

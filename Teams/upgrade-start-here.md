@@ -7,12 +7,14 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Learn about the upgrade from Skype for Business to Microsoft Teams. 
+description: This article will help you with getting started on upgrading from Skype for Business to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

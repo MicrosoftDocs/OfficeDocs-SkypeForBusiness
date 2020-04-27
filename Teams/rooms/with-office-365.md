@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365."
+description: Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Teams or Skype for Business and Exchange are both online.
 ---
 
 # Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365

@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: Guidance for continuing your journey from Skype for Business to Microsoft Teams
+description: Learn how to use Teams to monitor network health, keep users engaged, and prepare for new functionality.
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection: 

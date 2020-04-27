@@ -11,9 +11,10 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Turn on or turn off the guest access feature in Microsoft Teams.
+description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
