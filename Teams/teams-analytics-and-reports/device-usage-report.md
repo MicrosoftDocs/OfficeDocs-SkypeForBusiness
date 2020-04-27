@@ -16,13 +16,14 @@ ms.collection:
 description: Learn how to use the Teams device usage report in the Microsoft Teams admin center to see how users in your organization connect to Teams.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams device usage report
 
 The Teams device usage report in the Microsoft Teams admin center provides you with information about how users connect to Teams. You can use the report to see the devices that are used across your organization, including how many use Teams from their mobile devices when on-the-go.  
 
-## View the report
+## View the device usage report
 
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams device usage**.
 2. Under **Date range**, select a range, and then click **Run report**.

@@ -7,14 +7,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from a Skype for Business or Microsoft Lync on-premises deployment.
+description: Learn how to transition your organization to Microsoft Teams from a Skype for Business on-premises deployment.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: 
- - Teams-upgrade-guidance
- - seo-marvel-mar2020
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
