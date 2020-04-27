@@ -22,7 +22,8 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
+  - seo-marvel-apr2020
+description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
 
 # Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online
@@ -114,7 +115,7 @@ CQD v3 adds the following new Rolling Trend types:
 - 60-day
 - 90-day
 
-The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
+The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter "00"  indicates "today".
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
@@ -321,7 +322,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, "Endpoint" refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports "Building" and "Endpoint" data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
 
 
 
@@ -350,7 +351,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 ### Building data file
 
-CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record's First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
 You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
@@ -378,18 +379,18 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 >
-> The VPN column is optional and will default to 0.  If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
+> The VPN column is optional and will default to 0.  If the VPN column's value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
 ### Endpoint data file
 
-CQD uses an Endpoint data file. The column values are used in the call record’s First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+CQD uses an Endpoint data file. The column values are used in the call record's First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - EndpointName must be unique, otherwise the upload fails. If there is a duplicate row or two rows that use the same EndpointName the conflict will  cause incorrect joining.
-- EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
+- EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as "IT Department designated 2018 Laptop" or "Asset Tag 5678".
 - There must be seven columns for each row and the columns must be in the following order:
 
   **Field order:**
@@ -402,13 +403,13 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ## Migrate reports from previous version of CQD
 
-If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here’s how:
+If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
 
-1.	Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
-2.	Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
-3.	Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
-4.	From the links on the left, click **Import** and select the exported file. 
-5.	After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
+1.    Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
+2.    Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
+3.    Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
+4.    From the links on the left, click **Import** and select the exported file. 
+5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
 
 
 ## Create custom detailed reports
@@ -455,7 +456,7 @@ The telemetry will not necessarily call out the issue, but it can help you bette
 
 ### Why does my CQD v2 report data look different than the CQD v3 report data? 
 
-If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT ‘Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
+If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT 'Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
 
 CQD v2 and CQD v3 have different total counts since CQD v3 has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
 

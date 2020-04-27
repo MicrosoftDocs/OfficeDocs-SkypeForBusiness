@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn how to enable Location-Based Routing for Direct Routing.
+description: Learn how to enable Location-Based Routing for Direct Routing, including enabling it for users, network sites, gateway configurations, and calling policies.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Enable Location-Based Routing for Direct Routing
