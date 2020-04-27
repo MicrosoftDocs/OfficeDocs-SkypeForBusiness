@@ -19,8 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-  - seo-marvel-mar2020
-description: "You can download these labels for emergency calling when you are using Calling Plans in Office 365."
+  - seo-marvel-apr2020
+description: You can download and print these labels for emergency calling when you are using Calling Plans in Office 365.
 ---
 # Emergency Calling Labels
 

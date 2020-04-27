@@ -15,8 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
-ms.custom: seo-marvel-mar2020
+description: Learn how to configure one Session Border Controller (SBC) to serve multiple tenants for Microsoft partners and/or PSTN carriers.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure a Session Border Controller for multiple tenants
