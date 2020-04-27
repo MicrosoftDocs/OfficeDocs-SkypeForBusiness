@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 description: Learn how to assign a conference ID to a user in Microsoft Teams and what the conference IDs parameters should be.
 ---
 
@@ -29,7 +29,7 @@ A conferencing ID is automatically assigned to a Microsoft Teams user when they 
   
 Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use Microsoft Teams admin center or Windows PowerShell to view, change, and reset their conference ID.
   
-An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. For more information about resetting a conference organizer's PIN, [go here](reset-a-conference-id-for-a-user-in-teams.md). 
+An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. See [Reset a conference ID for a user in Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md) for more information about how to reset a conference organizer's PIN. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -95,4 +95,3 @@ For more information about Windows PowerShell, see the [Microsoft Teams PowerShe
 ## Related topics
 
 [Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

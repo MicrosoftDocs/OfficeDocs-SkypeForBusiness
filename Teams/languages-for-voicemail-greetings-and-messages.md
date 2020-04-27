@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn which languages you can set in Skype for Business for the default system messages. "
+  - seo-marvel-apr2020
+description: Learn which languages you can set in Skype for Business for the default system messages and voicemail greetings.
 ---
 
 # Languages for voicemail greetings and messages
