@@ -11,11 +11,12 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
+description: In this article, you will learn about the hardware requirements that are needed to install and run Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

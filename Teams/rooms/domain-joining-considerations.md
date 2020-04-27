@@ -13,7 +13,8 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
   - M365-collaboration
-description: "Read this topic to learn how to join a Skype Room System appliance PC to your domain."
+description: Admin can learn about how to join a Skype Room System appliance PC to an Active Directory domain, along with the considerations for doing so.
+ms.custom: seo-marvel-apr2020
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -54,7 +55,7 @@ Even if you create a separate OU and block inheritance, there are some policies 
   
 You may have multiple approaches to solving these problems. We advise you to consult with your Active Directory experts to ensure you are provided with an OU that has appropriate GPO settings, or at least an OU in which the previously described policies do not exist. It is advised to enable Quality of Service (QoS) for Skype Room System devices.
 
-## See also
+## Related topics
   
 [Device Configuration: Create New or Edit Existing](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

@@ -12,9 +12,10 @@ search.appverid: MET150
 ms.reviewer: vikramju
 f1.keywords:
 - NOCSH
-description: Learn about information barriers and how they affect Teams.
+description: This article explains what are information barriers in Microsoft Teams and how can they affect Teams.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Information barriers in Microsoft Teams
