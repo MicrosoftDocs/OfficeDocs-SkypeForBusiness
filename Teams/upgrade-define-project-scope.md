@@ -7,14 +7,14 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Scope your upgrade project by refining your vision and goals. 
+description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
  - Teams-upgrade-guidance
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

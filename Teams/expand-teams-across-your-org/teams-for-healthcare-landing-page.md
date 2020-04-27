@@ -1,6 +1,6 @@
 ---
 title: Teams for Healthcare
-description: Use these resources to get the most out of Teams in your healthcare organization.
+description: Learn about the admin resources available for you to manage Teams for healthcare teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,6 +17,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams for Healthcare
