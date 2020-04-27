@@ -20,7 +20,8 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-mar2020
-description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "
+  - seo-marvel-apr2020
+description: In this article, learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms.
 ---
 
 # Set up the Common Area Phone license for Microsoft Teams

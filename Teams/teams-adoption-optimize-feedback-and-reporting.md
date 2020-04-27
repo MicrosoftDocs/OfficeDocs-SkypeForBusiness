@@ -10,12 +10,13 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to obtain user feedback and use service health reporting in your Teams adoption.
+description: In this article, learn how to obtain user feedback and use service health reporting in your Teams adoption.
 f1.keywords:
 - CSH
 ms.custom: 
  - Adopt
  - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

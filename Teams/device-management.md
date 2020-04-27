@@ -14,7 +14,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview
-description: Learn how to manage devices used with Teams in your organization.
+  - seo-marvel-apr2020
+description: In this article, learn how to manage devices like conference or desk phones used with Teams in your organization.
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams

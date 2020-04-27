@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Learn how to plan Location-Based Routing for Direct Routing.
+description: Learn how to plan Location-Based Routing for Phone System Direct Routing in a country or region in which toll bypass is illegal.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan Location-Based Routing for Direct Routing

@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
+description: In this article, learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,7 +18,9 @@ ms.collection:
   - SPO_Content
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+- seo-marvel-mar2020
+- seo-marvel-apr2020
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams

@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up Cloud Voicemail for your users. "
+  - seo-marvel-apr2020
+description: This article is for administrators to learn how to set up Cloud Voicemail for all users in an organization.
 ---
 
 # Set up Cloud Voicemail

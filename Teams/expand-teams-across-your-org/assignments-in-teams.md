@@ -17,7 +17,8 @@ ms.custom:
   - ms.teamsadmincenter.assignments.tooltip.emaildigest
   - ms.teamsadmincenter.assignments.tooltip.makecode
   - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Learn how to manage assignments in the Microsoft Teams admin center in Teams for Education.
+  - seo-marvel-apr2020
+description: Learn how to manage features and assignments in the Microsoft Teams admin center in Teams for Education.
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams

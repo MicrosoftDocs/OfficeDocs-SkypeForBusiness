@@ -13,9 +13,10 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Learn how to retrieve Microsoft Teams data from the audit log.
+description: In this article, learn how to retrieve Microsoft Teams data from the Office 365 audit log to investigate specific activities.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Search the audit log for events in Microsoft Teams

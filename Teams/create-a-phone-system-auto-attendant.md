@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test Cloud auto attendants for Microsoft Teams."
+  - seo-marvel-apr2020
+description: Learn how to set up and test Cloud auto attendants for Microsoft Teams using the Teams admin center or Powershell.
 --- 
 
 # Set up a Cloud auto attendant

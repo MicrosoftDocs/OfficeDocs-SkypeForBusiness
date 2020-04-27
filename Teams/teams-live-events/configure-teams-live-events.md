@@ -12,11 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: Learn how to manage settings for Teams live events that are held in your organization.
+description: In this article, learn how to manage settings for Teams live events that are held in your organization.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.liveevents.settings
+- seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

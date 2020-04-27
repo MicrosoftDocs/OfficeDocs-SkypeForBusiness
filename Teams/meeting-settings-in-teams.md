@@ -18,9 +18,10 @@ ms.custom:
   - ms.teamsadmincenter.meetingsettings.invitationurls
   - ms.teamsadmincenter.meetingsettings.network.ports
   - ms.teamsadmincenter.meetingsettings.overview
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
-description: Learn how to manage settings for Teams meetings that users schedule in your organization.
+description: In this article, learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
 # Manage meeting settings in Microsoft Teams

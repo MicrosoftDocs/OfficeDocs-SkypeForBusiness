@@ -10,6 +10,7 @@ ms.service: msteams
 ms.custom: 
  - Adopt
  - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -18,7 +19,7 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to measure the outcomes and success of your broad-scale enablement of Teams.
+description: In this article, learn how to measure the outcomes and success of your broad-scale enablement of Teams.
 appliesto: 
 - Microsoft Teams
 ---
