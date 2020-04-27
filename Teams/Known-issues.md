@@ -8,13 +8,16 @@ ms.service: msteams
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+ms.custom:
+  - seo-marvel-apr2020
 ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Current list of known issues for the Microsoft Teams client app and admin experience.
+description: Use this list of known issues for the Microsoft Teams client app and admin experience to troubleshoot issues within your organization.
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

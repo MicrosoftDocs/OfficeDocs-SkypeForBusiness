@@ -9,14 +9,14 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
+description: learn about how Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer

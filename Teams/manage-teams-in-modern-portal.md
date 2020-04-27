@@ -8,12 +8,13 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Learn how to view or update your teams in the Microsoft Teams admin center.
+description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -80,7 +81,7 @@ Search currently supports the string "Begins with" and searches the **Team name*
 
 ## Team profile
 
-You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing Office 365 group), as well as the team’s channels and settings. From the team profile page, you can:
+You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing Office 365 group), as well as the team's channels and settings. From the team profile page, you can:
 
 - Add or remove members and owners.
 - Add or remove channels (note that you can't remove the General channel).

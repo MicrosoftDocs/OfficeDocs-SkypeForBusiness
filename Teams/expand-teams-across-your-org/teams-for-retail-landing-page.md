@@ -1,6 +1,6 @@
 ---
 title: Teams for Retail
-description: Use these resources to manage Teams for your retail organization.
+description: Learn about the admin resources available to manage and get the most out of Teams for your retail stores and workforce.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,6 +16,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams for Retail

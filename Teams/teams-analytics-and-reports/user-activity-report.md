@@ -16,13 +16,14 @@ ms.collection:
 description: Learn how to use the Teams user activity report in the Microsoft Teams admin center to see how users in your organization are using Teams.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams user activity report
 
 The Teams user activity report gives you insight into the types of activities that users in your organization perform in Teams. For example, you can see how many users communicate through 1:1 calls, how many users communicate through channel messages, and how many users engage in private chat messages.
 
-## View the report
+## View the user activity report
 
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams user activity**.
 2. Under **Date range**, select a range, and then click **Run report**.
