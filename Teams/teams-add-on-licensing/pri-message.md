@@ -18,7 +18,8 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about priority notifications in Teams Messaging."
+  - seo-marvel-apr2020
+description: "In this article, you will learn about priority notifications in Microsoft Teams messaging."
 ---
 
 # Messaging policies licensing
