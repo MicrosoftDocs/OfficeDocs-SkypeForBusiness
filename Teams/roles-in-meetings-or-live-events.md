@@ -74,7 +74,7 @@ The in-tenant attendee belongs to the organization and has credentials for the t
 
 ### Guest attendee
 
-The guest attendee is outside of your organization and is invited to join the meeting by a member of the tenant. Read more about a guest attendee in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+A guest attendee is someone from another organization who has been invited to access Teams or other resources in your organization's tenant, based on the Azure Active Directory B2B platform. Guest users can be invited to join regular meetings and channel meetings. Read more about a guest attendee in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 | Live event  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -97,34 +97,9 @@ The guest attendee is outside of your organization and is invited to join the me
 | Schedule a meeting | No | N/A | N/A |
 |||||||
 
-### Anonymous attendee
-
-The anonymous attendee doesn't have an organizational identity (not authenticated) and isn't a member of the tenant. Learn more about an anonymous attendee in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
-
-| Live event|  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat | No | Yes | No |
-| Meeting Notes | N/A | No | N/A |
-| Whiteboard | N/A | No | N/A |
-| Recording | N/A | No | N/A |
-| Files | N/A | No | N/A |
-|||||||
-
-| Meeting  | | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat | N/A | No | N/A |
-| Meeting Notes | N/A | No | N/A |
-| Whiteboard | N/A | No | N/A |
-| Recording | N/A | No | N/A |
-| Files | N/A | No | N/A |
-| Schedule a meeting | N/A | N/A | N/A |
-|||||||
-
 ### External (federated) attendee
 
-An external (federated) attendee has valid credentials with external (outside of your organization) partners and is treated as authenticated by Teams, but is still anonymous to the meeting organizer tenant. Read more about an external attendee in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
+An external attendee is someone using Teams in another organization who has been invited to join a meeting, but does not otherwise have access to other shared resources from your organization. External user participants appear in the meeting roster with the same identity name as they have in their own organization. Read more about an external attendee in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
 
 | Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
@@ -146,6 +121,31 @@ An external (federated) attendee has valid credentials with external (outside of
 | Files | N/A |
 | Schedule a meeting | N/A |
 |||
+
+### Anonymous attendee
+
+The anonymous attendee is like an external user, but their identity is not projected into the meeting. At join time, they manually enter a nickname. Learn more about an anonymous attendee in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
+
+| Live event|  | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
+| Chat | No | Yes | No |
+| Meeting Notes | N/A | No | N/A |
+| Whiteboard | N/A | No | N/A |
+| Recording | N/A | No | N/A |
+| Files | N/A | No | N/A |
+|||||||
+
+| Meeting  | | |||
+|---------|----------------|----------------|---------------------|------------|--------------|
+| **Feature**        | Pre-meeting | In-meeting | Post-meeting |
+| Chat | N/A | No | N/A |
+| Meeting Notes | N/A | No | N/A |
+| Whiteboard | N/A | No | N/A |
+| Recording | N/A | No | N/A |
+| Files | N/A | No | N/A |
+| Schedule a meeting | N/A | N/A | N/A |
+|||||||
 
 ## Related topics
 
