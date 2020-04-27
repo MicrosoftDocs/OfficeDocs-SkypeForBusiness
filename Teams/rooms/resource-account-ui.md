@@ -1,5 +1,5 @@
 ---
-title: Create a resource account using UI
+title: Create a resource account using the Microsoft 365 admin center
 description: If you prefer to use a graphical user interface, you can create a resource account for your Microsoft Teams Rooms and collaboration bars for Microsoft Teams using the Microsoft 365 Admin Center.
 ms.assetid: 
 ms.reviewer: payurevi
@@ -14,20 +14,14 @@ ms.date: 04/10/2020
 ms.localizationpriority: medium
 ---
 
-# Create a resource account using UI
+# Create a resource account using the Microsoft 365 admin center
+In this article, you will learn how to create a resource account using the Microsoft 365 admin center.
 
-If you prefer to use a graphical user interface, you can create a device account for your Microsoft Teams Room and collaboration bars with the [Microsoft 365 admin center](#create-device-acct-m365).
-
-## <a href="" id="create-device-acct-m365"></a>Create a device account using Microsoft 365 admin center
-
-1.  [Create the account in the Microsoft 365 admin center](#create-device-acct-m365-admin-ctr).
-3.  [Use PowerShell to complete device account creation](#create-device-acct-m365-complete-acct).
-4.  [Use PowerShell to configure Exchange properties of the account](#create-device-acct-m365-configure-exch-prop).
-5.  [Enable the account with Skype for Business](#create-device-acct-m365-skype-for-business).
+If you prefer to use PowerShell to create resource accounts, [see this article.](resource-account-ps.md) 
 
 ### <a href="" id="create-device-acct-m365-admin-ctr"></a>Create the account in the Microsoft 365 admin center
 
-1.  Sign in to Office 365 by visiting https://admin.microsoft.com
+1.  Sign in to Microsoft 365 by visiting https://admin.microsoft.com
 
 
 2.  Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
