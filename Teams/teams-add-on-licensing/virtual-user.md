@@ -18,7 +18,8 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about free Virtual User licenses."
+  - seo-marvel-apr2020
+description: "Learn about how to assign free Phone System–Virtual User license or a paid Phone System user license to resource accounts in your organization."
 ---
 
 # Microsoft 365 Phone System – Virtual User license 

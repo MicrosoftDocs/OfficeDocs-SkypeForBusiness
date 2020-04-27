@@ -14,7 +14,8 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Discover all the ways to get help in Microsoft Teams.
+description: Learn about help topics, videos, release notes, and feedback forums in order to get help in Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

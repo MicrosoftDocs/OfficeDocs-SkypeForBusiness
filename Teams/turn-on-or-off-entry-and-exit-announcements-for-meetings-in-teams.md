@@ -19,8 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo-marvel-mar2020
-description: "Learn how to turn entry and exit announcements on or off in a Microsoft Teams meeting. "
+  - seo-marvel-apr2020
+description: Admin can learn about how to turn entry and exit announcements on or off in a Microsoft Teams meeting.
 ---
 
 # Turn on or off entry and exit announcements for meetings in Microsoft Teams

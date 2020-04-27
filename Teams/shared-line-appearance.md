@@ -20,7 +20,8 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: "Shared line appearance lets a user choose a delegate to answer or handle calls on their behalf."
+  - seo-marvel-apr2020
+description: Learn about how to send your users an email with their audio conferencing information in Microsoft Teams.
 ---
 
 # Shared line appearance in Microsoft Teams

@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
+  - seo-marvel-apr2020
+description: Learn how to set up Phone System for Cloud call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
 
 # Create a Cloud call queue

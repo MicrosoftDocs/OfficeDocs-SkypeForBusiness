@@ -12,7 +12,8 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "This article discusses lifecycle support for Microsoft Teams Rooms."
+description: Learn about lifecycle support for Microsoft Teams Rooms, including the dynamic support structure and its phases.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft Teams Rooms app version support
@@ -58,7 +59,7 @@ The following table shows recommended and supported versions of Windows 10 that 
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
-## See also
+## Related topics
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

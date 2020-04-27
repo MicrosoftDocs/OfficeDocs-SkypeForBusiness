@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
+  - seo-marvel-apr2020
+description: Step-by-step guide detailing how to set up Phone System (Cloud PBX) for your organization in Office 365.
 ---
 
 # Set up Phone System in your organization
