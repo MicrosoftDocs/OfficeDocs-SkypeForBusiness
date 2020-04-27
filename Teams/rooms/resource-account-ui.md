@@ -19,6 +19,16 @@ In this article, you will learn how to create a resource account using the Micro
 
 If you prefer to use PowerShell to create resource accounts, [see this article.](resource-account-ps.md) 
 
+## Requirements
+
+Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
+
+- If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.
+
+- Your tenant users must have Exchange mailboxes.
+
+- Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.
+
 ### <a href="" id="create-device-acct-m365-admin-ctr"></a>Create the account in the Microsoft 365 admin center
 
 1.  Sign in to Microsoft 365 by visiting https://admin.microsoft.com
@@ -34,13 +44,15 @@ If you prefer to use PowerShell to create resource accounts, [see this article.]
     
 4. Click **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, and then click **Add**.
 
-    :::image type="content" source="../media/collaboration-bar-m365-admin-center-add-resource.png" alt-text="":::
+    :::image type="content" source="../media/collaboration-bar-m365-admin-center-add-resource.png" alt-text="Microsoft 365 admin center - Add resources":::
 
 5. Navigate to the Users section in admin center and, in the Active Users list, select the room account you just created. 
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-users.png" alt-text="":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-users.png" alt-text="Microsoft 365 admin center - See active users":::
 
 6. In the right panel, you can see the account properties and several optional actions. Click the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process.
 
 6. In the **Licenses and Apps** section, scroll down, and check the box next to the license to be assigned - such as Meeting Room - and then click **Save changes**. The license may vary depending on your organization.
+
+
 
