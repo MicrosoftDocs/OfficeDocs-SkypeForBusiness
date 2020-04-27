@@ -1,7 +1,7 @@
 ---
 title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
-description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
+description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,6 +18,7 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 
