@@ -8,12 +8,13 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: Learn about admin features in Teams free.
+description: Learn about who can manage users in Teams free, and learn about the differences between the various Teams plans.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

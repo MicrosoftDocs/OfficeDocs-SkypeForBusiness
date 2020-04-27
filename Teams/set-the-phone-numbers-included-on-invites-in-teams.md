@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
+
+description: Follow these steps to create a default telephone number for callers to join a Microsoft Teams meeting.
 ---
 
 # Set the phone numbers included on invites in Microsoft Teams

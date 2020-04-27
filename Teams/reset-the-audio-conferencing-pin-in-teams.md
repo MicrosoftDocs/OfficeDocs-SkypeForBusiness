@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Find out what you should know about PINs and how to reset them in Microsoft Teams. "
+  - seo-marvel-apr2020
+description: Learn how to reset a user's Audio Conferencing PIN in Microsoft Teams, and learn important facts about PINs.
 ---
 
 # Reset the Audio Conferencing PIN in Microsoft Teams
