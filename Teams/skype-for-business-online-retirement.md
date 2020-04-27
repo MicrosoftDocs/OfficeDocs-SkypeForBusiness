@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about Skype for Business Online retirement. 
+description: Learn about the retirement plan for Skype for Business Online and how Microsoft is helping customers migrate to Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -17,6 +17,7 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 

@@ -24,7 +24,8 @@ ms.custom:
   - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
   - ms.lync.lac.VASAMissingGeoCodes
   - Calling Plans
-description: Learn how to get and manage phone numbers for Microsoft Teams for your organization.
+  - seo-marvel-apr2020
+description: Learn how to get and manage user (subscriber) and service (toll and toll-free) phone numbers for Microsoft Teams for your organization.
 ---
 
 # Manage phone numbers for your organization
