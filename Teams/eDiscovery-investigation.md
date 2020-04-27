@@ -156,7 +156,7 @@ A conversation review set provides a more intuitive, threaded view of the conver
 
 Functionality such as redaction is available in both types of review sets.
 
-For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### Collection options
 
