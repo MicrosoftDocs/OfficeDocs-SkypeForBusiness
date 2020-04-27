@@ -62,7 +62,7 @@ The command below needs to be done from a Skype for Business Online PowerShell w
 The command below needs to be done from an on-premises PowerShell window:
 
     ```PowerShell
-        Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+    Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
     ```
 
 ### Manage phone numbers for users who were migrated from on-premises
