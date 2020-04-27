@@ -8,13 +8,14 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Learn about how to plan for implementing governance capabilities in Teams.
+description: In this article, you will learn about how to plan for implementing governance capabilities in Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

@@ -18,7 +18,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: "Learn about managing resource accounts in Microsoft Teams"
+  - seo-marvel-apr2020
+description: "In this article, you will learn how to create, edit and manage resource accounts in Microsoft Teams."
 ---
 
 # Manage resource accounts in Microsoft Teams
@@ -32,7 +33,7 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online. For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## Overview
+## Assign a phone number to a Phone System call queue
 
 If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue the process is:
 

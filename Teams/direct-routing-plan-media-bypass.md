@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Read this topic to learn how to plan for media bypass with Phone System Direct Routing."
+description: Learn how to plan for media bypass with Phone System Direct Routing, which enables you to shorten the path of media traffic and improve performance.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan for media bypass with Direct Routing
@@ -64,7 +65,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
-- The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
+- The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
 ![Shows Call flow with Media Bypass enabled, client is internal](media/direct-routing-media-bypass-3.png)
 
@@ -99,7 +100,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
-- The SIP signaling always takes paths 3 and 3’ (depending on the direction of the traffic). Media flows using path 2.
+- The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
 ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
 

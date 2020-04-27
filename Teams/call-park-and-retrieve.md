@@ -20,7 +20,8 @@ f1.keywords:
 ms.custom: 
  - Phone System
  - ms.teamsadmincenter.callparkpolicies.overview
-description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
+ - seo-marvel-apr2020
+description: Learn about how to use call park and retrieve to place a call on hold in the Teams service in the cloud.
 ---
 
 # Call park and retrieve in Microsoft Teams

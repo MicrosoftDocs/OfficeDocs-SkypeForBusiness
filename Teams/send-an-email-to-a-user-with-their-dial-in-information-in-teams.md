@@ -20,8 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-  - seo-marvel-mar2020
-description: "Send your users an email with their audio conferencing information in Microsoft Teams."
+  - seo-marvel-apr2020
+description: Learn about how to send your users an email with their audio conferencing information in Microsoft Teams.
 ---
 
 # Send an email to a user with their Audio Conferencing information in Microsoft Teams

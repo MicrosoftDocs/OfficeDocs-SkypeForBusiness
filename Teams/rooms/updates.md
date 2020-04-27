@@ -13,7 +13,8 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
 ms.assetid: 
-description: "Manage Windows Updates for Microsoft Teams Rooms"
+description: Admin can learn about how to manage Windows Updates and Windows feature updates for Microsoft Teams Rooms.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage Windows Updates
@@ -33,7 +34,7 @@ Windows Updates can be managed as discussed in the following sections:
 
 - [Windows Updates for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) download
 - Updates are downloaded from Windows Update or your WSUS but with configured delays past the original release date.
-- You can use multiple OUs or filtered policies to create deployment “rings” where administrators can specify which devices install Quality Updates first and which ones install later. Reliability and performance can be tested on a subset of systems before rolling out updates across the entire deployment without the overhead of managing Windows Updates in Configuration Manager.
+- You can use multiple OUs or filtered policies to create deployment "rings" where administrators can specify which devices install Quality Updates first and which ones install later. Reliability and performance can be tested on a subset of systems before rolling out updates across the entire deployment without the overhead of managing Windows Updates in Configuration Manager.
 - WSUS and Windows Updates for Business can be [configured at the same time](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) if you desire both the bandwidth management and the control Windows Updates for Business provides.
 - Feature updates. See the notes that follow.
 

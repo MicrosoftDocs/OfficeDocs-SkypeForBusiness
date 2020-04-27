@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams
+description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams, based on your organization's profile and business requirements.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -18,6 +18,7 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
   - Microsoft Teams
+  - seo-marvel-apr2020
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams

@@ -7,7 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Information for Admins about Presence in Teams.
+description: Learn the Presence states in Teams, as well as the administrative settings for the Presence feature.
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
