@@ -2,7 +2,7 @@
 title: "Creating Microsoft Teams Resource Accounts for collaboration bars for Microsoft Teams using PowerShell"
 ms.author: mitressl
 author: flinchbot
-manager: serdars
+manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
 ms.topic: quickstart

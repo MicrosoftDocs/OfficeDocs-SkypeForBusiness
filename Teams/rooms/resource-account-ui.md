@@ -3,9 +3,9 @@ title: Create a resource account using the Microsoft 365 admin center
 description: If you prefer to use a graphical user interface, you can create a resource account for your Microsoft Teams Rooms and collaboration bars for Microsoft Teams using the Microsoft 365 Admin Center.
 ms.assetid: 
 ms.reviewer: payurevi
-manager: 
+manager: ericwe
+audience: ITPro
 keywords: create device account, Microsoft 365 UI, Microsoft 365 admin center
-ms.prod: teams-rooms
 ms.sitesec: library
 author: flinchbot
 ms.author: mitressl
