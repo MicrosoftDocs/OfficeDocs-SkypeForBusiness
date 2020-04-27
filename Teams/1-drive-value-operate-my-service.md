@@ -168,7 +168,7 @@ tool, and when you should use each one is included in the following table.
 
 | Monitoring Tool                       | Benefits                                            | When to use                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Office 365 portal                     | Available from any device with a supported browser. | Use when you don’t need real-time notifications.                                          |
+| Microsoft 365 admin center                     | Available from any device with a supported browser. | Use when you don’t need real-time notifications.                                          |
 | Office 365 Admin app                  | Provides push notifications to your mobile device.  | Use when you need to be notified of service incidents while you’re on the go.                  |
 | Microsoft System Center               | Integration with Microsoft System Center.           | Use when you need advanced monitoring capabilities and notification support.                       |
 | Office 365 Service Communications API | Programmatic access to Office 365 service health.   | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
@@ -177,9 +177,9 @@ tool, and when you should use each one is included in the following table.
 > Only individuals who are assigned the **global admin** or **service
 administrator** role can view service health.
 
-### Monitoring with the Office 365 portal
+### Monitoring with the Microsoft 365 admin center
 
-The [Office 365 portal](https://portal.office.com/) provides a [Service Health
+The [Microsoft 365 admin center](https://portal.office.com/) provides a [Service Health
 dashboard](https://portal.office.com/adminportal/home#/servicehealth) where you
 can view the current health of the Teams service in addition to dependent
 services.
@@ -863,9 +863,9 @@ organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans
 ### Team creation (optional)
 
 By default, all users with a mailbox in Exchange Online have permissions to
-create Office 365 groups and, therefore, a team in Microsoft Teams. If you want
+create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
 to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
-(and thus the creation of new Office 365 groups), you can delegate group
+(and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.

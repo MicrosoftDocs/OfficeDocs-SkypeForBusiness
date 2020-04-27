@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from a Skype for Business hybrid deployment. 
+description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business hybrid deployment. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -36,7 +36,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
-Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and configured it in a hybrid deployment with your Office 365 tenant, and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. For either upgrade journey, you need to move your users to Skype for Business Online (if they aren't already homed online) and then assign them the appropriate coexistence and upgrade mode.
+Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and configured it in a hybrid deployment with your Office 365 organization, and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. For either upgrade journey, you need to move your users to Skype for Business Online (if they aren't already homed online) and then assign them the appropriate coexistence and upgrade mode.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

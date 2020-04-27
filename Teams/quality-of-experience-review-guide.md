@@ -23,7 +23,7 @@ ms.custom:
 # Quality of Experience Review Guide 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
+This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. 
 
 ## Introduction
 
@@ -65,16 +65,16 @@ This table shows you what each role can do in CQD:
 
 |  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Global Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
 |Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
 |Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
-|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+|Microsoft 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
 
-<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> In addition to reading CQD reports, the Microsoft 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
@@ -473,15 +473,15 @@ You can access CQD one of three ways:
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
-![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
+    ![Screenshot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
-_Figure 7 – Accessing CQD through the Microsoft Teams admin center_
+    _Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+    ![Screenshot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
-_Figure 8 - Accessing CQD through the Skype for Business admin center_
+    _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 
 ### Getting started
@@ -593,7 +593,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 2. Authenticate by using your Office 365 Administrative credentials.
 
    > [!NOTE]
-   > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
+   > You must have the Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
 
 3. Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
 
@@ -629,7 +629,7 @@ The format of the data file you upload must meet the following requirements to p
 
 -   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
 
--   There must be 14 columns for each row. Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+-   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
 
 _Table 5 - Building file structure_
 
@@ -1184,7 +1184,7 @@ It's also important to consider and ensure that the network, video, USB, and aud
 Version numbers for Skype for Business can be found via the links below:
 
 -   [Release information for updates to Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Update history for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business downloads and updates](/SkypeForBusiness/software-updates)
 
 ### Devices

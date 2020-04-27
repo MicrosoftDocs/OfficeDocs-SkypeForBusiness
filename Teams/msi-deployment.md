@@ -7,16 +7,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
+description: Use Microsoft Endpoint Configuration Manager to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
 ---
 
 # Install Microsoft Teams using Microsoft Endpoint Configuration Manager
@@ -40,7 +40,7 @@ These are the links to the MSI files:
 > [!NOTE]
 > Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
 
-Teams can also be included with a deployment of Office 365 ProPlus. For more information, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
+Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
 > To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)

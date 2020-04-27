@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
+  - seo-marvel-apr2020
+description: Learn how to set up Phone System for Cloud call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
 
 # Create a Cloud call queue
@@ -181,7 +182,7 @@ Call agents selected must be one of the following:
 
  To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately.
+- Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 

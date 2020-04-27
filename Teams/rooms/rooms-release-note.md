@@ -12,7 +12,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
+description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Release notes
@@ -65,7 +66,6 @@ Introduced in this update:
 - Ability to disable duplicate content out of meeting for dual displays rooms using XML
 - Application splash screen
 - Open Source Software (OSS) notices in device settings
-- Fix for PSOM connectivity when TLS 1.0 and TLS 1.1 are disabled in Skype for Business Server 2015/2019.
 
 ### 4.3.42.0 (03/02/2020)
 

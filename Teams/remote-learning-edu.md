@@ -50,7 +50,7 @@ Learn more about Teams usage scenarios at the [Teams for education webinar serie
 
 Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
 
-[Teams licenses need to be enabled for users](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2) and then [licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Office 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams licenses need to be enabled for users](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2) and then [licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Microsoft 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire school started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
@@ -63,13 +63,16 @@ These are the two things you need to do to get up and running with Teams:
 
 ### 1. Allow users to create teams
 
-Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams that meet their needs. **By default, everyone can create Office 365 groups and Teams**. There are times when this capability may not be appropriate; for example, some customers may want to restrict primary-secondary students from creating Teams. If needed, Office 365 group and Team creation can be [restricted to certain security groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) within your environment.
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams that meet their needs. **By default, everyone can create Microsoft 365 groups and Teams**. There are times when this capability may not be appropriate; for example, some customers may want to restrict primary-secondary students from creating Teams. If needed, Office 365 group and Team creation can be [restricted to certain security groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) within your environment.
 
 Higher education customers benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary schools may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Office 365 group and Team creation can be restricted to all educators and staff.
 
 For a walkthrough of how to create Teams, check out: [Create a class team in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 
 ### 2. Configure user experiences using policies
+
+> [!IMPORTANT]
+> If you need to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
@@ -150,8 +153,6 @@ You can learn more about how Teams is used in Education at: [Microsoft Teams for
 
 > [!NOTE]
 > Some key Teams features are not specific to education. Tips and tricks for core Teams capabilities can be found at: [Teams Help and Learning](https://support.office.com/teams).
-
-If you want to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### Prevent users from changing their profile photo
 

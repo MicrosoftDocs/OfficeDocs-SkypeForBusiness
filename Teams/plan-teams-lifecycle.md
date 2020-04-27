@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
+description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -16,7 +16,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan for lifecycle management in Teams
@@ -35,7 +35,7 @@ The following concepts and definitions all affect the decisions you make for lif
 
 **Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Office 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Channels**
 
@@ -52,7 +52,7 @@ These determine who can join the team:
 
 Team user types determine how much control a team member has:
 
--   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   _Team owner_ manages membership and settings for the team. There can be as many as 100 team owners per team.
 -   _Team member_ is a member of your organization who participates in a team.
 -   _Guest_ is a user who's external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
@@ -74,7 +74,7 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 <tbody>
    <tr>
     <td valign="top" colspan="2">Teams Service Administrator</td>
-    <td valign="top">Manage the Teams service, and create and manage Office 365 Groups</td>
+    <td valign="top">Manage the Teams service, and create and manage Microsoft 365 Groups</td>
     <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
 </tr>
 <tr>
@@ -192,7 +192,7 @@ If a team starts to get into a rut, consider:
 
 When the work of a team has run its course, it's important to formally acknowledge that it's over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
+You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Microsoft 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren't active any longer or whose owners have left the organization.
 

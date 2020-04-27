@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Learn how to create and manage calling dial plans (PSTN Calling dial plans) and how to manage them. 
+- seo-marvel-apr2020
+description: Learn how to use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans (PSTN Calling dial plans).
 ---
 
 # Create and manage dial plans
@@ -82,7 +83,7 @@ To learn more, see [Connect to all Office 365 services in a single Windows Power
   
 1. Click **Start** > **Windows PowerShell**.
     
-2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
     
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
@@ -207,7 +208,7 @@ Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 
 Run this to remove any assigned TenantDialPlan from all users who have a HostingProvider of sipfed.online.lync.com.
 ```PowerShell
-Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.

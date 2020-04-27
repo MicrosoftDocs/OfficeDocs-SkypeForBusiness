@@ -21,11 +21,11 @@ appliesto:
 # How Exchange and Microsoft Teams interact
 
 > [!Tip]
-> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
+> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. However, some features require a hybrid deployment to be in place with your Office 365 tenant.
+Users' Exchange mailboxes can be hosted online or on-premises. Integration with on-premises Exchange requires an Exchange hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots.
 
@@ -35,6 +35,8 @@ Users with mailboxes hosted on-premises must be synchronized to Azure Active Dir
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
+> [!NOTE]
+> Feature integration between on-premises Exchange and Teams requires an Exchange hybrid deployment. This requirement is in addition to version-specific requirements called out in some features in the following table.
 
 **Actions supported:**
 
@@ -89,7 +91,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
 
-- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 > [!TIP]
 > For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

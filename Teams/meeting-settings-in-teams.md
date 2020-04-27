@@ -31,7 +31,6 @@ As an admin, you use Teams meetings settings to control whether anonymous users 
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
@@ -39,7 +38,8 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
     ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
-If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
+> [!CAUTION]
+> If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations
 
@@ -87,7 +87,7 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
     ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
-        > [!NOTE] 
+        > [!NOTE]
         > Turning on **Insert Quality of Service (QoS) markers for real-time media traffic** will also enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video) and 3481 (Sharing).
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
         > [!IMPORTANT]
@@ -97,7 +97,7 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
 
 If you're unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
 
-_Port ranges and DSCP markings_
+### Port ranges and DSCP markings
 
 Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |:---             |:---                         |:---    |:---      |:---      |

@@ -18,7 +18,8 @@ f1.keywords:
 ms.custom: 
   - Skype for Business Certification
   - dn947482
-description: "IP desk and conference phones certified for Microsoft Teams"
+  - seo-marvel-apr2020
+description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
 # IP Phones certified for Microsoft Teams
@@ -65,7 +66,7 @@ See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#micros
 
 See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
-Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](/MicrosoftTeams/Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/MicrosoftTeams/Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn more about structuring teams and channels in Microsoft Teams. 
+description: Learn more about structuring teams and channels in Microsoft Teams and how to use Teams to drive cross-organization collaboration.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -26,11 +28,11 @@ appliesto:
 
 The concepts of teams and channels are fundamental to a healthy, productive implementation of Microsoft Teams. 
 
-- A team is a collection of people, content, and tools that work together to produce a business outcome for your company. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. 
+- A team is a collection of people, content, and tools that work together to produce a business outcome for your company. Teams are built on Microsoft 365 Groups, and changes to Office 365 group membership sync to the team. 
 
 - Channels are the collaboration spaces within a team in which the actual work is done. 
 
-To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https://aka.ms/teamstoolkit). To learn more about Teams and Office 365 Groups, see [Office 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https://aka.ms/teamstoolkit). To learn more about Teams and Microsoft 365 Groups, see [Microsoft 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
