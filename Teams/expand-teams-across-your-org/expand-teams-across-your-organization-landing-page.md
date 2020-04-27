@@ -1,6 +1,6 @@
 ---
 title: Expand Microsoft Teams across your organization
-description: Learn about Microsoft Teams resources, including Shifts for Teams, Teams for Healthcare, Teams for Education, Teams for Retail, and Teams for Government.
+description: Learn about the resources available for building on the standard Teams deployment to help you get the most out of Teams for specific organization types.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,7 +15,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Expand Microsoft Teams across your organization

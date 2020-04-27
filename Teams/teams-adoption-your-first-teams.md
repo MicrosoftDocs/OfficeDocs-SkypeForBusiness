@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to drive Teams adoption by using the product.
+description: Learn how to drive Teams adoption by managing your Office 365 deployment with Teams, including how to pin key resources as tabs in the appropriate channels.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

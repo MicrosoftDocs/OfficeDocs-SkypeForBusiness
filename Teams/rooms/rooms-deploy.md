@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this article to learn about deploying Microsoft Teams Rooms."
+description: Read this article to learn about how to deploy Microsoft Teams Rooms, including the deployment phases.
 ---
 
 # Deployment overview
@@ -32,7 +32,7 @@ AV techs can be used for the last task, but your organization's IT department wi
 
 ## Site readiness 
 
-While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
+While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor's site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
 You can find out more about these dependencies in the planning guidance links below:
 
@@ -40,7 +40,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network’s suitability for real-time traffic.
+**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
 |    |     |
 |-----------|------------|
@@ -56,7 +56,7 @@ To prepare for your Microsoft Teams Rooms deployment, do the following key, cent
 
 ### Define Microsoft Teams Rooms service account features 
 
-Depending on the collaboration scenarios that you’ve decided to enable with your Microsoft Teams Rooms deployment, you’ll need to determine the features and capabilities that you assign to each Microsoft Teams Rooms service account that you enable.
+Depending on the collaboration scenarios that you've decided to enable with your Microsoft Teams Rooms deployment, you'll need to determine the features and capabilities that you assign to each Microsoft Teams Rooms service account that you enable.
 
 | **Scenario** | **Description** | **Microsoft Teams Rooms service account feature** |
 |---------- |------------- | --- |
@@ -69,7 +69,7 @@ For more information about Microsoft Teams Rooms accounts, see [Configure accoun
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you’ll support, and identify licensing requirements for your Microsoft Teams Rooms service accounts.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you'll support, and identify licensing requirements for your Microsoft Teams Rooms service accounts.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host machine and service accounts.</li></ul>| 
 
 
@@ -88,7 +88,7 @@ To enable you to manage and report on your Microsoft Teams Rooms machine and ser
 Define an on-premises Active Directory or Azure AD group to add all Microsoft Teams Rooms service (user) accounts to, and then create usage reports by using the Get-CSUserSession PowerShell cmdlet across your Microsoft Teams Rooms deployment. For example, create a group named SkypeRoomSystemsv2-Service-Accounts. 
 
 
-Define one organizational unit in your on-premises Active Directory or Azure AD hierarchy to hold all Microsoft Teams Rooms machine accounts (if they’re joined to the domain) and one organizational unit to hold all the Microsoft Teams Rooms user accounts. If you do create an organizational unit for the Microsoft Teams Rooms machine accounts, consider disabling inheritance to ensure that you apply only the policies you intended to apply to the domain-joined Microsoft Teams Rooms. 
+Define one organizational unit in your on-premises Active Directory or Azure AD hierarchy to hold all Microsoft Teams Rooms machine accounts (if they're joined to the domain) and one organizational unit to hold all the Microsoft Teams Rooms user accounts. If you do create an organizational unit for the Microsoft Teams Rooms machine accounts, consider disabling inheritance to ensure that you apply only the policies you intended to apply to the domain-joined Microsoft Teams Rooms. 
 
 Create a Group Policy object assigned to the organization unit that contains your Microsoft Teams Rooms computer accounts. Use this to: 
 
@@ -118,7 +118,7 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Microsoft Teams Rooms accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Microsoft Teams Rooms accounts.</li><li>Decide whether you'll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
 
 
@@ -133,9 +133,9 @@ When planning to deploy Microsoft Teams Rooms, you have a number of options to c
 | Deploying more than 50 Microsoft Teams Rooms devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Pro Tip** - Each Microsoft Teams Rooms must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it’s important to develop a naming convention for Microsoft Teams Rooms deployments that allows support personnel to easily locate the Microsoft Teams Rooms that has been flagged as requiring an action. An example might be using a pattern of MTR-*Site*-*Room Name* (MTR-LON-CURIE). 
+**Pro Tip** - Each Microsoft Teams Rooms must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it's important to develop a naming convention for Microsoft Teams Rooms deployments that allows support personnel to easily locate the Microsoft Teams Rooms that has been flagged as requiring an action. An example might be using a pattern of MTR-*Site*-*Room Name* (MTR-LON-CURIE). 
 
-As part of the deployment, you’ll also need to consider your strategy for managing and configuring the [local accounts](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) that are created by the Microsoft Teams Rooms application installer.
+As part of the deployment, you'll also need to consider your strategy for managing and configuring the [local accounts](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) that are created by the Microsoft Teams Rooms application installer.
 
 We provide guidance on how to use the [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. If you decide to use Microsoft Operations Management Suite, you should install the Operations Management Suite agent as part of the software installation process and configure the workspace connection information for your workspace. 
 
@@ -143,13 +143,13 @@ An additional consideration is whether the Microsoft Teams Rooms will be domain-
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Microsoft Teams Rooms device-naming convention to be used during your deployment.</li><li>Decide whether you’ll join Microsoft Teams Rooms devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you’ll use Operations Management Suite to monitor the Microsoft Teams Rooms deployment.</li><li>Decide which method you’ll use to deploy the software and agents to the Microsoft Teams Rooms system in preparation for the device deployment. </li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Microsoft Teams Rooms device-naming convention to be used during your deployment.</li><li>Decide whether you'll join Microsoft Teams Rooms devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you'll use Operations Management Suite to monitor the Microsoft Teams Rooms deployment.</li><li>Decide which method you'll use to deploy the software and agents to the Microsoft Teams Rooms system in preparation for the device deployment. </li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment approach.</li></ul>| 
 
 
 ### Device deployment
 
-After you’ve deployed your software to the Microsoft Teams Rooms units, create your plan to ship the devices and their assigned peripheral devices to your rooms, and then proceed to installation and configuration. 
+After you've deployed your software to the Microsoft Teams Rooms units, create your plan to ship the devices and their assigned peripheral devices to your rooms, and then proceed to installation and configuration. 
 
 
 |    |     |
@@ -166,7 +166,7 @@ _Sample deployment table_
 
 ### Microsoft Teams Rooms application and peripheral device configuration 
 
-After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected, you’ll need to configure the Microsoft Teams Rooms application to assign the Microsoft Teams Rooms resource account and password created earlier, to enable the Microsoft Teams Rooms system to sign in to Microsoft Teams or Skype for Business and Exchange. It's key to leverage certified USB audio and video peripherals linked elsewhere in the document. Not doing so can result in unpredictable behavior. 
+After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected, you'll need to configure the Microsoft Teams Rooms application to assign the Microsoft Teams Rooms resource account and password created earlier, to enable the Microsoft Teams Rooms system to sign in to Microsoft Teams or Skype for Business and Exchange. It's key to leverage certified USB audio and video peripherals linked elsewhere in the document. Not doing so can result in unpredictable behavior. 
 
 You can manually configure each Microsoft Teams Rooms system. Alternatively, you can use a centrally stored, per–Microsoft Teams Rooms XML configuration file to manage the application settings and leverage a start-up GPO script to reapply the configuration you want, each time the Microsoft Teams Rooms system boots. 
 
@@ -176,18 +176,18 @@ You can use [remote PowerShell](rooms-operations.md#remote-management-using-powe
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you’ll manually configure each Microsoft Teams Rooms system or use a central XML file (one per Microsoft Teams Rooms device).</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you'll manually configure each Microsoft Teams Rooms system or use a central XML file (one per Microsoft Teams Rooms device).</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your remote management approach.</li></ul>| 
 
 ### Testing
 
-After the Microsoft Teams Rooms system has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Microsoft Teams Rooms is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
+After the Microsoft Teams Rooms system has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Microsoft Teams Rooms is logging to Microsoft Operations Management Suite (if used). It's also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
 
 We recommend that as part of the general Teams or Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 
 ### Asset management
 
-As part of the deployment, you’ll want to update your asset register with the room name, Microsoft Teams Rooms device name, signed-in Microsoft Teams Rooms resource account, and assigned peripheral devices (and which USB ports they use). 
+As part of the deployment, you'll want to update your asset register with the room name, Microsoft Teams Rooms device name, signed-in Microsoft Teams Rooms resource account, and assigned peripheral devices (and which USB ports they use). 
 
 _Sample asset table_
 
