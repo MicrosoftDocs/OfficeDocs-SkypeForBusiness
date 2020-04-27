@@ -19,6 +19,7 @@ ms.custom:
   - Licensing
   - LIL_Placement
 description: "Learn about the messaging features and capabilities available in the Premium Messaging add-on licensing for Microsoft Teams."
+  - seo-marvel-apr2020
 ---
 
 # Premium Messaging add-on licensing

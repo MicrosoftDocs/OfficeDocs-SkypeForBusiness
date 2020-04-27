@@ -18,7 +18,8 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about add-on licenses, features, and how to buy Microsoft 365 Business Standard plans. "
+  - seo-marvel-apr2020
+description: Learn about add-on licenses, their features, and how to buy these licenses for Microsoft 365 Business Standard plans. 
 ---
 
 # Microsoft 365 Business Standard

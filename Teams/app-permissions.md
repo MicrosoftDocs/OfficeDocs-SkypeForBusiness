@@ -12,12 +12,13 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Learn what data and permissions apps are requesting from your organization.
+description: Admin can Learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 

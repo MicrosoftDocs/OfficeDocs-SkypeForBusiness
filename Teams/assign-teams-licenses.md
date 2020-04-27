@@ -14,9 +14,10 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
+description: "Learn about how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Assign Microsoft Teams licenses

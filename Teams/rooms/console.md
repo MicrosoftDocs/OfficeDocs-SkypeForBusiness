@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: "This article describes how to set up the Microsoft Teams Rooms console and its peripherals."
+description: This article describes how to set up and configure the Microsoft Teams Rooms console and its peripherals.
 ---
 
 # Configure a Microsoft Teams Rooms console

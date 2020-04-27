@@ -18,7 +18,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.messagingpolicies.overview
-description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
+  - seo-marvel-apr2020
+description: "In this article, you will learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 
 # Manage messaging policies in Teams
