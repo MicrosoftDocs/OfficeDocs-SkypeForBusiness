@@ -17,11 +17,11 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
 ---
 
-# Creating Resource Accounts for collaborations bars for Microsoft Teams
+# Creating Resource Accounts for MIcrosoft Teams Rooms and collaborations bars for Microsoft Teams
 
-Read this topic for information on how to create resource accounts for collaboration bars for Microsoft Teams.
+Read this topic for information on how to create resource accounts for Microsoft Teams Rooms and collaboration bars for Microsoft Teams.
 
-The easiest way to create a resource account is by using the Microsoft 365 admin center. [See this article on how to do this].(GUI.md)
+The easiest way to create a resource account is by using the Microsoft 365 admin center. [See this article on how to do this](resource-account-ui.md).
 
 This article discusses creating a resource account using remote PowerShell.
 
