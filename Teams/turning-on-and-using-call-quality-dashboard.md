@@ -34,6 +34,30 @@ Call Quality Dashboard (CQD) provides insight into the quality of calls made usi
 
 Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
 
+## Assign roles for accessing CQD
+
+Assign [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it. 
+
+This table shows you what each role can do in CQD:
+
+
+|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
+|Microsoft 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+
+<sup>1</sup> In addition to reading CQD reports, the Microsoft 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
+
+
 ## Use Power BI to analyze CQD data
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
