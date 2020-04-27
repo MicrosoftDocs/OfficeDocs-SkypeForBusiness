@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Get guidance on how to plan to move your StaffHub teams to Shifts in Microsoft Teams.
+description: Use this timeline to help your organization's transition from StaffHub teams to Shifts in Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal

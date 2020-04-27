@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to support the broad scale enablement of Teams for your organization.
+description: Read an overview of the steps you will need to learn to support the broad scale enablement of Teams for your organization.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
