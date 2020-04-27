@@ -27,7 +27,7 @@ The new Skype for Business Admin Center **Reports** area shows you calling and a
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits)
+This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
@@ -72,8 +72,9 @@ This is what the report looks like.
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (an inbound PSTN call to the UC application such as auto attendant or call queue) 
      *    **ucap_out** (an outbound PSTN call from the UC application such as auto attendant or call queue)
-     *    **Note:** Calls that were transferred to a user from the UC application such as an auto attendant or call queue will not appear in the PSTN usage report as these call legs are peer to peer (P2P) audio calls. You may access the P2P calls in the Skype for Business Admin Center under "Tools > Skype for Business Call Analytics" and search by User Name or SIP address correlating the call by date/time and/or originating CLID (calling line ID). 
-*     
+     > [!NOTE]
+     > Calls that were transferred to a user from the UC application such as an auto attendant or call queue will not appear in the PSTN usage report as these call legs are peer to peer (P2P) audio calls. You may access the P2P calls in the Skype for Business Admin Center under "Tools > Skype for Business Call Analytics" and search by User Name or SIP address correlating the call by date/time and/or originating CLID (calling line ID). 
+
      **Domestic/International** tells you whether the call that was placed was considered domestic (within a country/region) or international (outside of a country/region) based on the user's location. 
 *    **Destination dialed** is the name of the country/region destination that is dialed such as France, Germany, or the United States (U.S.). 
 *    **Number type** is the type of phone number that is from a user's phone number, a service or toll-free number.  
@@ -122,7 +123,7 @@ Exported file contains additional fields that are not available in the online re
 
 [!div class="has-no-wrap"]  
 | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
-| :-: | :-: | :-: |:------------------- |
+| :-: | :-: | :-: |:-------------------: |
 | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
 | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
