@@ -67,6 +67,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | Yes<sup>4</sup> | Yes |
 | Make private calls | Yes | Yes |
+| View the phone number for dial-in meeting participants | No | Yes |
 | Allow IP video | Yes | Yes |
 | Screen sharing mode | Yes<sup>4</sup> | Yes |
 | Allow meet now | No | Yes |

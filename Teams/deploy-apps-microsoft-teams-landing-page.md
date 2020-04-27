@@ -1,7 +1,7 @@
 ---
 title: Apps, bots, & connectors in Microsoft Teams
 ms.reviewer: 
-description: Use these deployment resources to help you deploy apps in Microsoft.
+description: Learn about apps, bots, and connectors and how to decide which to deploy in Microsoft Teams based on your organization's profile and business requirements.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,6 +17,7 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 # Apps, bots, & connectors in Microsoft Teams
 
@@ -87,7 +88,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Activity reports
 
-You can use activity reports to see how users in your organization are using Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
+You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
 
 | Ask yourself | Action |
 |--------------|--------|

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Learn about calling policy settings in Microsoft Teams.
+description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, as well as various calling policy settings.
 localization_priority: Normal
 ms.custom: 
   - NewAdminCenter_Update
@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.callingpolicies.overview
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -54,8 +55,8 @@ Follow these steps to assign a custom calling policy to a user.
 
 1. In the Microsoft Teams admin center, select **Voice** > **Calling policy**.
 2. Click next to the policy name to select it, and then select **Manage users**.
-3. In the **Manage users** pane, search for the user’s name. (You must enter at least three characters.)
-4. Select the user’s name, and then select **Add**.
+3. In the **Manage users** pane, search for the user's name. (You must enter at least three characters.)
+4. Select the user's name, and then select **Add**.
 5. Select **Save**.
 
 ## Calling policy settings
