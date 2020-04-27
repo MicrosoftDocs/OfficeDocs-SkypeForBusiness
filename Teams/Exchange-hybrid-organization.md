@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
+description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams to ensure Group memberships are synchronized.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,7 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams

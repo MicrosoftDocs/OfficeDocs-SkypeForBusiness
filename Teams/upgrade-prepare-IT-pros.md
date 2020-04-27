@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
+description: Learn about how to prepare IT staff in your organization for deploying and supporting Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,6 +16,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 ---

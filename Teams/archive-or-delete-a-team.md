@@ -8,12 +8,13 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: Learn how to archive or permanently delete a team.
+description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 

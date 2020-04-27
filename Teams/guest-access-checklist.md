@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use this checklist to help set up guest access in Microsoft Teams.
+description: Learn about how to turn on and configure guest access in Microsoft Teams as a global or Teams admin.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 

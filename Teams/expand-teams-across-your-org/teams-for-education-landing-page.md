@@ -1,6 +1,6 @@
 ---
 title: Teams for Education
-description: Using Teams for Education to create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. 
+description: Learn about the admin resources available to help you successfully deploy, adopt, and manage Teams in your school or institution.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,7 +17,7 @@ search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams for Education
