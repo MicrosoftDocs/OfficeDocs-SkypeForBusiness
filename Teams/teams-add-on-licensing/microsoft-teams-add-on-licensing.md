@@ -58,18 +58,21 @@ For small and medium sized businesses (less than 300 people), there are three wa
 - Buy an Enterprise E1 or E3 license but add on each cloud voice feature separately.
 - Buy an Enterprise E5 license that comes with cloud voice features.
 
-For organizations with less than 300 people, there are two [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plans to chose from.
+If your an organization with less than 300 people, you can choose  [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plans to chose from.
 - Microsoft Business Voice with a Calling Plan - OR -
 - Microsoft Business Voice without a Calling Plan (Direct Routing).
 
 If you want all phone number management and billing for cloud voice features to be delivered from Microsoft, then you want to use **Business Voice with a Calling Plan**. If you already get your telephone service from another third party telephone provider, you would want to choose **Business Voice without a Calling Plan**. For this, you will need to set up and deploy Direct Routing to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365.
 
+[!NOTE]
+> Microsoft 365 Apps for enterprises can't be purchased and used with small business plans but Microsoft 365 Apps for businesses can be.
+
 **Small business options for cloud voice**
 
-    ![Small business plan options](../media/licensing-small-business-options.png)
+  ![Small business plan options](../media/licensing-small-business-options.png)
 
 > [!NOTE]
-> EDU, GOV and Nonprofit organizations can’t use Microsoft 365 Business Voice even if they have less than 300 people.
+> Direct Routing can also be used with Enterprise-based licensing.
 
 If you're a small or medium-sized business (less than 300 users) who already has a Microsoft 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to move from that license and buy and assign a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
@@ -77,49 +80,55 @@ If you're a small or medium-sized business (less than 300 users) who already has
 
 For large sized businesses and enterprises (more than 300 people), there are two ways to get cloud voice features:
 - Enterprise E1 or E3 (and then add cloud voice features individually - OR -
-- Enterprise E5 (that includes cloud voice features)
-
-For larger business,  and add cloud voice features separately.
+- Enterprise E5 (that includes cloud voice features).
 
 These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/en-us/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
 
+[!NOTE]
+> Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
+
 **Large business and enterprise options for cloud voice**
 
-    ![Enterprise-based options](../media/licensing-enterprise-options.png)
+  ![Enterprise-based options](../media/licensing-enterprise-options.png)
 
-These plans include most Teams features. There's a few additional options that you can add. To learn more, see [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software) and [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software).<br>
-
-If your organization has less than 300 users and you have a Microsoft 365 Enterprise plan, you may be able to reduce overall cost if you switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
+> [!NOTE]
+> Direct Routing can also be used with Enterprise-based licensing.
 
 #### [**Education**](#tab/education/)
 
-For schools, there are two ways to get Cloud Voice features.
+For schools and other academic organizations, there are two ways to get Cloud Voice features.
+- Buy an EDU A1 or A3 (and then add cloud voice features individually - OR -
+- Buy an EDU A5 (that includes cloud voice features).
 
-- **If you have less than 300 students and/or faculty**  You will want to buy Microsoft Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy A1, A3 or A5 licenses.
-- **If you have more than 300 students and/or faculty**  You must buy A1 or A3 licenses and add Cloud Voice features separately or it may make sense to simply buy an A5 license that includes all of the Cloud Voice features. Choosing the right plan, will be deciding on the features you want included vs the cost for the licenses.
+[!NOTE]
+> Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
 
-**Adding Cloud Voice to A1 or A3 EDU plans**
+**Academic (EDU) organizations options for cloud voice**
+
+  ![EDU plan options](../media/licensing-edu-options.png)
 
 Here are the add-on options available to you if you have a [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) or [Office 365 Education](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan) plan.
 
-![EDU A1 or A3 plans](../media/licensing-edu-a1ora3.png)
-
-**Enterprise E5 with Cloud Voice**
-
-![EDU A5 plan](../media/licensing-edu-a5.png)
-
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+
+> [!NOTE]
+> Direct Routing can also be used with Enterprise-based licensing.
 
 #### [**Government**](#tab/government/)
 
-For government-based organization (GCC only), there are three ways to get Cloud Voice features but the option you choose will depend on the features you want and the price for buying your licenses.
+For government-based organizations (GCC only), there are two ways to get cloud voice features.
+- Buy a GOV G1 or G3 (and then add cloud voice features individually - OR -
+- Buy a GOV G5 (that includes cloud voice features).
+
+[!NOTE]
+> Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
 
 **Government licensing options for cloud voice**
 
   ![Gov-based options](../media/licensing-gov-options.png)
 
 > [!NOTE]
-> EDU, GOV and Nonprofit organizations can’t use Microsoft 365 Business Voice even if they have less than 300 people.
+> Direct Routing can also be used with Enterprise-based licensing.
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
@@ -127,22 +136,25 @@ For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
 #### [**Nonprofit**](#tab/nonprofit/)
 For nonprofit organizations, there are three ways to get cloud voice features but the option you choose will depend on the features you want and the price for buying your licenses.
+- Buy a small business plan specifically for nonprofit organizations and add the cloud voice features.
+- Buy a Nonprofit E1 or E3 plan (and then add cloud voice features individually)
+- Buy a Nonprofit E5 (that includes cloud voice features).
 
-- **Buy Microsoft 365 Business Voice** if you have less than 300 people that need licenses. You will want to buy Microsoft 365 Business Voice because all of the Cloud Voice features are included. However, if you decide you want more features, you still have the option to buy E1, E3 or E5 licenses.
-- **Buy E1 and E3 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you do this, you will need to add the Cloud Voice features on separately.
+These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/en-us/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
 
-    **Adding Cloud Voice to A1 or A3 EDU plans**
+[!NOTE]
+> Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
 
-    ![Nonprofit E1 or E3 plans](../media/licensing-np-e1ore3.png)
-    Here are the add-on options available to you if you have a [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) or [Office 365 Education](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan) plan.
+**Nonprofit licensing options for cloud voice**
 
-- **Buy A5 licenses** if you want more features than are included in Business Voice or have more than 300 people that need licenses. When you buy A1 or A3 licenses in the option above and add Cloud Voice features separately or it may make sense or be a better value to simply buy an A5 license that includes all of the Cloud Voice features.
+  ![Nonprofit-based options](../media/licensing-np-options.png)
 
-     **Education A5 with Cloud Voice**
-
-    ![Nonprofit E5 plan](../media/licensing-np-e5.png)
+> [!NOTE]
+> Direct Routing can also be used with Enterprise-based licensing.
 
 To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
+
+***
 
 #### [**Trial offers**](#tab/trial/)
 
