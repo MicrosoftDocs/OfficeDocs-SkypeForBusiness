@@ -20,7 +20,8 @@ f1.keywords:
 ms.custom: 
  - Phone System
  - ms.teamsadmincenter.callparkpolicies.overview
-description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
+ - seo-marvel-apr2020
+description: Learn about how to use call park and retrieve to place a call on hold in the Teams service in the cloud.
 ---
 
 # Call park and retrieve in Microsoft Teams
@@ -88,7 +89,7 @@ You can change the default setting by using [Set-CsTeamsCallParkPolicy](https://
 
 ## Troubleshooting
 
-If users can’t see the park or retrieve button: 
+If users can't see the park or retrieve button: 
 
 - Check that the user has the Call Park policy enabled. 
 

@@ -20,6 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
+  - seo-marvel-apr2020
 description: "Use this table to find information on getting and managing phone numbers in the United States (including Puerto Rico) for Microsoft Teams."
 ---
 
