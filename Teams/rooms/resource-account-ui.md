@@ -7,6 +7,7 @@ manager: ericwe
 audience: ITPro
 keywords: create device account, Microsoft 365 UI, Microsoft 365 admin center
 ms.sitesec: library
+ms.service: msteams
 author: flinchbot
 ms.author: mitressl
 ms.topic: article
