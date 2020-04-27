@@ -21,7 +21,8 @@ ms.custom:
   - ms.teamsadmincenter.meetingpolicies.contentsharing
   - ms.teamsadmincenter.meetingpolicies.general
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Learn to manage meeting policy settings in Teams.
+  - seo-marvel-apr2020
+description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
 # Manage meeting policies in Teams
 

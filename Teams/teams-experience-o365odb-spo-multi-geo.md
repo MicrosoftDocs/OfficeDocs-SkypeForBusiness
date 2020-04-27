@@ -7,12 +7,13 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: Learn about using Teams in a Microsoft 365 or Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
+description: In this article, you will learn about using Teams in an Microsoft 365 or Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - SPO_Content
+ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
 appliesto: 

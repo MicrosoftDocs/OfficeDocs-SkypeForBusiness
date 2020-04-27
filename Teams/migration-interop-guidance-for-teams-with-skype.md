@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Guidance for managing the transition to Teams from Skype for Business
+description: Understand the fundamental concepts for managing your organization's transition to Teams from Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

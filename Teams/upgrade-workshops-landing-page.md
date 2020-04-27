@@ -15,6 +15,8 @@ localization_priority: Priority
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB
   - M365-collaboration
+ms.custom:
+  - seo-marvel-apr2020
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
