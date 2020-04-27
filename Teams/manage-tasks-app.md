@@ -19,7 +19,7 @@ appliesto:
 
 # Manage the Tasks app for your organization in Microsoft Teams
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview of Tasks
 
@@ -38,16 +38,20 @@ Tasks is available as an app and as a tab in a channel within individual teams. 
 
 With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guest users. It's important to know that guests can only access Tasks as an app from the Teams mobile client. Guests will see Tasks tabs on both Teams desktop or web clients.
 
-Personal lists show a user's individual tasks. Team lists show tasks that the whole team is working on. 
+Personal lists show a user's individual tasks. Team lists show tasks that the whole team is working on. Note the following:
+
+- Personal lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, tasks that a user creates in To Do will appear in Personal lists in Tasks for that user.  ???
+
+- Any Tasks tab that's added to a channel in a team will also appear in Planner clients. When a user creates a plan in Planner, the plan won't show in the Tasks or Planner app unless it's added as a tab to a channel in a team. When a user adds a new Tasks tab, they can create a new list or plan or choose an existing one. ???
 
 ## Set up Tasks
 
 > [!IMPORTANT]
-> Any existing app policies that you configured for Planner will also apply to Tasks. ???
+> If you configured app policies for Planner, these existing policies will also apply to Tasks.
 
 ### Enable or disable Tasks in your organization
 
-Tasks is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](../manage-apps.md) page in the Microsoft Teams admin center.
+Tasks is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
 2. In the list of apps, do one of the following:
@@ -57,15 +61,15 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Tasks for specific users in your organization
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](../manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Use an app setup policy to pin Tasks to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
 
-To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](../teams-app-setup-policies.md).
+To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-### Hide users' Personal lists in Tasks
+### Hide users' Personal lists if you don't want users to see them 
 
 If you don't want users to see Personal lists, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
@@ -74,12 +78,12 @@ If you don't want users to see Personal lists, you can hide it. To do this, [rem
 With tasks publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.<br>
-    ![Screenshot of tasks publishing](../media/manage-tasks-app-publish.png)
+    ![Screenshot of tasks publishing](media/manage-tasks-app-publish.png)
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
-    ![Screenshot of assigning a task](../media/manage-tasks-app-assign.png)
+    ![Screenshot of assigning a task](media/manage-tasks-app-assign.png)
 - Firstline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.<br>
-    ![Screenshot of assigned tasks on mobile](../media/manage-tasks-app-reporting.png)
+    ![Screenshot of assigned tasks on mobile](media/manage-tasks-app-reporting.png)
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 

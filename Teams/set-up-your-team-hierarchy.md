@@ -19,7 +19,7 @@ appliesto:
 
 # Set up your team targeting hierarchy
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it. 
 
@@ -28,7 +28,7 @@ To create a hierarchy of teams that can be used by your organization to publish 
 
 Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
-![Screenshot of tasks publishing](../media/manage-tasks-app-publish.png)
+![Screenshot of tasks publishing](media/manage-tasks-app-publish.png)
 
 ## Plan your hierarchy
 
@@ -36,7 +36,7 @@ Before you create the schema that defines your hierarchy, you need to do some pl
 
 For example, in the following hierarchy, Recall, Retail Communications, and HR, can publish tasks to every bottom node (team) in the hierarchy, whereas North East Zone can only publish tasks to the New York Store and Boston Store teams. This hierarchy allows the Recall, Retail Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. North East Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
 
-![Team hierarchical example](../media/team-targeting-schema-example.png)
+![Team hierarchical example](media/team-targeting-schema-example.png)
 
 ## Create your hierarchy
 
@@ -129,4 +129,4 @@ Take note of the error message as it should include troubleshooting information 
 ## Related topics
 
 - [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
-- [Teams PowerShell Overview](../teams-powershell-overview.md)
+- [Teams PowerShell Overview](teams-powershell-overview.md)
