@@ -113,7 +113,7 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 > [!IMPORTANT]
 > To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
 
-After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following PowerShell command:
+After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be an admin to perform this step. 
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -126,7 +126,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 
 If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new lists to publish, access draft lists, publish, unpublish, duplicate, and view reporting. ??? Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete. 
 
-To remove your hierarchy, run the following command:
+To remove your hierarchy, run the following command. You must be an admin to perform this step. 
 
 ```powershell
 Remove-TeamTargetingHierarchy
@@ -136,7 +136,7 @@ Remove-TeamTargetingHierarchy
 
 #### Install the latest Teams PowerShell module from the PowerShell Test Gallery
 
-The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.21) from the PowerShell Test Gallery.
+The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing the team hierarchy. Use these steps to install the latest version of the Teams PowerShell module, with team hierarchy support, from the PowerShell Test Gallery.
 
 > [!NOTE]
 > Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
@@ -195,4 +195,3 @@ Take note of the error message as it should include troubleshooting information 
 ## Related topics
 
 - [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
-- [Teams PowerShell Overview](teams-powershell-overview.md)
