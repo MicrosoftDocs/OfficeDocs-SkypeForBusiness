@@ -40,9 +40,9 @@ With Tasks, users get a desktop, web, and mobile experience. If Tasks is install
 
 Personal lists show a user's individual tasks. Team lists show tasks that the whole team is working on. Note the following:
 
-- Personal lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, tasks that a user creates in To Do will appear in Personal lists in Tasks for that user.  ???
+- Personal lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, task lists that a user creates in To Do will appear in Personal lists in Tasks for that user. The same is true for individual tasks.
 
-- Any Tasks tab that's added to a channel in a team will also appear in Planner clients. When a user creates a plan in Planner, the plan won't show in the Tasks or Planner app unless it's added as a tab to a channel in a team. When a user adds a new Tasks tab, they can create a new list or plan or choose an existing one. ???
+- Any Tasks tab that's added to a channel in a team will also appear in Planner clients. When a user creates a plan in Planner, the plan won't show in the Tasks or Planner app unless it's added as a tab to a channel in a team. When a user adds a new Tasks tab, they can create a new list or plan or choose an existing one.
 
 ## Set up Tasks
 
