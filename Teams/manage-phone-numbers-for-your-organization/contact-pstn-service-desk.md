@@ -28,19 +28,19 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 # PSTN Service Desk Contact
 
 If you need assistance transferring/porting your existing phone numbers or acquiring new phone numbers for Microsoft Teams, please send us an email and include as many details as possible:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.]((https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
   - What types of phone numbers you need assistance with (**User/Subscriber** or **Service/Toll/Toll-Free**).
   - Other important details based on your request.
   - If you would like to **acquire new phone numbers** also include how many you require and the Area Code(s)/Country/Region from which you would like new phone numbers from.
   
 Once you have that information, send us your request to one the following email addresses below based on your request:
 - **Number Transferring/Porting**
-    - Transferring/Porting your existing phone numbers **inside the United States or Canada** to Microsoft Teams, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).
-    - Transferring/Porting your existing phone numbers **outside the United States or Canada** to Microsoft Teams, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).
+    - Transferring/Porting your existing phone numbers **inside the United States or Canada** to Microsoft Teams, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com)
+    - Transferring/Porting your existing phone numbers **outside the United States or Canada** to Microsoft Teams, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
     
 - **Number Acquisition**
     - Acquiring new phone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
-    - Acquiring new phone numbers for the **Rest of the World**, [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
+    - Acquiring new phone numbers for the **Rest of the World**, [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)
 
 ## Additional resources
 
@@ -54,4 +54,3 @@ Once you have that information, send us your request to one the following email 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-  
