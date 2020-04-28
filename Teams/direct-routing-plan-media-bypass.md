@@ -250,7 +250,8 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
 | UDP/SRTP | SBC | Client | Defined on the SBC | 50 000 – 50 019  |
 
 
-Note: If you have a network device that translates the client's source ports, please make sure that translated ports are opened between the network equipment and the SBC. 
+> [!NOTE]
+> If you have a network device that translates the client's source ports, please make sure that translated ports are opened between the network equipment and the SBC. 
 
 ### Requirements for using Transport Relays
 
@@ -258,7 +259,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 
 ### Office 365 and Office 365 GCC environments
 
--52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
 ## Office 365 GCC DoD environment
 
@@ -278,11 +279,12 @@ UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
 | UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478, 3479     |
 
 
-Note: Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:
-
-- v4, which can only work with port range 50 000 to 59 999
-
-- v6, which works with ports 3478, 3479
+> [!NOTE]
+> Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:
+> 
+> - v4, which can only work with port range 50 000 to 59 999
+> 
+> - v6, which works with ports 3478, 3479
 
 At this time, media bypass only supports v4 version of Transport Relays. We will introduce support of v6 in the future. 
 
@@ -297,7 +299,7 @@ The IP range for media traffic is
 
 ### Office 365 and Office 365 GCC environments
 
--52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
 ## Office 365 GCC DoD environment
 
@@ -311,8 +313,8 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
-| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 49 152 – 53 247     |
+UDP/SRTP | Media Processor | SBC | 3478, 3479 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478, 3479 and 49 152 – 53 247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
 
