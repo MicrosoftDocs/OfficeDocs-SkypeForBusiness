@@ -95,6 +95,7 @@ The following table highlights core capabilities and features offered in live ev
 |External access (federation) & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
 |Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
+|Share system audio on Windows (available only when screen sharing)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
 |Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
 |Auto publish recording to Stream |&#x274C; |&#x274C; |&#x2714; |
