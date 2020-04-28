@@ -33,7 +33,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for all teams that you're a member or owner of.
 
-    ![cross-team-and-per-team-analytics-cross-team.png](../media/view-analytics-cross-team.png)
+    ![Screenshot of cross-team analytics view](../media/view-analytics-cross-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -51,7 +51,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 4. Select a date range to show usage data for the team.  
 
-    ![cross-team-and-per-team-analytics-per-team.png](../media/view-analytics-per-team.png)
+    ![Screenshot of per-team analytics view](../media/view-analytics-per-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -70,7 +70,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for the channel.  
 
-    ![cross-team-and-per-team-analytics-per-team.png](../media/view-analytics-per-channel.png)
+    ![Screenshot of per-channel analytics view](../media/view-analytics-per-channel.png)
 
     |Item |Description  |
     |--------|-------------|
