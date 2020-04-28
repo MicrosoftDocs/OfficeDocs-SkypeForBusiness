@@ -30,7 +30,7 @@ The Tasks app brings a cohesive task management experience to Microsoft Teams, i
 
    ![Screenshot of list view of tasks on Teams list](media/manage-tasks-app-tasks.png)
 
-For organizations who want to streamline task management for Firstline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Firstline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [tasks publishing](#tasks-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+For organizations who want to streamline task management for Firstline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Firstline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
 ## What you need to know about Tasks
 
@@ -73,12 +73,12 @@ To pin the Tasks app for your users, you can edit the global (Org-wide default) 
 
 If you don't want users to see Personal lists, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
-## Tasks publishing
+## Task publishing
 
-With tasks publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
+With task publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.<br>
-    ![Screenshot of tasks publishing](media/manage-tasks-app-publish.png)
+    ![Screenshot of task publishing](media/manage-tasks-app-publish.png)
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
     ![Screenshot of assigning a task](media/manage-tasks-app-assign.png)
 - Firstline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
@@ -89,7 +89,7 @@ Users create, manage, and publish task lists on the **Published lists** tab in t
 
 ### Example scenario
 
-Here's an example of how tasks publishing works.
+Here's an example of how task publishing works.
 
 Contoso is rolling out a new food takeout and delivery promotion. To maintain a consistent brand experience, they need to coordinate consistent execution of the rollout across over 300 store locations.
 
@@ -103,7 +103,7 @@ Contoso headquarters and intermediate managers can view reporting to see the ass
 
 ### Set up your team targeting hierarchy
 
-To enable tasks publishing in your organization, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and the attributes used to filter and select teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communications Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive the task lists, and then publish the task lists to those teams.
+To enable task publishing in your organization, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and the attributes used to filter and select teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communications Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive the task lists, and then publish the task lists to those teams.
 
 For steps on how to set up your team targeting hierarchy, see [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md).
 
