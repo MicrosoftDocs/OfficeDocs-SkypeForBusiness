@@ -99,29 +99,29 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
  You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
 
-[!div class="has-no-wrap"]  
-| # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | Unique call identifier |
-| 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
-| 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
-| 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
-| 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
-| 6 | User Display Name | `nvarchar(128)` | Display name of the user |
-| 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
-| 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
-| 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
-| 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
-| 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
-| 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
-| 13 | Start Time | `datetimeoffset` | Call start time |
-| 14 | End Time | `datetimeoffset` | Call end time |
-| 15 | Duration Seconds | `int` | How long the call was connected |
-| 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
-| 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
-| 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Capability | `nvarchar(32)` | The license used for the call |
+> [!div class="has-no-wrap"]  
+> | # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
+> | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
+> | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
+> | 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
+> | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
+> | 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
+> | 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
+> | 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
+> | 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 13 | Start Time | `datetimeoffset` | Call start time |
+> | 14 | End Time | `datetimeoffset` | Call end time |
+> | 15 | Duration Seconds | `int` | How long the call was connected |
+> | 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
+> | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
+> | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19 | Capability | `nvarchar(32)` | The license used for the call |
 
 ### Exported Direct Routing usage report
 
