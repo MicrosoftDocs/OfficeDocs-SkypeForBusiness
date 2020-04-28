@@ -89,7 +89,7 @@ Here's an example of a schema CSV file that would be created to support the hier
 - Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
 - Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`
 
-The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
+The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above. They're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
 
 | TargetName             | ParentName                      | TeamID                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
