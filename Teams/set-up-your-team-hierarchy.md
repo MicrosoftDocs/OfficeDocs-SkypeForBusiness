@@ -19,7 +19,7 @@ appliesto:
 
 # Set up your team targeting hierarchy
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> **This feature is currently in private preview.**
 
 To create a hierarchy of teams that can be used by your organization to publish content to a large set of teams, you need to set up your team targeting schema. The schema defines how all the teams in your hierarchy are related to each other and the attributes that can be used to filter your teams. After you create the schema, you upload it to Teams and the hierarchy is applied throughout your organization. After the schema is uploaded, apps within the Teams client can use it. 
 

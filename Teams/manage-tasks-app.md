@@ -19,7 +19,7 @@ appliesto:
 
 # Manage the Tasks app for your organization in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> **This feature is currently in private preview.**
 
 ## Overview of Tasks
 
