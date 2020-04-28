@@ -39,7 +39,7 @@ You can implement policies in the following ways, which affect the meeting exper
 
 By default, a policy named Global (Org-wide default) is created. All users in your organization are assigned the Global meeting policy by default. You can either make changes to it or create one or more custom policies and assign users to them. Users will get the Global policy unless you create and assign a custom policy. When you create a custom policy, you can allow or prevent certain features from being available to your users, and then assign it to one or more users who will have the settings applied to them.
 -Note-
-Meeting details buttom will be aviliable if a user has the audioconference licenses enabled or the user is allow for audioconferencing, if not, the meeting details will not be aviliable
+Meeting details button will be availiable if a user has the audioconference licenses enabled or the user is allow for audioconferencing, if not, the meeting details will not be availiable
 ## Change or create a meeting policy
 
 To change or create a meeting policy, go to the Microsoft Teams admin center > **Meetings** > **Meeting policies**. Select a policy from the list or select **Add**. If you're creating a new policy, add a name and description. The name can't contain special characters or be longer than 64 characters. Choose your settings, and then select **Save**.
