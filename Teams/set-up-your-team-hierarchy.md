@@ -42,21 +42,21 @@ For example, in the following hierarchy, Recall, Retail Communications, and HR, 
 
 The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
-You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier to view, sort, and focus on relevant content.
+You can also define buckets, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier for them to view, sort, and focus on relevant content.
 
 ### Add required columns
 
-The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. At launch, we expect to support 10,000 nodes. We plan to work with customers to raise this limit for larger organizations.
+The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. At launch, we expect to support 2,000 nodes by default. We plan to work with customers to raise this limit for larger organizations.
 
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
 | TargetName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
 | ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
-| InternalID        | Yes, if the team receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
+| TeamID        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 ### Add attribute columns
 
-After you add the three required columns, you can add attribute columns. These attributes can be used to filter nodes so that you can more easily select the ones you want to publish tasks to. There are two ways to define your attributes, depending on whether values for that attribute are mutually exclusive.
+After you add the three required columns, you can add optional attribute columns. These attributes can be used to filter nodes so that you can more easily select the ones you want to publish tasks to. There are two ways to define your attributes, depending on whether values for that attribute are mutually exclusive.
 
 |Ways to add attributes|Description |Example  |
 |---|---------|---------|
@@ -66,37 +66,33 @@ After you add the three required columns, you can add attribute columns. These a
 When you add an attribute column, keep the following in mind:
 
 - The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
-- The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Column names must be unique.
+- The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
 - At launch, we plan to allow 50 attribute columns.
 
 ### Add bucket columns
 
-You can add bucket columns to create buckets, which are topics into which tasks can be organized. Each bucket gets its own column. The buckets you create are made available to the publishing team. The publishing team can then use these buckets to categorize tasks for the recipient teams. If a bucket doesn't already exist on a team, buckets are created on-demand when tasks are published.
+You can add bucket columns to create buckets, which are groupings into which tasks can be organized. Each bucket gets its own column in the CSV file. The buckets you create are made available to the publishing team. The publishing team can then use these buckets to categorize tasks for the recipient teams. If a bucket doesn't already exist on a team, buckets are created on-demand when tasks are published.
 
 By categorizing the work one time centrally, the publishing team can pre-organize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list. The recipient teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
 
-You can map buckets to standard channels of the team. (Mapping to private channels isn't supported at this time.) Whether or not you map buckets to channels of the team, published tasks are always created in a task list in the General channel of the recipient team. When you map a bucket to a channel, each channel will get the same task list added to that channel, but with a default filter to show only those buckets that are mapped to that channel. This entry point is intended to help users focus on the tasks relevant to the channel they're looking at.
-
 When you add a bucket column, note the following:
 
-- The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy. We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket after it's created though publishing.
+- The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy. We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
 - The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
-- You can map a bucket to only one channel. This means that each row can contain only one value for each bucket.
-- To map a bucket, enter the channel name in the field. If you leave a field blank, the bucket is mapped to the General channel by default. You can also enter **:::no-loc text="General":::** if you want to map to the General channel.
 - At launch, we expect to support 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 
 Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the following:
 
-- Three required columns named `TargetName`, `ParentName`, and `InternalID`
+- Three required columns named `TargetName`, `ParentName`, and `TeamID`
 - Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
 - Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`
 
-The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attributes can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
+The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above; they're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
 
-| TargetName             | ParentName                      | InternalID                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
+| TargetName             | ParentName                      | TeamID                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
 | Recall                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | Communications         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
@@ -114,11 +110,81 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 
 ## Apply your hierarchy
 
+> [!IMPORTANT]
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following PowerShell command:
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```
+
+## Remove your hierarchy
+
+> [!IMPORTANT]
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+
+If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new lists to publish, access draft lists, publish, unpublish, duplicate, and view reporting. ??? Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete. 
+
+To remove your hierarchy, run the following command:
+
+```powershell
+Remove-TeamTargetingHierarchy
+```
+
+### Teams Powershell module
+
+#### Install the latest Teams PowerShell module from the PowerShell Test Gallery
+
+The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.21) from the PowerShell Test Gallery.
+
+> [!NOTE]
+> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
+
+1. Close all existing PowerShell sessions.
+2. Start a new instance of the Windows PowerShell module.
+3. Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:
+
+    ```PowerShell
+    Uninstall-Module -Name MicrosoftTeams
+    ```
+
+4. Close all existing PowerShell sessions.
+5. Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:
+
+    ```PowerShell
+    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
+    ```
+
+6. Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:
+
+    ```PowerShell
+    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
+    ```
+
+7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
+
+    ```PowerShell
+    Get-Module -Name MicrosoftTeams
+    ```
+
+#### Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery
+
+If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.
+
+1. Close all existing PowerShell sessions.
+2. Start a new instance of the Windows PowerShell module.
+3. Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:
+
+    ```PowerShell
+    Update-Module -Name MicrosoftTeams -Force
+    ```
+
+4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
+
+    ```PowerShell
+    Get-Module -Name MicrosoftTeams
+    ```
 
 ## Troubleshooting
 
