@@ -79,7 +79,7 @@ If you're a small or medium-sized business (less than 300 users) who already has
 #### [**Enterprise**](#tab/enterprise/)
 
 For large sized businesses and enterprises (more than 300 people), there are two ways to get cloud voice features:
-- Enterprise E1 or E3 (and then add cloud voice features individually - OR -
+- Enterprise E1 or E3 (and then add cloud voice features individually 
 - Enterprise E5 (that includes cloud voice features).
 
 These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/en-us/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
@@ -96,8 +96,9 @@ These plans both include most Microsoft Teams features. However, if you want voi
 
 #### [**Education**](#tab/education/)
 
-For schools and other academic organizations, there are two ways to get Cloud Voice features.
-- Buy an EDU A1 or A3 (and then add cloud voice features individually - OR -
+For schools and other academic organizations, there are three ways to get cloud voice features.
+- Buy an EDU A1 or A3 with Microsoft 365 Business Voice.
+- Buy an EDU A1 or A3 (and then add cloud voice features individually 
 - Buy an EDU A5 (that includes cloud voice features).
 
 [!NOTE]
@@ -116,9 +117,10 @@ EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing
 
 #### [**Government**](#tab/government/)
 
-For government-based organizations (GCC only), there are two ways to get cloud voice features.
-- Buy a GOV G1 or G3 (and then add cloud voice features individually - OR -
-- Buy a GOV G5 (that includes cloud voice features).
+For government-based organizations (GCC only), there are three ways to get cloud voice features.
+- Buy an GOV G1 or G3 with Microsoft 365 Business Voice.
+- Buy an GOV G1 or G3 (and then add cloud voice features individually 
+- Buy an GOV G5 (that includes cloud voice features).
 
 [!NOTE]
 > Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
@@ -134,8 +136,9 @@ For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
-For nonprofit organizations, there are three ways to get cloud voice features but the option you choose will depend on the features you want and the price for buying your licenses.
-- Buy a small business plan specifically for nonprofit organizations and add the cloud voice features.
+For nonprofit organizations, there are four ways to get cloud voice features but the option you choose will depend on the features you want and the price for buying your licenses.
+- Buy a small business plan specifically for nonprofit organizations and then buy Microsoft 365 Business Voice.
+- - Buy a Nonprofit E1 or E3 plan and then buy Microsoft 365 Business Voice.
 - Buy a Nonprofit E1 or E3 plan (and then add cloud voice features individually)
 - Buy a Nonprofit E5 (that includes cloud voice features).
 
