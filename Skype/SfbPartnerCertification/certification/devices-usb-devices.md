@@ -27,10 +27,10 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 [Explore devices tested and certified for Microsoft Teams and Skype for Business.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-* For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 ## Device qualifications
-##### *Updated April, 2020*
+##### *Updated April 2020*
 
 |Manufacturer| Model	|Qualified|Certified Program|
 |:--- |:--- |:--- |:---|
@@ -305,21 +305,21 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 > [!NOTE]
 > **Announcing Certified for Microsoft Teams** <br/> Skype for Business certified peripherals will work with Microsoft Teams, but they will not be given Teams certification until they meet new requirements. In addition to the benefits of Skype for Business certified devices described later in this article, you will receive new benefits from a Certified for Microsoft Teams device include:
-> - User notification of events and alerts from the Teams client (e.g., meeting starting, voicemail or missed call)
+> - User notification of events and alerts from the Teams client (e.g., meeting starting, voicemail or missed call).
 > - Ability to activate the Teams client or respond to notification with a press of the button (e.g., to join a meeting).  
 >  
 >Certified for Microsoft Teams peripherals will include both new devices designed from the start for Microsoft Teams as well as some currently Certified for Skype for Business devices with most of the new functionality via a firmware update.
 
 ## End-User Experience
-- Automatic selection of default audio device and prioritization if multiple audio peripherals are present
-- Plug and play: once connected, a device registers on the Skype for Business client and is ready to use
+- Automatic selection of default audio device and prioritization if multiple audio peripherals are present.
+- Plug and play: once connected, a device registers on the Skype for Business client and is ready to use.
 - Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC andor a Mac devices  including at least with answer/hang-up, mute/unmute, and volume control.
-- Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio with no echo or distortion or glitches
-- Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view
+- Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio with no echo or distortion or glitches.
+- Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view.
 
 ## Administrator Experience
 - No provisioning required
-- Firmware and fixes  <br/>All devices support firmware update to allow new features and performance improvements
+- Firmware and fixes  <br/>All devices support firmware update to allow new features and performance improvements.
 
 All of these specifications apply equally for Lync 2013 and Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 
@@ -329,4 +329,4 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 
 ### Additional Resources
 Learn about [Skype for Business certification](overview.md).  
-Currently published [test specifications and tools](test-spec.md)
+Currently published [test specifications and tools](test-spec.md).
