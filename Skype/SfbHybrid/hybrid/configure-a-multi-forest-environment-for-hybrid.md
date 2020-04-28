@@ -123,7 +123,7 @@ AAD Connect should be installed using the defaults, except for the following:
     > [!NOTE]
     >  If you have only Exchange Online, there could be an issue with OAuth failures during autodiscover because of CNAME redirection. To correct this, you will need to set the Exchange Autodiscover URL by running the following cmdlet from the Skype for Business Server Management Shell:
     >
-    > ```
+    > ```powershell
     > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
     > ```
     
