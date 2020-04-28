@@ -121,7 +121,7 @@ The first row of the CSV contains column names.
 
 Exported file contains additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
-[!div class="has-no-wrap"]  
+  
 | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
 | :-: | :-: | :-: |:-------------------: |
 | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
