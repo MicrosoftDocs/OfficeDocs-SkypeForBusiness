@@ -132,9 +132,8 @@ For government-based organizations (GCC only), there are two ways to get cloud v
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
-***
-
 #### [**Nonprofit**](#tab/nonprofit/)
+
 For nonprofit organizations, there are three ways to get cloud voice features but the option you choose will depend on the features you want and the price for buying your licenses.
 - Buy a small business plan specifically for nonprofit organizations and add the cloud voice features.
 - Buy a Nonprofit E1 or E3 plan (and then add cloud voice features individually)
@@ -153,8 +152,6 @@ These plans both include most Microsoft Teams features. However, if you want voi
 > Direct Routing can also be used with Enterprise-based licensing.
 
 To learn more about nonprofit plans, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/en-us/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
-
-***
 
 #### [**Trial offers**](#tab/trial/)
 
