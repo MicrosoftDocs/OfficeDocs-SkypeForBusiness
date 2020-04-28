@@ -156,12 +156,6 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials. It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments and the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
 
 3. Uninstall the MSI from the VDI VM.
-
-    There are two ways to uninstall Teams:  
-  
-    - PowerShell script (recommended)
-
-    - Command line:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
