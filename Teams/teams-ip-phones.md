@@ -79,3 +79,5 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[Teams and Skype interoperability](teams-skype-interop.md)

@@ -87,7 +87,7 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 1. Sign in with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user from the list.
     
 3. Choose **Licenses and Apps**.
     
@@ -95,6 +95,9 @@ When you are setting up Communications Credits, you will need to investigate cal
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
+
+    > [!TIP]
+    > You can use [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) to assign licenses and apps to multiple users with one command.
   
 ## Want to know about plans and pricing?
 
