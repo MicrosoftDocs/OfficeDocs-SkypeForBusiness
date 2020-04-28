@@ -1,4 +1,4 @@
-Teams fully supports the following Internet browsers, with noted exceptions for calling and meetings.
+Teams fully supports the following Internet browsers, with noted exceptions for calling and meetings. This table applies to operating systems running on desktop computers. 
 
 
 |Browser  |Calling - audio, video, and sharing  |Meetings - audio, video, and sharing<sup>1</sup> <sup>2</sup>  |
@@ -15,4 +15,6 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 <sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
 
 > [!NOTE]
-> As long as an operating system can run the supported browser, Teams is supported. For example, running Firefox on the Linux operating system is an option for using Teams.
+> As long as an operating system can run the supported browser, Teams is supported on desktop computers. For example, running Firefox on the Linux operating system is an option for using Teams.
+>
+> For mobile operating systems, we recommend that you run the Teams app, available from the Android and iOS stores. Running Teams in a mobile operating system is supported, but many features are unavailable.
