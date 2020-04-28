@@ -46,7 +46,7 @@ You can also define buckets, which are categories that the publishing team can u
 
 ### Add required columns
 
-The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. At launch, we expect to support 2,000 nodes by default. We plan to work with customers to raise this limit for larger organizations.
+The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. During private preview, we support 500 nodes. At launch, we expect to support at least 2,000 nodes by default. We plan to work with customers to raise this limit for larger organizations.
 
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
