@@ -22,7 +22,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
-description: "Learn what Cloud  auto attendants are and how to use them."
+  - seo-marvel-apr2020
+description: Learn about Cloud auto attendants and how to use them to let callers move through a menu system to locate and place or transfer calls to users or departments.
 ---
 
 # What are Cloud auto attendants?

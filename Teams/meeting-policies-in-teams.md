@@ -21,7 +21,8 @@ ms.custom:
   - ms.teamsadmincenter.meetingpolicies.contentsharing
   - ms.teamsadmincenter.meetingpolicies.general
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Learn to manage meeting policy settings in Teams.
+  - seo-marvel-apr2020
+description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
 # Manage meeting policies in Teams
 
@@ -37,6 +38,9 @@ You can implement policies in the following ways, which affect the meeting exper
 |Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
 
 By default, a policy named Global (Org-wide default) is created. All users in your organization are assigned the Global meeting policy by default. You can either make changes to it or create one or more custom policies and assign users to them. Users will get the Global policy unless you create and assign a custom policy. When you create a custom policy, you can allow or prevent certain features from being available to your users, and then assign it to one or more users who will have the settings applied to them.
+
+> [!NOTE]
+> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available
 
 ## Change or create a meeting policy
 
@@ -132,7 +136,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
-- [Media bit rate (KBs)](#media-bit-rate-kbs)
+- [Media bit rate (Kbs)](#media-bit-rate-kbs)
 
 ### Allow transcription
 
@@ -164,7 +168,7 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 ### Allow IP video
 
-This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users’ meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
+This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
 ![Screenshot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
 
@@ -175,17 +179,17 @@ Let's look at the following example.
 |Daniela   | Global   | True        |
 |Amanda    | Location1MeetingPolicy        | False      |
 
-Meetings hosted by Daniela allow video to be turned on. Daniela can join the meeting and turn on video. Amanda can't turn on video in Daniela's meeting because Amanda’s policy is set to not allow video. Amanda can see videos shared by other participants in the meeting.
+Meetings hosted by Daniela allow video to be turned on. Daniela can join the meeting and turn on video. Amanda can't turn on video in Daniela's meeting because Amanda's policy is set to not allow video. Amanda can see videos shared by other participants in the meeting.
 
-In meetings hosted by Amanda, no one can turn on video, regardless of the video policy assigned to them. This means Daniela can't turn on video in Amanda’s meetings.  
+In meetings hosted by Amanda, no one can turn on video, regardless of the video policy assigned to them. This means Daniela can't turn on video in Amanda's meetings.  
 
-If Daniela calls Amanda with video on, Amanda can answer the call with audio only.  When the call is connected, Amanda can see Daniela’s video, but can't turn on video. If Amanda calls Daniela, Daniela can answer the call with video and audio. When the call is connected, Daniela can turn on or turn off her video, as needed.
+If Daniela calls Amanda with video on, Amanda can answer the call with audio only.  When the call is connected, Amanda can see Daniela's video, but can't turn on video. If Amanda calls Daniela, Daniela can answer the call with video and audio. When the call is connected, Daniela can turn on or turn off her video, as needed.
 
-### Media bit rate (KBs)
+### Media bit rate (Kbs)
 
-This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
+This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbs and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
-If there isn’t enough bandwidth for a meeting, participants see a message that indicates poor network quality.
+If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
@@ -215,7 +219,7 @@ Let's look at the following example.
 |Daniela  | Global   | Entire screen |
 |Amanda   | Location1MeetingPolicy  | Disabled |
 
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela’s meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda’s meetings.  
+Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda's meetings.  
 
 Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
