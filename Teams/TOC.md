@@ -57,7 +57,6 @@
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
-### [Manage the Tasks app for your organization](manage-tasks-app.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Manage your line-of-business apps](manage-your-lob-apps.md)
