@@ -23,10 +23,10 @@ ms.custom:
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 
-# Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online
+# Try or purchase Audio Conferencing in Microsoft 365 for Skype for Business Online
 
 > [!Note]
-> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
+> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Microsoft 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
 
 
 Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
@@ -37,7 +37,7 @@ For pricing info, see [Pricing for Audio Conferencing](https://products.office.c
 
 ## Step 1: Buy and assign Audio Conferencing licenses
 
-You must be an [About Office 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+You must be an [About Microsoft 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
 
 ### To buy and assign user Audio Conferencing licenses:
 
@@ -45,7 +45,7 @@ You must be an [About Office 365 admin roles](https://support.office.com/article
     
 2. Get your **Audio Conferencing** licenses. If you want to:
 
-   - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Try it** before you buy it, you can sign up for a Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
    - **Buy it**, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
