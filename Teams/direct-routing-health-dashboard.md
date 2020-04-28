@@ -50,7 +50,7 @@ Health Dashboard provides the following information related to overall health of
 
    The formula used to calculate NER is:
 
-   NER = Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures x 100
+   NER = 100 x (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures)/Total Calls
 
  
 - **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes.  However, for each company, this average can differ.  Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service is not performing reliably. 
