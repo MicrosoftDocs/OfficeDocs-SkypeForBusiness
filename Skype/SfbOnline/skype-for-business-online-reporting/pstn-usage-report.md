@@ -123,7 +123,7 @@ Exported file contains additional fields that are not available in the online re
 
 > [!div class="has-no-wrap"]  
 > | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
-> | :-: | :-: | :-: |:-------------------: |
+> | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
 > | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
