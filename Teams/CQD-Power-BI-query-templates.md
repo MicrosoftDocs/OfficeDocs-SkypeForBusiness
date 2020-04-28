@@ -25,7 +25,7 @@ New in January 2020: [Download Power BI query templates for CQD](https://github.
 
 For CQD reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
-Before you can use these PBIX files, you'll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Before you can use these PBIT files, you'll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 |  |  |
@@ -39,7 +39,7 @@ Before you can use these PBIX files, you'll need to [Install the Power BI Connec
 |CQD User Feedback (Rate My Call) Report.pbit     | Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.        |
 
 > [!TIP]
-> Once you've set up your Power BI reports for CQD data, add them as a tab to a channel. After you select **+** in a channel, select **Power BI** and then find your report. Remember, only people with a Power BI license and CQD admin credentials can access these reports.
+> Once you've set up your Power BI reports for CQD data, add them as a tab to a channel. After you select **+** in a channel, select **Power BI** and then find your report. To learn more, read [Embed report with the Power BI tab for Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Remember, only people with a Power BI license and CQD admin credentials can access these reports.
 
 
 ## Related topics
