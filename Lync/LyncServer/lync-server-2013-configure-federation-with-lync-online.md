@@ -38,7 +38,7 @@ Follow the steps in this section to configure interoperability between your on-p
 
 ## Configure Your On-Premises Edge Service for Federation with Skype for Business Online
 
-Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlets:
+Federation allows users in your on-premises deployment to communicate with Microsoft 365 or Office 365 users in your organization. To configure federation, run the following cmdlets:
 
    ```
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -56,7 +56,7 @@ Federation allows users in your on-premises deployment to communicate with Offic
 
 ## Configure Your Skype for Business Online Tenant for a Shared SIP Address Space
 
-A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address. Before you try to move Lync users from on-premises to Skype for Business Online, you’ll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment. If this is not configured, you may see the following error message:
+A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address. Before you try to move Lync users from on-premises to Skype for Business Online, you’ll need to configure your Office 365 organization to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment. If this is not configured, you may see the following error message:
 
 Move-CsUser : HostedMigration fault: Error=(510), Description=(This user’s tenant is not enabled for shared sip address space.)
 

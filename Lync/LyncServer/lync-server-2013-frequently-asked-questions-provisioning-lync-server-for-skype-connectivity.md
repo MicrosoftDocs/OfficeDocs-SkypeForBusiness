@@ -54,7 +54,7 @@ Once this change goes live, we will no longer be able to provide email updates o
 
   - Lync Server (2010 or 2013) plus Lync Server Standard Client Access Licenses (“CALs”; 2010 or 2013) for the users and/or devices in your organization that will connect to Skype. 
 
-  - Lync Online (as standalone licenses or as part of an Office 365 suite).  However, this service (pic.lync.com) is only for provisioning Lync Server and hybrid Lync Server and Lync Online deployments.  Lync Online PIC provisioning is done in Lync Online Control Panel (LOCP).
+  - Lync Online (as standalone licenses or as part of a Microsoft 365 suite).  However, this service (pic.lync.com) is only for provisioning Lync Server and hybrid Lync Server and Lync Online deployments.  Lync Online PIC provisioning is done in Lync Online Control Panel (LOCP).
 
 **Q: What must Lync end users do to connect to Skype contacts?**
 

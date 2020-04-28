@@ -48,7 +48,7 @@ The following tables compare the features and capabilities of Lync 2013 clients 
 
   - modern auth
 
-These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Office 365 users unless otherwise indicated.
+These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft 365 users unless otherwise indicated.
 
 <div>
 
@@ -329,7 +329,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Expand distribution groups and Office 365 Groups</p></td>
+<td><p>Expand distribution groups and Microsoft 365 Groups</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -444,9 +444,9 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Office 365 users, this feature is not available.
+2 For Skype for Business Online and/or Microsoft 365 users, this feature is not available.
 
 </div>
 
@@ -661,11 +661,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
 2 On-premises Lync Server 2013 and on-premises SharePoint 2013 is required for skill search.
 
-3 For Skype for Business Online and/or Office 365 users, Persistent Chat is not available.
+3 For Skype for Business Online and/or Microsoft 365 users, Persistent Chat is not available.
 
 </div>
 
@@ -1110,11 +1110,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
 2 Participants cannot control desktops that are shared by Skype for Business on Mac, Lync for Mac 2011, or Communicator for Mac 2011 users. Mac users can control desktops shared by Windows users.
 
-3 For Skype for Business Online and/or Office 365 users, this feature requires an audio conferencing provider.
+3 For Skype for Business Online and/or Microsoft 365 users, this feature requires an audio conferencing provider.
 
 4 The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Lync Web App 2013 client.
 
@@ -1412,11 +1412,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Office 365 users, this feature is available for PC to PC calls only.
+2 For Skype for Business Online and/or Microsoft 365 users, this feature is available for PC to PC calls only.
 
-3 For Skype for Business Online and/or Office 365 users, this feature is not available.
+3 For Skype for Business Online and/or Microsoft 365 users, this feature is not available.
 
 </div>
 
@@ -1500,9 +1500,9 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Office 365 users, this feature is not available.
+2 For Skype for Business Online and/or Microsoft 365 users, this feature is not available.
 
 </div>
 
@@ -1589,9 +1589,9 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, recording is unavailable in certain Skype for Business Online standalone plans. Recording requires full Lync 2013 client rights. For details, see the Skype for Business Online Service Description at [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430).
+1 For Skype for Business Online and/or Microsoft 365 users, recording is unavailable in certain Skype for Business Online standalone plans. Recording requires full Lync 2013 client rights. For details, see the Skype for Business Online Service Description at [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430).
 
-2 For Skype for Business Online and/or Office 365 users, recording of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
+2 For Skype for Business Online and/or Microsoft 365 users, recording of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
 
 </div>
 
@@ -1694,11 +1694,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Office 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Office 365 users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute.
+2 For Skype for Business Online and/or Microsoft 365 users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute.
 
-3 For Skype for Business Online and/or Office 365 users, archiving of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
+3 For Skype for Business Online and/or Microsoft 365 users, archiving of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
 
 </div>
 
