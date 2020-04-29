@@ -31,7 +31,7 @@ The PSTN Service Desk team currently has three email addresses for support, whic
 | **I want to transfer/port existing numbers..**  | **I want to order new numbers for..** |
 |:-----:|:------:|
 | [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|[**Outside the United States or Canada**: email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|[**Outside the United States or Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
 
 If you need assistance **transferring/porting your existing phone numbers to Microsoft Teams**, please include as many details as possible:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
