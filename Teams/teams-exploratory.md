@@ -93,7 +93,7 @@ A user who is assigned a license that includes Teams isn't eligible for the Team
 
 To turn off access to Teams:
 
-1. In the Microsoft 365 admin center, select **Users** > **Active users**.
+1. In the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), select **Users** > **Active users**.
 
 2. Select the box next to the name of the user.
 
