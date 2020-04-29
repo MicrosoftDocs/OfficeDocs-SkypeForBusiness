@@ -10,10 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Choose usage scenarios for the experiment phase of your Teams adoption.
+description: Learn how to choose the best applicable usage scenarios for the experiment phase of your Teams adoption.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -46,9 +48,9 @@ Think of this scenario modernization motion as a cumulative process – get thin
 
 To confirm the selection of these early projects we recommend meeting directly with the stakeholders you identified earlier in this process. Your goal at this point is to listen and learn additional information about their business. Consider the following questions to drive the conversation:
 
-- What are some of the organization’s challenges or pain points related to communication and collaboration?
+- What are some of the organization's challenges or pain points related to communication and collaboration?
 - What are the areas in which your organization would like to improve?
-- What are the organization’s strategic initiatives or current transformation projects that Teams can support?
+- What are the organization's strategic initiatives or current transformation projects that Teams can support?
 - What methods of communication and collaboration are typically better received by your organization than others?
 - What is the process for drafting, distributing, and sharing information?
 

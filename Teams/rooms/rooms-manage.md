@@ -13,12 +13,13 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: 
   - M365-collaboration
-description: "Management overview for Microsoft Teams Rooms."
+description: Learn about how to develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Management overview
 
-It’s essential that you develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users and deliver a great user experience. 
+It's essential that you develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users and deliver a great user experience. 
 
 ## Monitoring 
 
@@ -50,7 +51,7 @@ Using this guidance, you can create a simple-to-use dashboard to identify any is
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you'll use for email alerts.</li></ul>|
 |![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
 
 ## Quality and reliability monitoring (CQD)
@@ -72,7 +73,7 @@ Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise
 
 ## Troubleshooting
 
-We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
+We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local "smart hands" or IT support to investigate and reconnect the devices. 
 
 For more information about troubleshooting and admin mode, see [Admin mode and device management](rooms-operations.md#admin-mode-and-device-management). 
 

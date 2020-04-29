@@ -19,6 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
+  - seo-marvel-apr2020
 description: "Use this table to find information on getting and managing phone numbers in Canada for Microsoft Teams."
 ---
 
@@ -46,6 +47,5 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
 
 

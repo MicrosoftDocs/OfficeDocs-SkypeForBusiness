@@ -16,8 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Learn about integrating electronic healthcare records into Microsoft Teams using FHIR APIs on top of a medical information system to connect to Microsoft Teams.
-ms.custom: seo-marvel-mar2020
+description: Learn about integrating Electronic Healthcare Records into the Microsoft Teams Patients app using FHIR APIs.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
