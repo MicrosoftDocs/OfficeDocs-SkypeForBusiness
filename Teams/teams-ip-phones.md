@@ -44,10 +44,11 @@ The following phones are Certified for Microsoft Teams:
 |Audiocodes C448HD (CAP mode only) | C450HD_TEAMS_0.225 | March 2019|
 |Crestron M100|2.3875.00068|December 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
-|Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
+|Lenovo ThinkSmart View|CD-18781Y.200410.067|April 2020|
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
 |Poly CCX500 | 5.9.12.1111| December 2019|
+|Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
 |Yealink MP56| 122.15.0.6| March 2020|
 |Yealink VP59 | 91.15.0.16 |June 2019|
 |Yealink T55 | 58.15.0.36 |May 2019|
