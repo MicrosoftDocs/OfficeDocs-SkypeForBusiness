@@ -39,7 +39,7 @@ This article describes those attendee roles and what access they have to live ev
 Presenters and organizers include the following:
 
 - Presenters from my organization
-- Presenters from other organizations (Live Events restriction) - this includes anonymous and external attendees
+- Presenters from other organizations (Live Events restriction) - this includes anonymous and external attendees. Presenters are designated by the organizer and require a personal invite from the organizer.
 
 Presenters and organizers have access to every feature in a meeting or live event.
 
