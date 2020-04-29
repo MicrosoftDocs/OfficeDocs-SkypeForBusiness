@@ -84,7 +84,7 @@ You might also have two users: Ken Myer and Pilar Ackerman. Ken Myer has been as
 
 As you can see, Ken Myer is allowed to communicate with public IM providers. This is because the settings in the per-user policy assigned to him override the settings in the global policy. Pilar Ackerman cannot communicate with public IM providers. This is because she is managed by the global policy, and the global policy prohibits such communications.
 
-Per-user policies must be created for you by Office 365 Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
+Per-user policies must be created for you by Microsoft Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
 
     Identity : tag:AllowPublicIMCommunication
 
