@@ -237,7 +237,7 @@ Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfbla
 Skype for Business PowerShell command:
 
 ``` PowerShell
-Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
+Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool sippooldm21a05.infra.lync.com
 -SipAddressType EmailAddress
 ```
 
