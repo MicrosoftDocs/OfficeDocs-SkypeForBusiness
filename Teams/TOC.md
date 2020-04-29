@@ -676,7 +676,7 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
-## Support Teams in your organization(Known-issues.md)
+## [Support Teams in your organization](Known-issues.md)
 ## [Monitor and manage call quality](monitor-call-quality-qos.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Set up QoS in Teams](QoS-in-Teams.md)
