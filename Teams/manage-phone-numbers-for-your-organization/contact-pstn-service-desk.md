@@ -34,7 +34,7 @@ The PSTN Service Desk team currently has three email addresses for support, whic
 |[**Outside the United States or Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
 
 If you need assistance **transferring/porting your existing phone numbers to Microsoft Teams**, please include as many details as possible:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
   - What types of phone numbers you need assistance with (**User/Subscriber** or **Service/Toll/Toll-Free**).
   - Other important details based on your request.
   
