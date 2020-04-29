@@ -28,7 +28,8 @@ If you're responsible for supporting Teams in your organization, use the resourc
 
 Start by reviewing the most [common issues and resolutions](#common-issues-and-resolutions) list, below in this article.
 
-Then, if you don't find what you need, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) and search for your problem. 
+Then, if you don't find what you need, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) and search for your problem in the table of contents, or in the **Filter by title** box. 
+:::image type="content" source="media/known-issues1.png" alt-text="Screenshot of the table of contents and filter box on the Teams Troubleshooting page":::
 
 If you're still stuck, contact Microsoft Support(https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
