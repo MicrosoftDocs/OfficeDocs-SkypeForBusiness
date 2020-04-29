@@ -277,14 +277,6 @@
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
 
-### [Migrate to Direct Routing](direct-routing-migrating.md)
-
-### Monitor and troubleshoot Direct Routing
-#### [Overview](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
-### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Location-Based Routing
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
@@ -298,12 +290,14 @@
 #### [Plan for Local Media Optimization](direct-routing-media-optimization.md)
 #### [Configure Local Media Optimization](direct-routing-media-optimization-configure.md)
 
-### Monitor and troubleshoot Direct Routing
-#### [Overview](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
+
+### Monitor and troubleshoot Direct Routing
+#### [Overview](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+
 
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
