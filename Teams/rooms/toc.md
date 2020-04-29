@@ -25,7 +25,7 @@
 ## Manage
 ### [Management overview](rooms-manage.md)
 ### [Maintenance and operations](rooms-operations.md)
-### [Known issues](known-issues.md)
+### [Support Teams in your organization](known-issues.md)
 ### [Devices with Azure Monitor](azure-monitor-manage.md)
 ### [Settings with an XML file](xml-config-file.md)
 ### [Use the recovery tool](recovery-tool.md)
