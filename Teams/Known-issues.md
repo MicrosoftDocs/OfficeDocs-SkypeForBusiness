@@ -24,11 +24,14 @@ appliesto:
 
 # Support Microsoft Teams in your organization
 
-3 ways to support TEams
+If you're responsible for supporting Teams in your organization, use the resources in this article to help you. 
 
-1. Comon issues and resolutions below
-2. Teams Troubleshooting
-3. Contact Support
+Start by reviewing the most [common issues and resolutions](#common-issues-and-resolutions) list, below in this article.
+
+Then, if you don't find what you need, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) and search for your problem. 
+
+If you're still stuck, contact Microsoft Support(https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+
 
 ## Common issues and resolutions
 
@@ -56,4 +59,3 @@ appliesto:
 |---------|---------|
 |Your users are seeing a "You're missing out!" message.   |Be sure to [Enable Microsoft Teams for your school](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). In EDU tenants, Teams isn't enabled by default; you'll have to turn it on first. <br><br>Next, review [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) to learn the most up-to-date guidance on setting up your school, lesson planning, meeting virtually, and sharing content with students.<br><br>Finally, be sure to check out Microsoft Teams IT admin training videos, decks, and a lot more at [Admin training for Teams](itadmin-readiness.md).        |
 
-See [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) for more information about resolving issues with Microsoft Teams.
