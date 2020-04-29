@@ -14,10 +14,12 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom: 
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams.
+description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
 # Manage policy packages in Microsoft Teams
@@ -40,11 +42,12 @@ Teams currently includes the following policy packages.
 |Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
+|Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
+|Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
-|Small and medium business user (without Business Voice) |This policy package is designed to create a set of policies and apply those settings to small and medium sized business users without any Business Voice features.|
+|Small and medium business user (without Business Voice) |Creates a set of policies and policy settings that apply to small and medium sized business users without any Business Voice features.|
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
-|Healthcare (Clinical worker)  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
-|Healthcare (Information worker)  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
+
 
 
 > [!NOTE]

@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
+  - seo-marvel-apr2020
 description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. "
 ---
 
@@ -32,7 +33,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
   
 ## Step 1: Assign an Audio Conferencing or Calling Plan license to your users
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
+When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   
@@ -51,7 +52,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
   
 ## Step 2: Set up Communications Credits for your organization
 
-1. Sign in to the new Office 365 portal with your work or school account.
+1. Sign in to the new Microsoft 365 admin center with your work or school account.
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
@@ -84,7 +85,7 @@ When you are setting up Communications Credits, you will need to investigate cal
   
 ## Step 3: Assign a Communications Credits license to users
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
     

@@ -37,7 +37,7 @@ RealWear devices updated to release 10.5.0 or above. More information [here](htt
 
 ## Required Licenses
 
-Microsoft Teams licenses are part of Office 365 subscriptions. No additional licensing is required to use Teams for RealWear. For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+Microsoft Teams licenses are part of Microsoft 365 and Office 365 subscriptions. No additional licensing is required to use Teams for RealWear. For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
 ## Managing RealWear devices
 

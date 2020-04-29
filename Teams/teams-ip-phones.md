@@ -18,7 +18,8 @@ f1.keywords:
 ms.custom: 
   - Skype for Business Certification
   - dn947482
-description: "IP desk and conference phones certified for Microsoft Teams"
+  - seo-marvel-apr2020
+description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
 # IP Phones certified for Microsoft Teams
@@ -43,10 +44,11 @@ The following phones are Certified for Microsoft Teams:
 |Audiocodes C448HD (CAP mode only) | C450HD_TEAMS_0.225 | March 2019|
 |Crestron M100|2.3875.00068|December 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
-|Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
+|Lenovo ThinkSmart View|CD-18781Y.200410.067|April 2020|
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
 |Poly CCX500 | 5.9.12.1111| December 2019|
+|Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
 |Yealink MP56| 122.15.0.6| March 2020|
 |Yealink VP59 | 91.15.0.16 |June 2019|
 |Yealink T55 | 58.15.0.36 |May 2019|
@@ -65,7 +67,7 @@ See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#micros
 
 See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
-Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](/MicrosoftTeams/Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/MicrosoftTeams/Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

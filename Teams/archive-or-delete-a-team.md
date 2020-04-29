@@ -8,12 +8,13 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: Learn how to archive or permanently delete a team.
+description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -93,7 +94,7 @@ By default, a deleted Office 365 group is retained for 30 days. This 30-day peri
     Connect-AzureAD
     ```
     When you're prompted, sign in using your admin account and password.  
-2. Run the following to display a list of all soft-deleted Office 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
+2. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
