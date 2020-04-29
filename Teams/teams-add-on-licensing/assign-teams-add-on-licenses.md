@@ -69,7 +69,7 @@ Here's an example of how to use a script to assign licenses to your users.
     4. If you're prompted to install the module from PSGallery, type **Y**, and then press Enter.
 3. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where \<CompanyName:License> is your organization name and the identifier for the license that you want to assign. For example, litwareinc:MCOMEETADV.
 
-    The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product name and SKU identifiers for licensing](#product-name-and-sku-identifiers-for-licensing).
+    The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is MCOMEETADV. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -119,7 +119,7 @@ Here's an example of how to use a script to assign licenses to your users.
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
       ```
 
-## Product name and SKU identifiers for licensing
+## Product names and SKU identifiers for licensing
 
 Here's a partial list of product names and their corresponding SKU part names that you can use as a reference when you use PowerShell to manage licenses in Teams.
 

@@ -52,37 +52,35 @@ Depending on the voice features that you want, we recommend comparing whether it
 
 #### [**Small business**](#tab/small-business/)
 
-For small and medium sized businesses (less than 300 people), there are three ways to get cloud voice features:
-- Buy a small business license along with Microsoft 365 Business Voice.
-- Buy an Enterprise E1 or E3 license with Microsoft 365 Business Voice.
-- Buy an Enterprise E1 or E3 license but add on each cloud voice feature separately.
-- Buy an Enterprise E5 license that comes with cloud voice features.
+If you're a small or medium-sized business (less than 300 users), you have four ways to get voice features:
 
-If your an organization with less than 300 people, you can choose  [Microsoft 365 Business](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plans to chose from.
-- Microsoft Business Voice with a Calling Plan - OR -
-- Microsoft Business Voice without a Calling Plan (Direct Routing).
+- Buy a Microsoft 365 Business plan and Microsoft 365 Business Voice
+- Buy an Enterprise E1 or E3 plan and Microsoft 365 Business Voice
+- Buy an Enterprise E1 or E3 plan and add voice features individually
+- Buy an Enterprise E5 license, which includes voice features
 
-If you want all phone number management and billing for cloud voice features to be delivered from Microsoft, then you want to use **Business Voice with a Calling Plan**. If you already get your telephone service from another third party telephone provider, you would want to choose **Business Voice without a Calling Plan**. For this, you will need to set up and deploy Direct Routing to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365.
+For Microsoft 365 Business Voice, you have two options to choose from:
 
-[!NOTE]
-> Microsoft 365 Apps for enterprises can't be purchased and used with small business plans but Microsoft 365 Apps for businesses can be.
+- **Microsoft 365 Business Voice with a Calling Plan**: Get this if you want all phone number management and billing to be delivered by Microsoft.
+- **Microsoft 365 Business Voice without a Calling Plan (Direct Routing)**: Get this if you already get your telephone service from a third-party telephone provider. You'll need to set up and deploy Direct routing to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
 
 **Small business options for cloud voice**
 
   ![Small business plan options](../media/licensing-small-business-options.png)
 
+If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
+
 > [!NOTE]
 > Direct Routing can also be used with Enterprise-based licensing.
 
-If you're a small or medium-sized business (less than 300 users) who already has a Microsoft 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to move from that license and buy and assign a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
-
 #### [**Enterprise**](#tab/enterprise/)
 
-For large sized businesses and enterprises (more than 300 people), there are two ways to get cloud voice features:
-- Enterprise E1 or E3 (and then add cloud voice features individually 
-- Enterprise E5 (that includes cloud voice features).
+If you're a larger business or enterprise (more than 300 people), you have two ways to get voice features:
 
-These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/en-us/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
+- Buy an Enterprise E1 or E3 plan and add voice features individually
+- Buy an Enterprise E5 plan, which includes voice features
+
+These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
 
 [!NOTE]
 > Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
@@ -177,3 +175,16 @@ Need to talk to someone about the add-on options? [Contact support for business 
 - [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [Manage user access to Teams](../user-access.md)
 - [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+
+## Cast offs
+
+### Small business
+
+If you want all phone number management and billing for voice features to be delivered from Microsoft, get **Microsoft 365 Business Voice with a Calling Plan**. If you already get your telephone service from a third-party telephone provider, get **Business Voice without a Calling Plan**. For this, you'll need to set up and deploy Direct Routing to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
+
+> [!NOTE]
+> You can Microsoft 365 Apps for businesses but not Microsoft 365 Apps for enterprises with a Microsoft 365 Business plan.
+
+Get this if you want all phone number management and billing to be handled by Microsoft.<br>
+
+If you're a small or medium-sized business (less than 300 users) who already has a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
