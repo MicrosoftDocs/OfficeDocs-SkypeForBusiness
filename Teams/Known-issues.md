@@ -1,5 +1,5 @@
 ---
-title: Known issues for Microsoft Teams
+title: Support Microsoft Teams in your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,21 +10,25 @@ ms.collection:
   - M365-collaboration
 ms.custom:
   - seo-marvel-apr2020
-ms.reviewer: marcl
+ms.reviewer: marcl, 
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Use this list of known issues for the Microsoft Teams client app and admin experience to troubleshoot issues within your organization.
+description: Use these resources to support Microsoft Teams in your organization, whether you're the Teams admin or the Helpdesk support engineer.
 ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
 
-# Known issues for Microsoft Teams
+# Support Microsoft Teams in your organization
 
-This article lists the known issues for Microsoft Teams, by feature area.
+3 ways to support TEams
+
+1. Comon issues and resolutions below
+2. Teams Troubleshooting
+3. Contact Support
 
 ## Common issues and resolutions
 
