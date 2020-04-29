@@ -340,6 +340,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
 - Outgoing screen sharing:
+    - Screen sharing from chat is not supported.
     - Application sharing is not supported.
 - Give control and take control:  
     - Not supported during a screen sharing or application sharing session.
