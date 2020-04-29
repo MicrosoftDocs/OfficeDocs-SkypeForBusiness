@@ -27,7 +27,7 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 
 # PSTN Service Desk Contact
 
-The PSTN Service Desk team currently has 3 email addresses for support, which are presented in the following table:
+The PSTN Service Desk team currently has three email addresses for support, which are presented in the following table:
 | **I want to transfer/port existing numbers..**  | **I want to order new numbers for..** |
 |:-----:|:------:|
 | [**Inside the United States or Canada** email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
