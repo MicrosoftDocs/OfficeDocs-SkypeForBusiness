@@ -14,6 +14,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-voice
+search.appverid: MET150
 localization_priority: Normal
 description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
 ---
@@ -136,7 +137,7 @@ The minimum firmware version can be checked on the Teams sign-in page by choosin
 
 ## Required Licenses
 
-Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

@@ -1,5 +1,5 @@
 ---
-title: "Calling Plans for Office 365"
+title: "Calling Plans for Microsoft 365"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,10 +24,11 @@ ms.custom:
   - O365P_E5Voiceplandetails
   - Licensing
   - LIL_Placement
+  - seo-marvel-apr2020
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
 
-# Calling Plans for Office 365
+# Calling Plans for Microsoft 365
 
 Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
   
@@ -37,7 +38,7 @@ Here are the Calling Plans options:
     
 - **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Monthly minutes available for each organization and each country/region are located [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
 > [!IMPORTANT]
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.   

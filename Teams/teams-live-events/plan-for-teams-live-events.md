@@ -14,9 +14,10 @@ localization_priority: Priority
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-description: Learn about the factors to consider before you set up live events in Microsoft Teams.
+description: In this article, you will learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan for live events in Microsoft Teams
@@ -81,7 +82,7 @@ The following table highlights core capabilities and features offered in live ev
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
+|Maximum number of concurrent live events per Office 365 organization |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -94,6 +95,7 @@ The following table highlights core capabilities and features offered in live ev
 |External access (federation) & Guest presenters/attendees |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
 |Presenter – PSTN access |&#x274C; |&#x2714; (Teams) |N/A |
 |Present a screen |&#x274C; |&#x2714; (Teams) |N/A |
+|Share system audio on Windows (available only when screen sharing)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Present a PowerPoint (PPT sharing) |&#x2714; |&#x274C; (mitigated via screen sharing) |N/A |
 |Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
 |Auto publish recording to Stream |&#x274C; |&#x274C; |&#x2714; |
@@ -112,7 +114,7 @@ The following table highlights core capabilities and features offered in live ev
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
-> The region for the event is automatically selected depending on the organizer and the Office 365 organization.
+> The region for the event is automatically selected depending on the organizer and the Microsoft 365 or Office 365.
 
 **Available in these regions**
 

@@ -60,7 +60,7 @@ To get proper identity synchronization, the following attributes need to be sync
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-The [chosen account link attribute](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
+The [chosen account link attribute](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
   
 Do not sync the UPNs between the forests. We found during testing that we needed to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, we were presented with two possibilities, to synchronize the UPN or to not synchronize. 
   
@@ -68,9 +68,9 @@ Do not sync the UPNs between the forests. We found during testing that we needed
     
 - If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication. 
     
-## Create an Office 365 tenant
+## Create an Office 365 organization
 
-You will next need to provision an Office 365 tenant to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+You will next need to provision an Office 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
 
@@ -116,14 +116,16 @@ AAD Connect should be installed using the defaults, except for the following:
     
 3. Identify users in on-premises directories: Select **User identities exist across multiple directories**, and select the **ObjectSID** and **msExchangeMasterAccountSID** attributes.
     
-4. Identify users in Azure AD: Source Anchor: Select the attribute you've chosen after reading [Selecting a good sourceAnchor attribute](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), User Principal Name - **userPrincipalName**.
+4. Identify users in Azure AD: Source Anchor: Select the attribute you've chosen after reading [Selecting a good sourceAnchor attribute](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), User Principal Name - **userPrincipalName**.
     
 5.  Optional features: Select whether you have Exchange hybrid deployed.
     
     > [!NOTE]
     >  If you have only Exchange Online, there could be an issue with OAuth failures during autodiscover because of CNAME redirection. To correct this, you will need to set the Exchange Autodiscover URL by running the following cmdlet from the Skype for Business Server Management Shell:
-  
-    Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://<span>autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS Farm: Select **Use an existing Windows Server 2012 R2 AD FS farm** and enter the name of the AD FS server.
     
@@ -137,4 +139,3 @@ Follow the best practices for configuring Skype for Business hybrid. For more in
 
 If necessary, follow the best practices for configuring Exchange hybrid. For more information, see [Exchange Server Hybrid Deployments](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
-

@@ -9,20 +9,20 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
+description: learn about how Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer
 =======================================================
 
-The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
+The Microsoft Teams Commercial Cloud Trial offers existing Microsoft 365 or Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
 > [!IMPORTANT]
 > The Microsoft Teams Commercial Cloud Trial will be replaced by Microsoft Teams Exploratory beginning in January 2020. To learn about this new offer, read [Manage Teams Exploratory license](teams-exploratory.md).
@@ -50,7 +50,7 @@ The trial grants a one-year trial subscription to your entire organization. For 
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the trial](#manage-the-trial), later in this article. 
 
-Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.
+Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Microsoft 365 Apps for business (which doesn't include Teams), they are eligible for the trial.
 
 ## Who is not eligible
 

@@ -27,7 +27,7 @@ The new Skype for Business Admin Center **Reports** area shows you calling and a
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits)
+This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
@@ -39,7 +39,7 @@ This report, along with the other Skype for Business reports, gives you details 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
     
     > [!NOTE]
-    > Depending on the Office 365 subscription you have, you might not see all the products and reports that are shown here. 
+    > Depending on the Microsoft 365 or Office 365 subscription you have, you might not see all the products and reports that are shown here.
   
 ## Interpret the Skype for Business PSTN usage report
 
@@ -72,8 +72,9 @@ This is what the report looks like.
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (an inbound PSTN call to the UC application such as auto attendant or call queue) 
      *    **ucap_out** (an outbound PSTN call from the UC application such as auto attendant or call queue)
-     *    **Note:** Calls that were transferred to a user from the UC application such as an auto attendant or call queue will not appear in the PSTN usage report as these call legs are peer to peer (P2P) audio calls. You may access the P2P calls in the Skype for Business Admin Center under "Tools > Skype for Business Call Analytics" and search by User Name or SIP address correlating the call by date/time and/or originating CLID (calling line ID). 
-*     
+         > [!NOTE]
+         > Calls that were transferred to a user from the UC application such as an auto attendant or call queue will not appear in the PSTN usage report as these call legs are peer to peer (P2P) audio calls. You may access the P2P calls in the Skype for Business Admin Center under "Tools > Skype for Business Call Analytics" and search by User Name or SIP address correlating the call by date/time and/or originating CLID (calling line ID). 
+
      **Domestic/International** tells you whether the call that was placed was considered domestic (within a country/region) or international (outside of a country/region) based on the user's location. 
 *    **Destination dialed** is the name of the country/region destination that is dialed such as France, Germany, or the United States (U.S.). 
 *    **Number type** is the type of phone number that is from a user's phone number, a service or toll-free number.  
@@ -120,28 +121,29 @@ The first row of the CSV contains column names.
 
 Exported file contains additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
-| #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | Unique call identifier |
-| 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
-| 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
-| 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
-| 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
-| 6 | User Display Name | `nvarchar(128)` | Display name of the user |
-| 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
-| 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
-| 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
-| 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
-| 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
-| 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
-| 13 | Start Time | `datetimeoffset` | Call start time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 14 | End Time | `datetimeoffset` | Call end time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 15 | Duration Seconds | `int` | How long the call was connected |
-| 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
-| 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
-| 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Capability | `nvarchar(32)` | The license used for the call |
+> [!div class="has-no-wrap"]  
+> | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
+> | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
+> | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
+> | 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
+> | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
+> | 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
+> | 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
+> | 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
+> | 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 13 | Start Time | `datetimeoffset` | Call start time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 14 | End Time | `datetimeoffset` | Call end time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 15 | Duration Seconds | `int` | How long the call was connected |
+> | 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
+> | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
+> | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19 | Capability | `nvarchar(32)` | The license used for the call |
 
     
 ## Want to see other Skype for Business reports?

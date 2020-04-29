@@ -13,11 +13,12 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: How to turn on and manage meeting recording in Microsoft Teams.
+description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams cloud meeting recording
@@ -28,7 +29,7 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 
 ## Prerequisites for Teams cloud meeting recording
 
-For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
+For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
 - User needs to be licensed for Microsoft Stream<sup>1</sup> 
@@ -49,7 +50,7 @@ This section explains how you can set up and plan for recording Teams meetings.
 
 ### Turn on Microsoft Stream for users in the organization
 
-Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Office 365 Business Premium, and Office 365 Business Essentials.
+Microsoft Stream is available as part of eligible Microsoft 365 and Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Microsoft 365 Business Standard, and Microsoft 365 Business Basic.
 
 Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 

@@ -4,7 +4,7 @@ ms.topic: hub-page
 title: Instructor-led training and videos for users
 ms.reviewer: dearbeen
 manager: serdars
-description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -12,9 +12,10 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
+search.appverid: MET150
 ms.custom: 
  - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers

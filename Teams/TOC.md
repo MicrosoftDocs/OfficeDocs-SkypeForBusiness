@@ -43,7 +43,7 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [Manage tags in Teams](manage-tags.md)
-## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [View analytics in Teams](teams-analytics-and-reports/view-analytics.md)
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
@@ -58,10 +58,12 @@
 ### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
-### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
+### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Manage your line-of-business apps](manage-your-lob-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Tasks app for your organization](manage-tasks-app.md)
+### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Communicate with external users
@@ -143,10 +145,10 @@
 ## Audio conferencing
 ### [Plan your deployment](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
+### [Audio Conferencing in Microsoft 365](audio-conferencing-in-office-365.md)
 ### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
-### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Try or purchase Audio Conferencing in Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 ### [Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit](audio-conferencing-subscription-dial-out.md)
 
@@ -274,14 +276,6 @@
 #### [How to use analog devices with Direct Routing](direct-routing-analog-devices.md)
 
 
-### [Migrate to Direct Routing](direct-routing-migrating.md)
-
-### Monitor and troubleshoot Direct Routing
-#### [Overview](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
-### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Location-Based Routing
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
@@ -295,12 +289,14 @@
 #### [Plan for Local Media Optimization](direct-routing-media-optimization.md)
 #### [Configure Local Media Optimization](direct-routing-media-optimization-configure.md)
 
-### Monitor and troubleshoot Direct Routing
-#### [Overview](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
+
+### Monitor and troubleshoot Direct Routing
+#### [Overview](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+
 
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
@@ -717,7 +713,7 @@
 ### [Use Network Planner for Teams](network-planner.md)
 ### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+### [Plan for Microsoft 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
 ### [Use the Network Testing Companion](use-network-testing-companion.md)
@@ -730,7 +726,7 @@
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
 ### [How Microsoft Teams uses memory](teams-memory-usage-perf.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Microsoft 365 and Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### [Teams client updates](teams-client-update.md)
@@ -738,12 +734,12 @@
 
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
+### [Microsoft 365 and Office 365 licensing for Teams](office-365-licensing.md)
 ### [Assign Teams licenses](assign-teams-licenses.md)
 ### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### License options based on your plan
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
+##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +749,20 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Manage the free version of Teams](manage-freemium.md)
-### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
+### [Upgrade Teams free to subscription version](upgrade-freemium.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Virtual User license](teams-add-on-licensing/virtual-user.md)
 
 
-## Interoperability with Office 365
+## Interoperability with Microsoft 365 and Office 365
 
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [Microsoft 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Microsoft 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
 #### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
 #### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## Supported devices
@@ -899,6 +895,6 @@
 ## Accessibility and conformance
 ### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
-### [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Calling plans in Microsoft 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

@@ -15,8 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
-ms.custom: seo-marvel-mar2020
+description: Learn how to configure one Session Border Controller (SBC) to serve multiple tenants for Microsoft partners and/or PSTN carriers.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure a Session Border Controller for multiple tenants
@@ -75,7 +75,7 @@ Subdomains **MUST** match the FQDN name of the trunk that will be configured for
 
 When a call arrives at the Office 365 Direct Routing interface, the interface uses the Contact header to find the tenant where the user should be looked up. Direct Routing does not use phone number lookup on the Invite, as some customers might have non-DID numbers that can overlap in several tenants. Therefore, the FQDN name in the Contact header is required to identify the exact tenant to look up the user by the phone number.
 
-*Please review  [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about creating domain names in Office 365 tenants.*
+*Please review  [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about creating domain names in Office 365 organizations.*
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
@@ -114,8 +114,8 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 ### Add a base domain to the tenant and verify it
 
-1.    In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
-2.    In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
+1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
+2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
     ![Screenshot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
 
@@ -124,8 +124,8 @@ For more information about admin roles and how to assign a role in Office 365, s
 
     ![Screenshot showing confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    Click **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and click **Next**.
-6.    On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
+5. Click **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and click **Next**.
+6. On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
 
     ![Screenshot showing domains with status of Setup complete](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -133,7 +133,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 After you have registered a domain name, you need to activate it by adding at least one E1, E3, or E5 licensed user and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. 
 
-*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
+*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 organizations.*
 
 For example: test@customers.adatum.biz
 
@@ -195,7 +195,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant.
 
-*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
+*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 organizations.*
 
 For example: test@sbc1.customers.adatum.biz
 
@@ -222,7 +222,7 @@ Two new entities were introduced:
 
 -    Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
 -    In the customer tenant, the carrier need only to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
--     The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
+-    The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 Examples:
 -    Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 -    Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that does not need to be created in PowerShell.  You can simply add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.

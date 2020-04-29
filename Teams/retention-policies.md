@@ -1,13 +1,13 @@
 ---
 title: Retention policies in Microsoft Teams 
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: Learn about retention policies and how to create and manage them in Teams.
+description: In this article, you will learn about retention policies and how to create and manage them in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -16,15 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Retention policies in Microsoft Teams
 
 Retention policies help you to more effectively manage the information in your organization. Use retention policies to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs, and to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value.
 
-By default, Teams chat, channel, and files data are retained forever. As an admin, you can set up Teams retention policies for chat and channel messages and decide proactively whether to retain the data, delete it, or retain it for a specific period of time and then delete it.
+By default, Teams chat, channel, and files data are retained forever, unless there is an attempt to delete the content via retention policies, user deletes, admin deletes etc. As an admin, you can set up Teams retention policies for chat and channel messages and decide proactively whether to retain the data, delete it, or retain it for a specific period of time and then delete it.
 
-You create and manage retention policies for Teams and other workloads in the [Office 365 Security & Compliance Center](https://protection.office.com/) or by using the Security & Compliance Center PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams.
+You create and manage retention policies for Teams and other workloads in the [Microsoft 365 Compliance Center](https://protection.office.com/) or by using the Security & Compliance Center PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams.
 
 > [!NOTE]
 > We don't yet support configuration for retention of private channel messages. Retention of files shared in private channels is supported.
@@ -118,7 +119,7 @@ To create a retention policy for Teams chats and channel messages, do the follow
         ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Teams chats and channel messages aren't affected by retention policies applied to user or group mailboxes in the **Exchange email** or **Office 365 groups** locations. Even though Teams chats and channel messages are stored in Exchange, they're only affected by retention policies applied to the Teams locations.
+      > Teams chats and channel messages aren't affected by retention policies applied to user or group mailboxes in the **Exchange email** or **Microsoft 365 groups** locations. Even though Teams chats and channel messages are stored in Exchange, they're only affected by retention policies applied to the Teams locations.
 
 6. Review your settings, and then when you're ready, select **Create this policy**.
 
@@ -155,7 +156,7 @@ To create and manage Teams retention policies by using [Office 365 Security & Co
 
 The following are known issues for retention policies in Teams that are being tracked and investigated.
 
-- Under **Choose teams** in the **Teams channel messages** location row, you may see Office 365 Groups that aren't also Teams. This will be addressed in the future.
+- Under **Choose teams** in the **Teams channel messages** location row, you may see Microsoft 365 Groups that aren't also Teams. This will be addressed in the future.
 
 - Under **Choose users** in the **Teams chats** location row, you may see guests and non-mailbox users. Retention policies aren't meant to be set for guests, and we're working to remove these from the list.
 

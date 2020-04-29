@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online."
+description: Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online and Skype for Business Server on-premises.
 ---
 
 # Deploy Microsoft Teams Rooms with Exchange Online
@@ -96,7 +96,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
      ``` -->
 
 2. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account. You'll make the assignment in a following step.
-3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Office 365 tenant.
+3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Office 365 organization.
 4. Once you list out the SKUs, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -150,7 +150,7 @@ For validation, you should be able to use any Skype for Business client to log i
 > [!IMPORTANT]
 > If you're using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Meeting Room license.
   
-## See also
+## Related topics
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 

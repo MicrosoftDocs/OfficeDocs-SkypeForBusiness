@@ -12,12 +12,12 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use inline translation in Microsoft Teams.
+description: Learn how to turn on inline translation in Microsoft Teams using the Microsoft Teams admin center or PowerShell.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
-  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

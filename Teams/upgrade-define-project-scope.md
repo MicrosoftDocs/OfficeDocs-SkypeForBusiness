@@ -7,14 +7,14 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Scope your upgrade project by refining your vision and goals. 
+description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
  - Teams-upgrade-guidance
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -88,7 +88,7 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 |---|---|---|---|---|
 | **Network and quality** | Percentage of poor audio calls should be minimal | [Call Quality Dashboard (CQD)](https://aka.ms/sof-cqd) | \<3% of poor calls with Teams | Weekly, then monthly |
 | **Usage and awareness** | The chat, meetings, and calling experience is equal to or better than Skype for Business | Survey | 80% agree or strongly agree | Weekly through pilot, post-rollout |
-| **Usage and adoption** | Users actively use the solution | Office 365 reports or CQD | 90% participation from pilot users, better than the current solution | Weekly, then monthly |
+| **Usage and adoption** | Users actively use the solution | Microsoft 365 reports or CQD | 90% participation from pilot users, better than the current solution | Weekly, then monthly |
 | **Usage and training** | I had adequate training/help resources to successfully use Teams | Post-pilot survey | 80% agree or strongly agree | Post-pilot, post-rollout |
 | **User satisfaction** | I would recommend Teams to others | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) via post-pilot survey | NPS \> 0 | Post-pilot, post-rollout |
 | **Business driver** | Cost savings | Accounts Payable | \$X million cost expenditure in third-party solutions | Six months, then one year, then five years post-rollout |
