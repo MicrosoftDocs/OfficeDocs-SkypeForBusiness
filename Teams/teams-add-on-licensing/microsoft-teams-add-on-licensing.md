@@ -105,9 +105,6 @@ To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education
 
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
 
-> [!NOTE]
-> Direct Routing can also be used with Enterprise-based licensing.
-
 #### [**Government**](#tab/government/)
 
 For US government organizations (GCC only), there are three ways to get voice features.
@@ -124,9 +121,6 @@ Here's a summary of the add-on options available to US government organizations 
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
-> [!NOTE]
-> Direct Routing can also be used with Enterprise-based licensing.
-
 #### [**Nonprofit**](#tab/nonprofit/)
 
 If you're a nonprofit organization, you have four ways to get voice features. 
@@ -141,9 +135,6 @@ Here's a summary of the add-on options available to nonprofit organizations base
   ![Nonprofit-based options](../media/licensing-np-options.png)
 
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
-
-> [!NOTE]
-> Direct Routing can also be used with Enterprise-based licensing.
 
 #### [**Trial offers**](#tab/trial/)
 
