@@ -22,9 +22,9 @@ f1keywords:
 
 Managed Meeting Rooms is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
 
-Managed Meeting Rooms is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Room devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
+Managed Meeting Rooms is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
 
-The Managed Meeting Rooms service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. Additionally, Managed Meeting Rooms leverages Microsoft's operational expertise in supporting thousands of rooms across hundreds of customers across the globe, strong partnerships with stakeholders of the room ecosystem, and global footprint. Managed Meeting Rooms can accommodate any pace of growth an organization may require.
+The Managed Meeting Rooms service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. Managed Meeting Rooms helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
 
 ## Service capabilities
 
@@ -44,15 +44,15 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 
 ## Service features
 
-Here's a summary of important features the Managed Meeting Rooms service provides to support the capabilities.
+Here's a summary of important features the Managed Meeting Rooms service provides to support the above capabilities.
 
 |Feature  |Description  |
 |---------|---------|
 |**Inventory management**   |Room inventory tracking with a bulk export option that lists room devices, peripherals, makes, and models.         |
 |**Room enrollment**   |Easy onboarding with self-enrollment of room devices to the Managed Meeting Rooms service.          |
-|**Room administration**     |Customer portal for managed service capabilities, insights, administrative settings and room group management.         |
-|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring - automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Managed Meeting Rooms portal.|
-|**Troubleshooting and remediation**     |Automated diagnostics and auto remediation where applicable. Managed Meeting Rooms SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
+|**Room administration**     |Customer portal for managed service capabilities, insights, administrative settings, and room group management.         |
+|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring. Automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Managed Meeting Rooms portal.|
+|**Troubleshooting and remediation**     |Automated diagnostics and auto-remediation where applicable. Managed Meeting Rooms SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
 |**Update management**   |Automated meeting application and firmware update orchestration based on customer configurable deployment rings         |
 |**Insights and recommendations**   |Usage, incidents, health, and overall reporting (historical views)         |
 
