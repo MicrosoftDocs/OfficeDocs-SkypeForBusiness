@@ -149,7 +149,11 @@ If you encounter any additional errors outside of this scope, please notify the 
 
 **<sup>2</sup>** The login credentials you use for CQD *do not* need to be the same credentials you use for logging into the Power BI Desktop app itself.
 
+## Frequently asked questions
 
+### When will the Power BI Connector be updated from "Beta" status?
+
+Despite the Beta tag, the Call Quality Connector for Power BI is the release version of the connector and has been officially security signed by the Power BI team to reflect this. The certification process to remove that Beta tag is an extensive one and requires a commitment from the Power BI team to provide direct support to the connector as well. Due to time constraints, the Power BI team is currently unable to provide that support and broader certification, but is still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector.
 
 ## Related topics
 
