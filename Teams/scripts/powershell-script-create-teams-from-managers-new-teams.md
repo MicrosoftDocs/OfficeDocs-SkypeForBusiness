@@ -11,6 +11,7 @@ description: Use this PowerShell script to create a team for each manager with t
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
