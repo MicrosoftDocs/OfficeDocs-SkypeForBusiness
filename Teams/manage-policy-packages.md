@@ -45,7 +45,7 @@ Teams currently includes the following policy packages.
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel,
 informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-|Healthcare patient room (Preview)  |This policy package is designed to create a set of policies and apply those settings to patient rooms in your healthcare organization.|
+|Healthcare patient room (preview)  |Createw a set of policies and applies those settings to patient rooms in your healthcare organization.|
 |Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
 |Small and medium business user (without Business Voice) |Creates a set of policies and policy settings that apply to small and medium sized business users without any Business Voice features.|
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
