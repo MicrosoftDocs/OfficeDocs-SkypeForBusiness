@@ -1,0 +1,51 @@
+---
+title: Teams voice Contoso case study
+author: CarolynRowe
+ms.author: crowe
+manager: serdars
+ms.date: 01/28/2019
+ms.topic: article
+ms.service: msteams
+audience: admin
+ms.collection: 
+  - M365-voice
+ms.reviewer: crowe
+search.appverid: MET150
+f1.keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords:
+- NOCSH
+description: Teams voice case study for multi-national corporation
+appliesto: 
+  - Microsoft Teams
+---
+
+# Overview
+
+To gain an understanding of audio conferencing--what it is, what it costs, availability, and how it works--Contoso reviewed [Audio Conferencing in Office 365](deploy-audio-conferencing-teams-landing-page).  
+
+For audio conferencing, Contoso leveraged phone numbers that are well known within the organization as well as externally. Because Contoso wanted to maintain these numbers where possible, they reviewed the information on assigning dedicated and shared phone numbers to the audio conferencing bridge. 
+
+Based on their research, Contoso made the following decisions: 
+
+- Only a segment of the population that regularly host audio conferencing calls would receive Audio Conferencing licenses 
+
+- Contoso would leverage dedicated phone numbers and port their existing numbers for use with Audio Conferencing.   
+
+Because Contoso users were leveraging Skype for Business and all users mailboxes reside online, many users have existing meetings scheduled. Contoso read [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) to learn that existing meetings are updated automatically for Contoso when they change the end user to TeamsOnly mode.  
+
+
+## Configure 
+
+Phone numbers that are associated with audio conferencing are referred to as service numbers within Phone System. 
+
+- For locations using Calling Plans, to port their existing phone numbers from their phone carrier to Office 365, Contoso followed the steps in [Getting service phone numbers](getting-service-phone-numbers.md).
+
+- For locations using Direct Routing, the number is not ported to Phone System, but is assigned as a service number for audio conferencing. 
+
+- To assign the Audio Conferencing license to the end user in the technical pilot, the Contoso administrator followed the steps in [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md). 
+
+- For the business pilot and velocity migration, Contoso leveraged group-based licensing by following the steps in [Assign licenses to users by group membership in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  
+
+ 
+
+ 

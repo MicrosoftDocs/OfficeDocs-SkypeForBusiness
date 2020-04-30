@@ -24,38 +24,47 @@ appliesto:
 
 # Overview
 
-In Office 365, calling plan user is automatically enabled for emergency calling. Contoso reviewed the Emergency Calling Overview to get an understanding of the availability of emergency calling and terminology related to emergency calling: Emergency Address, Place, Emergency Location, and Registered address. 
+To understand the availability of emergency calling and terminology related to emergency calling--Emergency Address, Place, Emergency Location, and Registered address--Contoso reviewed [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
- The Contoso calling plan users In the United States, can leverage dynamic locations for routing emergency calls as outlined in Emergency Calling Overview. Contoso has offices outside of the United States with calling plan users and sites that are connected to Phone System via direct routing. Contoso needed a way to provide emergency calling to their Calling plan users in the United States, Calling plan users outside of the United states, and users at sites enabled for Direct Routing.  
+In Office 365, a Calling Plan user is automatically enabled for emergency calling. But only Calling Plan users in the United States can leverage dynamic locations for routing emergency calls. 
 
-Once the decision was made on how Contoso will connect to the Office 365 Phone system, Contoso identified the following Emergency calling use cases: 
+For Direct Routing, Contoso learned that additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service Provider (ERSP) (United States) OR configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application.
 
-- Calling Plan user in the United States 
+Contoso has offices in the United States and outside of the United States:
 
-- Calling Plan user outside of the United States 
+- In the United States, Contoso Calling Plan users can leverage dynamic locations for routing emergency calls. 
 
-- User who connects to Phone System through Direct Routing 
+- Outside of the United States, Contoso has some sites that leverage Calling Plans and some sites that are connected to Phone System through Direct Routing.
+
+## Emergency calling use cases
+
+After deciding how Contoso will connect to Phone system, Contoso identified the following Emergency calling use cases: 
+
+- [Calling Plan user in the United States](#calling-plan-user-in-the-united-states) 
+
+- [Calling Plan user outside of the United States](#calling-plan-user-outside-of-the-united-states)
+
+- [User who connects to Phone System through Direct Routing](#user-who-connects-to-phone-system-through-direct-routing )
 
 
-## Calling plan user in the United States  
+### Calling Plan user in the United States  
 
-There are requirements for when the phone number needs to be associated with an emergency location.  Contoso reviewed the Considerations for Calling plans that discusses the requirements.  Based on the requirements the below decisions were made.  
+There are requirements for when the phone number needs to be associated with an emergency location.  Contoso reviewed the Considerations for Calling Plans that discusses the requirements.  Based on the requirements the below decisions were made.  
 
 Decision: Contoso will associate the location with the telephone number when a number is assigned to a user in the United States  - - 
 
-## Calling plan user outside of the United States 
+### Calling Plan user outside of the United States 
 
-There are requirements for when the phone number needs to be associated with an emergency location.  Contoso reviewed the Considerations for Calling plans that discusses the requirements.  Based on the requirements the below decisions were made.  
+To understand when a phone number needs to be associated with an emergency location, Contoso reviewed  [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans). Based on the requirements, Contoso decided the following:  
 
-Decision: Contoso will associate the location with the telephone number when a number is assigned to a user in Canada 
+-  Contoso will associate the location with the telephone number when a number is assigned to a user in Canada. 
 
-Decision: Contoso will assign an emergency location when the phone number is acquired from Office 365 or when a number is transferred from another service provider or carrier 
+- Contoso will assign an emergency location when the phone number is acquired from Office 365 or when a number is transferred from another service provider or carrier. 
 
-## User that connect to the phone system with direct routing 
+### User who connects to Phone System through Direct Routing 
 
-Contoso reviewed the Considerations for Direct Routing to plan for emergency routing for this use case. Since Direct Routing users do not receive emergency calling in the same manner as calling plan users, decisions need to be made on how to provide emergency calling.  There is the ability to have Direct Routing connected to an Emergency Routing Service Provider (ERSP) and also the ability to have a SBC that includes an Emergency Location Identification Number.   
-
-### Emergency Routing Service Provider (ERSP) considerations
+To plan for emergency routing for this use case, Contoso reviewed [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing). Because Direct Routing users do not receive emergency calling in the same manner as Calling Plan users, Contose had to decide on how to provide emergency calling. There is the ability to have Direct Routing connected to an Emergency Routing Service Provider (ERSP) and also the ability to have a SBC that includes an Emergency Location Identification Number (ELIN).   
+#### Emergency Routing Service Provider (ERSP) considerations
 
 The Emergency Routing Service Providers (ERSPs) can automatically route emergency calls based upon the location of the caller.  
 
@@ -66,24 +75,21 @@ The Emergency Routing Service Providers (ERSPs) can automatically route emergenc
 - 
 - From <https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing>  
 
-### ELIN 
+#### ELIN considerations
 
 If an SBC ELIN application is integrated into a Direct Routing deployment, additional configuration steps need to occur to associate the emergency addresses with telephone numbers.  
 
-
 Decision: Contoso will leverage Session Border Controllers that include Emergency Location Identification Number (ELIN) applications.  
 
-### Security desk notification: 
+## Security desk notification: 
 
 The ability to notify the security desk when an emergency call is placed is available for both Microsoft Calling Plans and Phone System Direct Routing. Contoso reviewed the details in the Security desk notification to determine if this should be configured at their offices  
 
 Decision: Contoso will use security desk notification 
 
+## Configuration of emergency calling
 
-
-## Configuration of ememrgency calling
-
-Contoso followed the steps in Configure dynamic emergency calling to: 
+Contoso followed the steps in [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) to: 
 
 - Assign emergency addresses 
 
@@ -97,10 +103,12 @@ Contoso followed the steps in Configure dynamic emergency calling to:
 
 - Test emergency calling 
 
-Once the dynamic emergency calling is configured, it is necessary to assign the location to the appropriate user.  
+After dynamic emergency calling is configured, Contoso needed to assign the location to the appropriate user.  
 
-Contoso followed the steps in Add, change, or remove and emergency location for your organization to create places for buildings, floors, and offices. 
+- To add, change, or remove an emergency location for your organization, Contoso followed the steps in [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 
-Contoso followed the steps in Assign or change an emergency location for a user to assign an emergency location. 
+- To create places for buildings, floors, and offices, Contoso followed the steps in [Add, change, or remove a place for an emergency location](add-change-remove-emergency-place-organization.md) . 
+
+- To assign an emergency location, Contoso followed the steps in [Assign or change an emergency location for a user](assign-change-emergency-location-user.md). 
 
  
