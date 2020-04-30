@@ -22,7 +22,7 @@ appliesto:
 
 - [Plan Direct Routing](direct-routing-plan.md) 
 
-# Overview
+# Contoso case study: Emergency calling
 
 To understand the availability of emergency calling and terminology related to emergency calling--Emergency Address, Place, Emergency Location, and Registered address--Contoso reviewed [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
@@ -55,7 +55,7 @@ Decision: Contoso will associate the location with the telephone number when a n
 
 ### Calling Plan user outside of the United States 
 
-To understand when a phone number needs to be associated with an emergency location, Contoso reviewed  [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans). Based on the requirements, Contoso decided the following:  
+To understand when a phone number needs to be associated with an emergency location, Contoso reviewed  [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans.md). Based on the requirements, Contoso decided the following:  
 
 -  Contoso will associate the location with the telephone number when a number is assigned to a user in Canada. 
 
@@ -63,7 +63,7 @@ To understand when a phone number needs to be associated with an emergency locat
 
 ### User who connects to Phone System through Direct Routing 
 
-To plan for emergency routing for this use case, Contoso reviewed [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing). Because Direct Routing users do not receive emergency calling in the same manner as Calling Plan users, Contose had to decide on how to provide emergency calling. There is the ability to have Direct Routing connected to an Emergency Routing Service Provider (ERSP) and also the ability to have a SBC that includes an Emergency Location Identification Number (ELIN).   
+To plan for emergency routing for this use case, Contoso reviewed [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing.md). Because Direct Routing users do not receive emergency calling in the same manner as Calling Plan users, Contose had to decide on how to provide emergency calling. There is the ability to have Direct Routing connected to an Emergency Routing Service Provider (ERSP) and also the ability to have a SBC that includes an Emergency Location Identification Number (ELIN).   
 #### Emergency Routing Service Provider (ERSP) considerations
 
 The Emergency Routing Service Providers (ERSPs) can automatically route emergency calls based upon the location of the caller.  
@@ -71,9 +71,7 @@ The Emergency Routing Service Providers (ERSPs) can automatically route emergenc
 - If an Emergency Routing Service Provider is integrated into a Direct Routing deployment, emergency calls with a dynamically acquired location will be automatically routed to the Public Safety Answering Point (PSAP) serving that location. 
 
 - Emergency calls without a dynamically acquired location are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center based upon the updated location. 
-- 
-- 
-- From <https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing>  
+
 
 #### ELIN considerations
 
@@ -87,7 +85,7 @@ The ability to notify the security desk when an emergency call is placed is avai
 
 Decision: Contoso will use security desk notification 
 
-## Configuration of emergency calling
+## Configuration 
 
 Contoso followed the steps in [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) to: 
 
