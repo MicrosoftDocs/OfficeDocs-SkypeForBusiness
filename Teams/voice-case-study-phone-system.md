@@ -24,20 +24,16 @@ appliesto:
 
 # Overview
 
-In adoption of the Office 365 Phone System, Contoso had to decide the sites that would leverage calling plans, the sites that leverage Direct Routing, and the sites that will leverage both Direct Routing and calling plans.  
-
-In adoption of the Office 365 Phone System, Contoso had to decide the sites that would leverage calling plans, the sites that leverage Direct Routing, and the sites that will leverage both Direct Routing and calling plans.  
-
- 
-Contoso leveraged Microsoft telephony solutions and Ignite 2019 session Calling in Microsoft Teams to determine the right solution for their organization.  
+In adoption of Microsoft Phone System, Contoso had to decide on which sites would leverage the following solutions:
 
 - Phone System with Calling Plan 
 
 - Phone System with own PSTN carrier with Direct routing 
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier with Direct Routing 
-
  
+Contoso leveraged Microsoft telephony solutions and Ignite 2019 session Calling in Microsoft Teams to determine the right solution for their organization.  
+
 
 Contoso had offices that were entirely on Skype for Business Enterprise voice, some offices that were leveraging a traditional legacy telephony system, and other sites that had some users on Skype for Business Enterprise Voice and others on traditional legacy telephony systems. 
 
