@@ -99,7 +99,7 @@ The following table summarizes the Teams experience for both Islands mode and Te
 | Incoming chats and calls received in:|  Teams or Skype for Business | Teams |
 | PSTN calls received in: | Skype for Business <br>(Using PSTN functionality in Teams is not supported in Islands mode.)     | Teams |   
  |Presence    | Presence in Skype for Business and Teams is independent. Users may see different states for the same Islands user, depending on which client they use. | Presence is based solely on the user's activity in Teams. All other users, regardless of which client they use, see that presence. | 
- | Meeting Scheduling    | Users can schedule meetings in either Teams or Skype for Business. They will see both add-ins in Outlook.    |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
+ | Meeting scheduling    | Users can schedule meetings in either Teams or Skype for Business. By default, they will see both add-ins in Outlook. You can set a Teams meeting policy to control which add-in is available to users. To learn more, see [Set whether users in Islands mode can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins](Teams-add-in-for-Outlook.md#set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins). |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
 
 The following table summarizes the pros and cons of using the overlapping capabilities method to migrate your organization to Teams.
 
