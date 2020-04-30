@@ -123,6 +123,8 @@ You can use Teams live events in multiple regions across the world. The followin
 - Asia Pacific
 - Data location for Canada, India, Australia, Japan, UK
 
+For more detailed information by country, see [Media Services availability by region](https://azure.microsoft.com/global-infrastructure/services/?products=media-services).
+
 **Exclusions and considerations**
 
 - **Data location:** Teams data locations, outside of the ones listed above, are not currently supported.
