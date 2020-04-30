@@ -52,7 +52,7 @@ Before you can look at audit data, you have to first turn on auditing in the [Se
 
 ## Tips for searching the audit log
 
-Here are tips for searching for [Teams activities](#audited-teams-activities) in the audit log.
+Here are tips for searching for [Teams activities](#teams-activities) in the audit log.
 
 ![Screenshot of audit log search page](media/audit-log-search-page.png)
 
