@@ -19,41 +19,39 @@ appliesto:
   - Microsoft Teams
 ---
 
-
-- [Plan Direct Routing](direct-routing-plan.md) 
-
 # Overview
 
-The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security,migration from Skype for Business to Teams, Phone System, and Audio Conferencing.  
+This article introduces a case study for how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization.
 
-The overall goal of Contoso for Microsoft 365 Enterprise is to accelerate their digital transformation by using cloud services to bring together its employees, partners, data, and processes to create customer value and maintain its competitive advantage in a digital-first world. 
+The Contoso Corporation is a representative global manufacturing conglomerate with its headquarters in Paris, France. The overall goal of Contoso is to accelerate their digital transformation by using cloud services to bring together its employees, partners, data, and processes to create customer value and maintain its competitive advantage in a digital-first world. 
 
-For details on how Contoso...   see all the core Contoso articles starting with the [Contoso Overview](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-overview?view=o365-worldwide).
+Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security, migration from Skype for Business to Teams, Phone System, and Audio Conferencing.  
+
+The articles in the Teams library focus on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about Contoso, see all the core articles starting with the [Contoso Overview](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-overview?view=o365-worldwide). 
 
 You'll find information on the following:  
 
-- [Contoso's IT infrastructure needs](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-infra-needs?view=o365-worldwide)
-- [Networking](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-networking?view=o365-worldwide)
-- [Identity](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-identity?view=o365-worldwide)
-- [Windows 10 Enterprise](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-win10?view=o365-worldwide)
-- [Office 365 Pro Plus](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-o365pp?view=o365-worldwide)
-- [Mobile device management](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-mdm?view=o365-worldwide)
-- [Information protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-info-protect?view=o365-worldwide)
-- [Summary of Microsoft 365 Enterprise security](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-security-summary?view=o365-worldwide)
-- [Team for a top-secret project](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-team-for-top-secret-project?view=o365-worldwide)
-- [SharePoint Online site for highly confidential digital assets](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-sharepoint-online-site-for-highly-confidential-assets?view=o365-worldwide)
-- 
+- [Contoso's IT infrastructure needs](https://docs.microsoft.com/microsoft-365/enterprise/contoso-infra-needs?view=o365-worldwide)
+- [Networking](https://docs.microsoft.com/microsoft-365/enterprise/contoso-networking?view=o365-worldwide)
+- [Identity](https://docs.microsoft.com/microsoft-365/enterprise/contoso-identity?view=o365-worldwide)
+- [Windows 10 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/contoso-win10?view=o365-worldwide)
+- [Office 365 Pro Plus](https://docs.microsoft.com/microsoft-365/enterprise/contoso-o365pp?view=o365-worldwide)
+- [Mobile device management](https://docs.microsoft.com/microsoft-365/enterprise/contoso-mdm?view=o365-worldwide)
+- [Information protection](https://docs.microsoft.com/microsoft-365/enterprise/contoso-info-protect?view=o365-worldwide)
+- [Summary of Microsoft 365 Enterprise security](https://docs.microsoft.com/microsoft-365/enterprise/contoso-security-summary?view=o365-worldwide)
+- [Team for a top-secret project](https://docs.microsoft.com/microsoft-365/enterprise/contoso-team-for-top-secret-project?view=o365-worldwide)
+- [SharePoint Online site for highly confidential digital assets](https://docs.microsoft.com/microsoft-365/enterprise/contoso-sharepoint-online-site-for-highly-confidential-assets?view=o365-worldwide)
 
 
-These articles focus on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice.  Contose decided on the following business goals:
+## Contoso business goals for Teams
 
+To migrate their on-premises users to Teams for unified communication, collaboration, and voice, Contoso decided on the following business goals:
 
-
-- Teams Enablement 
+- Teams enablement 
 
   Contoso's unified communication and collaboration team enabled Teams with the correct policies to govern and enable secure internal and external collaboration. 
 
-- Skype for Business to Teams Migration 
+- Skype for Business to Teams migration 
 
   Skype for Business was widely deployed within Contoso. With the need to get off of legacy systems, Contoso decided to migrate their Skype for Business users to Teams. 
 
@@ -61,9 +59,9 @@ These articles focus on how Contoso migrated their on-premises users to Teams fo
 
   Skype for Business with enterprise voice was widely deployed within Contoso. With the need to get off of legacy systems that were the next hop for their mediation servers, Contoso migrated their Skype for Business enterprise voice users to Phone System. Sites leveraged Microsoft Calling Plan, Phone System Direct Routing, or a combination of both. 
 
-- Location Based Routing 
+- Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the location based routing that was present in Skype for Business in Phone System.
+  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in Teams Phone System.
 
 - Emergency Calling 
 
@@ -75,17 +73,21 @@ These articles focus on how Contoso migrated their on-premises users to Teams fo
 
 - Local Media Optimization 
 
-  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Office 365 Phone System that was leveraged by remote sites.  -
+  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Office 365 Phone System that was leveraged by remote sites.  
 
-In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they set up hybrid connectivity, and moved the Teams-enabled users to Skype for Business Online. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
+## Migration plan from Skype for Business to Teams
 
-Contoso followed Migration and interoperability guidance for organizations using Teams together with Skype for Business and attended the Ignite 2019 session Designing your path from Skype for Business to Teams to understand the following:
+In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and **move the Teams-enabled users to Skype for Business Online (??)**. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
+
+**QUESTION:  DOES THIS MEAN THEY ARE USING THE OVERLAPPING CAPABILITIES METHOD OR THE SELECT CAPABILITIES METHOD?  WE SHOULD USE THE SAME TERMINOLOGY AS THE CORE DOCS**
+
+Contoso read the following articles--[Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) to understand the following:
 
 - Fundamental concepts such as interop, federation, and upgrade behavior 
 
 - Coexistence modes and management based on TeamsUpgradePolicy 
 
-- End user experience for 
+- End user experience for: 
 
   - Chat and Calling 
 
@@ -93,19 +95,16 @@ Contoso followed Migration and interoperability guidance for organizations using
 
   - Availability of collaboration functionality in Teams clients 
 
- 
+To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
+[Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
+ [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity.md) to understand how to: 
 
-Contoso decided to: 
+  - Configure their on-premises environment service to federate with Office 365. 
 
-- Follow Configure Skype for Business Hybrid to: 
+  - Configure their on-premises environment to trust Office 365 and enable shared SIP address space with Office 365 
 
-  - Configure on-premises environment service to federate with Office 365 
+  - Enable shared SIP address space in their Office 365 tenant.
 
-  - Configure on-premises environment to trust Office 365 and enable on-premises environment to enable shared SIP address space 
+  - Leverage Islands mode during the technical pilot.
 
-  - Enable shared Sip address space in your Office 365 tenant 
-
-  - Leverage islands mode during the technical pilot 
-
-  - Switch users over to Teams Only mode once the user is enabled for Phone System. Teams only mode is required for direct routing and calling plan. 
-  - 
+  - Switch users over to Teams Only mode once the user is enabled for Phone System. Teams Only mode is required for  Calling Plan and Direct Routing. 

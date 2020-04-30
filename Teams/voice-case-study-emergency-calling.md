@@ -20,8 +20,6 @@ appliesto:
 ---
 
 
-- [Plan Direct Routing](direct-routing-plan.md) 
-
 # Contoso case study: Emergency calling
 
 To understand the availability of emergency calling and terminology related to emergency calling--Emergency Address, Place, Emergency Location, and Registered address--Contoso reviewed [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).

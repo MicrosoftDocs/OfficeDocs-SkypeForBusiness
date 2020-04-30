@@ -20,9 +20,7 @@ appliesto:
 ---
 
 
-- [Plan Direct Routing](direct-routing-plan.md) 
-
-# Overview
+# Contoso case study: Phone System
 
 In adoption of Microsoft Phone System, Contoso had to decide on which sites would leverage the following solutions:
 
