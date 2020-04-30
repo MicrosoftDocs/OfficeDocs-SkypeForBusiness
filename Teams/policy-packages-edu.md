@@ -87,15 +87,11 @@ If you're part of a large educational institute, using the Microsoft Teams admin
 
 SCREEN SHOT SLIDE 6
 
-## Using policy packages to quickly assign predefined policies to your users
+## Policy packages in Microsoft Teams
 
 A policy package in Teams collects predefined policies and policy settings that you created as outlined above, and assigns them to users with similar roles in your institution. Policy packages simplify, streamline, and help provide consistency when managing policies. In normal practice, you assign each of your users a policy package, and  redefine the policies in each package as needed to suit the needs of that user group. When you update settings in a package, all users assigned to that package are changed as a bulk update.
 
 Educational institutions in general have many users with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your educational institute community.
-
-### What is a policy package?
-
-Policy packages let you control Microsoft Teams features that allow or restrict Microsoft Teams use for  specific sets of people in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role.
 
 Just like the policy list earlier in this article, policy packages predefine policies for:
 
@@ -139,11 +135,11 @@ Once you have all users in the institution sorted into groups and have packages 
 
 See [Manage policy packages in Microsoft Teams](manage-policy-packages.md) for step by step guidance on assigning single users a package, assigning packages in bulk to up to 20 users, and managing and updating the policies linked to each package.
 
-## What policy packages should be assigned for student safety?
+## Policy packages that should be assigned for student safety
 
 ### Meeting policies
 
-TWO SCREENS HERE FROM SLIDE 8.
+TWO SCREENS HERE FROM SLIDE 8, PLACEMENT.
 
 
 
