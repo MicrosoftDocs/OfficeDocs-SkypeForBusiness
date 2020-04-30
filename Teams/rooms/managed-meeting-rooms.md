@@ -104,7 +104,7 @@ Managed Meeting Rooms is available in the following countries and regions.
 - The Netherlands
 - New Zealand
 - Norway
-- Portual
+- Portugal
 - Spain
 - Sweden
 - Switzerland
@@ -117,17 +117,17 @@ Managed Meeting Rooms is available in the following countries and regions.
 |What's included |What's excluded |Support channels for excluded items  |
 |---------|---------|---------|
 |**Service configuration**   |         |         |
-|Investigation and guidance for Microsoft Teams Room Windows configuration including Microsoft Teams Room app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration     |Any third-party software configurations and investigations that aren't directly part of the Microsoft Teams Room app. Also, any OEM-specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings         |Third-party standard support channels         |
+|Investigation and guidance for Microsoft Teams Room Windows configuration including Microsoft Teams Room app settings, first-party network configuration, first-party software setup, and recommended power settings and configuration.     |Any third-party software configurations and investigations that aren't directly part of the Microsoft Teams Room app. Also, any OEM-specific configurations that require configuration outside of first-party windows, or Microsoft Teams Room app settings.         |Third-party standard support channels         |
 |**Room account setup**    |         |         |
-|Direction to available documentation for room account setup at request. For sign-in or account configuration issues, initial investigation are performed.     |Execution of recommended remediation or issues with executing recommended remediation, configuration of third-party authentication providers, and configuration of individual-account feature         |Microsoft mainstream support and third-party authentication provider support         |
+|Direction to available documentation for room account setup at request. For sign-in or account configuration issues, initial investigation is performed.     |Execution of recommended remediation or issues with executing recommended remediation, configuration of third-party authentication providers, and configuration of individual-account features .        |Microsoft mainstream support and third-party authentication provider support         |
 |**Peripheral support**    |         |         |
 |Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers.    |Issues that aren't resolved by applying standard configurations or that involve a third-party application.         |OEM support         |
 |**RMA and device replacement**   |         |         |
 |Initial investigations are performed for certified peripherals such as cameras, microphones, and speakers. Handoff to OEM support is performed for the OEM to fulfill the replacement or warranty request.    |Procurement, shipping, or installation of replacements.         |OEM support         |
 |**Root cause analysis**     |         |         |
-|All root causes for issues encountered in the meeting room experience are provided when available but are performed on an as-able basis.     |Root cause analysis for third party software issues isn't included.         |Third-party standard support channels         |
+|All root causes for issues encountered in the meeting room experience are provided when available but are performed on an as-able basis.     |Root cause analysis for third-party software issues isn't included.         |Third-party standard support channels         |
 |**Meeting experience**   |         |         |
-|Investigating issues within the meeting settings on Microsoft Teams Room app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network related issues are excluded from this scope.         |Microsoft mainstream support         |
+|Investigating issues within the meeting settings on Microsoft Teams Room app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network-related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
 |Customers receive guidance to bring their rooms to standards that are recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Managed Meeting Rooms aren't in scope.          |         |
 
