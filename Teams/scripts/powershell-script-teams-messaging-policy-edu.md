@@ -11,6 +11,7 @@ description: Use this PowerShell script to create a messaging policy in Teams an
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
