@@ -136,6 +136,10 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
 
+## Office 365 Management Activity API
+
+You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
+
 ## Related topics
 
 - [Search the audit log in the Microsoft 365 Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
