@@ -10,6 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn to use the PowerShell controls for managing Microsoft Teams, including how PowerShell cmdlets are structured.
