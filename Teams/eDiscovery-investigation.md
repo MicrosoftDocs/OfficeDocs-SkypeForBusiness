@@ -34,9 +34,9 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 
 | Content type | eDiscoverable | Notes |
 |:--- | --- |:--- |
-| Teams chat messages | Yes | Chat messages from chats where guest users are the only participants in a 1:1 or 1:N chat are not eDiscoverable. |
+| Teams chat messages | Yes |  |
 | Audio recordings | No | |
-| Private channel messages | No | |
+| Private channel messages | Yes | |
 | Emojis, GIFs, stickers | Yes | |
 | Code snippets | No | |
 | Chat links | Yes | |
