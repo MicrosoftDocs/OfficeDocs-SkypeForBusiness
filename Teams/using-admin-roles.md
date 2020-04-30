@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
