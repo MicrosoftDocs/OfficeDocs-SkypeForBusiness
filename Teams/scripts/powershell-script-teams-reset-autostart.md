@@ -11,6 +11,7 @@ description: Use this PowerShell script to reset the autostart setting in Teams 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
