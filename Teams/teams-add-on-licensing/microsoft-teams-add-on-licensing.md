@@ -59,14 +59,14 @@ If you're a small or medium-sized business (less than 300 users), you have four 
 - Buy an Enterprise E1 or E3 plan and add voice features individually
 - Buy an Enterprise E5 plan, which includes voice features
 
+Here's a summary, based on licensing plan.
+
+  ![Small business plan options](../media/licensing-smallbusiness-options.png)
+
 For Microsoft 365 Business Voice, you have two options to choose from:
 
 - **Microsoft 365 Business Voice with a Calling Plan**: Get this if you want all phone number management and billing to be handled by Microsoft.
 - **Microsoft 365 Business Voice without a Calling Plan (Direct Routing)**: Get this if you want all phone number management and billing to be handled by your third-party telephone provider. You'll need to set up and deploy [Direct Routing](../direct-routing-landing-page.md) to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
-
-Here's a summary of the add-on options available to small and medium-sized business (less than 300 users) based on licensing plan.
-
-  ![Small business plan options](../media/licensing-small-business-options.png)
 
 If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
@@ -80,9 +80,9 @@ If you're a large business or enterprise organization (more than 300 users), you
 - Buy an Enterprise E1 or E3 plan and add voice features individually
 - Buy an Enterprise E5 plan, which includes voice features
 
-For E1 and E3 plans, if you want voice features like Audio Conferencing and Phone System, you can add them individually. Or, you can get an E5 plan, which includes most Teams features, including voice features. To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
-Here's a summary of the add-on options available to large businesses and enterprise organizations (more than 300 users) based on licensing plan.
+Here's a summary, based on licensing plan.
 
   ![Enterprise-based plan options](../media/licensing-enterprise-options.png)
 
@@ -97,10 +97,9 @@ For schools and other academic organizations, you have three ways to get voice f
 - Buy an EDU A1 or A3 plan and add voice features individually
 - Buy an EDU A5 plan, which includes voice features
 
-Here's a summary of the add-on options available to schools and academic organizations based on licensing plan.
+Here's a summary, based on licensing plan.
 
-  ![EDU plan options](../media/licensing-edu-options.png)
-
+  ![EDU plan options](../media/licensing-education-options.png)
 
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
@@ -117,11 +116,11 @@ For US government organizations (GCC only), there are three ways to get voice fe
 - Buy a GOV G1 or G3 plan and add cloud voice features individually
 - Buy a GOV G5 plan, which includes voice features
 
-To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
+To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
-Here's a summary of the add-on options available to US government organizations based on licensing plan.
+Here's a summary, based on licensing plan.
 
-  ![Gov-based options](../media/licensing-gov-options.png)
+  ![Gov-based options](../media/licensing-government-options.png)
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
@@ -137,9 +136,9 @@ If you're a nonprofit organization, you have four ways to get voice features.
 - Buy a Nonprofit E1 or E3 plan and add cloud voice features individually
 - Buy a Nonprofit E5, which includes cloud voice features
 
-Here's a summary of the add-on options available to nonprofit organizations based on licensing plan.
+Here's a summary, based on licensing plan.
 
-  ![Nonprofit-based options](../media/licensing-np-options.png)
+  ![Nonprofit-based options](../media/licensing-nonprofit-options.png)
 
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
@@ -186,6 +185,8 @@ If you're a small or medium-sized business (less than 300 users) who already has
 ### Enterprise
 
 These plans both include most Microsoft Teams features. However, if you want voice features like audio conferencing and voice calling, you will need to add them on separately. Or, you can purchase an Enterprise E5 license that includes a long list of features including Cloud Voice. To see more, [Enterprise E5 features](https://www.microsoft.com/microsoft-365/enterprise-e5-business-software?activetab=pivot%3aoverviewtab).
+
+For E1 and E3 plans, if you want voice features like Audio Conferencing and Phone System, you can add them individually. Or, you can get an E5 plan, which includes most Teams features, including voice features. 
 
 [!NOTE]
 > Microsoft 365 Apps for enterprise can also be purchased and then you can add cloud voice features.
