@@ -25,9 +25,9 @@ In the decision to migrate from Skype for Business to Teams, Contoso wanted to p
 
 **QUESTION:  Does this mean they are using the overlapping capabilities method?  Or the select capabilities method?  (I don't like these names, but we should use the same terminology as the core docs.)**
 
-Contoso read the following articles--[Upgrade from Skype for Business to Teams â€” for IT administrators](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) to understand the following:
+To understand fundamental concepts about migration, Contoso read the following articles--[Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). Contoso learned about:
 
-- Fundamental concepts such as interop, federation, and upgrade behavior 
+- Fundamental concepts such as interoperability, federation, and upgrade behavior 
 
 - Coexistence modes and management based on TeamsUpgradePolicy 
 
@@ -35,13 +35,13 @@ Contoso read the following articles--[Upgrade from Skype for Business to Teams â
 
   - Chat and Calling 
 
-  - Meeting Scheduling 
+  - Meeting scheduling 
 
   - Availability of collaboration functionality in Teams clients 
 
 To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
-[Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
- [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity.md) to understand how to: 
+[Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
+ [Configure hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to: 
 
   - Configure their on-premises environment service to federate with Office 365. 
 

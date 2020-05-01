@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Contoso case study: Voice overview
+# Contoso case study: Teams overview
 
 This article introduces a case study for how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization.
 

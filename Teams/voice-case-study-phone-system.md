@@ -24,9 +24,11 @@ appliesto:
 
 Depending on geographic location and other factors, Contoso had offices using the following telephony solutions:
 
-- [Site Type A: Skype for Business Enterprise Voice](#site-type-a:-skype-for-business-enterprise-voice)
-- [Site Type B: Traditional legacy telephony systems](#site-type-b:-traditional-legacy-telephony-systems)
-- [Site Type C: A combination of Skype for Business Enterprise Voice and traditional legacy telephony systems](#site-type-c:-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems)
+- Site Type A: Skype for Business Enterprise Voice
+
+- Site Type B: Traditional legacy telephony systems
+
+- Site Type C: A combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
 
 To implement a Microsoft Phone System solution for their entire organization, Contoso had to determine--for each site type--which of the following options would be used with Phone System to connect to the Public Switched Telephone Network (PSTN):
@@ -45,23 +47,23 @@ Contoso Skype for Business Enterprise Voice was set up as a hub and spoke. There
 
 To determine if the SBC already deployed is certified for Direct Routing and Media Bypass, Contoso checked the [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).  
 
-The users' dialing habits were to dial a user on the legacy telephony system using an extension, even when the user has a Skype for Business client available for peer-to-peer audio. 
+The user's dialing habits were to dial a user on the legacy telephony system using an extension, even when the user has a Skype for Business client available for peer-to-peer audio. 
 
 Contoso based their decision on the following questions:
 
-- Q. Do we need to retain functionality provided by our on-premises deployment?
+- Q. Do we need to retain functionality provided by our on-premises deployment?<br>
   A. No 
 
-- Q. Do we need to interoperate with third-party PBX systems and other telephony equipment? 
+- Q. Do we need to interoperate with third-party PBX systems and other telephony equipment?<br>
   A. No 
 
-- Q. Do we need to retain our current third-party carrier? 
+- Q. Do we need to retain our current third-party carrier?<br> 
   A. Yes (regulated countries) and No 
 
-- Q. Do we need to get the ROI on SBCs deployed? 
+- Q. Do we need to get the ROI on SBCs deployed?<br> 
   A. Yes and No  
 
-- Q. Is Microsoft PSTN Calling Plans available in this region? 
+- Q. Is Microsoft PSTN Calling Plans available in this region?<br> 
   A. Yes and No 
 
 Based on the answers to their questions, Contoso decided to:
@@ -76,16 +78,16 @@ Contoso had many offices that leveraged legacy telephony systems. There were a s
 
 Contoso based their decision on the following questions:
 
-- Q. Do we require to retain functionality provided our r on-premises deployment?
+- Q. Do we need to to retain functionality provided by our on-premises deployment?<br>
   A. No 
 
-- Q. Do we need to interoperate with 3rd party PBXs and other telephony equipment? 
+- Q. Do we need to interoperate with 3rd party PBXs and other telephony equipment?<br> 
   A. No 
 
-- Q. Do we need to retain your current third-party carrier? 
+- Q. Do we need to retain our current third-party carrier?<br> 
   A. No 
 
-- Q. Is Microsoft PSTN's calling available in your region? 
+- Q. Is Microsoft PSTN's Calling Plan available in our region?<br> 
   A. Yes and No 
 
 Based on the answers to their questions, Contoso decided to: 
@@ -101,19 +103,19 @@ Contoso Skype for Business Enterprise Voice users numbers reside on the SIP trun
 
 Contoso based their decision on the following questions:
 
-- Q. Do we need to retain functionality provided by our on-premises deployment?
+- Q. Do we need to retain functionality provided by our on-premises deployment?<br>
   A. No 
 
-- Q. Do we need to interoperate with third-party PBX systems and other telephony equipment? 
+- Q. Do we need to interoperate with third-party PBX systems and other telephony equipment?<br> 
   A. No 
 
-- Q. Do we need to retain our current third-party carrier? 
+- Q. Do we need to retain our current third-party carrier?<br> 
   A. No 
 
-- Q. Do we need to get the ROI on SBCs deployed? 
+- Q. Do we need to get the ROI on SBCs deployed?<br> 
   A. Yes and No  
 
-- Q. Is Microsoft's PSTN Calling Plan available in this region? 
+- Q. Is Microsoft's PSTN Calling Plan available in this region?<br> 
   A. No 
 
 Based on the answers to their questions, Contoso decided on the following: 
@@ -129,15 +131,15 @@ Based on the answers to their questions, Contoso decided on the following:
 
 ## Calling Plans
 
-Contoso reviewed the Core deployment decisions to determine the additional questions that should be addressed to determine the configuration requirements for calling plan.  The resulting decisions were made: 
+To determine the configuration requirements for Calling Plans, Contoso reviewed the [Calling Plan core deployment decisions](calling-plan-landing-page.md#core-deployment-decisions). The resulting decisions were made: 
 
-- Q. Do my users need international calling? 
+- Q. Do my users need international calling?<br> 
   A. Yes 
 
-- Q. Do my users each have a direct inward DID phone number? 
+- Q. Do my users each have a direct inward DID phone number?<br> 
   A. Not today. All users enabled will receive a DID. 
 
-- Q. Do I want to mask or disable caller ID? 
+- Q. Do I want to mask or disable caller ID?<br> 
   A. The caller ID for a user will be masked to the local number for Contoso. 
 
 
