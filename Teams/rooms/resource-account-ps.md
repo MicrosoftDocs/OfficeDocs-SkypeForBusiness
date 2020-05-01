@@ -19,17 +19,17 @@ description: "Read this topic for information on how to deploy collaboration bar
 
 # Using PowerShell to create resource accounts for collaborations bars for Microsoft Teams
 
-Read this topic for information on how to create Microsoft Teams resource accounts for collaboration bars for Microsoft Teams using PowerShell.
+Read this topic for information on how to create resource accounts for collaboration bars for Microsoft Teams using PowerShell.
 
 The easiest way to create a resource account is by using the Microsoft 365 admin center. [See this article on how to do this](resource-account-ui.md).
 
 ## Requirements
 
-Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Deployment overview for collaboration bars for Microsoft Teams](collab-bar-deploy.md).
+Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Deploy collaboration bars for Microsoft Teams](collab-bar-deploy.md).
 
-- If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.
+- If you need PSTN capabilities for the collaboration bar, you will need Phone System license.
 
-- Your tenant users must have Exchange mailboxes.
+- Your resource accounts must have Exchange mailboxes. As these are resource accounts, no Exchange license is required. We recommend the usage of the Meeting Rooms license for resource accounts.
 
 
 ### Add a resource account
