@@ -29,7 +29,7 @@ For audio conferencing, Contoso leveraged phone numbers that are well known with
 
 Based on their research, Contoso made the following decisions: 
 
-- Only a segment of the population that regularly host audio conferencing calls would receive Audio Conferencing licenses 
+- Only a segment of the population that regularly host audio conferencing calls would receive Audio Conferencing licenses. 
 
 - Contoso would leverage dedicated phone numbers and port their existing numbers for use with Audio Conferencing.   
 

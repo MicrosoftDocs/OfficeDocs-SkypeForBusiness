@@ -31,7 +31,7 @@ In this country, Contoso had LBR configured for their Skype for Business deploym
 
 For Skype for Business, LBR was configured with the Session Border Controller (SBC) SIP Trunk connecting to the PSTN carrier. For this SBC, Contoso reviewed the [list of certified SBCs](direct-routing-border-controllers.md) and determined that the SBC deployed is certified for Direct Routing but is not certified for Media Bypass. To support LBR, Direct Routing needs to be configured to the SBC on-site, there needs to be a local Internet egress, and the SBC needs to be configured for Media Bypass. Based on this information, Contoso decided the following:
 
-- To delay the enabled of Teams LBR until the existing SBC is certified for Media Bypass.   
+- To delay the enablement of Teams LBR until the existing SBC is certified for Media Bypass.   
 
 - To support the requirements for LBR, Contoso deployed an Internet Circuit at the location without Internet egress. 
 

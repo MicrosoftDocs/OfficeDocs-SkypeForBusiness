@@ -81,7 +81,7 @@ Contoso based their decision on the following questions:
 - Q. Do we need to to retain functionality provided by our on-premises deployment?<br>
   A. No 
 
-- Q. Do we need to interoperate with 3rd party PBXs and other telephony equipment?<br> 
+- Q. Do we need to interoperate with third-party PBX systems and other telephony equipment?<br> 
   A. No 
 
 - Q. Do we need to retain our current third-party carrier?<br> 
@@ -94,7 +94,7 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are located in a region where PSTN calling plans is available to Phone System with Calling Plans. 
 
-- Move the users that are not located in a region where PSTN calling plans is available to Phone System with Direct Routing 
+- Move the users that are not located in a region where PSTN calling plans is available to Phone System with Direct Routing. 
 
  
 ## Site Type C: Combination of Skype for Business Enterprise Voice and traditional legacy telephony systems

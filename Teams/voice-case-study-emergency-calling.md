@@ -77,7 +77,7 @@ If an SBC ELIN application is integrated into a Direct Routing deployment, addit
 
 Decision: Contoso will leverage Session Border Controllers that include Emergency Location Identification Number (ELIN) applications.  
 
-## Security desk notification: 
+## Security desk notification
 
 The ability to notify the security desk when an emergency call is placed is available for both Microsoft Calling Plans and Phone System Direct Routing. Contoso reviewed the details in the Security desk notification to determine if this should be configured at their offices  
 
