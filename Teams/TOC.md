@@ -348,6 +348,7 @@
 
 ## Contoso case study
 ### [Overview](voice-case-study-overview.md)
+### [Teams migration plan](voice-case-study-migration-plan.md)
 ### [Phone System](voice-case-study-phone-system.md)
 ### [Location-Based-Routing](voice-case-study-location-based-routing.md)
 ### [Emergency calling](voice-case-study-emergency-calling.md)

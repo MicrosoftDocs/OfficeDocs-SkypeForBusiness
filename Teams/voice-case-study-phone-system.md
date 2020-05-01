@@ -22,11 +22,11 @@ appliesto:
 
 # Contoso case study: Phone System
 
-In adoption of Microsoft Phone System, Contoso had to decide on which sites would leverage the following solutions:
+To implement a Phone System solution for their entire organization, Contoso had to decide on which sites would leverage the following options:
 
 - Phone System with Calling Plan 
 
-- Phone System with own PSTN carrier with Direct routing 
+- Phone System with own PSTN carrier through Direct routing 
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier with Direct Routing 
  

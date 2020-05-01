@@ -19,17 +19,15 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Overview
+# Contoso case study: Overview
 
 This article introduces a case study for how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization.
 
-The Contoso Corporation is a representative global manufacturing conglomerate with its headquarters in Paris, France. The overall goal of Contoso is to accelerate their digital transformation by using cloud services to bring together its employees, partners, data, and processes to create customer value and maintain its competitive advantage in a digital-first world. 
-
 Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security, migration from Skype for Business to Teams, Phone System, and Audio Conferencing.  
 
-The articles in the Teams library focus on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about Contoso, see all the core articles starting with the [Contoso Overview](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-overview?view=o365-worldwide). 
+This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso Overview](https://docs.microsoft.com/microsoft-365/enterprise/contoso-overview?view=o365-worldwide). 
 
-You'll find information on the following:  
+In the core articles, you'll find information on the following:  
 
 - [Contoso's IT infrastructure needs](https://docs.microsoft.com/microsoft-365/enterprise/contoso-infra-needs?view=o365-worldwide)
 - [Networking](https://docs.microsoft.com/microsoft-365/enterprise/contoso-networking?view=o365-worldwide)
@@ -53,37 +51,37 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Skype for Business to Teams migration 
 
-  Skype for Business was widely deployed within Contoso. With the need to get off of legacy systems, Contoso decided to migrate their Skype for Business users to Teams. 
+  Skype for Business was widely deployed within Contoso. With the need to get off of legacy systems, Contoso decided to migrate their Skype for Business users to Teams. For more information, see [Contoso case study: Teams migration plan](voice-case-study-migration-plan.md).
 
 - Phone System  
 
-  Skype for Business with enterprise voice was widely deployed within Contoso. With the need to get off of legacy systems that were the next hop for their mediation servers, Contoso migrated their Skype for Business enterprise voice users to Phone System. Sites leveraged Microsoft Calling Plan, Phone System Direct Routing, or a combination of both. 
+  Skype for Business with enterprise voice was widely deployed within Contoso. With the need to get off of legacy systems that were the next hop for their mediation servers, Contoso migrated their Skype for Business enterprise voice users to Phone System. Contoso sites leveraged Microsoft Calling Plan, Phone System Direct Routing, or a combination of both. For more information, see [Contoso case study: Phone System](voice-case-study-phone-system.md).
 
 - Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in Teams Phone System.
+  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in Teams Phone System. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Emergency Calling 
 
-  Where Direct Routing was implemented, Contoso set up up emergency calling with approved third parties.  
+  Where Direct Routing was implemented, Contoso set up up emergency calling with approved third parties. For more information, see [Contoso case study: Emergency Calling](voice-case-study-emergency-calling.md).
 
 - Audio Conferencing 
 
-  Contoso set up Audio Conferencing service numbers that were hosted on their SIP trunk to their PSTN provider.  
+  Contoso set up Audio Conferencing service numbers that were hosted on their SIP trunk to their PSTN provider. For more information, see [Contoso case study: Audio Conferencing](voice-case-study-audio-conferencing.md). 
 
 - Local Media Optimization 
 
-  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Office 365 Phone System that was leveraged by remote sites.  
+  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Microsoft Phone System that was leveraged by remote sites. For more information, see [Plan for Local Media Optimization](direct-routing-media-optimization.md) and Configure Local Media Optimization(direct-routing-media-optimization-configure.md).
 
 ## Migration plan from Skype for Business to Teams
 
-In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and **move the Teams-enabled users to Skype for Business Online (??)**. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
+While migrating from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and **move the Teams-enabled users to Skype for Business Online (??)**. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
 
-**QUESTION:  DOES THIS MEAN THEY ARE USING THE OVERLAPPING CAPABILITIES METHOD OR THE SELECT CAPABILITIES METHOD?  WE SHOULD USE THE SAME TERMINOLOGY AS THE CORE DOCS**
+**QUESTION: Does this mean they are using the overlapping capabilities method?  The select capabilities method?  We should use the same terminology as the core docs.**
 
-Contoso read the following articles--[Upgrade from Skype for Business to Teams â€” for IT administrators](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) to understand the following:
+To prepare a migration plan, Contoso read the following articles--[Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). These articles and the Ignite session described basic concepts and decision points about:
 
-- Fundamental concepts such as interop, federation, and upgrade behavior 
+- Interop, federation, and upgrade behavior 
 
 - Coexistence modes and management based on TeamsUpgradePolicy 
 
@@ -95,9 +93,11 @@ Contoso read the following articles--[Upgrade from Skype for Business to Teams â
 
   - Availability of collaboration functionality in Teams clients 
 
+## Hybrid connectivity
+
 To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
-[Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
- [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity.md) to understand how to: 
+[Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
+ [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity.md) to understand how to: 
 
   - Configure their on-premises environment service to federate with Office 365. 
 
