@@ -7,6 +7,7 @@
 ### [Requirements](requirements.md)
 ### [Online Licensing](rooms-licensing.md)
 ### [Plan management with Azure Monitor](azure-monitor-plan.md)
+### [Plan management with Managed Meeting Rooms](managed-meeting-rooms.md)
 
 ## Deploy
 ### [Deployment overview](rooms-deploy.md)
