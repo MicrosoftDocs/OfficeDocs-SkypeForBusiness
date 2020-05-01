@@ -145,7 +145,7 @@ Your organization must execute monitoring, administration, and management tasks 
 
 Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Microsoft Teams Rooms devices going forward to monitor performance, and deploy software updates and hotfixes. 
 
-Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and the [known issues list](known-issues.md).
+Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Support Teams in your organization](known-issues.md).
 
 |    |     |
 |-----------|------------|
