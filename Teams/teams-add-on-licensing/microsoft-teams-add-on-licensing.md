@@ -57,7 +57,7 @@ If you're a small or medium-sized business (less than 300 users), you have four 
 - Buy a Microsoft 365 Business plan and Microsoft 365 Business Voice
 - Buy an Enterprise E1 or E3 plan and Microsoft 365 Business Voice
 - Buy an Enterprise E1 or E3 plan and add voice features individually
-- Buy an Enterprise E5 license, which includes voice features
+- Buy an Enterprise E5 plan, which includes voice features
 
 For Microsoft 365 Business Voice, you have two options to choose from:
 
@@ -69,6 +69,9 @@ Here's a summary of the add-on options available to small and medium-sized busin
   ![Small business plan options](../media/licensing-small-business-options.png)
 
 If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
+
+> [!NOTE]
+> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
 
 #### [**Enterprise**](#tab/enterprise/)
 
@@ -98,12 +101,13 @@ Here's a summary of the add-on options available to schools and academic organiz
 
   ![EDU plan options](../media/licensing-edu-options.png)
 
-> [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
 
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+
+> [!NOTE]
+> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
 
 #### [**Government**](#tab/government/)
 
@@ -113,9 +117,6 @@ For US government organizations (GCC only), there are three ways to get voice fe
 - Buy a GOV G1 or G3 plan and add cloud voice features individually
 - Buy a GOV G5 plan, which includes voice features
 
-> [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
-
 To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
 
 Here's a summary of the add-on options available to US government organizations based on licensing plan.
@@ -123,6 +124,9 @@ Here's a summary of the add-on options available to US government organizations 
   ![Gov-based options](../media/licensing-gov-options.png)
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
+
+> [!NOTE]
+> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
