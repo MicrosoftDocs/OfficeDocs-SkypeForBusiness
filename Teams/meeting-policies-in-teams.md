@@ -412,4 +412,4 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
 ## Related topics
 
-[Messaging policies in Teams](messaging-policies-in-teams.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
