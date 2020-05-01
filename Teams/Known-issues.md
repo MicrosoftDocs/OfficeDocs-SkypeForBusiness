@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
 ms.custom:
   - seo-marvel-apr2020
-ms.reviewer: marcl, 
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
