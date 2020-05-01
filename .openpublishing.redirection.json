@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/manage-your-lob-apps.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-your-custom-apps", 
+      "redirect_document_id": true
+      },     
+    {
       "source_path": "Teams/teams-analytics-and-reports/cross-team-per-team-analytics.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-analytics-and-reports/view-analytics", 
       "redirect_document_id": true
