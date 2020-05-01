@@ -54,19 +54,19 @@ Depending on the voice features that you want, we recommend comparing whether it
 
 If you're a small or medium-sized business (less than 300 users), you have four ways to get voice features:
 
-- Buy a Microsoft 365 Business plan and Microsoft 365 Business Voice
-- Buy an Enterprise E1 or E3 plan and Microsoft 365 Business Voice
-- Buy an Enterprise E1 or E3 plan and add voice features individually
-- Buy an Enterprise E5 plan, which includes voice features
-
-Here's a summary, based on licensing plan.
-
-  ![Small business plan options](../media/licensing-smallbusiness-options.png)
+- Buy a Microsoft 365 Business plan and Microsoft 365 Business Voice.
+- Buy an Enterprise E1 or E3 plan and Microsoft 365 Business Voice.
+- Buy an Enterprise E1 or E3 plan and add voice features individually.
+- Buy an Enterprise E5 plan, which includes voice features.
 
 For Microsoft 365 Business Voice, you have two options to choose from:
 
 - **Microsoft 365 Business Voice with a Calling Plan**: Get this if you want all phone number management and billing to be handled by Microsoft.
 - **Microsoft 365 Business Voice without a Calling Plan (Direct Routing)**: Get this if you want all phone number management and billing to be handled by your third-party telephone provider. You'll need to set up and deploy [Direct Routing](../direct-routing-landing-page.md) to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
+
+Here's a summary, based on licensing plan.
+
+  ![Small business plan options](../media/licensing-smallbusiness-options.png)
 
 If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
@@ -77,14 +77,14 @@ If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU,
 
 If you're a large business or enterprise organization (more than 300 users), you have two ways to get voice features:
 
-- Buy an Enterprise E1 or E3 plan and add voice features individually
-- Buy an Enterprise E5 plan, which includes voice features
-
-To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+- Buy an Enterprise E1 or E3 plan and add voice features individually.
+- Buy an Enterprise E5 plan, which includes voice features.
 
 Here's a summary, based on licensing plan.
 
   ![Enterprise-based plan options](../media/licensing-enterprise-options.png)
+
+To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
 > [!NOTE]
 > These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
@@ -93,17 +93,17 @@ Here's a summary, based on licensing plan.
 
 For schools and other academic organizations, you have three ways to get voice features.
 
-- Buy an EDU A1 or A3 plan and Microsoft 365 Business Voice
-- Buy an EDU A1 or A3 plan and add voice features individually
-- Buy an EDU A5 plan, which includes voice features
+- Buy an EDU A1 or A3 plan and Microsoft 365 Business Voice.
+- Buy an EDU A1 or A3 plan and add voice features individually.
+- Buy an EDU A5 plan, which includes voice features.
 
 Here's a summary, based on licensing plan.
 
   ![EDU plan options](../media/licensing-education-options.png)
 
-To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
-
 EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+
+To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 > [!NOTE]
 > These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
@@ -112,15 +112,15 @@ EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing
 
 For US government organizations (GCC only), there are three ways to get voice features.
 
-- Buy a GOV G1 or G3 plan and Microsoft 365 Business Voice
-- Buy a GOV G1 or G3 plan and add cloud voice features individually
-- Buy a GOV G5 plan, which includes voice features
-
-To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
+- Buy a GOV G1 or G3 plan and Microsoft 365 Business Voice.
+- Buy a GOV G1 or G3 plan and add cloud voice features individually.
+- Buy a GOV G5 plan, which includes voice features.
 
 Here's a summary, based on licensing plan.
 
   ![Gov-based options](../media/licensing-government-options.png)
+
+To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
@@ -131,10 +131,10 @@ For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
 If you're a nonprofit organization, you have four ways to get voice features. 
 
-- Buy a small business plan specifically for nonprofit organizations and then buy Microsoft 365 Business Voice
-- Buy a Nonprofit E1 or E3 plan and Microsoft 365 Business Voice
-- Buy a Nonprofit E1 or E3 plan and add cloud voice features individually
-- Buy a Nonprofit E5, which includes cloud voice features
+- Buy a small business plan specifically for nonprofit organizations and Microsoft 365 Business Voice.
+- Buy a Nonprofit E1 or E3 plan and Microsoft 365 Business Voice.
+- Buy a Nonprofit E1 or E3 plan and add voice features individually.
+- Buy a Nonprofit E5, which includes voice features.
 
 Here's a summary, based on licensing plan.
 
