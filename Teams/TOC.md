@@ -59,7 +59,7 @@
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
-### [Manage your line-of-business apps](manage-your-lob-apps.md)
+### [Manage your custom apps](manage-your-lob-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
