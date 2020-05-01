@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Contoso case study - Audio Conferencing
+# Contoso case study: Audio Conferencing
 
 To gain an understanding of audio conferencing--what it is, what it costs, availability, and how it works--Contoso reviewed [Audio Conferencing in Office 365](deploy-audio-conferencing-teams-landing-page.md). 
 

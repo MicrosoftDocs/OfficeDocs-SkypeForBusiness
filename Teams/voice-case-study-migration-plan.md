@@ -23,7 +23,7 @@ appliesto:
 
 In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and **move the Teams-enabled users to Skype for Business Online (??)**. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
 
-**QUESTION:  DOES THIS MEAN THEY ARE USING THE OVERLAPPING CAPABILITIES METHOD OR THE SELECT CAPABILITIES METHOD?  WE SHOULD USE THE SAME TERMINOLOGY AS THE CORE DOCS**
+**QUESTION:  Does this mean they are using the overlapping capabilities method?  Or the select capabilities method?  (I don't like these names, but we should use the same terminology as the core docs.)**
 
 Contoso read the following articles--[Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) to understand the following:
 
@@ -51,4 +51,4 @@ To plan and configure hybrid connectivity, the first step in moving their on-pre
 
   - Leverage Islands mode during the technical pilot.
 
-  - Switch users over to Teams Only mode once the user is enabled for Phone System. Teams Only mode is required for  Calling Plan and Direct Routing. 
+  - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing. 

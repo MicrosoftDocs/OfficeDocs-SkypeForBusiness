@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Contoso case study: Overview
+# Contoso case study: Voice overview
 
 This article introduces a case study for how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization.
 
@@ -71,40 +71,5 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Local Media Optimization 
 
-  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Microsoft Phone System that was leveraged by remote sites. For more information, see [Plan for Local Media Optimization](direct-routing-media-optimization.md) and Configure Local Media Optimization(direct-routing-media-optimization-configure.md).
+  Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Microsoft Phone System that was leveraged by remote sites. For more information, see [Plan for Local Media Optimization](direct-routing-media-optimization.md) and [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).
 
-## Migration plan from Skype for Business to Teams
-
-While migrating from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and **move the Teams-enabled users to Skype for Business Online (??)**. This allowed users in Teams and Skype for Business on-premises to share presence and communicate.  
-
-**QUESTION: Does this mean they are using the overlapping capabilities method?  The select capabilities method?  We should use the same terminology as the core docs.**
-
-To prepare a migration plan, Contoso read the following articles--[Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). These articles and the Ignite session described basic concepts and decision points about:
-
-- Interop, federation, and upgrade behavior 
-
-- Coexistence modes and management based on TeamsUpgradePolicy 
-
-- End user experience for: 
-
-  - Chat and Calling 
-
-  - Meeting Scheduling 
-
-  - Availability of collaboration functionality in Teams clients 
-
-## Hybrid connectivity
-
-To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
-[Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
- [Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity.md) to understand how to: 
-
-  - Configure their on-premises environment service to federate with Office 365. 
-
-  - Configure their on-premises environment to trust Office 365 and enable shared SIP address space with Office 365 
-
-  - Enable shared SIP address space in their Office 365 tenant.
-
-  - Leverage Islands mode during the technical pilot.
-
-  - Switch users over to Teams Only mode once the user is enabled for Phone System. Teams Only mode is required for  Calling Plan and Direct Routing. 
