@@ -135,7 +135,7 @@ Managed Meeting Rooms is available in the following countries and regions.
 
 The Managed Meeting Room service monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Managed Meeting Room service doesn't access the live content of a meeting.
 
-Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](http://aka.ms/privacy).  
+Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](https://aka.ms/privacy).  
 
 ## Related topics
 
