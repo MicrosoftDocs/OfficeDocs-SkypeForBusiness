@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
+## [Support Teams in your organization](Known-issues.md)
 ## [Monitor and manage call quality](monitor-call-quality-qos.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Set up QoS in Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
-## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
