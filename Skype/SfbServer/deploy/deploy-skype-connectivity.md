@@ -68,9 +68,9 @@ The following table outlines support for Skype Directory Search.
 > [!NOTE]
 > Skype for Business Server will throttle incoming requests, if there are too many pending requests in the queue. 
   
-## Deploying Skype Connectivity for Skype for Business Online in Office 365
+## Deploying Skype Connectivity for Skype for Business Online
 
-Skype Connectivity is also a feature of Skype for Business Online, which is part of Office 365. You can enable the Skype Connectivity feature from the Skype for Business Administration Center within the Microsoft 365 admin center.
+Skype Connectivity is also a feature of Skype for Business Online, which is part of Microsoft 365 and Office 365. You can enable the Skype Connectivity feature from the Skype for Business Administration Center within the Microsoft 365 admin center.
   
 For Office 365 Midsize Business, Office 365 Enterprise, Office 365 Education, and Office 365 for Government: Sign in to the Microsoft 365 admin center and navigate to the Skype for Business Administration Center. Go to External Communications. Under Public IM Service Providers, click Enable. If you want to control individual user access to Skype Connectivity, you can do so by editing individual users' External Communications settings.
   
