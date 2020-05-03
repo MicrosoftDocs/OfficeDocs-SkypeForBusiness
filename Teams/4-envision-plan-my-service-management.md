@@ -20,12 +20,6 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan my service management
-
-This article gives an overview of the requirements that are necessary to deliver
-and maintain a high-quality Microsoft Teams deployment. You can help ensure a
-successful deployment by planning for service management and quality during the
-Envision phase, before your first pilot or production deployment.
 
 ## Service management for Teams
 
