@@ -66,6 +66,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
+|Polycom| RealPresence Trio Family (8500 and 8800)|5.5.2.11338|10/9/2017|
 | Yealink |MP56 IP Phone |122.9.0.1|3/30/2020|
 | Yealink |T55 IP Phone (upgradeable to Teams) |55.9.0.9 |3/12/2019|
 | Yealink |T56A IP Phone (upgradeable to Teams) | 58.15.0.20 |12/30/2018|
