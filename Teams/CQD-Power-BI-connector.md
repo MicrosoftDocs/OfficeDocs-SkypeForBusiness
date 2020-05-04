@@ -157,13 +157,13 @@ Despite the Beta tag, the Call Quality Connector for Power BI is the release ver
 
 ### Why does the connector seem so slow compared to Advanced CQD in browser? What can I do to improve performance?
 
-Query performance for the various templates is actually the same in both the browser and in the connector, the difference comes in the number of concurrent queries being run. Because the in-browser version of CQD had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates display often display 20+ concurrent queries. If you wish to build reports that are just as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
+Query performance for the various templates is actually the same in both the browser and in the connector. The difference comes in the number of concurrent queries being run. Because the in-browser version of CQD had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates often display 20+ concurrent queries. If you wish to build reports that are just as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
 
-### I find that I routinely run into the ten-thousand row limit when running queries. How can I get the connector to return more than ten-thousand rows?”
+### I find that I routinely run into the 10,000-row limit when running queries. How can I get the connector to return more than 10,000 rows?
 
-The ten-thousand row limit is actually specified on the API end, and it is designed to help significantly improve performance and reduce the risk of query execution errors resulting from low memory conditions.
+The 10,000-row limit is actually specified on the API end, and it is designed to help significantly improve performance and reduce the risk of query execution errors resulting from low memory conditions.
 
-Instead of attempting to increase the result row count, it is best to attempt to restructure your reports according to connector best practices. The templates we have included are designed to demonstrate these best practices. Where possible, start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
+Instead of attempting to increase the result row count, it is best to restructure your reports according to connector best practices. The templates we have included are designed to demonstrate these best practices. Where possible, start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
 ## Related topics
 
