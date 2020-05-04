@@ -110,7 +110,7 @@ Installing the DEB or RPM package will automatically install the package reposit
 The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
 
 > [!NOTE] 
-> If you find a bug, submit it using `Report a Problem` from within the client. For known issues, see [Known Issues](Known-issues.md).
+> If you find a bug, submit it using `Report a Problem` from within the client. For known issues, see [Support Teams in your organization](Known-issues.md).
 > For Teams for Linux support you can use the [Linux forum support channel on Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html). Be sure to use the `teams-linux` tag when posting questions. 
 
 #### Install Teams using DEB package
