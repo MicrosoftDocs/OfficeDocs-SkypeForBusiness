@@ -122,9 +122,8 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
 - Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
-- Make sure the user has permission to execute regsvr32.exe.
+- Make sure the user has permission to execute regsvr32.exe.  For more information review https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Ensure that all available updates for Outlook desktop client have been applied.
-- Make sure the logged-in user account name does not contain spaces. (This is a known issue, and will be fixed in a future update.)
 - Follow these steps:
   - Restart the Teams desktop client.
   - Sign out and then sign back in to the Teams desktop client.
