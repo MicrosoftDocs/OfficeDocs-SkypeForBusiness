@@ -1,7 +1,7 @@
 ---
 title: "Create a call queue"
-ms.author: crowe
-author: CarolynRowe
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
