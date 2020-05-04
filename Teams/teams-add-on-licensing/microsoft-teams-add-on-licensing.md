@@ -101,8 +101,6 @@ Here's a summary, based on licensing plan.
 
   ![EDU plan options](../media/licensing-education-options.png)
 
-EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
-
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 > [!NOTE]
@@ -121,8 +119,6 @@ Here's a summary, based on licensing plan.
   ![Gov-based options](../media/licensing-government-options.png)
 
 To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
-
-For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
 > [!NOTE]
 > If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
