@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
+description: Security advice and learnings for ITAdmins in installing, configuring, and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -27,7 +27,7 @@ Teams serves a central role in both communication and data sharing in the Micros
 
 ## Sentinel and Microsoft Teams Activity Logs
 
-This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected 3rd party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
+This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected 3rd party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
 
 > [!NOTE]
 > More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](https://docs.microsoft.com/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
@@ -42,7 +42,7 @@ This section has three parts:
 
 ### Enable Audit logs in M365
 
-Because Teams logs activity through M365, audit logs aren't collected by default. Turn this feature on via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0). Teams data is collected in the M365 audit under *Audit.General*.
+Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0). Teams data is collected in the M365 audit under *Audit.General*.
 
 ### Register an App in Microsoft Azure for log collection
 
@@ -61,10 +61,10 @@ Authenticate and authorize an Azure Active Directory (Azure AD) app to collect l
 6. Expand Activity Feed and check *ActivityFeed.Read*.
 7. Choose *Grand admin consent* here. Click Yes when prompted asking if you mean it.
 8. Click *Certificates and Secrets* in the side-bar> *New client secret* button.
-9. On the New client secret window enter a description for the new Client Secret, make sure you choose 'Never' for Expiration, and click *Add*.
+9. On the New client secret window, enter a description for the new Client Secret, make sure you choose 'Never' for Expiration, and click *Add*.
 
 > [!IMPORTANT]
-> It's **critical** to copy the new client secret into a password manager entry that goes under the name of the newly created app. You won't be able to get back to look at this secret after the closing out of this Azure blade (*blade* being the Azure term for window).
+> It's **critical** to copy the new client secret into a password manager entry that goes under the name of the newly created app. You won't be able to get back to look at this secret after the closing out of the Azure blade (*blade* being the Azure term for window).
 
 ### Register the API with PowerShell to collect Teams logs
 
