@@ -45,7 +45,7 @@ The following table provides a helpful quick reference to feature availability b
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
-|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported.  
 
