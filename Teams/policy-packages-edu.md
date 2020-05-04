@@ -28,6 +28,17 @@ description: Learn about policies in a educational or EDU setting, and how to us
 > [!NOTE]
 > For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
 
+Before we get started, it's important to note this article will cover multiple ways to assign policies to users in Teams.
+
+- Manual assign to individual users.
+- Bulk assigning to many users.
+- Assigning policy packages to individual or multiple users.
+
+The advantages and disadvantages of these approaches come down to the institution's individual needs, and we'll cover that in the article
+
+> [!NOTE]
+> While the bulk of this article's intended for an Admin audience, there's also helpful information for Educators.
+
 ## Admins: Getting started with Microsoft Teams policy management
 
 Microsoft Teams, at its core, is about users being able to do things like go to meetings or live events, chat, make calls, and use apps. And setting the right Microsoft Teams admin policies is a critical step in creating a safe learning environment for students within Teams. As an admin, you can use policies to control the Teams features that are available to users in your educational institute.
@@ -87,15 +98,18 @@ Once your policy definition is created or updated, you can assign it to a user b
 You can also assign a policy to a user by navigating to Users, selecting the user you wish to update policies for, selecting Policies, then Edit. From there, you can select the policy definition you’d like to use assign to the user for each capability area.
 
 > [!IMPORTANT]
-> If you're part of a large educational institute, using the Microsoft Teams admin portal experience to set policies for each user may be difficult. It'll be better for you to assign policies in batches via PowerShell. We have some information on how to [Assign policies to large sets of users in your educational institute](batch-policy-assignment-edu.md) if you need it, and you can also check out the section below on policy packages, which are another great way to manage policies and settings for large groups of users.
+> If you're part of a large educational institute, using the Microsoft Teams admin portal experience to set policies for each user may be difficult. It'll be better for you to assign policies in batches via PowerShell. We have some EDU-specific information on how to [Assign policies to large sets of users in your educational institute](batch-policy-assignment-edu.md) if you need it, and you can also check out the section below on policy packages, which are another great way to manage policies and settings for large groups of users.
 
 ![Edit user policies pane, on the right side over the Assigned policies page.](media/edu-edit-user-policies-pane.png)
 
 ### Policy packages in Microsoft Teams
 
-A policy package in Teams collects predefined policies and policy settings that you created as outlined above, and assigns them to users with similar roles in your institution. Policy packages simplify, streamline, and help provide consistency when managing policies. In normal practice, you assign each of your users a policy package, and  redefine the policies in each package as needed to suit the needs of that user group. When you update settings in a package, all users assigned to that package are changed as a bulk update.
+A policy package in Teams collects predefined policies and policy settings that you learned about outlined above, and assigns them to users with similar roles in your institution. Policy packages simplify, streamline, and help provide consistency when managing policies. In normal practice, you assign each of your users a policy package, and  redefine the policies in each package as needed to suit the needs of that user group. When you update settings in a package, all users assigned to that package are changed as a bulk update.
 
 Educational institutions in general have many users with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your educational institute community.
+
+> [!NOTE]
+> For more reading, you can check out [Manage policy packages in Microsoft Teams](manage-policy-packages.md) for step by step guidance on assigning single users a package, assigning packages in bulk to up to 5000 users, and managing and updating the policies linked to each package.
 
 Just like the policy list earlier in this article, policy packages predefine policies for:
 
@@ -125,27 +139,11 @@ Each individual policy is given the name of the policy package so you can easily
 > [!NOTE]
 > If you decide that educators and administrative support staff need different policies, you can repurpose an existing package: identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
 
-#### Why use policy packages
+## Policies that should be assigned for student safety
 
-DO WE NEED THIS?
+### Meeting policies
 
-
-
-If your institution has hundreds, or even thousands of users, you may be asking yourself: "Why take the time to assign one package or another to all those users?"
-
-Assigning packages to hundreds of users is an investment in administrative time, without question. An important thing about investments is that they pay off over time, rather than immediately.
-
-In an educational environment, there are many users with the same or similar roles. You spend less effort over time when you manage their user experience the same way. Packages group a set of policies specific to the various roles in the institution. Users with the same license, but different roles, can have relevant policies assigned based on their role, which is more efficient than tweaking policies for individual users.
-
-Once you have all users in the institution sorted into groups and have packages applied, managing them from then on is a matter of changing the package settings once for all users assigned to the package. You can choose to fine-tune the policies within a package before or after assigning users to the package.
-
-See [Manage policy packages in Microsoft Teams](manage-policy-packages.md) for step by step guidance on assigning single users a package, assigning packages in bulk to up to 20 users, and managing and updating the policies linked to each package.
-
-### Policy packages that should be assigned for student safety
-
-#### Meeting policies
-
-##### Turn off the ability to create and start meetings
+#### Turn off the ability to create and start meetings
 
 To ensure that students can’t schedule a meeting to communicate unattended, in meeting policies set to **Off** meeting creation capabilities through these General settings:
 
@@ -160,7 +158,7 @@ To ensure that students can’t schedule a meeting to communicate unattended, in
 
 ![Participants and guests section, with the Allow Meet now in private meetings option set to Off.](media/edu-participants-and-guests.png)
 
-##### Control whether or not students can share their videos during calls and meetings
+#### Control whether or not students can share their videos during calls and meetings
 
 In the meeting policies section, ensure that the Audio and visual values you set for your students aligns to your educational institution’s guidelines, as well as the desires of students, educators, and parents and guardians (With the exception of **Allow cloud recording**, which we recommend be set to **Off**).
 
@@ -172,25 +170,25 @@ The options here:
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Education student in remote learning page with the video options showing.":::
 
-#### Live events policies
+### Live events policies
 
-##### Turn off the ability to create and start live events
+#### Turn off the ability to create and start live events
 
 To ensure that students can’t schedule a live events to communicate unattended, disable the **Allow scheduling** policy for students by setting it to **Off**.
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Education student in remote learning page with the allow scheduling option turned Off.":::
 
-#### Calling policies
+### Calling policies
 
-##### Turn off the ability to make private calls
+#### Turn off the ability to make private calls
 
 To ensure that students can’t make private calls with other students or educators, disable the **Make private calls** policy for students by setting it to **Off**.
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Education student in remote learning page with Make private calls set to Off.":::
 
-#### Messaging policies
+### Messaging policies
 
-##### Turn off the ability to delete or edit sent messages
+#### Turn off the ability to delete or edit sent messages
 
 - For students: To make sure the messages that students send aren’t deleted or altered, students should have these settings turned **Off**:
   - **Delete sent messages**
@@ -205,33 +203,33 @@ To ensure that students can’t make private calls with other students or educat
 > [!NOTE]
 > For more information on this topic, check out [Mute student comments in a class team.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
-##### Control whether students can chat privately
+#### Control whether students can chat privately
 
 Ensure that the **Chat On/Off** value you set for students aligns to your educational institution’s guidelines as well as the desires of students and educators. This control turns on or off the ability for a user to communicate privately in 1:1 chat or group chat in Teams.
 
 ![Education student in remote learning page, with the chat option turned Off.](media/edu-chat-private.png)
 
-##### Control whether students can personalize their messages
+#### Control whether students can personalize their messages
 
 Ensure that the value you set for students aligns to your educational institution’s guidelines as well as the desires of students, educators, parents, and guardians. Our recommendation is to set **Giphy for students** to **Off**, and keep **Memes and Stickers** turned **On**.
 
 ![Education student in remote learning page, with the Giphy options and memes and stickers options.](media/edu-personalize-messages.png)
 
-##### Control whether students can send voice messages
+#### Control whether students can send voice messages
 
 Ensure that the value you set for **Create voice messages** for students aligns to your educational institution’s guidelines as well as the desires of students and educators.
 
 ![Education student in remote learning page, with the Create voice messages option.](media/edu-create-send-voice-mess.png)
 
-##### Turn off the ability to remove users from chat for students
+#### Turn off the ability to remove users from chat for students
 
 Students should not have the ability to remove other users from any chats they're included in. The setting for **Remove users from group chats** should be set to **Off**.
 
 ![Education student in remote learning page, with the Remove users from group chats option set to Off.](media/edu-remove-users-from-chat-for-students.png)
 
-#### Teams policies
+### Teams policies
 
-##### Turn off the ability to discover and create private channels
+#### Turn off the ability to discover and create private channels
 
 To ensure that students can’t create a private channel as personal space to communicate without supervision, set the **Create private channels** policy for students to **Off**.
 
@@ -240,9 +238,9 @@ To ensure that students can’t create a private channel as personal space to co
 > [!IMPORTANT]
 > Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it [here](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-#### App permission policies
+### App permission policies
 
-##### Control whether students can add apps within Teams
+#### Control whether students can add apps within Teams
 
 Ensure the values you set for students align to your educational institution’s guidelines. For example, if you’d like the students to be exposed to the apps you approve, you can select:
 
@@ -268,13 +266,10 @@ Meeting options allow you to control if meeting participants join your meetings 
 ![Join Microsoft Teams meeting invite, the Meeting options is on the far right underneath the invite link.](media/edu-join-meeting-options.png)
 
 - Control who can enter the meeting directly by using the virtual meeting lobby, so that participants wait to be admitted to the meeting instead of joining immediately.
-
-:::image type="content" source="media/edu-enter-meeting-direct.png" alt-text="Who can bypass the lobby dropdown with Everyone selected.":::
-
 - Control who joins the meeting as a presenter or attendee.​ You can select **Only Me** to designate all other participants as attendees. This is the safest set-up for meetings held in a classroom setting.
   - If you expect to have more than one presenter in your meeting, select **Specific people** and pick the other participants who should join as presenters. Select **Everyone** if you want all participants to join the meeting as a presenter.
 
-:::image type="content" source="media/edu-who-can-present.png" alt-text="Who can present dropdown with Only me selected.":::
+:::image type="content" source="media/edu-meeting-options.png" alt-text="Who can bypass the lobby dropdown with People in my organization selected and Who can present dropdown with Only me selected.":::
 
 ### Roles in an online meeting
 
