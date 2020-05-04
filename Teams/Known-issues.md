@@ -1,5 +1,5 @@
 ---
-title: Known issues for Microsoft Teams
+title: Support Microsoft Teams in your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,21 +10,29 @@ ms.collection:
   - M365-collaboration
 ms.custom:
   - seo-marvel-apr2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Use this list of known issues for the Microsoft Teams client app and admin experience to troubleshoot issues within your organization.
+description: Use these resources to support Microsoft Teams in your organization, whether you're the Teams admin or the Helpdesk support engineer.
 ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
 
-# Known issues for Microsoft Teams
+# Support Microsoft Teams in your organization
 
-This article lists the known issues for Microsoft Teams, by feature area.
+If you're looking for Teams Known Issues, you're in the right place. Use the resources in this article to help you support Teams in your organization. 
+
+Start by reviewing the most [common issues and resolutions](#common-issues-and-resolutions) list, below in this article.
+
+Then, if you don't find what you need, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) and search for your problem in the table of contents, or in the **Filter by title** box. 
+:::image type="content" source="media/known-issues1.png" alt-text="Screenshot of the table of contents and filter box on the Teams Troubleshooting page":::
+
+If you're still stuck, contact [Microsoft Support](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+
 
 ## Common issues and resolutions
 
@@ -52,4 +60,9 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |---------|---------|
 |Your users are seeing a "You're missing out!" message.   |Be sure to [Enable Microsoft Teams for your school](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). In EDU tenants, Teams isn't enabled by default; you'll have to turn it on first. <br><br>Next, review [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) to learn the most up-to-date guidance on setting up your school, lesson planning, meeting virtually, and sharing content with students.<br><br>Finally, be sure to check out Microsoft Teams IT admin training videos, decks, and a lot more at [Admin training for Teams](itadmin-readiness.md).        |
 
-See [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) for more information about resolving issues with Microsoft Teams.
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
