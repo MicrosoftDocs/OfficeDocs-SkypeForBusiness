@@ -116,7 +116,7 @@ You can use Teams live events in multiple regions across the world. The followin
 > [!IMPORTANT]
 > The region for the event is automatically selected depending on the organizer and the Microsoft 365 tenant location.
 
-**Available in these regional datacenters**
+**Available in these regional data centers**
 
 - Americas
 - Europe/Africa
@@ -128,7 +128,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - India
 - Australia
 - Japan
-- UK
+- United Kingdom
 
 **Exclusions and considerations**
 
