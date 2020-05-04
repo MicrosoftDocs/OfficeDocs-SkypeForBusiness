@@ -183,7 +183,7 @@ This table covers features related to voice services support.
 |Group call pickup  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Location-based routing  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Manage Response Group/Team call group |&#x2714;||&#x2714;|||||||
-
+|Answer Auto-attendant call |&#x2714;||&#x2714;|||||||
  &#x2776;  This feature isn't available in Skype for Business Online.
   
 ## External users support
