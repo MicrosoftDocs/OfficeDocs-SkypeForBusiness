@@ -101,6 +101,8 @@ Here's a summary, based on licensing plan.
 
   ![EDU plan options](../media/licensing-education-options.png)
 
+  <sup>1</sup> Only available for organizations with less than 300 users.
+
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 > [!NOTE]
@@ -117,6 +119,8 @@ For US government organizations (GCC only), there are three ways to get voice fe
 Here's a summary, based on licensing plan.
 
   ![Gov-based options](../media/licensing-government-options.png)
+
+  <sup>1</sup> Only available for organizations with less than 300 users.
 
 To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
@@ -135,6 +139,8 @@ If you're a nonprofit organization, you have four ways to get voice features.
 Here's a summary, based on licensing plan.
 
   ![Nonprofit-based options](../media/licensing-nonprofit-options.png)
+
+  <sup>1</sup> Only available for organizations with less than 300 users.
 
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
