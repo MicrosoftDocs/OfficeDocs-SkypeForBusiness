@@ -21,10 +21,10 @@ description: "Summary: Read this topic to learn about best practices for impleme
 The size of meetings that Skype for Business Server can support depends on whether conferencing is hosted on a shared or dedicated pool: anywhere from 250 participants on a shared pool to 1000 participants on a dedicated pool. 
   
 > [!NOTE]
-> This topic focuses on best practices for large meetings supported by Skype for Business Server. If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. 
+> This topic focuses on best practices for large meetings supported by Skype for Business Server. If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Microsoft 365 and Office 365. 
 
 > [!NOTE]
-> Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 organization. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
+> Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Microsoft 365 or Office 365 organization. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Large meetings typically have the following characteristics:
   
