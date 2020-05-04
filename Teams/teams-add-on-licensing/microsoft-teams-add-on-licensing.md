@@ -125,9 +125,9 @@ To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsof
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
-If you're a nonprofit organization, you have four ways to get voice features. 
+If you're a nonprofit organization, you have four ways to get voice features.
 
-- Buy a small business plan specifically for nonprofit organizations and Microsoft 365 Business Voice.
+- Buy a Microsoft 365 Nonprofit Business Basic or Microsoft 365 Nonprofit Business Standard and Microsoft 365 Business Voice.
 - Buy a Nonprofit E1 or E3 plan and Microsoft 365 Business Voice.
 - Buy a Nonprofit E1 or E3 plan and add voice features individually.
 - Buy a Nonprofit E5, which includes voice features.

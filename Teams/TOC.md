@@ -743,7 +743,7 @@
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
-### [Virtual User license](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
 
 ## Interoperability with Microsoft 365 and Office 365
