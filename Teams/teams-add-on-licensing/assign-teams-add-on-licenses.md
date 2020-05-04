@@ -37,7 +37,7 @@ Before you get started, review the following:
 
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 
-- Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign Communications Credits licenses to them.
+- Even if your users are assigned Enterprise E5 licenses, you still need to assign [Communications Credits](../what-are-communications-credits.md) licenses to them if they want make or receive calls from the PSTN.
 
 - After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](../set-up-calling-plans.md).
 
