@@ -1,5 +1,5 @@
 ---
-title:  Presenter and attendee capabilities in a Teams live event or meeting
+title:  Presenter and attendee capabilities in a Teams meeting
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the Presenter and attendee capabilities a Teams live event or meeting.
+description: Learn about the Presenter and attendee capabilities a Teams meeting.
 appliesto: 
 - Microsoft Teams
 localization_priority: Priority
 ---
-Presenter and attendee capabilities in a Teams live event or meeting
+Presenter and attendee capabilities in a Teams meeting
 ======================================================
 
-Microsoft Teams live events or meetings support many attendee types. Attendees can access various live event or meeting features based on their roles inside or outside of an organization.
+Microsoft Teams meetings support many attendee types. Attendees can access various meeting features based on their roles inside or outside of an organization.
 
 The available meeting features are:
 
@@ -32,7 +32,7 @@ The available meeting features are:
 - Files
 - Schedule a meeting (for meetings only)
 
-This article describes those attendee capabilities and what access they have to live event or meeting features.
+This article describes those attendee capabilities and what access they have to meeting features.
 
 ## Presenters and organizers
 
