@@ -47,14 +47,14 @@ To see the information that you want in the table, click **Edit Column** in the 
 
 ## Upload a new app
 
-You can use your app catalog to test and distribute line-of-business applications that are built specifically for your organization. 
+You can use your app catalog to test and distribute custom applications that are built specifically for your organization. 
 A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). When you have the app package, you can add it to the your app catalog. While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
 
 To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app package in .zip format. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
 
 To update an app after it's uploaded, in the list of apps on the **Manage apps** page, click the app name, and then click **Update**. Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app.
 
-To learn more, see [Manage your line-of-business apps in Teams](manage-your-lob-apps.md).
+To learn more, see [Manage your custom apps in Teams](manage-your-custom-apps.md).
 
 ## Allow and block apps
 

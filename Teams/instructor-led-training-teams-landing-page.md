@@ -12,6 +12,7 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
+search.appverid: MET150
 ms.custom: 
  - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
  - seo-marvel-apr2020
