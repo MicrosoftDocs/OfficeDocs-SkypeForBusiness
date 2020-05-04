@@ -348,7 +348,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - When screen sharing in a multi-monitor setup, only the main monitor is shared.
 - High DPI scaling on CWA is not supported.
 
-For Teams known issues that aren't related to VDI, see [Known issues for Teams](Known-issues.md).
+For Teams known issues that aren't related to VDI, see [Support Teams in your organization](Known-issues.md).
 
 ## Troubleshooting
 
