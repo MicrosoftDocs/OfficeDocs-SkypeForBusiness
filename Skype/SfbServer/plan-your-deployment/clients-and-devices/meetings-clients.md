@@ -31,7 +31,7 @@ Later on, those users may create meetings and invite users from outside the orga
 > The Skype for Business Web App and Skype Meetings App are only available when trying to log in to a meeting without having Skype for Business. User help for these apps is at [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
-> You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.coMicrosoft 365 orm/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
+> You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
