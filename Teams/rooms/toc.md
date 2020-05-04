@@ -7,6 +7,7 @@
 ### [Requirements](requirements.md)
 ### [Online Licensing](rooms-licensing.md)
 ### [Plan management with Azure Monitor](azure-monitor-plan.md)
+### [Plan management with Managed Meeting Rooms](managed-meeting-rooms.md)
 
 ## Deploy
 ### [Deployment overview](rooms-deploy.md)
@@ -25,7 +26,7 @@
 ## Manage
 ### [Management overview](rooms-manage.md)
 ### [Maintenance and operations](rooms-operations.md)
-### [Known issues](known-issues.md)
+### [Support Teams in your organization](known-issues.md)
 ### [Devices with Azure Monitor](azure-monitor-manage.md)
 ### [Settings with an XML file](xml-config-file.md)
 ### [Use the recovery tool](recovery-tool.md)
