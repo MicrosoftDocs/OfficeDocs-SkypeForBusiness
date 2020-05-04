@@ -35,14 +35,14 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |||||
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles **Phone System, Audio Conferencing, a Domestic Calling Plan, and more**. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
+**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead their computer. Set up [Audio Conferencing](../audio-conferencing-in-office-365.md) for users who schedule or leads meetings. <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Phone System** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. To learn more, see [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Microsoft Teams Rooms** <br/> |[Microsoft Teams Rooms]](../rooms/index.md) isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
+|**Microsoft Teams Rooms** <br/> |[Microsoft Teams Rooms](../rooms/index.md) isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 
-<sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these cloud voice features, however, we recommend that you consider a [Microsoft 365 business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
+<sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
 
 ## What voice features are available with my plan?
 
@@ -68,10 +68,10 @@ Here's a summary, based on licensing plan.
 
   ![Small business plan options](../media/licensing-smallbusiness-options.png)
 
-If you already have a Microsoft 365 Enterprise or Office 365 Enterprise (or EDU, GOV or Nonprofit) plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
+If you already have a Microsoft 365 Enterprise or Office 365 Enterprise plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
 > [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
+> If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 
 #### [**Enterprise**](#tab/enterprise/)
 
@@ -87,7 +87,7 @@ Here's a summary, based on licensing plan.
 To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
 > [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
+> If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 
 #### [**Education**](#tab/education/)
 
@@ -106,7 +106,7 @@ EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
 
 > [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
+> If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 
 #### [**Government**](#tab/government/)
 
@@ -125,7 +125,7 @@ To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsof
 For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
 
 > [!NOTE]
-> These voice features can also be deployed with [Direct Routing](../direct-routing-landing-page.md).
+> If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
@@ -141,6 +141,9 @@ Here's a summary, based on licensing plan.
   ![Nonprofit-based options](../media/licensing-nonprofit-options.png)
 
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
+
+> [!NOTE]
+> If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 
 #### [**Trial offers**](#tab/trial/)
 
