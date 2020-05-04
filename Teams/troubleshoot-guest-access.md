@@ -25,8 +25,8 @@ Troubleshoot problems with guest access in Microsoft Teams
 > You may have to wait up to 24 hours for your changes to take effect. 
 
 
+- To see whether we know about your problem, check out [Support Teams in your organization](Known-issues.md).
 - To check for current support issues with guest access in Teams, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- To see whether we know about your problem, check out [Known issues for Microsoft Teams](Known-issues.md).
 - Guests are users outside your organization. If someone is inside your organization (including your employees, onsite contractors, or onsite agents), they can't be added as guests. The same applies to your affiliates.
 - Find out about upcoming new or updated guest access features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
 - Tell us what you want in [Teams UserVoice](https://aka.ms/TeamsUserVoice).
