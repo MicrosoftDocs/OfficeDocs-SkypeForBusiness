@@ -28,16 +28,13 @@ description: Learn about policies in a educational or EDU setting, and how to us
 > [!NOTE]
 > For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
 
-Before we get started, it's important to note this article will cover multiple ways to assign policies to users in Teams.
+It's important to note this article will cover multiple ways to assign policies to users in Teams.
 
 - Manual assign to individual users.
-- Bulk assigning to many users.
+- Bulk assigning via PowerShell to multiple users.
 - Assigning policy packages to individual or multiple users.
 
-The advantages and disadvantages of these approaches come down to the institution's individual needs, and we'll cover that in the article
-
-> [!NOTE]
-> While the bulk of this article's intended for an Admin audience, there's also helpful information for Educators.
+The advantages and disadvantages of these approaches come down to the institution's individual needs.
 
 ## Admins: Getting started with Microsoft Teams policy management
 
