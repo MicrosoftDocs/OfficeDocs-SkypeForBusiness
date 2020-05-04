@@ -262,7 +262,7 @@ Meeting options allow you to control if meeting participants join your meetings 
 
 ![Join Microsoft Teams meeting invite, the Meeting options is on the far right underneath the invite link.](media/edu-join-meeting-options.png)
 
-- Control who can enter the meeting directly by using the virtual meeting lobby, so that participants wait to be admitted to the meeting instead of joining immediately.
+- Control who can enter the meeting directly with the **Who can bypass the lobby** selection. Set it to **People in my organization** to keep external users from having the option to enter, and turn **Always let callers bypass the lobby** to **Off** to have participants wait to be admitted to the meeting instead of joining immediately. You also have the option to **Announce when callers join or leave**, and this should be set to **On** so you're always aware of who's in the meeting.
 - Control who joins the meeting as a presenter or attendee.​ You can select **Only Me** to designate all other participants as attendees. This is the safest set-up for meetings held in a classroom setting.
   - If you expect to have more than one presenter in your meeting, select **Specific people** and pick the other participants who should join as presenters. Select **Everyone** if you want all participants to join the meeting as a presenter.
 
