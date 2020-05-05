@@ -126,7 +126,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Concurrent live events in an Office 365 organization | 15 |
+|Concurrent live events running in an Office 365 organization <sup>1</sup> | 15 |
+
+<sup>1</sup> You can schedule as many live events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
