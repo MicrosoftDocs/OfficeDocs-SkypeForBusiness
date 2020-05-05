@@ -119,6 +119,7 @@ Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
 
+- Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
 - Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
