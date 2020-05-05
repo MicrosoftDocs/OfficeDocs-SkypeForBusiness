@@ -187,26 +187,24 @@ Call agents selected must be one of the following:
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 ![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Conference mode** Conference mode significantly reduces the amount of time it takes for a call to be connected between a caller and an agent, after the agent accepts the call. If you more than one call queue, you can enable conference mode on some or all of your call queues; enabling conference mode on one call queue doesn't impact any other call queues.
+**Conference mode** Conference mode significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. If you have more than one call queue, you can enable conference mode on some or all of your call queues; enabling conference mode on one call queue doesn't impact any other call queues.
 
-Conference mode is disabled by default but can be enabled at any time if the following requirements are met.
+Conference mode is disabled by default but can be enabled at any time if all of the following requirements are met:
 
-- Conference mode needs to be enabled on the call queue
-- Calls need to be received via:
-  - VoIP call from another Microsoft Teams desktop client
-  - a Calling Plan
-  - Direct Routing
-
-If the requirements above aren't met, calls are handled as if conference mode wasn't enabled on the call queue.
-
-In addition to the requirements above, agents need to meet the following requirements to receive calls from a call queue with conference mode enabled:
-
-- The latest version of the Microsoft Teams desktop client needs to be installed
-- The agent's client needs to be set to Teams-only mode or Island mode
+- Agents added to the call queue need to have the latest version of the Microsoft Teams desktop client installed
+- Agents' clients need to be set to Teams-only mode or Island mode
 - Agents need to be assigned to a call queue with conference mode enabled
 
 > [!IMPORTANT]
 > If the agent requirements above aren't met and conference mode is enabled on a call queue, agents who don't meet the requirements aren't included in the call routing list. Agents who aren't in the call routing list won't receive calls. If you have agents who don't meet the agent requirements above, don't enable conference mode on the call queue.
+
+After conference mode is enabled on a call queue, calls will benefit from the faster connection time if they're received via one of the following methods:
+
+- VoIP call from another Microsoft Teams desktop client
+- a Calling Plan
+- Direct Routing
+
+The majority of calls are received via one of the methods in the list above. If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.
 
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
 **Routing method** You can choose either **Attendant**, **Serial**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
