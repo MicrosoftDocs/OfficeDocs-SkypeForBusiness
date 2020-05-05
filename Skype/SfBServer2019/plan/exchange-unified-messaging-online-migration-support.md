@@ -130,6 +130,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
 | VM | Service Features | Exchange Rules support | For security and compliance  | Y | Y    |
 | VM | User Features | PSTN Dial-in Access  | Subscriber access  | N | Y    |
+| VM | User Features | Delegate  | missed call email  | N | Y    |
 | VM | User Features | PSTN Outlook Voice Access   | Subscriber access  | N | Y    |
 | VM | User Features | Dial-in using an authenticated endpoint | Calling the voicemail service to listen to voice messages and change voicemail settings| Y | Y    |
 | VM | User Features | User setting to disable voicemail   |  | Y | Y    |

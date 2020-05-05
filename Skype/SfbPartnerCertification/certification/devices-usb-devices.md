@@ -23,7 +23,7 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 ---
 
 # USB audio and video devices
-The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no additional configuration required, and offer call control with Skype for Business, Microsoft Teams*, and Lync clients. The products provide a great experience for end-users and administrators.
+The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no additional configuration required, and offer call control with Skype for Business, Microsoft Teams, and Lync clients. The products provide a great experience for end-users and administrators.
 
 [Explore devices tested and certified for Microsoft Teams and Skype for Business.](https://products.office.com/microsoft-teams/across-devices/devices)
 
@@ -34,16 +34,16 @@ For more details on call control support with Teams, please read [control calls 
 
 |Manufacturer| Model	|Qualified|Certified Program|
 |:--- |:--- |:--- |:---|
-|Poly|Savi 8210 Office|4/20/2020|Microsoft Teams|
-|Poly|Savi 8210 UC|4/20/2020|Microsoft Teams|
-|Poly|Savi 8220 Office|4/20/2020|Microsoft Teams|
-|Poly|Savi 8220 UC|4/20/2020|Microsoft Teams|
-|Poly|Savi 8240 Office|4/20/2020|Microsoft Teams|
-|Poly|Savi 8240 UC|4/20/2020|Microsoft Teams|
-|Poly|Blackwire 5210 Headset|4/20/2020|Microsoft Teams|
-|Poly|Blackwire 5220 Headset|4/20/2020|Microsoft Teams|
-|Poly|Blackwire 7225 Headset|4/20/2020|Microsoft Teams|
-|Poly|Voyager Focus UC|4/20/2020|Microsoft Teams|
+|Poly|Savi 8210 Office|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Savi 8210 UC|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Savi 8220 Office|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Savi 8220 UC|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Savi 8240 Office|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Savi 8240 UC|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Blackwire 5210 Headset|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Blackwire 5220 Headset|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Blackwire 7225 Headset|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
+|Poly|Voyager Focus UC|4/20/2020|Skype for Business with upgrade to Microsoft Teams|
 |Yealink|CP700|4/13/2020|Microsoft Teams|
 |Jabra|Evolve2 65 Headset|4/13/2020|Microsoft Teams|
 |EPOS/Sennheiser|Impact SC 30|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
@@ -59,19 +59,19 @@ For more details on call control support with Teams, please read [control calls 
 |EPOS/Sennheiser|Impact SC 660 ANC USB|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
 |EPOS/Sennheiser|Impact SC 665 USB|4/9/2020|Skype for Business with upgrade to Microsoft Teams|
 |Logitech| Zone Wireless |4/8/2020|Microsoft Teams|
-|Poly|Voyager 8200 Headset|3/26/2020|Microsoft Teams|
+|Poly|Voyager 8200 Headset|3/26/2020|Skype for Business with upgrade to Microsoft Teams|
 |Logitech|Zone Wired|3/26/2020|Microsoft Teams|
 |Jabra|Evolve2 40 Headset|3/26/2020|Microsoft Teams|
-|Poly|Voyager 6200 Headset|3/23/2020|Microsoft Teams|
+|Poly|Voyager 6200 Headset|3/23/2020|Skype for Business with upgrade to Microsoft Teams|
 |Poly|Voyager 4245 Office|3/23/2020|Microsoft Teams|
 |Poly|Blackwire 8225 Headset|3/23/2020|Microsoft Teams|
 |Poly|Calisto 5300-M|03/05/2020|Microsoft Teams |
 |Poly|Voyager 4210 Office|03/05/2020|Microsoft Teams |
-|Poly|Voyager 4210 UC |03/05/2020|Microsoft Teams |
+|Poly|Voyager 4210 UC |03/05/2020|Skype for Business with upgrade to Microsoft Teams |
 |Poly|Voyager 4220 Office |03/05/2020|Microsoft Teams |
-|Poly|Voyager 4220 UC|03/05/2020|Microsoft Teams |
+|Poly|Voyager 4220 UC|03/05/2020|Skype for Business with upgrade to Microsoft Teams |
 |Poly|Voyager 5200 Office|03/05/2020|Microsoft Teams |
-|Poly|Voyager 5200 UC|03/05/2020|Microsoft Teams|
+|Poly|Voyager 5200 UC|03/05/2020|Skype for Business with upgrade to Microsoft Teams|
 |Poly|Blackwire 3310-M|03/05/2020|Microsoft Teams
 |Poly|Blackwire 3315-M|03/03/2020|Microsoft Teams|
 |Poly|Blackwire 3320-M|03/05/2020|Microsoft Teams|
