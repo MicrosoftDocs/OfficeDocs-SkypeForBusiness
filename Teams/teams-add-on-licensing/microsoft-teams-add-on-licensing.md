@@ -149,15 +149,24 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 #### [**Trial offers**](#tab/trial/)
 
-In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
+In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To get signed up for trial offers, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)
 
-- [Office 365 E1 Trial](../e1-trial-license.md), which includes Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past.
+Trials are available for these plans:
+- Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 and E5 trials
+- Office 365 Education [A1 trial](../teams-edu-licensing.md)
+- Office 365 Government [G1 trial](../g1-trial-license.md)
 
-- For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
+> [!NOTE]
+> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Small Business Plan or one of the other Enterprise, Government, Education or Nonprofit plans.
 
-- EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+  ![Trial-based options](../media/licensing-trial-options.png)
 
-Also, check out:
+  <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll free numbers or if you need to add additional minutes for users to dial out of meetings or users making domestic and international PSTN calls.
+
+> [!NOTE]
+> Currently there are no trial offers for getting voice calling and conferencing with a the Microsoft Teams Commercial trial, Microsoft Teams Exploratory, and Microsoft Teams Commercial cloud trial license.
+
+ Also, check out:
 
 - [Free version of Teams](../manage-freemium.md)
 - [Teams Exploratory experience](../teams-exploratory.md)
