@@ -34,7 +34,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
+> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
   
  **To assign a license for a user**
   
