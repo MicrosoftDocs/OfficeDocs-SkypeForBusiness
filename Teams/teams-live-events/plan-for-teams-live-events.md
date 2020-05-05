@@ -119,14 +119,14 @@ You can use Teams live events in multiple regions across the world. The followin
 **Available in these regional data centers**
 
 - Americas
-- Europe/Africa
 - Asia Pacific
+- Europe/Africa
 
 **Data location for these countries**
 
+- Australia
 - Canada
 - India
-- Australia
 - Japan
 - United Kingdom
 
