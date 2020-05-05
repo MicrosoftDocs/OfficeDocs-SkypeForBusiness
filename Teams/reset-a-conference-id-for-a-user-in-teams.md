@@ -54,7 +54,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info in email** for the user in the **Audio Conferencing** section. It doesn't send the PIN.
     
-- A conference ID will contain 7 digits, and you can't change its length.
+- A conference ID will contain 8 digits, and you can't change its length.
     
 - After it has been reset, you can see the new conference ID listed under **Conference ID**.
     
