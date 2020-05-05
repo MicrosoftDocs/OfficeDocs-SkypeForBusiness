@@ -60,7 +60,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
    - [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365. 
+   > If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365. 
 
 
 ## Next steps
