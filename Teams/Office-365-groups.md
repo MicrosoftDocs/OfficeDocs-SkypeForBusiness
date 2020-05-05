@@ -55,7 +55,7 @@ As a best practice for managing Teams members, add and remove members from the T
 Ability to add group as attendee while scheduling meetings
 ----------------------------------------------------------
 
-With a recent enhancements groups can now be added as an attendee while scheduling meetings on teams, following are few caveats associated with this feature:
-1. All existing O365 groups and teams created from existing O365 groups, will searchable and can be added to the meeting. However, members would receive the meeting invite based on their subscription to the group
-2. Teams created from scratch before May 2018 will also be searchable, but members would not receive the meeting invite because of their default group subscription which is "Only replies to you". This can be changed from Outlook by modifying the group settings
-3. Teams created from scratch after May 2018 are not searchable and are hidden using property "HiddenFromAddressListsEnabled", this is an admin controlled setting and can be modified by the admin
+Starting in May 2020, you can now invite a group to a scheduled meeting, with the following caveats:
+1. All existing Microsoft 365 groups and teams created from existing Microsoft 365 groups will be searchable and can be added to the meeting. However, members would receive the meeting invite based on their subscription to the group.
+2. Teams created from scratch before May 2018 will also be searchable, but members would not receive the meeting invite because of their default group subscription which is "Only replies to you." This can be changed from Outlook by modifying the group settings
+3. Teams created from scratch after May 2018 are not searchable and are hidden using the property "HiddenFromAddressListsEnabled." This is an admin-controlled setting that can be modified by the admin.
