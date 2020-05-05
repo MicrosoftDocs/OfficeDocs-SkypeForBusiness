@@ -149,22 +149,23 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 #### [**Trial offers**](#tab/trial/)
 
-In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To get signed up for trial offers, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)
+In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
 Trials are available for these plans:
-- Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 and E5 trials
+
+- Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 trial, and E5 trial
 - Office 365 Education [A1 trial](../teams-edu-licensing.md)
 - Office 365 Government [G1 trial](../g1-trial-license.md)
 
 > [!NOTE]
-> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Small Business Plan or one of the other Enterprise, Government, Education or Nonprofit plans.
+> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan.
 
   ![Trial-based options](../media/licensing-trial-offers.png)
 
-  <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll free numbers or if you need to add additional minutes for users to dial out of meetings or users making domestic and international PSTN calls.
+  <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
 
 > [!NOTE]
-> Currently there are no trial offers for getting voice calling and conferencing with a the Microsoft Teams Commercial trial, Microsoft Teams Exploratory, and Microsoft Teams Commercial cloud trial license.
+> Currently there are no trial offers for getting voice calling and conferencing with the Microsoft Teams Commercial trial, [Microsoft Teams Exploratory experience](../teams-exploratory.md), or [Microsoft Teams Commercial Cloud trial](../iw-trial-teams.md) license.
 
  Also, check out:
 
