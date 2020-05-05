@@ -41,7 +41,7 @@ The caller hears music while they are on hold, and the call connects to the call
 
 All calls in the queue are sent to agents by one of the following methods:
 
-- With attendant routing, the first call in the queue  rings all agents at the same time.
+- With attendant routing, the first call in the queue rings all agents at the same time.
 - With serial routing, the first call in the queue rings all call agents one by one.
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
@@ -187,13 +187,35 @@ Call agents selected must be one of the following:
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 ![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
+**Conference mode** Conference mode significantly reduces the amount of time it takes for a call to be connected between a caller and an agent, after the agent accepts the call. If you more than one call queue, you can enable conference mode on some or all of your call queues; enabling conference mode on one call queue doesn't impact any other call queues.
+
+Conference mode is disabled by default but can be enabled at any time if the following requirements are met.
+
+- Conference mode needs to be enabled on the call queue
+- Calls need to be received via:
+  - VoIP call from another Microsoft Teams desktop client
+  - a Calling Plan
+  - Direct Routing
+
+If the requirements above aren't met, calls are handled as if conference mode wasn't enabled on the call queue.
+
+In addition to the requirements above, agents need to meet the following requirements to receive calls from a call queue with conference mode enabled:
+
+- The latest version of the Microsoft Teams desktop client needs to be installed
+- The agent's client needs to be set to Teams-only mode or Island mode
+- Agents need to be assigned to a call queue with conference mode enabled
+
+> [!IMPORTANT]
+> If the agent requirements above aren't met and conference mode is enabled on a call queue, agents who don't meet the requirements aren't included in the call routing list. Agents who aren't in the call routing list won't receive calls. If you have agents who don't meet the agent requirements above, don't enable conference mode on the call queue.
+
+![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
 **Routing method** You can choose either **Attendant**, **Serial**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
+![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
 **Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
 
 You can enable presence-based call routing with any of the routing methods.
