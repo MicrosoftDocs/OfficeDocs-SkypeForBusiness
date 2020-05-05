@@ -114,14 +114,21 @@ The following table highlights core capabilities and features offered in live ev
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
-> The region for the event is automatically selected depending on the organizer and the Microsoft 365 or Office 365.
+> The region for the event is automatically selected depending on the organizer and the Microsoft 365 tenant location.
 
-**Available in these regions**
+**Available in these regional data centers**
 
 - Americas
-- Europe/Africa
 - Asia Pacific
-- Data location for Canada, India, Australia, Japan, UK
+- Europe/Africa
+
+**Data location for these countries**
+
+- Australia
+- Canada
+- India
+- Japan
+- United Kingdom
 
 **Exclusions and considerations**
 
