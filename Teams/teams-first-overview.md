@@ -38,7 +38,7 @@ To get started with your Teams First deployment you will need to meet at minimum
     To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
-    To understand Teams licensing, read [Office 365 licensing for Microsoft Teams](office-365-licensing.md)
+    To understand Teams licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
