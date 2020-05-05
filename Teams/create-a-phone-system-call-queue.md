@@ -41,8 +41,9 @@ The caller hears music while they are on hold, and the call connects to the call
 
 All calls in the queue are sent to agents by one of the following methods:
 
-- With attendant routing, the first call in the queue  rings all agents at the same time.
+- With attendant routing, the first call in the queue rings all agents at the same time.
 - With serial routing, the first call in the queue rings all call agents one by one.
+- With longest idle routing, the call agent who has been idle the longest receives the next available call.
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
 You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.
@@ -187,10 +188,11 @@ Call agents selected must be one of the following:
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 ![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Routing method** You can choose either **Attendant**, **Serial**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
+**Routing method** You can choose either **Attendant**, **Serial**, **Longest idle**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+- **Longest idle** routes the next available call to the call agent who has been idle the longest time.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
