@@ -26,13 +26,13 @@ appliesto:
 
 # Get started driving adoption of Microsoft Teams
 
-By driving adoption of Microsoft Teams, you can deliver an excellent user experience and increased business value inside your company. Our goal is to get you up and running quickly so that you can begin your journey with Teams. This guide focuses on user adoption of Teams and has dependencies on your environment’s technical readiness, which is addressed in other sections of our documentation.
+By driving adoption of Microsoft Teams, you can deliver an excellent user experience and increased business value inside your company. Our goal is to get you up and running quickly so that you can begin your journey with Teams. This guide focuses on user adoption of Teams and has dependencies on your environment's technical readiness, which is addressed in other sections of our documentation.
 
 ## Adoption prerequisites
 
 Before getting started, make sure that:
 
-- [Teams is installed](get-clients.md) and [licenses are assigned](office-365-licensing.md) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
+- [Teams is installed](get-clients.md) and [licenses are assigned](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
 
 - You've downloaded the desktop and mobile applications. 
 
@@ -50,7 +50,7 @@ Every adoption project varies in size and complexity based on your environment, 
 
 - **Experiment** - In this phase of controlled growth, you'll bring your internal champions and early adopters onboard. You'll speak with your business users to identify scenarios that would immediately benefit from the collaboration and communications capabilities that Teams provides. You'll gather feedback that will inform your broad-scale adoption phase, and you'll make service decisions about governance and lifecycle management that will ensure a successful deployment.
 
-- **Scale** - This is the broad-scale deployment phase in which you'll turn on Teams capabilities for all your employees. In this phase, the size of your organization will determine whether this is a “go big” project that will turn on Teams for all employees simultaneously or if you'll approach this by region, business unit, or other method of segmenting your employee population. In this phase you'll move to a continuous delivery model. Employees, leaders, and business units will want to expand their use of Teams and will require training and your engagement to understand how to best use Teams and other features of Office 365.   
+- **Scale** - This is the broad-scale deployment phase in which you'll turn on Teams capabilities for all your employees. In this phase, the size of your organization will determine whether this is a "go big" project that will turn on Teams for all employees simultaneously or if you'll approach this by region, business unit, or other method of segmenting your employee population. In this phase you'll move to a continuous delivery model. Employees, leaders, and business units will want to expand their use of Teams and will require training and your engagement to understand how to best use Teams and other features of Office 365.   
 
 Each of these adoption phases depends on your technical and environmental readiness for Teams. Let's get started!
 

@@ -146,11 +146,11 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Office 365 licensing for Teams](office-365-licensing.md).
+Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 |Ask yourself|Action |
 |------------|-------|
-|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Office 365 licensing for Teams](office-365-licensing.md).|
+|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
 
 ### Exchange and SharePoint interoperability 
