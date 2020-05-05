@@ -23,7 +23,7 @@ appliesto:
 
 ## Overview of Tasks
 
-The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
+The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by [Microsoft To Do](https://todo.microsoft.com/tasks/) and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
 
 > [!NOTE]
 > As we roll out the Tasks experience on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**. There may be a short delay in the availability of the mobile experience after the desktop experience is available.

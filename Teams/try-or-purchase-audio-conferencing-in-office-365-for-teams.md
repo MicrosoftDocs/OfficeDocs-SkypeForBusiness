@@ -49,7 +49,7 @@ You must be a [global administrator or billing administrator](https://support.of
 
 3. [Assign or remove licenses for Office 365 for business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 
-4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses:
 
