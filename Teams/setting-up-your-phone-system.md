@@ -35,7 +35,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 
-To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
