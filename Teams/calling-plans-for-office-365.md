@@ -53,19 +53,19 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     ![Screen shot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see "License options based on your plan" in [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
     ![Screen shot showing voice calling plan options.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 
 If so, you don't need to buy a Calling Plan. Office 365 Enterprise E5 includes the **Phone System** add-on, so you can proceed to checkout.
   
-Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## Pricing information
 
