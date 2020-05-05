@@ -130,6 +130,16 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
+> [!IMPORTANT]
+> **Microsoft 365 live event limit increases**
+> 
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> - Attendee limit: events can support up to 20,000 attendees
+> - Concurrent events: 50 events can be hosted simultaneously across a tenant
+> - Event duration: event length has been increased to 16 hours per broadcast
+
+
+
 ## Presence in Outlook
 
 Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).

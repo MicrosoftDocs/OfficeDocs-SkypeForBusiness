@@ -38,7 +38,7 @@ To share calls with others, a user creates a call group and adds the users they 
 
 ## License required
 
-Users must be Enterprise Voice enabled to set up and use call sharing and group call pickup. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+Users must be Enterprise Voice enabled to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## Configure group call pickup
 

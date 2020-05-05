@@ -59,7 +59,7 @@
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
-### [Manage your line-of-business apps](manage-your-lob-apps.md)
+### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
@@ -624,14 +624,14 @@
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
+### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
-### [Teams Licensing for Education](teams-edu-licensing.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
-### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 ### [Install Moodle integration](install-moodle-integration.md)
+### [Teams Licensing for Education](teams-edu-licensing.md)
 ### [Education SKU reference](sku-reference-edu.md)
 
 ## Teams for Firstline Workers
@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
+## [Support Teams in your organization](Known-issues.md)
 ## [Monitor and manage call quality](monitor-call-quality-qos.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Set up QoS in Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
-## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
@@ -734,16 +734,8 @@
 
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
-### [Microsoft 365 and Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Teams licenses](assign-teams-licenses.md)
-### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### License options based on your plan
-##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams add-on license options](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Manage the Office 365 E1 Trial offer](e1-trial-license.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
@@ -751,7 +743,7 @@
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
-### [Virtual User license](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
 
 ## Interoperability with Microsoft 365 and Office 365

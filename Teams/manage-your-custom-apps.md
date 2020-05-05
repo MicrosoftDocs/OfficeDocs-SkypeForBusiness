@@ -1,5 +1,5 @@
 ---
-title: Manage your line-of-business apps in Microsoft Teams
+title: Manage your custom apps in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to take your custom Teams apps from development to deployment. 
 ---
 
-# Manage your line-of-business apps in Microsoft Teams
+# Manage your custom apps in Microsoft Teams
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for IT pros. For more information on developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
@@ -27,7 +27,7 @@ This article provides end-to-end guidance for how to take your Teams app from de
 
 ## Getting started
 
-To create and manage line-of-business (LOB) apps in Teams, you’ll need two tenants: a test tenant for development and a production tenant.
+To create and manage custom apps in Teams, you’ll need two tenants: a test tenant for development and a production tenant.
 
 > [!NOTE]
 > If you don’t already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
