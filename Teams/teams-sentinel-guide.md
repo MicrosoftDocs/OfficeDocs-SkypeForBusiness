@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-description: Security advice and learnings for ITAdmins in installing, configuring, and maintaining Microsoft Teams.
+description: Security advice and learnings for ITAdmins on using Sentinel to monitor and hunt threats that may arise in Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -25,6 +25,9 @@ appliesto:
 
 Teams serves a central role in both communication and data sharing in the Microsoft 365 Cloud. Because the Teams service touches on so many underlying technologies in the Cloud, it can benefit from human and automated analysis not only when it comes to *hunting in logs*, but also in *real-time monitoring of meetings*. Azure Sentinel offers admins these solutions.
 
+> [!NOTE]
+> Need a refresher on Azure Sentinel? [This article](https://docs.microsoft.com/azure/sentinel/overview) is just the thing.
+
 ## Sentinel and Microsoft Teams Activity Logs
 
 This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected 3rd party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
@@ -32,7 +35,7 @@ This article focuses on collecting Teams activity logs in Azure Sentinel. Aside 
 > [!NOTE]
 > More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](https://docs.microsoft.com/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
 
-## Step 1: Collect your data
+## Step 1: Collect Teams logs
 
 This section has three parts:
 
@@ -87,19 +90,23 @@ $publisher = New-Guid
 Invoke-WebRequest -Method Post -Headers $headerParams -Uri "https://manage.office.com/api/v1.0/$tenantGuid/activity/feed/subscriptions/start?contentType=Audit.General&PublisherIdentifier=$Publisher"
 ```
 
-## Step 2: Create and deploy a Sentinel Playbook
+## Step 2: Deploy a Sentinel Playbook to ingest the Teams logs
 
 Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest your collected Teams data. The Logic App queries Office 365 to find the audit data it writes into the Azure Sentinel workspace.
 
+Use [this](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) ARM template to deploy your Sentinel Playbook.
 
 
 
 
 
-<!--*Thank you for content collaboration, Pete Bryan and Matthew Lowe.*-->
+
+<!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
 
 ## More information
 
 [Registering your application in Azure AD](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
 [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+
+[What is Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview)
