@@ -70,7 +70,7 @@ Turn on this feature so users can send email to a channel in Teams, using the ch
 
 Here you can turn on or turn off file sharing and cloud file storage options.
 
-Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and [Egnyte](https://www.egnyte.com). Turn on the switch for the cloud storage providers that your organization wants to use.
+Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and Egnyte (coming soon). Turn on the switch for the cloud storage providers that your organization wants to use.
 
 #### Organization
 
