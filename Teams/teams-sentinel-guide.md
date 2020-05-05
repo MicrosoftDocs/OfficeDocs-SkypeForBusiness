@@ -1,5 +1,5 @@
 ---
-title: "Security guide for Microsoft Teams"
+title: "Azure Sentinel and Microsoft Teams"
 author: MicrosoftHeidi
 ms.author: tracyp
 manager: serdars
@@ -89,7 +89,8 @@ Invoke-WebRequest -Method Post -Headers $headerParams -Uri "https://manage.o
 
 ## Step 2: Create and deploy a Sentinel Playbook
 
-Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest the collected Teams data.
+Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest your collected Teams data. The Logic App queries Office 365 to find the audit data it writes into the Azure Sentinel workspace.
+
 
 
 
