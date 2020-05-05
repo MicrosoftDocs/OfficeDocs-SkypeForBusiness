@@ -159,7 +159,7 @@ Trials are available for these plans:
 > [!NOTE]
 > The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Small Business Plan or one of the other Enterprise, Government, Education or Nonprofit plans.
 
-  ![Trial-based options](../media/licensing-trial-options.png)
+  ![Trial-based options](../media/licensing-trial-offers.png)
 
   <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll free numbers or if you need to add additional minutes for users to dial out of meetings or users making domestic and international PSTN calls.
 
