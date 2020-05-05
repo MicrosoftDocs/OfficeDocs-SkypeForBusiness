@@ -90,14 +90,22 @@ $publisher = New-Guid
 Invoke-WebRequest -Method Post -Headers $headerParams -Uri "https://manage.office.com/api/v1.0/$tenantGuid/activity/feed/subscriptions/start?contentType=Audit.General&PublisherIdentifier=$Publisher"
 ```
 
-## Step 2: Deploy a Sentinel Playbook to ingest the Teams logs
+## Step 2: Deploy a Sentinel Playbook or use a Function to ingest the Teams logs
+
+There are two ways to do this: 
 
 Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest your collected Teams data. The Logic App queries Office 365 to find the audit data it writes into the Azure Sentinel workspace.
 
 Use [this](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) ARM template to deploy your Sentinel Playbook.
 
+You may choose to use an Azure Function to ingest those logs, and if you do, the information on how to deploy is here.
 
+Things to remember:
 
+1. You will need to walk through the ARM template and replace certain of the values with values appropriate for your own environment.
+2. You will need to allow time between the ingestion of logs and looking at the results in Azure Sentinel.
+
+   Wait for 5 to 10 minutes, understanding that if there is no data within the past 5 minutes you will see an error message. Check Audit logs and keep in mind that because Teams information is in the Audit.General events, which collects more than Teams logs, results should appear within 5 to 10 minutes on systems that are in use. If using a text environment, be certain to use Teams in order to generate logging.
 
 
 
