@@ -2,6 +2,46 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/office-365-licensing.md", 
+      "redirect_url": "https://docs.microsoft.com/office365/servicedescriptions/teams-service-description", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/assign-teams-licenses.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-business-premium.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-premium-pro-plus.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e1-e3.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },       
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/manage-your-lob-apps.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-your-custom-apps", 
       "redirect_document_id": true

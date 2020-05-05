@@ -477,6 +477,8 @@ Create detailed reports in CQD and filter on Meeting ID to look at all users and
  
 The telemetry will not necessarily call out the issue, but it can help you better understand where to look and inform your decisions. Is it network, device, driver or firmware updates, usage, or user?
 
+### Why do I see upto 0.2% difference in call and user count values on measures and how to get most accurate volumes? 
+To compute call count and user count measures, a distinct countif operation is performed against the call or user identifiers in the data set. On large data sets, there is an upto 0.2% error inherient with the distinct countif opeartion. For the most accurate volume, you should rely on stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not elimnate this source of error in distinct call and user counts. Refer to [Dimensions and measurements available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for which measures are impacted.
 
 ### Why does my CQD v2 report data look different than the CQD v3 report data? 
 
