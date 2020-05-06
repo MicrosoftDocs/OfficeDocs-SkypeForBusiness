@@ -35,7 +35,7 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |||||
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
+**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. <br> To find out whether Business Voice is available in your country or region, see [Country and region availability for Business Voice](../business-voice/country-region-availability.md). For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead their computer. Set up [Audio Conferencing](../audio-conferencing-in-office-365.md) for users who schedule or leads meetings. <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Phone System** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. To learn more, see [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
@@ -63,6 +63,8 @@ For Microsoft 365 Business Voice, you have two options to choose from:
 
 - **Microsoft 365 Business Voice with a Calling Plan**: Get this if you want all phone number management and billing to be handled by Microsoft.
 - **Microsoft 365 Business Voice without a Calling Plan (Direct Routing)**: Get this if you want all phone number management and billing to be handled by your third-party telephone provider. You'll need to set up and deploy [Direct Routing](../direct-routing-landing-page.md) to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
+
+To learn more, see [What do I need to buy to use Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
 Here's a summary, based on licensing plan.
 
@@ -165,7 +167,7 @@ Trials are available for these plans:
   <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
 
 > [!NOTE]
-> Currently there are no trial offers for getting voice calling and conferencing with the Microsoft Teams Commercial trial, [Microsoft Teams Exploratory experience](../teams-exploratory.md), or [Microsoft Teams Commercial Cloud trial](../iw-trial-teams.md) license.
+> Currently there are no trial offers for getting voice calling and conferencing with the [Teams Exploratory experience](../teams-exploratory.md).
 
  Also, check out:
 
