@@ -92,7 +92,7 @@ This section gives an overview of fundamental elements that form a security fram
 
 Core elements are:
 
-- Azure Active Directory (AAD), which provides a single trusted back-end repository for user accounts. User profile information is stored in AAD through the actions of Microsoft Graph.
+- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
   - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
 - Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
@@ -154,7 +154,7 @@ Teams uses FIPS (Federal Information Processing Standard) compliant algorithms f
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by AAD in Office 365 / Microsoft 365.
+A trusted user is one whose credentials have been authenticated by Azure AD in Office 365 / Microsoft 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
@@ -163,7 +163,7 @@ Authentication is the provision of user credentials to a trusted server or servi
 > [!NOTE]
 > If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
 
-Teams authentication is accomplished through AAD and OAuth. The process of authentication can be simplified to:
+Teams authentication is accomplished through Azure AD and OAuth. The process of authentication can be simplified to:
 
 - User Login > Token issuance > subsequent request use issued token.
 
