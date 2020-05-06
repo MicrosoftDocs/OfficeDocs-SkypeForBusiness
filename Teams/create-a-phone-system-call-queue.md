@@ -200,9 +200,9 @@ Conference mode is disabled by default but can be enabled at any time if all of 
 
 After conference mode is enabled on a call queue, calls will benefit from the faster connection time if they're received via one of the following methods:
 
-- VoIP call from another Microsoft Teams desktop client
-- a Calling Plan
-- Direct Routing
+- VoIP calls from another Microsoft Teams desktop client
+- Calling Plan PSTN calls
+- Direct Routing PSTN calls
 
 The majority of calls are received via one of the methods listed above. If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.
 
