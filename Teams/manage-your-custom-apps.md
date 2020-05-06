@@ -27,10 +27,10 @@ This article provides end-to-end guidance for how to take your Teams app from de
 
 ## Getting started
 
-To create and manage custom apps in Teams, you’ll need two tenants: a test tenant for development and a production tenant.
+To create and manage custom apps in Teams, you'll need two tenants: a test tenant for development and a production tenant.
 
 > [!NOTE]
-> If you don’t already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
+> If you don't already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
 
 ## Step 1: Develop and test
 
@@ -76,7 +76,7 @@ Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publi
 To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users in your organization to upload custom apps.  Much like in the earlier <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">step</a>, you use app setup policies to do this.
 
 > [!NOTE]
-> If you’re uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to upload the unvalidated app to your tenant app store. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app store to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
+> If you're uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to upload the unvalidated app to your tenant app store. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app store to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
 
 To allow trusted users to upload custom apps, follow these steps:
 
@@ -126,15 +126,19 @@ You can update the app through the tenant app catalog. To do this, in the Micros
 
 In most cases, after you complete an app update the new version will automatically appear for end users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
-* a bot was added or removed
-* an existing bot's "botId" property changed
-* an existing bot's "isNotificationOnly" property changed
-* the bot's "supportsFiles" property changed
-* a Messaging extension was added or removed
-* a new connector was added
-* a new static tab was added
-* a new configurable tab was added
-* properties inside "webApplicationInfo" changed
+* A bot was added or removed
+* An existing bot's "botId" property changed
+* An existing bot's "isNotificationOnly" property changed
+* The bot's "supportsFiles" property changed
+* A Messaging extension was added or removed
+* A new connector was added
+* A new static tab was added
+* A new configurable tab was added
+* Properties inside "webApplicationInfo" changed
+
+![Screenshot of apps list, showing apps that have a new version available](media/manage-your-custom-apps-update1.png)
+
+![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
 ## Related apps
 
