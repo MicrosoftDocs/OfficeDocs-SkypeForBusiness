@@ -45,7 +45,7 @@ You can use the [Microsoft Team admin center](#using-the-microsoft-teams-admin-c
     - Use PSTN usages associated to voice routes that use a PSTN gateway located in a region where Location-Based Routing restrictions aren't needed.
 2. Assign the voice routing policy to users who require routing restrictions to be enforced.
 
-To learn more about how create voice routing policies and assign them to users, see [Manage voice routing policies in Microsoft Teams](manage-voice-routing-policies.md).
+To learn more about how to create voice routing policies and assign them to users, see [Manage voice routing policies in Microsoft Teams](manage-voice-routing-policies.md).
 
 ### Enable Location-Based Routing for network sites
 
