@@ -46,7 +46,7 @@ It's important to know that assigning a voice routing policy to a user doesn't e
 
 See [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
-## Edit an voice routing policy
+## Edit a voice routing policy
 
 ### Using the Microsoft Teams admin center
 
@@ -79,8 +79,6 @@ Or, you can also do the following:
 5. When you're finished adding users, click **Save**.
 
 ### Using PowerShell
-
-#### Assign a custom voice routing policy to a user
 
 See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
