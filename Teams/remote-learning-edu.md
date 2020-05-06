@@ -72,7 +72,7 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 ### 2. Configure user experiences using policies
 
 > [!IMPORTANT]
-> If you need to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
+> If you need to learn more about how to protect students during meetings, you can check out the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our Admin EDU policy recommendations, you should go to [Teams Policies and Policy Packages for Education](policy-packages-edu.md).
 
 [Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
