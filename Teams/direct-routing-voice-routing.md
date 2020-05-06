@@ -44,7 +44,7 @@ Voice routing is made up of the following elements:
 
 - **PSTN usages** – A container for voice routes and PSTN usages, which can be shared in different voice routing policies. 
 
-- **Voice Routes** – A number pattern and set of online PSTN gateways to use for calls where the calling number matches the pattern.
+- **Voice routes** – A number pattern and set of online PSTN gateways to use for calls where the calling number matches the pattern.
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
@@ -76,23 +76,23 @@ For all other calls:
   > [!NOTE]
   > The Priority value for route "Other +1" doesn't matter in this case because there is only one route that matches the pattern +1 XXX XXX XX XX. If a user makes a call to +1 324 567 89 89 and both sbc5.contoso.biz and sbc6.contoso.biz are unavailable, the call is dropped.
 
-The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN usage "US and Canada".  All routes are associated with the PSTN usage "US and Canada" and the PSTN usage is associated with the voice routing policy "US Only." 
+The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN usage, "US and Canada".  All routes are associated with the "US and Canada" PSTN usage  and the PSTN usage is associated with the "US Only" voice routing policy.
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |US and Canada|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US only|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
+|US and Canada|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US and Canada|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
 
 ## Example 1: Configuration steps
 
 The following example shows how to:
 
-1. Create a single PSTN usage
-2. Configure three voice routes
-3. Create a voice routing policy
-4. Assign the policy to a user named Spencer Low
+1. Create a single PSTN usage.
+2. Configure three voice routes.
+3. Create a voice routing policy.
+4. Assign the policy to a user named Spencer Low.
 
 You can use the [Microsoft Teams admin center](#admincenterexample1) or [PowerShell](#powershellexample1) to perform these steps.
 
@@ -291,7 +291,7 @@ US Only
 
 The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
-In the example that follows, you can create the voice routing policy "No Restrictions." The policy reuses the PSTN usage "US and Canada" created in Example 1, as well as the new PSTN usage "International."  This policy routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz. 
+In the example that follows, you can create the "No Restrictions" voice routing policy. The policy reuses the "US and Canada" PSTN usage created in Example 1, as well as the new "International" PSTN usage. This policy routes all other calls to the SBCs sbc2.contoso.biz and sbc5.contoso.biz.
 
 The examples that are shown assign the US Only policy to user Spencer Low, and the No Restrictions policy to the user John Woods so that routing occurs as follows:
 
@@ -310,8 +310,8 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |US and Canada|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
+|US and Canada|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US and Canada|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route for any number pattern |
 
   > [!NOTE]
@@ -322,10 +322,10 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 
 The following example shows how to:
 
-1. Create a new PSTN usage called International
-2. Create a new voice route called International
-3. Create a voice routing policy called No Restrictions
-4. Assign the policy to user John Woods
+1. Create a new PSTN usage called International.
+2. Create a new voice route called International.
+3. Create a voice routing policy called No Restrictions.
+4. Assign the policy to user John Woods.
 
 You can use the [Microsoft Teams admin center](#admincenterexample2) or [PowerShell](#powershellexample2) to perform these steps.
 
