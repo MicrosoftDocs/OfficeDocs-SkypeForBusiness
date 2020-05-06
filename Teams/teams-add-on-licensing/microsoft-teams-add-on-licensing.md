@@ -160,19 +160,23 @@ Trials are available for these plans:
 - Office 365 Government [G1 trial](../g1-trial-license.md)
 
 > [!NOTE]
-> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan.
+> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features.
+
+Here's a summary of trial offers for voice features.
 
   ![Trial-based options](../media/licensing-trial-offers.png)
 
-  <sup>1</sup> For each voice and conferencing option above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
+  <sup>1</sup> For each voice and conferencing listed above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
 
-> [!NOTE]
-> Currently there are no trial offers for getting voice calling and conferencing with the [Teams Exploratory experience](../teams-exploratory.md).
+  To see the add-ons, including trial offers, that are available with your plan, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**. 
 
  Also, check out:
 
 - [Free version of Teams](../manage-freemium.md)
-- [Teams Exploratory experience](../teams-exploratory.md)
+- [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for getting voice calling and conferencing with the Teams Exploratory experience.
+- Microsoft 365 Business Voice trial
+- Microsoft 365 Domestic Calling Plan trial
+- [Microsoft Phone System - Virtual User](virtual-user.md) license
 
 * * *
 
