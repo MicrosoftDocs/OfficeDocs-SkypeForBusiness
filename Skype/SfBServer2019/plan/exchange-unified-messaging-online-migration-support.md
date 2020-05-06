@@ -77,7 +77,7 @@ Microsoft has identified various customer deployments that are consuming feature
     Look out for a notice in the Admin Notification Center with further details and timeline regarding your users' migration. Notifications are sent at least 30 days before your migration period. 
 
     > [!Note]
-    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Microsoft 365 admin center. 
+    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Microsoft 365 can submit a support case through the Microsoft 365 admin center. 
 
 6. **Consider opting in for a planned migration**
 
@@ -99,7 +99,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 ## Auto attendant migration guidelines
 
-Office 365 organization administrators are required to re-create their Exchange UM Online auto attendants in the Microsoft Cloud Auto Attendant service and switch their on-premises phone numbers to them before February 28, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud auto attendants. If you have a large number of auto attendants, you can use the [Exchange UM Auto Attendant to Cloud Auto Attendant Migration scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) to simplify the bulk migration of auto attendants.
+Microsoft 365 organization administrators are required to re-create their Exchange UM Online auto attendants in the Microsoft Cloud Auto Attendant service and switch their on-premises phone numbers to them before February 28, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud auto attendants. If you have a large number of auto attendants, you can use the [Exchange UM Auto Attendant to Cloud Auto Attendant Migration scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) to simplify the bulk migration of auto attendants.
 
 ### Setup
 
