@@ -181,7 +181,7 @@ Currently, users can change the order of their pinned apps on Teams mobile clien
 
 #### Does user pinning take precedence?
 
-If the assigned Teams App Setup policy is updated to block user app pinning, Teams removes any apps pinned to the left-hand navigation bar. If the policy is then updated to allow user app pinning, users must re-pin their previously pinned apps.
+If the app setup policy assigned to the user is changed to block user app pinning, Teams removes any apps pinned to the app bar. If the policy is then changed to allow user app pinning, users must re-pin their previously pinned apps.
 
 ### Custom Teams apps
 
