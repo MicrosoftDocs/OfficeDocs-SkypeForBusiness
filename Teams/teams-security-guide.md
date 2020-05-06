@@ -197,26 +197,26 @@ There are two options to control who arrives in Teams meetings and who will have
 
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
-|"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
-|---------|---------|---------|
-|People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
-|People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
-|Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
+  |"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
+  |---------|---------|---------|
+  |People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+  |People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+  |Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
-|Actions  |Presenters  |Attendees  |
-|---------|---------|---------|
-|Speak and share their video     |   Y      |   Y      |
-|Participate in meeting chat     |   Y    |    Y     |
-|Change settings in meeting options     |   Y      |  N       |
-|Mute other participants| Y | N |
-|Remove other participants      |  Y       |   N      |
-|Share content     |     Y    |     N    |
-|Admit other participants from the lobby|  Y       |   N      |
-|Make other participants presenters or attendees     |   Y      | N        |
-|Start or stop recording     |     Y    |    N     |
-|Take control when another participant shares a PowerPoint     |  Y         | N        |
+  |Actions  |Presenters  |Attendees  |
+  |---------|---------|---------|
+  |Speak and share their video     |   Y      |   Y      |
+  |Participate in meeting chat     |   Y    |    Y     |
+  |Change settings in meeting options     |   Y      |  N       |
+  |Mute other participants| Y | N |
+  |Remove other participants      |  Y       |   N      |
+  |Share content     |     Y    |     N    |
+  |Admit other participants from the lobby|  Y       |   N      |
+  |Make other participants presenters or attendees     |   Y      | N        |
+  |Start or stop recording     |     Y    |    N     |
+  |Take control when another participant shares a PowerPoint     |  Y         | N        |
 
 Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an Azure AD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
@@ -232,8 +232,8 @@ Enabling external users to participate in Teams meetings can be very useful, but
 - Scheduling meetings is restricted to users who have an AAD account and a Teams license.
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference, dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On* then they also need to wait until a presenter or authenticated user joins the meeting.
 
-> [!CAUTION]
-> If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
+  > [!CAUTION]
+  > If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
 
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
