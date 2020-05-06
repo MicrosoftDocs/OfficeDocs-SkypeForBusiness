@@ -80,12 +80,10 @@ The following table summarizes the configuration using three voice routes. In th
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|US only|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US and Canada|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US only|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
-
-**??? I didn't change anything here but I think there's a typo in the table. "US only" is the voice routing policy, not the PSTN usage. Should "US only" be changed to "US and Canada"?**
 
 ## Example 1: Configuration steps
 
@@ -311,12 +309,10 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|US Only|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US and Canada|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US Only|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US Only|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route for any number pattern |
-
-**??? I didn't change anything here but I think there's a typo in the table. "US only" is the voice routing policy, not the PSTN usage. Should "US only" be changed to "US and Canada"?**
 
   > [!NOTE]
   > - The order of PSTN usages in voice routing policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN usage "International" must be placed after the PSTN usage "US Only." To change the order of the PSTN usages, run the `Set-CSOnlineVoiceRoutingPolicy` command. <br/>For example, to change the order from "US and Canada" first and "International" second to the reverse order run:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
@@ -345,7 +341,7 @@ You can use the [Microsoft Teams admin center](#admincenterexample2) or [PowerSh
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Direct Routing**, and then select the **Voice routes** tab.
 2. Click **Add**, enter "International" as the name, and then add the description.
-3. Set the priority to 4, and then set the dialed number pattern to \d+. **??? Is this correct? The table says \d+ and the PowerShell command uses ".*"**
+3. Set the priority to 4, and then set the dialed number pattern to \d+.
 4. Under **SBCs enrolled (optional)**, click **Add SBCs**, select sbc2.contoso.biz and sbc5.contoso.biz, and then click **Apply**.
 5. Under **PSTN usage records (optional)**, click **Add PSTN usage**, select the "International" PSTN usage record, and then click **Apply**.
 6. Click **Save**.
