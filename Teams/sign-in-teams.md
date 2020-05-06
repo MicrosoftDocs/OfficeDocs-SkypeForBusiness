@@ -42,6 +42,8 @@ Modern authentication is a process that lets Teams know that users have already 
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
+  If you're running Outlook 2013 or 2016, read [Update to skip the user principal name (UPN) lookup in Outlook 2016 and 2013](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013)
+
     > [!NOTE]
     > Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
 
