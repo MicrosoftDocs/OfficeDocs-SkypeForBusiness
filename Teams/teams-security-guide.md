@@ -167,7 +167,7 @@ Teams authentication is accomplished through Azure AD and OAuth. The process of 
 
 - User Login > Token issuance > subsequent request use issued token.
 
-Requests from client to server are authenticated and authorized via AAD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
+Requests from client to server are authenticated and authorized via Azure AD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
@@ -218,7 +218,7 @@ There are two options to control who arrives in Teams meetings and who will have
 |Start or stop recording     |     Y    |    N     |
 |Take control when another participant shares a PowerPoint     |  Y         | N        |
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an Azure AD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.
 
