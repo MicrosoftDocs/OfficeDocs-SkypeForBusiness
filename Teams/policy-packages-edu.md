@@ -250,6 +250,33 @@ Ensure the values you set for students align to your educational institution’s
 > [!NOTE]
 > This is an example, and as stated above, you should set these policies in accordance to your educational institution's guidelines.
 
+## Policies that should be assigned for educator safety
+
+These are recommended policy settings for admins to apply for educators, to allow them to have a safe and productive Teams experience.
+
+### Meeting policies
+
+These settings will allow educators to control access to their meetings.
+
+- **Let anonymous people start a meeting**: **Off**
+- **Automatically admit people**: **Everyone in your organization**
+- **Allow dial-in users to bypass the lobby**: **Off**
+
+### Live event policies
+
+### Calling policies
+
+### Message policies
+
+Setting **Owners can delete sent messages** to **On** will allow educators to monitor chat sessions and remove inappropriate messages in channel meetings.
+
+> [!NOTE]
+> This allows educators to remove inappropriate messages in class chats when the meeting is created within the channel, or to remove messages within the channel itself.
+
+### Teams policies
+
+### App permission policies
+
 ## What educators can do to protect students
 
 Of course, while setting policies is a great way for Admins to proactively protect students in a Teams setting, educators are the people who are interacting with the students on a regular basis, and they also have a vital role to play to keep students safe. Admins may want to discuss the following information with the educators they work with.
