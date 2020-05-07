@@ -24,7 +24,7 @@ Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing 
 
 - Access to voicemail in the user's Exchange mailbox by using the Skype for Business Online or Outlook clients
 
-- The ability to use the Office 365 web-based portal to manage voicemail options
+- The ability to use the Microsoft 365 admin center to manage voicemail options
 
 - Support for Exchange mailboxes on premises or in the cloud
 
@@ -66,7 +66,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
-   For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
 - On-premises users must be enabled for Enterprise Voice and Hosted Voicemail in Skype for Business Server.
 
