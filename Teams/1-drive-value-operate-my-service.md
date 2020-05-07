@@ -707,11 +707,7 @@ the nature of the issue.
     the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness)
     guidance.
 
-3.  **Check the known issues list:** Consult the [list of known issues for
-    Teams](known-issues.md) to
-    determine whether the user has been negatively affected by one of these
-    issues. Follow the workaround provided (if there is one) to resolve the
-    issue.
+3.  **Check the known issues list:** Consult [Support Teams in your organization](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4.  **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
     offers dedicated spaces for Teams. The Teams community provides a discussion

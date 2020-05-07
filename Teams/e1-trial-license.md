@@ -54,7 +54,7 @@ After you've used your E1 Trial promo code, you can't use it again, nor can you 
 
 ## Manage the E1 Trial
 
-Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md).
 
 
 Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
@@ -71,7 +71,7 @@ To upgrade E1 Trial users to a paid subscription:
 
 3. Assign the newly purchased license.
 
-For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
+For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
@@ -87,7 +87,7 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 ## Related topics
 
-[Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Manage user access to Teams](user-access.md)
 
 [Manage Teams settings for your organization](enable-features-office-365.md)
 
