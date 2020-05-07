@@ -79,7 +79,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organization** is the default domain assigned to your tenant. You can retrieve this information by having the tenant admin log in to office.com, click on the Admin Center app, navigate to **Setup** on the left, and click **Domains**. For example: mytenant.onmicrosoft.com.
 
-    The Organization name is also the Default Domain name in Office 365.
+    The Organization name is also the Default Domain name in Microsoft 365 or Office 365.
 
 To ensure that a hosted voicemail policy was created successfully, run the following command:
 
