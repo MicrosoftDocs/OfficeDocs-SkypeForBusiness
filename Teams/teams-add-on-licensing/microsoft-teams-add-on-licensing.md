@@ -163,9 +163,9 @@ Here's a summary of trial offers for voice features.
 
   ![Trial-based options](../media/licensing-trial-offers.png)
 
-  Your base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features. To see available trial offers and add-ons, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**.
+ Your base plan doesn't have to be a trial offer to use any of these trials for voice features. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features. To see available trial offers and add-ons, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**.
 
-  For each voice and conferencing option listed above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
+  For each these voice and conferencing options, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
 
  Also, check out:
 
