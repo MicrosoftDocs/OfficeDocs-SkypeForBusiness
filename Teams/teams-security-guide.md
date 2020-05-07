@@ -20,11 +20,11 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ---
-> [!IMPORTANT]
-> The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
-<p>
 
 # Security and Microsoft Teams
+
+> [!IMPORTANT]
+> The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
 
 Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
@@ -92,7 +92,7 @@ This section gives an overview of fundamental elements that form a security fram
 
 Core elements are:
 
-- Azure Active Directory (AAD), which provides a single trusted back-end repository for user accounts. User profile information is stored in AAD through the actions of Microsoft Graph.
+- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
   - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
 - Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
@@ -154,7 +154,7 @@ Teams uses FIPS (Federal Information Processing Standard) compliant algorithms f
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by AAD in Office 365 / Microsoft 365.
+A trusted user is one whose credentials have been authenticated by Azure AD in Office 365 / Microsoft 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
@@ -163,11 +163,11 @@ Authentication is the provision of user credentials to a trusted server or servi
 > [!NOTE]
 > If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
 
-Teams authentication is accomplished through AAD and OAuth. The process of authentication can be simplified to:
+Teams authentication is accomplished through Azure AD and OAuth. The process of authentication can be simplified to:
 
 - User Login > Token issuance > subsequent request use issued token.
 
-Requests from client to server are authenticated and authorized via AAD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
+Requests from client to server are authenticated and authorized via Azure AD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
@@ -197,28 +197,28 @@ There are two options to control who arrives in Teams meetings and who will have
 
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
-|"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
-|---------|---------|---------|
-|People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
-|People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
-|Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
+    |"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
+    |---------|---------|---------|
+    |People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+    |People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+    |Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
-|Actions  |Presenters  |Attendees  |
-|---------|---------|---------|
-|Speak and share their video     |   Y      |   Y      |
-|Participate in meeting chat     |   Y    |    Y     |
-|Change settings in meeting options     |   Y      |  N       |
-|Mute other participants| Y | N |
-|Remove other participants      |  Y       |   N      |
-|Share content     |     Y    |     N    |
-|Admit other participants from the lobby|  Y       |   N      |
-|Make other participants presenters or attendees     |   Y      | N        |
-|Start or stop recording     |     Y    |    N     |
-|Take control when another participant shares a PowerPoint     |  Y         | N        |
+    |Actions  |Presenters  |Attendees  |
+    |---------|---------|---------|
+    |Speak and share their video     |   Y      |   Y      |
+    |Participate in meeting chat     |   Y    |    Y     |
+    |Change settings in meeting options     |   Y      |  N       |
+    |Mute other participants| Y | N |
+    |Remove other participants      |  Y       |   N      |
+    |Share content     |     Y    |     N    |
+    |Admit other participants from the lobby|  Y       |   N      |
+    |Make other participants presenters or attendees     |   Y      | N        |
+    |Start or stop recording     |     Y    |    N     |
+    |Take control when another participant shares a PowerPoint     |  Y         | N        |
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an Azure AD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.
 
@@ -232,8 +232,8 @@ Enabling external users to participate in Teams meetings can be very useful, but
 - Scheduling meetings is restricted to users who have an AAD account and a Teams license.
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference, dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On* then they also need to wait until a presenter or authenticated user joins the meeting.
 
-> [!CAUTION]
-> If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
+  > [!CAUTION]
+  > If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
 
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
