@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
@@ -57,6 +58,12 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.4.41.0 (05/06/2020)
+
+Introduced in this update:
+- Reliability fixes for application start in Windows 10 Kiosk
+
 ### 4.4.25.0 (03/31/2020)
 
 Introduced in this update:
