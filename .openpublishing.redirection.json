@@ -1870,6 +1870,11 @@
         "source_path": "Teams/teams-ip-phones.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones",
         "redirect_document_id": true
-      }      
+      },    
+      {
+        "source_path": "Teams/devices/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
+        "redirect_document_id": true
+      }
   ] 
 }
