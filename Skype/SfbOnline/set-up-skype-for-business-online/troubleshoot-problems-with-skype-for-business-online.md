@@ -77,10 +77,9 @@ As an admin for Microsoft 365 Apps for business, you get free access to our know
 - [Admins: Call Support](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
 > [!NOTE]
-> If you're using Microsoft 365 or Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](https://go.microsoft.com/fwlink/p/?linkid=847978).
+> If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](https://go.microsoft.com/fwlink/p/?linkid=847978).
 
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
-
