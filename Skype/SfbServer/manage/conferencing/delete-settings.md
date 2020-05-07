@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: "Summary: Learn how to delete meeting configuration settings in Skype for Business Server."
@@ -36,13 +38,13 @@ To delete meeting settings, use the **Remove-CsMeetingConfiguration** cmdlet.
   
 The following command removes the meeting configuration settings applied to the Redmond site:
   
-```
+```PowerShell
 Remove-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
 The next command removes all the meeting configuration settings applied to the site scope:
   
-```
+```PowerShell
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 

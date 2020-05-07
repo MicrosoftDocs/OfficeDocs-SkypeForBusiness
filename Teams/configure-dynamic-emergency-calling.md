@@ -11,7 +11,10 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: Configure dynamic emergency calling
+f1.keywords:
+- NOCSH
+description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency calling feature.
+ms.custom: seo-marvel-mar2020
 appliesto: 
 - Microsoft Teams
 ---
@@ -63,8 +66,11 @@ For more information about emergency calling--including information about emerge
 
 The following clients are currently supported.  Check back often to see updates to this list.
 
-- Teams desktop client for Windows
-- Teams desktop client for Mac
+- Teams desktop client for Microsoft Windows
+- Teams desktop client for Apple macOS
+- Teams mobile client for Apple iOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
+- Teams mobile client for Android client and Google Play store version 1416/1.0.0.2019121201 and greater
+- Teams phone version 1449/1.0.94.2019110802 and greater
 
 ## Assign emergency addresses
 
@@ -86,14 +92,14 @@ For more information about configuring emergency addresses, see [Add an emergenc
 
 Network settings are used to determine the location of a Teams client, and to dynamically obtain emergency calling policies and an emergency location. You can configure network settings according to how your organization wants emergency calling to function.
 
-Network settings include sites that include a collection of subnets--these are used exclusively for dynamic policy assignment to users.  For example, a TeamsEmergencyCalling Policy and TeamsEmergencyCallRouting Policy might be assigned to the “Redmond site” so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
+Network settings include sites that include a collection of subnets--these are used exclusively for dynamic policy assignment to users.  For example, a TeamsEmergencyCalling Policy and TeamsEmergencyCallRouting Policy might be assigned to the "Redmond site" so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
 
 >[!Note]
 >Subnets can also be defined in LIS and can be associated with an emergency location.  
 
 Keep the following definitions in mind:
 
-- Trusted IP’s contain a collection of the Internet external IPs of the enterprise network and are used to determine if the user’s endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user’s external IP matches an IP in the Trusted IP address. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.  (If a public IP address has both IPv4 and IPv6, you need to add both as trusted IP addresses.)
+- Trusted IP's contain a collection of the Internet external IPs of the enterprise network and are used to determine if the user's endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user's external IP matches an IP in the Trusted IP address. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.  (If a public IP address has both IPv4 and IPv6, you need to add both as trusted IP addresses.)
 
 - A network region contains a collection of network sites. 
 
@@ -159,25 +165,25 @@ The TeamsEmergencyCallRouting policy applies to Direct Routing only. (Although i
 
 For example, to enable a specific user for security desk notification, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 To assign a policy called "Contoso Emergency Calling Policy 1" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 To enable a specific Direct Routing user for emergency calling, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 To assign a policy called "Contoso New York Emergency Call Routing" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 

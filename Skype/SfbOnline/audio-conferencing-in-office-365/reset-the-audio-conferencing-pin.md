@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Find out what you should know about PINs and how to reset them in Skype for Business Online. "
@@ -33,7 +34,7 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## Reset a user's PIN
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Go to the admin center > **Skype for Business**, and in the left navigation, click **Audio conferencing**.
     

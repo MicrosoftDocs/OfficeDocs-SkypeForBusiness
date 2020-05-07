@@ -7,10 +7,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Stopgap for upgrading to Teams if the Admin Center hasn't lit up in your tenant 
+description: Learn about a stopgap for upgrading to Microsoft Teams if the Admin Center hasn't lit up in your tenant. 
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- CSH
+ms.custom: 
+ - Teams-upgrade-guidance
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

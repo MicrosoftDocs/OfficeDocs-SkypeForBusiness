@@ -7,6 +7,8 @@ ms.reviewer: sohailta
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: "Read this topic to learn how to assign conferencing policies for Skype Room System accounts."
@@ -66,7 +68,7 @@ Skype Room System prompts users for authentication when they use the meeting joi
   
 The following command enables administrators to require authentication for all meetings, including unrestricted meetings: 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

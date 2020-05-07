@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerPage
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: "To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server. Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring. For details about these prerequisites, see Deploying Monitoring in the Deployment documentation."

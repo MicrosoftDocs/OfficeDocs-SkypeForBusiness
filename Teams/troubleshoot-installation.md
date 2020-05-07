@@ -9,6 +9,8 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -70,36 +72,36 @@ This section describes how to collect and analyze application and system logs to
 
     1. Run the following to go to your TEMP folder:
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. Copy the setup and application logs. Note that depending on the point of failure, some of these logs may not be present.
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. Run the following to capture the open handles.
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. Run the following to capture the opened DLLs.
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. Run the following to capture the drivers that are running.
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. Run the following to capture the access control lists (ACLs) of the Teams folder.
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

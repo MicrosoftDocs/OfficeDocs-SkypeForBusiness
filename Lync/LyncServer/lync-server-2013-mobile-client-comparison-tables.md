@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mobile client comparison tables'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client comparison tables
 ms:assetid: f3ba3379-afe4-4bc8-a038-9dff9dfd3bff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691004(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Mobile client comparison tables for Lync Server 2013
 
@@ -50,7 +52,7 @@ The following tables compare the features and capabilities among Lync 2013 mobil
 
   - Archiving and compliance
 
-These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
+These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft 365 or Office 365 users, unless otherwise indicated in the table footnotes.
 
 <div>
 
@@ -58,13 +60,13 @@ These tables indicate the features that are available to Lync users in an on-pre
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>
+> <P>Looking for the mobile client comparison tables for Skype for Business? See <A href="https://technet.microsoft.com/library/dn951412.aspx">Mobile client comparison tables for Skype for Business</A>.</P>
 > <LI>
-> <P>For online help and resources for end users, see <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 for Mobile Clients</A>.</P>
+> <P>For online help and resources for end users, see <A href="https://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 for Mobile Clients</A>.</P>
 > <LI>
 > <P>To compare the features available in other Lync 2013 clients, see <A href="lync-server-2013-desktop-client-comparison-tables.md">Client comparison tables for Lync Server 2013</A>.</P>
 > <LI>
-> <P>Lync Server 2013 also supports Lync 2010 mobile apps. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">Mobile Client Comparison Tables</A> in the Lync Server 2010 documentation.</P></LI></UL>
+> <P>Lync Server 2013 also supports Lync 2010 mobile apps. For details, see <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">Mobile Client Comparison Tables</A> in the Lync Server 2010 documentation.</P></LI></UL>
 
 
 
@@ -405,7 +407,7 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 </table>
 
 
-1 Not available to Skype for Business Online and/or Office 365 users.
+1 Not available to Skype for Business Online and/or Microsoft 365 or Office 365 users.
 
 </div>
 
@@ -750,11 +752,11 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 </table>
 
 
-1 For Office 365 users, this feature is available for audio conferencing provider (ACP)-enabled meetings only.
+1 For Microsoft 365 or Office 365 users, this feature is available for audio conferencing provider (ACP)-enabled meetings only.
 
-2 Not available to Office 365 users.
+2 Not available to Microsoft 365 or Office 365 users.
 
-3 For Skype for Business Online and/or Office 365 users, this feature is available from third-party audio conferencing providers.
+3 For Skype for Business Online and/or Microsoft 365 or Office 365 user, this feature is available from third-party audio conferencing providers.
 
 4A PowerPoint presentation shared by Lync Web App cannot be viewed from Lync Mobile 2013. Annotations made on Lync 2013 Desktop clients are not viewable on mobile devices.
 
@@ -887,11 +889,11 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 
 1 Lync Server 2013, Skype for Business Online, and Office 365 users may call other Lync users and Skype users by tapping the icon. Lync Server 2013 users may also place PSTN calls by tapping the icon.
 
-2 For on-premises Lync Server 2013 users, on Windows Phone, iPhone, and iPad devices, the user taps the call icon in the contact card and accepts the callback from Lync Server 2013. For Office 365 users, on Windows Phone, iPhone, and iPad devices, when the user taps the call button, a dialog box opens asking the user to confirm that he or she wants to call the number.
+2 For on-premises Lync Server 2013 users, on Windows Phone, iPhone, and iPad devices, the user taps the call icon in the contact card and accepts the callback from Lync Server 2013. For Microsoft 365 or Office 365 user, on Windows Phone, iPhone, and iPad devices, when the user taps the call button, a dialog box opens asking the user to confirm that he or she wants to call the number.
 
-3 Not available to Skype for Business Online and/or Office 365 users.
+3 Not available to Skype for Business Online and/or Microsoft 365 or Office 365 user.
 
-4 For Skype for Business Online and/or Office 365 users, this feature is supported by Microsoft partners.
+4 For Skype for Business Online and/or Microsoft 365 or Office 365 user, this feature is supported by Microsoft partners.
 
 </div>
 

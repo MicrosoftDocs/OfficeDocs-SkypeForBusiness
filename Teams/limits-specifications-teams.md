@@ -6,15 +6,18 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karuanag
-description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
+ms.reviewer: 
+description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
   - SPO_Content
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Limits and specifications for Microsoft Teams
@@ -28,18 +31,22 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000|
 |Number of members in a team | 5,000       |
+|Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
+|Number of teams an Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
+|Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
 &sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; This limit includes archived teams.
 
 &sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+
+<sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 ## Messaging
 
@@ -52,11 +59,15 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Feature  | Maximum limit  |
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
+|Chat size | Approximately 28 KB per post<sup>3</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+
+<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
 ### Emailing a channel
 
@@ -94,8 +105,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting  | 250    |
+|Number of people in a meeting (can chat and call in)  | 250    |
+|Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
+|Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
 ### Meeting expiration
 
@@ -107,17 +120,27 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
-
-
 ## Teams live events
 
 |Feature     | Maximum limit |
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Concurrent live events in an Office 365 tenant | 15 |
+|Concurrent live events running in an Office 365 organization <sup>1</sup> | 15 |
+
+<sup>1</sup> You can schedule as many live events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+> [!IMPORTANT]
+> **Microsoft 365 live event limit increases**
+> 
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> - Attendee limit: events can support up to 20,000 attendees
+> - Concurrent events: 50 events can be hosted simultaneously across a tenant
+> - Event duration: event length has been increased to 16 hours per broadcast
+
+
 
 ## Presence in Outlook
 
@@ -133,7 +156,7 @@ By storing the files in the SharePoint Online document library and OneDrive for 
 
 Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
-|Feature                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Feature                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
@@ -142,6 +165,15 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## Tags
+
+|Feature  |Maximum limit  |
+|---------|---------|
+|Number of tags per team    | 100        |
+|Number of suggested default tags per team    | 25        |
+|Number of team members assign to a tag    |100         |
+|Number of tags assigned to a user    |25         |
 
 ## Contacts
 

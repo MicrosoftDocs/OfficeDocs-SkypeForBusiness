@@ -1,14 +1,12 @@
 ---
 title: "Qualified Lync Attendant Console applications"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-Robots:
-- nofollow
-- no index
+ROBOTS: NOINDEX, NOFOLLOW
 ms.service: skype-for-business-online
 ms.collection: Lync
 audience: Admin
@@ -16,7 +14,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - dn788946

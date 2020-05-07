@@ -8,6 +8,8 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: "The Set-CcSiteDirectory cmdlet sets the directory where site level configuration files for Skype for Business Cloud Connector Edition will be stored. The folder will contain the base VHD and Cloud Connector configuration files."
@@ -19,7 +21,7 @@ The Set-CcSiteDirectory cmdlet sets the directory where site level configuration
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -30,7 +32,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 The following example sets the site root directory to \\SiteShare\CloudConnector:
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 

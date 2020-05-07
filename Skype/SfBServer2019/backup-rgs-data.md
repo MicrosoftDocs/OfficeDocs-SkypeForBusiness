@@ -8,6 +8,8 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Learn how to back up Response Group Service (RGS) data in Skype for Business Server 2019."

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider."
 ---
@@ -27,7 +29,7 @@ When creating SIP trunk configuration settings usingSkype for Business Server Co
 |Name|Identity|Unique identifier for the collection. This property is read-only; you cannot change the Identity of a collection of trunk configuration settings.|
 |Description|Description|Provides a way for administrators to store addition information about the settings (for example, the purpose of the trunk configuration).|
 |Maximum early dialogs supported|MaxEarlyDialogs|The maximum number of forked responses a PSTN gateway, IP-PBX, or SBC at the service provider can receive to an Invite that it sent to the Mediation Server.|
-|Encryption support level|SRTPMode|Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider. For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration. Media configuration is set by using the [New-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration) and [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration) cmdlets.<br/>Allowed values are:<br/><br/>**Required**: SRTP encryption must be used.<br/>**Optional**: SRTP will be used if the gateway supports it.<br/>**Not Supported**: SRTP encryption is not supported and therefore will not be used.<br/><br/>SRTPMode is used only if the gateway is configured to use Transport Layer Security (TLS). If the gateway is configured with Transmission Control Protocol (TCP) as the transport, SRTPMode is internally set to Not Supported.|
+|Encryption support level|SRTPMode|Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider. For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration. Media configuration is set by using the [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration) and [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration) cmdlets.<br/>Allowed values are:<br/><br/>**Required**: SRTP encryption must be used.<br/>**Optional**: SRTP will be used if the gateway supports it.<br/>**Not Supported**: SRTP encryption is not supported and therefore will not be used.<br/><br/>SRTPMode is used only if the gateway is configured to use Transport Layer Security (TLS). If the gateway is configured with Transmission Control Protocol (TCP) as the transport, SRTPMode is internally set to Not Supported.|
 |Refer support|Enable3pccRefer<br/>EnableReferSupport|If set to **Enable sending refer to the gateway**, indicates that the trunk supports receiving Refer requests from the Mediation Server.<br/>If set to **Enable refer using third-party call control**, indicates that the 3pcc protocol can be used to allow transferred calls to bypass the hosted site. 3pcc is also known as "third party control," and occurs when a third-party is used to connect a pair of callers (for example, an operator placing a call from person A to person B).|
 |Enable media bypass|EnableBypass|Indicates whether media bypass is enabled for this trunk. Media bypass can only be enabled if **Centralized media processing** is also enabled.|
 |Centralized media processing|ConcentratedTopology|Indicates whether there is a well-known media termination point. (An example of a well-known media termination point would be a PSTN gateway where the media termination has the same IP as the signaling termination.)|
@@ -45,7 +47,7 @@ When creating SIP trunk configuration settings usingSkype for Business Server Co
 ||||
 
 > [!Note]
-> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in Skype for Business Server Control Panel. For more information, see the help topic for the [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration) cmdlet. 
+> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in Skype for Business Server Control Panel. For more information, see the help topic for the [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration) cmdlet. 
 
 **To create new trunk configuration settings by using Skype for Business Server Control Panel**
 

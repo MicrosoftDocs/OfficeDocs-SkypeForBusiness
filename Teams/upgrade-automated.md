@@ -10,6 +10,8 @@ audience: admin
 description: Overview of automated upgrades from Skype for Business to Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -49,7 +51,7 @@ When your automated upgrade completes, the **Coexistence Mode** is set to Teams 
 
 Successful transitions from Skype for Business Online to Microsoft Teams require technical planning and user readiness to ensure your organization is prepared to take advantage of expanded functionality and performance of Teams. However, as you plan your upgrade, you may find your organization is not yet ready to upgrade to Teams at this time.
 
-If you receive a notification regarding your scheduled automated upgrade to Teams and you wish to postpone to a later date, the Office 365 Global Admin may log into the Teams Admin portal and click the *Postpone* button. Doing so will push out the automated upgrade date 30 days. When you refresh the Teams Admin portal after postponing, you will see a notification that includes your new automated upgrade date.
+If you receive a notification regarding your scheduled automated upgrade to Teams and you wish to postpone to a later date, the Global Admin may log into the Teams Admin portal and click the *Postpone* button. Doing so will push out the automated upgrade date 30 days. When you refresh the Teams Admin portal after postponing, you will see a notification that includes your new automated upgrade date.
 
 ## Requests to downgrade to Skype for Business
 

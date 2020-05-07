@@ -10,8 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to conduct the experiment phase of Teams adoption. 
-ms.custom: Adopt
+description: In this article, you will learn about how to conduct the experimental phase of Microsoft Teams adoption. 
+f1.keywords:
+- CSH
+ms.custom: 
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Lync Windows Store app'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Windows Store app
 ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deploying Lync Windows Store app in Lync Server 2013
 
@@ -30,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-12-03_
 
-Before making Lync Windows Store app available to users, make sure that your deployment meets the [Lync Windows Store app requirements for Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). For details about configuring Lync Server 2013 to support Lync Windows Store app, see the NextHop Blog article, "Lync Server Autodiscover and the Lync Windows Store App," at [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966). After your server environment is configured correctly, you can direct users to download the Lync app from the Windows Store by searching for "Lync."
+Before making Lync Windows Store app available to users, make sure that your deployment meets the [Lync Windows Store app requirements for Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). For details about configuring Lync Server 2013 to support Lync Windows Store app, see the NextHop Blog article, "Lync Server Autodiscover and the Lync Windows Store App," at [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966). After your server environment is configured correctly, you can direct users to download the Lync app from the Windows Store by searching for "Lync."
 
 <div>
 
@@ -59,29 +61,29 @@ Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor
 
 **To Configure Multi-Factor Authentication**
 
-1.  Install an AD FS federation server role. For details, see the Active Directory Federation Services 2.0 Deployment Guide at <http://go.microsoft.com/fwlink/p/?linkid=267511>.
+1.  Install an AD FS federation server role. For details, see the Active Directory Federation Services 2.0 Deployment Guide at <https://go.microsoft.com/fwlink/p/?linkid=267511>.
 
-2.  Create certificates for AD FS. For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  Create certificates for AD FS. For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  From the Windows PowerShell command-line interface, run the following command:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Establish a partnership by running the following command:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  Set the following relying party rules:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -96,9 +98,9 @@ Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor
 ## The time and date are not set accurately on the device running Lync Windows Store app
 
 The time setting on the device must be synchronized with the time setting on the server. This is particularly important for devices such as Microsoft Surface, and other devices running Windows RT that are not joined to a domain. To set the time on these devices automatically from a time server, run the following command from an elevated command prompt on the device:
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -122,16 +124,16 @@ If your topology consists of Lync Server 2010 with Office Communications Server 
     1.  Open Lync Server Management Shell.
     
     2.  Run the following command:
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>
 
 ## Lync Windows Store App cannot sign in due to a certificate name validation failure
 
-A sign-in issue can occur for Office 365 users who are not running the latest version of Lync Windows Store app. This issue generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**). To fix the issue, users should install the latest version of Lync Windows Store app, which also requires Windows 8.1.
+A sign-in issue can occur for Microsoft 365 or Office 365 users who are not running the latest version of Lync Windows Store app. This issue generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**). To fix the issue, users should install the latest version of Lync Windows Store app, which also requires Windows 8.1.
 
 </div>
 

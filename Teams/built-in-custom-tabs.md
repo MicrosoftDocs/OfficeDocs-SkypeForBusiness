@@ -10,6 +10,8 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
 appliesto: 

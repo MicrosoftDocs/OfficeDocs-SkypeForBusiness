@@ -1,0 +1,72 @@
+### YamlMime:Hub
+
+title: Skype for Business # < 60 chars
+summary: Skype for Business technical documentation # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: m365
+
+metadata:
+  title: Skype for Business # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Skype for Business technical documentation # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: skype-for-business-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
+  localization_priority: Priority
+
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For IT Professionals # < 60 chars (optional)
+      items:
+        # Card
+        - title: Skype for Business Online
+          summary: Find resources for managing Skype for Business Online in your Office 365 environment.
+          url: /SkypeForBusiness/skype-for-business-online
+        # Card
+        - title: Hybrid Solutions
+          summary: Find information on planning a Skype for Business hybrid deployment.
+          url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+        # Card
+        - title: Skype for Business Server
+          summary: Deploy and manage Skype for Business Server for your organization.
+          url: /SkypeForBusiness/skype-for-business-server-2019
+        # Card
+        - title: PowerShell Reference for Skype for Business
+          summary: Learn about the PowerShell cmdlets you need to manage Skype for Business and Skype for Business Online.
+          url: /powershell/skype/intro
+        # Card
+        - title: Microsoft Teams
+          summary: Get the planning, how to, and practical guidance you need to successfully roll out Microsoft Teams.
+          url: /MicrosoftTeams/
+        # Card
+        - title: Journey from Skype for Business to Microsoft Teams
+          summary: Find guidance and tools to explore your optimal path to Teams.
+          url: /MicrosoftTeams/upgrade-start-here
+        # Card
+        - title: Microsoft Teams Rooms
+          summary: Learn how to plan, deploy, and manage Microsoft Teams Rooms.
+          url: /SkypeForBusiness/room-systems/
+        # Card
+        - title: Skype for Business certification program
+          summary: Learn about certified solutions and devices.
+          url: /SkypeForBusiness/certification/overview
+        # Card
+        - title: Troubleshoot
+          summary: Find troubleshooting and support resources for IT Professionals and admins.
+          url: /office/troubleshoot
+    - title: For other audiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Developers
+          summary: Guidance for developing solutions for Skype for Business.
+          url: /skype-sdk/
+        # Card
+        - title: End users
+          summary: Find help, training, and technical support for Skype for Business users on support.office.com.
+          url: https://support.office.com/skype-for-business

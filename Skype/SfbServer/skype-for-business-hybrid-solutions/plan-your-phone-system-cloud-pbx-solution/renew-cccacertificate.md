@@ -8,6 +8,8 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: "The Renew-CcCACertificate cmdlet renews the Skype for Business Cloud Connector Edition root CA certificate that is near expiration or already expired. This command was changed to Update-CcCACertificate in Cloud Connector 2.0 and later releases."
@@ -17,7 +19,7 @@ description: "The Renew-CcCACertificate cmdlet renews the Skype for Business Clo
  
 The Renew-CcCACertificate cmdlet renews the Skype for Business Cloud Connector Edition root CA certificate that is near expiration or already expired. This command was changed to Update-CcCACertificate in Cloud Connector 2.0 and later releases.
   
-```
+```powershell
 Renew-CcCACertificate
 ```
 
@@ -32,7 +34,7 @@ None
 
 The following example renews the root CA certificate: 
   
-```
+```powershell
 Renew-CcCACertificate 
 ```
 

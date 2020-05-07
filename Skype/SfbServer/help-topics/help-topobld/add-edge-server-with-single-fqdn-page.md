@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerIsSingleFqdnPage
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 description: "Information on Edge Server Single FQDN Page."

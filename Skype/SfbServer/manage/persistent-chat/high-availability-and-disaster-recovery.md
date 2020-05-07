@@ -8,6 +8,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: "Summary: Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015."
@@ -50,7 +52,7 @@ To fail over Persistent Chat Server:
     
    - Use the following command to drop log shipping:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -165,7 +167,7 @@ These steps are designed to recover configuration as it existed prior to the dis
   
 To restore the pool to its normal state run the following Windows PowerShell command:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

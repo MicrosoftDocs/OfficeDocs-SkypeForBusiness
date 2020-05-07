@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015."
 ---
@@ -23,9 +25,9 @@ This topic contains the recommended client deployment steps you should take befo
     
 ## See also
 
-[New and changed settings for Lync 2013](https://technet.microsoft.com/en-us/library/jj205204(v=ocs.15).aspx) 
+[New and changed settings for Lync 2013](https://technet.microsoft.com/library/jj205204(v=ocs.15).aspx) 
  
-[Client interoperability in Lync 2013](https://technet.microsoft.com/en-us/library/jj204672(v=ocs.15).aspx)
+[Client interoperability in Lync 2013](https://technet.microsoft.com/library/jj204672(v=ocs.15).aspx)
  <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 
  [Plan for clients and devices](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user Persistent Chat policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
@@ -79,7 +81,7 @@ You can assign a per-user persistent chat policy with either Lync Server 2013 Co
 
 ## Assigning a Per-User Persistent Chat Policy by Using Windows PowerShell Cmdlets
 
-You can also assign per-user persistent chat policies by using the **Grant-CsPersistentChatPolicy** cmdlet. You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+You can also assign per-user persistent chat policies by using the **Grant-CsPersistentChatPolicy** cmdlet. You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## To assign a per-user persistent chat policy to a single user
 
@@ -89,7 +91,7 @@ You can also assign per-user persistent chat policies by using the **Grant-CsPer
 
 ## To assign a per-user persistent chat policy to multiple users
 
-  - This command assigns the per-user Persistent Chat policy RedmondUsersPersistentChatPolicy to all the users who work for the IT department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
+  - This command assigns the per-user Persistent Chat policy RedmondUsersPersistentChatPolicy to all the users who work for the IT department. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -99,7 +101,7 @@ You can also assign per-user persistent chat policies by using the **Grant-CsPer
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-For more information, see the help topic for the [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/jj204907\(v=ocs.15\)) cmdlet.
+For more information, see the help topic for the [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/library/jj204907\(v=ocs.15\)) cmdlet.
 
 ## See Also
 

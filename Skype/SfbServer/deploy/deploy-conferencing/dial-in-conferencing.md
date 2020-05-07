@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: "Summary: Read this topic to learn how to configure dial-in conferencing in Skype for Business Server."
@@ -78,13 +80,13 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 3. Run the following at the command prompt:
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    For example:
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -102,13 +104,13 @@ For more information, see [Get-CsDialPlan](https://docs.microsoft.com/powershell
     
 3. For any dial plans that are missing the dial-in conferencing region, run:
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    For example:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

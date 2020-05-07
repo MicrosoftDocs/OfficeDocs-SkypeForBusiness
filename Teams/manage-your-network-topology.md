@@ -10,7 +10,9 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
-f1keywords: ms.teamsadmincenter.networktopology.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.networktopology.overview
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -79,12 +81,12 @@ To complete the steps in this section, you'll need some familiarity with PowerSh
 
  Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
 
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 In this example, we create a network region named India.
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
@@ -94,14 +96,17 @@ See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/modul
 
 Use the [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites. Each network site must be associated with a network region.
 
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
+
 In this example, we create two new network sites, Delhi and Hyderabad, in the India region.
-```
+
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
+
 The following table shows the network sites defined in this example.
 
 ||Site 1 |Site 2 |
@@ -115,17 +120,17 @@ See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/modul
 
 Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
 
-```
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site.
-```
 
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
-
 ```
+
 The following table shows the subnets defined in this example.
 
 ||Site 1 |Site 2 |
@@ -135,11 +140,14 @@ The following table shows the subnets defined in this example.
 |Site ID  | Site (Delhi) | Site 2 (Hyderabad) |
 
 For multiple subnets, you can import a CSV file by using a script such as the following.
-```
+
+```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
+
 In this example, the CSV file looks something like this:
-```
+
+```console
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -152,11 +160,14 @@ See also [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/modu
 ### Define external subnets (external trusted IP addresses)
 
 Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
-```
+
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
+
 For example:
-```
+
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 

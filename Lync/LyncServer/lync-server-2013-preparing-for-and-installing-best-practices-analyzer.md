@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparing for and installing Best Practices Analyzer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for and installing Best Practices Analyzer
 ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Preparing for and installing Best Practices Analyzer in Lync Server 2013
 
@@ -86,7 +88,7 @@ We recommend that you install Lync Server 2013, Best Practices Analyzer on a com
 
 ## Installing Best Practices Analyzer
 
-You can download the Best Practices Analyzer for Lync Server 2013 at [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539).
+You can download the Best Practices Analyzer for Lync Server 2013 at [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539).
 
 To install Best Practices Analyzer, start the Microsoft Installer file RtcBPA.msi on the computer where you want to install the tool, and then follow the instructions on the screen. The default location for installing the program files is \<system drive\>\\Program Files\\Lync Server 2013\\BPA.
 

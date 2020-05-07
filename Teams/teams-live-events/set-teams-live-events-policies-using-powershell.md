@@ -1,7 +1,7 @@
 ---
-title: Use PowerShell to set live events policies in Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+title: Use PowerShell to set live events policies
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -9,12 +9,15 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and features that are available in the events that they create
+description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and the features available in the events.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Use PowerShell to set live events policies in Microsoft Teams
@@ -26,6 +29,9 @@ You can use the following Windows PowerShell cmdlets to set and assign policy se
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 Here are some examples.
+
+> [!NOTE]
+> Before you can run these cmdlets you must be connected to Skype for Business Online PowerShell. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## Allow users to schedule live events 
 
@@ -135,5 +141,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### Related topics
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
-
+- [Teams PowerShell overview](../teams-powershell-overview.md)
 

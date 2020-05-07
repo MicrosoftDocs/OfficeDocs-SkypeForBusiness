@@ -3,6 +3,8 @@ title: How user photos are displayed in Lync
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: How user photos are displayed in Lync
 ms:assetid: b44a364d-a1d2-4d45-b27a-b5f77775e233
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn783119(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # How user photos are displayed in Lync
 
@@ -86,11 +88,11 @@ Considerations for using images from Active Directory Domain Services include th
 
 User cannot change the image used in their Active Directory Domain Services profile directly through Lync 2010 client. They can use one of the following options to do so, if available:
 
-  - **SharePoint Server**   Users can upload a photo to ‘My Site’ on a SharePoint Server and then [configure profile synchronization in SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) to synchronize the photo to the **thumbnailPhoto** attribute in Active Directory Domain Services.
+  - **SharePoint Server**   Users can upload a photo to ‘My Site’ on a SharePoint Server and then [configure profile synchronization in SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) to synchronize the photo to the **thumbnailPhoto** attribute in Active Directory Domain Services.
 
   - **Photo stored on publicly accessible URL**   Users can configure their user photo specifying a publicly accessible URL for the image that they want to use. The image must be publicly accessible without a password. The image stored at the specified web address is transferred to other users through the contact card category in the presence information. When Lync client needs to display a user photo, it retrieves the image from the specified web address.
 
-  - **Exchange 2010 cmdlets for Windows PowerShell**   Administrators can run the [Import-RecipientDataProperty](http://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet in the Exchange 2010 Management Shell in to manage the **thumbnailPhoto** attribute. When images are imported with Exchange 2010 cmdlets, the file size is limited to 10 KB.
+  - **Exchange 2010 cmdlets for Windows PowerShell**   Administrators can run the [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet in the Exchange 2010 Management Shell in to manage the **thumbnailPhoto** attribute. When images are imported with Exchange 2010 cmdlets, the file size is limited to 10 KB.
 
   - **Third Party tools**   Users can upload only their own photo to for the **thumbnailPhoto** attribute.
 
@@ -106,7 +108,7 @@ When you choose the **Show a picture from a web address** option, Lync gets the 
 
 Considerations for using images from a web address include the following:
 
-  - File size limits are determined by the **MaxPhotoSizeKB** attribute in the client policy, defined with the [New-CsClientPolicy](http://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet. The default size limit is 30 KB. The maximum value is 100 KB. There is no restriction on the resolution of the image, but if you try to use an image file that exceeds the size limit it will not be downloaded to Lync clients. You can set the value to 0 to disable all user photos from being used in Lync.
+  - File size limits are determined by the **MaxPhotoSizeKB** attribute in the client policy, defined with the [New-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet. The default size limit is 30 KB. The maximum value is 100 KB. There is no restriction on the resolution of the image, but if you try to use an image file that exceeds the size limit it will not be downloaded to Lync clients. You can set the value to 0 to disable all user photos from being used in Lync.
 
   - User photos from a web address can be seen by external federated contacts.
 
@@ -116,7 +118,7 @@ Considerations for using images from a web address include the following:
 
 ## Managing user’s photo with Client Policy cmdlets
 
-In Lync Server 2010, client policy settings are configured with the CsClientPolicy cmdlets. The configured policy settings are sent to clients through in-band provisioning. The two parameters of the CsClientPolicy cmdlets that determine the user photo experience are **DisplayPhoto** and **MaxPhotoSizeKB**. The corresponding in-band provisioning parameter for **DisplayPhoto** and **MaxPhotoSizeKB** is named **PhotoUsage**. Values for the **PhotoUsage** parameter are send to clients through the **endpointConfiguration** **provisionGroup**. See [Overview of Client Policies and Settings](http://go.microsoft.com/fwlink/?linkid=507470) for more information.
+In Lync Server 2010, client policy settings are configured with the CsClientPolicy cmdlets. The configured policy settings are sent to clients through in-band provisioning. The two parameters of the CsClientPolicy cmdlets that determine the user photo experience are **DisplayPhoto** and **MaxPhotoSizeKB**. The corresponding in-band provisioning parameter for **DisplayPhoto** and **MaxPhotoSizeKB** is named **PhotoUsage**. Values for the **PhotoUsage** parameter are send to clients through the **endpointConfiguration** **provisionGroup**. See [Overview of Client Policies and Settings](https://go.microsoft.com/fwlink/?linkid=507470) for more information.
 
 The **DisplayPhoto** parameter value determines the source of the user's photo image. The supported values are included in the following table.
 
@@ -168,7 +170,7 @@ User photos included in Presence status also have an associated hash value that 
 
 
 > [!NOTE]  
-> Because photos are not stored in the GalContacts.db database, downloading user photos is not dependent on the <STRONG>AddressBookAvailability</STRONG> setting in the client policy (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).
+> Because photos are not stored in the GalContacts.db database, downloading user photos is not dependent on the <STRONG>AddressBookAvailability</STRONG> setting in the client policy (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).
 
 
 
@@ -189,7 +191,7 @@ Next, after retrieving the image file, Lync 2010 client compares the attribute v
 Additionally, the client checks with the server every 24 hours from the time at which the cached version of the image file was created to compare the value of the **PhotoHash** attribute on the server with the value on the client. If the values are different, the client knows that the image file has changed. To obtain the updated image file, the client again queries the ABWQ service to update the image file in the client cache with the image file on the server, which also resets the **TimeStamp** on the file in the client cache.
 
 The following is an example response to a query to the ABWQ service:
-
+```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
               <Value>efa6096aed2746cb9ab2037f7dbdde9d.f2eeeb5946db54a7aa607ecd3ae09d
@@ -207,6 +209,7 @@ The following is an example response to a query to the ABWQ service:
          <Valuesxmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
     i:nil="true" />
     </Attribute>
+```
 
 </div>
 
@@ -240,23 +243,23 @@ When you choose the **Show my picture** option, your user photo is displayed in 
 
 ## Show a picture from a website
 
-The **Show picture from a website** option becomes available in Lync 2013 after a client policy is set to enable it. The client version must be newer than 15.0.4535.1002, which is installed with the [Lync Cumulative Updates: November 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Users may need to log out and then back in again to see the changes in the client.
+The **Show picture from a website** option becomes available in Lync 2013 after a client policy is set to enable it. The client version must be newer than 15.0.4535.1002, which is installed with the [Lync Cumulative Updates: November 2013](https://go.microsoft.com/fwlink/p/?linkid=509908). Users may need to log out and then back in again to see the changes in the client.
 
 You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell. The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:
 
-   ```
+   ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
    ```
 
-   ```
+   ```powershell
     $po=Get-CsClientPolicy -Identity Global
    ```
 
-   ```
+   ```powershell
     $po.PolicyEntry.Add($pe)
    ```
 
-   ```
+   ```powershell
     Set-CsClientPolicy -Instance $po
    ```
 

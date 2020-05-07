@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn how to run a report to get a list of active StaffHub users in your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

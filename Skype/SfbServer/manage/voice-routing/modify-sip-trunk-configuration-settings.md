@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider. "
 ---
@@ -46,7 +48,7 @@ When modifying SIP trunk configuration settings using the Skype for Business Ser
 |||
 
 > [!Note]
-> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in the Skype for Business Server Control Panel. For more information, see the help topic for the [Set-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet. 
+> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in the Skype for Business Server Control Panel. For more information, see the help topic for the [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet. 
 
 **To modify SIP trunk configuration settings by using the Skype for Business Server Control Panel**
 

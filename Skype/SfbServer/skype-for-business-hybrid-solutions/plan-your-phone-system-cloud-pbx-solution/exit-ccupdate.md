@@ -8,6 +8,8 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: "The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business Cloud Connector Edition host server."
@@ -19,7 +21,7 @@ The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2. 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -34,7 +36,7 @@ None
 
 The following command puts the appliance on which it runs back into production mode: 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 

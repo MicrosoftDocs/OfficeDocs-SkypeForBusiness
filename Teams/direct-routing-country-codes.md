@@ -13,7 +13,10 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
-description: "Read this article to locate media path country codes for Direct Routing."
+f1.keywords:
+- NOCSH
+description: Read this article to locate media path country codes for Direct Routing so you can select the optimal media path.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Direct Routing media path country codes

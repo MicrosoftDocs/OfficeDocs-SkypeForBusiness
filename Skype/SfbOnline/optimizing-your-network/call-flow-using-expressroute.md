@@ -15,7 +15,8 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: "This article helps to explain the core call flow principles for Skype for Business Online and ExpressRoute, and gives you some detailed examples of call flows so you can understand and plan correctly."
@@ -110,7 +111,7 @@ To help you apply the general principals about the Skype for Business call flows
 > [!NOTE]
 > A subset of traffic used by Skype for Business isn't routable over ExpressRoute, and will always take an Internet path. Refer to the [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) to determine the URLs that can be affected.
 
-### Peer-to-peer call for Office 365 users from within customer network
+### Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network
 <a name="bk_Figure2"> </a>
 
 For peer-to-peer calls, media traffic always takes the most direct route to its destination. However, the signaling traffic goes to an Office 365 datacenter where the Online user is homed. Since both users are on the same WAN and nothing prevents the clients from communicating directly, the media flows directly between them. Signaling traffic, for both users traverses the ExpressRoute connection that is destined for each organization's datacenter. To show you the call flow in this scenario, see this.
@@ -191,7 +192,7 @@ Skype for Business Online usage scenarios involve users who are homed Online, an
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
-|Peer-to-peer call  <br/> |Two clients, both on your network.  <br/> |ExpressRoute  <br/> |local  <br/> |[Peer-to-peer call for Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|Peer-to-peer call  <br/> |Two clients, both on your network.  <br/> |ExpressRoute  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Peer-to-peer call  <br/> |Two clients, one on your network (internal) and the other client on the Internet (external).  <br/> |Internal user: ExpressRoute  <br/> External user: Internet  <br/> |Internal user: ExpressRoute  <br/> External user: Internet to Office 365 Edge server.  <br/> |[Peer-to-peer call for Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Assumes that firewall blocks direct connections between clients, that requires an Online Edge server. Traffic from internal user to Online Edge server follows similar path as that to conferencing server for conference call.  <br/> |
 |Peer-to-peer call to a user in a federated organization  <br/> |Two clients, on your network (internal) and at Online user on federated organization's network (federated).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Assumes a firewall blocks direct connections between clients, requiring Online Edge server. Traffic from the internal user to Online Edge server follows a similar path as that of a conferencing server for conference call.  <br/> |
 |Join conference call by user in customer network  <br/> |Client on your network and conferencing server in Office 365 cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -210,7 +211,7 @@ Hybrid call flows apply when you have a Skype for Business deployment that inclu
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
-|Peer-to-peer call  <br/> |Two clients, both on customer network and homed on-premises  <br/> |Local  <br/> |local  <br/> |[Peer-to-peer call for Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Since users are homed on-premises, signaling flows locally to the on-premises datacenter instead of Office 365 cloud.  <br/> |
+|Peer-to-peer call  <br/> |Two clients, both on customer network and homed on-premises  <br/> |Local  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Since users are homed on-premises, signaling flows locally to the on-premises datacenter instead of Office 365 cloud.  <br/> |
 |Peer-to-peer call  <br/> |Two clients, both connecting from customer network. One is homed online, the other is homed on-premises.  <br/> |Online user: ExpressRoute  <br/> On-premises user: local  <br/> |local  <br/> |[Peer-to-peer call for Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Only the Online homed user sends signaling traffic to the Office 365 cloud.  <br/> |
 |Peer-to-peer call to a user in a federated organization  <br/> |Two clients, on premise-user in customer network (internal) and online user at federated company's network (Federated).  <br/> |Internal user: local  <br/> Federated user: ExpressRoute  <br/> |Internet or ExpressRoute (depends whether online or on-premises edge server is used)  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) and part of [On-premises Edge server with Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) (for media traffic). <br/> |Assumes a firewall blocks direct connections between clients, requiring Online Edge server. ICE negotiation will offer both Online (by the online user) and on-premises Edge servers (by the on-premises user) for connectivity.  <br/> |
 |Join conference call by user in customer network (conference scheduled by Online user)  <br/> |On-premises user on your network and conferencing server in Office 365 cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Server resources for conference call are defined by the meeting organizer. In this case, it was scheduled by an Online user, so resources are in the Office 365 cloud.  <br/> |

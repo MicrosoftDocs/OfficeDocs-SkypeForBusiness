@@ -7,6 +7,8 @@ ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: "This article describes the client preferences and defaults available for the Skype for Business on Mac client, and how to edit them from outside the App."
@@ -56,7 +58,7 @@ defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.
 
 For reference, here is a sample settings file using default settings only: 
   
-```
+```console
 {
     BITApplicationDidEnterBackgroundTime = "1496164840.505589";
     BITApplicationWasLaunched = 1;

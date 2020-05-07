@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business certification program - Video"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Skype for Business Server
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - mt779140
@@ -70,7 +71,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 |**Skype for Business in-band provisioning**| |&#x2714; |
 |**Monitoring with OMS**| |&#x2714; |
 |**In-band update**| &#x2714;| &#x2714;|
-|**Management platform**|3rd party |Windows PC based (Group Policies, SCCM, and others) |
+|**Management platform**|3rd party |Windows PC based (Group Policies, Configuration Manager, and others) |
 | | | |
 
 #### Interop with Skype for Business

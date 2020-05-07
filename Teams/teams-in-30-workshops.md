@@ -11,10 +11,13 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_JourneyFromSfB
+  - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto: 
   - Microsoft Teams
@@ -42,17 +45,35 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams in 30</h3>
+                        <h3>Get started with Teams in 30 (Start here!)</h3>
                         <P>Start your Teams in 30 journey on the right foot. Understand the program, who should participate, and what resources you can use to ensure your success.</P>
-                        <p>Audience: Business sponsors, IT admins, adoption and change owners</p>
+                        <p><i>Audience: Business sponsors, IT admins, adoption and change owners</i></p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Ready your end users</h3>
+                    <p>Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</p><p><i>Audience: Adoption and change owners</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -64,7 +85,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                     <h3>Prepare your environment - Part I</h3>
-                    <p>Set the foundation for your Teams rollout. Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</p><p>Audience: IT admins</p>
+                    <p>Set the foundation for your Teams rollout. Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</p><p><i>Audience: IT admins</i></p>
 </div>
                 </div>
             </div>
@@ -82,32 +103,13 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Prepare your environment - Part II</h3>
-                    <p>Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</p><p>Audience: IT admins</p>
+                    <p>Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</p><p><i>Audience: IT admins</i></p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Ready your end users</h3>
-                    <p>Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</p><p>Audience: Adoption and change owners</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -121,13 +123,35 @@ appliesto:
                     <div class="cardText">
                     <h3>Optimize and expand</h3>
                     <p>Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</p>
-                    <p>Audience: Business sponsors, IT admins, adoption and change owners</p>
+                    <p><i>Audience: Business sponsors, IT admins, adoption and change owners</i></p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                    <h3>Teams Chalk Talks</h3>
+                    <p>Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Chalk Talks assume you've completed a basic Teams rollout.</p>
+                    <p><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</p>
+                    <p><i>Audience: IT admins</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     

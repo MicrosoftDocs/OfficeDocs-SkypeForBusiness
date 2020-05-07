@@ -1,5 +1,5 @@
 ---
-title: Best practices for user feedback methods in Microsoft Teams
+title: Best practices for user feedback methods
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,12 +9,15 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Best practices for user feedback methods in Microsoft Teams
@@ -31,4 +34,4 @@ Community-driven feedback methods require champions and service owners to be eng
 Showcases
 ---------
 
-As you continue along this journey, you will find showcases in your own environment of employees whose creativity with Microsoft Teams will surprise and delight you. We recommend that you share these showcases broadly. This will encourage others to be innovative, educate users who may be earlier in the adoption curve and reward those who’ve taken the time to think through how to best use Microsoft Teams in their environment. Setting a measurable goal of identifying a set number of showcases each quarter is helpful in maintaining your adoption momentum.
+As you continue along this journey, you will find showcases in your own environment of employees whose creativity with Microsoft Teams will surprise and delight you. We recommend that you share these showcases broadly. This will encourage others to be innovative, educate users who may be earlier in the adoption curve and reward those who've taken the time to think through how to best use Microsoft Teams in their environment. Setting a measurable goal of identifying a set number of showcases each quarter is helpful in maintaining your adoption momentum.

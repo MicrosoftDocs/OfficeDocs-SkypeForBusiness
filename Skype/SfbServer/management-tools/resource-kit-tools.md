@@ -8,6 +8,8 @@ ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: "This topic describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the Web Conf Data tool can be used to easily control data that is uploaded by users during an online meeting. The SEFAUtil tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015."
@@ -19,7 +21,7 @@ This topic describes the tools in the Skype for Business Server 2015 Resource Ki
 
 ## Installation of the Resource Kit Tools
 
-To install the Skype for Business Server 2015 Resource Kit, download [OCSReskit.msi](https://www.microsoft.com/en-us/download/details.aspx?id=52631) from the Download Center.
+To install the Skype for Business Server 2015 Resource Kit, download [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) from the Download Center.
 
 Run **OCSResKit.msi** to do a simple installation. The .msi installs all the tools in the following path: **%Program Files%\Skype for Business Server 2015\ResKit**. Tools that are self-contained executables are in this folder. Tools that also have supporting files are in their own subfolders.
 
@@ -87,7 +89,7 @@ The ABSConfig tool can be started by using the ABSConfig.exe file. The tool open
 
 ABSConfig stores the Address Book Service configuration in the database.
 
-```
+```console
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -224,8 +226,8 @@ There are two phases when using Bandwidth Utilization Analyzer:
 
 - Customize reports, which is performed by using BandwidthUtilizationAnalyzer.xlsm
 
-> [!IMPORTANT]
-> We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
+	> [!IMPORTANT]
+	> We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
 
 #### Starting Bandwidth Utilization Analyzer
 
@@ -259,10 +261,10 @@ The following file directories can be specified by the user as shown.
 
 - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
-![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+	![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
+	> [!NOTE]
+	> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
 
 #### Step 3 - Collect the logs and start the report viewer
 
@@ -416,7 +418,7 @@ The purpose of the CPS tool is to provide command-line access to the CPS databas
 
 There are no requirements if this tool is run on the same computer that is running CPS. If this tool is run on a remote computer, the SQL Server database used by Skype for Business Server 2015 must be configured to allow remote access. Call Parkometer must be configured with a SQL Server database connection string to connect to the pool's SQL Server. This SQL Server database connection string is defined in the configuration file, **parkometer.exe.config**. It must be placed in the same directory where parkometer.exe is located. The following XML file is an example of a parkometer.exe.config. The parameters that must be configured are user name (for example, mydomain\Administrator), password (for example, mypassword), and host name (for example, myserver).
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <appSettings>
@@ -510,7 +512,7 @@ To install Dbanalyze.exe, copy it to a local folder and then run the tool. To us
 
 The following are examples of valid Dbanalyze.exe commands:
 
-```
+```console
 dbanalyze.exe /report:diag
 dbanalyze.exe /report:user /user:usera@domainb.com
 dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
@@ -551,7 +553,7 @@ Install the Skype for Business Server 2015 Resource Kit tools. The tool runs on 
 
 ### Examples
 
-```
+```console
 >  C:\StorageService>ImportStorageServiceData.exe
 Description:
 This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -739,7 +741,7 @@ Install the Skype for Business Server 2015 Resource Kit. The tool runs on domain
 
 C:\Program Files\Skype for Business Server 2015\ResKit\>LookupUserConsole.exe
 
-```
+```console
 > sip:john.doe@vdomain.com
 
   Execution time (ms):                            171.094
@@ -828,7 +830,7 @@ The tool outputs the results of each of the operations.
 
 The following is an example of the tool input.
 
-```
+```console
 MsTurnPing -ServerRole AudioVideoEdgeServer
 
 MsTurnPing -ServerRole BandwidthPolicyServer
@@ -1040,7 +1042,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 1. The SEFAUTil tool can be run only on a computer that is part of a trusted application pool. If needed, adding a pool as a new trusted application pool can be done via the Skype for Business Server Management Shell with the following cmdlet:
 
-   ```
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1049,7 +1051,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 2. A trusted application needs to be defined in the topology for the SEFAUtil tool. To define SEFAUtil as a new trusted application, use the Skype for Business Server Management Shell and execute the following cmdlet:
 
-   ```
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1063,7 +1065,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 3. The topology changes need to be enabled. Enabling the topology changes can be done via the Skype for Business Server Management Shell by executing the following cmdlet:
 
-   ```
+   ```powershell
    Enable-CsToplogy
    ```
 
@@ -1071,7 +1073,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 5. Verify the SEFAUtil is running correctly. To do this, run the tool from a windows command prompt with administrator privileges to display the call forwarding settings of a user in the deployment. By default the tool will be located in: "…\Program Files\Skype for Business Server 2015\Reskit". To display the call forwarding settings of a user, use the following command:
 
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
    ```
 
@@ -1092,7 +1094,7 @@ The following command displays the call handling for the user.  `SEFAUtil.exe /s
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1105,13 +1107,13 @@ Call Forward No Answer to: voicemail
 
 This example sets the call forward/no answer destination and the ring delay. Here, the /server switch is not provided; SEFAUtil attempts to autodiscover the Skype for Business Server 2015.
 
-```
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+```console
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1124,13 +1126,13 @@ Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
 
 This example immediately enables call-forwarding to another user.
 
-```
+```console
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1142,13 +1144,13 @@ Forward immediate to: sip:anders@contoso.com
 
 This example immediately disables call forwarding.
 
-```
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+```console
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1161,13 +1163,13 @@ Call Forward No Answer to: voicemail
 
 This example adds a user as a delegate and sets up simultaneous ringing of delegates.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1178,13 +1180,13 @@ Simultaneously Ringing Delegates: sip:joe@contoso.com
 
 This example changes the simultaneous ringing rule that was set in the previous example to the delayed ringing rule.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1199,13 +1201,13 @@ This example removes the delegate.
 > [!NOTE]
 > When the last delegate is removed, delegate ringing is automatically disabled.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1218,13 +1220,13 @@ Call Forward No Answer to: voicemail
 
 This example adds a delegate and sets up the call-forward to delegates rule.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1235,7 +1237,7 @@ Forwarding calls to Delegates: sip:anders@contoso.com
 
 This example enables simultaneous ringing and sets a simultaneous ringing destination number.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 ```
 
@@ -1244,7 +1246,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1256,13 +1258,13 @@ Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
 
 This example disables simultaneous ringing.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1275,7 +1277,7 @@ Call Forward No Answer to: voicemail
 
 This example adds a team member to the team-call group of a user and enables simultaneous ringing to the team-call group.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 ```
 
@@ -1284,7 +1286,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1295,7 +1297,7 @@ Team ringing enabled. Team: sip:anders@contoso.com
 
 This example removes a team member of the team-call group of a user.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 ```
 
@@ -1304,7 +1306,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1316,13 +1318,13 @@ Call Forward No Answer to: voicemail
 
 This example changes the delayed ring to the team-call group time setting.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1333,7 +1335,7 @@ Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 
 This example enables team-call for a given user.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringteam
 ```
 
@@ -1346,13 +1348,13 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
 This example disables team-call for a given user.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1364,31 +1366,31 @@ Call Forward No Answer to: voicemail
 
 This example assigns a pickup group to a user and enables Group Call Pickup.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
  **Output**
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### Disable Group Call Pickup
 
 This example disables Group Call Pickup for a given user.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 ```
 
 > [!NOTE]
 > When you disable Group Call Pickup for a user, the group number that was assigned to the user is not retained. If you subsequently want to re-enable Group Call Pickup for that user, you must assign the group number again with the /enablegrouppickup switch.
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1425,11 +1427,11 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 | **Prerequisite**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
-| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
-| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
-| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
-| Internet Information Server Updates  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
-| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | Skype for Business Server 2015 Setup.exe  <br/> | Copy from Skype for Business Server 2015 media  <br/>                   |
 
 ### Parameter
@@ -1440,7 +1442,7 @@ The **-SetupFolder** parameter takes as an argument the directory location of th
 
 To run the SYSPrep.ps1 script and install the Skype for Business Server 2015 prerequisites, run the following command from an elevated command prompt:
 
-```
+```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
 ```
 
@@ -1502,7 +1504,7 @@ The Move-CsAnnouncementConfiguration script requires the two parameters that are
 
 This example moves the unassigned number announcements from the source pool (Lync Server 2013) to the destination pool (Skype for Business Server 2015).
 
-```
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1510,7 +1512,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 This example moves the unassigned number announcements from the source pool (Skype for Business Server 2015) to the destination pool (Lync Server 2013).
 
-```
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 
@@ -1531,8 +1533,8 @@ This tool allows the administrator to perform the following operations:
 
 4. Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
-> [!NOTE]
-> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet.
+	> [!NOTE]
+	> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet.
 
 The tool deletes meeting data only for meetings that are inactive. Active meetings (or meetings in sessions) cannot be deleted.
 
@@ -1558,13 +1560,13 @@ The following table describes the parameters, some of which are used in the exam
 
 ![Web Conf Data Tool parameters.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 ```
 
 The preceding example shows how a query command would work. The output of such a command would be a list of all meeting content folders that would be affected by this tool.
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ```
 

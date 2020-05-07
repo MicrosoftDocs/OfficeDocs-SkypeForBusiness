@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: "This section lists the schema attributes that can be contained in each Skype for Business Server class and the classes that can be contained in other classes. For a list of all the classes and their descriptions, see Schema classes and descriptions in Skype for Business Server. For a list of all the attributes and their descriptions, see Schema attributes and descriptions in Skype for Business Server."

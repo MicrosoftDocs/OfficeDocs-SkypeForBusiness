@@ -8,6 +8,8 @@ ms.date: 10/11/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: "Imports the Skype for Business Cloud Connector Edition configuration from a local file to the Cloud Connector host server."
@@ -17,7 +19,7 @@ description: "Imports the Skype for Business Cloud Connector Edition configurati
  
 Imports the Skype for Business Cloud Connector Edition configuration from a local file to the Cloud Connector host server.
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
@@ -28,7 +30,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 The following example copies the CloudConnector.ini from the appliance directory of the Cloud Connector instance to %SystemDrive%\ProgramData\CloudConnector directory:
   
-```
+```powershell
 Import-CcConfiguration
 ```
 

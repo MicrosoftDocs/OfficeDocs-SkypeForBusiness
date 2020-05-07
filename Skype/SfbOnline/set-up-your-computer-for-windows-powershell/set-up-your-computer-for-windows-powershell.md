@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: "Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems."
@@ -52,7 +53,7 @@ You can find information about downloading and installing these items in the fol
     
 - [Download and install Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Manage Skype for Business Online with Office 365 PowerShell](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
+- [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## Related topics
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)

@@ -8,6 +8,8 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.."
@@ -17,7 +19,7 @@ description: "Helper script to configure SFB 2019 control panel authentication w
 
 This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel. This script will create an Azure AD Application on Azure. This will help in signing into Office 365 using OAuth in the new Control Panel.
 
-```
+```powershell
 <#
  .SYNOPSIS
  Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.

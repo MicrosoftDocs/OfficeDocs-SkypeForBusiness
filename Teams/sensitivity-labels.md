@@ -12,6 +12,8 @@ ms.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to define and use sensitivity labels in Microsoft Teams.
@@ -31,7 +33,7 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 ## Create, manage, and publish sensitivity labels for Teams
 
-For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Office 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Creating, updating and deleting sensitivity labels require careful sequencing with publishing
@@ -72,9 +74,9 @@ If team creation begins to fail at any point during the public preview, you have
 
 Note that the EnableMIPLabels setting must be set to false as follows:
 
-```
+```console
 $setting["EnableMIPLabels"] = "False"
- ```
+```
 
 ## Using sensitivity labels with Teams
 

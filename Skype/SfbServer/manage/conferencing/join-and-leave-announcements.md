@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: "Summary: Learn how to manage conference join and leave announcements in Skype for Business Server."
@@ -35,7 +37,7 @@ You can configure these settings at the global scope or at the site scope. Setti
     
 3. Run the following at the command prompt:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
@@ -43,7 +45,7 @@ This cmdlet retrieves information about whether participants are required to rec
     
 4. Run the following at the command prompt:
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
@@ -52,7 +54,7 @@ This cmdlet retrieves information about whether participants are required to rec
 
 In the following example, settings are configured at the site scope for Redmond. Announcements are turned on, but participants are not prompted to say their name when they join a conference. A tone is played when participants enter or leave a conference:
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true

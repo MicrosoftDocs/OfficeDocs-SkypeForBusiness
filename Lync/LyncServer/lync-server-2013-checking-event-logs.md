@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Checking event logs'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking event logs
 ms:assetid: 5500720d-c628-4dbd-84bc-a5becc39b99c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720914(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Checking event logs in Lync Server 2013
 
@@ -30,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2014-08-06_
 
-You can use [Windows Event Viewer](http://go.microsoft.com/fwlink/p/?linkid=314067) to view event logs and obtain information about service failures, replication errors in the AD DS, and warnings about system resources such as virtual memory and disk space. Event Viewer is included with Windows Server 2008 and 2012.
+You can use [Windows Event Viewer](https://go.microsoft.com/fwlink/p/?linkid=314067) to view event logs and obtain information about service failures, replication errors in the AD DS, and warnings about system resources such as virtual memory and disk space. Event Viewer is included with Windows Server 2008 and 2012.
 
 In the Lync Server 2013 Logging Tool, when you end the debug session, click **Analyze Log Files** to view the log files by using the Snooper tool.
 
@@ -86,16 +88,16 @@ The management pack provides the following features:
 
 For more information about Lync Server 2013 Management Pack, refer to [Monitoring Lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Event Comb**   The Event Comb tool collects specific events from the event logs of several computers to one central location. It lets you report on only the event IDs or event sources it specifies. For more information about Event Comb, see the [Account Lockout and Management Tools](http://go.microsoft.com/fwlink/?linkid=35607) website.
+**Event Comb**   The Event Comb tool collects specific events from the event logs of several computers to one central location. It lets you report on only the event IDs or event sources it specifies. For more information about Event Comb, see the [Account Lockout and Management Tools](https://go.microsoft.com/fwlink/?linkid=35607) website.
 
-**Event triggers**   In Windows Server 2012 you can "Attach a Task to This Event" within the Windows Event Viewer—where an administrator can either run a program, send an email message or display an on-screen message. For more information about this feature, see the Windows Server 2008 R2 topic [Run a Task in Response to a Given Event](http://technet.microsoft.com/en-us/library/cc748900.aspx). You can also use command-line tools such as ‘Eventtrigger.exe’ to create and query event logs and associate programs with particular logged events. By using Eventtriggers.exe, you can create event triggers that run programs when specific events occur.
+**Event triggers**   In Windows Server 2012 you can "Attach a Task to This Event" within the Windows Event Viewer—where an administrator can either run a program, send an email message or display an on-screen message. For more information about this feature, see the Windows Server 2008 R2 topic [Run a Task in Response to a Given Event](https://technet.microsoft.com/library/cc748900.aspx). You can also use command-line tools such as ‘Eventtrigger.exe’ to create and query event logs and associate programs with particular logged events. By using Eventtriggers.exe, you can create event triggers that run programs when specific events occur.
 
 <div>
 
 ## See Also
 
 
-[Windows Event Viewer](http://go.microsoft.com/fwlink/p/?linkid=314067)  
+[Windows Event Viewer](https://go.microsoft.com/fwlink/p/?linkid=314067)  
   
 
 </div>

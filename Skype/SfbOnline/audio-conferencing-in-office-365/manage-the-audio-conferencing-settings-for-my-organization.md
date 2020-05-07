@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "See Skype for Business Online steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
@@ -37,7 +38,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
  **To assign a license for a user**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. In the left navigation of the admin center, go to **Users** > **Active users**, and then select the user or users from the list of available users.
 
@@ -55,7 +56,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
@@ -104,7 +105,7 @@ See [Emails that are automatically sent to users when their Audio Conferencing s
 
 ## Reset the meeting conference ID
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -113,7 +114,7 @@ See [Emails that are automatically sent to users when their Audio Conferencing s
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/download/details.aspx?id=54079).
 
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 
@@ -122,7 +123,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
@@ -136,7 +137,7 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
 
 ## Send an email with Audio Conferencing information to a user
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
@@ -151,7 +152,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 ## Setting the phone numbers included on invites
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -169,7 +170,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 **Set the meeting experience when callers join a meeting**
 
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -189,7 +190,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
   
  **Set the PIN length for meetings**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -203,7 +204,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
   
  **Enable or disable email from being sent to audio users**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
@@ -220,7 +221,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
 ## See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge
 
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -234,7 +235,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 ## See audio conferencing dial-in numbers
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 
@@ -252,7 +253,7 @@ See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-
 
 ## See a list of users that are enabled
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
 
 2. Go to the admin center > **Skype for Business**.
 

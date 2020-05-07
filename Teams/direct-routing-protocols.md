@@ -12,6 +12,8 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Direct Routing protocols
 appliesto:
 - Microsoft Teams

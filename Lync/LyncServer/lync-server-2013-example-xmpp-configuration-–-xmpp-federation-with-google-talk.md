@@ -5,6 +5,8 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 TOCTitle: Example XMPP configuration – XMPP federation with Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204807(v=OCS.15)
@@ -15,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk
 

@@ -12,10 +12,13 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Learn what data and permissions apps are requesting from your organization.
+description: Admin can Learn what data and permissions Microsoft Teams apps are requesting from their organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 
@@ -36,7 +39,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 |    |     |
 |-----------|------------|
 | ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul>|
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul>|
 
 ## Global app permissions and considerations
 
@@ -164,7 +167,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 ## Outgoing webhooks
 
-*Outgoing webhooks* are created on the fly by team owners or team members if sideloading is enabled for a tenant. They aren't capabilities of Teams apps; this information is included for completeness.
+*Outgoing webhooks* are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
 
 ### Required permissions
 

@@ -11,6 +11,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "If you deploy Skype for Business in your organization, you can federate with the domains of one or more Skype for Business Online customers. "
 ---
@@ -43,7 +45,7 @@ To federate with a Skype for Business Online customer, you should have already c
 
 Federating with a Skype for Business Online customer requires you to complete the following steps:
 
-  - Configure support for the domain of the Skype for Business Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in [Prerequisites for federating with a Skype for Business Online customer](#prerequisites-for-federating-with-a-skype-for-business-online-customer), you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Skype for Business Online customer to your allowed domains list. You can add a domain name either by using Skype for Business Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Skype for Business Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain).
+  - Configure support for the domain of the Skype for Business Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in [Prerequisites for federating with a Skype for Business Online customer](#prerequisites-for-federating-with-a-skype-for-business-online-customer), you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Skype for Business Online customer to your allowed domains list. You can add a domain name either by using Skype for Business Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Skype for Business Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain).
 
     > [!NOTE]  
     > A Skype for Business Online customer can have multiple domains. If you want to federate with more than one of the domains, you must configure support for each individual domain with which you want to support federation, and the administrator of the Skype for Business Online customer must enable federation for each of the domains to be federated.
@@ -78,7 +80,7 @@ Federating with a Skype for Business Online customer requires you to complete th
     
       - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology.
     
-    For details about using this cmdlet, see [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider).
+    For details about using this cmdlet, see [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider).
 
 ## Configure user access for federation with a Skype for Business Online customer 
 

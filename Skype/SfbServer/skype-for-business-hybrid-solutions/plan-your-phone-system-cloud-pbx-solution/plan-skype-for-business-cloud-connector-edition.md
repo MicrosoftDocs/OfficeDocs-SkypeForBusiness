@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -24,7 +26,7 @@ description: "Find information on Skype for Business Cloud Connector Edition, a 
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System in Office 365 (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System in Office 365 solution is right for your business, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System in Office 365 solution is right for your business, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this topic before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -45,7 +47,7 @@ Cloud Connector will provide routing between the users homed on premises and onl
 
 Consider the following when planning your Cloud Connector Edition deployment:
 
-- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for an Office 365 tenant that includes Phone System in Office 365. If you do not yet have an Office 365 tenant you can learn how to sign up here: [Office 365 for Business](https://products.office.com/en-us/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
+- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for an Office 365 organization that includes Phone System in Office 365. If you do not yet have an Office 365 organization you can learn how to sign up here: [Office 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
 
 - To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Office 365 account with tenant Global Administrator rights.
 
@@ -94,7 +96,7 @@ This topic contains the following sections:
 ## Cloud Connector Edition components
 <a name="BKMK_Components"> </a>
 
-With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Office 365 tenant that includes Skype for Business Online services.
+With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Office 365 organization that includes Skype for Business Online services.
 
 ![Cloud Connector Edition components](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -255,7 +257,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - External DNS record for Access Edge service of Edge component; for example, ap.\<Domain Name\>. You need one record per PSTN site. This record must contain IP addresses of all Edges for that site.
 
-- An Office 365 tenant with all required DNS and SRV records created.
+- An Office 365 organization with all required DNS and SRV records created.
 
     > [!IMPORTANT]
     > When you integrate your tenant with Cloud Connector Edition, the use of the default domain suffix, .onmicrosoft.com, as a SIP domain for your organization is not supported. > You cannot use sip.\<Domain Name\> as the name of your Cloud Connector Edge Access proxy interface because this DNS record is used by Office 365.
@@ -355,13 +357,13 @@ For security purposes, you can limit the port range for the Mediation component 
 
 For example, the following command limits the number of ports that the Mediation component will use for media traffic to 50 000 - 51 000 for audio (in and out). The Mediation component will be able to handle 250 simultaneous calls with this configuration. Note that you also might want to limit this range on the SBC/PSTN gateway:
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
 To retrieve the name of the Mediation component and see default ports, you can use the [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) cmdlet as follows:
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
@@ -420,9 +422,9 @@ The host machine must be able to reach external resources to successfully instal
 
 If more restrictive rules are required, refer to following whitelisting URLs:
 
-- [Certificate Revocation List URLs](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Certificate Revocation List URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/library/bb693717.aspx)
 
 - Skype for Business Online Admin PowerShell: \*.online.lync.com
 
@@ -538,14 +540,14 @@ Each Edge component requires a certificate from a public certification authority
 
 - **Option 1.** The Subject Name must contain the pool name that you assigned to the Edge components. Note that the Subject Name cannot be sip.sipdomain.com because this name is reserved for the online Skype for Business Edge component. The SAN must contain sip.sipdomain.com and the access Edge pool name:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **Option 2.** If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -561,14 +563,14 @@ You will need to add sip.sipdomain.com for every SIP domain and the name of the 
 
 - **Option 1.** The Subject Name must contain the pool name that you assigned for Edge components. Note that the Subject Name cannot be sip.sipdomain.com because this name is reserved for the online Skype for Business Edge component. The SAN must contain sip.sipdomain.com and the access Edge pool name:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>Option 2.</strong>If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -701,7 +703,7 @@ Cloud Connector 2.1 and later supports monitoring Cloud Connector using Operatio
 
 For more information, see the following:
 
-- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

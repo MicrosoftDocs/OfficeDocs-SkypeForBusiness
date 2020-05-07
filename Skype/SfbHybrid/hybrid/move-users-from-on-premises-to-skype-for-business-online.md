@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -26,18 +28,27 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
  
 ## Move users with Move-CsUser 
 
+<<<<<<< HEAD
 Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window. You must have sufficient privileges in both the on-premises environment as well as in the Microsoft 365/Office 365 organization as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for a Microsoft 365 or Office 365 account with the necessary administrative role.
+=======
+Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window. You must have sufficient privileges in both the on-premises environment as well as in the Office 365 organization as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for an Office 365 account with the necessary Office 365 administrative role.
+>>>>>>> 2e7ae37b56022403e45ac1e6078ecff920f855a4
 
 To move a user to online using Move-CsUser:
 
 - Specify the user to move using the Identity parameter.
 - Specify the -Target parameter with the value “sipfed.online.lync.<span>com”.
+<<<<<<< HEAD
 - If you do not have one account with sufficient permissions in both on premises and Microsoft 365 or Office 365, use the -credential parameter to supply an account with sufficient permissions.
 - If the account with permissions in Microsoft 365 or Office 365 does not end in “on.microsoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
  > [!NOTE]
  > You must determine the correct HostedMigrationOverrideUrl value for your organization. this can be easily done by navigating to the Legacy Skype for Business admin center. determine the prefix - XXXXXXX.online.lync.com and append /HostedMigration/hostedmigrationservice.svc. for example: https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
  > Once you identified the value, use it for the $url variable as shown below.
+=======
+- If you do not have one account with sufficient permissions in both on premises and Office 365, use the -credential parameter to supply an account with sufficient permissions in Office 365.
+- If the account with permissions in Office 365 does not end in “.onmicrosoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+>>>>>>> 2e7ae37b56022403e45ac1e6078ecff920f855a4
 
 The following cmdlet sequence can be used to move a user to Skype for Business Online. It assumes the Microsoft 365 or Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 

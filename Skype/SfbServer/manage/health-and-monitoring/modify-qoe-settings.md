@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: "Summary: Learn how to specify retention of QoE data in Skype for Business Server."
@@ -47,7 +49,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 - This command enables purging of QoE data for the Redmond site, and configures the site to maintain QoE data for 20 days.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -55,7 +57,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 - This command configures QoE retention for all the QoE configuration settings in use in an organization.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: "Summary: Read this topic to learn how to configure the client experience for Skype for Business users."
@@ -30,7 +32,7 @@ Skype for Business Server supports the new Skype for Business client experience 
 
 You can specify the client experience the users in your organization will see by using the **Set-CSClientPolicy** cmdlet with the EnableSkypeUI parameter:
   
-```
+```powershell
 Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 ```
 
@@ -38,19 +40,19 @@ where XdsIdentity refers to the Global policy or a named site policy.
   
 The following command selects the Skype for Business client experience for all users in your organization affected by the Global policy (remember, site or user-specific policies override the Global policy): 
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
 The next command selects the Lync client experience for all users in your organization affected by the Global policy:
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
 The next command selects the Skype for Business client experience for all users within the Redmond site:
   
-```
+```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
@@ -58,13 +60,13 @@ If you want to configure the client experience for specific users within your or
   
 For example, the following command creates a new client policy, SalesClientUI, that selects the Skype for Business client experience:
   
-```
+```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 ```
 
 The next command assigns the policy, SalesClientUI, to all members of the Sales department:
   
-```
+```powershell
 Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 ```
 
@@ -112,7 +114,7 @@ In the **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** key, create a
   
 Lync
   
-```
+```console
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -195,7 +197,7 @@ Next, you'll need to link the GPO you created to the group of users that you wan
     
 3. On the target user's computer, open a command prompt and type the following command:
        
-```
+```console
 gpupdate /target:user
 ```
 

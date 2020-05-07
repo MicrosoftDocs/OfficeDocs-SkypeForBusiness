@@ -1,5 +1,5 @@
 ---
-title: Manage the Microsoft Teams Commercial Cloud Trial offer
+title: Manage the Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -9,17 +9,20 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
+description: learn about how Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer
 =======================================================
 
-The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization. 
+The Microsoft Teams Commercial Cloud Trial offers existing Microsoft 365 or Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
 > [!IMPORTANT]
 > The Microsoft Teams Commercial Cloud Trial will be replaced by Microsoft Teams Exploratory beginning in January 2020. To learn about this new offer, read [Manage Teams Exploratory license](teams-exploratory.md).
@@ -47,7 +50,7 @@ The trial grants a one-year trial subscription to your entire organization. For 
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the trial](#manage-the-trial), later in this article. 
 
-Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.
+Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Microsoft 365 Apps for business (which doesn't include Teams), they are eligible for the trial.
 
 ## Who is not eligible
 
@@ -71,15 +74,15 @@ Admins can disable the ability for end users to claim trial apps and services wi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user’s ability to install trial apps and services.
+You can turn off a user's ability to install trial apps and services.
 
-1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
+1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
-    ![Screenshot of the Services & add-ins page in the admin center](media/iw-trial-enable-1.png)
+    ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
-2. Turn off **Let users install trial apps and services**.
+2. Clear the **Let users install trial apps and services** check box.
 
-    ![Screenshot of the User owned Apps & Services page in admin center](media/iw-trial-enable-2.png)
+    ![Screenshot of the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
 
 ### Manage trial availability for a user with a license that includes Teams
@@ -114,8 +117,8 @@ To turn off the trial license:
 
     ![Screenshot of the Teams trial license setting on the licenses pane](media/iW-trial-enable-4.png)
     
->[!Note]
->The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
+    >[!Note]
+    >The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
 
 ### Manage Teams for users who have the trial license
 
@@ -131,7 +134,7 @@ To upgrade users from the trial license, do the following:
 
 3. Assign the newly purchased license.
 
-For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
+For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > If the trial ends and a user is not immediately upgraded to a subscription that includes teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 

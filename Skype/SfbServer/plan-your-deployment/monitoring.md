@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: "Summary: Review this topic while planning for the monitoring service in Skype for Business Server."
@@ -75,7 +77,7 @@ For many organizations, database capacity will not be the deciding factor when d
 
 You should also take into account that Skype for Business Server supports the use of mirror databases. "Database mirroring" provides a way for you to simultaneously maintain two copies of a database, with each database residing on a different server. Any time data is written to a primary database that same data is also written to the mirror database. If the primary database should fail or otherwise become unavailable, you can "fail over" to the mirror database by using a simple Skype for Business Server PowerShell command. For example:
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

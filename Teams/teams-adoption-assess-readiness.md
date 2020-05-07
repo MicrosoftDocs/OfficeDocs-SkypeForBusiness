@@ -10,8 +10,12 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Determine if your organization is ready for the transition to Teams.
-ms.custom: Adopt
+description: Assess your stakeholders, identify early adopters, and evaluate if your organization is ready for the transition to Teams.
+f1.keywords:
+- CSH
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -22,7 +26,7 @@ appliesto:
 
 # How ready is your organization for Microsoft Teams?
 
-Now that your project team has come together and you are beginning to see what Teams can do for your organization, it's important to assess your organization’s readiness for the Teams transition. To assess your readiness, you will need to:
+Now that your project team has come together and you are beginning to see what Teams can do for your organization, it's important to assess your organization's readiness for the Teams transition. To assess your readiness, you will need to:
 
 1. Assess your stakeholders.
 2. Identify early adopters.
@@ -33,17 +37,17 @@ Now that your project team has come together and you are beginning to see what T
 List the core stakeholders and business leaders in your organization. For each individual, ask the following questions:
  
 1. Is this leader friendly to new technology?
-2. Rate this leader’s satisfaction with your current technology.
+2. Rate this leader's satisfaction with your current technology.
 3. Is this leader willing to use unsanctioned technology to accelerate results or create a better experience for his/her team members?
 4. Is this leader under a high degree of pressure to deliver key business results? 
 5. Will this leader be willing to evangelize his/her experience with Teams to assist in the transition?
 6. Does this leader have a positive relationship with key members of the existing project team?
-7. Does this leader like to be viewed as an “agent of change” within the organization?  
+7. Does this leader like to be viewed as an "agent of change" within the organization?  
 
 You can add additional questions that are relevant to your organization. For your initial two phases (startup and experiment), you'll see leaders who are friendly to change, somewhat dissatisfied with current technology, and that you have a good relationship with. These leaders should be brought into the core project team as business advisors and may have projects that will be essential for your experimentation phase. It is important to select impactful, real world situations to experiment with, and avoid high risk projects for your initial experiments.
    
 > [!NOTE]
-> While it's possible to assign a score to this sort of questionnaire that would minimize the impact of the human element of relationships within your organization, driving change depends on the chemistry of the team as much as their technical skill or business acumen. Review this list with your team members to discuss the “fit” of your various leaders with this project as you select projects and staff for subsequent phases. 
+> While it's possible to assign a score to this sort of questionnaire that would minimize the impact of the human element of relationships within your organization, driving change depends on the chemistry of the team as much as their technical skill or business acumen. Review this list with your team members to discuss the "fit" of your various leaders with this project as you select projects and staff for subsequent phases. 
 
 ## Identify early adopters
 
@@ -60,7 +64,7 @@ Use a simple form in Office 365 to allow these individuals to opt into your earl
 
 Our Early Adopter Program Guide is a helpful resource for kicking off this program in your environment.  
  
-## Assess your organization’s readiness for change
+## Assess your organization's readiness for change
 
 Change is a human process that has nothing to do with technology. There is behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you will encounter natural resistance to change.  
 
@@ -70,13 +74,13 @@ Every organization approaches change differently, depending on region, work styl
 
 1. What percentage of users fall into each bucket? (*Change resistance*)
     - **Early adopters**: request the solution before it's available.
-	- **Informed users**: use the solution once its value is proven.
-	- **Dissenters**: push back on any change.
-	
+    - **Informed users**: use the solution once its value is proven.
+    - **Dissenters**: push back on any change.
+    
    > [!TIP]
    > Early adopters make great pilot testers and peer champions. Users who are slow to adopt new tools require additional encouragement and more time to adjust. 
 
-2. What is the users’ competency for change? (*Training*)
+2. What is the users' competency for change? (*Training*)
     - **Self starters** require only a link to a video.
     - **Team builders** do well with group training.
     - **One-to-one learners** require personal support.

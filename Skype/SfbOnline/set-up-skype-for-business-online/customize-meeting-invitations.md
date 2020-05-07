@@ -14,11 +14,12 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- ms.lync.lac.MeetingInvitation
-- ms.teamsadmincenter.meetingsettings.invitationurls
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 description: "Customize Skype meeting invitations with graphic logos, help and legal URLs, and footer text. "
 ---
 
@@ -42,7 +43,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. From the admin center, choose **Admin centers** > **Skype for Business**.
     

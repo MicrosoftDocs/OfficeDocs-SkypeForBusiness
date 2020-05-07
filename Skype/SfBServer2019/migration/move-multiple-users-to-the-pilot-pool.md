@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "You can move multiple users from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell."
 ---
@@ -52,7 +54,7 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
     
 2. At the command line, type the following and replace **User1** and **User2** with specific user names you want to move, and replace **pool_FQDN** with the name of the destination pool. In this example we will move users Hao Chen and Katie Jordan. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -60,7 +62,7 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
   
 3. At the command line, type the following: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
@@ -77,7 +79,7 @@ In this example, all users have been returned to the legacy pool (pool01.contoso
     
 2. At the command line, type the following: 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -85,7 +87,7 @@ In this example, all users have been returned to the legacy pool (pool01.contoso
   
 3. Run **Get-CsUser** for one of the pilot users. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 

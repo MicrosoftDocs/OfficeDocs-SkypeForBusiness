@@ -15,7 +15,8 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "

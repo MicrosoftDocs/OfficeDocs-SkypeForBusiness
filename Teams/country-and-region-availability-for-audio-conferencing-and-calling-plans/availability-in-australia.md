@@ -18,7 +18,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
@@ -50,9 +51,6 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
 
 ## Calling Plans
-> [!IMPORTANT]
-> Only available through Telstra for Australian-based tenants. 
-> For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Feature**|**Details**|
 |:-----|:-----|
@@ -61,9 +59,21 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Can make outbound calls to?  <br/> |See [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> To Delete Australian Subscriber numbers (Provided by Telstra) please contact Telstra directly.
-> To update Emergency Address information for Australian Subscriber numbers (Provided by Telstra) please contact Telstra directly.
+> To delete Australian subscriber numbers (provided by Telstra), contact Telstra directly.
+> To update emergency address information for Australian subscriber numbers (provided by Telstra), contact Telstra directly.
 > For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+
+### If your tenant is located outside Australia
+
+Starting September 1, 2019, if your tenant is located outside Australia, you can purchase Calling Plans for users who are located in Australia. This is available for the following countries and regions.
+
+|||
+|---------|---------|
+|Americas    |United States, U.S. Outlying Islands      |
+|APAC     |Bangladesh, Bhutan, Brunei, Cambodia, Hong Kong, Indonesia, Laos, Macao, Malaysia, Maldives, Myanmar, Nepal, Philippines, Singapore, Sri Lanka, Thailand, Timor-Leste, Vietnam|
+|EMEA    |Åland Islands, Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jan Mayen, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Svalbard, Sweden, Switzerland, United Kingdom, Vatican City  |
+
+Note that Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia and the countries and regions listed above, once provisioned by Telstra. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## Toll and toll-free numbers for services
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Certificate and authentication cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate and authentication cmdlets
 ms:assetid: ebb51778-3558-49d2-8343-d83e7a731559
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415680(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Certificate and authentication cmdlets in Lync Server 2013
 
@@ -41,120 +43,120 @@ The following is a list of cmdlets that relate directly to managing certificates
 **Certificates and Authentication**
 
   - <span></span>  
-    [Get-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398227(v=OCS.15))
+    [Get-CsCertificate](https://technet.microsoft.com/library/Gg398227(v=OCS.15))
 
   - <span></span>  
-    [Import-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398688(v=OCS.15))
+    [Import-CsCertificate](https://technet.microsoft.com/library/Gg398688(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCertificate](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))
+    [Remove-CsCertificate](https://technet.microsoft.com/library/Gg412895(v=OCS.15))
 
   - <span></span>  
-    [Request-CsCertificate](https://technet.microsoft.com/en-us/library/Gg425723(v=OCS.15))
+    [Request-CsCertificate](https://technet.microsoft.com/library/Gg425723(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))
+    [Set-CsCertificate](https://technet.microsoft.com/library/Gg398518(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsCertificateConfiguration](https://technet.microsoft.com/en-us/library/Gg398647(v=OCS.15))
+    [Test-CsCertificateConfiguration](https://technet.microsoft.com/library/Gg398647(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientCertificate](https://technet.microsoft.com/en-us/library/Gg398143(v=OCS.15))
+    [Get-CsClientCertificate](https://technet.microsoft.com/library/Gg398143(v=OCS.15))
 
   - <span></span>  
-    [Revoke-CsClientCertificate](https://technet.microsoft.com/en-us/library/Gg425748(v=OCS.15))
+    [Revoke-CsClientCertificate](https://technet.microsoft.com/library/Gg425748(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Lock-CsClientPin](https://technet.microsoft.com/en-us/library/Gg398650(v=OCS.15))
+    [Lock-CsClientPin](https://technet.microsoft.com/library/Gg398650(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientPin](https://technet.microsoft.com/en-us/library/Gg398929(v=OCS.15))
+    [Set-CsClientPin](https://technet.microsoft.com/library/Gg398929(v=OCS.15))
 
   - <span></span>  
-    [Unlock-CsClientPin](unhttps://technet.microsoft.com/en-us/library/Gg398650(v=OCS.15))
+    [Unlock-CsClientPin](unhttps://technet.microsoft.com/library/Gg398650(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientPinInfo](https://technet.microsoft.com/en-us/library/Gg425947(v=OCS.15))
+    [Get-CsClientPinInfo](https://technet.microsoft.com/library/Gg425947(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsKerberosAccount](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398262(v=OCS.15))
+    [Get-CsPinPolicy](https://technet.microsoft.com/library/Gg398262(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398871(v=OCS.15))
+    [Grant-CsPinPolicy](https://technet.microsoft.com/library/Gg398871(v=OCS.15))
 
   - <span></span>  
-    [New-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398935(v=OCS.15))
+    [New-CsPinPolicy](https://technet.microsoft.com/library/Gg398935(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398431(v=OCS.15))
+    [Remove-CsPinPolicy](https://technet.microsoft.com/library/Gg398431(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg412997(v=OCS.15))
+    [Set-CsPinPolicy](https://technet.microsoft.com/library/Gg412997(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg399011(v=OCS.15))
+    [Get-CsProxyConfiguration](https://technet.microsoft.com/library/Gg399011(v=OCS.15))
 
   - <span></span>  
-    [New-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg398335(v=OCS.15))
+    [New-CsProxyConfiguration](https://technet.microsoft.com/library/Gg398335(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg398553(v=OCS.15))
+    [Remove-CsProxyConfiguration](https://technet.microsoft.com/library/Gg398553(v=OCS.15))
 
   - <span></span>  
-    [Set-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg425796(v=OCS.15))
+    [Set-CsProxyConfiguration](https://technet.microsoft.com/library/Gg425796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg398701(v=OCS.15))
+    [Get-CsSipDomain](https://technet.microsoft.com/library/Gg398701(v=OCS.15))
 
   - <span></span>  
-    [New-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg425857(v=OCS.15))
+    [New-CsSipDomain](https://technet.microsoft.com/library/Gg425857(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg398865(v=OCS.15))
+    [Remove-CsSipDomain](https://technet.microsoft.com/library/Gg398865(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg412949(v=OCS.15))
+    [Set-CsSipDomain](https://technet.microsoft.com/library/Gg412949(v=OCS.15))
 
 </div>
 
@@ -163,7 +165,7 @@ The following is a list of cmdlets that relate directly to managing certificates
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

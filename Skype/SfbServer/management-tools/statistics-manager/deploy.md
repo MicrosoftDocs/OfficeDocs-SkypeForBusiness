@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
@@ -93,9 +95,9 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
     
      You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
     
-   ```
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+	   ```PowerShell
+	   Get-ChildItem -path cert:\LocalMachine\My
+	   ```
 
    - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
     
@@ -165,7 +167,7 @@ Install an Agent on each Skype for Business Server that you wish to monitor by r
     
 If you are installing an Agent on numerous machines, you will probably want to do this in unattended mode. For example: 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_	STATSMANAPPDATA=<directory>]
 ```
 
@@ -180,7 +182,7 @@ To import the Skype for Business Server topology, follow these steps:
     
     a. Run the following command: 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. Copy the "mypoolinfo.xml" file to the server that runs the Listener.
@@ -191,25 +193,25 @@ To import the Skype for Business Server topology, follow these steps:
     
    b. Navigate to the directory on which the Listener is installed. The default is: 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. To confirm which servers are being added and updated, run the following command:
     
-   ```
+   ```console
   	.\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 The following command enables you to view all options:
   
-```
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 To see your currently imported server information, run the following script: 
   
-```
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -217,13 +219,13 @@ If you would like to monitor servers that are not in your Skype for Business Ser
   
 1. Navigate to the directory on which the Listener is installed. The default is: 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. Run the following command:
     
-   ```
+   ```powershell
   	.\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -234,29 +236,29 @@ If an Agent fails to start, check for the following:
   
 - Is the agent registered in Statistics Manager?
     
-1. Make sure you followed the instructions for importing the topology. See [Import the topology](deploy.md#BKMK_ImportTopology).
-    
-2. If the Agent is on a server that is not listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
+	1. Make sure you followed the instructions for importing the topology. See [Import the topology](deploy.md#BKMK_ImportTopology).
+		
+	2. If the Agent is on a server that is not listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
     
 - Can the Agent contact the Listener?
     
-1. Make sure the Listener service is running. 
-    
-    If it is not running, make sure Redis is running, and then try to restart the Listener.
-    
-2. Make sure the port is open to the Listener service, and that the Agent computer can communicate with the port.
+	1. Make sure the Listener service is running. 
+		
+		If it is not running, make sure Redis is running, and then try to restart the Listener.
+		
+	2. Make sure the port is open to the Listener service, and that the Agent computer can communicate with the port.
     
 - To ensure that Statistics Manager is collecting data, you can check the CSV file as follows. 
     
     The following command retrieves the counter storage names: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     The next command retrieves the values for the specified counters: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -269,7 +271,7 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
   
 1. From a PowerShell console while logged on as Administrator, type the following:
     
-   ```
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

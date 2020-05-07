@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: "The ErrorReport view stores information about errors reported. Each record is one error occurrence. The errors are captured either by the CDR agent running on the front-end server or sent from the client. This view was introduced in Microsoft Lync Server 2013."

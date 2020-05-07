@@ -3,6 +3,8 @@ title: Lync Server 2013 release notes
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Release notes
 ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205120(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Release notes for Lync Server 2013
 
@@ -118,11 +120,11 @@ When the IP Address configuration is changed for a Lync Server 2013 deployment, 
 
 To work around this issue, restart Lync Server services after changing the IP Address configuration for the deployment. To do so, run the following cmdlets in the Lync Server Management Shell:
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -444,11 +446,11 @@ To work around this issue, update the system registry before installing Lync Ser
 
 1.  Start Windows PowerShell and run the following cmdlets:
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 
@@ -584,7 +586,7 @@ Antivirus software can trigger application domain restarts, which can result in 
 
 **Workaround:**
 
-To work around this issue, exclude the folders containing Web components and .NET framework from antivirus scanning. For details, see Microsoft Knowledge Base article 312592, "PRB: Random application restarts with 'Application is restarting' error in ASP.NET," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
+To work around this issue, exclude the folders containing Web components and .NET framework from antivirus scanning. For details, see Microsoft Knowledge Base article 312592, "PRB: Random application restarts with 'Application is restarting' error in ASP.NET," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
 
 The following folders should be excluded:
 

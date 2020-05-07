@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Set up network interfaces for Edge Servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up network interfaces for Edge Servers
 ms:assetid: b0aecdf6-4ae2-46f6-b9b6-948bfc3df11e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412847(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Set up network interfaces for Edge Servers in Lync Server 2013
 

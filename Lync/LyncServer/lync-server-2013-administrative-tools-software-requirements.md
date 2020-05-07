@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrative tools software requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrative tools software requirements
 ms:assetid: 2fb172c3-7b84-4e49-981c-2a17e7a00a29
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195653(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Administrative tools software requirements in Lync Server 2013
 
@@ -54,7 +56,7 @@ Windows PowerShell 3.0 is required for running any component of Microsoft Lync S
 
 Lync Server 2013 uses Windows Installer technology to install, uninstall, and maintain various server roles. Windows Installer version 4.5 is available as a redistributable component for the Windows Server operating system. Windows Installer 4.5 ships with Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2 meaning that you do not need to download the utility for any computer that is running Lync Server 2013. (Lync Server 2013 can only be installed on computers running Windows Server 2012 R2, Windows Server 2012 or Windows Server 2008 R2.)
 
-However, if you want to install Lync Server Management Shell or Lync Server Topology Builder on an administrator workstation you might need to download Windows Installer 4.5. That utility ships with Windows 7 and Windows 2008 R2 but not with any previous versions of the Windows operating system. You can download Windows Installer 4.5 from the Microsoft Download Center at <http://go.microsoft.com/fwlink/p/?linkid=197395>.
+However, if you want to install Lync Server Management Shell or Lync Server Topology Builder on an administrator workstation you might need to download Windows Installer 4.5. That utility ships with Windows 7 and Windows 2008 R2 but not with any previous versions of the Windows operating system. You can download Windows Installer 4.5 from the Microsoft Download Center at <https://go.microsoft.com/fwlink/p/?linkid=197395>.
 
 </div>
 

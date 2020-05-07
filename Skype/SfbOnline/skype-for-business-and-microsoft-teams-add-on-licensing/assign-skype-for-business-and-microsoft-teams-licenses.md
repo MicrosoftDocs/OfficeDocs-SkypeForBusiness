@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: "Learn how to assign Skype for Business licenses for Phone System, Audio Conferencing, Calling Plans, and Communications Credits. "
@@ -58,7 +59,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
    The name of the licenses or product names in the script are listed in italics text (see **Phone System and Calling Plan product names or SKUs used for scripting**, after the example).
 
-   ```
+   ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
    #Example of text file:
@@ -131,40 +132,40 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
-```
-#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
-#Example of text file:
-#user1@domain.com
-#user2@domain.com
+	```powershell
+	#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+	#Example of text file:
+	#user1@domain.com
+	#user2@domain.com
 
-#Import Module
-ipmo MSOnline
+	#Import Module
+	ipmo MSOnline
 
-#Authenticate to MSOLservice
-Connect-MSOLService
-#File prompt to select the userlist txt file
-[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
+	#Authenticate to MSOLservice
+	Connect-MSOLService
+	#File prompt to select the userlist txt file
+	[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+	  $OFD = New-Object System.Windows.Forms.OpenFileDialog
+	  $OFD.filter = "text files (*.*)| *.txt"
+	  $OFD.ShowDialog() | Out-Null
+	  $OFD.filename
 
-If ($OFD.filename -eq '')
-{
-Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-}
+	If ($OFD.filename -eq '')
+	{
+	Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
+	}
 
-#Create a variable of all users
-$users = Get-Content $OFD.filename
+	#Create a variable of all users
+	$users = Get-Content $OFD.filename
 
-#License each user in the $users variable
-foreach ($user in $users)
-    {
-    Write-host "Assigning License: $user"
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
-    }
-```
+	#License each user in the $users variable
+	foreach ($user in $users)
+		{
+		Write-host "Assigning License: $user"
+		Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+		Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+		}
+	```
 
 ### Audio Conferencing product names or SKUs used for scripting
 <a name="sku"> </a>

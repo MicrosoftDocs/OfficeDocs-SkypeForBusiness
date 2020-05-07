@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. "
@@ -42,7 +43,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## Set the default dial-in phone number for a meeting organizer
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
     

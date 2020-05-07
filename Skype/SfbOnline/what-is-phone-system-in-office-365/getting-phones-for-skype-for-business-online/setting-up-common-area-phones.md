@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Common Area Phones.

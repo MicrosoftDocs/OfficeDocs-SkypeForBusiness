@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring Gallery View'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Gallery View
 ms:assetid: 4a609178-47d8-4682-ac8d-29f882801924
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204871(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configuring Gallery View in Lync Server 2013
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2012-10-30_
 
 In Lync Server 2013, you configure Gallery View video conferencing in conferencing policy. Gallery View is turned on by default. If you do not want to allow Gallery View, or want to allow it for only some users, you need to turn off the feature in conferencing policy.
 
-When a conference participant's video is not available, the users' Gallery View experience can be enhanced if you deploy high-resolution photos, a new feature in Lync Server 2013. High-resolution photos provide an alternative to the smaller, limited resolution contact photos stored in Active Directory Domain Services. High-resolution photos are stored in a user's Exchange 2013 mailbox, and, therefore, require you to integrate Lync Server 2013 with Exchange 2013. For details, see the NextHop blog article, "Integrating Exchange 2013 and Lync Server 2013," at [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987).
+When a conference participant's video is not available, the users' Gallery View experience can be enhanced if you deploy high-resolution photos, a new feature in Lync Server 2013. High-resolution photos provide an alternative to the smaller, limited resolution contact photos stored in Active Directory Domain Services. High-resolution photos are stored in a user's Exchange 2013 mailbox, and, therefore, require you to integrate Lync Server 2013 with Exchange 2013. For details, see the NextHop blog article, "Integrating Exchange 2013 and Lync Server 2013," at [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987).
 
 <div>
 

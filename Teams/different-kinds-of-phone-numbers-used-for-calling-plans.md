@@ -1,5 +1,5 @@
 ---
-title: "Different kinds of phone numbers used for Calling Plans"
+title: "Types of phone numbers used for Calling Plans"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,10 +15,13 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords: 
+ - CSH
 ms.custom: 
   - Calling Plans
-description: Learn about the different phone number types that Teams uses for Calling Plans.
+  - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+  - seo-marvel-apr2020
+description: In this article, you will learn about different phone number types that Microsoft Teams uses for Calling Plans.
 ---
 
 # Different kinds of phone numbers used for Calling Plans

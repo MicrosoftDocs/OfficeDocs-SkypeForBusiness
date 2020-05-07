@@ -11,6 +11,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Quality of Service (QoS) is a networking technology used in some organizations to help provide an optimal end-user experience for audio and video communications."
 ---

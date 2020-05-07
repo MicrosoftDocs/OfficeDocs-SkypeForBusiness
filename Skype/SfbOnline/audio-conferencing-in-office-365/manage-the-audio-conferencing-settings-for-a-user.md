@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "As an Office 365 admin, you can edit the Skype for Business Online Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. "
@@ -30,7 +31,7 @@ description: "As an Office 365 admin, you can edit the Skype for Business Online
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
     

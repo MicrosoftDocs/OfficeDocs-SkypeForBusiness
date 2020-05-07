@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 description: "The IPAddress table maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013."

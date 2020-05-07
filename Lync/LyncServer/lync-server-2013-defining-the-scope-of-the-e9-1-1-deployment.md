@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining the scope of the E9-1-1 deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the scope of the E9-1-1 deployment
 ms:assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425775(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Defining the scope of the E9-1-1 deployment in Lync Server 2013
 

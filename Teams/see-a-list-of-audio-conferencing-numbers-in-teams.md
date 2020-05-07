@@ -1,5 +1,5 @@
 ---
-title: "See a list of Audio Conferencing numbers in Microsoft Teams"
+title: See a list of Audio Conferencing numbers
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,10 +16,12 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to look up your dial-in conferencing numbers from within Microsoft Teams. "
+  - seo-marvel-apr2020
+description: Learn how to look up the dial-in conferencing numbers that are available for audio conferencing from within Microsoft Teams.
 ---
 
 # See a list of Audio Conferencing numbers in Microsoft Teams

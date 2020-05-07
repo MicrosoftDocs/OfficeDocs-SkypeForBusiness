@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: "Summary: Learn how to add, remove, patch, or update Front End Servers in Skype for Business Server."
@@ -32,7 +34,7 @@ You can use the following procedure when adding or removing a Front End Server.
 
 1. If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -48,7 +50,7 @@ You can use the following procedure when adding or removing a Front End Server.
   
 4. If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -62,7 +64,7 @@ You can use the following procedure when adding or removing a Front End Server.
     
 5. Restart the pool by typing the following cmdlet
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -74,19 +76,19 @@ When you patch the servers in a Front End pool, you do so one server at a time.
 
 1. Type the following cmdlet:
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      If this cmdlet shows any missing replicas, then run the following cmdlet to recover the pool before you apply any patches.
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. On the first server you want to patch, run the following cmdlet:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -96,7 +98,7 @@ When you patch the servers in a Front End pool, you do so one server at a time.
     
 4. On the upgraded server, run the following cmdlet:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

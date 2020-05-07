@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business certification program — Test Specifications"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Lync Certification
 - Skype for Business Certification program
@@ -71,4 +72,4 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-View the [Microsoft Teams devices store](https://products.office.com/en-us/microsoft-teams/across-devices/devices) to see products certified for Microsoft Teams and Skype for Business.
+View the [Microsoft Teams devices store](https://products.office.com/microsoft-teams/across-devices/devices) to see products certified for Microsoft Teams and Skype for Business.

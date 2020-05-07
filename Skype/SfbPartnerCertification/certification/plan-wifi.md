@@ -1,7 +1,7 @@
 ---
 title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - mt147901
@@ -29,7 +30,7 @@ This page provides the collective information to help you plan an optimal Skype 
 ## Getting Started
 Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise class wireless Skype for Business experience.
 
-[Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/en-us/download/details.aspx?id=47257)
+[Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### Additional Resources
 Learn about [Skype for Business certification](test-spec.md).

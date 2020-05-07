@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -49,7 +51,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 1. Open a PowerShell console as administrator and confirm that the Skype for Business Cloud Connector Edition cmdlets are available using the following cmdlet:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -59,7 +61,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
     You can find the location of the **Site Directory** with the following cmdlet:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -73,7 +75,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
      To set the **Site Directory** to a location other than the default, run the following cmdlet:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -85,13 +87,13 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
     To find the location of the **Appliance Directory**, run the following cmdlet:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     To set the **Appliance Directory** to a location other than the default, run the following cmdlet:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -104,7 +106,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 - Run the following cmdlet to set the path, including the file name, to the external Edge certificate. For example: C:\certs\cce\ap.contoso.com.pfx. The certificate must contain private keys.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -120,7 +122,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 If you are using TLS between the Mediation Server and the PSTN gateway/SBC, run the following cmdlet to set the path, including the file name, to the gateway certificate. For example: C:\certs\cce\sbc.contoso.com.cer. The certificate must contain the root CA and the intermediate chain for the certificate assigned to the gateway:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -149,7 +151,7 @@ Prepare the CloudConnector.ini file using the information you gathered in [Deter
 
 To update the file, first run the following cmdlet to get the sample template (CloudConnector.Sample.ini):
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -164,7 +166,7 @@ When updating the .ini file, consider the following:
 
 - **SiteName:** The default value is **Site1**. You must update it before you deploy Cloud Connector, because when you run **Register-CcAppliance** to register an appliance to an existing or new site, the cmdlet will use **SiteName** to determine which site to register.
 
-     If you want to register the appliance to a new site, the value of **SiteName** must be unique and different from existing sites. If you want to register the appliance to an existing site, the value for **SiteName** in .ini file must match the name defined in your Office 365 tenant configuration. If you are copying a configuration file from one site to another, make sure you update the value for **SiteName** for each site accordingly.
+     If you want to register the appliance to a new site, the value of **SiteName** must be unique and different from existing sites. If you want to register the appliance to an existing site, the value for **SiteName** in .ini file must match the name defined in your Office 365 organization configuration. If you are copying a configuration file from one site to another, make sure you update the value for **SiteName** for each site accordingly.
 
 - **ServerName:** The server name should not contain the domain name and should be limited to 15 characters.
 
@@ -222,7 +224,7 @@ When updating the .ini file, consider the following:
 
 Run the following cmdlet to download the bits and version information files to the **Site Directory**:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -250,7 +252,7 @@ Before proceeding with this step, make sure that the corpnet switch is created. 
 
 Start a PowerShell console as administrator and run the following cmdlet to convert the ISO image to a virtual hard disk (VHD):
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -273,13 +275,13 @@ If you are deploying a multi-site deployment, you do not need to convert the ISO
 
 The PowerShell scripts provided require that the execution policy be set to RemoteSigned. To see the current setting, open a PowerShell console as administrator and then run the following cmdlet:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 If it is not set to "RemoteSigned," run the following cmdlet to change it:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
@@ -298,11 +300,11 @@ The CceService account is created during the Skype for Business Cloud Connector 
 
 3. Set its value to **Enabled**.
 
-## Set up your Office 365 tenant
+## Set up your Office 365 organization
 
-An Office 365 tenant with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
+An Office 365 organization with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
 
-Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 organization. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Create a dedicated Skype for Business administrator account for Cloud Connector online management, for example CceOnlineManagmentAdministrator. This account will be used by appliance to add or remove appliance, enable or disable automatic OS update, enable or disable automatic binary update. Set the password for this account to never expire so that you do not need to change it for the service each time it expires.
 

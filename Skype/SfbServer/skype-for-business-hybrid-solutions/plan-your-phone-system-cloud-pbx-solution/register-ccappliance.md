@@ -8,6 +8,8 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: "The Register-CcAppliance cmdlet registers appliance information to a PSTN site in an online tenant configuration. An appliance must be registered before it can be deployed and managed by the Skype for Business Cloud Connector Edition management service."
@@ -17,7 +19,7 @@ description: "The Register-CcAppliance cmdlet registers appliance information to
  
 The Register-CcAppliance cmdlet registers appliance information to a PSTN site in an online tenant configuration. An appliance must be registered before it can be deployed and managed by the Skype for Business Cloud Connector Edition management service.
   
-```
+```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -28,7 +30,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 The following example registers the current appliance information to an online tenant configuration:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -36,7 +38,7 @@ Register-CcAppliance
 
 The next example checks configuration for registration locally without connecting to an online tenant configuration:
   
-```
+```powershell
 Register-CcAppliance -Local
 ```
 
@@ -44,7 +46,7 @@ Register-CcAppliance -Local
 
 The next example registers the current appliance with the name "Appliance1" to the PSTN site "Site1":
   
-```
+```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

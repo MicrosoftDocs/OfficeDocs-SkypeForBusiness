@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Appendix B: Managing a Survivable Branch Appliance'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
 ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013
 

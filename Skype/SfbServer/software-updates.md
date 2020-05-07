@@ -8,6 +8,8 @@ ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Find and manage updates for Skype for Business Server or Lync 2013. Use the links to get more information and  then download the updates."

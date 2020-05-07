@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Emergency procedures'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Emergency procedures
 ms:assetid: ac92b267-4c21-4304-91dc-606f9db6d4a6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720345(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Emergency procedures in Lync Server 2013
 
@@ -30,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2014-08-18_
 
-Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function). These procedures usually relate to one of the following:
+Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function). These procedures usually relate to one of the following:
 
   - Implementing change as part of a troubleshooting effort—to resolve an identified system issue.
 
@@ -45,7 +47,7 @@ We recommend implementing emergency change procedures. For example, document how
 ## See Also
 
 
-[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

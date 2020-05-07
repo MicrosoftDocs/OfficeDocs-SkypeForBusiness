@@ -8,6 +8,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
@@ -22,13 +24,13 @@ Depending on your existing settings and configuration for your deployment of Sky
   
 1. Set the Windows PowerShell execution policy to Unrestricted. If you're not sure what it's set to currently, you can open the Skype for Business Server Management Shell and run this command:
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    If the value Unrestricted is not returned, you'll need to run this next:
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -40,7 +42,7 @@ Depending on your existing settings and configuration for your deployment of Sky
     
 3. To run a script from command line, you can use:
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

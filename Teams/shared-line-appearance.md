@@ -15,16 +15,18 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-  - ms.teamsadmincenter.users.voice.calldelegation.tooltip
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Phone System
-description: "Shared line appearance lets a user choose a delegate to answer or handle calls on their behalf."
+  - ms.teamsadmincenter.users.voice.calldelegation.tooltip
+  - seo-marvel-apr2020
+description: Learn about how to send your users an email with their audio conferencing information in Microsoft Teams.
 ---
 
 # Shared line appearance in Microsoft Teams
 
-Shared line appearance is part of the delegation feature that lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user’s calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf, and a delegate can make and receive calls on behalf of someone else.
+Shared line appearance is part of the delegation feature that lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user's calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf, and a delegate can make and receive calls on behalf of someone else.
 
 > [!IMPORTANT]
 > This feature is only available in Teams Only deployment mode. For more details on Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
@@ -33,7 +35,7 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 A user must be have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
-Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## Configuring delegation and shared line appearance
 

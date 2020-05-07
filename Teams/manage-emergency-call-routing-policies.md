@@ -1,5 +1,5 @@
 ---
-title: Manage emergency call routing policies in Microsoft Teams
+title: Manage emergency call routing policies
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -8,14 +8,17 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection: 
 - M365-voice
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency call routing policies in Microsoft Teams. 
-f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+description: Learn how to use and manage emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. 
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
@@ -92,7 +95,7 @@ See [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powersh
 
 ### Assign a custom emergency call routing policy to users in a group
 
-You may want to assign a custom emergency call routing policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+You may want to assign a custom emergency call routing policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
 
 In this example, we assign a policy called HR Emergency Call Routing Policy to all users in the Contoso HR group.  
 
@@ -100,16 +103,16 @@ In this example, we assign a policy called HR Emergency Call Routing Policy to a
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular teams policy. In this example, it's HR Emergency Call Routing Policy.
-```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
+```PowerShell
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
@@ -119,7 +122,7 @@ Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/s
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

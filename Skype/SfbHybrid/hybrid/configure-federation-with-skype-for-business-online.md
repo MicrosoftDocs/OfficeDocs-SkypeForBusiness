@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -33,11 +35,13 @@ Note that if you have Exchange on-premises, you may want to configure OAuth betw
 Federation allows users in your on-premises deployment to communicate with Microsoft 365 or Office 365 users in your organization. To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:
   
 ```PowerShell
-Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
+Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
 ```
 
-If '-EnablePartnerDiscovery' value set to 1, Skype for Business Server will use DNS records to try and discover partner domains not listed in the AllowedDomains list. If the value set to 0, Skype for Business Server will only federate with domains found on the AllowedDomains list. This parameter is required if you use DNS service routing.
+If '-EnablePartnerDiscovery' value is set to $True, Skype for Business Server will use DNS records to try and discover partner domains not listed in the AllowedDomains list. If the value is set to $False , Skype for Business Server will only federate with domains found on the AllowedDomains list. This parameter is required if you use DNS service routing.
 
+> [!NOTE]
+> For more details about enabling federation between users of your on-premises Skype for Business deployment and users of a Skype for Business Online organization, see [Configuring federation support for a Skype for Business Online customer in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
 
 
 ## Configure your on-premises environment to enable shared SIP address space with Microsoft 365 or Office 365
@@ -85,4 +89,3 @@ For more information about how to establish a remote PowerShell session with Sky
 ## See also
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

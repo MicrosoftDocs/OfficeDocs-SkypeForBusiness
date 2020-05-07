@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Port summary - DNS and HLB load balanced'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - DNS and HLB load balanced
 ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205179(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Port summary - DNS and HLB load balanced in Lync Server 2013
 

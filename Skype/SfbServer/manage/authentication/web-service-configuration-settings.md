@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
@@ -101,7 +103,7 @@ You can delete web service configuration settings by using Windows PowerShell an
 
 - The following command removes the Web Service security settings applied to the Redmond site:
     
-  ```
+  ```PowerShell
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
@@ -109,7 +111,7 @@ You can delete web service configuration settings by using Windows PowerShell an
 
 The following command removes all of the Web Service security settings applied to the service scope:
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
@@ -117,7 +119,7 @@ The following command removes all of the Web Service security settings applied t
 
 The following command removes all the Web Service security settings that allow the use of certificate authentication:
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 

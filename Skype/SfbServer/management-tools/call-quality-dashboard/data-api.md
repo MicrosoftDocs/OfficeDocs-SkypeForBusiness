@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
@@ -45,7 +47,7 @@ Data API supports Cross-Origin Resource Sharing (CORS). CORS is an HTTP feature 
   
 Remember to include the exact protocol, host name, and port (if any). Do not to put any forward slash character (/) at the end. Multiple entries can be specified by separating with commas.
   
-```
+```xml
 <configuration>
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->

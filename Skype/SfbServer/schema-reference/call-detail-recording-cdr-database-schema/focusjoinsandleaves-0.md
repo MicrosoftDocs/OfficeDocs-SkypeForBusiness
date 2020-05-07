@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: "The FocusJoinsAndLeaves view stores information about join and leave information for one conference. Each conference is represented in this view by a record written each time a user joins and leaves the conference. This view was introduced in Microsoft Lync Server 2013."

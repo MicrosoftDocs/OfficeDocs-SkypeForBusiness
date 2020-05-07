@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -21,7 +23,7 @@ description: "Summary: Learn about the new Skype for Business and the steps you 
  
 **Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
   
-The April 14th, 2015 Office Update for Lync 2013 includes the new Skype for Business user interface. This update enables administrators to control the look and feel of the client and choose whether to retain the Lync 2013 client experience or use the improved Skype for Business client experience. The Skype for Business client effectively replaced the Lync 2013 client, and added the ability for administrators to choose between the existing Lync client experience and the new Skype for Business client experience. For information about this update, see [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
+The April 14th, 2015 Office Update for Lync 2013 includes the new Skype for Business user interface. This update enables administrators to control the look and feel of the client and choose whether to retain the Lync 2013 client experience or use the improved Skype for Business client experience. The Skype for Business client effectively replaced the Lync 2013 client, and added the ability for administrators to choose between the existing Lync client experience and the new Skype for Business client experience. For information about this update, see [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/kb/2889923/).
   
 On May 12th, 2015 there will be another monthly update from Office that includes the updated Skype for Business client. Many customers that did not apply the April update will pick up the May 12th update for Office 2013. The information in this topic will help you prepare your organization, your environment, and your users for the client update. To make the transition easy for your users and support teams, use the information in this topic to help you decide which client experience you want for your users and then make the changes to your environment before deploying the client update in your organization.
   
@@ -37,7 +39,7 @@ On May 12th, 2015 there will be another monthly update from Office that includes
 ## What client experience do you want for your users?
 <a name="clientexperience"> </a>
 
-With the new Skype for Business client, you can control which client experience your users get, either Lync or Skype for Business. The default client experience depends on whether you are using Lync or Skype for Business on-premises or online. If you are using Skype for Business Online (Lync Online) today with Office 365 ProPlus, Office 365 Business Premium or Office 2013, the updated Skype for Business client experience—inspired by the look and feel of Skype—will be the default user experience. If you are using Lync Server on-premises today, the Lync client experience will be the default.
+With the new Skype for Business client, you can control which client experience your users get, either Lync or Skype for Business. The default client experience depends on whether you are using Lync or Skype for Business on-premises or online. If you are using Skype for Business Online (Lync Online) today with Microsoft 365 Apps for enterprise, Microsoft 365 Business Standard or Office 2013, the updated Skype for Business client experience—inspired by the look and feel of Skype—will be the default user experience. If you are using Lync Server on-premises today, the Lync client experience will be the default.
   
 You can configure which client experience your users get by using client policies. A client policy is a set of configuration settings that are applied to users when they login to Lync or Skype for Business.
   
@@ -79,25 +81,25 @@ Follow the steps in this section if you want to configure the Skype client exper
   
   **Option 1:** Set the Skype client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Skype client experience. This lets you assign the Skype client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **Option 3:** Create a new policy to assign to users that includes the setting for the Skype client experience. First, create the new client policy and provide the name of the policy as the value of the **Identity** parameter:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 Then assign the policy to users, using the name of the policy (the value you used for the **Identity** parameter) as the value of the **PolicyName** parameter:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -125,25 +127,25 @@ Follow the steps in this section if you want to configure the Skype client exper
   
  **Option 1:** Set the Lync client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Lync client experience. This lets you assign the Lync client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **Option 3:** Create a new policy to assign to users that includes the setting for the Lync client experience. First, create the new client policy and provide the name of the policy as the value of the **Identity** parameter:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 Then assign the policy to users, using the name of the policy (the value you used for the **Identity** parameter) as the value of the **PolicyName** parameter:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -160,19 +162,19 @@ If you are using Skype for Business Online, you can still use the Lync client ex
   
  **Option 1:** Set the Lync client experience by using a Global policy. Note that client and site policies applied to users will take precedence over a Global policy.
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Lync client experience. This lets you assign the Lync client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 3:** Use a custom policy instance that includes the setting for the Lync client experience.
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 

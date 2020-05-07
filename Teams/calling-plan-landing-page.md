@@ -9,9 +9,12 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+f1.keywords:
+- NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Calling Plan landing page
+description: Determine which Microsoft Phone System Calling Plan will best serve your organization on Cloud Voice in Teams.
+ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

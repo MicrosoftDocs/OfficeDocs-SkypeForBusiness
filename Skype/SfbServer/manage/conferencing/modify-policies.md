@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: "Summary: Learn how to modify conferencing policies in Skype for Business Server."
@@ -38,7 +40,7 @@ To modify conferencing policies, use the **Set-CsConferencingPolicy** cmdlet.
   
 The following example modifies a property value of the conferencing policy SalesConferencingPolicy. The command sets the value of the AllowConferenceRecording property to False:
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 

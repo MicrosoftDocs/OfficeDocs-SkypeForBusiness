@@ -12,6 +12,8 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Direct Routing protocols
 appliesto:
 - Microsoft Teams
@@ -23,7 +25,7 @@ This article describes how Direct Routing implements the Session Initiation Prot
 
 ## Processing the incoming request: finding the tenant and user
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 tenants.  
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 organizations.  
 
 This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
@@ -49,11 +51,11 @@ On receiving the invite, the SIP proxy performs the following steps:
 
 2. Try to find a tenant using the full FQDN name presented in the Contact header.  
 
-   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Office 365 tenant. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
+   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Office 365 organization. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
 
 3. Step 3 only applies if Step 2 failed. 
 
-   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Office 365 tenant. If found, the user lookup is performed in this tenant. If not found, the call fails.
+   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Office 365 organization. If found, the user lookup is performed in this tenant. If not found, the call fails.
 
 4. Using the phone number presented in the Request-URI, perform the reverse number lookup within the tenant found in Step 2 or 3. Match the presented phone number to a user SIP URI within the tenant found on the previous step.
 
@@ -85,7 +87,7 @@ For all incoming calls, the Request-URI is used to match the phone number to a u
 
 Currently The phone number must contain a plus sign (+) as shown in the following example. 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -197,7 +199,7 @@ The SIP proxy selects the method based on the capabilities reported by the SBC. 
 
 The following is an example of an SBC sending the message that the Refer method is supported:
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -205,7 +207,7 @@ If the SBC doesn’t indicate that Refer as a supported method, Direct Routing w
 
 Example of SBC indicating that Refer method is not supported:
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -285,7 +287,7 @@ If sending, the History-Info is enabled as follows:
 
 Following is the format of the History-info header sent by the SIP proxy:
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -294,7 +296,7 @@ If the call was redirected several times, information about every redirect is in
 
 Header Example:
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

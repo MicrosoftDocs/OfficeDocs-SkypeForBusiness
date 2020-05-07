@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: "Summary: Learn how to block IM and conferencing sessions in the case of a Skype for Business Server failure that would prevent archiving."
@@ -40,13 +42,13 @@ You can also specify whether communication sessions should be allowed in case of
   
 For example, the following command disables communications in the case of an archiving failure:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 The next command enables communications in the case of an archiving failure:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

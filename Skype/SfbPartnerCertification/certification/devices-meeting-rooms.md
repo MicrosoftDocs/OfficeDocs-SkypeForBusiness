@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -16,11 +16,12 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-- ms.teamsadmincenter.devices.roomsystems.overview
+f1.keywords: 
+- CSH
 ms.custom:
 - Skype for Business Certification
 - dn947482 
+- ms.teamsadmincenter.devices.roomsystems.overview
 description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
 ---
 
@@ -45,7 +46,7 @@ You can find detailed Lync specifications here: [Phones and devices qualified fo
 
 You can visit https://aka.ms/MTRDocs for full details on Microsoft Teams Rooms devices.
 
-View [room devices certified for Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
+View [room devices certified for Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## USB based audio/video end points designed for conference rooms
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors offer rich audio or video quality. These all support plug & play features with Lync, Skype for Business, or Teams clients and  provide a great experience for end-users and administrators. 

@@ -8,6 +8,8 @@ ms.date: 7/12/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: "The MediaList table is a static table that stores the list of various media types."
@@ -24,6 +26,6 @@ The MediaList table is a static table that stores the list of various media type
    
 If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet: 
   
-```
+```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```

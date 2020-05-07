@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Business Premium "
+title: "Microsoft 365 Business Standard "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
-description: "Learn about add-on licenses, features, and how to buy for Office 365 Business Premium plans. "
+description: "Learn about add-on licenses, features, and how to buy for Microsoft 365 Business Standard plans. "
 ---
 
-# Office 365 Business Premium
+# Microsoft 365 Business Standard
 
-If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.
+If you have [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.
 
  **To make and receive calls from people external to your business, you have two options**:
 

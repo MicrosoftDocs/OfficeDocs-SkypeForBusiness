@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
@@ -56,7 +58,7 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
   
     The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
 		  <thumb print of new certificate> -Roll -EffectiveDate <date and time
 		  for certificate to become active>
@@ -64,7 +66,7 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
 
     An example Set-CsCertificate command:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
 		  "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
 		  6:00:00 AM"
@@ -86,7 +88,7 @@ To further understand the process that Set-CsCertificate, -Roll, and -EffectiveD
    
 When the effective time is reached (7/22/2015 6:00:00 AM), all new tokens are issued by the new certificate. When validating tokens, tokens will first be validated against the new certificate. If the validation fails, the old certificate is tried. The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate. Once the old certificate has expired (7/22/2015 2:00:00 PM), tokens will only be validated by the new certificate. The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the -Previous parameter.
 
-```
+```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
@@ -102,7 +104,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
 		  print of new certificate> -Roll -EffectiveDate <date and time for
 		  certificate to become active> -identity Global 
@@ -110,7 +112,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 An example Set-CsCertificate command:
     
-  ```
+  ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
 		  "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
 		  1:00:00 PM" 
@@ -120,7 +122,7 @@ An example Set-CsCertificate command:
 > The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
   
 When the effective time is reached (7/21/2015 1:00:00 AM), all new tokens are issued by the new certificate. When validating tokens, tokens will first be validated against the new certificate. If the validation fails, the old certificate is tried. The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate. Once the old certificate has expired (7/22/2015 2:00:00 PM), tokens will only be validated by the new certificate. The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the -Previous parameter.
-```
+```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 

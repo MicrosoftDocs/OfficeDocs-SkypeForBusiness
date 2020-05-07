@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user PIN policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user PIN policy
 ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
@@ -85,7 +87,7 @@ For details about creating per-user dial-in conferencing PIN policies, see [Crea
 
 ## Assigning a Per-User PIN Policy by Using Windows PowerShell Cmdlets
 
-You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## To assign a per-user PIN policy to a single user
 
@@ -95,7 +97,7 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
 
 ## To assign a per-user PIN policy to multiple users
 
-  - The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).
+  - The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -105,7 +107,7 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-For details, see [Grant-CsPinPolicy](https://technet.microsoft.com/en-us/library/gg398871\(v=ocs.15\)).
+For details, see [Grant-CsPinPolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\)).
 
 ## See Also
 

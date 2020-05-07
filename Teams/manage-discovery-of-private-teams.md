@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -60,7 +62,7 @@ In Teams, go to the private team, click **More options** > **Manage team**. On t
 ### Using PowerShell
 
 Use the **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** cmdlet to turn off or turn on the discovery setting for an existing private team. Here's an example of how to make a team discoverable:
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 You can use this cmdlet in a script to set the discovery setting of existing private teams in bulk.
@@ -74,7 +76,7 @@ Set the **AllowPrivateTeamDiscovery** parameter to **true** to allow users who a
 By default, **AllowPrivateTeamDiscovery** is set to **true** for all users in an organization.
 
 In this example, we create a policy named VendorPolicy that prevents users from discovering any private teams that are made discoverable, and then we assign the policy to a user named vendoruser1.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

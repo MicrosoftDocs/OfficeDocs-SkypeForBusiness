@@ -16,10 +16,11 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderDetailPanelWhois
 description: "Learn what to do if your carrier isn't listed in Skype for Business. "
 ---
 

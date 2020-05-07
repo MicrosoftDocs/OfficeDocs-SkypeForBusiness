@@ -1,5 +1,5 @@
 ---
-title: "Turn on or off entry and exit announcements for meetings in Microsoft Teams"
+title: "Turn on or off entry and exit announcements for meetings in Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,10 +15,12 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn how to turn entry and exit announcements on or off in a Microsoft Teams meeting. "
+  - seo-marvel-apr2020
+description: Admin can learn about how to turn entry and exit announcements on or off in a Microsoft Teams meeting.
 ---
 
 # Turn on or off entry and exit announcements for meetings in Microsoft Teams

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "How to test admin permissions in Skype for Business Server"
 ---
@@ -24,7 +26,7 @@ description: "How to test admin permissions in Skype for Business Server"
 
 When you install Skype for Business Server, one of the tasks that was performed by the Setup program gives the RTCUniversalUserAdmins group the Active Directory permissions that are needed to manage users, computers, contacts, application contacts, and InetOrg persons. If you have disabled permission inheritance in Active Directory, setup won't be able to assign those permissions. As a result, members of the RTCUniversalUserAdmins group won't be able to manage Skype for Business Server entities. Those management privileges will only be available to domain administrators. 
 
-The Test-CsOUPermission cmdlet verifies that the required permissions needed to manage users, computers, and other objects are set on an Active Directory container. If those permissions are not set, you can resolve this problem by running the [Grant-CsOUPermission cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission). 
+The Test-CsOUPermission cmdlet verifies that the required permissions needed to manage users, computers, and other objects are set on an Active Directory container. If those permissions are not set, you can resolve this problem by running the [Grant-CsOUPermission cmdlet](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission). 
 
 Note that Grant-CsOUPermission can only assign permissions to members of the RTCUniversalUserAdmins group. You can’t use this cmdlet to grant permissions to an arbitrary user or group. If you want a different user or group to have user management permissions, you should add that user (or group) to the RTCUniversalUserAdmins group. 
 
@@ -39,7 +41,7 @@ To verify multiple permissions by using a single command, enclose each permissio
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-For more information, see the [help topic for the Test-CsOUPermission cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission).
+For more information, see the [help topic for the Test-CsOUPermission cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).
 
 ## Determining success or failure
 
@@ -65,4 +67,4 @@ If Test-CsOUPermission fails, it usually means that the specified permission has
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-For more information, see the [help topic for the Test-CsOUPermission cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/test-csoupermission).
+For more information, see the [help topic for the Test-CsOUPermission cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).

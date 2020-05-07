@@ -8,6 +8,8 @@ ms.date: 09/25/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150

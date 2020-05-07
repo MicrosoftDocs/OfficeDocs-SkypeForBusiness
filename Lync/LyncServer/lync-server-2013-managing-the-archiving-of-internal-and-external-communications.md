@@ -3,9 +3,11 @@ title: 'Managing the Archiving of internal and external communications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Archiving of internal and external communications
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204977(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204977(v=OCS.15)
 ms:contentKeyID: 48184417
 ms.date: 07/23/2014
 manager: serdars
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Managing the Archiving of internal and external communications in Lync Server 2013
 
@@ -54,9 +56,9 @@ For details about how policies are implemented, including the hierarchy of polic
 
 ## In This Section
 
-  - [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
+  - [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for specific sites or users](lync-server-2013-create-archiving-policy-sites-users.md)
 
-  - [Changing an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for your organization, sites, or users](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
+  - [Changing an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for your organization, sites, or users](lync-server-2013-change-archiving-policy-org-sites-users.md)
 
   - [Applying an Archiving policy to users in Lync Server 2013](lync-server-2013-applying-an-archiving-policy-to-users.md)
 

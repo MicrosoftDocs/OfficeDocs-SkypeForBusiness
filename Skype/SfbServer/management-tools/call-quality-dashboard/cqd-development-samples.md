@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
@@ -59,7 +61,7 @@ Let us take a simple example first. If we want to show the Audio Good Stream and
 
 What we need is to send a call to the Data Service with the proper parameters, and show the query results in an HTML table. The following is a sample of the JavaScript code:
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -127,7 +129,7 @@ This example can be further deconstructed into three steps:
 
 Enclosing the JavaScript code into an HTML page, and the page will show a report like the one shown in the figure. The full html is as follows:
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -198,7 +200,7 @@ To create the report definition viewer tool, we need to send calls to Repository
 
 A quick example is as follows, the code contains a block that is a simple example to send a query to the Repository service to get the contents of a repository item based on its identifier. And the next portion of code (processReportSetData method) is sending AJAX calls to get the definition of each report within that report set. Since the ID in the CQD web portal is the ID of a report set, the AJAX call will return a report set item. More detail on the Repository API and specifically, GetItems, can be found in the [Get Items](get-items.md). 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,7 +329,7 @@ Here are the detailed steps to get to the scorecard page in the figure from the 
 
 2. Update the filters. The JSON data for Filters in Example 1 has one filter, which is set on the dimension  `[StartDate].[Month]`. Since Filters is a JSON array, additional dimensions can be added to the list of filters. For example, to get the server-client inside wired calls for the "currentMonth", we should have the following filters:
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -355,7 +357,7 @@ Here are the detailed steps to get to the scorecard page in the figure from the 
 
 HTML code for Example 3 (Scorecard sample):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

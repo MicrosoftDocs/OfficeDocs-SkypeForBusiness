@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Components required for external user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for external user access
 ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425779(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Components required for external user access in Lync Server 2013
 
@@ -107,7 +109,7 @@ For additional information related to reverse proxies and the requirements that 
 
 
 > [!NOTE]  
-> External users do not need a virtual private network (VPN) connection to your organization in order to participate in communications using Lync Server 2013. If you have implemented VPN technology in your organization and your users use the VPN for Lync, media traffic (such as video conferencing) can be adversely affected. You should consider providing a means for media traffic to connect to the AV Edge service directly and bypass the VPN. For details, see the NextHop Blog article, “Enabling Lync Media to Bypass a VPN Tunnel,” at <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
+> External users do not need a virtual private network (VPN) connection to your organization in order to participate in communications using Lync Server 2013. If you have implemented VPN technology in your organization and your users use the VPN for Lync, media traffic (such as video conferencing) can be adversely affected. You should consider providing a means for media traffic to connect to the AV Edge service directly and bypass the VPN. For details, see the NextHop Blog article, “Enabling Lync Media to Bypass a VPN Tunnel,” at <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
 
 
 

@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: "In Topology Builder, you can perform tasks related to an individual Archiving Server by either right-clicking the Archiving Server in the console tree, clicking Action in the toolbar, or clicking a task in the Actions pane, and then clicking the following Archiving Server option."

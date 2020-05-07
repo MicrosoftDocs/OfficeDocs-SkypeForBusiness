@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
@@ -44,7 +46,7 @@ Get User Settings returns a list of settings for a specified user.
   
   **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 [{
 "userId": 6,
 "key": "ShowDescriptions",

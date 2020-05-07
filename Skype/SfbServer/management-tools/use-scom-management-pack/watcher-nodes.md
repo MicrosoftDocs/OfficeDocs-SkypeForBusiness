@@ -8,6 +8,8 @@ ms.date: 11/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
@@ -108,7 +110,7 @@ To install the Skype for Business Server 2015 core files and the RTCLocal databa
 2. In the console window, type the following command and press ENTER. Be sure to enter the appropriate path to your Skype for Business Server setup files: 
     D:\Setup.exe /BootstrapLocalMgmtTo verify that the core Skype for Business Server components are successfully installed, click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server Management Shell**. In the Skype for Business Server Management Shell, type the following Windows PowerShell command and press ENTER:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -165,34 +167,34 @@ To configure Trusted Server authentication, you must first create a trusted appl
   
 To create a trusted application pool, open the Skype for Business Server Management Shell and run a command similar to this:
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > For details about the parameters in the preceding command, type the following from the Skype for Business Server Management Shell prompt: 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 After creating the trusted application pool, you can then configure the watcher node computer to run synthetic transactions as a trusted application by using the **New-CsTrustedApplication** cmdlet and a command similar to this:
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 When this command completes and the trusted application is created, you must then run the **Enable-CsTopology** cmdlet to make sure that the changes take effect:
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
-After running Enable-CsTopology, restart the computer.
+The watcher node computer account requires the ability to query CMS for some synthetic transactions. To allow this ability, add the computer account of the watcher node to the RTCUniversalReadOnlyAdmins security group. Once AD replication has occurred, restart the computer.
   
 To verify that the new trusted application has been created, type the following at the Skype for Business Server Management Shell prompt:
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -227,7 +229,7 @@ To install and configure a watcher node:
     
 2. In the Management Shell, type the following command and then press ENTER (be sure and specify the actual path to your copy of Watchernode.msi):
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -237,7 +239,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > In the preceding command, the name/value pair Authentication=TrustedServer is case-sensitive. It must be typed exactly as shown. For example, this command will fail because it does not use the correct letter casing: 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -278,7 +280,7 @@ Your next step is to run the file Watchernode.msi:
     
 2. In Skype for Business Server Management Shell, type the following command, and then press ENTER (be sure to specify the actual path to your copy of Watchernode.msi):
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

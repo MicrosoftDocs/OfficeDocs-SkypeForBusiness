@@ -8,6 +8,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: "Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS)."
@@ -17,7 +19,7 @@ description: "Read this topic to learn how to monitor your Cloud Connector versi
 
 Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
 
-You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 This topic contains the following sections:
 
@@ -51,28 +53,28 @@ How you configure Cloud Connector to use OMS depends on your scenario:
 
 - **If you are installing a new Cloud Connector appliance or you want to re-deploy an appliance**, follow these steps before you run Install-CcAppliance:
 
-1. In the CloudConnector.ini file [Common] section, set the OMSEnabled parameter to True.
+	1. In the CloudConnector.ini file [Common] section, set the OMSEnabled parameter to True.
 
-    Each time Cloud Connector is deployed or upgraded, it will try to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
+		Each time Cloud Connector is deployed or upgraded, it will try to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
 
-2. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
+	2. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
 
 - **If you are installing an OMS agent onto an existing Cloud Connector appliance**, follow these steps:
 
-1. In the CloudConnector.ini file [Common] section, set OMSEnabled=true. 
+	1. In the CloudConnector.ini file [Common] section, set OMSEnabled=true. 
 
-2. Run Import-CcConfiguration. 
+	2. Run Import-CcConfiguration. 
 
-3. Run Install-CcOMSAgent. 
+	3. Run Install-CcOMSAgent. 
 
-    > [!NOTE]
-    > If the OMSWorkspace credential has never been set, you are prompted for the credential when you run install-CcOMSAgent. 
+		> [!NOTE]
+		> If the OMSWorkspace credential has never been set, you are prompted for the credential when you run install-CcOMSAgent. 
 
 - **If you want to update the OMS workspace ID or key in a Cloud Connector appliance that has already installed an OMS agent:**
 
-1. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
+	1. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
 
-2. To apply the updates, run Install-CcOMSAgent. 
+	2. To apply the updates, run Install-CcOMSAgent. 
 
 - **For all scenarios, verify that the agents are connected as follows:**
 
@@ -109,15 +111,15 @@ In the OMS portal, you must specify information about the event logs and perform
 
      Total active calls:
 
-   - LS:MediationServer - Inbound Calls(_Total)\- Current 
+	   - LS:MediationServer - Inbound Calls(_Total)\- Current 
 
-   - LS:MediationServer - Outbound Calls(_Total)\- Current 
+	   - LS:MediationServer - Outbound Calls(_Total)\- Current 
 
      Total active media bypass calls:
 
-   - LS:MediationServer - Inbound Calls(_Total)\- Active media bypass calls 
+	   - LS:MediationServer - Inbound Calls(_Total)\- Active media bypass calls 
 
-   - LS:MediationServer - Outbound Calls(_Total)\- Active media bypass calls 
+	   - LS:MediationServer - Outbound Calls(_Total)\- Active media bypass calls 
 
      > [!NOTE]
      > You must manually enter the performance counters in the text box. They do not appear as options in the drop-down list. 
@@ -148,7 +150,7 @@ To create this alert pair:
 
 - The query for the error alert is:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -160,19 +162,19 @@ To create this alert pair:
 
 - The query for the reset alert is:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     The reset query does exactly the opposite thing of the error query. For each computer, it will return one if the last event is the service start event; it will return nothing if the last event is the service stop event.
 
-  **Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"**
+**Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"**
 
 To create this alert:
 
 - The query for the error alert is:
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -180,17 +182,17 @@ To create this alert:
 
 - The query for the reset alert is:
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     The reset query does exactly the opposite thing of the error query. For each computer, the query will get the last counters for inbound call and outbound call and sum those two values. It will return one log if the sum value is less than 500; it will return nothing otherwise.
 
-  **Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert**
+**Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert**
 
 To create this alert, the query is:
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

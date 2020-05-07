@@ -12,7 +12,9 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.meetingsettings.invitationurls
   - ms.teamsadmincenter.meetingsettings.network.ports
   - ms.teamsadmincenter.meetingsettings.overview
@@ -29,7 +31,6 @@ As an admin, you use Teams meetings settings to control whether anonymous users 
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
@@ -37,7 +38,8 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
     ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
-If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
+> [!CAUTION]
+> If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations
 
@@ -64,7 +66,9 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer.
-3. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
+3. Click **Preview invite** to see a preview of your meeting invitation.
+4. When you're done, click **Save**.
+5. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
 ## Set how you want to handle real-time media traffic for Teams meetings
 
@@ -83,17 +87,17 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
     ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
-    > [!NOTE] 
-    > Turning on **Insert Quality of Service (QoS) markers for real-time media traffic** will also enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video) and 3481 (Sharing).
+        > [!NOTE]
+        > Turning on **Insert Quality of Service (QoS) markers for real-time media traffic** will also enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video) and 3481 (Sharing).
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
-    > [!IMPORTANT]
-    > If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. Use this option only when not implementing QoS.
-    >
-    > Selecting a port range that is too narrow will lead to dropped calls and poor call quality. The recommendations below should be a bare minimum.
+        > [!IMPORTANT]
+        > If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. Use this option only when not implementing QoS.
+        >
+        > Selecting a port range that is too narrow will lead to dropped calls and poor call quality. The recommendations below should be a bare minimum.
 
-If you are unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
+If you're unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
 
-_Port ranges and DSCP markings_
+### Port ranges and DSCP markings
 
 Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |:---             |:---                         |:---    |:---      |:---      |

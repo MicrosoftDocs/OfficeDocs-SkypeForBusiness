@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: "The new Skype for Business Admin Center Reports area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the Skype for Business PSTN minute pools report to see the number of minutes consumed during the current month within your organization."
@@ -41,7 +42,7 @@ This report, along with the other Skype for Business reports, gives you details 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.
     
 > [!NOTE]
-> Depending on the Office 365 subscription you have, you might not see all the same details shown here. 
+> Depending on the Microsoft 365 or Office 365 subscription you have, you might not see all the same details shown here. 
   
 ## Interpret the Skype for Business PSTN minute pools report
 
