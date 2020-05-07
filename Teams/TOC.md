@@ -442,6 +442,7 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
+### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
