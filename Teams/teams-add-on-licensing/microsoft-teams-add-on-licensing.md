@@ -155,15 +155,19 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 #### [**Trial offers**](#tab/trial/)
 
-In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial). 
+### Trial offers for licensing plans
 
-Trials are available for these plans:
+In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. Trials are available for these plans:
 
 - Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 trial, and E5 trial
 - Office 365 Education [A1 trial](../teams-edu-licensing.md)
 - Office 365 Government [G1 trial](../g1-trial-license.md)
 
-Here's a summary of trial offers for voice features. 
+To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
+
+### Trial offers for voice features
+
+Here's a summary of voice feature trial offers.
 
   ![Trial-based options](../media/licensing-trial-offers.png)
 
@@ -175,14 +179,7 @@ Here's a summary of trial offers for voice features.
 
 - [Free version of Teams](../manage-freemium.md)
 - [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for voice features for use with the Teams Exploratory experience.
-- Microsoft 365 Business Voice trial
-- Microsoft 365 Domestic Calling Plan trial
 - [Microsoft Phone System - Virtual User](virtual-user.md) license
-
-If you want to experience or test voice features or other trial offers, you can get add-ons and other trials:
-
-- If you have less than 25 people, use the Microsoft 365 Business Voice trial. With this, you can test all calling features including calling, conferencing, and other voice features like auto attendants and call queues.
-- If you have more than 25 people, use the Microsoft 365 Domestic Calling Plan trial to test voice calling features, or assign a Microsoft 365 Phone System - Virtual User license to experience and test auto attendants and call queues.
 
 * * *
 
