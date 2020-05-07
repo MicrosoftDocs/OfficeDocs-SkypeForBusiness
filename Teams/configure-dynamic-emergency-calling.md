@@ -130,7 +130,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and Wireless Access Points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and Wireless Access Points (WAPs) are supported. If multiple locations are found, WAP takes precedence over subnet. (Support for Ethernet switch/port is pending.)
 
 For a client to obtain a location, you must populate the Location Information Service (LIS) with network identifiers and emergency locations by using the following cmdlets:  
 

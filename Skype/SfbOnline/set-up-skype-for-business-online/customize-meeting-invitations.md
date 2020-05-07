@@ -64,14 +64,14 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
    
 5. Choose **Save**.
     
-6. Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
+6. Wait an hour or so for the changes to get populated across all Microsoft 365 or Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
     
     ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## Related topics
 <a name="__top"> </a>
 
-[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  
