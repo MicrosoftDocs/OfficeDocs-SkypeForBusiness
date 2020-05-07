@@ -151,7 +151,7 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 #### [**Trial offers**](#tab/trial/)
 
-In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
+In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial). 
 
 Trials are available for these plans:
 
@@ -159,24 +159,26 @@ Trials are available for these plans:
 - Office 365 Education [A1 trial](../teams-edu-licensing.md)
 - Office 365 Government [G1 trial](../g1-trial-license.md)
 
-> [!NOTE]
-> The base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features.
-
-Here's a summary of trial offers for voice features.
+Here's a summary of trial offers for voice features. 
 
   ![Trial-based options](../media/licensing-trial-offers.png)
 
-  <sup>1</sup> For each voice and conferencing listed above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
+  Your base plan doesn't have to be a trial offer. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features. To see available trial offers and add-ons, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**.
 
-  To see the add-ons, including trial offers, that are available with your plan, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**. 
+  For each voice and conferencing option listed above, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
 
  Also, check out:
 
 - [Free version of Teams](../manage-freemium.md)
-- [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for getting voice calling and conferencing with the Teams Exploratory experience.
+- [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for voice features for use with the Teams Exploratory experience.
 - Microsoft 365 Business Voice trial
 - Microsoft 365 Domestic Calling Plan trial
 - [Microsoft Phone System - Virtual User](virtual-user.md) license
+
+If you want to experience or test voice features or other trial offers, you can get add-ons and other trials:
+
+- If you have less than 25 people, use the Microsoft 365 Business Voice trial. With this, you can test all calling features including calling, conferencing, and other voice features like auto attendants and call queues.
+- If you have more than 25 people, use the Microsoft 365 Domestic Calling Plan trial to test voice calling features, or assign a Microsoft 365 Phone System - Virtual User license to experience and test auto attendants and call queues.
 
 * * *
 
