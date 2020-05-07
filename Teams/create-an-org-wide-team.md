@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to create and manage an org-wide team in Teams to provide an automatic way for everyone in a small to medium-sized organization to collaborate.
-localization_priority: Normala
+localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection: 
