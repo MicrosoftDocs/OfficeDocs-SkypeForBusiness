@@ -17,30 +17,32 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: "Read this article to learn about deploying collaboration bars for Microsoft Teams."
 ---
 
-# Deployment overview
+# Deploy collaboration bars for Microsoft Teams
 
-Deployment of collaboration bars for Microsoft Teams essentially breaks down into phases:
+Deployment of collaboration bars for Microsoft Teams can be broken down into the following phases:
 
-- Confirming that your deployment locations (rooms) meet the deployment dependencies.
-- Creating resource accounts and assigning them to the devices ([see Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). While we recommend using a dedicated room license, a properly licensed end user account can also sign in to collaboration bars.
-- Setting up collaboration bars in rooms and connecting the peripheral devices you need (see the vendor's documentation for your collaboration bars).
+- **Site readiness** Confirm that your deployment locations (rooms) meet the deployment requirements.
+- **Service readiness** Create resource accounts and assign them to the devices ([see Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). While we recommend using a dedicated room license, a properly licensed end user account can also sign in to collaboration bars.
+- **Configuration and deployment** Set up collaboration bars in rooms and connect the peripheral devices you need (see the manufacturer's documentation for your collaboration bars).
 
-## Site readiness 
+## Site readiness
 
-While the ordered devices are being delivered to your organization, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and 
-display. 
+While the ordered devices are being delivered to your organization, work with your networking, facilities, and audio-visual teams to make sure that deployment requirements are met and each site and room is ready in terms of power, networking, and display.
 
 Our recommendations for collaboration bar sites are:
+
 - Rooms up to 4 people in size
 - Dedicated resource accounts
 - Touch-enabled displays
 - Ethernet cabling
 - Quality of Service (QoS) enabled on the network for Microsoft Teams media
 
+For physical installation considerations, see the manufacturer's documentation and, if you have one, leverage the experience of your audio-visual team before you install and mount screens and run cabling.
 
-For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
-
-**Pro Tip** - If you intend to use proxy servers to provide access to Microsoft Teams, first [review this article](../proxy-servers-for-skype-for-business-online.md). Note that we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network’s suitability for real-time traffic.
+> [!TIP]
+> Be sure to check out [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network’s suitability for real-time traffic.
+> 
+> We don't recommend placing proxy servers between Teams devices and the Internet. For more information about proxy servers and Teams, check out [Proxy servers for Teams](../proxy-servers-for-skype-for-business-online.md).
 
 |    |     |
 |-----------|------------|
@@ -49,12 +51,11 @@ For physical installation considerations, please visit the vendor’s site and l
 
 ## Service readiness
 
-To prepare for your collaboration bars for Microsoft Teams deployment, do the following key tasks:
+Before you deploy your collaboration bars, you need to decide if they'll use resource accounts, end-user accounts, or a mixture of both. Resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. Resource accounts can automatically respond to meeting invites using rules you define when they're created. Unless a collaboration bar is dedicated to a specific individual for their private use, we recommend setting up a resource account for it.
 
--   Decide if collaboration bars for Microsoft Teams Rooms will use resource accounts, end-user accounts, or a mixture of both. We recommend using only resource accounts for meeting rooms.
--   Prepare an Azure Active Directory group to hold your resource accounts to simplify assignment of Intune management policies.
+### Using a resource account
 
-### Define collaboration bars for Microsoft Teams resource account 
+If you decide to set up a resource account, 
 
 Depending on the collaboration scenarios that you’ve decided to enable with your collaboration bars for Microsoft Teams deployment, you’ll need to determine the features and capabilities that you assign to each resource account that you enable.
 
