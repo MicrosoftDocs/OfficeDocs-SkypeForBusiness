@@ -62,6 +62,12 @@ While Advisor for Teams is in public preview, we're providing the following two 
     - Planner plan, including adoption tasks
     - Forms user survey
     - Advisor for Teams bot
+1. Skype for Business upgrade
+    - Tenant assessment
+    - Planner plan, including adoption tasks
+    - Forms user survey
+    - Advisor for Teams bot
+    - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](https://aka.ms/SkypeToTeams),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](https://aka.ms/UpgradeWorkshops), and additional resources to support your success.
 
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and click **Add channel** to start the next workload.
 
@@ -105,6 +111,9 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 |Audio Conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a prerequisite if you're deploying Audio conferencing bridges. Queries the Microsoft Graph to see whether you have Audio Conferencing licenses (with at least one license available to assign) For more information, read [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to see whether you have Microsoft Stream licenses (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams cloud meeting recording](cloud-recording.md).
 
+### Assessments for Skype for Business Upgrade
+In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), Skype for Business Upgrade also includes assessments used in the meetings and conferencing plan.
+
 ### Advisor for Teams bot
 
 Once Advisor for Teams creates your Deployment team, the Advisor bot delivers the following message in the General channel:
@@ -145,6 +154,9 @@ Yes, after Advisor for Teams has created your Deployment team, you should update
 ### Can I modify the Forms survey?
 Yes, after Advisor for Teams has created your Deployment team, you can modify the Forms survey as needed.
 
+### Are there any differences between Advisor for Teams in GCC?
+Yes, user survey Forms are created but are not pinned in plan channels as the Teams Forms app is not available in GCC presently.
+
 ### What information is Advisor for Teams collecting about my organization?
 Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization in an effort to assist with your deployment.
 
@@ -167,4 +179,4 @@ Go to the [Forms help center](https://support.office.com/forms).
 [Best practices for organizing teams in Teams](best-practices-organizing.md)
 
 [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
