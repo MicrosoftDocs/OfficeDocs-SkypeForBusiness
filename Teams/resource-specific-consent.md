@@ -47,7 +47,7 @@ This setting controls whether users in your organization can consent to apps acc
 
 ### Settings in the Microsoft Teams admin center
 
-In addition to settings in Azure AD, [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in the Microsoft Teams admin center and the settings in the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
+In addition to settings in Azure AD, [org-wide app settings](manage-apps.md#manage-org-wide-app-settings) in the Microsoft Teams admin center and the settings in the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
 
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you disable third-party apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.  
@@ -56,17 +56,17 @@ In addition to settings in Azure AD, [org-wide app settings](teams-app-permissio
 
 This org-wide app setting controls whether users in your organization can use third-party apps. This setting must be on to enable team owners to give consent. To manage this setting, do the following:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
-2. Under **Third-party apps**, turn off or turn on **Allow third party apps**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
+2. Under **Third party apps**, turn off or turn on **Allow third party apps**.
 
     ![Screenshot of the "Allow third party apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
 
-#### Blocked apps in org-wide app settings
+#### Blocked apps 
 
-When an app is blocked in org-wide app settings, it's blocked for all users in your organization. Team owners can only give consent to an app if the app isn't blocked. To view and manage the apps that are blocked across your organization, do the following:
+When an app is blocked on the Manage apps page, it's blocked for all users in your organization. Team owners can only give consent to an app if the app isn't blocked. To view and manage the apps that are blocked across your organization, do the following:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
-2. Under **Blocked apps**, vou can remove and add apps to the blocked app list.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. On the Manage apps page, click **Block** to block an app or click **Allow** to allow an app.
 
     ![Screenshot of the blocked apps in org-wide settings](media/resource-specific-consent-blocked-apps.png)
 
