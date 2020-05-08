@@ -30,7 +30,7 @@ Organizations that have Skype for Business Server (or Lync Server) on-premises a
 
 ## Background information
 
-Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365 or Office 365.  Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. *Users in your organization will be represented in both your on-premises and online directories.*
+Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365 or Office 365.  Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. *Users in your organization will be represented in both your on-premises and online directories.*
 
 
 ## Configuring Azure AD when you have Skype for Business Server 
@@ -80,7 +80,7 @@ In such scenarios, it is the customer’s responsibility to ensure proper config
 
 ## Related information
 
-- [What is hybrid identity](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [What is hybrid identity](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fazure%2Fbread%2Ftoc.json)
 
 - [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
