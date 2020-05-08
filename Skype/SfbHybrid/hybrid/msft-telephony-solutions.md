@@ -194,7 +194,7 @@ If you answer yes to the following questions, then this is the right solution fo
 - PSTN Calling Plan is not available in your region.
 - You need to retain your current PSTN carrier.
 
-For more information, see [What is Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-server-2019), and [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+For more information, see [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019), and [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
