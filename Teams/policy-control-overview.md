@@ -44,6 +44,8 @@ This data does not include ADD TEAMS SPECIFIC STUFF THAT'S NOT INCLUDED HERE.
 
 
 
+## Diagnostic data sent from the Teams app to Microsoft
+
 This diagnostic data is collected and sent to Microsoft about Teams software being used on computers running Windows in your organization.
 
 There are three levels of diagnostic data for Teams software that you can choose from:
@@ -69,7 +71,21 @@ To see what diagnostic data is being sent to Microsoft, you can use the Diagnost
 
 HOW MANY LINKS TO INCLUDE HERE?
 
-## Events
+I HAVE NOT INCLUDED CONNECTED EXPERIENCES.
 
 
+## Required service data for connected experiences
 
+Required service data is data that enables us to deliver these cloud-based connected experiences and help make these experiences secure and perform as expected. Three types of information make up required service data.
+
+- **Customer content**, which is content you create using Office, such as text typed in a Word document.
+- **Functional data**, which includes information needed by a connected experience to perform its task, such as configuration information about the app.
+- **Service diagnostic data**, which is the data necessary to keep the service secure, up to date, and performing as expected. Because this data is strictly related to the connected experience, it is separate from required or optional diagnostic data levels.
+
+You can choose to not offer this functionality to your users, in which case this information will not be provided to Microsoft to support the functionality of connected experiences. You can learn more [at this link](https://docs.microsoft.com/deployoffice/privacy/required-service-data).
+
+## Essential services for Microsoft Teams
+
+There are also a set of services that are essential to how Microsoft 365 Apps for enterprise functions and cannot be disabled. For example, the licensing service that confirms that you are properly licensed to use Microsoft 365 Apps for enterprise. Required service data about these services is collected and sent to Microsoft, regardless of any other policy settings that you have configured.
+
+For more information, see [Essential services for Office](https://docs.microsoft.com/deployoffice/privacy/essential-services).
