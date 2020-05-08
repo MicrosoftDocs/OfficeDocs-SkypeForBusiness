@@ -73,3 +73,8 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
   Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Microsoft Phone System that was leveraged by remote sites. For more information, see [Plan for Local Media Optimization](direct-routing-media-optimization.md) and [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).
 
+- Auto Attendants and Call Queues.
+
+  As a result of Covid-19, Contoso wanted to provide the job function of their building receptionist while their staff was working remotely. Contoso leveraged auto attendants and call queues to manage incoming calls to their receptionists phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
+
+
