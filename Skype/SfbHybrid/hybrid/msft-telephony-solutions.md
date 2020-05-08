@@ -57,7 +57,7 @@ You can choose to connect to the Public Switched Telephone Network (PSTN) by:
 - Using Microsoft Calling Plan in Microsoft 365 or Office 365 
 - Connecting your own telephony carrier
 
-### Calling Plan (Microsoft 365 orOffice 365)
+### Calling Plan (Microsoft 365 or Office 365)
 
 This option connects the Microsoft 365 or Office 365 Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier.
 
@@ -224,4 +224,3 @@ For more information, see [Plan for Enterprise Voice in Skype for Business Serve
 Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
 - Have access to the latest features released by Microsoft
-
