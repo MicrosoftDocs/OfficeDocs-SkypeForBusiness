@@ -42,7 +42,7 @@ Phone System is Microsoft's technology for enabling call control and Private Bra
 
 Phone System works with Teams or Skype for Business Online clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365 or Office 365 and tightly integrated into the company’s cloud productivity experience. To connect Phone System to the Public Switched Telephone Network (PSTN), you can choose Microsoft’s Calling Plan or your own telephony carrier.
 
-For more information, see [What is Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365).
+For more information, see [What is Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### Enterprise Voice (Skype for Business Server)
 
@@ -61,7 +61,7 @@ You can choose to connect to the Public Switched Telephone Network (PSTN) by:
 
 This option connects the Microsoft 365 or Office 365 Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier.
 
-For more information, see [Calling Plans for Microsoft 365 or Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365).
+For more information, see [Calling Plans for Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ### Connect your own telephony carrier (Microsoft 365 or Office 365 and Skype for Business on-premises)
 
