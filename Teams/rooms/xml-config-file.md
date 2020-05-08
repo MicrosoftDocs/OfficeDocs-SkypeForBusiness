@@ -33,18 +33,24 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
+    <AutoExitMeetingEnabled>true</AutoExitMeetingEnabled>
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
         <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
+        <PasswordRotationEnabled>true</PasswordRotationEnabled>
+        <PasswordUpdateFrequencyInDays>90</PasswordUpdateFrequencyInDays>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -80,6 +86,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<SkypeSettings\> |Container for all elements. ||Required. |
 | \<AutoScreenShare\>  |Boolean &#x2777;  |First &#x2776;  | If true, auto screen share is enabled.  |
 |\<HideMeetingName\> |Boolean &#x2777;  |First &#x2776;  |If true, meeting names are hidden. |
+|\<AutoExitMeetingEnabled\> |Boolean &#x2777;  |First &#x2776;  |If true, leaves meetings automatically if everyone else has left. |
 |\<UserAccount\> |Container |First &#x2776;  |Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com. |
 |\<SkypeMeetingsEnabled\>  |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
 |\<SkypeSignInAddress\> |String  &#x2778;  ||The sign-in name for the console's SfB or Teams device account. |
@@ -87,10 +94,15 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<ModernAuthEnabled> |Boolean &#x2777;  |  |Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication.|
 |\<DomainUsername\> |String  &#x2778;  ||The domain and user name of the console device, for example Seattle\RanierConf. |
 |\<Password\> |String 3  || The password parameter is the same password used for the Skype for Business device account sign-in.  |
+|\<PasswordRotationEnabled> |Boolean &#x2777;  ||If true, requires user to set new password at set interval of days. |
+|\<PasswordUpdateFrequencyInDays> |Integer  ||Sets frequency of password rotation in days. Acceptable values include: 2, 30, 60, and 90. Otherwise value is not updated. |
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
+|\<WebExMeetingsEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
+|\<ZoomMeetingsEnabled> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
+|\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. | 
 |\<SendLogs\> |Container |First &#x2776;  |  |
