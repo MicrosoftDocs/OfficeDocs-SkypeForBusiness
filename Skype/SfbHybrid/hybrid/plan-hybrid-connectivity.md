@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: Plan hybrid connect | Skype for Business Server 2019 and Microsoft 365 or Office 365 integration 
-=======
-title: Plan hybrid connect | Skype for Business Server 2019 Microsoft 365 and Office 365 integration 
->>>>>>> 2e7ae37b56022403e45ac1e6078ecff920f855a4
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
