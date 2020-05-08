@@ -82,7 +82,7 @@ You have several ways to set the Operator:
 
      > [!Note]
      > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. 
-     When selecting 'Person in Organization' you can select an account with a shared mailbox or with a user mailbox.
+     When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.  
 <!--   
