@@ -27,7 +27,7 @@ description: "This summary of Skype for Business organization and user settings 
 The **Skype for Business admin center** includes settings for your entire organization, and for individual users. 
   
 > [!NOTE]
->  Depending on your location, you might not have access to all features of Skype for Business Online. For details, see [License restrictions for Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Depending on your location, you might not have access to all features of Skype for Business Online. For details, see [License restrictions for Microsoft 365 and Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## Skype for Business Online organization settings
 <a name="__top"> </a>
