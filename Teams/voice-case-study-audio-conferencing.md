@@ -42,8 +42,6 @@ Phone numbers that are associated with audio conferencing are referred to as ser
 
 - For locations using Calling Plans, to port their existing phone numbers from their phone carrier to Office 365, Contoso followed the steps in [Getting service phone numbers](getting-service-phone-numbers.md).
 
-- For locations using Direct Routing, the number is not ported to Phone System, but is assigned as a service number for audio conferencing. 
-
 - To assign the Audio Conferencing license to the end user in the technical pilot, the Contoso administrator followed the steps in [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md). 
 
 - For the business pilot and velocity migration, Contoso leveraged group-based licensing by following the steps in [Assign licenses to users by group membership in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  

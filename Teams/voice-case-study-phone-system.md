@@ -154,6 +154,38 @@ Updates for Direct Routing
 
 ## Configuration
 
+Contoso...
+
+### Calling Plans sites
+
+To obtain licenses and assign phone numbers to users, Contoso followed the steps in [Set up Calling Plans](set-up-calling-plans.md). 
+
+Due to the number of users that needed to be assigned phone numbers, Contoso decided to use PowerShell to assign the phone numbers. To learn how to assign numbers by using PowerShell--in addition to other settings--Contoso used the [Teams PowerShell Overview](teams-powershell-overview.md).  
+
+### Direct Routing sites
+
+To connect Contoso's on-premises telephony infrastructure to Microsoft Teams, Contoso's administrator followed the steps in [Configure Direct Routing](direct-routing-configure.md) and reviewed the video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) for guidance.  Contoso also referred to the Direct routing deployment documentation by the certified SBC vendor. 
+
+Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators leveraged the SIP Tester client that was discussed in the [Updates for Direct Routing session at Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
+
+
+### Local Media Optimization
+
+Contoso saw the opportunity to leverage Local Media Optimization in the different regions across the globe. The supported scenarios for Contoso are described in [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md). The configuration of the local media optimization was completed by following guidance from both the SBC vendor and Microsoft. The configuration steps for Local Media Optimization include: 
+
+- Configure the user and SBC sites 
+
+- Configure the SBC  according to the SBC vendor specification, 
+
+- Add external trusted IP addresses to each site leveraged for Local Media Optimization    
+
+- Define the network topology 
+
+- Define the virtual network topology 
+
+- Determine the mode : Always Bypass or Only for local users 
+
+ 
 
 
 
