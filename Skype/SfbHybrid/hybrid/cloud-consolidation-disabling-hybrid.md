@@ -69,7 +69,7 @@ The command below needs to be done from an on-premises PowerShell window:
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
     ```
 
-### Manage sip addresses amd phone numbers for users who were migrated from on-premises
+### Manage sip addresses and phone numbers for users who were migrated from on-premises
 
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. If you want to make changes to a user’s SIP address or to a user’s Line URI (and the SIP address or Line URI is already defined in the on-premises Active Directory), you must do this in the on-premises Active Directory and let the value(s) flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
