@@ -26,7 +26,7 @@ description: "Security guide for Skype for Business Online <add description>"
 
 # Security and Skype for Business Online
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the Microsoft Trust Center (https://microsoft.com/trustcenter).
+Skype for Business Online (SfBO), as part of the Microsoft 365 and Office 365 services, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the Microsoft Trust Center (https://microsoft.com/trustcenter).
 
 ## Trustworthy by Design
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -54,7 +54,7 @@ SfBO mitigates against these attacks by running Azure DDOS network protection an
 ### Eavesdropping
 Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
 
-SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+SfBO uses mutual TLS (MTLS) for server communications within Microsoft 365 or Office 365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
 The TURN protocol is used for real time media purposes. The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The SfBO service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
@@ -125,9 +125,9 @@ These elements are as follows:
 - Industry-standard protocols for user authentication, where possible.
 
 The topics in this section describe how each of these fundamental elements works to enhance the security of the SfBO service.
-
+ 
 ### Azure Active Directory
-Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments. 
+Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments. 
 
 ### Public Key Infrastructure for SfBO
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.
@@ -184,10 +184,10 @@ SfBO generates username/passwords for secure access to media relays over TURN. M
 SfBO uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. 
 
 ### User and Client Authentication 
-A trusted user is one whose credentials have been authenticated by AAD in O365. 
+A trusted user is one whose credentials have been authenticated by AAD in Microsoft 365 or Office 365. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **Modern Authentication** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Certificate Based Authentication, O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. SfBO tenants created after May 2017 have MA enabled by default. For tenants created before this time, follow the instructions here to turn it on. The following clients all support MA: Skype for Business 2015 or 2016 client, Skype for Business on Mac, Lync 2013 client, 3PIP IP Phones, iOS, and Android. 
+- **Modern Authentication** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as Certificate Based Authentication, Multi-Factor Authentication, and Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. SfBO tenants created after May 2017 have MA enabled by default. For tenants created before this time, follow the instructions here to turn it on. The following clients all support MA: Skype for Business 2015 or 2016 client, Skype for Business on Mac, Lync 2013 client, 3PIP IP Phones, iOS, and Android. 
 - **Org ID** is used when Modern Authentication is not enabled (or not available).
 - **Digest protocol** for so-called anonymous users. Anonymous users are outside users who do not have recognized Active Directory credentials but who have been invited to an on-premises conference and possess a valid conference key. Digest authentication is not used for other client interactions.
 
@@ -240,11 +240,11 @@ Enabling external users and internal users to exchange media requires an Access 
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### Federation Safeguards for SfBO
-Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In SfBO federation is on by default. However, tenant admins have the ability to control this via the O365 Admin portal. See more.
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In SfBO federation is on by default. However, tenant admins have the ability to control this via the Microsoft 365 or Office 365 Admin portal. See more.
 
 ## Addressing Threats to SfBO Conferences
 
-SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
 - Participant roles determine conference control privileges.
@@ -277,7 +277,7 @@ By default, participants dialing in from the PSTN go directly to the meeting, bu
 Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **Only me, the meeting organizer**&nbsp;&nbsp;Everyone except the organizer must wait in the lobby until admitted.
 - **People I invite from my company**&nbsp;&nbsp;Anyone from your company can get in to the meeting directly, even if not invited.
-- **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
+- **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the Microsoft 365 or Office 365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
 - **Anyone**&nbsp;&nbsp;Anyone (there are no restrictions) who has access to the meeting link gets in to the meeting directly.
 When any method except Organizer only (locked) is specified, the meeting organizer can also specify People dialing in by phone bypass the lobby. 
 
