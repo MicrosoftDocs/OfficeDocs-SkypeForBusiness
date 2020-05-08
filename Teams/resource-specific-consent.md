@@ -70,7 +70,7 @@ When you block or allow an app on the [Manage apps](manage-apps.mds#allow-and-bl
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. On the Manage apps page, select the app, and then click **Block** to block it or click **Allow** to allow it.
 
-    ![Screenshot of the blocked apps in org-wide settings](media/resource-specific-consent-blocked-apps.png)
+    ![Screenshot of the blocked apps in org-wide settings](media/resource-specific-consent-allow-block-apps.png)
 
 #### App permission policy assigned to the team owner
 
