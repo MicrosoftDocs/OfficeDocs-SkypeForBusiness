@@ -64,7 +64,7 @@ To move a user to Teams Only mode using Move-CsUser:
 - Specify the user to move using the `Identity` parameter.
 - Specify the     -Target     parameter with the value “sipfed.online.lync.<span>com”.
 - Specify the `MoveToTeams` switch.
-- If you do not have one account with sufficient permissions in both on premises and Microsoft 365/Office 365, use the `-credential` parameter to supply an account with sufficient permissions in Office 365.
+- If you do not have one account with sufficient permissions in both on premises and the cloud service (Microsoft 365 or Office 365), use the `-credential` parameter to supply an account with sufficient permissions in Office 365.
 - If the account with permissions in Microsoft 365 or Office 365 does not end in “onmicrosoft.<span>com”, you must specify the `-HostedMigrationOverrideUrl` parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Microsoft 365 or Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
