@@ -138,7 +138,7 @@ Each individual policy is given the name of the policy package so you can easily
 
 ## Policies that should be assigned for student safety
 
-### Meeting policies
+### Meeting policies for students
 
 #### Turn off the ability to create and start meetings
 
@@ -167,7 +167,7 @@ The options here:
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Education student in remote learning page with the video options showing.":::
 
-### Live events policies
+### Live events policies for students
 
 #### Turn off the ability to create and start live events
 
@@ -175,7 +175,7 @@ To ensure that students can’t schedule a live events to communicate unattended
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Education student in remote learning page with the allow scheduling option turned Off.":::
 
-### Calling policies
+### Calling policies for students
 
 #### Turn off the ability to make private calls
 
@@ -183,7 +183,7 @@ To ensure that students can’t make private calls with other students or educat
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Education student in remote learning page with Make private calls set to Off.":::
 
-### Messaging policies
+### Messaging policies for students
 
 #### Turn off the ability to delete or edit sent messages
 
@@ -224,7 +224,7 @@ Students should not have the ability to remove other users from any chats they'r
 
 ![Education student in remote learning page, with the Remove users from group chats option set to Off.](media/edu-remove-users-from-chat-for-students.png)
 
-### Teams policies
+### Teams policies for students
 
 #### Turn off the ability to discover and create private channels
 
@@ -235,7 +235,7 @@ To ensure that students can’t create a private channel as personal space to co
 > [!IMPORTANT]
 > Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it [here](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-### App permission policies
+### App permission policies for students
 
 #### Control whether students can add apps within Teams
 
@@ -257,7 +257,7 @@ These are recommended policy settings for admins to apply for educators, so they
 > [!NOTE]
 > The policy recommendations for students contains more information than the educators' sections you'll see below. While you may set policy settings in-line with your educational institute's own policies and procedures, the recommendations provided here are strictly relevant when it comes to the safety and security of students.
 
-### Meeting policies
+### Meeting policies for educators
 
 These settings will allow educators to control access to their meetings.
 
@@ -265,7 +265,7 @@ These settings will allow educators to control access to their meetings.
 - **Automatically admit people**: **Everyone in your organization**
 - **Allow dial-in users to bypass the lobby**: **Off**
 
-### Message policies
+### Messaging policies for educators
 
 Setting **Owners can delete sent messages** to **On** will allow educators to monitor chat sessions and remove inappropriate messages in channel meetings.
 
