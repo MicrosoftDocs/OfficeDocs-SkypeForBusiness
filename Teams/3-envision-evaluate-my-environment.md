@@ -151,7 +151,7 @@ local egress point, it's paired with local DNS resolution.
 
 Optimizing the network path to Microsoft's global network will improve
 performance and ultimately provide the best experience for users. For more
-detail, see the blog post [Getting the best connectivity and performance in
+detail, see the blog post [Getting the best connectivity and performance in 
 Office
 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
@@ -167,8 +167,8 @@ accommodate the anticipated loads that Teams will require.
 
 The recommendation is to provide an alternate path that bypasses the VPN for
 Teams traffic. This is commonly known as *split-tunnel VPN*. Split tunneling
-means that traffic for Office 365 won't traverse the VPN but will go directly to
-Office 365. This change will have a positive impact on quality, but also
+means that traffic for Microsoft 365 or Office 365 won't traverse the VPN but will go directly to
+Microsoft 365 or Office 365. This change will have a positive impact on quality, but also
 provides the secondary benefit of reducing load from the VPN devices and the
 organization's network.
 
@@ -224,7 +224,7 @@ ports is unsupported and will have an effect on media quality.
 If your organization requires that you specify the exact IP address ranges and
 domains to which these ports should be opened, you can restrict the target IP
 ranges and domains for these ports. For a list of exact ports, protocols, and IP
-ranges, see [Office 365 URLs and IP address
+ranges, see [Microsoft 365 and Office 365 URLs and IP address
 ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 If you choose to restrict the target IP address ranges and domains, you must
 ensure that you keep the list of ports and ranges up to date because they might
@@ -240,7 +240,7 @@ In the event of a proxy server being deployed, we recommend that you bypass the
 proxy server for all Teams services. Although using a proxy might work, it's
 very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
-[Office 365 URLs and IP address
+[Microsoft 365 and Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
@@ -338,7 +338,7 @@ If the results of bandwidth planning, port testing, or network requirements
 testing show that your current network needs remediation before you deploy
 Teams, you can accomplish this in several ways:
 
--   For insufficient bandwidth, upgrade connections so that traffic to Office
+-   For insufficient bandwidth, upgrade connections so that traffic to Microsoft 365 or Office
     365 can flow unhindered.
 
 -   For blocked ports, change firewall rules and retest the ports.
