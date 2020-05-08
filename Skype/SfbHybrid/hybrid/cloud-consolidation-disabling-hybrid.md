@@ -49,11 +49,16 @@ The organization’s existing external DNS records for the on-premises organizat
     |CNAME|	lyncdiscover|	3600|	webdir.online.lync.<span>com|Required for Skype for Business users|
     |CNAME|	sip|	3600|	sipdir.online.lync.<span>com|Required only for older legacy SIP phones|
 
-In addition, CNAME records for meet or dialin (if present) can be deleted.
+    In addition, CNAME records for meet or dialin (if present) can be deleted.
 
-> [!Note] 
-> In rare cases, changing DNS from pointing on premises to Office 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:<ul><li>
-Any federated organizations that are using the older Direct Federation model (also known as Allowed Partner Server) will need to update their allowed domain entries for their organization to remove the proxy FQDN. This legacy federation model is not based on DNS SRV records, so such a configuration will become out of date once your organization moves to the cloud. </li><li>Any federated organization that does not have an enabled hosting provider for sipfed.online.lync.<span>com will need to update their configuration to enable that. This situation is only possible if the federated organization is purely on-premises and has never federated with any hybrid or online tenant. In such a case, federation with these organizations will not work until they enable their hosting provider.</li></ul>If you suspect that any of your federated partners may be using Direct Federation or have not federated with any online or hybrid organization, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
+    > [!Note] 
+    > In rare cases, changing DNS from pointing on premises to Office 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:
+    >
+    > - Any federated organizations that are using the older Direct Federation model (also known as Allowed Partner Server) will need to update their allowed domain entries for their organization to remove the proxy FQDN. This legacy federation model is not based on DNS SRV records, so such a configuration will become out of date once your organization moves to the cloud.
+    > 
+    > - Any federated organization that does not have an enabled hosting provider for sipfed.online.lync.<span>com will need to update their configuration to enable that. This situation is only possible if the federated organization is purely on-premises and has never federated with any hybrid or online tenant. In such a case, federation with these organizations will not work until they enable their hosting provider.
+    >
+    > If you suspect that any of your federated partners may be using Direct Federation or have not federated with any online or hybrid organization, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
 
 2.	*Disable shared SIP address space in Office 365 organization.*
 The command below needs to be done from a Skype for Business Online PowerShell window.
@@ -74,7 +79,9 @@ The command below needs to be done from an on-premises PowerShell window:
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. If you want to make changes to a user’s SIP address or to a user’s Line URI (and the SIP address or Line URI is already defined in the on-premises Active Directory), you must do this in the on-premises Active Directory and let the value(s) flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
 - To modify a user’s SIP address, modify the `msRTCSIP-PrimaryUserAddress`. In addition, if the `ProxyAddresses` attribute contains a SIP value, update that SIP value to match the new value of `msRTCSIP-PrimaryUserAddress`. If it does not contain a SIP value, you can leave it blank.
+
 - To modify a user’s phone number, modify `msRTCSIP-Line` *if it already has a value*.
+
   ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
   
 If the user did not originally have a value for `LineURI` on-premises before the move, you can modify the LineURI using the -`onpremLineUri` parameter in the [Set-CsUser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) in the Skype for Business Online PowerShell module.
