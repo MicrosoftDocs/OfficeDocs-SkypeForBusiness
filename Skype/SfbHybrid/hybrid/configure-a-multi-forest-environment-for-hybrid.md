@@ -70,7 +70,7 @@ Do not sync the UPNs between the forests. We found during testing that we needed
     
 ## Create a Microsoft 365 or Office 365 organization
 
-You will next need to provision a Microsoft 365 or Office 365 organization tenant to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+You will next need to provision a Microsoft 365 or Office 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
 
