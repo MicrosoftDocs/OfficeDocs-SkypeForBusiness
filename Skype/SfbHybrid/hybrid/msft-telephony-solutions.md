@@ -164,7 +164,7 @@ If you answer yes to the following questions, then this is the right solution fo
 - You need to interoperate with 3rd party PBXs and/or equipment such us overhead pagers, analog devices
 - Teams has all the features that your organization requires.
 
-For more information, see [What is Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) and [Plan Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
+For more information, see [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) and [Plan Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
 
 
 ## Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition
