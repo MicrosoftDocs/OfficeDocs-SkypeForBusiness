@@ -78,7 +78,7 @@ If you set an Operator, tell people who call about the option in **Edit menu opt
 You have several ways to set the Operator:
 
 - **No operator** disables the "Operator" and "Press 0" options. This is the current default.
-- **Person in your organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in your organization** and set that account's settings to send calls directly to voicemail.
+- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in organization** and set that account's settings to send calls directly to voicemail.
 
      > [!Note]
      > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. 
