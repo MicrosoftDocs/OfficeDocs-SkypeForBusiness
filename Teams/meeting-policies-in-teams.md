@@ -398,7 +398,7 @@ This is a per-organizer policy. This setting controls whether meeting chat is al
 
 ## Meeting policy settings - Video filters mode
 
-This is a per-user policy. This setting controls whether users can customize their video background in a meeting. 
+This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
 
 Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
@@ -412,7 +412,7 @@ To specify whether users can customize their video background in a meeting, set 
 |**AllFilters**     |Use has the option to blur their video background, choose from a set of images, or upload custom images to use as their background. |
 
 > [!NOTE]
-> Images uploaded by users aren't screened by Teams. When using the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization doesn't have rights to use for Teams meeting backgrounds.
+> Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
 
 ## Related topics
 
