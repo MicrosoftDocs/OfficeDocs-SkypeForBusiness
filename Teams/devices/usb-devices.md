@@ -54,8 +54,9 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 
 - Automatic selection of default audio device and prioritization if multiple audio peripherals are present.
 - Devices automatically register with the Teams client and are ready to use.
-- Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC or a Mac devices. Basic controls include answer/hang-up, mute/unmute, and volume control.
-- Embedded devices have wide-band audio with no echo, distortion, or excessive glitches. Echo cancellation is also supported across devices.
+- Audio devices (e.g., headsets, and speakerphones) offer:
+  - Basic call control across when used with a PC or a Mac devices. Basic controls include answer/hang-up, mute/unmute, and volume control.
+  - Wide-band audio with no echo, distortion, or excessive glitches. Echo cancellation is also supported across devices.
 - Video devices meet requirements for noise, color, image detail, jitter, latency, frame rate, and field of view.
 
 ## Administrator Experience
@@ -65,7 +66,7 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 
 If you are a manufacturer and want to join the certification program, see [How to Join](../../Skype/SfbPartnerCertification/certification/how-to-join.md) for requirements and available programs.
 
-## Device qualifications
+## Certified devices
 
 *Updated April 2020*
 
