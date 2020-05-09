@@ -18,6 +18,7 @@ description: "See what USB peripherals and devices, such as headsets, speakerpho
 ---
 
 # USB audio and video devices certified for Microsoft Teams
+
 The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no additional configuration required, and offer call control with Microsoft Teams and Skype for Business. The products provide a great experience for end-users and administrators.
 
 To explore devices tested and certified for Microsoft Teams, head over to the [Teams store](https://products.office.com/microsoft-teams/across-devices/devices).
@@ -25,7 +26,7 @@ To explore devices tested and certified for Microsoft Teams, head over to the [T
 For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
-> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](../../Skype/SfbPartnerCertification/certification/devices-usb-devices.md).
+> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices).
 
 ## Understanding certification categories
 
@@ -36,7 +37,7 @@ Users don’t need to replace previously certified devices when upgrading to Tea
 
 ### Special usage designations
 
-- **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments fulfill a greater challenge: to pick up clearly the voice of the headset user but not transmit the sound of their neighbors. 
+- **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments fulfill a greater challenge: to pick up clearly the voice of the headset user but not transmit the sound of their neighbors.
 - **Meeting room size** Shared devices such as speakerphones and cameras have a supported usage distance and recommended distances may be reported differently by different manufacturers. To give customers clear guidance, all shared devices are tested at certification against well-defined rooms sizes and noise environments.
 
 Browse [devices certified for Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
@@ -64,7 +65,7 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 - No provisioning required
 - All devices support firmware updates to allow new features and performance improvements.
 
-If you are a manufacturer and want to join the certification program, see [How to Join](../../Skype/SfbPartnerCertification/certification/how-to-join.md) for requirements and available programs.
+If you are a manufacturer and want to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Certified devices
 

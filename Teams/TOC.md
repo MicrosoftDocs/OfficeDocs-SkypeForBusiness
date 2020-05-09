@@ -761,7 +761,7 @@
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
-### [USB audio and video devices](devices/usb-devices)
+### [USB audio and video devices](devices/usb-devices.md)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

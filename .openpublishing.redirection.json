@@ -1874,7 +1874,7 @@
       {
         "source_path": "Teams/devices/index.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
-        "redirect_document_id": true
+        "redirect_document_id": false
       }
   ] 
 }
