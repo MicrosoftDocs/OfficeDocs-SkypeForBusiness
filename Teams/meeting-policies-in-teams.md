@@ -396,6 +396,21 @@ This is a per-organizer policy. This setting controls whether meeting chat is al
 
 <a name="bkparticipantsandguests"> </a>
 
+## Meeting policy settings - Designated presenter role mode
+
+This is a combination of a per-organizer and per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer. This policy setting affects all meetings, including Meet Now meetings.
+
+To learn more about the **Who can present** setting, see [Change participant settings for a Teams meeting(https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+Currently, you can only use PowerShell to set this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+To specify the default value of the **Who can present?** setting, set the **DesignatedPresenterRoleMode** parameter as follows:
+
+- Set the parameter to **Everyone** to enable all meeting participants to be presenters. This is the default value.
+- Set the parameter to **Everyone in organization** to enable authenticated users in the organization, including guest users, to be presenters.
+- Set the parameter to **Everyone in organization and trusted organization** to enable authenticated users in the organization, including guest users and users from federated organizations, be presenters.
+- Set the parameter to **Only me** to enable only the meeting organizer to be a presenter. This means that all other meeting participants are attendees.
+
 ## Related topics
 
-[Messaging policies in Teams](messaging-policies-in-teams.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
