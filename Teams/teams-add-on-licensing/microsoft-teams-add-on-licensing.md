@@ -35,10 +35,10 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |||||
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221).  <br/> |&#x2713;||
+**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. <br> To find out whether Business Voice is available in your country or region, see [Country and region availability for Business Voice](../business-voice/country-region-availability.md). For pricing info, see [Pricing for Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead their computer. Set up [Audio Conferencing](../audio-conferencing-in-office-365.md) for users who schedule or leads meetings. <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
-|**Phone System** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. To learn more, see [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md).  <br/> For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=79976).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Phone System** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. <br>To learn more, see [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md). For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |[Microsoft Teams Rooms](../rooms/index.md) isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 
@@ -64,9 +64,13 @@ For Microsoft 365 Business Voice, you have two options to choose from:
 - **Microsoft 365 Business Voice with a Calling Plan**: Get this if you want all phone number management and billing to be handled by Microsoft.
 - **Microsoft 365 Business Voice without a Calling Plan (Direct Routing)**: Get this if you want all phone number management and billing to be handled by your third-party telephone provider. You'll need to set up and deploy [Direct Routing](../direct-routing-landing-page.md) to connect your on-premises Session Border Controllers (SBCs) to Microsoft 365 or Office 365.
 
+To learn more, see [What do I need to buy to use Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
+
 Here's a summary, based on licensing plan.
 
   ![Small business plan options](../media/licensing-smallbusiness-options.png)
+
+If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
 If you already have a Microsoft 365 Enterprise or Office 365 Enterprise plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
@@ -83,6 +87,8 @@ If you're a large business or enterprise organization (more than 300 users), you
 Here's a summary, based on licensing plan.
 
   ![Enterprise-based plan options](../media/licensing-enterprise-options.png)
+
+If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
 To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
@@ -149,18 +155,31 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 #### [**Trial offers**](#tab/trial/)
 
-In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations:
+### Trial offers for licensing plans
 
-- [Office 365 E1 Trial](../e1-trial-license.md), which includes Teams, is a free 6-month E1 license for any customer that's managed by a Microsoft account rep. It's for organizations, including nonprofits, who haven't activated any other Office 365 E1 trials in the past.
+In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. Trials are available for these plans:
 
-- For GCC, check out the [free Office 365 G1 Trial](../g1-trial-license.md).
+- Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 trial, and E5 trial
+- Office 365 Education [A1 trial](../teams-edu-licensing.md)
+- Office 365 Government [G1 trial](../g1-trial-license.md)
 
-- EDU customers should use the [free Office 365 A1 license](../teams-edu-licensing.md).
+To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
-Also, check out:
+### Trial offers for voice features
+
+Here's a summary of voice feature trial offers.
+
+  ![Trial-based options](../media/licensing-trial-offers.png)
+
+ Your base plan doesn't have to be a trial offer to use any of these trials for voice features. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features. To see available trial offers and add-ons, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**.
+
+  For each these voice and conferencing options, [Communications Credits](../set-up-communications-credits-for-your-organization.md) are required if you have toll-free numbers or if you need to add additional minutes for users to dial out from meetings or for users to make domestic and international PSTN calls.
+
+ Also, check out:
 
 - [Free version of Teams](../manage-freemium.md)
-- [Teams Exploratory experience](../teams-exploratory.md)
+- [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for voice features for use with the Teams Exploratory experience.
+- [Microsoft Phone System - Virtual User](virtual-user.md) license
 
 * * *
 
