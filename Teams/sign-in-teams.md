@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
-description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication.
+description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication. Includes how to tell Teams to ignore the prefill of the user's name (UPN) at sign in.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection: 
