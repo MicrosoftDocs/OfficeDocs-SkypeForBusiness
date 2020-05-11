@@ -404,12 +404,14 @@ To learn more about the **Who can present** setting, see [Change participant set
 
 Currently, you can only use PowerShell to set this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To specify the default value of the **Who can present?** setting, set the **DesignatedPresenterRoleMode** parameter as follows:
+To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter as follows:
 
-- Set the parameter to **Everyone** to enable all meeting participants to be presenters. This is the default value.
-- Set the parameter to **Everyone in organization** to enable authenticated users in the organization, including guest users, to be presenters.
-- Set the parameter to **Everyone in organization and trusted organization** to enable authenticated users in the organization, including guest users and users from federated organizations, be presenters.
-- Set the parameter to **Only me** to enable only the meeting organizer to be a presenter. This means that all other meeting participants are attendees.
+- Set the parameter to **EveryoneUserOverride** to enable all meeting participants to be presenters. This is the default value. This parameter corresponds to the **Everyone** setting in Teams.
+- Set the parameter to **EveryoneInCompanyUserOverride** to enable authenticated users in the organization, including guest users, to be presenters. This parameter corresponds to the **Everyone in organization** setting in Teams.
+- Set the parameter to **EveryoneInSameAndFederatedCompanyUserOverride** to enable authenticated users in the organization, including guest users and users from federated organizations, be presenters. This parameter corresponds to the **Everyone in organization and trusted organization** setting in Teams.
+- Set the parameter to **OrganizerOnlyUserOverride** to enable only the meeting organizer to be a presenter. This means that all other meeting participants are attendees. This parameter corresponds to the **Only me** setting in Teams.
+
+Keep in mind that you're specifying the default value for this setting. After you set this, meeting organizers can choose who can present in a meeting by changing the setting in Teams.
 
 ## Related topics
 
