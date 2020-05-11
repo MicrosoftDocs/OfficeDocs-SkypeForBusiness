@@ -174,7 +174,6 @@ ms.collection:
         </a>
     </li>
     <li>
-    <li>
         <a href="https://aka.ms/TeamsAtHome"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
