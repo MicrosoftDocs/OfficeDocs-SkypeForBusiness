@@ -1,8 +1,8 @@
 ---
 title: Manage large teams in Microsoft Teams - best practices
 ms.reviewer: abgupta
-author: cichur
-ms.author: cichur
+author: v-cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
