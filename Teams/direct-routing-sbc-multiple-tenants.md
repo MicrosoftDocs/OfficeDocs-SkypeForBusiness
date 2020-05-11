@@ -249,7 +249,7 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 - For each tenant, add the FQDNs for two different SBCs.  For example:
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - In the Online Voice Routing policies of the users, specify both SBCs.  If one SBC fails, the routing policy will route calls to the second SBC.
 
