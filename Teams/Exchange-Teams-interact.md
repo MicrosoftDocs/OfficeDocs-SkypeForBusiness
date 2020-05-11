@@ -77,7 +77,7 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 > The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2013 CU9 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
 
 > [!NOTE]
->For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
+> For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
 
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
