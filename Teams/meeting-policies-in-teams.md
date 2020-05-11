@@ -40,7 +40,7 @@ You can implement policies in the following ways, which affect the meeting exper
 By default, a policy named Global (Org-wide default) is created. All users in your organization are assigned the Global meeting policy by default. You can either make changes to it or create one or more custom policies and assign users to them. Users will get the Global policy unless you create and assign a custom policy. When you create a custom policy, you can allow or prevent certain features from being available to your users, and then assign it to one or more users who will have the settings applied to them.
 
 > [!NOTE]
-> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available
+> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available.
 
 ## Change or create a meeting policy
 
