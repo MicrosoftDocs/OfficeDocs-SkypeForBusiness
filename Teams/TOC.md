@@ -34,7 +34,7 @@
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
-## [Manage large Teams](best-practices-large-groups)
+## [Manage large Teams](best-practices-large-groups.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
