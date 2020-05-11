@@ -49,7 +49,7 @@ The organization’s existing external DNS records for the on-premises organizat
     |CNAME|	lyncdiscover|	3600|	webdir.online.lync.<span>com|Required for Skype for Business users|
     |CNAME|	sip|	3600|	sipdir.online.lync.<span>com|Required only for older legacy SIP phones|
 
-    In addition, CNAME records for meet or dialin (if present) can be deleted.
+    In addition, CNAME records for meet or dialin (if present) can be deleted. Finally, any DNS records for Skype for Business in your internal network should be removed.
 
     > [!Note] 
     > In rare cases, changing DNS from pointing on premises to Office 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:
