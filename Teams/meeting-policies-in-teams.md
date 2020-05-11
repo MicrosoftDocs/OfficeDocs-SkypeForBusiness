@@ -321,7 +321,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 ### Let anonymous people start a meeting
 
-This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
+This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. The default value is False.
 
 ![Screenshot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -359,11 +359,11 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |---------|---------|
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, federated users, guests, anonymous users, and people who dial in by phone.       |
 |**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from federated organizations, join the meeting directly without waiting in the lobby.  Anonymous users and users who dial in by phone wait in the lobby.   |
-|**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Federated users, anonymous users, and users who dial in by phone wait in the lobby.           |
+|**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Federated users, anonymous users, and users who dial in by phone wait in the lobby. This is the default setting.           |
 
 ### Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False.
 
 Here's the join behavior of people who dial in by phone.
 
