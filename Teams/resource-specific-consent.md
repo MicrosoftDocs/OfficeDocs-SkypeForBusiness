@@ -63,6 +63,8 @@ This org-wide app setting controls whether users in your organization can use th
 
     ![Screenshot of the "Allow third party apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
 
+You may have to wait up to 24 hours for your changes to take effect.
+
 #### Allow or block the app at the org level
 
 When you block or allow an app on the [Manage apps](manage-apps.mds#allow-and-block-apps) page, that app is blocked or allowed for all users in your organization. Team owners can only give consent to an app if the app is allowed. To allow or block an app at the org level, do the following:
