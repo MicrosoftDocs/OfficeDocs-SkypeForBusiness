@@ -53,9 +53,9 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 > [!NOTE]
 > Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
 
-### Advance Threat Protection (ATP)
+### Advanced Threat Protection (ATP)
 
-Advance Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive for Business, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
+Advanced Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive for Business, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
 
 How the affected content is managed after detection is up to the settings you've selected in Office 365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, the [Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) article will have detailed information on how to get started.
 
