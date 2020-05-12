@@ -82,7 +82,7 @@ In a dedicated persistent setup, users' local operating system changes are retai
 
 The following is the recommended minimum VM configuration.
 
-|Parameter  |Workstation operating system  |Server operation system  |
+|Parameter  |Workstation operating system  |Server operating system  |
 |---------|---------|---------|
 |vCPU   |    2 cores     |  4,6, or 8<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
 |RAM     |   4 GB      | 512 to 1024 MB per user        |
