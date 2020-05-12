@@ -354,7 +354,7 @@
 ### [Location-Based-Routing](voice-case-study-location-based-routing.md)
 ### [Emergency calling](voice-case-study-emergency-calling.md)
 ### [Audio Conferencing](voice-case-study-audio-conferencing.md)
-### [Auto Attendants and Call Queues](voice-casee-study-call-queues.md)
+### [Auto Attendants and Call Queues](voice-case-study-call-queues.md)
 
 
 

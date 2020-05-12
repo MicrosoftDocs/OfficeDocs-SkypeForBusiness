@@ -168,9 +168,9 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
 
 Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects leverage the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were leveraged: 
 
-Plan for success with Microsoft Teams Direct Routing 
+- [Plan for success with Microsoft Teams Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
-Updates for Direct Routing 
+- [Updates for Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
 
 ## Configuration
@@ -206,7 +206,7 @@ Contoso saw the opportunity to leverage Local Media Optimization in the differen
 
 ## Networking considerations
 
-Contoso was in a situation where a number of users needed to work remote for an extended period of time after they were enabled for Phone System. The users leveraged VPN to access certain Line of Business applications. While on VPN the Phone System users experienced a degredation of call quality. To resolve, it was necessary to implement VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel).  
+Contoso was in a situation where a number of users needed to work remotely for an extended period of time after they were enabled for Phone System. The users leveraged VPN to access certain Line of Business applications. While on VPN, the Phone System users experienced a degradation of call quality. To resolve the quality issue, it was necessary to implement VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 
  
 

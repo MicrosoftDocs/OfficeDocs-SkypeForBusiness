@@ -47,9 +47,9 @@ After deciding how Contoso will connect to Phone system, Contoso identified the 
 
 ### Calling Plan user in the United States  
 
-There are requirements for when the phone number needs to be associated with an emergency location.  Contoso reviewed the Considerations for Calling Plans that discusses the requirements.  Based on the requirements the below decisions were made.  
+There are requirements for when the phone number needs to be associated with an emergency location. To understand these requirements, Contoso reviewed [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans). 
 
-Decision: Contoso will associate the location with the telephone number when a number is assigned to a user in the United States  - - 
+Based on these requirements, Contoso decided to associate the location with the telephone number when a number is assigned to a user in the United States.
 
 ### Calling Plan user outside of the United States 
 
@@ -75,13 +75,13 @@ The Emergency Routing Service Providers (ERSPs) can automatically route emergenc
 
 If an SBC ELIN application is integrated into a Direct Routing deployment, additional configuration steps need to occur to associate the emergency addresses with telephone numbers.  
 
-Decision: Contoso will leverage Session Border Controllers that include Emergency Location Identification Number (ELIN) applications.  
+Contoso decided to leverage Session Border Controllers that include Emergency Location Identification Number (ELIN) applications.  
 
 ## Security desk notification
 
 The ability to notify the security desk when an emergency call is placed is available for both Microsoft Calling Plans and Phone System Direct Routing. Contoso reviewed the details in the Security desk notification to determine if this should be configured at their offices  
 
-Decision: Contoso will use security desk notification 
+Contoso decided to use security desk notification.
 
 ## Configuration 
 
