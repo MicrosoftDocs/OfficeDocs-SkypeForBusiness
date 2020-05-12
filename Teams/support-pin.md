@@ -27,7 +27,7 @@ To look up your support PIN, which enables Microsoft Customer Support through th
 
 3. Your support PIN will be displayed in the lower right pane. You may also choose to re-generate your PIN if needed.  
 
-   ![Diagram showing support PIN](media/support-pin.png)
+   ![Diagram showing support PIN](media/support-pin-2.png)
 
 
 
