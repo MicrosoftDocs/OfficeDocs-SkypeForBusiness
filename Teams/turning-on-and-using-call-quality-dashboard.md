@@ -496,6 +496,18 @@ To disambiguate unexpected differences, look at more than one breakdown of the o
 - First Product
 - Second Product
 
+Here's an example of applying specific filters to compare CQD v2 and CQD v3 data:
+
+1. QoE Record Available = True
+
+2. Add Is Server Pair filter with value: Client:Client and Client:Server. Most tenants prefer to exclude Server:Server calls.
+
+3. Add a filter for User Agent Category and filter out Auto Attendant, Call Queue, Bot, Room system, MediationServer, Conference Announcement service, VDI, etc.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Screenshot of applying specific filters in CQD v3":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Screenshot of applying specific filters in CQD v2":::
+
 ### Other expected differences between CQD v2 and CQD v3
 
 There are several Quality and Reliability improvements in Teams but not Skype for Business Online:
