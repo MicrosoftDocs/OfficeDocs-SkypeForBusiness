@@ -52,7 +52,7 @@ After
 
 ## Configuration: 
 
-To configure the network components in Teams, Contoso followed the instructions in [Manage your network topology for cloud voice features](managemanage-your-network-topology.md). Contoso completed the below steps to configure Location-Based Routing: 
+To configure the network components in Teams, Contoso followed the instructions in [Manage your network topology for cloud voice features](manage-your-network-topology.md). Contoso completed the below steps to configure Location-Based Routing: 
 
 - Define Network regions -  One network region was defined 
 
