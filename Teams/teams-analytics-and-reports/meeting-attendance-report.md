@@ -20,7 +20,7 @@ ms.custom:
 ---
 # Microsoft Teams meeting attendance report
 
-Meeting organizers can view and download a meeting attendance report. Find this report in the **Participants** pane of the meeting, at the bottom of the pane.
+Meeting organizers can view and download a meeting attendance report. Find this report in the **Participants** pane of the meeting, at the bottom of the pane. You can download the report as a .CSV file (text format).
 
 For education tenants, this report is useful to track student attendance in online classes. For example, the teacher can download the attendance report at the start of class as a simple way to do a "roll call." To learn more, read [Jon Johnstone's SOC article here].
 
