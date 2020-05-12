@@ -45,7 +45,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     >[!NOTE] 
     > Audio Conferencing is included in Office 365 Enterprise E5 licenses and as an add-on.
         
-2. After you buy the Audio Conferencing licenses, you will need to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
+2. After you buy the Audio Conferencing licenses, you will need to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
     
@@ -59,7 +59,7 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
   
 - **Use the Skype for Business admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Skype for Business admin center. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
     
-- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. You can see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
 - **Use a request form for new numbers**. Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information. 
     

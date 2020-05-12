@@ -31,7 +31,7 @@ Manage Teams during the transition to the new Microsoft Teams admin center
 
 ## What is the new Microsoft Teams admin center?  
 
-The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We're delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
+The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We're delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ![Screenshot of the Microsoft Teams admin center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 

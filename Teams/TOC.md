@@ -34,6 +34,7 @@
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
+## [Manage large Teams](best-practices-large-groups.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
@@ -433,6 +434,7 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
+### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)

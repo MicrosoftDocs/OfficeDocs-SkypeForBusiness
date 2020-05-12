@@ -484,9 +484,17 @@ To compute call count and user count measures, a distinct countif operation is p
 
 If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT 'Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
 
-CQD v2 and CQD v3 have different total counts since CQD v3 has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
+CQDv2 classification for CallSetup failure is inly considered for "Audio" modality only, in CQDv3 this classification happens for every modality (Audio, Video and Appsharing) and is represented in the respective modality stream. 
 
-If the usage scenario includes Skype for Business Server 2019 calls, CQD v3 data includes Skype Bot calls (auto attendant, CVI, Virtual Desktop Interface), Live Events, and PSTN calls. CQD v2 does not use this data. (CQD v3 requires Skype for Business Server 2019 with cloud data connector configured.)
+For Teams, CQDv2 applies the same user feedback to all modalities CQDv3 applies feedback base on modality for Teams.
+
+CQD V3 includes 
+1. Skype for Business Server 2019 calls, 
+2. Skype Bot calls, such as:auto attendant, call queue, conference announcement service, 
+3. Virtual Desktop Interface,
+4. Conference Video Interop,
+3. Live Events Publisher and Presenter calls, and 
+4. PSTN calls. 
 
 For instance, if you see 200,000 audio streams with 5000 failures in a CQD v2 Summary Report it would not be unusual to see 300,000 audio streams with 5500 failures (the difference can be due to Skype for Business Server 2019 calls, CVI calls, PSTN calls, and so on) in a CQD v3 Summary report.
 
