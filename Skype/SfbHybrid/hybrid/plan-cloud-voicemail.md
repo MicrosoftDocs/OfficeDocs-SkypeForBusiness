@@ -41,7 +41,7 @@ With Cloud Voicemail, your administration tasks are greatly simplified because:
 - There is no need to configure the Exchange UM role.
 - The setup tasks for Cloud Voicemail are simpler.
 - Updates to voicemail functionality are delivered directly in the cloud, so your users always have access to the latest features and updates with less dependency on Cumulative Updates (CUs).
-- You have the same set of controls for both on-premises and online Exchange mailboxes. For more information on these controls, see [Set up Phone System voicemail](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- You have the same set of controls for both on-premises and online Exchange mailboxes. For more information on these controls, see [Set up Phone System voicemail](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d).
 
 The following diagram shows Cloud Voicemail in a hybrid deployment:
 
