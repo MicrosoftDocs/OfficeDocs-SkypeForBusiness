@@ -171,13 +171,13 @@ Meetings organized by Daniela can't be recorded and Amanda, who has the policy s
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
-### IP audio mode
+### IP audio
 
-This is a per-user policy. This setting determines whether a user can use audio.
+This is a per-user policy. This setting controls whether a user can hear incoming and outgoing audio in a meeting. 
 
-### IP video mode.
+### IP video
 
-This is a per-user policy. This setting determines whether a user can use video.
+This is a per-user policy. This setting determines whether a user can view incoming and outgoing video. 
 
 ### Allow IP video
 
@@ -383,7 +383,6 @@ Here's the join behavior of people who dial in by phone.
 |False    | Everyone        | Join directly        |
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
-
 
 ### Enable live captions
 
