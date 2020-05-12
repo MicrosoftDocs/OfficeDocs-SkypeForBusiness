@@ -22,7 +22,7 @@ description: "Use the CQD PSTN Direct Routing report to monitor and troubleshoot
 New in March 2020, we've added a CQD PSTN Direct Routing Report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-The CQD PSTN Direct Routing Report helps customers to understand the usage patterns and quality of their PSTN services monitor information about your SBC, the telephony service, the network parameters, and Network Effectiveness Ratio details and usage of the service. This information can help you identify issues, including the reason for dropped calls. For example, you will be able to know when volume drops, how many calls get affected by what reason.
+The CQD PSTN Direct Routing Report helps customers to understand the usage patterns and quality of their PSTN services monitor information about your SBC, the telephony service, the network parameters, and Network Effectiveness Ratio details and usage of the service. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
 
 The CQD PSTN Direct Routing Report has four sections:
 
@@ -33,6 +33,21 @@ The CQD PSTN Direct Routing Report has four sections:
   - [Network Effectiveness Ratio](#network-effectiveness-ratio)
 
   - [Network Parameters](#network-parameters)
+
+## Highlights
+
+1. Analyze by call type, SBC, caller and callee country
+   This report aggregates reliability and usage metrics for all Session Border Controllers (SBCs) on your tenant for the last 7, 30, or 180 days. You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot of filters available in the CQD PSTN Direct Routing report":::
+   
+2. Track trends
+    Trends analysis is essential when trying to understand service usage and reliability. Hourly trends provide a close look at daily performance, which helps identify real-time incidents. Daily trends let you see your service health from a long-term perspective. It's important to be able to shift between those two modes with appropriate data granularity. The CQD PSTN Direct Routing report provides 6-month trends overview, 7- and 30-day daily trends, and hourly trends so you can analyze performance at each level.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Screenshot of trends graphs in CQD PSTN Direct Routing report":::
+
+3. Drill through to SBC or user level
+   We've been building in drill-through capability on many data categories in CQD, which lets you quickly understand usage or reliability distribution at the SBC or user level. By using drill through, you can quickly poinpoint issues and understand real user impact. The CQD PSTN Direct Routing report features drill through on the Service Detail and Network Effectiveness Ratio metrics. Click the data point you're interested in to drill through to SBC- or user-level details.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Screenshot showing drill-through capability on a data point":::
+
 
 ## PSTN Overview
 
