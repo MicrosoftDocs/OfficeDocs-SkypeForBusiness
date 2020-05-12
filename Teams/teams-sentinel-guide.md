@@ -107,6 +107,42 @@ Things to remember:
 
    Wait for 5 to 10 minutes, understanding that if there is no data within the past 5 minutes you will see an error message. Check Audit logs and keep in mind that because Teams information is in the Audit.General events, which collects more than Teams logs, results should appear within 5 to 10 minutes on systems that are in use. If using a text environment, be certain to use Teams in order to generate logging.
 
+<!--PLACEHOLDER-->
+
+
+
+
+
+
+## Step 3: Use Sentinel to monitor Microsoft Teams
+
+Identity is an important attack vector to monitor when it comes to Microsoft Teams. Because Azure Active Directory (Azure AD) is the underpinning of Microsoft 365's directory, including Teams, collecting and hunting for threats in Azure AD logs around authentication will be useful in capturing suspicious behaviour around identity. You can use the built-in connector to pull Azure AD data into Azure Sentinel, and use these [detection](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) and [hunting](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) queries to look for problems.
+
+Regarding attacks specific to Microsoft Teams, threats to data, for example, Azure Sentinel also has means to monitor for them and hunt them down.
+
+## Parse your data
+
+The first thing to do in order to make sense of the large set of collected data is to give it meaning by parsing it. This is done with a Kusto Query Language (KQL) Function that makes the data easier to use.
+
+> [!NOTE]
+> KQL functions are KQL queries saved as a data-type called 'function'. KQL functions have an alias that can be entered into the query box in Sentinel to quickly run the query again. For more about KQL functions and how to build a parser function, read [this Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
+ 
+ The parser below is a customizable example aimed at selecting a subset of the Office 365 Management API fields relevant to *Teams*. There is also a suggested parser [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt), but the parser below can be modified to fit different needs and preferences.
+
+```kusto
+O365API_CL
+| where Workload_s =~ "MicrosoftTeams"
+| project TimeGenerated,
+          Workload=Workload_s,
+          Operation=Operation_s,
+          TeamName=columnifexists('TeamName_s', ""),
+          UserId=columnifexists('UserId_s', ""),
+          AddOnName=columnifexists('AddOnName_s', AddOnGuid_g),
+          Members=columnifexists('Members_s', ""),
+          Settings=iif(Operation_s contains "Setting", pack("Name", columnifexists('Name_s', ""), "Old Value", columnifexists('OldValue_s', ""), "New Value", columnifexists('NewValue_s', "")),""),
+          Details=pack("Id", columnifexists('Id_g', ""),  "OrganizationId", columnifexists('OrganizationId_g', ""), "UserType", columnifexists('UserType_d', ""), "UserKey", columnifexists('UserKey_g', ""), "TeamGuid", columnifexists('TeamGuid_s', "")) 
+```
+
 
 
 <!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
