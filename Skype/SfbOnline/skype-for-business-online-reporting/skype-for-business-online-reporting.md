@@ -32,7 +32,7 @@ To access the Skype for Business Online reports, log on to the Microsoft 365 adm
   
 ## Skype for Business Online reporting reference
 
-In the Office 365 and Skype for Business admin centers, you can use different types of reports, including those for Skype for Business Online.
+In the admin centers, you can use different types of reports, including those for Skype for Business Online.
   
  **To view the reports**
   
