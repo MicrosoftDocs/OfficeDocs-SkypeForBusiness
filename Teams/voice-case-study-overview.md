@@ -59,7 +59,7 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in Teams Phone System. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
+  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Emergency Calling 
 
@@ -75,6 +75,6 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Auto Attendants and Call Queues.
 
-  As a result of Covid-19, Contoso wanted to provide the job function of their building receptionist while their staff was working remotely. Contoso leveraged auto attendants and call queues to manage incoming calls to their receptionists phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
+  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso leveraged auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
 
 

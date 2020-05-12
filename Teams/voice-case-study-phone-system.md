@@ -72,6 +72,10 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country that has telephony regulations to Phone System with Direct Routing. 
 
+The following diagram shows the beginning configuration for Skype for Business Enterprise Voice and how this configuratio was migrated to both Microsoft Calling Plans and Direct Routing:
+
+![Diagram showing before and after states](media/voice-case-study-1.png)
+
 ## Site Type B: Traditional legacy telephony systems
 
 Contoso had many offices that leveraged legacy telephony systems. There were a subset of users that had an E1.64 phone number while others only had an extension.  These numbers resided on the TDM trunk to the PSTN gateway.  Intra-site dialing was configured by leveraging a site code in front of the extension to determine where to route the call.  The users dialing habits was to dial by extension.   
@@ -82,7 +86,7 @@ Contoso based their decision on the following questions:
   A. No 
 
 - Q. Do we need to interoperate with third-party PBX systems and other telephony equipment?<br> 
-  A. No 
+  A. Yes
 
 - Q. Do we need to retain our current third-party carrier?<br> 
   A. No 
@@ -96,6 +100,18 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are not located in a region where PSTN calling plans is available to Phone System with Direct Routing. 
 
+- Maintain a PSTN connection to business critical analog devices.
+
+The following diagrams show the original legacy deployment and the resulting ...
+
+Original legacy deployment
+  
+![Diagram showing before and after states](media/voice-case-study-2.png)
+
+
+Resulting deployment
+
+![Diagram showing before and after states](media/voice-case-study-3.png)
  
 ## Site Type C: Combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
@@ -125,6 +141,14 @@ Based on the answers to their questions, Contoso decided on the following:
 - To support a subset of users moving to Phone System and to allow continued routing through the legacy system, the legacy telephony system was set up as the next hop to the SBC.   
 
 - In addition, to encourage user behavior change and remove the dependency on inter- and intra-site extension dialing, Contoso provided guidance to leverage Teams for all internal calls.  
+
+Before
+
+![Diagram showing before state](media/voice-case-study-4.png)
+
+After
+![Diagram showing before state](media/voice-case-study-4a.png)
+
 
 **NOTE:**
 -----Insert articles that can assist with the decision on where to place the SBC ------ 
@@ -184,6 +208,10 @@ Contoso saw the opportunity to leverage Local Media Optimization in the differen
 - Define the virtual network topology 
 
 - Determine the mode : Always Bypass or Only for local users 
+
+## Networking considerations
+
+Contoso was in a situation where a number of users needed to work remote for an extended period of time after they were enabled for Phone System. The users leveraged VPN to access certain Line of Business applications. While on VPN the Phone System users experienced a degredation of call quality. To resolve, it was necessary to implement VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/en-us/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 
  
 

@@ -39,6 +39,16 @@ For Skype for Business, LBR was configured with the Session Border Controller (S
 
 - To support users working from outside of the office to place PSTN calls, the company issued mobile phone was provided to their employees. 
 
+The following diagrams show the before and after configuration"
+
+Before
+
+![Diagram showing before state](media/voice-case-study-5.png)
+
+After
+
+![Diagram showing before state](media/voice-case-study-6.png)
+
 
 ## Configuration: 
 
