@@ -171,6 +171,14 @@ Meetings organized by Daniela can't be recorded and Amanda, who has the policy s
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
+### IP audio mode
+
+This is a per-user policy. This setting determines whether a user can use audio.
+
+### IP video mode.
+
+This is a per-user policy. This setting determines whether a user can use video.
+
 ### Allow IP video
 
 This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
