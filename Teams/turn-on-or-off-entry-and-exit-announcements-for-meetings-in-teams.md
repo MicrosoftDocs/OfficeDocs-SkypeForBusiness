@@ -36,17 +36,21 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+You must be an admin to make these changes.
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+1. Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
-3. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+2. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+3. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
+4. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-4. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
+5. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
     
-5. If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.
+6. If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.
     
-6. Click **Save**.
+7. Click **Save**.
 
 ## Want to know more about Windows PowerShell?
 
