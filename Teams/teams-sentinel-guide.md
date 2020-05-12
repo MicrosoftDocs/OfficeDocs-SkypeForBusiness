@@ -92,7 +92,7 @@ Invoke-WebRequest -Method Post -Headers $headerParams -Uri "https://manage.o
 
 ## Step 2: Deploy a Sentinel Playbook or use a Function to ingest the Teams logs
 
-There are two ways to do this: 
+There are two ways to do this:
 
 Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest your collected Teams data. The Logic App queries Office 365 to find the audit data it writes into the Azure Sentinel workspace.
 
@@ -120,7 +120,7 @@ Identity is an important attack vector to monitor when it comes to Microsoft Tea
 
 Regarding attacks specific to Microsoft Teams, threats to data, for example, Azure Sentinel also has means to monitor for them and hunt them down.
 
-## Parse your data
+## Create a parser for your data
 
 The first thing to do in order to make sense of the large set of collected data is to give it meaning by parsing it. This is done with a Kusto Query Language (KQL) Function that makes the data easier to use.
 
@@ -142,7 +142,31 @@ O365API_CL
           Settings=iif(Operation_s contains "Setting", pack("Name", columnifexists('Name_s', ""), "Old Value", columnifexists('OldValue_s', ""), "New Value", columnifexists('NewValue_s', "")),""),
           Details=pack("Id", columnifexists('Id_g', ""),  "OrganizationId", columnifexists('OrganizationId_g', ""), "UserType", columnifexists('UserType_d', ""), "UserKey", columnifexists('UserKey_g', ""), "TeamGuid", columnifexists('TeamGuid_s', "")) 
 ```
+ Save the parser as a KQL function, with an alias of TeamsData. It will be used for the queries to follow. Details on configuring and using a KQL function as a parser can be found in this [Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
+## Helfpul hunting KQL queries
+
+Use these queries to familiarize yourself with your Teams data and Teams environment. Knowing how the environment should look and behave is a good first step in recognizing suspicious activity. From there, you can branch out into threat hunting.
+
+### Federated external users query
+
+Get the list of Teams sites that have federated external users. These users will have a domain name / UPN suffix that *isn't* owned by your organization. In this example query, the organization owns contoso.com.
+
+```kusto
+TeamsData
+| where TimeGenerated > ago(7d)
+| where Operation =~ "MemberAdded"
+| extend UPN = tostring(parse_json(Members)[0].Upn)
+| where UPN !endswith "contoso.com"
+| where parse_json(Members)[0].Role == 3
+| project TeamName, Operation, UserId, Members, UPN
+```
+
+> [!TIP]
+> To learn more about External and Guest access types in Teams see [this article](https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations), or the *Participant Types* section in the [Teams Security Guide](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide).
+
+<!-- Talk to Pete! -- If my domain / UPN suffix is contoso.com for the org, I would expect the guest user objects to have the same domain / UPN suffix. But I might federate with liteware.com (external users). My assumption is that they would be stored as a fed user in AD with the UPN for Litware, and there would be no need for another object to be created for them with a contoso.com UPN. In that case, you'll find only Federated users with this query. Possibly Anonymous, as the UPN would be null. So, I'm changing the name of the KQL query.-->
+ 
 
 
 <!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
