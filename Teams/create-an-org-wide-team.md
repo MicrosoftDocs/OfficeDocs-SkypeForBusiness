@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 Org-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration.
 
-With org-wide teams, global admins can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
+With org-wide teams, global admins can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently, an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
 
 ![Screenshot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
@@ -40,7 +40,7 @@ These types of accounts won't be added to your org-wide team:
 As your organization's directory is updated to include new active users or if users no longer work at your company and their account is disabled, changes are automatically synced and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
 
 > [!NOTE]
-> - If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out, you have reached the five org-wide teams limit, or your organization might have more than the current size limit of 5,000 members. We're looking to increase this limit in the future. Org-wide teams aren't yet available for Teams for Education.
+> - If you don't see the **Org-wide** option when creating a team and you're a global admin, you might have reached the five org-wide teams limit, or your organization might have more than the current size limit of 5,000 members. We're looking to increase this limit in the future. Org-wide teams aren't yet available for Teams for Education.
 > - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
 > - All actions by the system to add or remove members are posted in the General channel. The channel will also be marked as having new activity in the Teams client.
 > - We'll automatically create an org-wide team for your organization if your organization is new to Teams and has no more than 5,000 users. The team name will reflect the tenant name and will have a General channel. Global admins can edit this team like any other team. 
