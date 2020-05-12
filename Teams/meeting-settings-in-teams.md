@@ -33,8 +33,11 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Participants**, turn on **Anonymous users can join a meeting**.
+1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+2. In the left navigation, go to **Meetings** > **Meeting settings**.
+
+3. Under **Participants**, turn on **Anonymous users can join a meeting**.
 
     ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
@@ -57,8 +60,9 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Email invitation**, do the following:
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>..
+2. In the left navigation, go to **Meetings** > **Meeting settings**.
+3. Under **Email invitation**, do the following:
 
     ![Screenshot of the meeting invitation settings you can customize](media/meeting-settings-invitation.png "Screenshot of the meeting invitation settings that you can customize for Teams meetings")
 
@@ -66,9 +70,9 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer.
-3. Click **Preview invite** to see a preview of your meeting invitation.
-4. When you're done, click **Save**.
-5. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
+4. Click **Preview invite** to see a preview of your meeting invitation.
+5. When you're done, click **Save**.
+6. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
 ## Set how you want to handle real-time media traffic for Teams meetings
 
@@ -80,9 +84,9 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Microsoft Teams service, you will also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
  ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-
-1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Network**, do the following:
+1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
+2. In the left navigation, go to **Meetings** > **Meeting settings**.
+3. Under **Network**, do the following:
 
     ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
