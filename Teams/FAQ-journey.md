@@ -113,7 +113,9 @@ No, you'll want to switch users to **Teams only** mode to complete the upgrade t
 
 ### Who can I contact if I have questions about the upgrade process?
 
-For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or [FastTrack](https://www.microsoft.com/fasttrack). Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
+For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or [FastTrack](https://www.microsoft.com/fasttrack). Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by clicking the **Need help** button.
+
+![Screen shot of a Teams need help button](media/helpDesk.png "Screen shot of the Teams Need help button in the Microsoft Teams admin center")     
 
 ### Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?
 
