@@ -411,7 +411,7 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 - Set the parameter to **EveryoneInSameAndFederatedCompanyUserOverride** to enable authenticated users in the organization, including guest users and users from federated organizations, be presenters. This parameter corresponds to the **Everyone in organization and trusted organization** setting in Teams.
 - Set the parameter to **OrganizerOnlyUserOverride** to enable only the meeting organizer to be a presenter. This means that all other meeting participants are attendees. This parameter corresponds to the **Only me** setting in Teams.
 
-Keep in mind that you're specifying the default value for this setting. After you set this, meeting organizers can choose who can present in a meeting by changing the setting in Teams.
+Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
 ## Related topics
 
