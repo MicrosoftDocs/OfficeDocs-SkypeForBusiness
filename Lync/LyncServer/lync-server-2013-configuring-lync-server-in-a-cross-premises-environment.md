@@ -80,7 +80,7 @@ After the script completes you must then configure a trust relationship between 
 
 
 > [!NOTE]  
-> If you have not installed the Microsoft Online Services cmdlets you will need to do two things before proceeding. First, download and install the 64-bit version of the Microsoft Online Services Sign-in Assistant. After installation is complete, download and install the 64-bit version of the Microsoft Online Services Module for Windows PowerShell. Detailed information for installing and using the Microsoft Online Services Module can be found on the Microsoft 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Microsoft 365 and Active Directory.<BR>If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available.
+> If you have not installed the Microsoft Online Services cmdlets you will need to do two things before proceeding. First, download and install the 64-bit version of the Microsoft Online Services Sign-in Assistant. After installation is complete, download and install the 64-bit version of the Microsoft Online Services Module for Windows PowerShell. Detailed information for installing and using the Microsoft Online Services Module can be found on the Microsoft 365 or Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Microsoft 365 or Office 36 and Active Directory.<BR>If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available.
 
 
 
