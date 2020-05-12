@@ -22,7 +22,8 @@ description: "Use the CQD PSTN Direct Routing report to monitor and troubleshoot
 New in March 2020, we've added a CQD PSTN Direct Routing report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-The CQD PSTN Direct Routing report helps customers to understand the usage patterns and quality of their PSTN services monitor information about your SBC, the telephony service, the network parameters, and Network Effectiveness Ratio details and usage of the service. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
+The CQD PSTN Direct Routing report helps you understand the usage patterns and quality of your PSTN services. Use this report to monitor service usage, information about your Session Border Controller (SBC), the telephony service, network parameters, and Network Effectiveness Ratio details. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
+
 
 The CQD PSTN Direct Routing Report has four sections:
 
@@ -38,7 +39,7 @@ The CQD PSTN Direct Routing Report has four sections:
 
 1. Analyze by call type, SBC, caller and callee country
 
-   The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all Session Border Controllers (SBCs) on your tenant for the last 7, 30, or 180 days. You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
+   The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all SBCs on your tenant for the last 7, 30, or 180 days (6 months). You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot of filters available in the CQD PSTN Direct Routing report":::
    
 2. Track trends
