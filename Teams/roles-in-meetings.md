@@ -1,7 +1,7 @@
 ---
 title:  Presenter and participant capabilities in a Teams meeting
 author: cichur
-ms.author: v-cichur
+ms.author: cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -31,6 +31,7 @@ The available meeting features are:
 - Recording
 - Files
 - Schedule a meeting (for meetings only)
+- Share
 
 This article describes those participant capabilities and what access they have to meeting features.
 
