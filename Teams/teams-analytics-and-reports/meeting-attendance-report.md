@@ -26,6 +26,8 @@ For education tenants, this report is useful to track student attendance in onli
 
 Teams admins can view additional meeting attendance data in the Teams admin center, under **Analytics & reports** > **Usage reports**. See [Related topics](#related-topics) below to learn more.
 
+If meeting organizers need access to more meeting attendance data than they get from the report available within the meeting, you can assign the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
+
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
