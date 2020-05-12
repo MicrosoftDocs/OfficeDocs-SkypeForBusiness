@@ -19,10 +19,10 @@ description: "Use the CQD PSTN Direct Routing report to monitor and troubleshoot
 
 # Using the CQD PSTN Direct Routing report
 
-New in March 2020, we've added a CQD PSTN Direct Routing Report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+New in March 2020, we've added a CQD PSTN Direct Routing report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-The CQD PSTN Direct Routing Report helps customers to understand the usage patterns and quality of their PSTN services monitor information about your SBC, the telephony service, the network parameters, and Network Effectiveness Ratio details and usage of the service. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
+The CQD PSTN Direct Routing report helps customers to understand the usage patterns and quality of their PSTN services monitor information about your SBC, the telephony service, the network parameters, and Network Effectiveness Ratio details and usage of the service. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
 
 The CQD PSTN Direct Routing Report has four sections:
 
