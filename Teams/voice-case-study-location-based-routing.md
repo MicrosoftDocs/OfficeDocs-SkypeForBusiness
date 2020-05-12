@@ -39,13 +39,13 @@ For Skype for Business, LBR was configured with the Session Border Controller (S
 
 - To support users working from outside of the office to place PSTN calls, the company issued mobile phone was provided to their employees. 
 
-The following diagrams show the before and after configuration"
+The following diagrams show the before and after deployments for a country with telephony regulations that require Location-Based Routing:
 
-Before
+**Original deployment**
 
 ![Diagram showing before state](media/voice-case-study-5.png)
 
-After
+**Deployment with Direct Routing**
 
 ![Diagram showing before state](media/voice-case-study-6.png)
 

@@ -23,8 +23,6 @@ appliesto:
 
 In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and use the overlapping capabilities method to move users to Teams. This allowed users in Teams and Skype for Business on-premises to share presence and communicate. As users entered the pilot for Phone System, they were moved to Teams Only mode.
 
-Contoso leveraged overlapping capabilities method during the transition. As users entered the pilot for phone system they moved to Teams only mode. 
-
 To understand fundamental concepts about migration, methods, and modes, Contoso read the following articles--[Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) and [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)--and attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). Contoso learned about:
 
 - Fundamental concepts such as interoperability, federation, and upgrade behavior 

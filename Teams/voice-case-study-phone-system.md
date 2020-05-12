@@ -72,7 +72,7 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country that has telephony regulations to Phone System with Direct Routing. 
 
-The following diagram shows the beginning configuration for Skype for Business Enterprise Voice and how this configuratio was migrated to both Microsoft Calling Plans and Direct Routing:
+The following diagram shows the initial Skype for Business Enterprise Voice deployment and how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
 
 ![Diagram showing before and after states](media/voice-case-study-1.png)
 
@@ -102,20 +102,19 @@ Based on the answers to their questions, Contoso decided to:
 
 - Maintain a PSTN connection to business critical analog devices.
 
-The following diagrams show the original legacy deployment and the resulting ...
+The following diagrams show the original legacy system deployment with remote sites and the migration to a Direct Routing deployment with Local Media Optimization:
 
-Original legacy deployment
-  
+**Original legacy deployment** 
 ![Diagram showing before and after states](media/voice-case-study-2.png)
 
 
-Resulting deployment
+**Deployment with Direct Routing**
 
 ![Diagram showing before and after states](media/voice-case-study-3.png)
  
 ## Site Type C: Combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
-Contoso Skype for Business Enterprise Voice users numbers reside on the SIP trunk to the SBC from the carrier. The numbers for the traditional telephony systems resided on the TDM trunk to the PSTN gateway.   
+Contoso Skype for Business Enterprise Voice users' numbers reside on the SIP trunk to the SBC from the carrier. The numbers for the traditional telephony systems resided on the TDM trunk to the PSTN gateway.   
 
 Contoso based their decision on the following questions:
 
@@ -142,16 +141,14 @@ Based on the answers to their questions, Contoso decided on the following:
 
 - In addition, to encourage user behavior change and remove the dependency on inter- and intra-site extension dialing, Contoso provided guidance to leverage Teams for all internal calls.  
 
-Before
+The following diagrams show the original Skype for Business Enterprise Voice and legacy telephony system deployment and the migration to a mixed deployment using Direct Routing:
 
+**Original mixed deployment**
 ![Diagram showing before state](media/voice-case-study-4.png)
 
-After
+**Mixed deployment with Direct Routing**
 ![Diagram showing before state](media/voice-case-study-4a.png)
 
-
-**NOTE:**
------Insert articles that can assist with the decision on where to place the SBC ------ 
 
 ## Calling Plans
 
@@ -177,8 +174,6 @@ Updates for Direct Routing
 
 
 ## Configuration
-
-Contoso...
 
 ### Calling Plans sites
 
