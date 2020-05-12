@@ -1,5 +1,5 @@
 ---
-title: "Using the CQD PSTN Direct Routing Report"
+title: "Using the CQD PSTN Direct Routing report"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -17,7 +17,7 @@ localization_priority: Normal
 description: "Use the CQD PSTN Direct Routing report to monitor and troubleshoot PSTN calling in Microsoft Teams."
 ---
 
-# Using the CQD PSTN Direct Routing Report
+# Using the CQD PSTN Direct Routing report
 
 New in March 2020, we've added a CQD PSTN Direct Routing Report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
@@ -38,7 +38,7 @@ The CQD PSTN Direct Routing Report has four sections:
 
 1. Analyze by call type, SBC, caller and callee country
 
-   This report aggregates reliability and usage metrics for all Session Border Controllers (SBCs) on your tenant for the last 7, 30, or 180 days. You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
+   The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all Session Border Controllers (SBCs) on your tenant for the last 7, 30, or 180 days. You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot of filters available in the CQD PSTN Direct Routing report":::
    
 2. Track trends
