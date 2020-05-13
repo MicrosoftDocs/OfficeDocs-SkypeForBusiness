@@ -446,7 +446,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 1 For Skype for Business Online, Microsoft 365, or Office 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Microsoft 365 users, this feature is not available.
+2 For Skype for Business Online, Microsoft 365, or Office 365 users, this feature is not available.
 
 </div>
 
