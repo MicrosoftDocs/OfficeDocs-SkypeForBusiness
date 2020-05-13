@@ -34,6 +34,7 @@
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
+## [Manage large Teams](best-practices-large-groups.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
@@ -690,7 +691,7 @@
 #### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 #### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
 #### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
-#### [Using the CQD PSTN report](CQD-PSTN-report.md)
+#### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
 ## [Teams content updates](teams-updates.md)
 
+## [How to look up your support PIN](support-pin.md)
 
 ## Country and region availability for Audio Conferencing and Calling Plans
 ### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
