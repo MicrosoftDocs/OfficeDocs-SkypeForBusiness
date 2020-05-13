@@ -40,7 +40,7 @@ You should consider the following requirements for users and your network infras
 
 You must have the following configured in your environment in order to implement and deploy a hybrid deployment.
 
-  - A Microsoft Office 365 organization with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
+  - A Microsoft 365 or Office 365 organization with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
   - A single on-premises deployment (infrastructure) of Skype for Business Server or Lync Server that is deployed in a supported topology. See Topology Requirements.
     
@@ -48,7 +48,7 @@ You must have the following configured in your environment in order to implement
 
   - Skype for Business Server 2015 administrative tools. If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools.
 
-  - To support Single Sign-on with Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365.
+  - To support Single Sign-on with Microsoft 365 or Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Microsoft 365 or Office 365.
     
     For more information, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -154,7 +154,7 @@ The Allowed domains list includes domains that have a partner Edge fully qualifi
 
 The following requirements must be met to successfully configure a hybrid deployment:
 
-  - Domain matching must be configured the same for your on-premises deployment and your Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
+  - Domain matching must be configured the same for your on-premises deployment and your Microsoft 365 or Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
 
   - The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.
 
@@ -294,7 +294,7 @@ When you synchronize user accounts between your Lync on-premises and Lync Online
 
 
 > [!IMPORTANT]  
-> If the user is created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
+> If the user is created by using the online portal for Microsoft 365 admin center, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 
 
@@ -333,4 +333,3 @@ You should also consider the following user-related issues when planning for a h
 </div>
 
 </div>
-
