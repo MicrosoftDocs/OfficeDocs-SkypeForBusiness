@@ -184,9 +184,9 @@ states</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/b
 and [<span class="underline">removing the user who is being
 recorded</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 Graph documentation on the specific APIs can be found here for
-[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/en-us/graph/api/call-updaterecordingstatus?view=graph-rest-beta&tabs=http)
+[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/en-us/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)
 and
-[<span class="underline">incomingContext</span>](https://docs.microsoft.com/en-us/graph/api/resources/incomingcontext?view=graph-rest-beta).
+[<span class="underline">incomingContext</span>](https://docs.microsoft.com/en-us/graph/api/resources/incomingcontext?view=graph-rest-1.0).
 
 The exact implementation of the recorder service will vary by partner
 but must be designed to support multiple recorders in order to achieve
