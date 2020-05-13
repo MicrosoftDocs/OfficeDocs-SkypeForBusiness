@@ -30,14 +30,14 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
-Here are the licenses that must be assigned:  
+Here are the licenses that must be assigned to produce or present a Teams live event:  
 
-- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license
-- A Microsoft Teams license
-- A Microsoft Stream license
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license.
+- A Microsoft Teams license. - this is included in the licenses above. 
+- A Microsoft Stream license - is required if you are planning to share the content to an external app or device. See, [Microsoft Stream licensing](https://docs.microsoft.com/en-us/stream/license-overview).
 
 > [!IMPORTANT]
-> The user creating and scheduling a live event must have an Exchange Online mailbox.
+> At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
@@ -118,17 +118,29 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Available in these regional data centers**
 
-- Americas
+- North America
+- Central America
+- South America
 - Asia Pacific
 - Europe/Africa
 
-**Data location for these countries**
-
+**Data location for these countries/regions (supported)**
 - Australia
 - Canada
 - India
 - Japan
 - United Kingdom
+
+**These countries/regions and clouds aren't supported**
+- Germany
+- France
+- Norway
+- South Africa
+- South Korea
+- Switzerland
+- UAE
+- Government Community Cloud (GCC)-H
+- DOD
 
 **Exclusions and considerations**
 
