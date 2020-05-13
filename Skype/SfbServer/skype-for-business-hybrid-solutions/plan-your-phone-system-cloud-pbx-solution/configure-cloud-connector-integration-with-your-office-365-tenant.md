@@ -56,7 +56,7 @@ Add the following DNS records to your Microsoft 365 or Office 365 organization. 
   
 1. Add a DNS A record for Access Edge.
     
-2. SRV records will automatically be created by Microsoft 365 or Office 365 and the deployment scripts. Confirm that you can look up the following two SIP services on the Edge: _sip and _sipfederationtls.
+2. SRV records will automatically be created by Microsoft 365 or Office 365 and the deployment scripts. Confirm that you can look up the following two SIP services on the Edge: \_sip and \_sipfederationtls.
     
      ![SRV Records confirmation](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
@@ -189,4 +189,3 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
 4. If there are multiple Cloud Connector Mediation Servers (multiple-site, HA), please repeat the previous steps for each of them.
     
-
