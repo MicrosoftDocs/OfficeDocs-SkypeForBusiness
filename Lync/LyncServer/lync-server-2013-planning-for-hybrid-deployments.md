@@ -152,7 +152,7 @@ The Allowed domains list includes domains that have a partner Edge fully qualifi
 
 The following requirements must be met to successfully configure a hybrid deployment:
 
-  - Domain matching must be configured the same for your on-premises deployment and your Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
+  - Domain matching must be configured the same for your on-premises deployment and your Microsoft 365 or Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
 
   - The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.
 
@@ -331,4 +331,3 @@ You should also consider the following user-related issues when planning for a h
 </div>
 
 </div>
-
