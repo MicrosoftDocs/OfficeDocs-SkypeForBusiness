@@ -61,7 +61,7 @@ To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteam
 
 The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**. In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls** and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
+Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**. In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
   
 ||||
 |:-----|:-----|:-----|
