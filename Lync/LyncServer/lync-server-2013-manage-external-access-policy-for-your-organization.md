@@ -54,7 +54,7 @@ By default, there are no policies configured to support external user access, in
 
 These options include the following types of external access:
 
-  - **Enable communications with federated users**   Enable this if you want to support user access to federated partner domains. This setting configures the ability for users to communicate with other SIP federated domains, as well as Hosted providers like Microsoft Office 365. Selecting this setting allows you to select the option to allow communication with XMPP federated domains.
+  - **Enable communications with federated users**   Enable this if you want to support user access to federated partner domains. This setting configures the ability for users to communicate with other SIP federated domains, as well as Hosted providers like Microsoft 365. Selecting this setting allows you to select the option to allow communication with XMPP federated domains.
     
     As an option, you can select **Enable communications with XMPP federated partners** if you first select **Enable communications with federated users**. XMPP federation is a federation with organizations that use extensible messaging and presence protocol (XMPP).
     
