@@ -665,7 +665,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 2 On-premises Lync Server 2013 and on-premises SharePoint 2013 is required for skill search.
 
-3 For Skype for Business Online and/or Microsoft 365 users, Persistent Chat is not available.
+3 For Skype for Business Online, Microsoft 365, or Office 365 users, Persistent Chat is not available.
 
 </div>
 
