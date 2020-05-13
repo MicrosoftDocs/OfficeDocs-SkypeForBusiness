@@ -1114,7 +1114,7 @@ These tables indicate the features that are available to Lync users in an on-pre
 
 2 Participants cannot control desktops that are shared by Skype for Business on Mac, Lync for Mac 2011, or Communicator for Mac 2011 users. Mac users can control desktops shared by Windows users.
 
-3 For Skype for Business Online and/or Microsoft 365 users, this feature requires an audio conferencing provider.
+3 For Skype for Business Online, Microsoft 365, or Office 365 users, this feature requires an audio conferencing provider.
 
 4 The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Lync Web App 2013 client.
 
