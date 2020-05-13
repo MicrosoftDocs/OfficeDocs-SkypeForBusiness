@@ -966,7 +966,7 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 
 1 By default, federated users are assigned the External Contacts privacy relationship. To be able to reach a federated contact on their mobile phone by calling their published work number, the federated contact must manually assign you the Colleagues privacy relationship.
 
-2 Not available to Microsoft 365 users.
+2 Not available to Microsoft 365 or Office 365 users.
 
 </div>
 
