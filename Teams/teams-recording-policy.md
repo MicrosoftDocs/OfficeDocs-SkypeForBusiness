@@ -169,7 +169,7 @@ platform</span>](https://docs.microsoft.com/en-us/graph/cloud-communications-con
 and register as applications with Microsoft Graph. The recorder provides
 the direct interaction with the Teams calls and meetings
 [<span class="underline">communications platform
-APIs</span>](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-beta)
+APIs</span>](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 and provides the endpoint for media ingestion.
 
 A [<span class="underline">sample compliance recorder application is
