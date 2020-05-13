@@ -750,7 +750,7 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 </table>
 
 
-1 For Microsoft 365 users, this feature is available for audio conferencing provider (ACP)-enabled meetings only.
+1 For Office 365 and Microsoft 365 users, this feature is available for audio conferencing provider (ACP)-enabled meetings only.
 
 2 Not available to Microsoft 365 users.
 
