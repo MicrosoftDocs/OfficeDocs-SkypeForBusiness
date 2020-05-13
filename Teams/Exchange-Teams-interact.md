@@ -45,7 +45,7 @@ The following table provides a helpful quick reference to feature availability b
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
-|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes<sup>8</sup> (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported.  
 
@@ -76,7 +76,10 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 - To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol, preferably by running the Exchange Hybrid Wizard, as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable users with Exchange on-premises mailbox to schedule Teams meetings on behalf of another user, you must must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 > [!NOTE]
->For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
+> The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2013 CU9 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
+
+> [!NOTE]
+> For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
 
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.

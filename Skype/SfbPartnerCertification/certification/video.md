@@ -138,7 +138,7 @@ Desktop sharing using RDP from a device sends content as video over the people c
 |     | | |
 
   1. Cloud service based video interop solutions are updated frequently and don't have set version numbers. Instead of testing a specific version, cloud services have implemented real time telemetry and have live-site support process coordination with Microsoft.
-  2. Features supported for Online differ from those supported for On-premise. Video interop for O365 is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
+  2. Features supported for Online differ from those supported for On-premise. Video interop is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
   3. Pexip support for VBSS is currently in tech preview state.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.

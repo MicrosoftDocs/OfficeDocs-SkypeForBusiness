@@ -32,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-03_
 
-When planning for Lync, the first major decision is how to deploy Microsoft Lync: as Lync Server 2013 on premises, or Lync Online with Microsoft Office 365 in the cloud.
+When planning for Lync, the first major decision is how to deploy Microsoft Lync: as Lync Server 2013 on premises, or Lync Online with Microsoft 365 or Office 365 in the cloud.
 
   - **Lync Server 2013 on-premises** : This choice provides the complete Lync feature set and provides ultimate flexibility in configuring, customizing, and operating your deployment. All servers are installed onsite and maintained by your organization. An on-premises deployment provides the full range of Lync Server features.
 
@@ -77,4 +77,3 @@ If none of the factors in the preceding list are critical for you, you may want 
 </div>
 
 </div>
-

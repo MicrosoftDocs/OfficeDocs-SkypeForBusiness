@@ -51,3 +51,11 @@ Group membership
 Group features and capabilities for your users depend on where you drive group membership from. For example, if you remove a member of a team, they are removed from the Office 365 Group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer group, or shared OneNote. However, they will still have access to the team's chat functionality for approximately two hours.
 
 As a best practice for managing Teams members, add and remove members from the Teams client to ensure that the correct cascading access control to other dependent cloud applications is applied. Additionally, you will avoid a disjointed experience leaving people with the impression they still have access to the resources they used to (until the next sync cycle either adds or revokes access to a particular component of the service). If you DO add or remove team members outside of the Teams client (by using the Microsoft 365 admin center, Azure AD, or Exchange Online PowerShell), it can take up to 24 hours (more in some cases) for changes to be reflected in Teams.
+
+Ability to add group as attendee while scheduling meetings
+----------------------------------------------------------
+
+Starting in May 2020, you can now invite a group to a scheduled meeting, with the following caveats:
+1. All existing Microsoft 365 groups and teams created from existing Microsoft 365 groups will be searchable and can be added to the meeting. However, members would receive the meeting invite based on their subscription to the group.
+2. Teams created from scratch before May 2018 will also be searchable, but members would not receive the meeting invite because of their default group subscription which is "Only replies to you." This can be changed from Outlook by modifying the group settings
+3. Teams created from scratch after May 2018 are not searchable and are hidden using the property "HiddenFromAddressListsEnabled." This is an admin-controlled setting that can be modified by the admin.
