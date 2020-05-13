@@ -8,13 +8,16 @@ audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Learn about the Microsoft Teams functionality available to guest users.
+description: This article describes the Microsoft Teams functionality available to guest users and also answers some of the most common FAQs related to it.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 What the guest experience is like
@@ -28,27 +31,34 @@ All team members see a message in the channel thread announcing that the team ow
     
 ![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating that the team has guests and users who are guests are identified with the word GUEST next to their name.")
 
+Check out these videos about the guest experience in Teams:
+- [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
+
 ## Comparison of team member and guest capabilities
 
 The following table compares the Teams functionality available for an organization's team members and its guests.
 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
-|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a private chat  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a channel conversation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Post, delete, and edit messages  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a channel file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a chat file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Add apps (tabs, bots, or connectors)  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create meetings or access schedules  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Access OneDrive for Business storage  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create tenant-wide and teams/channels guest access policies  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create a team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Discover and join a public team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create a channel  <br/>  *Team owners control this setting.*  <br/> |&#x2713;|&#x2713;|
+|Participate in a private chat  <br/> |&#x2713;|&#x2713;|
+|Participate in a channel conversation  <br/> |&#x2713;|&#x2713;|
+|Post, delete, and edit messages  <br/> |&#x2713;|&#x2713;|
+|Share a channel file  <br/> |&#x2713;|&#x2713;|
+|Share a chat file  <br/> |&#x2713;||
+|Add apps (tabs, bots, or connectors)  <br/> |&#x2713;||
+|Create meetings or access schedules  <br/> |&#x2713;||
+|Access OneDrive for Business storage  <br/> |&#x2713;||
+|Create tenant-wide and teams/channels guest access policies  <br/> |&#x2713;||
+|Invite a user outside the Office 365 organization's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
+|Create a team  <br/> |&#x2713;||
+|Discover and join a public team  <br/> |&#x2713;||
+|View organization chart  <br/> |&#x2713;||
+|Use inline translation  <br/> |&#x2713;||
+|Become team owner  <br/> |&#x2713;||
+
    
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 

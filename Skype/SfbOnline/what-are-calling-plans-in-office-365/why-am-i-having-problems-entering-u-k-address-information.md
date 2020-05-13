@@ -16,10 +16,11 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressGBSyntaxError
 description: "Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.)."
 ---
 

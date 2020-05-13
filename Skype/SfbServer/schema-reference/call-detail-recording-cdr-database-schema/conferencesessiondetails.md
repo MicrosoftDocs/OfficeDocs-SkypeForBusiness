@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: "The ConferenceSessionDetails view stores information about multiparty sessions. Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server. This view was introduced in Microsoft Lync Server 2013."

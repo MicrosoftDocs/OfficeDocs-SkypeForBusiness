@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Certificate requirements for external user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Certificate requirements for external user access in Lync Server 2013
 
@@ -34,7 +36,7 @@ Microsoft Lync Server 2013 communications software supports the use of a single
 
 Following are the requirements for the public certificate used for access and web conferencing Edge external interfaces, and the A/V authentication service:
 
-  - The certificate must be issued by an approved public CA that supports subject alternative name. For details, see Microsoft Knowledge Base article 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+  - The certificate must be issued by an approved public CA that supports subject alternative name. For details, see Microsoft Knowledge Base article 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
 
   - If the certificate will be used on an Edge pool, it must be created as exportable, with the same certificate used on each Edge Server in the Edge pool. The exportable private key requirement is for the purposes of the A/V Authentication service, which must use the same private key across all Edge Servers in the pool.
 

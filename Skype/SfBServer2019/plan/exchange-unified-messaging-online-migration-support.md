@@ -7,13 +7,18 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
+description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
 # Exchange Unified Messaging Online migration support
 
-In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
+> [!IMPORTANT]
+> **The Unified Messaging service in Exchange Online is out of support as of February 28, 2020, 5 PM Pacific Time. All voicemail accounts have been migrated to Cloud Voicemail service by Microsoft. Any remaining auto attendant traffic won't be monitored and might be disrupted at any time.**
+
+In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
 ExchUMO is deployed by customers for voicemail, auto attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
 
@@ -72,7 +77,7 @@ Microsoft has identified various customer deployments that are consuming feature
     Look out for a notice in the Admin Notification Center with further details and timeline regarding your users' migration. Notifications are sent at least 30 days before your migration period. 
 
     > [!Note]
-    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
+    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Microsoft 365 admin center. 
 
 6. **Consider opting in for a planned migration**
 
@@ -94,7 +99,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 ## Auto attendant migration guidelines
 
-Office 365 tenant administrators are required to re-create their Exchange UM Online auto attendants in the Microsoft Cloud Auto Attendant service and switch their on-premises phone numbers to them before February 28, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud auto attendants. If you have a large number of auto attendants, you can use the [Exchange UM Auto Attendant to Cloud Auto Attendant Migration scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) to simplify the bulk migration of auto attendants.
+Office 365 organization administrators are required to re-create their Exchange UM Online auto attendants in the Microsoft Cloud Auto Attendant service and switch their on-premises phone numbers to them before February 28, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud auto attendants. If you have a large number of auto attendants, you can use the [Exchange UM Auto Attendant to Cloud Auto Attendant Migration scripts](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) to simplify the bulk migration of auto attendants.
 
 ### Setup
 
@@ -125,6 +130,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
 | VM | Service Features | Exchange Rules support | For security and compliance  | Y | Y    |
 | VM | User Features | PSTN Dial-in Access  | Subscriber access  | N | Y    |
+| VM | User Features | Delegate  | missed call email  | N | Y    |
 | VM | User Features | PSTN Outlook Voice Access   | Subscriber access  | N | Y    |
 | VM | User Features | Dial-in using an authenticated endpoint | Calling the voicemail service to listen to voice messages and change voicemail settings| Y | Y    |
 | VM | User Features | User setting to disable voicemail   |  | Y | Y    |
@@ -226,10 +232,13 @@ To learn more about auto attendants, see [Set up a Cloud auto attendant](https:/
 
 #### Known issues
 
+**Disable Subscriber Access after migration to avoid greeting inconsistency**
+Subscriber access might continue to work for your tenant until the service is completely retired, even after all of your users has been migrated to Cloud Voicemail. To avoid user confusion and inconsistent experience, please disable subscriber access since greetings changed after migration from there will not take affect. To do that, remove the EXUM contact for each subscriber access line using Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact 
+
 **Auto Attendant Call Transfer to PSTN**
 Customers are encouraged to configure a temporarily workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number, or to an RGS instance. 
  
-An issue was identified during quality assurance with the Transfer out to PSTN number feature, which is not going to be fixed in-time for customers to start migrating off Exchange UMO service before its scheduled retirement date of Feb 1st, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. 
+An issue was identified during quality assurance with the Transfer out to PSTN number feature, which is not going to be fixed in-time for customers to start migrating off Exchange UMO service before its scheduled retirement date of Feb 28th, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. 
  
 Expected Experience
 - Administrators do not need to license the virtual user, since this is a workaround solution 

@@ -3,6 +3,8 @@ title: Lync Server 2013 certificate infrastructure requirements
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate infrastructure requirements
 ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Certificate infrastructure requirements for Lync Server 2013
 
@@ -52,7 +54,7 @@ For Lync Server, the following common requirements apply:
 
   - All server certificates must contain a CRL Distribution Point (CDP).
 
-  - All certificates must be signed using a signing algorithm supported by the operating system. Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements. For operating system support, see [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002).
+  - All certificates must be signed using a signing algorithm supported by the operating system. Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements. For operating system support, see [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002).
     
     <div>
     

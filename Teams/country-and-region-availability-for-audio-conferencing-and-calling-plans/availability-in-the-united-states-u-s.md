@@ -18,7 +18,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
@@ -30,7 +31,7 @@ description: "Here are the Office 365 services for Skype for Business and Micros
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for the United States.
+Here are the Office 365 services for Skype for Business and Microsoft Teams available for the United States. See [How to buy a calling plan](../calling-plans-for-office-365.md) for more information.
 
 ## Audio Conferencing
 

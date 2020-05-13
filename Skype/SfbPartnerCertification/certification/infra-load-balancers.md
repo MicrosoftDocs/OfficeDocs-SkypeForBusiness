@@ -1,7 +1,7 @@
 ---
 title: "Load Balancers"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947483
@@ -28,7 +29,7 @@ Listed here are load balancers that work with Skype for Business.
 |:---------|:---------|:---------|
 |[Citrix](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/deploying-skype-for-business-server-2015-with-netscaler.pdf)  &nbsp;(PDF) | NetScaler VPX NS10.5|Build 56.<span></span>22.<span></span>nc|
 |[F5 Networks](https://f5.com/solutions/deployment-guides/microsoft-skype-for-business-server-2015-big-ip-ltm-v11) |BIG-IP Local Traffic Manager (LTM 3600) |11.6|
-|[Kemp](http://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-skype-for-business/)|Hardware Load Balancer LM5400|7.1-22b |
+|[Kemp](https://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-skype-for-business/)|Hardware Load Balancer LM5400|7.1-22b |
 |     |         |         |
 
 

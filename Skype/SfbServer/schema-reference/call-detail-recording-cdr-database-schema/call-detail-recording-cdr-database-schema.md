@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
 description: "This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 ."

@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---
 
@@ -24,7 +26,7 @@ This article describes what is needed to migrate to Direct Routing from a Skype 
 - Office 365 Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
 - Office 365 Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
 
-  
+
 In addition to these configuration steps, configuration is also required on the Session Border Controller (SBC) to route the calls to the new route. That is outside the scope of this document. For more information, see your SBC vendor documentation.  
 
 ## User provisioning end-state for various PSTN connectivity options 
@@ -48,7 +50,7 @@ OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |Th
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/A|N/A|True|
 ||||||
 
-<sup>1</sup>Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 As part of this effort, Microsoft recently updated the “Microsoft Teams admin center” (also known as Modern Portal) to reflect the new management model based on coexistence modes. In Modern Portal, configuring TeamsUpgradePolicy will now automatically also set TeamsInteropPolicy to consistent value, so TeamsInteropPolicy is no longer exposed in the user interface. However, admins using PowerShell must still set both TeamsUpgradePolicy and TeamsInteropPolicy together to ensure proper routing. After the transition to TeamsUpgradePolicy is complete, it will no longer be necessary to also set TeamsInteropPolicy.
 
@@ -65,7 +67,7 @@ For more information about migrating from Calling Plans, see:
  
 It is recommended that you remove previously configured licensing plan information as follows:
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -81,9 +83,10 @@ For more information about migrating from Phone System with on-premises PSTN con
 
 It is recommended that you remove previously configured voice routing information as follows:
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
 
 ## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
@@ -96,13 +99,13 @@ For more information about migrating from Phone System with on-premises PSTN con
 
 It is recommended that you remove previously configured voice routing information as follows:
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```
 
 
-## RELATED LINKS
+## Related links
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 

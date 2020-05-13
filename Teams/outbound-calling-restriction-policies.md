@@ -1,5 +1,5 @@
 ---
-title: "Outbound calling restriction policies for Audio Conferencing and user PSTN calls"
+title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
@@ -15,9 +15,11 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+  - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
 ---
 
@@ -54,11 +56,11 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
+1.    In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
 
-2.	In the Action pane, click **Edit**.
+2.    In the Action pane, click **Edit**.
 
-3.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+3.    Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
     ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
 
@@ -71,7 +73,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.) 
 
 The following table provides an overview of each policy.
 

@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: "The Region table is a supporting table. Each record represents one country/region defined in network configuration setting."

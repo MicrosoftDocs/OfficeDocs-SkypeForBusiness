@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Moving users to Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Moving users to Enterprise Voice in Lync Server 2013
 
@@ -168,7 +170,7 @@ Moving users to Exchange Unified Messaging consists of the following tasks:
 
   - Configure Exchange Unified Messaging and Lync Server to work together.
 
-  - Enable users for Exchange Unified Messaging call answering and Outlook Voice Access. This task is performed on the Exchange Unified Messaging server. For details, see the Exchange Server 2010 TechNet Library at [http://go.microsoft.com/fwlink/p/?linkID=139372](http://go.microsoft.com/fwlink/p/?linkid=139372).
+  - Enable users for Exchange Unified Messaging call answering and Outlook Voice Access. This task is performed on the Exchange Unified Messaging server. For details, see the Exchange Server 2010 TechNet Library at [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372).
 
 </div>
 

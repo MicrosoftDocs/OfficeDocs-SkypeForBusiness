@@ -3,6 +3,8 @@ title: Configure federation routes and media traffic
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -34,7 +36,7 @@ Use the procedures that follow to transition the federation route and the media 
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Move remaining users to Lync Server 2013</A></P>
 > <LI>
-> <P>"Remove Servers and Server Roles" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
+> <P>"Remove Servers and Server Roles" at <A href="https://go.microsoft.com/fwlink/p/?linkid=268790">https://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 
@@ -198,7 +200,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
     
         Set-CsAccessEdgeConfiguration
     
-    For more information on these cmdlets, see the following topics: [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/gg398574\(v=ocs.15\)) and [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/gg413017\(v=ocs.15\)).
+    For more information on these cmdlets, see the following topics: [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/gg398574\(v=ocs.15\)) and [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/gg413017\(v=ocs.15\)).
 
 4.  Wait until replication has completed before bringing the Lync Server 2013 Edge servers online, and testing federation and external access.
 

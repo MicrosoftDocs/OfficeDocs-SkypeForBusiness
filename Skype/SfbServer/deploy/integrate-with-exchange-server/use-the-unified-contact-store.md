@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
@@ -33,19 +35,19 @@ When you install Skype for Business Server, a single user services policy (confi
   
 If you would prefer not to migrate all your contacts to the unified contact store you can disable the unified contact store for all users by setting the UcsAllowed property in the global policy to False:
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 After you have disabled the unified contact store in the global policy you can then create a per-user policy that enables the use of the unified contact store; this allows you to have some users keep their contacts in the unified contact store while other users continue to keep their contacts in Skype for Business Server. You can create a per-user user services policy by using a command similar to this:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 After you have created the new policy you must then assign that policy to any user who should have access to the unified contact store. Per-user policies can be assigned to users by using commands similar to this:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -53,7 +55,7 @@ After the policy has been assigned, Skype for Business Server will begin to migr
   
 You can verify that a user's contacts have successfully been migrated to the unified contact store by running the [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet from within the Skype for Business Server Management Shell:
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
@@ -63,13 +65,13 @@ If Test-CsUnifiedContactStore succeeds that means that the contacts for the user
 
 If you need to remove a user's contacts from the unified contact store (for example, if the user needs to be rehomed on Microsoft Lync Server 2010 and thus can no longer use the unified contact store) you must do two things. First, you must assign the user a new user services policy, one that prohibits storing contacts in the unified contact store. (That is, a policy where the UcsAllowed property has been set to $False.) If you do not have such a policy you can create one using a command similar to this:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 You can then assign this new per-user policy (NoUnifiedContactStore) by using a command like this:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -82,7 +84,7 @@ The terminology "prevents Ken's contacts from being migrated to the unified cont
   
 That also means that, after assigning the user a new user services policy, you must then run the [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) cmdlet in order to move the user's contacts out of Exchange Server and back to Skype for Business Server. For example, after assigning Ken Myer a new user services policy you can then move his contacts out of the unified contact store by using the following command:
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

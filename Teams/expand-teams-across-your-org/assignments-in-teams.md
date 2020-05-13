@@ -10,7 +10,9 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: 
+f1.keywords: 
+- CSH
+ms.custom:
   - ms.teamsadmincenter.assignments.overview
   - ms.teamsadmincenter.assignments.tooltip.emaildigest
   - ms.teamsadmincenter.assignments.tooltip.makecode
@@ -33,7 +35,6 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
@@ -51,7 +52,6 @@ This setting is off by default.
 
 <a name="#turnitin"> </a>
 ### Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: 
-- O365E_ReportsS4BPartActivity
+f1.keywords: 
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BPartActivity
 description: "Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. "
 ---
 
 # Conference participant activity report
 
-As an Office 365 admin, the new **Reports** dashboard shows you data on the usage of the Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and dial-in/out conferences are being participated in by users in your organization.
+The **Reports** dashboard shows you data on the usage of the Microsoft 365 or Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and dial-in/out conferences are being participated in by users in your organization.
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   

@@ -9,6 +9,8 @@ audience: admin
 MS.collection: 
 - M365-collaboration
 ms.reviewer: nakulm
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how Teams supports audio and video in unsupported browsers.
@@ -36,7 +38,8 @@ People who use the Teams web app on unsupported browsers will experience the fol
 - If the call is interrupted, the meeting won't automatically reconnect.
 - Users can't start meetings.
 
+For more information about browser support in Teams, see [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers).
+
 ## Related topics
 
 - [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers)

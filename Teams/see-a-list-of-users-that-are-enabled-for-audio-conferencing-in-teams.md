@@ -1,5 +1,5 @@
 ---
-title: "See a list of users that are enabled for Audio Conferencing in Microsoft Teams"
+title: See a list of users enabled for Audio Conferencing
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,9 +16,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within Microsoft Teams. "
 ---
 

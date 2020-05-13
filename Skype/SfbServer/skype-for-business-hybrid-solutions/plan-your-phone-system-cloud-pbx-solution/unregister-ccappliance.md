@@ -8,6 +8,8 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: "The Unregister-CcAppliance cmdlet unregisters the current Skype for Business Cloud Connector Edition appliance from a PSTN site in the online tenant configuration."
@@ -17,7 +19,7 @@ description: "The Unregister-CcAppliance cmdlet unregisters the current Skype fo
  
 The Unregister-CcAppliance cmdlet unregisters the current Skype for Business Cloud Connector Edition appliance from a PSTN site in the online tenant configuration.
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -28,7 +30,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 The following example unregisters a current appliance from the online tenant configuration:
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -36,7 +38,7 @@ Unregister-CcAppliance
 
 The next example checks the configuration for unregistering locally without connecting to the online tenant configuration:
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -44,7 +46,7 @@ Unregister-CcAppliance -Local
 
 The next example unregisters the current appliance with the name "Appliance1" to PSTN site "Site1":
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

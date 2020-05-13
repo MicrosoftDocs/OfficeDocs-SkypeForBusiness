@@ -8,6 +8,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: "Summary: Learn how to manage Persistent Chat Server categories in Skype for Business Server 2015."
@@ -104,7 +106,7 @@ For complete information about cmdlet syntax, including all parameters, see [Sky
 
 You can create a new category by using the **New-CsPersistentChatCategory** cmdlet. For example, the following command creates a new category named HelpDesk on the pool atl-cs-001.contoso.com. In this example, file upload is enabled:
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -114,7 +116,7 @@ You can configure an existing category by using the **Set-CsPersistentCategory**
   
 For example, the following command specifies that user1 is an AllowedMember and a Creator, while user2 is denied access to the rooms in the category:
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -123,7 +125,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 You can get information about categories by using the **Get-CsPersistentChatCategory** cmdlet. For example, the following command returns information for all the Persistent Chat categories in the organization:
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -131,6 +133,6 @@ Get-CsPersistentChatCategory
 
 You can remove a category by using the **Remove-CsPersistentChatCategory** cmdlet. Before removing a category, you must first either delete all chat rooms under it or move the chat rooms to a new category. For example, the following command removes the category that has the Identity "atl-cs-001.contoso.com\helpdesk":
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

@@ -18,7 +18,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
@@ -36,7 +37,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Microsoft doesn’t sell Audio Conferencing in India. TATA Communications offers a dial-in and dial-out service that is compatible with Microsoft Teams Meetings. For more information, please visit [TATA Communications' website](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Chennai<li> Mumbai</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
@@ -56,6 +57,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Calling Plans are available to purchase?  <br/> |No  <br/> |
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
+
+If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
    
 ## Toll and toll-free numbers for services
 

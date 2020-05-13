@@ -8,6 +8,8 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: "The ErrorReport table stores information about errors that have occurred. Each record is one error occurrence. The errors are captured either by the CDR agent running on the front-end server or sent from the client."

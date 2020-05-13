@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying paired Front End pools for disaster recovery
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying paired Front End pools for disaster recovery
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deploying paired Front End pools for disaster recovery in Lync Server 2013
 
@@ -57,32 +59,32 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
     However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.
 
 8.  On every Front End Server in both pools, run the following:
-    
-        <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
-    
+    ```console
+    <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
+    ```
     This configures other services required for backup pairing to work correctly.
 
 9.  From a Lync Server Management Shell command prompt, run the following:
-    
-        Start-CsWindowsService -Name LYNCBACKUP
-
+    ```powershell
+    Start-CsWindowsService -Name LYNCBACKUP
+    ```
 10. Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
     Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
        ```
 

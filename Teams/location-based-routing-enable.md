@@ -8,12 +8,15 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn how to enable Location-Based Routing for Direct Routing.
+description: Learn how to enable Location-Based Routing for Direct Routing, including enabling it for users, network sites, gateway configurations, and calling policies.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-voice
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Enable Location-Based Routing for Direct Routing
@@ -30,20 +33,58 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 - Gateway configurations
 - Calling policies
 
-## Enable Location-Based Routing for users
+You can use the [Microsoft Team admin center](#using-the-microsoft-teams-admin-center) or [PowerShel](#using-powershell)l to enable Location-Based Routing.
+
+## Using the Microsoft Teams admin center
+
+### Enable Location-Based Routing for users
+
+1. Create a voice routing policy and assign PSTN usages to the policy. When you assign PSTN usages to a policy, make sure you do one of the following:
+
+    - Use PSTN usages associated to voice routes that use a PSTN gateway local to the site.
+    - Use PSTN usages associated to voice routes that use a PSTN gateway located in a region where Location-Based Routing restrictions aren't needed.
+2. Assign the voice routing policy to users who require routing restrictions to be enforced.
+
+To learn more about how to create voice routing policies and assign them to users, see [Manage voice routing policies in Microsoft Teams](manage-voice-routing-policies.md).
+
+### Enable Location-Based Routing for network sites
+
+Enable Location-Based Routing for your sites that need to enforce routing restrictions. To do this, in the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, select a network site, click **Edit**, and then turn on **Location based routing**.  
+
+To learn more, see [Manage your network topology](manage-your-network-topology.md).
+
+### Enable Location-Based Routing for gateways
+
+Enable Location-Based Routing to gateways that route calls to PSTN gateways that route calls to the PSTN, and associate the network site where the gateway is located. 
+
+1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
+2. Select the SBC, and then click **Edit**. 
+3. Under **Location based routing and media optimization**, turn on **Enable location based routing**.
+4. Specify the gateway site ID, and then set the bypass mode.
+5. Click **Save**.
+
+### Enable Location-Based Routing for calling policies
+
+To enforce Location-Based Routing for specific users, set up the user's calling policy to prevent PSTN toll bypass. To do this, turn on the **Prevent toll bypass** setting in the calling policy.
+
+To learn more, see [Calling policies in Teams](teams-calling-policy.md).
+
+## Using PowerShell
+
+### Enable Location-Based Routing for users
 
 1. Use the [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet to set PSTN usages. For multiple usages, separate each usage with a comma.
 
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
     For example:
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 2. Use the [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to create a voice routing policy to associate the user with the appropriate PSTN usages.
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
@@ -53,7 +94,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 
     In this example, we create two new voice routing policies and assign PSTN usages to them. 
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
@@ -65,18 +106,19 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
 
 3. Use the [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to associate online voice routing policies to users who require routing restrictions to be     enforced.
-    ```
+    ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## Enable Location-Based Routing for network sites
+### Enable Location-Based Routing for network sites
+
 1.  Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet to enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions.
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     In this example, we enable Location-Based Routing for the Delhi site and the Hyderabad site. 
 
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
@@ -88,17 +130,18 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     |EnableLocationBasedRouting    |True    |True    |
     |Subnets     |Subnet 1 (Delhi)     |Subnet 2 (Hyderabad)     |
 
-## Enable Location-Based Routing for gateways
+### Enable Location-Based Routing for gateways
+
 1. Use the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet to create a gateway configuration for each gateway or network site. 
 
-    ```
-    New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
+    ```PowerShell
+    New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
     If multiple gateways are associated with a system (for example, Gateway or PBX), modify each gateway to enable Location-Based Routing restrictions. 
 
     In this example, we create one gateway configuration for each gateway. 
-    ```
-    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    ```PowerShell
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignalingPort 5067 
     ```
     For more information, see [Configure Direct Routing](direct-routing-configure.md).
     
@@ -106,18 +149,18 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 
     Enable Location-Based Routing to gateways that route calls to PSTN gateways that route calls to the PSTN, and associate the network site where the gateway is located.
 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
     In this example, we enable Location-Based Routing for each gateway that's associated to PSTN gateways in the Delhi and Hyderabad sites. 
-    ```
-    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
-    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
+    ```PowerShell
+    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
+    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
     Don't enable Location-Based Routing for gateways that don't route calls to the PSTN. However, you still have to associate the gateway to the network site where the system is located. This is because Location-Based Routing restrictions need to be enforced for PSTN calls reaching endpoints that are connected via this gateway. In this example, Location-Based Routing isn't enabled for each gateway that's associated to PBX systems in the Delhi and Hyderabad sites.
 
-    ```
+    ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
  
     Identity: sbc.contoso.com 
@@ -129,7 +172,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     GatewaySiteLbrEnabled: $false 
     ```
 
-    Endpoints connected to systems that don't route calls to the PSTN (for example, a PBX) will have similar restrictions as endpoints of Teams users enabled for Location-Based Routing. This means that these users can place and receive calls to and from Teams users regardless of the user’s location. They can also place and receive calls to and from other systems that don't route calls to the PSTN network (for example, an endpoint connected to a different PBX) regardless of the network site to which the system is associated. All inbound calls, outbound calls, call transfers and call forwarding that involve PSTN endpoints will be subject to Location-Based Routing enforcements. These calls must use only PSTN gateways that are defined as local to such systems. 
+    Endpoints connected to systems that don't route calls to the PSTN (for example, a PBX) will have similar restrictions as endpoints of Teams users enabled for Location-Based Routing. This means that these users can place and receive calls to and from Teams users regardless of the user's location. They can also place and receive calls to and from other systems that don't route calls to the PSTN network (for example, an endpoint connected to a different PBX) regardless of the network site to which the system is associated. All inbound calls, outbound calls, call transfers and call forwarding that involve PSTN endpoints will be subject to Location-Based Routing enforcements. These calls must use only PSTN gateways that are defined as local to such systems. 
 
     The following table shows the gateway configuration of four gateways in two different network sites: two connected to PSTN gateways and two connected to PBX systems. 
 
@@ -140,19 +183,19 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     |PstnGateway:Gateway 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
     |PstnGateway:Gateway 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
-## Enable Location-Based Routing for calling policies
+### Enable Location-Based Routing for calling policies
 
 To enforce Location-Based Routing for specific users, set up the users' voice policy to prevent PTSN toll bypass. 
 
 Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet to enable Location-Based routing by preventing PSTN toll bypass.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 In this example, we prevent PSTN toll bypass to User1's calling policies. 
 
-```
-Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+```PowerShell
+Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
 ## Related topics

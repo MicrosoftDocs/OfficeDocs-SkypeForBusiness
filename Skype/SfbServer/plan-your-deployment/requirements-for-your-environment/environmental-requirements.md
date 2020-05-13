@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -78,7 +80,7 @@ Now, the domain functional level of any domain you deploy Skype for Business Ser
     
 - Windows Server 2003
     
-Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controller available.
+Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controllers available at the same site as the Skype for Business Server.
   
 Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
   
@@ -245,6 +247,9 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
   
 > [!NOTE]
 > Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems. 
+
+> [!NOTE]
+> Skype for Business Server 2015 does not support CNG certificates.
   
 - Encryption key lengths of 1024, 2048, and 4096 are supported. Key lengths of 2048 and greater are recommended.
     
@@ -357,11 +362,10 @@ This SAN needs to be assigned to the certificate that's assigned to the SSL List
 
 Skype for Business Server 2015 is able to use the same file share for all file storage. You do need to keep the following in mind:
   
-- A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/library/jj127250.aspx).
     
-- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [How to create file shares on a cluster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) article will help you with those details.
+- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [How to create file shares on a cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) article will help you with those details.
     
 > [!CAUTION] 
 > You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 
   
-

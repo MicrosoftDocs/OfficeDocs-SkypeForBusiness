@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: "Each record represents one peer-to-peer session, which could be a VoIP-VoIP phone call, two-party IM session, or other type of session. You can perform a table join with the Media table to find the details of each media involved in this session."

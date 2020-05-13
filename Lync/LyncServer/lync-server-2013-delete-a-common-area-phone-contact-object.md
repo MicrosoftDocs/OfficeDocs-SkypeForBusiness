@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete a common area phone Contact object'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a common area phone Contact object
 ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994087(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Delete a common area phone Contact object in Lync Server 2013
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2013-02-20_
 
 You might want to delete the contact object associated with a common area phone. For example, if you remove the phone from an employee lounge, there’s no need to have a contact object associated with that phone. The **Remove-CsCommonAreaPhone** cmdlet provides a way for you to delete common area phone accounts. When you run this cmdlet, the phone is deleted from the list of common area phones returned by **Get-CsCommonAreaPhone**. In addition, the contact object associated with that phone is deleted from Active Directory Domain Services.
 
-Use **Remove-CsCommonAreaPhone** to remove one common area phone or all common area phones that have a common element, such as a display name or country and area code. You can run this cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Use **Remove-CsCommonAreaPhone** to remove one common area phone or all common area phones that have a common element, such as a display name or country and area code. You can run this cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).
 
 <div>
 

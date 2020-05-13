@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: "Summary: Learn how to use Call Detail Recording (CDR) in Skype for Business Server."
@@ -34,7 +36,7 @@ You can view CDR configuration settings by using Windows PowerShell and the Get-
 
 - To view information about all your CDR configuration settings, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 

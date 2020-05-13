@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync client video requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client video requirements
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688132(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Lync client video requirements for Lync Server 2013
 
@@ -64,7 +66,7 @@ Lync 2013 introduces hardware acceleration for video encoding and decoding based
 <div>
 
 > [!NOTE]  
-> For details about decoding modes, see <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
+> For details about decoding modes, see <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
 
 
 </div></td>

@@ -17,7 +17,8 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 Robots: noindex
 ms.custom:
 - Audio Conferencing

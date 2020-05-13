@@ -8,6 +8,8 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: "The Start-CcLogging cmdlet generates the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance."
@@ -17,7 +19,7 @@ description: "The Start-CcLogging cmdlet generates the incoming and outgoing cal
  
 The Start-CcLogging cmdlet generates the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance. 
   
-```
+```powershell
 Start-CcLogging
 ```
 
@@ -32,7 +34,7 @@ None
 
 The following example generates the incoming and outgoing call log:
   
-```
+```powershell
 Start-CcLogging
 ```
 

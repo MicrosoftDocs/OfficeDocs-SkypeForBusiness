@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: "This article describes how to manage services running in a Skype for Business Server topology."
@@ -54,7 +56,7 @@ You can also view service status by using Windows PowerShell and the **Get-CsWin
 
 To view service status on a computer, type a command similar to the following in the Skype for Business Server Management Shell and then press Enter:
   
-```
+```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
 ```
 
@@ -99,7 +101,7 @@ You can use Skype for Business Server Control Panel to start or stop all the Sky
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server. You can determine whether you have been assigned the CsServerAdministrator or the CsAdministrator RBAC role by running a command similar to the following:
     
-   ```
+   ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 

@@ -14,10 +14,11 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_OnlinePresenceDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- O365P_OnlinePresenceDesc
 description: "Learn how to set up Skype for Business so you can see the availability of your co-workers. "
 ---
 
@@ -44,9 +45,9 @@ As the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219
 
 For information about what your users can change in Skype for Business, see these articles:
 
-- [Control access to your presence information in Skype for Business](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Control access to your presence information in Skype for Business](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Set Status options in Skype for Business](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Set Status options in Skype for Business](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## Related topics
 

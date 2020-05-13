@@ -13,12 +13,14 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to use Health Dashboard to monitor the connection between your Session Border Controller and Direct Routing."
 ---
 
 # Health Dashboard for Direct Routing
 
-Health Dashboard for Direct Routing lets you monitor the connection between your Session Border Controller (SBC) and the Direct Routing interface.  With Health Dashboard, you can monitor information about your SBC, the telephony service, and the network parameters between your SBC and the Direct Routing interface. This information can help you identify issues, including the reason for dropped calls. For example, the SBC might stop sending calls if a certificate on the SBC has expired or if there are network issues.  
+Health Dashboard for Direct Routing lets you monitor the connection between your Session Border Controller (SBC) and the Direct Routing interface.  With Health Dashboard, you can monitor information about your SBC, the telephony service, and the network parameters between your SBC and the Direct Routing interface. This information can help you identify issues, including the reason for dropped calls. For example, the SBC might stop sending calls if a certificate on the SBC has expired or if there are network issues. See the [admin roles](using-admin-roles.md) to learn who has access to the health dashboard.
 
 Health Dashboard monitors two levels of information:
 
@@ -48,7 +50,7 @@ Health Dashboard provides the following information related to overall health of
 
    The formula used to calculate NER is:
 
-   NER = Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures x 100
+   NER = 100 x (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures)/Total Calls
 
  
 - **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes.  However, for each company, this average can differ.  Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service is not performing reliably. 
@@ -95,7 +97,7 @@ The detailed view shows the following additional parameters:
 
 - **Concurrent call**- shows  how many concurrent calls the SBC handled. This information is useful to predict the number of concurrent channels you need and see the trend. You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
-- **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network), and look at the Customer Edge to Microsoft Edge recommended values.
+- **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network), and look at the Customer Edge to Microsoft Edge recommended values.
 
    - Jitter – Is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP (The RTP Control Protocol).
 

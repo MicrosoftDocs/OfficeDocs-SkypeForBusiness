@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business - PCs"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482

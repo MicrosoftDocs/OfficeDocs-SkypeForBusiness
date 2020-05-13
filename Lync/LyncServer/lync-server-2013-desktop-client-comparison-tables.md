@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Desktop client comparison tables'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Desktop client comparison tables
 ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Desktop client comparison tables for Lync Server 2013
 
@@ -447,7 +449,6 @@ These tables indicate the features that are available to Lync users in an on-pre
 1 For Skype for Business Online, Microsoft 365, or Office 365 users, Lync 2010 Attendant is not supported.
 
 2 For Skype for Business Online, Microsoft 365, or Office 365 users, this feature is not available.
-
 </div>
 
 <span id="IMSupport"></span>

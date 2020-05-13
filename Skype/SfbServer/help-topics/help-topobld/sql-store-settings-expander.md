@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: "To edit the properties of a SQL Server database, you must change the SQL Server database instance. You cannot use the Edit Properties dialog box to perform tasks such as moving your Archiving Server database from one computer to another. In addition, you cannot use the Edit Properties dialog box to change the instance of SQL Server that hosts the Central Management store."

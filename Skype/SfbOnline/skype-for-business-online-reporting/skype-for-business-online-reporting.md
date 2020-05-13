@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: "Use this reference guide to learn about Skype for Business Online reporting and what info is available. "
@@ -31,7 +32,7 @@ To access the Skype for Business Online reports, log on to the Microsoft 365 adm
   
 ## Skype for Business Online reporting reference
 
-In the Office 365 and Skype for Business admin centers, you can use different types of reports, including those for Skype for Business Online.
+In the admin centers, you can use different types of reports, including those for Skype for Business Online.
   
  **To view the reports**
   

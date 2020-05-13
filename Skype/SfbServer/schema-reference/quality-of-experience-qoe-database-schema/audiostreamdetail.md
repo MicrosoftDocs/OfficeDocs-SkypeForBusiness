@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: "The AudioStreamDetail View stores information about each audio stream in the database. This view was introduced in Microsoft Lync Server 2013."

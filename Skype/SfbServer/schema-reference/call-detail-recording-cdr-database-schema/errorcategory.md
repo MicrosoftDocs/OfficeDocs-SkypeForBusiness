@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: "The ErrorCategory table contains the friendly name for each Skype for Business Server 2015 diagnostic classification. By default, Skype for Business Server 2015 uses the following classifications:"

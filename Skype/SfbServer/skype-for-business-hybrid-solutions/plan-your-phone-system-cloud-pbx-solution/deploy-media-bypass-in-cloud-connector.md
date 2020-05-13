@@ -8,6 +8,8 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -32,7 +34,7 @@ After configuring DNS, connect to Skype for Business Online by using remote Powe
   
 In the PowerShell session, enter the following commands to enable media bypass:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -48,14 +50,14 @@ You can check the media bypass settings as follows.
   
 To check online replication to your tenant pool, run the following command in remote PowerShell:
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 To check the on-premises replication, connect to the Cloud Connector Mediation servers, run the following command in PowerShell, and confirm that Enabled=True and AlwaysBypass=True
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -69,7 +71,7 @@ To check the client settings, sign out of the Skype for Business client, sign ba
 
 Tenant administrators are able to change the DNS name of the web service by running the following cmdlet:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -80,14 +82,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 This scenario might be useful for troubleshooting or maintenance. To disable the service, run the following cmdlets:
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 After making the change, it could take some time for changes to replicate to all Cloud Connectors. To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers: 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -97,7 +99,7 @@ After the changes replicate, the web service on the Mediation Server will start 
 
 To permanently disable media bypass, a tenant administrator needs to run the following commands: 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 	$mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 

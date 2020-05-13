@@ -29,7 +29,7 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
     [**Phone System licenses**](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. The phone system 
     license is included with the Enterprise E5 license, or it can be added to an Enterprise E3 license. Licensing details are at 

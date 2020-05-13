@@ -3,6 +3,8 @@ title: 'Configure the Edge Server for integration with hosted Exchange UM'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure the Edge Server for integration with hosted Exchange UM
 
@@ -40,9 +42,9 @@ To provide your Lync Server 2013 users with voice mail capabilities on hosted Ex
 
 For details, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+  - [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
-  - [New-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398490(v=OCS.15))
+  - [New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))
 
 <div>
 
@@ -130,7 +132,7 @@ For details, see the Lync Server Management Shell documentation for the followin
 [Verify connectivity between internal servers and Edge Servers in Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)  
 
 
-[New-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398490(v=OCS.15))  
+[New-CsHostingProvider](https://technet.microsoft.com/library/Gg398490(v=OCS.15))  
   
 
 </div>

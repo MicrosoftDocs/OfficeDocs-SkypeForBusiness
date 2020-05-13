@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test push notifications to smart phones'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test push notifications to smart phones
 ms:assetid: 8f5ca7d1-1ccb-4cb0-b417-730559e79b6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767948(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Test push notifications to smart phones in Lync Server 2013
 
@@ -145,7 +147,7 @@ At line:1 char:27
 
 The “Push notification request was rejected” message typically occurs if you have enabled URL filtering and are blocking the http: and https: prefixes. You can determine which prefixes are being blocked by using a command similar to the following:
 
-``` 
+```PowerShell 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 

@@ -8,6 +8,8 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: "This section contains sample queries for the Quality of Experience (QoE) database."
@@ -19,13 +21,13 @@ This section contains sample queries for the Quality of Experience (QoE) databas
   
 Use the following example to get the jitter and packet loss average for all audio streams.
   
-```
+```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
 Use the following example to find the total numbers of conferences that used Meeting Console.
   
-```
+```SQL
 select avg(ConversationalMOS)
 from SessionView s
 inner join MediaLineView m
@@ -38,7 +40,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
 
 Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.
   
-```
+```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
 from
 (

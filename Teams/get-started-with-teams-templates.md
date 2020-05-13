@@ -3,7 +3,6 @@ title: Get started with Teams templates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -12,9 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use Teams templates to create a team with predefined channels.
+description: Learn how to use Teams templates to create collaboration spaces with channels for different topics and preinstall apps to provide content and services.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -24,7 +26,7 @@ appliesto:
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions. 
 
-Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
+Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can't create your own template. Rather, you use the pre-built templates. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
  
@@ -70,9 +72,6 @@ By default the base template is set to **Standard** which doesn't contain any ad
 | Healthcare -<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Channels: <ul><li>Announcements\*</li><li>Huddles\*</li><li>Rounds</li><li>Staffing\*</li><li>Training\*</li></ul>\*Auto-favorited channels |
 |Healthcare -<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Human Resources</li></li><li>Pharmacy</li></ul>\*Auto-favorited channel|
 |||
-
-> [!NOTE]
-> We'll be adding more base template types in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
 ## Related topics
 

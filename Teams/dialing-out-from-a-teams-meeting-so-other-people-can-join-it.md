@@ -1,5 +1,5 @@
 ---
-title: "Dialing out from a Microsoft Teams meeting so other people can join it"
+title: "Dialing out from a meeting so other people can join"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,10 +16,12 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn what you need and how meeting organizers can call out to other people using Teams."
+  - seo-marvel-apr2020
+description: Meeting organizers can learn how to dial out using the Teams app to let other people join the same meeting using their phones.
 ---
 
 # Dialing out from a Microsoft Teams meeting so other people can join it

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: "Summary: Learn about the Rate My Call feature in Skype for Business Server."
@@ -46,7 +48,7 @@ The Rate My Call feature is enabled by default in the Client policy with the fol
 
 There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately. The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -109,7 +111,7 @@ The following SQL queries can be used:
 
  **Audio**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -146,7 +148,7 @@ SELECT
 
  **Video**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -185,7 +187,7 @@ SELECT
 
 The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table. To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio. This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

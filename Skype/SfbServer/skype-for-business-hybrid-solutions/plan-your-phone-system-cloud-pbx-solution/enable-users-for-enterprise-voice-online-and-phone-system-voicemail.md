@@ -8,6 +8,8 @@ ms.date: 9/25/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -23,7 +25,7 @@ description: "Learn how to enable Phone System in Office 365 voice services for 
  
 Learn how to enable Phone System in Office 365 voice services for your Skype for Business users.
   
-The final step in deploying Phone System in Office 365 with on-premises PSTN connectivity is to enable your users for Phone System in Office 365 and voicemail. To enable these capabilities, you must be a user with the Office 365 Global Administrator role, and be able to run remote PowerShell. You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.
+The final step in deploying Phone System in Office 365 with on-premises PSTN connectivity is to enable your users for Phone System in Office 365 and voicemail. To enable these capabilities, you must be a user with the Global Administrator role, and be able to run remote PowerShell. You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.
   
 ## Enable Phone System in Office 365 voice services
 
@@ -31,19 +33,19 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
   
 ### To enable your users for Phone System in Office 365 voice and voicemail
 
-1. Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers. If it's not, you can download it from [the download center](https://www.microsoft.com/en-us/download/details.aspx?id=39366). You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers. If it's not, you can download it from [the download center](https://www.microsoft.com/download/details.aspx?id=39366). You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Start Windows PowerShell as an administrator.
     
 3. Type the following and press Enter:
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. Type the following and press Enter:
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -53,13 +55,13 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 6. In the PowerShell window, type the following and press Enter:
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. Import the session by typing the following cmdlet:
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -67,13 +69,13 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     For example:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -109,7 +111,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -117,7 +119,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -128,7 +130,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -145,7 +147,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -153,7 +155,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -164,7 +166,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - Use the Grant-CsVoiceRoutingPolicy to unassign any per-user voice routing policy previously assigned to Ken Myer. After the per-user voice routing policy is unassigned, Ken Myer will automatically be managed by using the global voice routing policy.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

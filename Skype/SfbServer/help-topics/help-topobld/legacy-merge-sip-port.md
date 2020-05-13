@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: "The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select SIP port for all pools and servers: and enter the new value."

@@ -14,8 +14,10 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
-description: Learn how to assign or change an emergency location for users in your organization. 
+f1.keywords:
+- NOCSH
+description: In this article, you will learn about how to assign or change an emergency location for users in your organization.
+ms.custom: seo-marvel-apr2020 
 ---
 
 # Assign or change an emergency location for a user

@@ -1,5 +1,5 @@
 ---
-title: Move your StaffHub teams to Shifts in Microsoft Teams
+title: Move your StaffHub teams to Shifts
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -16,16 +18,17 @@ ms.collection:
   - SPO_Content
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
+> Effective December 31, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. It covers:
+This article walks you through how to move your organization's StaffHub teams and schedule data to Shifts in Teams. It covers:
 
 - [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams)
 - [Prepare](#prepare)
@@ -34,7 +37,7 @@ This article walks you through how to move your organization’s StaffHub teams 
 - [Monitor Teams usage](#monitor-teams-usage)
 - [Troubleshooting](#troubleshooting)
 
-Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+Whether you're a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you'll find the admin guidance you need to help make your transition to Teams successful.
 
 You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have.
 
@@ -70,7 +73,7 @@ Before you move a StaffHub team to Teams, make sure that:
 
 - The signed-in user is a global admin.
 - Teams is enabled for all users in the tenant.
-- Office 365 Groups creation is enabled in the tenant.
+- Microsoft 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
 - The StaffHub team has at least one team owner.
 - The StaffHub team contains members.
@@ -86,7 +89,7 @@ Each user must have an active Microsoft 365 or Office 365 license from [an eligi
 You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Manage user access to Teams](../../user-access.md).
 
 > [!NOTE]
-> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> If your organization uses Skype for Business and you're not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### Install the prerelease version of the StaffHub PowerShell module
 
@@ -107,7 +110,7 @@ These users have inactive accounts and show a user state of Unknown, Invited, or
 
 Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each command should be run separately.
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -185,18 +188,18 @@ Use these steps to move one StaffHub team at a time. We recommend this approach 
 
 Run the following to move a StaffHub team.
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 Example:
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Here's an example of the response you get when you submit a request to move a StaffHub team to Teams.
 
-```
+```console
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -204,18 +207,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 To check the status of a move request, run the following.
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 Example:
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 Here's an example of the response you get when a move is in progress.
 
-```
+```console
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -235,13 +238,13 @@ Download and install the [SharePoint Online Management Shell](https://www.micros
 
 Use the [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) cmdlet to connect to the SharePoint Online team site.
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 For each file that you want to move from StaffHub to Teams, use the [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) cmdlet to move the file.
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -261,15 +264,15 @@ Use these steps to move StaffHub teams in bulk. You can choose to move all your 
 
 Run the following to get a list of all StaffHub teams in your organization.
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 Then, run the following to move all teams.
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -277,7 +280,7 @@ Here's an example of the response.
 
 For any team that was already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
-```
+```console
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -288,7 +291,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 Run the following to get a list of all StaffHub team Ids in your organization.
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -302,7 +305,7 @@ Here's an example of how the CSV file should be formatted.
 
 After you create the CSV file, run the following to move the teams you specified in the CSV file.
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -312,7 +315,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Run the following to get a list of all teams in Shifts in your organization. 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -330,7 +333,7 @@ Usage reports can help you better understand usage patterns and give you insight
 
 Run the following to get more information about "Failure" errors that occur when you try to move a team:
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -342,7 +345,7 @@ You'll see one of the following statuses returned: Success, Failure, InProgress,
 
 If "Failure" is returned, run the following to get more information about the error:
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -362,7 +365,7 @@ This may occur if you're trying to move files in a private Office 365 group that
 
 Run the following command to add the General folder to SharePoint, and then try again:
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

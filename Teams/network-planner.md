@@ -8,21 +8,24 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Learn how to use the Network Planner to determine network requirements for Microsoft Teams.
+description: Admin can learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+  - CSH
+ms.custom: 
   - ms.teamsadmincenter.networkplanner.overview
   - ms.teamsadmincenter.networkplanner.personas
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
 
 # Use the Network Planner for Microsoft Teams
 
-Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Planner** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Planner** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization's physical locations.
 
 ![Screenshot of Network Planner](media/network-planner.png)
 
@@ -63,9 +66,9 @@ Follow these steps to begin building your network plan:
 
 4. Click the plan name to select the new plan.
 
-5. Add sites to create a representation of your organization’s network setup.
+5. Add sites to create a representation of your organization's network setup.
 
-    Depending on your organization’s network, you may want to use sites to represent a building, an office location, or something else. Sites might be connected by a WAN to allow sharing of internet and/or PSTN connections. For best results, create sites with local connections before you create sites that remotely connect to the internet or PSTN.
+    Depending on your organization's network, you may want to use sites to represent a building, an office location, or something else. Sites might be connected by a WAN to allow sharing of internet and/or PSTN connections. For best results, create sites with local connections before you create sites that remotely connect to the internet or PSTN.
 
     To create a site:
 

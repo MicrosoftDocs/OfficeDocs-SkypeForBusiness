@@ -2,7 +2,7 @@
 title: Using Network Planner - example scenario
 metadata:
   title: Using Network Planner - example scenario
-  description: Walk through of using Network Planner to set up a network plan and generate a report.
+  description: This example scenario shows you how to use the Network Planner tool to create sites and personas and run reports.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,6 +15,7 @@ metadata:
   localization_priority: Normal
   ms.collection: 
   - M365-collaboration
+  ms.custom: seo-marvel-apr2020
 items:
 - durationInMinutes: 2
   content: |
@@ -132,7 +133,6 @@ items:
     
     This completes the example scenario for Network Planner. You can [go back to the Network Planner article](network-planner.md), or check out the following resources for more information on getting your organization ready for Teams:
 
-     - [Check your environment's readiness for Teams](environment-readiness.md)
      - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
      - [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
      - [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)

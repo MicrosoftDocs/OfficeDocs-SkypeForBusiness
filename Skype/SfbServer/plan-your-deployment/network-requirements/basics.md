@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: "Windows Server 2016 has built-in software that can provide DNS services, so you may want to review the available documentation such as the DNS Policy Scenario Guide. You can choose a third-party solution if you prefer."

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "A network region route defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network region route."
 ---

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
@@ -89,7 +91,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 - To lock a user's PIN, use the Lock-CsClientPin cmdlet. For example:
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
@@ -97,7 +99,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 - To unlock a user's PIN, use the Unlock-CsClientPin cmdlet. For example:
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 

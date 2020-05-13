@@ -8,6 +8,8 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: "Summary: Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms."

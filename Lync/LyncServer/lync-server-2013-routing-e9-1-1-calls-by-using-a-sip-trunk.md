@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Routing E9-1-1 calls by using a SIP trunk'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using a SIP trunk
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Routing E9-1-1 calls by using a SIP trunk in Lync Server 2013
 

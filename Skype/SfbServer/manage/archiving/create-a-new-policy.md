@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: "Summary: Learn how to create a new archiving policy for Skype for Business Server."
@@ -57,7 +59,7 @@ You can also create new archiving policies by using the Windows PowerShell **New
 
 This command creates a new archiving policy for the Redmond site:
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
@@ -65,7 +67,7 @@ New-CsArchivingPolicy -Identity "site:Redmond"
 
 To create a new archiving policy at the per-user level, simply specify a unique Identity when creating the policy:
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
@@ -73,7 +75,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 Because no parameters (other than the mandatory Identity parameter) were specified in the preceding commands, the new policies will use the default values for all their properties. To create policies that use different property values, simply include the appropriate parameter and parameter value. For example, the following command creates an archiving policy that permits archiving of internal instant messaging sessions: 
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
@@ -81,6 +83,6 @@ New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 
 Multiple property values can be modified by including multiple parameters. For example, this command configures the new policy to archive both internal and external instant messaging sessions:
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```

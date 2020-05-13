@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the Registrar pool column, pool01.contoso.net is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell."
 ---
@@ -39,13 +41,13 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     
 2. At the command line, type the following: 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. Next, at the command line, type the following: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

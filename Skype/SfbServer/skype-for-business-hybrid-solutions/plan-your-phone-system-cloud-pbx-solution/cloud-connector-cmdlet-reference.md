@@ -8,6 +8,8 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: "The following table lists the Skype for Business Cloud Connector Edition cmdlets with a brief description and links to more information."

@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Certification Program — Session Border Controllers"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947483
@@ -26,7 +27,7 @@ These session border controllers that are certified for Skype for Business.
 
 |Vendor |Product |ExUM Support |Software Version |
 |:--- |:--- |:--- |:--- |
-|[Audiocodes](http://www.audiocodes.com/products/microsoft-skype-for-business-sbc)|Mediant 500 E-SBC | | 7.00A.021.013 |
+|[Audiocodes](https://www.audiocodes.com/products/microsoft-skype-for-business-sbc)|Mediant 500 E-SBC | | 7.00A.021.013 |
 | |Mediant 800 E-SBC | | 7.00A.021.013 |
 | |Mediant 800 E-SBC | | 7.00A.021.013 |
 | |Mediant 2600 SBC | |7.00A.021.013 |

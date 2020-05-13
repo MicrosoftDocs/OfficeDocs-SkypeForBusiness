@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: "The public IP address is the IP address that is used by network address translation (NAT). The IP address must be publicly routable. This is required because you selected The external IP address of this Edge pool is translated by NAT option on the Select features page of this wizard."

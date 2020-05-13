@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Learn about procedures for disaster recovery operations, as well as for maintaining the Backup Service, which synchronizes the data in paired Front End pools."
 ---

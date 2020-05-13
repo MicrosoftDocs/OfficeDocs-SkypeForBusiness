@@ -12,11 +12,14 @@ metadata:
   ms.date: 02/09/2019
   ms.service: msteams
   ms.topic: tutorial
+  f1.keywords:
+  - NOCSH
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
     - M365-collaboration
     - Teams_ITAdmin_FLW
+    - remotework
   appliesto:
     - Microsoft Teams
 
@@ -186,7 +189,7 @@ items:
     In this example, we assign the FirstLineWorker app setup policy to all users in the Bellevue Contoso Store 1302 group.
 
     > [!NOTE]
-    > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+    > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
     Get the GroupObjectId of the particular group.
     `$group = Get-AzureADGroup -SearchString "Bellevue Contoso Store 1302"`

@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 - LIL_Placement
@@ -31,7 +32,7 @@ To determine which version of Microsoft PowerShelll you are using, do the follow
     
 2. In the PowerShell console, type the following command and then press ENTER:
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -43,7 +44,7 @@ To determine which version of Microsoft PowerShelll you are using, do the follow
     4.0
     </pre>
 
-    If the returned Version number is 5.1, then you are running Windows PowerShell 5.1. If the returned Version number is not 5.1, then you'll need to install Windows PowerShell 5.1. You can download Windows Management Framework 5.1, which includes Windows PowerShell 5.1, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+    If the returned Version number is 5.1, then you are running Windows PowerShell 5.1. If the returned Version number is not 5.1, then you'll need to install Windows PowerShell 5.1. You can download Windows Management Framework 5.1, which includes Windows PowerShell 5.1, from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=54616).
   
 After you've verified that Windows PowerShell 5.1 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
   
@@ -60,7 +61,7 @@ If you are running Windows 8, complete this procedure instead:
 3. If the **User Account Control** dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.
     
 After PowerShell is running, you must change the execution policy to allow the running of remote scripts. In the PowerShell console, type the following command and then press ENTER:
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
@@ -70,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
  
 To verify that the execution policy has been configured correctly, type the following at the PowerShell prompt and then press ENTER:
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -88,7 +89,7 @@ Before installing Windows Management Framework 5.1:
 
 If you aren't sure which version of Windows you are running, or you aren't sure if you've installed Windows 7 Service Pack 1, click **Start**, right-click **Computer**, and then click **Properties**. This information will be reported in the System dialog box.
   
-To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
+To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
   
 After the computer has rebooted, verify that Windows PowerShell can start and that the application can be run under administrative credentials. To do this:
   
@@ -98,7 +99,7 @@ After the computer has rebooted, verify that Windows PowerShell can start and th
     
 When the PowerShell console appears, you should then verify that the WinRM service is running and has been configured correctly. To verify that the service is running, type the following command at the PowerShell prompt and then press ENTER:
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -112,13 +113,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 If the service Status does not equal "Running", start the WinRM service by typing the following command and then pressing ENTER:
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 After the service has started, run the following command to make sure that WinRM is using Basic authentication:
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

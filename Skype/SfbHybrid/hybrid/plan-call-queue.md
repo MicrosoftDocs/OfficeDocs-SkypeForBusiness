@@ -1,10 +1,12 @@
 ---
 title: "Plan a Cloud call queue"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -24,7 +26,7 @@ In addition, Cloud call queues can provide:
 Each call queue is assigned a **resource account** (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
-> You can assign multiple phone numbers to a call queue, but they must be Microsoft service numbers or hybrid numbers.
+> You can assign multiple phone numbers to a call queue, but they must be Microsoft service numbers, Direct Routing numbers, or hybrid numbers.
 
 ## Requirements
 
@@ -36,7 +38,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud call queues for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
-   For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
 - If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
@@ -58,8 +60,8 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
+[Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)
 
-[Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
+[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)
 
 [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

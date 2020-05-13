@@ -9,14 +9,17 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Learn about calling policy settings in Microsoft Teams.
+description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, as well as various calling policy settings.
 localization_priority: Normal
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 
   - M365-voice
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.callingpolicies.overview
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -52,8 +55,8 @@ Follow these steps to assign a custom calling policy to a user.
 
 1. In the Microsoft Teams admin center, select **Voice** > **Calling policy**.
 2. Click next to the policy name to select it, and then select **Manage users**.
-3. In the **Manage users** pane, search for the user’s name. (You must enter at least three characters.)
-4. Select the user’s name, and then select **Add**.
+3. In the **Manage users** pane, search for the user's name. (You must enter at least three characters.)
+4. Select the user's name, and then select **Add**.
 5. Select **Save**.
 
 ## Calling policy settings
@@ -100,6 +103,10 @@ Setting this to **On** will send calls through the PSTN and incur charges rather
 ### Busy on Busy is available while in a call
 
 Busy on Busy (Busy Options)) is a new setting in Teams calling policies that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
+
+### Allow music on hold
+
+This settings allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It is turned on by default. This setting does not apply to call park and boss delegate features, and is only available via powershell currently. 
 
 ## See also
 

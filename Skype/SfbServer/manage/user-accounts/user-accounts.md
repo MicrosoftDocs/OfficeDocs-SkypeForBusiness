@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: "The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server."
@@ -16,7 +18,7 @@ description: "The sections in this article describe how to enable, temporarily d
 
 The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server.
 
-For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).
+For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/library/cc753730%28v=ws.11%29.aspx).
 
 These procedures should be performed during a maintenance window, when Skype for Business usage is lowest. Whether this is done on a daily or weekly schedule will be determined by the needs of your organization.
 
@@ -114,7 +116,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 - To temporarily disable a user account, set the value of the Enabled property to False ($False). For example:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -122,7 +124,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 - To re-enable a disabled user account, set the value of the Enabled property to True ($True). For example:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -184,7 +186,7 @@ You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can
 ### To remove a user account
 To remove a user account, use the Disable-CsUser cmdlet. For example:
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

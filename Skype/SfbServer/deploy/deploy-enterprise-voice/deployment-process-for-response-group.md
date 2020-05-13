@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -80,7 +82,7 @@ To modify the Web.config file, do the following:
 
 3. Add the following  `<machineKey>` section to in the `<system.web>` section:
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -88,7 +90,7 @@ To modify the Web.config file, do the following:
 
 5. Restart the Internet Information Services (IIS) service by running the following command at a command prompt:
 
-   ```
+   ```console
    iisreset
    ```
 

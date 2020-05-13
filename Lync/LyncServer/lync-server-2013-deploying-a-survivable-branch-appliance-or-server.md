@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying a Survivable Branch Appliance or Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying a Survivable Branch Appliance or Server
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deploying a Survivable Branch Appliance or Server with Lync Server 2013
 

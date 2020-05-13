@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: "Summary: Learn about the Diagnostic Report in Skype for Business Server."
@@ -53,6 +55,6 @@ The following table lists the information provided in the Diagnostic Report for 
 |**Conference join times (ms)** <br/> |No  <br/> |Amount of time (in milliseconds) it took for the user to join the conference.  <br/> |
 |**Diagnostic header** <br/> |No  <br/> |Diagnostic ID description.  <br/> |
    
-A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
   
 

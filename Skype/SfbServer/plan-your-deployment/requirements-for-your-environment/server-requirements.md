@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -67,7 +69,10 @@ Once you have the hardware in place, you'll need to install operating systems (O
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
 |Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
    
-If it's not on this list, it won't work properly, please don't try it for new installs of Skype for Business Server 2015.
+If it's not on this list, it won't work properly, please don't try it for new installations of Skype for Business Server 2015.
+
+> [!NOTE]
+> In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
   
 > [!NOTE]
 > You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach the end of its support lifecycle on 1/14/2020.
@@ -177,7 +182,7 @@ There are some things you're going to need to install or configure for any serve
 |**Software/Role**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.  <br/> |
-|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it. <br/> |
+|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/> • .NET 4.7.2 (for Skype for Business Server CU 6 or later releases)  <br/>  • .NET 4.8 (for Skype for Business Server CU 9 or later releases) <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it. <br/> |
 |Media Foundation  <br/> |For Windows Server 2016, Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2015.  <br/> • For Windows Server 2012 and Windows Server 2012 R2, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's checked, you're good. Otherwise select it and click Next to reach the **Install** button. <br/> |
 |Remote Server Administration Tools  <br/> |Role Administration Tools: AD DS and AD LDS tools  <br/> |
@@ -196,7 +201,7 @@ There are some things you're going to need to install or configure for any serve
 
 To help you out, here's a sample PowerShell script you can run to automate this:
 
-```
+```PowerShell
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
 
@@ -258,7 +263,7 @@ IIS, with the following modules selected:
   
 And we have some PowerShell code below for this too:
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 

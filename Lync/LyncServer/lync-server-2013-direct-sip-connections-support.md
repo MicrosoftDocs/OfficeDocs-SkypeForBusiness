@@ -3,6 +3,8 @@ title: Lync Server 2013 direct SIP connections support
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP connections support
 ms:assetid: 2107b5b1-b619-4c10-a7db-81d0b9c7f8bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398289(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Direct SIP connections support in Lync Server 2013
 
@@ -38,7 +40,7 @@ Lync Server 2013 supports the use of direct SIP connections to connect Lync Serv
 
 The Mediation Servers in a Lync Server 2013 pool can control multiple gateways, Session Border Controllers (SBCs) provided by telephony service providers, or some combination thereof. Additionally, multiple Mediation Servers in the pool can interact with a single gateway.
 
-You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services. For details, see the Microsoft Unified Communications Open Interoperability Program website at [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).
+You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services. For details, see the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).
 
 For details about the topology and deployment options for direct SIP connections, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) in the Planning documentation.
 

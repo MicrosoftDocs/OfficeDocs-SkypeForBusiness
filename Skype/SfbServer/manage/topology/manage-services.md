@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Learn how to view service status, start and stop services, and prevent sessions for services."
 ---
@@ -52,11 +54,13 @@ You can also view service status by using Windows PowerShell and the Get-CsWindo
 
 To view service status on a computer, type a command similar to the following in the Skype for Business Server Management Shell, and then press Enter:
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 This command returns information similar to the following:
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running
@@ -68,7 +72,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-For details, see [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+For details, see [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
 
 ## Start or stop Skype for Business services
 
@@ -78,7 +82,9 @@ Use the Skype for Business Server Control Panel to start or stop all the Skype f
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server. You can determine whether you have been assigned the CsServerAdministrator or the CsAdministrator RBAC role by running a command similar to the following:
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start the Skype for Business Server Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. In the left navigation bar, click **Topology**, and then click **Status**.

@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Small and Medium Businesses"
+title: Teams templates for Small and Medium Businesses
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -10,10 +10,13 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ms.reviewer: lavenkat
-description: Get started with Teams templates for Small and Medium Businesses
+description: Use Microsoft Teams predefined templates to quickly and easily create teams for small and medium businesses.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Get started with Teams templates for Small and Medium Businesses
@@ -66,7 +69,7 @@ Content-Type: application/json
 {
     "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('SmallBusinessExecutive')",
     "displayName": "Executive",
-    "description": "All posts, announcements and daily collaboration and communication for the company’s leadership team.",
+    "description": "All posts, announcements and daily collaboration and communication for the company's leadership team.",
     "visibility": "Private"
 }
 ```

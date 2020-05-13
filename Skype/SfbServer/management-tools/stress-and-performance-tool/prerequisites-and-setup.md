@@ -8,6 +8,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
@@ -50,11 +52,11 @@ The supported operating systems for the Stress and Performance Tool are:
     
 Additionally, computers need to meet the following software requirements:
   
-- You'll need the Microsoft .NET 4.5 Framework installed. [Download the .Net 4.5 Framework here.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- You'll need the Microsoft .NET 4.5 Framework installed. [Download the .Net 4.5 Framework here.](https://www.microsoft.com/download/details.aspx?id=30653)
     
 - You'll need the Desktop Experience feature enabled in Windows.
     
-- You'll need Microsoft Visual C++ 2013 (x64) installed. [Download Visual C++ 2013 here](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- You'll need Microsoft Visual C++ 2013 (x64) installed. [Download Visual C++ 2013 here](https://www.microsoft.com/download/details.aspx?id=40784)
     
 - You're going to need Skype for Business Server 2015 successfully deployed.
     

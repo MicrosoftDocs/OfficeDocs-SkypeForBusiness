@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Install prerequisite software on Edge Servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install prerequisite software on Edge Servers
 ms:assetid: 94091993-7c61-4cf0-9b33-5dce6c663ccd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398751(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Install prerequisite software on Edge Servers for Lync Server 2013
 

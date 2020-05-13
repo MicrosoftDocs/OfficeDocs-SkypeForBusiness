@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Best practices for Lync Server environments'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for Lync Server environments
 ms:assetid: b0e45d84-09c8-4d3e-aad0-bc6f34ce233b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720348(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Best practices for Lync Server 2013 environments
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2014-08-04_
 
 The following general principles should be applied to ongoing operations of your system:
 
-  - **Understand and utilize MOF**   MOF is a collection of best practices, principles, and models that provide organizations technical guidance about the management of IT assets, such as daily Lync Server 2013 operations. Following MOF guidelines can help you achieve mission-critical production system reliability, availability, supportability, and manageability for Microsoft products. For more information, see [Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Understand and utilize MOF**   MOF is a collection of best practices, principles, and models that provide organizations technical guidance about the management of IT assets, such as daily Lync Server 2013 operations. Following MOF guidelines can help you achieve mission-critical production system reliability, availability, supportability, and manageability for Microsoft products. For more information, see [Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939).
 
   - **Learn about best practices for Lync Server 2013**   We recommend that you implement practical and proven procedures to manage Lync Server 2013. By using tried, tested, and documented methods of managing operations may be more efficient than developing your own methods.
 
@@ -97,7 +99,7 @@ Review the following topics concerning system operations before proceeding:
 ## See Also
 
 
-[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

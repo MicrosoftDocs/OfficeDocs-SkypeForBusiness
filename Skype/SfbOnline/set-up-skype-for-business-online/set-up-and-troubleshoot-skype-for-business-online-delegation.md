@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: "This article explains how to set up and troubleshoot Skype for Business Online delegation. This article gives you guidance for setup recommendations, best practices, and troubleshooting steps."
@@ -134,7 +135,7 @@ If the setup is successful, the delegate should see the **You were added as a de
   
 - Creating a security group and adding delegation permissions for that security group isn't supported.
     
-- MAPI is unavailable. See ["MAPI unavailable" error in Skype for Business 2016 client](https://support.microsoft.com/en-us/help/3147130).
+- MAPI is unavailable. See ["MAPI unavailable" error in Skype for Business 2016 client](https://support.microsoft.com/help/3147130).
     
 - The Exchange Online mailbox isn't accessible through the Skype for Business client. If this occurs, run the [Outlook connectivity test](https://testconnectivity.microsoft.com/) to make sure that it passes.
     

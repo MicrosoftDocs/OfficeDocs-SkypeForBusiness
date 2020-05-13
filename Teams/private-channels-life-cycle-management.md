@@ -11,6 +11,8 @@ audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -61,7 +63,7 @@ As an admin, you can use PowerShell or Graph API to create a private channel on 
 ### Using PowerShell
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### Using Graph API
@@ -88,18 +90,18 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## Find SharePoint URLs for all private channels in a team
 
-Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a line-of-business app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.
+Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a custom app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.
 
 As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 ### Using PowerShell
 
 1. Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the group Id of the team. (You can easily find the group Id in the link to the team.)
+2. Run the following, where &lt;group_id&gt; is the Group ID of the team. (You can easily find the Group ID in the link to the team.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -109,7 +111,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following to get the list of private channel Ids for a given team, where <group_id> is the group Id of the team. You'll need this in subsequent calls. (You can easily find the group Id in the link to the team).
+1. Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team. You'll need this in subsequent calls. (You can easily find the group ID in the link to the team).
 
     **Request**
 
@@ -139,7 +141,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     }
     ```
 
-2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel Id.
+2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.
 
     **Request**
 
@@ -177,46 +179,23 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 ### Using PowerShell
 
-1. Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.
-
-    **Request**
+1. Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **Response**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
-3. Promote a member to an owner.
+2. Promote a member to an owner.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### Using Graph API
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.
+1. Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.
 
     **Request**
 
@@ -252,7 +231,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
           ]
     }
     ```    
-2. 	Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
+2.     Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
@@ -287,7 +266,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
 ### Install the latest Teams PowerShell module from the PowerShell Test Gallery
 
-The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.
+The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.21) from the PowerShell Test Gallery.
 
 > [!NOTE]
 > Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.

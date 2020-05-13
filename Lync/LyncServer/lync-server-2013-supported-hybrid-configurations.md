@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported hybrid configurations'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Supported Lync Server 2013 hybrid configurations
 
@@ -30,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2016-05-10_
 
-You can configure Lync Server 2013 deployments for integration with both Microsoft Exchange Server 2010 and Microsoft Exchange Server 2013 and SharePoint Server, both on-premises and online. The features listed in the following table are supported with all clients unless otherwise specified. For more information about client support, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) and Skype for Business Online client comparison tables at [Clients for Skype for Business Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+You can configure Lync Server 2013 deployments for integration with both Microsoft Exchange Server 2010 and Microsoft Exchange Server 2013 and SharePoint Server, both on-premises and online. The features listed in the following table are supported with all clients unless otherwise specified. For more information about client support, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) and Skype for Business Online client comparison tables at [Clients for Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=281902).
 
 <div>
 
@@ -134,7 +136,7 @@ The following table lists the features supported in a hybrid deployment when int
 <li><p>Missed Conversations history and Call Logs are written to user’s exchange mailbox</p></li>
 <li><p>Archiving Content (IM and Meeting) in Exchange.</p>
 <p>For more information, see <a href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</a></p></li>
-<li><p>Search archived content. For more information, see at <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange for SharePoint eDiscovery Center</a></p></li>
+<li><p>Search archived content. For more information, see at <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange for SharePoint eDiscovery Center</a></p></li>
 <li><p>Voice mail. For more information, see <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">Providing Lync Server 2013 users voice mail on hosted Exchange UM</a></p></li>
 </ul></td>
 </tr>

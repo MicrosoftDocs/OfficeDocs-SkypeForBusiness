@@ -17,10 +17,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
+f1.keywords:
+ - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
+  - ms.teamsadmincenter.audioconferencing.bridgesettings
+  - seo-marvel-mar2020
+description: Change audio conferencing bridge settings, including entry and exit notifications, play names or phone numbers, tones, and prompt callers to record their name.
 ---
 
 # Change the settings for an Audio Conferencing bridge
@@ -82,7 +85,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 **Set the PIN length for meetings**
   
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
     
@@ -95,7 +98,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 **Select whether to send email to your users**
   
-1. Sign in to Office 365 with your work or school account.
+1. Sign in with your work or school account.
     
 2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
     

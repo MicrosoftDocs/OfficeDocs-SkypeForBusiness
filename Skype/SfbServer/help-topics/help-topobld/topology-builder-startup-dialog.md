@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: "You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment. On startup, Topology Builder displays a dialog that asks what the source of the topology document will be. You select one of three options:"

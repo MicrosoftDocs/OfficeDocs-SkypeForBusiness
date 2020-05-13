@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using Lync-Skype connectivity as an end user'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Lync-Skype connectivity as an end user
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Using Lync-Skype connectivity in Lync Server 2013 as an end user
 
@@ -69,7 +71,7 @@ Lync-Skype Connectivity enables Skype users and Lync users to add each other as 
 
 6.  The user will now appear as a contact in Lync. Select the user, right-click the user name, and click **See Contact Card** to view the user properties. You can now establish an audio or video call with the newly added Skype user.
 
-For additional information on support for contacts, see [Add a contact in Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
+For additional information on support for contacts, see [Add a contact in Lync](https://support.office.com/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
 
 When a Skype user’s Microsoft account uses a custom domain name, such as <strong>bob@contoso.com</strong> , a Lync user can add that Microsoft account to Lync in two ways:
 

@@ -1,7 +1,7 @@
 ---
 title: "E-911 services for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947484
@@ -39,8 +40,8 @@ Learn more about E911 services here: <a href="https://technet.microsoft.com/libr
 |Company | Qualified Product|
 |:----|:----|
 |[West](https://www.west.com/safety-services/enterprise/microsoft/)|Emergency Gateway (EGW) |
-|[Audiocodes](http://www.audiocodes.com/microsoft) | Mediant Gateway &amp; SBA version 6.4 |
-|[Sonus](http://www.sonus.net/solutions/enterprise/microsoft-lync) |SBC 1000 &amp; SBC 2000 |
+|[Audiocodes](https://www.audiocodes.com/microsoft) | Mediant Gateway &amp; SBA version 6.4 |
+|[Sonus](https://www.sonus.net/solutions/enterprise/microsoft-lync) |SBC 1000 &amp; SBC 2000 |
 |      |         |
 
 <br>

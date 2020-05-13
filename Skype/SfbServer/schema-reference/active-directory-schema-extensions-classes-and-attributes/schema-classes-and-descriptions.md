@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: "This section describes all the schema classes used by Skype for Business Server ."

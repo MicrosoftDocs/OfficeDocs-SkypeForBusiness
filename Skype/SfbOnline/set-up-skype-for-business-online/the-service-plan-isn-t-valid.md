@@ -15,10 +15,11 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.ServicePlanNotValid
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.ServicePlanNotValid
 description: "See where to assign a valid service plan for a user after a Skype for Business Online service plan isn't valid error. "
 ---
 

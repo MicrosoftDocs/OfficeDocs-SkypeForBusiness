@@ -16,10 +16,12 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Calling Plans
-description: "The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization."
+  - seo-marvel-mar2020
+description: Learn about the Office 365 default caller ID (a user's assigned telephone number), also known as Calling Line ID. You can change or block a user's caller ID.
 ---
 # Set the Caller ID for a user
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -71,7 +73,7 @@ To learn more about these settings and how you can use them, go [How can caller 
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
     
    > [!NOTE]
    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.

@@ -8,6 +8,8 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
@@ -33,13 +35,13 @@ The Centralized Logging Service can be run at a scope that includes a single com
 
 To configure the Centralized Logging Service scope by using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups. To return a list of all the RBAC roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
 For example:
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -62,7 +64,7 @@ Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Ce
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -76,7 +78,7 @@ Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to cre
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -LocalStore
    ```
 
@@ -87,13 +89,13 @@ When you use the first example where **Get-CsClsConfiguration** does not specify
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
     For example, to retrieve the scenarios that is defined at the global scope:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
@@ -104,13 +106,13 @@ The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a p
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    For example:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
    ```
 
@@ -121,13 +123,13 @@ The command tells the CLSAgent on each computer and pool in the deployment to se
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    For example:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
    ```
 
@@ -141,7 +143,7 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
    ```
 
@@ -150,7 +152,7 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
 
 For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:
 
-  ```
+  ```PowerShell
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
@@ -161,13 +163,13 @@ You should carefully plan the creation of new configurations and how you define 
 
 2. Type the following at the command-line prompt:
 
-   ```
+   ```PowerShell
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
 For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:
 
-  ```
+  ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 

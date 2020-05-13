@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 description: "The Device table is a supporting table that stores information about the various capture or render devices. Each record in the table represents one device."

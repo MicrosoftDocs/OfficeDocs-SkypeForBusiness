@@ -3,6 +3,8 @@ title: Lync Server 2013 accessibility
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Accessibility in Lync Server 2013
 
@@ -42,7 +44,7 @@ The following features in Lync Server 2013 help make it more accessible for peop
 
   - Alternate text for figures
 
-In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities. Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell. For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).
+In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities. Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell. For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964).
 
 </div>
 
@@ -149,7 +151,7 @@ The following sections provide information about the features, products, and ser
 
 
 > [!NOTE]  
-> The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.
+> The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.
 
 
 
@@ -159,13 +161,13 @@ The following sections provide information about the features, products, and ser
 
 ## Accessibility features of Windows
 
-The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For details about these features, see Windows Help or Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).
 
   - **Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer. This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.
     
-    To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+    To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).
 
-  - **Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities. You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+  - **Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities. You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).
     
     If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.
 
@@ -175,7 +177,7 @@ The Windows operating system has many built-in accessibility features that are u
 
 ## Documentation in alternative formats
 
-If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).
 
 In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D). RFB\&D distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.
 
@@ -204,7 +206,7 @@ In addition, you can obtain additional Microsoft publications from Recording for
 
 Microsoft wants to provide the best possible experience for all our customers, including people with disabilities. If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.
 
-[Contact the Disability Answer Desk](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[Contact the Disability Answer Desk](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 Direct Telephone Line: 1-800-936-5900
 
@@ -226,7 +228,7 @@ If you're deaf or hard-of-hearing, complete access to Microsoft product and cust
 
   - For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M. and 6:00 P.M. Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 A.M. and 8:00 P.M. Eastern Time, Monday through Friday, excluding holidays.
 
-Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used. For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).
+Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used. For details, see Microsoft Support at [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142).
 
 </div>
 
@@ -236,7 +238,7 @@ Microsoft Support Services are subject to the prices, terms, and conditions in p
 
 ## For more information
 
-For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).
 
 </div>
 

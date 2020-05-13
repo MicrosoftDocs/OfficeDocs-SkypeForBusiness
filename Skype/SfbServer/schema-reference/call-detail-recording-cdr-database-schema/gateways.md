@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: "The Gateways table is a supporting table. Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database."

@@ -16,9 +16,11 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Licensing
+  - seo-marvel-apr2020
 description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. "
 ---
 
@@ -31,15 +33,15 @@ You will need to set up Communications Credits if you would like to use toll-fre
   
 ## Step 1: Assign an Audio Conferencing or Calling Plan license to your users
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
+When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   
-- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     > [!NOTE]
     > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or a **Domestic and International Calling Plan** license.
@@ -50,11 +52,11 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
   
 ## Step 2: Set up Communications Credits for your organization
 
-1. Sign in to the new Office 365 portal with your work or school account.
+1. Sign in to the [Microsoft 365 admin center](https://portal.office.com/Adminportal) with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
+2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
-3. Expand **Add-on subscriptions**, and then choose **Communications Credits** > **Buy now**.
+3. Select **Communications Credits**.
     
 4. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
     
@@ -83,16 +85,19 @@ When you are setting up Communications Credits, you will need to investigate cal
   
 ## Step 3: Assign a Communications Credits license to users
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in to the [Microsoft 365 admin center](https://portal.office.com/Adminportal) with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user from the list.
     
-3. In the Action pane under **Product licenses**, click **Edit**.
+3. Choose **Licenses and Apps**.
     
-4. On the **Product licenses** page, toggle **Communications Credits** to **On** to assign this license, and then click **Save**.
+4. Toggle **Communications Credits** to **On** to assign this license, and then select **Save**.
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
+
+    > [!TIP]
+    > You can use [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) to assign licenses and apps to multiple users with one command.
   
 ## Want to know about plans and pricing?
 

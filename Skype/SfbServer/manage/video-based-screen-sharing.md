@@ -8,6 +8,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: "Skype for Business Server planning and configuration information for Video-based Screen Sharing (VbSS)"
@@ -15,7 +17,7 @@ description: "Skype for Business Server planning and configuration information f
 
 # Video based Screen Sharing for Skype for Business Server 
  
-Video-based Screen Sharing (VbSS) in Skype For Business Server 2015 is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS is included with Skype for Business Server 2019.
+Video-based Screen Sharing (VbSS) in Skype For Business Server 2015 is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS is included with Skype for Business Server 2019.
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, will make use of User Datagram Protocol (UDP).
   
@@ -57,7 +59,7 @@ You should also be aware that some fidelity/crispness of your shared content has
 If QoS is enabled for the following media ports and VbSS is also enabled, during a conference that includes desktop sharing the AS MCU will use the video port settings shown in bold below for the screen share traffic. 
   
 > [!IMPORTANT]
-> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). For application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
+> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/library/gg405409%28v=ocs.15%29.aspx). For application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
   
 **Application Server QoS/VbSS required settings**
 
@@ -136,13 +138,13 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
 
 - You can assign a user policy that doesn't allow VbSS to any users who shouldn't be using VbSS by running this cmdlet in the Skype for Business Management Console (replace [PolicyName] with the policy you're doing this for):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - You also can update the global conferencing policy, which will affect all users without an assigned policy:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -150,7 +152,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
     
 - If you need to turn VbSS off completely, you can run this command:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -163,13 +165,13 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
 
 - You can assign a specific user policy that allows VbSS to any users who need to be using VbSS by running this cmdlet in the Skype for Business Management Console (replace [PolicyName] with the policy you're doing this for):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - You also can update the global conferencing policy, which will affect all users without an assigned policy:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -177,7 +179,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
     
 - If you need to turn VbSS back on after turning it off (it's on by default), you can run this command:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
@@ -188,6 +190,6 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   
 ## See also
 
-[Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
+[Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   
-[Video-based screen-sharing (VBSS) is available in Skype for Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
+[Video-based screen-sharing (VBSS) is available in Skype for Business Server 2015](https://support.microsoft.com/kb/3170163)

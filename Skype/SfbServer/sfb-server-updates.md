@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skype-for-business-server
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
@@ -25,6 +27,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| March 2020 |
 |Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2019 |
 |Skype for Business Server 2019 Cumulative Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
 |Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
@@ -69,7 +72,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 |Package Name/Link|Release Date|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  May 2015       |
-|[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   May 2015      |
+|[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)     |   May 2015      |
 |[Skype for Business Server 2015, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  June 2019       |
 |||
 
@@ -112,14 +115,14 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name/Link|Release Date|
 |:--- |:--- |
-|[Unified Communications Managed API 4.0 Runtime Cumulative Update](https://www.microsoft.com/en-us/download/details.aspx?id=36826) |July 2013 |
-|[Lync Server 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=35456) |February 2013|
-|[Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824)|March 2014|
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/en-us/download/details.aspx?id=35453)|January 2014|
-|[Lync Server 2013 Persistent Chat Server SDK](https://www.microsoft.com/en-us/download/details.aspx?id=35458)|October 2013|
-|[Unified Communications Managed API 4.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=35463)|February 2013|
-|[Unified Communications Managed API 4.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=34992)|October 2012|
-|[UC Enhanced Presence Schemas for Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35452)|October 2012|
+|[Unified Communications Managed API 4.0 Runtime Cumulative Update](https://www.microsoft.com/download/details.aspx?id=36826) |July 2013 |
+|[Lync Server 2013 SDK](https://www.microsoft.com/download/details.aspx?id=35456) |February 2013|
+|[Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824)|March 2014|
+|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453)|January 2014|
+|[Lync Server 2013 Persistent Chat Server SDK](https://www.microsoft.com/download/details.aspx?id=35458)|October 2013|
+|[Unified Communications Managed API 4.0 SDK](https://www.microsoft.com/download/details.aspx?id=35463)|February 2013|
+|[Unified Communications Managed API 4.0 Runtime](https://www.microsoft.com/download/details.aspx?id=34992)|October 2012|
+|[UC Enhanced Presence Schemas for Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35452)|October 2012|
 
 #### Pre-configured VHDs
 
@@ -127,9 +130,9 @@ The complete topology consists of 7 virtual machines that enable you to fully ev
 
 Package Name/Link|Release Date|
 |:--- |:--- |
-|[Test Drive - Lync Server 2013 - Part 1 of 3](https://www.microsoft.com/en-us/download/details.aspx?id=40266) |September 2013 |
-|[Test Drive - Lync Server 2013 - Part 2 of 3](https://www.microsoft.com/en-us/download/details.aspx?id=40267) |September 2013 |
-|[Test Drive - Lync Server 2013 - Part 3 of 3](https://www.microsoft.com/en-us/download/details.aspx?id=40265) |September 2013 |
+|[Test Drive - Lync Server 2013 - Part 1 of 3](https://www.microsoft.com/download/details.aspx?id=40266) |September 2013 |
+|[Test Drive - Lync Server 2013 - Part 2 of 3](https://www.microsoft.com/download/details.aspx?id=40267) |September 2013 |
+|[Test Drive - Lync Server 2013 - Part 3 of 3](https://www.microsoft.com/download/details.aspx?id=40265) |September 2013 |
 
 ### Lync 2013 Tools
 
@@ -137,24 +140,24 @@ Package Name/Link|Release Date|
 |:--- |:--- |
 |[Lync Connectivity Analyzer (32-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |June 2017 |
 |[Lync Connectivity Analyzer (64-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |June 2017 |
-|[Lync Server 2013 Best Practices Analyzer](https://www.microsoft.com/en-us/download/details.aspx?id=35455) |October 2012 |
-|[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/en-us/download/details.aspx?id=36828) |July 2013 |
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/en-us/download/details.aspx?id=35453) |January 2014 |
-|[Lync Server 2013 Management Pack](https://www.microsoft.com/en-us/download/details.aspx?id=35842) |May 2016 |
-|[Lync Server 2013 Persistent Chat Resource Kit](https://www.microsoft.com/en-us/download/details.aspx?id=36827) |July 2013 |
-|[Lync Server 2013 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=36823) |July 2013 |
-|[Lync Server 2013 Resource Kit Tools](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |January 2014 |
-|[Lync Server 2013 Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |March 2013 |
-|[Lync Server 2013 Whiteboard Archiving Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |February 2013 |
-|[Lync VDI 2013 plugin (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |October 2012 |
-|[Lync VDI 2013 plugin (64-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |October 2012 |
-|[New Office Visio Stencil](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |July 2016 |
+|[Lync Server 2013 Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=35455) |October 2012 |
+|[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=36828) |July 2013 |
+|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453) |January 2014 |
+|[Lync Server 2013 Management Pack](https://www.microsoft.com/download/details.aspx?id=35842) |May 2016 |
+|[Lync Server 2013 Persistent Chat Resource Kit](https://www.microsoft.com/download/details.aspx?id=36827) |July 2013 |
+|[Lync Server 2013 Planning Tool](https://www.microsoft.com/download/details.aspx?id=36823) |July 2013 |
+|[Lync Server 2013 Resource Kit Tools](https://www.microsoft.com/download/details.aspx?id=36821) |January 2014 |
+|[Lync Server 2013 Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=36819) |March 2013 |
+|[Lync Server 2013 Whiteboard Archiving Viewer](https://www.microsoft.com/download/details.aspx?id=36822) |February 2013 |
+|[Lync VDI 2013 plugin (32-bit)](https://www.microsoft.com/download/details.aspx?id=35457) |October 2012 |
+|[Lync VDI 2013 plugin (64-bit)](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
+|[New Office Visio Stencil](https://www.microsoft.com/download/details.aspx?id=35772) |July 2016 |
 
 ### Lync 2013 downloadable documentation
 
 Package Name/Link|Release Date|
 |:--- |:--- |
-|[Lync Server 2013 Documentation Help File](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|August 2015 |
+|[Lync Server 2013 Documentation Help File](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
 
 * * *
 
@@ -164,6 +167,7 @@ Package Name/Link|Release Date|
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2010 Cumulative Update 18 Hotfix 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |June 2019|
 |Lync Server 2010 Cumulative Update 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |January 2019|
 |Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
 |Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
@@ -225,7 +229,7 @@ Package Name/Link|Release Date|
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|January 2011 |
 |[Lync Server 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|January 2011 |
 |[Lync Server 2010 Planning Tool Readme](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|January 2011 |
-|[Lync Server 2010 Edge Server Reference Architecture Diagrams](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|March 2011 |
+|[Lync Server 2010 Edge Server Reference Architecture Diagrams](https://www.microsoft.com/download/details.aspx?id=13791)|March 2011 |
 
 ### Resource kit (technical reference)
 
@@ -243,8 +247,8 @@ Package Name/Link|Release Date|
 
 Package Name/Link|Release Date|
 |:--- |:--- |
-|[VHD Test Drive - Lync Server 2010 (Eval) - Part 1 of 2](https://www.microsoft.com/en-us/download/details.aspx?id=26217) |September 2012 |
-|[VHD Test Drive - Lync Server 2010 (Eval) - Part 2 of 2](https://www.microsoft.com/en-us/download/details.aspx?id=34602) |September 2012 |
+|[VHD Test Drive - Lync Server 2010 (Eval) - Part 1 of 2](https://www.microsoft.com/download/details.aspx?id=26217) |September 2012 |
+|[VHD Test Drive - Lync Server 2010 (Eval) - Part 2 of 2](https://www.microsoft.com/download/details.aspx?id=34602) |September 2012 |
 
 * * *
 

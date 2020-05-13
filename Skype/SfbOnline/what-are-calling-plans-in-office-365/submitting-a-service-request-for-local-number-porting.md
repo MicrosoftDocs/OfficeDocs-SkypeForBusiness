@@ -16,10 +16,11 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: "If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. "
 ---
 

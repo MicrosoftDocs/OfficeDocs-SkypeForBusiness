@@ -6,12 +6,14 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
 - M365-collaboration
 description: Learn about team expiration and renewal and how to use Office 365 Group expiration policy to automatically clean up unused teams in Microsoft Teams.
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 ---

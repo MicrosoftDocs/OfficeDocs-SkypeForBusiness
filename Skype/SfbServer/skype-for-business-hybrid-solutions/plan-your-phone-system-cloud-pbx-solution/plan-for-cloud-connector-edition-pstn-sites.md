@@ -8,6 +8,8 @@ ms.date: 3/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid

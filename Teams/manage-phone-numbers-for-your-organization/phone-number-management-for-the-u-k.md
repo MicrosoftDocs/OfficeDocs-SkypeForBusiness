@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in the United Kingdom (U.K.) for Microsoft Teams."

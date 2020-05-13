@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Certification Program - Gateways"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947483
@@ -28,7 +29,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 
 |Vendor  |Product  |Software Version  |
 |:---------|:---------|:---------|
-|[Audiocodes](http://www.audiocodes.com/products/microsoft-skype-for-business-gateway)|   Mediant 1000 |  v7.00A.021.013 |
+|[Audiocodes](https://www.audiocodes.com/products/microsoft-skype-for-business-gateway)|   Mediant 1000 |  v7.00A.021.013 |
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)| SBC 2000 | 4.1.1 Build 376 &Dagger;  |
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business) |  SBC 1000 | 6.1.0  |
 |      |         |         |
@@ -45,6 +46,6 @@ Learn about [Skype for Business certification](overview.md).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
+To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.
+An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) is included in this version.

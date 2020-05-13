@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
@@ -24,7 +25,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E5
 
-The [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business features. There are just a few additional options.
+The [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business features. There are just a few additional options.
   
 |||
 |:-----|:-----|

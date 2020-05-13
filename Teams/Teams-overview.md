@@ -12,7 +12,9 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto: 
   - Microsoft Teams
@@ -31,7 +33,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 ## Teams architecture
 
-Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Teams keeps working even when you're offline or experiencing spotty network conditions.
+Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Teams keeps working even when you're offline or experiencing spotty network conditions.
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -52,21 +54,26 @@ To customize and extend Teams, add third-party apps through [apps, bots, and con
 
 ## Managing Teams
 
-As the admin, you'll manage Teams through the Microsoft Teams admin center. To learn more:
+As the admin, you'll manage Teams through the Microsoft Teams admin center. For a quick orientation, watch the Manage Teams using the Teams admin center video (3:03 min):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+To learn more:
+
 - [Use Teams admin roles to manage Teams](using-admin-roles.md)
 - [Manage Teams in the Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 - [Manage Teams during the transition to the new Teams admin center](manage-teams-in-modern-portal.md)
-- [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
+- [Manage Teams features in your Microsoft 365 or Office 365](enable-features-office-365.md)
 
-To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
+To stay on top of what's coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). You'll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
 ## Upgrade from Skype for Business to Teams
 Teams is the primary client for intelligent communications in Office 365, and it'll eventually replace Skype for Business Online. To stay on top of new features coming to Teams, see the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
-If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
+If you're running Skype for Business and are ready to upgrade to Teams, or if you're running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
 
 ## Teamwork and Office 365
-Every team is different; there’s no one-size-fits-all approach to collaboration. Office 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
+Every team is different; there's no one-size-fits-all approach to collaboration. Office 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 When deciding which Office 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
 
@@ -88,7 +95,7 @@ See a [weekly list of Teams topics that have been updated](teams-updates.md).
 
 ## Teams known issues
 
-See [Known issues for Teams](Known-issues.md).
+See [Support Teams in your organization](Known-issues.md).
 
 ## Teams client release notes
 

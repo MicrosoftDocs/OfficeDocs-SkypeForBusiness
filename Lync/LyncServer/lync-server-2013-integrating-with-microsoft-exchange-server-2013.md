@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Integrating with Microsoft Exchange Server 2013'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013
 
@@ -44,7 +46,7 @@ This is especially true with the release of Microsoft Lync Server 2013 and Micro
 
 Keep in mind that these new features require the use of both Lync Server 2013 and Exchange 2013. In addition to that, users who hope to take full advantage of these new capabilities must have accounts on Lync Server 2013 and Exchange 2013, and must be using the latest versions of the client software (e.g., Lync 2013). For example, the unified contact store is not available to users who have been homed on Lync Server 2010; likewise, high-resolution photos cannot be displayed in Lync 2010.
 
-This documentation provides information on integrating Lync Server 2013 and Exchange 2013. including step-by-step information on enabling new features such archiving Integration and the unified contact store. What this documentation does not do is discuss the initial setup and configuration of these two products. For details about deploying Lync Server 2013 see the Lync Server 2013 Tech Center at [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127). For details about deploying Exchange 2013 see the Exchange 2013 Tech Center at [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528).
+This documentation provides information on integrating Lync Server 2013 and Exchange 2013. including step-by-step information on enabling new features such archiving Integration and the unified contact store. What this documentation does not do is discuss the initial setup and configuration of these two products. For details about deploying Lync Server 2013 see the Lync Server 2013 Tech Center at [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127). For details about deploying Exchange 2013 see the Exchange 2013 Tech Center at [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528).
 
 <div>
 

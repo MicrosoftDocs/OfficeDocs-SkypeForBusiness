@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365E_ReportsS4BClients
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
-description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business device usage report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. Check out Activity Reports in the admin center to learn more."
+- O365E_ReportsS4BClients
+description: "The Reports dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business device usage report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. Check out Activity Reports in the admin center to learn more."
 ---
 
 # Device usage report
 
-The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business device usage** report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. 
+The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business device usage** report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. 
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
@@ -40,7 +41,7 @@ This report, along with the other Skype for Business reports, gives you details 
     
      ![Skype for Business device usage report widget](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    Depending on the Office 365 subscription you have, you might not see all the products and activity reports shown here.
+    Depending on the Microsoft 365 or Office 365 subscription you have, you might not see all the products and activity reports shown here.
     
 ## Interpret the Skype for Business device usage report
 

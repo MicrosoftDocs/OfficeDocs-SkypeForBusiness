@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -37,7 +39,7 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
 
 - To view information about all of your PSTN usages, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 

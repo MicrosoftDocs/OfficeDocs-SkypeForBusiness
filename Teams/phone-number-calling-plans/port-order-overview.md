@@ -12,8 +12,10 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview​
+f1.keywords: 
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview​
 - Calling Plans
 description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
 ---
@@ -28,7 +30,9 @@ Review the information in this article to get familiar with number porting. Afte
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+Currently, [the porting wizard](transfer-phone-numbers-to-teams.md) in the Microsoft Teams admin center supports getting phone numbers for the United Kingdom, United States, and Canada. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md).
   
 ## What numbers can be transferred?
 

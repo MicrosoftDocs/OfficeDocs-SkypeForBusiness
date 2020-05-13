@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "The topics in this section describe tasks you must complete prior to moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment."
 ---

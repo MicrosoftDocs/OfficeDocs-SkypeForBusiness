@@ -1,5 +1,5 @@
 ---
-title: Users can make outbound calls to these countries and regions
+title: Make outbound calls to these countries/regions
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,11 +17,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
   - Calling Plans
+  - seo-marvel-mar2020
 description: "This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan."
 ---
 
@@ -47,7 +49,7 @@ description: "This topic contains all of the countries/regions that users can pl
 |Azerbaijan |Georgia |Korea, Republic of |Monaco | Russian Federation |United States (U.S.)  |
 |Bahamas |Germany |Kuwait |Mongolia |Rwanda | Uruguay |
 |Bahrain |Ghana |Kyrgyzstan |Montenegro | Saint Kitts and Nevis |Uzbekistan  |
-|Bangladesh |Gialtar |Lao |Montserrat | Saint Lucia |Vatican City State  |
+|Bangladesh |Gibraltar |Lao |Montserrat | Saint Lucia |Vatican City State  |
 |Barbados |Greece |Latvia |Morocco |Saint Vincent and the Grenadines |Venezuela   |
 |Belarus |Greenland |Lebanon |Mozambique | San Marino |Viet Nam  |
 |Belgium |Grenada |Lesotho |Myanmar | Saudi Arabia | Virgin Islands (British) |

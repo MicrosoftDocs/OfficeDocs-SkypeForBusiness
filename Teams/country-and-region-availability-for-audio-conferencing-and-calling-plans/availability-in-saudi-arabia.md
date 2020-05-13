@@ -18,7 +18,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
   - Phone System
@@ -56,14 +57,16 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Calling Plans are available to purchase?  <br/> |No  <br/> |
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
+
+If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
    
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Riyadh  <br/> |
-|Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll-free numbers available?  <br/> |No  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> | Not applicable  <br/> |
+|Are toll numbers available?  <br/> |No  <br/> |
+|Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

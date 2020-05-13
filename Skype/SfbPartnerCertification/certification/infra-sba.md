@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Certification Program - Survivable Branch Appliance"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947483
@@ -32,7 +33,7 @@ The survivable branch appliances (SBAs) along with the relevant firmware shown i
 		<td valign="top"><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="http://www.audiocodes.com/survivable-branch-appliance-sba">Audiocodes</a></td>
+		<td rowspan="2"> <a href="https://www.audiocodes.com/survivable-branch-appliance-sba">Audiocodes</a></td>
 		<td valign="top">Mediant 800B SBA</td>
 		<td valign="top">
 			<p>SBA/OS Version: 6.3.9600</p>

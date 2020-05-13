@@ -7,6 +7,8 @@ ms.reviewer: qingy
 audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Provides IT Pros with links to the latest update information for perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients"
@@ -18,7 +20,7 @@ Use the links on this page to get more information about and download the most r
 
 > [!NOTE]
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
-> - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Office 365 ProPlus.
+> - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Microsoft 365 Apps for enterprise.
 > - For the latest mobile client updates, go to the app store for your mobile client (iTunes, Google Play, or Microsoft Store) to view details and install updates.
 > - To find out what version of Skype for Business you're using, see [What version of Skype for Business do I have?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - For more information about installing Office updates, see [Install Office updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
@@ -39,6 +41,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 |Package Name|KB Number|Release Date|
 |:---  |:---  |:---  |
+|Update for Skype for Business 2016 |[KB 4484133](https://support.microsoft.com/kb/4484133) | December 2019|
 |Update for Skype for Business 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | October 2019|
 |Update for Skype for Business 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | September 2019|
 |Update for Skype for Business 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | August 2019|
@@ -54,7 +57,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Update for Skype for Business 2016 |[KB 4092445](https://support.microsoft.com/kb/4092445/) | October 2018|
 |Update for Skype for Business 2016 |[KB 4032255](https://support.microsoft.com/kb/4032255/) | August 2018|
 |Security update for Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221) | July 2018 |
-|Update for Skype for Business 2016 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | June 2018|
+|Update for Skype for Business 2016 |[KB 4022155](https://support.microsoft.com/help/4022155) | June 2018|
 |Update for Skype for Business 2016 |[KB 4018367](https://support.microsoft.com/kb/4018367) | May 2018|
 |Update for Skype for Business 2016 |[KB 4018323](https://support.microsoft.com/kb/4018323) | April 2018|
 |Update for Skype for Business 2016 |[KB 4011725](https://support.microsoft.com/kb/4011725) | March 2018|

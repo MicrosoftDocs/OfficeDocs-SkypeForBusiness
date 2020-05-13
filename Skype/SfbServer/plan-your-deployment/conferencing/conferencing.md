@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: "Summary: Read this topic to learn about conferencing features and capabilities in Skype for Business Server."
@@ -129,7 +131,7 @@ The size of meetings that Skype for Business Server can support depends on wheth
     
 For more information about managing large meetings, see [Plan for large meetings in Skype for Business Server](large-meetings.md).
   
-If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, an online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
+If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, an online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 organization. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## Determine your organizations needs
 

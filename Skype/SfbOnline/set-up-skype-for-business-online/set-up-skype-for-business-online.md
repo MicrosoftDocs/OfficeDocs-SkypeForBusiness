@@ -14,28 +14,29 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365E_SkypeforBusinessON
-- O365M_SkypeforBusinessON
-- O365P_SkypeforBusinessON
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
+- O365E_SkypeforBusinessON
+- O365M_SkypeforBusinessON
+- O365P_SkypeforBusinessON
 description: "Learn to set up your domain, users, IM and presence for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
 ---
 
 # Set up Skype for Business Online
 
-You must have Office 365 global admin permissions to set up Skype for Business. If you have a firewall or proxy server that restricts access to parts of the web, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
+You must have global admin permissions to set up Skype for Business. If you have a firewall or proxy server that restricts access to parts of the web, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
 
 ## Setting up Skype
 
-Looks like you need help setting up Skype with your Office 365 subscription. You can follow the steps in this article to get your setup completed.
+Looks like you need help setting up Skype with your Microsoft 365 or Office 365 subscription. You can follow the steps in this article to get your setup completed.
 
 ## 1. Plan for Skype for Business
 
-If you have **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** or **Business Essentials**, you can use Skype for Business to make online calls to other people in your business who are on your subscription. For example, if your business has 10 people, you'll be able to [Start using Skype for Business for IM and online meetings](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) each other, and [Meetings with Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) using Skype for Business after performing the steps 2-6 below. And you can [Set up a Skype for Business meeting in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) to online meetings, too!
+If you have **[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** or **Business Essentials**, you can use Skype for Business to make online calls to other people in your business who are on your subscription. For example, if your business has 10 people, you'll be able to [Start using Skype for Business for IM and online meetings](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) each other, and [Meetings with Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) using Skype for Business after performing the steps 2-6 below. And you can [Set up a Skype for Business meeting in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) to online meetings, too!
 
 If you want to use Skype for Business to make and receive **calls** from people *external*  to your business:
 
@@ -50,11 +51,11 @@ To learn more, see [Plan your setup of Office 365 for business](https://support.
 
 Skype for Business Online is part of the Office 365 suite of services. To set up Skype for Business Online, you need to sign in to Office 365. Here's how you do that:
 
-1. Locate your Office 365 user ID (for example,  <em>rob@fourthcoffee.com</em>  ). You received an email from the Microsoft Online Services Team that contains the Office 365 user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
+1. Locate your Microsoft 365 or Office 365 user ID (for example,  <em>rob@fourthcoffee.com</em>  ). You received an email from the Microsoft Online Services Team that contains the Microsoft 365 or Office 365 user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
 
-    ![An example of the welcome email you received after you signed up for Skype for Business Online. It contains your Office 365 user id.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
+    ![An example of the welcome email you received after you signed up for Skype for Business Online. It contains your Microsoft 365 or Office 365 user id.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Sign in to the [admin center](https://admin.microsoft.com) and enter your Office 365 user ID and password. 
+2. Sign in to the [admin center](https://admin.microsoft.com) and enter your Microsoft 365 or Office 365 user ID and password. 
 
 ## 3. Set up your domain and users
 <a name="bkmk_users"> </a>
@@ -97,7 +98,7 @@ For instructions, see [Configure presence in Skype for Business Online](configur
 
 To use Skype for Business on your PC, Mac, or mobile device, you and other people in your business have to first install the Skype for Business download on your devices.
 
-- [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Instructions for how to download the app from the Office 365 portal, and install it on your PC or Mac.
+- [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Instructions for how to download the app from the Microsoft 365 admin center, and install it on your PC or Mac.
 
 - [Deploy the Skype for Business client in Office 365](deploy-the-skype-for-business-client-in-office-365.md): Instructions for deploying the app in a large enterprise.
 

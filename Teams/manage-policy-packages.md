@@ -12,10 +12,14 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: 
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams.
+description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
 # Manage policy packages in Microsoft Teams
@@ -23,6 +27,8 @@ description: Learn how to use and manage policy packages in Microsoft Teams.
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of the policies in the package to meet your organization's needs.
+
+Policy packages aren't available for US Government Cloud Community (GCC) organizations.
 
 ## What is a policy package?
 
@@ -32,19 +38,26 @@ Teams currently includes the following policy packages.
 
 |**Package name**  |**Description** |
 |---------|---------|
-|Education_Teacher package     |Creates a set of policies and policy settings that apply to teachers.      |
-|Education_PrimaryStudent package    |Creates a set of policies and policy settings that apply to primary students.|
-|Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply to secondary students.         |
-|Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students.|
-|SmallMediumBusiness_BusinessVoice package    |Creates an app setup policy that includes the apps for a business voice experience.|
+|Education (Higher education student)    |Creates a set of policies and policy settings that apply to higher education students.|
+|Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
+|Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
+|Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
+|Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
+|Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
+|Healthcare patient room (preview)  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
+|Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
+|Small and medium business user (without Business Voice) |Creates a set of policies and policy settings that apply to small and medium sized business users without any Business Voice features.|
+|Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
+
+
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
-For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
+For example, when you assign the Education (Teacher) policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
-![Screenshot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
+![Screenshot of the Education (Teacher) policy package](media/policy-packages-education_teacher.png)
 
 ## How to use policy packages
 

@@ -440,7 +440,7 @@
         - name: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database
           href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
         - name: Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database
-          href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+          href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
       - name: Lync Server 2010 metropolitan site resiliency
         href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
     - name: Planning for manageability and virtualization
@@ -610,7 +610,7 @@
           href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
           items:
           - name: Certificate summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
-            href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+            href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
           - name: Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
             href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
           - name: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
@@ -3029,7 +3029,7 @@
         - name: Remove BackCompatSite
           href: ../remove-backcompatsite.md
     - name: Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server
-      href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+      href: ../migrate-to-lync-server-2013-persistent-chat-server.md
       items:
       - name: Standard migration scenario - high-level
         href: ../standard-migration-scenario-high-level.md
@@ -3959,9 +3959,9 @@
         href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
         items:
         - name: Creating an Archiving policy to enable or disable Archiving of Internal or external communications for specific sites or users
-          href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+          href: ../lync-server-2013-create-archiving-policy-sites-users.md
         - name: Changing an Archiving policy to enable or disable Archiving of internal or external communications for your organization, sites, or users
-          href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+          href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
         - name: Applying an Archiving policy to users
           href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
         - name: Setting up policies for Archiving when using Exchange Server integration
@@ -3978,7 +3978,7 @@
         - name: Enabling or disabling the purging of archived data
           href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
         - name: Enabling or disabling critical mode to block or allow IM and web conferencing sessions if Archiving fails
-          href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+          href: ../lync-server-2013-enable-disable-critical-mode.md
         - name: Enable or disable sending an Archiving disclaimer to federated partners
           href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
         - name: Enabling or disabling integration with Exchange storage
@@ -3996,7 +3996,7 @@
         href: ../lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
-          href: https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15)
+          href: https://technet.microsoft.com/library/Gg398518(v=OCS.15)
       - name: Managing server-to-server authentication (OAuth) and partner applications
         href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4831,9 +4831,9 @@
       - name: Changes made by domain preparation
         href: ../lync-server-2013-changes-made-by-domain-preparation.md
       - name: Changes made by Grant-CsSetupPermission
-        href: https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15)
+        href: https://technet.microsoft.com/library/Gg398569(v=OCS.15)
       - name: Changes made by Grant-CsOUPermission
-        href: https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15)
+        href: https://technet.microsoft.com/library/Gg425739(v=OCS.15)
   - name: Lync Server Management Shell
     href: ../lync-server-2013-lync-server-management-shell.md
   - name: Lync Server 2013 Tools

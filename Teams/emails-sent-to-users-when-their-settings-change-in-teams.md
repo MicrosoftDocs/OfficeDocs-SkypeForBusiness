@@ -1,5 +1,5 @@
 ---
-title: "Emails sent to users when their settings change in Microsoft Teams"
+title: "Emails sent to users when their settings change"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,9 +15,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change in Microsoft Teams. "
 ---
 
@@ -29,7 +31,7 @@ By default, there are four types of email that will be sent to your users who ar
 
 - **An Audio Conferencing license is assigned to them or when you are changing the audio conferencing provider to Microsoft.**
 
-     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) or [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md) or [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
     > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
@@ -58,7 +60,7 @@ By default, there are four types of email that will be sent to your users who ar
   
 - **A user's license is removed or when audio conferencing provider changes from Microsoft to other provider or None.**
 
-    This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
+    This happens when the **Audio Conferencing** license is removed from a user or when setting the audio conferencing provider to **None**.
 
     See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 

@@ -1,5 +1,5 @@
 ---
-title: Turn on inline message translation in Microsoft Teams
+title: Turn on inline message translation
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -12,9 +12,12 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use inline translation in Microsoft Teams.
+description: Learn how to turn on inline translation in Microsoft Teams using the Microsoft Teams admin center or PowerShell.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

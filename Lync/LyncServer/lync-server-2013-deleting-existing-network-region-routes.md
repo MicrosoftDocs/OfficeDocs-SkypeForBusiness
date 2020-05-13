@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deleting existing network region routes'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting existing network region routes
 ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deleting existing network region routes in Lync Server 2013
 
@@ -67,7 +69,7 @@ Every region within a call admission control (CAC) configuration must have some 
 [Creating or modifying network region routes in Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
 
-[Configure a Network Region Route](https://technet.microsoft.com/en-us/library/gg133706\(v=ocs.15\))  
+[Configure a Network Region Route](https://technet.microsoft.com/library/gg133706\(v=ocs.15\))  
 
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  

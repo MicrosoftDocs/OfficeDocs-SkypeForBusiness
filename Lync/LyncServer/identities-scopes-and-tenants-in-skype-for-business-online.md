@@ -3,6 +3,8 @@ title: Identities, scopes, and tenants in Skype for Business Online
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Identities, scopes, and tenants in Skype for Business Online
 
@@ -82,7 +84,7 @@ You might also have two users: Ken Myer and Pilar Ackerman. Ken Myer has been as
 
 As you can see, Ken Myer is allowed to communicate with public IM providers. This is because the settings in the per-user policy assigned to him override the settings in the global policy. Pilar Ackerman cannot communicate with public IM providers. This is because she is managed by the global policy, and the global policy prohibits such communications.
 
-Per-user policies must be created for you by Office 365 Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
+Per-user policies must be created for you by Microsoft Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
 
     Identity : tag:AllowPublicIMCommunication
 

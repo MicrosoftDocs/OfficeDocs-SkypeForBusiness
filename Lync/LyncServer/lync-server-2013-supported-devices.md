@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported devices'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported devices
 ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Supported devices in Lync Server 2013
 
@@ -42,7 +44,7 @@ Lync Server supports all of the phones listed in the following table. Note that 
 
 </div>
 
-For detailed comparison tables about all devices that are optimized to work with Lync, see "Phones and Devices Qualified for Microsoft Lync" at <http://go.microsoft.com/fwlink/p/?linkid=208938>. The phone comparison tables at this website include pricing information and technical specifications.
+For detailed comparison tables about all devices that are optimized to work with Lync, see "Phones and Devices Qualified for Microsoft Lync" at <https://go.microsoft.com/fwlink/p/?linkid=208938>. The phone comparison tables at this website include pricing information and technical specifications.
 
 
 <table>
@@ -82,32 +84,32 @@ For detailed comparison tables about all devices that are optimized to work with
 <tr class="odd">
 <td><p>Polycom CX300 USB desk phone</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX500 IP common area phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> at the Polycom website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX600 IP desk phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX700 IP desk phone</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> at the Polycom website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX3000 IP conference phone</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> at the Polycom website</p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX5000 USB conferencing device</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> at the Polycom website</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> at the Polycom website</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,7 +119,7 @@ For detailed comparison tables about all devices that are optimized to work with
 
 
 > [!NOTE]  
-> Support for analog devices is also provided. For details, see <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planning to Deploy Analog Devices</A> in the Lync Server 2010 TechNet Library. (Lync Phone Edition works the same way in Lync Server 2013 and Lync Server 2010).
+> Support for analog devices is also provided. For details, see <A href="https://go.microsoft.com/fwlink/p/?linkid=257502">Planning to Deploy Analog Devices</A> in the Lync Server 2010 TechNet Library. (Lync Phone Edition works the same way in Lync Server 2013 and Lync Server 2010).
 
 
 

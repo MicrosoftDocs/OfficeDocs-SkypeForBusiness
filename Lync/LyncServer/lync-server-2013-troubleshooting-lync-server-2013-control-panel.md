@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Troubleshooting Lync Server 2013 Control Panel'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting Lync Server 2013 Control Panel
 ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Troubleshooting Lync Server 2013 Control Panel
 
@@ -48,7 +50,7 @@ Lync Server Control Panel requires that Microsoft Silverlight browser plug-in ve
 
 </div>
 
-If your Internet browser blocks installation of Silverlight due to security considerations, add the Uniform Resource Locator (URL) that opens Lync Server Control Panel to the list of trusted sites. In Internet Explorer security settings, ensure that **Run ActiveX controls and plug-ins** is set to **Enabled**. For details, see [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060). Furthermore, ensure that the browser is configured to use SSL 3.0.
+If your Internet browser blocks installation of Silverlight due to security considerations, add the Uniform Resource Locator (URL) that opens Lync Server Control Panel to the list of trusted sites. In Internet Explorer security settings, ensure that **Run ActiveX controls and plug-ins** is set to **Enabled**. For details, see [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060). Furthermore, ensure that the browser is configured to use SSL 3.0.
 
 If the Internet browser is configured to use a proxy server, verify that the browser is configured to bypass the proxy server for sites that are automatically detected as internal sites. Or, add the address to the browser's exception list in the proxy server configuration settings.
 

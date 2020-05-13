@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Web server and services cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web server and services cmdlets
 ms:assetid: 07ce7fd4-4068-4957-9cb9-fd121b43858c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415631(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Web server and services cmdlets in Lync Server 2013
 
@@ -41,88 +43,88 @@ The following is a list of cmdlets that relate directly to managing Web Servers 
 **Web Servers and Services**
 
   - <span></span>  
-    [New-CsSimpleUrl](https://technet.microsoft.com/en-us/library/Gg398180(v=OCS.15))
+    [New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398392(v=OCS.15))
+    [Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))
 
   - <span></span>  
-    [New-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg425813(v=OCS.15))
+    [New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398515(v=OCS.15))
+    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg412991(v=OCS.15))
+    [Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSimpleUrlEntry](https://technet.microsoft.com/en-us/library/Gg425902(v=OCS.15))
+    [New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebOrigin](https://technet.microsoft.com/en-us/library/JJ950236(v=OCS.15))
+    [New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsWebServer](https://technet.microsoft.com/en-us/library/Gg398759(v=OCS.15))
+    [Set-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg425751(v=OCS.15))
+    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))
 
   - <span></span>  
-    [New-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398440(v=OCS.15))
+    [New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398266(v=OCS.15))
+    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))
 
   - <span></span>  
-    [Set-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398396(v=OCS.15))
+    [Set-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebTrustedCACertificate](https://technet.microsoft.com/en-us/library/Gg412746(v=OCS.15))
+    [New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsKerberosAccount](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+  - [Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
-  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
 </div>
 
@@ -131,7 +133,7 @@ The following is a list of cmdlets that relate directly to managing Web Servers 
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

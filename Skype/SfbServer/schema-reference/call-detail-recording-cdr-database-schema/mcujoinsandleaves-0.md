@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: "The McuJoinsAndLeaves view stores information about users join and leave information for one conference server. Each record in this view contains call details about one combination of a user join or leave and conferencing server. This view was introduced in Microsoft Lync Server 2013."

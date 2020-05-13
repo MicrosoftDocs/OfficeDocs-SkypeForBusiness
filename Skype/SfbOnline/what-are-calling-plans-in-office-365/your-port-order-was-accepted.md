@@ -16,10 +16,11 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans 
+- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: "What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. "
 ---
 

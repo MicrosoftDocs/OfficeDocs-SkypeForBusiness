@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: "This node shows the fully qualified domain name (FQDN) of this Microsoft SQL Server and the instance of SQL Server on that server, and the pools or servers that use this SQL Server. You can perform the following actions:"

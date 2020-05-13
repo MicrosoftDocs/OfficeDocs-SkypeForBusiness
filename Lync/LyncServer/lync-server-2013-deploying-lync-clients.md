@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Lync clients'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync clients
 ms:assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204827(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Deploying Lync clients in Lync Server 2013
 
@@ -34,7 +36,7 @@ Lync 2013 introduces a different approach to client deployment. In a departure f
 
   - **Office 2013 Windows Installer** is a Windows Installer-based installation package that consists of multiple MSI files. A language-neutral core MSI package is combined with one or more language-specific packages to make a complete product. Setup assembles the individual packages and performs customization and maintenance tasks during and after installation of Office on users' computers. The topics in this section describe how to use and customize the Office 2013 Windows Installer to deploy Lync 2013.
 
-  - **Office 2013 Click-to-Run** is an installation program that streams Office setup files to the user from the Microsoft 365 admin center​. Administrators can customize installation by using the Office Deployment Tool for Click-to-Run. Because Office 2013 Click-to-Run is primarily used in the Microsoft 365 environment, this installation method is not described in detail in this section. Detailed information about using and customizing Click-to-Run installation is available in the Office 2013 Resource Kit documentation. Administrators can also download the Office 2013 Click-to-Run program and language source files to an on-premises location, which is useful when you want to minimize the demand on the network or prevent users from installing software from the Internet because of corporate security requirements.
+  - **Office 2013 Click-to-Run** is an installation program that streams Office setup files to the user from the Microsoft 365 admin center. Administrators can customize installation by using the Office Deployment Tool for Click-to-Run. Because Office 2013 Click-to-Run is primarily used in the Microsoft 365 environment, this installation method is not described in detail in this section. Detailed information about using and customizing Click-to-Run installation is available in the Office 2013 Resource Kit documentation. Administrators can also download the Office 2013 Click-to-Run program and language source files to an on-premises location, which is useful when you want to minimize the demand on the network or prevent users from installing software from the Internet because of corporate security requirements.
 
 The topics in this section focus on how to deploy clients by using the Office 2013 MSI-based installer. Your primary reference should be the Office 2013 Resource Kit documentation, which describes in detail how to prepare your infrastructure, customize setup, and deploy Office 2013. However, you should use the Office documentation in conjunction with topics in this section, which point out deployment considerations that are specific to Lync 2013.
 

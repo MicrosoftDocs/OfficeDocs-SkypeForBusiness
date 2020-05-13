@@ -7,9 +7,13 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: "In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking Action in the toolbar, or by clicking a task in the Actions pane and then clicking Edit Properties, and changing any of the following options:"

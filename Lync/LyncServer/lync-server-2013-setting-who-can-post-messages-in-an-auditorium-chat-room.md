@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Setting who can post messages in an auditorium chat ro
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting who can post messages in an auditorium chat room
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215873(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Setting who can post messages in an auditorium chat room in Lync Server 2013
 

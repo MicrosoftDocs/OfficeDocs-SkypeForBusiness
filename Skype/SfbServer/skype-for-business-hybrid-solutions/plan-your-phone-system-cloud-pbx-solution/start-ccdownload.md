@@ -8,6 +8,8 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: "The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously."
@@ -19,7 +21,7 @@ The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edi
   
 With Cloud Connector version 2.0 and later, you can also specify the DownloadBitsOnly parameter.
   
-```
+```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
 ```
 
@@ -30,7 +32,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 The following example downloads the Cloud Connector bits and msi file synchronously from the Cloud Connector public download site:
   
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -38,7 +40,7 @@ Start-CcDownload
 
 The next example downloads the Cloud Connector bits and msi file synchronously from a private download site:
   
-```
+```powershell
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 ```
 
@@ -46,7 +48,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 The third example downloads the Cloud Connector bits and msi file synchronously from a private download site.
   
-```
+```powershell
 Start-CcDownload -DownloadBitsOnly
 ```
 

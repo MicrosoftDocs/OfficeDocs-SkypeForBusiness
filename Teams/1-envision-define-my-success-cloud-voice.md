@@ -1,5 +1,5 @@
 ---
-title: Define success in Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing - Microsoft Teams
+title: Audio Conferencing, Calling Plans, or Direct Routing
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -9,13 +9,16 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
+description: Defining success for the deployment of Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing for your organization.
 ms.collection: 
   - M365-voice
   - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Define my success
@@ -24,11 +27,11 @@ This article gives an overview of the requirements for defining success for the 
 
 <!--ENDOFSECTION-->
 
-**Audio Conferencing** provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, private branch exchange (PBX), or mobile phones. This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
+**Audio Conferencing** provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, private branch exchange (PBX), or mobile phones. This is useful when the organizer or participants aren't in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that's readily accessible to them.
 
-**Phone System with Calling Plans (“Calling Plans”)** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on. With Calling Plans, Microsoft facilitates connectivity to the PSTN.
+**Phone System with Calling Plans ("Calling Plans")** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on. With Calling Plans, Microsoft facilitates connectivity to the PSTN.
 
-**Phone System Direct Routing (“Direct Routing”)** gives organizations the same benefits listed above for Calling Plans, except that PSTN connectivity is facilitated by a third-party provider rather than Microsoft. This allows for deployment in countries where Calling Plans aren’t available, or in deployments where an existing PSTN service provider contract needs to be maintained or interoperability with certain on-premises systems is required. One additional scenario to consider Direct Routing is telephony system interoperability. While users are being transitioned to Calling in Teams, some users might remain on legacy PBXs. Direct Routing enables both use cases to coexist. The call traffic between the users on legacy systems and Teams users stay within the organization.
+**Phone System Direct Routing ("Direct Routing")** gives organizations the same benefits listed above for Calling Plans, except that PSTN connectivity is facilitated by a third-party provider rather than Microsoft. This allows for deployment in countries where Calling Plans aren't available, or in deployments where an existing PSTN service provider contract needs to be maintained or interoperability with certain on-premises systems is required. One additional scenario to consider Direct Routing is telephony system interoperability. While users are being transitioned to Calling in Teams, some users might remain on legacy PBXs. Direct Routing enables both use cases to coexist. The call traffic between the users on legacy systems and Teams users stay within the organization.
 
 <!--ENDOFSECTION-->
 
@@ -52,8 +55,8 @@ Business use cases are meant to define and document expected and measurable busi
 > |         |
 > |---------|
 > |**Description of current business process**<br>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.|
-> |**Challenges with existing business process**<br>Contoso spends roughly USD1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings. The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service isn’t aligned with the plan for the organization to adopt Teams as a modern communications and collaboration platform.|
-> |**How technology can overcome these challenges**<br>With the adoption of Microsoft Teams as a modern communications and collaboration platform, internal users are expected to primarily join meetings by using their PCs equipped with optimized headsets and meeting-room devices. The Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio isn’t favorable for the internal participants.|
+> |**Challenges with existing business process**<br>Contoso spends roughly USD1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings. The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service isn't aligned with the plan for the organization to adopt Teams as a modern communications and collaboration platform.|
+> |**How technology can overcome these challenges**<br>With the adoption of Microsoft Teams as a modern communications and collaboration platform, internal users are expected to primarily join meetings by using their PCs equipped with optimized headsets and meeting-room devices. The Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio isn't favorable for the internal participants.|
 > |**Expected, measurable, business outcomes**<br>The move to Teams as a modern communications and collaboration platform, combined with the Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service.|
 
 <br>
@@ -63,9 +66,9 @@ Business use cases are meant to define and document expected and measurable busi
 > 
 > |         |
 > |---------|
-> |**Description of current business process**<br>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
-> |**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso’s monthly telephony service cost.|
-> |**How technology can overcome these challenges**<br>Calling Plans will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, because the phone service can be delivered via the cloud over the network with no dependency on a traditional phone system.|
+> |**Description of current business process**<br>Standard configuration of Contoso's office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
+> |**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso's monthly telephony service cost.|
+> |**How technology can overcome these challenges**<br>Calling Plans will allow a user's personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, because the phone service can be delivered via the cloud over the network with no dependency on a traditional phone system.|
 > |**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
 <br>
@@ -75,9 +78,9 @@ Business use cases are meant to define and document expected and measurable busi
 > 
 > |         |
 > |---------|
-> |**Description of current business process**<br>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
-> |**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso’s monthly telephony service cost.|
-> |**How technology can overcome these challenges**<br>The SIP trunk provider contract was recently signed and will be in place for three years. Direct Routing allows PSTN connectivity to be provided by the SIP trunk provider and also will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, while maintaining a limited on-premises session border controller (SBC) footprint.|
+> |**Description of current business process**<br>Standard configuration of Contoso's office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
+> |**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso's monthly telephony service cost.|
+> |**How technology can overcome these challenges**<br>The SIP trunk provider contract was recently signed and will be in place for three years. Direct Routing allows PSTN connectivity to be provided by the SIP trunk provider and also will allow a user's personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, while maintaining a limited on-premises session border controller (SBC) footprint.|
 > |**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Direct Routing will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
 In addition to defining your business use cases, to set the project boundaries you should aim to drive clarity around:
@@ -177,7 +180,7 @@ OKRs contain the objectives you set in the beginning of the project, and you def
 
 KSIs measure quality and success of the key results, and complement the binary nature of OKRs (achieved or not achieved) by detailing good and/or bad results.
 
-When defining KSIs, we recommend that you use “specific, measurable, assignable, realistic, time-related” (SMART) criteria:
+When defining KSIs, we recommend that you use "specific, measurable, assignable, realistic, time-related" (SMART) criteria:
 
 -   Specific: target a specific area for improvement
 
@@ -196,7 +199,7 @@ When defining KSIs, we recommend that you use “specific, measurable, assignabl
 > |---------|---------|---------|---------|---------|---------|
 > |Usage/adoption|Call quality is equal to or better than the previous solution|Survey|80% of users agree or strongly agree|After enablement and quarterly|Information Technology team|
 > |Usage/adoption|Microsoft Teams made the communication process easier|Survey|80% of users agree or strongly agree|After enablement and quarterly|Change Management team|
-> |Usage/adoption|Users actively use the solution|Office 365 reports, Call Quality Dashboard|80% of users are active daily users|Daily|Change Management team|
+> |Usage/adoption|Users actively use the solution|Microsoft 365 reports, Call Quality Dashboard|80% of users are active daily users|Daily|Change Management team|
 > |Usage/quality|Percentage of poor calls/conferences should be minimal|Call Quality Dashboard|< 5% of poor calls per month|Daily|Information Technology team|
 > |Usage/support|I know how to get technical support|Survey|90% of users agree or strongly agree|After enablement and quarterly|Change Management team|
 > |Usage/support|I am satisfied with the quality of technical support|Survey|80% of users agree or strongly agree|After each incident|Information Technology team|
@@ -209,7 +212,7 @@ You need to identify business risks as part of this exercise, and define a mitig
 > 
 > |Risk  |Likelihood  |Impact  |Overall  |Mitigation plan  |
 > |---------|---------|---------|---------|---------|
-> |Upcoming merger will add up to 1,000 people|High|High|High|<ul><li>For merged companies, create a separate OKR that applies to their own project phases (Envision, Onboard, Drive Value)</li><li>Don’t include these OKRs in existing OKRs</li></ul>|
+> |Upcoming merger will add up to 1,000 people|High|High|High|<ul><li>For merged companies, create a separate OKR that applies to their own project phases (Envision, Onboard, Drive Value)</li><li>Don't include these OKRs in existing OKRs</li></ul>|
 > |Telephone number porting will delay project completion|High|High|High|<ul><li>Prepare all the information required to support telephone number porting ahead of time (customer service record, billing details, Letter of Authorization)</li><li>Adjust the project timeline to accommodate the turnaround time of telephone number porting execution</li><li>Communicate the use of new dial-in conferencing numbers to external participants</li><li>Use temporary telephone numbers with Caller ID manipulation</li></ul>|
 > |Planned network redesign|High|Medium|Medium|<ul><li>Before implementing Teams as a modern communications and collaboration platform, conduct a network readiness assessment for sites in scope of the project</li></ul>|
 > |SBC configuration|High|High|High|<ul><li>Before implementing Teams as replacement for the existing PBX, confirm that you can meet all SBC configuration requirements</li><li>Confirm that SBC support resources have the proper skill set to configure SBC for Direct Routing</li></ul>|
@@ -225,11 +228,11 @@ You need to identify business risks as part of this exercise, and define a mitig
 
 ## Establish a steering committee
 
-A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
+A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn't directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
 
-Every project requires an agreed-on vision and charter. To deliver the outcomes you want from the project, the vision must be clearly defined, and it needs to be monitored and maintained. This becomes the responsibility of the steering committee: to drive decisions, advise, provide strategic oversight, to serve as advocates to the organization for the project’s initiatives, and—when necessary—remove blockers.
+Every project requires an agreed-on vision and charter. To deliver the outcomes you want from the project, the vision must be clearly defined, and it needs to be monitored and maintained. This becomes the responsibility of the steering committee: to drive decisions, advise, provide strategic oversight, to serve as advocates to the organization for the project's initiatives, and—when necessary—remove blockers.
 
-Your organization should put significant thought into the formation of the steering committee. The committee must ensure that the project achieves the business objectives you’ve defined for driving change throughout the organization, meet periodically to discuss the current pulse of the project, and help unblock any obstacles that are encountered along the way.
+Your organization should put significant thought into the formation of the steering committee. The committee must ensure that the project achieves the business objectives you've defined for driving change throughout the organization, meet periodically to discuss the current pulse of the project, and help unblock any obstacles that are encountered along the way.
 
 The committee should define its charter to include some key objectives:
 
@@ -239,7 +242,7 @@ The committee should define its charter to include some key objectives:
 
 -   Allow the executive sponsor or executive leadership team to provide direction and input to the project and ensure that it aligns with overarching business goals, by adjusting project plans, objective key results (OKRs), and other project activities.
 
-The steering committee meets at a recurring interval throughout the lifetime of a project to ensure alignment between the organizational leadership and the project team. This critical meeting ensures that the direction of the project has leadership’s full support and incorporates any feedback provided by leadership into the project to drive success. The committee uses these meetings to gain insight into project status, and to:
+The steering committee meets at a recurring interval throughout the lifetime of a project to ensure alignment between the organizational leadership and the project team. This critical meeting ensures that the direction of the project has leadership's full support and incorporates any feedback provided by leadership into the project to drive success. The committee uses these meetings to gain insight into project status, and to:
 
 -   Agree on business outcomes that align to the business case, and to ensure the project is driving towards delivery of these outcomes.
 

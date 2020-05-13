@@ -10,7 +10,9 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
-f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
@@ -90,15 +92,15 @@ In this example, we assign a custom caller lID policy called Support Caller ID P
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular caller ID policy. In this example, it's Support Caller ID Policy.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.

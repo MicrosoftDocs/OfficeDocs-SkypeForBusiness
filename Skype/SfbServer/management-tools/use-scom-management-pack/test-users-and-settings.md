@@ -8,6 +8,8 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
@@ -31,7 +33,7 @@ Test accounts do not need to represent actual people, but they must be valid Act
   
 If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least two test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
   
-```
+```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
@@ -40,7 +42,7 @@ You must include not only the SIP address, but also the user name and password. 
   
 To verify that the test user credentials were created, run these commands from the Skype for Business Server Management Shell:
   
-```
+```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
@@ -55,7 +57,7 @@ Information similar to this will be returned for each user:
 
 After the test users have been created, you can create a watcher node by using a command similar to this:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -63,7 +65,7 @@ This command creates a new watcher node that uses the default settings and runs 
   
 To validate that automatic discovery of target pool to sign-in is configured correctly rather than targeting a pool directly use these steps instead:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -71,7 +73,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some additional configuration when setting up the watcher node. First, you must associate your test users with the PSTN test type by running a command similar to this from the Skype for Business Server Management Shell:
   
-```
+```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
@@ -80,7 +82,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
   
 Next, you can use the **New-CsWatcherNodeConfiguration** cmdlet to associate the test type (stored in the variable $pstnTest) to a Skype for Business Server pool. For example, the following command creates a new watcher node configuration for the pool atl-cs-001.litwareinc.com, adding the two test users created previously, and adding the PSTN test type:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
@@ -140,13 +142,13 @@ The following components will not be tested by default:
 
 After a watcher node has been configured, you can use the Set-CsWatcherNodeConfiguration cmdlet to add or remove synthetic transactions from the node. For example, to add the PersistentChatMessage test to the watcher node, use the Add method and a command similar to this:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
 Multiple tests can be added by separating the test names by using commas. For example:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
@@ -158,13 +160,13 @@ When this error occurs, no changes will be applied. The command should be re-run
   
 To remove a synthetic transaction from a watcher node, use the Remove method. For example, this command removes the ABWQ test from a watcher node:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
 You can use the Replace method to replace all the currently-enabled tests with one or more new tests. For example, if you want a watcher node only to run the IM test, you can configure that by using this command:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
@@ -174,7 +176,7 @@ When you run this command, all synthetic transactions on the specified watcher n
 
 If you want to view the tests that have been assigned to a watcher node, use a command similar to this:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
@@ -184,13 +186,13 @@ Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataCo
 > [!TIP]
 > To view the synthetic transactions in alphabetical order, use this command instead: 
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
 To verify that a watcher node has been created, type the following command from the Skype for Business Server Management Shell:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -204,7 +206,7 @@ PortNumber : 5061<br/>
 
 To verify that the watcher node has been configured correctly, type the following command from the Skype for Business Server Management Shell:
   
-```
+```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
@@ -227,20 +229,20 @@ In addition to modifying the synthetic transactions that are executed on a watch
   
 By default, watcher nodes are designed to periodically run all their enabled synthetic transactions. At times, however, you may want to suspend those transactions. For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions. Without network connectivity, those transactions will fail. To temporarily disable a watcher node, run a command similar to this from the Skype for Business Server Management Shell:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
 This command will disable the execution of synthetic transactions on the watcher node atl watcher 001.litwareinc.com. To resume execution of the synthetic transactions, set the Enabled property back to True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
 > The Enabled property can be used to turn watcher nodes on or off. If you want to permanently delete a watcher node, use the **Remove-CsWatcherNodeConfiguration** cmdlet:
   
-```
+```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
@@ -248,13 +250,13 @@ That command removes all the watcher node configuration settings from the specif
   
 By default, watcher nodes use an organization's external Web URLs when conducting tests. However, watcher nodes can also be configured to use the organization's internal Web URLs. This enables administrators to verify URL access for users located inside the perimeter network. To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebURls property to True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
 Resetting this property to the default value of False ($False) will cause the watcher to once again use the external URLs:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
@@ -271,19 +273,21 @@ If your watcher node computer is located outside your perimeter network, you wil
     
 2. In the console window, type the following command and then press ENTER. 
     
-```
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+	```console
+	bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+	```
 
-You will see the following message displayed in the command window:
+	You will see the following message displayed in the command window:
+
+	```console
+	BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
-  
-Internet proxy settings for account NetworkService set to NO_PROXY. 
-  
-(connection = default)
-  
-This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
+	Internet proxy settings for account NetworkService set to NO_PROXY. 
+	  
+	(connection = default)
+	```
+	  
+	This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
   
 ### Exchange Unified Messaging Synthetic Transaction
 
@@ -297,7 +301,7 @@ To use the Persistent Chat synthetic transaction, you must first create a channe
   
 You can use the Persistent Chat synthetic transaction to configure this channel: 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -336,13 +340,13 @@ To use this synthetic transaction, the following conditions must be met:
     
 After these conditions are met, you can run the following Windows PowerShell cmdlet to migrate the test users' contact lists to Exchange:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
 It may take some time for the test user contact lists to migrate to Exchange. To monitor the migration progress, the same command-line can be run without the -Setup flag:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
@@ -354,7 +358,7 @@ The Extensible Messaging and Presence Protocol (XMPP) IM synthetic transaction r
   
 To enable the XMPP synthetic transaction, you must provide an XmppTestReceiverMailAddress parameter with a user account at a routable XMPP domain. For example:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
@@ -365,11 +369,11 @@ In this example, a Skype for Business Server rule will need to exist to route me
   
 ### Video Interop Server (VIS) Synthetic Transaction
 
-The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet.
+For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
@@ -415,7 +419,7 @@ This information is automatically generated each time a synthetic transaction is
   
 To retrieve the troubleshooting information, specify the OutLoggerVariable parameter, followed by a variable name that you choose:
   
-```
+```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
@@ -428,13 +432,13 @@ Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Erro
 
 To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:
   
-```
+```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
 Alternatively, you can use the ToXML() method to save the data to an XML file:
   
-```
+```PowerShell
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 

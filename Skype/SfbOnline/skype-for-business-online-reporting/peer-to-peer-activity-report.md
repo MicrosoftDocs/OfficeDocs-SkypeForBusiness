@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Reporting
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
-ms.custom:
-- Reporting
 description: "Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. "
 ---
 
 # Peer-to-peer activity report
 
-The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files. 
+The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files. 
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   

@@ -15,10 +15,12 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools. "
+  - seo-marvel-mar2020
+description: Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools.
 ---
 
 # Reset a conference ID for a user in Microsoft Teams
@@ -52,7 +54,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info in email** for the user in the **Audio Conferencing** section. It doesn't send the PIN.
     
-- A conference ID will contain 7 digits, and you can't change its length.
+- A conference ID will contain 8 digits, and you can't change its length.
     
 - After it has been reset, you can see the new conference ID listed under **Conference ID**.
     

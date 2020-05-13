@@ -1,5 +1,5 @@
 ---
-title: "Set the phone numbers included on invites in Microsoft Teams"
+title: Set the phone numbers included on invites
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,10 +16,13 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
-description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
+  - seo-marvel-mar2020
+
+description: Follow these steps to create a default telephone number for callers to join a Microsoft Teams meeting.
 ---
 
 # Set the phone numbers included on invites in Microsoft Teams
@@ -38,7 +41,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 The phone numbers that get included in the meeting invites of users enabled for Audio Conferencing are defined by the default conferencing toll phone number and the default conferencing toll-free phone number user's settings. Each setting specifies which toll and toll-free number will be included in the meeting invite of a given user. As noted above, each meeting invite contains one toll number, one optional toll-free number and a link that opens the full list of all dial-in phone numbers that can be used to join a given meeting.
 
-For a new user, the default conferencing toll numbers is assigned based on the country that is set in the Office 365 profile of the user when the user is enabled for the Audio Conferencing service. If there is a toll number in the conference bridge that matches the country of the user, that number will be automatically assigned as the default toll number of the user. If there isn't one, the number that is defined as the default toll number of the conference bridge will be assigned as the default toll number of the user.  
+For a new user, the default conferencing toll numbers is assigned based on the Usage Location that is set in the Office 365 administration center of the user when the user is enabled for the Audio Conferencing service. If there is a toll number in the conference bridge that matches the country of the user, that number will be automatically assigned as the default toll number of the user. If there isn't one, the number that is defined as the default toll number of the conference bridge will be assigned as the default toll number of the user.  
 
 Once the user is enabled for the Audio Conferencing service, the default toll and toll-free phone numbers of the user can be changed by the tenant administrator from their initial values at any moment.
 
@@ -46,19 +49,21 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
+You must be an admin to make these changes.
 
-    ![Shows selecting users in the Microsoft Teams admin center](media/teams-set-phone-numbers-on-invites-image1.png)
+1. Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
-2. At the top of the page, click **Edit**.
+2. In the left navigation, click **Users**.
 
-    ![Click Edit in the Microsoft Teams admin center](media/teams-set-phone-numbers-on-invites-image2.png)
+    ![Shows selecting users in the Microsoft Teams admin center](media/Admin-users.png)
 
-3. Next to **Audio Conferencing**, click **Edit**. 
+3. Click the user name from the list of available users.
+
+4. Next to **Audio Conferencing**, click **Edit**. 
     
     ![Click Edit next to Audio conferencing](media/teams-set-phone-numbers-on-invites-image3.png)
 
-4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
+5. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
 
 > [!IMPORTANT]

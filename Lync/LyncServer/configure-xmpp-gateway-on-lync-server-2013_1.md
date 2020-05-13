@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: 00777a34-cc36-4992-9459-08c14543ef6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687953(v=OCS.15)
@@ -15,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure XMPP gateway on Lync Server 2013
 
@@ -95,11 +97,11 @@ When you configure policies for support of extensible messaging and presence pro
 
 17. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Lync Server Management console:
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 

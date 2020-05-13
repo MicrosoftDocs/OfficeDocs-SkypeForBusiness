@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user voice policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user voice policy
 ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
@@ -39,7 +41,7 @@ Global and site-level voice policies are automatically assigned to all Lync Serv
 
 ## Assigning a Per-User Voice Policy by using Windows PowerShell Cmdlets
 
-You can assign per-user voice policies by using Windows PowerShell and the **Grant-CsVoicePolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+You can assign per-user voice policies by using Windows PowerShell and the **Grant-CsVoicePolicy** cmdlet. You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).
 
 ## To assign a per-user voice policy to a single user
 
@@ -49,7 +51,7 @@ You can assign per-user voice policies by using Windows PowerShell and the **Gra
 
 ## To assign a per-user voice policy to multiple users
 
-  - This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.
+  - This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet.
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -59,7 +61,7 @@ You can assign per-user voice policies by using Windows PowerShell and the **Gra
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-For more information, see the help topic for the [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet.
+For more information, see the help topic for the [Grant-CsVoicePolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\)) cmdlet.
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business Server 2015"
-ms.reviewer: 
+ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -9,6 +9,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
@@ -17,7 +19,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 # Skype for Business Server 2015
 
-Skype for Business is a communications and collaboration platform that brings together a client experience inspired by Skype with enterprise-grade security, compliance, and control. Skype for Business offers features including presence, IM, voice and video calls, and online meetings. 
+Skype for Business is a communications and collaboration platform that brings together a client experience inspired by Skype with enterprise-grade security, compliance, and control. Skype for Business offers features including presence, IM, voice and video calls, and online meetings.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -111,7 +113,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -197,7 +199,7 @@ Skype for Business is a communications and collaboration platform that brings to
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -214,4 +216,3 @@ Skype for Business is a communications and collaboration platform that brings to
         </div>
     </li>
 </ul>
-

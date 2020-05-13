@@ -15,59 +15,62 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: 
   - Phone System
-description: "Learn about what Phone System can do for you. "
+  - seo-marvel-apr2020
+description: "In this article, you will learn about the Phone System technology in Microsoft Office 365."
 ---
 
 # What is Phone System in Office 365?
 
-**Phone System** is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 cloud with Skype for Business Online and Microsoft Teams. Phone System allows you to replace your existing PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+A Private Branch Exchange (PBX) is a phone system within a business. Phone System in Office 365 gives you PBX capabilities, but without the complicated and expensive equipment. 
+
+Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+
+## Phone System technology
+
+Phone System enables call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. 
   
-With Phone System, users can use Skype for Business Online and Microsoft Teams to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and Skype for Business or Microsoft Teams calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business and Microsoft Teams. Phone System admins can manage calling options and settings from the same console used for messaging, collaboration, and so on.
+With Phone System, users can use Teams or Skype for Business Online to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams or Skype for Business Online calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams and Skype for Business Online. Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
   
-With traditional PBX systems, calls between users in your organization are handled internally within Phone System, and never go to the PSTN. This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls.
+Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls.
+
+For calls outside your organization, Microsoft provides multiple options for connecting Phone System to the Public Switched Telephone Network (PSTN).
+
+## Connect to the Public Switched Telephone Network (PSTN)
   
-To enable calls to landlines and mobile phones, Phone System can be connected to the PSTN in one of two ways:
+Phone System can be connected to the PSTN in one of two ways:
   
-- Purchase a Calling Plan (domestic or domestic and international) for Office 365. See [Phone System and Calling Plans](calling-plan-landing-page.md)
+- Purchase a Microsoft Calling Plan (domestic or domestic and international) for Office 365. Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
 
-- Use on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+- Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
-## More about Calling Plans
+  For your Teams users, you can connect your on-premises telephony infrastructure to Phone System by using Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
-Using a Calling Plan add-on to Phone System in Office 365 enables PSTN connectivity for calling to landlines and mobile phones around the world (depending on the licensed service level). Your users are homed in the cloud and are enabled for Phone System with the Calling Plan add-on provided by Microsoft. Calling Plans don't require an on-premises server deployment. Calling Plans only work with Phone System in Office 365, and you can't use Calling Plans with another PBX system.
+  For more information about all Microsoft telephony solutions, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
-![Topology diagram showing Cloud PBX with PSTN Calling](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Because Calling Plans operate within Office 365, this is an all-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which is assigned to each user that you want to make calls. [Want to know more?](calling-plan-landing-page.md).
-  
-Users who are homed in Skype for Business Online or Microsoft Teams in Office 365 have access to Office 365 voice services. Microsoft is the provider of both core calling and PSTN services, and can even provide or port your users' phone numbers.
-  
-Calling Plans in Office 365 allows you to search, acquire, and assign phone numbers to users in your organization so that users can make and receive phone calls with people inside and outside of your organization.
-  
-All types of business use a phone number that allows users to send and receive voice calls is an important requirement to do business. Phone numbers are often used to identify a user and allow for communication across organizations. Users who are assigned phone numbers are able to make voice calls across all Skype for Business and Microsoft Teams devices, including VoIP phones, PCs, and mobile devices.
+## Phone System with services
 
-Calling Plans (domestic and international) are available in specific but growing geographic locations. Check for [availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) in your country or region.
+ Phone System can be used for services and voicemail, such as:
 
-**Ready to get started?**  To set up your calling plans for your users, see [Set up Calling Plans](set-up-calling-plans.md).  
+- **Auto attendants** -  Auto attendants can be used to create a menu system for your organization that lets external and internal callers move through the system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md).
 
-## Phone System with Services
+- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
- Phone System can also be used for services and voicemail:
+- **Voicemail** -  When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-- **Auto attendants**  Phone System in Office 365 auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
-
-- **Call queues**  With Phone System, you can create call queue greetings that are used when someone calls in to a phone number for your organization. This includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
-
-- **Voicemail** When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
-
-If you're ready to get started, see [Setting up Phone System in your organization](setting-up-your-phone-system.md).
+For more information about features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Phone System in your organization](setting-up-your-phone-system.md).
 
 ## Related topics
 
+- [Phone System features](here-s-what-you-get-with-phone-system.md)
+- [Cloud voice in Microsoft Teams](cloud-voice-landing-page.md)
+- [Set up Phone System](setting-up-your-phone-system.md)
+- [Which Calling Plan is right for you?](calling-plan-landing-page.md)
+- [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+

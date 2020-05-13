@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -40,7 +42,7 @@ For details about working with network sites, see the Lync Server Management She
     
     Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -52,7 +54,7 @@ For details about working with network sites, see the Lync Server Management She
     
     Create a new network site in the network region and assign the **Redmond** tagged Location policy.
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

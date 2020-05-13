@@ -1,12 +1,14 @@
 ---
 title: "Get started with Teams for Healthcare organizations"
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -14,7 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Get started with Teams for Healthcare organizations
+description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Get started with Teams for Healthcare organizations
@@ -50,7 +53,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 <br>
 
-The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
+The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams' secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
 - Siloed information that creates administrative burdens

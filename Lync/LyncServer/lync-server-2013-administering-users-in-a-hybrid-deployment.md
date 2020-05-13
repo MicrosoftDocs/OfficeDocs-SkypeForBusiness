@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administering users in a hybrid deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering users in a hybrid deployment
 ms:assetid: 6924ed7b-30a9-4be7-b952-90655625f2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204967(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Administering users in a hybrid Lync Server 2013 deployment
 
@@ -48,11 +50,11 @@ You can manage user settings and policies for users migrated to Lync Online by u
 
   - Run the following cmdlets to move a user from Lync Online back to Lync on-premises:
     
-       ```
+       ```PowerShell
         $cred=Get-Credential
        ```
     
-       ```
+       ```PowerShell
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 

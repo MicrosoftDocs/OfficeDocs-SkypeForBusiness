@@ -1,5 +1,5 @@
 ---
-title: "Provisioning Skype Room System accounts in Office 365"
+title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -7,22 +7,24 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: "Read this topic to learn about provisioning Skype Room System accounts in Office 365."
+description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
 
-# Provisioning Skype Room System accounts in Office 365
+# Provisioning Skype Room System accounts in Microsoft 365 and Office 365
  
 Read this topic to learn about provisioning Skype Room System accounts in Office 365.
   
-The following section covers Skype Room System account provisioning for an Office 365 tenant.
+The following section covers Skype Room System account provisioning for an Office 365 organization.
   
-## Office 365 prerequisites
+## Microsoft 365 and Office 365 prerequisites
 
 Your online tenant must meet the following requirements:
   
-- The Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+- The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Your tenant must have the conferencing capability of Skype for Business enabled.
     
@@ -66,7 +68,7 @@ First, connect to Exchange Online PowerShell by following the instructions in th
   
 To set an existing resource room mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:
   
-```
+```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -74,7 +76,7 @@ Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword 
 
 To create a new Exchange resource mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:
   
-```
+```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -86,7 +88,7 @@ After creating the mailbox, you can use the Set-CalendarProcessing cmdlet in Exc
 
 ## Assigning a Skype for Business Online license
 
-Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Office 365 administrative portal as described in [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Office 365 administrative portal as described in [Assign or remove licenses for Office 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.
   
@@ -96,7 +98,7 @@ After a resource room mailbox account has been created and enabled as shown prev
   
 1. Create a Remote PowerShell session. Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured. For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
-   ```
+   ```powershell
    Import-Module LyncOnlineConnector
    $cssess=New-CsOnlineSession -Credential $cred
    Import-PSSession $cssess -AllowClobber
@@ -104,13 +106,13 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 2. To enable an Skype Room System account for Skype for Business, run the following command:
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
     You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:
     
-   ```
+   ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
@@ -123,14 +125,14 @@ In Office 365, the default password expiration policy for all of your user accou
   
 1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
     
-    ```
+    ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
     
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 

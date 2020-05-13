@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Skype for Business Server 2019 pool. In a mixed environment, both the legacy pool and the Skype for Business Server 2019 pool appear in the drop down list. Selecting the legacy pool is not supported."
 ---

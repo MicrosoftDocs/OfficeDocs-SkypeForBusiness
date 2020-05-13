@@ -1,7 +1,7 @@
 ---
 title: Apps, bots, & connectors in Microsoft Teams
 ms.reviewer: 
-description: Use these deployment resources to help you deploy apps in Microsoft.
+description: Learn about apps, bots, and connectors and how to decide which to deploy in Microsoft Teams based on your organization's profile and business requirements.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,10 +11,13 @@ ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 # Apps, bots, & connectors in Microsoft Teams
 
@@ -49,16 +52,16 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Publish apps in the Teams tenant apps catalog](tenant-apps-catalog-teams.md) for information about making an app available to users in your organization.</li></ul>|
+|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage your apps in the Microsoft Teams admin center](manage-apps.md) for information about making an app available to users in your organization.</li></ul>|
 |||
 
 ### Bots for private chats and channels
 
-Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in an Office 365 tenant.
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in an Office 365 organization.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom bots in my Office 365 tenant?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my Office 365 organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### Built-in and custom tabs
@@ -67,7 +70,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom tabs in my Office 365 tenant?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my Office 365 organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 |||
 
 ### Office 365 and custom connectors
@@ -85,7 +88,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Activity reports
 
-You can use activity reports to see how users in your organization are using Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
+You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
 
 | Ask yourself | Action |
 |--------------|--------|

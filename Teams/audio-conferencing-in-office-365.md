@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing in Office 365"
+title: "Audio Conferencing in Microsoft 365"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,16 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords: 
+- CSH
 ms.custom: 
   - Audio Conferencing
+  - ms.teamsadmincenter.audioconferencing.overview
+  - seo-marvel-apr2020
+description: Learn about how Audio Conferencing in Office 365 allows users call in to meetings from their phones.
 ---
 
-# Audio Conferencing in Office 365
+# Audio Conferencing in Microsoft 365
 Audio Conferencing in Office 365 lets users call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
 
 ## What is Audio Conferencing?
@@ -41,7 +45,7 @@ After attendees have joined meeting, they can also dial out and invite other cal
 See [Dialing out from a Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) or [Dialing out from a Skype for Business meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## What does it cost?
-For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## Where is it available?
 With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
@@ -60,7 +64,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers. You will need to get a service phone number for these.
   
- **Shared phone numbers** are those phone numbers that can be shared with other Office 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
+ **Shared phone numbers** are those phone numbers that can be shared with other Microsoft 365 or Office 365s. You can't change the languages that are used when someone calls in to one of these numbers.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
 

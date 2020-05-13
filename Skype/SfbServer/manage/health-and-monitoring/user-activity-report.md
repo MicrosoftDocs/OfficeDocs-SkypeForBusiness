@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: "Summary: Learn about the User Activity Report in Skype for Business Server."
@@ -53,13 +55,13 @@ Although there is a lot of good information in the User Activity Report, that in
 
 If you need to answer questions like this, you can export the data retrieved by the Monitoring Reports to an Excel spreadsheet. You then use that spreadsheet and/or a comma-separated values file to analyze the data in ways that the User Activity Report. For example, suppose you have exported the report data to Excel and then to a comma-separated values file. At that point, you can import the data from the .CSV file to Windows PowerShell by using a command similar to this:
 
-```
+```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
 After the data has been imported you can then use simple Windows PowerShell commands to help answer your questions. For example, this command returns a list of unique users who served as the "From user" in at least one session:
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
 ```
 
@@ -77,7 +79,7 @@ Pilar.Ackerman@litwareinc.com
 
 This command lists the unique users (based on the total number of sessions that they participated in:
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -95,7 +97,7 @@ Count    Name
 
 This command limits the reported sessions to those that included audio as a modality:
 
-```
+```PowerShell
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 

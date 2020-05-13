@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,7 +11,9 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.
-f1keywords: 
+f1.keywords: 
+- CSH
+ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.liveevents
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
@@ -41,12 +43,12 @@ Live events in Teams empowers multiple roles (organizer, producer, presenter, an
 You can see from the picture above that there are four key components that are used with live events in Teams.
 
 > [!NOTE]
-> For an overview of how to set up live events and the attendee experience, check out these short [videos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
+> For an overview of how to set up live events and the attendee experience, check out these short [videos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
 
 ### Scheduling
 Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select a production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with people in the event. 
 
-![Screen shot showing the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
+![Screenshot showing the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
 ### Production
 The video input is the foundation of the live event and it can vary from a single webcam to a multi-camera professional video production. The live events in Microsoft 365 support a spectrum of production scenarios, include an event produced in Teams using a webcam or an event produced in an external app or device. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
@@ -57,7 +59,7 @@ The video input is the foundation of the live event and it can vary from a singl
 
 - **External app or device**: External encoders allow users to produce their live events directly from an external hardware or software-based encoder with [Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to a Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
-    ![Screen shot showing a live event produced using an external app or device](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external app or device production method")
+    ![Screenshot showing a live event produced using an external app or device](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external app or device production method")
 
 ### Streaming platform
 The live event streaming platform is made up of the following pieces:
@@ -68,13 +70,13 @@ The live event streaming platform is made up of the following pieces:
 ### Enterprise Content Delivery Network (eCDN)
 The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting network performance. You can use one of the following certified eCDN partners to optimize your network for live events held within your organization:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/microsoft-pilot/)
+- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](http://www.ramp.com)
 
 ### Attendee experience 
-The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player (for events produced in Teams) and Stream Player (for events produced in an external app or device) and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs, and the live attendee experience is integrated into these collaboration tools. 
+The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Stream Player (for events produced in Teams) and Azure Media Player (for events produced in an external app or device) and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs, and the live attendee experience is integrated into these collaboration tools. 
 
-![Screen shot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
+![Screenshot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
 ### Live event usage report 
 Tenant admins can view real time usage analytics for live events in Microsoft Teams admin center.  The [live event usage report](../teams-analytics-and-reports/teams-live-event-usage-report.md) shows the activity overview of the live events held in the organization.  Admins can view event usage information, including event status, start time, views and production type.  

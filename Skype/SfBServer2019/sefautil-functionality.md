@@ -8,6 +8,8 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Summary: Learn how to use PowerShell to obtain SEFAUtil functionality in Skype for Business Server 2019 after installing Cumulative Update 1."
@@ -96,7 +98,7 @@ For on-premises deployments, the cmdlets introduced in this feature can only be 
 - CsHelpDesk - Get for all cmdlets
 
 For more information on these administrator roles, see [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). The administrator can access these cmdlets by directly or remotely logging on to a server computer.
-For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets. For more information about the full list of roles, see [About Office 365 admin roles](https://docs.microsoft.com/en-us/office365/admin/add-users/about-admin-roles)
+For a hybrid deployment, Skype for Business administrators should be able to call Get and Set for all cmdlets. For more information about the full list of roles, see [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > Server auto-discovery must be enabled. No additional licensing requirements will be introduced for use of the cmdlets.

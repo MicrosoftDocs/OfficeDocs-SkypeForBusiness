@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure SQL Server clustering'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SQL Server clustering
 ms:assetid: d7b52ef1-573c-48ed-bb94-34e37b49645c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383982(v=OCS.15)
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure SQL Server clustering for Lync Server 2013
 
@@ -32,7 +34,7 @@ _**Topic Last Modified:** 2014-01-10_
 
 Microsoft Lync Server 2013 supports clustering for SQL Server 2012 and SQL Server 2008 R2. For details about what is supported, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md).
 
-You should set up and configure the SQL Server cluster before you install and deploy the Enterprise Edition Front End Server and back-end database. For best practices and setup instructions for failover clustering in SQL Server 2012, see <http://technet.microsoft.com/en-us/library/hh231721.aspx>. For failover clustering in SQL Server 2008, see <http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>.
+You should set up and configure the SQL Server cluster before you install and deploy the Enterprise Edition Front End Server and back-end database. For best practices and setup instructions for failover clustering in SQL Server 2012, see <https://technet.microsoft.com/library/hh231721.aspx>. For failover clustering in SQL Server 2008, see <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>.
 
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
 

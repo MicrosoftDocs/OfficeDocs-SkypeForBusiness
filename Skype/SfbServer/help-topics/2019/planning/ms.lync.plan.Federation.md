@@ -6,7 +6,9 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
@@ -22,10 +24,10 @@ Edge Servers can be configured to allow your internal and external users access 
   
  Federation works in Skype for Business Server like it did for Microsoft Lync 2013. For more details about preparing your environment for Federation, see the following topics:
   
-- [Planning for Lync Server 2013 and Office Communications Server federation](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
+- [Planning for Lync Server 2013 and Office Communications Server federation](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
     
-- [Planning for public instant messaging connectivity in Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
+- [Planning for public instant messaging connectivity in Lync Server 2013](https://technet.microsoft.com/library/jj205349%28v=ocs.15%29.aspx)
     
-- [Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
+- [Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013](https://technet.microsoft.com/library/jj205107%28v=ocs.15%29.aspx)
     
 
