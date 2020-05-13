@@ -74,7 +74,7 @@ Use the Lync Server Management Shell to configure a hosting provider on the Edge
 
 
 > [!NOTE]
-> If you are using Microsoft 365 operated by 21Vianet in China, replace the value for the <STRONG>ProxyFqdn</STRONG> parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn".
+> If you are using Office 365 operated by 21Vianet in China, replace the value for the <STRONG>ProxyFqdn</STRONG> parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn".
 
 
 
@@ -132,4 +132,3 @@ To verify that the changes were applied, run the following cmdlet on the Edge Se
 </div>
 
 </div>
-
