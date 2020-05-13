@@ -80,7 +80,7 @@ The Centralized Logging Service is configured to define what the logging service
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Defined search terms for the configuration. Office 365, not on-premises deployments.</p></td>
+    <td><p>Defined search terms for the configuration. Office 365 or Microsoft 365, not on-premises deployments.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
@@ -132,7 +132,7 @@ The Centralized Logging Service is configured to define what the logging service
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>The minimum version of the CLSAgent allowed to run. This element is intended for Office 365.</p></td>
+    <td><p>The minimum version of the CLSAgent allowed to run. This element is intended for Office 365 or Microsoft 365.</p></td>
     </tr>
     </tbody>
     </table>

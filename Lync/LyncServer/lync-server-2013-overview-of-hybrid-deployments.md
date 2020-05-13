@@ -34,7 +34,7 @@ _**Topic Last Modified:** 2016-05-25_
 
 A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online. Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.
 
-You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized. You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online.
+You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized. You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft 365 and Office 365 applications, including Exchange Online and SharePoint Online.
 
 This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.
 
@@ -55,4 +55,3 @@ For more information about Skype for Business Online, see [Lync Online](https://
 </div>
 
 </div>
-
