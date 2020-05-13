@@ -80,7 +80,7 @@ In such scenarios, it is the customer’s responsibility to ensure proper config
 
 ## Related information
 
-- [What is hybrid identity](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fazure%2Fbread%2Ftoc.json)
+- [What is hybrid identity](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)
 
 - [Azure AD Connect sync: Understand and customize synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
