@@ -692,7 +692,7 @@
 #### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 #### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
 #### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
-#### [Using the CQD PSTN report](CQD-PSTN-report.md)
+#### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
@@ -777,6 +777,7 @@
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
 ## [Teams content updates](teams-updates.md)
 
+## [How to look up your support PIN](support-pin.md)
 
 ## Country and region availability for Audio Conferencing and Calling Plans
 ### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

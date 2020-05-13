@@ -19,7 +19,7 @@ description: "Summary: Overview of installation methods and tools for Skype for 
 **Summary:** Overview of installation methods and tools for Skype for Business.
   
 > [!NOTE]
-> For installation information about Skype for Business that comes with Office 365, see [Deploy the Skype for Business client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
+> For installation information about Skype for Business that comes with Microsoft 365 and Office 365, see [Deploy the Skype for Business client in Microsoft 365 or Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
   
 Enterprise administrators can customize the Windows Installer-based (.msi) installation of volume licensed versions of Skype for Business by using the methods discussed in this section. Because no single tool provides all customization options, you'll likely use a combination of these methods in your Skype for Business deployment. You might use the tools described in the following sections:
   
