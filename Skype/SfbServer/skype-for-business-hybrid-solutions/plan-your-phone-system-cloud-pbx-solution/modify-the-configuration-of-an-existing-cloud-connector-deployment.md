@@ -104,7 +104,7 @@ If there is more than one appliance in the site, you'll need to follow these ste
 
 To modify the configuration for multiple sites in a deployment, follow the steps for a single site, updating one site at a time.
   
-## Modify the configuration of your Office 365 organization to enable automatic updates
+## Modify the configuration of your Microsoft 365 or Office 365 organization to enable automatic updates
 <a name="BKMK_MultipleSites"> </a>
 
 To enable operating system automatic updates and Bits automatic updates, you must use the Skype for Business tenant admin account for online management and use tenant remote PowerShell as follows.
@@ -156,9 +156,9 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
 ## Update the dedicated tenant admin credentials
 <a name="BKMK_MultipleSites"> </a>
 
-Administrative changes in the Office 365 organization for Cloud Connector are made from an account with the needed permissions. In Cloud Connector versions before 2.0, that account is a dedicated global tenant admin account. In Cloud Connector versions 2.0 and later, that account can be an Office 365 account with Skype for Business Administrator rights.
+Administrative changes in the Microsoft 365 or Office 365 organization for Cloud Connector are made from an account with the needed permissions. In Cloud Connector versions before 2.0, that account is a dedicated global tenant admin account. In Cloud Connector versions 2.0 and later, that account can be a Microsoft 365 or Office 365 account with Skype for Business Administrator rights.
   
-If your admin account credentials change in Office 365, you also need to update the locally cached credentials in Cloud Connector by running the following Administrator PowerShell command on each Cloud Connector appliance you have deployed:
+If your admin account credentials change in Microsoft 365 or Office 365, you also need to update the locally cached credentials in Cloud Connector by running the following Administrator PowerShell command on each Cloud Connector appliance you have deployed:
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -277,7 +277,7 @@ For each appliance that belongs to the same PSTN site, you will need to specify 
 
 To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connector deployment, do the following:
   
-1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see [Add a domain to Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Make sure you've completed the steps to update your domain in Microsoft 365 or Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Microsoft 365 or Office 365, see [Add a domain to Microsoft 365 or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Update the Cloud Connector configuration file with the new SIP domain or domains.
     
@@ -298,7 +298,7 @@ To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connect
 
 If you need to change the primary SIP domain in your Cloud Connector deployment, do the following:
   
-1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see [Add a domain to Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Make sure you've completed the steps to update your domain in Microsoft 365 or Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Microsoft 365 or Office 365, see [Add a domain to Microsoft 365 or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Update the Cloud Connector configuration file with the new SIP domain.
     
