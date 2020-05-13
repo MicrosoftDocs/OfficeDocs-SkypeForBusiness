@@ -39,7 +39,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The Set-CcCredential cmdlet sets the account name and password for the tenant administrator. For releases prior to 2.0, this administrator must be a Global Administrator. Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Office 365 organization configuration. With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.
+The Set-CcCredential cmdlet sets the account name and password for the tenant administrator. For releases prior to 2.0, this administrator must be a Global Administrator. Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Microsoft 365 or Office 365 organization configuration. With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.
   
 ## Parameters
 <a name="DetailedDescription"> </a>

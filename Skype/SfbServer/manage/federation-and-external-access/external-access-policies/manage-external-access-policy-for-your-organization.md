@@ -37,7 +37,7 @@ By default, there are no policies configured to support external user access, in
 
 These options include the following types of external access:
 
-  - **Enable communications with federated users**   Enable this if you want to support user access to federated partner domains. This setting configures the ability for users to communicate with other SIP federated domains, as well as Hosted providers like Microsoft Office 365. 
+  - **Enable communications with federated users**   Enable this if you want to support user access to federated partner domains. This setting configures the ability for users to communicate with other SIP federated domains, as well as Hosted providers like Microsoft 365 or Office 365. 
 
 
   - **Enable communications with remote users**   Enable this option if you want users in your organization who are outside your firewall, such as telecommuters and users who are traveling, to be able to connect to Skype for Business Server over the Internet.
