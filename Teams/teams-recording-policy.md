@@ -248,8 +248,18 @@ Register a compliance recorder for an organization.
 
 ## User experiences
 
-Support for notifications is enabled using the Teams client experiences:
+Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
-![Screenshot showing the recording notification experiences.](media/recording-user-experience.png "The images shows the user experiences for recordings using desktop and phones and receiving visual notices.")
+**Teams clients - visual notice**
+- Desktop/web
+- Mobile (iOS/Android)
+- Teams phones
+- Teams rooms
+
+**Other endpoints - audio notice**
+- SIP phones
+- Skype for Business
+- Audio conferencing
+- PSTN callers
 
 
