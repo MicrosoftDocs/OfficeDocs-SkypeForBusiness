@@ -33,7 +33,7 @@ The following topics describe how to provision and manage Skype Room System Exch
     
 - Multiple forest on-premises deployments
     
-- Office 365
+- Microsoft 365 or Office 365
     
 - Hybrid deployments
     
