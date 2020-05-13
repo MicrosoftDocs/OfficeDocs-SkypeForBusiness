@@ -63,7 +63,7 @@ Interaction recording use cases can effectively be separated into four
 primary categories of recording functionality – Convenience, Functional,
 Organizational, and Lawful Intercept, as shown in the image:
 
-![Screenshot showing the interaction recording what and why.](media/Interaction_Recording_What_and_Why.jpg "The image shows the recording categories.")
+![Screenshot showing the interaction recording what and why.](media/recording-taxonomy.png "The image shows the recording categories.")
 
 Each of the categories entails different requirements for how recordings
 are initiated, what is recorded, where recordings are stored, who is
@@ -92,26 +92,7 @@ interaction is complete. The recording becomes part of the
 organizational archive available to compliance and legal personnel for
 eDiscovery, legal hold, and other corporate retention uses.
 
-## Defined terms
-
-| **Term**              | **Definition**                                                                                                                                                                                                                                                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Recorded party (“RP”) | A specific user or communications endpoint (phone, room system) targeted for recording.                                                                                                                                                                                                          |
-| Interaction           | Generic term for any digital communication between a recorded party and other users or endpoints                                                                                                                                                                                                 |
-| Call                  | Ad-hoc interaction between a recorded party (RP) and one or more users. Includes 1:1, Group call, escalation, and advanced call control (e.g. forward, hold, park, transfer) to ‘move’ the call. Calls have directionality (To/From) and end when the last user leaves / disconnects.            |
-| Meeting               | Pre-created interaction between an organizer and one or more users. Includes scheduled and ‘meet now’. Meetings are persistent and maintain state / content, regardless of which users are connected, until the meeting expires or is deleted. Users may leave and rejoin a meeting at any time. |
-| Modality              | Specific types of digital communication in a call / meeting, including audio, video, screen sharing, file sharing, messaging, binary data (e.g. whiteboard), reactions, etc.                                                                                                                     |
-| Recording             | Data from one or more interaction modalities captured in a storage location. Typically captured using supported file formats and resolutions. (audio - .wav / mp3; video / VBSS – .mp4).                                                                                                         |
-| Recorder              | The process or component responsible for attaching to RP interactions and capturing real time audio, video and screen sharing modalities as one or more recordings                                                                                                                               |
-| Bot                   | An application built using the Bot Framework and ESDK                                                                                                                                                                                                                                            |
-| Bot framework         | Modern development SDK used for a variety of Microsoft application development including integration with components such as Azure, Bing, Cortana, Skype (consumer) and Microsoft Teams                                                                                                          |
-| Media SDK             | Microsoft Graph Communications API Media SDK                                                                                                                                                                                                                                                     |
-| Signaling SDK         | Microsoft Graph Communications API Signaling SDK.                                                                                                                                                                                                                                                |
-| Service instance      | A complete instance of the partner solution. This includes the components necessary to receive notifications and respond to communication requests.                                                                                                                                              |
-| NGC                   | Next Generation Calling. Term used to describe the microservices architecture that Teams is built upon.                                                                                                                                                                                |
-| Partner feedback item | **Attention Partners during review:** if there are terms you see used in this spec that you would like added to this list please flag.                                                                                                                                                               |
-
-## User needs
+## Example user needs
 
 <table>
 <thead>
@@ -124,8 +105,8 @@ eDiscovery, legal hold, and other corporate retention uses.
 <tr class="odd">
 <td>Recorded users</td>
 <td><ul>
-<li><p>Be notified when recording is in progress</p></li>
-<li><p>Be informed when policy and/or recorder error is causing changes in calling behavior</p></li>
+<li><p>Be notified when recording is in progress.</p></li>
+<li><p>Be informed when policy and/or recorder error is causing changes in calling behavior.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -133,8 +114,8 @@ eDiscovery, legal hold, and other corporate retention uses.
 <td><ul>
 <li><p>Understand why and how to apply / enforce recording policies to Teams users / endpoints.</p></li>
 <li><p>Configure and maintain Teams recording policies for the organization.</p></li>
-<li><p>Monitor and troubleshoot recording-related issues with Teams calls and meetings</p></li>
-<li><p>Support internal compliance officer with operational analytics on usage, quality, and reliability</p></li>
+<li><p>Monitor and troubleshoot recording-related issues with Teams calls and meetings.</p></li>
+<li><p>Support internal compliance officer with operational analytics on usage, quality, and reliability.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -143,7 +124,7 @@ eDiscovery, legal hold, and other corporate retention uses.
 <li><p>Collect all Teams communications in the manner required to meet compliance obligations in appropriate regional boundaries.</p></li>
 <li><p>Search for interactions based on communication-related metadata or interaction content. Common examples include:</p>
 <ul>
-<li><p><strong>Metadata</strong> - Participants, time, direction, dialed number, origin number, Custom business data (generated by CRM \ACD \ Routing \ CC SW), Vector, VDN •</p></li>
+<li><p><strong>Metadata</strong> - Participants, time, direction, dialed number, origin number, Custom business data</p></li>
 <li><p><strong>Content</strong> – Transcription, sentiment, phonetics, related interactions</p></li>
 </ul></li>
 <li><p>Analyze and interact with collected communications, including the ability to monitor interactions as they are being collected.</p></li>
@@ -158,7 +139,7 @@ eDiscovery, legal hold, and other corporate retention uses.
 Compliance recording solutions are integrated with Teams as
 shown in the following diagram:
 
-![Screenshot showing the team custom app setting](media/Compliance_recording_for_Teams_calling_and_meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
+![Screenshot showing the team custom app setting](media/recorder-invite-flow.png "The images shows the flow when a Teams meeting or call is sent and received.")
 
 ## Recorder
 
