@@ -48,7 +48,7 @@ User settings are moved with the user account. Some on-premises settings are not
 
 Before you begin to move users to Lync Online, you may want to move a few pilot users to confirm that your environment is correctly configured. You can then verify that Lync features and services function as expected before attempting to move additional users.
 
-To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft Office 365 organization. Replace "username@contoso.com" with the information for the user that you want to move.
+To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft 365 or Office 365 organization. Replace "username@contoso.com" with the information for the user that you want to move.
 
    ```PowerShell
     $creds=Get-Credential
@@ -60,11 +60,11 @@ To move an on-premises user to your Lync Online tenant, run the following cmdlet
 
 The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.
 
-You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 organization account.
+You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.
 
-**To determine the Hosted Migration Service URL for your Office 365 organization**
+**To determine the Hosted Migration Service URL for your organization**
 
-1.  Login to your Office 365 organization as an administrator.
+1.  Login to your Microsoft 365 or Office 365 organization as an administrator.
 
 2.  Open the **Lync admin center**.
 
