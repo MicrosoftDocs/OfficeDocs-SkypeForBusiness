@@ -32,7 +32,7 @@ Media bypass can improve voice quality by reducing latency, the possibility of p
 
 While signaling takes the same path with or without media bypass, the media flow will differ. The following diagrams show media and signaling pathways in topologies with and without media bypass. 
   
-For example, in the following topology—which does not employ media bypass—a Skype for Business client places a PSTN call to an external number, the SIP signaling goes to Office 365, and Office 365 then directs the signaling traffic according to the end-user voice policy. For Cloud Connector users, the voice policy directs signaling traffic to the Cloud Connector Edge Server, which then routes the signaling traffic to a PSTN Session Border Controller (SBC) or gateway via the Cloud Connector Mediation Server. Media flows from the Skype for Business client to the Cloud Connector Mediation Server, and then to the SBC or gateway, as shown in the following diagram:
+For example, in the following topology—which does not employ media bypass—a Skype for Business client places a PSTN call to an external number, the SIP signaling goes to Microsoft 365 or Office 365, which directs the signaling traffic according to the end-user voice policy. For Cloud Connector users, the voice policy directs signaling traffic to the Cloud Connector Edge Server, which then routes the signaling traffic to a PSTN Session Border Controller (SBC) or gateway via the Cloud Connector Mediation Server. Media flows from the Skype for Business client to the Cloud Connector Mediation Server, and then to the SBC or gateway, as shown in the following diagram:
   
 **Media and signaling pathways without media bypass**
 
@@ -54,7 +54,7 @@ Media bypass is also useful when you want to provide telephony services to multi
 
 ![Cloud Connector Multisite Example](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. The SIP traffic flows from the user in Zurich to Office 365.
+1. The SIP traffic flows from the user in Zurich to Microsoft 365 or Office 365.
     
 2. The traffic then routes to the Cloud Connector appliance in Amsterdam as specified in the user voice routing policy.
     
