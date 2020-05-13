@@ -28,7 +28,7 @@ Use the steps in this article to manually create and submit a port order if your
 
 ## Manually submit a new port order request
 
-You can manually submit a new port order by creating a service request by sending your completed Letter of Authorization (LOA) form directly to the PSTN service desk for your region or in the Microsoft 365 admin center
+You can manually submit a new port order by creating a service request by sending your completed Letter of Authorization (LOA) form directly to the PSTN service desk for your region or in the Microsoft 365 admin center.
 
 ### Send your Letter of Authorization directly to the PSTN service desk
 
