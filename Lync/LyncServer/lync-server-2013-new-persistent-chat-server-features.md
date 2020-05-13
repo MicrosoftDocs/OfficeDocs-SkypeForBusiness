@@ -46,7 +46,7 @@ Lync Server 2013, Persistent Chat Server enables you to participate in multipart
 
   - Increase dispersion of important knowledge and information
 
-Lync Server 2013, Persistent Chat Server is not available in Microsoft Office 365. At this time, it is available only to on-premise Lync 2013 customers.
+Lync Server 2013, Persistent Chat Server is not available in Microsoft 365 or Office 365. At this time, it is available only to on-premise Lync 2013 customers.
 
 In Lync 2013, Persistent Chat functionality is integrated into the Lync 2013 client. As a result, users have access to Instant Messaging/Presence, Audio/Video, Conferencing, and Persistent Chat all in the Lync 2013 client. For more information about the Lync 2013 client, see <https://go.microsoft.com/fwlink/p/?linkid=270877>.
 
@@ -229,4 +229,3 @@ Logging for Persistent Chat Server and System Center Operations Manager is integ
 </div>
 
 </div>
-
