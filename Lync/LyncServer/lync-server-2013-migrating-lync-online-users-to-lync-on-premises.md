@@ -138,13 +138,13 @@ _**Topic Last Modified:** 2015-11-13_
     
     The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     
-    You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 organization account.
+    You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.
     
     <div>
     
-    ## To determine the Hosted Migration Service URL for your Office 365 organization
+    ## To determine the Hosted Migration Service URL for your organizaton
     
-    1.  Login to your Office 365 organization as an administrator.
+    1.  Log in to your Microsoft 365 or Office 365 organization as an administrator.
     
     2.  Open the **Lync admin center**.
     
