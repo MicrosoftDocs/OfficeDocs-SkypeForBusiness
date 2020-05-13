@@ -27,8 +27,12 @@ An emergency location must be associated with a phone number, but when this happ
 No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location. Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
 To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
 ## Add an emergency location
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. Click **Add Location**.
@@ -36,11 +40,17 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 4. Select the country or region, and then enter the address.
 
    > [!NOTE]
-   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that  to successfully activate a phone number in Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
+   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
 5. If the address isn't found and you want to manually edit the address, turn on **Let me edit the address form manually if the address selected can't be found**.
 6. Click **Save**.
+
+### Using PowerShell
+
+See [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress).
     
 ## Change an emergency location
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, select the location that you want to change, and then click **Edit**.
@@ -49,11 +59,21 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 
 > [!NOTE]
 > You can change the address information for a location only if the address isn't validated. If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.
+
+### Using PowerShell
+
+See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress).
     
 ## Remove an emergency location
 
+### Using the Microsoft Teams admin center
+
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
-2. In the list, select the location that you want to remove, and then click **Delete**
+2. In the list, select the location that you want to remove, and then click **Delete**.
+
+### Using PowerShell
+
+See [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
     
 ## Related topics
 
