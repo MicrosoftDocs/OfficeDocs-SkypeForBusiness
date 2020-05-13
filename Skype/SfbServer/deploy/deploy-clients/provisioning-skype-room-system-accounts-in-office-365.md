@@ -16,9 +16,9 @@ description: "Read this topic to learn about provisioning Skype Room System acco
 
 # Provisioning Skype Room System accounts in Microsoft 365 and Office 365
  
-Read this topic to learn about provisioning Skype Room System accounts in Office 365.
+Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365.
   
-The following section covers Skype Room System account provisioning for an Office 365 organization.
+The following section covers Skype Room System account provisioning.
   
 ## Microsoft 365 and Office 365 prerequisites
 
@@ -36,7 +36,7 @@ Your online tenant must meet the following requirements:
     
   - Skype for Business Online Remote PowerShell access
     
-  - Windows Azure Active Directory Module for Windows PowerShell to access Office 365 directory access
+  - Windows Azure Active Directory Module for Windows PowerShell to access Microsoft 365 or Office 365 directory access
     
 For the Skype Room account, the following licensing is required:
   
@@ -50,9 +50,9 @@ For the Skype Room account, the following licensing is required:
     
 ## Provisioning overview
 
-The following diagram provides an overview of the Skype Room System account provisioning flow in Office 365.
+The following diagram provides an overview of the Skype Room System account provisioning flow.
   
-![Skype Room System Provisioning steps for O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Room System Provisioning steps](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## Identify a new conference room
 
@@ -88,7 +88,7 @@ After creating the mailbox, you can use the Set-CalendarProcessing cmdlet in Exc
 
 ## Assigning a Skype for Business Online license
 
-Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Office 365 administrative portal as described in [Assign or remove licenses for Office 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Microsoft 365 administrative portal as described in [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.
   
@@ -121,7 +121,7 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 ## Password expiration
 
-In Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
+In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
   
 1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
     
