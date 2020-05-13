@@ -891,7 +891,7 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 
 3 Not available to Skype for Business Online and/or Microsoft 365 users.
 
-4 For Skype for Business Online and/or Microsoft 365 users, this feature is supported by Microsoft partners.
+4 For Skype for Business Online, Microsoft 365, or Office 365 users, this feature is supported by Microsoft partners.
 
 </div>
 
@@ -1073,4 +1073,3 @@ On iPhone and iPad, Lync signs out automatically if the user has not used the ap
 </div>
 
 </div>
-
