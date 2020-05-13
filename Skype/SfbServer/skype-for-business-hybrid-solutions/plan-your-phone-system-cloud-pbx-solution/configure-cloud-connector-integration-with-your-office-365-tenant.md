@@ -164,7 +164,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
     Use the default SIP domain of Cloud Connector (the first SIP domain in the .ini file) as the user domain.
     
-    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign a Microsoft 365 or Office 365 licenses (such as E5) to the account you create, allow up to one hour for the changes to propagate,verify the user accounts has been provisioned correctly to the Skype for Business online directory by running following cmdlet, then remove the license from this account.
+    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign a Microsoft 365 or Office 365 license (such as E5) to the account you create, allow up to one hour for the changes to propagate,verify the user accounts has been provisioned correctly to the Skype for Business online directory by running following cmdlet, then remove the license from this account.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
