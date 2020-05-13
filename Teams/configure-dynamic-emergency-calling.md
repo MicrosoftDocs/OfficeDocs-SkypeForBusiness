@@ -84,7 +84,7 @@ Azure Maps is used for location-based services.  When you enter an emergency add
 
 This means that if an existing emergency location that is created for assigning to Calling Plan users is intended for a dynamic location, the same address needs to be re-created to include the geo codes. To distinguish between the two locations, you should include a different description. The new emergency location can be assigned to the users who have the old location. When fully migrated, the old location can be deleted.
 
-You can add and assign emergency addresses in the Microsoft Teams admin center or by using PowerShell. For more information, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for your user](assign-change-emergency-location-user.md).
+You add and assign emergency addresses in the Microsoft Teams admin center or by using PowerShell. For more information, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for your user](assign-change-emergency-location-user.md).
 
 ## Configure network settings
 
@@ -105,7 +105,7 @@ Keep the following definitions in mind. For more information, see [Network setti
 
 - A network subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site.  
 
-You can configure network settings in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage your network topology for cloud voice features](manage-your-network-topology.md).
+You configure network settings in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage your network topology for cloud voice features](manage-your-network-topology.md).
 
 Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
