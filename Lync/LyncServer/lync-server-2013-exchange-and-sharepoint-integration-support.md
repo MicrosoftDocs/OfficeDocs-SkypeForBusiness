@@ -60,7 +60,7 @@ Lync Server 2013 supports the two server-to-server authentication scenarios. The
 
 
 > [!NOTE]  
-> Server-to-server authentication between an on-premises server and a Microsoft 365 component is not supported in this Lync Server 2013 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.
+> Server-to-server authentication between an on-premises server and a Microsoft 365 or Office 365 component is not supported in this Lync Server 2013 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.
 
 
 
@@ -77,4 +77,3 @@ For details about server-to-server authentication, see [Managing server-to-serve
 </div>
 
 </div>
-

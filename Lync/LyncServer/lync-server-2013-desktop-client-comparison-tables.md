@@ -1589,9 +1589,9 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Microsoft 365 users, recording is unavailable in certain Skype for Business Online standalone plans. Recording requires full Lync 2013 client rights. For details, see the Skype for Business Online Service Description at [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430).
+1 For Skype for Business Online, Microsoft 365, or Office 365 users, recording is unavailable in certain Skype for Business Online standalone plans. Recording requires full Lync 2013 client rights. For details, see the Skype for Business Online Service Description at [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430).
 
-2 For Skype for Business Online and/or Microsoft 365 users, recording of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
+2 For Skype for Business Online, Microsoft 365, or Office 365 users, recording of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
 
 </div>
 
@@ -1694,11 +1694,11 @@ These tables indicate the features that are available to Lync users in an on-pre
 </table>
 
 
-1 For Skype for Business Online and/or Microsoft 365 users, Lync 2010 Attendant is not supported.
+1 For Skype for Business Online, Microsoft 365, or Office 365 users, Lync 2010 Attendant is not supported.
 
-2 For Skype for Business Online and/or Microsoft 365 users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute.
+2 For Skype for Business Online, Microsoft 365, or Office 365 users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute.
 
-3 For Skype for Business Online and/or Microsoft 365 users, archiving of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
+3 For Skype for Business Online, Microsoft 365, or Office 365 users, archiving of file transfers, shared OneNote pages, and PowerPoint annotations is unavailable.
 
 </div>
 
