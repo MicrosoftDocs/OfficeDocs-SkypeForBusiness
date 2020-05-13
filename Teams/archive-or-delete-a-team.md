@@ -37,7 +37,7 @@ When you delete a team, team activity in standard and private channels (and asso
 
 Follow these steps to archive a team.
 
-1. In the Microsoft Teams admin center, select **Teams**.
+1. In the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Archive**. The following message will appear.
 
@@ -50,7 +50,7 @@ Follow these steps to archive a team.
 
 Follow these steps to make an archived team active again.
 
-1. In the Microsoft Teams admin center, select **Teams**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Unarchive**. The team’s status will change to **Active**.
 
@@ -58,7 +58,7 @@ Follow these steps to make an archived team active again.
 
 If the team will not be required in the future, then you can delete it rather than archiving it. Follow these steps to delete a team.
 
-1.	In the Microsoft Teams admin center, select **Teams**.
+1.	In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.
 2.	Select a team by clicking the team name.
 3.	Select **Delete**. A confirmation message will appear.
 4.	Select **Delete** to permanently delete the team.

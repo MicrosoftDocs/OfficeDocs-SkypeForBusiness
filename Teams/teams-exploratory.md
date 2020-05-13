@@ -74,7 +74,7 @@ Admins can disable the ability for end users to run the Teams Exploratory experi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.
+You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience. You must have admin privileges. To learn more about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](teams-exploratory.md)
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
@@ -89,11 +89,11 @@ You can turn off a user's ability to install trial apps and services, would prev
 
 ### Manage availability for a user with a license that includes Teams
 
-A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available.
+A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available. You must have admin privileges. 
 
 To turn off access to Teams:
 
-1. In the Microsoft 365 admin center, select **Users** > **Active users**.
+1. In the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), select **Users** > **Active users**.
 
 2. Select the box next to the name of the user.
 
@@ -105,7 +105,7 @@ To turn off access to Teams:
 
 ### Manage Teams availability for users who are already using the Teams Exploratory experience
 
-If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan.
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan. You must have admin privileges. 
 
 To turn off the the Teams Exploratory experience license:
 
@@ -126,7 +126,7 @@ You can manage users who have the Teams Exploratory license just like you manage
 
 ### Upgrade users from the Teams Exploratory license
 
-To upgrade users from the Teams Exploratory license, do the following:
+To upgrade users from the Teams Exploratory license (you must have admin privileges), do the following:
 
 1. Purchase a subscription that includes Teams.
 
@@ -134,7 +134,7 @@ To upgrade users from the Teams Exploratory license, do the following:
 
 3. Assign the newly purchased license.
 
-For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
+For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 

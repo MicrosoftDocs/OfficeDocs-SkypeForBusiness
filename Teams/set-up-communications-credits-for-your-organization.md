@@ -37,11 +37,11 @@ When you sign up, you get a certain number of minutes depending on your country/
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   
-- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     > [!NOTE]
     > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or a **Domestic and International Calling Plan** license.
@@ -52,7 +52,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
   
 ## Step 2: Set up Communications Credits for your organization
 
-1. Sign in to the new Microsoft 365 admin center with your work or school account.
+1. Sign in to the [Microsoft 365 admin center](https://portal.office.com/Adminportal) with your work or school account.
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
@@ -85,9 +85,9 @@ When you are setting up Communications Credits, you will need to investigate cal
   
 ## Step 3: Assign a Communications Credits license to users
 
-1. Sign in with your work or school account.
+1. Sign in to the [Microsoft 365 admin center](https://portal.office.com/Adminportal) with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user from the list.
     
 3. Choose **Licenses and Apps**.
     
@@ -95,6 +95,9 @@ When you are setting up Communications Credits, you will need to investigate cal
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
+
+    > [!TIP]
+    > You can use [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) to assign licenses and apps to multiple users with one command.
   
 ## Want to know about plans and pricing?
 

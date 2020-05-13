@@ -24,6 +24,7 @@ Before you can use the Power BI query templates for CQD (PBIX files), you'll nee
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
+Make sure you have the right [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) to access the Power BI reports. 
 
 ## Installation
 
@@ -154,6 +155,18 @@ If you encounter any additional errors outside of this scope, please notify the 
 ### When will the Power BI Connector be updated from "Beta" status?
 
 Despite the Beta tag, the Call Quality Connector for Power BI is the release version of the connector and has been officially security signed by the Power BI team to reflect this. The certification process to remove that Beta tag is an extensive one and requires a commitment from the Power BI team to provide direct support to the connector as well. Due to time constraints, the Power BI team is currently unable to provide that support and broader certification, but is still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector.
+
+### Why does the connector seem so slow compared to Advanced CQD in the browser? What can I do to improve performance?
+
+Query performance for the various templates is actually the same in both the browser and in the connector. The difference comes in the number of concurrent queries being run. Because the in-browser version of CQD had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates often display 20+ concurrent queries. If you wish to build reports that are just as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
+
+### I find that I routinely run into the 10,000-row limit when running queries. How can I get the connector to return more than 10,000 rows?
+
+The 10,000-row limit is actually specified on the API end, and it is designed to help significantly improve performance and reduce the risk of query execution errors resulting from low memory conditions.
+
+Instead of attempting to increase the result row count, it is best to restructure your reports according to connector best practices. The templates we have included are designed to demonstrate these best practices. Where possible, start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
+
+
 
 ## Related topics
 
