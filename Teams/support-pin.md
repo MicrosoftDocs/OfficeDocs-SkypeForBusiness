@@ -11,8 +11,6 @@ ms.collection:
 ms.reviewer: mikedav
 search.appverid: MET150
 description: Learn how to look up your support PIN.
-f1.keywords:
-- 
 appliesto: 
   - Microsoft Teams
 ---
