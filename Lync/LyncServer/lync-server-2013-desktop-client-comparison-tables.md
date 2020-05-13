@@ -48,7 +48,7 @@ The following tables compare the features and capabilities of Lync 2013 clients 
 
   - modern auth
 
-These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft 365 users unless otherwise indicated.
+These tables indicate the features that are available to Lync users in an on-premises deployment of Lync Server 2013. The same features are also available to Skype for Business Online and Microsoft 365 or Office 365 users unless otherwise indicated.
 
 <div>
 
@@ -1765,4 +1765,3 @@ User accounts can exist either Online or On-premises, and that will affect the f
 </div>
 
 </div>
-
