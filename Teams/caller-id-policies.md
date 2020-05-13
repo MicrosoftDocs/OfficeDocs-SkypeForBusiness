@@ -42,7 +42,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
     - **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
     - **Override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID. For more information, see [End User Control of Outbound Caller ID](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)
-    - **Replace caller ID with**: Set the caller ID to be displayed for users by selecting one of the following:
+    - **Replace the caller ID with**: Set the caller ID to be displayed for users by selecting one of the following:
 
         - **User's number**: Displays the user's number. 
         - **Service number**: Lets you set a service phone number to display as the caller ID.
