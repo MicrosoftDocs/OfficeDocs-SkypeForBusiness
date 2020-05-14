@@ -50,7 +50,7 @@ You can extend an existing Cloud Connector site to support HA by adding addition
   
 1. Follow the steps to prepare your Cloud Connector appliance as described in [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md). Note that some steps are required only for the first appliance in your deployment. Confirm that the site directory exists and is correctly configured for HA support.
     
-2. Run the following cmdlet only on the newly added host server to update topology information in your Office 365 organization configuration. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one:
+2. Run the following cmdlet only on the newly added host server to update topology information in your Microsoft 365 or Office 365 organization configuration. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one:
     
    ```powershell
    Register-CcAppliance
@@ -75,7 +75,7 @@ You can extend an existing Cloud Connector site to support HA by adding addition
 
 If you want to remove an appliance from an existing site:
   
-1. Run the following cmdlet only on the host servers you want to remove from the site to update the topology information in your Office 365 organization configuration.
+1. Run the following cmdlet only on the host servers you want to remove from the site to update the topology information in your Microsoft 365 or Office 365 organization configuration.
     
    ```powershell
    Unregister-CcAppliance
