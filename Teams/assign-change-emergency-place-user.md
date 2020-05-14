@@ -45,7 +45,7 @@ See [Set-CsOnlineLisLocation](https://docs.microsoft.com/en-us/powershell/module
     
 ## Related topics
 
-- [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
