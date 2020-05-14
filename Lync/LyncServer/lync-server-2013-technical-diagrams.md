@@ -7,7 +7,7 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
@@ -131,7 +131,7 @@ These posters detail a specific technical area, and are intended to be used with
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Zoom into the poster in full detail with Zoom.it from Microsoft</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF version</a> (best for mobile devices or tablet computers)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio version</a> (best for users with Visio)</p></td>
-<td><p>This poster describes the available platform options for Lync 2013 to BDMs and architects  Customers can choose from Lync Online with Office 365, Hybrid Lync, Lync Server on-premises and Hosted Lync. The poster includes details of each architectural option, including the most ideal scenarios for each, the license requirements and IT Pro responsibilities.</p>
+<td><p>This poster describes the available platform options for Lync 2013 to BDMs and architects  Customers can choose from Lync Online with Microsoft 365, Hybrid Lync, Lync Server on-premises and Hosted Lync. The poster includes details of each architectural option, including the most ideal scenarios for each, the license requirements and IT Pro responsibilities.</p>
 <p>Size: 34-by-44 inch</p>
 <p>This poster was created using Visio 2013. No modification should be needed for a specific environment.</p></td>
 </tr>

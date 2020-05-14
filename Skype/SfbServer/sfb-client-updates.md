@@ -20,14 +20,14 @@ Use the links on this page to get more information about and download the most r
 
 > [!NOTE]
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
-> - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Microsoft 365 Apps for enterprise.
+> - The information in this article doesn't apply to Microsoft 365 or Office 365 versions of Skype for Business, such as Skype for Business included with Microsoft 365 Apps for enterprise.
 > - For the latest mobile client updates, go to the app store for your mobile client (iTunes, Google Play, or Microsoft Store) to view details and install updates.
 > - To find out what version of Skype for Business you're using, see [What version of Skype for Business do I have?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - For more information about installing Office updates, see [Install Office updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
-Skype for Business compatibility with Office 365 and your on-premises environment depends on the system requirements for your deployment:
+Skype for Business compatibility with Microsoft 365 or Office 365 and your on-premises environment depends on the system requirements for your deployment:
 
-- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- Microsoft 365 and Office 365 work with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Microsoft 365 or Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - For Skype for Business Server on-premises deployments, follow the system requirements for your version of Skype for Business:
 

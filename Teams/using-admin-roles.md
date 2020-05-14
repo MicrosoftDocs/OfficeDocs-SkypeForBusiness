@@ -20,6 +20,7 @@ ms.custom:
   - seo-marvel-apr2020
 ms.reviewer: islubin
 description: Learn how to use the administrative roles to designate administrators who need different levels of access to manage Teams.
+
 appliesto: 
   - Microsoft Teams
 ---
@@ -31,6 +32,8 @@ Using Azure Active Directory (Azure AD), you can designate administrators who ne
 ## Teams roles and capabilities
 
 There are four Teams admin roles available: Teams service administrator, Teams communications administrator, Teams communications support specialist, and Teams communications support engineer. Review the following table to understand what each role can do and which tools the admin can use in the Microsoft Teams admin center and PowerShell.
+
+To follow along, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 
 
