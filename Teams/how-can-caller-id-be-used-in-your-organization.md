@@ -28,7 +28,7 @@ description: "Caller ID can be controlled for both inbound and outbound calls fo
 
 Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.
   
-The Caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
+The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
   
 - Online PSTN Connectivity
     
@@ -41,7 +41,7 @@ The Caller ID functionality is available to all Phone System users regardless of
   
 ## Outbound caller ID
 
-There are three options available for outbound PSTN Caller ID:
+There are three options available for outbound PSTN caller ID:
   
 - The telephone number assigned to the user, which is the default.
     
@@ -57,11 +57,11 @@ However, you can't assign these types of phone numbers for the outbound caller I
     
 To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).
   
-### End User Control of Outbound Caller ID
+### End user control of outbound caller ID
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), select **Hide my phone number and profile information for all calls**.
+Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**. In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
   
 ||||
 |:-----|:-----|:-----|
@@ -72,7 +72,7 @@ Your end users can set their caller ID to **Anonymous** by using the **Settings*
 |MSI  <br/> |Skype for Business  <br/> |No  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |No  <br/> |
    
-## Inbound Caller ID
+## Inbound caller ID
 
 Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD. If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.
 
