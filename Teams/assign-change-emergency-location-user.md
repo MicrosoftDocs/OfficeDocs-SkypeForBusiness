@@ -36,9 +36,9 @@ You can assign or change an emergency location for a user in the Microsoft Teams
 
 3. On the **Edit** pane, under **Emergency location**, do one of the following:
 
-    - To assign an emergency location, search for, and select an emergency location.
+   - To assign an emergency location, search for, and select an emergency location.
 
-    - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
+   - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
 
 4. Click **Save**.
 
