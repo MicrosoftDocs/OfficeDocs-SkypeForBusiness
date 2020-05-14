@@ -77,7 +77,7 @@ Microsoft has identified various customer deployments that are consuming feature
     Look out for a notice in the Admin Notification Center with further details and timeline regarding your users' migration. Notifications are sent at least 30 days before your migration period. 
 
     > [!Note]
-    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Microsoft 365 can submit a support case through the Microsoft 365 admin center. 
+    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Microsoft 365 or Office 365 can submit a support case through the Microsoft 365 admin center. 
 
 6. **Consider opting in for a planned migration**
 
