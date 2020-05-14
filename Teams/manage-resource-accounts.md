@@ -263,4 +263,6 @@ For implementations in Teams or Skype for Business Online:
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
+[New-CsOnlineApplicationInstanceAssociation](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
+
 [Phone System - Virtual User license](teams-add-on-licensing/virtual-user.md)
