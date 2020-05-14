@@ -19,14 +19,14 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
-description: "Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System in Office 365 (Cloud PBX)."
+description: "Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX)."
 ---
 
 # Plan for Skype for Business Cloud Connector Edition
 
-Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System in Office 365 (Cloud PBX).
+Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System in Office 365 solution is right for your business, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this topic before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -35,25 +35,25 @@ Cloud Connector Edition 2.1 is now available. If you have not yet upgraded to 2.
 > [!NOTE]
 > Microsoft supports the previous version of Cloud Connector Edition for 60 days after the release of a new version. Microsoft will support version 2.0.1 for 60 days after the release of 2.1 to allow you time to upgrade. All versions previous to 2.0.1 are no longer supported.
 
-Cloud Connector Edition is a hybrid offering that consists of a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System in Office 365. By deploying a minimal Skype for Business Server topology in a virtualized environment, users in your organization who are homed in the cloud can receive PBX services from the Microsoft cloud, but PSTN connectivity is provided through the existing on-premises voice infrastructure.
+Cloud Connector Edition is a hybrid offering that consists of a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System. By deploying a minimal Skype for Business Server topology in a virtualized environment, users in your organization who are homed in the cloud can receive PBX services from the Microsoft cloud, but PSTN connectivity is provided through the existing on-premises voice infrastructure.
 
 ![Topology diagram showing Cloud PBX Gateway connecting Cloud PBX to an on-premises deployment of Skype for Business.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Because Cloud Connector enables you to integrate Phone System in Office 365 services with your existing telephony environment—for example, PBX, analog devices, and Call Centers—you can implement a phased migration from your existing telephony solution to Phone System in Office 365.
+Because Cloud Connector enables you to integrate Phone System services with your existing telephony environment—for example, PBX, analog devices, and Call Centers—you can implement a phased migration from your existing telephony solution to Phone System.
 
-For example, assume your company has a sophisticated Call Center with specific functionality that Phone System in Office 365 does not provide. You can choose to leave Call Center users with the existing solution, but move other users to Phone System in Office 365.
+For example, assume your company has a sophisticated Call Center with specific functionality that Phone System does not provide. You can choose to leave Call Center users with the existing solution, but move other users to Phone System.
 
-Cloud Connector will provide routing between the users homed on premises and online, and you can choose to use your own PSTN provider with Phone System in Office 365.
+Cloud Connector will provide routing between the users homed on premises and online, and you can choose to use your own PSTN provider with Phone System.
 
 Consider the following when planning your Cloud Connector Edition deployment:
 
-- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for an Office 365 organization that includes Phone System in Office 365. If you do not yet have an Office 365 organization you can learn how to sign up here: [Office 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
+- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you do not yet have a Microsoft 365 or Office 365 organization you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
 
-- To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Office 365 account with tenant Global Administrator rights.
+- To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Microsoft 365 or Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Microsoft 365 or Office 365 account with tenant Global Administrator rights.
 
 - Cloud Connector does not require a full on-premises Skype for Business Server deployment.
 
-    Currently, Cloud Connector cannot co-exist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Office 365 and keep providing on-premises telephony to your users, consider Phone System in Office 365 with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System in Office 365 (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md) and [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Currently, Cloud Connector cannot co-exist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you do not need to clean up the schema for the Cloud Connector deployment, as long as you've removed all Skype for Business or Lync Server components from your environment.
 
@@ -96,7 +96,7 @@ This topic contains the following sections:
 ## Cloud Connector Edition components
 <a name="BKMK_Components"> </a>
 
-With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Office 365 organization that includes Skype for Business Online services.
+With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Microsoft 365 or Office 365 organization that includes Skype for Business Online services.
 
 ![Cloud Connector Edition components](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -257,10 +257,10 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - External DNS record for Access Edge service of Edge component; for example, ap.\<Domain Name\>. You need one record per PSTN site. This record must contain IP addresses of all Edges for that site.
 
-- An Office 365 organization with all required DNS and SRV records created.
+- A Microsoft 365 or Office 365 organization with all required DNS and SRV records created.
 
     > [!IMPORTANT]
-    > When you integrate your tenant with Cloud Connector Edition, the use of the default domain suffix, .onmicrosoft.com, as a SIP domain for your organization is not supported. > You cannot use sip.\<Domain Name\> as the name of your Cloud Connector Edge Access proxy interface because this DNS record is used by Office 365.
+    > When you integrate your tenant with Cloud Connector Edition, the use of the default domain suffix, .onmicrosoft.com, as a SIP domain for your organization is not supported. > You cannot use sip.\<Domain Name\> as the name of your Cloud Connector Edge Access proxy interface because this DNS record is used by Microsoft 365 and Office 365.
 
 - A certificate for the external Edge obtained from a public Certificate Authority (CA).
 
@@ -270,7 +270,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
 - A tenant remote PowerShell module installed on the host machine.
 
-- The Office 365 Skype for Business administrator credentials to run remote PowerShell.
+- The Skype for Business administrator credentials to run remote PowerShell.
 
     > [!IMPORTANT]
     > The administrator account MUST NOT have multi-factor authentication enabled.
@@ -435,7 +435,7 @@ If more restrictive rules are required, refer to following whitelisting URLs:
 ### DNS name resolution for the Edge component
 <a name="BKMB_Ports"> </a>
 
-The Edge component needs to resolve the external names of Office 365 services and the internal names of other Cloud Connector components.
+The Edge component needs to resolve the external names of Microsoft 365 or Office 365 services and the internal names of other Cloud Connector components.
 
 Each Edge component is a multi-homed computer with external and internal facing interfaces. Cloud Connector deploys DNS servers on the Domain Controller component within the perimeter network. You can point Edge Server to the DNS Server within the perimeter for all name resolutions, but you need to enable the Cloud Connector DNS Server to resolve external names by setting a DNS zone containing one or more DNS A records for external queries that refer name lookups to other public DNS servers.
 
@@ -474,8 +474,8 @@ When configuring gateway information, remember the following:
 |Virtual machine domain name  <br/> |Domain name for the internal components of Cloud Connector. This domain must be different from the production domain. The name must be the same across all Cloud Connector appliances.  <br/> Name in .ini file: "VirtualMachineDomain"  <br/> |.local domain is preferred.  <br/> |
 |Cloud Connector domain controller name  <br/> |Name of the domain controller.  <br/> Name in .ini file: "ServerName"  <br/> |Must be 15 characters or less. Enter Netbios name only.  <br/> |
 |Cloud Connector domain controller IP/subnet mask  <br/> |IP address of the domain controller.  <br/> Name in .ini file: "IP"  <br/> ||
-|O365 Online service FQDNs  <br/> |Must be the default in most cases for the world-wide O365 instance.  <br/> Name in .ini file: "OnlineSipFederationFqdn"  <br/> ||
-|SiteName  <br/> |Skype for Business site name; for example, Seattle.  <br/> Name in .ini file: "SiteName"  <br/> For Release 1.4.1 and later, site name must be different for each site and the name must match the PSTN site, if it exists, defined in Office 365. Note that PSTN sites will automatically be created when registering the first appliance in a site.  <br/> ||
+|Microsoft 365 or Office 365 Online service FQDNs  <br/> |Must be the default in most cases for the world-wide Microsoft 365 or Office 365 instance.  <br/> Name in .ini file: "OnlineSipFederationFqdn"  <br/> ||
+|SiteName  <br/> |Skype for Business site name; for example, Seattle.  <br/> Name in .ini file: "SiteName"  <br/> For Release 1.4.1 and later, site name must be different for each site and the name must match the PSTN site, if it exists, defined in Microsoft 365 or Office 365. Note that PSTN sites will automatically be created when registering the first appliance in a site.  <br/> ||
 |HardwareType  <br/> Release 1.4.1 and later  <br/> |Type of hardware. The default value is Normal. You can also set to Minimum.  <br/> ||
 |Country Code  <br/> |Country Code for Dialing.  <br/> Name in .ini file: "CountryCode"  <br/> ||
 |City  <br/> |City (Optional).  <br/> Name in .ini file: "City"  <br/> ||
@@ -525,7 +525,7 @@ When configuring gateway information, remember the following:
 |Virtual Machines Administrator Password  <br/> Version 1.4.2 only  <br/> |Used to configure management network during the deployment.  <br/> User name is Administrator. You cannot change the user name.  <br/> ||
 |CABackupFile  <br/> Version 2.0 and later  <br/> |Used for saving the Certification Authority Service from the Active Directory server to a file when deploying multiple appliances in a Cloud Connector site. Be sure to use the same password for all appliances within one Cloud Connector site in order to import the CA backup file to new added appliance successfully.  <br/> ||
 |CCEService  <br/> Version 2.0 and later  <br/> |Used for the Cloud Connector Management service; needs access to the Cloud Connector site directory. Be sure to use the same password for all appliances within one Cloud Connector site.  <br/> ||
-|Office 365 Tenant Admin  <br/> | The account is used by Cloud Connector to update and manage tenant settings for Cloud Connector: <br/>  Version 2.0 and later: Credentials for a dedicated Office 365 account with Skype for Business Administrator rights. <br/>  Versions previous to 2.0: Credentials for a dedicated Office 365 account with Global Tenant Administrator rights. <br/> ||
+|Microsoft 365 or Office 365 Tenant Admin  <br/> | The account is used by Cloud Connector to update and manage tenant settings for Cloud Connector: <br/>  Version 2.0 and later: Credentials for a dedicated Microsoft 365 or Office 365 account with Skype for Business Administrator rights. <br/>  Versions previous to 2.0: Credentials for a dedicated Microsoft 365 or Office 365 account with Global Tenant Administrator rights. <br/> ||
 |Enable REFER support  <br/> |This will define whether SIP REFER support is enabled or disabled on the Trunk Configuration to your IP/PBX. The default value is True. If your IP/PBX Gateway supports REFER support, please leave this as True. If it does not, this value needs to be changed to False. If you are not sure if your gateway supports REFER, please see [Qualified IP-PBXs and Gateways](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2.0 and later  <br/> |With the default value "True", if outbound calls are not answered by the gateway within 10 seconds they will be routed to the next available gateway; if there are no additional trunks then the call will be dropped automatically.  <br/> However, in an organization with slow networks and gateway responses, or when the process of establishing calls takes more than 10 seconds, this could potentially result in calls being dropped unnecessarily.  <br/> When placing calls to some countries, for example the UAE or Afghanistan, call establishing process can take more than 10 seconds. You will need to change the value to False if you encounter similar issues. Do not forget to change the corresponding setting on the connected SBC or Gateway.  <br/> The value can be True or False. The default value is True.  <br/> ||
 |ForwardCallHistory  <br/> Version 2.0 and later  <br/> | This parameter is used to turn on SIP headers that are used to report the initial caller in Simultaneous Ringing, Call Forwarding, and Call Transfer scenarios. Setting the parameter to True will turn on two SIP headers: <br/>  History-Info <br/>  Referred-By <br/>  The History-Info header is used for re-targeting SIP requests and "provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users" ([RFC 4244 - Section 1.1](http://www.ietf.org/rfc/rfc4244.txt)). For the Cloud Connector trunk interfaces, this is used in Simulring and Call Forwarding scenarios.  <br/>  The value can be True or False. The default value is False. <br/> ||
@@ -552,7 +552,7 @@ Each Edge component requires a certificate from a public certification authority
   ```
 
 > [!NOTE]
-> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
+> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Microsoft 365 or Office 365 deployment.
 
 > [!NOTE]
 > If you want to use a single certificate for all Edge pools deployed in your organization and cannot use a wildcard certificate as defined in option 2, then you will need to include the FQDN for all deployed Edge pools in the SAN name in the certificate.
@@ -576,7 +576,7 @@ You will need to add sip.sipdomain.com for every SIP domain and the name of the 
   ```
 
 > [!NOTE]
-> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
+> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Microsoft 365 or Office 365 deployment.
 
 For purposes of deployment, you can use the following table:
 
