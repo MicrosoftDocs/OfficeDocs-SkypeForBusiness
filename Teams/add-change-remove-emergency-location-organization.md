@@ -74,10 +74,10 @@ See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/s
 ### Using PowerShell
 
 See [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
-    
+
 ## Related topics
 
--[What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
