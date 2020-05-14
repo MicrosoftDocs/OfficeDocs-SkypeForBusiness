@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Follow these steps to install the pre-release version of the Teams PowerShell module.
+description: Follow these steps to install the pre-release version of the Teams PowerShell module from the PowerShell Test Gallery.
 ---
 
 # Install the pre-release version of the Teams PowerShell module
 
-This article describes how to install the latest pre-release version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/). Use the pre-release version of the Teams PowerShell module in scenarios where cmdlets for managing a Teams feature aren't supported in the Generally Available version of the Teams PowerShell module and are only available in the pre-release version of the module.
+This article describes how to install the latest pre-release version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). You need the pre-release version of the Teams PowerShell module in scenarios where cmdlets for managing a Teams feature aren't supported in the Generally Available version of the module and are only available in the pre-release version of the module.
 
 Use these steps to install the latest pre-release version of the Teams PowerShell module from the PowerShell Test Gallery.
 
 > [!NOTE]
-> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
+> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the [public PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
 
 1. Close all existing PowerShell sessions.
 2. Start a new instance of the Windows PowerShell module.
