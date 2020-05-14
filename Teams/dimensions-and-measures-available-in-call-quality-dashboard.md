@@ -687,7 +687,7 @@ Many Measurement values can also be used as filters. The following table lists t
 ### Notes on measurements
 
 #### Accuracy limitations
-Certain user and call count measurements rely on performing a distinct countif operation on the data set to compute the count. There is currently an up to 0.2% error inherent with the distinct countif operation depending on the number of rows the operation is performed on. For the most accurate volume, you should use stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. More information about this limitation can be found here [dcount aggregate function](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/dcount-aggfunction).
+Certain user and call count measurements rely on performing a distinct countif operation on the data set to compute the count. There is currently an up to 0.2% error inherent with the distinct countif operation depending on the number of rows the operation is performed on. For the most accurate volume, you should use stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. More information about this limitation can be found here [dcount aggregate function](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## Filters
 
