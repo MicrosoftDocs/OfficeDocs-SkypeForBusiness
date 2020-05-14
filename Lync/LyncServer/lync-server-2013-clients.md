@@ -76,7 +76,7 @@ Because of the enhancements to Lync Web App, an updated version of Microsoft Lyn
 
 ## Lync 2013 Basic
 
-Lync 2013 Basic is a downloadable client for customers who have a licensed, on-premises Lync Server 2013 deployment and customers who subscribe to a Microsoft Office 365 plan that does not include the full Lync 2013 client. The Lync Basic client includes enhanced presence, contacts, instant messaging (IM), Lync meetings, and basic voice functionality. Features not supported in Lync Basic include multiparty video, OneNote integration, virtual desktop infrastructure (VDI) support, skill search, recording, Enterprise Voice features, and advanced call handling (for example, call forwarding and Team Call). For details, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+Lync 2013 Basic is a downloadable client for customers who have a licensed, on-premises Lync Server 2013 deployment and customers who subscribe to a Microsoft 365 or Office 365 plan that does not include the full Lync 2013 client. The Lync Basic client includes enhanced presence, contacts, instant messaging (IM), Lync meetings, and basic voice functionality. Features not supported in Lync Basic include multiparty video, OneNote integration, virtual desktop infrastructure (VDI) support, skill search, recording, Enterprise Voice features, and advanced call handling (for example, call forwarding and Team Call). For details, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
 </div>
 
