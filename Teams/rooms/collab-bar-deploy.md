@@ -51,20 +51,20 @@ For physical installation considerations, see the manufacturer's documentation a
 
 ## Service readiness
 
-Before you deploy your collaboration bars, you need to decide if they'll use resource accounts, end-user accounts, or a mixture of both. Resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. Resource accounts can automatically respond to meeting invites using rules you define when they're created. Unless a collaboration bar is dedicated to a specific individual for their private use, we recommend setting up a resource account for it.
+Before you deploy your collaboration bars, you need to decide if they'll use Microsoft 365 resource accounts, end-user accounts, or a mixture of both. Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. Unless a collaboration bar is dedicated to a specific individual for their private use, we recommend setting up a Microsoft 365 resource account for it.
 
 ### Using a resource account
 
-If you decide to set up a resource account, 
+If you decide to set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
 
-Depending on the collaboration scenarios that you’ve decided to enable with your collaboration bars for Microsoft Teams deployment, you’ll need to determine the features and capabilities that you assign to each resource account that you enable.
+If you need to receive or make calls to or from an external telephone number, you'll also need a Microsoft 365 Phone System or Microsoft 365 Business Voice license.
 
-| **Scenario** | **Description** | **Collaboration bars for Microsoft Teams resource account feature** |
-|---------- |------------- | --- |
-| Interactive meetings            | Using voice, video, and screen sharing; making the collaboration bars for Microsoft Teams a bookable resource                     | Enabled for Exchange (Resource Mailbox) |                                      |
-| Outbound/inbound PSTN Calling | Enable the collaboration bars for Microsoft Teams to make and receive PSTN calls                                         | Enabled for Phone System                                                |
+When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can boom the resource, and so on.
 
-For more information about collaboration bars for Microsoft Teams resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+> [!IMPORTANT]
+> Microsoft 365 resource accounts aren't the same as Teams resource accounts. Teams resource accounts can be used with call queues and auto attendants to accept phone calls from external phone numbers. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms, projectors, and so on.
+
+For more information about collaboration bars for Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 
 |    |     |
