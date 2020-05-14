@@ -74,7 +74,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
   |Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
 
-- Surface Pro devices require one of the following docking station options to secure a tablet to the meeting room table.
+- Surface Pro devices require one of the following docking station options:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -87,6 +87,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 |Microsoft Teams Rooms peripheral|Certified firmware version | Camera supports content camera use|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Jabra Panacast Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
