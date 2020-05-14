@@ -25,7 +25,7 @@ The Patients application is a Microsoft Teams store app available to all Teams u
 
 The app has two modes:
 
-- The EMR Connected mode that connects to EMRs through FHIR. The EMR Connected mode app stays in private preview and interested customers or admins may request access to the app by dropping Microsoft an email at [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) with information about their Office 365 organization.
+- The EMR Connected mode that connects to EMRs through FHIR. The EMR Connected mode app stays in private preview and interested customers or admins may request access to the app by dropping Microsoft an email at [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) with information about their Microsoft 365 organization.
 - The manual mode that enables care teams to manually add/bring in patient information. The application is available in the Teams app store for end users to download in private preview. The app can be restricted to certain sections of users using [app setup policies](../../teams-app-setup-policies.md) in Teams. To get access to the app, your tenant needs to be part of the Technology Adoption Program (TAP). Please drop us an email at [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) to start the process to request access.
 
 ## Usage example
