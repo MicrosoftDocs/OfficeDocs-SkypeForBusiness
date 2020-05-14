@@ -41,7 +41,7 @@ You can assign or change an emergency location for a user in the Microsoft Teams
 
 ## Using PowerShell
 
-See ???
+See [Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser). 
 
     
 ## Related topics

@@ -41,7 +41,7 @@ You can assign or change the place for an emergency location for a user in the M
 
 ## Using PowerShell
 
-See ???
+See [Set-CsOnlineLisLocation](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinelislocation).
     
 ## Related topics
 
