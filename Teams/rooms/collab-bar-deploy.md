@@ -69,7 +69,7 @@ For more information about collaboration bars for Microsoft 365 resource account
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you’ll support, and identify licensing requirements for your resource accounts.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>| 
 
 
@@ -83,11 +83,14 @@ Planning for configuration and deployment covers the following key areas:
 -   Testing
 -   Asset management
 
-### Account provisioning 
+### Account provisioning
 
-Collaboration bars for Microsoft Teams can use a dedicated and unique resource account, or a standard end-user account that must be enabled for both Microsoft Teams and Exchange. If using a dedicated resource account, calendar processing must be configured in Exchange so that the device can automatically accept incoming meeting requests. For more information about creating dedicated resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md). 
+If you plan on using Microsoft 365 resource accounts to let users book collaboration bars, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each collaboration bar that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Phone System or Business Voice license.
 
-**Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding collaboration bars for Microsoft Teams to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie—a 4-person meeting room in London—might have the display name LON-CURIE(4). 
+If you want to assign collaboration bars to individual users for their private use, you don't need to set up any additional accounts. Users can sign into collaboration bars using their personal accounts.
+
+> [!TIP]
+> Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding collaboration bars for Microsoft Teams to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
 
 |    |     |
 |-----------|------------|
@@ -106,7 +109,7 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 ### Testing
 
-After the collaboration bars for Microsoft Teams has been deployed, you should test them. Sign in to the device with the resource account and check that the expected capabilities are working on the deployed device. We highly recommend that you verify that the devices are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance. 
+After the collaboration bars for Microsoft Teams has been deployed, you should test them. Sign in to the device and check that the expected capabilities are working on the deployed device. We highly recommend that you verify that the devices are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
 We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 
