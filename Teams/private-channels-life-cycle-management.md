@@ -25,7 +25,7 @@ description: Learn how to manage the life cycle of private channels in your orga
 Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.
 
 > [!IMPORTANT]
-> If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.
+> If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). The latest publicly available version of the Teams PowerShell module doesn't support managing private channels.
 
 ## Set whether team members can create private channels
 
@@ -231,7 +231,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
           ]
     }
     ```    
-2.     Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
+2. Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
@@ -266,7 +266,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
 ### Install the latest Teams PowerShell module from the PowerShell Test Gallery
 
-The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.21) from the PowerShell Test Gallery.
+The latest publicly available version of the Teams PowerShell module doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support from the PowerShell Test Gallery.
 
 > [!NOTE]
 > Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
