@@ -32,7 +32,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2017-02-21_
 
-In a cross-premise configuration, some of your users are homed on an on-premises installation of Microsoft Lync Server 2013 while other users are homed on the Office 365 version of Lync Server. In order to configure server-to-server authentication in a cross-premises environment, you must first configure your on-premises installation of Lync Server 2013 to trust the Office 365 Authorization server. The initial step in this process can be carried out by running the following Lync Server Management Shell script:
+In a cross-premise configuration, some of your users are homed on an on-premises installation of Microsoft Lync Server 2013 while other users are homed on the Microsoft 365 or Office 365 version of Lync Server. In order to configure server-to-server authentication in a cross-premises environment, you must first configure your on-premises installation of Lync Server 2013 to trust the Microsoft 365 Authorization server. The initial step in this process can be carried out by running the following Lync Server Management Shell script:
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -82,25 +82,25 @@ After the script completes you must then configure a trust relationship between 
 
 
 > [!NOTE]  
-> If you have not installed the Microsoft Online Services cmdlets you will need to do two things before proceeding. First, download and install the 64-bit version of the Microsoft Online Services Sign-in Assistant. After installation is complete, download and install the 64-bit version of the Microsoft Online Services Module for Windows PowerShell. Detailed information for installing and using the Microsoft Online Services Module can be found on the Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Office 365 and Active Directory.<BR>If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available.
+> If you have not installed the Microsoft Online Services cmdlets you will need to do two things before proceeding. First, download and install the 64-bit version of the Microsoft Online Services Sign-in Assistant. After installation is complete, download and install the 64-bit version of the Microsoft Online Services Module for Windows PowerShell. Detailed information for installing and using the Microsoft Online Services Module can be found on the Microsoft 365 or Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Microsoft 365 or Office 36 and Active Directory.<BR>If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available.
 
 
 
 </div>
 
-After you have configured Office 365, and after you have created Office 365 service principals for Lync Server 2013 and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 saved as a .CER file. This certificate will then be applied to the Office 365 service principals.
+After you have configured Microsoft 365, and after you have created Microsoft 365 or Office 365 service principals for Lync Server 2013 and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 saved as a .CER file. This certificate will then be applied to the Microsoft 365 or Office 365 service principals.
 
 When you have obtained the X.509 certificate, start the Microsoft Online Services Module (click **Start**, click **All Programs**, click **Microsoft Online Services**, and then click **Microsoft Online Services Module for Windows PowerShell**). After the Services Module opens, type the following to import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
 
     Import-Module MSOnlineExtended
 
-When the module has been imported, type the following command and then press ENTER in order to connect to Office 365:
+When the module has been imported, type the following command and then press ENTER in order to connect to Microsoft 365:
 
     Connect-MsolService
 
 After you press ENTER, a credentials dialog box will appear. Enter your Microsoft 365 or Office 365 user name and password in the dialog box, and then click OK.
 
-As soon as you are connected to Office 365 you can then run the following command in order to return information about your service principals:
+As soon as you are connected to Microsoft 365 you can then run the following command in order to return information about your service principals:
 
     Get-MsolServicePrincipal
 
@@ -122,7 +122,7 @@ The next step is to import, encode, and assign the X.509 certificate. To import 
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-After the certificate has been imported and encoded, you can then assign the certificate to your Office 365 service principals. To do that, first use the Get-MsolServicePrincipal to retrieve the value of the AppPrincipalId property for both the Lync Server and the Microsoft Exchange service principals; the value of the AppPrincipalId property will be used to identify the service principal being assigned the certificate. With the AppPrincipalId property value for Lync Server 2013 in hand, use the following command to assign the certificate to the Office 365 version of Lync Server (the StartDate and EndDate properties should correspond to the validity period for the certificate):
+After the certificate has been imported and encoded, you can then assign the certificate to your Microsoft 365 service principals. To do that, first use the Get-MsolServicePrincipal to retrieve the value of the AppPrincipalId property for both the Lync Server and the Microsoft Exchange service principals; the value of the AppPrincipalId property will be used to identify the service principal being assigned the certificate. With the AppPrincipalId property value for Lync Server 2013 in hand, use the following command to assign the certificate to the Microsoft 365 version of Lync Server (the StartDate and EndDate properties should correspond to the validity period for the certificate):
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
@@ -145,7 +145,7 @@ You can then delete the certificate by using a command similar to this:
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-In addition to assigning a certificate you must also configure the Office 365 Service Principal for Exchange Online by adding the Server Principal Name for your on-premise version of Lync Server 2013. This can be done by running the following four lines in a Microsoft Online Services PowerShell session:
+In addition to assigning a certificate you must also configure the Microsoft 365 Service Principal for Exchange Online by adding the Server Principal Name for your on-premise version of Lync Server 2013. This can be done by running the following four lines in a Microsoft Online Services PowerShell session:
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

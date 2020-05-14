@@ -23,14 +23,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Antigua and Barbuda."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Antigua and Barbuda."
 ---
 
 # Availability in Antigua and Barbuda
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and Calling Plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Antigua and Barbuda.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Antigua and Barbuda.
   
 ## Audio Conferencing
 

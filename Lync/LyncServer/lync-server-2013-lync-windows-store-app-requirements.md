@@ -56,7 +56,7 @@ Organizations with an on-premises deployment of Lync Server must meet the follow
 
   - On clients, install Windows 8.1 and the latest version of Lync Windows Store app to fix a sign-in issue that generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**).
 
-If your organization subscribes to Lync Online or Office 365 and you are using your own domain name, you must take some extra steps to set up your network for autodiscovery of the Lync servers. The network configuration requirements are the same for Lync Windows Store app and Lync on mobile devices. Follow the instructions “Set up your network” in the Office 365 wiki article “Set up Lync mobile devices,” available at [https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822).
+If your organization subscribes to Lync Online or Microsoft 365 and you are using your own domain name, you must take some extra steps to set up your network for autodiscovery of the Lync servers. The network configuration requirements are the same for Lync Windows Store app and Lync on mobile devices.
 
 <div>
 
@@ -77,4 +77,3 @@ If your organization subscribes to Lync Online or Office 365 and you are using y
 </div>
 
 </div>
-

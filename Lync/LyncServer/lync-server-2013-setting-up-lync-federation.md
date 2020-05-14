@@ -127,7 +127,7 @@ If you have already deployed you Edge server or servers, adding the federated sc
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Create or edit public SIP federated providers in Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Create or edit hosted SIP federated providers Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>This federation type defines services and hosting providers that you want to configure for your users. Typical uses include configuration for public IM providers like Windows Live Messenger, Yahoo! and AOL, as well as hosting providers such as Lync Online and Office 365</p>
+    <td><p>This federation type defines services and hosting providers that you want to configure for your users. Typical uses include configuration for public IM providers like Windows Live Messenger, Yahoo! and AOL, as well as hosting providers such as Lync Online and Microsoft 365</p>
     <div>
 
     > [!IMPORTANT]  
