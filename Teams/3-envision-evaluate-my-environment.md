@@ -224,7 +224,7 @@ ports is unsupported and will have an effect on media quality.
 If your organization requires that you specify the exact IP address ranges and
 domains to which these ports should be opened, you can restrict the target IP
 ranges and domains for these ports. For a list of exact ports, protocols, and IP
-ranges, see [Microsoft 365 and Office 365 URLs and IP address
+ranges, see [Microsoft 365 or Office 365 URLs and IP address
 ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 If you choose to restrict the target IP address ranges and domains, you must
 ensure that you keep the list of ports and ranges up to date because they might
@@ -240,7 +240,7 @@ In the event of a proxy server being deployed, we recommend that you bypass the
 proxy server for all Teams services. Although using a proxy might work, it's
 very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
-[Microsoft 365 and Office 365 URLs and IP address
+[Microsoft 365 or Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
