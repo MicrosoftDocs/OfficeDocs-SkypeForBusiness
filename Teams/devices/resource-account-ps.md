@@ -132,6 +132,6 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
 
 [Deploy collaboration bars for Microsoft Teams](collab-bar-deploy.md)
 
-[Collaboration bars for Microsoft Teams Licensing](rooms-licensing.md)
+[Collaboration bars for Microsoft Teams Licensing](../rooms/rooms-licensing.md)
 
 

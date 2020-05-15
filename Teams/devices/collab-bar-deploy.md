@@ -2,7 +2,7 @@
 title: "Deploy collaboration bars for Microsoft Teams"
 ms.author: mitressl
 author: flinchbot
-manager: ericwe
+manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
 ms.topic: quickstart
@@ -41,13 +41,13 @@ For physical installation considerations, see the manufacturer's documentation a
 
 > [!TIP]
 > Be sure to check out [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network’s suitability for real-time traffic.
-> 
+>
 > We don't recommend placing proxy servers between Teams devices and the Internet. For more information about proxy servers and Teams, check out [Proxy servers for Teams](../proxy-servers-for-skype-for-business-online.md).
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>| 
+| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
+| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>|
 
 ## Service readiness
 
@@ -59,28 +59,26 @@ If you decide to set up a Microsoft 365 resource account, you'll need to purchas
 
 If you need to receive or make calls to or from an external telephone number, you'll also need a Microsoft 365 Phone System or Microsoft 365 Business Voice license.
 
-When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can boom the resource, and so on.
+When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 For more information about collaboration bars for Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
-
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>| 
+| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>|
+| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>|
 
-
-## Configuration and deployment 
+## Configuration and deployment
 
 Planning for configuration and deployment covers the following key areas:
 
--   Resource account provisioning
--   Device deployment
--   Collaboration bars for Microsdoft Teams application and peripheral device configuration
--   Testing
--   Asset management
+- Resource account provisioning
+- Device deployment
+- Collaboration bars for Microsoft Teams application and peripheral device configuration
+- Testing
+- Asset management
 
 ### Account provisioning
 
@@ -93,30 +91,30 @@ If you want to assign collaboration bars to individual users for their private u
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your dedicated resource accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
+| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your dedicated resource accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>|
+| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>|
 
 ### Device deployment
 
-Next, you need to create your plan to deliver the devices and their assigned peripheral devices to your rooms, and then proceed with installation and configuration. 
-
+Next, you need to create your plan to deliver the devices and their assigned peripheral devices to your rooms, and then proceed with installation and configuration.
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the collaboration bars for Microsoft Teams on site and undertake the configuration and testing.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>| 
+| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the collaboration bars for Microsoft Teams on site and undertake the configuration and testing.</li></ul>|
+| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>|
 
 ### Testing
 
-After the collaboration bars for Microsoft Teams has been deployed, you should test them. Sign in to the device and check that the expected capabilities are working on the deployed device. We highly recommend that you verify that the devices are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
+After the collaboration bars for Microsoft Teams have been deployed, you should test them. Sign in to the device and check that the expected capabilities are working on the deployed device. We highly recommend that you verify that the devices are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
-We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
+We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide).
 
 ### Asset management
 
 As part of the deployment, you'll want to update your asset register with the room name, signed-in resource account, and assigned peripheral devices.
 
 ## Related topics
+
 [Configure accounts for collaboration bars for Microsoft Teams using Microsoft Teams admin center](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
