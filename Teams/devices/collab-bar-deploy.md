@@ -119,4 +119,4 @@ As part of the deployment, you'll want to update your asset register with the ro
 ## Related topics
 [Configure accounts for collaboration bars for Microsoft Teams using Microsoft Teams admin center](resource-account-ui.md)
 
-[Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md)
+<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
