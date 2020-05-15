@@ -398,7 +398,7 @@ This is a per-organizer policy. This setting controls whether meeting chat is al
 
 ## Meeting policy settings - Meeting attendance report
 
-This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](meeting-attendance-report.md).
+This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
 Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
