@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
