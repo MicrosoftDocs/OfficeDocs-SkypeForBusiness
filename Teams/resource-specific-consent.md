@@ -92,4 +92,4 @@ When uploading a custom app (also known sideloading) that uses resource-specific
 
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [[Manage app permission policies in Teams]](teams-app-permission-policies.md)
+- [Manage app permission policies in Teams](teams-app-permission-policies.md)
