@@ -72,7 +72,7 @@ Follow these steps:
 
 ### Find your minimum Internet connection speed
 
-When you select **Generate report**, Microsoft 365 Office 365 creates a report that looks like this:
+When you select **Generate report**, Microsoft 365 or Office 365 creates a report that looks like this:
 
 ![Network planner report detail](../media/network-planner-report.png)
 
