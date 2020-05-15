@@ -61,8 +61,7 @@ If you need to receive or make calls to or from an external telephone number, yo
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can boom the resource, and so on.
 
-> [!IMPORTANT]
-> Microsoft 365 resource accounts aren't the same as Teams resource accounts. Teams resource accounts can be used with call queues and auto attendants to accept phone calls from external phone numbers. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms, projectors, and so on.
+[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 For more information about collaboration bars for Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
