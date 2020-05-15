@@ -40,7 +40,7 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 4. Select the country or region, and then enter the address.
 
    > [!NOTE]
-   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that  to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
+   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
 5. If the address isn't found and you want to manually edit the address, turn on **Let me edit the address form manually if the address selected can't be found**.
 6. Click **Save**.
 
