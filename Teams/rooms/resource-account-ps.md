@@ -17,11 +17,13 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: "Read this topic for information on how to deploy collaboration bars for Microsoft Teams."
 ---
 
-# Using PowerShell to create resource accounts for collaborations bars for Microsoft Teams
+# Create a Microsoft 365 resource account using the PowerShell
 
 Read this topic for information on how to create resource accounts for collaboration bars for Microsoft Teams using PowerShell.
 
 The easiest way to create a resource account is by using the Microsoft 365 admin center. [See this article on how to do this](resource-account-ui.md).
+
+[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## Requirements
 
