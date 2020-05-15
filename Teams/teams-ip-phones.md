@@ -43,8 +43,8 @@ The following phones are Certified for Microsoft Teams:
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | March 2019|
 |Audiocodes C448HD (CAP mode only) | C450HD_TEAMS_0.225 | March 2019|
-|Crestron M100|2.3875.00068|December 2018|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
+|Crestron M100| This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020|
+|Crestron Flex UC-P100-T & UC-P110-T  | This product has been discontinued. For more information, visit [UC Phone]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website. |Discontinued as of 5/11/2020|
 |Lenovo ThinkSmart View|CD-18781Y.200410.067|April 2020|
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
