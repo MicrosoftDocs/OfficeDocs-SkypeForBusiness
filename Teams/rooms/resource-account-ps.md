@@ -15,6 +15,7 @@ ms.collection:
 ms.custom: 
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: "Read this topic for information on how to deploy collaboration bars for Microsoft Teams."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a Microsoft 365 resource account using the PowerShell
