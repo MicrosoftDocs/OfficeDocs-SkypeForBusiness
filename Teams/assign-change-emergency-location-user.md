@@ -26,7 +26,9 @@ When you're setting up Calling Plans, you need to assign an emergency location t
   
 To learn how to get Calling Plans in Microsoft 365 or Office 365 and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## Assign or change an emergency location for a user
+You can assign or change an emergency location for a user in the Microsoft Teams admin center or by using PowerShell.	## Assign or change an emergency location for a user
+
+## Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
 
