@@ -47,7 +47,7 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
 
 Local Media Optimization is supported by the following SBC vendors:
 
