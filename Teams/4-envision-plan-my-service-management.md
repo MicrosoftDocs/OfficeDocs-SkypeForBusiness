@@ -31,7 +31,7 @@ Envision phase, before your first pilot or production deployment.
 
 Service management is a broad topic that covers day-to-day operations of the
 Microsoft Teams service after it has been deployed and enabled for users. The
-Teams service encompasses Microsoft 365 and Office 365 and the infrastructure components
+Teams service encompasses Microsoft 365 or Office 365 and the infrastructure components
 that are deployed on-premises (for example, networking).
 
 The notion of service management is most likely not a new concept for most
