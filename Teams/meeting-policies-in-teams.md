@@ -402,9 +402,9 @@ This is a per-user policy. This setting controls whether meeting organizers can 
 
 Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To enable a user to download the meeting attendance report, set the **AllowEngagementReport** parameter **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane.
+To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter  to **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane.
 
-To prevent a user from downloading the report, set the parameter to **Disabled**. By default, this setting is disabled and the option to download the report isn't available.
+To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**. By default, this setting is disabled and the option to download the report isn't available.
 
 ## Related topics
 
