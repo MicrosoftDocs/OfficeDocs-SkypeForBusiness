@@ -22,29 +22,49 @@ ms.custom: seo-marvel-mar2020
 
 # Add, change, or remove a place for an emergency location in your organization
 
-Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location. See [What are emergency locations, places, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.
+Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
   
 To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
 ## Add a place to an emergency location
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, click the name of the location for which you want to add a place.
 3. On the **Places** tab, click **Add place**.
 4. Enter a place name, and then click **Apply**.
+
+### Using PowerShell
+
+See [New-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation).
     
 ## Change a place for an emergency location
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, click the name of the location for which you want to change a place.
 3. On the **Places** tab, select the place you want to change, and then click **Edit**.
 4. Update the place information, and then click **Apply**.
+
+### Using PowerShell
+
+See [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
 ## Remove a place from an emergency location
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, click the name of the location for which you want to remove a place.
 3. On the **Places** tab, select the place you want to remove, and then click **Delete**.
+
+### Using PowerShell
+
+See [Remove-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation).
     
 ## Related topics
 
