@@ -22,7 +22,7 @@ description: Follow these steps to install the pre-release version of the Teams 
 
 # Install the pre-release version of the Teams PowerShell module
 
-This article describes how to install the latest pre-release version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). You need the pre-release version of the Teams PowerShell module in scenarios where cmdlets for managing a Teams feature aren't supported in the Generally Available version of the module and are only available in the pre-release version of the module.
+This article describes how to install the latest pre-release version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). You need the pre-release version of the Teams PowerShell module in scenarios where cmdlets for managing a Teams feature aren't supported in the Generally Available version of the module and are only available in the pre-release version.
 
 Use these steps to install the latest pre-release version of the Teams PowerShell module from the PowerShell Test Gallery.
 
