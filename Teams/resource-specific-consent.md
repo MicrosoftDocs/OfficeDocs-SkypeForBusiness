@@ -67,7 +67,7 @@ You may have to wait up to 24 hours for your changes to take effect.
 
 #### Allow or block the app at the org level
 
-When you block or allow an app on the [Manage apps](manage-apps.mds#allow-and-block-apps) page, that app is blocked or allowed for all users in your organization. Team owners can only give consent to an app if the app is allowed. To allow or block an app at the org level, do the following:
+When you block or allow an app on the [Manage apps](manage-apps.md#allow-and-block-apps) page, that app is blocked or allowed for all users in your organization. Team owners can only give consent to an app if the app is allowed. To allow or block an app at the org level, do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. On the Manage apps page, select the app, and then click **Block** to block it or click **Allow** to allow it.
