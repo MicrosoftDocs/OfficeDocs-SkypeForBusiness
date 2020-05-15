@@ -29,19 +29,28 @@ To learn how to get Calling Plans in Microsoft 365 or Office 365 and how much th
 ## Assign or change an emergency location for a user
 
 1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
+
 2. On the **Phone numbers** page, select a user number in the list, and then click **Edit**.
+
 3. On the **Edit** pane, under **Emergency location**, do one of the following:
 
-- To assign an emergency location, search for, and select an emergency location.
-- To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
+   - To assign an emergency location, search for, and select an emergency location.
+
+   - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
 
 4. Click **Save**.
+
+## Using PowerShell
+
+See [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser). 
+
     
 ## Related topics
 
-- [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Assign or change a place for an emergency location for a user](assign-change-emergency-place-user.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Teams PowerShell overview](teams-powershell-overview.md)
