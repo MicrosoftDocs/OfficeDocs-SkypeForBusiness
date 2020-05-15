@@ -42,13 +42,13 @@ The following partners are in the process of certifying their solution for Micro
 
 | **Partner**                                                                                                                              | **Solution website**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![A picture containing drawing Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image1.jpg) Anywhere365  | [https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fanywhere365.io%2Fdirect-routing-contact-center-for-microsoft-teams%2F&data=02%7C01%7CAnthony.Blake%40microsoft.com%7C24422fb19c624a81821e08d7f74974c7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637249767184688124&sdata=NH00UQaArJT%2F%2FLuT9kP57kFVQt%2BdiNmwWA7jV1aXCzY%3D&reserved=0)                                       |
-| ![A picture containing drawing Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image2.jpeg)Computer Talk | [https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.computer-talk.com%2Fproduct%2Fenterprise-contact-center%2Fice-contact-center-for-teams&data=02%7C01%7CAnthony.Blake%40microsoft.com%7Ce33bfe644c1c4f16496c08d7f6ed5bdc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637249371622224933&sdata=SVmBcd9PH%2BSt9Yi6roXBo3%2BIyBNuNOMbPyVYSel4UeM%3D&reserved=0) |
-| ![A picture containing drawing Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image3.jpg) Enghouse Interactive                                                                                                      |
-| ![A picture containing drawing Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image4.jpg) Five9 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ![A picture containing drawing Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image5.png)  Genesys| [https://www.genesys.com/microsoft](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.genesys.com%2Fmicrosoft&data=02%7C01%7Canthony.blake%40microsoft.com%7Cef8fa908a27b410ad39f08d7f75d8097%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637249853276013040&sdata=8rHMRCMLl84qLCJsY7Tf0BlGzed7gBHZMHNo%2FD5Ix2Q%3D&reserved=0)                                                                                                                             |
-| ![A close up of a logo Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image6.png) Luware          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ![A close up of a logo Description automatically generated](c:\\GitHub\\OfficeDocs-SkypeForBusiness-pr\\Teams/media/image7.jpeg) Nice        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| Computer Talk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| Enghouse Interactive | https://enghouseinteractive.co.uk/microsoft/                                                       |
+| Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| Genesys | https://www.genesys.com/microsoft                                                                                   |
+| Luware | https://luware.com/en/solutions/                                                                                       |
+| NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
 
 ## How do contact center solutions work in Microsoft Teams?
 
@@ -78,11 +78,11 @@ Agents using solutions built on the Connect model can gather information & insig
 
 Organizations can make sure calls route to the optimal agent by setting up automated virtual assistants and skill-based routing queues.
 
-**Feature highlights: **
+**Feature highlights:**
 
 While the following is not a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
-  - Office 365 authN for agents 
+  - Office 365 authN for agents to allow agents to connect to their Microsoft tenant from their integrated CCaaS client 
 
   - Presence indication from Teams users 
 
@@ -98,7 +98,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
 ### Connect and extend
 
-This model extends contact center personnel and agent experiences by integrating with the Teams client using the [Teams client platform](https://docs.microsoft.com/en-us/microsoftteams/platform/overview), [Teams Graph APIs](https://docs.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Communications API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0) and uses the Teams phone system for all contact center calls and call control experiences. In this model, the contact center partner acts as a telephony carrier alongside Microsoft 365.
+This model extends contact center personnel and agent experiences by integrating with the Teams client using the [Teams client platform](https://docs.microsoft.com/en-us/microsoftteams/platform/overview), [Teams Graph APIs](https://docs.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0) and uses the Teams phone system for all contact center calls and call control experiences. In this model, the contact center partner acts as a telephony carrier alongside Microsoft 365.
 
 Leveraging Connect and Extend-based solutions, agents can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching by working natively within Teams for both internal collaboration and external communications.
 
@@ -116,11 +116,11 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Teams client calling for all the call controls
 
-  - Agent experience app should be able to work on Teams web and mobile client as well.
+  - Agent experience app should be able to work on Teams web and mobile client as well
 
   - Analytics, Workflow management, role-based experiences for Agents within the CCaaS app within Teams
 
-  - Chat and collaboration experiences integrated with Teams clients.  
+  - Chat and collaboration experiences integrated with Teams clients 
 
   - Preserve performance and quality of Teams client experiences in all apps  
 
@@ -130,11 +130,11 @@ This model enables partners to create native Azure-based voice applications leve
 
 By building directly on Azure, partners can rapidly deploy and provision their solution across all Teams regions and geographies, benefitting from our shared, global communications network while taking advantage of Azure’s storage, compute, analytics & cognitive services.
 
-With the Extend and Power integration model, partners can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call leveraging the [Communications API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0).
+With the Extend and Power integration model, partners can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call leveraging the [Cloud Communications API in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0).
 
 **Feature highlights:**
 
-While the following is not a comprehensive list of feature capabilities for this model of integration, these highlight areas in addition to those provided by the “Extend” model.
+While the following is not a comprehensive list of feature capabilities for this model of integration, these highlight areas in addition to those provided by the Connect and Extend model.
 
   - Formal agent experiences natively enabled for omni-channel communication via Teams SDK 
 
