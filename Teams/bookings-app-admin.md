@@ -38,7 +38,7 @@ Schedulers can manage multiple department and staff calendars, as well as commun
 
 - Your systems must meet all [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
-### Availability of Bookings in Teams
+## Availability of Bookings in Teams
 
 Microsoft Bookings App for Teams is available on the desktop and web. It can be found under **Apps** within Microsoft Teams and under **Manage Apps** within Teams Admin Center.
 
@@ -55,7 +55,21 @@ E3 and E5 licensed users can acquire and assign Business Apps (free) Licenses to
 
 There are several ways to control who has access to the Bookings app and to specific features of the app. To learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center, as well as how to create a Bookings app policy to allow selected users to create Bookings calendars, see [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). You can also learn how to [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
-### Changing your default domain when setting up Bookings mailboxes
+## Recommended Meeting Policy Settings
+
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
+
+### Optional staff approvals setting
+
+As an extra privacy setting, you can choose to require staff to opt in before their schedule availability information is shared through Bookings and before they can be booked for an appointment.  
+
+To enable this setting, go to **Microsoft 365 admin center** \> **Settings** \> **Settings**, then select **Bookings**.
+
+With this setting turned on, staff will receive an email in which they are asked to approve membership to a booking calendar.  
+
+This feature is gradually being rolling out worldwide to Microsoft 365 and Office 365 customers. If all options are not yet available in your environment, check back soon.
+
+## Changing your default domain when setting up Bookings mailboxes
 
 When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, this can cause problems when sending meeting invites to external recipients; your invite might be flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
@@ -71,20 +85,6 @@ For more information, see the PowerShell documentation for the [Set-Mailbox](htt
 
 > [!NOTE]
 > If you are using an Exchange hybrid configuration, we recommend that you thoroughly test mail flow between on-premises Exchange and Exchange Online when changing the default domain.
-
-## Recommended Meeting Policy Settings
-
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
-
-### Optional staff approvals setting
-
-As an extra privacy setting, you can choose to require staff to opt in before their schedule availability information is shared through Bookings and before they can be booked for an appointment.  
-
-To enable this setting, go to **Microsoft 365 admin center** \> **Settings** \> **Settings**, then select **Bookings**.
-
-With this setting turned on, staff will receive an email in which they are asked to approve membership to a booking calendar.  
-
-This feature is gradually being rolling out worldwide to Microsoft 365 and Office 365 customers. If all options are not yet available in your environment, check back soon.
 
 ## Sending feedback
 
