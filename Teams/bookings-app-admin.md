@@ -21,6 +21,9 @@ The Bookings app in Microsoft Teams offers a simple way to schedule in-person an
 
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience. The virtual appointments themselves are held via Microsoft Teams Meetings, which offers robust videoconferencing capabilities.
 
+> [!NOTE]
+> Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app installed. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
+
 ## Prerequisites for using the Bookings app in Teams
 
 - The Exchange mailbox must be in Exchange Online. On-premises Exchange Server mailboxes are not supported.
@@ -37,11 +40,7 @@ Schedulers can manage multiple department and staff calendars, as well as commun
 
 ### Availability of Bookings in Teams
 
-Microsoft Bookings App for Teams is available on the desktop and web. It can be found under *Apps* within Microsoft Teams and under *Manage Apps* within Teams Admin Center.
-
-## Enable Bookings for your organization
-
-The Bookings feature is enabled by default for all organizations. If for any reason it is disabled, the global admin for the organization can enable it by going to the **Microsoft 365 admin center** \> **Settings** \> **Settings** \> **Bookings**.
+Microsoft Bookings App for Teams is available on the desktop and web. It can be found under **Apps** within Microsoft Teams and under **Manage Apps** within Teams Admin Center.
 
 ### Assign Microsoft Business Apps licenses to individual users
 
@@ -50,14 +49,11 @@ All Business Standard, A3, and A5 licensed users have the Bookings license enabl
 E3 and E5 licensed users can acquire and assign Business Apps (free) Licenses to all users that use the app. To acquire and assign the licenses for E3 and E5 users, see [Get Access to Microsoft Bookings](https://support.office.com/article/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) and [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 > [!NOTE]
-> During this procedure, you may be prompted to enter credit card information. If you do not wish to enter credit card information, select "invoice" as the payment method. You will receive email notifications reminding you that your subscription will renew, and it will look like a billing statement, but the amount due will be zero.
+> When assigning licenses to users, you may be prompted to enter credit card information. If you do not wish to enter credit card information, select "invoice" as the payment method. You will receive email notifications reminding you that your subscription will renew, and it will look like a billing statement, but the amount due will be zero.
 
 ### Control access to Bookings within your organization
 
-There are several ways to control who has access to the Bookings app and specific features. See [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) to learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center and how to create a Bookings app policy to allow selected users to create Bookings calendars. You can also [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
-
-> [!NOTE]
-> Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app installed. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
+There are several ways to control who has access to the Bookings app and to specific features of the app. To learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center, as well as how to create a Bookings app policy to allow selected users to create Bookings calendars, see [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). You can also learn how to [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
 ### Changing your default domain when setting up Bookings mailboxes
 
@@ -84,7 +80,7 @@ To enable the best experience for Bookings, create a staff meeting policy to aut
 
 As an extra privacy setting, you can choose to require staff to opt in before their schedule availability information is shared through Bookings and before they can be booked for an appointment.  
 
-To enable this setting, go to **Microsoft 365 admin center** \> **Settings** \> **Settings**. Select **Bookings**.
+To enable this setting, go to **Microsoft 365 admin center** \> **Settings** \> **Settings**, then select **Bookings**.
 
 With this setting turned on, staff will receive an email in which they are asked to approve membership to a booking calendar.  
 
