@@ -22,7 +22,7 @@ The Bookings app in Microsoft Teams offers a simple way to schedule in-person an
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience. The virtual appointments themselves are held via Microsoft Teams Meetings, which offers robust videoconferencing capabilities.
 
 > [!NOTE]
-> Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app installed. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
+> Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
 
 ## Prerequisites for using the Bookings app in Teams
 
