@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Bookings app and Virtual Visits"
+title: "Bookings app and virtual visits in Microsoft Teams"
 author: mattpennathe3rd
 ms.author: v-mapenn
 manager: serdars
@@ -15,7 +15,7 @@ ms.reviewer:
 description: Microsoft Teams Virtual Consults app pilot
 ---
 
-# Microsoft Teams Bookings app and virtual visits
+# Bookings app and virtual visits in Microsoft Teams
 
 The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more.
 
@@ -82,7 +82,7 @@ For more information, see the PowerShell documentation for the [Set-Mailbox](htt
 
 ## Recommended Meeting Policy Settings
 
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams#automatically-admit-people.md).
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people.md).
 
 ## Optional staff approvals setting
 
