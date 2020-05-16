@@ -17,7 +17,7 @@ description: Microsoft Teams Virtual Consults app pilot
 
 # Microsoft Teams Bookings app and virtual visits
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, like healthcare visits, financial consultations, interviews, customer support, education office hours, and much more!
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more.
 
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience. The virtual appointments themselves are held via Microsoft Teams Meetings, which offers robust videoconferencing capabilities.
 
@@ -58,7 +58,7 @@ The Bookings feature is enabled by default for all tenants. If for any reason it
 
 ## Control access to Bookings within your org
 
-There are several ways to control who has access to the Bookings app and specific features. See [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) to learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center and how to create a Bookings app policy to allow selected users to create Bookings calendars. You can also [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies).
+There are several ways to control who has access to the Bookings app and specific features. See [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) to learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center and how to create a Bookings app policy to allow selected users to create Bookings calendars. You can also [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
 > [!NOTE]
 > Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app installed. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
@@ -82,7 +82,7 @@ For more information, see the PowerShell documentation for the [Set-Mailbox](htt
 
 ## Recommended Meeting Policy Settings
 
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams#automatically-admit-people).
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams#automatically-admit-people.md).
 
 ## Optional staff approvals setting
 
