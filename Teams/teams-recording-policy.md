@@ -44,7 +44,7 @@ storing, and analyzing Teams communications. This includes communications platfo
     supported endpoints for audio, video, screen share, and chat.
 
 - Support for interaction capture between Teams users and supported
-    calling endpoints (Teams, Skype for Business, PSTN)
+    calling endpoints (Teams, Teams Mobile, Skype for Business, PSTN)
 
 - New administrative policies for compliance recording, including
     integration with existing Teams administrative calling and
@@ -218,11 +218,13 @@ Register a compliance recorder for an organization.
 
 ![Screenshot showing the PowerShell](media/compliance-recording-powershell.png "The images shows the PowerShell code to create a compliance recording policy.")
 
-3. Assign the Compliance Recording policy to a user:
-
 [<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
+3. Assign the Compliance Recording policy to a user:
+
 ![Screenshot showing the PowerShell](media/recording-user-power-shell.png "The images shows the PowerShell code for assigning a recording policy.")
+
+[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
 ![Screenshot showing the PowerShell](media/one-line-power-shell.png "The images shows the PowerShell code for assigning a recording policy to an individual user.")
 
