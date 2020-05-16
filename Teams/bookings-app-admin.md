@@ -21,11 +21,11 @@ The Bookings app in Microsoft Teams offers a simple way to schedule in-person an
 
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience. The virtual appointments themselves are held via Microsoft Teams Meetings, which offers robust videoconferencing capabilities.
 
-## Pre-requisites for using the Bookings app in Teams
+## Prerequisites for using the Bookings app in Teams
 
 - The Exchange mailbox must be in Exchange Online. On-premises Exchange Server mailboxes are not supported.
 
-- Microsoft Bookings must be turned on for the tenant.
+- Microsoft Bookings must be turned on for the organization.
 
 - Users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, A3, A5, E3, and E5 are supported.
 
@@ -35,7 +35,15 @@ Schedulers can manage multiple department and staff calendars, as well as commun
 
 - Your systems must meet all [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
-## How to assign Microsoft Business Apps licenses to individual users
+### Availability of Bookings in Teams
+
+Microsoft Bookings App for Teams is available on the desktop and web. It can be found under *Apps* within Microsoft Teams and under *Manage Apps* within Teams Admin Center.
+
+## Enable Bookings for your organization
+
+The Bookings feature is enabled by default for all organizations. If for any reason it is disabled, the global admin for the organization can enable it by going to the **Microsoft 365 admin center** \> **Settings** \> **Settings** \> **Bookings**.
+
+### Assign Microsoft Business Apps licenses to individual users
 
 All Business Standard, A3, and A5 licensed users have the Bookings license enabled by default.
 
@@ -44,26 +52,14 @@ E3 and E5 licensed users can acquire and assign Business Apps (free) Licenses to
 > [!NOTE]
 > During this procedure, you may be prompted to enter credit card information. If you do not wish to enter credit card information, select "invoice" as the payment method. You will receive email notifications reminding you that your subscription will renew, and it will look like a billing statement, but the amount due will be zero.
 
-## Turn on the Bookings feature for your organization
-
-The Bookings feature is enabled by default for all tenants. If for any reason it is disabled, the global admin for the organization can enable it by going to the **Microsoft 365 admin center** \> **Settings** \> **Settings** \> **Bookings**.
-
-## Availability of Bookings in Teams
-
-- Microsoft Booking App for Teams is available on the desktop and web
-
-- Microsoft Bookings can be found:
-  - Under *Apps* within Microsoft Teams
-  - Under *Manage Apps* within Teams Admin Center
-
-## Control access to Bookings within your org
+### Control access to Bookings within your organization
 
 There are several ways to control who has access to the Bookings app and specific features. See [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) to learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center and how to create a Bookings app policy to allow selected users to create Bookings calendars. You can also [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
 > [!NOTE]
 > Only schedulers need to have the Bookings app installed in Teams. Staff conducting or participating in virtual appointments do not need the app installed. They can simply join appointments from their Outlook or Teams calendar or from a link in their booking confirmation email.
 
-## Changing your default domain when setting up Bookings mailboxes
+### Changing your default domain when setting up Bookings mailboxes
 
 When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, this can cause problems when sending meeting invites to external recipients; your invite might be flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
@@ -84,7 +80,7 @@ For more information, see the PowerShell documentation for the [Set-Mailbox](htt
 
 To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people.md).
 
-## Optional staff approvals setting
+### Optional staff approvals setting
 
 As an extra privacy setting, you can choose to require staff to opt in before their schedule availability information is shared through Bookings and before they can be booked for an appointment.  
 
