@@ -78,7 +78,7 @@ For more information, see the PowerShell documentation for the [Set-Mailbox](htt
 
 ## Recommended Meeting Policy Settings
 
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people.md).
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### Optional staff approvals setting
 
