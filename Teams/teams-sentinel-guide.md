@@ -96,9 +96,6 @@ Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest you
 
 Use [this](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) ARM template to deploy your Sentinel Playbook.
 
-> [!TIP]
-> You may choose to use an *Azure Function* to ingest those logs, instead, and if you do, the information on how to deploy is [here](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data).
-
 Things to remember:
 
 1. You will need to walk through the ARM template and replace certain of the values with values appropriate for your own environment.
@@ -106,12 +103,50 @@ Things to remember:
 
    Wait for 5 to 10 minutes, understanding that if there is no data within the past 5 minutes you will see an error message. Check Audit logs and keep in mind that because Teams information is in the Audit.General events, which collects more than Teams logs, results should appear within 5 to 10 minutes on systems that are in use. If using a text environment, be certain to use Teams in order to generate logging.
 
-
 ![Graphic that shows the logic app classes.](media/tracyp-teams-sentinel-logic-app.png#thumbnail)
 
+ <p><details><summary> Explanation of actions in the graphic:
+  
+  </summary>
 
+  •	Recurrence is the Logic App Trigger that tells the workflow to run every hour.
+  <p>
+  •	The Current Time action is very basic and just gets the current time.
+  <p>
+  • Initialize Variable creates a variable called NextPage and sets it to 1. This will be used later in order to handle pagination from the O365 API.
+  <p>
+  •	Initialize Variable 2 creates an empty variable called Start Time.
+  <p>
+  •	Run Query and list results is an Azure Monitor action that will query the workspace for the last O365 log that was entered from the Logic App.
+  <p>
+  •	Condition 4 is used to check whether the Run Query and list results query returned any data. This is done to check if this is the very first time the Logic App has been used. If no data is returned, StartTime variable is set to Now – 24 hours. If data is returned, StartTime is set to the last record TimeGenerated. This is done so that the query can get data from the last entry till now in the poll against the O365 API, or in the last 24 hours if this is the first run.
+  <p>
+  •	Initialize Variable 3 creates a variable called AvailableUri. This is a string with the URL built using the StartTime and CurrentTime as start and end times, respectively.
+  <p>
+  •	The Until condition is a loop that allows the logic app to keep polling the API to see if there is more data (pagination). As long as NextPage variable is 1 the loop will continue. Later this variable will be updated if there are no more pages left to retrieve.
+  <p>
+  •	Inside the Until loop, the first HTTP step Connects to the AvailableURI. This URI returns a list of available content and each contents URI. There's more on how this works [here](https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content).
+  <p>
+  •	Next a check is run to make sure data is returned. The Condition checks if the length of the body is 0. If so there is no data to write to Log Analytics. If the value is greater than 0, there is data to process.
+  <p>
+  •	If data is detected, it must next be processed. Parse JSON defines a schema of the returned data. This allows logic apps to use the parsed data as Dynamic content in later steps.
+  <p>
+  •	Since the returned list of available data is an Array, a For Each action is used to loop through the list of available content.
+  <p>
+  •	Next is grabbing the content.  HTTP is used again to get the contentUri (a dynamic property created from Parse JSON), which is the URL of the data to retrieve.
+  <p>
+  •	Parse JSON is also used to parse the returned data. You can find some sample content [here](https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content).
+  <p>
+  •	The data returned is also an array. A For Each loop can be used here as well. In this loop, the workflow takes the current item of data and uses the Send Data action to write the data to Log Analytics.
+  <p>
+  • Since there may be multiple pages of available content, a condition checks if the NextPageUri is not NULL. If it is NULL, or empty, NextPage is set to 0, which ends the Until loop. If it contains a URL, the AvaibleUri variable is updated to that URL. This way, the next run of the Until loop uses a next available URL, and not the starting URL.
 
+  </details>
 
+> [!TIP]
+> You may choose to use an *Azure Function* to ingest those logs, instead, and if you do, the information on how to deploy is [here](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data), or [here](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp), depending on your preference.
+
+With the connector (whichever of the options above you chose) running, you should see a custom table called O365API_CL in the Azure Sentinel workspace. This will house your Teams logs.
 
 ## Step 3: Use Sentinel to monitor Microsoft Teams
 
