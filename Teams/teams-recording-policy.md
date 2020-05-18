@@ -212,24 +212,56 @@ Register a compliance recorder for an organization.
 
 1. Create an application instance in your tenant.
 
-![Screenshot showing the PowerShell](media/register-recorder-powershell.png "The images shows the PowerShell code to create an instance of a tenant.")
+```powershell
+PS C:\> New-CsOnlineApplicationInstance -UserPrincipalName cr.instance@contoso.onmicrosoft.com -DisplayName ComplianceRecordingBotInstance -ApplicationId fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
+
+RunspaceId        : 4c13efa6-77bc-42db-b5bf-bdd62cdfc5df
+ObjectId          : 5069aae5-c451-4983-9e57-9455ced220b7
+TenantId          : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
+UserPrincipalName : cr.instance@contoso.onmicrosoft.com
+ApplicationId     : fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
+DisplayName       : ComplianceRecordingBotInstance
+PhoneNumber       :
+```
+
+```powershell
+PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7
+```
 
 2. Create a Compliance Recording policy
 
-![Screenshot showing the PowerShell](media/compliance-recording-powershell.png "The images shows the PowerShell code to create a compliance recording policy.")
+```powershell
+PS C:\> New-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy -Enabled $true -Description "Test policy created by tenant admin"
 
-3. Assign the Compliance Recording policy to a user:
+Identity                        : Global
+ComplianceRecordingApplications : {}
+Enabled                         : True
+WarnUserOnRemoval               : True
+Description                     : Test policy created by tenant admin
+```
+
+```powershell
+PS C:\> Set-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy `
+-ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
+```
 
 [<span class="underline">https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
 3. Assign the Compliance Recording policy to a user:
 
-![Screenshot showing the PowerShell](media/recording-user-power-shell.png "The images shows the PowerShell code for assigning a recording policy.")
+```powershell
+PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
+```
 
 [<span class="underline">https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
 
-![Screenshot showing the PowerShell](media/one-line-power-shell.png "The images shows the PowerShell code for assigning a recording policy to an individual user.")
+```powershell
+PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
 
+UserPrincipalName              : testuser@contoso.onmicrosoft.com
+TenantId                       : 5b943d7c-5e14-474b-8237-5022eb8e0dc9
+TeamsComplianceRecordingPolicy : TestComplianceRecordingPolicy
+```
 
 ## User experiences
 
