@@ -154,7 +154,7 @@ Identity is an important attack vector to monitor when it comes to Microsoft Tea
 
 Regarding attacks specific to Microsoft Teams, threats to data, for example, Azure Sentinel also has means to monitor for them and hunt them down.
 
-## Create a parser for your data
+### Create a parser for your data
 
 The first thing to do in order to make sense of the large set of collected data is to give it meaning by parsing it. This is done with a Kusto Query Language (KQL) Function that makes the data easier to use.
 
@@ -178,11 +178,11 @@ O365API_CL
 ```
  Save the parser as a KQL function, with an alias of TeamsData. It will be used for the queries to follow. Details on configuring and using a KQL function as a parser can be found in this [Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## Helfpul hunting KQL queries
+### Helfpul hunting KQL queries
 
 Use these queries to familiarize yourself with your Teams data and Teams environment. Knowing how the environment should look and behave is a good first step in recognizing suspicious activity. From there, you can branch out into threat hunting.
 
-### Federated external users query
+#### Federated external users query
 
 Get the list of Teams sites that have federated external users. These users will have a domain name / UPN suffix that *isn't* owned by your organization. In this example query, the organization owns contoso.com.
 
@@ -199,6 +199,7 @@ TeamsData
 > [!TIP]
 > To learn more about External and Guest access types in Teams see [this article](https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations), or the *Participant Types* section in the [Teams Security Guide](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide).
 
+#### Next query
 
 
 <!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
