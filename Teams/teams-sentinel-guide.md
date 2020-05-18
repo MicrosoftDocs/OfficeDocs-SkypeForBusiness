@@ -125,7 +125,7 @@ Things to remember:
   <p>
   •	The Until condition is a loop that allows the logic app to keep polling the API to see if there is more data (pagination). As long as NextPage variable is 1 the loop will continue. Later this variable will be updated if there are no more pages left to retrieve.
   <p>
-  •	Inside the Until loop, the first HTTP step Connects to the AvailableURI. This URI returns a list of available content and each contents URI. There's more on how this works [here](https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content).
+  •	Inside the Until loop, the first HTTP step Connects to the AvailableURI. This URI returns a list of available content and each contents URI. There's more on how this works at this URL https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content.
   <p>
   •	Next a check is run to make sure data is returned. The Condition checks if the length of the body is 0. If so there is no data to write to Log Analytics. If the value is greater than 0, there is data to process.
   <p>
@@ -135,7 +135,7 @@ Things to remember:
   <p>
   •	Next is grabbing the content.  HTTP is used again to get the contentUri (a dynamic property created from Parse JSON), which is the URL of the data to retrieve.
   <p>
-  •	Parse JSON is also used to parse the returned data. You can find some sample content [here](https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content).
+  •	Parse JSON is also used to parse the returned data. You can find some sample content at this URL https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference#list-available-content.
   <p>
   •	The data returned is also an array. A For Each loop can be used here as well. In this loop, the workflow takes the current item of data and uses the Send Data action to write the data to Log Analytics.
   <p>
