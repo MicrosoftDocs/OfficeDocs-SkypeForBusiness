@@ -23,12 +23,12 @@ ms.custom: seo-marvel-mar2020
 # Get started with Microsoft Teams
 
 > [!IMPORTANT]
-> If you're rolling out Microsoft Teams quickly in response to an increased demand to support **remote work**, use this Get started guidance to roll out Teams to your entire organization. This guidance applies, even when Teams is your first Office 365 workload.
+> If you're rolling out Microsoft Teams quickly in response to an increased demand to support **remote work**, use this Get started guidance to roll out Teams to your entire organization. This guidance applies, even when Teams is your first Microsoft 365 or Office 365 workload.
 
 To get started quickly on Teams, we recommend you create two or three teams and channels for a select group of early adopters. By first rolling out Teams on a small scale, you'll learn Teams by using Teams and gain valuable insights to inform how you deploy Teams across your whole organization. If you're a small business, this Quick start guide is all you need to roll out Teams to your whole organization.
 
 
-Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Customize Teams by adding fingertip access to shared notes, webpages, and apps. Use meetings and calling to collaborate in real time from wherever users are. Teams will simplify your access to Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs. Encourage your early adopters to install both the desktop and mobile applications for the best experience and most accurate feedback.
+Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Customize Teams by adding fingertip access to shared notes, webpages, and apps. Use meetings and calling to collaborate in real time from wherever users are. Teams will simplify your access to Microsoft 365 or Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs. Encourage your early adopters to install both the desktop and mobile applications for the best experience and most accurate feedback.
 
 ![Screen shot showing the desktop and mobile client user interfaces](media/get-started-microsoft-teams.png "Screen shot showing the Teams desktop client and mobile client user interface" ) 
 
@@ -45,10 +45,10 @@ If you're a small business, or if **you're rolling out Teams quickly to support 
 
 ## Before you get started
 
-To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Office 365 deployment:
+To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Microsoft 365 or Office 365 deployment:
 
 - [Prepare your organization's network for Teams](prepare-network.md)
-    - This includes configuring your Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
+    - This includes configuring your Microsoft 365 or Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
 
 - Get Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) and [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
@@ -60,7 +60,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
    - [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365. 
+   > If your organization is running on-premises Skype for Business Server (or Lync Server), you must [Configure Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Microsoft 365 or Office 365. 
 
 
 ## Next steps

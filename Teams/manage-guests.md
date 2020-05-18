@@ -25,19 +25,19 @@ Manage guest access in Microsoft Teams
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
-**Guest** is a user type in Microsoft Teams that is included with all Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Read more about [guest access licensing](#guest-access-licensing-limits) below.
+**Guest** is a user type in Microsoft Teams that is included with all Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic, and Office 365 Education subscriptions. No additional Microsoft 365 or Office 365 license is necessary. Read more about [guest access licensing](#guest-access-licensing-limits) below.
 
 Teams guest access is a tenant-level setting and is turned off by default. For details about how to turn on guest access, see [Turn on or turn off guest access to Teams](set-up-guests.md), or use the [Guest access checklist ](guest-access-checklist.md) to walk you through the setup.
 
 After guest access is turned on, you can configure settings for guests using the controls described in [Manage Teams settings for your organization](enable-features-office-365.md) and [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md).     
     
-IT admins can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity. These controls are available in the Teams admin center. Guest user content and activities fall under the same compliance and auditing protection as the rest of Office 365.
+IT admins can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity. These controls are available in the Teams admin center. Guest user content and activities fall under the same compliance and auditing protection as the rest of Microsoft 365 or Office 365.
 
 Team owners can invite new guests and add existing directory guest users to their teams in the Teams admin center. Identify guest users on the **Teams** > **Manage teams** page, and set channel-related capabilities for guests on the  **Org-wide settings** > **Guest access** page. Settings include allowing guests to create, update, and delete channels, as shown in the following illustration.
 
 ![Guest permissions settings in Teams](media/manage-guest-access-image1.png)
   
-You can use the Azure Active Directory (Azure AD) portal to manage guests and their access to Office 365 and Teams resources. Teams guest access makes use of Azure AD business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure AD B2B, see [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
+You can use the Azure Active Directory (Azure AD) portal to manage guests and their access to Microsoft 365 or Office 365 and Teams resources. Teams guest access makes use of Azure AD business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure AD B2B, see [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
 > Microsoft Teams always honors Azure AD external settings to allow or prevent guest user additions to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
