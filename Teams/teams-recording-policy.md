@@ -139,7 +139,7 @@ eDiscovery, legal hold, and other corporate retention uses.
 Compliance recording solutions are integrated with Teams as
 shown in the following diagram:
 
-![Screenshot showing the team custom app setting](media/recorder-invite-flow.png "The images shows the flow when a Teams meeting or call is sent and received.")
+![Screenshot showing the team custom app setting](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
 
 ## Recorder
 
