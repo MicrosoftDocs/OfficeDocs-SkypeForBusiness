@@ -224,7 +224,7 @@ Register a compliance recorder for an organization.
 
 ![Screenshot showing the PowerShell](media/recording-user-power-shell.png "The images shows the PowerShell code for assigning a recording policy.")
 
-[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
 
 ![Screenshot showing the PowerShell](media/one-line-power-shell.png "The images shows the PowerShell code for assigning a recording policy to an individual user.")
 
