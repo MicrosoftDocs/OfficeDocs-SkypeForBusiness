@@ -2,7 +2,7 @@
 title: Introduction to Teams Policy-based Recording for Calling &
 Meetings
 author: cichur
-ms.author: v-cichur
+ms.author: cichur
 manager: serdars
 ms.date: 05/11/20
 audience: Admin
@@ -220,13 +220,13 @@ Register a compliance recorder for an organization.
 
 3. Assign the Compliance Recording policy to a user:
 
-[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+[<span class="underline">https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
 3. Assign the Compliance Recording policy to a user:
 
 ![Screenshot showing the PowerShell](media/recording-user-power-shell.png "The images shows the PowerShell code for assigning a recording policy.")
 
-[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
+[<span class="underline">https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
 
 ![Screenshot showing the PowerShell](media/one-line-power-shell.png "The images shows the PowerShell code for assigning a recording policy to an individual user.")
 
@@ -253,13 +253,14 @@ In addition to publishing publicly-available APIs allowing partners to develop a
 
 The following partners are in the process of certifying their solution for Microsoft Teams.  
 
-| Partner               | Solution website |
-|-----------------------|----------------------------|
-|ASC Technologies |https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html |
-|AC audiocodes |https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording |
-|call cabinet |https://www.callcabinet.com/compliance-microsoft-teams-call-recording/ |
-|Nice |https://www.niceactimize.com/compliance/ms-teams-recording.html |
-|Numonix |https://numonix.cloud    |
-|Red Box |https://hubs.ly/H0qtN7Q0  |
-|Verint |https://www.verba.com/solutions/microsoft-teams-recording/ |
-|||
+|Partner|Solution website |
+|:--|:--|
+|ASC Technologies |[https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html](https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html) |
+|AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
+|CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|Red Box |[https://hubs.ly/H0qtN7Q0](https://hubs.ly/H0qtN7Q0)  |
+|Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+
+This list will be updated as more partners join and meet the certification criteria.
