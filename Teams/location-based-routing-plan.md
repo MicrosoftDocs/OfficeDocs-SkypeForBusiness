@@ -247,6 +247,10 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed. 
 If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.  
 
+### Media bypass requirement for Location-Based Routing
+
+If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
+
 ## Next steps
 
 Go to [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
