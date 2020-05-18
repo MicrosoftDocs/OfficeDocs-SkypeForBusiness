@@ -79,7 +79,7 @@ notified, who controls access, and how retention is handled.
 | Retention Policy?      | Optional           | Yes                | Yes                | Yes             | Yes                |
 
 Teams provides various capabilities for
-[<span class="underline">convenient</span>](https://docs.microsoft.com/en-us/microsoftteams/cloud-recording)
+[<span class="underline">convenient</span>](https://docs.microsoft.com/microsoftteams/cloud-recording)
 and functional recording for meetings and live events. Organizational
 recording means enabling organizations adopting Teams for calling and
 meetings to stipulate, by way of an administrative policy, when calls and online
@@ -146,11 +146,11 @@ shown in the following diagram:
 The core component of the compliance recording solution is the recorder.
 Recorders are built as scalable Azure-based services (bots) that
 [<span class="underline">leverage Microsoft’s communications
-platform</span>](https://docs.microsoft.com/en-us/graph/cloud-communications-concept-overview)
+platform</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview)
 and register as applications with Microsoft Graph. The recorder provides
 the direct interaction with the Teams calls and meetings
 [<span class="underline">communications platform
-APIs</span>](https://docs.microsoft.com/en-us/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+APIs</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 and provides the endpoint for media ingestion.
 
 A [<span class="underline">sample compliance recorder application is
@@ -165,9 +165,9 @@ states</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/b
 and [<span class="underline">removing the user who is being
 recorded</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 Graph documentation on the specific APIs can be found here for
-[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/en-us/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)
+[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)
 and
-[<span class="underline">incomingContext</span>](https://docs.microsoft.com/en-us/graph/api/resources/incomingcontext?view=graph-rest-1.0).
+[<span class="underline">incomingContext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0).
 
 The exact implementation of the recorder service will vary by partner
 but must be designed to support multiple recorders in order to achieve
@@ -200,13 +200,13 @@ compliance recording policies. Recorders are automatically invited to
 participate in conversations based on the configuration of these
 policies when a communication interaction takes place. Compliance
 recording policies are managed using [<span class="underline">Microsoft
-Powershell</span>](https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview)
+Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
 and can be applied at the tenant and per-user level for each
 organization. You can find more information on Microsoft Docs for
 [<span class="underline">Meeting
-policies</span>](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-in-teams)
+policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
 and [<span class="underline">calling
-policies</span>](https://docs.microsoft.com/en-us/microsoftteams/teams-calling-policy).
+policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
 
 Register a compliance recorder for an organization.
 
@@ -220,7 +220,7 @@ Register a compliance recorder for an organization.
 
 3. Assign the Compliance Recording policy to a user:
 
-[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+[<span class="underline">https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
 ![Screenshot showing the PowerShell](media/recording-user-power-shell.png "The images shows the PowerShell code for assigning a recording policy.")
 
@@ -243,4 +243,19 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing
 - PSTN callers
 
+## Compliance recording for Teams certification programs
 
+In addition to publishing publicly-available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
+
+The following partners are in the process of certifying their solution for Microsoft Teams.  
+
+| Partner | Solution website |
+|--------------|--------|
+|![Screenshot of ASC logo](media/ASC-logo.jpg "The images shows the ASC logo.") |https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html |
+|![Screenshot of AC audiocodes logo](media/audiocodes-logo.jpg "The images shows the AC audiocodes logo.")|https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording |
+|![Screenshot of call cabinet logo](media/callcabinet-logo.jpg "The images shows the Call Cabinet logo.")|https://www.callcabinet.com/compliance-microsoft-teams-call-recording/ |
+|![Screenshot of Nice logo](media/nice-logo.jpg "The images shows the Nice logo.")|https://www.niceactimize.com/compliance/ms-teams-recording.html |
+|![Screenshot of Numonix logo](media/numonix-logo.jpg "The images shows the Numonix logo.")|https://numonix.cloud    |
+|![Screenshot of Red Box logo](media/redbox-logo.png "The images shows the Red Box logo.")|https://hubs.ly/H0qtN7Q0  |
+|![Screenshot of Verint logo](media/verint-logo.png "The images shows the Verint logo.")|https://www.verba.com/solutions/microsoft-teams-recording/ |
+|||
