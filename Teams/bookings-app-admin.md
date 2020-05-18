@@ -42,7 +42,7 @@ Microsoft Bookings App for Teams is available on the desktop and web. It can be 
 
 ### Control access to Bookings within your organization
 
-There are several ways to control who has access to the Bookings app and to specific features of the app. To learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center, as well as how to create a Bookings app policy to allow selected users to create Bookings calendars, see [this article](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). You can also learn how to [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
+There are several ways to control who has access to the Bookings app and to specific features of the app. To learn how to turn Microsoft Bookings on or off in the Microsoft 365 admin center, as well as how to create a Bookings app policy to allow selected users to create Bookings calendars, see [Get access to Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). You can also learn how to [Create a Teams app policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
 ## Recommended Meeting Policy Settings
 
