@@ -31,10 +31,10 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 |Control|Description|Control options|
 |:-----|:-----|:-----|
-|Audio Conferencing PSTN calls|Restricts the type of outbound </br>calls that are allowed from within </br>meetings organized by a user.|Any destination (default)</br>In the same country or region as the orgnizor </br> </br>Zone A countries or regions only </br>Don't allow|
+|Audio Conferencing PSTN calls|Restricts the type of outbound </br>calls that are allowed from within </br>meetings organized by a user.|Any destination (default)</br>In the same country or region as the organizor </br> </br>Zone A countries or regions only </br>Don't allow|
 |End user PSTN calls|Restricts the type of calls </br>that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
 
-To find out which countries/regions are considered Zone A, see [Zone A countries/regions](../complimentary-dial-out-period.md).
+To find out which countries/regions are considered Zone A, see [Zone A countries/regions](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
 
    > [!NOTE]
    > A call is considered domestic if the number dialed is in the same country/region where Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls). 
