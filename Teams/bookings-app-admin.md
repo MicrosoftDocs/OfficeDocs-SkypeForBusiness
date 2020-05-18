@@ -34,22 +34,11 @@ Schedulers can manage multiple department and staff calendars, as well as commun
 
 - All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling.
 
-- The Microsoft Business Apps license must be assigned to individual users.
-
 - Your systems must meet all [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
 ## Availability of Bookings in Teams
 
-Microsoft Bookings App for Teams is available on the desktop and web. It can be found under **Apps** within Microsoft Teams and under **Manage Apps** within Teams Admin Center.
-
-### Assign Microsoft Business Apps licenses to individual users
-
-All Business Standard, A3, and A5 licensed users have the Bookings license enabled by default.
-
-E3 and E5 licensed users can acquire and assign Business Apps (free) Licenses to all users that use the app. To acquire and assign the licenses for E3 and E5 users, see [Get Access to Microsoft Bookings](https://support.office.com/article/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) and [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
-
-> [!NOTE]
-> When assigning licenses to users, you may be prompted to enter credit card information. If you do not wish to enter credit card information, select "invoice" as the payment method. You will receive email notifications reminding you that your subscription will renew, and it will look like a billing statement, but the amount due will be zero.
+Microsoft Bookings App for Teams is available on the desktop and web. It can be found under [Apps within Microsoft Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) and under **Manage Apps** within Teams Admin Center.
 
 ### Control access to Bookings within your organization
 
@@ -57,7 +46,7 @@ There are several ways to control who has access to the Bookings app and to spec
 
 ## Recommended Meeting Policy Settings
 
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit everyone in your organization. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit **Everyone in your organization**. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### Optional staff approvals setting
 
