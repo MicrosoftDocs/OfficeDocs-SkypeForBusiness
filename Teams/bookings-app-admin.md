@@ -56,7 +56,7 @@ To enable this setting, go to **Microsoft 365 admin center** \> **Settings** \> 
 
 With this setting turned on, staff will receive an email in which they are asked to approve membership to a booking calendar.  
 
-This feature is gradually being rolling out worldwide to Microsoft 365 and Office 365 customers. If all options are not yet available in your environment, check back soon.
+This feature is gradually being rolled out worldwide to Microsoft 365 and Office 365 customers. If all options are not yet available in your environment, check back soon.
 
 ## Changing your default domain when setting up Bookings mailboxes
 
