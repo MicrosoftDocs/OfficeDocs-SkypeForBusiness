@@ -20,7 +20,7 @@ appliesto:
 
 # Contact Center integrations for Microsoft Teams
 
-The purpose of this article is to share an overview of what an integrated contact center as a service (CCaaS) solution for Microsoft Teams is; as well, the different types of integration models that exist. This article also provides a list of all CCaaS partners currently participating in the Microsoft Teams Connected Contact Center Certification Program.
+Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and additional information on the partner solutions participating in the Microsoft Teams Connected Contact Center Certification Program.
 
 ## What is a Contact Center integration for Microsoft Teams?
 
@@ -50,6 +50,8 @@ The following partners are in the process of certifying their solution for Micro
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
 
+This list will be updated as more partners join and meet the certification criteria.
+
 ## How do contact center solutions work in Microsoft Teams?
 
 Microsoft Teams offers a range of capabilities to support the development of third-party voice solutions, including:
@@ -72,7 +74,7 @@ Together, these capabilities enable 3 models of integration:
 
 ### Connect
 
-This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration and system insights. In this model, the contact center partner solution acts as a telephony carrier alongside Microsoft 365.
+This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration and system insights. In this model, the contact center partner solution can also provide telephony services for selected numbers and users.
 
 Agents using solutions built on the Connect model can gather information & insights and if necessary transfer calls to subject matter experts directly, leveraging the SME’s presence in Teams to ensure their availability.
 
