@@ -253,13 +253,13 @@ In addition to publishing publicly-available APIs allowing partners to develop a
 
 The following partners are in the process of certifying their solution for Microsoft Teams.  
 
-| Partner | Solution website |
-|--------------|--------|
-|![Screenshot of ASC logo](media/ASC-logo.jpg "The images shows the ASC logo.") |https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html |
-|![Screenshot of AC audiocodes logo](media/audiocodes-logo.jpg "The images shows the AC audiocodes logo.")|https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording |
-|![Screenshot of call cabinet logo](media/callcabinet-logo.jpg "The images shows the Call Cabinet logo.")|https://www.callcabinet.com/compliance-microsoft-teams-call-recording/ |
-|![Screenshot of Nice logo](media/nice-logo.jpg "The images shows the Nice logo.")|https://www.niceactimize.com/compliance/ms-teams-recording.html |
-|![Screenshot of Numonix logo](media/numonix-logo.jpg "The images shows the Numonix logo.")|https://numonix.cloud    |
-|![Screenshot of Red Box logo](media/redbox-logo.png "The images shows the Red Box logo.")|https://hubs.ly/H0qtN7Q0  |
-|![Screenshot of Verint logo](media/verint-logo.png "The images shows the Verint logo.")|https://www.verba.com/solutions/microsoft-teams-recording/ |
+| Partner               | Solution website |
+|-----------------------|----------------------------|
+|ASC Technologies |https://www.asc.de/english/ASC_Recording_Insights_for_Microsoft_Teams.html |
+|AC audiocodes |https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording |
+|call cabinet |https://www.callcabinet.com/compliance-microsoft-teams-call-recording/ |
+|Nice |https://www.niceactimize.com/compliance/ms-teams-recording.html |
+|Numonix |https://numonix.cloud    |
+|Red Box |https://hubs.ly/H0qtN7Q0  |
+|Verint |https://www.verba.com/solutions/microsoft-teams-recording/ |
 |||
