@@ -208,8 +208,6 @@ policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-t
 and [<span class="underline">calling
 policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
 
-Register a compliance recorder for an organization.
-
 1. Create an application instance in your tenant.
 
 ```powershell
@@ -228,7 +226,7 @@ PhoneNumber       :
 PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7
 ```
 
-2. Create a Compliance Recording policy
+2. Create a Compliance Recording policy.
 
 ```powershell
 PS C:\> New-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy -Enabled $true -Description "Test policy created by tenant admin"
@@ -247,7 +245,7 @@ PS C:\> Set-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPo
 
 [<span class="underline">https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps</span>](https://docs.microsoft.com/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
 
-3. Assign the Compliance Recording policy to a user:
+3. Assign the Compliance Recording policy to a user.
 
 ```powershell
 PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
