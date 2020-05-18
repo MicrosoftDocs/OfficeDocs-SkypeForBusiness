@@ -156,10 +156,10 @@ There is no support for the following features:
     
 - Customized ringtones and music-on-hold features.
     
-The Lync VDI plug-in is not supported in an Office 365 environment.
+The Lync VDI plug-in is not supported in Microsoft 365 or Office 365 environments.
   
 > [!NOTE]
-> The Citrix RealTime Optimization Pack does support Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
+> The Citrix RealTime Optimization Pack does support Microsoft 365 and Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
   
 ## See also
 <a name="Citrix_RT"> </a>
