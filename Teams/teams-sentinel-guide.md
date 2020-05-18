@@ -97,7 +97,7 @@ Azure Sentinel Playbooks (also called Logic Apps) will allow Azure to ingest you
 Use [this](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) ARM template to deploy your Sentinel Playbook.
 
 > [!TIP]
-> You may choose to use an Azure Function to ingest those logs, instead, and if you do, the information on how to deploy is [here](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data).
+> You may choose to use an *Azure Function* to ingest those logs, instead, and if you do, the information on how to deploy is [here](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data).
 
 Things to remember:
 
