@@ -47,7 +47,7 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
 
 Local Media Optimization is supported by the following SBC vendors:
 
@@ -234,7 +234,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
-| Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI | 
+| Invite +8443926300@VNsbc.contoso.com | The target FQDN of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI | 
 | X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
 | X-MS-MediaPath: VNsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
 |X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
@@ -272,7 +272,7 @@ The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
-|Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI.|
+|Invite +8443926300@VNsbc.contoso.com | The target FQDN of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI.|
 | X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
 | X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 

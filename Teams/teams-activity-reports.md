@@ -96,7 +96,7 @@ The activity reports can be accessed by users that are assigned:
 
 ### Reports reader role
 
-You can assign the *Reports reader* role to non-IT staff who you want to have access to these reports. By assigning this role to training managers or business stakeholders, you can make sure that they have access to the insights that are helpful to drive and track adoption of Teams.
+You can assign the *Reports reader* role to non-IT staff who you want to have access to these reports. By assigning this role to training managers or business stakeholders, you can make sure that they have access to the insights that are helpful to drive and track adoption of Teams. To learn how to assign roles, read [Assign administrator and on-administrator roles to users with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## Other information on the Reports dashboard
 
