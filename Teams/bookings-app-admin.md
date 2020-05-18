@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
 ms.reviewer: 
-description: Microsoft Teams Virtual Consults app pilot
+description: Microsoft Teams and virtual visits with the Bookings App
 ---
 
 # Bookings app and virtual visits in Microsoft Teams
