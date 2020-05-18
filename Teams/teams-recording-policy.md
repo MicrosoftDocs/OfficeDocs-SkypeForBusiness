@@ -296,3 +296,7 @@ The following partners are in the process of certifying their solution for Micro
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 This list will be updated as more partners join and meet the certification criteria.
+
+## Next steps
+
+If you are a vendor seeking to join the certification program, please mail  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>
