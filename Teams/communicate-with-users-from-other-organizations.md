@@ -1,5 +1,5 @@
 ---
-title: Communicate with users from other organizations in Microsoft Teams
+title: Call & chat with external users - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to communicate with users from other organizations in Microsoft Teams using external access (federation) and guest access.
+description: Learn how to call, chat, find and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 appliesto: 
 - Microsoft Teams
 localization_priority: Priority
 ---
-Communicate with users from other organizations in Microsoft Teams
+Call and chat with external users in Microsoft Teams
 ======================================================
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams gives you two different ways to make that happen. The first – **external access** (federation) – lets  you find, call, and chat with users in other domains (for example, contoso.com). The second – **guest access** – lets you add individuals to your teams, as guests, using their email address. You can collaborate with guests as you would with any other users in your organization.
@@ -29,7 +29,7 @@ At a high level, here’s how to choose (for a detailed comparison, jump down to
 
 ## External access
 
-Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with external users who are still on Skype for Business (online or on premises) or Skype (coming in early 2020). 
+Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with users outside your organization who are still on Skype for Business (online or on premises) or Skype (coming in early 2020). 
 
 External access is turned on by default in Teams, which means your org can communicate with all external domains. The Teams admin can turn it off or specify which domains to include (or exclude). To learn more, read [Manage external access](manage-external-access.md). 
 
