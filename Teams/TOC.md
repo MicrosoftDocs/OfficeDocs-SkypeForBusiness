@@ -129,6 +129,7 @@
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
 ## [Get a meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Presenter and participant capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
@@ -604,6 +607,7 @@
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Bookings app and virtual visits](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -669,6 +673,7 @@
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
@@ -763,18 +768,19 @@
 
 
 ## Supported devices
-### [Manage your devices in Teams](device-management.md)
-### [Phones for Teams](phones-for-teams.md)
+### [Manage your devices in Teams](devices/device-management.md)
+### [Phones for Teams](devices/phones-for-teams.md)
+### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
+### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
