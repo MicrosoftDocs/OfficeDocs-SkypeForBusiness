@@ -1850,10 +1850,31 @@
         "source_path": "Teams/enduser-training.md",
         "redirect_url": "https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7",
         "redirect_document_id": true
-      },    {
+      },    
+      {
         "source_path": "Teams/Microsoft-Teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/",
         "redirect_document_id": false
-      }      
+      },    
+      {
+        "source_path": "Teams/device-management.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/phones-for-teams.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/phones-for-teams",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/teams-ip-phones.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/devices/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
+        "redirect_document_id": false
+      }
   ] 
 }
