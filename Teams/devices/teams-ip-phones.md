@@ -82,4 +82,4 @@ Learn about [Skype for Business and Microsoft Teams certification programs](http
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams and Skype interoperability](teams-skype-interop.md)
+[Teams and Skype interoperability](../teams-skype-interop.md)
