@@ -160,7 +160,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 This table covers features related to voice services support.
   
 > [!NOTE]
-> Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. > For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+> Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
   
 | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | Lync Windows Store app | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -183,8 +183,9 @@ This table covers features related to voice services support.
 |Group call pickup  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Location-based routing  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Manage Response Group/Team call group |&#x2714;||&#x2714;|||||||
+|Answer Auto attendant call |&#x2714;||&#x2714;|||||||
 
- &#x2776;  This feature isn't available in Skype for Business Online.
+&#x2776;  This feature isn't available in Skype for Business Online.
   
 ## External users support
 

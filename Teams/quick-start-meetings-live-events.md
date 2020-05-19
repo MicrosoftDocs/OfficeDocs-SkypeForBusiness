@@ -24,9 +24,9 @@ appliesto:
 
 There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this article to quickly roll out and configure meetings and live events for your organization. 
 
- - **Meetings** in Teams include audio, video, and screen sharing for up to 250 people. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in. 
+ - **Meetings** in Teams include audio, video, and screen sharing for up to 350 people. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in. 
 
- - **Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people. If you need a meeting for more than 250 people, use a live event.
+ - **Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people. If you need a meeting for more than 350 people, use a live event.
 
 ## Get licenses for meetings and live events
 
@@ -41,7 +41,7 @@ For the people who will organize, schedule, and host meetings or live events, th
 > <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed. 
 
 
-To learn more about licensing, read [Office 365 licensing for Teams](Office-365-licensing.md). 
+To learn more about licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
 ## Make sure your network's ready
 

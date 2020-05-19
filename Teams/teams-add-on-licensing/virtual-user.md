@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn about how to assign free Phone System–Virtual User license or a paid Phone System user license to resource accounts in your organization."
 ---
 
-# Microsoft 365 Phone System – Virtual User license 
+# Microsoft 365 Phone System – Virtual User license
 
 Organizations with Phone System licensed users can assign either a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan isn't required. All auto attendants or call queues require an associated resource account. Resource accounts that require a phone number need a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
 
@@ -36,7 +36,7 @@ Organizations with Phone System licensed users can assign either a free Microsof
 Your organization is allotted Microsoft 365 Phone System – Virtual User licenses depending on its overall size. Any organization that has at least one license including Phone System or has Phone System added has 25 Virtual User licenses available at no cost. When you add 10 Phone System user licenses in your organization, one more Microsoft 365 Phone System – Virtual User license becomes available.
 
 > [!NOTE]
-> Phone System is an add-on license available with Office 365 E1 and E3. Phone System is also included as part of Office 365 E5 and Microsoft 365 Business Voice licenses.
+> Phone System is an add-on license available with Microsoft 365 and Office 365 E1 and E3. Phone System is also included as part of Microsoft 365 E5, Office 365 E5, and Microsoft 365 Business Voice licenses.
 
 If your organization uses up the available free Microsoft 365 Phone System – Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account. Most organizations will have enough Virtual User licenses based on the scaling plan. 
 

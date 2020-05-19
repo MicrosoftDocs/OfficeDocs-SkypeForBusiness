@@ -43,7 +43,7 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
-> To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## Step 2 — Create auto attendants
 
@@ -78,10 +78,11 @@ If you set an Operator, tell people who call about the option in **Edit menu opt
 You have several ways to set the Operator:
 
 - **No operator** disables the "Operator" and "Press 0" options. This is the current default.
-- **Person in your organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in your organization** and set that account's settings to send calls directly to voicemail.
+- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in organization** and set that account's settings to send calls directly to voicemail.
 
      > [!Note]
-     > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
+     > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. 
+     When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.  
 <!--   
@@ -158,7 +159,8 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
   - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
 
   > [!Note]
-  > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
+  > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
+  **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
   - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.

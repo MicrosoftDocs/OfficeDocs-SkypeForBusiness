@@ -54,7 +54,7 @@ To upload a new custom app to your tenant app catalog, click **Upload new app** 
 
 To update an app after it's uploaded, in the list of apps on the **Manage apps** page, click the app name, and then click **Update**. Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app.
 
-To learn more, see [Manage your custom apps in Teams](manage-your-lob-apps.md).
+To learn more, see [Manage your custom apps in Teams](manage-your-custom-apps.md).
 
 ## Allow and block apps
 

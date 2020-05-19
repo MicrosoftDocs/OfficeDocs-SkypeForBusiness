@@ -477,14 +477,24 @@ Create detailed reports in CQD and filter on Meeting ID to look at all users and
  
 The telemetry will not necessarily call out the issue, but it can help you better understand where to look and inform your decisions. Is it network, device, driver or firmware updates, usage, or user?
 
+### Why do I see upto 0.2% difference in call and user count values on measures and how to get most accurate volumes? 
+To compute call count and user count measures, a distinct countif operation is performed against the call or user identifiers in the data set. On large data sets, there is an up to 0.2% error inherent with the distinct countif operation. For the most accurate volume, you should rely on stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. Refer to [Dimensions and measurements available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for which measures are impacted.
 
 ### Why does my CQD v2 report data look different than the CQD v3 report data? 
 
 If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT 'Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
 
-CQD v2 and CQD v3 have different total counts since CQD v3 has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
+CQDv2 classification for CallSetup failure is only considered for "Audio" modality, in CQDv3 this classification happens for every modality (Audio, Video and Appsharing) and is represented in the respective modality stream. 
 
-If the usage scenario includes Skype for Business Server 2019 calls, CQD v3 data includes Skype Bot calls (auto attendant, CVI, Virtual Desktop Interface), Live Events, and PSTN calls. CQD v2 does not use this data. (CQD v3 requires Skype for Business Server 2019 with cloud data connector configured.)
+For Teams, CQDv2 applies the same user feedback to all modalities CQDv3 applies feedback base on modality for Teams.
+
+CQD V3 includes 
+1. Skype for Business Server 2019 calls, 
+2. Skype Bot calls, such as:auto attendant, call queue, conference announcement service, 
+3. Virtual Desktop Interface,
+4. Conference Video Interop,
+3. Live Events Publisher and Presenter calls, and 
+4. PSTN calls. 
 
 For instance, if you see 200,000 audio streams with 5000 failures in a CQD v2 Summary Report it would not be unusual to see 300,000 audio streams with 5500 failures (the difference can be due to Skype for Business Server 2019 calls, CVI calls, PSTN calls, and so on) in a CQD v3 Summary report.
 
@@ -493,6 +503,18 @@ To disambiguate unexpected differences, look at more than one breakdown of the o
 - User Agent Category Pair
 - First Product
 - Second Product
+
+Here's an example of applying specific filters to compare CQD v2 and CQD v3 data:
+
+1. QoE Record Available = True
+
+2. Add Is Server Pair filter with value: Client:Client and Client:Server. Most tenants prefer to exclude Server:Server calls.
+
+3. Add a filter for User Agent Category and filter out Auto Attendant, Call Queue, Bot, Room system, MediationServer, Conference Announcement service, VDI, etc.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Screenshot of applying specific filters in CQD v3":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Screenshot of applying specific filters in CQD v2":::
 
 ### Other expected differences between CQD v2 and CQD v3
 

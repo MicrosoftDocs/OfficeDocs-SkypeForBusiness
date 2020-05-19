@@ -28,6 +28,7 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 # PSTN Service Desk Contact
 
 The PSTN Service Desk team currently has three email addresses for support, which are presented in the following table:
+
 | **I want to transfer/port existing numbers..**  | **I want to order new numbers for..** |
 |:-----:|:------:|
 | [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
@@ -43,7 +44,7 @@ If you need assistance **acquiring new phone numbers for Microsoft Teams**, plea
   - What types of phone numbers you would like to acquire (**User/Subscriber** or **Service/Toll/Toll-Free**).
   - How many you require and the Area Code(s)/Country/Region from which you would like new phone numbers from.
 
-If you need assitance **on anything related to numbers setup, configuration, licenses/fees/billing**, please reach out to the [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) page and our Technical Team will be happy to assist you.
+If you need assistance **on anything related to numbers setup, configuration, licenses/fees/billing**, please reach out to the [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) page and our Technical Team will be happy to assist you.
 
 ## Additional resources
 

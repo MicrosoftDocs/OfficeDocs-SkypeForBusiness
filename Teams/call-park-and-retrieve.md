@@ -39,7 +39,7 @@ Some of the common scenarios for using call park are:
 
 ## License required
 
-To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For more information about the licensing model, see [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For more information about the licensing model, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## Call park and retrieve feature availability
 
@@ -47,9 +47,9 @@ Call park and retrieve is currently supported by the following clients and devic
 
 | Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone | Skype for Business IP phone |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Park a call | Yes | Yes | Yes | Yes | Coming soon| No |
-| Retrieve a parked call | Yes | Yes | Yes | Yes | Coming soon| No |
-| Unretrieved call ring back | Yes | Yes | Yes | Yes | Coming soon| No |
+| Park a call | Yes | Yes | Yes | Yes | Yes | No |
+| Retrieve a parked call | Yes | Yes | Yes | Yes | Yes | No |
+| Unretrieved call ring back | Yes | Yes | Yes | Yes | Yes | No |
 
 ## Configuring call park and retrieve
 

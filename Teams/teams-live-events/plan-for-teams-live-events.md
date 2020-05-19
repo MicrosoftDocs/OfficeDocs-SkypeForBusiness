@@ -30,14 +30,16 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
-Here are the licenses that must be assigned:  
+Here are the licenses that must be assigned to produce or present a Teams live event:  
 
-- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license
-- A Microsoft Teams license
-- A Microsoft Stream license
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license.
+- A Microsoft Teams license. - this is included in the licenses above. 
+- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview). 
 
-> [!IMPORTANT]
-> The user creating and scheduling a live event must have an Exchange Online mailbox.
+  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 30-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+
+> [!NOTE]
+> At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
@@ -77,6 +79,14 @@ The user must have:
 
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast.
 
+> [!IMPORTANT]
+> **Microsoft 365 live event limit increases**
+> 
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> - Attendee limit: events can support up to 20,000 attendees
+> - Concurrent events: 50 events can be hosted simultaneously across a tenant
+> - Event duration: event length has been increased to 16 hours per broadcast
+
 |**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
@@ -114,14 +124,33 @@ The following table highlights core capabilities and features offered in live ev
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
-> The region for the event is automatically selected depending on the organizer and the Microsoft 365 or Office 365.
+> The region for the event is automatically selected depending on the organizer and the Microsoft 365 tenant location.
 
-**Available in these regions**
+**Available in these regional data centers**
 
-- Americas
-- Europe/Africa
+- North America
+- Central America
+- South America
 - Asia Pacific
-- Data location for Canada, India, Australia, Japan, UK
+- Europe/Africa
+
+**Data location for these countries/regions (supported)**
+- Australia
+- Canada
+- India
+- Japan
+- United Kingdom
+
+**These countries/regions and clouds aren't supported**
+- Germany
+- France
+- Norway
+- South Africa
+- South Korea
+- Switzerland
+- UAE
+- Government Community Cloud (GCC)-H
+- DOD
 
 **Exclusions and considerations**
 

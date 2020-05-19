@@ -42,9 +42,11 @@ Teams currently includes the following policy packages.
 |Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
+|Education (Primary school teacher using remote learning) (Preview)   |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
+|Education (Primary school student using remote learning) (Preview)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-|Healthcare patient room (preview)  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
+|Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
 |Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
 |Small and medium business user (without Business Voice) |Creates a set of policies and policy settings that apply to small and medium sized business users without any Business Voice features.|
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
