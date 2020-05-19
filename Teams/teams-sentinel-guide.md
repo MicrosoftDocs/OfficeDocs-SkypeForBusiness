@@ -199,7 +199,28 @@ TeamsData
 > [!TIP]
 > To learn more about External and Guest access types in Teams see [this article](https://docs.microsoft.com/en-us/microsoftteams/communicate-with-users-from-other-organizations), or the *Participant Types* section in the [Teams Security Guide](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide).
 
-#### Next query
+#### Who recently joined / Whose role changed
+
+Query a specific user to check if they were added to a Teams channel in the last 7 days, or within a week:
+
+```kusto
+TeamsData
+| where TimeGenerated > ago(7d)
+| where Operation =~ "MemberAdded"
+| where Members contains "UserName"
+```
+
+Was a user's role changed for a Team in the last 7 days:
+
+```kusto
+TeamsData
+| where TimeGenerated > ago(7d)
+| where Operation =~ "MemberRoleChanged"
+| where Members contains "Role" and Members contains "1"
+```
+
+
+
 
 
 <!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
