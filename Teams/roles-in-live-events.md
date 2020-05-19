@@ -1,7 +1,7 @@
 ---
 title:  Presenter and participant capabilities in a Teams live event
 author: cichur
-ms.author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
