@@ -16,15 +16,16 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
   - seo-marvel-apr2020
+  - seo-marvel-may2020
 search.appverid: MET150
-description: Learn more about the Cloud voice feature, and understand the necessary deployment decisions that you will face.
+description: Learn more about the Microsoft Teams cloud voice feature and the deployment decisions that you will make for your organization.
 appliesto: 
   - Microsoft Teams
 ---
 
 # Cloud voice in Microsoft Teams
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice capabilities for your users. 
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice capabilities (Microsoft Teams VoIP) for your users. 
 
 Cloud voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
 
