@@ -74,13 +74,12 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 The following describes call flow if the user does not have access to the public IP address of the SBC. 
 
-For example, assume the user is external, and the tenant administrator decided not to open the public IP address of the SBC to everyone in the Internet, but only to the Microsoft Cloud. The internal components of traffic can flow via the Teams Transport Relays. This is the recommended configuration for users outside of the corporate network. Consider the following:
+For example, assume the user is external, and the tenant administrator decided not to open the public IP address of the SBC to everyone in the Internet, but only to the Microsoft Cloud. The internal components of traffic can flow via the Teams Transport Relays. Consider the following:
 
 - Teams Transport Relays are used.
 
 - For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires only 3478 and 3479 ports).
 
-- For media optimization purposes, Microsoft recommends opening the public IP address of the SBC only to Teams Transport Relays. For clients outside of the corporate network, Microsoft recommends using Transport Relays instead of reaching the public IP address of the SBC directly.
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
