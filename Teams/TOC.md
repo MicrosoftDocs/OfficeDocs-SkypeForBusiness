@@ -129,6 +129,7 @@
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -214,6 +215,7 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Presenter and participant capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
