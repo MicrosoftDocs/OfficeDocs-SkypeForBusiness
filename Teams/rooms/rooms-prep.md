@@ -50,7 +50,7 @@ In order to function properly, the Microsoft Teams Rooms device must have access
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address.
 - Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
 
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
@@ -105,7 +105,7 @@ To use this application, you must be able to connect to the endpoints described 
 
 |Purpose|Source or Credentials|Source Port|Destination|CDN|ExpressRoute for Office 365|Destination IP|Destination Port|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Authentication and identity  <br/> |See [Office 365 authentication and identity](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Authentication and identity  <br/> |See [Microsoft 365 and Office 365 authentication and identity](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal and shared  <br/> |See [Microsoft 365 admin center and shared](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP Signaling  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Persistent Shared Object Model (PSOM) connections web conferencing  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -118,11 +118,11 @@ To use this application, you must be able to connect to the endpoints described 
 |Skype client quicktips  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |quicktips.skypeforbusiness.com  <br/> |No  <br/> |No  <br/> |N/A  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> The wildcard for contoso.com and broadcast.skype.com represents a long list of nodes that are exclusively used for Office 365. 
+> The wildcard for contoso.com and broadcast.skype.com represents a long list of nodes that are exclusively used for Microsoft 365 or Office 365. 
   
 ### Create provisioning packages
 
-You will use provisioning packages to authenticate to Exchange Server or Office 365.
+You will use provisioning packages to authenticate to Exchange Server, Microsoft 365, or Office 365.
   
 ### Admin group management
 
