@@ -3,15 +3,14 @@ title: Introduction to Teams Policy-based Recording for Calling & Meetings
 author: microsoftheidi
 ms.author: heidip
 manager: serdars
-ms.date: 05/11/20
+ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: abybee
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about Teams Policy-based Recording for Calling &
-Meetings
+description: Learn about Teams Policy-based Recording for Calling & Meetings
 f1.keywords:
 - CSH
 ms.custom: 
