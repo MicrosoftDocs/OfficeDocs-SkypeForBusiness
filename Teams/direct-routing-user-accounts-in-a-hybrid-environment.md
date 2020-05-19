@@ -60,7 +60,7 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexib
 |**Unsupported combinations**    | |         |         |      |
 |Azure AD| On premises/online | Skype for Business/Microsoft Teams|Enterprise Voice/Hybrid Voice Connectivity/Direct Routing  |No, user object MUST be created in on-premises AD first |
 |On premises AD  |On premises| Microsoft Teams| Enterprise Voice/Hybrid Voice Connectivity/Direct Routing   |No, Microsoft Teams client is not supported with on-premises Skype for Business |     
-|On premises AD  |Online |Skype for Business  | Direct Routing  |No, Direct Routing is not supported with Skype for Business client, and user must be enabled for Enterprise Voice in Skype for Business first  |
+|On premises AD  |Online |Skype for Business  | Direct Routing  |No, Direct Routing is not supported with Skype for Business client  |
 
 
 ### Supportability statement for the hybrid environment with PSTN
