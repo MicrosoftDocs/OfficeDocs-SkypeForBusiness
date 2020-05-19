@@ -137,6 +137,7 @@
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
 ## [Get a meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -670,6 +671,7 @@
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
@@ -764,12 +766,12 @@
 
 
 ## Supported devices
-### [Manage your devices in Teams](device-management.md)
-### [Phones for Teams](phones-for-teams.md)
+### [Manage your devices in Teams](devices/device-management.md)
+### [Phones for Teams](devices/phones-for-teams.md)
+### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
+### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
