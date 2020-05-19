@@ -55,4 +55,4 @@ To learn how to use address book policies, read [Information Barrier policies in
 
 
 > [!IMPORTANT]
-> This change can take a couple of hours to replicate.
+> This change can take a few hours to replicate.
