@@ -264,8 +264,14 @@ These settings will allow educators to control access to their meetings.
 - **Let anonymous people start a meeting**: **Off**
 - **Automatically admit people**: **Everyone in your organization**
 - **Allow dial-in users to bypass the lobby**: **Off**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### Messaging policies for educators
+<sup>1</sup> This setting isn't in the Microsoft Teams admin center, so you'll need to use PowerShell to set the **DesignatedPresenterRoleMode** parameter using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) or [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet. This sets the default value of the **Who can present?** setting in **Meeting options** in Teams to **Only me**. With this setting, only the meeting organizer can be a presenter and all other meeting participants are designated as attendees. To learn more, see [Meeting policy settings - Designated presenter role mode](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> For staff who aren't educators, you may want to set the parameter to **EveryoneUserOverride** (which corresponds to the **Everyone** setting in Teams) or **EveryoneInCompanyUserOverride** (which corresponds to the **People in my organization** setting in Teams.)
+
+### Messaging policies
 
 Setting **Owners can delete sent messages** to **On** will allow educators to monitor chat sessions and remove inappropriate messages in channel meetings.
 
