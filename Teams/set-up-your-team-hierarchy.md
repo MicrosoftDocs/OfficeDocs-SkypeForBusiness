@@ -111,7 +111,7 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 ## Apply your hierarchy
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to perform this step.
 
