@@ -187,6 +187,18 @@ items:
     -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
     -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.  
 
+    To learn more, see [End a Teams meeting for everyone in attendance](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971).
+
+    ### Change participant settings for a meeting
+
+    Meeting organizers can change the default participant settings for a specific meeting in **Meeting options**. There are three ways to get there:
+    -   Go to the Calendar in Teams,  select a meeting, and then select **Meeting options**. 
+    -   In a meeting invitation, select **Meeting options**.
+    -   Select **Show participants** to open the **People** pane, and then select **Manage Permissions**. 
+
+    To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+
+
 - title: Meeting configuration options
   durationInMinutes: 20
   content: |
