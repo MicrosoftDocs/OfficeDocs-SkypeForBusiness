@@ -36,7 +36,7 @@ Before you begin:
 
 2. You'll need to know your tenant's subdomain, which will be used in the placeholder **{{subdomain}}**.
 
-3. This article will use **{{siteUrl}}** placeholder for your the *URL* of the site or page you chose.
+3. This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.
     - Example *URLs*:
         https://contoso.sharepoint.com/teams/Contoso
         *or*
