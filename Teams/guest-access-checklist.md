@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use this checklist to help set up guest access in Microsoft Teams.
+description: Learn about how to turn on and configure guest access in Microsoft Teams as a global or Teams admin.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 
@@ -26,7 +27,7 @@ Microsoft Teams guest access checklist
 Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 
 > [!IMPORTANT]
-> You may have to wait up to 24 hours for your changes to take effect. 
+> You may have to wait a couple of hours for your changes to take effect. 
 
 Watch this short video (5:31 minutes) to see how to turn on guest access throughout Microsoft 365, including Teams.
 
@@ -34,7 +35,7 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 ## Step 1: Turn on guest access at the Teams org-wide level
 
-To turn on guest access, go to the **Microsoft Teams admin center**. 
+To turn on guest access, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
@@ -45,7 +46,7 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 4. Click **Save**.
 
 > [!TIP]
-> If you're using default settings in Azure Active Directory, SharePoint Online, and Office 365 Groups, you may be done configuring guest access. In this case, you can skip the rest of the steps. If you're not sure, or if you're using custom settings for AAD, SharePoint Online, or Office 365 Groups, continue with the rest of the steps in this checklist.
+> If you're using default settings in Azure Active Directory, SharePoint Online, and Microsoft 365 Groups, you may be done configuring guest access. In this case, you can skip the rest of the steps. If you're not sure, or if you're using custom settings for AAD, SharePoint Online, or Microsoft 365 Groups, continue with the rest of the steps in this checklist.
 
 ## Step 2: Configure Azure AD business-to-business settings
 
@@ -71,17 +72,17 @@ These are the Azure AD settings that support guest access in Teams. Once these s
       
     For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
-## Step 3: Configure Office 365 Groups
+## Step 3: Configure Microsoft 365 Groups
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Settings**, click **Services**, and then select **Office 365 Groups**.
+1. In the Microsoft 365 admin center, go to **Settings** > **Settings**, click **Services**, and then select **Microsoft 365 Groups**.
 
-     ![Screenshot shows the Office 365 Groups settings](media/guest-access-checklist-services-settings.png)
+     ![Screenshot shows the Microsoft 365 Groups settings](media/guest-access-checklist-services-settings.png)
 2. Make sure that the **Let group members outside the organization access group content** check box is selected. If this setting is not selected, guests won't be able to access any group content.
 
-    ![Screenshot shows the Office 365 Groups settings](media/guest-access-checklist-office365.png)
+    ![Screenshot shows the Microsoft 365 Groups settings](media/guest-access-checklist-office365.png)
 3. Make sure that the **Let group owners add people outside the organization to groups** check box is selected. If this setting is not selected, team owners won't be able to add new guests. At a minimum, this setting must be on to support guest access.
 
-For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+For detailed instructions about configuring these settings, see [Manage guest access in Microsoft 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Microsoft 365 Groups](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
 ## Step 4: Configure sharing in Office 365 
 

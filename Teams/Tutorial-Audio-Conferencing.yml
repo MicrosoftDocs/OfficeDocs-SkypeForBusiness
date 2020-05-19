@@ -1,8 +1,9 @@
 ### YamlMime:Tutorial
-title: Audio Conferencing in Microsoft Teams
+title: 'Tutorial: Audio Conferencing - Microsoft Teams'
 metadata:
   title: Audio Conferencing in Microsoft Teams
-  description: Interactive tutorial walks you through Audio Conferencing in Microsoft Teams.
+  description: Use this interactive tutorial to learn the requirements, planning steps, and reporting for Audio Conferencing in Microsoft Teams.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,6 +20,7 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
+  ms.custom: seo-marvel-mar2020
 
 items:
 - durationInMinutes: 1
@@ -100,6 +102,14 @@ items:
     -   Other users can also join from the Teams client on their PC, Mac, or mobile
         device.
 
+    In Teams, meeting organizers can end a meeting for all meeting participants. This is useful in scenarios such as the following:
+
+    -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
+    -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.
+    -   Ending a meeting for all participants can help reduce your organization's PSTN usage and billing. 
+
+    For example, when the meeting is finished, Garth can click **End meeting** from within the meeting in Teams to end it and remove all participants from it.
+
 - title: Considerations for Skype for Business customers
   durationInMinutes: 1
   content: |
@@ -173,7 +183,7 @@ items:
     scenarios to try out.
 
     ### Requirements
-    -   An Office 365 tenant with appropriate licenses to use Teams
+    -   An Office 365 organization with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
         -   If you don’t have a test tenant, you can sign up for a trial tenant at
             [Office 365 Enterprise E5
@@ -199,6 +209,7 @@ items:
     -   Dial out from a meeting to a phone.
     -   Use dual-tone multi-frequency controls while in a meeting to mute and unmute
         a phone.
+    -   End the meeting for all users. 
 
 - title: Drive value
   durationInMinutes: 1
@@ -215,7 +226,7 @@ items:
         user requirements, to a lack of awareness or training, to quality problems.
     -   Low quality, on the other hand, means that there are issues with
         connectivity between users and Office 365. Low quality can lead to bad user
-        experience and lower usage. Refer to [Office 365 Reports in the Admin Center - Microsoft Teams user
+        experience and lower usage. Refer to [Microsoft 365 Reports in the Admin Center - Microsoft Teams user
         activity](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
         (estimated reading time 5 minutes) to learn more about the usage reports.
 

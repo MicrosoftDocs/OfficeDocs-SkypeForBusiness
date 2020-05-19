@@ -1,5 +1,5 @@
 ---
-title: "Deploy Microsoft Teams Rooms with Skype for Business Server"
+title: Deploy Microsoft Teams Rooms with Skype for Business Server
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,9 +12,9 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-ms.custom: 
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Skype for Business Server."
+ms.custom: seo-marvel-apr2020
 ---
 
 # Deploy Microsoft Teams Rooms with Skype for Business Server
@@ -112,7 +112,7 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## See also
+## Related topics
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 

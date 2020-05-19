@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 
+description: Find answers to FAQs about the retirement of Microsoft StaffHub and transitioning to the Shifts app in Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,6 +17,7 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Microsoft StaffHub to be retired
@@ -43,7 +44,7 @@ Between April 2019 and December 2019, StaffHub users will receive in-app notific
 
 In January 2019, Teams began offering Shifts which was previously available in Microsoft StaffHub. This feature allows managers to plan and distribute shift schedules, and team members the opportunity to review their schedule and make schedule change requests from their mobile devices. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-We’re committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. For more information on which features will be made available in Teams, see [Firstline Worker features coming soon to Teams](firstline-worker-features-coming-to-teams.md).
+We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. For more information on which features will be made available in Teams, see [Firstline Worker features coming soon to Teams](firstline-worker-features-coming-to-teams.md).
 
 #### What do I need to do to prepare for this change?
 
@@ -91,7 +92,7 @@ Shifts is available in the following languages: Chinese-Simplified, English (U.S
 
 #### Where is Shifts data stored?
 
-Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Office 365 Groups and uses the same storage and support.
+Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Microsoft 365 Groups and uses the same storage and support.
 
 For more information, see [Location of Shifts data](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -125,13 +126,13 @@ Teams supports coexistence with Skype for Business. For more information, see [U
 
 Yes, each manager and team member using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license.
  
-#### In StaffHub, I could add a special prefix to all Office 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
+#### In StaffHub, I could add a special prefix to all Microsoft 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
 
-You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Office 365 Groups, you can use [Office 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Microsoft 365 Groups, you can use [Microsoft 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
 #### Will team names be the same in Teams?
 
-It’s possible the name of a team will be different. Team names in Teams use the Office 365 Group name. If the StaffHub team name is different from the name of the corresponding Office 365 Group, you’ll see a different name when you switch over to Teams.
+It's possible the name of a team will be different. Team names in Teams use the Office 365 Group name. If the StaffHub team name is different from the name of the corresponding Office 365 Group, you'll see a different name when you switch over to Teams.
 
 #### What happens to team membership when a StaffHub team is moved to Teams?
 
@@ -143,7 +144,7 @@ We encourage you to review your existing team rosters on StaffHub and where poss
 
 The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group.
 
-For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
+For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Microsoft 365 or Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
 
 Another option is for admins to run the **Add-StaffHubMember** and **Remove-StaffHubUser** cmdlets to remove a non-provisioned account from a StaffHub team and add the user back to the team with their UPN.
 

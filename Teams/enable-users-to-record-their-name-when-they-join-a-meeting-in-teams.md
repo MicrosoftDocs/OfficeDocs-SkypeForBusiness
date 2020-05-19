@@ -1,5 +1,5 @@
 ---
-title: "Enable users to record their name when they join a meeting in Microsoft Teams"
+title: "Enable users to record their name for a meeting"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn how to enable or disable whether your users can record their names when they join a meeting in Microsoft Teams."
 ---
 

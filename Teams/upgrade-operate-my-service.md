@@ -161,7 +161,7 @@ tool, and when you should use each one, is included in the following table.
 
 | Monitoring Tool | Benefits | When to use |
 |---|---|---|
-| Office 365 portal | Available from any device with a supported browser. | Use when you don't need real-time notifications. |
+| Microsoft 365 admin center | Available from any device with a supported browser. | Use when you don't need real-time notifications. |
 | Office 365 Admin app | Provides push notifications to your mobile device. | Use when you need to be notified of service incidents while you're on the go. |
 | Microsoft System Center | Integration with Microsoft System Center. | Use when you need advanced monitoring capabilities and notification support. |
 | Office 365 Service Communications API | Programmatic access to Office 365 service health. | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
@@ -170,9 +170,9 @@ tool, and when you should use each one, is included in the following table.
 > Only individuals who are assigned the **global admin** or **service
 administrator** role can view service health.
 
-### Monitoring with the Office 365 portal
+### Monitoring with the Microsoft 365 admin center
 
-The [Office 365 portal](https://portal.office.com/) provides a [Service Health
+The [Microsoft 365 admin center](https://portal.office.com/) provides a [Service Health
 dashboard](https://portal.office.com/adminportal/home#/servicehealth) where you
 can view the current health of the Teams service in addition to dependent
 services.
@@ -640,7 +640,7 @@ the nature of the issue.
 
 2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 
-3. **Check the known issues list:** Consult the [list of known issues for Teams](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
+3. **Check the known issues list:** Consult [Support Teams in your organization](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4. **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offers dedicated spaces for Teams. The Teams community provides a discussion list, blog posts, and announcements centered around Teams. You can post a question or search previous discussions for solutions to your issue.
 
@@ -664,7 +664,7 @@ the nature of the issue.
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Known issues for Microsoft Teams](known-issues.md)
+[Support Teams in your organization](known-issues.md)
 
 [Verify service health for Microsoft Teams](service-health.md)
 
@@ -704,9 +704,9 @@ duties. The following tasks are commonly required to support users in Teams.
 ### Team creation (optional)
 
 By default, all users with a mailbox in Exchange Online have permissions to
-create Office 365 groups and, therefore, a team in Microsoft Teams. If you want
+create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
 to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
-(and thus the creation of new Office 365 groups), you can delegate group
+(and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.

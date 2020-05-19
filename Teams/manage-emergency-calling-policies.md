@@ -16,8 +16,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency calling policies in Microsoft Teams. 
+description: Learn how to use and manage emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call. 
 f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage emergency calling policies in Microsoft Teams
@@ -38,9 +39,10 @@ If you assigned an emergency calling policy to a network site and to a user and 
 2. Click **Add**.
 3. Enter a name and description for the policy.
 4. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
-    - **Notification only**: A Teams chat message is sent to the users and groups that you specify.
+    - **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
     - **Conferenced in but are muted**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
-5.  If you selected the **Conferenced in but are muted** notification mode, in the **Dial-out number for notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in or participate in the call.
+    - **Conferenced in and are unmuted** **(coming soon)**: A Teams chat message is sent to the users and groups that you specify and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
+5.  If you selected the **Conferenced in but are muted** notification mode, in the **Dial-out number for notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in on the call.
 6. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
 7. Click **Save**.
 
@@ -88,7 +90,7 @@ See [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/
 
 #### Assign a custom emergency calling policy to users in a group
 
-You may want to assign a custom emergency calling policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+You may want to assign a custom emergency calling policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
 
 In this example, we assign a policy called Operations Emergency Calling Policy to all users in the Contoso Operations group.  
 
@@ -96,15 +98,15 @@ In this example, we assign a policy called Operations Emergency Calling Policy t
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 Get the members of the specified group.
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular teams policy. In this example, it's Operations Emergency Call Routing Policy.
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
@@ -115,9 +117,9 @@ Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/s
 
 The following example shows how to assign a policy called Contoso Emergency Calling Policy 1 to the Site1 site.
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## Related topics
 

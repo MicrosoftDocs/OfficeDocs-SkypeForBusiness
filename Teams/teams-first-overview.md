@@ -32,13 +32,13 @@ If you have already rolled out other Office 365 services and Teams is your next 
 
 To get started with your Teams First deployment you will need to meet at minimum some pre-requisites. The following list will show what you must have in place for your organization before Teams can be enabled:
 
-1.  An Office 365 tenant configured with your domain name
+1.  An Office 365 organization configured with your domain name
 
 2.  Azure Active Directory connectivity (AAD connect) or similar cloud identity sync solution – with all required attributes synched with your tenant  
     To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
-    To understand Teams licensing, read [Office 365 licensing for Microsoft Teams](office-365-licensing.md)
+    To understand Teams licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
@@ -49,7 +49,7 @@ To get started with your Teams First deployment you will need to meet at minimum
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.
 > 
 > [!IMPORTANT]
-> If you have Skype for Business Server deployed, and your tenant was provisioned AFTER September 1, 2019, please contact premier support to enable coexistence capabilities for Teams. Make sure your 'Organization wide upgrade policy' is set to 'Island mode' <span class="underline">before</span> you assign any Teams licenses to a user.
+> If you have Skype for Business Server deployed, and your tenant was provisioned AFTER September 1, 2019, please contact support to enable coexistence capabilities for Teams. Make sure your 'Organization wide upgrade policy' is set to 'Island mode' <span class="underline">before</span> you assign any Teams licenses to a user.
 
 ## Migration Starting points
 
@@ -99,7 +99,7 @@ This starting point assumes that your organization does not utilize Skype for Bu
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td><p>Internal (intra Office 365 tenant) and external chat communication possible from Teams</p>
+<td><p>Internal (intra Office 365 organization) and external chat communication possible from Teams</p>
 <p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises or in Office 365 to allow federation with Lync and Skype for Business environments.<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records for Office 365</a></em></p></td>
 </tr>
@@ -228,7 +228,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 1.  Meet pre-requisites detailed in the Start Here section above.
 
-2.  Switch tenant into Islands mode (for tenants provisioned AFTER 9/1/2019, please contact premier support to make this change)  
+2.  Switch tenant into Islands mode (for tenants provisioned AFTER 9/1/2019, please contact support to make this change)  
     [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Configure your tenant in accordance with your company's business/company policies  
@@ -273,7 +273,7 @@ Additionally, as companies around the world are managing the current COVID-19 si
 
 ## Support Services reference
 
-Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Office 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
+Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
 
 For specifics on each of the services listed above, please follow the links below:
 
@@ -284,7 +284,7 @@ For specifics on each of the services listed above, please follow the links belo
 
   - SharePoint is used for file sharing in channels, while /OneDrive for Business is used for file sharing in 1:1 or group chat. To learn more, read [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
-  - [Office 365 Groups](office-365-groups.md) are used for team and channel creation/management.
+  - [Microsoft 365 Groups](office-365-groups.md) are used for team and channel creation/management.
 
 
 ## Related topics

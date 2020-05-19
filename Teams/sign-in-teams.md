@@ -1,5 +1,5 @@
 ---
-title: Sign in to Microsoft Teams using modern authentication
+title: Sign in to Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
-description: How to sign in to Microsoft Teams by using modern authentication. Includes how to skip automatically adding the UPN user-name when users sign in.
+description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication. Includes how to tell Teams to ignore the prefill of the user's name (UPN) at sign in.
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -35,14 +36,14 @@ Modern authentication is a process that lets Teams know that users have already 
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
+- If users are signed in to a domain-joined computer and you **don't want their user name pre-populated on the Teams sign-in screen**, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
+    > Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
 
 
 ### Mac users 

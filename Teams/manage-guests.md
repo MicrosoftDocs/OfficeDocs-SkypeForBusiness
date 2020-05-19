@@ -13,9 +13,10 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT admins can add guests at the tenant level, set and manage guest user policies and permissions, determine which users can invite guests, and pull reports on guest user activity.
+description: Learn how to create your first teams and channels, onboard early adopters, monitor usage and feedback, and get resources to plan your organization-wide rollout.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Manage guest access in Microsoft Teams
@@ -24,7 +25,7 @@ Manage guest access in Microsoft Teams
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
-**Guest** is a user type in Microsoft Teams that is included with all Office 365 Business Premium, Office 365 Enterprise, Office 365 Business Essentials, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Read more about [guest access licensing](#guest-access-licensing-limits) below.
+**Guest** is a user type in Microsoft Teams that is included with all Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Read more about [guest access licensing](#guest-access-licensing-limits) below.
 
 Teams guest access is a tenant-level setting and is turned off by default. For details about how to turn on guest access, see [Turn on or turn off guest access to Teams](set-up-guests.md), or use the [Guest access checklist ](guest-access-checklist.md) to walk you through the setup.
 
@@ -58,7 +59,7 @@ Access reviews are available with the Premium P2 edition of Azure AD, which is i
 
 ## Lag time for guest access settings to take effect
 
-For the guest access settings in Azure Active Directory, it takes 2-24 hours for the changes to take effect across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been turned on or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](troubleshoot-guest-access.md).
+For the guest access settings in Azure Active Directory, it takes 2-24 hours for the changes to take effect across your Microsoft 365 or Office 365. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been turned on or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](troubleshoot-guest-access.md).
 
   
 ## External access (federation) vs. guest access

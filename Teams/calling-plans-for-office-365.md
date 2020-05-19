@@ -1,5 +1,5 @@
 ---
-title: "Calling Plans for Office 365"
+title: "Calling Plans for Microsoft 365"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,10 +24,11 @@ ms.custom:
   - O365P_E5Voiceplandetails
   - Licensing
   - LIL_Placement
+  - seo-marvel-apr2020
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
 
-# Calling Plans for Office 365
+# Calling Plans for Microsoft 365
 
 Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
   
@@ -37,7 +38,7 @@ Here are the Calling Plans options:
     
 - **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Monthly minutes available for each organization and each country/region are located [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
 > [!IMPORTANT]
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.   
@@ -52,19 +53,19 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     ![Screen shot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see "License options based on your plan" in [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
     ![Screen shot showing voice calling plan options.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 
 If so, you don't need to buy a Calling Plan. Office 365 Enterprise E5 includes the **Phone System** add-on, so you can proceed to checkout.
   
-Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## Pricing information
 

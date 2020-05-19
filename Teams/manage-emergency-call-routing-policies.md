@@ -1,5 +1,5 @@
 ---
-title: Manage emergency call routing policies in Microsoft Teams
+title: Manage emergency call routing policies
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,8 +16,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency call routing policies in Microsoft Teams. 
+description: Learn how to use and manage emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. 
 f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
@@ -94,7 +95,7 @@ See [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powersh
 
 ### Assign a custom emergency call routing policy to users in a group
 
-You may want to assign a custom emergency call routing policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+You may want to assign a custom emergency call routing policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
 
 In this example, we assign a policy called HR Emergency Call Routing Policy to all users in the Contoso HR group.  
 

@@ -1,10 +1,11 @@
 ---
 title: Admin training for Microsoft Teams
 ms.reviewer: 
-description: Get the training you need to manage Microsoft Teams in your organization
+description: Get the administrator training and support that you need to manage Microsoft Teams in your organization.
 author: lanachin
 manager: serdars
 audience: admin
+ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
@@ -13,10 +14,14 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection: 
   - M365-collaboration
+ms.custom:
+  - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
+search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-lanac
+ms.custom: seo-marvel-mar2020
 ---
 # Admin training for Microsoft Teams
 

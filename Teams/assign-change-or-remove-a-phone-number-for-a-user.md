@@ -43,6 +43,7 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
 3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
+5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 6. Click **Save**.
     > [!NOTE]
     > Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!

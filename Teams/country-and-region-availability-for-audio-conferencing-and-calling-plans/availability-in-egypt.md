@@ -23,14 +23,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Egypt."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Egypt."
 ---
 
 # Availability in Egypt
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Egypt.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Egypt.
   
 ## Audio Conferencing
 
@@ -65,7 +65,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Not applicable  <br/> |
 |Are toll numbers available?  <br/> |No  <br/> |
-|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Are toll-free numbers available?  <br/> |No <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

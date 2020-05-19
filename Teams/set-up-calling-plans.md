@@ -21,7 +21,8 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - LIL_Placement
-description: "For Office 365 Calling Plan, learn how to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers."
+  - seo-marvel-mar2020
+description: Learn to set up Calling Plans, including view plans available in your region, buy & assign licenses, get phone numbers, and add emergency addresses & locations.
 ---
 # Set up Calling Plans
 
@@ -38,7 +39,7 @@ If Calling Plans are not available for your country or region, consider using Di
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:

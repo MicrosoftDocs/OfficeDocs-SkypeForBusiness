@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Office 365 for Microsoft Teams"
+title: "Try or purchase Audio Conferencing in Microsoft 365 for Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,10 +21,11 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.lync.lac.CpcGettingStarted
+  - seo-marvel-mar2020
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 
-# Try or purchase Audio Conferencing in Office 365 for Microsoft Teams
+# Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams
 
 Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation! People can call in to Microsoft Teams meetings using a phone, instead of using the Microsoft Teams app on a mobile device or PC.
 
@@ -48,7 +49,7 @@ You must be a [global administrator or billing administrator](https://support.of
 
 3. [Assign or remove licenses for Office 365 for business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 
-4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses:
 

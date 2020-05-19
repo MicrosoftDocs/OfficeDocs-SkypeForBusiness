@@ -1,5 +1,5 @@
 ---
-title: Turn on Microsoft Teams in your Office 365 organization
+title: Turn on Teams in your Microsoft 365 or Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,12 +8,13 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Learn how to turn on Microsoft Teams for your Office 365 organization.
+description: Learn how to turn on Microsoft Teams for your Microsoft 365 or Office 365 organization, assign user licenses to control individual access, and allow or block content sources.
 localization_priority: Normal
 f1.keywords:
   - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -33,7 +34,7 @@ As an administrator for your organization, you can assign user licenses to contr
 
 
  
-To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md). 
+To learn more about managing individual licenses, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
  
 ## Turn Teams on or off for your entire organization 

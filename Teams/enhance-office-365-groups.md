@@ -1,5 +1,5 @@
 ---
-title: Enhance existing Office 365 groups with Microsoft Teams
+title: Enhance existing Microsoft 365 groups
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Learn to enhance Office 365 groups with Microsoft Teams by inviting a ditribution list to a team, add mail-enabled security groups, and more.
+description: Learn to enhance Microsoft 365 groups with Microsoft Teams by inviting a ditribution list to a team, add mail-enabled security groups, and more.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,9 +17,10 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
-Enhance existing Office 365 groups with Microsoft Teams
+Enhance existing Microsoft 365 groups with Microsoft Teams
 =======================================================
 
 Microsoft Teams users can enhance an existing Office 365 Group with Teams functionality. When looking at enhancing a public Office 365 Group, users can do that if the number of members is equal to or less than 5,000.
@@ -37,9 +38,9 @@ Users can also invite a distribution list to a team, and the members of that dis
 
 You can also add mail-enabled security groups as members of a team. But, if you later add more members to the security group, those members are not automatically added to the team. You must add the new members separately or re-add the security group to the team. (If you re-add the security group, deduplication makes sure members are added only once.)
 
-There are two types of privacy settings with Office 365 groups, **public and private**. Whereas both group types can be enabled for Teams, there is a slight difference when it comes to self-service.
+There are two types of privacy settings with Microsoft 365 groups, **public and private**. Whereas both group types can be enabled for Teams, there is a slight difference when it comes to self-service.
 
--   Users can search for public groups and can join by themselves without a need for team owner’s approval.
+-   Users can search for public groups and can join by themselves without a need for team owner's approval.
 
 -   Private groups are not searchable, and users cannot join unless a team owner add them as a member.
 

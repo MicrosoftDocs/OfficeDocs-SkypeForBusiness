@@ -1,10 +1,10 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Instructor-led training and videos for Microsoft Teams users
+title: Instructor-led training and videos for users
 ms.reviewer: dearbeen
 manager: serdars
-description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -12,7 +12,10 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+search.appverid: MET150
+ms.custom: 
+ - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
@@ -164,26 +167,6 @@ ms.collection:
                         <h3>Teams for Education - Webinars</h3>
                         <p>Learn how to use Teams in higher education.</p>
                         <p><i>Audience: Staff, students, academics, research faculty, IT professionals</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Empower your Firstline Workers with Teams</h3>
-                        <p>Learn how Teams enables digital transformation that brings limitless potential to your entire workforce.</p>
-                        <p><i>Audience: Business decision makers, IT decision makers</i></p>
                     </div>
                 </div>
             </div>
