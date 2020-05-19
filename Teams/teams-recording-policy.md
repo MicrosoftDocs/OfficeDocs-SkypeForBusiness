@@ -10,8 +10,7 @@ ms.service: msteams
 ms.reviewer: abybee
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about Teams Policy-based Recording for Calling &
-Meetings
+description: Learn about Teams Policy-based Recording for Calling & Meetings
 f1.keywords:
 - CSH
 ms.custom: 
