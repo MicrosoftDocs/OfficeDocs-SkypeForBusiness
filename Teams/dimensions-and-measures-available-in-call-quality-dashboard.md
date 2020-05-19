@@ -494,7 +494,7 @@ The table above lists possible reasons why a dimension may be blank. Many dimens
 
 ## Measurements
 
-Many Measurement values can also be used as filters. The following table lists the measurements currently available in CQD, shown in the order listed in the Query Editor:
+Many Measurement values can also be used as filters. The following table lists the measurements currently available in CQD, shown in the order listed in the Query Editor
 
 |Measure Name |Units |Description |
 |:--- |:--- |:--- |
@@ -506,7 +506,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Total Media Succeeded Stream Count |Number of streams |Number of streams where media path was established and terminated normally. |
 |Total Call Setup Succeeded Stream Count |number of streams |Number of streams where media path could be established between the endpoints at the start of the call.|
 |Total Call Setup Failure Percentage |Percentage |Percentage of all streams where media path could not be established between the endpoints at the start of the call. |
-|Total Call Dropped Failure Percentage |Percentage |Percentage of successfully established streams where media path did not terminate normally. | Total Short Call Count
+|Total Call Dropped Failure Percentage |Percentage |Percentage of successfully established streams where media path did not terminate normally.| 
 |Total Answer Seizure Ratio |Ratio |Ratio of calls with duration less than 5 seconds over the total number of calls. |
 |Total Short Call Percentage |Percentage |Percentage of total calls less than 1 minute long. |
 |Total Media Failure Percentage |Percentage |Percentage of all streams where either media path could not be established or did not terminate normally. |
@@ -516,8 +516,8 @@ Many Measurement values can also be used as filters. The following table lists t
 |Firewall IP Blocked Media Failure Percentage |Percentage |Percentage of streams that failed to be established because network equipment blocked access to Skype for Business servers. These failures typically indicate a proxy, firewall, or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365. |
 | Media Failed Due To Other Stream Count|Number of streams| Number of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason.| |
 | Other Media Failure Percentage|Percentage| Percentage of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason. ||
-| Total CDR Available Call Count|Number of streams|Total number of media streams with reliability/diagnostics information available.|
-| Total Media Failed Call Count|Number of streams|Number of streams where media path could not be established between the endpoints.|
+| Total CDR Available Call Count|Number of streams|Total number of media streams with reliability/diagnostics information available. There is an up to 0.2% error for this measure. See note below for details.|
+| Total Media Failed Call Count|Number of streams|Number of streams where media path could not be established between the endpoints. There is an up to 0.2% error for this measure. See note below for details.|
 |Audio Stream Count |Number of streams |Number of audio streams. |
 |Audio Poor Stream Count |Number of streams |Number of audio streams classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
  |Audio Good Stream Count |Number of streams |Number of audio streams classified as good based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
@@ -538,11 +538,11 @@ Many Measurement values can also be used as filters. The following table lists t
 |Audio Poor Call Stream Count |Number of streams |Number of audio streams where at least one audio stream in the call (call-leg) was classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
 |Audio Unclassified Call Stream Count |Number of streams |Number of audio streams where both audio streams in the call (call-leg) could not be classified due to missing network metrics. |
 |Audio Poor Call Level Percentage |Percentage |Percentage of all audio streams where at least one audio stream in the call (call-leg) was classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
-| Audio Call Count | Number |Number of calls involving audio.| |
-| Audio Poor Call Count|Number  |Number of calls involving audio classified as poor.|
-| Audio Good Call Count |Number of calls|Number of calls involving audio classified as good.|
-| Audio Unclassified Call Count |Number of calls|Number of calls involving audio that could not be classified Good or Poor.|
-| Audio Poor Call Percentage |Percentage of calls|Percentage of calls involving audio classified as poor.|
+| Audio Call Count | Number |Number of calls involving audio. There is an up to 0.2% error for this measure. See note below for details.|
+| Audio Poor Call Count|Number  |Number of calls involving audio classified as poor. There is an up to 0.2% error for this measure. See note below for details.|
+| Audio Good Call Count |Number of calls|Number of calls involving audio classified as good. There is an up to 0.2% error for this measure. See notes below for details.|
+| Audio Unclassified Call Count |Number of calls|Number of calls involving audio that could not be classified Good or Poor. There is an up to 0.2% error for this measure. See note below for details.|
+| Audio Poor Call Percentage |Percentage of calls|Percentage of calls involving audio classified as poor. There is an up to 0.2% error for this measure. See note below for details.|
 |AppSharing Stream Count |Number of streams |Number of RDP-based application sharing streams. |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |Number of streams |Number of application sharing streams where the spoiled tile percent total metric exceeds thresholds listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Poor Due To RelativeOneWayAverage Count |Number of streams |Number of application sharing streams where the spoiled tile percent total metric exceeds thresholds listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
@@ -657,18 +657,18 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
-| First User Count|Number | Number of unique or distinct first endpoint users.| |
-| Second User Count|Number|Number of unique or distinct second endpoint users.|
+| First User Count|Number | Number of unique or distinct first endpoint users. There is an up to 0.2% error for this measure. See note below for details.| 
+| Second User Count|Number|Number of unique or distinct second endpoint users. There is an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | Avg Second Device Glitches Event Ratio|Percentage|Average fraction of the call that the second endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | First Device Glitches Event Count|Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
 | Second Device Glitches Event Count|Number of stream where the second endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
-| PSTN Total Attempts Count | Number of calls | Total attempted calls, including successful calls and failed calls in the selected time range.|
-|PSTN Total Connected Count | Number of calls | Total successfully connected calls in the selected time range.|
-|PSTN Inbound Attempts Count | Number of calls | Total inbound attempted calls, including successful calls and failed calls in the select time range.|
-|PSTN Inbound Connected Count | Number of calls | Total inbound successfully connected calls in the selected time range.|
-|PSTN Outbound Attempts Count | Number of calls | Total outbound attempted calls, including successful calls and failed calls in the selected time range.|
-|PSTN Outbound Connected Count | Number of Calls | Total outbound successfully connected calls in the selected time range.|
+| PSTN Total Attempts Count | Number of calls | Total attempted calls, including successful calls and failed calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
+|PSTN Total Connected Count | Number of calls | Total successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
+|PSTN Inbound Attempts Count | Number of calls | Total inbound attempted calls, including successful calls and failed calls in the select time range. There is an up to 0.2% error for this measure. See note below for details.|
+|PSTN Inbound Connected Count | Number of calls | Total inbound successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
+|PSTN Outbound Attempts Count | Number of calls | Total outbound attempted calls, including successful calls and failed calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
+|PSTN Outbound Connected Count | Number of Calls | Total outbound successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Total Minutes | Minutes | Total minutes | Total minute usage in the selected time range.|
 |PSTN Inbound Total Minutes | Minutes | Total inbound minute usage in the selected time range.|
 |PSTN Outbound Total Minutes | Minutes | Total outbound minute usage in the selected time range.|
@@ -681,8 +681,13 @@ Many Measurement values can also be used as filters. The following table lists t
 |P50 Packet Loss Rate | Percentage | 50% of the requests should have lower than the given Packet Loss Rate.|
 |PSTN Outgoing Post Dial Delay| Milliseconds | The delay that occurs on outgoing calls measured from the time a number has been dialed until the caller or called party hears ringing.|
 |PSTN Incoming Post Dial Delay | Milliseconds | The time or delay that occurs on incoming calls measured from the time a number has been dialed until the caller or called party hears ringing.|
-|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100|
+|PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100.There is an up to 0.2% error for this measure. See note below for details.|
 ||||
+
+### Notes on measurements
+
+#### Accuracy limitations
+Certain user and call count measurements rely on performing a distinct countif operation on the data set to compute the count. There is currently an up to 0.2% error inherent with the distinct countif operation depending on the number of rows the operation is performed on. For the most accurate volume, you should use stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. More information about this limitation can be found here [dcount aggregate function](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## Filters
 
