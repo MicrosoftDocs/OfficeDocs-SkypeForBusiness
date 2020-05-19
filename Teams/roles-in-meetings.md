@@ -1,7 +1,7 @@
 ---
 title:  Presenter and participant capabilities in a Teams meeting
 author: cichur
-ms.author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -50,7 +50,7 @@ There are several types of meeting participants:
 
 - [In-tenant participant](#in-tenant-participant)
 - [Guest participant](#guest-participant)
-- [External (federated) participant](#external-(federated)-participant)
+- [External (federated) participant](#external-federated-participant)
 - [Anonymous participant](#anonymous-participant)
 
 ### In-tenant participant

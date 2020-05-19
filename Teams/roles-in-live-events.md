@@ -50,7 +50,7 @@ There are several types of live event participants:
 
 - [In-tenant participant](#in-tenant-participant)
 - [Guest participant](#guest-participant)
-- [External (federated) participant](#external-(federated)-participant)
+- [External (federated) participant](#external-federated-participant)
 - [Anonymous participant](#anonymous-participant)
 
 ### In-tenant participant
