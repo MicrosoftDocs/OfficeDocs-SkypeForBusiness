@@ -38,11 +38,12 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User has sufficient storage in Microsoft Stream for recordings to be saved
 - User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
 - User is not an anonymous, Guest, or federated user in the meeting
+- To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have -AllowTranscription setting must be set to true.
 
-> [!NOTE]
-> Additionally, to allow the person initiating the recording to choose whether to automatically transcribe the recording, the user's TeamsMeetingPolicy -AllowTranscription setting must be set to true
+<sup>1</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
-<sup>1</sup>User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
+> [!IMPORTANT] 
+> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 30 day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
@@ -52,7 +53,7 @@ This section explains how you can set up and plan for recording Teams meetings.
 
 Microsoft Stream is available as part of eligible Microsoft 365 and Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Microsoft 365 Business Standard, and Microsoft 365 Business Basic.
 
-Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
+Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [Block sign-ups for Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
 ### Make sure users have upload video permissions in Microsoft Stream
 
@@ -130,7 +131,7 @@ To change value of AllowCloudRecording in the Global policy, use the following c
 
 ### Planning for storage
 
-The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [this article](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
+The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [Microsoft Stream Licensing overview](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
 
 ## Manage meeting recordings
 
@@ -138,7 +139,6 @@ The meeting recordings are considered tenant-owned content. If the owner of the 
 
 > [!NOTE]
 > See [Manage user data in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) and [Permissions and privacy in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) for additional information on managing recordings and user access.
-
 
 ## Compliance and eDiscovery for meeting recordings
 
