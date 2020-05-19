@@ -19,4 +19,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-[!INCLUDE [device-management](../device-management.md)]
+[!INCLUDE [device-management](../devices/device-management.md)]

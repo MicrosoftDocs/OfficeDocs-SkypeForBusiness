@@ -109,7 +109,7 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md). |
+|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](devices/device-management.md). |
 |Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
