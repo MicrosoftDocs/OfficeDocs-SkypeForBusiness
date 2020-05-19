@@ -55,7 +55,7 @@ For more information on how this feature works, see this [video demonstration](h
 <a name="#turnitin"> </a>
 ### Turnitin
 
-Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
+Turnitin is a plagiarism detection service. This is a third-party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third-party products and services.
 
 This setting is off by default.
 
