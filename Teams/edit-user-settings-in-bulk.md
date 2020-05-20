@@ -45,7 +45,7 @@ This article describes how to edit settings for users, such as change the polici
 
 ## View your policy assignments in the Activity log
 
-When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the Activity log. The Activity log shows policy assignments for batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. Keep in mind that it doesn't show policy package assignments, policy assignments to batches of less than 20 users through the Microsoft Teams admin center, or policy assignments through PowerShell.
+When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the Activity log. The Activity log shows policy assignments for batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. Keep in mind that it doesn't show policy package assignments, policy assignments for  batches of less than 20 users through the Microsoft Teams admin center, or policy assignments through PowerShell.
 
 ![Screenshot of the Activity log page](media/activity-log.png)
 
