@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Rooms"
+title: Microsoft Teams virtual meeting rooms
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -12,7 +12,8 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: "The relevant planning considerations for deploying Microsoft Teams Rooms, and how to deploy and manage the system."
+description: Learn how to set up Microsoft Teams Rooms, including planning, deploying, and managing the system to create your ideal virtual meeting room.
+ms.custom: seo-marvel-may2020
 ---
 
 <h1>Microsoft Teams Rooms</h1>
@@ -24,7 +25,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
                     <div class="cardText">
                         <p>Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that&#39;s simple to use, deploy, and manage. </p>
                         <p>Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants. </p>
-                        <p>Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</p>
+                        <p>Select the right system and audio video peripherals (like a collaboration bar) from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</p>
                         <p></p>
                     </div>
                 </div>
