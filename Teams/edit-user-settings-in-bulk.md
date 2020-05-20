@@ -63,7 +63,7 @@ To view your policy assignments in the Activity log:
     - **Overall status**: Status of the policy assignment.
 
 > [!NOTE]
-> You can also get to the Activity log from the **Users** page. After you do a bulk policy assignment, you'll see a banner at the top of the page. Click the **Activity log** link in the banner.
+> You can also get to the Activity log from the **Users** page. After you click **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Click the **Activity log** link in the banner.
 
 ## Related topics
 
