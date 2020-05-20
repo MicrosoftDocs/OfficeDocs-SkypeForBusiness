@@ -59,7 +59,7 @@ To view your policy assignments in the Activity log:
 
     - **Submitted**: Date and time the policy assignment was submitted.
     - **Completion time**: Date and time the policy assignment was completed.
-    - **Impact on**: Number of users affected.
+    - **Impact on**: Number of users in the batch.
     - **Overall status**: Status of the policy assignment.
 
 > [!NOTE]
