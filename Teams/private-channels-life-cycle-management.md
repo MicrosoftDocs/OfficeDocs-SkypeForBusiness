@@ -179,7 +179,7 @@ As an admin, you can use Microsoft Teams admin center, PowerShell, or Graph API 
 
 ### Using Microsoft Teams admin center
 
-To learn how to manage group members using admin center, see [Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal)
+To learn how to manage group members using the admin center, see [Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal).
 
 ### Using PowerShell
 
