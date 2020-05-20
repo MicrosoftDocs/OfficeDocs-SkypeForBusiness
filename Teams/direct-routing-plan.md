@@ -150,7 +150,7 @@ Microsoft recommends that you request the certificate for the SBC by generating 
   > [!NOTE]
   > Most Certificate Authorities (CAs) require the private key size to be at least 2048. Keep this in mind when generating the CSR.
 
-The certificate needs to have the SBC FQDN in the subject, common name, or subject alternate name fields.
+The certificate needs to have the SBC FQDN as the common name (CN) in the subject field.
 
 Alternatively, Direct Routing  supports a wildcard in SAN, and the wildcard needs to conform to standard [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1). 
 An example would be using \*.contoso.com in the SAN, which would match the SBC FQDN sbc.contoso.com, but wouldn't match with sbc.test.contoso.com.
