@@ -32,13 +32,15 @@ Modern authentication is a process that lets Teams know that users have already 
 
 ### Windows users 
 
-- If users have already signed in to other Office apps through their Office 365 Enterprise account, when they start Teams they're taken straight to the app. There's no need for them to enter their credentials.
+- If users have already signed in to other Office apps through their Microsoft work or school account, when they start Teams they're taken straight to the app. There's no need for them to enter their credentials. 
+
+- Microsoft recommends using Windows 10 version 1903 or later for the best Single Sign-On experience.
 
 - If users are not signed in to their Office 365 Enterprise account anywhere else, when they start Teams, they're asked to provide either single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has decided they'd like the process to entail.
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- If users are signed in to a domain-joined computer and you **don't want their user name pre-populated on the Teams sign-in screen**, admins can set the following Windows registry to turn off pre-population of the user principal name (UPN):
+- On Domain joined PCs, when SSO isn't possible Teams may pre-fill its login screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Azure Active Directory. If that's the case, you can use the following Windows registry key to turn off pre-population of the UPN:
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -50,7 +52,7 @@ Modern authentication is a process that lets Teams know that users have already 
 
 ### Mac users 
 
-When users start Teams, their computer won't be able to pull their credentials from their Office 365 Enterprise account or any of their other Office applications. Instead, they'll see a prompt asking them for SFA or MFA (depending on your organization's settings). Once users enter their credentials, they won't be required to provide them again. From that point on, Teams automatically starts whenever they're working on the same computer.
+On MacOS, Teams will prompt users to enter their username and credentials and may prompt for multi-factor authentication depending on your organization's settings. Once users enter their credentials, they won't be required to provide them again. From that point on, Teams automatically starts whenever they're working on the same computer.
 
 ## Switching accounts after completing modern authentication
 
