@@ -55,7 +55,7 @@ To view your policy assignments in the Activity log:
 3. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
     - **Name**: The name of the policy assignment. Click the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
 
-    ![Screenshot of the](media/activity-log-policy-assignment-detail.png)
+        ![Screenshot of the](media/activity-log-policy-assignment-detail.png)
 
     - **Submitted**: Date and time the policy assignment was submitted.
     - **Completion time**: Date and time the policy assignment was completed.
