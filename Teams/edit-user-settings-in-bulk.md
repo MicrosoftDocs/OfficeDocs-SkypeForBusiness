@@ -23,39 +23,47 @@ appliesto:
 
 # Edit Microsoft Teams user settings in bulk in the Microsoft Teams admin center
 
-As an admin, you manage Teams user settings in the Microsoft Teams admin center. On the **Users** page, you can view information such as account and licensing details and edit policy and other settings. You can edit settings for users individually or for multiple users at the same time.
+As an admin, you view and manage Teams user settings on the **Users** page of the Microsoft Teams admin center. You can view information such as location, phone numbers, and licensing details, and manage the policies assigned to users. You can edit settings for users individually or for multiple users at the same time.
+
+This article describes how to edit settings for users, such as change the policies that are assigned to them, in bulk in the Microsoft Teams admin center. You'll also learn how to view the status of your bulk policy assignments in the Activity log in the Dashboard.
 
 ## Edit user settings in bulk
-
-Use the Microsoft Teams admin center to edit settings for multiple users at a time. 
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
 2. Search for the users you want to edit or filter the view to show the users you want to edit.
 3. In the **&#x2713;** (check mark) column, select users by doing one of the following:
     - Select users one at a time. A **&#x2713;** is displayed next to each user you select. 
 
-        ![Screen shot of the Users page showing user selection](media/bulk-edit-user-settings-select-users.png)
+        ![Screenshot of the Users page showing user selection](media/bulk-edit-user-settings-select-users.png)
 
     - Click the &#x2713; (check mark) at the top of the table to select all users. 
 
-        ![Screen shot of the Users page, showing all users selected](media/bulk-edit-user-settings-select-all.png)
+        ![Screenshot of the Users page, showing all users selected](media/bulk-edit-user-settings-select-all.png)
 4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
 
-    ![Screen shot of the Edit Settings pane](media/bulk-edit-user-settings-edit-settings.png)
+    ![Screenshot of the Edit Settings pane](media/bulk-edit-user-settings-edit-settings.png)
 
-## View policy assignment activities in the activity log
+## View your policy assignments in the Activity log
 
-When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the activity log. The activity log shows policy assignment activities of more than 20 users at a time through the Microsoft Teams admin center from the last 30 days. Keep in mind that it doesn't show policy package assignments, policy assignments to less than 20 users in the Microsoft Teams admin center, or policy assignments through PowerShell.
+When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the Activity log. The Activity log shows policy assignments for batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. Keep in mind that it doesn't show policy package assignments, policy assignments to batches of less than 20 users through the Microsoft Teams admin center, or policy assignments through PowerShell.
 
-To view the status of your policy assignments in the activity log:
+![Screenshot of the Activity log page](media/activity-log.png)
+
+To view your policy assignments in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
-2. From here, you can view all activities or filter the list to show activities that are **Not started**, **In progress**, or **Completed**.
-    - **Name**: The name of the policy assignment. Click the link to view details. 
+3. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
+    - **Name**: The name of the policy assignment. Click the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
+
+    ![Screenshot of the](media/bulk-edit-user-settings-edit-settings.png)
+
     - **Submitted**: Date and time the policy assignment was submitted.
     - **Completion time**: Date and time the policy assignment was completed.
-    - **Impact on**: Number of users. 
-    - **Overall status**: Status of the policy assignment. 
+    - **Impact on**: Number of users affected.
+    - **Overall status**: Status of the policy assignment.
+
+> [!NOTE]
+> You can also get to the Activity log from the **Users** page. After you do a bulk policy assignment, you'll see a banner at the top of the page. Click the **Activity log** link in the banner.
 
 ## Related topics
 
