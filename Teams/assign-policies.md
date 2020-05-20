@@ -122,7 +122,7 @@ To learn more about policy packages, including step-by-step guidance on how to a
 3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
 4. Click **Edit settings**, assign the policies that you want, and then click **Apply**.
 
-To learn more, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To view the status of your policy assignment, in the banner at the top of the **Users** page, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. To learn more, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
 ### Using PowerShell
  
