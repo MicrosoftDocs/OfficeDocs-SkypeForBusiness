@@ -79,7 +79,7 @@ When the location must be associated to the telephone number depends on the coun
 
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 
-- For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Office 365 or when it's transferred from another service provider or carrier.
+- For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Microsoft 365 or Office 365, or when it's transferred from another service provider or carrier.
 
 ### Dynamic emergency calling
 
