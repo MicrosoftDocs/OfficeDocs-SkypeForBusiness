@@ -39,9 +39,23 @@ Use the Microsoft Teams admin center to edit settings for multiple users at a ti
     - Click the &#x2713; (check mark) at the top of the table to select all users. 
 
         ![Screen shot of the Users page, showing all users selected](media/bulk-edit-user-settings-select-all.png)
-4. Click **Edit settings**, make the changes that you want, and then click **Save**.
+4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
 
     ![Screen shot of the Edit Settings pane](media/bulk-edit-user-settings-edit-settings.png)
+
+## View policy assignment activities in the activity log
+
+You can view the status of the policy assignments in the activity log. The activity log shows policy assignment activities of more than 20 users at a time through the Microsoft Teams admin center from the last 30 days. Keep in mind that activity log doesn't show policy package assignments, policy assignments to less than 20 users in the Microsoft Teams admin center, or policy assignments through PowerShell.
+
+To view policy assignment activities in the activity log:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**. 
+2. From here, you can view all activities or filter the list to show activities that are **Not started**, **In progress**, or **Completed**. 
+    - **Name**: The name of the policy assignment. Click the link to view details. 
+    - **Submitted**: Date and time the policy assignment was submitted.
+    - **Completion time**: Date and time the policy assignment was completed.
+    - **Impact on**: Number of users. 
+    - **Overall status**: Status of the policy assignment. 
 
 ## Related topics
 
