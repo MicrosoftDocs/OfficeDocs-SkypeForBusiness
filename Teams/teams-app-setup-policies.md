@@ -156,7 +156,7 @@ There's no limit on the number of pinned apps you can add to a policy.
 
 #### How long does it take for policy changes to take effect?
 
-After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
 
 ### User experience
 
