@@ -36,7 +36,7 @@ Before you begin:
 
 2. You'll need to know your tenant's subdomain, which will be used in the placeholder **{{subdomain}}**.
 
-3. This article will use **{{siteUrl}}** placeholder for your the *URL* of the site or page you chose.
+3. This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.
     - Example *URLs*:
         https://contoso.sharepoint.com/teams/Contoso
         *or*
@@ -99,7 +99,7 @@ Begin by following the steps below:
 
 To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar. Find your new app, load it, and test your standalone application in Teams.
 
-If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear 24 hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
+If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear a few hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
 
 To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen. Find your app and navigate to it on your mobile device.
 
