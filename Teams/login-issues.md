@@ -35,7 +35,7 @@ Users might have log-in issues if they are using older versions of Teams or have
 > [!NOTE]
 > Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
 
-See [Sign in to Microsoft Teams using modern authentication](../sign-in-teams.md) for more information.
+See [Sign in to Microsoft Teams using modern authentication](sign-in-teams.md) for more information.
 
 ## Skype token revocation
 
