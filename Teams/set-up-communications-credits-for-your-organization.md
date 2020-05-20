@@ -39,7 +39,7 @@ To do so, **you need to assign an Audio Conferencing or Phone System license** t
   
 - Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
-    After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+    After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
 - Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
@@ -119,7 +119,7 @@ To see a table with the license or licenses you will need for each feature, see 
     
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
     
-- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
+- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     
