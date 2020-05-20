@@ -111,7 +111,7 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 ## Apply your hierarchy
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to perform this step.
 
@@ -122,7 +122,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## Remove your hierarchy
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
 
 If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete. 
 
@@ -131,60 +131,6 @@ To remove your hierarchy, run the following command. You must be an admin to per
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### Teams Powershell module
-
-#### Install the latest Teams PowerShell module from the PowerShell Test Gallery
-
-The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing the team hierarchy. Use these steps to install the latest version of the Teams PowerShell module, with team hierarchy support, from the PowerShell Test Gallery.
-
-> [!NOTE]
-> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Close all existing PowerShell sessions.
-5. Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery
-
-If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## Troubleshooting
 
@@ -195,3 +141,4 @@ Take note of the error message as it should include troubleshooting information 
 ## Related topics
 
 - [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)

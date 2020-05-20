@@ -46,7 +46,7 @@ Microsoft MakeCode is a block-based coding platform that brings computer science
 
 MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
-This setting is off by default. To enable MakeCode assignments in Teams, in the **Teams Admin Center**, navigate to the **Assignments** section and turn the MakeCode toggle option to **On**. Click **Save** and allow up to 24 hours for these settings to take effect.
+This setting is off by default. To enable MakeCode assignments in Teams, in the **Teams Admin Center**, navigate to the **Assignments** section and turn the MakeCode toggle option to **On**. Click **Save** and allow a few hours for these settings to take effect.
 
 For more information on how this feature works, see this [video demonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -55,7 +55,7 @@ For more information on how this feature works, see this [video demonstration](h
 <a name="#turnitin"> </a>
 ### Turnitin
 
-Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
+Turnitin is a plagiarism detection service. This is a third-party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third-party products and services.
 
 This setting is off by default.
 
@@ -78,6 +78,6 @@ The TurnitinApiKey will be given to you after you follow the prompts.
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
 ![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
-Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
+Upon clicking the **Save** button in the admin center for this setting, please allow a few hours for these settings to take effect.
 
 Ready to start using the Turnitin integration in Teams? Sign up for the [early access program](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).
