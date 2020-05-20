@@ -23,7 +23,7 @@ appliesto:
 
 # Edit Microsoft Teams user settings in bulk in the Microsoft Teams admin center
 
-As an admin, you view and manage Teams user settings on the **Users** page of the Microsoft Teams admin center. You can view information such as location, phone numbers, and licensing details, and manage the policies assigned to users. You can edit settings for users individually or for multiple users at the same time.
+As an admin, you view and manage Teams user settings on the **Users** page of the Microsoft Teams admin center. You can view information such as location, phone numbers, and licensing details, manage policy assignments, and edit other settings. You can edit settings for users individually or in bulk.
 
 This article describes how to edit settings for users, such as change the policies that are assigned to them, in bulk in the Microsoft Teams admin center. You'll also learn how to view the status of your bulk policy assignments in the Activity log in the Dashboard.
 
@@ -55,7 +55,7 @@ To view your policy assignments in the Activity log:
 3. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
     - **Name**: The name of the policy assignment. Click the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
 
-    ![Screenshot of the](media/bulk-edit-user-settings-edit-settings.png)
+    ![Screenshot of the](media/activity-log-policy-assignment-detail.png)
 
     - **Submitted**: Date and time the policy assignment was submitted.
     - **Completion time**: Date and time the policy assignment was completed.
