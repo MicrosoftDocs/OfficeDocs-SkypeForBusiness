@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
 title: Quick start - Microsoft Teams for Education admins
 metadata:
-  title: Quick start - Microsoft Teams for Education admins
-  description: Learn how IT administrators at education institutions can deploy Microsoft Teams across an organization.
+  title: Quick start guide - Microsoft Teams for Education admins
+  description: IT administrators at education institutions can use this quick start guide to deploy Microsoft Teams for Education across their organization.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -31,10 +31,10 @@ items:
 
     With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, communicate with school staff, coordinate research across institutions, or more easily facilitate student life efforts like clubs or extracurricular activities – all from a single experience in Office 365 for Education.
 
-    Microsoft Teams saves time, deepens connections and simplifies everyday logistics. This allows staff to focus on their roles as educator, researchers, and leaders in your school or institution.  
+    Microsoft Teams saves time, deepens connections and simplifies everyday logistics. This allows staff to focus on their roles as educators, researchers, and leaders in your school or institution. Students benefit from easy-to-access online classrooms, recorded lessons, and one-on-one meetings with teachers.
  
     This guide is for IT admins in education, including those who haven't yet deployed Teams. This guide will help you get started with: 
-    - Enabling Teams for your school
+    - Enabling Teams for students
     - Learning what kind of controls are available to manage Teams within your school
     - Finding partner services through references to external documentation 
 
