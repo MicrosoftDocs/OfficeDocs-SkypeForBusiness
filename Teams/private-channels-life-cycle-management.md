@@ -177,9 +177,9 @@ You may want to list out the owners and members of a private channel to decide w
 
 As an admin, you can use Microsoft Teams admin center, PowerShell, or Graph API to perform these actions.
 
-### Using Microsoft Teams admin center
+### Using the Microsoft Teams admin center
 
-To learn how to manage group members using the admin center, see [Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal).
+To learn how to manage team members using the Microsoft Teams admin center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
 
 ### Using PowerShell
 
