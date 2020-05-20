@@ -100,7 +100,7 @@
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
-### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
+### [Edit Teams user settings in bulk in the Microsoft Teams admin center](edit-user-settings-in-bulk.md)
 ### [Assign policies to your users](assign-policies.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
