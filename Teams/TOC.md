@@ -60,6 +60,7 @@
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
+### [Resource-specific consent](resource-specific-consent.md)
 ### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -128,6 +129,7 @@
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -136,8 +138,10 @@
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
+## [Get a meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams Rooms](rooms/index.md)
 ## [Manage the Whiteboard in Teams](manage-whiteboard.md)
@@ -211,6 +215,7 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Presenter and participant capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
@@ -244,7 +249,7 @@
 #### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 #### [Small business example - Set up an auto attendant](tutorial-org-aa.yml)
 #### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
+#### [Manage Teams resource accounts](manage-resource-accounts.md)
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -602,6 +607,7 @@
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Bookings app and virtual visits](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -626,7 +632,7 @@
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
-### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
+### [Teams EDU policies and policy packages](policy-packages-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
@@ -667,6 +673,7 @@
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Conduct an eDiscovery investigation of content](ediscovery-investigation.md)
@@ -751,6 +758,7 @@
 ## Interoperability with Microsoft 365 and Office 365
 
 ### [Microsoft 365 groups and Teams](office-365-groups.md)
+### [Create a Microsoft 365 resource account using the Microsoft 365 admin center](devices/resource-account-ui.md)
 ### [Enhance existing Microsoft 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
 #### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
@@ -760,17 +768,19 @@
 
 
 ## Supported devices
-### [Manage your devices in Teams](device-management.md)
-### [Phones for Teams](phones-for-teams.md)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage your devices in Teams](devices/device-management.md)
+### [Phones for Teams](devices/phones-for-teams.md)
+### [USB audio and video devices](devices/usb-devices.md)
+### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
+### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
