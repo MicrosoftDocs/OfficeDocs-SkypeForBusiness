@@ -32,7 +32,7 @@ According to HIPAA guidelines, healthcare providers are required to keep records
 
 ## Enable Audit logs for the Patients App
 
-An Audit is dependant on several prior configurations:
+An Audit is dependent on several prior configurations:
 
 1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md).
 2. A healthcare provider admin would have to enable the patients app in Teams Admin center. See [Manage app setup policies in Microsoft Teams](../../teams-app-setup-policies.md) and related articles for more information.
