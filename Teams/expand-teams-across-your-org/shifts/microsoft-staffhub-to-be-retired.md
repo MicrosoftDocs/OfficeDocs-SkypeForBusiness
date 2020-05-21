@@ -132,7 +132,7 @@ You won't have the same capability when you move from StaffHub to Teams. If you 
 
 #### Will team names be the same in Teams?
 
-It's possible the name of a team will be different. Team names in Teams use the Microsoft 365 or Office 365 Group name. If the StaffHub team name is different from the name of the corresponding Microsoft 365 or Office 365 Group, you'll see a different name when you switch over to Teams.
+It's possible the name of a team will be different. Team names in Teams use the Microsoft 365 Group name. If the StaffHub team name is different from the name of the corresponding Microsoft 365 Group, you'll see a different name when you switch over to Teams.
 
 #### What happens to team membership when a StaffHub team is moved to Teams?
 
@@ -142,7 +142,7 @@ We encourage you to review your existing team rosters on StaffHub and where poss
  
 #### What happens to StaffHub team members who aren't provisioned or whose status is inactive?
 
-The user's schedule will be moved to Shifts, however, the user won't be a member of the team or a Microsoft 365 or Office 365 Group.
+The user's schedule will be moved to Shifts, however, the user won't be a member of the team or a Microsoft 365 Group.
 
 For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Microsoft 365 or Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
 
@@ -154,7 +154,7 @@ We recommend that you ensure all users in your organization are covered with an 
 
 To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by December 31, 2019.
 
-Ensure that Microsoft 365 or Office 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
+Ensure that Microsoft 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
 
 #### What happens to files that have been uploaded to StaffHub?
 
@@ -170,7 +170,7 @@ Deleting a schedule is linked to deleting a team. If you recover a team, the sch
 
 #### What powers the file sharing capability in Teams? Where are files stored?
 
-The file sharing capability, the ability for a manager to distribute files to team members, is powered on the back end by SharePoint Online. When a team is created, a Microsoft 365 or Office 365 Group is automatically provisioned for that team in the background.
+The file sharing capability, the ability for a manager to distribute files to team members, is powered on the back end by SharePoint Online. When a team is created, a Microsoft 365 Group is automatically provisioned for that team in the background.
 
 To learn more, see [How SharePoint Online and OneDrive for Business interact with Teams](../../SharePoint-OneDrive-interact.md).
  

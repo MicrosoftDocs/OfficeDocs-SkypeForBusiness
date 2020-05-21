@@ -29,7 +29,7 @@ Users' Exchange mailboxes can be hosted online or on-premises. Integration with 
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots.
 
-Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture (if the Outlook on the web mailbox policy allows them to do so), and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or later, is running on-premises with OAuth configured (preferably via the Exchange Hybrid Configuration Wizard) as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable calendar delegation for these users, you must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.   
 
@@ -65,11 +65,11 @@ The following table provides a helpful quick reference to feature availability b
 
 ## Requirements to get the most out of Microsoft Teams
 
-Microsoft Teams works with several Microsoft 365 services to provide users with a rich experience. To support this experience, you need to enable certain features or services and assign licenses.
+Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with a rich experience. To support this experience, you need to enable certain features or services and assign licenses.
 
 - SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
-- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365.
+- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365 or Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365 or Office 365.
 
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 

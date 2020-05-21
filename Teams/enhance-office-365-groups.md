@@ -28,7 +28,7 @@ Microsoft Teams users can enhance an existing Microsoft 365 Group with Teams fun
 To do this, users should go through the flow of creating a new team from the Microsoft Teams client. Select **Create from** > **Microsoft 365 group**, and then choose the existing group that you want to enhance with Teams. Existing group members will be added as members to the team automatically.
 
 > [!IMPORTANT]
-> Only Microsoft 365 Group owners have permission to enhance an existing group  with Teams, and that group must contain less than 5,000 users. Teams that have already been enhanced will not show up in the list.
+> Only Microsoft 365 Group owners have permission to enhance an existing group with Teams, and that group must contain less than 5,000 users. Teams that have already been enhanced will not show up in the list.
 >
 >The option to create a team from a Microsoft 365 Group will not be available unless these conditions have been met.
 

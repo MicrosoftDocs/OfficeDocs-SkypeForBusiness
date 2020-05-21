@@ -23,7 +23,7 @@ An Audit log for Patients app activity allows after-incident response teams to r
 
 ## Meet HIPAA requirements
 
-According to HIPAA guidelines, healthcare providers are required to keep records of all access to PHI, so that it is possible for the changes to be audited. Microsoft is committed to its enterprise customers using Microsoft Teams, and to helping them meet HIPAA requirements and controls. Access to PHI via the Patients App is fully tracked and logs are made available in the Microsoft 365 Security and Compliance center, as described in the [Audit Log Search functionality](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article.
+According to HIPAA guidelines, healthcare providers are required to keep records of all access to PHI, so that it is possible for the changes to be audited. Microsoft is committed to its enterprise customers using Microsoft Teams, and to helping them meet HIPAA requirements and controls. Access to PHI via the Patients App is fully tracked and logs are made available in the Microsoft 365 Compliance center, as described in the [Audit Log Search functionality](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article.
 
 > [!IMPORTANT]
 > The burden of maintaining patient privacy is placed on the healthcare provider by law. The law entitles patients to privacy, and requires that an IT admin or HIPAA controller can easily determine which nurse, clinician, or social worker accessed or altered patient records. One of the most common examples of a PHI access violation is access to VIP patients. The audit log functionality is required to conduct investigations of any PHI access violation, and to meet HIPAA requirements.
