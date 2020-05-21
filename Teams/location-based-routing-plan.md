@@ -249,7 +249,7 @@ If the user has a conferencing license, the user must start a conference with th
 
 ### Media bypass requirement for Location-Based Routing
 
-If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
+If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
 ## Next steps
 
