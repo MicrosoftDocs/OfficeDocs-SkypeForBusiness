@@ -54,7 +54,7 @@ You will need to have the following applications and utilities installed to comp
 
   - [Install Windows PowerShell for single sign-on with AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Office 365, which can be obtained from the Downloads page linked to from the Microsoft 365 admin center.
+  - Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Microsoft 365, which can be obtained from the Downloads page linked to from the Microsoft 365 admin center.
 
 </div>
 
@@ -62,7 +62,7 @@ You will need to have the following applications and utilities installed to comp
 
 ## Administrator Credentials
 
-When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 organization. You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.
+When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Microsoft 365 or Office 365 organization. You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.
 
 </div>
 

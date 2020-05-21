@@ -59,7 +59,7 @@ To get started using auto attendants, it's important to remember that:
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 
    > [!TIP]
-   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 

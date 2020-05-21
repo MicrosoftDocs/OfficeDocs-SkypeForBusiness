@@ -27,7 +27,7 @@ Microsoft Teams guest access checklist
 Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 
 > [!IMPORTANT]
-> You may have to wait a couple of hours for your changes to take effect. 
+> You may have to wait a few hours for your changes to take effect. 
 
 Watch this short video (5:31 minutes) to see how to turn on guest access throughout Microsoft 365, including Teams.
 
@@ -35,7 +35,7 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 ## Step 1: Turn on guest access at the Teams org-wide level
 
-To turn on guest access, go to the **Microsoft Teams admin center**. 
+To turn on guest access, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.

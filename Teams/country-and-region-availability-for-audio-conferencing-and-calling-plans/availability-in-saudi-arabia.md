@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Saudi Arabia."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Saudi Arabia."
 ---
 
 # Availability in Saudi Arabia
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Saudi Arabia.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Saudi Arabia.
   
 ## Audio Conferencing
 
@@ -66,7 +66,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> | Not applicable  <br/> |
 |Are toll numbers available?  <br/> |No  <br/> |
-|Are toll-free numbers available?  <br/> |No  <br/> |
+|Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

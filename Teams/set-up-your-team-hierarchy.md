@@ -52,7 +52,7 @@ The CSV file must contain the following three columns, in the following order, s
 ----------------|----------|---------------|
 | TargetName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
 | ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the TargetName field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
-| TeamID        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
+| TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 ### Add attribute columns
 
@@ -85,14 +85,14 @@ When you add a bucket column, note the following:
 
 Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the following:
 
-- Three required columns named `TargetName`, `ParentName`, and `TeamID`
+- Three required columns named `TargetName`, `ParentName`, and `TeamId`
 - Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
 - Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`
 
 The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above. They're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
 
-| TargetName             | ParentName                      | TeamID                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
+| TargetName             | ParentName                      | TeamId                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
 | Recall                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | Communications         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
@@ -111,9 +111,9 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 ## Apply your hierarchy
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
 
-After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be an admin to perform this step. 
+After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to perform this step.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -122,7 +122,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## Remove your hierarchy
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
+> To perform this step, you must install and use the latest version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md).
 
 If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete. 
 
@@ -131,60 +131,6 @@ To remove your hierarchy, run the following command. You must be an admin to per
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### Teams Powershell module
-
-#### Install the latest Teams PowerShell module from the PowerShell Test Gallery
-
-The latest publicly available version of the Teams PowerShell module (currently [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) doesn't support managing the team hierarchy. Use these steps to install the latest version of the Teams PowerShell module, with team hierarchy support, from the PowerShell Test Gallery.
-
-> [!NOTE]
-> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Close all existing PowerShell sessions.
-5. Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery
-
-If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## Troubleshooting
 
@@ -195,3 +141,4 @@ Take note of the error message as it should include troubleshooting information 
 ## Related topics
 
 - [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)

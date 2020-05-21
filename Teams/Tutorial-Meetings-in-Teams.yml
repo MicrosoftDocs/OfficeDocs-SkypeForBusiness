@@ -146,8 +146,7 @@ items:
     phone, requires an additional license. This will be addressed in a dedicated
     training on Audio Conferencing.
 
-    For more information, see [Office 365 licensing for Microsoft
-    Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).
+    For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
     ### Bandwidth and media flow
     In Teams, there are two ways to initiate real-time communication:
@@ -187,6 +186,18 @@ items:
     Meeting organizers can end a meeting for all participants by clicking **End meeting** from within the meeting. This is helpful in scenarios such as the following:
     -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
     -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.  
+
+    To learn more, see [End a Teams meeting for everyone in attendance](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971).
+
+    ### Change participant settings for a meeting
+
+    Meeting organizers can change the default participant settings for a specific meeting in **Meeting options**. There are three ways to get there:
+    -   Go to the Calendar in Teams,  select a meeting, and then select **Meeting options**. 
+    -   In a meeting invitation, select **Meeting options**.
+    -   Select **Show participants** to open the **People** pane, and then select **Manage Permissions**. 
+
+    To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+
 
 - title: Meeting configuration options
   durationInMinutes: 20
