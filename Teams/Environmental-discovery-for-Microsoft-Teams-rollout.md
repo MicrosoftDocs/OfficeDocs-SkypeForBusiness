@@ -78,7 +78,7 @@ Use the following table to capture information about the Microsoft 365 or Office
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | Note the production Microsoft 365<br/>or Office 365 organization name and ID<br/> in the Answer column. <br/><br/>If you have more than one tenant<br/>associated with your organization,<br/>note all the IDs. | Tenant Name: <br/>Tenant ID:| |
+> | Note the production Microsoft 365<br/>or Office 365 organization name and ID<br/>in the Answer column. If you have more<br/>than one tenant associated with<br/>your organization, note all the IDs. | Tenant Name: <br/>Tenant ID:| |
 > | In what regions are the tenants deployed?| | |
 > | Note the type of these Microsoft 365 or
 Office 365 tenants.<br/><br/>Are they Multitenant or Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
