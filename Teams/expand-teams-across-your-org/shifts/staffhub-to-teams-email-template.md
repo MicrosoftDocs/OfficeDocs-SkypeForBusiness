@@ -38,7 +38,7 @@ The Shifts app in Teams is replacing StaffHub as your schedule management tool a
 
 We hope having these tools within Teams will make your workday easier and enable you to connect with your team and the rest of the organization effortlessly.
 
-**Next steps**
+## Next steps
 
 You don’t need to take any action now. The IT department will move all your scheduling data from StaffHub to the Shifts app in Teams, and on &lt;date&gt;, you'll start using Teams instead of StaffHub to access your shift schedules.  
 
