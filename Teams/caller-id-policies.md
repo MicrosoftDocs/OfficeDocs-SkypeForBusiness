@@ -62,17 +62,21 @@ You can edit the global policy or any custom policies that you create.
 
 ## Assign a custom caller ID policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to users in a group, such as a security group or distribution group.
 
-### Assign a custom caller line ID policy to a user
+### Assign a custom caller line ID policy to users
+
+To assign a custom caller line ID policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
 3. Under **Caller ID policy**, select the policy you want to assign, and then choose **Save**.
 
-### Assign a custom calling line ID policy to multiple users at a time
+To assign a policy to multiple users at a time:
 
-To assign a custom calling line Id policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -108,4 +112,4 @@ Depending on the number of members in the group, this command may take several m
  ## Related topics
 
 - [New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [Assign policies to your users in Teams](assign-policies.md)

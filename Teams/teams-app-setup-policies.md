@@ -92,11 +92,17 @@ You can use the Microsoft Teams admin center to assign a custom policy to indivi
 
 ### Assign a custom app setup policy to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
+To assign a custom app setup policy to one user:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Under **App setup policy**, select the app setup policy you want to assign, and then click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
