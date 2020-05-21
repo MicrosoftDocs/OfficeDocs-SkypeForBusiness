@@ -64,7 +64,7 @@ The following information is about configuring Cloud Voicemail to work with user
     
 3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
-4. To configure Skype for Business server users for Cloud Voicemail please see [Plan Cloud Voicemail service for on-premises users](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-cloud-voicemail)
+4. To configure Skype for Business server users for Cloud Voicemail please see [Plan Cloud Voicemail service for on-premises users](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
 
 
 > [!NOTE]
