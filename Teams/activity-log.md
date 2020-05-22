@@ -27,7 +27,7 @@ When you assign policies to users in the Microsoft Teams admin center, you can v
 
 ## View your policy assignment activities in the Activity log
 
-To view your policy assignment in the Activity log:
+To view your policy assignments in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
 2. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
