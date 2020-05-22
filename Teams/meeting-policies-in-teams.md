@@ -74,7 +74,7 @@ To assign a policy to multiple users at a time:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
 2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  .
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 

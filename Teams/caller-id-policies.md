@@ -66,7 +66,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to one or
 
 ### Assign a custom caller line ID policy to users
 
-To assign a custom caller line ID policy to one user:
+To assign a policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.

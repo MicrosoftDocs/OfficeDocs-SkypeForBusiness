@@ -73,7 +73,7 @@ See [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershel
 
 ### Using the Microsoft Teams admin center
 
-To assign a custom emergency call routing policy to one user:
+To assign a policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
