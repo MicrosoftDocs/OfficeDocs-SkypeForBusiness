@@ -177,13 +177,27 @@ Meetings organized by Daniela can't be recorded and Amanda, who has the policy s
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
-### IP audio
+### IP audio mode
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether a user can hear incoming and outgoing audio in a meeting. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
-### IP video
+|Setting value |Behavior  |
+|---------|---------|
+|**Enable outgoing and incoming audio**    | This is the default setting. |
+|**Disabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
-This is a combination of a per-organizer and per-user policy. This setting determines whether a user can view incoming and outgoing video. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer. 
+### IP video mode
+
+This is a combination of a per-organizer and per-user policy. This setting controls whether a user can view incoming and outgoing video. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
+
+This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user and whether the user can view videos shared by other meeting participants. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled, and also allows the user to view videos shared by other meeting participants.
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Enable outgoing and incoming video**    | This is the default setting. |
+|**Disabled**     |      |
+
+The most restrictive policy takes precedence. For example, if **Allow IP video** is turned off and **IP video mode** is set to **Enable outgoing and incoming video**, the **Allow IP video** setting takes precedence. This means that meetings organized by a user who has this policy don't allow video sharing in the meeting by meeting participants.
 
 ### Allow IP video
 
