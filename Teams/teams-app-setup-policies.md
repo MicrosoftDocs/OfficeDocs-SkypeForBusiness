@@ -88,7 +88,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to users in a group, such as a security group or distribution group.
 
 ### Assign a custom app setup policy to users
 
