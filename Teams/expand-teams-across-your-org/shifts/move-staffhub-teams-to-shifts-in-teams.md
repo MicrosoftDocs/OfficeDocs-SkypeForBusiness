@@ -51,7 +51,7 @@ Effective June 30, 2020, StaffHub will be retired. We encourage you to start usi
 
 When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
-Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team is associated with an Office 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have an Office 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
+Every StaffHub team needs a corresponding Microsoft 365 or Office 365 Group. If a StaffHub team is associated with a Microsoft 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have a Microsoft 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
 
 As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
@@ -359,7 +359,7 @@ This can occur if the group that's associated with the StaffHub team doesn't hav
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 
-This may occur if you're trying to move files in a private Office 365 group that you're not a member of. If this is the case, use the [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet to add yourself to the StaffHub team, and then move the files. After you move the files, use the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet to remove yourself from the team. 
+This may occur if you're trying to move files in a private Microsoft 365 group that you're not a member of. If this is the case, use the [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet to add yourself to the StaffHub team, and then move the files. After you move the files, use the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet to remove yourself from the team. 
 
 **When you try to move files from StaffHub to Teams, you get an error that says the General folder doesn't exist.**
 
