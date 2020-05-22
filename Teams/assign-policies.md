@@ -124,7 +124,7 @@ To assign a policy to users in bulk:
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
 2. Search for the users you want to assign the policy to or filter the view to show the users you want.
 3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-4. Click **Edit settings**, assign the policies that you want, and then click **Apply**.
+4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
 
 To view the status of your policy assignment, in the banner that appears at the top of the **Users** page, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments for batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
 
