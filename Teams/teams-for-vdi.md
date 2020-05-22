@@ -232,7 +232,7 @@ You can set policies by using the Microsoft Teams admin center or PowerShell. It
 
 #### Assign policies using the Microsoft Teams admin center
 
-To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
+To assign the DisallowCalling calling policy and the AllOff meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -288,7 +288,7 @@ You can use the Microsoft Teams admin center or PowerShell to set and assign cal
 
 #### Assign policies using the Microsoft Teams admin center
 
-To assign the AllowCalling calling policy and the AllOn meeting policy to a user, follow these steps:
+To assign the AllowCalling calling policy and the AllOn meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
