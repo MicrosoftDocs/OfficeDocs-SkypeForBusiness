@@ -179,11 +179,11 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 ### IP audio
 
-This is a per-user policy. This setting controls whether a user can hear incoming and outgoing audio in a meeting. 
+This is a combination of a per-organizer and per-user policy. This setting controls whether a user can hear incoming and outgoing audio in a meeting. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
 ### IP video
 
-This is a per-user policy. This setting determines whether a user can view incoming and outgoing video. 
+This is a combination of a per-organizer and per-user policy. This setting determines whether a user can view incoming and outgoing video. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer. 
 
 ### Allow IP video
 
