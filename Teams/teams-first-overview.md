@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: Use this guidance to roll out Microsoft Teams as your first Office 365 workload.
+description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto: 
   - Microsoft Teams
@@ -19,20 +19,20 @@ appliesto:
 
 # Roll out Microsoft Teams First
 
-Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you are a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Office 365 suite before deploying any other Office app or service.
+Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you are a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Microsoft 365 or Office 365 suite before deploying any other Office app or service.
 
 This article details the considerations you must make with the "Teams First" approach.
 
 > [!IMPORTANT]
 > While Teams can be your organization's first cloud deployed workload, deploying Teams should be part of your overall cloud deployment strategy.
 
-If you have already rolled out other Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out  Teams](How-to-roll-out-teams.md).
+If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out  Teams](How-to-roll-out-teams.md).
 
 ## Start here
 
 To get started with your Teams First deployment you will need to meet at minimum some pre-requisites. The following list will show what you must have in place for your organization before Teams can be enabled:
 
-1.  An Office 365 organization configured with your domain name
+1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
 2.  Azure Active Directory connectivity (AAD connect) or similar cloud identity sync solution – with all required attributes synched with your tenant  
     To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -43,7 +43,7 @@ To get started with your Teams First deployment you will need to meet at minimum
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Office 365: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.
@@ -53,7 +53,7 @@ To get started with your Teams First deployment you will need to meet at minimum
 
 ## Migration Starting points
 
-Your journey to Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the pre-requisites above. We have broken down the starting point scenarios to the following topics:
+Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the pre-requisites above. We have broken down the starting point scenarios to the following topics:
 
 **Tenant Teams Configuration**: Tenant and user modes are used to control the recipient's behavior. These settings can be assigned on the tenant level or the user level in an organization. To learn more, read [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
 
@@ -83,7 +83,7 @@ Read [How Exchange and Microsoft Teams interact](exchange-teams-interact.md) to 
 
 ## Organizations **<span class="underline">without</span>** Skype for Business or Lync server
 
-This starting point assumes that your organization does not utilize Skype for Business or Lync server currently and Teams will be your first application in Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
+This starting point assumes that your organization does not utilize Skype for Business or Lync server currently and Teams will be your first application in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
 <table>
 <thead>
@@ -99,9 +99,9 @@ This starting point assumes that your organization does not utilize Skype for Bu
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td><p>Internal (intra Office 365 organization) and external chat communication possible from Teams</p>
-<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises or in Office 365 to allow federation with Lync and Skype for Business environments.<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records for Office 365</a></em></p></td>
+<td><p>Internal (intra Microsoft 365 or Office 365 organization) and external chat communication possible from Teams</p>
+<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises, or in Microsoft 365 or Office 365, to allow federation with Lync and Skype for Business environments.<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>Create and view Meetings in Teams</em></td>
@@ -159,11 +159,11 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     
     [Microsoft Teams adoption quick start checklist](teams-adoption-quick-start-checklist.md)
 
-6.  Begin planning moving other workloads to Office 365
+6.  Begin planning moving other workloads to Microsoft 365 or Office 365
 
 ## Organizations **<span class="underline">with</span>** Skype for Business or Lync server
 
-This starting point assumes that your organization utilizes Skype for Business 2019 or 2015+ or Lync 2013+ server on premises. We already have extensive guidance for organizations migrating from on premises servers to Teams and it should be followed for these scenarios. This guidance is specific to the scenario that Teams is the first application you utilize in Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
+This starting point assumes that your organization utilizes Skype for Business 2019 or 2015+ or Lync 2013+ server on premises. We already have extensive guidance for organizations migrating from on premises servers to Teams and it should be followed for these scenarios. This guidance is specific to the scenario that Teams is the first application you utilize in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
 <table>
 <thead>
@@ -242,7 +242,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     
     [Microsoft Teams adoption quick start checklist](teams-adoption-quick-start-checklist.md)
 
-6.  Begin planning moving other workloads to Office 365
+6.  Begin planning moving other workloads to Microsoft 365 or Office 365
 
 7.  Establish Skype for Business hybrid and follow the recommended upgrade paths for Skype for Business and Lync servers  
     [Upgrade from Skype for Business on-premises to Teams](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -273,7 +273,7 @@ Additionally, as companies around the world are managing the current COVID-19 si
 
 ## Support Services reference
 
-Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
+Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Microsoft 365 or Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
 
 For specifics on each of the services listed above, please follow the links below:
 
@@ -295,4 +295,4 @@ For specifics on each of the services listed above, please follow the links belo
 
 [Support remote workers using Teams](support-remote-work-with-teams.md)
 
-[Work remotely with Office 365](https://aka.ms/remote-work)
+[Work remotely with Microsoft 365](https://aka.ms/remote-work)

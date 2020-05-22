@@ -23,7 +23,7 @@ appliesto:
 Authorize guest access in Microsoft Teams
 ===========================================
 
-To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Office 365 organization. Each authorization level controls the guest experience as shown below:
+To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Microsoft 365 or Office 365 organization. Each authorization level controls the guest experience as shown below:
 
 - **Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform. This authorization level controls the guest experience at the directory, tenant, and application level.
 - **Microsoft Teams**: Controls the guest experience in Microsoft Teams only.
@@ -33,9 +33,9 @@ To satisfy your organization’s requirements, you can manage Microsoft Teams gu
 These different authorization levels provide you with flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in your Microsoft Teams but want to allow it overall in your organization, just turn off guest access in Microsoft Teams. Another example: You could enable guest access at the Azure AD, Teams, and Groups levels, but then disable the addition of guest users on selected teams that match one or more criteria such as data classification equals confidential. SharePoint Online and OneDrive for Business have their own guest access settings that don't rely on Microsoft 365 Groups.
 
 > [!NOTE]
-> Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits. 
+> Guests are subject to  [Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits. 
 
-The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Office 365.
+The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Microsoft 365 or Office 365.
 
 ![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
 
@@ -105,7 +105,7 @@ See [Guest access in Microsoft 365 Groups](https://support.office.com/article/Gu
 
 Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.  
 
-For the full Teams guest access experience, Office 365 admins need to configure the following settings:
+For the full Teams guest access experience, Microsoft 365 or Office 365 admins need to configure the following settings:
 
 - In SharePoint Online: Select **Existing guests**, **New and existing guests**, or **Anyone**.
 
