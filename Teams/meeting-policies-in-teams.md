@@ -432,3 +432,4 @@ To prevent a meeting organizer from downloading the report, set the parameter to
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

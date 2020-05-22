@@ -131,3 +131,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 - [Manage emergency call routing policies in Teams](manage-emergency-call-routing-policies.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

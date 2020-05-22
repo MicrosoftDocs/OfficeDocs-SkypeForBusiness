@@ -136,3 +136,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 - [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

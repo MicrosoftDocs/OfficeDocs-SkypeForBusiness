@@ -2,7 +2,7 @@
   "redirections": [ 
 
     {
-      "source_path": "Teams/edit-user-settings-in-bulk", 
+      "source_path": "Teams/edit-user-settings-in-bulk.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-policies", 
       "redirect_document_id": true
       },    

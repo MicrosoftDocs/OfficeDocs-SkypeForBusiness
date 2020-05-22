@@ -93,3 +93,4 @@ See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/mod
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Configure voice routing for Direct Routing](direct-routing-voice-routing.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+- [Assign policies to your users in Teams](assign-policies.md)

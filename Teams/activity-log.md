@@ -13,8 +13,6 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.bulkoperations.users.edit
-  - ms.teamsadmincenter.bulkoperations.edit
 ms.collection: 
   - M365-collaboration
 appliesto: 

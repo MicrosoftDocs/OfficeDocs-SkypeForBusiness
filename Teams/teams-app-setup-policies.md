@@ -198,3 +198,4 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
  ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
+- [Assign policies to your users in Teams](assign-policies.md)
