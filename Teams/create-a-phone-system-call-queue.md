@@ -193,6 +193,8 @@ Call agents selected must be one of the following:
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 - **Longest idle** routes the next available call to the call agent who has been idle the longest time.
+    > [!IMPORTANT]
+    > Agents who use the Skype for Business client won't receive calls when **Longest idle** is enabled. If you have agents who use Skype or Business, don't enable longest idle.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
