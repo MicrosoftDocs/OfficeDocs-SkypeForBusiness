@@ -101,6 +101,7 @@
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Assign policies to your users](assign-policies.md)
+### [View your policy assignments in the Activity log](activity-log.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
