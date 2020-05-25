@@ -190,7 +190,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
     > [!NOTE]
     > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
-After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
+You need to assign a license to Microsoft Teams Rooms device before completing the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online. 
 
 ### Assign a license to your account
 
