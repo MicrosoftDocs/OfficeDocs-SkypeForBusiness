@@ -14,6 +14,8 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 
 <sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
 
+<sup>3</sup> Incoming video feeds are limited to the single active speaker's stream when you run Teams in a browser. The video grid is only available in the Teams desktop client.
+
 > [!NOTE]
 > As long as an operating system can run the supported browser, Teams is supported on desktop computers. For example, running Firefox on the Linux operating system is an option for using Teams.
 >
