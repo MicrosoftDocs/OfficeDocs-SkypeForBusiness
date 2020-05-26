@@ -63,7 +63,7 @@ To get started using call queues, it's important to remember a few things:
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
-> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to people in your organization who are Online, they must have a Phone System license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
@@ -178,11 +178,11 @@ Call agents selected must be one of the following:
 - On-premises Skype for Business Server users
 
   > [!NOTE]
-  > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a **Phone System** license and Enterprise Voice enabled *or* have a Calling Plan. For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a Phone System license and Enterprise Voice enabled *or* have a Calling Plan. For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
  To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
+- Users with a Phone System license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
@@ -251,11 +251,13 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
+  - **Person in organization** An Online user with a Phone System license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-  - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+  - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+
+  - **External phone number** Enter an external PSTN phone number.
 
 * * *
 
@@ -269,11 +271,13 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
+  - **Person in your company** An Online user with a Phone System license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
+
+  - **External phone number** Enter an external PSTN phone number.
 
 ## Change Caller ID for outbound calls
 
