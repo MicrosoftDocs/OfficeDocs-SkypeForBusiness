@@ -102,7 +102,7 @@ You can assign the *Reports reader* role to non-IT staff who you want to have ac
 
 ### At-a-glance activity widget
 
-The Reports dashboard includes the usage data from Teams in the at-a-glance activity widget, which gives you a cross-product view of how users communicate and collaborate using the other various services in Office 365.
+The Reports dashboard includes the usage data from Teams in the at-a-glance activity widget, which gives you a cross-product view of how users communicate and collaborate using the other various services in Microsoft 365 or Office 365.
 
 ![Screen shot of the Teams at-a-glance activity widget.](media/at-a-glance-activity-widget.png)
 
