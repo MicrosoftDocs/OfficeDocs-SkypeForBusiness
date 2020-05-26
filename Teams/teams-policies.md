@@ -60,13 +60,19 @@ You can edit the global policy or any custom policies that you create.
 
 You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to groups of users, such as a security group or distribution group.
 
-### Assign a custom teams policy to a user
+### Assign a custom teams policy to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
+To assign a policy to one user:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
 3. Under **Teams policies**, select the policy you want to assign, and then click **Save**.
 
-To assign a custom teams policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -103,3 +109,4 @@ Depending on the number of members in the group, this command may take several m
 
 - [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 - [Private channels in Teams](private-channels.md)
+- [Assign policies to your users in Teams](assign-policies.md)
