@@ -1,7 +1,7 @@
 Teams fully supports the following Internet browsers, with noted exceptions for calling and meetings. This table applies to operating systems running on desktop computers. 
 
 
-|Browser  |Calling - audio, video, and sharing  |Meetings - audio, video, and sharing<sup>1</sup> <sup>2</sup>  |
+|Browser  |Calling - audio, video, and sharing  |Meetings - audio, video, and sharing<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |Not supported         |Meetings are supported only if the meeting includes PSTN coordinates. To attend a meeting on IE11 without PSTN coordinates, users must download the Teams desktop client.<br><br>Video: Not supported<br><br>Sharing: Incoming sharing only (no outgoing)     |
 |Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
@@ -13,6 +13,8 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 <sup>1</sup> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix. To learn more, read [Allow a participant to give or request control](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control).
 
 <sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
+
+<sup>3</sup> Teams Meetings on browsers are limited to a single incoming video feed of active speaker.
 
 > [!NOTE]
 > As long as an operating system can run the supported browser, Teams is supported on desktop computers. For example, running Firefox on the Linux operating system is an option for using Teams.
