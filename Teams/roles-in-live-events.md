@@ -31,7 +31,6 @@ The available meeting features are:
 - Recording
 - Files
 - Schedule a meeting (for meetings only)
-- Share
 
 This article describes those participant capabilities and what access they have to live event features.
 
@@ -65,7 +64,6 @@ The in-tenant participant belongs to the organization and has credentials for th
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
 | Files | Yes | Yes | Yes |
-| Share |  |  |  |
 |||||||
 
 
@@ -81,7 +79,6 @@ A guest participant is someone from another organization who has been invited to
 | Whiteboard | No | No | No |
 | Recording | N/A | No | No |
 | Files | No | No | No |
-| Share |  |  |  |
 |||||||
 
 
@@ -97,7 +94,6 @@ An external participant is someone using Teams in another organization who has b
 | Whiteboard | No| No | No |
 | Recording | N/A | No | No |
 | Files | Yes | Yes | Yes |
-| Share |  |  |  |
 |||||||
 
 ### Anonymous participant
@@ -112,7 +108,6 @@ The anonymous participant is like an external user, but their identity is not pr
 | Whiteboard | N/A | No | N/A |
 | Recording | N/A | No | N/A |
 | Files | N/A | No | N/A |
-| Share |  |  |  |
 |||||||
 
 
