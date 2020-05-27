@@ -1,5 +1,5 @@
 ---
-title: Install Microsoft Teams using MSI via Microsoft Endpoint Configuration Manager
+title: Install Teams using Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,13 +7,14 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
+description: Use Microsoft Endpoint Configuration Manager to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -39,7 +40,7 @@ These are the links to the MSI files:
 > [!NOTE]
 > Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
 
-Teams can also be included with a deployment of Office 365 ProPlus. For more information, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
+Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
 > To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
@@ -76,9 +77,13 @@ For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams 
 
 If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
-1. Uninstall the Teams app installed for every user profile.
-2. After uninstall, delete the directory recursively under `%localappdata%\Microsoft\Teams\`.
-3. Redeploy the MSI package to that particular computer.
+> [!IMPORTANT]
+> The next steps contain information about how to modify the registry. Make sure that you back up the registry before you modify it and that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Windows registry information for advanced users](https://support.microsoft.com/help/256986).
+
+1. Uninstall the Teams app installed for every user profile. For more information, see [Uninstall Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Delete the directory recursively under `%localappdata%\Microsoft\Teams\`.
+3. Delete the `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` registry value.
+4. Redeploy the MSI package to that particular computer.
 
 ## Prevent Teams from starting automatically after installation
 

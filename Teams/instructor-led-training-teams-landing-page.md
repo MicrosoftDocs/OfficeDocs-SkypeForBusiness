@@ -1,10 +1,10 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Instructor-led training and videos for Microsoft Teams users
+title: Instructor-led training and videos for users
 ms.reviewer: dearbeen
 manager: serdars
-description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -12,10 +12,14 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+search.appverid: MET150
+ms.custom: 
+ - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ---
 
 <div id="main" class="v2">
@@ -90,6 +94,26 @@ ms.collection:
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/teamschannels"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Explore teams and channels in Teams</h3>
+                        <p>Learn how you can streamline your project and workgroup collaboration.</p>
+                        <p><i>Audience: End users</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -150,46 +174,6 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Upgrade planning workshops</h3>
-                        <p>Plan and implement a successful upgrade to Teams</p>
-                        <p><i>Audience: IT professionals, adoption change managers</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Empower your Firstline Workers with Teams</h3>
-                        <p>Learn how Teams enables digital transformation that brings limitless potential to your entire workforce.</p>
-                        <p><i>Audience: Business decision makers, IT decision makers</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://aka.ms/TeamsAtHome"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -209,8 +193,29 @@ ms.collection:
         </div>
         </a>
     </li>  
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Upgrade planning workshops</h3>
+                        <p>Plan and implement a successful upgrade to Teams</p>
+                        <p><i>Audience: IT professionals, adoption change managers</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
         </ul>
         </li>
     </ul>
     </div>
 </div> 
+ 

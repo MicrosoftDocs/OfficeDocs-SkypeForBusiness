@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Training
+title: Microsoft Teams admin training
 ms.reviewer: 
 description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
@@ -13,13 +13,14 @@ localization_priority: Priority
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
 ---
-# Microsoft Teams Training
+# Microsoft Teams admin training
 
 
 
@@ -63,7 +64,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

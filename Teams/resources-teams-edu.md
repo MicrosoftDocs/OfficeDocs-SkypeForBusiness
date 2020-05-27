@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: Lists Teams resources that are helpful to Teams for Education admins.
+description: Education admins can learn about the resources available in Microsoft Teams to enable remote learning.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,10 +17,15 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Microsoft Teams resources for Education admins
 ==============================================
+
+## Resources for remote learning
+
+Does your school or university need to enable Microsoft Teams for remote learning? Get up and running quickly with the [Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any of the below adoption materials!
 
 ## Adoption content
 

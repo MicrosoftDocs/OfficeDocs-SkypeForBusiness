@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
@@ -30,11 +31,16 @@ Microsoft has been significantly expanding capacity in key regions with the rece
 > [!NOTE]
 > If you're already set up with M365, and want to know more about the actions Microsoft is taking, please go to the Message Center and review the **MC205458** message center post.
 
-Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+
 
 ### With the actions that Microsoft is taking, do we anticipate problems?
 
 Although Microsoft is doing what we can to avoid problems, an unexpected peak in an area due to a spread of the virus may create temporary issues. While we're actively monitoring and adding capacity as needed, you might feel impact until we're able to add capacity in those areas. Also, there are external situations that Microsoft doesn't have control over. We foresee ISPs and telephony carriers are also taking proactive action, but they may or may not have the capacity to handle more load with more people working from home. We are working across industry with a focus on networking infrastructure. If you have an outage concern, check the Message Center to learn about any current outages.
+
+### What can admins do if attendees are having trouble joining meetings by dialing in, such as if calls aren't getting through?
+
+During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you'll likely experience better audio quality. 
 
 ### What are the general Microsoft guidelines regarding network optimization for Microsoft 365? Some of my users in China are having a bad experience; what should I do to optimize our network?
 
@@ -79,7 +85,7 @@ If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-
 
 ### How do I get help to get started with Teams and make sure the deployment is successful?
 
-Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). FastTrack setup guidance for Microsoft 365 is available to all Office 365 tenant administrators. To access this guidance, sign into [https://aka.ms/setupguidance](https://aka.ms/setupguidance) with your admin credentials.
+Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). FastTrack setup guidance for Microsoft 365 is available to all Office 365 organization administrators. To access this guidance, sign into [https://aka.ms/setupguidance](https://aka.ms/setupguidance) with your admin credentials.
 
 If you want to get started on your own, read [How to roll out Teams](How-to-roll-out-teams.md) and check out our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as few as 30 days.
 

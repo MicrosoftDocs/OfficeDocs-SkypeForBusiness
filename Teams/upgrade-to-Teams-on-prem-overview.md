@@ -216,7 +216,7 @@ When assigning TeamsOnly mode at the tenant level, meeting migration is not trig
 - If you would like display notifications in the Skype for Business client for on-premises users, you must use TeamsUpgradePolicy in the on-premises toolset. Only the NotifySfbUsers parameter is relevant for on-premises users.  On-premises users receive their mode from the online instances of TeamsUpgradePolicy. See the notes in [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants without the ability for admins to downgrade. Organizations with Skype for Business Server on-premises that previously never had an Office 365 subscription prior to Sept 3, 2019 will need to contact Microsoft Support to have their tenant downgraded, once they acquire a subscription with Office 365. 
+> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants unless the organization already has an on-premises deployment of Skype for Business Server. Microsoft uses DNS records to identify on-premises Skype for Business Server organizations. If your organization has on-premises Skype for Business Server with no public DNS entries, you will need to call Microsoft Support to have your new tenant downgraded. 
 
 
 ## Perform the upgrade for your organization
@@ -282,7 +282,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 1. Find users who are active in Teams as follows:
 
-   1. From the Office 365 Admin Portal, in the left-hand navigation, go to Reports, and then Usage. 
+   1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage. 
    2. In the “Select a report” dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams. 
    3. Click Export, open Excel, and filter to show only the users who are active in Teams.
 

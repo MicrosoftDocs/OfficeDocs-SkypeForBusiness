@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure Microsoft Phone System Direct Routing."
+description: Learn how to configure Microsoft Phone System Direct Routing to connect your on-premises telephony infrastructure to Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure Direct Routing
@@ -35,6 +36,7 @@ Before performing the steps in these articles, Microsoft recommends that you con
 - [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Metaswitch deployment documentation](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 For a complete list of supported SBCs, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
@@ -48,7 +50,7 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
 
-## See also
+## Related topics
 
 [Phone System Direct Routing](direct-routing-landing-page.md)
 

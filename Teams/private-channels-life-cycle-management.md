@@ -25,7 +25,7 @@ description: Learn how to manage the life cycle of private channels in your orga
 Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.
 
 > [!IMPORTANT]
-> If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest version of the Teams PowerShell module from the PowerShell Test Gallery. For steps on how to do this, see [Install the latest Teams PowerShell module from the PowerShell Test Gallery](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels.
+> If you're using the PowerShell steps in this article to manage private channels, you must install and use the latest pre-release version of the Teams PowerShell module from the [PowerShell Test Gallery](https://www.poshtestgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md). The latest publicly available version of the Teams PowerShell module doesn't support managing private channels.
 
 ## Set whether team members can create private channels
 
@@ -63,7 +63,7 @@ As an admin, you can use PowerShell or Graph API to create a private channel on 
 ### Using PowerShell
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### Using Graph API
@@ -90,7 +90,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## Find SharePoint URLs for all private channels in a team
 
-Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a line-of-business app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.
+Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a custom app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.
 
 As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
@@ -101,7 +101,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -175,7 +175,11 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
 You may want to list out the owners and members of a private channel to decide whether you need to promote certain members of the private channel to an owner. This can happen when you have owners of private channels who have left the organization and the private channel requires admin help to claim ownership of the channel.
 
-As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
+As an admin, you can use the Microsoft Teams admin center, PowerShell, or Graph API to perform these actions.
+
+### Using the Microsoft Teams admin center
+
+To learn how to manage team members using the Microsoft Teams admin center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
 
 ### Using PowerShell
 
@@ -231,7 +235,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
           ]
     }
     ```    
-2. 	Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
+2. Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
@@ -260,60 +264,6 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
       "userId": "userId-value",
       "email": "email-value"
      }
-    ```
-
-## Teams Powershell module
-
-### Install the latest Teams PowerShell module from the PowerShell Test Gallery
-
-The latest publicly available version of the Teams PowerShell module (currently [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.
-
-> [!NOTE]
-> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Close all existing PowerShell sessions.
-5. Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### Update to the latest version of the Teams PowerShell module from the PowerShell Test Gallery
-
-If you already installed the Teams PowerShell module from the PowerShell Test Gallery, use the following steps to update to the latest version.
-
-1. Close all existing PowerShell sessions.
-2. Start a new instance of the Windows PowerShell module.
-3. Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
     ```
 
 ## Related topics

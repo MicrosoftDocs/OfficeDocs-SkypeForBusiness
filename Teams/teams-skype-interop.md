@@ -73,7 +73,7 @@ In the Microsoft Teams admin center, go to **Org-wide settings** > **External ac
 
 ### Using PowerShell
 
-Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users.
+Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. Note that the ```EnablePublicCloudAudioVideoAccess``` parameter can be used to enable/disable audio/video calls.
 
 ## Related topics
 

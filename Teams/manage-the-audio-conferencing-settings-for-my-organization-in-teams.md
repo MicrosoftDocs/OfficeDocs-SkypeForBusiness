@@ -1,5 +1,5 @@
 ---
-title: "Manage the Audio Conferencing settings for your organization in Microsoft Teams"
+title: "Manage Audio Conferencing settings"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,6 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
 ---
 
@@ -33,7 +34,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
+> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
   
  **To assign a license for a user**
   

@@ -1,5 +1,5 @@
 ---
-title: Configure an Exchange hybrid organization for use with Microsoft Teams
+title: Configure an Exchange hybrid organization
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
+description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams to ensure Group memberships are synchronized.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,9 +17,10 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams
 ======================================================================
 
-Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams. However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online. This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Office 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389).
+Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams. However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online. This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Microsoft 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389).

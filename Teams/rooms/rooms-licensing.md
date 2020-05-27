@@ -20,14 +20,15 @@ f1.keywords:
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about features available in Microsoft Teams Rooms. "
+  - seo-marvel-apr2020
+description: Learn about the available licenses for different types of calling and meeting features in Microsoft Teams Rooms. 
 ---
 
 # Teams Meeting Room Licensing Update
 
 ## Licensing Solutions for Shared Communication Devices
 
-Microsoft has a dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
+Microsoft has a dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
 
 ||Meeting Room SKU |  
 |:--- |:---: |

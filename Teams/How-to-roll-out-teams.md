@@ -7,16 +7,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Find the right path to rolling out Microsoft Teams in your organization.
+description: Whether your are rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization sucessfully.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---

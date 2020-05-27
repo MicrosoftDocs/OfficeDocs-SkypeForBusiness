@@ -13,7 +13,8 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: 
   - M365-collaboration
-description: "Management overview for Microsoft Teams Rooms."
+description: Learn about how to develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage Microsoft Teams Rooms

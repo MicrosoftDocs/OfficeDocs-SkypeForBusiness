@@ -1,5 +1,5 @@
 ---
-title: Quick start guide - Configuring Calling Plans in Microsoft Teams
+title: Quick start guide - Configuring Calling Plans
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -11,13 +11,14 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Quick start guide for configuring calling plans in Microsoft Teams.
+description: Quick start guide for configuring calling plans in Microsoft Teams so you can get a set of users up and running.
 localization_priority: Normal
 ms.collection: 
   - M365-voice
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams

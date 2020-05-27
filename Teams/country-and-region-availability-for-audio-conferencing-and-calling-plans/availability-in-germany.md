@@ -24,21 +24,21 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Germany."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Germany."
 ---
 
 # Availability in Germany
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Germany.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Germany.
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Frankfurt</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Munich</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -63,7 +63,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Frankfurt  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul> <li>Frankfurt  <li> Munich </ul> <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
