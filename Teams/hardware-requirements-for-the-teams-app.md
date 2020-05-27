@@ -1,6 +1,6 @@
 ---
 title: Hardware requirements for Microsoft Teams
-ms.reviewer: microthk
+ms.reviewer: microthk, sthurlow
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
