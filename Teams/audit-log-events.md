@@ -138,6 +138,39 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
 
+## Shifts in Teams activities
+
+If your organization is using the Shifts app in Teams, you can search the audit log for activities related to the Shifts app. Here's a list of all events that are logged for Shifts activities in Teams in the Microsoft 365 audit log.
+
+|Friendly name  |Operation  |Description  |
+|---------|---------|---------|
+|Added scheduling group      |SchedulingGroupAdded          |A user successfully adds a new scheduling group to the schedule.          |
+|Edited scheduling group     |SchedulingGroupEdited         |A user successfully adds a new scheduling group to the schedule.          |
+|Deleted scheduling group         |SchedulingGroupDeleted              |A user successfully deletes a scheduling group from the schedule.|
+|Added shift      |ShiftAdded          |A user successfully adds a shift.           |
+|Edited shift       |ShiftEdited       |A user successfully edits a shift.        |
+|Deleted shift          |ShiftDeleted          | A user successfully deletes a shift.               |
+|Added time off      |TimeOffAdded          |A user successfully adds time off on the schedule.          |
+|Edited time off         |TimeOffEdited           |A user successfully edits time off.          |
+|Deleted time off     |TimeOffDeleted              |A user successfully deletes time off.           |
+|Added open shift     |OpenShiftAdded          |A user successfully adds an open shift to a scheduling group.          |
+|Edited open shift    |OpenShiftEdited          |A user successfully edits an open shift in a scheduling group.          |
+|Deleted open shift      |OpenShiftDeleted          |A user successfully deletes an open shift from a scheduling group.         |
+|Shared schedule     |ScheduleShared                  |A user successfully shared a team schedule for a date range.          |
+|Added shift request         |RequestAdded              |A user added a shift request.          |
+|Responded to shift request     |RequestRespondedTo                  |A user responded to a shift request.          |
+|Canceled shift request         |RequestCanceled               |A user canceled a shift request.          |
+|Changed schedule setting      |ScheduleSettingChanged          |A user changes a setting in Shifts settings.         |
+|Added workforce integration      |WorkforceIntegrationAdded                  | The Shifts app is integrated with a third-party system.         |
+|Accepted off shift message         |OffShiftDialogAccepted          |A user acknowledges the off-shift message to access Teams after shift hours.           |
+|Clocked in using Time clock         |ClockedIn          |A user successfully clocks in using Time clock.          |
+|Clocked out using Time clock      |ClockedOut          |A user successfully clocks out using Time clock.          |
+|Started break using Time clock      |BreakStarted          |A user successfully starts a break during an active Time clock session.          |
+|Ended break using Time clock    |BreakEnded          |A user successfully ends a break during an active Time clock session.          |
+|Added Time clock entry     |TimeClockEntryAdded          |A user successfully adds a new manual Time clock entry on Time Sheet.          |
+|Edited Time clock entry     | TimeClockEntryEdited             |A user successfully edits a Time clock entry on Time Sheet.          |
+|Deleted Time clock entry    |TimeClockEntryDeleted              |A user successfully deletes a Time clock entry on Time Sheet.          |
+
 ## Office 365 Management Activity API
 
 You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
