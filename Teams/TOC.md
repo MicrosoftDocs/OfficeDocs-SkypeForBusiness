@@ -314,6 +314,7 @@
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
 #### [Set up the Ringback bot](direct-routing-ringback-bot.md)
+#### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 
 ## Phone numbers
@@ -439,7 +440,6 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
-### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
