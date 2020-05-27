@@ -73,7 +73,7 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 | Manufacturer    | Model                   | Qualified  | Certified Program                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra             |Speak 750 SpeakerPhone with Jabra Link 370 USB Dongle|5/21/2020/| Certified for Microsoft Teams  | 
+|Jabra             |Speak 750 SpeakerPhone with Jabra Link 370 USB Dongle|5/21/2020 | Certified for Microsoft Teams  | 
 |EPOS              | Sennheiser Adapt 660 headset |5/15/2020 |Certified for Microsoft Teams  | 
 |EPOS              | Sennheiser Adapt 560 Headset|5/15/2020 |Certified for Microsoft Teams  | 
 |EPOS              | Sennheiser Adapt 460T headset |5/15/2020 |Certified for Microsoft Teams  | 
