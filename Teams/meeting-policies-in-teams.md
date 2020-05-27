@@ -225,7 +225,7 @@ If Daniela calls Amanda with video on, Amanda can answer the call with audio onl
 
 Let's look at the following scenarios:
 
-|Policy |Disabled audio/video |Only incoming video and audio |No video, audio-only calls |Audio/Video calls|
+|Policy setting |Audio/video disabled in meeting |Only incoming video and audio in meeting |No video, audio-only calls |Audio/video calls|
 |---------|---------|---------|---------|---------|
 |Mode for IP audio |Disabled |Enable outgoing and incoming audio |Enable outgoing and incoming audio|Enable outgoing and incoming audio |
 |Mode for IP video    |Disabled        |Enable outgoing and incoming video         |Disabled|Enable outgoing and incoming video  |
