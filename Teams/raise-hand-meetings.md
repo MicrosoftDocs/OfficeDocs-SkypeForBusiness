@@ -22,19 +22,19 @@ description: Learn about the raise hand feature in Microsoft Teams meetings.
 
 # Raise hands in Teams meetings
 
-During a Microsoft Teams meeting, a user might have a question. To get the speaker's and moderator's attention, a user can use the raise hand option to ask a question. A meeting moderator might want to take a quick poll, and the raised hand can be used to count the meeting participants' responses. 
+During a Microsoft Teams meeting, a participant might have a question. To get the speaker's and moderator's attention, a participant can use the raise hand option to ask a question. A meeting moderator might want to take a quick poll, and the raised hand can be used to count the meeting participants' responses. 
 
 This feature is important for the following reasons:
 
-- Users can signal that they want to talk without disrupting the meeting. 
+- Participants can signal that they want to talk without disrupting the meeting. 
 
 - The moderator or speaker can see if anyone in the meeting wants to talk.  
 
-- Make meetings more inclusive. It is difficult to get a word in when others are having a conversation and often exhausting to try. The raised hand also encourages participation from remote participants. 
+- Raise hand makes meetings more inclusive by encouraging participation from remote participants. 
 
-- Presenters in meetings want a mechanism to take questions in a structured manner.  
+- Presenters in meetings need a mechanism to take questions in a structured manner.  
 
-A Teams admin doesn't have to create a policy for the feature to appear in a meeting. It's available by default and is currently supported for web and mobile meetings.
+A Teams admin doesn't have to create a policy for the feature to appear in a meeting. Raise hand is available by default and is currently supported for web and mobile meetings.
  
 ## Raise hand display
 
@@ -50,7 +50,7 @@ Raise hands are visible to all meeting participants and indicated by a hand icon
 
 ## Raise hand settings 
 
-Users and presenters can take advantage of several raise hand settings: 
+Participants and presenters can take advantage of several raise hand settings: 
 
 |Item  |Presenter |Organizer | Participant|
 |---------|---------|---------|-----|
