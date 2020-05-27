@@ -125,6 +125,8 @@ Microsoft Teams currently includes the following policy packages:
 |**Education_PrimaryStudent**| Primary school aged students  | Younger, primary school aged students within your institution may need more limits within Microsoft Teams. Use this set of policies and policy settings to limit capabilities like meetings creation and management,  chat management, and private calling. |
 |**Education_SecondaryStudent**| Secondary school aged students | Secondary school aged students within your institution may need more limits within Microsoft Teams. Use this set of policies and policy settings to limit capabilities like meetings creation and management,  chat management, and private calling. |
 |**Education_HigherEducationStudent**| Higher education students | Higher education students within your intuition may need fewer limits than younger students, but some limitations may be recommended. You can use this set of policies and policy settings to give access to chat, calling, and meetings within your  organization, but limit how your students use Microsoft Teams with external participants. |
+|**Education_PrimaryTeacher_RemoteLearning**| Educators and staff | Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning. |
+|**Education_PrimaryStudent_RemoteLearning**| Primary school aged students| Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.
 |||
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="Policy packages page with list of policy packages to choose from.":::
@@ -264,8 +266,14 @@ These settings will allow educators to control access to their meetings.
 - **Let anonymous people start a meeting**: **Off**
 - **Automatically admit people**: **Everyone in your organization**
 - **Allow dial-in users to bypass the lobby**: **Off**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### Message policies
+<sup>1</sup> This setting isn't in the Microsoft Teams admin center, so you'll need to use PowerShell to set the **DesignatedPresenterRoleMode** parameter using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) or [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet. This sets the default value of the **Who can present?** setting in **Meeting options** in Teams to **Only me**. With this setting, only the meeting organizer can be a presenter and all other meeting participants are designated as attendees. To learn more, see [Meeting policy settings - Designated presenter role mode](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> For staff who aren't educators, you may want to set the parameter to **EveryoneUserOverride** (which corresponds to the **Everyone** setting in Teams) or **EveryoneInCompanyUserOverride** (which corresponds to the **People in my organization** setting in Teams.)
+
+### Messaging policies
 
 Setting **Owners can delete sent messages** to **On** will allow educators to monitor chat sessions and remove inappropriate messages in channel meetings.
 

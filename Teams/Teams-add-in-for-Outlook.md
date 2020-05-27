@@ -27,7 +27,7 @@ The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The a
 
 ## Teams Meeting add-in in Outlook for Windows
 
-The Teams Meeting add-in is **automatically installed** for users who have Microsoft Teams and either Office 2010, Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, or Office 2019 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
@@ -39,7 +39,7 @@ The Teams Meeting add-in is **automatically installed** for users who have Micro
 
 ## Teams Meeting add-in in Outlook for Mac
 
-The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running production build 16.24.414.0 and later and is activated with an Office 365 client subscription.​
+The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running production build 16.24.414.0 and later and is activated with a Microsoft 365 or Office 365 client subscription.​
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
@@ -60,12 +60,12 @@ The Teams Meeting button shows up in latest builds of the Outlook iOS and Androi
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
 ## Teams Meeting add-in in and FindTime for Outlook
-FindTime is an add-in for Outlook that helps users reach a consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
+FindTime is an add-in for Outlook that helps users reach consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
 
 > [!NOTE]  
 > If you saved a Skype for Business setting in your [Findtime dashboard](https://findtime.microsoft.com/UserDashboard), FindTime will use that instead of Microsoft Teams. If you want to use Microsoft Teams, delete the Skype for Business setting in your dashboard.
 
-See [Schedule meetings with FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) for more information.
+For more information, see [Schedule meetings with FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 
 ## Authentication requirements
 
@@ -123,7 +123,8 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
 - Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
-- Make sure the user has permission to execute regsvr32.exe.  For more information review https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- Ensure the user has Outlook 2013 or later installed.
+- Make sure the user has permission to execute regsvr32.exe.
 - Ensure that all available updates for Outlook desktop client have been applied.
 - Follow these steps:
   - Restart the Teams desktop client.
