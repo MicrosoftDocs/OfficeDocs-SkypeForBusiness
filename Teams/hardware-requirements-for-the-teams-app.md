@@ -1,6 +1,6 @@
 ---
 title: Hardware requirements for Microsoft Teams
-ms.reviewer: 
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -81,6 +81,7 @@ You can use Teams on these mobile platforms:
 - iOS: Compatible with iPhone, iPad, and iPod touch.
 
   Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
+  The optional **Blur my background** video effect on iOS requires an operating system of iOS 12 or later and is compatible with the following devices: iPhone 7 or later, iPad 2018 (6th generation) or later, and the iPod touch 2019 (7th generation).
 
 For the best experience with Teams, use the latest version of iOS and Android.
 
