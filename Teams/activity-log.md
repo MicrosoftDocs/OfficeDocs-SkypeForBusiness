@@ -12,6 +12,7 @@ description: Learn how to view your policy assignment activities in the Activity
 localization_priority: Normal
 f1.keywords:
 - CSH
+- ms.teamsadmincenter.dashboard.activitylog.overview
 ms.custom: 
 ms.collection: 
   - M365-collaboration
