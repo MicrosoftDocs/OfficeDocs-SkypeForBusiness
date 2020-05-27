@@ -22,7 +22,7 @@ appliesto:
 # StaffHub to Teams sample email to users
 
 > [!IMPORTANT]
-> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md). 
+> Effective June 30, 2020, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on June 30, 2020. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md). 
 
 To help ensure your move from StaffHub to Teams is successful, we've created an email template that you can use to communicate the change to users in your organization. Use this as part of your onboarding strategy to let your users know about Shifts and the transition to Teams and to help drive adoption across your organization.
 
@@ -38,7 +38,7 @@ The Shifts app in Teams is replacing StaffHub as your schedule management tool a
 
 We hope having these tools within Teams will make your workday easier and enable you to connect with your team and the rest of the organization effortlessly.
 
-**Next steps**
+## Next steps
 
 You don’t need to take any action now. The IT department will move all your scheduling data from StaffHub to the Shifts app in Teams, and on &lt;date&gt;, you'll start using Teams instead of StaffHub to access your shift schedules.  
 
