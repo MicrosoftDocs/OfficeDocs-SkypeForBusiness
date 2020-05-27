@@ -63,3 +63,6 @@ Participants and presenters can take advantage of several raise hand settings:
 <sup>1</sup> Raise hand remains raised until it is lowered by participant, presenter, or organizer.
 
 <sup>2</sup> A participant is notified by audio if the raise hand was lowered for them.
+
+## Related article
+[Raise your hand in a Teams meeting](https://support.office.com/en-us/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)
