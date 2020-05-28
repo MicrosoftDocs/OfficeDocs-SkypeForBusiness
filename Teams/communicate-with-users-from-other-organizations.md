@@ -1,5 +1,5 @@
 ---
-title: Call & chat with external users - Microsoft Teams
+title: Call and chat with users from other organizations - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
