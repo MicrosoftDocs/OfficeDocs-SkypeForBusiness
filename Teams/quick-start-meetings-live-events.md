@@ -1,7 +1,7 @@
 ---
-title: Licensing for Teams meetings and live events - Microsoft Teams
+title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
-description: Learn the license requirements for online meetings and live events in Microsoft Teams and when an audio conferencing add-on license is necessary.
+description: Learn the licensing requirements for online meetings and live events in Microsoft Teams and when an audio conferencing add-on license is necessary.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -32,7 +32,7 @@ There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this
 
 Anyone can attend a Teams meeting or live event for free - no license is required. Attendees join a Teams meeting or live event by clicking the **Join** button in Teams or the meeting invitation. Meeting audio is part of a Teams meeting, but if you want people to be able to dial in to a meeting by phone, you'll need to provide a dial-in number. 
 
-For the people who will organize, schedule, and host online meetings, video conferencing, or live events, they'll need one of the Microsoft 365 or Office 365 licenses listed in the table below. If you're already using Teams, you probably have the license you need for organizing and hosting online meetings and live events.
+For the people who will organize, schedule, and host meetings, video conferencing, or live events, they'll need one of the Microsoft 365 or Office 365 licenses listed in the table below. If you're already using Teams, you probably have the license you need for organizing and hosting meetings and live events.
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
 
@@ -47,7 +47,7 @@ To learn more about licensing, read [Microsoft Teams service description](https:
 
 If you already prepared your network when you rolled out Microsoft 365 or Office 365, you're probably all set. In any case - and especially if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers** - read [Prepare your organization's network for Teams](prepare-network.md) to be sure you're ready.
 
-## Online meetings and video conferencing
+## Meetings and conferencing
 
 - As the admin, you'll configure [meeting settings](meeting-settings-in-teams.md) for everyone. Then you'll use [meeting policies](meeting-policies-in-teams.md) to control what online meeting features are (and aren't) available for your users. 
 
