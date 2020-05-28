@@ -87,7 +87,7 @@ For more details on call control support with Teams, please read [control calls 
 |Sennheiser|TeamsConnect Ceiling 2|09/19/2019|Skype for Business|
 |Plantronics|Savi 8240 Office|08/22/2019|Skype for Business|
 |Plantronics|Savi 8240 UC|08/22/2019|Skype for Business|
-|Jabra|PanaCast|08/14/2019|Skype for Business|
+|Jabra|PanaCast|08/14/2019|Microsoft Teams|
 |Plantronics|Savi 8220 UC|07/26/2019|Skype for Business|
 |Plantronics|Savi 8210 UC|07/26/2019|Skype for Business|
 |Sennheiser|SP 30|07/25/2019|Skype for Business|
