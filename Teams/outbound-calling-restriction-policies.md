@@ -64,7 +64,7 @@ To find out which countries/regions are considered Zone A, see [Zone A countries
 
 3.    Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-    ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
+        ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
 
