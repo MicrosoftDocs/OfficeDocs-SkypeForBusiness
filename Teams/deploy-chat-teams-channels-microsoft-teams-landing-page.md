@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in the Microsoft Teams app.
+description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -24,22 +24,22 @@ appliesto:
 
 # Chat, teams, channels, & apps in Microsoft Teams
 
-The Teams app provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default Teams settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs. 
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default Teams settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs. 
 
 To get started, watch our short Teams chat, teams, and channels video (4:30 minutes): 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *New in November 2019*
- - You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out the Teams app.
+ - You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
  - [Microsoft Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT), including short (8-10 minute) videos that show you how to roll out, configure, and manage Teams.
 
 > [!TIP]
 > We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
-## Prerequisites to enabling chat in Teams
+## Prerequisites to rolling out chat in Teams
 
-Before you roll out the Teams app across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -116,7 +116,7 @@ Teams settings let you set up your teams for features such as email integration,
 
 ### Teams clients
 
-The Teams app supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
+Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -147,7 +147,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-The Teams app is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -216,7 +216,7 @@ Your organization might require that you implement controls on how teams are arc
 
 ### Conditional access 
 
-The Teams app relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
+Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | Ask yourself | Action |
 |--------------|--------|
