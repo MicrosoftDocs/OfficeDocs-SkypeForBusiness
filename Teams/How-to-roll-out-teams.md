@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Whether your are rolling out all at once or starting in phases, plot a course for a Microsoft Teams deployment in your organization.
+description: Whether your are rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
@@ -26,10 +26,10 @@ appliesto:
 
 # How to roll out Microsoft Teams
 
-## Start here with Teams deployment
+## Start here
 Whether you're a small business or a multi-national, the place to start for rolling out Teams is [Get started](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business, or if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers**. If you're a larger organization, use [Get started](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide Teams deployment. 
 
-## Recommended path to Teams deployment
+## Recommended path to Teams
 
 
 We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don't have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
@@ -39,7 +39,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 - [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-[Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams implementation, be sure to take advantage of these resources to help drive Teams adoption.
+[Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, be sure to take advantage of these resources to help drive Teams adoption.
 
 ![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
 
