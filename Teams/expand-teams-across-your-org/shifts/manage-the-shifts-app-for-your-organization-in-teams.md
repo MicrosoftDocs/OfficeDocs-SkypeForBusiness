@@ -115,7 +115,7 @@ Depending on the number of members in the group, this command may take several m
 
 ## Search the audit log for Shifts events
 
-You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of Shifts activities that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
+You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a [list of Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
