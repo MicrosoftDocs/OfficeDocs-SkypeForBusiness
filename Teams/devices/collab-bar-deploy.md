@@ -57,7 +57,7 @@ Before you deploy your collaboration bars, you need to decide if they'll use Mic
 
 If you decide to set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
 
-If you need to receive or make calls to or from an external telephone number, you'll also need a Microsoft 365 Phone System or Microsoft 365 Business Voice license.
+If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
@@ -82,7 +82,7 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning
 
-If you plan on using Microsoft 365 resource accounts to let users book collaboration bars, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each collaboration bar that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Phone System or Business Voice license.
+If you plan on using Microsoft 365 resource accounts to let users book collaboration bars, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each collaboration bar that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Calling Plan or Business Voice license if your organization is not using Direct Routing.
 
 If you want to assign collaboration bars to individual users for their private use, you don't need to set up any additional accounts. Users can sign into collaboration bars using their personal accounts.
 

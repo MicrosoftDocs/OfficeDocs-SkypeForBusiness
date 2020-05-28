@@ -69,10 +69,16 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 ## Certified devices
 
-*Updated April 2020*
+*Table Updated May 2020*
 
 | Manufacturer    | Model                   | Qualified  | Certified Program                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |Speak 750 SpeakerPhone with Jabra Link 370 USB Dongle|5/21/2020 | Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser Adapt 660 headset |5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser Adapt 560 Headset|5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser Adapt 460T headset |5/15/2020 |Certified for Microsoft Teams  | 
+|EPOS              | Sennheiser Adapt 360 headset| 5/15/2020 |Certified for Microsoft Teams  | 
+|Yealink           |UH36 headset | 5/13/2020 |Certified for Microsoft Teams  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Savi 8210 UC            | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Savi 8220 Office        | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
