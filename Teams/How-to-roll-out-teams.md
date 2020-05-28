@@ -26,7 +26,7 @@ appliesto:
 # How to roll out Microsoft Teams
 
 ## Start here
-Whether you're a small business or a multi-national, the place to start for rolling out Teams is [Get started](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business, or if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers**. If you're a larger organization, use [Get started](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
+Whether you're a small business or a multi-national, the place to start for rolling out Teams is [Get started](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams deployment, which may be all you need if you're a small business, or if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers**. If you're a larger organization, use [Get started](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
 
 ## Recommended path to Teams
 
