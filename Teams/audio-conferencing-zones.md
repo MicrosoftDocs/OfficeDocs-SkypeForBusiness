@@ -1,5 +1,5 @@
 ---
-title: "Complimentary dial-out period"
+title: Country and region zones for Audio Conferencing
 ms.author: v-lanach
 author: lanachin
 manager: serdars
@@ -13,22 +13,20 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
-  - Legal
   - seo-marvel-mar2020
-description: Learn about the complimentary dial out period for Office 365 Calling Plan and Office 365 Audio Conferencing in Microsoft Teams.
+description: Lists the zones for Audio Conferencing and the country and regions in each zone. 
 ---
 
-# Audio Conferencing complimentary dial-out period
+# Country and region zones for Audio Conferencing
 
-See [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md).
+This article lists the country and region zones for Audio Conferencing.
 
-**Zone A countries and regions**
+## Zone A countries and regions
 
 |    |
 |-----|
@@ -76,8 +74,11 @@ See [Audio Conferencing complimentary dial-out period](complimentary-dial-out-pe
 |Thailand  <br/> |
 |United Kingdom  <br/> |
 |United States  <br/> |
-     
+
 ## Related topics
 
 - [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- 
+- [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md)
+- [Audio Conferencing subscription "Dial-Out"/"Call Me At" minutes benefit](audio-conferencing-subscription-dial-out.md)
+- [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](outbound-calling-restriction-policies.md)
+- [What are Communications Credits?](what-are-communications-credits.md)

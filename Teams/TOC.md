@@ -200,6 +200,7 @@
 ### [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ### Reference
+#### [Country and region zones for Audio Conferencing](audio-conferencing-zones.md)
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
