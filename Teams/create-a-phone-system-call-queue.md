@@ -189,11 +189,14 @@ Call agents selected must be one of the following:
 ![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
 **Conference mode** Conference mode significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. If you have more than one call queue, you can enable conference mode on some or all of your call queues; enabling or disabling conference mode on one call queue doesn't impact any other call queues.
 
-Conference mode is disabled by default but can be enabled at any time if all of the following requirements are met:
+Conference mode is disabled by default but can be enabled at any time if the following requirements are met:
 
-- Agents added to the call queue need to have the latest version of the Microsoft Teams desktop client installed
-- Agents' clients need to be set to Teams-only mode or Island mode
-- Agents need to be assigned to a call queue with conference mode enabled
+- Agents added to the call queue need to use one of the following clients:
+  - The latest version of the Microsoft Teams desktop client
+  - Microsoft Teams Android app version xxxx or later
+  - Microsoft Teams iOS app version yyyy or later
+  - Microsoft Teams-certified IP phone version zzzz or later
+- Agents' Teams accounts need to be set to Teams-only mode
 
 > [!IMPORTANT]
 > If the agent requirements above aren't met and conference mode is enabled on a call queue, agents who don't meet the requirements aren't included in the call routing list. Agents who aren't in the call routing list won't receive calls. If you have agents who don't meet the agent requirements above, don't enable conference mode on the call queue.
