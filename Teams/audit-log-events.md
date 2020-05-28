@@ -157,12 +157,6 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 |Edited open shift    |OpenShiftEdited          |A user successfully edits an open shift in a scheduling group.          |
 |Deleted open shift      |OpenShiftDeleted          |A user successfully deletes an open shift from a scheduling group.         |
 |Shared schedule     |ScheduleShared                  |A user successfully shared a team schedule for a date range.          |
-|Added shift request         |RequestAdded              |A user added a shift request.          |
-|Responded to shift request     |RequestRespondedTo                  |A user responded to a shift request.          |
-|Canceled shift request         |RequestCanceled               |A user canceled a shift request.          |
-|Changed schedule setting      |ScheduleSettingChanged          |A user changes a setting in Shifts settings.         |
-|Added workforce integration      |WorkforceIntegrationAdded                  | The Shifts app is integrated with a third-party system.         |
-|Accepted off shift message         |OffShiftDialogAccepted          |A user acknowledges the off-shift message to access Teams after shift hours.           |
 |Clocked in using Time clock         |ClockedIn          |A user successfully clocks in using Time clock.          |
 |Clocked out using Time clock      |ClockedOut          |A user successfully clocks out using Time clock.          |
 |Started break using Time clock      |BreakStarted          |A user successfully starts a break during an active Time clock session.          |
@@ -170,6 +164,12 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 |Added Time clock entry     |TimeClockEntryAdded          |A user successfully adds a new manual Time clock entry on Time Sheet.          |
 |Edited Time clock entry     | TimeClockEntryEdited             |A user successfully edits a Time clock entry on Time Sheet.          |
 |Deleted Time clock entry    |TimeClockEntryDeleted              |A user successfully deletes a Time clock entry on Time Sheet.          |
+|Added shift request         |RequestAdded              |A user added a shift request.          |
+|Responded to shift request     |RequestRespondedTo                  |A user responded to a shift request.          |
+|Canceled shift request         |RequestCanceled               |A user canceled a shift request.          |
+|Changed schedule setting      |ScheduleSettingChanged          |A user changes a setting in Shifts settings.         |
+|Added workforce integration      |WorkforceIntegrationAdded                  | The Shifts app is integrated with a third-party system.         |
+|Accepted off shift message         |OffShiftDialogAccepted          |A user acknowledges the off-shift message to access Teams after shift hours.           |
 
 ## Office 365 Management Activity API
 
