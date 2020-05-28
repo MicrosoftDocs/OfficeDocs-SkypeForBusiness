@@ -113,7 +113,7 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
-## Search the audit log for Shifts events
+## Search the audit log for Shifts events (in preview)
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a [list of Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
