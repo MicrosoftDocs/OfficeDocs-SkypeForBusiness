@@ -195,7 +195,7 @@ Conference mode is disabled by default but can be enabled at any time if the fol
   - The latest version of the Microsoft Teams desktop client
   - Microsoft Teams Android app version xxxx or later
   - Microsoft Teams iOS app version yyyy or later
-  - Microsoft Teams-certified IP phone version zzzz or later
+  - Microsoft Teams phone version zzzz or later
 - Agents' Teams accounts need to be set to Teams-only mode
 
 > [!IMPORTANT]
