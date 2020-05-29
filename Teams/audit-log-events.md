@@ -29,7 +29,7 @@ The audit log can help you investigate specific activities across Microsoft 365 
 - Added channel
 - Changed setting
 
-For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities (in preview)](#shifts-in-teams-activities-in-preview).
+For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities (in preview)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Audit events from private channels are also logged as they are for teams and standard channels.
@@ -152,7 +152,9 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Upgraded Teams device |           |     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
 
-## Shifts in Teams activities (in preview)
+## Shifts in Teams activities
+
+**(in preview)**
 
 If your organization is using the Shifts app in Teams, you can search the audit log for activities related to the Shifts app. Here's a list of all events that are logged for Shifts activities in Teams in the Microsoft 365 audit log.
 
