@@ -77,7 +77,7 @@ A top-level auto attendant or call queue will require a phone number be linked t
 
 2. Obtain a Phone System Virtual User license or a regular Phone System license.
 
-   To get the Virtual User license, starting from the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**. There is a zero cost, but you still need to follow these steps to acquire the license.
+   To get the Virtual User license, in the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**. There is a zero cost, but you still need to follow these steps to acquire the license.
 3. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell).
 4. Assign a Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or Phone System License to the resource account. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 5. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
@@ -107,9 +107,13 @@ After you've bought a Phone System license, in the left navigation of the Micros
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/teamscallout1.png)
 
-To create a new resource account, click **Add**. In the **Add resource account** pane, fill out the **Display name**, **Username** (the domain name should populate automatically), and **Resource account type** for the resource account. The resource account type can be either **Auto attendant** or **Call queue** depending on the app you intend to associate to the resource account. When you're ready,  click **Save**.
+To create a new resource account, click **Add**. In the **Add resource account** pane, fill out **Display name**, **Username** (the domain name should populate automatically), and **Resource account type** for the resource account. The resource account type can be either **Auto attendant** or **Call queue**, depending on the app you intend to associate to the resource account. When you're ready, click **Save**.
 
 ![Screenshot of the New resource account options](media/res-acct.png)
+
+If you see a banner at the top of the pane that says the resource account can't be loaded, you have to unblock sign in for the resource account in the Microsoft 365 admin center. To do this, in the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account. At the top of the pane, click **Unblock this user?**, and then in the **Unblock this user?** pane, clear the **Block this user from signing in** check box.
+
+![Screenshot of the Unblock this user option](media/res-acct-unblock.png)
 
 Next, apply a license to the resource account in the Microsoft 365 admin center, as described in [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
@@ -195,9 +199,9 @@ The application ID's that you need to use while creating the application instanc
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-## Manage Resource account settings in Microsoft Teams admin center
+## Manage resource account settings in the Microsoft Teams admin center
 
-To manage resource account settings in Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change these settings:
+To manage resource account settings in Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change these settings:
 
 - **Display name** for the account
 - Call queue or auto attendant that uses the account
