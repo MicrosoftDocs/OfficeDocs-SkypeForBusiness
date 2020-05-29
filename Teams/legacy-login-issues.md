@@ -4,7 +4,7 @@ ms.reviewer:
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 05/29/2020
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
@@ -33,7 +33,7 @@ Users might have issues receiving messages or calls if they are using older vers
   0x00000001 (1)
 
 > [!NOTE]
-> Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
+> Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off.
 
 See [Sign in to Microsoft Teams using modern authentication](sign-in-teams.md) for more information.
 
