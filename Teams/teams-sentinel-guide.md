@@ -178,7 +178,7 @@ O365API_CL
 ```
  Save the parser as a KQL function, with an alias of TeamsData. It will be used for the queries to follow. Details on configuring and using a KQL function as a parser can be found in this [Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-### Helfpul hunting KQL queries
+## Helfpul hunting KQL queries
 
 Use these queries to familiarize yourself with your Teams data and Teams environment. Knowing how the environment should look and behave is a good first step in recognizing suspicious activity. From there, you can branch out into threat hunting.
 
@@ -219,13 +219,219 @@ TeamsData
 | where Members contains "Role" and Members contains "1"
 ```
 
+#### External users from unknown or new organizations
 
+In Teams, you can add external users to your environment or channels. Organizations often have a limited number of key partnerships and add users from among these partners. This KQL looks at external users added to teams who come from organizations that haven't been seen or added before.
 
+```kusto
+// If you have more than 14 days worth of Teams data change this value 
+let data_date = 14d; 
+// If you want to look at users further back than the last day change this value 
+let lookback_data = 1d; 
+let known_orgs = ( 
+TeamsData  
+| where TimeGenerated > ago(data_date) 
+| where Operation =~ "MemberAdded" or Operation =~ "TeamsSessionStarted" 
+// Extract the correct UPN and parse our external organization domain 
+| extend UPN = iif(Operation == "MemberAdded", tostring(parse_json(Members)[0].UPN), UserId) 
+| extend Organization = tostring(split(split(UPN, "_")[1], "#")[0]) 
+| where isnotempty(Organization) 
+| summarize by Organization); 
+TeamsData  
+| where TimeGenerated > ago(lookback_data) 
+| where Operation =~ "MemberAdded" 
+| extend UPN = tostring(parse_json(Members)[0].UPN) 
+| extend Organization = tostring(split(split(UPN, "_")[1], "#")[0]) 
+| where isnotempty(Organization) 
+| where Organization !in (known_orgs) 
+// Uncomment the following line to map query entities is you plan to use this as a detection query 
+//| extend timestamp = TimeGenerated, AccountCustomEntity = UPN 
+```
 
+#### External users who were added and then removed
 
-<!--*Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.*-->
+Attackers with some level of existing access may add a new external account to Teams to access and exfiltrate data. They may also quickly remove that user to hide that they made access. This query hunts for external accounts that are added to Teams and swiftly removed to help identify suspicious behavior.
 
-## More information
+```kusto
+// If you want to look at user added further than 7 days ago adjust this value 
+let time_ago = 7d; 
+// If you want to change the timeframe of how quickly accounts need to be added and removed change this value 
+let time_delta = 1h; 
+TeamsData  
+| where TimeGenerated > ago(time_ago) 
+| where Operation =~ "MemberAdded" 
+| extend UPN = tostring(parse_json(Members)[0].UPN) 
+| project TimeAdded=TimeGenerated, Operation, UPN, UserWhoAdded = UserId, TeamName, TeamGuid = tostring(Details.TeamGuid) 
+| join ( 
+TeamsData  
+| where TimeGenerated > ago(time_ago) 
+| where Operation =~ "MemberRemoved" 
+| extend UPN = tostring(parse_json(Members)[0].UPN) 
+| project TimeDeleted=TimeGenerated, Operation, UPN, UserWhoDeleted = UserId, TeamName, TeamGuid = tostring(Details.TeamGuid)) on UPN, TeamGuid 
+| where TimeDeleted < (TimeAdded + time_delta) 
+| project TimeAdded, TimeDeleted, UPN, UserWhoAdded, UserWhoDeleted, TeamName, TeamGuid 
+// Uncomment the following line to map query entities is you plan to use this as a detection query 
+//| extend timestamp = TimeAdded, AccountCustomEntity = UPN 
+```
+
+#### New bot or application added
+
+Teams has the ability to include apps or bots in a Team to extend the feature set. This includes custom apps and bots. In some cases, an app or bot could be used to establish persistence in Teams without needing a user account, as well as access files and other data. This query hunts for apps or bots that are new to Teams.
+
+```kusto
+// If you have more than 14 days worth of Teams data change this value 
+let data_date = 14d; 
+let historical_bots = ( 
+TeamsData 
+| where TimeGenerated > ago(data_date) 
+| where isnotempty(AddOnName) 
+| project AddOnName); 
+TeamsData 
+| where TimeGenerated > ago(1d) 
+// Look for add-ins we have never seen before 
+| where AddOnName in (historical_bots) 
+// Uncomment the following line to map query entities is you plan to use this as a detection query 
+//| extend timestamp = TimeGenerated, AccountCustomEntity = UserId 
+```
+
+#### User accounts who are Owners of large numbers of Teams
+
+Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse Teams, when, usually, users create and own a small number of Teams around specific topics. This KQL query looks for suspicious behaviour.
+
+```kusto
+// Adjust this value to change how many teams a user is made owner of before detecting 
+let max_owner_count = 3; 
+// Change this value to adjust how larger timeframe the query is run over. 
+let time_window = 1d; 
+let high_owner_count = (TeamsData 
+| where TimeGenerated > ago(time_window) 
+| where Operation =~ "MemberRoleChanged" 
+| extend Member = tostring(parse_json(Members)[0].UPN)  
+| extend NewRole = toint(parse_json(Members)[0].Role)  
+| where NewRole == 2 
+| summarize dcount(TeamName) by Member 
+| where dcount_TeamName > max_owner_count 
+| project Member); 
+TeamsData 
+| where TimeGenerated > ago(time_window) 
+| where Operation =~ "MemberRoleChanged" 
+| extend Member = tostring(parse_json(Members)[0].UPN)  
+| extend NewRole = toint(parse_json(Members)[0].Role)  
+| where NewRole == 2 
+| where Member in (high_owner_count) 
+| extend TeamGuid = tostring(Details.TeamGuid) 
+// Uncomment the following line to map query entities is you plan to use this as a detection query 
+//| extend timestamp = TimeGenerated, AccountCustomEntity = Member 
+```
+
+#### Many Team deletions by a single user
+
+Attackers can cause disruptions and jeopardize projects and data by deleting multiple teams. Because teams are generally deleted by individual Owners, a central deletion of many teams can be a sign of trouble. This KQL looks for single users who delete multiple teams.
+
+```kusto
+ // Adjust this value to change how many Teams should be deleted before including
+ let max_delete = 3;
+ // Adjust this value to change the timewindow the query runs over
+ let time_window = 1d;
+ let deleting_users = (
+ TeamsData 
+ | where TimeGenerated > ago(time_window)
+ | where Operation =~ "TeamDeleted"
+ | summarize count() by UserId
+ | where count_ > max_delete
+ | project UserId);
+ TeamsData
+ | where TimeGenerated > ago(time_window)
+ | where Operation =~ "TeamDeleted"
+ | where UserId in (deleting_users)
+ | extend TeamGuid = tostring(Details.TeamGuid)
+ | project-away AddOnName, Members, Settings
+ // Uncomment the following line to map query entities is you plan to use this as a detection query
+ //| extend timestamp = TimeGenerated, AccountCustomEntity = UserId
+```
+
+#### Expanding your thread hunting opportunities
+
+You can expand your hunting by combining queries from resources like Azure Active Directory (Azure AD), or other Office 365 workloads with your Teams queries. One example is combining detection of suspicious patterns in Azure AD SigninLogs, and using that information while hunting for Team Owners.
+
+```kusto
+let timeRange = 1d;
+let lookBack = 7d;
+let threshold_Failed = 5;
+let threshold_FailedwithSingleIP = 20;
+let threshold_IPAddressCount = 2;
+let isGUID = "[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}";
+let azPortalSignins = SigninLogs
+| where TimeGenerated >= ago(timeRange)
+// Azure Portal only and exclude non-failure Result Types
+| where AppDisplayName has "Azure Portal" and ResultType !in ("0", "50125", "50140")
+// Tagging identities not resolved to friendly names
+| extend Unresolved = iff(Identity matches regex isGUID, true, false);
+// Lookup up resolved identities from last 7 days
+let identityLookup = SigninLogs
+| where TimeGenerated >= ago(lookBack)
+| where not(Identity matches regex isGUID)
+| summarize by UserId, lu_UserDisplayName = UserDisplayName, lu_UserPrincipalName = UserPrincipalName;
+// Join resolved names to unresolved list from portal signins
+let unresolvedNames = azPortalSignins | where Unresolved == true | join kind= inner (
+   identityLookup ) on UserId
+| extend UserDisplayName = lu_UserDisplayName, UserPrincipalName = lu_UserPrincipalName
+| project-away lu_UserDisplayName, lu_UserPrincipalName;
+// Join Signins that had resolved names with list of unresolved that now have a resolved name
+let u_azPortalSignins = azPortalSignins | where Unresolved == false | union unresolvedNames;
+let failed_signins = (u_azPortalSignins
+| extend Status = strcat(ResultType, ": ", ResultDescription), OS = tostring(DeviceDetail.operatingSystem), Browser = tostring(DeviceDetail.browser)
+| extend FullLocation = strcat(Location,'|', LocationDetails.state, '|', LocationDetails.city)
+| summarize TimeGenerated = makelist(TimeGenerated), Status = makelist(Status), IPAddresses = makelist(IPAddress), IPAddressCount = dcount(IPAddress), FailedLogonCount = count()
+by UserPrincipalName, UserId, UserDisplayName, AppDisplayName, Browser, OS, FullLocation
+| mvexpand TimeGenerated, IPAddresses, Status
+| extend TimeGenerated = todatetime(tostring(TimeGenerated)), IPAddress = tostring(IPAddresses), Status = tostring(Status)
+| project-away IPAddresses
+| summarize StartTime = min(TimeGenerated), EndTime = max(TimeGenerated) by UserPrincipalName, UserId, UserDisplayName, Status, FailedLogonCount, IPAddress, IPAddressCount, AppDisplayName, Browser, OS, FullLocation
+| where (IPAddressCount >= threshold_IPAddressCount and FailedLogonCount >= threshold_Failed) or FailedLogonCount >= threshold_FailedwithSingleIP
+| project UserPrincipalName);
+TeamsData
+| where TimeGenerated > ago(time_window)
+| where Operation =~ "MemberRoleChanged"
+| extend Member = tostring(parse_json(Members)[0].UPN) 
+| extend NewRole = toint(parse_json(Members)[0].Role) 
+| where NewRole == 2
+| where Member in (failed_signins)
+| extend TeamGuid = tostring(Details.TeamGuid)
+```
+
+Also, you can make the SigninLogs detections specific to Teams by adding a filter for only Teams-based sign-ins by using:
+
+```kusto
+| where AppDisplayName startswith "Microsoft Teams"
+```
+
+To help explain using `where AppDisplayName startswith "Microsoft Teams"` further, the KQL below demonstrates a successful logon from one IP address with failure from a different IP address, but scoped only to Teams sign-ins:
+
+```kusto
+let timeFrame = 1d;
+let logonDiff = 10m;
+SigninLogs 
+  | where TimeGenerated >= ago(timeFrame) 
+  | where ResultType == "0" 
+  | where AppDisplayName startswith "Microsoft Teams"
+  | project SuccessLogonTime = TimeGenerated, UserPrincipalName, SuccessIPAddress = IPAddress, AppDisplayName, SuccessIPBlock = strcat(split(IPAddress, ".")[0], ".", split(IPAddress, ".")[1])
+  | join kind= inner (
+      SigninLogs 
+      | where TimeGenerated >= ago(timeFrame) 
+      | where ResultType !in ("0", "50140") 
+      | where ResultDescription !~ "Other"  
+      | where AppDisplayName startswith "Microsoft Teams"
+      | project FailedLogonTime = TimeGenerated, UserPrincipalName, FailedIPAddress = IPAddress, AppDisplayName, ResultType, ResultDescription
+  ) on UserPrincipalName, AppDisplayName 
+  | where SuccessLogonTime < FailedLogonTime and FailedLogonTime - SuccessLogonTime <= logonDiff and FailedIPAddress !startswith SuccessIPBlock
+  | summarize FailedLogonTime = max(FailedLogonTime), SuccessLogonTime = max(SuccessLogonTime) by UserPrincipalName, SuccessIPAddress, AppDisplayName, FailedIPAddress, ResultType, ResultDescription 
+  | extend timestamp = SuccessLogonTime, AccountCustomEntity = UserPrincipalName, IPCustomEntity = SuccessIPAddress
+```
+
+## Important information and updates
+
+**Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan and the people he collaborates with will continue to develop detection and hunting queries for Teams, so keep in touch with this [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.  Monitor for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article. Thank you! Happy hunting. You can also join and contribute to the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki).
 
 [Registering your application in Azure AD](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
