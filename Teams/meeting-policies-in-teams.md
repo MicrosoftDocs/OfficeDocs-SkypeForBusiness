@@ -329,7 +329,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting. 
 
-**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobbby. There are no lobby controls available for dialed in users. 
+**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users. 
 
 
 ### Automatically admit people
@@ -340,7 +340,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
  
- **Note** In the meeting options the setting is labled "Who can bypass the lobby"
+ **Note** In the meeting options the setting is labeled "Who can bypass the lobby"
   
 |Setting value  |Join behavior |
 |---------|---------|
