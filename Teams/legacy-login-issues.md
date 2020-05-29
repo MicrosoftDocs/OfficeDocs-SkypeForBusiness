@@ -1,5 +1,5 @@
 ---
-title: Log-in issues for Teams
+title: Issues receiving messages and calls on legacy systems in Teams
 ms.reviewer: 
 author: cichur
 ms.author: v-cichur
@@ -13,16 +13,16 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Troubleshoot Teams log-in issues
+description: Troubleshoot issues related to receiving messages and calls on legacy systems
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---
 
-Log-in issues for Teams
+Issues receiving messages and calls on legacy systems
 ==============================================================
 
-Users might have log-in issues if they are using older versions of Teams or have logged in with other applications.
+Users might have issues receiving messages or calls if they are using older versions of Teams or have logged in with other applications.
 
 ## Legacy ADU setups
 
