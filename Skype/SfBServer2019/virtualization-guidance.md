@@ -17,29 +17,19 @@ description: "Summary: Learn about the virtualization support for Skype for Busi
 
 # Virtualization support for Skype for Business Server 2019
 
-Skype for Business Server 2019 is supported on virtualization, provided it is deployed in line with the [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936) guidance.
+Skype for Business Server 2019 is supported on virtualization when it is deployed in line with the [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936) guidance.
 
-## Virtualization guidance highlights
+## Understand virtualization
 
-- Do not use processor oversubscription; maintain a 1:1 ratio of virtual CPU to physical CPU.
-- Moving a guest server while operating is not supported.
-- Virtual machine portability or failover techniques such as live migration are not supported.
-- You should disable hyper-threading on all hosts.
-- Do not configure dynamic memory or memory overcommitment on host servers.
+While virtualization is supported, there are some key point to remember: 
+
+- Maintain a 1:1 ratio of virtual CPU to physical CPU.
+- Don't move a guest server while it's operating.
+- Migration of a live system and portability of a virtual machine aren't supported.
+- Disable hyper-threading on all hosts.
+- Don't configure dynamic memory or memory overcommitment on host servers.
 - Use fixed or pass-through disks rather than dynamic disks.
-- Hypervisors require an amount of overhead (typically 6 percent to 10 percent) above and beyond what the virtual guest requires.
-
-You can check the [Lync 2013 guidance document](https://www.microsoft.com/download/details.aspx?id=41936) for full details.
-
-Note that supported does not in any way mean recommended. It has always been recommended to go physical hardware to reduce the number of potential complications, especially in large or highly utilized environments.
-
-There is no updated guidance specifically for virtualizing SfB Server 2019 at this time, but Microsoft intends to release specific guidance in the future (no public ETA).
-
-**Expect an official support statement from Microsoft when the formal guidance is completed by Microsoft. If you can wait for the official virtualization guidance and support statement that would be the best thing to do.** < I assume we can remove this>
-
-The Lync Server Stress and Performance Tool (LSS) does not run against SfB Server 2019. So today, you cannot use that tool to validate your virtualization platform. There is a plan to update these tools to work with SfB Server 2019
-
-Most of the KHI’s/Perfmon counters are similar, but you should definitely be monitoring and reporting on those in a virtual environment. **Again expect updated guidance in due course.**  < I assume we can remove this>
+- Allow for 6-10 percent overhead for hypervisors beyond what the virtual guest requires.
 
 ## Supported hypervisors 
 
