@@ -160,6 +160,10 @@ Despite the Beta tag, the Call Quality Connector for Power BI is the release ver
 
 Query performance for the various templates is actually the same in both the browser and in the connector.  Just like any other standalone app, Power BI adds its authentication and rendering time to our performance. In addition, the difference comes in the number of concurrent queries being run. Because the in-browser version of CQD had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates often display 20+ concurrent queries. If you wish to build reports that are just as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
 
+For more information, see the following articles: 
+- [Optimization guide for Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [DirectQuery model guidance](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+
 ### I find that I routinely run into the 10,000-row limit when running queries. How can I get the connector to return more than 10,000 rows?
 
 The 10,000-row limit is actually specified on the API end, and it is designed to help significantly improve performance and reduce the risk of query execution errors resulting from low memory conditions.
