@@ -88,7 +88,7 @@ Here you can review matches to the policy you've set, and make any adjustments a
 
 ### Mass delete scenario
 
-As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes. 
+As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
 
 ![Screenshot of the policy create page showing the setting up of a policy for mass team deletion detection](media/TeamsMassDeletePolicy.png)
 
@@ -110,7 +110,7 @@ You can set alerts and send emails to admins and other users when an activity po
 
 [Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
 
-We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies. 
+We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
 ## Teams activities
 
