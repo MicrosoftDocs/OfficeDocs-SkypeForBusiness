@@ -136,8 +136,8 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Downloaded analytics report |           |     |
 |Enrolled Teams device |           |     |
-|Installed app | CardAction         |A user took action on an adaptive card.     |
-|Performed action on card |           |     |
+|Installed app |         |   |
+|Performed action on card | CardAction |A user took action on an adaptive card within a chat.       |
 |Published app |           |     |
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
