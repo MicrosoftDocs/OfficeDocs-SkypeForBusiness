@@ -111,6 +111,10 @@ To create a new resource account, click **Add**. In the **Add resource account**
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="enablesignin"> </a>
+<!-- Do not remove the bookmark link above. -->
+
 If you see a banner at the top of the pane that says the resource account can't be loaded, you have to unblock sign in for the resource account in the Microsoft 365 admin center. To do this, in the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account. At the top of the pane under the user's display name, click **Unblock this user?**, in the **Unblock this user?** pane, clear the **Block this user from signing in** check box, and then click **Save changes**.
 
 ![Screenshot of the Unblock this user option](media/res-acct-unblock.png)
