@@ -1,5 +1,5 @@
 ---
-title: Log-in hints for Teams
+title: Log-in issues for Teams
 ms.reviewer: 
 author: cichur
 ms.author: v-cichur
@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Log-in hints for Teams
+Log-in issues for Teams
 ==============================================================
 
 Users might have log-in issues if they are using older versions of Teams or have logged in with other applications.
