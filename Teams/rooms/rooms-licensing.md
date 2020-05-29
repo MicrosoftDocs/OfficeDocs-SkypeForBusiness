@@ -62,7 +62,7 @@ The following table lists the features that are available in Microsoft Teams Roo
 |Join a scheduled meeting  | Meeting Room SKU  |Skype for Business Server Standard CAL  |
 |Initiate an ad hoc meeting | Meeting Room SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Initiate an ad hoc meeting and dial out from a meeting to phone numbers |  Meeting Room SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Give the room a phone number and make or receive a calls from the room or join an audio conference using a phone number  | Meeting Room SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Give the room a phone number and make or receive a calls from the room or join an audio conference using a phone number  | With Direct Routing: Meeting Room SKU<br/>Without Direct Routing: Domestic or International Calling Plan<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Manage your room device with Microsoft Intune |Meeting Room SKU  |Microsoft Intune subscription with [on-premises MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
