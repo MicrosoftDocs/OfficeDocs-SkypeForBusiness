@@ -172,17 +172,6 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     GatewaySiteLbrEnabled: $false 
     ```
 
-    Endpoints connected to systems that don't route calls to the PSTN (for example, a PBX) will have similar restrictions as endpoints of Teams users enabled for Location-Based Routing. This means that these users can place and receive calls to and from Teams users regardless of the user's location. They can also place and receive calls to and from other systems that don't route calls to the PSTN network (for example, an endpoint connected to a different PBX) regardless of the network site to which the system is associated. All inbound calls, outbound calls, call transfers and call forwarding that involve PSTN endpoints will be subject to Location-Based Routing enforcements. These calls must use only PSTN gateways that are defined as local to such systems. 
-
-    The following table shows the gateway configuration of four gateways in two different network sites: two connected to PSTN gateways and two connected to PBX systems. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway:Gateway 1 DEL-GW    |    True     |   Site 1 (Delhi)      |
-    |PstnGateway:Gateway 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
-    |PstnGateway:Gateway 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
-    |PstnGateway:Gateway 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
-
 ### Enable Location-Based Routing for calling policies
 
 To enforce Location-Based Routing for specific users, set up the users' voice policy to prevent PTSN toll bypass. 
