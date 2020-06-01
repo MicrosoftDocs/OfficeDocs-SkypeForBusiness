@@ -17,9 +17,7 @@ description: "Summary: Learn about the virtualization support for Skype for Busi
 
 # Virtualization support for Skype for Business Server 2019
 
-Skype for Business Server 2019 is supported on virtualization. Follow the deployment criteria in [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).
-
-## Understand virtualization
+Skype for Business Server 2019 is supported on virtualization. 
 
 While virtualization is supported, there are some key points to remember: 
 
@@ -31,28 +29,17 @@ While virtualization is supported, there are some key points to remember:
 - Use fixed or pass-through disks rather than dynamic disks.
 - Allow for 6-10 percent overhead for hypervisors beyond what the virtual guest requires.
 
-## Supported hypervisors 
+Follow the deployment criteria in [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936) for best practices.
 
-SfB Server 2019 is supported on Windows Server 2016 and Windows Server 2019, so is therefore supported on Hyper-V on those versions of Windows Server
+**Supported hypervisors** 
 
-For third-party hypervisors, as before, you need a hypervisor that has passed the Server Virtualization Validation Program (SVVP) testing for the relevant OS.
+SfB Server 2019 is supported on Windows Server 2016 and Windows Server 2019.
 
-The Windows Server 2016 versions are:
+For third-party hypervisors, you need a hypervisor that has passed the Server Virtualization Validation Program (SVVP) testing for the relevant OS.
 
-- VMware
-- Citrix XenServer
-- Nutanix
+- See the [Windows Server 2016 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
+- See the [Windows Server 2019 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
 
-See the [SVVP](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) reference for more details.
 
-The Windows Server 2019 versions are:
-
-- VMware
-- Red Hat
-- Citrix Xenserver
-- SUSE Linux
-- Nutanix
-
-See the [SVVP](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=126&ava=130&avt=0&avq=0&OR=1&PGS=25) reference for more details.
 
 
