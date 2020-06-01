@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Supported virtualization technologies and known limitations in Lync Server 2013
 
@@ -76,7 +76,7 @@ The following are known limitations when you use Lync 2013 in a VDI environment:
     
       - Customized ringtones and music-on-hold features.
 
-  - The Lync VDI plug-in is not supported in an Office 365 environment.
+  - The Lync VDI plug-in is not supported in a Microsoft 365 or Office 365 environment.
 
 </div>
 

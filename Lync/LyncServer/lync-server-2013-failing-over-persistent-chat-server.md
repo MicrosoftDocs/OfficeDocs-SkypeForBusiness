@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Failing over Persistent Chat Server in Lync Server 2013
 
@@ -64,7 +64,7 @@ The Persistent Chat compliance database (mgccomp) is not failed over. The conten
 
 2.  Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.
 
-3.  Apply any unapplied transaction log backups in sequence to the secondary database. For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at http://go.microsoft.com/fwlink/p/?linkid=247428.
+3.  Apply any unapplied transaction log backups in sequence to the secondary database. For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at https://go.microsoft.com/fwlink/p/?linkid=247428.
 
 4.  Bring the backup mgc database online. Using the query window that opens in step 1b, do the following:
     

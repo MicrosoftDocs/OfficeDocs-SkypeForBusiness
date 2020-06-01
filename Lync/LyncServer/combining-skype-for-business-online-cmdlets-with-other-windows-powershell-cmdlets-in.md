@@ -17,9 +17,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets in
 
@@ -45,7 +45,7 @@ Likewise, none of the Skype for Business Online cmdlets include a parameter that
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
-And this command uses the **Select-Object** cmdlet to limit the data that is returned and displayed onscreen. In this example, the [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15)) cmdlet retrieves information for all of your Skype for Business Online users, and then the **Select-Object** cmdlet is used to limit the displayed data to the user’s Identity value and their archiving policy:
+And this command uses the **Select-Object** cmdlet to limit the data that is returned and displayed onscreen. In this example, the [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) cmdlet retrieves information for all of your Skype for Business Online users, and then the **Select-Object** cmdlet is used to limit the displayed data to the user’s Identity value and their archiving policy:
 
     Get-CsOnlineUser | Select-Object Identity, ArchivingPolicy
 
@@ -79,7 +79,7 @@ The module returned for the **Get-CsTenant** cmdlet will be the module containin
 ## See Also
 
 
-[An introduction to Windows PowerShell and Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))  
+[An introduction to Windows PowerShell and Skype for Business Online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  
   
 
 </div>

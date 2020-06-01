@@ -1,6 +1,6 @@
 ---
 title: Teams for Education
-description: Use these resources to get the most out of Teams across your organization.
+description: Learn about the admin resources available to help you successfully deploy, adopt, and manage Teams in your school or institution.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,11 +17,12 @@ search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams for Education
 
-With Teams, teachers and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
+With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +32,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +50,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +68,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
+                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +85,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">

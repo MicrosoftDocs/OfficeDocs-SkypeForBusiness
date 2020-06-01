@@ -33,7 +33,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +53,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -73,7 +73,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +92,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +110,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -129,7 +129,7 @@ Use the tools below to support each phase of your service adoption plan.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -149,4 +149,4 @@ The Office 365 champions program is a free program that helps people who want to
 Check out the [Teams adoption flipbook](https://aka.ms/teamstoolkit), an online guide that will help you roll out Teams in your company. It includes many downloadable tools, templates, and other resources to help you along your Teams adoption journey.
 
 ### Teams Customer Success Kit
-The [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) provides tools to help you roll out Teams in your organization. It includes email templates for announcements, flyers posters, countdown, and tips & tricks. It also includes Getting Started guides for team leaders and IT administrators.
+The [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides tools to help you roll out Teams in your organization. It includes email templates for announcements, flyers posters, countdown, and tips & tricks. It also includes Getting Started guides for team leaders and IT administrators.

@@ -29,7 +29,7 @@ Use these resources to learn about specific considerations for deploying Teams i
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ Use these resources to learn about specific considerations for deploying Teams i
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +65,7 @@ Use these resources to learn about specific considerations for deploying Teams i
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
+                            <img src="https://docs.microsoft.com/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ Use these resources to learn about specific considerations for deploying Teams i
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
                         </div>
                     </div>
                     <div class="cardText">

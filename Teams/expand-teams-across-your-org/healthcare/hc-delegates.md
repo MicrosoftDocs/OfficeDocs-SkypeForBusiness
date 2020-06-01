@@ -1,7 +1,7 @@
 ---
 title: Message delegation
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,7 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: acolonna
-description: A user can explicitly set another user as a delegate in their status message.
+description: Learn how a user with Away status or Do Not Disturb status can explicitly set another user as a delegate in their status message.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Message delegation
@@ -37,13 +38,13 @@ This is a user-initiated process in the client, and no Admin involvement is requ
 
 ## Impact of co-existence modes on user status in the Teams client
 
-Admins should be aware that status notes and delegation mention behaviors will depend partly on a user’s co-existence mode. This matrix shows the possibilities:
+Admins should be aware that status notes and delegation mention behaviors will depend partly on a user's co-existence mode. This matrix shows the possibilities:
 
 |Co-Existence Mode | Expected Behavior|
 |---|---|
-|TeamsOnly |Users can set a note only from Teams. <br> User’s Teams note is visible in Teams & SfB. |
-|Islands | User’s note set in Teams visible only in Teams. <br> User’s note set in SfB visible only in SfB |
-|SfB* modes | Users can set a note only from SfB. <br> User’s SfB note is visible in SfB & Teams.  |
+|TeamsOnly |Users can set a note only from Teams. <br> User's Teams note is visible in Teams & SfB. |
+|Islands | User's note set in Teams visible only in Teams. <br> User's note set in SfB visible only in SfB |
+|SfB* modes | Users can set a note only from SfB. <br> User's SfB note is visible in SfB & Teams.  |
 |||
 
 A user can only set a note in Teams if their mode is TeamsOnly or Islands.  
@@ -52,9 +53,9 @@ A user can only set a note in Teams if their mode is TeamsOnly or Islands.
   
 There is no visual indication that a note was set from Skype for Business.
 
-Skype for Business doesn’t enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end of a note indicates truncation.
+Skype for Business doesn't enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end of a note indicates truncation.
   
-Skype for Business doesn’t support expiry times for notes.
+Skype for Business doesn't support expiry times for notes.
 
 Migration of notes from Skype for Business to Teams is not supported when a user is upgraded to TeamsOnly mode.
 

@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Understanding Centralized Logging Service configuration settings in Lync Server 2013
 
@@ -80,7 +80,7 @@ The Centralized Logging Service is configured to define what the logging service
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Defined search terms for the configuration. Office 365, not on-premises deployments.</p></td>
+    <td><p>Defined search terms for the configuration. Office 365 or Microsoft 365, not on-premises deployments.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
@@ -132,7 +132,7 @@ The Centralized Logging Service is configured to define what the logging service
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>The minimum version of the CLSAgent allowed to run. This element is intended for Office 365.</p></td>
+    <td><p>The minimum version of the CLSAgent allowed to run. This element is intended for Office 365 or Microsoft 365.</p></td>
     </tr>
     </tbody>
     </table>
@@ -148,10 +148,10 @@ The Centralized Logging Service is configured to define what the logging service
 [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
+[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
+[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
   
 
 </div>

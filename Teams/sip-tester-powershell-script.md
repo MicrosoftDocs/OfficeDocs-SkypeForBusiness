@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 description: Use this PowerShell script sample to test Direct Routing Session Border Controller connections in Microsoft Teams.
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 - M365-voice
 f1.keywords:
@@ -31,3 +32,8 @@ The script submits an SIP test to the test runner, waits for the result, and the
 ## Download the script and documentation
 
 Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
+
+  > [!NOTE]
+  > SIP Tester client script only supports adal.ps version 3.19.8.1. An error will be returned if a later version of the adal.ps is used.
+  
+  

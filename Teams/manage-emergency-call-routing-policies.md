@@ -1,5 +1,5 @@
 ---
-title: Manage emergency call routing policies in Microsoft Teams
+title: Manage emergency call routing policies
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,8 +16,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency call routing policies in Microsoft Teams. 
+description: Learn how to use and manage emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. 
 f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
@@ -72,11 +73,17 @@ See [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershel
 
 ### Using the Microsoft Teams admin center
 
+To assign a policy to one user:
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
 3. Under **Emergency call routing policy**, select the policy you want to assign, and then click **Save**.
 
-To assign a custom teams policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -94,7 +101,7 @@ See [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powersh
 
 ### Assign a custom emergency call routing policy to users in a group
 
-You may want to assign a custom emergency call routing policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+You may want to assign a custom emergency call routing policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security or distribution group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
 
 In this example, we assign a policy called HR Emergency Call Routing Policy to all users in the Contoso HR group.  
 
@@ -129,3 +136,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 - [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

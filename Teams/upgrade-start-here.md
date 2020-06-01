@@ -7,12 +7,14 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Learn about the upgrade from Skype for Business to Microsoft Teams. 
+description: This article will help you with getting started on upgrading from Skype for Business to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -39,7 +41,7 @@ Whether you are upgrading from Skype for Business Online to Teams or from a Skyp
 
 ## Why upgrade to Microsoft Teams?
 
-Microsoft Teams extends the capabilities of Skype for Business, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. This new central hub for teamwork can help streamline the way users get things done, improving user satisfaction and accelerating business outcomes. We’re continually expanding Teams’ capabilities to enable you to communicate and collaborate in new ways, break down organizational and geographical barriers, and drive efficiency in process and decision making. Learn more about the benefits of upgrading to Teams in the Forrester report: [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft Teams extends the capabilities of Skype for Business, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. This new central hub for teamwork can help streamline the way users get things done, improving user satisfaction and accelerating business outcomes. We’re continually expanding Teams’ capabilities to enable you to communicate and collaborate in new ways, break down organizational and geographical barriers, and drive efficiency in process and decision making. Learn more about the benefits of upgrading to Teams in the Forrester report: [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
 ## When should my organization upgrade to Teams?
 

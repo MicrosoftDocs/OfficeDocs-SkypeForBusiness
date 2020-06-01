@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Request and configure a certificate for your reverse HTTP proxy in Lync Server 2013
 
@@ -151,7 +151,7 @@ To generate a certificate signing request on the computer where the certificate 
 
 **Creating a certificate signing request**
 
-1.  Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**. For details on how to create a certificates console in the Microsoft Management Console (MMC), see [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+1.  Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**. For details on how to create a certificates console in the Microsoft Management Console (MMC), see [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616).
 
 2.  Right-click **Certificates**, click **All Tasks**, click **Advanced Operations**, click **Create Custom Request**.
 
@@ -212,7 +212,7 @@ To generate a certificate signing request on the computer where the certificate 
     
 
     > [!IMPORTANT]
-    > Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes. A list is maintained in the following knowledge base article. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes. A list is maintained in the following knowledge base article. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

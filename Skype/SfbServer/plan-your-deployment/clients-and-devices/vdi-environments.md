@@ -90,7 +90,7 @@ Review the following links for more information:
     
 - Citrix Knowledge Center article [CTX138408](https://support.citrix.com/article/CTX138408)
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
   
 ### Supported virtualization technologies and known limitations
 <a name="Supported_virt"> </a>
@@ -131,7 +131,7 @@ The user's local computer must meet the following requirements:
     
 - On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled. To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings." 
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/download/details.aspx?id=35454).
   
 #### Known Feature Limitations
 <a name="VDI_prereq"> </a>
@@ -156,10 +156,10 @@ There is no support for the following features:
     
 - Customized ringtones and music-on-hold features.
     
-The Lync VDI plug-in is not supported in an Office 365 environment.
+The Lync VDI plug-in is not supported in Microsoft 365 or Office 365 environments.
   
 > [!NOTE]
-> The Citrix RealTime Optimization Pack does support Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
+> The Citrix RealTime Optimization Pack does support Microsoft 365 and Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
   
 ## See also
 <a name="Citrix_RT"> </a>

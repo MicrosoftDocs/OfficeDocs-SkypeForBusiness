@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
+ms.custom: seo-marvel-mar2020
+description: Learn how Microsoft Phone System Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Microsoft Phone System.
 ---
 
 # Plan Direct Routing
@@ -65,11 +66,11 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |:--- |:--- |
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs](#supported-session-border-controllers-sbcs).|
 |Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, please refer to the SBC vendors or trunk providers.)|
-|Office 365 tenant|An Office 365 tenant that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
+|Office 365 organization|An Office 365 organization that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
 |User registrar|User must be homed in Office 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Office 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>The output of the cmdlet should show:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|One or more domains added to your Office 365 tenants.<br/><br/>Note that you cannot use the default domain, \*.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domains|One or more domains added to your Office 365 organizations.<br/><br/>Note that you cannot use the default domain, \*.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 organizations, see [Domains FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Public IP address for the SBC|A public IP address that can be used to connect to the SBC. Based on the type of SBC, the SBC can use NAT.|
-|Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC domain names](#sbc-domain-names).|
+|Fully Qualified Domain Name (FQDN) for the SBC|An FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 organization. For more information, see [SBC domain names](#sbc-domain-names).|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
 |Public trusted certificate for the SBC |A certificate for the SBC to be used for all communication with Direct Routing. For more information, see [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
 |Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs](#sip-signaling-fqdns).|
@@ -109,7 +110,7 @@ In addition, you must ensure the following:
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. Microsoft Phone System with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful (for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC). One of the most common scenarios are calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN. 
+Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful (for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC). One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN. 
 
 For more information about Phone System licensing, see [Get the most from Office with Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
@@ -128,7 +129,7 @@ You can use as an end point:
 
 The SBC domain name must be from one of the names registered in Domains of the tenant. You cannot use the \*.onmicrosoft.com tenant for the FQDN name of the SBC.
 
-The following table shows examples of DNS names registered for the tenant, whether the name can be used as a FQDN for the SBC, and examples of valid FQDN names:
+The following table shows examples of DNS names registered for the tenant, whether the name can be used as an FQDN for the SBC, and examples of valid FQDN names:
 
 |**DNS name**|**Can be used for SBC FQDN**|**Examples of FQDN names**|
 |:--- |:--- |:--- |
@@ -149,10 +150,10 @@ Microsoft recommends that you request the certificate for the SBC by generating 
   > [!NOTE]
   > Most Certificate Authorities (CAs) require the private key size to be at least 2048. Keep this in mind when generating the CSR.
 
-The certificate needs to have the SBC FQDN in the subject, common name, or subject alternate name fields.
+The certificate needs to have the SBC FQDN as the common name (CN) in the subject field.
 
 Alternatively, Direct Routing  supports a wildcard in SAN, and the wildcard needs to conform to standard [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1). 
-An example would be using \*.contoso.com in the SAN, which would match the SBC FQDN sbc.contoso.com, but wouldn’t match with sbc.test.contoso.com.
+An example would be using \*.contoso.com in the SAN, which would match the SBC FQDN sbc.contoso.com, but wouldn't match with sbc.test.contoso.com.
 
 The certificate needs to be generated by one of the following root certificate authorities:
 
@@ -171,7 +172,8 @@ The certificate needs to be generated by one of the following root certificate a
 - Go Daddy
 - GeoTrust
 - Verisign, Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - Symantec Enterprise Mobile Root for Microsoft 
 - SwissSign
 - Thawte Timestamping CA
@@ -194,7 +196,7 @@ Learn more about [Office 365 and US Government environments](https://docs.micros
 
 ### Office 365 and Office 365 GCC environments
 
-The connection point for Direct Routing are the following three FQDNs:
+The connection points for Direct Routing are the following three FQDNs:
 
 - **sip.pstnhub.microsoft.com** – Global FQDN – must be tried first. When the SBC sends a request to resolve this name, the Microsoft Azure DNS servers return an IP address pointing to the primary Azure datacenter assigned to the SBC. The assignment is based on performance metrics of the datacenters and geographical proximity to the SBC. The IP address returned corresponds to the primary FQDN.
 - **sip2.pstnhub.microsoft.com** – Secondary FQDN – geographically maps to the second priority region.
@@ -228,7 +230,7 @@ The FQDN sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the follo
 - 52.127.64.33
 - 52.127.68.34
 
-You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip.pstnhub.dod.teams.microsoft.us resolves to all these IP addresses. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office 365 GCC High environment
 
@@ -241,7 +243,7 @@ The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the follo
 - 52.127.88.59
 - 52.127.92.64
 
-You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ## SIP Signaling: Ports
 
@@ -253,7 +255,7 @@ You must use the following ports for Office 365 environments where Direct Routin
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only ports 5061 and 5062 must be used)|
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only port 5061 must be used)|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 ||||||
 
@@ -274,11 +276,12 @@ Note that the requirements below apply if you want to deploy Direct Routing with
 
 
 
-The media traffic flows to and from a separate service in the Microsoft Cloud. The IP range for Media traffic are as follows.
+The media traffic flows to and from a separate service in the Microsoft Cloud. The IP address ranges for Media traffic are as follows.
 
 ### Office 365 and Office 365 GCC environments
 
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254).
 
 ### Office 365 GCC DoD environment
 
@@ -293,11 +296,31 @@ The port range of the Media Processors is shown in the following table:
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Media Processor|SBC|49152 – 53247|Defined on the SBC|
-|UDP/SRTP|SBC|Media Processor|Defined on the SBC|49152 – 53247|
+|UDP/SRTP|Media Processor|SBC|3478-3481 and 49152 – 53247|Defined on the SBC|
+|UDP/SRTP|SBC|Media Processor|Defined on the SBC|3478-3481 and 49152 – 53247|
 
   > [!NOTE]
   > Microsoft recommends at least two ports per concurrent call on the SBC.
+
+
+## Media traffic: Media processors geography
+
+The media traffic flows via components called media processors. 
+Media processors are placed in the same datacenters as SIP proxies. Also, there are additional media processors to optimize media flow. For example, we do not have a SIP proxy component now in Australia (SIP flows via Singapore or Hong Kong) but we do have the media processor locally in Australia. The need for the media processors locally is dictated by the latency which we experience by sending traffic long-distance, for example from Australia to Singapore or Hong Kong. While latency in the example of traffic flowing from Australia to Hong Kong or Singapore is acceptable to preserve good call quality for SIP traffic, for real-time media traffic it is not.
+
+Location of the media processors:
+
+Locations where both SIP proxy and media processor components deployed:
+- US (two in US West and US East datacenters)
+- Europe (Amsterdam and Dublin datacenters)
+- Asia (Singapore and Hong Kong datacenters)
+
+Locations where only media processors are deployed (SIP flows via the closest datacenter listed above):
+- Japan (JP East and West datacenters)
+- Australia (AU East and West datacenters)
+
+
+
 
 ## Media traffic: Codecs
 
@@ -307,7 +330,7 @@ Applies to both media bypass case and non-bypass cases.
 The Direct Routing interface on the leg between the Session Border Controller and Cloud Media Processor (without media bypass) or between the Teams client and the SBC (if Media Bypass enabled) can use the following codecs:
 
 - Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G.729
-- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G.729, OPUS
+- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G.729
 
 You can force use of the specific codec on the Session Border Controller by excluding undesirable codecs from the offer.
 
@@ -329,6 +352,3 @@ For more information about supported SBCs, see [List of Session Border Controlle
 ## See also
 
 [Configure Direct Routing](direct-routing-configure.md)
-
-
-

@@ -55,7 +55,7 @@ To determine whether a private channel is appropriate, consider the following qu
 |Yes     |No         |No         |Create a channel in the existing team.         |
 |No     |No         |No         |Consider creating a new team.         |
 |No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
-|No     |Yes         |No         |Create a new team or create a new private channel in an existing team.         |
+|No     |Yes         |No         |Create a new team and consider creating a private channel.         |
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 
@@ -63,10 +63,12 @@ When a private channel is created, it's linked to the parent team and can't be m
 
 ### Who can create private channels?
 
-By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level:
+By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level.
 
-- On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels.
-- As an admin, you can use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
+> 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+> 2. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
+    Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 

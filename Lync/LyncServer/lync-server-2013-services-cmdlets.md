@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Services cmdlets in Lync Server 2013
 
@@ -43,18 +43,18 @@ The following is a list of cmdlets that relate directly to managing services:
 **Services**
 
   - <span></span>  
-    [Get-CsService](https://technet.microsoft.com/en-us/library/Gg413038(v=OCS.15))
+    [Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398803(v=OCS.15))
+    [Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))
 
   - <span></span>  
-    [Start-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398561(v=OCS.15))
+    [Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))
 
   - <span></span>  
-    [Stop-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398426(v=OCS.15))
+    [Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))
 
 </div>
 
@@ -63,7 +63,7 @@ The following is a list of cmdlets that relate directly to managing services:
 ## See Also
 
 
-[Lync Server PowerShell Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

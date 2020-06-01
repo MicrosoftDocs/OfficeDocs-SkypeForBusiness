@@ -39,6 +39,6 @@ After you configure Response Group, you need to verify the configuration to make
 
     > [!NOTE]
     > If the response group does not work as expected please check next link:
-    > https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

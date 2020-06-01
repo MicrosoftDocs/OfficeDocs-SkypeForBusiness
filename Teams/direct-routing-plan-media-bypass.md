@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Read this topic to learn how to plan for media bypass with Phone System Direct Routing."
+description: Learn how to plan for media bypass with Phone System Direct Routing, which enables you to shorten the path of media traffic and improve performance.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan for media bypass with Direct Routing
@@ -64,7 +65,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
-- The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
+- The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
 ![Shows Call flow with Media Bypass enabled, client is internal](media/direct-routing-media-bypass-3.png)
 
@@ -99,7 +100,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
-- The SIP signaling always takes paths 3 and 3’ (depending on the direction of the traffic). Media flows using path 2.
+- The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
 ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
 
@@ -132,9 +133,11 @@ In media path for non-bypassed calls for end users | Always | Never |
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
 In media path for voice applications | Always | Never | 
 Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 
-Number of instances worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan (being added in Q1CY2019)  | Multiple
+Number of instances worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan  | Multiple
 
-The IP range is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254). 
+The IP ranges are:
+- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254)
 
 \* Transcoding explanation: 
 
@@ -249,7 +252,8 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
 | UDP/SRTP | SBC | Client | Defined on the SBC | 50 000 – 50 019  |
 
 
-Note: If you have a network device that translates the client's source ports, please make sure that translated ports are opened between the network equipment and the SBC. 
+> [!NOTE]
+> If you have a network device that translates the client's source ports, please make sure that translated ports are opened between the network equipment and the SBC. 
 
 ### Requirements for using Transport Relays
 
@@ -257,7 +261,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 
 ### Office 365 and Office 365 GCC environments
 
--52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
 ## Office 365 GCC DoD environment
 
@@ -277,11 +281,12 @@ UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
 | UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478, 3479     |
 
 
-Note: Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:
-
-- v4, which can only work with port range 50 000 to 59 999
-
-- v6, which works with ports 3478, 3479
+> [!NOTE]
+> Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:
+> 
+> - v4, which can only work with port range 50 000 to 59 999
+> 
+> - v6, which works with ports 3478, 3479
 
 At this time, media bypass only supports v4 version of Transport Relays. We will introduce support of v6 in the future. 
 
@@ -296,7 +301,7 @@ The IP range for media traffic is
 
 ### Office 365 and Office 365 GCC environments
 
--52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
 ## Office 365 GCC DoD environment
 
@@ -310,31 +315,31 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
-| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 49 152 – 53 247     |
+UDP/SRTP | Media Processor | SBC | 3478, 3479 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478, 3479 and 49 152 – 53 247     |
 
-## Considerations if you have Skype for Business phones in your network  
+## Configure separate trunks for media bypass and non-media bypass  
 
-If you have any Skype for Business end points in your network that are using Direct Routing--for example, a Teams user can have a 3PIP phone that is based on Skype for Business client--the media bypass on the trunk that serves these users must be turned off.
-
-You can create a separate trunk for these users and assign it an Online Voice Routing policy.
+If you are migrating to media bypass from non-media bypass and want to confirm functionality before migrating all usage to media bypass, you can create a separate trunk and separate Online Voice Routing policy to route to the media bypass trunk and assign to specific users. 
 
 High-level configuration steps:
 
-- Split users by type – depending on whether the user has a 3PIP phone or not.
+- Identify users to test media bypass.
 
 - Create two separate trunks with different FQDNs: one enabled for media bypass; the other not. 
 
   Both trunks point to the same SBC. The ports for TLS SIP signaling must be different. The ports for media must be the same.
 
-- Assign the correct trunk depending on the type of the user in the Online Voice Routing policy.
+- Create a new Online Voice Routing policy and assign the media bypass trunk to the corresponding routes associated with the PSTN usage for this policy.
+
+- Assign the new Online Voice Routing policy to users you have identified to test media bypass.
 
 The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with Teams clients and 3PIP phones | 20 | sbc1.contoso.com:5061 | false | 
-Users with only Teams end points (including new phones certified for Teams) | 980 | sbc2.contoso.com:5060 | true
+Users with non-media bypass trunk | 980 | sbc1.contoso.com:5060 | true
+Users with media bypass trunk | 20 | sbc2.contoso.com:5061 | false | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
@@ -350,9 +355,9 @@ For information about how to configure two trunks on the same SBC, see the docum
 
 ## Client endpoints supported with media bypass
 
-Media bypass is supported with all Teams endpoints.
+Media bypass is supported with all Teams Desktop clients and Teams Phone Devices. 
 
-Note for web clients (Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox) we will covert the call to non-bypass even if it started as a bypass call. This happens automatically and does not require any actions from the administrator. 
+For all other endpoints that do not support media bypass, we will covert the call to non-bypass even if it started as a bypass call. This happens automatically and does not require any actions from the administrator. This includes Skype for Business 3PIP Phones, and Teams Web Clients that support Direct Routing calling (New Microsoft Edge based on Chromium, Google Chrome, Mozilla Firefox). 
  
 ## See also
 

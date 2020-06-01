@@ -25,7 +25,7 @@ description: "Learn to set up Skype for Business Online external communications 
 
 Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.
 
- **Audience:** Office 365 admins
+ **Audience:** Microsoft 365 and Office 365 admins
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -33,7 +33,7 @@ Set up Skype for Business Online external communications so your users can commu
 ***
   
 ## Related topics
-[Set up Skype for Business Online external communications](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guided walkthrough)
+[Set up Skype for Business Online external communications](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guided walkthrough)
 
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 

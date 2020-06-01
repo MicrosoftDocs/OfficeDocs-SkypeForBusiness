@@ -1,5 +1,5 @@
 ---
-title: "Phone numbers for Audio Conferencing in Microsoft Teams"
+title: Phone numbers for Audio Conferencing
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,6 +21,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - LIL_Placement
+  - seo-marvel-mar2020
 description: "Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned."
 ---
 
@@ -44,7 +45,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
 - **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers.
   
-- **Shared phone numbers** are those phone numbers that can be shared with other Office 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
+- **Shared phone numbers** are those phone numbers that can be shared with other Microsoft 365 or Office 365s. You can't change the languages that are used when someone calls in to one of these numbers.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   

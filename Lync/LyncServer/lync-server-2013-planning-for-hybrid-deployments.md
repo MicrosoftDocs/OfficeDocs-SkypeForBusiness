@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Planning for Lync Server 2013 hybrid deployments
 
@@ -40,7 +40,7 @@ You should consider the following requirements for users and your network infras
 
 You must have the following configured in your environment in order to implement and deploy a hybrid deployment.
 
-  - A Microsoft Office 365 tenant with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
+  - A Microsoft 365 or Office 365 organization with Skype for Business Online enabled. Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
   - A single on-premises deployment (infrastructure) of Skype for Business Server or Lync Server that is deployed in a supported topology. See Topology Requirements.
     
@@ -48,11 +48,11 @@ You must have the following configured in your environment in order to implement
 
   - Skype for Business Server 2015 administrative tools. If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools.
 
-  - To support Single Sign-on with Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365.
+  - To support Single Sign-on with Microsoft 365 or Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Microsoft 365 or Office 365.
     
-    For more information, see [Integrating your on-premises identities with Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+    For more information, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
-  - A single directory synchronization solution to keep your on-premises and online Active Directory objects synchronized. For details about Directory Synchronization, see [Directory Integration Tools](http://go.microsoft.com/fwlink/p/?linkid=530320).
+  - A single directory synchronization solution to keep your on-premises and online Active Directory objects synchronized. For details about Directory Synchronization, see [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?linkid=530320).
 
 </div>
 
@@ -80,7 +80,7 @@ There are some differences in the features supported in Lync clients, as well as
 
 For details about client support, see the following topics:
 
-  - [Clients for Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Clients for Lync Online](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -140,9 +140,9 @@ To configure your deployment for hybrid with Skype for Business Online, you need
 
 </div>
 
-For more information about supported topologies, see [Supported topologies in Lync Server 2013](lync-server-2013-supported-topologies.md), and [Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments](http://go.microsoft.com/fwlink/p/?linkid=398709).
+For more information about supported topologies, see [Supported topologies in Lync Server 2013](lync-server-2013-supported-topologies.md), and [Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments](https://go.microsoft.com/fwlink/p/?linkid=398709).
 
-For troubleshooting information about hybrid deployments and connecting PowerShell to Lync Online, see [Lync Online: Lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).
+For troubleshooting information about hybrid deployments and connecting PowerShell to Lync Online, see [Lync Online: Lync PowerShell and Hybrid Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=306718).
 
 </div>
 
@@ -154,7 +154,7 @@ The Allowed domains list includes domains that have a partner Edge fully qualifi
 
 The following requirements must be met to successfully configure a hybrid deployment:
 
-  - Domain matching must be configured the same for your on-premises deployment and your Office 365 tenant. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
+  - Domain matching must be configured the same for your on-premises deployment and your Microsoft 365 or Office 365 organization. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
 
   - The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.
 
@@ -211,7 +211,7 @@ Computers on your network must be able to perform standard Internet DNS lookups.
 
 Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com). If your organization’s firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.
 
-Refer to the Help topic [Office 365 URLs and IP address ranges](http://go.microsoft.com/fwlink/p/?linkid=252942).
+Refer to the Help topic [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
 </div>
 
@@ -241,7 +241,7 @@ In addition to the port requirements for internal Lync Server 2013 communication
 <td><p>Open inbound</p>
 <ul>
 <li><p>Active Directory Federation Services (federation server role)</p>
-<p>For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</p></li>
+<p>For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</p></li>
 <li><p>Active Directory Federation Services (proxy server role)</p></li>
 <li><p>Microsoft Online Services Portal</p></li>
 <li><p>My Company Portal</p></li>
@@ -294,7 +294,7 @@ When you synchronize user accounts between your Lync on-premises and Lync Online
 
 
 > [!IMPORTANT]  
-> If the user is created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
+> If the user is created by using the online portal for Microsoft 365 admin center, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.
 
 
 
@@ -318,7 +318,7 @@ You should also consider the following user-related issues when planning for a h
 
   - **Lync Client**    Some users may require a new client version when they are moved to Lync Online. For Office Communications Server 2007 R2, users must be moved to a Lync Server 2013 pool prior to migration to Lync Online.
     
-    For more information about client support, see [Clients for Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) and [Supported Lync clients and network port configurations](http://go.microsoft.com/fwlink/p/?linkid=281901).
+    For more information about client support, see [Clients for Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) and [Supported Lync clients and network port configurations](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
   - **On-premises policies and configuration (non-user)**   Online and on-premises policies require separate configuration. You cannot set global policies that apply to both.
 
@@ -333,4 +333,3 @@ You should also consider the following user-related issues when planning for a h
 </div>
 
 </div>
-

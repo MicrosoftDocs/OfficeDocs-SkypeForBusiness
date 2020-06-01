@@ -49,6 +49,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | AudioCodes |405HD IP Phone|3.0.1.89 |6/14/2017|
 | Crestron |Flex UC-P100-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Crestron |Flex UC-P110-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
+|Poly| Trio C60|5.9.3.7392|4/15/2020|
 | Poly| CCX 600 IP Phone|5.9.12.1111 |2/3/2020 |
 | Poly| CCX 500 IP Phone| 1.0.0.2535 | 01/10/2020|
 | Polycom |VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
@@ -65,6 +66,8 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
+|Polycom| RealPresence Trio Family (8500 and 8800)|5.5.2.11338|10/9/2017|
+| Yealink |MP56 IP Phone |122.9.0.1|3/30/2020|
 | Yealink |T55 IP Phone (upgradeable to Teams) |55.9.0.9 |3/12/2019|
 | Yealink |T56A IP Phone (upgradeable to Teams) | 58.15.0.20 |12/30/2018|
 | Yealink |T58A IP Phone (upgradeable to Teams) | 58.15.0.20 |12/30/2018|
@@ -74,13 +77,11 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Yealink |T42S IP Phone |66.9.0.23 |11/30/2017|
 | Yealink |T41P IP Phone |x.8.1.62 |7/04/2017|
 | Yealink |T42G IP Phone |x.8.1.62 |7/04/2017|
-| Yealink |T46G IP Phone |28.8.1.52 |2/11/2017|
-| Yealink |T48G IP Phone |35.8.1.52 |2/11/2017|
 ||||
 
 ## Additional Resources
 
-Browse all [devices Certified for Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
+Browse all [devices Certified for Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
 Learn about [Skype for Business certification](overview.md)
 

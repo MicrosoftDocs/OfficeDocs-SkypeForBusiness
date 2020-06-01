@@ -141,7 +141,7 @@ After installing Busy Options, you can verify that the installation was successf
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : http://www.microsoft.com/LCS/BusyOptions
+Uri        : https://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False

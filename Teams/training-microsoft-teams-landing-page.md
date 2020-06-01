@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Training
+title: Microsoft Teams admin training
 ms.reviewer: 
 description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
@@ -12,13 +12,15 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
 ---
-# Microsoft Teams Training
+# Microsoft Teams admin training
 
 
 
@@ -62,7 +64,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -92,13 +94,26 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Support remote workers</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">Get the guidance you need - including links to training - to support your users who are working from home.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Teams Essentials for IT</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft Mechanics "Teams for IT" video series shows you - the admin - how to roll out, configure, and manage Teams.</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

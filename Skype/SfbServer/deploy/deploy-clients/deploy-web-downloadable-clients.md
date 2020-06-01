@@ -149,6 +149,6 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
 
 [Configure the meeting join page in Skype for Business Server](../../manage/conferencing/meeting-join-page.md)
 
-[Microsoft Online Services Privacy Statement](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
+[Microsoft Online Services Privacy Statement](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)
 
 [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)

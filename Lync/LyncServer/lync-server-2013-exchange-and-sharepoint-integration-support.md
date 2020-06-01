@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Exchange and SharePoint integration support in Lync Server 2013
 
@@ -62,7 +62,7 @@ Lync Server 2013 supports the two server-to-server authentication scenarios. The
 
 
 > [!NOTE]  
-> Server-to-server authentication between an on-premises server and an Office 365 component is not supported in this Lync Server 2013 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.
+> Server-to-server authentication between an on-premises server and a Microsoft 365 or Office 365 component is not supported in this Lync Server 2013 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.
 
 
 
@@ -79,4 +79,3 @@ For details about server-to-server authentication, see [Managing server-to-serve
 </div>
 
 </div>
-

@@ -39,7 +39,7 @@ Skype for Business Server is tightly integrated with Active Directory Domain Ser
   
 Watch the video steps for **Prepare Active Directory**:
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/RE1Ybuk]
+> [!video https://www.microsoft.com/videoplayer/embed/RE1Ybuk]
   
 ### Prepare Active Directory from the Deployment Wizard
 

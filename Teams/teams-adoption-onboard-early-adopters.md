@@ -1,5 +1,5 @@
 ---
-title: Onboard early adopters and gather feedback for Microsoft Teams
+title: Onboard early adopters and gather feedback
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,7 +13,9 @@ search.appverid: MET150
 description: Choose early adopters for the experiment phase of your Teams adoption, and then gather feedback for your project.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom: 
+ - Adopt
+ - seo-marvel-mar2020
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -34,7 +36,7 @@ Complete the following steps with these early adopters:
 
 ## Gather feedback
 
-Use the components of Office 365 to gather feedback for your project.
+Use the components of Microsoft 365 or Office 365 to gather feedback for your project.
   
 ![An icon representing a decision point](media/teams-adoption-decision-icon.png) Decision: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program. If not, and your early adopter program has less than 5000 members, create a team in Teams to gather feedback and provide training.
   

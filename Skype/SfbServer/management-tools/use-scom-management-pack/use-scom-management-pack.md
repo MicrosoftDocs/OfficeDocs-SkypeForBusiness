@@ -200,19 +200,19 @@ Creating a new management pack for storing customizations of each sealed managem
 
 The following links connect you to information about common tasks that are associated with System Center 2012 Monitoring Packs:
   
-- [Management Pack Life Cycle](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Management Pack Life Cycle](https://technet.microsoft.com/library/hh212732.aspx)
     
-- [How to Import a Management Pack in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [How to Import a Management Pack in Operations Manager 2012](https://technet.microsoft.com/library/hh212691.aspx)
     
-- [How to Override a Rule or Monitor](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [How to Override a Rule or Monitor](https://technet.microsoft.com/library/hh212869.aspx)
     
-- [How to Create a Run As Account in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [How to Create a Run As Account in Operations Manager 2012](https://technet.microsoft.com/library/hh321655.aspx)
     
-- [Managing Run As Accounts and Profiles](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Managing Run As Accounts and Profiles](https://technet.microsoft.com/library/hh212714.aspx)
     
-- [How to Export an Operations Manager Management Pack](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [How to Export an Operations Manager Management Pack](https://technet.microsoft.com/library/hh320149.aspx)
     
-- [How to Remove an Operations Manager Management Pack](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [How to Remove an Operations Manager Management Pack](https://technet.microsoft.com/library/hh230746.aspx)
     
 The following links connect you to information about common tasks that are associated with System Center 2007 Monitoring Packs:
   

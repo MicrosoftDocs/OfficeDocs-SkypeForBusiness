@@ -24,20 +24,20 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for India."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for India."
 ---
 
 # Availability in India
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for India.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for India.
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Microsoft doesn’t sell Audio Conferencing in India. TATA Communications offers a dial-in and dial-out service that is compatible with Microsoft Teams Meetings. For more information, please visit [TATA Communications' website](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Chennai<li> Mumbai</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    

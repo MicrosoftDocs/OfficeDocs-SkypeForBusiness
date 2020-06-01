@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business certification program - User and Policy Provisioning"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

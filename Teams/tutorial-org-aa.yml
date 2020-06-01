@@ -2,11 +2,11 @@
 title: Small business example — Set up an Auto Attendant 
 metadata:
   title: Small business example — Set up an Auto Attendant
-  description: For IT admins, plan Auto Attendants across your organization.
+  description: IT administrators can use Phone System in teams to set up Auto Attendants, and automated menu system for incoming calls.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: jambirk
+  ms.author: dstrome
   manager: serdars
   ms.date: 05/16/2019
   ms.reviewer: lolaj
@@ -25,7 +25,7 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. 
     They both require [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and 
     PBX capabilities in the Office 365 cloud. The license is available as an add-on or as part of the Enterprise E5 licenses. 
@@ -315,7 +315,7 @@ items:
     paralegal, and billing Auto Attendants. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
     for more about Call Queues. If you choose to include Call Queues in your design, remember to create a valid Call Queue before you create an Auto Attendant menu that refers to the Call Queue.
 
-    Your account must have Admin privileges. In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ New**. 
+    Your account must have Admin privileges. In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ Add**. 
     The following tables show values to enter in the user interface screens. Each table represents a user interface screen.
     
     Create the following Auto Attendants in the following order and set their general information, then once the main and nested Auto Attendants are all created, edit them to set the 

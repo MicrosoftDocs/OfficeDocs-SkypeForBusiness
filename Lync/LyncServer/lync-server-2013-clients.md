@@ -16,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Clients for Lync Server 2013
 
@@ -76,7 +76,7 @@ Because of the enhancements to Lync Web App, an updated version of Microsoft Lyn
 
 ## Lync 2013 Basic
 
-Lync 2013 Basic is a downloadable client for customers who have a licensed, on-premises Lync Server 2013 deployment and customers who subscribe to a Microsoft Office 365 plan that does not include the full Lync 2013 client. The Lync Basic client includes enhanced presence, contacts, instant messaging (IM), Lync meetings, and basic voice functionality. Features not supported in Lync Basic include multiparty video, OneNote integration, virtual desktop infrastructure (VDI) support, skill search, recording, Enterprise Voice features, and advanced call handling (for example, call forwarding and Team Call). For details, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+Lync 2013 Basic is a downloadable client for customers who have a licensed, on-premises Lync Server 2013 deployment and customers who subscribe to a Microsoft 365 or Office 365 plan that does not include the full Lync 2013 client. The Lync Basic client includes enhanced presence, contacts, instant messaging (IM), Lync meetings, and basic voice functionality. Features not supported in Lync Basic include multiparty video, OneNote integration, virtual desktop infrastructure (VDI) support, skill search, recording, Enterprise Voice features, and advanced call handling (for example, call forwarding and Team Call). For details, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
 </div>
 
@@ -104,7 +104,7 @@ Lync Server 2013 supports the following clients from previous server releases. Y
 
   - **Lync 2010**   Lync 2010 provides a full desktop experience, including IM, enhanced presence, voice, video, sharing, and telephony. However, none of the new features introduced in Lync Server 2013 will be available until the user’s client is upgraded to Lync 2013.
 
-  - **Lync 2010 Mobile**   Lync Server 2013 supports all of the Microsoft Lync 2010 Mobile mobile apps. Microsoft Lync 2010 Mobile provides IM, enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile. You can instruct your users to install Microsoft Lync 2010 Mobile by directing them to the app marketplace for their mobile phone. For details, see “Planning for Mobile Clients” in the Lync Server 2010 documentation at [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955).
+  - **Lync 2010 Mobile**   Lync Server 2013 supports all of the Microsoft Lync 2010 Mobile mobile apps. Microsoft Lync 2010 Mobile provides IM, enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile. You can instruct your users to install Microsoft Lync 2010 Mobile by directing them to the app marketplace for their mobile phone. For details, see “Planning for Mobile Clients” in the Lync Server 2010 documentation at [https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955).
 
   - **Lync Phone Edition**   Lync Phone Edition software for intelligent IP phones (for example, USB-attached phones) has not been updated for Lync Server 2013. Lync Phone Edition continues to be supported in for placing and receiving calls, enhanced presence, and client audio capabilities for conferences.
 

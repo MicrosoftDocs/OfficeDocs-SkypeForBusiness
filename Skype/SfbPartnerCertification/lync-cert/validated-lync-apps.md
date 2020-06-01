@@ -1,14 +1,12 @@
 ---
 title: "Validated Lync Applications"
-ms.author: jambirk
-author: jambirk
+ms.author: v-mapenn
+author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-Robots: 
-- nofollow
-- no index
+ROBOTS: NOINDEX, NOFOLLOW
 ms.service: skype-for-business-online
 ms.collection: Lync
 audience: Admin

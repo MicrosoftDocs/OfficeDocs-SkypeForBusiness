@@ -30,7 +30,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Sign in with your Office 365 global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Sign in with your global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
 2. In the admin center, go to **Admin centers** > **Teams**.
     
@@ -50,7 +50,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
 6. From the **Start Menu**, choose **Windows PowerShell**.
     
-7. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
+7. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
     
    ```PowerShell
    $Credential = get-credential
@@ -81,7 +81,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     > [!TIP]
     > After you make the change, it may take up to an hour to take effect in the Skype Meeting Broadcast portal. 
   
-10. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## Configure your network to broadcast meetings with external attendees
 
