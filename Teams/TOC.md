@@ -704,6 +704,7 @@
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Issues receiving messages and calls on legacy systems](legacy-login-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
