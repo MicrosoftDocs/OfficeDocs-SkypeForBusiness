@@ -17,17 +17,17 @@ description: "Summary: Learn about the virtualization support for Skype for Busi
 
 # Virtualization support for Skype for Business Server 2019
 
-Skype for Business Server 2019 is supported on virtualization when it is deployed in line with the [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936) guidance.
+Skype for Business Server 2019 is supported on virtualization. Follow the deployment criteria in [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).
 
 ## Understand virtualization
 
-While virtualization is supported, there are some key point to remember: 
+While virtualization is supported, there are some key points to remember: 
 
 - Maintain a 1:1 ratio of virtual CPU to physical CPU.
 - Don't move a guest server while it's operating.
 - Migration of a live system and portability of a virtual machine aren't supported.
 - Disable hyper-threading on all hosts.
-- Don't configure dynamic memory or memory overcommitment on host servers.
+- Don't configure dynamic memory on host servers.
 - Use fixed or pass-through disks rather than dynamic disks.
 - Allow for 6-10 percent overhead for hypervisors beyond what the virtual guest requires.
 
