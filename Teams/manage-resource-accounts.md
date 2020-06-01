@@ -207,17 +207,17 @@ The application ID's that you need to use while creating the application instanc
 
 ## Manage resource account settings in the Microsoft Teams admin center
 
-To manage resource account settings in Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change these settings:
+To manage resource account settings in Microsoft Teams admin center, go to **Org-wide settings** > **Resource accounts**, select the resource account you need to change settings for, and then click **Edit**. On the **Edit resource account** pane, you can change these settings:
 
 - **Display name** for the account
 - Call queue or auto attendant that uses the account
 - Phone number assigned to the account
 
-When finished, click on **Save**.
+When finished, click **Save**.
 
 ## Delete a resource account
 
-Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode. You can do that using the following commandlet:
+Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode. You can do that using the following cmdlet:
 
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
