@@ -133,7 +133,7 @@ Next, apply a license to the resource account in the Microsoft 365 admin center,
 
 ### Assign/unassign phone numbers and services
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account,leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
+![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) After you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account,leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
 
 Options for the **Phone number type** are:
 
@@ -156,7 +156,7 @@ To assign a direct routing or hybrid number to a resource account you will need 
 
 ## Change an existing resource account to use a Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to acquire the free Virtual User license, then follow the linked steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+If you decide to switch the licenses on your existing resource account from a Phone System license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account. 
@@ -185,9 +185,9 @@ The application ID's that you need to use while creating the application instanc
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. You will not be able to use the resource account until you apply a license to it. For how to apply a license to an account in the Microsoft 365 admin center, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. You will not be able to use the resource account until you apply a license to it. For how to apply a license to an account in the Microsoft 365 admin center, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) and [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-3. (Optional) Once the correct license is applied to the resource account you can assign a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you did not apply a license to the resource account, the phone number assignment will fail.
+3. (Optional) After the correct license is applied to the resource account, you can assign a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you didn't apply a license to the resource account, the phone number assignment will fail.
 
    ``` Powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
@@ -223,7 +223,7 @@ Make sure you dissociate the telephone number from the resource account before d
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-Once you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.
+After you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.
 
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
