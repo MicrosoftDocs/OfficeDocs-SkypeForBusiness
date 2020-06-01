@@ -43,8 +43,8 @@ The following phones are Certified for Microsoft Teams:
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | March 2019|
 |Audiocodes C448HD (CAP mode only) | C450HD_TEAMS_0.225 | March 2019|
-|Crestron M100|2.3875.00068|December 2018|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
+|Crestron M100| This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020|
+|Crestron Flex UC-P100-T & UC-P110-T  | This product has been discontinued. For more information, visit [UC Phone]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website. |Discontinued as of 5/11/2020|
 |Lenovo ThinkSmart View|CD-18781Y.200410.067|April 2020|
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
@@ -60,13 +60,13 @@ The following phones are Certified for Microsoft Teams:
 
 The following Collaboration bars are Certified for Microsoft Teams:
 
-|Collaboration bar Model|Firmware Version|Release Date |
-|:---|:---|:---|
-|Yealink VC210| 118.15.0.14|February 2020|
+|Collaboration Bar Model|Firmware Version|Release Date |Room Size (up to)|
+|:---|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|February 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
 
-See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
-See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
+See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
 Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
@@ -82,4 +82,4 @@ Learn about [Skype for Business and Microsoft Teams certification programs](http
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams and Skype interoperability](teams-skype-interop.md)
+[Teams and Skype interoperability](../teams-skype-interop.md)
