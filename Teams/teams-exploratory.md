@@ -158,3 +158,10 @@ The Microsoft Teams Exploratory experience is available at no additional cost un
 ### What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?
 
 Microsoft Teams Exploratory experience licenses initiated within 90 days of your **agreement anniversary** or **renewal** will not be required to move to a paid license until the subsequent anniversary or renewal cycle. 
+
+### What if my agreement doesn’t have an anniversary or yearly renewal date (for example, month-to-month agreements)?
+
+For agreements without an anniversary or yearly renewal date, the subsequent year after the first end user activates the Microsoft Teams Exploratory experience licenses will be treated as the anniversary or renewal date. Users on the Microsoft Teams Exploratory license must be converted to a paid license by that date each year, according to the policies outlined above.
+
+For example, if the first end user activates Microsoft Teams Exploratory on June 19, 2020, then they and all other eligible users in the customer tenant must convert to a paid license with Teams by June 19, 2021. 
+
