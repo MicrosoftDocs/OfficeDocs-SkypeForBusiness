@@ -68,11 +68,27 @@ To view the FirstlineWorker policy, in the left navigation of the Microsoft Team
 
 ![Screenshot of the FirstlineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FirstlineWorker app setup policy in the Microsoft Teams admin center")
 
-#### Assign the FirstlineWorker policy to individual users
+#### Assign the FirstlineWorker policy to users
+
+To assign the FirstlineWorker app setup policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Next to **Assigned policies**, choose **Edit**.
-3. Under **Teams App Setup policy**, select **FirstlineWorker**, and then choose **Save**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Under **App setup policy**, select **FirstlineWorker**, and then click **Apply**.
+
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, under **App setup policy**, select **FirstlineWorker**, and then click **Apply**.  
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
+2. Select the FirstlineWorker policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. After you finish adding users, select **Apply**.
 
 #### Assign the FirstlineWorker app setup policy to user members of a group
 
@@ -97,5 +113,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
+## Search the audit log for Shifts events
+
+**(in preview)**
+
+You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
+
+Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
+
 ## Related topics
+
 - [Shifts Help for Firstline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Assign policies to your users in Teams](../../assign-policies.md)
