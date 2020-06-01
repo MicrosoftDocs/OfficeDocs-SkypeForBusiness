@@ -137,9 +137,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported</p></li>
 <li><p>Data Loss Prevention policies (DLP) are available</p></li>
 </ul>
-<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a></p>
-<p>for full list</p></td>
+<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a> for full list.</p></td>
 </tr>
 </tbody>
 </table>
@@ -238,8 +236,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     [Get clients for Teams](get-clients.md)
 
 5.   Drive your adoption program  
-    [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams adoption quick start checklist](teams-adoption-quick-start-checklist.md)
 
 6.  Begin planning moving other workloads to Office 365
