@@ -223,7 +223,7 @@ Make sure you dissociate the telephone number from the resource account before d
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-Once you do that, you can delete the resource account in the Microsoft 365 admin center, under Users tab.
+Once you do that, you can delete the resource account in the Microsoft 365 admin center, under the Users tab.
 
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
