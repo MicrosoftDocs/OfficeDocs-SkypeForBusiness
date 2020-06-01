@@ -46,8 +46,6 @@ Raise your hand is visible to all meeting participants and indicated by a hand i
 
 - The raised hand is displayed as yellow adjacent to a participant's name. 
 
-- A raised hand is visible either in the roster or meeting stage, depending on what is currently being shared in the meeting.
-
 ## Raise your hand settings 
 
 Participants and presenters can take advantage of several raise your hand settings: 
