@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Learn about the raise your hand feature in Microsoft Teams meetings. 
 ---
 
-# Raise your hand in Teams meetings
+# Raise your hand option in Teams meetings
 
 During a Microsoft Teams meeting, a participant might have a question. To get the speaker's and moderator's attention, a participant can use the raise your hand option to ask a question. A meeting moderator might want to take a quick poll, and the raised hand can be used to count the meeting participants' responses. 
 
@@ -44,7 +44,7 @@ Raise your hand is visible to all meeting participants and indicated by a hand i
 
 - The raised hand animates to draw attention.
 
-- A yellow shade is shown on a participant who raises the hand. 
+- The raised hand is displayed as yellow adjacent to a participant's name. 
 
 - A raised hand is visible either in the roster or meeting stage, depending on what is currently being shared in the meeting.
 
@@ -62,7 +62,7 @@ Participants and presenters can take advantage of several raise your hand settin
 
 <sup>1</sup> Raise your hand remains raised until it is lowered by participant, presenter, or organizer.
 
-<sup>2</sup> A participant is notified by audio if the raise your hand was lowered for them.
+<sup>2</sup> A participant is notified by audio if the raised hand was lowered for them.
 
 ## Related article
 [Raise your hand in a Teams meeting](https://support.office.com/en-us/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)
