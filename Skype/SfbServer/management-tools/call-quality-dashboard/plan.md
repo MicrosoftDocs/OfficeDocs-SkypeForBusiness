@@ -291,15 +291,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 The following versions of SQL Server are supported:
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (Skype for Business Server 2019 CQD only)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   

@@ -16,7 +16,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 
+description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Transfer phone numbers to Microsoft Teams
@@ -33,7 +34,7 @@ Before you start, we recommend that you review the information in [What's a port
 ## Create a port order and transfer your phone numbers to Teams
 
 > [!NOTE]
-> **Currently, you can use this wizard to get phone numbers for the United Kingdom and Canada**. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md). To get the form you need to manually submit a port order, select your country or region in the drop-down list in [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> **Currently, you can use this wizard to get phone numbers for the United Kingdom, United States, and Canada**. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md). To get the form you need to manually submit a port order, select your country or region in the drop-down list in [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Click **Numbers**, and then click **Port** to start the porting wizard.
 2. Review the information on the **Get started** page, and then when you're ready, click **Next**.
@@ -82,7 +83,7 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## What happens next?
 
-When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your request is rejected, you'll be asked to open a support ticket.
+When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your port request is rejected by the losing carrier, contact the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 

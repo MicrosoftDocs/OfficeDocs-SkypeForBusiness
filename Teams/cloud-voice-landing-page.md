@@ -15,8 +15,9 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+  - seo-marvel-apr2020
 search.appverid: MET150
-description: Landing page to deploying cloud voice in Teams
+description: Learn more about the Cloud voice feature, and understand the necessary deployment decisions that you will face.
 appliesto: 
   - Microsoft Teams
 ---
@@ -51,7 +52,7 @@ These are the settings that most organizations want to change (if the Teams defa
 
 ## Phone System (Office 365)
 
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company's cloud productivity experience.
 
 
 |Ask yourself|Action |
@@ -84,7 +85,7 @@ You may want to change settings for the following, based on your organization's 
 
 ### Voicemail
 
-Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
+Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn't support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
 
 |Ask yourself|Action |
 |:------------|:-------|
@@ -145,7 +146,7 @@ Cloud auto attendants can be used to create a menu system for your organization 
 
 For more information about supported devices, see the following:
 
-- [Manage your devices in Microsoft Teams](device-management.md)
+- [Manage your devices in Microsoft Teams](devices/device-management.md)
 - [IP Phones](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Intelligent communications for devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)

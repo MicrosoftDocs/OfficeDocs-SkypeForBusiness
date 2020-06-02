@@ -13,7 +13,8 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
-description: "This article explains the infrastructure preparations for deploying Microsoft Teams Rooms."
+description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
+ms.custom: seo-marvel-apr2020
 ---
  
 # Prepare your environment
@@ -105,7 +106,7 @@ To use this application, you must be able to connect to the endpoints described 
 |Purpose|Source or Credentials|Source Port|Destination|CDN|ExpressRoute for Office 365|Destination IP|Destination Port|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentication and identity  <br/> |See [Office 365 authentication and identity](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portal and shared  <br/> |See [Office 365 portal and shared](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Portal and shared  <br/> |See [Microsoft 365 admin center and shared](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP Signaling  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Persistent Shared Object Model (PSOM) connections web conferencing  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS downloads  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -153,7 +154,7 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
   
  If you would like to rename the computer after joining it to a domain, use the Rename-Computer PowerShell command followed by the computer's new name.
   
-## See also
+## Related topics
 
 [Plan Microsoft Teams Rooms](rooms-plan.md)
 

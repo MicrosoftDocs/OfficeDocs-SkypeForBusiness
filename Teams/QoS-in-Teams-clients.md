@@ -7,7 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Implement Quality of Service (QoS) for  Microsoft Teams clients.
+description: Learn how to prepare the network for your organization for Quality of Service (QoS) in Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,6 +17,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Implement Quality of Service (QoS) in Microsoft Teams clients
@@ -57,7 +59,7 @@ To create a QoS audio policy for domain-joined Windows 10 computers, first log o
 
 1. Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
 
-The new policies you’ve created won’t take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
+The new policies you've created won't take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
 
 1. On each computer for which you want to refresh Group Policy, open a Command Prompt as administrator (*Run as administrator*).
 
@@ -111,4 +113,4 @@ To verify that the values from the Group Policy object have been set, perform th
    |     Throttle Rate      | REG_SZ |     -1      |
    | | | |
 
-1. Verify that the value for the Application Name entry is correct for the client you’re using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
+1. Verify that the value for the Application Name entry is correct for the client you're using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.

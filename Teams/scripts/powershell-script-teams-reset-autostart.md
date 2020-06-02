@@ -11,6 +11,7 @@ description: Use this PowerShell script to reset the autostart setting in Teams 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -144,4 +145,4 @@ if($null -eq $teamsProc) {
 ## Related topics
 
 - [Install Teams using MSI](../msi-deployment.md)
-- [Deploy Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install)
+- [Deploy Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install)

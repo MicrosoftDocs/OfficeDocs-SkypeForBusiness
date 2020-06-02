@@ -1,5 +1,5 @@
 ---
-title: Choose a path to your organization-wide rollout of Microsoft Teams
+title: Choose a path to your organization-wide rollout
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Know where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
+description: Once you've set up your first teams, learn where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -17,6 +18,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Choose a path to your organization-wide rollout of Microsoft Teams

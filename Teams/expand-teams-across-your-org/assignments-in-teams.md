@@ -35,7 +35,6 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
@@ -43,19 +42,20 @@ This setting is off by default.
 
 <a name="bkmakecode"> </a>
 ### MakeCode
-MakeCode is a block-based coding platform that brings computer science to life for all students. 
+Microsoft MakeCode is a block-based coding platform that brings computer science to life for all students. 
 
-This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
+MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
-This setting is off by default.
+This setting is off by default. To enable MakeCode assignments in Teams, in the **Teams Admin Center**, navigate to the **Assignments** section and turn the MakeCode toggle option to **On**. Click **Save** and allow a few hours for these settings to take effect.
 
-[Learn more about MakeCode](https://www.microsoft.com/makecode)
+For more information on how this feature works, see this [video demonstration](https://makecode.com/blog/teams/teams-assignments).
+
+[Learn more about MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
+Turnitin is a plagiarism detection service. This is a third-party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third-party products and services.
 
 This setting is off by default.
 
@@ -72,12 +72,12 @@ Example. `https://your-tenant-name.turnitin.com`
 The admin console is where you can create an integration and an API key associated with the integration.
 
 Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
-![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
+![Screenshot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
 
 The TurnitinApiKey will be given to you after you follow the prompts. 
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
-![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
+![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
-Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
+Upon clicking the **Save** button in the admin center for this setting, please allow a few hours for these settings to take effect.
 
 Ready to start using the Turnitin integration in Teams? Sign up for the [early access program](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

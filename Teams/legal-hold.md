@@ -54,7 +54,7 @@ As a helpful guide, you can use the table below to understand what needs to be p
 |Scenario  |What to place on hold  |
 |---------|---------|
 |**Microsoft Teams chat content by a user (on 1:1 chats, 1:many or group chats, private channel conversations, etc.)**     |User mailbox         |
-|**Microsoft Teams Channel chats (excluding private channels**    |Group mailbox used for the team         |
+|**Microsoft Teams Channel chats (excluding private channels)**    |Group mailbox used for the team         |
 |**Microsoft Teams content (e.g. Wiki, Files)**     |SharePoint site used by the team         |
 |**Microsoft Teams Private Channel files**     |Dedicated Private Channel SharePoint Site     |
 |**User's private content**     |OneDrive for Business site of the user         |

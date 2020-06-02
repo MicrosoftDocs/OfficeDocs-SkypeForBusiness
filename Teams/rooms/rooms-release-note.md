@@ -12,7 +12,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
-description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
+description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Release notes
@@ -23,6 +24,9 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.4.41.0 |05/06/2020 |
+|4.4.25.0 |03/31/2020 |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -54,6 +58,28 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.4.41.0 (05/06/2020)
+
+Introduced in this update:
+- Reliability fixes for application start in Windows 10 Kiosk
+
+### 4.4.25.0 (03/31/2020)
+
+Introduced in this update:
+
+- Modern authentication support for Exchange and Skype for Business
+- Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)
+- Ability to disable duplicate content out of meeting for dual displays rooms using XML
+- Application splash screen
+- Open Source Software (OSS) notices in device settings
+
+### 4.3.42.0 (03/02/2020)
+
+Introduced in this update:
+
+- Policy updates for "Windows Updates for Business" 
+- Fix for device events reporting showing error in Azure Monitor
 
 ### 4.3.33.0 (1/10/2020)
 
@@ -322,7 +348,7 @@ Introduced in this update:
 
 [Support for Microsoft Teams Rooms Current Branch versions](rooms-lifecycle-support.md)
 
-[Known issues for Microsoft Teams Rooms](known-issues.md)
+[Support Teams in your organization](known-issues.md)
 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 

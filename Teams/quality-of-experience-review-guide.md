@@ -16,6 +16,8 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: 
+  - seo-marvel-mar2020
 ---
 
 #  Use CQD to manage call and meeting quality in Microsoft Teams 
@@ -77,6 +79,29 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 </tbody>
 </table>
 
+_Figure 1 - Key operational areas covered throughout this guide_
+
+By continually assessing and remediating the areas described in this guide, you can reduce their potential to negatively affect the quality of your users' experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+
+-   Incomplete firewall or proxy configuration
+-   Poor Wi-Fi coverage
+-   Insufficient bandwidth
+-   VPN
+-   Inconsistent or outdated client versions and drivers
+-   Unoptimized or built-in audio devices
+-   Problematic subnets or network devices
+
+Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
+
+This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+
+To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
+
+### Intended audience
+
+This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
+
+This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 
 ## What is quality?
@@ -95,10 +120,15 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 #### Poor Stream Rate
 
-The poor stream rate (PSR) indicates the organization's overall percentage of streams that have poor quality. Reducing PSR will improve the user experience. This is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs by organization. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
+The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
 The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To…" measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
+> [!Note]
+> CQD provides the "Poor Due To…" measurements to better understand what condition caused the stream to be classified as poor.
+
+
+_Table 1 - Audio poor quality metrics_
 
 | Metric average     | Description     | User experience |
 |-------------|-----------------|-----------------|
@@ -413,6 +443,7 @@ Certain CQD reports have dashboard-level filters added to them, making it easy t
 ### URL filters
 
 CQD supports adding filters to the URL. This makes it easy to share or bookmark a CQD query. You can define parameters in the URL, such as Trending Month, tenant ID, or language. You can also add Product or Dashboard level filters to the URL.
+Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
 
 To add a filter, append the following to the end of the URL:
 
@@ -444,6 +475,12 @@ If you specify an invalid name or value, the URL filter won't be applied.
 
 
 You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business Online. Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
+
+| Filter         | Description          | CQD query filter example      |
+|----------------|----------------------|-------------------------------|
+| No blank values   | Some filters don't have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.      | Second Building Name \<\> \^\\s\*\$                       |
+| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT's control and can be quickly excluded from a report. Common subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
+| View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
 
 
 #### How to find your tenant ID
@@ -500,7 +537,7 @@ The format of the data file you upload must meet the following requirements to p
 
 -   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
 
--   There must be 14 columns for each row. Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+-   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
 
 | Column name        | Data type | Example                   | Guidance    |
 |--------------------|-----------|---------------------------|-------------|
@@ -518,6 +555,7 @@ The format of the data file you upload must meet the following requirements to p
 | Region             | String    | MSUS                      | Recommended |
 | InsideCorp         | Bool      | 1                         | Required    |
 | ExpressRoute       | Bool      | 0                         | Required    |
+| VPN                | Bool      | 0                         | Optional    |
 
 \*While not required by CQD, the templates are configured to display Building and Network name.
 
@@ -556,11 +594,11 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 - Define a **Network Name** by using the text "VPN" in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
 - Define a **Building Name** by using the text "VPN" in this field for VPN subnets.
 
-  ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
 > [!IMPORTANT]
 > Certain VPN implementations don't accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
@@ -575,11 +613,11 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 1. In CQD, select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
 2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
@@ -964,7 +1002,7 @@ It's also important to consider and ensure that the network, video, USB, and aud
 Version numbers for Skype for Business can be found via the links below:
 
 -   [Release information for updates to Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Update history for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business downloads and updates](/SkypeForBusiness/software-updates)
 
 ### Devices

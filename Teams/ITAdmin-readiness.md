@@ -1,5 +1,5 @@
 ---
-title: Admin training for Microsoft Teams
+title: Admin training resources - Microsoft Teams
 ms.reviewer: 
 author: LanaChin
 ms.author: v-lanac
@@ -10,16 +10,18 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ---
-# Admin training for Microsoft Teams
+# Getting started with admin training for Microsoft Teams
 
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content. 
@@ -62,7 +64,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -98,7 +100,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Dynamic emergency calling | [Video](https://aka.ms/teams-dec) |  [Deck](https://aka.ms/teams-dec-deck) |
 | Live Events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
-| Direct Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
+| Direct Routing | [Video 1: Planning for Direct Routing in Teams ](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Quick start guides</h2>

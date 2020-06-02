@@ -1,5 +1,5 @@
 ---
-title: Plan to move your StaffHub teams to Shifts in Microsoft Teams
+title: Plan to move your StaffHub teams to Shifts
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Get guidance on how to plan to move your StaffHub teams to Shifts in Microsoft Teams.
+description: Use this timeline to help your organization's transition from StaffHub teams to Shifts in Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +18,13 @@ ms.collection:
   - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Plan to move your StaffHub teams to Shifts in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md). 
+> Effective June 30, 2020, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on June 30, 2020. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md). 
 
 Making the transition from StaffHub to Teams begins when you start planning for the change. To help ensure your move to Teams is successful, we've created a sample  timeline that demonstrates a typical transition plan. The sample timeline outlines planning activities to prepare for the move and takes you through to moving your organization's StaffHub teams to Teams.
 
@@ -34,7 +36,7 @@ Use the timeline as guidance for planning your move from StaffHub to Teams and c
 |---------|---------|---------|
 |1    |Prepare and identify stakeholders         |         |
 |2     |Review the documentation on the transition from StaffHub to Teams and Teams onboarding         |[StaffHub to be retired](microsoft-staffhub-to-be-retired.md)<br><br>[Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Get started with Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |Enable Office 365 Groups for your organization        |[Office 365 Groups and Teams](../../Office-365-groups.md)      |
+|3    |Enable Microsoft 365 Groups for your organization        |[Microsoft 365 Groups and Teams](../../Office-365-groups.md)      |
 |4    |Make sure prerequisites are met         |[Check that prerequisites are met](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Assign Teams licenses to StaffHub users in your organization|[Assign Teams licenses](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Manage user access to Teams](../../user-access.md)      |
 |6    |Install the StaffHub PowerShell module        |[Install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md)        |

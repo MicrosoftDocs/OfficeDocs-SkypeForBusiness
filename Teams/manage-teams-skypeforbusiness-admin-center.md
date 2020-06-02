@@ -1,5 +1,5 @@
 ---
-title: Manage Teams during the transition to the new Microsoft Teams admin center
+title: Manage Teams transitioning to the new Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,13 +8,14 @@ audience: admin
 ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
-description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Microsoft 365 admin center to the new Microsoft Teams admin center.
+description: Learn how to manage tenant-wide and user settings for Teams during the transition from Teams in the Microsoft 365 admin center to the new Teams admin center.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
   - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+  - seo-marvel-mar2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -30,7 +31,7 @@ Manage Teams during the transition to the new Microsoft Teams admin center
 
 ## What is the new Microsoft Teams admin center?  
 
-The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
+The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We're delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ![Screenshot of the Microsoft Teams admin center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -41,11 +42,12 @@ The following table identifies the sections of the Teams experience that have be
 |Section of Teams in Microsoft 365 admin center  |Setting name (Tenant level)  |Microsoft Teams admin center policy   |Level: Tenant or User   |
 |---------|---------|---------|---------|
 |General     |Show organizational chart in personal profile        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Tenant       |
-|General     |Use Skype for Business for recipients who don’t have Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|General     |Use Skype for Business for recipients who don't have Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Email integration     |Allow users to send emails to channels         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Email integration     |Allow senders list         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Tenant         |
 |Custom cloud storage     |Box         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|Custom cloud storage     |Egnyte (coming soon)        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated<sup>1</sup>        |         |
@@ -81,7 +83,7 @@ The following table identifies the sections of the Teams experience that have be
 <sup>3</sup> Default apps and external apps can be enabled and disabled at the user level in TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
 
 > [!NOTE]
-> You’ll continue to use the Groups dashboard in the Microsoft 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Microsoft 365 admin center and will be migrated later. 
+> You'll continue to use the Groups dashboard in the Microsoft 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Microsoft 365 admin center and will be migrated later. 
 
 ## Manage settings during the migration
 
@@ -108,4 +110,4 @@ The following table shows where you can manage features during the migration.
 
 ## Manage settings after the migration
 
-When the migration of these settings is complete, we’ll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
+When the migration of these settings is complete, we'll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.

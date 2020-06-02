@@ -15,11 +15,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn about what Phone System can do for you."
+  - seo-marvel-apr2020
+description: "In this article, you will learn about the Phone System technology in Microsoft Office 365."
 ---
 
 # What is Phone System in Office 365?

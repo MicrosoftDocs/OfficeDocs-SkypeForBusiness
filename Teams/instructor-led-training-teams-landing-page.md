@@ -1,10 +1,10 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Instructor-led training and videos for Microsoft Teams users
+title: Instructor-led training and videos for users
 ms.reviewer: dearbeen
 manager: serdars
-description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -12,15 +12,20 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+search.appverid: MET150
+ms.custom: 
+ - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 ---
 
 <div id="main" class="v2">
     <div class="container">
         <h1>Instructor-led training for Microsoft Teams</h1>
-           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams.  Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that’s right for you. Not sure where to begin? Take our <a href="https://aka.ms/TeamsKnowledgeCheck">Teams knowledge check</a>. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our <a href="https://aka.ms/TeamsOnDemand">on-demand end-user training</a>.<br><br>Click a session below to sign up.
+           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams.  Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Not sure where to begin? Take our <a href="https://aka.ms/TeamsKnowledgeCheck">Teams knowledge check</a>. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our <a href="https://aka.ms/TeamsOnDemand">on-demand end-user training</a>.<br><br>Click a session below to sign up.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -89,6 +94,26 @@ ms.collection:
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/teamschannels"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Explore teams and channels in Teams</h3>
+                        <p>Learn how you can streamline your project and workgroup collaboration.</p>
+                        <p><i>Audience: End users</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -149,6 +174,26 @@ ms.collection:
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-teams.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Master working from home with Teams</h3>
+                        <p><strong><font color="#4B53BC">NEW!</font></strong> Learn best practices for staying connected to your team and maintaining productivity.</p>
+                        <p><i>Audience: End users, team and department managers</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+    <li>
         <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -168,27 +213,9 @@ ms.collection:
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Empower your Firstline Workers with Teams</h3>
-                        <p>Learn how Teams enables digital transformation that brings limitless potential to your entire workforce.</p>
-                        <p><i>Audience: Business decision makers, IT decision makers</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>        </ul>
+        </ul>
         </li>
     </ul>
     </div>
 </div> 
+ 

@@ -80,7 +80,7 @@ Now, the domain functional level of any domain you deploy Skype for Business Ser
     
 - Windows Server 2003
     
-Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controller available.
+Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controllers available at the same site as the Skype for Business Server.
   
 Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
   
@@ -163,11 +163,11 @@ In this topology, there are one or more user forests, and Skype for Business Ser
 #### Multiple forests in a resource forest topology with Skype for Business Online and Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Office 365 using Azure AD Connect. All users are enabled for Skype for Business via Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Microsoft 365 or Office 365 using Azure AD Connect. All users are enabled for Skype for Business via Microsoft 365 or Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Office 365.
+With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Microsoft 365 or Office 365.
   
- The organization also has Office 365, and uses [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Microsoft 365 or Office 365, and uses [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) to synchronize their on-premises accounts with Microsoft 365 or Office 365. Users who are enabled for Skype for Business are enabled via Microsoft 365 or Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   
@@ -369,4 +369,3 @@ Skype for Business Server 2015 is able to use the same file share for all file s
 > [!CAUTION] 
 > You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 
   
-

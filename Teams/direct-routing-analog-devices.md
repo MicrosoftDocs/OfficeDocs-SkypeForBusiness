@@ -34,16 +34,17 @@ To configure the use of analog devices with Direct Routing, you must connect the
 
 This example walks you through the following steps:
 
-1. Connect the SBC to Direct Routing
-2. Create the PSTN Usage
-3. Create a voice route and associate it with the PSTN Usage
-4. Assign the voice route to the PSTN Usage
-5. Enable the online user
-6. Assign the voice route policy to the user
-7. Assign a voice route policy to an analog device
+1. Connect the SBC to Direct Routing.
+2. Create the PSTN Usage.
+3. Create a voice route and associate it with the PSTN Usage.
+4. Assign the voice route to the PSTN Usage.
+5. Enable the online user.
+6. Assign the voice route policy to the user.
+7. Create a voice route for an analog device.
 
 For information on how to connect an ATA to an SBC and configure the SBC, see your SBC manufacturer configuration guide:
 - [AudioCodes configuration documentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Ribbon configuration documentation](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## Step 1.  Connect the SBC to Direct Routing
 
@@ -99,7 +100,7 @@ This command assigns the per-user online voice routing policy AnalogInteropPolic
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## Step 7:  Assign a voice route to an analog device
+## Step 7:  Create a voice route for an analog device
 
 This command creates an online voice route with identity “analog-interop” for number range +1425 4XX XX XX applicable to a list of online gateways sbc.contoso.com and associates it with online PSTN usage “Interop”.  This command should be run for each analog device with appropriate phone number pattern. Alternatively, a proper number pattern for analog devices can be used while configuring the online voice route during one of the previous steps.
 

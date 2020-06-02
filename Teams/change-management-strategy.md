@@ -1,5 +1,5 @@
 ---
-title: Create a change management strategy for Microsoft Teams
+title: Create a change management strategy
 ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,9 +11,10 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn to create a change management strategy for Microsoft Teams through the identification of key stakeholders, business outcomes, success measures, and management of your campaign.
+description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 Create a change management strategy for Microsoft Teams
@@ -58,7 +59,7 @@ The first rule of a successful adoption is to create a dynamic team comprised of
 |![Service Owners icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Service Owners** are responsible for ensuring people use the service and get value from it. Setting Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.         |
 |![Champions icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Gaining buy-in from every user across an organization is a challenge. **Champions** can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.         |
 
-We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a “collaboration council” to allow for feedback and discussion can be a useful tool depending on your corporate culture.
+We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a "collaboration council" to allow for feedback and discussion can be a useful tool depending on your corporate culture.
 
 
 
@@ -139,9 +140,9 @@ As with any communications & adoption campaign you will want to identify your su
 Measure and share success
 -------------------------------------------------
 
-On your project team should be IT administrators from your organization. These individuals will have access to the Office 365 Microsoft Teams usage reports that are built into the Office 365 Admin portal experience. This information can show the usage of Microsoft Teams in your company. We also recommend getting feedback directly from your users about their experience of Teams and additional ideas they have for use. Sharing these real world examples from within your own company is extremely valuable to landing sustained change over time with your user community.  
+On your project team should be IT administrators from your organization. These individuals will have access to the Office 365 Microsoft Teams usage reports that are built into the Microsoft 365 admin center experience. This information can show the usage of Microsoft Teams in your company. We also recommend getting feedback directly from your users about their experience of Teams and additional ideas they have for use. Sharing these real world examples from within your own company is extremely valuable to landing sustained change over time with your user community.  
 
-Learn more about the Microsoft Teams usage reports in the Office 365 Admin portal [here](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center [here](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > Use your public team or Yammer community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  

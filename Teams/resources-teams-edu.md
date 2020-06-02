@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: Lists Teams resources that are helpful to Teams for Education admins.
+description: Education admins can learn about the resources available in Microsoft Teams to enable remote learning.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,10 +17,15 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Microsoft Teams resources for Education admins
 ==============================================
+
+## Resources for remote learning
+
+Does your school or university need to enable Microsoft Teams for remote learning? Get up and running quickly with the [Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any of the below adoption materials!
 
 ## Adoption content
 
@@ -34,6 +39,7 @@ Please read the [terms and conditions](https://github.com/MicrosoftDocs/OfficeDo
 |---------|---------|
 |Posters - [customizable](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) and [print-ready](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Screenshot of a poster](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Screenshot of a handout](media/edu-adoption-handouts.png)|
 |[Flyers](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Screenshot of a flyer](media/edu-adoption-flyers.png)   |[Book adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Screenshot of a book advert](media/edu-adoption-book-adverts.png)         |
+|[Tips and Tricks booklet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Screenshot](media/edu-adoption-get-started.png)    |
 
 ### Digital assets
 

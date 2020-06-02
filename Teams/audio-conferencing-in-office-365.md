@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing in Office 365"
+title: "Audio Conferencing in Microsoft 365"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,9 +22,11 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
+  - seo-marvel-apr2020
+description: Learn about how Audio Conferencing in Office 365 allows users call in to meetings from their phones.
 ---
 
-# Audio Conferencing in Office 365
+# Audio Conferencing in Microsoft 365
 Audio Conferencing in Office 365 lets users call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
 
 ## What is Audio Conferencing?
@@ -62,7 +64,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers. You will need to get a service phone number for these.
   
- **Shared phone numbers** are those phone numbers that can be shared with other Office 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
+ **Shared phone numbers** are those phone numbers that can be shared with other Microsoft 365 or Office 365s. You can't change the languages that are used when someone calls in to one of these numbers.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
 

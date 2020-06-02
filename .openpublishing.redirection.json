@@ -2,6 +2,61 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/edit-user-settings-in-bulk.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-policies", 
+      "redirect_document_id": true
+      },    
+    {
+      "source_path": "Teams/office-365-licensing.md", 
+      "redirect_url": "https://docs.microsoft.com/office365/servicedescriptions/teams-service-description", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/assign-teams-licenses.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-business-premium.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-premium-pro-plus.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e1-e3.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },       
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "Teams/teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/manage-your-lob-apps.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-your-custom-apps", 
+      "redirect_document_id": true
+      },     
+    {
+      "source_path": "Teams/teams-analytics-and-reports/cross-team-per-team-analytics.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-analytics-and-reports/view-analytics", 
+      "redirect_document_id": true
+      },    
+    {
       "source_path": "Teams/tenant-apps-catalog-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-apps", 
       "redirect_document_id": true
@@ -399,7 +454,7 @@
     {
       "source_path": "Teams/prepare-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/prepare-network", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md",
@@ -1799,6 +1854,41 @@
         {
         "source_path": "Teams/add-bots.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots",
+        "redirect_document_id": false
+      },
+    {
+        "source_path": "Teams/audio-conferencing-videos.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365",
+        "redirect_document_id": true
+      },
+    {
+        "source_path": "Teams/enduser-training.md",
+        "redirect_url": "https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/Microsoft-Teams.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/",
+        "redirect_document_id": false
+      },    
+      {
+        "source_path": "Teams/device-management.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/phones-for-teams.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/phones-for-teams",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/teams-ip-phones.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones",
+        "redirect_document_id": true
+      },    
+      {
+        "source_path": "Teams/devices/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
         "redirect_document_id": false
       }
   ] 

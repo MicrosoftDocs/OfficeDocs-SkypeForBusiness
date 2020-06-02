@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn about Dynamic team membership based on AAD.
+description: Learn how Microsoft Teams supports teams associated with Office 365 groups by using dynamic membership.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -20,7 +21,7 @@ appliesto:
 
 # Overview of dynamic membership for teams
 
-Microsoft Teams supports teams associated with Office 365 groups by using *dynamic membership*. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (Azure AD). Users are automatically added or removed to the correct teams as user attributes change or users join and leave the tenant.
+Microsoft Teams supports teams associated with Microsoft 365 groups by using *dynamic membership*. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (Azure AD). Users are automatically added or removed to the correct teams as user attributes change or users join and leave the tenant.
 
 With dynamic membership you can set up teams for certain cohorts of users in your organization. Possible scenarios include:
 - A hospital can create distinct teams for nurses, doctors, and surgeons to broadcast communications. This is especially important if the hospital relies on temp employees.
@@ -35,7 +36,7 @@ Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect
 > - Rules can define who is a team member, but not who is a team owner.
 > - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on team and channel sizes.
 > - Owners will not be able to add or remove users as members of the team, since members are defined by dynamic group rules.
-> -	Members will not be able to leave teams backed by dynamic groups.
+> -    Members will not be able to leave teams backed by dynamic groups.
 
 
 ## Creating and managing an Office 365 group with dynamic membership
@@ -43,7 +44,7 @@ While logged in as the tenant admin, follow the instructions in [Create a dynami
 
 ## Create a new team with your O365 group
 
-Now allow time for the membership changes to take effect, and create a new team  as described in [Enhance Existing Office 365 groups with Microsoft Teams](enhance-office-365-groups.md).
+Now allow time for the membership changes to take effect, and create a new team  as described in [Enhance Existing Microsoft 365 groups with Microsoft Teams](enhance-office-365-groups.md).
 
 ## Apply dynamic membership to an existing team
 

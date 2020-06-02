@@ -1,5 +1,5 @@
 ---
-title: Manage custom app policies and settings in Microsoft Teams
+title: Manage custom app policies and settings
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -22,6 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.allowsideloading
   - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
   - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - seo-marvel-mar2020
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
@@ -30,7 +31,7 @@ ms.custom:
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  After you edit the custom app policy, it can take up to 24 hours for changes to take effect.
+As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  After you edit the custom app policy, it can take a few hours for changes to take effect. You must be a global admin or Teams service admin to manage these policies.
 
 ## Overview of custom apps
 

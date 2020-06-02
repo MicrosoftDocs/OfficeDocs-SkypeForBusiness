@@ -26,7 +26,7 @@ ms.custom:
 
 # Manage app permission policies in Microsoft Teams
 
-As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users who have the policy are unable to install it from the Teams app store.
+As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users who have the policy are unable to install it from the Teams app store. You must be a global admin or Teams service admin to manage these policies.
 
 You manage app permission policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies to individual users or users in a group.  
 
@@ -77,15 +77,21 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Assign a custom app permission policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to groups of users, such as all users in a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to users in a group, such as all users in a security group or distribution group.
 
-### Assign a custom app permission policy to a user
+### Assign a custom app permission policy to users
+
+To assign a policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Under **App permission policy**, select the app permission policy you want to assign, and then click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -144,6 +150,9 @@ To enable a third-party app for a user or a set of users in your organization, d
 
 ### Working with app permission policies
 
+#### What app interactions do permission policies affect?
+Permission policies govern app usage by controlling installation, discovery, and interaction for end users. Admins can still manage apps in the Microsoft Teams admin center regardless of the permission policies assigned to them.
+
 #### Can I control line of business (LOB) apps?
 Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps. You can create a custom policy or edit the global policy to allow or block custom apps based on the needs of your organization.
 
@@ -183,3 +192,4 @@ For app permission policies assigned to specific users, if an app with bot or co
 ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
+- [Assign policies to your users in Teams](assign-policies.md)
