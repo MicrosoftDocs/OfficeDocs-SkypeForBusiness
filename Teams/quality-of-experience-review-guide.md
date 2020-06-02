@@ -22,11 +22,24 @@ ms.custom:
 
 #  Use CQD to manage call and meeting quality in Microsoft Teams 
 
-This article will help you - the Teams admin or support and helpdesk engineer - develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio-quality scenarios because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
+This article will help you - the Teams admin or support and helpdesk engineer - to develop a process for monitoring and maintaining call and meeting quality for your organization by using Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio-quality scenarios because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
+**SIUNIE - ARE THESE QER TEMPLATES STILL RELEVANT?**
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
 This article assumes that you've already [set up CQD](turning-on-and-using-call-quality-dashboard.md).
+
+## Ways to access CQD data
+
+You can access CQD data by several different avenues. Pick the one that best meets your needs:
+
+|  |  |
+|---------|---------|
+|Teams admin center     | CQD data is included in **Users** and **Meeting** pages. Very easy to use, covers most common scenarios. No customization or queries of CQD data from Teams admin center.        |
+|CQD portal     | Robust reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal.        |
+|Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
+|Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quaity data.  For example, if you need to join it with other non-CQD data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
+
 
 ## Categories to monitor and maintain
 
