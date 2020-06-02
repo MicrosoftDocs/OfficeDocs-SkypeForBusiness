@@ -463,7 +463,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 
 ## Create custom detailed reports
 
-If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports ](use-power-bi-for-cqd-reports.md)instead.
+If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports ](cqd-power-bi-query-templates.md)instead.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 > [!IMPORTANT]
@@ -574,7 +574,7 @@ CQD V3 includes
 3. Live Events Publisher and Presenter calls, and 
 4. PSTN calls. 
 
-To learn how to use these Power BI templates to analyze and report your CQD data, read [Use Power BI for CQD reports](use-power-bi-for-cqd-reports.md).
+To learn how to use these Power BI templates to analyze and report your CQD data, read [Use Power BI for CQD reports](cqd-power-bi-query-templates.md).
 
 
 ## Why is CQD data from Skype for Business different than CQD data from Teams? 
