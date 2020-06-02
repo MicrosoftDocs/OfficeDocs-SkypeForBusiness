@@ -27,7 +27,9 @@ When a guest is invited to join a team, they receive a welcome email message. Th
     
 ![Screen shot showing an example of a welcome email message](media/guest-experience-image1.png)
     
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
+All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
+
+![Screen shot showing tag that indicates number of guests on the team](media/guest-experience-image2.png)
 
 Check out these videos about the guest experience in Teams:
 - [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
