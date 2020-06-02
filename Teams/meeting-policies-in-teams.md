@@ -29,6 +29,9 @@ description: Learn to manage meeting policy settings in Teams and use them to co
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
+> [!NOTE]
+> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
 You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
 |Implementation type  |Description  |
