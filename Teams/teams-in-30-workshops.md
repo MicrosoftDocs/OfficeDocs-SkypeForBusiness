@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_JourneyFromSfB
   - Teams_ITAdmin_RemoteWorkers
-ms.reviewer: dearbeen, nsuter
+ms.reviewer: landerl, nsuter
 search.appverid: MET150
 description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
 f1.keywords:
