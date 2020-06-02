@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
-ms.reviewer: phlouie
+ms.reviewer: Kyle Blevins
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
