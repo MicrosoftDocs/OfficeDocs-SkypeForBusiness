@@ -317,7 +317,7 @@ Locations where both SIP proxy and media processor components deployed:
 
 Locations where only media processors are deployed (SIP flows via the closest datacenter listed above):
 - Japan (JP East and West datacenters)
-- Australia (AU East and West datacenters)
+- Australia (AU East and Southeast datacenters)
 
 
 
