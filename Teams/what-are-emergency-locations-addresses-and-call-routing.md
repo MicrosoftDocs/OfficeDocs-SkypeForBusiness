@@ -137,15 +137,15 @@ If Calling Plans are not available in your area or you want to keep your existin
 
 ### Emergency call enablement and configuration
 
-You must define emergency calling policies for Direct Routing users by using the TeamsEmergencyCallRoutingPolicy to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)
+You must define emergency calling policies for Direct Routing users by using the emergency call routing policy to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)
 
-You can assign a TeamsEmergencyCallRoutingPolicy to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
+You can assign a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
-- If a TeamsEmergencyCallRoutingPolicy is associated with the site, then the site policy is used to configure emergency calling.
+- If an emergency call routing policy is associated with the site, then the site policy is used to configure emergency calling.
 
-- If there is no TeamsEmergencyCallRoutingPolicy associated with the site, or if the client is connected at an undefined site, then the TeamsEmergencyCallRoutingPolicy associated with the user account is used to configure emergency calling. 
+- If there is no emergency call routing policy associated with the site, or if the client is connected at an undefined site, then the emergency call routing policy associated with the user account is used to configure emergency calling. 
 
-- If the Teams client is unable to obtain an TeamsEmergencyCallRoutingPolicy, then the user is not enabled for emergency calling.
+- If the Teams client is unable to obtain an emergency call routing policy, then the user is not enabled for emergency calling.
 
 ### Dynamic emergency calling
 
@@ -153,7 +153,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Emergency call routing
 
-The TeamsEmergencyCallRoutingPolicy references an online PSTN usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
+The emergency call routing policy references an online PSTN usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
 (Note: Teams clients prepend the "+" sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911. This behavior will be modified in the coming months so that Teams emergency calls will no longer be sending a "+" preceding the number; that is, 911.)
 
@@ -193,17 +193,17 @@ For more information, see [Session Border Controllers certified for Direct Routi
 
 Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.
 
-You use the TeamsEmergencyCallingPolicy to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.  You can also specify an external PSTN number of a user or group to call and join the emergency call. 
+You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.  You can also specify an external PSTN number of a user or group to call and join the emergency call. 
 
-A TeamsEmergencyCallingPolicy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
+An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
-- If a TeamsEmergencyCallingPolicy is associated with a network site, then the site policy is used to configure security desk notification.
+- If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
 
-- If there is no TeamsEmergencyCallingPolicy associated with the site, or if the client is connected at an undefined site, then the TeamsEmergencyCallingPolicy associated with the user account is used to configure security desk notification.  
+- If there is no emergency calling policy associated with the site, or if the client is connected at an undefined site, then the emergency calling policy associated with the user account is used to configure security desk notification.  
 
-- If the Teams client is unable to obtain an TeamsEmergencyCallingPolicy, then the user is not enabled for security desk notification.
+- If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
-During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the TeamsEmergencyCallingPolicy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.  If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
+During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.  If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
 
     
 ## Related topics
