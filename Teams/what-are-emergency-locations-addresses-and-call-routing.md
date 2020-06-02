@@ -38,7 +38,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
 - **Emergency location** - A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
 
-  When you create an emergency address, a unique location ID is automatically created for this address.  If you add a place to an emergency address--for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.
+  When you create an emergency address, a unique location ID is automatically created for this address.  If you add a place to an emergency address&mdash;for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
@@ -79,7 +79,7 @@ When the location must be associated to the telephone number depends on the coun
 
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 
-- For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Office 365 or when it's transferred from another service provider or carrier.
+- For other countries&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Office 365 or when it's transferred from another service provider or carrier.
 
 ### Dynamic emergency calling
 
@@ -91,7 +91,7 @@ For Calling Plan users, dynamic location for routing emergency calls is only sup
 
 - If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
-In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers&mdash;and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 
 ### Emergency call routing
