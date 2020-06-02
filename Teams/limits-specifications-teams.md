@@ -59,7 +59,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of people in a private chat<sup>1</sup>  | 250<br>For government clouds (GCC, GCC-high, DoD), the limit is still 100. We'll update this article when the government cloud limit increases from 100 to 250.    |
 |Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
