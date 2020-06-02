@@ -35,9 +35,11 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 Don't miss the [sample locations template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
-  
-> [!NOTE]
-> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
+After you upload your tenant data, read [Tenant data information](CQD-data-and-reports.md#tenant-data-information) to learn about how CQD reports this data.
+
+## Reporting labels
+
+Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
 2. After you select the file data type, click **Browse** to choose a data file.
@@ -59,11 +61,11 @@ Don't miss the [sample locations template](https://github.com/MicrosoftDocs/Offi
 
 6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
 
-### Tenant data file format and structure
+## Tenant data file format and structure
 <a name="BKMKTenantDataFile"> </a>
 Before you can start using CQD, activate it for your Microsoft 365 or Office 365 as follows:
 
-#### Building data file
+### Building data file
 
 CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 1. Sign in to your Microsoft 365 or Office 365 using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
@@ -111,7 +113,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 >
 > The VPN column is optional and will default to 0.  If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
-#### Endpoint data file
+### Endpoint data file
 
 CQD uses an Endpoint data file. The column values are used in the call record’s First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
