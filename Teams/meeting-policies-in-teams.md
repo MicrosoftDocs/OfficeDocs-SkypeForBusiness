@@ -418,6 +418,24 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 
   If you set the parameter to **TeamsOnly**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing Teams meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
+## Meeting policy settings - Video filters mode
+
+This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
+
+Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
+
+To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
+
+|Setting value in PowerShell |Behavior  |
+|---------|---------|
+|**NoFilters**     |User can't customize their video background.|
+|**BlurOnly**     |User has the option to blur their video background. |
+|**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from a set of images to use as their background. |
+|**AllFilters**     |Use has the option to blur their video background, choose from a set of images, or upload custom images to use as their background. |
+
+> [!NOTE]
+> Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
+
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
