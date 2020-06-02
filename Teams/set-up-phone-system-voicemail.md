@@ -30,7 +30,7 @@ This article is for the [Office 365 admin](https://support.office.com/article/da
 > [!NOTE]
 > Cloud Voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. 
 
-## Cloud-only environments: Set up Cloud Voicemail for Cloud Psystem Users
+## Cloud-only environments: Set up Cloud Voicemail for Phone System users
 
 For Skype for Business Online and Calling Plans users, Cloud Voicemail is automatically set up and provisioned for users after you assign a **Phone System** license and a phone number to them.
   
