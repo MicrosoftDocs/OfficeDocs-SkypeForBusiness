@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Microsoft Teams.
 localization_priority: Normal
