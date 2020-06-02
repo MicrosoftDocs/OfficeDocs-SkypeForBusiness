@@ -257,7 +257,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
-  - **External phone number** Enter an external PSTN phone number.
+  - **External phone number** Enter an external phone number.
 
 * * *
 
@@ -277,7 +277,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
 
-  - **External phone number** Enter an external PSTN phone number.
+  - **External phone number** Enter an external phone number.
 
 ## Change Caller ID for outbound calls
 
