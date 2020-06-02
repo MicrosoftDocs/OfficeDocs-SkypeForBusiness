@@ -75,29 +75,19 @@ To get started using call queues, it's important to remember a few things:
 - The following clients are supported for call agents associated to a Cloud call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
-
   - Lync desktop client 2013 (32-bit and 64-bit versions)
-
   - All IP phone models supported for Microsoft Teams. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-
   - Mac Skype for Business Client (version 16.8.196 and later)
-
   - Android Skype for Business Client (version 6.16.0.9 and later)
-
   - iPhone Skype for Business Client (version 6.16.0 and later)
-
   - iPad Skype for Business Client (version 6.16.0 and later)
-
   - Microsoft Teams Windows client (32-bit and 64-bit versions)
-
   - Microsoft Teams Mac client
-
   - Microsoft Teams iPhone app
-
   - Microsoft Teams Android app
 
     > [!NOTE]
-    > Call queues that are assigned a direct routing number will not support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
+    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
 
 ## Step 2 — Get or transfer toll or toll-free service phone numbers
 
@@ -193,9 +183,9 @@ Conference mode is disabled by default but can be enabled at any time if the fol
 
 - Agents added to the call queue need to use one of the following clients:
   - The latest version of the Microsoft Teams desktop client
-  - Microsoft Teams Android app version xxxx or later
-  - Microsoft Teams iOS app version yyyy or later
-  - Microsoft Teams phone version zzzz or later
+  - Microsoft Teams Android app version 1416/1.0.0.2020051401 or later
+  - Microsoft Teams iOS app version 1447/1.0.77.2020052104 or later
+  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
 - Agents' Teams accounts need to be set to Teams-only mode
 
 > [!IMPORTANT]
