@@ -137,9 +137,9 @@ If Calling Plans are not available in your area or you want to keep your existin
 
 ### Emergency call enablement and configuration
 
-You must define emergency calling policies for Direct Routing users by using the emergency call routing policy to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)
+You must define emergency calling policies for Direct Routing users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)
 
-You can assign a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
+You can assign an emergency call routing policy  to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
 - If an emergency call routing policy is associated with the site, then the site policy is used to configure emergency calling.
 
