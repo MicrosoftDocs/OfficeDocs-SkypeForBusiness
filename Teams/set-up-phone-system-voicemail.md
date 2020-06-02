@@ -30,7 +30,7 @@ This article is for the [Office 365 admin](https://support.office.com/article/da
 > [!NOTE]
 > Cloud Voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. 
 
-## Cloud-only environments: Set up Cloud Voicemail for Cloud Psystem Users
+## Cloud-only environments: Set up Cloud Voicemail for Phone System users
 
 For Skype for Business Online and Calling Plans users, Cloud Voicemail is automatically set up and provisioned for users after you assign a **Phone System** license and a phone number to them.
   
@@ -69,6 +69,26 @@ The following information is about configuring Cloud Voicemail to work with user
 
 > [!NOTE]
 > When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
+
+## Enabling protected voicemail in your organization
+
+When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business.
+
+For more information about message encryption, see [Email encryption](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+
+To set up protected voicemail, do the following:
+
+1. Go to https://admin.microsoft.com and sign in using an account with global administrator permissions.
+2. Select **Show all** and then go to **Admin centers** > **Exchange**.
+3. In the Exchange Admin Center, select **Mail flow** > **Rules**.
+4. Select **+** **Add**, and then select **Apply Office 365 Message Encryption and rights protection to messages**.
+5. Provide a name for the new mail flow rule and then under **Apply this rule if**, select **The message properties** > **Include the message type** > **Voice mail**. Select **OK**.
+6. Under **Do the following**, select **Apply Office 365 Message Encryption and rights protection to the message with** and then select **Select one**. Under **RMS template**, select **Do not forward**. Select **OK** and then **Save**.
+    > [!NOTE]
+    > If the **RMS template** list is empty, you need to set up Office 365 Message Encryption. For more information about setting up Office 365 Message Encryption, see the following articles:
+    > - [Set up new Office 365 Message Encryption capabilities](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Configuring and managing templates for Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [Do Not Forward option for emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## Setting voicemail policies in your organization
 
