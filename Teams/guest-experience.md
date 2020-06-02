@@ -27,7 +27,7 @@ When a guest is invited to join a team, they receive a welcome email message. Th
     
 ![Screen shot showing an example of a welcome email message](media/guest-experience-image1.png)
     
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
+All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel thread indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
 
 ![Screen shot showing tag that indicates number of guests on the team](media/guest-experience-image2.png)
 
