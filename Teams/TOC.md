@@ -687,7 +687,7 @@
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
 ## Monitor and manage call quality
-### [Monitor call quality](monitor-call-quality-qos.md)
+### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
 #### [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
