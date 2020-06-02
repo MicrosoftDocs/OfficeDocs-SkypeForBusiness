@@ -230,7 +230,7 @@ The default summary and detailed CQD reports may be all you need to manage call 
 
 All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+If you want to use Power BI to analyze your CQD data, read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md).
  
 ### Select product data to see in reports
 <a name="BKMKProductFilter"></a>
@@ -448,9 +448,8 @@ Report filters are implemented by adding a filter to the rendered report either 
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
-## Analyze CQD data in Power BI
+## Frequently asked questions
 
-Beginning in January 2020, you can use Power BI to query and report your CQD data. [Download customizable Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -499,7 +498,7 @@ CQD V3 includes
 To learn how to use these Power BI templates to analyze and report your CQD data, read [Use Power BI for CQD reports](cqd-power-bi-query-templates.md).
 
 
-## Why is CQD data from Skype for Business different than CQD data from Teams? 
+### Why is CQD data from Skype for Business different than CQD data from Teams? 
 
 If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 Here's an example of applying specific filters to compare CQD v2 and CQD v3 data:
