@@ -140,6 +140,8 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 4. Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**. 
 
     If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**. 
+    > [!NOTE]
+By default, external participants see phone numbers of the dialed-in users masked. Set the type to Tones, so they also don't hear the phone numbers annonounced in case you want to have added privacy in meetings when there are external participants.
 
 5. Click **Save**.
 
