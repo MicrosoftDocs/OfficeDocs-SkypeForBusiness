@@ -30,13 +30,13 @@ description: "Learn about emergency calling, including information about emergen
 
 This article describes concepts you'll need to know to manage emergency calling&mdash;it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing. This article uses the following terminology:
 
-- **Emergency Address** - A civic address&mdash;the physical or street address of a place of business for your organization.
+- **Emergency address** - A civic address&mdash;the physical or street address of a place of business for your organization.
 
   For example, the address  *12345 North Main Street, Redmond, WA 98052* is used to route emergency calls to the appropriate dispatch authorities and to assist in locating the emergency caller.
 
 - **Place** - Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and for every floor within each building.  
 
-- **Emergency Location** - A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
+- **Emergency location** - A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
 
   When you create an emergency address, a unique location ID is automatically created for this address.  If you add a place to an emergency address--for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.
 
