@@ -38,7 +38,7 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 
 ## Step 1 — Get started
 
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
+An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
@@ -158,9 +158,9 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
   - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
 
-  > [!Note]
-  > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
-  **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+    > [!Note]
+    > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
+    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
   - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
