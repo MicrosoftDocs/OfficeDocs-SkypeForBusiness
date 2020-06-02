@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Admin can learn about the tasks and activities required for monitoring quality and usage of Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150

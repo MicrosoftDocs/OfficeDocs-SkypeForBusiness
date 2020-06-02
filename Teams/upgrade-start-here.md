@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: This article will help you with getting started on upgrading from Skype for Business to Microsoft Teams.
 localization_priority: Normal
