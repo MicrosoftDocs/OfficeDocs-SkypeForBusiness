@@ -35,7 +35,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 Don't miss the [sample locations template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
-After you upload your tenant data, read [Tenant data information](CQD-data-and-reports.md#tenant-data-information) to learn about how CQD reports this data.
 
 ## Reporting labels
 
