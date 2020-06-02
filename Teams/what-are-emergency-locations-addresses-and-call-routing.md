@@ -28,17 +28,17 @@ description: "Learn about emergency calling, including information about emergen
 
 # Manage emergency calling
 
-This article describes concepts you'll need to know to manage emergency calling--it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing. This article uses the following terminology:
+This article describes concepts you'll need to know to manage emergency calling&mdash;it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing. This article uses the following terminology:
 
-- **Emergency Address** - A civic address--the physical or street address of a place of business for your organization.
+- **Emergency Address** - A civic address&mdash;the physical or street address of a place of business for your organization.
 
   For example, the address  *12345 North Main Street, Redmond, WA 98052* is used to route emergency calls to the appropriate dispatch authorities and to assist in locating the emergency caller.
 
 - **Place** - Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and for every floor within each building.  
 
-- **Emergency Location** - A location is a civic address--with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
+- **Emergency Location** - A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
 
-  When you create an emergency address, a unique location ID is automatically created for this address.  If you add a place to an emergency address--for example, if you add a floor to a building address--a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.
+  When you create an emergency address, a unique location ID is automatically created for this address.  If you add a place to an emergency address--for example, if you add a floor to a building address&mdash;a location ID is created for the combination of the emergency address and place.  In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
@@ -153,7 +153,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Emergency call routing
 
-The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
+The TeamsEmergencyCallRoutingPolicy references an online PSTN usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
 (Note: Teams clients prepend the "+" sign in front of emergency numbers in a similar manner that Skype for Business client does; that is, +911. This behavior will be modified in the coming months so that Teams emergency calls will no longer be sending a "+" preceding the number; that is, 911.)
 
