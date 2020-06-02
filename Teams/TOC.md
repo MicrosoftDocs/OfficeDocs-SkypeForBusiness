@@ -690,6 +690,7 @@
 ### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
 #### [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+#### [Data and reports in CQD](CQD-data-and-reports.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 #### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
