@@ -182,9 +182,7 @@ Call agents selected must be one of the following:
 Conference mode is disabled by default but can be enabled at any time if the following requirements are met:
 
 - Agents added to the call queue need to use one of the following clients:
-  - The latest version of the Microsoft Teams desktop client
-  - Microsoft Teams Android app version 1416/1.0.0.2020051401 or later
-  - Microsoft Teams iOS app version 1447/1.0.77.2020052104 or later
+  - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
   - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
 - Agents' Teams accounts need to be set to Teams-only mode
 
