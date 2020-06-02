@@ -35,10 +35,10 @@ You can access CQD data by several different avenues. Pick the one that best mee
 
 |  |  |
 |---------|---------|
-|Teams admin center     | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
-|CQD portal     | Robust reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal.        |
+|Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
+|CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal.        |
 |Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
-|Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quaity data.  For example, if you need to join it with other non-CQD data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
+|Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data.  For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
 
 ## Categories to monitor and maintain
