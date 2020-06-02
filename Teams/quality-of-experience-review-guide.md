@@ -92,9 +92,7 @@ Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoi
 </tbody>
 </table>
 
-_Figure 1 - Key operational areas covered throughout this guide_
-
-By continually assessing and remediating the areas described in this guide, you can reduce their potential to negatively affect the quality of your users' experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+By continually assessing and remediating the areas described in this article, you can reduce their potential to negatively affect your users. Most user problems can be grouped into the following categories:
 
 -   Incomplete firewall or proxy configuration
 -   Poor Wi-Fi coverage
@@ -106,15 +104,15 @@ By continually assessing and remediating the areas described in this guide, you 
 
 Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
 
-This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+This article focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
+To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this article.
 
 ### Intended audience
 
-This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
+This article is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
 
-This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
+This article is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 
 ## What is quality?
@@ -126,22 +124,22 @@ In this context, quality is a combination of service metrics and user experience
 
 Service metrics consist of specific client-based metrics. During each call, the client collects telemetry for the call and submits a report at the end of each call that can later be accessed in CQD or in [per-user call analytics](set-up-call-analytics.md). These metrics include:
 
--   Poor Stream  (incoming and outgoing)
+-   Poor Stream (incoming and outgoing)
 -   Setup Failure Rate
 -   Drop Failure Rate
 
 
-#### Poor Stream Rate
+#### Poor stream rate
 
 The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-versus-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
 The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To…" measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
-> CQD provides the "Poor Due To…" measurements to better understand what condition caused the stream to be classified as poor.
+> CQD provides the "Poor due to…" measurements to better understand what condition caused the stream to be classified as poor.
 
 
-_Table 1 - Audio poor quality metrics_
+##### Audio poor quality metrics
 
 | Metric average     | Description     | User experience |
 |-------------|-----------------|-----------------|
@@ -385,7 +383,7 @@ For additional guidance on whether the dimension or measure is referring to a ca
 
 A call is categorized either as good, poor, or unclassified. Let's take a moment to talk about each one in more detail.
 
--   **Good or poor:** A good or poor call consists of a call that contains a complete set of service metrics, for which a full QoE report was generated and received by the service. Determining whether a stream is good or poor is described [earlier in this guide](#poor-stream-rate).
+-   **Good or poor:** A good or poor call consists of a call that contains a complete set of service metrics, for which a full QoE report was generated and received by the service. Determining whether a stream is good or poor is described [earlier in this article](#poor-stream-rate).
 
 -   **Unclassified:** An unclassified stream doesn't contain a full set of service metrics. These can be short calls—usually less than 60 seconds—where averages couldn't be computed and a QoE report wasn't generated. The most common reason for calls to be unclassified is that there was little to no packet utilization. An example of this would be a participant who joins a meeting on mute and never speaks. The participant is receiving, but not transmitting, media. Without media being transmitted, there won't be any metrics available for CQD to use to classify the endpoint's outbound media stream.
 
@@ -492,7 +490,7 @@ You can use a URL filter to filter every report for a specific dimension. The mo
 | Filter         | Description          | CQD query filter example      |
 |----------------|----------------------|-------------------------------|
 | No blank values   | Some filters don't have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.      | Second Building Name \<\> \^\\s\*\$                       |
-| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT's control and can be quickly excluded from a report. Common subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
+| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT's control and can be quickly excluded from a report. Common subnets, as defined in this article, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
 
 
@@ -596,7 +594,7 @@ Here are a few things to consider before you implement supernetting:
 
 -   It's important to ensure that the supernetted address is correct and isn't catching unwanted subnets.
 
--   It's quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don't include it in your building file because it's difficult to distinguish between home and internal networks by using common subnets. See the section about [common subnets](#common-subnets), earlier in this guide.
+-   It's quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don't include it in your building file because it's difficult to distinguish between home and internal networks by using common subnets. See the section about [common subnets](#common-subnets), earlier in this article.
 
 > [!IMPORTANT]
 > The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you've previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports.
@@ -698,7 +696,7 @@ The first step to improving quality is to assess the state of reliability across
 Throughout this section, we'll cover methods to investigate both areas.
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide. However, the methods of investigation explained below still apply. Please refer to the individual report description for more information.
+> Not all reports included in the templates are covered in this article. However, the methods of investigation explained below still apply. Please refer to the individual report description for more information.
 
 
 ### Setup failures
