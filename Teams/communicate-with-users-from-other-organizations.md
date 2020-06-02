@@ -82,7 +82,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.<br>
 <sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations.
-<sup>5</sup> If you are interested to not reveal PSTN numbers to external users, make sure that when enabling entry/exit announcements, the announcement type is set to Tones. See more [here](https://docs.microsoft.com/en-us/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)
+<sup>5</sup> If you don't want to reveal PSTN numbers to external users, when you turn on entry and exit announcements, select **Tones** for the announcement type. To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## Related topics
 
