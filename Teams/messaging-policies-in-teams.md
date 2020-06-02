@@ -78,7 +78,6 @@ Use the following settings to change the global messaging policy or create a new
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
-- **Enable suggested replies**  Turn this setting on to enable the suggested replies for chat messages.
 - **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
 - **Giphy content rating**
     - **No restriction** This means that your users will be able to insert any Giphy in chats regardless of the content rating.
@@ -98,6 +97,7 @@ Use the following settings to change the global messaging policy or create a new
     - **Disabled** This means that users cannot create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
+- **Enable suggested replies**  Turn this setting on to enable suggested replies for chat messages.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
