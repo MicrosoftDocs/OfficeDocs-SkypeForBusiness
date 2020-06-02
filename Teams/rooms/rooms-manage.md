@@ -60,7 +60,7 @@ We recommend that you implement ongoing operational quality and reliability moni
 
 When you upload your building information to CQD you can investigate call quality and reliability trends on a per-building level, which makes it easy to compare buildings and focus your attention on specific problems.
 
-We recommend that you review and follow [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) to identify quality and reliability trends, and create an action plan to resolve them. 
+We recommend that you review and follow [Improve and monitor call quality for Teams](../monitor-call-quality-qos.md) to identify quality and reliability trends, and create an action plan to resolve them. 
 
 ## Updating the Microsoft Teams Rooms OS and Microsoft Teams Rooms application
 

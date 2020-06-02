@@ -120,7 +120,7 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 #### Poor Stream Rate
 
-The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
+The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-versus-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
 The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To…" measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
@@ -319,9 +319,9 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
-For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
+For more information about URL filters, see [Filtering reports](#report-filters) later in this section.
 
-To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
+To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False.
 
 ![Screenshot of the Add filter page](media/qerguide-image-addteamsfilter.png)
 
@@ -977,7 +977,7 @@ These reports focus on identifying Skype for Business client versions in use and
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. As a result, you don't need to monitor Teams client versions (unless you turn off the auto updating, which we don't recommend).
 
-Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a [query filter](#query-filters) for Second Tenant ID set to your organization's [tenant ID](#tenant-id). Alternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
+Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](#url-filters) to exclude federated participant telemetry.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
@@ -1022,7 +1022,7 @@ By supplying users with devices certified for Teams and Skype for Business, you 
 The device reports are used to assess device usage by volume and MOS score (audio only), and can be found in the accompanying templates under Clients & Devices. 
 
 > [!IMPORTANT]
-> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](#tenant-id). ALternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](#how-to-find-your-tenant-id)). ALternatively, you can use a [URL filter](#url-filters) to exclude federated participant telemetry.
 
 > [!NOTE] 
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.

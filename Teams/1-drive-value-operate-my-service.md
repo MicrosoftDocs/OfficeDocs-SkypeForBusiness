@@ -415,7 +415,7 @@ ensure that the next batch of sites or users don’t encounter the same issues.
 First, pinpoint whether this is an adoption or technical problem. Begin by
 investigating the items below, in order, to determine where the problem is.
 
-1.  Validate quality by performing a [Quality of Experience Review](#quality-of-experience-review-guide).
+1.  Validate quality by performing a Quality of Experience Review (see [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) for more detail).
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends

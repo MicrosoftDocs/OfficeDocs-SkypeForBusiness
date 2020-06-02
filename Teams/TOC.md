@@ -694,7 +694,6 @@
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 #### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
-#### [Troubleshoot call and meeting quality](troubleshoot-call-quality.md)
 ### Per-user call analytics
 #### [Set up call analytics](set-up-call-analytics.md)
 #### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)

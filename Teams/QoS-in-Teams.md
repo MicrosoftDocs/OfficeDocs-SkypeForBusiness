@@ -46,7 +46,7 @@ _Figure 1. The relationship between an organization's networks and Office 365 se
 
 At a high level, implementing QoS requires these steps:
 
-1. [Verify your network is ready](#verify-your-network-is-ready)
+1. [Verify your network is ready](#make-sure-your-network-is-ready)
 2. [Select a QoS implementation method](#select-a-qos-implementation-method)
 3. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type)
 4. Implement QoS settings:
@@ -57,7 +57,7 @@ At a high level, implementing QoS requires these steps:
       > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
 
    3. [Set how you want to handle media traffic for Teams meetings](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
-5. [Validate your QoS implementation](#validate-the-qos-implementation) by analyzing Teams traffic on the network.
+5. [Validate your QoS implementation](#validate-your-qos-implementation) by analyzing Teams traffic on the network.
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
