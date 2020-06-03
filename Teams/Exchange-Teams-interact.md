@@ -99,7 +99,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 > [!TIP]
 > For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
 
-## Requirements with on-premises Exchange mailbox user
+## Requirements for on-premises Exchange mailbox user
 
 If users want the capability to schedule a Teams meeting using Exchange, then you need to ensure the following:
 
