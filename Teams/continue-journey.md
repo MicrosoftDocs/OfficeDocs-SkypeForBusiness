@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
 description: Learn how to use Teams to monitor network health, keep users engaged, and prepare for new functionality.
 localization_priority: Normal

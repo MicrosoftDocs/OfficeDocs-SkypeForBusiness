@@ -1,7 +1,7 @@
 ---
 title: "Create a call queue"
-ms.author: crowe
-author: CarolynRowe
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -60,11 +60,11 @@ To get started using call queues, it's important to remember a few things:
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - When you assign a phone number to a resource account, you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md). Phone System allows phone numbers at the organizational level for use with low-cost auto attendant and call queue services.
 
-> [!NOTE]
-> Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
+  > [!NOTE]
+  > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
-> [!NOTE]
-> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+  > [!NOTE]
+  > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
@@ -76,29 +76,19 @@ To get started using call queues, it's important to remember a few things:
 - The following clients are supported for call agents associated to a Cloud call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
-
   - Lync desktop client 2013 (32-bit and 64-bit versions)
-
   - All IP phone models supported for Microsoft Teams. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-
   - Mac Skype for Business Client (version 16.8.196 and later)
-
   - Android Skype for Business Client (version 6.16.0.9 and later)
-
   - iPhone Skype for Business Client (version 6.16.0 and later)
-
   - iPad Skype for Business Client (version 6.16.0 and later)
-
   - Microsoft Teams Windows client (32-bit and 64-bit versions)
-
   - Microsoft Teams Mac client
-
   - Microsoft Teams iPhone app
-
   - Microsoft Teams Android app
 
     > [!NOTE]
-    > Call queues that are assigned a direct routing number will not support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
+    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
 
 ## Step 2 — Get or transfer toll or toll-free service phone numbers
 
@@ -181,14 +171,35 @@ Call agents selected must be one of the following:
   > [!NOTE]
   > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a **Phone System** license and Enterprise Voice enabled *or* have a Calling Plan. For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
- To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 ![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Routing method** You can choose either **Attendant**, **Serial**, **Longest idle**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
+**Conference mode** Conference mode significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. If you have more than one call queue, you can enable conference mode on some or all of your call queues; enabling or disabling conference mode on one call queue doesn't impact any other call queues.
+
+Conference mode is disabled by default but can be enabled at any time if the following requirements are met:
+
+- Agents added to the call queue need to use one of the following clients:
+  - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
+  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+- Agents' Teams accounts need to be set to Teams-only mode
+
+> [!IMPORTANT]
+> If the agent requirements above aren't met and conference mode is enabled on a call queue, agents who don't meet the requirements aren't included in the call routing list. Agents who aren't in the call routing list won't receive calls. If you have agents who don't meet the agent requirements above, don't enable conference mode on the call queue.
+
+After conference mode is enabled on a call queue, calls will benefit from the faster connection time if they're received via one of the following methods:
+
+- VoIP calls from another Microsoft Teams desktop client
+- Calling Plan PSTN calls
+- Direct Routing PSTN calls
+
+The majority of calls are received via one of the methods listed above. If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.
+
+![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
+**Routing method** You can choose either **Attendant**, **Serial**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
@@ -197,7 +208,7 @@ Call agents selected must be one of the following:
     > Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled. If you have agents who use Skype or Business, don't enable this setting.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
+![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
 **Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
 
 You can enable presence-based call routing with any of the routing methods.

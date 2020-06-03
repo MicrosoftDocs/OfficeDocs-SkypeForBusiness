@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Regularly evaluate opportunities to enhance the Teams service after you upgrade, monitor the Teams roadmap for any interesting feature enhancements.
 localization_priority: Normal
 search.appverid: MET150
