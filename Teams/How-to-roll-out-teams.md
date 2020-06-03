@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Whether your are rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization successfully.
+description: Whether you're rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization successfully.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
