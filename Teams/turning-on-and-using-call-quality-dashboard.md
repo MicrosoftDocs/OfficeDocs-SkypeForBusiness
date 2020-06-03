@@ -28,12 +28,13 @@ description: Learn about how to turn on and use the Call Quality Dashboard and g
 
 # Set up Call Quality Dashboard (CQD)
 
-Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
+Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
 
-CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
+CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
 
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+
 ## Assign roles for accessing CQD
 
 Assign [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it. 
@@ -57,12 +58,6 @@ This table shows you what each role can do in CQD:
 > [!NOTE]
 > If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
-
-## Use Power BI to analyze CQD data
-
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
-
-Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
 
 
@@ -109,13 +104,22 @@ For more information about these roles, see [About Office 365 admin roles](/offi
 After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
 
 
+## Use Power BI to analyze CQD data
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
+Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
+
+
+
 ## Related topics
+
+[Upload tenant and build data](CQD-upload-tenant-building-data.md)
+
+[CQD data and reports](CQD-data-and-reports.md)
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
-
-[Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md)
- 
