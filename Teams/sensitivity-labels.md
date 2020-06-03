@@ -116,6 +116,9 @@ Currently, sensitivity labels are not supported in the Microsoft Teams admin cen
 
 Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, Powershell cmdlets, and templates.
 
+**Support for sensitivity labels in EDU SKUs**
+Currently, Teams EDU SKU users, won't be able to apply sensitivity labels during team creation.
+
 **Editing sensitivity labels directly on a SharePoint site collection for private channels**
 
 Private channels that are created in a team inherit the sensitivity label which was applied on a team. Furthermore, the same label is automatically applied on the SharePoint site collection for the private channel.
