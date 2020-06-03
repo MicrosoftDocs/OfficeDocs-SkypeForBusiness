@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: Instructor-led training and videos for users
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
