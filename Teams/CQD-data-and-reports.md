@@ -67,10 +67,6 @@ These RBAC roles **DON'T** have EUII access:
 - 90-day
 
 
-## Tenant Data information
-
-We recommend that you upload your tenant, building, and location data so CQD can include this information in your reports. If you haven't already uploaded this data, read [Upload tenant and building data](CQD-upload-tenant-building-data.md). 
-
 ## Date controls
 
 CQD supports the following Rolling Trend types:
@@ -210,7 +206,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 - A map of each wireless AP and its MAC address
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
-To learn more, read [Upload tenant and building data in Call Quality Dashboard (CQD)](CQD-upload-tenant-building-data.md).
+We recommend that you upload your tenant, building, and location data so CQD can include this information in your reports. If you haven't already uploaded this data, read [Upload tenant and building data](CQD-upload-tenant-building-data.md). 
 
 ### Building data file format and structure
 
