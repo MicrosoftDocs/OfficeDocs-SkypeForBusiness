@@ -1,7 +1,7 @@
 ---
 title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
-description: Learn the licensing requirements for online meetings and live events in Microsoft Teams and when an audio conferencing add-on license is necessary.
+description: A quick start guide for admins to get licenses for, roll out, and configure online meetings and live events in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
