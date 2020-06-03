@@ -18,7 +18,7 @@ ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-may2020
 search.appverid: MET150
-description: Learn more about the Microsoft Teams cloud voice feature and the deployment decisions that you will make for your organization.
+description: Learn more about the Microsoft Teams cloud voice features and the deployment decisions that you will make for your organization.
 appliesto: 
   - Microsoft Teams
 ---
