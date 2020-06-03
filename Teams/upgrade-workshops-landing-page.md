@@ -1,6 +1,6 @@
 ---
 title: Teams upgrade planning workshops
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Use these instructor-led workshops to help you plan your upgrade to Microsoft Teams from Skype for Business.
 layout: HubPage
 ms.topic: hub-page
