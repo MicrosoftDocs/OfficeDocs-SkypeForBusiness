@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 
 localization_priority: Normal
 search.appverid: MET150

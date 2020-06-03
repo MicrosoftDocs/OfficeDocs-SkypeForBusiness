@@ -32,7 +32,7 @@ You can assign or change an emergency location for a user in the Microsoft Teams
 
 1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
 
-2. On the **Phone numbers** page, select a user number in the list, and then click **Edit**.
+2. On the **Phone numbers** page, click the **Numbers** tab, select a user number in the list, and then click **Edit**.
 
 3. On the **Edit** pane, under **Emergency location**, do one of the following:
 
@@ -40,7 +40,9 @@ You can assign or change an emergency location for a user in the Microsoft Teams
 
    - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
 
-4. Click **Save**.
+4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+
+5. Click **Apply**.
 
 ## Using PowerShell
 
