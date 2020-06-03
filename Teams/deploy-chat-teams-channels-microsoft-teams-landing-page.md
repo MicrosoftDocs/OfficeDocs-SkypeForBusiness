@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams, based on your organization's profile and business requirements.
+description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -19,11 +19,12 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
   - seo-marvel-apr2020
+  - seo-marvel-may2020
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs. 
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default Teams settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs. 
 
 To get started, watch our short Teams chat, teams, and channels video (4:30 minutes): 
 
@@ -36,7 +37,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 > [!TIP]
 > We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
-## Chat deployment prerequisites
+## Prerequisites to rolling out chat in Teams
 
 Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
@@ -204,7 +205,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 
 ### Archiving and compliance 
 
-Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which settings are turned on by default.
+Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
 | Ask yourself | Action |
 |--------------|--------|
