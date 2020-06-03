@@ -22,21 +22,17 @@ ms.custom:
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
-description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
+description: Learn about the data and reports available in Microsoft Call Quality Dashboard (CQD).
 ---
 
 # Data and reports in Call Quality Dashboard (CQD)
 
 
-## Data in CQD
+Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
 
-New in November 2019, CQD uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
 
 > [!NOTE]
-> Advanced CQD (new in November 2019) merges data from the older CQD pipeline with NRT data from the Advanced CQD pipeline. Queries on the older and Advanced portals for the data from the Archival period produce the same results. Queries on either portal for the NRT Data and NRT Data + EUII periods will be different.
-> 
-<!-- Lola comment: Please check the above note - I'm not sure I've edited it correctly (mostly because I don't really understand what it's saying.)-->
-Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours). Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+> Advanced CQD (new in November 2019) merges data from the older CQD pipeline (which made call records available in about 24 hours) with NRT data from the Advanced CQD pipeline. Queries on the older and Advanced portals for the data from the Archival period produce the same results. Queries on either portal for the NRT Data and NRT Data + EUII periods will be different.
 
 ### EUII data
 
@@ -53,7 +49,7 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 
 #### Admin roles with and without EUII access
 
-These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles have EUII access:
+These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles **DO** have EUII access:
 - Global Admin
 - Teams Service Admin
 - Teams Communications Admin
@@ -61,7 +57,7 @@ These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview
 - Global Reader
 - Skype for Business Admin
 
-These RBAC roles don't have EUII access:
+These RBAC roles **DON'T** have EUII access:
 - Reports Reader
 - Teams Communications Support Specialist
 - 5-day
@@ -69,8 +65,6 @@ These RBAC roles don't have EUII access:
 - 30-day
 - 60-day
 - 90-day
-
-The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter "00"  indicates "today".
 
 
 ## Tenant Data information
@@ -100,7 +94,6 @@ By default, the current day of the month is used as the last day of the Rolling 
 
 
 ## Data available in CQD reports
-<a name="BKMKFeaturesOfTheCQD"> </a>
 
 The default summary and detailed CQD reports may be all you need to manage call quality for your org. If you need to, you can [create custom reports](#create-custom-detailed-reports).
 
@@ -178,16 +171,16 @@ These two tabs provide details for the streams that took place in their endpoint
   
 - Wired Inside
 - Wired Outside
-- Wifi Inside
-- Wifi Outside
+- WiFi Inside
+- WiFi Outside
 
 Similarly, the Client-Client tab has five collapsible sections:
 
 - Wired Inside — Wired Inside
 - Wired Inside — Wired Outside
 - Wired Outside — Wired Outside
-- Wired Inside — Wifi Inside
-- Wired Inside — Wifi Outside
+- Wired Inside — WiFi Inside
+- Wired Inside — WiFi Outside
 
 #### Inside versus Outside
 
@@ -195,15 +188,13 @@ CQD classifies a stream as  *Inside*  or *Outside*  using Building information, 
 
 The Inside Test for a Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
-#### Wired versus wifi
+#### Wired versus WiFi
 
-As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a Wifi network, then CQD classifies it as Wifi.
+As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a WiFi network, then CQD classifies it as WiFi.
 > [!NOTE]
-> Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD.
+> Given a stream, if one of the two endpoints is connected to a WiFi network, then it is classified as WiFi in CQD.
   
 ## Selecting product data to see in reports
-
-<a name="BKMKProductFilter"></a>
 
 In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
