@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business hybrid deployment. 
 localization_priority: Normal
 search.appverid: MET150
