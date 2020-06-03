@@ -98,3 +98,23 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 > [!TIP]
 > For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
+
+## Requirements with on-premises Exchange mailbox user
+
+If users want the capability to schedule a Teams meeting using Exchange, then you need to ensure the following:
+
+- Both delegate and delegator must have a mailbox on the Exchange Server.
+
+- Auto Discover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2013 CU19+.
+
+- The Exchange Server must be configured with Auth Server for EVOSTS. This is automatically configured as part of the Hybrid Wizard for Exchange (HWA). 
+
+    If you don't want to run HWA, then you can manually create the Auth Server for EVO STS on the Exchange server following these instructions [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). However, we recommend that you use the HWA.
+
+- The Exchange server must have a Partner Application configured with an application ID of **Skype for Business online,00000004-0000-0ff1-ce00-000000000000**. The ID is used by the Teams scheduling service and a linked user account that has the following properties:
+
+  - Hidden from the Exchange address book. It's a best practice to hide it from the address book because it's a disabled user account.
+
+  - Exchange management role assignment of **UserApplication**. 
+
+To complete the integration, follow Steps 1-3 in [How do you configure OAuth authentication between your on-premises Exchange and Exchange Online organizations?](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Note that step 2 includes role assignment for ArchiveApplication which is not required for Delegation, but is for Archiving SfB Online Chat to an Exchange mailbox.
