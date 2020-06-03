@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
