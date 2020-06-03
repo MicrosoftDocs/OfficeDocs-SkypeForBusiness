@@ -35,13 +35,13 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
-2. Click **Add Location**.
+2. Click **Add**.
 3. Enter a name and description for the location.
 4. Select the country or region, and then enter the address.
 
    > [!NOTE]
    > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
-5. If the address isn't found and you want to manually edit the address, turn on **Let me edit the address form manually if the address selected can't be found**.
+5. If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.
 6. Click **Save**.
 
 ### Using PowerShell
