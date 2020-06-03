@@ -202,9 +202,7 @@ In the Summary and Location Enhanced Reports, you can use the **Product Filter**
   
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
   
-## Upload Tenant Data information
-
-<a name="BKMKTenantDataInformationUpload"></a>
+## Tenant Data information
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
 
@@ -212,37 +210,9 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 - A map of each wireless AP and its MAC address
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
-> [!NOTE]
-> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, this information will be visible to Microsoft Engineers for support purposes.
+To learn more, read [Upload tenant and building data in Call Quality Dashboard (CQD)](CQD-upload-tenant-building-data.md).
 
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, "Endpoint" refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports "Building" and "Endpoint" data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
-
-
-
-2. After you select the file data type, click **Browse** to choose a data file.
-
-   - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
-   - The data file must be no larger than 50 MB.
-   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit also applies to CQD v2  on cqd<span></span>.lync<span></span>.com.
-   - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
-3. Next, specify a **Start date** and, optionally, **Specify an end date**.
-4. Finally, select **Upload** to upload the file to the CQD server.
-    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message requests a correction to the file. The following image shows a sample error with an incorrect number of columns in the data file.
-
-     ![Screenshot: shows an upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
-  
-5. If no errors occur during validation, the file upload succeeds. You can then see the uploaded data file in the **My uploads** table. The bottom of that page also shows a full list of all files uploaded for the current tenant.
-    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
-
-     ![Screenshot: shows the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
-
-6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
-
-### Tenant data file format and structure
-
-<a name="BKMKTenantDataFile"> </a>
-
-### Building data file
+### Building data file format and structure
 
 CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record's First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
@@ -311,7 +281,7 @@ If  you created reports or uploaded tenant data (mapping) files to CQD for Skype
 5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
 
 
-#### Query filters
+## Query filters
 
 Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report’s overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
 
@@ -322,7 +292,7 @@ Query filters are implemented by using the Query Editor in CQD. These filters ar
 | Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT’s control and can be quickly excluded from a report. Common subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
 
-#### Report filters
+## Report filters
 
 Report filters are implemented by adding a filter to the rendered report either in the Query Editor or directly to the report. The following report filters are used throughout the template.
 
