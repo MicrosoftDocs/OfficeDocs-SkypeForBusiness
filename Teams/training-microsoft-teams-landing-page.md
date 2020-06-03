@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams admin training
 ms.reviewer: 
-description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
+description: Use these end user, admin, and instructor-led training resources and tutorial videos to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -19,6 +19,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-may2020
 ---
 # Microsoft Teams admin training
 
@@ -87,7 +88,7 @@ appliesto:
 ---
 
 <h2>Don't miss this key training</h2>
-Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.
+These Teams training courses and articles provide user education, setup information, and admin training. Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
