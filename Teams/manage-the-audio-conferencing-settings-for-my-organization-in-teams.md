@@ -143,6 +143,9 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
     > [!NOTE]
 > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
 
+    > [!NOTE]
+    > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+
 5. Click **Save**.
 
     
