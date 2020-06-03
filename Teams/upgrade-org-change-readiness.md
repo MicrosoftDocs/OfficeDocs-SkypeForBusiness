@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn how to assess your organization's readiness to successfully transition to the Microsoft Teams environment.
 localization_priority: Normal
 search.appverid: MET150
