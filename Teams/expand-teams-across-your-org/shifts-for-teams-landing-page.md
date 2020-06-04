@@ -177,7 +177,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     <div class="cardText">
                         <h3>Shifts + Power Automate</h3>
                         <p>Shifts + Power Automate allows you to take information from Shifts and create customized workflows with other apps and perform operations at scale – automating key processes for Firstline Workers with little to no code. </p>
-                        <p>Shifts + Power Automate triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests in scenarios where a manager’s approval isn't needed. </p>
+                        <p>Shifts + Power Automate triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests in scenarios where a manager’s approval isn't needed.</p>
                     </div>
                 </div>
             </div>
