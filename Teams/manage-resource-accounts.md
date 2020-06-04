@@ -111,16 +111,6 @@ To create a new resource account, click **Add**. In the **Add resource account**
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
-<a name="enablesignin"> </a>
-
-When you create a resource account, sign in is blocked for the account. You'll see a banner at the top of the pane that says the resource account can't be loaded. You have to unblock sign in for the resource account in the Microsoft 365 admin center so that the resource account is allowed to sign in. To do this, in the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account. At the top of the pane under the display name, click **Unblock this user?**, clear the **Block this user from signing in** check box, and then click **Save changes**.
-
-![Screenshot of the Unblock this user option](media/res-acct-unblock.png)
-
-After you do this, you'll see "Sign in allowed" under the display name. 
-
-![Screenshot of Sign in allowed message](media/res-acct-sign-in-allowed.png)
-
 Next, apply a license to the resource account in the Microsoft 365 admin center, as described in [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### Edit resource account 
@@ -233,7 +223,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## Troubleshooting
 
-In case you do not see the phone number assigned to the resource account on the Teams Admin Center and you are unable to assign the number from there, please check the following:
+### You don't see the phone number assigned to the resource account in the Microsoft Teams admin center
+
+If you don't see the phone number assigned to the resource account in the Microsoft Teams admin center and you are unable to assign the number from there, check the following:
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -247,6 +239,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Refresh the Teams Admin center webpage after running the cmldet, and you should be able to assign the number correctly.
+
+### You get a "We can't use this resource account for services." error message
+
+<a name="blocksignin"> </a>
+
+You get the following error message when you try to use a resource account:
+
+"We can't use this resource account for services. The resource account must be DISABLED and BLOCKED from signing in. You must BLOCK sign ins for this resource account on the Users page in the Microsoft 365 admin center."
+
+When you create a resource account, by default, it's disabled and sign in is blocked for the account. These settings shouldn't be changed. To resolve this error message, block the resource account from signing in. To do this:
+
+1. In the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account.
+2. At the top of the pane under the display name, click **Block this user?**, select the **Block this user from signing in** check box, and then select **Save changes**.
+
+    ![Screenshot of the Block this user option](media/res-acct-block.png)
+
+After you do this, you'll see "Sign in blocked" under the display name. 
+
+    ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
 
 ## Related Information
 
