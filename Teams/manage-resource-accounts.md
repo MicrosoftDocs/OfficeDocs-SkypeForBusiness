@@ -253,11 +253,11 @@ When you create a resource account, by default, it's disabled and sign in is blo
 1. In the Microsoft 365 admin center, go to **Users**, search for, and then select the resource account.
 2. At the top of the pane under the display name, click **Block this user?**, select the **Block this user from signing in** check box, and then select **Save changes**.
 
-    ![Screenshot of the Block this user option](media/res-acct-block.png)
+   ![Screenshot of the Block this user option](media/res-acct-block.png)
 
-After you do this, you'll see "Sign in blocked" under the display name. 
+After you do this, you'll see "Sign in blocked" under the display name.
 
-    ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
+   ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
 
 ## Related Information
 
