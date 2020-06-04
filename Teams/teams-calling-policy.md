@@ -88,9 +88,9 @@ This setting controls whether incoming calls can be forwarded to an external num
 
 This setting enables inbound calls to be sent to voicemail. Valid options are:
 
-  - **Enabled** Voicemail is always available for inbound calls. 
-  - **Disabled**  Voicemail is not available for inbound calls. 
-  - **User controlled** Users can determine whether they want voicemail to be available.
+- **Enabled** Voicemail is always available for inbound calls. 
+- **Disabled**  Voicemail is not available for inbound calls. 
+- **User controlled** Users can determine whether they want voicemail to be available.
 
 ### Inbound calls can be routed to call groups 
 
