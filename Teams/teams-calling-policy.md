@@ -26,7 +26,7 @@ appliesto:
 Calling policies in Microsoft Teams
 ===================================
 
-In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or  simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on. A default global policy is created automatically, but admins can also create and assign custom calling policies.
+In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on. A default global policy is created automatically, but admins can also create and assign custom calling policies.
 
 ## Create a custom calling policy
 
@@ -114,6 +114,7 @@ Busy on Busy (Busy Options) is a new setting that lets you configure how incomin
 
 ### Allow web PSTN calling
 
+This setting enables users to call PSTN numbers using the Teams web client.
 
 ### Allow music on hold
 
