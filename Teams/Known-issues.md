@@ -24,7 +24,10 @@ appliesto:
 
 # Support Microsoft Teams in your organization
 
-If you're looking for Teams Known Issues, you're in the right place. Use the resources in this article to help you support Teams in your organization. 
+> [!NOTE]
+> This article replaces the Teams Known Issues article. 
+
+Use the resources in this article to help you support Teams in your organization. 
 
 Start by reviewing the most [common issues and resolutions](#common-issues-and-resolutions) list, below in this article.
 
