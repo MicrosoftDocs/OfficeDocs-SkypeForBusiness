@@ -47,7 +47,7 @@ If your organization is already using at least one Phone System license, to assi
 
 <!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
-If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
+If the auto attendant or call queue is nested under a top-level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
 To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -93,9 +93,11 @@ When you create a resource account while creating an auto attendant, the license
 A nested auto attendant or call queue will require a resource account, but in many cases the corresponding resource account will not need a phone number and the licensing required to support a phone number. Creating a resource account that does not need a phone number would require performing the following tasks in the following order:
 
 1. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-the-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell).
+
 2. Set up one of the following:
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
+   
 3. Assign the resource account to the call queue or auto attendant. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
 
 
@@ -123,7 +125,7 @@ Next, apply a license to the resource account in the Microsoft 365 admin center,
 
 ### Assign/unassign phone numbers and services
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) After you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account,leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
+![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) After you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account, leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
 
 Options for the **Phone number type** are:
 
@@ -246,7 +248,7 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 You get the following error message when you try to use a resource account:
 
-"We can't use this resource account for services. The resource account must be DISABLED and BLOCKED from signing in. You must BLOCK sign ins for this resource account on the Users page in the Microsoft 365 admin center."
+"We can't use this resource account for services. The resource account must be DISABLED and BLOCKED from signing in. You must BLOCK sign-ins for this resource account on the Users page in the Microsoft 365 admin center."
 
 When you create a resource account, by default, it's disabled and sign in is blocked for the account. These settings shouldn't be changed. To resolve this error message, block the resource account from signing in. To do this:
 
@@ -257,7 +259,7 @@ When you create a resource account, by default, it's disabled and sign in is blo
 
     After you do this, you'll see "Sign in blocked" under the display name.
 
-      ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
+      ![Screenshot of Sign-in blocked message](media/res-acct-sign-in-blocked.png)
 
 ## Related Information
 
