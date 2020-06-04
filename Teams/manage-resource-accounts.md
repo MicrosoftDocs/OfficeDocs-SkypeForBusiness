@@ -255,9 +255,9 @@ When you create a resource account, by default, it's disabled and sign in is blo
 
    ![Screenshot of the Block this user option](media/res-acct-block.png)
 
-After you do this, you'll see "Sign in blocked" under the display name.
+    After you do this, you'll see "Sign in blocked" under the display name.
 
-   ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
+      ![Screenshot of Sign in blocked message](media/res-acct-sign-in-blocked.png)
 
 ## Related Information
 
