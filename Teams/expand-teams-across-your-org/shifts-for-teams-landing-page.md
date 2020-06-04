@@ -157,7 +157,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Workforce management integrations</h3>
-                        <p>If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling and time and attendance, you  can now start integrating directly with Shifts through Shifts Graph APIs and SDK with open source integrations.</p>
+                        <p>If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling and time and attendance, you can now start integrating directly with Shifts through Shifts Graph APIs and SDK with open source integrations.</p>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shifts + Power Automate</h3>
-                        <p>Shifts + Power Automate allows you to take information from Shifts and create customized workflows with other apps and perform operations at scale – automating key processes for Firstline Workers with little to no code. </p>
+                        <p>Shifts + Power Automate allows you to take information from Shifts and create customized workflows with other apps and perform operations at scale &ndash; automating key processes for Firstline Workers with little to no code. </p>
                         <p>Shifts + Power Automate triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests in scenarios where a manager’s approval isn't needed.</p>
                     </div>
                 </div>
