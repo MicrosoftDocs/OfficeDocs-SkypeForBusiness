@@ -123,6 +123,69 @@ Teams gives Firstline Workers in your organization the tools they need to commun
     </li>
 </ul>
 
+### Shifts extensions
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Shift Graph APIs</h3>
+                        <p>Shifts through Shifts Graph APIs will allow you to fully integrate Shifts data (such as schedules, open shifts, time off requests) with external workforce management systems, providing you the flexibility to build customized Shifts experiences in the back end, while giving users a rich, front-end experience in Teams. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workforce management integrations</h3>
+                        <p>If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling and time and attendance, you  can now start integrating directly with Shifts through Shifts Graph APIs and SDK with open source integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Shifts + Power Automate</h3>
+                        <p>Shifts + Power Automate allows you to take information from Shifts and create customized workflows with other apps and perform operations at scale – automating key processes for Firstline Workers with little to no code. </p>
+                        <p>Shifts + Power Automate triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests in scenarios where a manager’s approval isn't needed. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
 ---
 
 ## Featured training
