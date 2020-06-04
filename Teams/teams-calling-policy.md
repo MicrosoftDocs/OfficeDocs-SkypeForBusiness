@@ -115,7 +115,6 @@ Busy on Busy (Busy Options) is a new setting that lets you configure how incomin
 ### Allow web PSTN calling
 
 
-
 ### Allow music on hold
 
 This settings allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It is turned on by default. This setting does not apply to call park and boss delegate features, and is only available via powershell currently. 
