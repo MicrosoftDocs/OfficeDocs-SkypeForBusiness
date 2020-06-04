@@ -46,7 +46,7 @@ Follow these steps to modify an existing calling policy.
 2. Click next to the policy that you want to modify, and then select **Edit**.
 3. Make the changes that you want, adn then click **Save**.
 
-### Assign a custom calling policy to users
+## Assign a custom calling policy to users
 
 To assign a policy to one user:
 
@@ -70,7 +70,7 @@ Or, you can also do the following:
 
 ## Calling policy settings
 
-Use the following settings to create a custom calling policy.
+Here's the settings that you can configure for calling policies.
 
 ### Make private calls
 
