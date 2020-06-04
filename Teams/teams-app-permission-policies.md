@@ -50,7 +50,7 @@ If you want to control the apps that are available for different groups of users
 2. Click **Add**.
     ![Screenshot of new app permission policy](media/app-permission-policies-new-policy.png)
 3. Enter a name and description for the policy.
-4. Under **Microsoft apps**, **Third-party apps**, and **Tenant apps**, select one of the following:
+4. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
 
     - **Allow all apps**
     - **Allow specific apps and block all others**
@@ -60,10 +60,10 @@ If you want to control the apps that are available for different groups of users
 5. If you selected **Allow specific apps and block others**, add the apps that you want to allow:
 
     1. Select **Allow apps**.
-    1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
+    1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Custom apps**).
     1. When you've chosen the list of apps, click **Allow**.
 
-6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block.
+6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block, and then click **Block**.
 7. Click **Save**.
 
 ## Edit an app permission policy
