@@ -145,26 +145,6 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </div>
         </a>
     </li>
-     <li>
-        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Teams</h3>
-                        <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence.</p>
-                        <p><i>Audience: End users</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
     <li>
         <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
         <div class="cardSize">
