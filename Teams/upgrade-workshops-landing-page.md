@@ -22,7 +22,7 @@ appliesto:
 ---
 # Teams upgrade planning workshops
 
-As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the **Plan your upgrade** session below. To view these workshops on your own time, visit <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Upgrade to Microsoft Teams</a> on YouTube.
+As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the **Plan your upgrade** session below. To view these workshops on your own time, visit [Upgrade to Microsoft Teams](https://aka.ms/UpgradeOnDemand"target="_blank") on YouTube.
 
 New to Teams? Learn more [here](https://docs.microsoft.com/microsoftteams/teams-overview).
 
