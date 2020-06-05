@@ -133,7 +133,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -152,7 +152,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,7 +171,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
                         </div>
                     </div>
                     <div class="cardText">
