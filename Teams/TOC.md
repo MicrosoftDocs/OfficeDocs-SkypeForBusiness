@@ -496,7 +496,8 @@
 
 ## Plan your upgrade journey
 
-### [Plan for your upgrade - Key requirements](upgrade-plan-journey.md)
+### Plan for your upgrade - Key requirements
+#### [Overview](upgrade-plan-journey.md)
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
 #### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
@@ -515,8 +516,6 @@
 #### [Organizational readiness overview](upgrade-prepare-organization.md)
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
-
-
 
 
 ## Implement your upgrade
