@@ -38,9 +38,9 @@ If you have more than one Teams Rooms console, you can do most actions on multip
 
 ### Console settings
 
-You can change settings on one or more consoles in your organization. To change console settings, select the console or consoles you want to manage and then select **Settings**. A new pane will open with all of the settings you can change on your consoles. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single console. 
+You can change settings on one or more consoles in your organization. To change console settings, select the console or consoles you want to manage and then select **Settings**. A new pane will open with all of the settings you can change on your consoles. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single console.
 
-If you select more than one console, settings that support bulk-editing show the two following options.
+If you select more than one console, settings that support bulk editing show the two following options.
 
 - **Keep existing value** If you choose this option, no changes will be made to the setting on the consoles you selected.
 - **Replace existing value with** If you choose this option, you can update the setting on the consoles you selected with the value you provide.
