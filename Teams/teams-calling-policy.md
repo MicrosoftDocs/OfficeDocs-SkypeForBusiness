@@ -118,7 +118,7 @@ This setting enables users to call PSTN numbers using the Teams web client.
 
 ### Allow music on hold
 
-This settings allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It is turned on by default. This setting does not apply to call park and boss delegate features, and is only available via PowerShell currently. 
+This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
 
 ## See also
 
