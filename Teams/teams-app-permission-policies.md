@@ -47,7 +47,7 @@ Say, for example, you want to block all third-party apps and allow specific apps
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+2. Click **Add**. <br>
     ![Screenshot of new app permission policy](media/app-permission-policies-new-policy.png)
 3. Enter a name and description for the policy.
 4. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
