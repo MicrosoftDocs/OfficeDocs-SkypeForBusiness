@@ -125,7 +125,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 ### Shifts extensions
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
         <div class="cardSize">
