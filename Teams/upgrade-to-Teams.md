@@ -32,8 +32,9 @@ This article is part of the Deployment and Implementation stage of your upgrade 
 
 ## Prerequisite planning activities
 
-> [!]IMPORTANT]
+> [!IMPORTANT]
 > Before proceeding with your upgrade implementation, confirm that you've read the planning content starting with [Plan your upgrade](upgrade-plan-journey.md) to ensure you've completed all prerequisite planning activites.
+
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
