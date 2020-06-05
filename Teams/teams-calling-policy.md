@@ -52,7 +52,7 @@ To assign a policy to one user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **App setup policy**, select the app setup policy you want to assign, and then click **Apply**.
+3. Under **Calling policy**, select the calling policy you want to assign, and then click **Apply**.
 
 To assign a policy to multiple users at a time:
 
