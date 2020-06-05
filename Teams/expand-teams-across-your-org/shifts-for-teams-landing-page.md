@@ -138,7 +138,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shift Graph APIs</h3>
-                        <p>Shifts Graph APIs allow you to integrate Shifts data with external workforce management systems, providing you the flexibility to build customized Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.</p>
+                        <p>Shifts Graph APIs allow you to integrate Shifts data with external workforce management systems, providing you the flexibility to build custom Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.</p>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shifts + Power Automate</h3>
-                        <p>Shifts + Power Automate lets you take info from Shifts and create customized workflows with other apps and perform operations at scale &ndash; automating key processes for Firstline Workers with little to no code. The triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests when a manager’s approval isn't needed.</p>
+                        <p>Shifts + Power Automate lets you take info from Shifts and create custom workflows with other apps and perform operations at scale. Automate key processes for Firstline Workers with little to no code. The triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests when a manager’s approval isn't needed.</p>
                     </div>
                 </div>
             </div>
