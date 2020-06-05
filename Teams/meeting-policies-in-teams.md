@@ -29,6 +29,9 @@ description: Learn to manage meeting policy settings in Teams and use them to co
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
+> [!NOTE]
+> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+
 You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
 |Implementation type  |Description  |
@@ -403,8 +406,6 @@ To prevent a meeting organizer from downloading the report, set the parameter to
 
 ## Meeting policy settings - Meeting provider for Islands mode
 
-**(coming soon)**
-
 This is a per-user policy. This setting controls which Outlook meeting add-in is used for *users who are in Islands mode*. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
 
 You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to **True** in their Teams meeting policy.
@@ -417,6 +418,24 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 - Set the parameter to **TeamsOnly** to enable only the Teams Meeting add-in in Outlook. This policy setting ensures that all future meetings have a Teams meeting join link. It doesn't migrate existing Skype for Business meeting join links to Teams. This policy setting doesn't affect presence, chat, PSTN calling, or any other capabilities in Skype for Business, which means that users will continue to use Skype for Business for these capabilities.
 
   If you set the parameter to **TeamsOnly**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. However, note that existing Teams meeting join links won't be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
+
+## Meeting policy settings - Video filters mode
+
+This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
+
+Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
+
+To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
+
+|Setting value in PowerShell |Behavior  |
+|---------|---------|
+|**NoFilters**     |User can't customize their video background.|
+|**BlurOnly**     |User has the option to blur their video background. |
+|**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from a set of images to use as their background. |
+|**AllFilters**     |Use has the option to blur their video background, choose from a set of images, or upload custom images to use as their background. |
+
+> [!NOTE]
+> Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
 
 ## Related topics
 
