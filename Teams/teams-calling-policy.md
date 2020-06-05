@@ -32,9 +32,9 @@ In Microsoft Teams, calling policies control which calling and call forwarding f
 
 Follow these steps to create a custom calling policy.
 
-1. In the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
 2. Select **Add**.
-3. Turn on the features that you want to use in your calling policy.
+3. Turn on or turn off the features that you want to use in your calling policy.
 4. To control whether users can route inbound calls to voicemail, select **Enabled** or **User controlled**. To prevent routing to voicemail, select **Disabled**.
 5. Select **Save**.
 
@@ -44,7 +44,7 @@ Follow these steps to modify an existing calling policy.
 
 1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
 2. Click next to the policy that you want to modify, and then select **Edit**.
-3. Make the changes that you want, adn then click **Save**.
+3. Make the changes that you want, and then click **Save**.
 
 ## Assign a custom calling policy to users
 
