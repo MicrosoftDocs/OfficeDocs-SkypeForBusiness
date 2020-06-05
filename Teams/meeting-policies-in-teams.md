@@ -406,8 +406,6 @@ To prevent a meeting organizer from downloading the report, set the parameter to
 
 ## Meeting policy settings - Meeting provider for Islands mode
 
-**(coming soon)**
-
 This is a per-user policy. This setting controls which Outlook meeting add-in is used for *users who are in Islands mode*. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
 
 You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to **True** in their Teams meeting policy.
