@@ -31,7 +31,7 @@ A healthy technical environment, sustained user adoption, and the realization of
 - [Enlisting your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope)
 - [Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [**Choosing your upgrade journey**](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [**Choosing your upgrade journey based on your business needs**](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [**Planning a user pilot**](pilot-essentials.md)
 
 > [!TIP]
