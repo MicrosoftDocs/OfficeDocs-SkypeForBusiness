@@ -496,11 +496,12 @@
 
 ## Plan your upgrade journey
 
-### [Upgrade planning overview](upgrade-plan-journey.md)
+### [Plan for your upgrade - Key requirements](upgrade-plan-journey.md)
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
 #### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Plan a user pilot](pilot-essentials.md)
 
 
 ### Prepare your environment for Teams
@@ -515,7 +516,7 @@
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-### [Conduct a user pilot](pilot-essentials.md)
+
 
 
 ## Implement your upgrade
