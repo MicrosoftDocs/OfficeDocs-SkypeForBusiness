@@ -25,7 +25,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 ### Move from StaffHub to Shifts in Teams
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
         <div class="cardSize">
@@ -84,7 +84,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 ### Set up and manage Shifts for your organization
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
