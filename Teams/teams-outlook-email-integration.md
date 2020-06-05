@@ -20,16 +20,6 @@ appliesto:
 
 Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat or channel conversations in Teams and to stay on top of missed conversations. This article gives you an overview of these features and the admin controls that apply.
 
-## Share to Teams
-
-**Share to Teams** is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and attachments. To learn more, see \<link to end user article>.
-
-The Share to Teams add-in is available for Outlook for Windows, Outlook for Mac, and Outlook on the web. It's automatically installed for active Teams users. For more information about running Office add-ins, see [Requirements for running Office add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/requirements-for-running-office-add-ins).
-
-![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
-
-If you want to limit the availability of the add-in to certain users in your organization, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for specific users. When the add-in is turned off, it isn't displayed in Outlook for the user. Note that the add-in must be already installed before you can use the cmdlet to turn it off.
-
 ## Share to Outlook
 
 **Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. This feature is handy if users need to share conversations or status updates with users outside their immediate team or even your organization. Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.  To learn more, see [Share to Outlook from Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
