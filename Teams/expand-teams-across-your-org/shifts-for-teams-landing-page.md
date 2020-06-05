@@ -138,7 +138,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shift Graph APIs</h3>
-                        <p>Shifts through Shifts Graph APIs allow you to fully integrate Shifts data  with external workforce management systems, providing you the flexibility to build customized Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.</p>
+                        <p>Shifts Graph APIs allow you to fully integrate Shifts data with external workforce management systems, providing you the flexibility to build customized Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.</p>
                     </div>
                 </div>
             </div>
