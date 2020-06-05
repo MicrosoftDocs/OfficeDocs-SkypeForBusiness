@@ -85,6 +85,8 @@ If you are a manufacturer and want to join the certification program, see [How t
 | Poly            | Savi 8220 UC            | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Savi 8240 Office        | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Savi 8240 UC            | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
+| Poly            | Savi 8245 Office        | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
+| Poly            | Savi 8245  UC           | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Blackwire 5210 Headset  | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Blackwire 5220 Headset  | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
 | Poly            | Blackwire 7225 Headset  | 4/20/2020  | Skype for Business with upgrade to Microsoft Teams |
