@@ -2,6 +2,7 @@
 
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
+## [Virtualization guidance](../virtualization-guidance.md)
 ## [Microsoft telephony solutions](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business downloads and updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
