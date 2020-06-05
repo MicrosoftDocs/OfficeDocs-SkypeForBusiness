@@ -32,4 +32,6 @@ New to Teams? Learn more [here](https://docs.microsoft.com/microsoftteams/teams-
 | ![A grid and a cloud icon representing a hybrid deployment](https://docs.microsoft.com/office/media/icons/hybrid-teams.png)  | **[Identify your upgrade approach](https://microsoftteams.eventbuilder.com/UpgradeApproach)**  Determine the most suitable approach based on your current Skype for Business implementation and upgrade goals. **Audience:** IT admins | ![A graphical report icon representing usage reports](https://docs.microsoft.com/office/media/icons/usage-report-teams.png)  | **[Implement your upgrade approach](https://microsoftteams.eventbuilder.com/UpgradeImplement)** Execute your defined upgrade approach as part of your formal upgrade plan. **Audience:** IT admins |
 
 
+
+
 ![Small business storefront](https://docs.microsoft.com/office/media/icons/small-business-teams.png) **Implementing Teams?**  Check out our Teams Chalk Talk series. 
