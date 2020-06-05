@@ -34,6 +34,8 @@ A healthy technical environment, sustained user adoption, and the realization of
 - [**Choosing your upgrade journey based on your business needs**](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [**Planning a user pilot**](pilot-essentials.md)
 
+After you've planned your journey, you will read topics about [preparing your environment](upgrade-prepare-environment.md) and [preparing your organization](upgrade-prepare-organization.md) before you [implement your upgrade](upgrade-to-teams.md).  
+
 > [!TIP]
 > Join us for live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
 >
