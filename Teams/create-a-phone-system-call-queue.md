@@ -43,7 +43,7 @@ All calls in the queue are sent to agents by one of the following methods:
 
 - With attendant routing, the first call in the queue rings all agents at the same time.
 - With serial routing, the first call in the queue rings all call agents one by one.
-- With longest idle routing, the call agent who has been idle the longest receives the next available call.
+- With longest idle routing, the call agent whose has been idle the longest time receives the next available call. The idle time is defined as the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call. Presence states of users are queried every minute.
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
 You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.
@@ -158,7 +158,7 @@ Calls are routed first to individual agents, then to the agents in groups.
 
 You can select up to 200 call agents who belong to any of the following mailing lists or groups:
 
-- Microsoft 365 group
+- Office 365 group
 - Security group
 - Distribution list
 
@@ -173,7 +173,7 @@ Call agents selected must be one of the following:
 
    To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Users with a **Phone System** license or a Calling Plan that are added to either a Microsoft 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
+- Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
@@ -203,17 +203,17 @@ The majority of calls are received via one of the methods listed above. If a cal
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
-- **Longest idle** routes the next available call to the call agent who has been idle the longest time.
+- **Longest idle** routes the next available call to the call agent whose has been idle the longest time. The idle time is the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call.
     > [!IMPORTANT]
     > Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled. If you have agents who use Skype or Business, don't enable this setting.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
-**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
+**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Presence states of users are queried every minute. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.  
 
 You can enable presence-based call routing with any of the routing methods.
 
-If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
+If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
 > [!IMPORTANT]
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. Agents who aren't in the call routing list won't receive calls. If you have agents who use Skype for Business, don't enable presence-based call routing.
