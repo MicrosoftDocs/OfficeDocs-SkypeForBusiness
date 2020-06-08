@@ -50,7 +50,7 @@ The following information is about configuring Cloud Voicemail to work with user
 
 ## Set up Cloud Voicemail for Skype for Business Server Users
 
-To configure Skype for Business server users for Cloud Voicemail please see [Plan Cloud Voicemail service for on-premises users](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
+To configure Skype for Business server users for Cloud Voicemail, please see [Plan Cloud Voicemail service for on-premises users](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## Enabling protected voicemail in your organization
 
