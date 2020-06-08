@@ -48,8 +48,8 @@ You must be an admin to make these changes.
     
 5. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
 
-> [!NOTE]
-By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+  > [!NOTE]
+  > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
     
 6. If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.
     
