@@ -25,7 +25,7 @@ For an overview of making the transition to remote learning and resources to hel
 
 Resources to assist educators and students with remote learning are available in [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
 
-This article is covers the actual steps to take in order to get your educational institution set up for remote learning.
+This article covers the actual steps to take in order to get your educational institution set up for remote learning.
 
 > [!NOTE]
 > If you're an educator, educational leader, or IT professional, these resources may help:
