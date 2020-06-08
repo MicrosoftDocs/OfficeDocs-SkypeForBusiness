@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [Manage tags in Teams](manage-tags.md)
@@ -64,8 +65,8 @@
 ### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
+### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Communicate with external users
@@ -100,8 +101,8 @@
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
-### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Assign policies to your users](assign-policies.md)
+### [View your policy assignments in the Activity log](activity-log.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
@@ -215,7 +216,6 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Presenter and participant capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
@@ -314,6 +314,7 @@
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
 #### [Set up the Ringback bot](direct-routing-ringback-bot.md)
+#### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 
 ## Phone numbers
@@ -362,6 +363,7 @@
 #### [Phone number management for France](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Phone number management for Germany](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Phone number management for Ireland](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [Phone number management for Japan](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
 #### [Phone number management for Spain](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
@@ -439,7 +441,6 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
-### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
@@ -703,6 +704,7 @@
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Issues receiving messages and calls on legacy systems](legacy-login-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
@@ -780,6 +782,7 @@
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)

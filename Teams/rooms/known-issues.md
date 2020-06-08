@@ -28,6 +28,8 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 |  ---        |      ---             |   ---            | --- |
 |  App out of date         |    The Microsoft Teams Rooms console shows a "system config out of date" error.                |   [Use the Microsoft Teams Rooms recovery tool](recovery-tool.md)             |  None |
 |  Device updated to unsupported version of Windows 10   |    Windows 10 device updated from version 1803 to version 1809, which is not supported. The supported version is 1903. |   This can happen if the [Group Policy or MDM setting for DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) setting, which lets you defer feature updates for a specified number of days, is set to the maximum of 365 days. <br><br> Windows 10 version 1809 isn't supported with Microsoft Teams Rooms, while version 1903 is supported. However, as of March 27, 2020, version 1809 is over 365 days old. If this setting isn't changed, Windows attempts to install version 1809, which may cause issues with Microsoft Teams Rooms.<br><br>To avoid this situation, **remove** any Group Policy or MDM setting for deferring updates. This allows Windows to update to the latest, supported OS version. <br><br>**IMPORTANT** The Group Policy or MDM setting must be **removed** (left unconfigured) and **not set to 0**. If the policy is set to 0, Windows takes the latest available version which may not be supported. |  None |
+| Application not launching |  After updating to application version 4.4.41.0, the system boots to black screen where it may get stuck, or go to the logon screen after few minutes. | Follow the steps in [Microsoft Teams Rooms application does not start after update to version 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) to fix this issue.  | None |
+
 
 <a name="OS-conflicts"> </a>  
 ## User interface 
@@ -61,8 +63,6 @@ Always use a wired 1-Gbps network connection to assure you have the needed bandw
 ***
 
 If your Microsoft Teams Rooms device loses trust with the domain, you won't be able to authenticate into the device and open up Settings. For example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined, trust is lost. The workaround is to log in with the local Admin account. 
-***
-The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0. 
 ***
 Microsoft Teams Rooms is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure that you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
 ***

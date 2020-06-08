@@ -88,15 +88,21 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to users in a group, such as a security group or distribution group.
 
 ### Assign a custom app setup policy to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
+To assign a policy to one user:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Under **App setup policy**, select the app setup policy you want to assign, and then click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -156,7 +162,7 @@ There's no limit on the number of pinned apps you can add to a policy.
 
 #### How long does it take for policy changes to take effect?
 
-After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
 
 ### User experience
 
@@ -192,3 +198,4 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
  ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
+- [Assign policies to your users in Teams](assign-policies.md)

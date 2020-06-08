@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -35,7 +35,7 @@ appliesto:
 
 ### Why is Microsoft Teams replacing Skype for Business Online?
 
-Microsoft Teams expands on the capabilities in Skype for Business Online by bringing together files, chats, and apps in an integrated app, with functionality that enables organizations to move faster and collaborate more efficiently. Because of the richer set of experiences offered in Teams, it replaces Skype for Business as the core communications client for Office 365.
+Microsoft Teams expands on the capabilities in Skype for Business Online by bringing together files, chats, and apps in an integrated app, with functionality that enables organizations to move faster and collaborate more efficiently. Because of the richer set of experiences offered in Teams, it replaces Skype for Business as the core communications client for Microsoft 365 and Office 365.
 
 ### When is the retirement of Skype for Business Online?
 
@@ -61,7 +61,7 @@ Starting September 1, 2019, all new Office 365 customers will be onboarded to Te
 
 ### What do you recommend for customers who are currently in the process of deploying — or planning to deploy — Skype for Business in Office 365?
 
-Customers currently deploying Skype for Business Online may continue to do so. We encourage all new Office 365 customers to start using Teams, independently of or in parallel with Skype for Business and determine the path (coexistence or Teams only) and timing that meets their business needs. Regardless of tenure with Skype for Business Online, customers will need to move to Teams before the Skype for Business Online retirement date.
+Customers currently deploying Skype for Business Online may continue to do so. We encourage all new Microsoft 365 and Office 365 customers to start using Teams, independently of or in parallel with Skype for Business and determine the path (coexistence or Teams only) and timing that meets their business needs. Regardless of tenure with Skype for Business Online, customers will need to move to Teams before the Skype for Business Online retirement date.
 
 ### What support do you offer customers who want to move to Teams, especially those who have made significant investments in Skype for Business Online?
 
@@ -69,7 +69,7 @@ We encourage all Skype for Business customers to begin deploying Teams and plann
 
 ### What does this mean from a licensing perspective? How will customers pay for Intelligent Communications services in Teams?
 
-Teams is available in Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
+Teams is available in Microsoft 365 and Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
 
 ### Is Microsoft planning scheduled upgrades?
 
@@ -167,7 +167,7 @@ Yes, Teams is available for the US Government Cloud Community (GCC). To learn mo
 
 ### What is the plan for Microsoft's online voice capabilities?
 
-The core of our voice solution is Phone System which is available today. Customers can additionally add a Microsoft Calling Plan which provides complete support for calling including number acquisition and assignment directly in Office 365. Customers who want to keep their telecom telephone trunks can use Direct Routing – which is included as part of Phone System. Mix and match both together as you see fit for your organization's needs to have a complete voice solution.
+The core of our voice solution is Phone System which is available today. Customers can additionally add a Microsoft Calling Plan which provides complete support for calling including number acquisition and assignment directly in Microsoft 365 or Office 365. Customers who want to keep their telecom telephone trunks can use Direct Routing – which is included as part of Phone System. Mix and match both together as you see fit for your organization's needs to have a complete voice solution.
 
 ### What is the guidance for customers already deployed on Phone System (Cloud PBX) in Skype for Business Online?
 
@@ -185,7 +185,7 @@ There will be no change in the coverage for Audio Conferencing as a result of it
 
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
-There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services in Office 365. Customers who need to leverage ACP support in Skype for Business meetings can continue to use their Skype for Business client to join Skype for Business meetings. Meetings scheduled in Teams will need to utilize the Audio Conferencing services of Office 365.
+There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services. Customers who need to leverage ACP support in Skype for Business meetings can continue to use their Skype for Business client to join Skype for Business meetings. Meetings scheduled in Teams will need to utilize the Audio Conferencing services of Microsoft 365 or Office 365.
 
 Support for the integration of third-party party Audio Conferencing Providers (ACP) into Skype for Business Online has been extended to July 31, 2021, with limited support for remaining active tenants to allow additional time for transition.  This is an update in the ACP timeline announced in April 2018.
 
