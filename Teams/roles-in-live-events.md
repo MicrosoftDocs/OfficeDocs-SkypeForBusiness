@@ -30,7 +30,6 @@ The available meeting features are:
 - Whiteboard
 - Recording
 - Files
-- Schedule a meeting (for meetings only)
 
 This article describes those participant capabilities and what access they have to live event features.
 
@@ -39,7 +38,7 @@ This article describes those participant capabilities and what access they have 
 Presenters and organizers include the following:
 
 - Presenters from my organization
-- Presenters from other organizations (Live Events restriction) - this includes anonymous and external participants. Presenters are designated by the organizer and require a personal invite from the organizer.
+- Presenters from other organizations. Presenters are designated by the organizer and require a personal invite from the organizer.
 
 Presenters and organizers have access to every feature in a live event.
 
@@ -59,7 +58,7 @@ The in-tenant participant belongs to the organization and has credentials for th
 | Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**       | Pre-meeting | In-meeting | Post-meeting |
-| Chat | Yes | Yes | Yes |
+| Chat | N/A | N/A | N/A |
 | Meeting Notes | Yes | Yes |Yes |
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
@@ -74,7 +73,7 @@ A guest participant is someone from another organization who has been invited to
 | Live event  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat | Yes | Yes | Yes |
+| Chat | N/A | N/A | N/A |
 | Meeting Notes | Yes | Yes | Yes |
 | Whiteboard | No | No | No |
 | Recording | N/A | No | No |
@@ -89,7 +88,7 @@ An external participant is someone using Teams in another organization who has b
 | Live event |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**         | Pre-meeting | In-meeting | Post-meeting |
-| Chat | No| Yes | Yes |
+| Chat | N/A| N/A | N/A |
 | Meeting Notes | No | No | No |
 | Whiteboard | No| No | No |
 | Recording | N/A | No | No |
@@ -103,9 +102,9 @@ The anonymous participant is like an external user, but their identity is not pr
 | Live event|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat | No | Yes | No |
+| Chat | N/A | N/A | N/A |
 | Meeting Notes | N/A | No | N/A |
-| Whiteboard | N/A | No | N/A |
+| Whiteboard | N/A | N/A | N/A |
 | Recording | N/A | No | N/A |
 | Files | N/A | No | N/A |
 |||||||
@@ -116,3 +115,5 @@ The anonymous participant is like an external user, but their identity is not pr
 [Security and Microsoft Teams](teams-security-guide.md)
 
 [Guest access in Teams](guest-access.md)
+
+[Plan for live events in Teams](teams-live-events/plan-for-teams-live-events.md)
