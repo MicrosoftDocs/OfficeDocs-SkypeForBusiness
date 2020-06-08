@@ -82,7 +82,7 @@ Your organization might have additional requirements for setting policies for ex
 |Capability |Details |Azure AD Premium license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Microsoft 365 groups by setting an expiration policy. |P1 |TBD|
-|Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
+|Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Microsoft 365 or Office 365 Enterprise E3 or above. |No |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
@@ -101,7 +101,7 @@ For technical guidance on how to implement these settings, see:
 
 ## Teams feature management
 
-Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Microsoft 365 or  Office 365 organization level or per-user.
+Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Microsoft 365 or Office 365 organization level or per-user.
 
 
 |         |         |
