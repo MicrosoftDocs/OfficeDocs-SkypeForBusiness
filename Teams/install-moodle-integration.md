@@ -154,7 +154,7 @@ To install the bot, you'll first need to register it on the [Microsoft Identity 
 
 Now that you've generated your Application Id and Password, it's time to deploy your bot to Azure. Click on the **Deploy to Azure** button and fill out the form with the necessary information (the Bot Application Id, Bot Application Password and the Moodle Secret are on the **Team Settings** page, and the Azure information is on the **Setup** page). Once you've got the form filled out, click the check box to agree to the terms and conditions then click the **Purchase** button (all Azure resources are deployed to the free tier).
 
-Once the resources are finished deploying to Azure, you'll need to configure the Moodle plugin with it's messaging endpoint. First, you'll need to get the endpoint from you Bot in Azure. To do that:
+Once the resources are finished deploying to Azure, you'll need to configure the Moodle plugin with it's messaging endpoint. First, you'll need to get the endpoint from your Bot in Azure. To do that:
 
 1. If you aren't already, log into the [Azure portal](https://portal.azure.com).
 2. In the left pane select **Resource groups**.

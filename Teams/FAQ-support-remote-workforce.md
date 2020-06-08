@@ -97,7 +97,7 @@ Read [Support remote workers using Teams](support-remote-work-with-teams.md). It
 
 ### I just got started with Microsoft 365 so I can use Teams to support my remote workers or students. I've signed up for the service, but when a user tries to use Teams, they get this error: "You're missing out! Ask your admin to enable Microsoft Teams." What should I do?
 
-After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individual or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 If you're licensing or enabling a user for the first time but you've had Microsoft 365 for a while, you might need to [Turn on Teams](Office-365-set-up.md) for your organization. Check [I have Microsoft 365 already, but I don't use Teams. Are you providing trial licenses?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) in this article.
 

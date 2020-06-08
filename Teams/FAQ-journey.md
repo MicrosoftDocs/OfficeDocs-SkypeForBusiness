@@ -35,7 +35,7 @@ appliesto:
 
 ### Why is Microsoft Teams replacing Skype for Business Online?
 
-Microsoft Teams expands on the capabilities in Skype for Business Online by bringing together files, chats, and apps in an integrated app, with functionality that enables organizations to move faster and collaborate more efficiently. Because of the richer set of experiences offered in Teams, it replaces Skype for Business as the core communications client for Microsoft 365 or Office 365.
+Microsoft Teams expands on the capabilities in Skype for Business Online by bringing together files, chats, and apps in an integrated app, with functionality that enables organizations to move faster and collaborate more efficiently. Because of the richer set of experiences offered in Teams, it replaces Skype for Business as the core communications client for Microsoft 365 and Office 365.
 
 ### When is the retirement of Skype for Business Online?
 

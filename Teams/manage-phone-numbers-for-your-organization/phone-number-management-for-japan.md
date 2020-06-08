@@ -26,7 +26,7 @@ description: "Use this table to find information on getting and managing phone n
 > [!IMPORTANT]
 > Using SoftBank for calling in Japan is currently only available to Early Adopters (EA).
 
-In Japan, we have partnered with SoftBank for the purchase and provisioning of Calling Plans for customers with a billing address in Japan. SoftBank will sell their Calling Plans, provide user numbers for Japan and also provide the support for phone number management, However, service numbers and licenses for audio conferencing, auto attendants and call queues will still be sold and managed by Microsoft 365 and Office 365.
+In Japan, we have partnered with SoftBank for the purchase and provisioning of Calling Plans for customers with a billing address in Japan. SoftBank will sell their Calling Plans, provide user numbers for Japan, and provide the support for phone number management. However, service numbers and licenses for audio conferencing, auto attendants, and call queues will still be sold and managed by Microsoft 365 and Office 365.
 
 For more information on the [SoftBank Calling](https://aka.ms/SoftBankVoicePlan).
 
