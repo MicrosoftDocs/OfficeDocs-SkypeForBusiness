@@ -162,7 +162,7 @@ You can select up to 200 call agents who belong to any of the following mailing 
 - Security group
 - Distribution list
 
-Call agents selected must be one of the following:
+Call agents selected must be one of the following: 
 
 - Online users with a Phone System license and Enterprise Voice enabled
 - Online users with a Calling Plan
