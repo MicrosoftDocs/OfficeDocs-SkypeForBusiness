@@ -21,7 +21,7 @@ appliesto:
 Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online 
 =============================================================================
 
-Whether you create an Office 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.
+Whether you create a Microsoft 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.
 
 ![Screenshot of a message header showing a user added to a group.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 

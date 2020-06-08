@@ -51,7 +51,7 @@ If your tenant is provisioned in Australia, Canada, the European Union, France, 
 
 #### Chat, channel messages, team structure
 
-Every team in Teams is backed by an Office 365 Group and its SharePoint site and Exchange mailbox. Private chats (including group chats), messages sent as part of a conversation in a channel, and the structure of teams and channels are stored in a chat service running in Azure. The data is also stored in a hidden folder in the user and group mailboxes to enable Information Protection features.
+Every team in Teams is backed by a Microsoft 365 Group and its SharePoint site and Exchange mailbox. Private chats (including group chats), messages sent as part of a conversation in a channel, and the structure of teams and channels are stored in a chat service running in Azure. The data is also stored in a hidden folder in the user and group mailboxes to enable Information Protection features.
 
 #### Voicemail and contacts
 
