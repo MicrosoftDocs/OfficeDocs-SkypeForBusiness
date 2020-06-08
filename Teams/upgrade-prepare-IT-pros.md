@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn about how to prepare IT staff in your organization for deploying and supporting Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150

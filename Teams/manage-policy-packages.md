@@ -42,8 +42,8 @@ Teams currently includes the following policy packages.
 |Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
-|Education (Primary school teacher using remote learning) (Preview)   |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
-|Education (Primary school student using remote learning) (Preview)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
+|Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
+|Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
@@ -101,10 +101,7 @@ Here are the steps for how to view, assign, and customize policy packages in the
 
 Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
-A batch can contain up to 20,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
-
-> [!IMPORTANT]
-> We're currently recommending that you assign policies in batches of 5,000 users at a time. During these times of increased demand, you may experience delays in processing times. To minimize the impact of these increased processing times, we suggest that you submit smaller batch sizes of up to 5,000 users, and submit each batch only after the previous one is completed. Submitting batches outside your regular business hours can also help.
+A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ### Customize policies in a policy package
 

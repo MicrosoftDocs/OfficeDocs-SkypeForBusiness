@@ -27,7 +27,7 @@ Microsoft Teams guest access checklist
 Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 
 > [!IMPORTANT]
-> You may have to wait a couple of hours for your changes to take effect. 
+> You may have to wait a few hours for your changes to take effect. 
 
 Watch this short video (5:31 minutes) to see how to turn on guest access throughout Microsoft 365, including Teams.
 
@@ -84,7 +84,7 @@ These are the Azure AD settings that support guest access in Teams. Once these s
 
 For detailed instructions about configuring these settings, see [Manage guest access in Microsoft 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Microsoft 365 Groups](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
-## Step 4: Configure sharing in Office 365 
+## Step 4: Configure sharing in Microsoft 365 
 
 Make sure that users can add guests. Here's how:
 

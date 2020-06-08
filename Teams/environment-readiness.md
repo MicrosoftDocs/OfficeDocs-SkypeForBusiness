@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: How to perform a detailed environmental discovery as you plan your journey from Skype for Business to Microsoft Teams.
 f1.keywords:
 - NOCSH

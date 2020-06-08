@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Follow this accelerated ten-step action plan to transition from a basic Skype for Business set-up to the Microsoft Teams set-up. 
 localization_priority: Normal

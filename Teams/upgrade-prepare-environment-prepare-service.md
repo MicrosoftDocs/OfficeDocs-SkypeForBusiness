@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn about the requirements for preparing your organization for collaboration and cloud voice services with Teams.
 localization_priority: Normal
 search.appverid: MET150

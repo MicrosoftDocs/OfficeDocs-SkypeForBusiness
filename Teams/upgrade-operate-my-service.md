@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 localization_priority: Normal
 search.appverid: MET150
