@@ -28,7 +28,7 @@ In addition to using the Microsoft 365 admin center and the Azure Active Directo
 
 - Allow guests to be added to all teams and Microsoft 365 Groups
 
-- Allow or block guest users from a specific team or Office 365 group
+- Allow or block guest users from a specific team or Microsoft 365 group
 
 For details, see "Use PowerShell to control guest access" in [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).
 
