@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 
 localization_priority: Normal
 search.appverid: MET150
@@ -80,6 +80,8 @@ This mode can be used prior to starting a managed deployment of Teams to prevent
 A **Teams Only** user (also called an *upgraded* user) has access to all the capabilities in Teams. They may retain the Skype for Business client to join meetings on Skype for Business that have been organized by non-upgraded users or external parties. An upgraded user can continue to communicate with other users in the organization who are still using Skype for Business by using the interoperability capabilities between Teams and Skype for Business (provided these Skype for Business users are not in **Islands** mode). However, an upgraded user can't initiate a Skype for Business chat, call, or meeting.
 
 As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to **Teams Only** mode. If you are upgrading from **Islands** mode, we advise that you first saturate Teams adoption throughout your organization before beginning the upgrade process. This avoids broken communication scenarios due to **Islands** mode not providing interoperability.
+
+When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. This means that links in a user's contact card in Outlook for calling or chat will be handled by Teams.
 
 For additional considerations about moving to **Teams Only** mode, see [Teams Only mode considerations](teams-only-mode-considerations.md).
 

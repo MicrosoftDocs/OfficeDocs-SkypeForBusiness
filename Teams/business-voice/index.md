@@ -143,7 +143,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Need help?</h3>
-                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Office 365</a></p>
+                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Microsoft 365 or Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Small and medium business tech community</a></p>
                                                 </div>
                                             </div>
@@ -164,7 +164,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams admin docs</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice feedback</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams client docs</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 admin docs</a></p>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Microsoft 365 and Office 365 admin docs</a></p>
                                                 </div>
                                             </div>
                                         </div>
