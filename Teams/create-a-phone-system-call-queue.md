@@ -157,7 +157,7 @@ Calls are routed first to individual agents, then to the agents in groups.
 
 You can select up to 200 call agents who belong to any of the following mailing lists or groups:
 
-- Office 365 group
+- Microsoft 365 group
 - Security group
 - Distribution list
 
@@ -172,7 +172,7 @@ Call agents selected must be one of the following:
 
    To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
+- Users with a **Phone System** license or a Calling Plan that are added to either a Microsoft 365 Group; a mail-enabled Distribution List; or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
