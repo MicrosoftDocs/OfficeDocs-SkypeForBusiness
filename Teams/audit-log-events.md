@@ -193,4 +193,4 @@ You can use the Office 365 Management Activity API to retrieve information about
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
