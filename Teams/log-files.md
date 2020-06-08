@@ -98,7 +98,7 @@ Desktop logs, also known as bootstrapper logs, contains log data that occurs bet
 
 Windows:
 
-1.  Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**
+1.  Right-click **the Microsoft Teams icon in** your system tray, select **Get Logs**
 
 Mac OsX:
 

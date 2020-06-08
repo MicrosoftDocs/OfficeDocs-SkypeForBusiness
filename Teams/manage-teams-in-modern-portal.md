@@ -39,7 +39,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 or Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screenshot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
 

@@ -41,7 +41,7 @@ Users can also rate their experience with Teams and send us details about the ra
 
 As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy. The exception is Teams for Education, where the features are enabled for teachers and disabled for students.
 
-You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
 
 Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
@@ -71,7 +71,7 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ```
 ### Assign a custom feedback policy to users in a group
 
-You may want to assign a custom feedback policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group.
+You may want to assign a custom feedback policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security group.
 
 In this example, we assign a custom feedback policy called New Hire Feedback Policy to all users in the Contoso New Hires group.  
 

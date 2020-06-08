@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: kenwith
-author: kenwith
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -38,7 +38,7 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 
 ## Step 1 — Get started
 
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
+An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
@@ -158,12 +158,12 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
   - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
 
-  > [!Note]
-  > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
-  **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+    > [!Note]
+    > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
+    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
   - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
-  - **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+  - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
 
@@ -202,7 +202,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
 
-- **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+- **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
     Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
 
@@ -337,7 +337,7 @@ On this page, you can set who is listed in your directory and available for Dial
 
 If you select **All online users**, all eligible users are included in directory search.
 
-**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Microsoft 365 Groups, distribution lists, and security groups to the directory.
+**Custom user groups** This option lets you search for and select a Microsoft 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Microsoft 365 group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Microsoft 365 Groups, distribution lists, and security groups to the directory.
 
 <a name="dialscope"> </a>
 
@@ -347,7 +347,7 @@ On this page, you can set up which users in your organization will be listed in 
 
 If you select **None**, all eligible users are included in directory search.
 
-**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Microsoft 365 Groups, distribution lists, and security groups.
+**Custom user group** You can search for a Microsoft 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Microsoft 365 Groups, distribution lists, and security groups.
 
 
 If you leave settings at their default when Dial by Name is enabled, all eligible users are included in directory search.

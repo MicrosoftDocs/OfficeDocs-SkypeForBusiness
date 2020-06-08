@@ -38,6 +38,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
+|Number of members in a Private channel    |250|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
 &sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
@@ -58,7 +59,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of people in a private chat<sup>1</sup>  | 250<br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 100. We'll update this article when the government cloud limit increases from 100 to 250.    |
 |Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
