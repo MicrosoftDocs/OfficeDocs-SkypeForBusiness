@@ -368,3 +368,4 @@ For information on how to troubleshoot VDA and CWA issues, see [this Citrix webs
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
