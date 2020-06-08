@@ -22,7 +22,7 @@ description: Learn about the raise your hand feature in Microsoft Teams meetings
 
 # Raise your hand option in Teams meetings
 
-During a Microsoft Teams meeting, a participant use can the **Raise your hand** option to get the speaker's and moderator's attention. If a meeting moderator wants to take a quick poll, then the **Raise your hand** option can be used to count the meeting participants' responses.
+During a Microsoft Teams meeting, a participant can use the **Raise your hand** option to get the speaker's and moderator's attention.
 
 This feature is important for the following reasons:
 
@@ -30,35 +30,23 @@ This feature is important for the following reasons:
 
 - The moderator or speaker can see if anyone in the meeting wants to talk.  
 
-- Raise your hand makes meetings more inclusive by encouraging participation from participants.
+- **Raise your hand** makes meetings more inclusive by encouraging participation from participants.
 
-- Presenters in meetings need a mechanism to take questions in a structured manner.  
+- **Raise your hand** provides a simple, quick way to take a quick poll of meeting participants.
 
-A Teams admin doesn't have to create a policy for the feature to appear in a meeting. Raise your hand is available by default and is currently supported for web and mobile meetings.
+A Teams admin doesn't have to create a policy for the feature to appear in a meeting. **Raise your hand** is available by default and is currently supported for web and mobile meetings.
 
-## Raise your hand display
+## **Raise your hand** display
 
-Raise your hand is visible to all meeting participants and indicated by a hand icon.
+**Raise your hand** is always available in any meeting you join and is supported on all clients except meeting room devices (at the moment). 
+
+- A raised hand is visible to all meeting participants and indicated by a hand icon.
 
 - Raised hands are shown in the meeting stage, roster (sorted by duration), and when sharing content.
 
-- The raised hand animates to draw attention.
-
 - The raised hand is displayed as yellow adjacent to a participant's name.
 
-## Raise your hand settings
-
-Participants and presenters can take advantage of several raise your hand settings:
-
-|Item  |Presenter |Organizer | Participant|
-|---------|---------|---------|-----|
-|Raise hand <sup>1</sup>   |Yes        |Yes       |Yes |
-|Lower hand <sup>2</sup>  |Yes        |Yes       |Yes|
-|See raised hands of other participants    |Yes      |Yes       |Yes|
-
-<sup>1</sup> Raise your hand remains raised until it is lowered by participant, presenter, or organizer.
-
-<sup>2</sup> A participant is notified if the raised hand was lowered for them.
+Once participants has been acknowledged, they can use the **Lower your hand** option. Meeting presenters can also lower a participant's hand.
 
 ## Related article
 
