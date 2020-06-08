@@ -1161,7 +1161,7 @@ It's also important to consider and ensure that the network, video, USB, and aud
 
 Version numbers for Skype for Business can be found via the links below:
 
--   [Release information for updates to Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
+-   [Release information for updates to Microsoft 365 Apps](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Update history for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business downloads and updates](/SkypeForBusiness/software-updates)
 
