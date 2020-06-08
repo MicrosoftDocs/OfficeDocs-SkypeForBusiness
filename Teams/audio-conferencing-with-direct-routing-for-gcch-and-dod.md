@@ -88,7 +88,7 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your users
 
-To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Add users individually or in bulk](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users).
+To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 ### Step 5: (Optional) See a list of Audio Conferencing numbers in Teams
 
