@@ -73,7 +73,7 @@ You can archive a team. Archiving a team puts the team into read-only mode withi
 
 ### Delete
 
-Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### Search
 
