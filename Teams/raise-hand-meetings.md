@@ -32,11 +32,11 @@ This feature is important for the following reasons:
 
 - **Raise your hand** makes meetings more inclusive by encouraging participation from participants.
 
-- **Raise your hand** provides a simple, quick way to take a quick poll of meeting participants.
+- **Raise your hand** provides a simple, quick way to take a poll of meeting participants.
 
 A Teams admin doesn't have to create a policy for the feature to appear in a meeting. **Raise your hand** is available by default and is currently supported for web and mobile meetings.
 
-## **Raise your hand** display
+## Raise your hand display
 
 **Raise your hand** is always available in any meeting you join and is supported on all clients except meeting room devices (at the moment). 
 
