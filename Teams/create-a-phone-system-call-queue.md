@@ -205,9 +205,10 @@ The majority of calls are received via one of the methods listed above. If a cal
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 - **Longest idle** routes the next available call to the call agent whose has been idle the longest time. The idle time is the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is set to **Away** for more than 10 minutes, the idle timer resets.
 
-It's important to know that when you use this setting, **Presence-based routing** setting is also turned on.
-    > [!IMPORTANT]
-    > Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled. If you have agents who use Skype or Business, don't enable this setting.
+It's important to know that when you enable this setting, **Presence-based routing** setting is also enabled.
+
+  > [!IMPORTANT]
+  > Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled. If you have agents who use Skype or Business, don't enable this setting.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
