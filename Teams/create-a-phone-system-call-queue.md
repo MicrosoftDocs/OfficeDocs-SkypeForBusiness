@@ -203,7 +203,7 @@ The majority of calls are received via one of the methods listed above. If a cal
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
-- **Longest idle** routes the next available call to the call agent whose has been idle the longest time. The idle time is the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is set to **Away** for more than 10 minutes, the idle timer resets.
+- **Longest idle** routes the next available call to the call agent whose has been idle the longest time. The idle time is the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is set to **Away** for more than 10 minutes, the idle timer resets. Presence states of users are queried every minute.
 
     It's important to know that enabling this setting forces  **Presence-based routing** to also be enabled.
 
@@ -212,7 +212,7 @@ The majority of calls are received via one of the methods listed above. If a cal
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
-**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Presence states of users are queried every minute. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.  
+**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.  
 
 You can enable presence-based call routing with any of the routing methods.
 
