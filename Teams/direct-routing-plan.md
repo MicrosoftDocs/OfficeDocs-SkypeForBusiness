@@ -230,7 +230,7 @@ The FQDN sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the follo
 - 52.127.64.33
 - 52.127.68.34
 
-You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip.pstnhub.dod.teams.microsoft.us resolves to all these IP addresses. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office 365 GCC High environment
 
@@ -243,7 +243,7 @@ The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the follo
 - 52.127.88.59
 - 52.127.92.64
 
-You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ## SIP Signaling: Ports
 
@@ -281,6 +281,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 ### Office 365 and Office 365 GCC environments
 
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254).
 
 ### Office 365 GCC DoD environment
 

@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 # Manage emergency call routing policies in Microsoft Teams
 
-If you've deployed Phone System Direct Routing in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services is enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
+If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services is enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
 
 You manage emergency call routing policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](cloud-voice-network-settings.md).
 
@@ -38,13 +38,13 @@ If you assigned an emergency call routing policy to a network site and to a user
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Call routing policies** tab.
 2. Click **Add**.
 3. Enter a name and description for the policy.
-4. To enable enhanced emergency services, turn on **Enhanced emergency services**. When enhanced emergency services is enabled, Teams retrieves policy and location information from the service and includes that information as part of the emergency call.
-5. Define one of more emergency numbers. To do this, under **Emergency numbers**, do the following:
+4. To enable dynamic emergency calling, turn on **Dynamic emergency calling**. When dynamic emergency calling is enabled, Teams retrieves policy and location information from the service and includes that information as part of the emergency call.
+5. Define one or more emergency numbers. To do this, under **Emergency numbers**, click **Add**, and then do the following:
     1. **Emergency dial string**: Enter the emergency dial string. This dial string indicates that a call is an emergency call.
         > [!NOTE]
         > For Direct Routing, we're transitioning away from Teams clients sending emergency calls with a "+" in front of the emergency dial string. Until the transition is completed, the voice route pattern to match an emergency dial string should ensure a match is made for strings that have and don't have a preceding "+", such as 911 and +911. For example, ^\\+?911 or .*.
     2. **Emergency dial mask**: For each emergency number, you can specify zero or more emergency dial masks. A dial mask is the number that you want to translate into the value of the emergency dial string. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services. <br>For example, you add 112 as the emergency dial mask, which is the emergency service number for most of Europe, and 911 as the emergency dial string. A Teams user from Europe who is visiting may not know that 911 is the emergency number in the United States, and when they dial 112, the call is made to 911. To define multiple dial masks, separate each value by a semicolon. For example, 112;212.
-    3. **PSTN Usage**: Select the public switched telephone network (PSTN) usage. The PSTN usage is used to determine which route is used to route emergency calls from users who are authorized to use them. The route associated with this usage should point to an SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP).
+    3. **PSTN usage record**: Select the Public Switched Telephone Network (PSTN) usage record. The PSTN usage record is used to determine which route is used to route emergency calls from users who are authorized to use them. The route associated with this usage should point to a Session Initiation Protocol (SIP) trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP).
 
     > [!NOTE]
     > Dial strings and dial masks must be unique within a policy. This means that for a policy, you can define multiple emergency numbers and you can set multiple dial masks for a dial string, but each dial string and dial mask must only be used one time.
@@ -73,11 +73,17 @@ See [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershel
 
 ### Using the Microsoft Teams admin center
 
+To assign a policy to one user:
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
 3. Under **Emergency call routing policy**, select the policy you want to assign, and then click **Save**.
 
-To assign a custom teams policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -130,3 +136,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 - [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

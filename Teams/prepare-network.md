@@ -101,7 +101,10 @@ For an in-depth discussion of network optimization, including guidance for ident
 <td>Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 URLs and IP ranges</a>.</td>
 </tr>
 <tr class="odd">
-<td>Validate (NAT) pool size</td>
+<td>Maintain session persistence</td>
+<td>Make sure your firewall doesn't change the mapped Network Address Translation (NAT) addresses or ports for UDP.</td>
+</tr><tr class="odd">
+<td>Validate NAT pool size</td>
 <td>Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.</td>
 </tr>
 <tr class="even">
