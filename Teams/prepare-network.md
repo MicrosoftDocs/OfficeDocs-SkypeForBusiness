@@ -24,9 +24,9 @@ ms.custom:
 
 ## Network requirements
 
-If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if you're rolling out Teams quickly as your first Office 365 workload to support **remote workers** - check the following before you begin your Teams rollout:
+If you've already [optimized your network for Microsoft 365 or Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if you're rolling out Teams quickly as your first Microsoft 365 or Office 365 workload to support **remote workers** - check the following before you begin your Teams rollout:
 
-1.  Do all your locations have internet access (so they can connect to Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
+1.  Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
 
     |  |  |
     |---------|---------|
@@ -44,10 +44,10 @@ If you've already [optimized your network for Office 365](https://docs.microsoft
 
 
     
-2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
+2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
     
-      - If your organization hasn't rolled out Office 365, see [Getting Started with Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - If your organization hasn't added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Getting Started with Microsoft 365 or Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
+      - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see [Verify your Microsoft 365 or Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).
 
 3.  Has your organization deployed Exchange Online and SharePoint Online?
     
@@ -59,7 +59,7 @@ Once you've verified that you meet these network requirements, you may be ready 
 > [!IMPORTANT]
 > **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
 >  
-> **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365.
+> **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Microsoft 365 or Office 365.
 
 ### Best practice: Monitor your network using CQD and call analytics 
 
@@ -69,7 +69,7 @@ You'll use [call analytics](set-up-call-analytics.md) to investigate call and me
 
 ## Network optimization
 
-The following tasks are optional and aren't required for rolling out Teams, especially if you're a small business and you've already rolled out Office 365. Use this guidance to optimize your network and Teams performance or if you know you've got some network limitations.
+The following tasks are optional and aren't required for rolling out Teams, especially if you're a small business and you've already rolled out Microsoft 365 or Office 365. Use this guidance to optimize your network and Teams performance or if you know you've got some network limitations.
 
 You might want to do additional network optimization if:
 
@@ -77,7 +77,7 @@ You might want to do additional network optimization if:
   - Calls keep dropping (might be due to firewall or proxy blockers)
   - Calls have static and cut out, or voices sound like robots (could be jitter or packet loss)
 
-For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).
+For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Microsoft 365 and Office 365 Network Connectivity Principles](https://aka.ms/pnc).
 
 <table>
 <thead>
@@ -94,18 +94,18 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="even">
 <td>Advisor for Teams</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Advisor for Teams</a> is part of the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Advisor for Teams</a> is part of the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. It assesses your Microsoft 365 or Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.</td>
 </tr>
 <tr class="odd">
 <td>External Name Resolution</td>
-<td>Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 URLs and IP ranges</a>.</td>
+<td>Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365 or Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 and Office 365 URLs and IP ranges</a>.</td>
 </tr>
 <tr class="odd">
 <td>Maintain session persistence</td>
 <td>Make sure your firewall doesn't change the mapped Network Address Translation (NAT) addresses or ports for UDP.</td>
 </tr><tr class="odd">
 <td>Validate NAT pool size</td>
-<td>Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.</td>
+<td>Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Microsoft 365 or Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Microsoft 365 or Office 365 service.</td>
 </tr>
 <tr class="even">
 <td>Routing to Microsoft data centers</td>
@@ -113,11 +113,11 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="odd">
 <td>Intrusion Detection and Prevention Guidance</td>
-<td>If your environment has an <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Office 365 URLs.</td>
+<td>If your environment has an <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Microsoft 365 or Office 365 URLs.</td>
 </tr>
 <tr class="even">
 <td>Configure split-tunnel VPN</td>
-<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as [split-tunnel VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing). Split tunneling means that traffic for Office 365 doesn't go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization's network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
+<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as [split-tunnel VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing). Split tunneling means that traffic for Microsoft 365 or Office 365 doesn't go through the VPN but instead goes directly to Microsoft 365 or Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization's network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
 <p>Other reasons why we recommend bypassing the VPN: 
 <ul>
 <li><p>VPNs are typically not designed or configured to support real-time media.</p></li> 
@@ -154,7 +154,7 @@ Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 
 
 ## Related Topics
 
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
+[Microsoft 365 and Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
 [Worldwide endpoints: Skype for Business Online and Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
