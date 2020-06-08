@@ -36,7 +36,7 @@ The following concepts and definitions all affect the decisions you make for lif
 
 **Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Microsoft 365 or Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Channels**
 
