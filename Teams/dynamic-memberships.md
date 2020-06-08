@@ -44,7 +44,7 @@ While logged in as the tenant admin, follow the instructions in [Create a dynami
 
 ## Create a new team with your O365 group
 
-Now allow time for the membership changes to take effect, and create a new team  as described in [Welcome to Microsoft Teams](teams-overview.md).
+Now allow time for the membership changes to take effect, and create a new team  as described in [Create a team from an existing group](https://support.microsoft.com/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865).
 
 ## Apply dynamic membership to an existing team
 
