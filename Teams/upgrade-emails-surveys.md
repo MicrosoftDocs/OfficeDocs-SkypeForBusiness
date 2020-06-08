@@ -130,7 +130,7 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 CALL TO ACTION: If you need assistance getting started in Teams:
 
 - View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
-- Visit the Office 365 Training Center, or simply ask T-Bot.
+- Visit the Microsoft 365 or Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
