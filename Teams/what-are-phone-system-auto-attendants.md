@@ -28,11 +28,11 @@ description: Learn about Cloud auto attendants and how to use them to let caller
 
 # What are Cloud auto attendants?
 
-Phone System in Microsoft 365 or Office 365 provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
+Phone System provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
   
 An auto attendant is most often a node in a system, giving a caller a series of voice prompts or audio files they hear instead of a human operator. When people call a number associated with an auto attendant, their choices can redirect the call to a user or locate someone in your organization and then connect to that user. They can express their choices and interact with the menu system by using a phone keypad (DTMF) or speech recognition. The choices they make can also redirect the call to another auto attendant, or to a call queue.
   
-To set up an auto attendant for the Phone System, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+To set up an auto attendant for Phone System, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
 A Cloud auto attendant has the following features:
   

@@ -164,7 +164,7 @@ tool, and when you should use each one, is included in the following table.
 | Microsoft 365 admin center | Available from any device with a supported browser. | Use when you don't need real-time notifications. |
 | Microsoft 365 Admin app | Provides push notifications to your mobile device. | Use when you need to be notified of service incidents while you're on the go. |
 | Microsoft System Center | Integration with Microsoft System Center. | Use when you need advanced monitoring capabilities and notification support. |
-| Microsoft 365 or Office 365 Service Communications API | Programmatic access to Microsoft 365 or Office 365 service health. | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
+| Microsoft 365 Service Communications API | Programmatic access to Microsoft 365 or Office 365 service health. | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
 
 > [!NOTE]
 > Only individuals who are assigned the **global admin** or **service
@@ -633,7 +633,7 @@ troubleshooting guide. The steps are provided in a specific order, but they
 don't have to be followed explicitly and might not be applicable, depending on
 the nature of the issue.
 
-1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or itsdependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Microsoft 365 service health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
+1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or its dependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Microsoft 365 service health](https://docs.microsoft.com/office365/enterprise/view-service-health). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
 
 2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 

@@ -95,7 +95,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 **Resources:**
 
-- [Microsoft 365 Reports in the admin center](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Microsoft 365 reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [Return to top](#about-upgrade-basic)
 
