@@ -47,10 +47,10 @@ Say, for example, you want to block all third-party apps and allow specific apps
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+2. Click **Add**. <br>
     ![Screenshot of new app permission policy](media/app-permission-policies-new-policy.png)
 3. Enter a name and description for the policy.
-4. Under **Microsoft apps**, **Third-party apps**, and **Tenant apps**, select one of the following:
+4. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
 
     - **Allow all apps**
     - **Allow specific apps and block all others**
@@ -60,10 +60,10 @@ If you want to control the apps that are available for different groups of users
 5. If you selected **Allow specific apps and block others**, add the apps that you want to allow:
 
     1. Select **Allow apps**.
-    1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
-    1. When you've chosen the list of apps, click **Allow**.
+    1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Custom apps**).
+    1. When you've chosen the list of apps, click **Allow**. 
 
-6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block.
+6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block, and then click **Block**.
 7. Click **Save**.
 
 ## Edit an app permission policy
