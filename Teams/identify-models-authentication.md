@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 Identity models and authentication in Microsoft Teams
 ==========================================
 
-Microsoft Teams support all the identity models that are available with Microsoft 365 and Office 365. Supported identity models include:
+Microsoft Teams supports all the identity models that are available with Microsoft 365 and Office 365. Supported identity models include:
 
 -   **Cloud Identity**: In this model, a user is created and managed in Microsoft 365 or Office 365 and stored in Azure Active Directory, and the password is verified by Azure Active Directory.
 
@@ -46,6 +46,7 @@ Depending on your organization's decisions of which identity model to implement 
 
 Refer to [Choosing a sign-in model](https://go.microsoft.com/fwlink/?linkid=854626) and [Understanding identity models and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) guides for additional details.
 
+
 Multi-Factor Authentication
 ----------------------------
 
@@ -58,5 +59,5 @@ Once the users are enrolled for MFA, the next time a user signs in, they will se
 
 |Tenant Type  |Available MFA Second Factor options  |Notes  |
 |---------|---------|---------|
-|**Cloud Only**     |MFA for Microsoft 365 and Office 365 <ul><li>Phone Call</li><li>Text Message</li><li>Mobile App Notification</li><li>Mobile App Verification Code</li></ul>        |[Plan for multi-factor authentication for Microsoft 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Microsoft 365 and Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Azure AD Identity Provider Compatibility Docs](https://www.microsoft.com/download/details.aspx?id=56843)         |
+|**Cloud Only**     |MFA for Microsoft 365 or Office 365 <ul><li>Phone Call</li><li>Text Message</li><li>Mobile App Notification</li><li>Mobile App Verification Code</li></ul>        | |
+|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Microsoft 365 or Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Azure AD Identity Provider Compatibility Docs](https://www.microsoft.com/download/details.aspx?id=56843)         |
