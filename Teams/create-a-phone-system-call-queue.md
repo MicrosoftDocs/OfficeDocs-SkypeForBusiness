@@ -43,7 +43,7 @@ All calls in the queue are sent to agents by one of the following methods:
 
 - With attendant routing, the first call in the queue rings all agents at the same time.
 - With serial routing, the first call in the queue rings all call agents one by one.
-- With longest idle routing, the call agent whose has been idle the longest time receives the next available call. The idle time is defined as the time a call agent whose presence state is either **Available** or **Away** (for less than 10 minutes) at the time of the call. If all call agent's presence is **Away** for more than 10 minutes, the idle timer resets.
+- With longest idle routing, the call agent whose has been idle the longest time receives the next available call. The idle time is defined as the time a call agent whose presence state is either **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is **Away** for more than 10 minutes, the idle timer resets.
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
 You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.
