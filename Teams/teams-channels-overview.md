@@ -75,7 +75,7 @@ Take three minutes to check out this go-to-guide video for team owners:
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
+If you are a Microsoft Teams administrator in Microsoft 365 or Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Microsoft 365 group can also enhance their permissions with Teams functionality.
 
