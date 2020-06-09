@@ -165,9 +165,9 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
   - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Micrsofot 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
-  - **External phone number** Enter an external phone number.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
+  - **External phone number** Enter an external phone number.
 
  * * *
 
