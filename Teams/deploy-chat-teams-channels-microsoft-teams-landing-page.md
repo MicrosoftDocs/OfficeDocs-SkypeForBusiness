@@ -155,7 +155,7 @@ Teams is provided as part of many Office 365 licenses. To learn more about Teams
 
 ### Exchange and SharePoint interoperability 
 
-For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive for Business. 
+For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive for Business. 
 
 |Ask yourself|Action |
 |------------|-------|

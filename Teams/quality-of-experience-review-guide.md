@@ -193,7 +193,7 @@ The success of operationalizing a high-quality and reliable deployment depends o
 
     -   First is Microsoft's responsibility to manage and maintain the Teams and Skype for Business Online services.
 
-    -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
+    -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Microsoft 365 or Office 365 IP addresses as infrastructure is added to the service.
 
 ![Graph of the categories of quality in an organization](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
 
@@ -208,7 +208,7 @@ The first time you perform these tasks will take more effort than subsequent ite
 
 #### Service management tasks
 
-In a cloud-first world, you must perform certain service management tasks to maintain high-quality user experiences. These tasks range from ensuring there is sufficient bandwidth to reach the service without saturating internet links, validating that quality of service (QoS) is in place on all managed network areas, and—lastly—staying on top of [Office 365 IP ranges on firewalls](https://aka.ms/o365ips).
+In a cloud-first world, you must perform certain service management tasks to maintain high-quality user experiences. These tasks range from ensuring there is sufficient bandwidth to reach the service without saturating internet links, validating that quality of service (QoS) is in place on all managed network areas, and—lastly—staying on top of [Microsoft 365 and Office 365 IP ranges on firewalls](https://aka.ms/o365ips).
 
 #### Network tasks
 
@@ -302,7 +302,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 1. [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2. Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
+2. Open an Azure PowerShell command window and run the following script, entering your Microsoft 365 or Office 365 credentials when prompted:
 
    ```PowerShell
    Login-AzureRmAccount
@@ -568,7 +568,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 1. Go to <https://cqd.teams.microsoft.com>.
 
-2. Authenticate by using your Office 365 Administrative credentials.
+2. Authenticate by using your Microsoft 365 or Office 365 Administrative credentials.
 
    > [!NOTE]
    > You must have the Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
@@ -662,7 +662,7 @@ Here are a few things to consider before you implement supernetting:
 
 #### VPN
 
-The quality of experience (QoE) data that clients send to Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
+The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
 
 - Define a **Network Name** by using the text "VPN" in this field for VPN subnets.
 
@@ -842,7 +842,7 @@ _Table 7 – Reasons for Call Setup Failures_
 | Call Setup Failures reason       | Typical cause                    |
 |----------------------------------|----------------------------------|
 | Missing FW Deep Packet Inspection Exemption Rule | Indicates that network equipment along the path prevented the media path from being established due to deep packet inspection rules. This is likely due to firewall rules not being correctly configured. In this scenario, the TCP handshake succeeded but the SSL handshake didn't.      |
-| Missing FW IP Block Exception Rule      | Indicates that network equipment along the path prevented the media path from being established to the Office 365 network. This might be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Teams and Skype for Business traffic. |
+| Missing FW IP Block Exception Rule      | Indicates that network equipment along the path prevented the media path from being established to the Microsoft 365 or Office 365 network. This might be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Teams and Skype for Business traffic. |
 
 Now as you begin your remediation, you can focus your efforts on a particular building or subnet. As the preceding table shows, these issues are due to firewall or proxy configurations. Review the options in the following table for remediation actions.
 
@@ -851,7 +851,7 @@ _Table 8 - Next Steps for Call Setup Failure Remediation_
 
 |      Remediation      |                                                                                                                                                                                                                                                                                                                                                                   Guidance                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br><br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br><br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
+| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Microsoft 365 and Office 365 IP address list](https://aka.ms/o365ips).<br><br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br><br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
 |        Verify         |                                                                                                                                                                                                                                                                 Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.                                                                                                                                                                                                                                                                  |
 
 ### Drop failures
@@ -1001,7 +1001,7 @@ _Table 10 - Common contributors to high PSR_
 
 TCP is considered a failback transport and not the primary transport you want for real-time media. The reason it's a failback transport is due to the stateful nature of TCP. For example, if a call is made on a latent network and media packets are delayed, then packets from a few seconds ago—which are no longer useful—compete for bandwidth to get to the receiver, which can make a bad situation worse. This makes the audio healer stitch and stretch audio, resulting in audible artifacts, often in the form of jitter.
 
-The reports in this section don't make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). Poor stream rates are provided to help compare UDP quality versus TCP quality so that you can focus your efforts where the impact is the greatest. TCP usage is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
+The reports in this section don't make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). Poor stream rates are provided to help compare UDP quality versus TCP quality so that you can focus your efforts where the impact is the greatest. TCP usage is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Microsoft 365 and Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
 > [!Important]
 > Having a [valid building file](#building-mapping) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
@@ -1065,8 +1065,8 @@ _Table 11 - Remediation guidance for TCP streams by building and subnet_
 
 | Remediation        | Guidance     |
 |--------------------|--------------------------------------|
-| Configure firewall | Verify that [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. For media-related TCP issues, focus your initial efforts on the following:<ul><li>Verify that the client media subnets 13.107.64.0/18 and 52.112.0.0/14 are in your firewall rules.</li><li>UDP ports 3478–3481 are the required media ports and must be opened, otherwise the client will fail back to TCP port 443.</li></ul> |
-| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for issues with connectivity to specific Office 365 IP addresses and ports from the affected building or subnet.    |
+| Configure firewall | Verify that [Microsoft 365 or Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. For media-related TCP issues, focus your initial efforts on the following:<ul><li>Verify that the client media subnets 13.107.64.0/18 and 52.112.0.0/14 are in your firewall rules.</li><li>UDP ports 3478–3481 are the required media ports and must be opened, otherwise the client will fail back to TCP port 443.</li></ul> |
+| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for issues with connectivity to specific Microsoft 365 or Office 365 IP addresses and ports from the affected building or subnet.    |
 
 ### HTTP proxy
 
@@ -1091,7 +1091,7 @@ _Figure 28 – Audio Streams with HTTP Proxy Usage_
 
 You want to see as little HTTP media streams as possible. If you have streams traversing your proxy, consult your networking team to ensure that the proper exclusions are in place so that clients are directly routing to Teams or Skype for Business Online media subnets.
 
-If you have only one internet proxy in your organization, verify the proper [Office 365 URLs and IP address range exclusions](https://aka.ms/o365ips). If more than one internet proxy is configured in your organization, use the HTTP sub-report to isolate which building or subnet is affected.
+If you have only one internet proxy in your organization, verify the proper [Microsoft 365 or Office 365 URLs and IP address range exclusions](https://aka.ms/o365ips). If more than one internet proxy is configured in your organization, use the HTTP sub-report to isolate which building or subnet is affected.
 
 For organizations that can't bypass the proxy, ensure that the Skype for Business client is configured to sign in properly when it's located behind a proxy, as outlined in the article [Skype for Business should use proxy server to sign in instead of trying direct connection](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
@@ -1116,7 +1116,7 @@ We [recommend](proxy-servers-for-skype-for-business-online.md) that you always b
 
 The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
-Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
+Verify that the required [Microsoft 365 or Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
 ## Endpoint investigations
 
@@ -1161,7 +1161,7 @@ It's also important to consider and ensure that the network, video, USB, and aud
 
 Version numbers for Skype for Business can be found via the links below:
 
--   [Release information for updates to Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
+-   [Release information for updates to Microsoft 365 Apps](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Update history for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business downloads and updates](/SkypeForBusiness/software-updates)
 
@@ -1216,11 +1216,11 @@ Wi-Fi drivers also need to be patched on a regular cadence as well and should be
 
 ## Appendix 
 
-### Office 365 network connectivity principles
+### Network connectivity principles
 
-Before you begin planning your network for Office 365 network connectivity, it's important to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. The following article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity:
+Before you begin planning your network for Microsoft 365 or Office 365 network connectivity, it's important to understand the connectivity principles for securely managing Microsoft 365 or Office 365 traffic and getting the best possible performance. The following article will help you understand the most recent guidance for securely optimizing network connectivity:
 
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
+[Microsoft 365 and Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
 ### Planning for Wi-Fi
 
