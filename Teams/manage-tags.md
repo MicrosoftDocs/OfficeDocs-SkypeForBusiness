@@ -74,8 +74,8 @@ If you turned on the **Team owner can override who can apply tags** setting in t
 
 ## Add tags in Teams
 
-To manage tags, select **Manage teams** on the left side of the app and find your team in the list. Then select **More options** and choose **Manage tags**.
+To manage tags, select **Manage teams** on the left side of the app and find your team in the list. Select **More options**, and then choose **Manage tags**.
 
 Here, you can create tags and assign them to people on your team.
 
-![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png) 
+![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
