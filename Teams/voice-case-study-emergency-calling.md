@@ -3,7 +3,7 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 06/09/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
