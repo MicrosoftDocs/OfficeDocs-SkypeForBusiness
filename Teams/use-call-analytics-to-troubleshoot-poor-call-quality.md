@@ -28,6 +28,10 @@ description: "Use per-user call analytics details about devices, networks, and c
 
 This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you're a Teams admin or a Teams communications support specialist or engineer.
 
+
+  
+## Call Analytics permissions
+
 This article assumes that you've already set up call analytics. If you haven't, read [Set up call analytics for Teams](set-up-call-analytics.md).
 
 ## Introduction to call analytics

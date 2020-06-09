@@ -54,6 +54,6 @@ Following this guidance should minimize potential problems.
   
 ## Related topics
 
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
+[Microsoft 365 and Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
 [Prepare your organization's network for Teams](prepare-network.md)

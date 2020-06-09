@@ -45,7 +45,7 @@ There are three options available for outbound PSTN caller ID:
   
 - The telephone number assigned to the user, which is the default.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Set to anonymous.
     

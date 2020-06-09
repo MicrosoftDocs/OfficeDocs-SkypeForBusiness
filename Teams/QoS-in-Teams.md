@@ -38,9 +38,9 @@ The least complex way to address these issues is to increase the size of the dat
 
 For QoS to be effective, you'll apply consistent QoS settings throughout your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
 
-_Figure 1. The relationship between an organization's networks and Office 365 services_
+_Figure 1. The relationship between an organization's networks and Microsoft 365 or Office 365 services_
 
-![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
+![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
 
 ## QoS implementation checklist
 
