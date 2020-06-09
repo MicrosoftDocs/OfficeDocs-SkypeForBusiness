@@ -38,11 +38,11 @@ Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect
 > - Owners will not be able to add or remove users as members of the team, since members are defined by dynamic group rules.
 > -    Members will not be able to leave teams backed by dynamic groups.
 
+## Creating and managing a Microsoft 365 group with dynamic membership
 
-## Creating and managing a Microsoft 365 Group with dynamic membership
 While logged in as the tenant admin, follow the instructions in [Create a dynamic group and check status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). As needed, refer to [Dynamic membership rules for groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## Create a new team with your O365 group
+## Create a new team with your Microsoft 365 group
 
 Now allow time for the membership changes to take effect, and create a new team  as described in [Enhance Existing Microsoft 365 groups with Microsoft Teams](enhance-office-365-groups.md).
 
