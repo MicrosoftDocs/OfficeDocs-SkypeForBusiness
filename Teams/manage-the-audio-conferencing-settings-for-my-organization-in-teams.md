@@ -49,8 +49,8 @@ It might be easier for you to see all of the audio conferencing settings for Mic
     
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-> [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window. 
+   > [!NOTE]
+   > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window. 
   
 ## Enable or disable emails sent to audio conferencing users
 
@@ -141,10 +141,8 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 
     If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**. 
     > [!NOTE]
-> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
-
-    > [!NOTE]
     > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+
 
 5. Click **Save**.
 
