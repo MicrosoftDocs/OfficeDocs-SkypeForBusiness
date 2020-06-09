@@ -25,7 +25,7 @@ This article introduces a case study for how a fictional multi-national corporat
 
 Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for the following: networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security, migration from Skype for Business to Teams, Phone System, and Audio Conferencing.  
 
-This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso Overview](https://docs.microsoft.com/microsoft-365/enterprise/contoso-overview?view=o365-worldwide). 
+This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso Overview](https://docs.microsoft.com/microsoft-365/enterprise/contoso-overview?view=o365-worldwide). For information about planning an upgrade, see [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md).
 
 In the core articles, you'll find information on the following:  
 
