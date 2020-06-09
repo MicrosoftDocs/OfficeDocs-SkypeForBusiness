@@ -22,7 +22,7 @@ Use the steps in this article to create a standalone and static app inside of Te
 
 A *Teams Personal App* of your SharePoint intranet site is created, and will appear as a tab inside of Teams. This tab can contain information important to all your Teams users. It is a quick and convenient way for Teams users to access updates just a tab click away.
 
-Be aware that the process shown **must use** a *modern* SharePoint site or page to work. This process is not available for *classical* sites or pages.
+Be aware that the process shown **must use** a *modern* SharePoint site or page to work. This process is not available for *classic* sites or pages.
 
 > [!IMPORTANT]
 > Make certain that side-loading of Teams apps is enabled for your tenant. Depending on where you are in the migration process of the Teams Admin portal, you might need to enable it either under Teams > Admin, or under Admin > Settings > Services and Add-ins > Microsoft Teams > Apps > External Apps, in the previous version of the portal!
@@ -57,7 +57,7 @@ Begin by following the steps below:
 
 4. With App Studio open, click on **Manifest Editor**.
 
-5. **Create a new app**.
+5. Choose **Create a new app**.
 
 6. Fill in all **App Details**.
 
@@ -86,7 +86,7 @@ Begin by following the steps below:
 
     ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
-13. **Save** these properties and then navigate to **Test and distribute**.
+13. Navigate to **Test and distribute**.
 
 14. Install the app to test the application personally.
 
@@ -108,120 +108,64 @@ To view and test the new app on a mobile device, open the app drawer by tapping 
 
 ## A Sample Manifest.JSON file
 
-The JSO        file you generate will look something like the one below.
+The JSON file you generate will look something like the one below.
 
 ```JSON'
 {
-
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-
-    "manifestVersion": "1.5",
-
+    "manifestVersion": "1.6",
     "version": "1.0.0",
-
     "id": "33ebded3-931c-4333-b0c5-b51dd8738873",
-
     "packageName": "com.contoso.teams.devapp",
-
     "developer": {
-
         "name": "Contoso", ''
-
         "websiteUrl": "https://www.contoso.com",
-
         "privacyUrl": "https://www.contoso.com/privacy",
-
         "termsOfUseUrl": "https://www.contoso.com/terms"
-
     },
-
     "icons": {
-
         "color": "color.png",
-
         "outline": "outline.png"
-
     },
-
     "name": {
-
         "short": "Contoso Intranet", '
-
         "full": "Intranet Portal for Contoso"
-
     },
-
-    "des    ription": {
-
+    "description": {
         "short": "Intranet portal for Contoso",
-
         "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams"
-
     },
-
     "accentColor": "#FFFFFF",
-
     "staticTabs": [
-
         {
-
-                     "       nti        Id":       "com    unicat    onSi    eTab",
-
+            "entityId":       "communicationSiteTab",
             "name": "Contoso Net",
-
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/",
-
             "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet",
-
             "scopes": [
-
                 "personal"
-
             ]
-
         },
-
         {
-
             "entityId": "teamSiteTab",
-
             "name": "Team Contoso",
-
             "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/",
-
             "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso",
-
             "scopes": [
-
                 "personal"
-
             ]
-
         }
-
     ],
-
     "permissions": [
-
         "identity",
-
         "messageTeamMembers"
-
     ],
-
     "validDomains": [
-
         "contoso.sharepoint.com"
-
     ],
-
     "webApplicationInfo": {
-
         "id": "00000003-0000-0ff1-ce00-000000000000",
-
         "resource": "https://contoso.sharepoint.com"
-
     }
-
 }
 ```
