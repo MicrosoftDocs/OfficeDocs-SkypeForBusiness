@@ -81,11 +81,15 @@ Note that both the meeting organizer and the recording initiator need to have th
 
 For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
