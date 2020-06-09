@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Learn about how to plan for your upgrade by enlisting stakeholders first, and then scoping the project.
 localization_priority: Normal

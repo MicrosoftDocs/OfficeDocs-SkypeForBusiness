@@ -51,7 +51,7 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
   
 Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
 ## Why is it best for you?
 
