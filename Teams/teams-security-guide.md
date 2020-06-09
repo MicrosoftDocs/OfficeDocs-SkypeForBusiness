@@ -26,7 +26,7 @@ appliesto:
 > [!IMPORTANT]
 > The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
 
-Microsoft Teams, as part of the Microsoft 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
+Microsoft Teams, as part of the Microsoft 365 and Office 365 services, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
 ## Trustworthy by Design
 
@@ -58,7 +58,7 @@ Teams mitigates against these attacks by running Azure DDOS network protection a
 
 Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
-Teams uses mutual TLS (MTLS) for server communications within Microsoft 365 or Office 365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+Teams uses mutual TLS (MTLS) for server communications within Microsoft 365 and Office 365, and also uses TLS from clients to the service, rendering this attack very difficult or impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
 The TURN protocol is used for real time media purposes. The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The Teams service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
@@ -101,7 +101,7 @@ The next sections discuss some of these core technologies.
 
 ### Azure Active Directory
 
-Azure Active Directory functions as the directory service for Microsoft 365 or Office 365. It stores all user directory information and policy assignments.
+Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments.
 
 #### CRL Distribution Points
 
@@ -173,7 +173,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 
 ### Windows PowerShell and Team Management Tools
 
-In Teams, IT Admins can manage their service via the Microsoft 365 Admin portal or by using Tenant Remote PowerShell (TRPS). Tenant admins use Modern Authentication to authenticate to TRPS.
+In Teams, IT Admins can manage their service via the Microsoft 365 admin center or by using Tenant Remote PowerShell (TRPS). Tenant admins use Modern Authentication to authenticate to TRPS.
 
 ### Configuring Access to Teams at your Internet Boundary
 
@@ -189,7 +189,7 @@ Ports in the high range don't use Transport Relay. Because they are optional por
 
 ### Federation Safeguards for Teams
 
-Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the Microsoft 365 Admin portal.
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the Microsoft 365 admin center.
 
 ## Addressing Threats to Teams Meetings
 

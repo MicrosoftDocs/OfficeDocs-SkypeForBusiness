@@ -34,7 +34,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft Stream for Office 365 E1 SKU
+ - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs
  - Microsoft Teams
  - Mobile Device Management for Microsoft 365 or Office 365
  - Office Mobile Apps for Office 365 

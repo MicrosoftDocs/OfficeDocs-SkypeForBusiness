@@ -26,7 +26,7 @@ This article details the considerations you must make with the "Teams First" app
 > [!IMPORTANT]
 > While Teams can be your organization's first cloud deployed workload, deploying Teams should be part of your overall cloud deployment strategy.
 
-If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out  Teams](How-to-roll-out-teams.md).
+If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out Teams](How-to-roll-out-teams.md).
 
 ## Start here
 
