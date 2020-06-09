@@ -88,7 +88,7 @@ Here you can review matches to the policy you've set, and make any adjustments a
 
 ### Mass delete scenario
 
-As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes. 
+As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
 
 ![Screenshot of the policy create page showing the setting up of a policy for mass team deletion detection](media/TeamsMassDeletePolicy.png)
 
@@ -110,7 +110,7 @@ You can set alerts and send emails to admins and other users when an activity po
 
 [Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
 
-We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies. 
+We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
 ## Teams activities
 
@@ -128,14 +128,21 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Changed role of members in team    |MemberRoleChanged         |A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. <br><br>**1** - Indicates the Owner role.<br>**2** -  Indicates the Member role.<br>**3** -  Indicates the Guest role.<br><br>The Members property also includes the name of your organization and the member's email address.        |
 |Changed team setting    |TeamSettingChanged        |The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>         |
 |Created team    |TeamCreated         |A user creates a team.         |
+|Deleted all organization apps|DeletedAllOrganizationApps           |Deleted all organization apps from the catalog.     |
+|Deleted app |AppDeletedFromCatalog           |An app has been deleted from the catalog.     |
 |Deleted channel     |ChannelDeleted         |A user deletes a channel from a team.         |
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
+|Installed app |AppInstalled         |An app was installed.   |
+|Published app |AppPublishedToCatalog           |An app was added to the catalog.     |
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
 |Removed members    |MemberRemoved        |A team owner removes members from a team, channel, or group chat.         |
 |Removed tab    |TabRemoved         |A user removes a tab from a channel.         |
+|Uninstalled app |AppUninstalled           |An app was uninstalled.     |
+|Updated app |AppUpdatedInCatalog           |An app was updated in the catalog.     |
 |Updated connector    |ConnectorUpdated         |A user modified a connector in a channel.         |
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
+|Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
 
 ## Shifts in Teams activities
@@ -179,4 +186,4 @@ You can use the Office 365 Management Activity API to retrieve information about
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
