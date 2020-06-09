@@ -38,7 +38,7 @@ Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 When you create a team, here's what gets created:
-- A new [Office 365 group](office-365-groups.md)
+- A new [Microsoft 365 group](office-365-groups.md)
 - A [SharePoint Online](sharepoint-onedrive-interact.md) site and document library to store team files
 - An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
 - A OneNote notebook
