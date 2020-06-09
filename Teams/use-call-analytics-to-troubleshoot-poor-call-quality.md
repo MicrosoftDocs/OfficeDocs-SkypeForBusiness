@@ -46,7 +46,7 @@ As the Teams admin, you get full access to all call analytics data for each user
 
 To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Call History** tab on the user's profile page. Here you'll find all calls and meetings for that user for the last 30 days.
 
-![Screenshot of all analytics user data](media/teams-monitor-call-quality-qos-image1.png)
+![Screenshot of all analytics user data](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 To get additional information about a given session, including detailed media and networking statistics, click a session to see the details.
 

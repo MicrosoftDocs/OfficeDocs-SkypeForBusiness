@@ -36,7 +36,7 @@ For example, using CQD, you can determine that a user's poor call quality (which
   
 ![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-In CQD, we encourage you to upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
+In CQD, we encourage you to upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](CQD-upload-tenant-building-data.md) on the CQD **Tenant Data Upload** page.
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
@@ -52,6 +52,8 @@ Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to lear
 
 
 ## Related topics
+
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
 
 [Upload tenant and build data](CQD-upload-tenant-building-data.md)
 
