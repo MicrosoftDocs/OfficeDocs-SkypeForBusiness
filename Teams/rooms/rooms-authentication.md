@@ -20,7 +20,7 @@ description: "Learn how configure modern authentication for Microsoft Teams Room
 
 Account management for Microsoft Teams Rooms devices is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences. The device is kept account agnostic to allow for always-on capabilities, calling scenarios (for devices configured with a Calling Plan), and custom lockdown mechanisms implemented on these devices. This means that authentication for these devices happen in a different way than for end-user devices.  
 
-Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
+Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Microsoft 365 or Office 365. If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.
 
 Modern authentication is supported on Microsoft Teams Rooms version 4.4.25.0 and later.
 
@@ -56,9 +56,9 @@ To apply the setting, see [Manage a Microsoft Teams Rooms console settings remot
 
 ## Prepare your environment for modern authentication
 
-Before you begin, make sure you understand the identity models to use with Office 365 and Azure AD. You can find more information at [Office 365 identity models and Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) and at [Hybrid identity and directory synchronization for Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
+Before you begin, make sure you understand the identity models to use with Office 365 and Azure AD. You can find more information at [Office 365 identity models and Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) and at [Hybrid identity and directory synchronization for Microsoft 365 or Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### Enable modern authentication in Office 365
+### Enable modern authentication in Microsoft 365 or Office 365
 
 To turn on modern authentication for Exchange Online, see [Enable modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). If you use Skype for Business Online, you should also make sure that modern authentication is turned on for Skype for Business Online. To learn more, see [Skype for Business Online: Enable your tenant for modern authentication](https://aka.ms/SkypeModernAuth).
 

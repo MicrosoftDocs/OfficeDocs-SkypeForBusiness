@@ -60,7 +60,7 @@ The Teams Meeting button shows up in latest builds of the Outlook iOS and Androi
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
-## Teams Meeting add-in in and FindTime for Outlook
+## Teams Meeting add-in and FindTime for Outlook
 
 FindTime is an add-in for Outlook that helps users reach consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
 
