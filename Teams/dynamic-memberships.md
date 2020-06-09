@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Learn how Microsoft Teams supports teams associated with Office 365 groups by using dynamic membership.
+description: Learn how Microsoft Teams supports teams associated with Microsoft 365 groups by using dynamic membership.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -30,7 +30,7 @@ With dynamic membership you can set up teams for certain cohorts of users in you
 
 Using this feature, a given team's members update automatically based on a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and team membership can be [assigned by a tenant admin](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) to any user's Azure AD properties provided you have a tenant and an admin account​.
 
-Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team.
+Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Microsoft 365 group for a team.
 
 > [!NOTE]
 > - Rules can define who is a team member, but not who is a team owner.
@@ -39,7 +39,7 @@ Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect
 > -    Members will not be able to leave teams backed by dynamic groups.
 
 
-## Creating and managing an Office 365 group with dynamic membership
+## Creating and managing a Microsoft 365 Group with dynamic membership
 While logged in as the tenant admin, follow the instructions in [Create a dynamic group and check status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). As needed, refer to [Dynamic membership rules for groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
 ## Create a new team with your O365 group

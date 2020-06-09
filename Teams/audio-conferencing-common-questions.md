@@ -60,7 +60,7 @@ There are local dial-in numbers that are assigned to you when you purchase the l
   
 Local dial-in numbers, and also in some cases international dial-in numbers from the country where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is include in the invite, it will be a shared phone number.
   
-## How many international dial-in numbers does Audio Conferencing in Office 365 support?
+## How many international dial-in numbers does Audio Conferencing in Microsoft 365 or Office 365 support?
 
 For a current list of countries/regions, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   

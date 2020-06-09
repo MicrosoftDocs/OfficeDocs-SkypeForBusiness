@@ -43,6 +43,7 @@ All calls in the queue are sent to agents by one of the following methods:
 
 - With attendant routing, the first call in the queue rings all agents at the same time.
 - With serial routing, the first call in the queue rings all call agents one by one.
+- With longest idle routing, the call agent whose has been idle the longest time receives the next available call. The idle time is defined as the time a call agent whose presence state is either **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is **Away** for more than 10 minutes, the idle timer resets.
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
 You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.
@@ -161,7 +162,7 @@ You can select up to 200 call agents who belong to any of the following mailing 
 - Security group
 - Distribution list
 
-Call agents selected must be one of the following:
+Call agents selected must be one of the following: 
 
 - Online users with a Phone System license and Enterprise Voice enabled
 - Online users with a Calling Plan
@@ -198,18 +199,24 @@ After conference mode is enabled on a call queue, calls will benefit from the fa
 The majority of calls are received via one of the methods listed above. If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.
 
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
-**Routing method** You can choose either **Attendant**, **Serial**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
+**Routing method** You can choose either **Attendant**, **Serial**, **Longest idle**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
 - **Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+- **Longest idle** routes the next available call to the call agent whose has been idle the longest time. The idle time is the time a call agent whose presence state is either set to **Available** or **Away** (for less than 10 minutes) at the time of the call. If a call agent's presence is set to **Away** for more than 10 minutes, the idle timer resets. Presence states of users are queried every minute.
+
+    It's important to know that enabling this setting forces  **Presence-based routing** to also be enabled.
+
+    > [!IMPORTANT]
+    > Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled. If you have agents who use Skype or Business, don't enable this setting.
 - **Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
-**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
+**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.  
 
 You can enable presence-based call routing with any of the routing methods.
 
-If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
+If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
 > [!IMPORTANT]
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. Agents who aren't in the call routing list won't receive calls. If you have agents who use Skype for Business, don't enable presence-based call routing.
@@ -262,11 +269,11 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
+  - **Person in organization** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-  - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+  - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
 * * *
 
@@ -280,7 +287,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
+  - **Person in organization** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
