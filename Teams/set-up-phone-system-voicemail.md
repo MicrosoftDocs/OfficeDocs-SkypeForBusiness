@@ -25,7 +25,7 @@ description: "Learn how to set up Cloud Voicemail for your users. "
 
 # Set up Cloud Voicemail
 
-This article is for the Microsoft 365 or Office 365 admin as described in [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles) who wants to set up the Cloud Voicemail feature for everyone in the business.
+This article is for the Microsoft 365 or Office 365 admin as described in [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) who wants to set up the Cloud Voicemail feature for everyone in the business.
 
 > [!NOTE]
 > Cloud Voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. 
