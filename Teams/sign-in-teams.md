@@ -64,7 +64,7 @@ To sign out of Teams, users can click their profile picture at the top of the ap
 
 ## URLs and IP address ranges
 
-Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, as well as in Government and other clouds, read [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Microsoft 365 or Office 365 plans, as well as in Government and other clouds, read [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service (<https://ssl.gstatic.com)> for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020), and we'll update this article accordingly at that time.
