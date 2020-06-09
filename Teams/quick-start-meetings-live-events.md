@@ -30,7 +30,7 @@ There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this
 
 ## Get licenses for meetings and live events
 
-Anyone can attend a Teams meeting or live event for free - no license is required. Attendees join a Teams meeting or live event by clicking the **Join** button in Teams or the meeting invitation. Meeting audio is part of a Teams meeting, but if you want people to be able to dial in to a meeting by phone, you'll need to provide a dial-in number. 
+Anyone can attend a Teams meeting or public live event for free - no license is required. Attendees join a Teams meeting or live event by clicking the **Join** button in Teams or the meeting invitation. Meeting audio is part of a Teams meeting, but if you want people to be able to dial in to a meeting by phone, you'll need to provide a dial-in number. 
 
 For the people who will organize, schedule, and host meetings or live events, they'll need one of the Microsoft 365 or Office 365 licenses listed in the table below. If you're already using Teams, you probably have the license you need for organizing and hosting meetings and live events. 
 
