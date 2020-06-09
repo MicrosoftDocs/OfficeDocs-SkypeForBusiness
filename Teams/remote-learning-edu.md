@@ -21,8 +21,14 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
+For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
+
+Resources to assist educators and students with remote learning are available in [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+This article covers the actual steps to take in order to get your educational institution set up for remote learning.
+
 > [!NOTE]
-> This article is a great resource for getting your educational institution set up for remote learning. If you're an educator, educational leader, or IT professional, these resources may help:
+> If you're an educator, educational leader, or IT professional, these resources may help:
 >
 > - Get your entire educational institute up and running on Teams quickly with the [**Getting Started one-pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for security and change management.
