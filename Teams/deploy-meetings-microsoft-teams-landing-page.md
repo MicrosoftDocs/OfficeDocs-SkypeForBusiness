@@ -24,6 +24,11 @@ ms.custom: seo-marvel-apr2020
 
 # Meetings and conferencing in Microsoft Teams
 
+> [!NOTE]
+> - For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).
+> - Resources to assist educators and students with remote learning are available in [**Remote teaching and learning in Office 365 Education**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. This article walks you through the rollout of meetings and audio conferencing. Start by watching our Teams meetings, conferencing, and devices video (3:28 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
