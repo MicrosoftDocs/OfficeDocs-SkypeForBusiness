@@ -52,7 +52,7 @@ There are three ways to get new user numbers:
 
 ## Step 4: Add emergency addresses and locations for your organization
 <a name="bkmk_add_addresses"> </a>
-An emergency address must be associated with a phone number. When this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider. 
+An emergency address must be associated with a phone number. When this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Microsoft 365 or Office 365, or when transferring phone numbers from your current service provider. 
 
 For information about emergency calling and managing emergency addresses, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
     
