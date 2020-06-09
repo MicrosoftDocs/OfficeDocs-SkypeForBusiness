@@ -28,7 +28,7 @@ appliesto:
 
 The concepts of teams and channels are fundamental to a healthy, productive implementation of Microsoft Teams. 
 
-- A team is a collection of people, content, and tools that work together to produce a business outcome for your company. Teams are built on Microsoft 365 Groups, and changes to Office 365 group membership sync to the team.
+- A team is a collection of people, content, and tools that work together to produce a business outcome for your company. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team.
 
 - Channels are the collaboration spaces within a team in which the actual work is done. 
 
