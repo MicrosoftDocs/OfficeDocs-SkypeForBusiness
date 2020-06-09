@@ -34,7 +34,10 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-  
+
+## Prerequisite: Assigning Microsoft as the audio conferencing provider
+To ensure that licenses assign correctly, make sure to [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+
 ## Step 1: Find out if Audio Conferencing is available in your country/region
 <a name="__top"> </a>
 
