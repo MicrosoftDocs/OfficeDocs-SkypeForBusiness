@@ -61,8 +61,6 @@ To scale meetings across your organization you should ensure that all user locat
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
 
-You can use the [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) to confirm that your network locations are ready for the voice and video traffic that will support your meetings experience.
-
 | Ask yourself | Action |
 |--------------|--------|
 |Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
