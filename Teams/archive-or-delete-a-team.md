@@ -65,9 +65,9 @@ If the team will not be required in the future, then you can delete it rather th
 
 ## Restore a deleted team
 
-Follow these steps to restore a deleted team by restoring the Office 365 group that's associated with the team. Restoring the Office 365 group for a team, restores team content, including tabs, standard channels, and private channels and their associated site collections.
+Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team. Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.
 
-By default, a deleted Office 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### Install the AzureADPreview module
 
@@ -87,7 +87,7 @@ By default, a deleted Office 365 group is retained for 30 days. This 30-day peri
     Install-Module AzureADPreview
     ```    
 
-### Restore the deleted Office 365 group
+### Restore the deleted Microsoft 365 group
 
 1. Connect to Azure AD by running the following:
     ```PowerShell
