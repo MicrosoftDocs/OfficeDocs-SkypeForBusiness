@@ -159,14 +159,14 @@ Ensure your SBC has access to the Media Processors and Transport Relays ranges a
 
 For SIP signaling, the FQDN and firewall requirements are the same as for non-bypassed cases. 
 
-Direct Routing is offered in the following Office 365 environments:
-- Office 365
+Direct Routing is offered in the following Microsoft 365 or Office 365 environments:
+- Microsoft 365 or Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
-### Office 365 and Office 365 GCC environments
+### Microsoft 365, Office 365, and Office 365 GCC environments
 
 The connection points for Direct Routing are the following three FQDNs:
 
@@ -222,7 +222,7 @@ You need to open ports for all these IP addresses in your firewall to allow inco
 ## SIP Signaling: Ports
 
 Port requirements are the same for all Office 365 environments where Direct Routing is offered:
-- Office 365
+- Microsoft 365 or Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -258,7 +258,7 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
 
 Transport Relays are in the same range as Media Processors (for non-bypass cases): 
 
-### Office 365 and Office 365 GCC environments
+### Microsoft 365, Office 365, and Office 365 GCC environments
 
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
@@ -361,6 +361,5 @@ For all other endpoints that do not support media bypass, we will covert the cal
 ## See also
 
 [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
-
 
 
