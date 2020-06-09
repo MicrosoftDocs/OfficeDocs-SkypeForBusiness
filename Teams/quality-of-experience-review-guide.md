@@ -24,7 +24,6 @@ ms.custom:
 
 This article will help you - the Teams admin or support and helpdesk engineer - to develop a process for monitoring and maintaining call and meeting quality for your organization by using Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio-quality scenarios because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
-**SIUNIE - ARE THESE QER TEMPLATES STILL RELEVANT?**
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
 This article assumes that you've already [set up CQD](turning-on-and-using-call-quality-dashboard.md).
@@ -1074,14 +1073,18 @@ Wi-Fi drivers also need to be patched on a regular cadence as well and should be
 
 [Manage your devices in Teams](device-management.md)
 
-[Set up per-user call analytics](set-up-call-analytics.md)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Set up Call Quality Dashboard (CPD)](turning-on-and-using-call-quality-dashboard.md)
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+[Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
+[CQD data and reports](CQD-data-and-reports.md)
 
-[Stream classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+[Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)

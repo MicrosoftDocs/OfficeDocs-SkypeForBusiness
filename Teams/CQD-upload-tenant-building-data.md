@@ -135,12 +135,18 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 
 ## Related topics
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
+
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[CQD data and reports](CQD-data-and-reports.md)
+
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
-
-[Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md)
- 
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)

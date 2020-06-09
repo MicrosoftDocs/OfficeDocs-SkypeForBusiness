@@ -53,14 +53,18 @@ Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to lear
 
 ## Related topics
 
-[What is CQD?](CQD-what-is-call-quality-dashboard.md)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Upload tenant and build data](CQD-upload-tenant-building-data.md)
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
 [CQD data and reports](CQD-data-and-reports.md)
 
-[Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)

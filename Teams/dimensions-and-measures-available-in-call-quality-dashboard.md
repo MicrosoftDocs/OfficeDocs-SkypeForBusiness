@@ -695,9 +695,18 @@ Many Dimension and Measurement values can also be used as filters. You can use f
 
 ## Related topics
 
-[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md)
- 
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Upload tenant and building data](CQD-upload-tenant-building-data.md)
+
+[CQD data and reports](CQD-data-and-reports.md)
+
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
