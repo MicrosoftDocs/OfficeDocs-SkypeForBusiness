@@ -78,7 +78,7 @@ When using the overlapping capabilities method, the communication traffic for Sk
 
 - Communication initiated from Teams client from a *user in an external organization* will always land in User A's Skype for Business client.
 
-If you have assigned an Office 365 license to your users, this will be the default upgrade experience for your organization. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>2</sup>
+If you have assigned a Microsoft 365 or Office 365 license to your users, this will be the default upgrade experience for your organization. When you assign a Microsoft 365 or Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>2</sup>
 
 For this method to work effectively, all users must run both clients simultaneously. Incoming chats and calls from within the organization to a user in Islands mode can land in either the Skype for Business or Teams client--and this is not under the control of the recipient. It depends on what client the sender uses to initiate the communication. If the sender and recipient are in different organizations, incoming calls and chats to a user in Islands mode always land in the Skype for Business client.
 
@@ -174,7 +174,7 @@ The following table summarizes the upgrade methods:
 |Interop between Skype for Business and Teams does not exist while both users are in Islands mode.      |Interop is required for communication between Skype for Business and Teams users.         |
 
 > [!NOTE]
-> If you are unable to follow supported methods for migrating your Skype for Business Server users to Teams, it would be possible to transition your users to Teams by removing Skype for Business Server and all related user attributes in Active Directory. Once the users Azure Active Directory attributes have been cleared of the Skype for Business Server attributes and DNS records have been re-pointed to Office 365, it would then be possible to license the users in Office 365 and upgrade them to Teams. 
+> If you are unable to follow supported methods for migrating your Skype for Business Server users to Teams, it would be possible to transition your users to Teams by removing Skype for Business Server and all related user attributes in Active Directory. Once the users Azure Active Directory attributes have been cleared of the Skype for Business Server attributes and DNS records have been re-pointed to Microsoft 365 or Office 365, it would then be possible to license the users in Microsoft 365 or Office 365 and upgrade them to Teams. 
 
 > [!IMPORTANT]
 > With the cutover migration, contact data and meetings data will not be migrated from on premises environment to Microsoft Teams.
