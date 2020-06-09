@@ -127,8 +127,10 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
 
-    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
-    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
+
+    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
 
     The minimum version of the Teams desktop app that's required is version 1.3.00.4461. (PSTN hold is not supported in earlier versions.)
 
@@ -232,7 +234,7 @@ You can set policies by using the Microsoft Teams admin center or PowerShell. It
 
 #### Assign policies using the Microsoft Teams admin center
 
-To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
+To assign the DisallowCalling calling policy and the AllOff meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -241,7 +243,11 @@ To assign the DisallowCalling calling policy and the AllOff meeting policy to us
     2.  Under **Meeting policy**, click **AllOff**.
 4. Click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -284,7 +290,7 @@ You can use the Microsoft Teams admin center or PowerShell to set and assign cal
 
 #### Assign policies using the Microsoft Teams admin center
 
-To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:
+To assign the AllowCalling calling policy and the AllOn meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -293,7 +299,11 @@ To assign the AllowCalling calling policy and the AllOn meeting policy to users,
     2.  Under **Meeting policy**, click **AllOn**.
 4. Click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -360,3 +370,4 @@ For information on how to troubleshoot VDA and CWA issues, see [this Citrix webs
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

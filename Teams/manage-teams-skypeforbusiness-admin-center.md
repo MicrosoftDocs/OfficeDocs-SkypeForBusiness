@@ -110,4 +110,4 @@ The following table shows where you can manage features during the migration.
 
 ## Manage settings after the migration
 
-When the migration of these settings is complete, we'll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
+When the migration of these settings is complete, we'll disable them in the Microsoft 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.

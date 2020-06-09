@@ -60,9 +60,12 @@ The following phones are Certified for Microsoft Teams:
 
 The following Collaboration bars are Certified for Microsoft Teams:
 
-|Collaboration bar Model|Firmware Version|Release Date |
-|:---|:---|:---|
-|Yealink VC210| 118.15.0.14|February 2020|
+|Collaboration Bar Model|Firmware Version|Release Date |Room Size (up to)|
+|:---|:---|:---|:---|
+|Poly Studio X30 | 3.1.1.216109| June 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
+|Poly Studio X50 | 3.1.1.216109| June 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
+|Yealink VC210| 118.15.0.14|February 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
+
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 

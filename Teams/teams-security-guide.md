@@ -183,10 +183,6 @@ For Teams to function properly (for users to be able to join meetings etc.), cus
 
 The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel.
 
-### UDP/TCP 50,000–59,999 (Optional)
-
-Ports in the high range don't use Transport Relay. Because they are optional ports, you won't find them listed in  Office 365 URLs and IP address ranges. This also means that Teams will function if these ports are blocked, due to the traffic using the port ranges 3478-3481 (Transport Relay). They are used for media transit, but even if these ranges are unblocked, the reduction in delay will be minimal (a few milliseconds). For the most part, issues with media quality will not be impacted by unblocking and using these ports. Any investigation of those issues would need to focus elsewhere.
-
 ### Federation Safeguards for Teams
 
 Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the Microsoft 365 admin center.

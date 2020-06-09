@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Admin can learn about how to prepare for an upgrade to Microsoft Teams Only mode in the Microsoft Teams admin center. 
 localization_priority: Normal
 search.appverid: MET150

@@ -49,8 +49,8 @@ To follow along, go to the admin center at <a href="https://go.microsoft.com/fwl
 <sup>1</sup> [PowerShell - Skype for Business module](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 

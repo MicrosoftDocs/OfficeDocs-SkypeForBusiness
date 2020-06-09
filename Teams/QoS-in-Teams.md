@@ -39,9 +39,9 @@ The least complex way to address these issues is to increase the size of the dat
 
 For QoS to be effective, you will have have consistent QoS settings applied end to end in your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams online service.
 
-_Figure 1. The relationship between an organization's networks and Office 365 services_
+_Figure 1. The relationship between an organization's networks and Microsoft 365 or Office 365 services_
 
-![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
+![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
 
 In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
 
@@ -145,7 +145,7 @@ At a very high level, implementing QoS requires these steps:
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
-- The shortest path to Office 365 is best.
+- The shortest path to Microsoft 365 or Office 365 is best.
 - Closing ports will only lead to quality degradation.
 - Any obstacles in-between, such as proxies, are not recommended.
 - Limit the number of hops:
@@ -153,7 +153,7 @@ As you prepare to implement QoS, keep the following guidelines in mind:
   - ISP to Microsoft network edge – 3 hops
   - Microsoft network edge to final destination – irrelevant
 
-For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+For information about configuring firewall ports, go to [Microsoft 365 and Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
 ## Managing source ports in the Teams admin center
 
