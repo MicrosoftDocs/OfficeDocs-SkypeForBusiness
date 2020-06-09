@@ -53,7 +53,7 @@ Your organization might require that you implement strict controls on how teams 
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### Additional information
@@ -82,7 +82,7 @@ Your organization might have additional requirements for setting policies for ex
 |Capability |Details |Azure AD Premium license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Microsoft 365 groups by setting an expiration policy. |P1 |TBD|
-|Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
+|Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Microsoft 365 or Office 365 Enterprise E3 or above. |No |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
@@ -101,7 +101,7 @@ For technical guidance on how to implement these settings, see:
 
 ## Teams feature management
 
-Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Office 365 organization level or per-user. 
+Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Microsoft 365 or Office 365 organization level or per-user.
 
 
 |         |         |
@@ -124,7 +124,7 @@ Additionally, you can set up moderation for a channel and give moderator capabil
 
 ## Security and compliance
 
-Teams is built on the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies. 
+Teams is built on the advanced security and compliance capabilities of Microsoft 365 and Office 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies.
 
 > [!Important]
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
