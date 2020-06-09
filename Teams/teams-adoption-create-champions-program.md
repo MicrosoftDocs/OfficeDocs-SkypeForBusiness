@@ -41,7 +41,7 @@ Champions should:
 
 Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665) to build this program in your organization. Our best practices for this community are:
 
-- Join the Microsoft 365 or Microsoft Office 365 [Champions Program](https://aka.ms/O365Champions). Make sure that at a minimum the leaders of the champion program (and potentially all company champions) are members of the program. This free, monthly community call will provide valuable information for running your own program and getting the most from Teams and other Microsoft 365 or Office 365 services. Program materials can be reused in your own internal program.
+- Join the [Champions Program](https://aka.ms/O365Champions). Make sure that at a minimum the leaders of the Champions program (and potentially all company champions) are members of the program. This free, monthly community call will provide valuable information for running your own program and getting the most from Teams and other Microsoft 365 or Office 365 services. Program materials can be reused in your own internal program.
 
 - Use the Teamwork Champion team: Your champions should use the team you have setup for them for all program communications, feedback, and to find resources.  In doing this they will become increasingly familiar with the product and its benefits.
 
