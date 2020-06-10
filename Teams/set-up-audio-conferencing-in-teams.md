@@ -33,7 +33,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](audio-conferencing-common-questions.md).
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
+> We are frequently updating how you can manage features, so the steps here might be a little different from what you see.
 
 ## Prerequisite: Assigning Microsoft as the audio conferencing provider
 To ensure that licenses assign correctly, make sure to [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
