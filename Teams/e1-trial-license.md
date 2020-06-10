@@ -82,7 +82,7 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Remove licenses from users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 
 ## Related topics
@@ -93,6 +93,6 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 
 [Manage the Teams Exploratory experience](teams-exploratory.md)
 
-[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 or Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Get assistance deploying Teams](https://go.microsoft.com/fwlink/?linkid=780698)
