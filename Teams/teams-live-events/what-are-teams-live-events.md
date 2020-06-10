@@ -82,9 +82,8 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](http://www.ramp.com)
 
-### Attendee experience
-
-The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Stream Player (for events produced in Teams) and Azure Media Player (for events produced in an external app or device) and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs, and the live attendee experience is integrated into these collaboration tools. 
+### Attendee experience 
+The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Stream Player (for events produced in Teams) and Azure Media Player (for events produced in an external app or device) and works across desktop, browser, and mobile (iOS, Android). Microsoft 365 and Office 365 provide Yammer and Teams as two collaboration hubs, and the live attendee experience is integrated into these collaboration tools. 
 
 ![Screenshot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
