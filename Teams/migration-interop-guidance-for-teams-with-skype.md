@@ -24,9 +24,12 @@ appliesto:
 # Migration and interoperability guidance for organizations using Teams together with Skype for Business
 
 > [!Tip] 
-> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop).
 
 As an organization with Skype for Business starts to adopt Teams, administrators can manage the user experience in their organization using the concept of coexistence "mode" which is a property of TeamsUpgradePolicy. Using mode, administrators manage interop and migration as they manage the transition from Skype for Business to Teams.  A user's mode determines in which client incoming chats and calls land as well as in what service (Teams or Skype for Business) new meetings are scheduled. It also governs what functionality is available in the Teams client. 
+
+> [!IMPORTANT]
+> It can take up to 24 hours for a change to TeamsUpgradePolicy to take effect. Before then, user presence status may not be correct (may show as **Unknown**).
 
 
 ## Fundamental concepts
@@ -44,7 +47,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
 
 5.  Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The recipient Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
 
-6.    Upgrade and interop behavior are determined based on Coexistence mode of a user, described later below. Mode is managed by TeamsUpgradePolicy. 
+6.    Upgrade and interop behavior are determined based on Coexistence mode of a user, described below. Mode is managed by TeamsUpgradePolicy. 
 
 7.  Upgrading a user to the TeamsOnly mode ensures that all incoming chats and calls will always land in the user's Teams client, regardless of what client it originated from. These users will also schedule all new meetings in Teams. To be in TeamsOnly mode, a user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade a user to TeamsOnly:
     - If the user is homed in Skype for Business online (or never had any Skype account), grant them TeamsUpgradePolicy with Mode=TeamsOnly using the "UpgradeToTeams" instance using PowerShell, or use the Teams Admin Center to select the TeamsOnly mode.
@@ -101,6 +104,9 @@ The modes are listed below.
 
 
 ## TeamsUpgradePolicy: managing migration and co-existence
+
+> [!IMPORTANT]
+> It can take up to 24 hours for a change to TeamsUpgradePolicy to take effect. Before then, user presence status may not be correct (may show as **Unknown**).
 
 TeamsUpgradePolicy exposes two key properties: Mode and NotifySfbUsers. 
 </br>
