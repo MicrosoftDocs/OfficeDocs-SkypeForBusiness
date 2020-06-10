@@ -61,7 +61,6 @@ Reporting Labels that you upload to CQD will be handled as *Support Data* under 
 6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
 
 ## Tenant data file format and structure
-<a name="BKMKTenantDataFile"> </a>
 Before you can start using CQD, activate it for your Microsoft 365 or Office 365 as follows:
 
 ### Building data file
@@ -132,7 +131,166 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
+===============
+FROM QERGUIDE:
+## Building mapping
 
+In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD, regardless of whether the client was connected on an internal corporate network.
+
+When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can't manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
+
+### Building data file structure
+
+The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
+
+-   The file must be either a TSV file—which means that for each row, each column is separated by a Tab character—or a CSV file in which each column is separated by a comma.
+
+-   The file can't be larger than 50 MB.
+
+-   The content of the data file *must not include table headers*. In other words, the first line of the data file must be real data, not column headings such as "Network."
+
+-   For each column, the data type can only be String, Number, or Bool. If the data type is Number, the value must be a numeric value; if it's Bool, the value must be either 0 or 1.
+
+-   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
+
+-   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+
+| Column name        | Data type | Example                   | Guidance    |
+|--------------------|-----------|---------------------------|-------------|
+| Network            | String    | 192.168.1.0               | Required    |
+| NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required\*  |
+| NetworkRange       | Number    | 26                        | Required    |
+| BuildingName       | String    | SEATTLE-SEA-1             | Required\*  |
+| OwnershipType      | String    | Contoso                   | Optional    |
+| BuildingType       | String    | IT Termination            | Optional    |
+| BuildingOfficeType | String    | Engineering               | Optional    |
+| City               | String    | Seattle                   | Recommended |
+| ZipCode            | String    | 98001                     | Recommended |
+| Country            | String    | US                        | Recommended |
+| State              | String    | WA                        | Recommended |
+| Region             | String    | MSUS                      | Recommended |
+| InsideCorp         | Bool      | 1                         | Required    |
+| ExpressRoute       | Bool      | 0                         | Required    |
+| VPN                | Bool      | 0                         | Optional    |
+
+\*While not required by CQD, the templates are configured to display Building and Network name.
+
+#### Supernetting
+
+You can use supernetting, commonly called Classless Inter-Domain Routing (CIDR,) in place of defining each subnet. A *supernet* is a combination of several subnets that share a single routing prefix. Instead of adding an entry for each subnet, you can use the supernetted address. Supernetting is supported, but we don't recommend using it.
+
+For example, Contoso's marketing building is made up of the subnets below:
+
+-   10.1.0.0/24—first floor
+-   10.1.1.0/24—second floor
+-   10.1.2.0/24—third floor
+-   10.1.3.0/24—fourth floor
+
+Instead of adding an entry for each subnet, you can use the supernetted address—in this example, 10.1.0.0/22.
+
+-   Network = 10.1.0.0
+-   Network Range = 22
+
+Here are a few things to consider before you implement supernetting:
+
+-   Supernetting can only be used in a subnet mapping with 8-bit to 28-bit mask.
+
+-   Supernetting takes less time up front, but it comes at the cost of reducing the richness of your data. Let's say there's a quality problem involving subnet 200.1.2.0. If you implemented supernetting, you won't know where in the building the subnet is located or what type of network it is (for example, a lab). If you'd defined all the subnets for a building and uploaded floor location information, you'd be able to see that distinction.
+
+-   It's important to ensure that the supernetted address is correct and isn't catching unwanted subnets.
+
+-   It's quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don't include it in your building file because it's difficult to distinguish between home and internal networks by using common subnets. See the section about [common subnets](#common-subnets), earlier in this article.
+
+> [!IMPORTANT]
+> The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you've previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports.
+
+#### VPN
+
+The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
+
+- Define a **Network Name** by using the text "VPN" in this field for VPN subnets.
+
+  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+
+- Define a **Building Name** by using the text "VPN" in this field for VPN subnets.
+
+  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+
+> [!IMPORTANT]
+> Certain VPN implementations don't accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
+
+
+> [!NOTE]
+> VPN connections have been known to misidentify the network connection as wired when the underlying internet connection is wireless. When looking at quality over VPN connections, you can't assume that the connection type has been accurately identified.
+
+### Uploading building information
+
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
+
+1. In CQD, select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
+
+   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+
+2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
+
+   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+
+3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
+
+4. After selecting a data file, specify **Start date** and, optionally, specify an end date.
+
+5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it's validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
+
+   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
+ 
+6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+
+> [!NOTE]
+> It can take up to four hours to finish processing the building file. <br><br> If you've already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
+
+
+### Updating a building file
+
+While gathering building and subnet information, administrators will often upload the building file in multiple iterations over time, adding new subnets and their building information as it becomes available. When this occurs, you'll need to re-upload your building file. This process is like the initial upload as described in the previous section, with a few exceptions as noted in the following section.
+
+> [!Important]
+> Only one building file can be active at a time. Multiple building files aren't cumulative.
+
+#### Adding net new subnets
+
+There are times when you'll need to add net new subnets to CQD that weren't originally part of your network topology. To add net new subnets, do the following in the CQD Tenant Data Upload portal:
+
+1.  Edit the original building file and provide an end date that occurs at least one day before the net new subnets were acquired.
+2.  Download the original file, if you don't already have an up-to-date copy.
+3.  Append the net new subnets to the original building file.
+4.  Upload the newly modified building file following the same process as above, and set the start date for one day after the previous building file ends.
+
+#### Updating the current building file
+
+If a building file is already uploaded but you need to add missing subnets, do the following in the CQD Tenant Data Upload portal:
+
+1.  Download the original file, if you don't already have an up-to-date copy.
+2.  Remove the current file in CQD.
+3.  Append the new subnets to the original file.
+4.  Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
+
+### Missing subnets
+
+After you upload building information for managed networks, every managed network should have a building association. However, this won't always be the case; typically, a few subnets are missed. This section covers how to validate those missing networks.
+
+Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that aren't defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
+
+> [!IMPORTANT]
+> You'll need to add your tenant ID as a query filter for **Second Tenant ID** to this report to filter the report to view only your organization's tenant data. Otherwise, the report will show federated subnets.
+
+> [!NOTE] 
+> Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
+
+### Building mapping tools
+
+Let's face it, mapping out subnets in your organization can be difficult. Large global networks are very complex, with different teams managing their respective regions, and there might be no single source of truth for the network topology. There are two tools available to assist with starting the building mapping exercise, described in the following sections.
+
+============END FROM QERGUIDE==============
 
 ## Related topics
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)

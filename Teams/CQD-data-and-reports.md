@@ -41,7 +41,7 @@ You can access CQD data by several different avenues. Pick the one that best mee
 |  |  |
 |---------|---------|
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
-|CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal.        |
+|CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.       |
 |Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
 |Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data.  For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
@@ -293,6 +293,137 @@ Report filters are implemented by adding a filter to the rendered report either 
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
+
+===========REPORT FILTERS SECTION FROM QERGUIDE===========
+## Report filters
+
+Use a wide variety of CQD filters to narrow the focus of your investigations.
+
+### Drill-down filters
+
+CQD reports feature several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
+
+![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
+
+
+#### Adding and editing drill-down fields
+
+When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
+
+Start by clicking **…** for the report you want to edit, then select **Edit**.
+
+![Screenshot of editing a drill-down field](media/qerguide-image-addeditdrilldownfields.png)
+
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the **Navigate To** label and select the tab and expander group that you want that Dimension to drill through to. Note: Presently, drill-down functionality only works by navigating to different tabs. Support for drilling through to a specific expander will be added later. Finally, click **Close** to save your changes to the Dimension, then click **Save** to save and close the Query Editor.
+
+![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
+
+### Multi-select filters
+
+In addition to drill-down functionality, CQD also supports specifying Filters with multiple values (OR filters).
+
+In order to select multiple filter values, begin by adding a new filter to the report. Click **+** beside the **Filters** label, enter the name of the Dimension you want to use, and click **Add**.
+
+![Screenshot of adding a multi-select filter](media/qerguide-image-addmultiselectfilter.png)
+
+Then, click **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click **Search** next to that field to search. Alternatively, leave the text field empty and click **Search** to view up to the first 100 options.
+
+```PowerShell
+/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+```
+
+Example:  
+
+![Screenshot of adding a query filter](media/qerguide-image-addfilter.png)
+
+### Dashboard level filters
+Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
+
+![Screenshot of a dashboard filter](media/qerguide-image-dashboardfilters.png)
+```PowerShell
+/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
+```
+
+### URL filters
+
+CQD supports adding filters to the URL. This makes it easy to share or bookmark a CQD query. You can define parameters in the URL, such as Trending Month, tenant ID, or language. You can also add Product or Dashboard level filters to the URL.
+Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
+
+To add a filter, append the following to the end of the URL:
+
+```
+/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+```
+
+Example:  
+
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+
+To add a Dashboard-level filter to a URL, that filter must exist in CQD as either a Product or Dashboard level filter. Add these filters to the URL after the Trending Month and before the URL parameters:
+
+```filter/DATA_MODEL_NAME|VALUE```
+
+For example, to apply a Product filter value of Microsoft Teams, you'd add the following:
+
+```filter/[AllStreams].[Is%20Teams]|[True]```
+
+Your entire URL would look something like this:
+
+```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+
+To apply URL filters with multi-select values, separate each value with a pipe ( | ) character. For example:
+
+```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+
+If you specify an invalid name or value, the URL filter won't be applied.
+
+
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business Online. Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
+
+| Filter         | Description          | CQD query filter example      |
+|----------------|----------------------|-------------------------------|
+| No blank values   | Some filters don't have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.      | Second Building Name \<\> \^\\s\*\$                       |
+| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT's control and can be quickly excluded from a report. Common subnets, as defined in this article, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
+| View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
+
+
+#### How to find your tenant ID
+
+The tenant ID in CQD corresponds to the Directory ID in Azure. If you don't know your Directory ID, you can find it in the Azure portal:
+
+1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
+
+2.  Select **Azure Active Directory**.
+
+3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
+
+You can also find your tenant ID by using PowerShell: 
+  ```
+  Login-AzureRmAccount
+  ```
+
+
+## Import the CQD report templates
+
+Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD's capabilities to make an impact on your users' Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+
+**To import the templates (.CQDX) into CQD**
+
+1. In CQD, select **Detailed Reports** from the menu at the top of the page.
+
+2. In the left panel, select **Import**. Browse to the first CQDX template and select **Open**.
+
+3. After the template is uploaded, a pop-up window will display the message "Report import was successful." Select **OK**.
+
+4. Repeat steps 2 and 3 for the second CQD template.
+
+> [!NOTE]
+> Each user must import the CQD templates into their CQD instance. 
+
+
+
+
+==================END REPORT FILTERS CONTENT FROM QERGUIDE=======
 
 
 ## Frequently asked questions
