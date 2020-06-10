@@ -28,11 +28,11 @@ You have several options for recording a Microsoft Teams live event. The recordi
 
 There are two organizer options while scheduling a live event recording:
 
-- Recording Available for Producers and Presenters
+- Recording available for producers and presenters
 
-  - Recording File: Provides a recording file that Producers/Presenters can download after the event is over
+  - Recording file: Provides a recording file that producers/presenters can download after the event is over
 
-- Recording Available for Attendees
+- Recording available for attendees
 
   - DVR: Allows attendees to rewind and pause during the event
 
@@ -44,34 +44,34 @@ As part of the broadcast policy, there is a setting that you can toggle to turn 
 
 |                                 | **Recording available for producers and presenters** | **Recording available for attendees** |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| **Always Record**               | Disabled and Selected                                | Enabled and Selected by Default       |
-| **Organizer can record or not** | Enabled and Not Selected by Default                  | Enabled and Not Selected by Default   |
-| **Never Record**                | Disabled and Not Selected                            | Enabled and Selected by Default       |
+| **Always record**               | Disabled and selected                                | Enabled and selected by default       |
+| **Organizer can record or not** | Enabled and not selected by default                  | Enabled and not selected by default   |
+| **Never record**                | Disabled and not selected                            | Enabled and selected by default       |
 
-When the policy is set to **Always Record**, the policy page has the following selected options:
+When the policy is set to **Always record**, the policy page has the following selected options:
 
 ![Screen shot of live events policy settings](../media/live-event-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
-## Flags set on Client
+## Flags set on client
 
-| **Can be set by User**                                         | **Flag/Capability set by client?** | **Flag**                 | **Implications**                                                                                               |
+| **Can be set by user**                                         | **Flag/capability set by client?** | **Flag**                 | **Implications**                                                                                               |
 | -------------------------------------------------------------- | ---------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| Organizer Option: Recording available for Attendee             | Yes                                | Capabilities.VOD         | If True, Attendee Service admits user after event is over                                                      |
-| Organizer Option: Recording available for Producer & Presenter | Yes                                | Capabilities.Recording   | If True, generates mp4                                                                                         |
-| Admin Setting: Never Record Admin Policy Setting               | No                                 | Capabilities.DoNotRecord | If DoNotRecord is set, then by definition, MP4, VOD AND DVR must all be disabled – no assets should be stored. |
+| Organizer option: Recording available for attendee             | Yes                                | Capabilities.VOD         | If True, Attendee Service admits user after event is over                                                      |
+| Organizer option: Recording available for producer & presenter | Yes                                | Capabilities.Recording   | If True, generates mp4                                                                                         |
+| Admin setting: Never record admin policy setting               | No                                 | Capabilities.DoNotRecord | If DoNotRecord is set, then by definition, MP4, VOD AND DVR must all be disabled – no assets should be stored. |
 
-## Storage & Persistence Behavior
+## Storage & persistence behavior
 
 | **Option**                                       | **State**    | **DVR**                                                   | **VOD**                                                     | **Recording**                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **Recording Available for Producers/Presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days | Attendee can access and watch the event                     |                              |
+| **Recording available to producers and presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee will not get access into the event after it's over |                              |
-| **Recording Available for Producers/Presenters** | Selected     |                                                           |                                                             | An MP4 is created and stored |
+| **Recording available to producers and presenters** | Selected     |                                                           |                                                             | An MP4 is created and stored |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
 ## Mitigation
 
-### End User Changes & Fixes
+### End user changes & fixes
 
 <table>
 <thead>
@@ -83,9 +83,9 @@ When the policy is set to **Always Record**, the policy page has the following s
 </thead>
 <tbody>
 <tr class="odd">
-<td>When the Live Event Recording Policy setting is set to “Never Record” don’t allow organizers to select any recording options</td>
+<td>When the live event recording policy setting is set to **Never record** don’t allow organizers to select any recording options</td>
 <td><ul>
-<li><p>Disable and grey out the “Recording for Attendees”</p></li>
+<li><p>Disable and grey out the **Recording for attendees**</p></li>
 </ul></td>
 <td></td>
 </tr>
@@ -98,7 +98,7 @@ When the policy is set to **Always Record**, the policy page has the following s
 <td></td>
 </tr>
 <tr class="odd">
-<td>When the policy is set to “Never Record” the system does not store any recording assets</td>
+<td>When the policy is set to **Never record** the system does not store any recording assets</td>
 <td><ul>
 <li><p>If the DoNotRecord flag is set to true then:</p>
 <ul>
@@ -113,20 +113,20 @@ When the policy is set to **Always Record**, the policy page has the following s
 
 ### New State
 
-|                                 | **Recording Available for Producers and Presenters** | **Recording Available for Attendees** |
+|                                 | **Recording available to producers and presenters** | **Recording available to attendees** |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| **Always Record**               | Enabled and Selected by Default                      | Enabled and Selected by Default       |
-| **Organizer can record or not** | Enabled and Not Selected by Default                  | Enabled and Not Selected by Default   |
-| **Never Record**                | Disabled                                             | Disabled                              |
+| **Always record**               | Enabled and selected by default                      | Enabled and selected by default       |
+| **Organizer can record or not** | Enabled and not selected by default                  | Enabled and not selected by default   |
+| **Never record**                | Disabled                                             | Disabled                              |
 
 ### New State with options
 
 | **Option**                                       | **State**    | **DVR**                                                       |**VOD**                                                     | **Recording**                |
 | ------------------------------------------------ | ------------ | ------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **Recording Available for Producers/Presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days     | Attendee can access and watch the event                     |                              |
-|                                                  | Not Selected | DVR is available and the AMS asset is deleted after the event | Attendee will not get access into the event after it's over |                              |
-| **Recording Available for Producers/Presenters** | Selected     |                                                               |                                                             | An MP4 is created and stored |
-|                                                  | Not Selected |                                                               |                                                             | No file is created           |
+| **Recording available to producers and presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days     | Attendee can access and watch the event                     |                              |
+|                                                  | Not selected | DVR is available and the AMS asset is deleted after the event | Attendee will not get access into the event after it's over |                              |
+| **Recording available to producers and presenters** | Selected     |                                                               |                                                             | An MP4 is created and stored |
+|                                                  | Not selected |                                                               |                                                             | No file is created           |
 
 ### Phases
 
