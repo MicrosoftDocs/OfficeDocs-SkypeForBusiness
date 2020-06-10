@@ -164,10 +164,11 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
     > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
   - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
+  - **External phone number** Enter an external phone number.
   - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Micrsofot 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
-  - **External phone number** Enter an external phone number.
+
 
  * * *
 
@@ -204,11 +205,11 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
 
+- **External phone number** Enter an external phone number.
+
 - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
     Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
-    
-- **External phone number** Enter an external phone number.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
