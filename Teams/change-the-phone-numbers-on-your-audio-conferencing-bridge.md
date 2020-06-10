@@ -32,13 +32,13 @@ When you buy **Audio Conferencing** licenses, Microsoft is hosting your audio co
 In addition to the phone numbers already assigned to your conferencing bridge, you can [get additional service numbers](/microsoftteams/getting-service-phone-numbers) (toll and toll-free numbers used for audio conferencing) from other locations, and then assign them to the conferencing bridge so you can expand coverage for your users.
   
 > [!NOTE]
-> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** in the legacy portal and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
+> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** in the legacy portal and looking in the **Number Type** column. Microsoft 365 or Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
 
 ## Steps when you are assigning a new service phone number to your conference bridge
 
 ### Step 1 - Assign the new phone number to your audio conferencing bridge
 
-1. Sign in to Office 365 with your work account.
+1. Sign in to Microsoft 365 or Office 365 with your work account.
 
 2. Go to **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
@@ -52,7 +52,7 @@ The default phone number of your conference bridge defines the caller ID that wi
 
 Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, perform these steps:
 
-1. Sign in to Office 365 with your work account.
+1. Sign in to Microsoft 365 or Office 365 with your work account.
 
 2. Go to **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Meetings** > **Conference Bridges**.
 
@@ -156,7 +156,7 @@ Restart your computer when you are prompted.
 4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 Restart your computer if you are prompted.
 
-If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
+If you need to know more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
 
 ### To start Windows PowerShell
 
@@ -164,7 +164,7 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
+2. In the **Windows PowerShell** window, connect to Microsoft 365 or Office 365 by running:
 
 >
   ```PowerShell
@@ -176,7 +176,7 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
 
 > [!NOTE]
 > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### Save time and automate
 
@@ -236,7 +236,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## About Windows PowerShell
 
-With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
+With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -244,7 +244,7 @@ With Windows PowerShell you can manage users and what they are or are not allowe
 
 Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
-  - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 

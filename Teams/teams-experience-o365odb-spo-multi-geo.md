@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: In this article, you will learn about using Teams in an Microsoft 365 or Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
+description: In this article, you will learn about using Teams in a Microsoft 365 or Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -23,7 +23,7 @@ appliesto:
 Teams experience in a Microsoft 365 or Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy
 ===========================================
 
-Microsoft Teams is group chat software, the hub for teamwork in Office 365. It is powered by the Microsoft 365 Groups service along with SharePoint Online and OneDrive for Business for its files experience. In a OneDrive for Business/SharePoint Online Multi-Geo tenancy, in which the tenant is extended to many geographic locations such as North America, Europe, and Australia, the underlying files experience is Multi-Geo aware, so the Teams experience with file collaboration is also Multi-Geo aware. This is a key leading-edge capability for Teams to surface files hosted across multiple Geos in its native files experience.
+Microsoft Teams is group chat software, the hub for teamwork in Microsoft 365 and Office 365. It is powered by the Microsoft 365 Groups service along with SharePoint Online and OneDrive for Business for its files experience. In a OneDrive for Business/SharePoint Online Multi-Geo tenancy, in which the tenant is extended to many geographic locations such as North America, Europe, and Australia, the underlying files experience is Multi-Geo aware, so the Teams experience with file collaboration is also Multi-Geo aware. This is a key leading-edge capability for Teams to surface files hosted across multiple Geos in its native files experience.
 
 For example, in a Contoso tenancy with Europe as a satellite Geo and North America as the central Geo, a European satellite user will see his or her OneDrive files under the Files tab in left pane, although the files are hosted in the Europe data location and the United States is the tenant’s central location. Also, the user can access the most recently used files under the Recent view blade. Recent files may include files shared with the user from users in other Geos and might be mastered in other Geo locations that the tenant is extended to. 
 
@@ -33,4 +33,4 @@ Because a Multi-Geo tenancy is a single global tenant, during @ mentions satelli
 
 Note that conversations in chats and meeting IM notes within the Teams experience are not Multi-Geo aware and are all kept only inside the central location of the tenant. Typically, chat conversations aren’t applied to data residency needs.
 
-For more information about Office 365 Multi-Geo, refer to the [Microsoft Multi-Geo capabilities page](https://aka.ms/multi-geo).
+For more information about Multi-Geo, refer to the [Microsoft Multi-Geo capabilities page](https://aka.ms/multi-geo).
