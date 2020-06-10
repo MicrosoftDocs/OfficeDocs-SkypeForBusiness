@@ -38,7 +38,7 @@ We recommend that all organizations work through the core decisions and then, if
 
 The following articles provide more information about deploying and using cloud voice features in Teams:
 
-- [Phone System in Office 365](what-is-phone-system-in-office-365.md)
+- [Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
 - [Phone System with Calling Plans](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
@@ -52,12 +52,12 @@ These are the settings that most organizations want to change (if the Teams defa
 
 ## Phone System (Office 365)
 
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company's cloud productivity experience.
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Microsoft 365 or Office 365 and tightly integrated into the company's cloud productivity experience.
 
 
 |Ask yourself|Action |
 |:------------|:-------|
-|In which user locations or offices will I implement Phone System? |For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|In which user locations or offices will I implement Phone System? |For more information about Phone System, see [What is Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## Connection to the Public Switched Telephone Network (PSTN)
@@ -115,7 +115,7 @@ How do I port existing phone numbers to Teams?|For more information, see [Transf
 
 ### Dial plans
 
-A dial plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
+A dial plan in the Phone System feature of Microsoft 365 or Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
 
 For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 

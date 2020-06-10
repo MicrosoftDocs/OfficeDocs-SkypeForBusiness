@@ -35,7 +35,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 organization can have    | 500,000&sup2;     |
+|Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
 |Number of members in a Private channel    |250|
@@ -59,7 +59,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of people in a private chat<sup>1</sup>  | 250<br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 100. We'll update this article when the government cloud limit increases from 100 to 250.    |
 |Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
@@ -88,7 +88,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses.
 
 ## Channel names
 
@@ -96,7 +96,7 @@ Channel names can't contain the following characters or words.
 
 |||
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
@@ -127,7 +127,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Concurrent live events running in an Office 365 organization <sup>1</sup> | 15 |
+|Concurrent live events running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 15 |
 
 <sup>1</sup> You can schedule as many live events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 

@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [Manage tags in Teams](manage-tags.md)
@@ -215,7 +216,6 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Presenter and participant capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)

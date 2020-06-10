@@ -77,13 +77,13 @@ After you plan the dial plans for your organization and figured out all the norm
     
 4. You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you're prompted.
     
-To learn more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+To learn more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Start a Windows PowerShell session**
   
 1. Click **Start** > **Windows PowerShell**.
     
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
+2. In the **Windows PowerShell** window, connect to Microsoft 365 or Office 365 by running:
     
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
