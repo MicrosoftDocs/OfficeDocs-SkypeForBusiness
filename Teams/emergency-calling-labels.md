@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - seo-marvel-apr2020
-description: You can download and print these labels for emergency calling when you are using Calling Plans in Office 365.
+description: You can download and print these labels for emergency calling when you are using Calling Plans in Microsoft 365 or Office 365.
 ---
 # Emergency Calling Labels
 
