@@ -136,9 +136,9 @@ handful of tenants
 **Phase 2** –
 
 - Make changes to the DVR:
-    
+
   - .DoNotRecord is set = no VOD
-    
+
   - Separate DVR option for end user so that AMS asset doesn’t get
         created in the first place.
 
