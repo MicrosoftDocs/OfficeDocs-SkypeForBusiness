@@ -41,7 +41,7 @@ Here are the licenses that must be assigned to produce or present a Teams live e
 > [!NOTE]
 > At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
-It's important to know that an Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
+It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
 - **For events produced in Teams**  The user must be assigned a Teams license.
 - **For events produced with an external app or device** The user must be assigned a Stream license.
@@ -92,7 +92,7 @@ The following table highlights core capabilities and features offered in live ev
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Maximum number of concurrent live events per Office 365 organization |15  | 15  | 15  |
+|Maximum number of concurrent live events per Microsoft 365 or Office 365 organization |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
