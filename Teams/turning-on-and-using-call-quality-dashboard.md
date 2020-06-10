@@ -69,6 +69,16 @@ New in January 2020: [Download Power BI query templates for CQD](https://github.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
+## Migrate reports from previous version of CQD
+
+If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
+
+1.    Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
+2.    Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
+3.    Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
+4.    From the links on the left, click **Import** and select the exported file. 
+5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
+
 
 
 ## Related topics

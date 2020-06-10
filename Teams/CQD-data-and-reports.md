@@ -34,7 +34,20 @@ Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Ca
 > [!NOTE]
 > Advanced CQD (new in November 2019) merges data from the older CQD pipeline (which made call records available in about 24 hours) with NRT data from the Advanced CQD pipeline. Queries on the older and Advanced portals for the data from the Archival period produce the same results. Queries on either portal for the NRT Data and NRT Data + EUII periods will be different.
 
-### EUII data
+## Many ways to access CQD data
+
+You can access CQD data by several different avenues. Pick the one that best meets your needs:
+
+|  |  |
+|---------|---------|
+|Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
+|CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal.        |
+|Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
+|Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data.  For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
+
+
+
+## EUII data
 
 For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
 
@@ -47,7 +60,7 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
 
-#### Admin roles with and without EUII access
+### Admin roles with and without EUII access
 
 These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles **DO** have EUII access:
 - Global Admin
@@ -91,7 +104,9 @@ By default, the current day of the month is used as the last day of the Rolling 
 
 ## Data available in CQD reports
 
-The default summary and detailed CQD reports may be all you need to manage call quality for your org. If you need to, you can [create custom reports](#create-custom-detailed-reports).
+The default summary and detailed CQD reports may be all you need to manage call quality for your org. If you need to, you can [create custom reports](#create-custom-detailed-reports). 
+
+If you want to use Power BI to analyze your CQD data, read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md).
 
 |Feature|Summary Reports|Detailed Reports|
 |:--- |:--- |:--- |
@@ -110,14 +125,9 @@ The default summary and detailed CQD reports may be all you need to manage call 
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
 
-### Out-of-the-box reports
 
-All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
-
-If you want to use Power BI to analyze your CQD data, read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md).
  
 ### Select product data to see in reports
-<a name="BKMKProductFilter"></a>
 
 In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
@@ -190,13 +200,6 @@ As the names indicate, the classification criteria is based on the type of clien
 > [!NOTE]
 > Given a stream, if one of the two endpoints is connected to a WiFi network, then it is classified as WiFi in CQD.
   
-## Selecting product data to see in reports
-
-In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
-  
-![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
-  
-In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
   
 ## Tenant Data information
 
@@ -266,16 +269,6 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 CQD provides rich filtering and drill-down functionality that you can use to narrow the focus of your investigations. For an in-depth discussion of all the filtering functionality in CQD, read [Report filters](quality-of-experience-review-guide.md#report-filters).
 
 
-## Migrate reports from previous version of CQD
-
-If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
-
-1.    Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
-2.    Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
-3.    Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
-4.    From the links on the left, click **Import** and select the exported file. 
-5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
-
 
 ## Query filters
 
@@ -299,6 +292,8 @@ Report filters are implemented by adding a filter to the rendered report either 
 | Alphabetic | Filters for any alphabetic characters. | [a-z]                             |
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
+
+
 
 ## Frequently asked questions
 

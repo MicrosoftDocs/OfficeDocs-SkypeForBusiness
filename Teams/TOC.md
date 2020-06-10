@@ -690,7 +690,7 @@
 ### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
 #### [What is CQD?](CQD-what-is-call-quality-dashboard.md)
-#### [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+#### [Set up CQD](turning-on-and-using-call-quality-dashboard.md)
 #### [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 #### [CQD data and reports](CQD-data-and-reports.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
@@ -700,7 +700,7 @@
 ##### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 ##### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
 ##### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
-##### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
+##### [Use the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
 ### Call Analytics
 #### [Set up call analytics](set-up-call-analytics.md)
 #### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
