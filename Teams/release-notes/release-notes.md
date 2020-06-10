@@ -16,8 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 description: Release notes for Microsoft Teams admin features. 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
+
 # Release notes for Microsoft Teams admin features
 
 These release notes provide information about new admin features for Microsoft Teams.
@@ -42,7 +42,7 @@ We're making it easier for meeting organizers to quickly and easily change their
 
 ### Download a participant report in a Teams meeting
 
-Meeting organizers, especially teachers, often need to know who joined their Teams meetings. Soon you will be able to download a participant report, found in the roster view that includes join and leave times for participants. Available in the roster view, meeting organizers can download the report that includes those users who joined while the organizer was present. This feature is only available within the meeting while the meeting is active. Available on desktop (Windows and Mac) and the web.
+Meeting organizers, especially teachers, often need to know who joined their Teams meetings. Soon you will be able to download a participant report, found in the roster view that includes join and leave times for participants. Available in the roster view, meeting organizers can download the report that includes those users who joined while the organizer was present. This feature is only available within the meeting while the meeting is active. Available on desktop (Windows and Mac) and the web. [Learn more](../teams-analytics-and-reports/meeting-attendance-report.md).
 
 ## April 26, 2020
 
@@ -54,7 +54,7 @@ Presenters and producers in live events can now include system audio when sharin
 
 ### Team and channel analytics
 
-In addition to team analytics, now you can also view channel level metrics and insights. We've also enhanced the time period to 90 days so you can analyze data for longer periods. Apart from that, this release also includes new metrics and charts around the count of posts, replies, and meetings for a team or channel.
+In addition to team analytics, now you can also view channel level metrics and insights. We've also enhanced the time period to 90 days so you can analyze data for longer periods. Apart from that, this release also includes new metrics and charts around the count of posts, replies, and meetings for a team or channel. [Learn more](../teams-analytics-and-reports/view-analytics.md).
 
 ## April 20, 2020
 
@@ -66,19 +66,19 @@ This setting controls whether people who dial in by phone join the meeting direc
 
 ### Customize meeting video backgrounds
 
-When you are meeting with video, you now have the choice of different static background images to use. This will let you show this image and not the actual background of where you are sitting.
+When you are meeting with video, you now have the choice of different static background images to use. This will let you show this image and not the actual background of where you are sitting. [Learn more](../meeting-policies-in-teams.md).
 
 ## April 1, 2020
 
-### Teams for Realwear
+### Teams for RealWear
 
-Microsoft Teams client for Realwear enables Firstline Workers using Realwear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling.
+Microsoft Teams client for RealWear enables Firstline Workers using RealWear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling. [Learn more](../flw-realwear.md).
 
 ## March 31, 2020
 
 ### Tag, you're it!
 
-Create tags and assign people to them so you can @mention a group, role, department, etc. Team owners, try it out for yourselves. Go to a team, select **More options** > **Manage tags**.
+Create tags and assign people to them so you can @mention a group, role, department, etc. Team owners, try it out for yourselves. Go to a team, select **More options** > **Manage tags**. [Learn more](../manage-tags.md).
 
 ## March 30, 2020
 
@@ -90,7 +90,7 @@ This feature enables automatic policy-based recordings of Teams calls and meetin
 
 ### Call queues - Presence-based routing
 
-When turned off, calls will be routed to agents who have opted in to receive calls, regardless of their presence state. When turned on, opted-in agents will receive calls only when their presence state is Available.
+When turned off, calls will be routed to agents who have opted in to receive calls, regardless of their presence state. When turned on, opted-in agents will receive calls only when their presence state is Available. [Learn more](../create-a-phone-system-call-queue.md).
 
 ## March 25, 2020
 
