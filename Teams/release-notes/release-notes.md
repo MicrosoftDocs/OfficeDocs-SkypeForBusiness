@@ -15,10 +15,12 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-description: Release notes for Microsoft Teams
+description: Release notes for Microsoft Teams admin features. 
 ROBOTS: NOINDEX, NOFOLLOW
 ---
-# Release notes for Microsoft Teams
+# Release notes for Microsoft Teams admin features
+
+These release notes provide information about new admin features for Microsoft Teams.
 
 ## June 1, 2020
 
