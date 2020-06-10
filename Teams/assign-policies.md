@@ -88,7 +88,7 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Each policy type has it's own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
  Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
@@ -132,7 +132,7 @@ To view the status of your policy assignment, in the banner that appears at the 
  
 With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch. 
 
-You can specify users by their object Id or Session Initiation Protocol (SIP) address. Note that a user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this is not required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch. 
+You can specify users by their object Id or Session Initiation Protocol (SIP) address. Note that a user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this is not required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch. 
 
 A batch can contain up to 5,000 users. For best results, do not submit more than a few batches at a time. Allow batches to complete processing before submitting more batches.
 
@@ -360,7 +360,7 @@ Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeeting
 
 The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the policy named Vendor Live Events that's assigned to a group the user belongs to.
 
-```
+```console
 AssignmentType PolicyName         Reference
 -------------- ----------         ---------
 Direct         Employee Events
