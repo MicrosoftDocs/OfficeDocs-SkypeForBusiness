@@ -28,19 +28,19 @@ You have several options for recording a Microsoft Teams live event. The recordi
 
 There are two organizer options while scheduling a live event recording:
 
-  - Recording Available for Producers and Presenters
-    
-      - Recording File: Provides a recording file that Producers/Presenters can download after the event is over
+- Recording Available for Producers and Presenters
 
-  - Recording Available for Attendees
-    
-      - DVR: Allows attendees to rewind and pause during the event
-    
-      - VOD: Allows attendees to watch after the event is over
+  - Recording File: Provides a recording file that Producers/Presenters can download after the event is over
+
+- Recording Available for Attendees
+
+  - DVR: Allows attendees to rewind and pause during the event
+
+  - VOD: Allows attendees to watch after the event is over
 
 ## Broadcast recording policy setting
 
-As part of the broadcast policy, there is a setting that you can toggle to turn on/off recording for a live event. 
+As part of the broadcast policy, there is a setting that you can toggle to turn on/off recording for a live event.
 
 |                                 | **Recording available for producers and presenters** | **Recording available for attendees** |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
@@ -146,6 +146,7 @@ handful of tenants
 
 
 ### Related topics
+
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
