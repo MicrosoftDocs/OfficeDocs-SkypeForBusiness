@@ -218,6 +218,7 @@
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Live events recording policies](teams-live-events/live-events-recording-policies.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
 <!-- ============================================================ -->

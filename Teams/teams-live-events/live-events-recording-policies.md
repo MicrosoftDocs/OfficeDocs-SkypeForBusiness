@@ -48,11 +48,6 @@ As part of the broadcast policy, there is a setting that you can toggle to turn 
 | **Organizer can record or not** | Enabled and Not Selected by Default                  | Enabled and Not Selected by Default   |
 | **Never Record**                | Disabled and Not Selected                            | Enabled and Selected by Default       |
 
-![A screenshot of a social media post Description automatically
-generated](media/image1.png)
-
-*When the Policy is selected as “Always Record”*
-
 ## Flags set on Client
 
 | **Can be set by User**                                         | **Flag/Capability set by client?** | **Flag**                 | **Implications**                                                                                               |
@@ -70,9 +65,9 @@ generated](media/image1.png)
 | **Recording Available for Producers/Presenters** | Selected     |                                                           |                                                             | An MP4 is created and stored |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
-# Mitigation
+## Mitigation
 
-## End User Changes & Fixes
+### End User Changes & Fixes
 
 <table>
 <thead>
@@ -112,7 +107,7 @@ generated](media/image1.png)
 </tbody>
 </table>
 
-## New State
+### New State
 
 |                                 | **Recording Available for Producers and Presenters** | **Recording Available for Attendees** |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
@@ -120,28 +115,30 @@ generated](media/image1.png)
 | **Organizer can record or not** | Enabled and Not Selected by Default                  | Enabled and Not Selected by Default   |
 | **Never Record**                | Disabled                                             | Disabled                              |
 
-| **Option**                                       | **State**    | **DVR**                                                       | **VOD**                                                     | **Recording**                |
+### New State with options
+
+| **Option**                                       | **State**    | **DVR**                                                       |**VOD**                                                     | **Recording**                |
 | ------------------------------------------------ | ------------ | ------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | **Recording Available for Producers/Presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days     | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is deleted after the event | Attendee will not get access into the event after it's over |                              |
 | **Recording Available for Producers/Presenters** | Selected     |                                                               |                                                             | An MP4 is created and stored |
 |                                                  | Not Selected |                                                               |                                                             | No file is created           |
 
-## Phases
+### Phases
 
 **Phase 1** – Put the new changes behind an ECS flag and enable for a
 handful of tenants
 
 **Phase 2** –
 
-  - Make changes to the DVR:
+- Make changes to the DVR:
     
-      - .DoNotRecord is set = no VOD
+  - .DoNotRecord is set = no VOD
     
-      - Separate DVR option for end user so that AMS asset doesn’t get
+  - Separate DVR option for end user so that AMS asset doesn’t get
         created in the first place.
 
-  - Get feedback from users on the policy change before releasing to all
+- Get feedback from users on the policy change before releasing to all
     users.
 
 
