@@ -26,9 +26,9 @@ appliesto:
 
 # Teams Only mode considerations
 
-If you are an administrator on your Office 365 organization, you will now see the option to upgrade to Teams Only mode in the Microsoft Teams admin center. With this functionality you can upgrade either individual users, or alternatively, the entire tenant.  
+If you are an administrator in your Microsoft 365 or Office 365 organization, you will now see the option to upgrade to Teams Only mode in the Microsoft Teams admin center. With this functionality you can upgrade either individual users, or alternatively, the entire tenant.  
 
-Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, the hub for teamwork in Office 365, via a single client experience. Additionally, users in Teams Only mode will receive all calls and chats in Teams, regardless of whether the sender is using Skype for Business or Teams, and benefit from interop and federation support.
+Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, the hub for teamwork in Microsoft 365 or Office 365, via a single client experience. Additionally, users in Teams Only mode will receive all calls and chats in Teams, regardless of whether the sender is using Skype for Business or Teams, and benefit from interop and federation support.
 
 While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization's upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn't necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. 
 
@@ -49,7 +49,7 @@ While thousands of customers have successfully upgraded to Microsoft Teams, ther
  - Office 365 Germany
  - Skype for Business tenant is hosted in South Korea **and** the organization requires Teams data to be stored in South Korea. Currently, organizations with Skype for Business data stored in South Korea that upgrade to Teams will have their Teams data stored in the Asia datacenter region, not in the South Korea datacenter region.
 
-**User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. In particular, we are still working on addressing scenarios for users whose primary device is VDI-based. Please monitor the [Office 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) site for announcements.
+**User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. In particular, we are still working on addressing scenarios for users whose primary device is VDI-based. Please monitor the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) site for announcements.
 
 > [!NOTE]
 > Before you move to Teams Only mode you need to replace or update devices that don't support Teams. 
