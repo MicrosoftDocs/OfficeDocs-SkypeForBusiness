@@ -25,7 +25,7 @@ This article describes how Direct Routing implements the Session Initiation Prot
 
 ## Processing the incoming request: finding the tenant and user
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 organizations.  
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
 This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
@@ -51,11 +51,11 @@ On receiving the invite, the SIP proxy performs the following steps:
 
 2. Try to find a tenant using the full FQDN name presented in the Contact header.  
 
-   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Office 365 organization. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
+   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Microsoft 365 or Office 365 organization. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
 
 3. Step 3 only applies if Step 2 failed. 
 
-   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Office 365 organization. If found, the user lookup is performed in this tenant. If not found, the call fails.
+   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Microsoft 365 or Office 365 organization. If found, the user lookup is performed in this tenant. If not found, the call fails.
 
 4. Using the phone number presented in the Request-URI, perform the reverse number lookup within the tenant found in Step 2 or 3. Match the presented phone number to a user SIP URI within the tenant found on the previous step.
 
