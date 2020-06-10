@@ -342,7 +342,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
 > [!NOTE]
-> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, this information will be visible to Microsoft Engineers for support purposes.
+> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Microsoft 365 or Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, this information will be visible to Microsoft Engineers for support purposes.
 
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

@@ -27,7 +27,7 @@ description: Learn the code of practice for PSTN Calling plans for Skype for Bus
 
 # Calling plans in Microsoft 365 - Code of practice for the United Kingdom (U.K.)
 
-This Code applies to small business customers (organizations with 10 employees or less) in the United Kingdom (UK) with respect to the Office 365 Calling Plan service (the "Service") in accordance with UK communications regulations. Other Skype for Business services are governed by your service agreement with Microsoft and any other terms applicable to your use of the particular service.
+This Code applies to small business customers (organizations with 10 employees or less) in the United Kingdom (UK) with respect to the Microsoft 365 or Office 365 Calling Plan service (the "Service") in accordance with UK communications regulations. Other Skype for Business services are governed by your service agreement with Microsoft and any other terms applicable to your use of the particular service.
 
 ## 1. About Skype for Business
 
@@ -47,7 +47,7 @@ You may be able to answer some of your questions by visiting the [Skype for Busi
 
 ## 3. Complaints and dispute resolution
 
-Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
+Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Microsoft 365 or Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
   
 ## 4. Number porting
 
@@ -55,13 +55,13 @@ Skype for Business in some cases may be unable to transfer a customer's telephon
 
 ## 5. Service reliability
 
-Office 365 Calling Plan relies on your broadband connection. If your broadband connection experiences a power cut or failure, you will not be able to make telephone calls. The causes for these failures may be outside of our control.
+Microsoft 365 or Office 365 Calling Plan relies on your broadband connection. If your broadband connection experiences a power cut or failure, you will not be able to make telephone calls. The causes for these failures may be outside of our control.
 
 ## 6. Emergency calls
 
-Skype for Business provides access to 999/112 public emergency call services to customers within England, Wales, Scotland and Northern Ireland. However, emergency calls to 999 or 112 operate differently with Office 365 Calling Plan services than on traditional telephone services. Customers are required to notify each user of the Office 365 Calling Plan services of these differences.
+Skype for Business provides access to 999/112 public emergency call services to customers within England, Wales, Scotland and Northern Ireland. However, emergency calls to 999 or 112 operate differently with Microsoft 365 or Office 365 Calling Plan services than on traditional telephone services. Customers are required to notify each user of the Microsoft 365 or Office 365 Calling Plan services of these differences.
 
-The differences include the following: (i) Skype for Business may not know the actual location of a caller, which could result in the emergency services being despatched to the wrong location; (ii) when a Skype for Business user dials an emergency call, the user may be asked by an operator to provide his or her current location to assist in properly routing the emergency call and despatching emergency services; (iii) if the user's device has no power, is experiencing a power outage or, for any reason, cannot otherwise access the Internet, the user cannot make an emergency call through Office 365 Calling Plan services; and (iv) although Office 365 Calling Plan services can be used anywhere in the world where an Internet connection is available, users should not call 999 or 112 outside England, Wales, Scotland or Northern Ireland because the call likely will not be routed to the appropriate emergency service.
+The differences include the following: (i) Skype for Business may not know the actual location of a caller, which could result in the emergency services being despatched to the wrong location; (ii) when a Skype for Business user dials an emergency call, the user may be asked by an operator to provide his or her current location to assist in properly routing the emergency call and despatching emergency services; (iii) if the user's device has no power, is experiencing a power outage or, for any reason, cannot otherwise access the Internet, the user cannot make an emergency call through Microsoft 365 or Office 365 Calling Plan services; and (iv) although Microsoft 365 and Office 365 Calling Plan services can be used anywhere in the world where an Internet connection is available, users should not call 999 or 112 outside England, Wales, Scotland or Northern Ireland because the call likely will not be routed to the appropriate emergency service.
 
 It is important that each customer registers the location of your users and keeps this information updated so that it can be provided to the emergency services. You can make changes to location information online through the Skype for Business administrator portal.
 
