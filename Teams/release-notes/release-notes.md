@@ -15,7 +15,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-description: Release notes for Microsoft Teams admin center
+description: Release notes for Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 # Release notes for Microsoft Teams
