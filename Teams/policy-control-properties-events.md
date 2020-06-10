@@ -205,7 +205,7 @@ The following article contains lists of the properties sent with various events,
 | acknowledgeSettingChange | Acknowledge update in **we updated notification setting** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to acknowledge notification update. Used to deduce overall notification reliability. | App key feature success data   |
 | addChannel | Admin Add channel | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation of a channel. |     |
 | addMember | Taps the **Invite people** button in the **More** menu | Basic | This provide key feature success telemetry around a freemium invite. Helps the team understand feature discoverability and success metrices. | App key feature success data |
-| alertsNavAlert | Core | Tapping on a feed item | Basic | Feature success telemetry, see event description. | App key feature success data   |
+| alertsNavAlert | Tapping on a feed item | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | appBG | App BG | Basic  | Time spent on app is a key metric to understand overall app engagement and this metric helps us deduce overall time spent on the app. | App key feature success data   |
 | appKilled | App Killed | Basic | Time spent on app is a key metric to understand overall app engagement and this metric helps us deduce overall time spent on the app. | App key feature success data   |
 | cancelNavigationToLink | User chose to cancel navigation | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
@@ -244,7 +244,7 @@ The following article contains lists of the properties sent with various events,
 | consumeVoiceMessage  | Voice message played | Basic | Voice message is important part of mobile messaging and is a competition parity feature. Provides success data for voice message consumption | App key feature success data   |
 | ContactCard_SeeMoreOOF | See move of long OOF message |     |     |     |
 | conversation, tabs | Tab clicked | Basic | Tabs are essential construct of teams this telemetry is fired whenever a tab is clicked in a channel | App key feature success data   |
-| copyLink | Copy link to channel post | Basic | Feature success mertics for Copy link feature | App key feature success data   |
+| copyLink | Copy link to channel post | Basic | Feature success metrics for Copy link feature | App key feature success data   |
 | createChannel | <ul><li>Tap “Done” button in “Create Channel” Page</li><li>Tap “Cancel” button in “Create Channel” Page</li><li>Show validation error</li></ul> | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation or discard action for new channel creation | App key feature success data   |
 | createTeam | <ul><li>Tap “Done” button in “Create Team” Page</li><li>Tap “Cancel” button in “Create Team” Page</li><li>Validation error shown</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | disabled | User taps **Skip notifications** in FRE | Basic | Notifications are key to drive engagement. This provides key success data for skipping the notification in FRE flow | App key feature success data   |
@@ -268,7 +268,7 @@ The following article contains lists of the properties sent with various events,
 | enabled/notNow | FRE Notifications Permission (iOS) | Basic | Lets us capture user engagement with the notification feature. | App key feature success data   |
 | enablediOSPrompt | User actually enables notifications in iOS notifications permissions prompt | Basic | This gives us information about Users who actually enables notifications in iOS from notifications permissions prompt | App key feature success data   |
 | enabledQuietDays | Quiet Days enabled | Basic | Feature success telemetry for quiet days | App key feature success data   |
-| enableLocationPermission | Core | Enable location services (TBD) | Basic | Feature success telemetry for location services | App key feature success data   |
+| enableLocationPermission | Enable location services (TBD) | Basic | Feature success telemetry for location services | App key feature success data   |
 | enableQuietHours | Quiet Hours enabled | Basic | Feature success telemetry for quiet hours | App key feature success data   |
 | endEditing | Save button pressed |     | Feature success telemetry for edit feature |     |
 | endMyShift | <ul><li>No of devices in shared mode</li><li>No of time signed out</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
@@ -292,7 +292,7 @@ The following article contains lists of the properties sent with various events,
 | hamburgerMenu | Navigate to hamburger menu | Basic | Hamburger contains important actions such as account switch, notification settings, data setting, profile settings, this is important to understand hamburger menu discoverability  | App key feature success data   |
 | hide | Hide chat | Basic | Feature success telemetry for hiding chats | App key feature success data   |
 | image | image | Basic | Feature success telemetry for image preview | App key feature success data   |
-| importantMessage_select | Core | User selects important message from priority context menu | Basic | Feature success telemetry for important message | App key feature success data   |
+| importantMessage_select | User selects important message from priority context menu | Basic | Feature success telemetry for important message | App key feature success data   |
 | importantMessageSend  | User sends important message | Basic | Feature success telemetry for important message | App key feature success data   |
 | install | Install Event | Basic | App key feature success data | App key feature success data   |
 | install | Install | Basic | This telemetry is used to identify how many people are added to a team | App key feature success data   |
@@ -300,7 +300,7 @@ The following article contains lists of the properties sent with various events,
 | inviteFreemium | Taps the + button in Invite screen | Basic | Helps with feature discoverability and success metrices for freemium | App key feature success data   |
 | inviteGuest | Taps the + button in Invite screen | Basic | Helps with feature discoverability and success metrices for teams guests | App key feature success data   |
 | joinTeam | Join button pressed | Basic | Feature success and usage telemetry | App key feature success data   |
-| Launch source eg. direct, link, appShortcut | Core | Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users)| Basic | App engagement success metrics, Also success metrics for intune, MAM and MDM integration | App key feature success data   |
+| Launch source eg. direct, link, appShortcut | Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users)| Basic | App engagement success metrics, Also success metrics for intune, MAM and MDM integration | App key feature success data   |
 | leaveChat | Confirm leave chat | Basic | Feature success telemetry for group chat | App Key feature success   |
 | legacyChatLink | User taps on link to legacy chat | Basic | Feature success telemetry for federated chats | App key feature success data   |
 | likeAppDismiss |     | Basic | App ratings are an important part of mobile app infrastructure and is tracked at various levels for app success. Success metrics for the app overall | App key feature success data   |
@@ -331,7 +331,7 @@ The following article contains lists of the properties sent with various events,
 | navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname) | Nav Tab clicked (or hamburger menu clicked - navMore) | Basic | Provides navigation information for each of the app. Important to get active user count for various modules | App Key feature success   |
 | navTeams | Tap **see all** | Basic | Feature success metrics for teams list | App key feature success data   |
 | notNow | User taps not now in reminder | Basic |     | App key feature success data   |
-| notNowUpdate | Core | updateDefer | Basic |     |     |
+| notNowUpdate | updateDefer | Basic |     |     |
 | open | Notification Settings tap | Basic | Lets us capture user engagement with the notification feature. | App key feature success data   |
 | openContactCard_ReactionSummary | Navigate to contact card from reaction summary page | Basic | Feature success metrics for people app (contact ard). | App key feature success data   |
 | openModalityPicker | X = ChatsAndChannels for chats and channels |     |     |     |
@@ -365,8 +365,8 @@ The following article contains lists of the properties sent with various events,
 | readReceipts | User enabled feature | Basic | Feature success telemetry for read receipts | App key feature success data   |
 | redeemInvite | In app redemption | Basic | Feature success metrics for freemium invite | App key feature success data   |
 | removeReplyObject | User removed reply object from compose | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| removeUserConfirm | UserÂ confirmed remove user dialog| Basic | Feature success metrics for quoted reply | App key feature success data   |
-| removeUserContextMenu | User removed partipipcant via context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
+| removeUserConfirm | User confirmed remove user dialog| Basic | Feature success metrics for quoted reply | App key feature success data   |
+| removeUserContextMenu | User removed participant via context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | removeUserSwipe | User removed participant via swipe | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | replyChain | New message button/textbox in reply chain (thread) | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
 | replyChannel | Reply button in channels | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
