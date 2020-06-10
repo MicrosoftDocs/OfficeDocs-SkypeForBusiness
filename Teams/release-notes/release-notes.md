@@ -17,7 +17,6 @@ appliesto:
   - Microsoft Teams
 description: Release notes for Microsoft Teams admin features. 
 ---
-
 # Release notes for Microsoft Teams admin features
 
 These release notes provide information about new admin features for Microsoft Teams.
