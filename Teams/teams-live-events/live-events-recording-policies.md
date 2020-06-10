@@ -48,6 +48,10 @@ As part of the broadcast policy, there is a setting that you can toggle to turn 
 | **Organizer can record or not** | Enabled and Not Selected by Default                  | Enabled and Not Selected by Default   |
 | **Never Record**                | Disabled and Not Selected                            | Enabled and Selected by Default       |
 
+When the policy is set to **Always Record**, the policy page has the following selected options:
+
+![Screen shot of live events policy settings](../media/live-event-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+
 ## Flags set on Client
 
 | **Can be set by User**                                         | **Flag/Capability set by client?** | **Flag**                 | **Implications**                                                                                               |
