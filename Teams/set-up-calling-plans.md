@@ -26,7 +26,7 @@ description: Learn to set up Calling Plans, including view plans available in yo
 ---
 # Set up Calling Plans
 
-Calls to other Teams users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set up Calling Plans for your business.  For more information about Calling Plans, see [Which Calling Plan is right for you?](calling-plan-landing-page.md).
+Calls to other Teams users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Microsoft 365 or Office 365. It's easy to set up Calling Plans for your business.  For more information about Calling Plans, see [Which Calling Plan is right for you?](calling-plan-landing-page.md).
 
 ## Step 1: Find out if Calling Plans are available in your country/region
 Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans, as well as information about Audio Conferencing, Phone System, toll and toll-free numbers, and Communications Credits.
@@ -34,10 +34,10 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
   
 ## Step 2: Buy and assign licenses
-1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
+1. If the Phone System feature isn't included in your Microsoft 365 or Office 365 plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
     
     > [!TIP]
-    > **Phone System** licenses and Calling Plans in Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
+    > **Phone System** licenses and Calling Plans in Microsoft 365 or Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
 2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
@@ -46,7 +46,7 @@ There are three ways to get new user numbers:
 
 - **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Teams admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Teams admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
