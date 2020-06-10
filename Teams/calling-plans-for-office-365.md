@@ -34,9 +34,9 @@ Calls to other Skype for Business and Microsoft Teams users are free, but if you
   
 Here are the Calling Plans options:
   
-- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Office 365.
+- **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365 or Office 365.
     
-- **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 or Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
@@ -48,7 +48,7 @@ For detailed information about usage limits and terms of use, see [Audio Confere
   
 ## How to buy a Calling Plan
 
-1. <strong>You must first purchase a **Phone System</strong> add-on license<strong>. To do that, [sign into the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing</strong> > **Purchase services** > **Add-on subscriptions** > **Buy now**.
+1. <strong>You must first purchase a **Phone System</strong> add-on license<strong>. To do that, [sign in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing</strong> > **Purchase services** > **Add-on subscriptions** > **Buy now**.
     
     ![Screen shot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
@@ -83,7 +83,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Here's what you get with Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Here's what you get with Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## Related topics
