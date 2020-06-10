@@ -39,7 +39,7 @@ Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to 
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
+Teams are backed by Microsoft 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
@@ -79,7 +79,7 @@ When we released our generally available version of our PowerShell module, a few
 Use the cmdlets in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366) to manage policies for individual users.
 
 > [!NOTE]
-> The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 

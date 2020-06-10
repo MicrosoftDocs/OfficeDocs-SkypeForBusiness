@@ -27,7 +27,7 @@ description: Learn to use the Microsoft Teams admin center to see a list of all 
 
 # See a list of phone numbers in your organization
 
-There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.
+There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Microsoft 365 or Office 365.
   
 ## To see a list of all phone numbers that you have for your organization
 
