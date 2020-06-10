@@ -77,7 +77,12 @@ The following table lists devices that are verified for interoperability between
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 Software Version 8.3.0.1.2 |     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 Software Version 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 Software Version 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 Software Version 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 Software Version 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME Software Version 8.3.0.1.2 |     &#10004;     |
 
 To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
