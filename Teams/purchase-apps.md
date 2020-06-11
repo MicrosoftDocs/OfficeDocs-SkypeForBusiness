@@ -1,5 +1,5 @@
 ---
-title: Manage your apps in the Microsoft Teams admin center
+title: Purchase third-party apps in the Microsoft Teams admin center
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -9,19 +9,18 @@ audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: ritikag
+ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
+description: Learn how to purchase third-party apps for your organization on the Manage apps page of the Microsoft Teams admin center
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 ---
-Manage your apps in the Microsoft Teams admin center
+Purchase third-party apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, purchase third-party apps, and manage org-wide app settings.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -65,13 +64,7 @@ To allow or block an app, select it, and then click **Allow** or **Block**. When
 When you block or allow an app on the **Manage apps** page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the **Manage apps** page and in the app permission policy that's assigned to the user.
 
  > [!NOTE]
- > To uninstall an app, right-click the app and then click **Uninstall** or use the **More apps** menu on the left side.
-
-## Purchase third-party apps
-
-You can search for and purchase licenses for third-party apps for users in your organization directly from the **Manage apps** page. Third-party apps that offer paid SaaS subscriptions are listed in the **Licenses** column of the table. Click **Purchase now** to view plans and pricing information and purchase licenses for your users. To learn more, see [Purchase third-party apps in the Microsoft Team](purchase-third-party-apps.md).
-
-[Placeholder for screenshot]
+ > To uninstall an app, right-click on the app and then click **Uninstall** or use the **More apps** menu on the lefthand side. 
 
 ## Manage org-wide app settings
 
@@ -83,8 +76,7 @@ Use org-wide app settings to control whether users can install third-party apps 
     
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
-    - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.              
-
+    - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
         > [!NOTE]
         > In a Microsoft 365 Government - GCC deployment of Teams, the **Allow third-party apps in Teams** setting is off by default.
 
