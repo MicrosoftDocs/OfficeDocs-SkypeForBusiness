@@ -143,7 +143,7 @@ For example, if the "UdcAgent" application has a priority value of "2", the "Def
 After you find the correct priority value for the Location-Based Routing for Conferencing application, type the following cmdlet for each Front-End pool or Standard Edition Server that homes users enabled for Location-Based Routing:
 
 ```powershell
-New-CsServerApplication -Identity Service:Registrar:`<Pool FQDN`>/LBRouting -Priority \<Application Priority\> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
 For example:
