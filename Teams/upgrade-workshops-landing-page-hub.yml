@@ -32,8 +32,6 @@ metadata:
 
 # productDirectory section (optional)
 productDirectory:
-  title:  # < 60 chars (optional)
-  summary:  # < 160 chars (optional)
   items:
     # Card
     - title: Plan your upgrade (Start here!)
@@ -61,8 +59,6 @@ productDirectory:
 
 # tools section (optional)
 tools:
-  title:  # < 60 chars (optional)
-  summary:  # < 160 chars (optional)
   items:
     # Card
     - title: Implementing Teams? Check out our Teams Chalk Talk series.
