@@ -44,9 +44,6 @@ The Location-Based Routing for Conferencing application prevents the participati
 
 These conferencing Location-Based Routing restrictions are summarized in the following table.
 
-|
-|
-
 |User(s) in a conference at any given point|User(s) allowed to join the conference|User(s) not allowed to join the conference|
 |:-----|:-----|:-----|
 |Skype for Business VoIP client user(s) from a single network site  <br/> |Skype for Business VoIP client user from the same network site  <br/> Skype for Business VoIP client user from a different network site  <br/> Skype for Business VoIP client user from an unknown network site  <br/> Federated Skype for Business VoIP client user  <br/> User joining from a PSTN endpoint  <br/> |None  <br/> |
