@@ -28,7 +28,15 @@ metadata:
   appliesto: 
     - Microsoft Teams
 
-
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Implementing Teams? Check out our Teams Chalk Talk series
+      itemType: learn
+      url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
 
 # productDirectory section (optional)
 productDirectory:
@@ -55,13 +63,4 @@ productDirectory:
       summary: Execute your defined upgrade approach as part of your formal upgrade plan. **Audience:** IT admins
       url: https://microsoftteams.eventbuilder.com/UpgradeImplement
 
-# additionalContent section (optional)
-# Card with summary style
-additionalContent:
-  # Supports up to 3 sections
-  sections:
-    - items:
-        # Card
-        - title: Implementing Teams? 
-          summary: Check out our Teams Chalk Talk series
-          url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
+
