@@ -60,7 +60,7 @@ productDirectory:
 additionalContent:
   # Supports up to 3 sections
   sections:
-      items:
+    - items:
         # Card
         - title: Implementing Teams? 
           summary: Check out our Teams Chalk Talk series
