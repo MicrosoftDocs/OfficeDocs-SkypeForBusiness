@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
 title: Teams upgrade planning workshops
-summary: summary # < 160 chars
+summary: Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the Plan your upgrade session below. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
   title: Teams upgrade planning workshops # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Use these instructor-led workshops to help you plan your upgrade to Microsoft Teams from Skype for Business. # Required; article description that is displayed in search results. < 160 chars.
+  description: Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the Plan your upgrade session below. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: LolaJacobsen #Required; your GitHub user alias, with correct capitalization.
@@ -37,6 +37,14 @@ highlightedContent:
     - title: Implementing Teams? Check out our Teams Chalk Talk series
       itemType: learn
       url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
+    # Card
+    - title: View these workshops on YouTube
+      itemType: learn
+      url: https://aka.ms/UpgradeOnDemand
+    # Card
+    - title: New to Teams? Learn more
+      itemType: get-started
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
 
 # productDirectory section (optional)
 productDirectory:
