@@ -56,7 +56,7 @@ Membership, roles, and settings
 
 When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings guests who are team members but outside of your organization can also be added to your teams. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
 
-Team owners can also create a team based on an existing Office 365 Group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Office 365 Group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
+Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Microsoft 365 group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
 
 **Team roles**
 
@@ -75,9 +75,9 @@ Take three minutes to check out this go-to-guide video for team owners:
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
+If you are a Microsoft Teams administrator in Microsoft 365 or Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
 
-By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance their permissions with Teams functionality.
+By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Microsoft 365 group can also enhance their permissions with Teams functionality.
 
 One key early planning activity to engage users with Microsoft Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
