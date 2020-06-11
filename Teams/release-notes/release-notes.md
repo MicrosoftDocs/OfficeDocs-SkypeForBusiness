@@ -28,6 +28,12 @@ These release notes provide information about new admin features for Microsoft T
 
 When turned off, calls will be routed to agents who have opted in to receive calls, regardless of their presence state. When turned on, opted-in agents will receive calls only when their presence state is Available. [Learn more](../create-a-phone-system-call-queue.md).
 
+
+## June 10, 2020
+
+### Call queues - Longest-idle routing
+When you choose this, incoming calls will be routed to call agents who haven't answered an incoming call for the longest period of time. [Learn more](../create-a-phone-system-call-queue.md).
+
 ## June 1, 2020
 
 ### Raise hand in meetings
