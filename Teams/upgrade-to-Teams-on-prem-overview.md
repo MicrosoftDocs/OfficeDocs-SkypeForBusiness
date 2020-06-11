@@ -8,26 +8,28 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade from Skype for Business to Teams  
+description: As an admin, learn how to upgrade and migrate from Skype for Business to Teams on-premises.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+ - Teams-upgrade-guidance
+ - seo-marvel-jun2020
 ms.collection: 
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+# Migrate from Skype for Business to Teams on-premise &mdash; for IT administrators
 
 ## Overview
 
-When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. This article is primarily targeted to IT administrators in large, on-premises organizations, but it might also apply to some Skype for Business Online organizations.  Before reading this article, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
+When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. This article is primarily targeted to IT administrators in large, on-premises organizations, but it might also apply to some Skype for Business Online organizations. Before reading this article, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
 
 >[!NOTE]
->This article uses the terms Skype for Business Online, Skype for Business on-premises, and Skype for Business.  The latter term refers to both online and on-premises versions.
+>This article uses the terms Skype for Business Online, Skype for Business on-premises, and Skype for Business. The latter term refers to both online and on-premises versions.
 
 A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business.  All incoming chats and calls land in the user’s Teams client, regardless of whether the sender uses Teams or Skype for Business. Any new meetings organized by the migrated user will be scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked.  However, the user can (and must) still use the Skype for Business client to join meetings they are invited to. (Older Skype for Business clients that shipped before 2017 do not honor TeamsUpgradePolicy. Make sure you are using the latest Skype for Business client.)
  
