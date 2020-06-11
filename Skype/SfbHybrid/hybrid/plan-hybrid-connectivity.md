@@ -17,6 +17,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Plan to implement hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online by configuring Skype for Business hybrid mode.
+ms.custom: seo-marvel-jun2020
 ---
 
 # Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365
