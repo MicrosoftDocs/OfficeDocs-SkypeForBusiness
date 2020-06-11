@@ -74,9 +74,9 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 
 ### Using the Microsoft Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, go to the the policy page for the policy type you want to update. For example, *Teams > Teams policies* or *Meetings > Meetings policies* or *Messaging policies* or *Voice > Calling policies*.
+1. In the left navigation of the Microsoft Teams admin center, go to the policy page for the policy type you want to update. For example, *Teams > Teams policies* or *Meetings > Meetings policies* or *Messaging policies* or *Voice > Calling policies*.
 2. Select the **Global (Org-wide default)** policy to view the current settings.
-3. Update the policy as needed, then select **Save**.
+3. Update the policy as needed, and then select **Save**.
 
 ### Using PowerShell
 
