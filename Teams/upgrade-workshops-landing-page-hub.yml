@@ -55,13 +55,13 @@ productDirectory:
       summary: Execute your defined upgrade approach as part of your formal upgrade plan. **Audience:** IT admins
       url: https://microsoftteams.eventbuilder.com/UpgradeImplement
 
-
-
-# tools section (optional)
-tools:
-  items:
-    # Card
-    - title: Implementing Teams? Check out our Teams Chalk Talk series.
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/small-business-teams.svg
-      url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+      items:
+        # Card
+        - title: Implementing Teams? 
+          summary: Check out our Teams Chalk Talk series
+          url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
