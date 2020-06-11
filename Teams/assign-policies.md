@@ -390,6 +390,31 @@ You can use following cmdlet in the Teams Powershell module to do this at scale 
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
+## Assign a policy to users in a group
+
+> [!NOTE]
+> Use this method only if [policy assignment to groups](#assign-a-policy-to-a-group) isn't supported for the policy type that you want to assign.
+
+You may want to assign a policy to multiple users that you've already identified. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
+
+In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
+
+Connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+
+Get the GroupObjectId of the particular group.
+```PowerShell
+$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
+```
+Get the members of the specified group.
+```PowerShell
+$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
+```
+Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
+```PowerShell
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
+``` 
+Depending on the number of members in the group, this command may take several minutes to execute.
+
 ## Assign a policy package to a batch of users
 
 With batch policy package assignment, you can assign a policy package to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch.
