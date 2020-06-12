@@ -23,12 +23,13 @@ ms.custom:
   - Calling Plans
   - Direct Routing
   - seo-marvel-mar2020
-description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
+  - seo-marvel-jun2020
+description: Learn about emergency calling, including information about emergency addresses and Emergency Location Identification Number (ELIN) applications.
 ---
 
 # Manage emergency calling
 
-This article describes concepts you'll need to know to manage emergency calling--it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing. This article uses the following terminology:
+This article describes concepts you'll need to know to manage emergency calling--it includes information about emergency addresses, dynamic emergency addresses, emergency call routing, and Emergency Location Identification Number (ELIN) applications. This article uses the following terminology:
 
 - **Emergency Address** - A civic address--the physical or street address of a place of business for your organization.
 
@@ -175,7 +176,7 @@ For more information, see [Session Border Controllers certified for Direct Routi
 
 #### Emergency Location Identification Number (ELIN) applications
 
-Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) applications. If an SBC ELIN application is integrated into a Direct Routing deployment, you must configure the emergency addresses and associated telephone numbers in the ELIN application, and then upload the ELIN records to the emergency calling database in the respective PSTN.  Teams emergency locations with an ELIN identifier must match those within the ELIN application.
+Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) applications. If an SBC ELIN application is integrated into a Direct Routing deployment, you must configure the emergency addresses and associated telephone numbers in the ELIN application, and then upload the ELIN records to the emergency calling database in the respective PSTN. Teams emergency locations with an ELIN identifier must match those within the ELIN application.
 
 When an emergency call with a dynamically acquired location is routed to the appropriate SBC, the ELIN application:
 
@@ -193,7 +194,7 @@ For more information, see [Session Border Controllers certified for Direct Routi
 
 Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.
 
-You use the TeamsEmergencyCallingPolicy to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.  You can also specify an external PSTN number of a user or group to call and join the emergency call. 
+You use the TeamsEmergencyCallingPolicy to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. 
 
 A TeamsEmergencyCallingPolicy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
