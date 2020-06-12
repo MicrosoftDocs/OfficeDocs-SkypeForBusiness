@@ -3,8 +3,7 @@ title: Teams in 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
+
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
