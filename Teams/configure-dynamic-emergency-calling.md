@@ -1,5 +1,5 @@
 ---
-title: Configure dynamic emergency calling
+title: Configure dynamic emergency 911 calling
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency calling feature.
-ms.custom: seo-marvel-mar2020
+description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency 911 calling feature.
+ms.custom: 
+ - seo-marvel-mar2020
+ - seo-marvel-jun2020
 appliesto: 
 - Microsoft Teams
 ---
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency 911 calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
 Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS).  If there is a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
 
@@ -55,7 +57,7 @@ This article contains the following sections.
 
 The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user. 
 
-For more information about emergency calling--including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology--see the following:
+For more information about Microsoft Teams e911 calling--including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology--see the following:
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
@@ -76,7 +78,7 @@ The following clients are currently supported.  Check back often to see updates 
 
 You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported; support for Ethernet switch/port is pending).
 
-To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes cannot be assigned to the network identifiers that are required for dynamic locations.)
+To support automated routing of emergency 911 calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes cannot be assigned to the network identifiers that are required for dynamic locations.)
 
 Azure Maps is used for location-based services.  When you enter an emergency address by using the Microsoft Teams admin center, Teams checks Azure Maps for the address:
 
@@ -148,9 +150,9 @@ For a client to obtain a location, you must populate the Location Information Se
 
 ## Configure emergency policies
 
-You use the following policies to configure emergency calling:
+You use the following policies to configure Microsoft Teams e911 calling:
 
-- **TeamsEmergencyCallRoutingPolicy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  You manage this policy by using the New-, Set-, and Grant-CsTeamsEmergencyCallRouting cmdlets. 
+- **TeamsEmergencyCallRoutingPolicy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  You manage this policy by using the New-, Set-, and Grant-CsTeamsEmergencyCallRouting cmdlets. 
 
 - **TeamsEmergencyCallingPolicy** - Applies to Calling Plan and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. You manage this policy by using the New-, Set- and Grant-CsTeamsEmergencyCallingPolicy  cmdlets. 
 
