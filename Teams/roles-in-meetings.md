@@ -86,10 +86,10 @@ A guest participant is someone from another organization who has been invited to
 
 An external participant is someone using Teams in another organization who has been invited to join a meeting, but does not otherwise have access to other shared resources from your organization. External user participants appear in the meeting roster with the same identity name as they have in their own organization. Read more about an external participant in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
 
-| Meeting (Can be added to a team as a guest only) ||
+| Meeting ||
 |-|-|-|
 | **Feature** |||
-| Chat | N/A |
+| Chat | Yes |
 | Meeting Notes | N/A |  
 | Whiteboard | N/A |
 | Recording | N/A |  
@@ -104,7 +104,7 @@ The anonymous participant is like an external user, but their identity is not pr
 | Meeting  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
-| Chat | N/A | No | N/A |
+| Chat | N/A | Yes | N/A |
 | Meeting Notes | N/A | No | N/A |
 | Whiteboard | N/A | No | N/A |
 | Recording | N/A | No | N/A |
