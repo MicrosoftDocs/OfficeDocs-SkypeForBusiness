@@ -115,6 +115,4 @@ Use the Teams admin center to assign a number to the user.
 
 For more information, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
-You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
-
+You can also take your phone number that you have with another carrier and "port" or transfer it over to Microsoft 365 or Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

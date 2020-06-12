@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 # Location of data in Microsoft Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 organization. Currently, Teams supports the Australia, Canada, France, Germany, India, Japan, South Africa, South Korea, Switzerland (which includes Liechtenstein), the United Arab Emirates, United Kingdom, Americas, APAC, and EMEA regions. 
+Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization. Currently, Teams supports the Australia, Canada, France, Germany, India, Japan, South Africa, South Korea, Switzerland (which includes Liechtenstein), the United Arab Emirates, United Kingdom, Americas, APAC, and EMEA regions. 
 
 > [!IMPORTANT]
 > Teams currently offers data residency in Australia, Canada, France, Germany, India, Japan, the United Arab Emirates, United Kingdom, South Korea, South Africa, and Switzerland (which includes Liechtenstein) for new tenants only.
