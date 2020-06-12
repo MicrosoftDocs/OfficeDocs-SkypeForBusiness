@@ -41,7 +41,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" height="40" width="40" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +61,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" height="40" width="40" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -80,7 +80,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" height="40" width="40" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -98,7 +98,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" height="40" width="40" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +117,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" height="40" width="40" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -137,7 +137,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" height="40" width="40" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
