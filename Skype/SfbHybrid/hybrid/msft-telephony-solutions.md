@@ -24,7 +24,7 @@ ms.custom: seo-marvel-jun2020
 
 # Microsoft telephony solutions
 
-Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN). 
+Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN).
 
 You should use this article along with the associated technical diagram, which provides a visual aid for making the right decision for your organization:
 
@@ -47,7 +47,7 @@ For more information, see [What is Phone System in Microsoft 365 or Office 365](
 
 ### Enterprise Voice (Skype for Business Server)
 
-Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This option can only be connected to the Public Switched Telephone Network by using your own telephony carrier.
+Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This Skype for Business PBX option can only be connected to the Public Switched Telephone Network by using your own telephony carrier.
 
 For more information, see [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
