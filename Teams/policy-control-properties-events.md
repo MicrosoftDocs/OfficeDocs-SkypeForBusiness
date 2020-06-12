@@ -127,13 +127,15 @@ The following article contains lists of the properties sent with various events,
 |--------------------|-------------|------|-----------------------|---------------|
 | navCalendar        |             |      |                       |               |
 | scrollCalendarList |             |      |                       |               |
+| joinMeeting        | <ul><li>Join the meeting through Dial in</li><li>Join the meeting through Call me back</li><li>Join the meeting content only</li><li>Click on meeting join button from agenda view</li></ul> | Basic | Feature success and failure detection of joining meetings from calendar  | App key feature success data   |
+| viewMeetingSeries  | <ul><li>Switch from instance to series meeting detail page</li><li>Click on view series from the meeting details page</li></ul> | Basic | To log successful rendering of meeting series. |     |
 
 ### Core
 
 | Action_Scenario    | Description | Type | How the event is used | Basic Subtype |
 |--------------------|-------------|------|-----------------------|---------------|
-| enableCategory     | <ul><li>Enable a type of notification</li><li>Enable incoming call notifications</li></ul> | Basic | Notifications are key to drive engagement. This provides key success data for notification settings | App key feature success data |
-| pushNotification   | <ul><li>Launch via notification</li><li>Push notification clicked</li><li>Reconnecting push notification is tapped</li><li>**Reconnect failed** push notification is tapped</li></ul> | Basic | Success of notification delivery and user action on notification | App key feature success data |
+| enableCategory     | <ul><li>Enable a type of notification</li><li>Enable incoming call notifications</li></ul> | Basic | Notifications are key to drive engagement. This provides key success data for notification settings | App key feature success data   |
+| pushNotification   | <ul><li>Launch via notification</li><li>Push notification clicked</li><li>Reconnecting push notification is tapped</li><li>**Reconnect failed** push notification is tapped</li></ul> | Basic | Success of notification delivery and user action on notification | App key feature success data   |
 | deviceAddressBookSync |     |     |     |     |
 | deviceAddressBookUnsync |     |     |     |     |
 | chatAvatarEdit |     |     |     |     |
@@ -143,55 +145,52 @@ The following article contains lists of the properties sent with various events,
 | composeVault |     |     |     |     |
 | conversation |     |     |     |     |
 | dashboardNav |     |     |     |     |
-| navBookmark |     |     |     |     |
-| navChat |     |     |     |     |
-| navChatAndChannel |     |     |     |     |
+| navBookmark | User navigates to the Saved tab or app on the bottom bar or app tray | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
+| navChat | User navigates to the Chat tab or app on the bottom bar or app tray | Basic | Track the discover and usage of apps | App key feature success data   |
+| navChatAndChannel | Not used ??? |     |     |     |
 | navDashboardTab |     |     |     |     |
-| navMore |     |     |     |     |
-| navSaved |     |     |     |     |
-| navCamera |     |     |     |     |
-| navContacts |     |     |     |     |
-| navVideocamera |     |     |     |     |
+| navMore | Not used ??? |     |     |     |
+| navSaved | User navigates to the Saved tab or app on the bottom bar or app tray | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
+| navCamera | User navigates to the Camera tab or app on the bottom bar or app tray | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
+| navContacts | User navigates to the Contacts or People tab or app on the bottom bar or app tray | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
+| navVideocamera | User navigates to the Camera tab or app on the bottom bar or app tray | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
 | officeLens |     |     |     |     |
 | removeUser_CM |     |     |     |     |
 | contactActivity |     |     |     |     |
-| deleteContact |     |     |     |     |
-| editContact |     |     |     |     |
-| openContactCard |     |     |     |     |
-| addMembers |     |     |     |     |
-| channelFollow |     |     |     |     |
-| channelUnfollow |     |     |     |     |
-| channelsActiveSetting |     |     |     |     |
-| chatCreation |     |     |     |     |
+| addMembers | Add members to a team or private channel | Basic | Track team or channel management | App key feature success data   |
+| channelFollow | Turn on notifications for a channel | Basic | Track channel engagement | App key feature success data   |
+| channelUnfollow | Turn off notifications for a channel | Basic | Track channel engagement | App key feature success data   |
+| channelsActiveSetting | User changes their **notify me when I'm active on desktop** notification setting | Basic | For tracking notification setting usage | App key feature success data   |
+| chatCreation | User creates chat | Basic | Track success of chat creation | App key feature success data   |
 | chatStart |     |     |     |     |
-| createOrJoinTeam |     |     |     |     |
-| editChannel |     |     |     |     |
-| editNavigation |     |     |     |     |
-| editTeam |     |     |     |     |
-| enableQuietDays |     |     |     |     |
-| forcedUpdateAccept |     |     |     |     |
-| forcedUpdateExit |     |     |     |     |
-| forcedUpdatePrompt |     |     |     |     |
-| messagedEditMessage |     |     |     |     |
-| newChat |     |     |     |     |
-| noBGActivityDetected |     |     |     |     |
-| notBlockedDevice |     |     |     |     |
-| openAppDrawer |     |     |     |     |
-| openHamburgerMenu |     |     |     |     |
-| processInBG |     |     |     |     |
-| processInFG |     |     |     |     |
-| renewTeam |     |     |     |     |
-| shareInto |     |     |     |     |
-| teamCreate |     |     |     |     |
-| teamEdit |     |     |     |     |
-| viewChannelMembers |     |     |     |     |
-| guideMe |     |     |     |     |
-| resolveIssue |     |     |     |     |
-| reorderChannelItem |     |     |     |     |
-| markChannelRead |     |     |     |     |
-| pinChannel |     |     |     |     |
-| unpinChannel |     |     |     |     |
-| hideChannel |     |     |     |     |
+| createOrJoinTeam | User taps **+** button to create or join a team | Basic | Track team creation and joins | App key feature success data   |
+| editChannel | User taps on a button to edit a channel that they own or administer | Basic | Track team or channel management | App key feature success data   |
+| editNavigation | User taps **Reorder** in **more** menu to edit the order of bottom bar apps | Basic | Track the success or discovery of navigation editing | App key feature success data   |
+| editTeam | User taps on a button to edit a team that they own or administer | Basic | Track team or channel management | App key feature success data   |
+| enableQuietDays | User enables quiet days | Basic | Track success of quiet hours feature | App key feature success data   |
+| forcedUpdateAccept | User accepts to update the app version in the force update dialog | Basic | Tracks the acceptance rate of update prompts | App key feature success data   |
+| forcedUpdateExit | User closes the app instead of updating the app version in the force update dialog | Basic | Tracks the acceptance rate of update prompts | App key feature success data   |
+| forcedUpdatePrompt | ??? |     |     |     |
+| messagedEditMessage | User edits message | Basic | Track usage of message editing |     |
+| newChat | User creates chat | Basic | Track success of chat creation |     |
+| noBGActivityDetected | Exceeds the threshold for background activity failures | Basic | Track notification failures caused by background processing issues | App key feature success data   |
+| notBlockedDevice | User doesn't reach the threshold for background activity failures in 30 days | Basic | Track notification failures caused by background processing issues | App key feature success data   |
+| openAppDrawer | User taps on **More** at the bottom bar to open the app drawer | Basic | Track the discovery and usage of overflow apps | App key feature success data   |
+| openHamburgerMenu | User taps on hamburger icon (top-left) to open the side menu for access to settings, presence, tenant switcher | Basic | Track a number of investigation scenarios | App key feature success data   |
+| processInBG | Process incoming notification in the background (Android) | Basic | Track notification failures caused by background processing issues | App key feature success data   |
+| processInFG | Process incoming notification in the foreground (Android) | Basic | Track notification failures caused by background processing issues | App key feature success data   |
+| renewTeam | Not used ??? |     |     |     |
+| shareInto | User shares something from another app into Teams | Basic | Track sharing into Teams | App key feature success data   |
+| teamCreate | User selects the option to create a new team | Basic | Track team creation | App key feature success data   |
+| teamEdit | User edits some aspect of a team that they own or administer | Basic | Track team or channel management | App key feature success data   |
+| viewChannelMembers | View channel members list | Basic | Track channel engagement | App key feature success data   |
+| guideMe | Users taps on a banner that informs them about a 3P app blocking notifications and offers troubleshooting guidance | Basic | Track the success of the notification troubleshooter | App key feature success data   |
+| resolveIssue | Users taps on **Resolve** in the notification troubleshooter flyout to navigate to the blocker app | Basic | Track the success of the notification troubleshooter | App key feature success data   |
+| reorderChannelItem | User reorders pinned channels | Basic | Track pinned channel management | App key feature success data   |
+| markChannelRead | User marks a channel read | Basic | Track pinned channel management | App key feature success data   |
+| pinChannel | Pin a channel to show it above the teams and channels list | Basic | Track channel engagement | App key feature success data   |
+| unpinChannel | Unpin a channel | Basic | Track channel engagement | App key feature success data   |
+| hideChannel | Hide channel from the teams and channel list | Basic | Track channel engagement | App key feature success data   |
 | scrollDatePicker |     |     |     |     |
 | selectCalendarDate |     |     |     |     |
 | chatAvatarEditCamera |     |     |     |     |
@@ -199,9 +198,10 @@ The following article contains lists of the properties sent with various events,
 | tapDatePickerHandle |     |     |     |     |
 | dragDatePickerHandle |     |     |     |     |
 | reportAbuseOpen |     |     |     |     |
-| [createTeam, createChannel] | <ul><li>Tap the **Skip** button in the **Add Members** page (check existing first)</li><li> Tap the **Done** button in the **Add Members** page (check existing first)</li><li>Show team/channel creation acknowledgement</li></ul> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of a new team | App key feature success data   |
-| [editTeam, editChannel] | <ul><li>Tap the **Cancel** button in the **Add Members** page (existing team/channel)</li><li>Tap the **Done** button in the **Add Members** page (existing team/channel)</ul></li> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of an existing team | App key feature success data   |
-| officeLens or cameraImage | Camera picture selected - standard camera or office lens (need databag prop stating imageCount) | Basic | Key success metrics for office lens integration with teams | App key feature success data |
+| chat | <ul><li>New message button or textbox in chat</li><li>1:1 chat tapped on callHistory item</li><li>1:1 chat click from call list</li></ul> | Basic | Feature success and usage telemetry see event description | App key feature success data   |
+| createTeam, createChannel | <ul><li>Tap the **Skip** button in the **Add Members** page (check existing first)</li><li> Tap the **Done** button in the **Add Members** page (check existing first)</li><li>Show team or channel creation acknowledgement</li></ul> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of a new team. | App key feature success data   |
+| editTeam, editChannel | <ul><li>Tap the **Cancel** button in the **Add Members** page (existing team or channel)</li><li>Tap the **Done** button in the **Add Members** page (existing team or channel)</ul></li> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of an existing team. | App key feature success data   |
+| officeLens or cameraImage | Camera picture selected - standard camera or office lens (need databag prop stating imageCount) | Basic | Key success metrics for office lens integration with Teams. | App key feature success data |
 | acknowledgeSettingChange | Acknowledge update in **we updated notification setting** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to acknowledge notification update. Used to deduce overall notification reliability. | App key feature success data   |
 | addChannel | Admin Add channel | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation of a channel. |     |
 | addMember | Taps the **Invite people** button in the **More** menu | Basic | This provide key feature success telemetry around a freemium invite. Helps the team understand feature discoverability and success metrices. | App key feature success data |
@@ -423,7 +423,6 @@ The following article contains lists of the properties sent with various events,
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| chat | <ul><li>New message button/textbox in chat</li><li>1:1 chat tapped on callHistory item</li><li>1:1 chat click from call List</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | disableCategory | <ul><li>Disable a type of notification</li><li>Disable incoming call notifications</li></ul> | Basic | Required to get the feature success | App key feature success data   |
 
 ### Core/Mobile platform
@@ -858,6 +857,9 @@ The following article contains lists of the properties sent with various events,
 
 | Action_Scenario     | Description | Type | How the event is used | Basic Subtype |
 |---------------------|-------------|------|-----------------------|---------------|
+| deleteContact       |             |      |                       |               |
+| editContact         |             |      |                       |               |
+| openContactCard     |             |      |                       |               |
 | navPeopleSettings   |             |      |                       |               |
 | navPeople           |             |      |                       |               |
 | people              |             |      |                       |               |
