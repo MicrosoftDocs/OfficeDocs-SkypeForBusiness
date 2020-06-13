@@ -731,37 +731,37 @@ The following article contains lists of the properties sent with various events,
 | shareRecording | Share recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | shareScreen | <ul><li>Start Screen Share</li><li>Stop Screen Share</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | shareTray | User clicks on **Share…** in the action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| simultaneousCallForward | <ul><li>Simultaneous call forward target is set</li><li>Enable simultaneous call forwarding (Calls ring me is enabled & Also ring is set)</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| startPresentPhoto | start presenting photo | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| startPresentVideo | Start presenting video | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| startPSTNCall | <ul><li>PSTN Result in Global Search (People)</li><li>PSTN call placed from Device contactCard</li><li>PSTN Call placed from callList</li><li>DialPSTN Number using DialPad</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| startRecording | Start recording | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| startVoicemailCall | Change Voicemail Greeting tapped | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| stopMeetingButton | Number of times user leaves the lobby without being admitted into the meeting | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| stopPresentPhoto | stop presenting photo | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| stopPresentVideo | Stop presenting video | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| stopRecording | Stop recording | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| stuckOnConnectingDialInSelected | User tapped Dial in on the drawer | Basic | Used to track feature success/failure of a feature and customer engagement |     |
-| stuckOnConnectingRetrySelected | User tapped retry on the drawer | Basic | Used to track feature success/failure of a feature and customer engagement |     |
-| stuckOnConnectingShownDismissed | User dismissed the drawer | Basic | Used to track feature success/failure of a feature and customer engagement |     |
-| takePhoto | take a photo | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| toast | In-app toast clicked | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| transferNow | <ul><li>Taps Transfer > Transfer now</li><li>Transfer target set to Person</li><li>Transfer target set to Phone Number</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| unansweredCallForward | <ul><li>Unanswered call forward target is set</li><li>Enable unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled)</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| unblockCaller | <ul><li>Unblock contact/number from action sheet</li><li>Unblock contact/number from contact card</li><li>Unblock number from settings</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| unpinSelf | Unpin user from action sheet | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| unpinUser | Unpin user from action sheet | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| updatePlaybackSpeedVoicemail | Voicemail playback speed value changed | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| uploadFile | User clicks **Upload from device** | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| userLongPress | Long press on a participant | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| useWifiForAudioDialog | User clicks ok while system prompts that while Admin has blocked audio and video calls on cellular | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| useWifiForVideoDialog | <ul><li>User clicks ok while system prompts that while Admin has blocked video calls on cellular</li><li>User trying to enable video in meeting while Admin has blocked it on cellular</li><li>User clicks ok while system prompts that while Admin has blocked video in meetings on cellular</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| videoUserDoubleTap | Double tap on a video participant | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| viewContactCard | <ul><li>ContactCard tapped from callHistory item</li><li>ContactCard tapped from voicemail item</li><li>ContactCard click from call list</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| viewLobbyFromBanner | Number of times user clicks on view lobby from notification banner | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| voiceDataCollectionOptOut | User opts-out of the recording from mobile by clicking the banner | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| Voicemail - No AS Assigned | Speaker tapped on voicemail item | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| whiteboardUsed | User annotates on whiteboard (any action on the webview) | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
+| simultaneousCallForward | <ul><li>Simultaneous call forward target is set</li><li>Enable simultaneous call forwarding (Calls ring me is enabled & Also ring is set)</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startPresentPhoto | start presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startPresentVideo | Start presenting video | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startPSTNCall | <ul><li>PSTN Result in Global Search (People)</li><li>PSTN call placed from Device contactCard</li><li>PSTN Call placed from callList</li><li>DialPSTN Number using DialPad</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startRecording | Start recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startVoicemailCall | Change Voicemail Greeting tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| stopMeetingButton | Number of times user leaves the lobby without being admitted into the meeting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| stopPresentPhoto | Stop presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| stopPresentVideo | Stop presenting video | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| stopRecording | Stop recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| stuckOnConnectingDialInSelected | User tapped Dial in on the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
+| stuckOnConnectingRetrySelected | User tapped retry on the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
+| stuckOnConnectingShownDismissed | User dismissed the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
+| takePhoto | Take a photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| toast | In-app toast clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| transferNow | <ul><li>Taps Transfer > Transfer now</li><li>Transfer target set to Person</li><li>Transfer target set to Phone Number</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| unansweredCallForward | <ul><li>Unanswered call forward target is set</li><li>Enable unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled)</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| unblockCaller | <ul><li>Unblock contact or number from action sheet</li><li>Unblock contact or number from contact card</li><li>Unblock number from settings</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| unpinSelf | Unpin yourself from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| unpinUser | Unpin user from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| updatePlaybackSpeedVoicemail | Voicemail playback speed value changed | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| uploadFile | User clicks **Upload from device** | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| userLongPress | Long press on a participant | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| useWifiForAudioDialog | User clicks **OK** while system prompts that while Admin has blocked audio and video calls on cellular | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| useWifiForVideoDialog | <ul><li>User clicks **OK** while system prompts that while Admin has blocked video calls on cellular</li><li>User trying to enable video in meeting while Admin has blocked it on cellular</li><li>User clicks **OK** while system prompts that while Admin has blocked video in meetings on cellular</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| videoUserDoubleTap | Double tap on a video participant | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| viewContactCard | <ul><li>ContactCard tapped from callHistory item</li><li>ContactCard tapped from voicemail item</li><li>ContactCard click from call list</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| viewLobbyFromBanner | Number of times user clicks on view lobby from notification banner | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| voiceDataCollectionOptOut | User opts-out of the recording from mobile by clicking the banner | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| Voicemail - No AS Assigned | Speaker tapped on voicemail item | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| whiteboardUsed | User annotates on whiteboard (any action on the webview) | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 
 ### Joint MCM items
 
