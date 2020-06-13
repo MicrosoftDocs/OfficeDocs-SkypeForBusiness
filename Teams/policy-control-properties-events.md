@@ -206,51 +206,51 @@ The following article contains lists of the properties sent with various events,
 | addChannel | Admin Add channel | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation of a channel. |     |
 | addMember | Taps the **Invite people** button in the **More** menu | Basic | This provide key feature success telemetry around a freemium invite. Helps the team understand feature discoverability and success metrices. | App key feature success data |
 | alertsNavAlert | Tapping on a feed item | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| appBG | App BG | Basic  | Time spent on app is a key metric to understand overall app engagement and this metric helps us deduce overall time spent on the app. | App key feature success data   |
+| appBG | App BG | Basic  |     | App key feature success data   |
 | appKilled | App Killed | Basic | Time spent on app is a key metric to understand overall app engagement and this metric helps us deduce overall time spent on the app. | App key feature success data   |
 | cancelNavigationToLink | User chose to cancel navigation | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | cancelRequestToJoinTeam | Cancel request to join team | Basic | Teams and channels are essential construct of teams. This item is required to measure feature discoverability and success for joining a team. | App key feature success data   |
 | cancelRequestToJoinTeamError | Error with cancel join request | Basic | Teams and channels are essential construct of teams. This item is required to measure feature discoverability and success for successful completion of joining a team. | App key feature success data   |
-| castPpt | <ul><li>Tapping on share a PowerPoint option</li><li>Selecting a particular PowerPoint</li><li>Selecting Teams and Channels folder in file picker page</li><li>Selecting OneDrive folder in file picker page</li><li>Stopping the casting session</li><li>Tapping on multitasking PiP</li>Selecting display option from file view</li></ul> | Not in production you can remove these rows/Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
+| castPpt | <ul><li>Tapping on share a PowerPoint option</li><li>Selecting a particular PowerPoint</li><li>Selecting Teams and Channels folder in file picker page</li><li>Selecting OneDrive folder in file picker page</li><li>Stopping the casting session</li><li>Tapping on multitasking PiP</li>Selecting display option from file view</li></ul> | ??? <ul><li>Not in production you can remove these rows</li><li>Basic</li></ul> | Feature success and usage telemetry, see event description. | App key feature success data   |
 | castScreen | <ul><li>Tapping on share screen option</li><li>Stopping the screen sharing session</li><li>Selecting display option from file view</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | changeIsActiveSetting | Change desktop activity based notification. | Basic | Notifications are key to drive engagement. This provides key success data for push notification | App key feature success data   |
-| channel | New message button/textbox in chat. | Basic | Provides key success data for compose messages in channel and overall app engagement. | App key feature success data   |
-| ChannelDetails | <ul><li>User taps on channel header</li><li>navigates to channel details page</li></ul> | Basic | Provides key success data for channel navigation | App key feature success data   |
+| channel | New message button or textbox in chat. | Basic | Provides key success data for compose messages in channel and overall app engagement. | App key feature success data   |
+| ChannelDetails | <ul><li>User taps on channel header</li><li>User navigates to channel details page</li></ul> | Basic | Provides key success data for channel navigation | App key feature success data   |
 | channelFollow/channelUnfollow | Follow channel | Basic | Provides key success data on following the channel | App key feature success data   |
 | channelNav | Navigating to a channel from anywhere | Basic | Provides key success data for channel navigation and entrypoint discoverability | App key feature success data   |
 | channelNotificationSettings | <ul><li>Respond to “New Notification settings” dialog</li><li> Tap channel notification settings button in channel view</li><li>Select a channel notification setting</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| channelTabOverflow | Clicks on More tab in channel | Basic | As the number of apps increase in Teams, this is an important metric for success data for tabs discoverability and features | App key feature success data   |
+| channelTabOverflow | Clicks on **More** tab in channel | Basic | As the number of apps increase in Teams, this is an important metric for success data for tabs discoverability and features | App key feature success data   |
 | Chat - No AS Assigned | <ul><li>Done button on adding a user to a chat</li><li>User taps on chat list filter to filter by unread</li></ul> | Basic | Key success metrics for viewing unread chat or editing chat roaster | App key feature success data   |
-| chatAddChat | Add member to chat button tapped (this will be same for 1:1 chat & group chat) | Basic | Key success metrics for editing chat roaster | App key feature success data   |
-| chatCM_CopyText | tap copy text on chat context menu | Basic | For a chat product copy paste is important. Provides success data for copy paste feature in chats | App key feature success data   |
-| chatCM_DeleteMessage | tap delete message on chat context menu | Basic | Provides success data for delete message feature in chats | App key feature success data   |
-| chatCM_edit | tap edit on chat context menu | Basic | Provides success data for edit message feature in chats | App key feature success data   |
+| chatAddChat | Add member to chat button tapped (this will be same for 1:1 chat and group chat) | Basic | Key success metrics for editing chat roaster | App key feature success data   |
+| chatCM_CopyText | Tap copy text on chat context menu | Basic | For a chat product copy paste is important. Provides success data for copy paste feature in chats | App key feature success data   |
+| chatCM_DeleteMessage | Tap delete message on chat context menu | Basic | Provides success data for delete message feature in chats | App key feature success data   |
+| chatCM_edit | Tap edit on chat context menu | Basic | Provides success data for edit message feature in chats | App key feature success data   |
 | chatCM_Forward | Tap forward on chat context menu | Basic | Provides success data for forward message feature in chats | App key feature success data   |
 | chatCM_markUnread | Tap mark as unread on chat context menu | Basic | Provides success data for mark as read or unread message feature in chats | App key feature success data   |
 | chatCM_save | Tap save on chat context menu | Basic | Provides success data for save message feature in chats | App key feature success data   |
-| chatCM_SeenBy | Tap on Seen by context menu option. Read Receipts; aka read by (readby) | Basic | Provides success data for read receipts feature in teams | App key feature success data   |
+| chatCM_SeenBy | Tap on Seen by context menu option. Read Receipts, such as read by (readby) | Basic | Provides success data for read receipts feature in teams | App key feature success data   |
 | chatContactsEnter | User enters chat contacts tab | Basic | Provides success data for contacts tab in teams | App key feature success data   |
-| ChatDetails | User taps on chat header / navigates to chat detail page | Basic | Provides success and discoverability data for chat details page | App key feature success data   |
+| ChatDetails | <ul><li>User taps on chat header</li><li>User navigates to chat detail page</li></ul> | Basic | Provides success and discoverability data for chat details page | App key feature success data   |
 | chatRecentEnter | User enters the chat recent tab | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| chatSendMessage | Send Chat Message | NSD | As teams is a chat and collaboration product, this is a required success metrics for the product. Any dip in this metrics would be alarming | Activity success   |
+| chatSendMessage | Send Chat Message | NSD | As teams is a chat and collaboration product, this is a required success metrics for the product. Any dip in this metrics would be alarming. | Activity success   |
 | clickPhotoOfficeLens | Click on **Take photo** - launch camera (Android only) | Basic | Provide success metrics for camera integration and image sharing | App key feature success data   |
 | composeExpandComposer | Format button tapped | Basic | Provide success data for rich text box integration | App key feature success data   |
 | composeFilePick | native file picker launched | Basic | Provide success data for files sharing  |     |
 | composeImagePicker | Image button tapped | Basic | Provide success metrics for image sharing | App key feature success data  |
-| composeLocation | Location button tapped in compose | Basic | Provide success metrics for location integration in teams| App key feature success data   |
-| composeMention | At mention | Basic | For a collaboration product @mentioning and getting someone's attention is important. This provides success data for @mention feature in teams | App key feature success data   |
+| composeLocation | Location button tapped in compose | Basic | Provide success metrics for location integration in Teams| App key feature success data   |
+| composeMention | At mention | Basic | For a collaboration product @mentioning and getting someone's attention is important. This provides success data for @mention feature in Teams | App key feature success data   |
 | composeOpenEmoticonPicker | emoticon picker tapped | Basic | Provide success data for emoticon picker | App key feature success data   |
-| composeOpenFunPicker | Fun picker tapped | Basic | Provide success data for fun picker including giphy and stickers | App key feature success data   |
-| consumeVoiceMessage  | Voice message played | Basic | Voice message is important part of mobile messaging and is a competition parity feature. Provides success data for voice message consumption | App key feature success data   |
+| composeOpenFunPicker | Fun picker tapped | Basic | Provide success data for fun picker, including giphy and stickers | App key feature success data   |
+| consumeVoiceMessage  | Voice message played | Basic | Voice message is important part of mobile messaging and is a competition parity feature. Provides success data for voice message consumption. | App key feature success data   |
 | ContactCard_SeeMoreOOF | See move of long OOF message |     |     |     |
-| conversation, tabs | Tab clicked | Basic | Tabs are essential construct of teams this telemetry is fired whenever a tab is clicked in a channel | App key feature success data   |
+| conversation, tabs | Tab clicked | Basic | Tabs are essential construct of Teams. This telemetry is fired whenever a tab is clicked in a channel. | App key feature success data   |
 | copyLink | Copy link to channel post | Basic | Feature success metrics for Copy link feature | App key feature success data   |
-| createChannel | <ul><li>Tap “Done” button in “Create Channel” Page</li><li>Tap “Cancel” button in “Create Channel” Page</li><li>Show validation error</li></ul> | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation or discard action for new channel creation | App key feature success data   |
-| createTeam | <ul><li>Tap “Done” button in “Create Team” Page</li><li>Tap “Cancel” button in “Create Team” Page</li><li>Validation error shown</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| disabled | User taps **Skip notifications** in FRE | Basic | Notifications are key to drive engagement. This provides key success data for skipping the notification in FRE flow | App key feature success data   |
+| createChannel | <ul><li>Tap **Done** button in **Create Channel** Page</li><li>Tap **Cancel** button in **Create Channel** Page</li><li>Show validation error</li></ul> | Basic | Teams and channels are essential construct of Teams. This item provides success data around successful creation or discard action for new channel creation. | App key feature success data   |
+| createTeam | <ul><li>Tap **Done** button in **Create Team** Page</li><li>Tap **Cancel** button in **Create Team** Page</li><li>Validation error shown</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
+| disabled | User taps **Skip notifications** in FRE | Basic | Notifications are key to drive engagement. This provides key success data for skipping the notification in FRE flow. | App key feature success data   |
 | disableQuietDays | Quiet Days disabled | Basic | Feature success telemetry for quiet days | App key feature success data   |
 | disableQuietHours | Quiet Hours disabled | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| discoverTeams | Navigate to Browse & Join Teams page | Basic | Required to measure feature discoverability and success | App key feature success data   |
+| discoverTeams | Navigate to Browse and Join Teams page | Basic | Required to measure feature discoverability and success | App key feature success data   |
 | dismissFlyout | Dismiss button pressed | Basic | Required to measure feature discoverability and success | App key feature success data   |
 | dismissModality | Exit modality picker without sharing |     |     |     |
 | dismissModalityPicker | Modality picker button pressed |     |     |     |
@@ -268,74 +268,72 @@ The following article contains lists of the properties sent with various events,
 | enabled/notNow | FRE Notifications Permission (iOS) | Basic | Lets us capture user engagement with the notification feature. | App key feature success data   |
 | enablediOSPrompt | User actually enables notifications in iOS notifications permissions prompt | Basic | This gives us information about Users who actually enables notifications in iOS from notifications permissions prompt | App key feature success data   |
 | enabledQuietDays | Quiet Days enabled | Basic | Feature success telemetry for quiet days | App key feature success data   |
-| enableLocationPermission | Enable location services (TBD) | Basic | Feature success telemetry for location services | App key feature success data   |
+| enableLocationPermission | Enable location services (TBD) ??? | Basic | Feature success telemetry for location services | App key feature success data   |
 | enableQuietHours | Quiet Hours enabled | Basic | Feature success telemetry for quiet hours | App key feature success data   |
 | endEditing | Save button pressed |     | Feature success telemetry for edit feature |     |
-| endMyShift | <ul><li>No of devices in shared mode</li><li>No of time signed out</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| expandCollapseSection | Tap a section header to expand/collapse section | Basic | Feature success telemetry | App key feature success data   |
+| endMyShift | <ul><li>Number of devices in shared mode</li><li>Number of times signed out</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
+| expandCollapseSection | Tap a section header to expand or collapse section | Basic | Feature success telemetry | App key feature success data   |
 | federatedUpgradeNewChat | User upgrades legacy chat to native | Basic | This is required to get the success data for federated chats feature | App key feature success data   |
-| files, conversation, oneNote etc | Tab clicked | Basic | Let us know the  about tab discoverability and feature success for tabbed layout | App key feature success data   |
-| firstTimeSignedIn | <ul><li>Sign-in Errors Seen by User</li><li>Record telemetry about MAM/MDM policies implemented on first time login</li><li>Record app install referrer parameters after first time successful login</li></ul> | Basic | Feature success telemetry for intune integration for MAM and MDM. Provides success data about failure during FRE | App key feature success data   |
-| firstTimeSignedIn | <ul><li>Sign-in success</li><li>First sign-in Succeeded</li><ul> | Basic | Provides success data about successful sign ins during FRE | App key feature success data   |
-| formattingBold | Bold | Optional |     | App key feature success data  |
-| formattingHighlight | Highlight | Optional |     | App key feature success data   |
-| formattingImportant | Important | Optional |     | App key feature success data   |
-| formattingItatlics | Italics | Optional  |     | App key feature success data   |
-| formattingTextColor | Text color | Optional |     | App key feature success data   |
-| formattingUnderline | Underline | Optional  |     | App key feature success data   |
+| files, conversation, oneNote etc | Tab clicked | Basic | Let us know the **About** tab discoverability and feature success for tabbed layout | App key feature success data   |
+| firstTimeSignedIn | <ul><li>Sign-in success</li><li>First sign-in Succeeded</li><li>Sign-in Errors Seen by User</li><li>Record telemetry about MAM/MDM policies implemented on first time login</li><li>Record app install referrer parameters after first time successful login</li></ul> | Basic | Feature success telemetry for sign in or sign up. Provides data about failure during FRE | App key feature success data   |
+| formattingBold | User selects bold formatting | Optional | Track usage of formatting features | App key feature success data  |
+| formattingHighlight | User selects highlight formatting | Optional | Track usage of formatting features | App key feature success data   |
+| formattingImportant | User selects importance | Optional | Track usage of formatting features | App key feature success data   |
+| formattingItatlics | User selects italics | Optional  | Track usage of formatting features | App key feature success data   |
+| formattingTextColor | User selects text color formatting | Optional | Track usage of formatting features | App key feature success data   |
+| formattingUnderline | User selects underline | Optional  | Track usage of formatting features | App key feature success data   |
 | FRE - No AS Assigned | Record telemetry about MAM/MDM policies on app launch to gather data about active users | Basic | Feature success telemetry for Intune integration for MAM and MDM. Provides success data about failure during FRE | App key feature success data   |
-| freDone | FRE done | Basic |     | App key feature success data   |
-| funSearchQueryEntered  | Giphy query entered | Optional |     | App key feature success data   |
-| funSelectItem | Giphy image choose | Basic | Success data for giphy attachment feature in teams | App key feature success data   |
-| galleryImage | image uploaded - gallery | Basic | Success data for image attachment feature in teams | App key feature success data   |
-| goToNotificationSettings | Go to notification settings page from **we updated notification settings** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to understand notifications. Used to deduce overall notification reliability | App key feature success data   |
-| hamburgerMenu | Navigate to hamburger menu | Basic | Hamburger contains important actions such as account switch, notification settings, data setting, profile settings, this is important to understand hamburger menu discoverability  | App key feature success data   |
+| freDone | FRE done | Basic | Feature success telemetry on how many users successfully completed the sign in. This helps us preempt the sign in issues with the product. And solve login isues proactively. | App key feature success data   |
+| funSearchQueryEntered  | Giphy query entered | Optional | Success data for giphy attachment feature in Teams | App key feature success data   |
+| funSelectItem | Giphy image choose | Basic | Success data for giphy attachment feature in Teams | App key feature success data   |
+| galleryImage | image uploaded - gallery | Basic | Success data for image attachment feature in Teams | App key feature success data   |
+| goToNotificationSettings | Go to notification settings page from **we updated notification settings** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to understand notifications. Used to deduce overall notification reliability. | App key feature success data   |
+| hamburgerMenu | Navigate to hamburger menu | Basic | Hamburger contains important actions such as account switch, notification settings, data setting, profile settings, this is important to understand hamburger menu discoverability. | App key feature success data   |
 | hide | Hide chat | Basic | Feature success telemetry for hiding chats | App key feature success data   |
 | image | image | Basic | Feature success telemetry for image preview | App key feature success data   |
 | importantMessage_select | User selects important message from priority context menu | Basic | Feature success telemetry for important message | App key feature success data   |
 | importantMessageSend  | User sends important message | Basic | Feature success telemetry for important message | App key feature success data   |
-| install | Install Event | Basic | App key feature success data | App key feature success data   |
-| install | Install | Basic | This telemetry is used to identify how many people are added to a team | App key feature success data   |
-| installReferrer | Record app install referrer parameters after first time install | Basic | Need to understand the path user has installed the app from.  Feature success telemetry. | App key feature success data   |
-| inviteFreemium | Taps the + button in Invite screen | Basic | Helps with feature discoverability and success metrices for freemium | App key feature success data   |
-| inviteGuest | Taps the + button in Invite screen | Basic | Helps with feature discoverability and success metrices for teams guests | App key feature success data   |
+| install | <ul><li>Install</li><li>Install Event</li></ul> | Basic | App key feature success data on overall installation of Teams | App key feature success data   |
+| installReferrer | Record app install referrer parameters after first time install | Basic | Feature success telemetry as we need to understand the path user has installed the app from to proactively identify the issues in users login experience with Teams. | App key feature success data   |
+| inviteFreemium | Taps the **+** button in Invite screen | Basic | Helps with feature discoverability and success metrices for freemium | App key feature success data   |
+| inviteGuest | Taps the **+** button in Invite screen | Basic | Helps with feature discoverability and success metrices for Teams guests | App key feature success data   |
 | joinTeam | Join button pressed | Basic | Feature success and usage telemetry | App key feature success data   |
-| Launch source eg. direct, link, appShortcut | Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users)| Basic | App engagement success metrics, Also success metrics for intune, MAM and MDM integration | App key feature success data   |
+| Launch source eg. direct, link, appShortcut | Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users)| Basic | App engagement success metrics, Also success metrics for Intune, MAM and MDM integration | App key feature success data   |
 | leaveChat | Confirm leave chat | Basic | Feature success telemetry for group chat | App Key feature success   |
 | legacyChatLink | User taps on link to legacy chat | Basic | Feature success telemetry for federated chats | App key feature success data   |
-| likeAppDismiss |     | Basic | App ratings are an important part of mobile app infrastructure and is tracked at various levels for app success. Success metrics for the app overall | App key feature success data   |
-| likeAppNo |     | Basic | App ratings are an important part of mobile app infrastructure and is tracked at various levels for app success. Success metrics for the app overall | App key feature success data   |
-| likeAppYes |     | Basic | App ratings are an important part of mobile app infrastructure and is tracked at various levels for app success. Success metrics for the app overall | App key feature success data   |
+| likeAppDismiss |     | Basic | App ratings are an important part of mobile app infrastructure and are tracked at various levels for app success. Success metrics for the app overall. | App key feature success data   |
+| likeAppNo |     | Basic | App ratings are an important part of mobile app infrastructure and are tracked at various levels for app success. Success metrics for the app overall. | App key feature success data   |
+| likeAppYes |     | Basic | App ratings are an important part of mobile app infrastructure and are tracked at various levels for app success. Success metrics for the app overall. | App key feature success data   |
 | likeMsg   | Click on Like | Basic | Feature success metrics, drives content engagement and inturn overall app engagement | App key feature success data   |
-| locationCard | Click on location card | Basic | Feature successmetrics for location sharing | App key feature success data   |
-| mapAppPicker | Choose map app from map picker (TBD) | Basic | Feature successmetrics for location sharing | App key feature success data   |
+| locationCard | Click on location card | Basic | Feature success metrics for location sharing | App key feature success data   |
+| mapAppPicker | Choose map app from map picker (TBD)??? | Basic | Feature success metrics for location sharing | App key feature success data   |
 | markAsRead | Mark as read | Basic |     | App key feature success data   |
 | markAsUnread | Mark as unread | Basic |     | App key feature success data   |
-| memberListLoadMore | Scroll down to load more | Basic | Required to define basic feature success  metrices. |     |
+| memberListLoadMore | Scroll down to load more | Basic | Required to define basic feature success metrics. |     |
 | messageCopyMessage | messageCopyMessage | Basic | Feature success metrics for copy message feature | App key feature success data   |
 | messageDelete | Message delete | Basic | Feature success metrics for delete message feature | App key feature success data   |
 | messageEditMessage | Edit message | Basic | Feature success metrics for edit message feature | App key feature success data   |
 | messageForwardMessage | User taps on Forward entry point from message context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| messageLike/messageUnlike | Message like/unlike | Basic | Feature success metrics for message reactions | App key feature success data   |
-| messageMuteSender | muteSender/unmuteSender | Basic | Feature success telemetry, see event description. | App key feature success data   |
+| messageLike/messageUnlike | Message like or unlike | Basic | Feature success metrics for message reactions | App key feature success data   |
+| messageMuteSender | muteSender or unmuteSender | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | messagePriority_select | User selects Message priority entry point | Basic | Feature success metrics for important or urgent messages | App key feature success data |
 | messageSeeOriginal | User reverts translated message back to original | Basic | Feature success metrics for message translation | App key feature success data   |
 | messageShareMessage | MessageShareMessage | Basic | Feature success metrics for share message | App key feature success data   |
 | messageTranslate | User translates a message | Basic | Feature success metrics for message translation | App key feature success data   |
 | messageUnabletoEdit | User unable to edit message | Basic | Feature success metrics for edit message feature | App key feature success data   |
-| multipleAccounts | No. of accounts for a user | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
+| multipleAccounts | Number of accounts for a user | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
 | multipleTenants | No. of tenants per account | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
 | mute | Mute chat | Basic  | Feature success and usage telemetry, see event description. | App key feature success data   |
 | nameGroupChat | Name group chat | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | nativeChatLink | User taps on link to native chat | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname) | Nav Tab clicked (or hamburger menu clicked - navMore) | Basic | Provides navigation information for each of the app. Important to get active user count for various modules | App Key feature success   |
+| navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname) | Nav Tab clicked (or hamburger menu clicked - navMore) | Basic | Provides navigation information for each of the apps. Important to get active user count for various modules. | App Key feature success   |
 | navTeams | Tap **see all** | Basic | Feature success metrics for teams list | App key feature success data   |
-| notNow | User taps not now in reminder | Basic |     | App key feature success data   |
+| notNow | User taps **not now** in reminder | Basic |     | App key feature success data   |
 | notNowUpdate | updateDefer | Basic |     |     |
-| open | Notification Settings tap | Basic | Lets us capture user engagement with the notification feature. | App key feature success data   |
-| openContactCard_ReactionSummary | Navigate to contact card from reaction summary page | Basic | Feature success metrics for people app (contact ard). | App key feature success data   |
+| open | Notification Settings tap | Basic | Allows us to capture user engagement with the notification feature. | App key feature success data   |
+| openContactCard_ReactionSummary | Navigate to contact card from reaction summary page | Basic | Feature success metrics for people app (contact card). | App key feature success data   |
 | openModalityPicker | X = ChatsAndChannels for chats and channels |     |     |     |
-| openPhotoLibrary | Click on photo library | Basic | How many total users open photo gallery. This with combination of image selection and send will give us overall information about the image picking experience and how many people tried to attach the image vs how many successfully attached vs abandoned  | App key feature success data   |
+| openPhotoLibrary | Click on photo library | Basic | How many total users open photo gallery. This, with combination of image selection and send, will give us overall information about the image picking experience and how many people tried to attach the image versus how many successfully attached versus abandoned. | App key feature success data   |
 | openQuietDays | Navigate to Quiet Days page | Basic | Feature success telemetry for quiet days | App key feature success data   |
 | openQuietHours | Navigate to Quiet Hours Page | Basic | Feature success telemetry for quiet hours | App key feature success data   |
 | openReactionHoverBubble | Press add reaction button on reaction summary page | Basic | Feature success telemetry for reactions | App key feature success data   |
@@ -347,7 +345,7 @@ The following article contains lists of the properties sent with various events,
 | provideRatingDismiss |     | Basic | Provides first hand information about user feedback, which is essential to overall product | App key feature success data   |
 | provideRatingNo |     | Basic | Provides first hand information about user feedback, which is essential to overall product | App key feature success data   |
 | provideRatingYes |     | Basic | Provides first hand information about user feedback, which is essential to overall product | App key feature success data   |
-| quickSelectImagePicker | quick select |     |     |     |
+| quickSelectImagePicker | Quick select |     |     |     |
 | quietHoursValues | Capture Quiet Hours State on back button navigation | Basic | Feature success telemetry for quiet hours | App key feature success data   |
 | quotedReplySent | User sent reply message with context type | Basic | Feature success telemetry for quoted reply | App key feature success data   |
 | reactAngry_CM | React with angry from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
@@ -360,15 +358,15 @@ The following article contains lists of the properties sent with various events,
 | reactLike_HB | React with like from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
 | reactSad_CM | React with sad from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
 | reactSad_HB | React with sad from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSurprised_CM | React with surprised from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSurprised_HB | React with surprised from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
+| reactSurprised_CM | React with surprise from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
+| reactSurprised_HB | React with surprise from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
 | readReceipts | User enabled feature | Basic | Feature success telemetry for read receipts | App key feature success data   |
 | redeemInvite | In app redemption | Basic | Feature success metrics for freemium invite | App key feature success data   |
 | removeReplyObject | User removed reply object from compose | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | removeUserConfirm | User confirmed remove user dialog| Basic | Feature success metrics for quoted reply | App key feature success data   |
 | removeUserContextMenu | User removed participant via context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | removeUserSwipe | User removed participant via swipe | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| replyChain | New message button/textbox in reply chain (thread) | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
+| replyChain | New message button or textbox in reply chain (thread) | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
 | replyChannel | Reply button in channels | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
 | replyNavigation | User tapped on reply object to navigate to referenced post | Basic | Feature success metrics for quoted reply | App key feature success data   |
 | replyViaMsgOptions | User started reply via context menu | Basic | Feature success and discoverability metrics for quoted reply | App key feature success data   |
@@ -378,21 +376,21 @@ The following article contains lists of the properties sent with various events,
 | requestToJoinTeamError | Error with join request | Basic | Feature success metrics for teams and channel | App key feature success data   |
 | returnToMessage | User tapped **Return** button to navigate back to message | Basic | Feature success metrics for quoted reply | App key feature success data   |
 | safeLink | Link verified as safe | Basic | Feature success telemetry | App key feature success data   |
-| selectDevice | Selecting a particular device in displays app | Basic                                                | Feature success and usage telemetry, see event description. | App key feature success data   |
+| selectDevice | Selecting a particular device in displays app | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | selectGeneralSetting | Go to general settings | Basic | Feature discoverability and success metrics | App key feature success data   |
 | selectSettingOption | Go to settings tab from hamburger menu | Basic | Feature discoverability and success metrics | App key feature success data   |
 | selectTheme | Enable dark theme | Basic | Direct feature success metrics for dark theme. | App key feature success data   |
 | sendForward | User confirms to send forward message from forward picker | Basic | Feature success metrics for forward message feature | App key feature success data   |
 | sendImage | Send image | Basic | Feature success metrics for image attachment | App key feature success data   |
 | sendLocation | Send location | Basic | Feature success metrics for location sharing experience | App key feature success data   |
-| sendMsg | Click on send in reply | NSD | Let us know the success of the main construct of post in teams | Activity success   |
+| sendMsg | Click on send in reply | NSD | Let us know the success of the main construct of post in Teams | Activity success   |
 | sendVoiceMessage | Record button released | Basic | Feature success metrics for voice messages | App key feature success data   |
 | settingsNavReadReceiptNotice | User went to settings from feature notice | Basic | Feature success metrics for read receipts | App key feature success data   |
 | shareHistory | Share history picker tapped | Basic | Feature success metrics for adding users to group chat and share history feature | App key feature success data   |
-| showBanner | No. of times the **WiFi Connected, No Internet** banner appears | Optional |     |
+| showBanner | Number of times the **WiFi Connected, No Internet** banner appears | Optional |     |     |
 | shownReadReceiptNotice | User shown feature notice with settings options  | Basic | Feature discoverability and success metrics for read receipts | App key feature success data   |
-| signIn | <ul><li>User taps sign in on welcome page</li><li>Tap Sign In button</li></ul> | Basic | Feature success metrics for teams freemium | App key feature success data   |
-| signUp | Taps **Create a free account**/**Sign up for free** | Basic | Feature success metrics for teams freemium | App key feature success data   |
+| signIn | <ul><li>User taps **sign in** on welcome page</li><li>Tap **Sign In** button</li></ul> | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign in issues proactively. | App key feature success data   |
+| signUp | Taps **Create a free account**/**Sign up for free** | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign up issues proactively. | App key feature success data   |
 | skipVerificationForLink | User chose to skip verification | Basic | Feature success metrics for ATP safe link | App key feature success data   |
 | SMSSendMessage | User sends SMS message | Basic | Feature success metrics for send SMS feature | App key feature success data   |
 | startEditing | Edit button pressed |     |     |     |
@@ -404,12 +402,12 @@ The following article contains lists of the properties sent with various events,
 | table | click on table | Basic | How many people tap on table in chat or channel conversation | App key feature success data   |
 | takePhotoPicker | **Take photo** tapped inside image picker | Basic | Feature success metrics for camera integration in image picking experience | App key feature success data   |
 | teamNav | View menu options for team |     |     |     |
-| tenantSwitch | On Switch Tenant | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
-| tenantSwitchUnsupportedError | Tenant Unsupported Error (when user sees the error) | Basic | Feature success metrics for MTMA, provides telemetry around account/tenant switch errors | App key feature success data   |
-| toggleChannelsInChat | Turn feature on/off | Basic | Feature success metrics for unified chats and channel experience | App key feature success data   |
+| tenantSwitch | On Switch Tenant | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience | App key feature success data   |
+| tenantSwitchUnsupportedError | Tenant Unsupported Error (when user sees the error) | Basic | Feature success metrics for MTMA, provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience | App key feature success data   |
+| toggleChannelsInChat | Turn feature on or off | Basic | Feature success metrics for unified chats and channel experience | App key feature success data   |
 | translateFailed | Translation failed (excluding offline) | Basic | Feature success metrics for message translation feature | App key feature success data   |
-| unsafeLink | Link was determined to be unsafe | Basic | Feature success metrics for ATP safe links | App key feature success data   |
-| upgrade | Taps the upgrade button in more menu | Basic | Feature success metrics for freemiums as this would provide information about number of successful conversations | App key feature success data   |
+| unsafeLink | Link was determined to be unsafe | Basic | Feature success metrics for ATP Safe Links | App key feature success data   |
+| upgrade | Taps the **Upgrade** button in **More** menu | Basic | Feature success metrics for freemiums as this would provide information about the number of successful conversations | App key feature success data   |
 | urgentMessageSelect | User selects urgent message from priority context menu | Basic | Feature success metrics for priority messages | App key feature success data   |
 | urgentMessageSend | User sends urgent message | Basic | Feature success metrics for priority messages | App key feature success data   |
 | url | url | Basic | Feature success metrics for url preview | App key feature success data   |
@@ -417,24 +415,32 @@ The following article contains lists of the properties sent with various events,
 | urlPreviewAdd | URL preview add | Basic | Feature success metrics for url preview | App key feature success data   |
 | urlPreviewOpen | URL preview open | Basic | Feature success metrics for url preview | App key feature success data   |
 | urlPreviewRemove | URL preview removed | Basic | Feature success metrics for url preview | App key feature success data   |
-| viewRequests | View requests button pressed | Basic | Feature success metrics for join teams experience | App key feature success data   |
-
-### Core/MCM
-
-| Action_Scenario | Description | Type | How the event is used | Basic Subtype |
-|-----------------|-------------|------|-----------------------|---------------|
-| disableCategory | <ul><li>Disable a type of notification</li><li>Disable incoming call notifications</li></ul> | Basic | Required to get the feature success | App key feature success data   |
+| viewRequests | **View requests** button pressed | Basic | Feature success metrics for join Teams experience | App key feature success data   |
 
 ### Core/Mobile platform
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| channelNavTab | <ul><li>Clicks on Files tab in channel/Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way its being used </li><li>Connector card reply. Uses existing telemetry with app specific data</li></ul> | Basic/Optional | This is essential metrics for files tab as it provides the success and discoverability data for files in teams | App key feature success data   |
-| channelSendMessage | <ul><li>Send Channel Message</li><li>@ mention a bot in a compose box</li></ul> | NSD/Optional | As teams is a chat and collaboration product, this is a required success metrics for the product all up. Any dip in this metrics would be alarming | Activity success   |
+| channelNavTab | <ul><li>Clicks on **Files** tab in channel</li><li>Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way its being used </li><li>Connector card reply. Uses existing telemetry with app specific data</li></ul> | Basic/Optional | This is an essential metric for the files tab as it provides the success and discoverability data for files in Teams | App key feature success data   |
+| channelSendMessage | <ul><li>Send Channel Message</li><li>@ mention a bot in a compose box</li></ul> | NSD/Optional | As teams is a chat and collaboration product, this is a required success metric for the product all up. Any dip in these metrics would be alarming | Activity success   |
 | chatListNavConversations | chatListNavConversations | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| messageBookmarkMessage | <ul><li>messageBookmarkMessage/Connector card save. Uses existing telemetry with app specific data</li><li>Save a bot message</li></ul> | Optional |     | App key feature success data   |
-| reactLike_CM | React with like from context menu / Like a bot message | Basic/Optional | Feature success and usage telemetry, see event description. | App key feature success data   |
-| replySendMessage | Send Reply | NSD/Basic|     | <ul><li>Activity success</li><li>App key feature success data</li></ul>   |
+| messageBookmarkMessage | <ul><li>messageBookmarkMessage</li><li>Connector card save. Uses existing telemetry with app specific data</li><li>Save a bot message</li></ul> | Optional |     | App key feature success data   |
+| reactLike_CM | <ul><li>React with like from context menu</li><li>Like a bot message</li></ul> | Basic/Optional | Feature success and usage telemetry, see event description. | App key feature success data   |
+| replySendMessage | Send channel reply | NSD/Basic|     | <ul><li>Activity success</li><li>App key feature success data</li></ul>   |
+
+### Feeds
+
+| Action_Scenario | Description | Type | How the event is used | Basic Subtype |
+|-----------------|-------------|------|-----------------------|---------------|
+| activityTabClicked | <ul><li>Activity tab shown</li><li>Captures activity tab event</li></ul> | Basic | Helps to track if user came back to activity tab | App key feature success data   |
+| activityContextMenu | Overflow actions in activity feed | Basic | Helps to track if user can do contextual actions on feed | App key feature success data   |
+| activityFeedLongPress | Captures long press gestures on feed item | Basic | <ul><li>Helps to track if user can successfully triage feed items using gestures</li><li>Tracking usage of core scenario</li></ul> | App key feature success data   |
+| activityFeedSwipe | Captures swipe gestures on feed item | Basic | Helps to track if user can successfully triage feed items using gestures | App key feature success data |
+| activityFilterClick | Captures activity filter usage | Basic | Helps to track if user can filter feed items successfully | App key feature success data   |
+| activityFilterOptionsClick | Captures activity filter usage | Basic | <ul><li>Helps to track if user can filter feed items successfully</li><li>Helps to track if user can successfully triage feed items using gestures</li></ul> | App key feature success data   |
+| activityFilterOptionsClicked | Captures activity filter usage | Basic | <ul><li>Helps to track if user can filter feed items successfully</li><li>Tracking usage of core scenario</li></ul> | App key feature success data   |
+| activityTypeDropdown | Captures activity filter usage to switch between My Activity and Feeds | Basic | Helps to track if user can filter feed items successfully | App key feature success data   |
+| selectActivityType | Captures select gestures on feed item | Basic | <ul><li>Helps to check if user was able to initiate download operation</li><li>Helps to track if user can download file successfully</li></ul> | App key feature success data   |
 
 ### Files
 
@@ -442,77 +448,77 @@ The following article contains lists of the properties sent with various events,
 |-----------------|-------------|------|-----------------------|---------------|
 | downloadFile | <ul><li>Helps to check if user was able to initiate download operation</li><li>Helps to track if user can download file successfully</li></ul> | Basic | <ul><li>Helps to check if user was able to initiate download operation</li><li>Helps to track if user can download file successfully</li></ul> | App key feature success data   |
 | fileThumbnailPreviewDownloaded | Helps to identify is thumbnail was rendered successfully for a file | Basic | Helps to identify is thumbnail was rendered successfully for a file | App key feature success data   |
-| fileThumbnailPreviewFromCache | <ul><li>Captures if thumbnail is show from cache successfully</li><li>Helps to identify is thumbnail was rendered successfully for a file</li></ul> | Basic | <ul><li>Captures if thumbnail is show from cache successfully</li><li>Helps to identify is thumbnail was rendered successfully for a file</li></ul> | App key feature success data   |
-| fileThumbnailPreviewNotAvailable | Helps to identify is thumbnail was rendered successfully for a file | Basic | Helps to identify is thumbnail was rendered successfully for a file | App key feature success data   |
+| fileThumbnailPreviewFromCache | <ul><li>Captures if thumbnail shows from cache successfully</li><li>Helps to identify if thumbnail was rendered successfully for a file</li></ul> | Basic | <ul><li>Captures if thumbnail shows from cache successfully</li><li>Helps to identify if thumbnail was rendered successfully for a file</li></ul> | App key feature success data   |
+| fileThumbnailPreviewNotAvailable | Helps to identify if thumbnail was rendered successfully for a file | Basic | Helps to identify if thumbnail was rendered successfully for a file | App key feature success data   |
 | openFile | <ul><li>Helps to identify if user was able to open file in the chat successfully</li><li>Helps to identify if user was able to open file from files listing</li><li>Helps to check if user can open files from OneDrive list</li><li>Helps to identify if user can open files from channel list</li><li>Helps tracking if user can open file from group chats</li><li>Helps tracking if user can successfully open from files app</li><li>Helps to track if user can open from message file chiclet successfully</li><li>Helps to track if user can open files from recent list successfully</li><li>Helps to track if user can open file from file list successfully</li><li>Helps to track if user can open file from messages file chiclet</li><li>Helps to track if files can be opened successfully from file list</li></ul> | Basic | <ul><li>Helps to identify if user was able to open file in the chat successfully</li><li>Helps to identify if user was able to open file from files listing</li><li>Helps to check if user can open files from OneDrive list</li><li>Helps to identify if user can open files from channel list</li><li>Helps tracking if user can open file from group chats</li><li>Helps tracking if user can successfully open from files app</li><li>Helps to track if user can open from message file chiclet successfully</li><li>Helps to track if user can open files from recent list successfully</li><li>Helps to track if user can open file from file list successfully</li><li>Helps to track if user can open file from messages file chiclet</li><li>Helps to track if files can be opened successfully from file list</li></ul> | App key feature success data   |
-| openFileInApp | Helps to identify is user opted to open files outside of Teams vs inside of teams | Basic | Helps to identify is user opted to open files outside of Teams vs inside of teams | App key feature success data   |
+| openFileInApp | Helps to identify if user opted to open files outside of Teams versus inside of Teams | Basic | Helps to identify if user opted to open files outside of Teams versus inside of Teams | App key feature success data   |
 | uploadSelectedFile | <ul><li>Tracks if user can upload files in channel successfully</li><li>Tracks if user can upload files in chat successfully</li><li>Tracks if user can upload files in the reply window</li><li>Tracks if user can upload files successfully in group chat</li><li>Tracking usage of core scenario</li><li>Tracks the start of upload scenario in channel</li><li>Tracks the start of upload scenario in chat</li><li>Tracks the start of end of upload scenario in channel</li><li>Track if user can upload file into files tab successfully</li><li>Helps to identify is user acted on the prompt during file upload</li><li>Helps to identify if user can upload selected file successfully</li></ul> | Basic/Full | <ul><li>Tracks if user can upload files in channel successfully</li><li>Tracks if user can upload files in chat successfully</li><li>Tracks if user can upload files in the reply window</li><li>Tracks if user can upload files successfully in group chat</li><li>Tracking usage of core scenario</li><li>Tracks the start of upload scenario in channel</li><li>Tracks the start of upload scenario in chat</li><li>Tracks the start of end of upload scenario in channel</li><li>Track if user can upload file into files tab successfully</li><li>Helps to identify is user acted on the prompt during file upload</li><li>Helps to identify if user can upload selected file successfully</li></ul> | App key feature success data   |
 | uploadSelectFile | <ul><li>Tracks if the user can select file successfully</li><li>Tracks if the user can select upload file button successfully</li></ul> | Basic | <ul><li>Tracks if the user can select file successfully</li><li>Tracks if the user can select upload file button successfully</li></ul> | App key feature success data   |
 | files |     |     |     |     |
 | navFiles |     |     |     |     |
 | navFilesTab |     |     |     |     |
 | navPersonalFiles |     |     |     |     |
+| fileSelected | <ul><li>User picks a PowerPoint presentation</li><li>Tracks if the user can select file successfully</li></ul> | Basic | Tracks if the user can select a file successfully | App key feature success data   |
+| shareFile | <ul><li>User clicks **Share file**</li><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share a file successfully</li></ul> | Basic | <ul><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share a file successfully</li></ul> | App key feature success data   |
 
 ### MCM
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| navCallingSettings |     |     |     |     |
-| navVoicemail |     |     |     |     |
-| userJoinedViaShareLink | User joined a meeting from a link |     |     |     |
-| backFromCallMePSTN |     |     |     |     |
-| callMePSTNConnected | **Call me** is successful |     |     |     |
-| callOrMeetUpAddParticipantsDone | User finalizes their participant addition |     |     |     |
-| callOrMeetUpAutoReconnect | Poor network causes users device to go into Autoreconnect mode |     |     |     |
-| callOrMeetUpMuteParticipant | User mutes a remote participant |     |     |     |
-| callsTabNewCall |     |     |     |     |
-| callTransfer |     |     |     |     |
-| callInProgressShown |     |     |     |     |
-| dialIn | User chooses to Dial in into a meeting (various locations) |     |     |     |
-| teamsDeviceCallResumed |     |     |     |     |
-| endPSTNCallSelected | User ends a PSTN and a Content call |     |     |     |
-| endPSTNCallShown | User is prompted to end a PSTN/Content call |     |     |     |
-| groupCallJoin |     |     |     |     |
-| joinViaCode |     |     |     |     |
-| liveEventJoin | User joins a live event |     |     |     |
-| meetingJoinNowWithCallMe | User joins a meeting with **Call me** |     |     |     |
-| meetingJoinNowWithPSTN | User joins a meeting with Dial in |     |     |     |
-| notificationNavPreCall |     |     |     |     |
-| preJoinDenied | User unable to join a meeting |     |     |     |
-| preJoinDialInCancel | User cancels **Dial in** request on prejoin |     |     |     |
-| preJoinDialInCall | User confirms **DIal in** request on prejoin |     |     |     |
-| preJoinDialOutCancel | User cancels **Call me back** request on prejoin |     |     |     |
-| preJoinDialOutCall | User confirms **Call me back** request on prejoin |     |     |     |
-| addUserAsContact |     |     |     |     |
-| shortCircuitContactCount |     |     |     |     |
-| structuredMeetingsBannerDismiss | User dismisses banner that informs them about their meeting role |     |     |     |
-| activityChatClicked | Non-live chat tapped in Activity tab or split view shown | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| activityLiveChatClicked | Chat clicked from live meeting on the Activity tab | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| activityLiveDetailsClicked | Details clicked from live meeting on the Activity tab | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| admitAll | Number of times user clicks on admit all button from lobby section | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| admitParticipant | Number of times user admits someone into meeting from roster | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingJoin | User clicked **Join meeting** on anonymous join provide name page OR tapped **OK** in the name dialog | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingJoinWelcome | Clicked on **Join as guest** on anonymous join meeting landing page | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingPostMeetingChat | Number of user views chat from call end screen | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingPostMeetingRejoin | Number of times anonymous user tries to rejoin meeting | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingSignIn | Number of times user navigated to sign-in from name input screen | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingSignInWelcome | Clicked on **Sign in and join** on anonymous join meeting landing page | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingToggleMuted | Number of times mute toggle button was clicked | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| anonymousMeetingToggleVideo | Number of times video toggle button was clicked | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| audioOnlyLowBatteryBanner | User taps **Audio only** for low battery banner | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| audioOnlyPoorNetworkBanner | User taps **Video off** for poor connection banner | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| audioUserDoubleTap | Double tap on an audio participant | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| autoReconnectCallmebackCallDrop | Number of times user clicked on Callmeback button at Call end screen | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| autoReconnectDialIn | User clicks the Dial in button on the reconnect UFD/Number of times user clicked on DialIn button while reconnect is happening | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| autoReconnectDialInonCallDrop | User clicks the Dial in button on the call disconnected UFD | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| autoReconnectDialOut | User clicks the **Call me back** button on the reconnect UFD | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| autoReconnectRejoinonCallDrop | Number of times user clicked on Rejoin/Redial button at Call end screen | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| backToPhotoShare | back to camera | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| backToStageFromWhiteboard | Going back to call screen from whiteboard | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| backToWhiteboardFromStage | Going to whiteboard from call screen | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| blockAnonymous | <ul><li>User enables calling setting to block calls without caller id from settings</li><li>User disables calling setting to block calls without caller id from settings</li><li>User enables calling setting to block calls without caller id from action sheet</li><li>User disables calling setting to block calls without caller id from action sheet</li></ul> | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
-| blockCaller | <ul><li>Block number and contact from the new iOS calls action sheet</li><li>Block contact and number from the contact card</li><li>Block numbers from settings | Basic | Used to track feature success</li><li>failure of a feature and customer engagement</li></ul> | App key feature success data   |
-| BYOELiveEventJoin | BYOE live event is joined by user | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
+| backFromCallMePSTN | User does not complete the call Me back PSTN number flow | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callInProgressShown | ***Call in progress** banner shown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callMePSTNConnected | **Call me** is successful | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callOrMeetUpAddParticipantsDone | User finalizes their participant addition | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callOrMeetUpAutoReconnect | Poor network causes users device to go into Autoreconnect mode | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callOrMeetUpMuteParticipant | User mutes a remote participant | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callsTabNewCall | User selects **New Call** in the **Calls** tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| callTransfer | User starts a call transfer | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| dialIn | User chooses to Dial in into a meeting (various locations) | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| endPSTNCallSelected | User ends a PSTN and a Content call | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| endPSTNCallShown | User is prompted to end a PSTN or a Content call | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| groupCallJoin | User joins a Group call | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| joinOptionsEdu | EDU user selects options to join a scheduled meeting and is shown the proper options | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| joinViaCode | User joins a meeting via a code | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| liveEventJoin | User joins a live event | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| meetingJoinNowWithCallMe | User joins a meeting with **Call me** | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| meetingJoinNowWithPSTN | User joins a meeting with Dial in | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| navCallingSettings | User navigates to the Calling Settings | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| navVoicemail | User navigates to the voicemail page | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| notificationNavPreCall | User gets a notification of a meeting starts that navigates them to the precall screen on click | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| preJoinDenied | User unable to join a meeting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| preJoinDialInCall | User confirms **DIal in** request on prejoin | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| preJoinDialInCancel | User cancels **Dial in** request on prejoin | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| preJoinDialOutCall | User confirms **Call me back** request on prejoin | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| preJoinDialOutCancel | User cancels **Call me back** request on prejoin | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| structuredMeetingsBannerDismiss | User dismisses banner that informs them about their meeting role | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| userJoinedViaShareLink | User joined a meeting from a link | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| activityChatClicked | Non-live chat tapped in Activity tab or split view shown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| activityLiveChatClicked | Chat clicked from live meeting on the Activity tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| activityLiveDetailsClicked | Details clicked from live meeting on the Activity tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| admitAll | Number of times user clicks on admit all button from lobby section | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| admitParticipant | Number of times user admits someone into meeting from roster | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingJoin | User clicked **Join meeting** on anonymous join provide name page or tapped **OK** in the name dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingJoinWelcome | Clicked on **Join as guest** on anonymous join meeting landing page | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingPostMeetingChat | Number of user views chat from call end screen | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingPostMeetingRejoin | Number of times anonymous user tries to rejoin meeting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingSignIn | Number of times user navigated to sign-in from name input screen | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingSignInWelcome | Clicked on **Sign in and join** on anonymous join meeting landing page | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingToggleMuted | Number of times mute toggle button was clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| anonymousMeetingToggleVideo | Number of times video toggle button was clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| audioOnlyLowBatteryBanner | User taps **Audio only** for low battery banner | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| audioOnlyPoorNetworkBanner | User taps **Video off** for poor connection banner | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| audioUserDoubleTap | Double tap on an audio participant | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| autoReconnectCallmebackCallDrop | Number of times user clicked on **Callmeback** button at Call end screen | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| autoReconnectDialIn | <ul><li>User clicks the **Dial in** button on the reconnect UFD</li><li>Number of times user clicked on DialIn button while reconnect is happening</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| autoReconnectDialInonCallDrop | User clicks the **Dial in** button on the call disconnected UFD | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| autoReconnectDialOut | User clicks the **Call me back** button on the reconnect UFD | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| autoReconnectRejoinonCallDrop | Number of times user clicked on **Rejoin** or **Redial** button at Call end screen | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| backToPhotoShare | Back to camera | Basic | Used to track feature success orfailure of a feature and customer engagement | App key feature success data   |
+| backToStageFromWhiteboard | Going back to call screen from whiteboard | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| backToWhiteboardFromStage | Going to whiteboard from call screen | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| blockAnonymous | <ul><li>User enables calling setting to block calls without caller id from settings</li><li>User disables calling setting to block calls without caller id from settings</li><li>User enables calling setting to block calls without caller id from action sheet</li><li>User disables calling setting to block calls without caller id from action sheet</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| blockCaller | <ul><li>Block number and contact from the new iOS calls action sheet</li><li>Block contact and number from the contact card</li><li>Block numbers from settings | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| BYOELiveEventJoin | BYOE live event is joined by user | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | calendarLiveChatClicked | Chat from live meeting on the Schedule tab | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | calendarMeetingJoin | Meeting Join button tapped from Calendar | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | calendarUpcomingChatClicked | Chat from upcoming meeting on the Schedule tab | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
@@ -589,6 +595,7 @@ The following article contains lists of the properties sent with various events,
 | dialOutDialog | User clicks **New number** in action sheet | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | dialOutFailRetry | User clicks retry from failure banner | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | DialPad | DialPad button tapped from call List | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
+| disableCategory | <ul><li>Disable a type of notification</li><li>Disable incoming call notifications</li></ul> | Basic | Used to track success or failure of a feature and customer engagement | App key feature success data   |
 | Dismiss_earlycancelledCQF | User dismissed the CQF early cancelled call form | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | Dismiss_ratemycallCQF | User Dismisses the CQF rate my call form | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
 | Dismiss_ratemyliveeventCQF | User Dismisses the CQF rate my live event form | Basic | Used to track feature success/failure of a feature and customer engagement | App key feature success data   |
@@ -760,9 +767,6 @@ The following article contains lists of the properties sent with various events,
 
 | Action_Scenario | Team Owner | Description | Type | How the event is used | Basic Subtype |
 |-----------------|------------|-------------|------|-----------------------|---------------|
-| activityTabClicked | MCM/Feeds | <ul><li>Activity tab shown</li><li>Captures activity tab event</li></ul> | Basic | Helps to track if user came back to activity tab | App key feature success data   |
-| fileSelected | MCM/Files | <ul><li>User picks one of PowerPoint presentations</li><li>Tracks if the user can select file successfully</li></ul> | Basic | Tracks if the user can select file successfully | App key feature success data   |
-| shareFile | MCM/Files | <ul><li>User clicks **Share file**</li><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share file successfully</li></ul> | Basic | <ul><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share file successfully</li></ul> | App key feature success data   |
 | joinMeeting | MCM/Mobile calendar | <ul><li>Join the meeting through Dial in</li><li>Join the meeting through Call me back</li><li>Join the meeting content only</li><li>Click on meeting join button from agenda view</li></ul> | Basic | Feature success and failure detection of joining meetings from calendar | App key feature success data   |
 | viewMeetingSeries | MCM/Mobile calendar  | <ul><li>Switch from instance to series meeting detail page</li><li>Click on view series from the meeting details page</li><li> | Basic | To log succesful rendering of meeting series | Z   |
 
@@ -860,6 +864,8 @@ The following article contains lists of the properties sent with various events,
 | deleteContact       |             |      |                       |               |
 | editContact         |             |      |                       |               |
 | openContactCard     |             |      |                       |               |
+| addUserAsContact    |             |      |                       |               |
+| shortCircuitContactCount |        |      |                       |               |
 | navPeopleSettings   |             |      |                       |               |
 | navPeople           |             |      |                       |               |
 | people              |             |      |                       |               |
@@ -884,7 +890,6 @@ The following article contains lists of the properties sent with various events,
 | reportAbuseSend         |             |      |                       |               |
 | reportAbuseConfirmation |             |      |                       |               |
 | navAssignments          |             |      |                       |               |
-| joinOptionsEdu          |             |      |                       |               |
 
 ### Teams FLW
 
@@ -1012,3 +1017,7 @@ The following article contains lists of the properties sent with various events,
 | TimesheetNoteAdded | To view an approved time off request. | Basic | Key functionality for feature, approve time off. | App key feature success data   |
 | ToggleClicked | To view a declined time off request. | Basic | Key functionality for feature, decline time off. | App key feature success data   |
 | UserConfiguration | To view a pending time off request. | Basic | Key functionality for feature, time of requests. | App key feature success data   |
+
+
+
+| teamsDeviceCallResumed |     |     |     |     |
