@@ -763,17 +763,40 @@ The following article contains lists of the properties sent with various events,
 | Voicemail - No AS Assigned | Speaker tapped on voicemail item | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | whiteboardUsed | User annotates on whiteboard (any action on the webview) | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 
-### Joint MCM items
-
-| Action_Scenario | Team Owner | Description | Type | How the event is used | Basic Subtype |
-|-----------------|------------|-------------|------|-----------------------|---------------|
-| joinMeeting | MCM/Mobile calendar | <ul><li>Join the meeting through Dial in</li><li>Join the meeting through Call me back</li><li>Join the meeting content only</li><li>Click on meeting join button from agenda view</li></ul> | Basic | Feature success and failure detection of joining meetings from calendar | App key feature success data   |
-| viewMeetingSeries | MCM/Mobile calendar  | <ul><li>Switch from instance to series meeting detail page</li><li>Click on view series from the meeting details page</li><li> | Basic | To log succesful rendering of meeting series | Z   |
-
 ### Mobile platform
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
+| addToCalendar   |             |      |                       |               |
+| addToMeeting    |             |      |                       |               |
+| calendarTab | Click on the **Meetings** tab in the bottom rail | Basic | <ul><li>To understand the calendar usage and compare with other apps on the bottom rail</li><li> To determine if there was a failure in rendering the calendar post click from the bottom bar</li></ul> | App key feature success data   |
+| calendarTabClicked | <ul><li>Schedule tab shown</li><li>Click on the **Meetings** tab in the bottom rail</li></ul> | Basic | <ul><li>To understand calendar usage and compare with other navbar apps on the bottom rail</li><li>To determine if there was a failure | App key feature success data   |
+| cancelEditMeeting | Click on the **Close** button while on the meeting scheduler page, after clicking **Edit meeting** | Basic | To log abandoned edit meeting clicks | App Key Feature Success Data   |
+| cancelMeeting | Click on **Cancel event** from the meeting details page | Basic | To get aggregated data on the number of cancelled meetings | App Key Feature Success Data   |
+| cancelNewMeeting | <ul><li>Click on the **Close** button while on meeting scheduler page</li><li>Click on the **Close** button while on meeting scheduler page after clicking **Edit meeting**  | Basic | To log abandoned Create meeting clicks and verify what caused them | App Key Feature Success Data   |
+| chatWithMeetingParticipants | Clicks on **Chat** tab from Meeting Details page | Basic | To understand the usage of Chats as an entry point from the Meeting Details page | App Key Feature Success Data   |
+| deleteMeeting | Click on the **Delete** button from the Meeting Details page | Basic  | To get aggregated data on the number of deleted meetings | App Key Feature Success Data   |
+| editRsvpMeetingOptions | Click on **RSVP** to change from the previous selection | Basic  |     | App Key Feature Success Data  |
+| meetingDetailCalendarList | <ul><li>Meeting Details page tapped from calendarList</li><li>Click on **Details** tab on the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| meetingDetailScheduledMeeting | <ul><li>Meeting details page tapped from scheduled meeting object (**…**)</li><li>Click on the **Details** tab of a scheduled meeting | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| openEditMeetingForm | Click on the **Edit** button from the Meeting Details page | Basic  | To log whether edit meeting clicks were successful or not | App Key Feature Success Data   |
+| openMeetingDetails | Open the meeting details or the Open Meeting details page of a particular meeting | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data  |
+| openNewMeetingForm | Open the scheduler while setting up a new meeting | Basic  | To understand the number of meetings created from mobile and compare popularity with other clients for meetig creation | App Key Feature Success Data   |
+| refreshCalendarList | Pul down to refresh agenda view | Basic | To check if the Agenda view has been refreshed | App Key Feature Success Data   |
+| removeMeeting | Click on **Remove from Calendar** from the Meeting Details page of a cancelled meeting | Basic | To get a sense of aggregated data of unwanted meetings being pushed on to personal calendars | App Key Feature Success Data   |
+| removeParticipantFromEditMeeting | Remove a participant after clicking on **Edit meeting** from the Meeting Details page | Basic | To log if an added participant was succesfully removed or not | App Key Feature Success Data   |
+| removeParticipantFromNewMeeting | Remove a participant from the scheduler page while setting up a new meeting | Basic | To log if an added participant was succesfully removed or not | App Key Feature Success Data   |
+| saveEditMeeting | Click on the **Save** button while on the meeting scheduler page after updating a meeting | Basic | To log succesfully saved meetings or those that  failed to update | App Key Feature Success Data   |
+| saveNewMeeting | Click on the **Save** button while on the meeting scheduler page | Basic | To log succesfully saved meetings and the percentage of meetings that failed to create due to a client side or service error | App Key Feature Success Data   |
+| searchMeetingParticipants | Search for participants to add within the scheduler form | Basic | To distinguish between the number of appointments created versus the number of meetings created | App Key Feature Success Data   |
+| seeAllMeetingParticipants | <ul><li>Click on **See All** from the meeting details page</li><li>View all participants</li></ul> | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
+| seeMeetingDescription | <ul><li>Opening the Meeting Details page</li><li>Click **See More** on the Meeting description from the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
+| seeRsvpMeetingOptions | <ul><li>Click on **Notify Organizer** from the RSVP pop up</li><li>Click on **Rsvp** options from the Meeting Details page | Basic |     | App Key Feature Success Data   |
+| selectMeetingRsvpOption | Click on the **RSVP** button to choose an option | Basic |     | App Key Feature Success Data   |
+| selectMeetingRsvpOptions | Click on the **RSVP** button to choose an option | Basic |     | App Key Feature Success Data   |
+| viewFullAllDayMeetingList | Agenda view on Mobile | Basic | To log tje popularity of vew tyoe on calendar mobile | App Key Feature Success Data   |
+| viewMeetingDetails | Click on **...** menu on the Meeting Details page | Basic | Understand the usage of the More menu on calendar mobile | App Key Feature Success Data   |
+| viewMeetingOccurrence | Open up meeting details of an instance of a recurring meeting | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
 | navDynamics365  |             |      |                       |               |
 | navNotes        |             |      |                       |               |
 | navOrganization |             |      |                       |               |
