@@ -41,4 +41,4 @@ Most issues discovered with the Microsoft Teams client can be traced back to fir
 
 ## When Teams is offline or in low bandwidth conditions
 
-The good news is that Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages (for up to 24 hours) and sends them as soon as you're back online. If you're offline for longer than 24 hours, Teams lets you choose to resend or delete unsent messages.
+The good news is that Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. If you're offline for longer than 24 hours, Teams lets you choose to resend or delete unsent messages. We're working on adding this functionality to new chats and will update this documentation when that's available.
