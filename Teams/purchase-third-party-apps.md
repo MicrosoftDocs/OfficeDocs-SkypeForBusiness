@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase third-party apps for your organization on the Manage apps page of the Microsoft Teams admin center
+description: Learn how to purchase and manage licenses for third-party apps for your organization on the Manage apps page of the Microsoft Teams admin center
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -25,8 +25,6 @@ The [Manage apps page](manage-apps.md) in the Microsoft Teams admin center is wh
 Here, you can also search for and purchase licenses for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a Software as a Service (SaaS) subscription for purchase.
 
 You must be a global admin or Teams service admin to access the page.
-
-![Screenshot of the Managed apps page](media/manage-apps.png)
 
 ## Search for and purchase a third-party app
 
