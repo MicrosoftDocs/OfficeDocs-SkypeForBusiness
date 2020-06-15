@@ -29,7 +29,7 @@ The audit log can help you investigate specific activities across Microsoft 365 
 - Added channel
 - Changed setting
 
-For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities).
+For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities (in preview)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Audit events from private channels are also logged as they are for teams and standard channels.
@@ -54,7 +54,7 @@ The length of time that an audit record is retained and searchable in the audit 
 
 ## Tips for searching the audit log
 
-Here are tips for searching for [Teams activities](#teams-activities) in the audit log.
+Here are tips for searching for Teams activities in the audit log.
 
 ![Screenshot of audit log search page](media/audit-log-search-page.png)
 
@@ -88,7 +88,7 @@ Here you can review matches to the policy you've set, and make any adjustments a
 
 ### Mass delete scenario
 
-As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes. 
+As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
 
 ![Screenshot of the policy create page showing the setting up of a policy for mass team deletion detection](media/TeamsMassDeletePolicy.png)
 
@@ -110,7 +110,7 @@ You can set alerts and send emails to admins and other users when an activity po
 
 [Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
 
-We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies. 
+We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
 ## Teams activities
 
@@ -128,15 +128,57 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Changed role of members in team    |MemberRoleChanged         |A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. <br><br>**1** - Indicates the Owner role.<br>**2** -  Indicates the Member role.<br>**3** -  Indicates the Guest role.<br><br>The Members property also includes the name of your organization and the member's email address.        |
 |Changed team setting    |TeamSettingChanged        |The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>         |
 |Created team    |TeamCreated         |A user creates a team.         |
+|Deleted all organization apps|DeletedAllOrganizationApps           |Deleted all organization apps from the catalog.     |
+|Deleted app |AppDeletedFromCatalog           |An app has been deleted from the catalog.     |
 |Deleted channel     |ChannelDeleted         |A user deletes a channel from a team.         |
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
+|Installed app |AppInstalled         |An app was installed.   |
+|Published app |AppPublishedToCatalog           |An app was added to the catalog.     |
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
 |Removed members    |MemberRemoved        |A team owner removes members from a team, channel, or group chat.         |
 |Removed tab    |TabRemoved         |A user removes a tab from a channel.         |
+|Uninstalled app |AppUninstalled           |An app was uninstalled.     |
+|Updated app |AppUpdatedInCatalog           |An app was updated in the catalog.     |
 |Updated connector    |ConnectorUpdated         |A user modified a connector in a channel.         |
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
+|Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
+
+## Shifts in Teams activities
+
+**(in preview)**
+
+If your organization is using the Shifts app in Teams, you can search the audit log for activities related to the Shifts app. Here's a list of all events that are logged for Shifts activities in Teams in the Microsoft 365 audit log.
+
+|Friendly name  |Operation  |Description  |
+|---------|---------|---------|
+|Added scheduling group      |SchedulingGroupAdded          |A user successfully adds a new scheduling group to the schedule.          |
+|Edited scheduling group     |SchedulingGroupEdited         |A user successfully edits a scheduling group.          |
+|Deleted scheduling group         |SchedulingGroupDeleted              |A user successfully deletes a scheduling group from the schedule.|
+|Added shift      |ShiftAdded          |A user successfully adds a shift.           |
+|Edited shift       |ShiftEdited       |A user successfully edits a shift.        |
+|Deleted shift          |ShiftDeleted          | A user successfully deletes a shift.               |
+|Added time off      |TimeOffAdded          |A user successfully adds time off on the schedule.          |
+|Edited time off         |TimeOffEdited           |A user successfully edits time off.          |
+|Deleted time off     |TimeOffDeleted              |A user successfully deletes time off.           |
+|Added open shift     |OpenShiftAdded          |A user successfully adds an open shift to a scheduling group.          |
+|Edited open shift    |OpenShiftEdited          |A user successfully edits an open shift in a scheduling group.          |
+|Deleted open shift      |OpenShiftDeleted          |A user successfully deletes an open shift from a scheduling group.         |
+|Shared schedule     |ScheduleShared                  |A user successfully shared a team schedule for a date range.          |
+|Clocked in using Time clock         |ClockedIn          |A user successfully clocks in using Time clock.          |
+|Clocked out using Time clock      |ClockedOut          |A user successfully clocks out using Time clock.          |
+|Started break using Time clock      |BreakStarted          |A user successfully starts a break during an active Time clock session.          |
+|Ended break using Time clock    |BreakEnded          |A user successfully ends a break during an active Time clock session.          |
+|Added Time clock entry     |TimeClockEntryAdded          |A user successfully adds a new manual Time clock entry on Time Sheet.          |
+|Edited Time clock entry     | TimeClockEntryEdited             |A user successfully edits a Time clock entry on Time Sheet.          |
+|Deleted Time clock entry    |TimeClockEntryDeleted              |A user successfully deletes a Time clock entry on Time Sheet.          |
+|Added shift request         |RequestAdded              |A user added a shift request.          |
+|Responded to shift request     |RequestRespondedTo                  |A user responded to a shift request.          |
+|Canceled shift request         |RequestCanceled               |A user canceled a shift request.          |
+|Changed schedule setting      |ScheduleSettingChanged          |A user changes a setting in Shifts settings.         |
+|Added workforce integration      |WorkforceIntegrationAdded                  | The Shifts app is integrated with a third-party system.         |
+|Accepted off shift message         |OffShiftDialogAccepted          |A user acknowledges the off-shift message to access Teams after shift hours.           |
 
 ## Office 365 Management Activity API
 
@@ -144,4 +186,4 @@ You can use the Office 365 Management Activity API to retrieve information about
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
