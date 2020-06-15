@@ -215,12 +215,12 @@ The following article contains lists of the properties sent with various events,
 | castScreen | <ul><li>Tapping on share screen option</li><li>Stopping the screen sharing session</li><li>Selecting display option from file view</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | changeIsActiveSetting | Change desktop activity based notification. | Basic | Notifications are key to drive engagement. This provides key success data for push notification | App key feature success data   |
 | channel | New message button or textbox in chat. | Basic | Provides key success data for compose messages in channel and overall app engagement. | App key feature success data   |
-| ChannelDetails | <ul><li>User taps on channel header</li><li>User navigates to channel details page</li></ul> | Basic | Provides key success data for channel navigation | App key feature success data   |
+| channelDetails | <ul><li>User taps on channel header</li><li>User navigates to channel details page</li></ul> | Basic | Provides key success data for channel navigation | App key feature success data   |
 | channelFollow/channelUnfollow | Follow channel | Basic | Provides key success data on following the channel | App key feature success data   |
 | channelNav | Navigating to a channel from anywhere | Basic | Provides key success data for channel navigation and entrypoint discoverability | App key feature success data   |
 | channelNotificationSettings | <ul><li>Respond to **New Notification settings** dialog</li><li> Tap channel notification settings button in channel view</li><li>Select a channel notification setting</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | channelTabOverflow | Clicks on **More** tab in channel | Basic | As the number of apps increase in Teams, this is an important metric for success data for tabs discoverability and features | App key feature success data   |
-| Chat - No AS Assigned | <ul><li>Done button on adding a user to a chat</li><li>User taps on chat list filter to filter by unread</li></ul> | Basic | Key success metrics for viewing unread chat or editing chat roaster | App key feature success data   |
+| chat - No AS Assigned | <ul><li>Done button on adding a user to a chat</li><li>User taps on chat list filter to filter by unread</li></ul> | Basic | Key success metrics for viewing unread chat or editing chat roaster | App key feature success data   |
 | chatAddChat | Add member to chat button tapped (this will be same for 1:1 chat and group chat) | Basic | Key success metrics for editing chat roaster | App key feature success data   |
 | chatCM_CopyText | Tap copy text on chat context menu | Basic | For a chat product copy paste is important. Provides success data for copy paste feature in chats | App key feature success data   |
 | chatCM_DeleteMessage | Tap delete message on chat context menu | Basic | Provides success data for delete message feature in chats | App key feature success data   |
@@ -394,11 +394,11 @@ The following article contains lists of the properties sent with various events,
 | skipVerificationForLink | User chose to skip verification | Basic | Feature success metrics for ATP safe link | App key feature success data   |
 | SMSSendMessage | User sends SMS message | Basic | Feature success metrics for send SMS feature | App key feature success data   |
 | startEditing | Edit button pressed |     |     |     |
-| StatusMsgCancel | User cancels change to status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| StatusMsgExpiry | User sets expiry time | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| StatusMsgSet | User sets new status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| StatusPageViaContactCard | User enters status compose experience via contact card | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| StatusPageViaHamburger | User enters status compose experience via hamburger | Basic | Feature success metrics for add status message feature | App key feature success data   |
+| statusMsgCancel | User cancels change to status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
+| statusMsgExpiry | User sets expiry time | Basic | Feature success metrics for add status message feature | App key feature success data   |
+| statusMsgSet | User sets new status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
+| statusPageViaContactCard | User enters status compose experience via contact card | Basic | Feature success metrics for add status message feature | App key feature success data   |
+| statusPageViaHamburger | User enters status compose experience via hamburger | Basic | Feature success metrics for add status message feature | App key feature success data   |
 | table | Click on table | Basic | How many people tap on table in chat or channel conversation | App key feature success data   |
 | takePhotoPicker | **Take photo** tapped inside image picker | Basic | Feature success metrics for camera integration in image picking experience | App key feature success data   |
 | teamNav | View menu options for team |     |     |     |
@@ -812,10 +812,10 @@ The following article contains lists of the properties sent with various events,
 | oneNote | Event is triggered when the user open the OneNote app | Basic | Provides key success data for app navigation and entrypoint discoverability
  | App key feature success data   |
 | actionComposeMenu | <ul><li>Create message extension usage</li><li>Action ME usage</li></ul> | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| Android: null | Mute or unmute a bot chat. This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| android: null | Mute or unmute a bot chat. This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
 | blockChat | Block a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
 | botClickCardAction | Connector card usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| CardView - No AS assigned | Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side  | Basic | Teams and channels are essential constructs of Teams. This item is required to measure any error with joining a team | App key feature success data   |
+| cardView - No AS assigned | Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side  | Basic | Teams and channels are essential constructs of Teams. This item is required to measure any error with joining a team | App key feature success data   |
 | chicletExpand | <ul><li>Understand how users preview cards on mobile</li><li>Understand the preview closure behavior | Optional | Used to track feature success or failure of a feature and customer engagement |     |
 | composeSearchResult | <ul><li>Message extension result selection - helpful to understand the app search result relevance</li><li>Enhances message send telemetry with app data</li></ul> | Optional/Basic  | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | composeSelectExtension | Tap on a ME app | Basic | Used to track feature success or failure of a feature and customer engagement | Teams setup and inventory data   |
@@ -852,10 +852,10 @@ The following article contains lists of the properties sent with various events,
 
 | Action_Scenario | Team Owner | Description | Type | How the event is used | Basic Subtype |
 |-----------------|------------|-------------|------|-----------------------|---------------|
-| OrgChart - No AS assigned | <ul><li>Mobile platform - orgChart</li><li>Mobile platform - wiki</li></ul> | Basic usage telemetry for org chart | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| viewOrgChart | <ul><li>Mobile platform - orgChartQuickActionButton</li><li>Mobile platform - orgChartQuickActionButton</li></ul> | Basic usage telemetry for org chart | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| orgChart - No AS assigned | <ul><li>Mobile platform - orgChart</li><li>Mobile platform - wiki</li></ul> | Basic usage telemetry for org chart | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| viewOrgChart | <ul><li>Mobile platform - orgChartQuickActionButton</li><li>Mobile platform - orgChartQuickActionButton</li></ul> | Basic usage telemetry for org chart | basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | open edit | Mobile platform - wiki | Wiki usage telemetry - User clicks to edit wiki | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| Wiki - No AS assigned | Mobile platform - wiki | Wiki usage telemetry | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| wiki - No AS assigned | Mobile platform - wiki | Wiki usage telemetry | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | activityFeedClick | <ul><li>Mobile platform</li><li>Feeds</li></ul> | <ul><li>Tap on an activity feed item and navigate to bot chat</li><li>Captures click information on feed item</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 
 ### Not applicable
@@ -864,9 +864,10 @@ The following article contains lists of the properties sent with various events,
 |-------------------------|-------------|-------|-----------------------------------------------------------------------|--------------------------------|
 | reactRemoved_HB         |             |       |                                                                       |                                |
 | teamsDeviceCallResumed  |             | Basic | Used to track success or failure of a feature and customer engagement | App key feature success data   |
-| People                  |             |       |                                                                       |                                |
+| people                  |             |       |                                                                       |                                |
 | reportAbuseSend         |             |       |                                                                       |                                |
 | reportAbuseConfirmation |             |       |                                                                       |                                |
+| get_sender_sub_scenario | get sender sub scenario in activity | Basic |                                               | App key feature success data   |
 
 ### Notifications
 
@@ -986,6 +987,24 @@ The following article contains lists of the properties sent with various events,
 | commentAdded | Confirms that a comment was added to a task | Optional | Confirms that a comment was added to a task |     |
 | commentUpdated | Confirms that a comments was successfully updated on a task | Optional | Confirms that a comments was successfully updated on a task |     |
 | progressItemClicked | Confirms a user has successfully opened the progress picker for a task | Optional | Confirms a user has successfully opened the progress picker for a task |     |
+| update_planner_task_and_nav_to_view | Confirms successful updating of a shared task item and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
+| create_default_plan_and_nav_to_view | Confirms successful creation of default shared task list and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
+| create_personal_plan_and_nav_to_view | Confirms successful creation of personal task list and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
+| create_personal_task | Confirms successful creation of personal task item | Basic |     | App key feature success data   |
+| create_planner_plan_and_nav_to_view | Confirms successful creation of shared task list and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
+| create_planner_task | Confirms successful creation of shared task item | Basic |     | App key feature success data   |
+| delete_personal_plan | Confirms successful deletion of personal task list | Basic |     | App key feature success data   |
+| delete_personal_task | Confirms successful deletion of personal task item | Basic |     | App key feature success data   |
+| delete_planner_plan | Confirms successful deletion of shared task list | Basic |     | App key feature success data   |
+| delete_planner_task | Confirms successful deletion of shared task item | Basic |     | App key feature success data   |
+| rename_personal_plan | Confirms successful renaming of personal task list | Basic |     | App key feature success data   |
+| rename_planner_plan | Confirms successful renaming of shared task list | Basic |     | App key feature success data   |
+| update_personal_task_and_nav_to_view | Confirms successful updating of a personal task item and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
+| load_chat_plans_list | Confirms successful fetching of planner plans for a chat's plan view | Basic |     | App key feature success data   |
+| load_personal_task_list | Confirms successful fetching of a personal tasklist's tasks for the tasklist view | Basic |     | App key feature success data   |
+| load_shared_task_list | Confirms successful fetching of a shared tasklist's tasks for the tasklist view | Basic  |     | App key feature success data   |
+| load_smart_task_list | Confirms successful fetching of a smart tasklist's tasks for the tasklist view | Basic |     | App key feature success data   |
+| load_home_page | Confirms successful fetching of both personal and shared tasklists for the main home view | Basic |     | App key feature success data   |
 
 ### Teams FLW
 
@@ -1016,103 +1035,103 @@ The following article contains lists of the properties sent with various events,
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| AccessibilityUserConfiguration | When a FLW Manager approves a FLW request to take time off. | Basic | To toggle if this is an accessible feature. | App key feature success data   |
-| Viewed | User was unable to login. | Basic | Key functionality for schedule feature. | App key feature success data   |
-| ErrorShown | Teams FLW Android Prod | User saves the day availability. | Basic | Key functionality for error shown. | App high value activity error data   |
-| CreateShiftOrTimeOffClicked | This is to track if you clicked create a shift or time off clicked | Basic | Key functionality for time off feature. | App key feature success data   |
-| TimeOffReasonClicked | This it to track if you cited a reason for time off. | Basic | Key functionality for time off feature. | App key feature success data   |
-| RequestSent | This is to log if there was a request sent. | Basic | Key functionality for request feature. | App key feature success data   |
-| ShiftDetailsTodaysCoworkers | On the clock in screen, user clicks on Start or End break button. | Basic | Key functionality for shifts details feature | App key feature success data   |
+| accessibilityUserConfiguration | When a FLW Manager approves a FLW request to take time off. | Basic | To toggle if this is an accessible feature. | App key feature success data   |
+| viewed | User was unable to login. | Basic | Key functionality for schedule feature. | App key feature success data   |
+| errorShown | Teams FLW Android Prod | User saves the day availability. | Basic | Key functionality for error shown. | App high value activity error data   |
+| createShiftOrTimeOffClicked | This is to track if you clicked create a shift or time off clicked | Basic | Key functionality for time off feature. | App key feature success data   |
+| timeOffReasonClicked | This it to track if you cited a reason for time off. | Basic | Key functionality for time off feature. | App key feature success data   |
+| requestSent | This is to log if there was a request sent. | Basic | Key functionality for request feature. | App key feature success data   |
+| shiftDetailsTodaysCoworkers | On the clock in screen, user clicks on Start or End break button. | Basic | Key functionality for shifts details feature | App key feature success data   |
 
 ### Teams FLW iOS Prod and Teams FLW Android Production
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| PageEntered | User was able to login. | Basic | Key functionality for shifts details feature | App key feature success data   |
-| DateChanged | Register user's break start or end. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for datechanged feature. | App key feature success data   |
-| ShiftDetailsCalendar | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for calendar feature. | App key feature success data   |
-| OfferSwapShiftFromL1Triggered | Register user's clock in or out. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for requests feature. | App key feature success data   |
-| PlusButtonClicked | Triggered when the user closes the banner message of a notification. | Basic | Key functionality for requests feature. | App key feature success data   |
-| ToggleClicked | To view a declined time off request. | Basic | Key functionality for shifts reminder feature | App key feature success data   |
-| ClosedBannerMessage | Triggered when the user closes the banner message of a notification. | Basic | Key functionality for timezone feature. | App key feature success data   |
-| MessageTriggered | This is when a notification is triggered for a message. | Basic | Key functionality for timezone feature. | App key feature success data   |
-| ShiftDetails | This is to see the details of the shift. | Basic | Key functionality for request feature. | App key feature success data   |
-| RequestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request feature. | App key feature success data   |
-| SendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for request feature. | App key feature success data   |
-| DayClicked | Clicking the day view when user is seeing their Shifts | Basic | Key functionality for day clicked feature. | App key feature success data   |
-| DaySaved | This is to save a day of shifts. | Basic | Key functionality for create shift feature. | App key feature success data   |
-| GroupClicked | Tracks when a user clicks on the group of the shift | Basic | Key functionality for group clicked feature. | App key feature success data   |
-| ShareShiftsClicked | The details of an open shift. | Basic  | Key functionality for share shifts feature. | App key feature success data   |
-| RequestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request type feature. | App key feature success data   |
-| RequestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for request feature. | App key feature success data   |
-| MyShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for shift picker feature. | App key feature success data   |
-| TeamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for shift picker feature. | App key feature success data   |
-| OfferRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for offer feature | App key feature success data   |
-| TeamSelectedClicked | When the user clicks on **Add** on a timesheet | Basic | Key functionality for team selected feature. | App key feature success data   |
-| SendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for request bulk feature. | App key feature success data   |
-| ApproveTimeOffRequest | When an  FLW Manager approves a FLW request to take time off. | Basic | Key functionality of Time Off requests. | App key feature success data   |
-| BadUrlLoginFailed | User was unable to login. | Basic | If a user was unable to login. | Crash data – Unexpected app exit data   |
-| BadUrlLoginSuccess | User was able to login. | Basic | If a user was able to login. | App key feature performance data   |
-| BreakStartEndClicked | On the clock ins creen, user clicks on **Start** or **End break** button. | Basic | Key functionality for an FLW requesting a break. | App key feature success data   |
-| BreakStartEndTriggered | Register user's break start or end. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for break feature within Shifts. | App key feature success data   |
-| ClockInOutClicked | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for a worker clocking in and clocking out | App key feature success data   |
-| ClockInOutTriggered | Register user's clock in or out. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality if a worker clocked in with location | App key feature success data   |
-| ClosedBannerMessage | Triggered when the user closes the banner message of a notification. | Basic | Key functionality if a user closes a notification. | App key feature success data   |
-| ComposeParticipantAdded | When a user adds a participant to the shifts app. | Basic | Key functionality for adding people. | App key feature success data   |
-| CreateConversationClicked | When a user creates a conversation with other workers. | Basic | Key functionality for creating message. | App key feature success data   |
-| CreateShiftClicked | When a manager clicks to creates a shift. | Basic | Key functionality for shift creation. | App key feature success data   |
-| DateChanged | Changing dates that are shown in calendar view to view shifts. | Basic | Key functionality for feature calendar, and viewing date ranges. | App key feature success data   |
-| DayClicked | Clicking the day view when user is seeing their Shifts | Basic | Key functionality for feature calendar, and viewing day shifts. | App key feature success data   |
-| DaySaved | User saves the day availability. | Basic | Key functionality for shifts, to save available days. | App key feature success data   |
-| DeclineTimeOffRequest | When a user declines the request for time off of work. | Basic | Key functionality for time off, for manager to reject time off request. | App key feature success data   |
-| DeleteShift | Tracks when the user deletes a shift. | Basic | Key functionality for feature, deleting a shift | App key feature success data   |
-| EditShiftClicked | Tracks when a user edits a shift. | Basic | Key functionality for feature, editing a shift. | App key feature success data   |
-| EntryPointClicked | Tracking clicking **Requests** in the **Schedule** tab. Requests are for when an FLW is requesting a shift time, etc.. | Basic | Key functionality for requests. | App key feature success data   |
+| pageEntered | User was able to login. | Basic | Key functionality for shifts details feature | App key feature success data   |
+| dateChanged | Register user's break start or end. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for datechanged feature. | App key feature success data   |
+| shiftDetailsCalendar | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for calendar feature. | App key feature success data   |
+| offerSwapShiftFromL1Triggered | Register user's clock in or out. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for requests feature. | App key feature success data   |
+| plusButtonClicked | Triggered when the user closes the banner message of a notification. | Basic | Key functionality for requests feature. | App key feature success data   |
+| toggleClicked | To view a declined time off request. | Basic | Key functionality for shifts reminder feature | App key feature success data   |
+| closedBannerMessage | Triggered when the user closes the banner message of a notification. | Basic | Key functionality for timezone feature. | App key feature success data   |
+| messageTriggered | This is when a notification is triggered for a message. | Basic | Key functionality for timezone feature. | App key feature success data   |
+| shiftDetails | This is to see the details of the shift. | Basic | Key functionality for request feature. | App key feature success data   |
+| requestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request feature. | App key feature success data   |
+| sendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for request feature. | App key feature success data   |
+| dayClicked | Clicking the day view when user is seeing their Shifts | Basic | Key functionality for day clicked feature. | App key feature success data   |
+| daySaved | This is to save a day of shifts. | Basic | Key functionality for create shift feature. | App key feature success data   |
+| groupClicked | Tracks when a user clicks on the group of the shift | Basic | Key functionality for group clicked feature. | App key feature success data   |
+| shareShiftsClicked | The details of an open shift. | Basic  | Key functionality for share shifts feature. | App key feature success data   |
+| requestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request type feature. | App key feature success data   |
+| requestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for request feature. | App key feature success data   |
+| myShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for shift picker feature. | App key feature success data   |
+| teamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for shift picker feature. | App key feature success data   |
+| offerRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for offer feature | App key feature success data   |
+| teamSelectedClicked | When the user clicks on **Add** on a timesheet | Basic | Key functionality for team selected feature. | App key feature success data   |
+| sendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for request bulk feature. | App key feature success data   |
+| approveTimeOffRequest | When an  FLW Manager approves a FLW request to take time off. | Basic | Key functionality of Time Off requests. | App key feature success data   |
+| badUrlLoginFailed | User was unable to login. | Basic | If a user was unable to login. | Crash data – Unexpected app exit data   |
+| badUrlLoginSuccess | User was able to login. | Basic | If a user was able to login. | App key feature performance data   |
+| breakStartEndClicked | On the clock ins creen, user clicks on **Start** or **End break** button. | Basic | Key functionality for an FLW requesting a break. | App key feature success data   |
+| breakStartEndTriggered | Register user's break start or end. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for break feature within Shifts. | App key feature success data   |
+| clockInOutClicked | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for a worker clocking in and clocking out | App key feature success data   |
+| clockInOutTriggered | Register user's clock in or out. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality if a worker clocked in with location | App key feature success data   |
+| closedBannerMessage | Triggered when the user closes the banner message of a notification. | Basic | Key functionality if a user closes a notification. | App key feature success data   |
+| composeParticipantAdded | When a user adds a participant to the shifts app. | Basic | Key functionality for adding people. | App key feature success data   |
+| createConversationClicked | When a user creates a conversation with other workers. | Basic | Key functionality for creating message. | App key feature success data   |
+| createShiftClicked | When a manager clicks to creates a shift. | Basic | Key functionality for shift creation. | App key feature success data   |
+| dateChanged | Changing dates that are shown in calendar view to view shifts. | Basic | Key functionality for feature calendar, and viewing date ranges. | App key feature success data   |
+| dayClicked | Clicking the day view when user is seeing their Shifts | Basic | Key functionality for feature calendar, and viewing day shifts. | App key feature success data   |
+| daySaved | User saves the day availability. | Basic | Key functionality for shifts, to save available days. | App key feature success data   |
+| declineTimeOffRequest | When a user declines the request for time off of work. | Basic | Key functionality for time off, for manager to reject time off request. | App key feature success data   |
+| deleteShift | Tracks when the user deletes a shift. | Basic | Key functionality for feature, deleting a shift | App key feature success data   |
+| editShiftClicked | Tracks when a user edits a shift. | Basic | Key functionality for feature, editing a shift. | App key feature success data   |
+| entryPointClicked | Tracking clicking **Requests** in the **Schedule** tab. Requests are for when an FLW is requesting a shift time, etc.. | Basic | Key functionality for requests. | App key feature success data   |
 | FREActionClicked | User clicks on **Get started**, **Try Later**, or **Close** (GPS) in First Run Experience (FRE). | Basic | Key functionality to track success of first run experience feature. | App key feature success data   |
 | FRETriggered | User views the time clock First Run Experience (FRE). | Basic | Key functionality to track success of first run experience within time clock feature. | App key feature success data   |
 | GPSPromptClicked | User clicks on **Allow** or **Don't Allow** in OS prompt. Allowing GPS or not. | Basic | Key functionality for feature, GPS location for user being on site for clocking in/out feature. | App key feature success data   |
-| GroupClicked | Tracks when a user clicks on the group of the shift | Basic | Key functionality for feature, groups of shifts. | App key feature success data   |
-| LogOutClicked | When a user logs out. | Basic | Key functionality for log out. | App key feature success data   |
-| MessageTriggered | Triggered when the user's device time zone doesn't match the team time zone | Basic | Key functionality for feature of time zone. | App key feature success data   |
-| MyShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for feature, my shifts. | App key feature success data   |
-| OfferRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for feature, offer shifts. | App key feature success data   |
-| OfferSwapShiftFromL1 | The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed** | Basic | Key functionality for feature, swap shifts. | App key feature success data   |
-| OfferSwapShiftFromL1Triggered | The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed** is triggered. | Basic  | Key functionality for feature, swap shifts. | App key feature success data   |
-| OpensCalendarView | Tracking user tapping on open shifts from Schedule tab | Basic | Key functionality for feature, Open Shifts | App key feature success data   |
-| OpenShiftsClicked | How many people tap the calendar icon. | Basic | Key functionality for feature, Calendar. | App key feature success data   |
+| groupClicked | Tracks when a user clicks on the group of the shift | Basic | Key functionality for feature, groups of shifts. | App key feature success data   |
+| logOutClicked | When a user logs out. | Basic | Key functionality for log out. | App key feature success data   |
+| messageTriggered | Triggered when the user's device time zone doesn't match the team time zone | Basic | Key functionality for feature of time zone. | App key feature success data   |
+| myShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for feature, my shifts. | App key feature success data   |
+| offerRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for feature, offer shifts. | App key feature success data   |
+| offerSwapShiftFromL1 | The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed** | Basic | Key functionality for feature, swap shifts. | App key feature success data   |
+| offerSwapShiftFromL1Triggered | The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed** is triggered. | Basic  | Key functionality for feature, swap shifts. | App key feature success data   |
+| opensCalendarView | Tracking user tapping on open shifts from Schedule tab | Basic | Key functionality for feature, Open Shifts | App key feature success data   |
+| openShiftsClicked | How many people tap the calendar icon. | Basic | Key functionality for feature, Calendar. | App key feature success data   |
 | PlusButtonClicked | <ul><li>Tracking clicking the **plus button** to start a schedule.</li><li>Tracking clicking the **plus button** to start a request on RequestList.sn</li></ul> | Basic | <ul><li>Key functionality for feature, schedule creation</li><li>Key functionality for feature, requests.</li></ul> | App key feature success data   |
-| RequestActedOn | Tracks when the manager acts on open shift requests | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
-| RequestActionClicked | When a user requests an action. | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
-| RequestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| RequestSent | Tracks when the user requests an open shift | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| RequestTypeClicked | <ul><li>Tracking what type of request people select from the requests picker</li><li>Request type that the user clicks</li><ul> | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| RetryButtonClicked | When a user clicks on the retry button. | Basic | Key functionality for feature, retry shifts. | App key feature success data   |
-| SendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for feature, send shifts. | App key feature success data   |
-| SendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for feature, send shifts. | App key feature success data   |
-| ShareShift | The information that is given when a shift is shared. | Basic | Key functionality for feature, share shifts. | App key feature success data   |
-| ShareShiftsClicked | The details of an open shift. | Basic | Key functionality for feature,shifts. | App key feature success data   |
-| ShiftAssigneeClicked | The Shifts Calendar view showing the particular shifts details | Basic | Key functionality for feature, shifts. | App key feature success data   |
-| ShiftDetails | Your own shifts. | Basic | Key functionality for feature, shift shifts. | App key feature success data   |
-| ShiftDetailsCalendar | Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team. | Basic | Key functionality for feature, switch shifts. | App key feature success data   |
-| ShiftDetailsMyShifts | Tracking user tapping on **Calendar** from Schedules Tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
-| SwitchTeamsDialogTriggered | User views Shifts tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
-| TabCalendarClicked | User has chosen a team from the team picker | Basic  | Key functionality for feature, team shifts. | App key feature success data   |
-| TabViewed | Only logged if request being sent is a swap. Tracking user clicks into **Team Shift** picker | Basic | Key functionality for feature, team shifts. | App key feature success data   |
-| TeamSelectedClicked | When the user clicks on Add on a timesheet | Basic  | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| TeamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| TimesheetAddClicked | When the user adds a note to their break edits. Log the event once the user saves the changes. | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| TimesheetBreakAdded | When the user adds a new clock entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| TimesheetBreakEdited | When the user confirms their timesheet. Log the event when the user hits confirm in the modal | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| TimesheetBreakNoteAdded | When the user deletes their timesheet. Log the event when the user confirms the delete in the modal. | Basic | Key functionality for feature, timesheets. | App key feature success data   |
-| TimesheetClockAdded | When the user clicks on Edit for a timesheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
-| TimesheetClockEdited | When the user clicks save on an edited timesheet | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| TimesheetConfirmed | When the user adds a note to their timesheet edits. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheetnote shifts. | App key feature success data   |
-| TimesheetDeleted | If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted. | Basic | Key functionality for feature, reminders. | App key feature success data   |
-| TimesheetEditClicked | User Configuration telemetry. | Basic | Key functionality to set up user information. | App key feature success data   |
-| TimesheetEditSaved | User taps on time sheet from a users profile to open that users time sheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
-| TimesheetNoteAdded | To view an approved time off request. | Basic | Key functionality for feature, approve time off. | App key feature success data   |
-| ToggleClicked | To view a declined time off request. | Basic | Key functionality for feature, decline time off. | App key feature success data   |
-| UserConfiguration | To view a pending time off request. | Basic | Key functionality for feature, time of requests. | App key feature success data   |
+| requestActedOn | Tracks when the manager acts on open shift requests | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
+| requestActionClicked | When a user requests an action. | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
+| requestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for feature, request shifts. | App key feature success data   |
+| requestSent | Tracks when the user requests an open shift | Basic | Key functionality for feature, request shifts. | App key feature success data   |
+| requestTypeClicked | <ul><li>Tracking what type of request people select from the requests picker</li><li>Request type that the user clicks</li><ul> | Basic | Key functionality for feature, request shifts. | App key feature success data   |
+| retryButtonClicked | When a user clicks on the retry button. | Basic | Key functionality for feature, retry shifts. | App key feature success data   |
+| sendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for feature, send shifts. | App key feature success data   |
+| sendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for feature, send shifts. | App key feature success data   |
+| shareShift | The information that is given when a shift is shared. | Basic | Key functionality for feature, share shifts. | App key feature success data   |
+| shareShiftsClicked | The details of an open shift. | Basic | Key functionality for feature,shifts. | App key feature success data   |
+| shiftAssigneeClicked | The Shifts Calendar view showing the particular shifts details | Basic | Key functionality for feature, shifts. | App key feature success data   |
+| shiftDetails | Your own shifts. | Basic | Key functionality for feature, shift shifts. | App key feature success data   |
+| shiftDetailsCalendar | Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team. | Basic | Key functionality for feature, switch shifts. | App key feature success data   |
+| shiftDetailsMyShifts | Tracking user tapping on **Calendar** from Schedules Tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
+| switchTeamsDialogTriggered | User views Shifts tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
+| tabCalendarClicked | User has chosen a team from the team picker | Basic  | Key functionality for feature, team shifts. | App key feature success data   |
+| tabViewed | Only logged if request being sent is a swap. Tracking user clicks into **Team Shift** picker | Basic | Key functionality for feature, team shifts. | App key feature success data   |
+| teamSelectedClicked | When the user clicks on Add on a timesheet | Basic  | Key functionality for feature, timesheet shifts. | App key feature success data   |
+| teamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
+| timesheetAddClicked | When the user adds a note to their break edits. Log the event once the user saves the changes. | Basic | Key functionality for feature, timesheet. | App key feature success data   |
+| timesheetBreakAdded | When the user adds a new clock entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet. | App key feature success data   |
+| timesheetBreakEdited | When the user confirms their timesheet. Log the event when the user hits confirm in the modal | Basic | Key functionality for feature, timesheet. | App key feature success data   |
+| timesheetBreakNoteAdded | When the user deletes their timesheet. Log the event when the user confirms the delete in the modal. | Basic | Key functionality for feature, timesheets. | App key feature success data   |
+| timesheetClockAdded | When the user clicks on Edit for a timesheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
+| timesheetClockEdited | When the user clicks save on an edited timesheet | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
+| timesheetConfirmed | When the user adds a note to their timesheet edits. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheetnote shifts. | App key feature success data   |
+| timesheetDeleted | If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted. | Basic | Key functionality for feature, reminders. | App key feature success data   |
+| timesheetEditClicked | User Configuration telemetry. | Basic | Key functionality to set up user information. | App key feature success data   |
+| timesheetEditSaved | User taps on time sheet from a users profile to open that users time sheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
+| timesheetNoteAdded | To view an approved time off request. | Basic | Key functionality for feature, approve time off. | App key feature success data   |
+| toggleClicked | To view a declined time off request. | Basic | Key functionality for feature, decline time off. | App key feature success data   |
+| userConfiguration | To view a pending time off request. | Basic | Key functionality for feature, time of requests. | App key feature success data   |
 
 ### TFL
 
