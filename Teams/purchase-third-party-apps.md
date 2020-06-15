@@ -17,10 +17,10 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ---
-Purchase third-party apps in the Microsoft Teams admin center - Work in Progress
+Purchase third-party apps in the Microsoft Teams admin center
 ======================================================
 
-The [Manage apps page](manage-apps.md) in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. You can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
+The [Manage apps page](manage-apps.md) in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. For example, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
 Here, you can also search for and purchase licenses for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a Software as a Service (SaaS) subscription for purchase.
 
@@ -35,7 +35,7 @@ You must be a global admin or Teams service admin to access the page.
     - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information. If you need more information, click the **learn more** link to go to the app's page in [AppSource](https://appsource.microsoft.com/).  
+3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the app. If you need more information, click the **learn more** link to go to the app's page in [AppSource](https://appsource.microsoft.com/).  
 4. To select a plan, click **Purchase now**.
 5. Choose the plan that you want. By default, the plan that's displayed on this page is the first plan that's listed on the **Plans and pricing** tab. If the app offers more than one plan, click **Change** to see the list of available plans.
 6. Enter the number of seats that you want to buy.
@@ -46,7 +46,7 @@ After you've purchased the app, you can view the purchase details on the **Manag
 
 ## Have an app that you want to list and sell on AppSource?
 
-If you're organization wants to create a SaaS offer for an app to list on AppSource, see [Create a new Saas offer in the commercial marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
+Publishing an app to [AppSource](https://appsource.microsoft.com/) makes it available in the Teams app catalog. If your organization wants to create a SaaS offer for an app to list on AppSource, see [Create a new Saas offer in the commercial marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer).
 
 ## Related topics
 
