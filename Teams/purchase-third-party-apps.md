@@ -24,23 +24,26 @@ The [Manage apps page](manage-apps.md) in the Microsoft Teams admin center is wh
 
 Here, you can also purchase licenses for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a Software as a Service (SaaS) subscription for purchase.
 
-You must be a global admin or Teams service admin to access the page.
-
 ## Search for and purchase a third-party app
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. Search for the app that you want. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app will have one of the following values:
     - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
 3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the app. If you need more information, click the **learn more** link to go to the app's page in [AppSource](https://appsource.microsoft.com/).  
-4. To select a plan, click **Purchase now**.
-5. Choose the plan that you want. By default, the plan that's displayed on this page is the first plan that's listed on the **Plans and pricing** tab. If the app offers more than one plan, click **Change** to see the list of available plans.
-6. Enter the number of seats that you want to buy.
+4. To select a plan, click **Buy**. You'll be redirected to the AppSource page to complete your purchase. 
+5. Choose the plan that you want. If the app offers more than one plan, click **Change** to see the list of available plans.
+6. Select your billing term (either **Monthly** or **Yearly**), and then enter the number of user licenses that you want to buy.
 7. When you're ready, select **Place order**.
-8. Click **Configure now** to activate your subscription on the developer's website.
+8. Click **Configure now** to activate your subscription on the publisher's website.
 
-After you've purchased the app, you can view the purchase details on the **Manage apps** page.
+After you've purchased the app, you can view the following purchase details on the **Manage apps** page.
+
+- **License activation date**: Purchase date
+- **Licenses**: Number of licenses you purchased
+
+Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage licenses assignments for users.
 
 ## Have an app that you want to list and sell on AppSource?
 
