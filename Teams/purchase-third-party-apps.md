@@ -22,7 +22,7 @@ Purchase third-party apps in the Microsoft Teams admin center
 
 The [Manage apps page](manage-apps.md) in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. For example, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also search for and purchase licenses for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a Software as a Service (SaaS) subscription for purchase.
+Here, you can also purchase licenses for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a Software as a Service (SaaS) subscription for purchase.
 
 You must be a global admin or Teams service admin to access the page.
 
