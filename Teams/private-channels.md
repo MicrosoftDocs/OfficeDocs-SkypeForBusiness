@@ -65,9 +65,9 @@ When a private channel is created, it's linked to the parent team and can't be m
 
 By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level.
 
-> 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+ 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
-> 2. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
+ 2. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
     Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
