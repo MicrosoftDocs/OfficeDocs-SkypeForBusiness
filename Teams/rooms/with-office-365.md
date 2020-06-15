@@ -112,7 +112,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 5. If you do not want the password to expire, use the following syntax:
 
     ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
     ```
 <!--
    ``` PowerShell
@@ -122,6 +122,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.
 
   ``` PowerShell
+    $acctUpn="Rigel1@contoso.onmicrosoft.com"
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
@@ -152,6 +153,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
 
   ``` PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
@@ -178,12 +180,14 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
