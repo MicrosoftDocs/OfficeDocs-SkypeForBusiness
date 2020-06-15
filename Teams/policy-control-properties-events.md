@@ -201,10 +201,10 @@ The following article contains lists of the properties sent with various events,
 | chat | <ul><li>New message button or textbox in chat</li><li>1:1 chat tapped on callHistory item</li><li>1:1 chat click from call list</li></ul> | Basic | Feature success and usage telemetry see event description | App key feature success data   |
 | createTeam, createChannel | <ul><li>Tap the **Skip** button in the **Add Members** page (check existing first)</li><li> Tap the **Done** button in the **Add Members** page (check existing first)</li><li>Show team or channel creation acknowledgement</li></ul> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of a new team. | App key feature success data   |
 | editTeam, editChannel | <ul><li>Tap the **Cancel** button in the **Add Members** page (existing team or channel)</li><li>Tap the **Done** button in the **Add Members** page (existing team or channel)</ul></li> | Basic | Teams and channels are an essential construct of teams. This item provides success data around successful addition of members in a team and successful creation of an existing team. | App key feature success data   |
-| officeLens or cameraImage | Camera picture selected - standard camera or office lens (need databag prop stating imageCount) | Basic | Key success metrics for office lens integration with Teams. | App key feature success data |
+| officeLens or cameraImage | Camera picture selected - standard camera or office lens (need databag prop stating imageCount) | Basic | Key success metrics for office lens integration with Teams. | App key feature success data   |
 | acknowledgeSettingChange | Acknowledge update in **we updated notification setting** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to acknowledge notification update. Used to deduce overall notification reliability. | App key feature success data   |
 | addChannel | Admin Add channel | Basic | Teams and channels are essential construct of teams. This item provides success data around successful creation of a channel. |     |
-| addMember | Taps the **Invite people** button in the **More** menu | Basic | This provide key feature success telemetry around a freemium invite. Helps the team understand feature discoverability and success metrices. | App key feature success data |
+| addMember | Taps the **Invite people** button in the **More** menu | Basic | This provide key feature success telemetry around a freemium invite. Helps the team understand feature discoverability and success metrices. | App key feature success data   |
 | alertsNavAlert | Tapping on a feed item | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | appBG | App BG | Basic  |     | App key feature success data   |
 | appKilled | App Killed | Basic | Time spent on app is a key metric to understand overall app engagement and this metric helps us deduce overall time spent on the app. | App key feature success data   |
@@ -218,7 +218,7 @@ The following article contains lists of the properties sent with various events,
 | ChannelDetails | <ul><li>User taps on channel header</li><li>User navigates to channel details page</li></ul> | Basic | Provides key success data for channel navigation | App key feature success data   |
 | channelFollow/channelUnfollow | Follow channel | Basic | Provides key success data on following the channel | App key feature success data   |
 | channelNav | Navigating to a channel from anywhere | Basic | Provides key success data for channel navigation and entrypoint discoverability | App key feature success data   |
-| channelNotificationSettings | <ul><li>Respond to “New Notification settings” dialog</li><li> Tap channel notification settings button in channel view</li><li>Select a channel notification setting</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
+| channelNotificationSettings | <ul><li>Respond to **New Notification settings** dialog</li><li> Tap channel notification settings button in channel view</li><li>Select a channel notification setting</li></ul> | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | channelTabOverflow | Clicks on **More** tab in channel | Basic | As the number of apps increase in Teams, this is an important metric for success data for tabs discoverability and features | App key feature success data   |
 | Chat - No AS Assigned | <ul><li>Done button on adding a user to a chat</li><li>User taps on chat list filter to filter by unread</li></ul> | Basic | Key success metrics for viewing unread chat or editing chat roaster | App key feature success data   |
 | chatAddChat | Add member to chat button tapped (this will be same for 1:1 chat and group chat) | Basic | Key success metrics for editing chat roaster | App key feature success data   |
@@ -236,10 +236,10 @@ The following article contains lists of the properties sent with various events,
 | clickPhotoOfficeLens | Click on **Take photo** - launch camera (Android only) | Basic | Provide success metrics for camera integration and image sharing | App key feature success data   |
 | composeExpandComposer | Format button tapped | Basic | Provide success data for rich text box integration | App key feature success data   |
 | composeFilePick | native file picker launched | Basic | Provide success data for files sharing  |     |
-| composeImagePicker | Image button tapped | Basic | Provide success metrics for image sharing | App key feature success data  |
+| composeImagePicker | Image button tapped | Basic | Provide success metrics for image sharing | App key feature success data   |
 | composeLocation | Location button tapped in compose | Basic | Provide success metrics for location integration in Teams| App key feature success data   |
 | composeMention | At mention | Basic | For a collaboration product @mentioning and getting someone's attention is important. This provides success data for @mention feature in Teams | App key feature success data   |
-| composeOpenEmoticonPicker | emoticon picker tapped | Basic | Provide success data for emoticon picker | App key feature success data   |
+| composeOpenEmoticonPicker | Emoticon picker tapped | Basic | Provide success data for emoticon picker | App key feature success data   |
 | composeOpenFunPicker | Fun picker tapped | Basic | Provide success data for fun picker, including giphy and stickers | App key feature success data   |
 | consumeVoiceMessage  | Voice message played | Basic | Voice message is important part of mobile messaging and is a competition parity feature. Provides success data for voice message consumption. | App key feature success data   |
 | ContactCard_SeeMoreOOF | See move of long OOF message |     |     |     |
@@ -254,14 +254,14 @@ The following article contains lists of the properties sent with various events,
 | dismissFlyout | Dismiss button pressed | Basic | Required to measure feature discoverability and success | App key feature success data   |
 | dismissModality | Exit modality picker without sharing |     |     |     |
 | dismissModalityPicker | Modality picker button pressed |     |     |     |
-| dismissReadReceiptsNotice | User pressed **got it** from feature notice | Basic | Key feature success metrics for read receipts | App key feature success data   |
+| dismissReadReceiptsNotice | User pressed **Got it** from feature notice | Basic | Key feature success metrics for read receipts | App key feature success data   |
 | DLPDelete | User deleted blocked message | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | DLPEdit | User edited blocked message | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | DLPOverride | User overrode blocked message | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | DLPOverrideReport | User reported false positive and overrode message | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | DLPReport | User reported false positive | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | DLPResolve | User attempted to resolve DLP message | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| DLPSeeOriginal | User tapped to see original message | Basic | Feature success telemetry, see event description. | App key feature success data  |
+| DLPSeeOriginal | User tapped to see original message | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | edit | Edit button in the message | Basic | Provides success data for edit message feature in chats | App key feature success data   |
 | enabled | <ul><li>User taps **Enable notifications** in FRE</li><li>User taps Enable in reminder</li></ul> | Basic | Notifications are key to drive engagement. This provides key success data on enabling the notification in FRE flow | App key feature success data   |
 | enabled, notNow | Notification Permission Prompt Accept button | Basic | Captures how many people have enabled the notification, provide information with app engagement. Required for feature success | App key feature success data   |
@@ -276,7 +276,7 @@ The following article contains lists of the properties sent with various events,
 | federatedUpgradeNewChat | User upgrades legacy chat to native | Basic | This is required to get the success data for federated chats feature | App key feature success data   |
 | files, conversation, oneNote etc | Tab clicked | Basic | Let us know the **About** tab discoverability and feature success for tabbed layout | App key feature success data   |
 | firstTimeSignedIn | <ul><li>Sign-in success</li><li>First sign-in Succeeded</li><li>Sign-in Errors Seen by User</li><li>Record telemetry about MAM/MDM policies implemented on first time login</li><li>Record app install referrer parameters after first time successful login</li></ul> | Basic | Feature success telemetry for sign in or sign up. Provides data about failure during FRE | App key feature success data   |
-| formattingBold | User selects bold formatting | Optional | Track usage of formatting features | App key feature success data  |
+| formattingBold | User selects bold formatting | Optional | Track usage of formatting features | App key feature success data   |
 | formattingHighlight | User selects highlight formatting | Optional | Track usage of formatting features | App key feature success data   |
 | formattingImportant | User selects importance | Optional | Track usage of formatting features | App key feature success data   |
 | formattingItatlics | User selects italics | Optional  | Track usage of formatting features | App key feature success data   |
@@ -286,11 +286,11 @@ The following article contains lists of the properties sent with various events,
 | freDone | FRE done | Basic | Feature success telemetry on how many users successfully completed the sign in. This helps us preempt the sign in issues with the product. And solve login isues proactively. | App key feature success data   |
 | funSearchQueryEntered  | Giphy query entered | Optional | Success data for giphy attachment feature in Teams | App key feature success data   |
 | funSelectItem | Giphy image choose | Basic | Success data for giphy attachment feature in Teams | App key feature success data   |
-| galleryImage | image uploaded - gallery | Basic | Success data for image attachment feature in Teams | App key feature success data   |
+| galleryImage | Image uploaded - gallery | Basic | Success data for image attachment feature in Teams | App key feature success data   |
 | goToNotificationSettings | Go to notification settings page from **we updated notification settings** dialog | Basic | Notification is key for driving engagement. This is a feature success metrics to understand notifications. Used to deduce overall notification reliability. | App key feature success data   |
 | hamburgerMenu | Navigate to hamburger menu | Basic | Hamburger contains important actions such as account switch, notification settings, data setting, profile settings, this is important to understand hamburger menu discoverability. | App key feature success data   |
 | hide | Hide chat | Basic | Feature success telemetry for hiding chats | App key feature success data   |
-| image | image | Basic | Feature success telemetry for image preview | App key feature success data   |
+| image | Image | Basic | Feature success telemetry for image preview | App key feature success data   |
 | importantMessage_select | User selects important message from priority context menu | Basic | Feature success telemetry for important message | App key feature success data   |
 | importantMessageSend  | User sends important message | Basic | Feature success telemetry for important message | App key feature success data   |
 | install | <ul><li>Install</li><li>Install Event</li></ul> | Basic | App key feature success data on overall installation of Teams | App key feature success data   |
@@ -299,7 +299,7 @@ The following article contains lists of the properties sent with various events,
 | inviteGuest | Taps the **+** button in Invite screen | Basic | Helps with feature discoverability and success metrices for Teams guests | App key feature success data   |
 | joinTeam | Join button pressed | Basic | Feature success and usage telemetry | App key feature success data   |
 | Launch source eg. direct, link, appShortcut | Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users)| Basic | App engagement success metrics, Also success metrics for Intune, MAM and MDM integration | App key feature success data   |
-| leaveChat | Confirm leave chat | Basic | Feature success telemetry for group chat | App Key feature success   |
+| leaveChat | Confirm leave chat | Basic | Feature success telemetry for group chat | App key feature success data   |
 | legacyChatLink | User taps on link to legacy chat | Basic | Feature success telemetry for federated chats | App key feature success data   |
 | likeAppDismiss |     | Basic | App ratings are an important part of mobile app infrastructure and are tracked at various levels for app success. Success metrics for the app overall. | App key feature success data   |
 | likeAppNo |     | Basic | App ratings are an important part of mobile app infrastructure and are tracked at various levels for app success. Success metrics for the app overall. | App key feature success data   |
@@ -315,21 +315,21 @@ The following article contains lists of the properties sent with various events,
 | messageEditMessage | Edit message | Basic | Feature success metrics for edit message feature | App key feature success data   |
 | messageForwardMessage | User taps on Forward entry point from message context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | messageLike/messageUnlike | Message like or unlike | Basic | Feature success metrics for message reactions | App key feature success data   |
-| messageMuteSender | muteSender or unmuteSender | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| messagePriority_select | User selects Message priority entry point | Basic | Feature success metrics for important or urgent messages | App key feature success data |
+| messageMuteSender | Mute or unmute sender | Basic | Feature success telemetry, see event description. | App key feature success data   |
+| messagePriority_select | User selects Message priority entry point | Basic | Feature success metrics for important or urgent messages | App key feature success data   |
 | messageSeeOriginal | User reverts translated message back to original | Basic | Feature success metrics for message translation | App key feature success data   |
 | messageShareMessage | MessageShareMessage | Basic | Feature success metrics for share message | App key feature success data   |
 | messageTranslate | User translates a message | Basic | Feature success metrics for message translation | App key feature success data   |
 | messageUnabletoEdit | User unable to edit message | Basic | Feature success metrics for edit message feature | App key feature success data   |
 | multipleAccounts | Number of accounts for a user | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
-| multipleTenants | No. of tenants per account | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
+| multipleTenants | Number of tenants per account | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature | App key feature success data   |
 | mute | Mute chat | Basic  | Feature success and usage telemetry, see event description. | App key feature success data   |
 | nameGroupChat | Name group chat | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | nativeChatLink | User taps on link to native chat | Basic | Feature success telemetry, see event description. | App key feature success data   |
-| navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname) | Nav Tab clicked (or hamburger menu clicked - navMore) | Basic | Provides navigation information for each of the apps. Important to get active user count for various modules. | App Key feature success   |
-| navTeams | Tap **see all** | Basic | Feature success metrics for teams list | App key feature success data   |
-| notNow | User taps **not now** in reminder | Basic |     | App key feature success data   |
-| notNowUpdate | updateDefer | Basic |     |     |
+| navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname) | Nav Tab clicked (or hamburger menu clicked - navMore) | Basic | Provides navigation information for each of the apps. Important to get active user count for various modules. | App key feature success data   |
+| navTeams | Tap **See all** | Basic | Feature success metrics for teams list | App key feature success data   |
+| notNow | User taps **Not now** in reminder | Basic |     | App key feature success data   |
+| notNowUpdate | UpdateDefer | Basic |     |     |
 | open | Notification Settings tap | Basic | Allows us to capture user engagement with the notification feature. | App key feature success data   |
 | openContactCard_ReactionSummary | Navigate to contact card from reaction summary page | Basic | Feature success metrics for people app (contact card). | App key feature success data   |
 | openModalityPicker | X = ChatsAndChannels for chats and channels |     |     |     |
@@ -389,7 +389,7 @@ The following article contains lists of the properties sent with various events,
 | shareHistory | Share history picker tapped | Basic | Feature success metrics for adding users to group chat and share history feature | App key feature success data   |
 | showBanner | Number of times the **WiFi Connected, No Internet** banner appears | Optional |     |     |
 | shownReadReceiptNotice | User shown feature notice with settings options  | Basic | Feature discoverability and success metrics for read receipts | App key feature success data   |
-| signIn | <ul><li>User taps **sign in** on welcome page</li><li>Tap **Sign In** button</li></ul> | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign in issues proactively. | App key feature success data   |
+| signIn | <ul><li>User taps **Sign in** on welcome page</li><li>Tap **Sign In** button</li></ul> | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign in issues proactively. | App key feature success data   |
 | signUp | Taps **Create a free account**/**Sign up for free** | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign up issues proactively. | App key feature success data   |
 | skipVerificationForLink | User chose to skip verification | Basic | Feature success metrics for ATP safe link | App key feature success data   |
 | SMSSendMessage | User sends SMS message | Basic | Feature success metrics for send SMS feature | App key feature success data   |
@@ -399,7 +399,7 @@ The following article contains lists of the properties sent with various events,
 | StatusMsgSet | User sets new status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
 | StatusPageViaContactCard | User enters status compose experience via contact card | Basic | Feature success metrics for add status message feature | App key feature success data   |
 | StatusPageViaHamburger | User enters status compose experience via hamburger | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| table | click on table | Basic | How many people tap on table in chat or channel conversation | App key feature success data   |
+| table | Click on table | Basic | How many people tap on table in chat or channel conversation | App key feature success data   |
 | takePhotoPicker | **Take photo** tapped inside image picker | Basic | Feature success metrics for camera integration in image picking experience | App key feature success data   |
 | teamNav | View menu options for team |     |     |     |
 | tenantSwitch | On Switch Tenant | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience | App key feature success data   |
@@ -411,7 +411,7 @@ The following article contains lists of the properties sent with various events,
 | urgentMessageSelect | User selects urgent message from priority context menu | Basic | Feature success metrics for priority messages | App key feature success data   |
 | urgentMessageSend | User sends urgent message | Basic | Feature success metrics for priority messages | App key feature success data   |
 | url | url | Basic | Feature success metrics for url preview | App key feature success data   |
-| urlPreview | urlPreview | Basic | Feature success metrics for url preview | App key feature success data   |
+| urlPreview | Url preview | Basic | Feature success metrics for url preview | App key feature success data   |
 | urlPreviewAdd | URL preview add | Basic | Feature success metrics for url preview | App key feature success data   |
 | urlPreviewOpen | URL preview open | Basic | Feature success metrics for url preview | App key feature success data   |
 | urlPreviewRemove | URL preview removed | Basic | Feature success metrics for url preview | App key feature success data   |
@@ -423,7 +423,7 @@ The following article contains lists of the properties sent with various events,
 |-----------------|-------------|------|-----------------------|---------------|
 | channelNavTab | <ul><li>Clicks on **Files** tab in channel</li><li>Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way its being used </li><li>Connector card reply. Uses existing telemetry with app specific data</li></ul> | Basic/Optional | This is an essential metric for the files tab as it provides the success and discoverability data for files in Teams | App key feature success data   |
 | channelSendMessage | <ul><li>Send Channel Message</li><li>@ mention a bot in a compose box</li></ul> | NSD/Optional | As teams is a chat and collaboration product, this is a required success metric for the product all up. Any dip in these metrics would be alarming | Activity success   |
-| chatListNavConversations | chatListNavConversations | Basic | Feature success telemetry, see event description. | App key feature success data   |
+| chatListNavConversations | ChatList NavConversations | Basic | Feature success telemetry, see event description. | App key feature success data   |
 | messageBookmarkMessage | <ul><li>messageBookmarkMessage</li><li>Connector card save. Uses existing telemetry with app specific data</li><li>Save a bot message</li></ul> | Optional |     | App key feature success data   |
 | reactLike_CM | <ul><li>React with like from context menu</li><li>Like a bot message</li></ul> | Basic/Optional | Feature success and usage telemetry, see event description. | App key feature success data   |
 | replySendMessage | Send channel reply | NSD/Basic|     | <ul><li>Activity success</li><li>App key feature success data</li></ul>   |
@@ -435,7 +435,7 @@ The following article contains lists of the properties sent with various events,
 | activityTabClicked | <ul><li>Activity tab shown</li><li>Captures activity tab event</li></ul> | Basic | Helps to track if user came back to activity tab | App key feature success data   |
 | activityContextMenu | Overflow actions in activity feed | Basic | Helps to track if user can do contextual actions on feed | App key feature success data   |
 | activityFeedLongPress | Captures long press gestures on feed item | Basic | <ul><li>Helps to track if user can successfully triage feed items using gestures</li><li>Tracking usage of core scenario</li></ul> | App key feature success data   |
-| activityFeedSwipe | Captures swipe gestures on feed item | Basic | Helps to track if user can successfully triage feed items using gestures | App key feature success data |
+| activityFeedSwipe | Captures swipe gestures on feed item | Basic | Helps to track if user can successfully triage feed items using gestures | App key feature success data   |
 | activityFilterClick | Captures activity filter usage | Basic | Helps to track if user can filter feed items successfully | App key feature success data   |
 | activityFilterOptionsClick | Captures activity filter usage | Basic | <ul><li>Helps to track if user can filter feed items successfully</li><li>Helps to track if user can successfully triage feed items using gestures</li></ul> | App key feature success data   |
 | activityFilterOptionsClicked | Captures activity filter usage | Basic | <ul><li>Helps to track if user can filter feed items successfully</li><li>Tracking usage of core scenario</li></ul> | App key feature success data   |
@@ -556,7 +556,7 @@ The following article contains lists of the properties sent with various events,
 | cameraPermissionCancel | User taps cancel on camera permission dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | cameraPermissionGoToSettings | User navigates to settings from camera permissions dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | cancelFileShare | User clicks **Cancel** on the confirmation dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| cancelFileUpload | User clicks **X** on the upload dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| cancelFileUpload | User clicks **x** on the upload dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | chatCancelAudioCall | Cancel a group audio call - Confirm dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | chatCancelVideoCall | Cancel a group video call - Confirm dialog | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | chatStartAudioCall | <ul><li>1:1 audio call button tapped</li><li>Taps **Audio** button on search result</li><li>Taps **Start Call** button on right</li><li>1:1 audio call tapped from callHistory item</li><li>1:1 audio call tapped from voicemail item</li><li>Place a group audio call - Confirm dialog</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -642,7 +642,7 @@ The following article contains lists of the properties sent with various events,
 | liveMeetingPushNotificationClicked | Push notification clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | liveMeetingToastClicked | In-app toast clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | lobbyPickAudio | Number of times user switches audio output from lobby | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| lobbyToggleMuted | Number of times user turned mic on or off from lobby | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data  |
+| lobbyToggleMuted | Number of times user turned mic on or off from lobby | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | lobbyToggleVideo | Number of times user turned video on or off from lobby | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | manageBlockedNumbers | Access blocked numbers through Settings | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | maskCallerId | <ul><li>User enables calling setting to mask caller id</li><li>user disables calling setting to mask caller id</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -651,7 +651,7 @@ The following article contains lists of the properties sent with various events,
 | meetingDetailJoin | Meeting Join button tapped from Meeting Detail page | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | meetingDetailParticipants | See all participants from Meeting Detail page | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | meetingDetailSearchParticipants | Clicked **Search** in meeting participants on meeting schedule | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| meetingJoinLeave | Leave tapped -> **X** is tapped after **Join** button is tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| meetingJoinLeave | Leave tapped -> **x** is tapped after **Join** button is tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | meetingJoinNow | **Join now for VOIP** tapped | NSD |     |     |
 | meetingLeaveChat | Leave chat | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | meetingMuteChat | Mute chat | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -682,8 +682,8 @@ The following article contains lists of the properties sent with various events,
 | muteParticipant | Mute participant (move to the action sheet) | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | navCalls | Calls Tab tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | navMeetings | Calendar tab tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| navPhotoTab | photo tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| navVideoTab | video tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| navPhotoTab | Photo tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| navVideoTab | Video tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | newCall | Taps new call button | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | newCallDialPad | Taps Dialpad button on tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | newCallPeople | Taps People button on tab | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -692,7 +692,7 @@ The following article contains lists of the properties sent with various events,
 | pauseVoicemail | Pause tapped on voicemail item | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | pickGalleryPhoto | pick photo from gallery | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | pickParticipantChatDetails | Pick a user from the list | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| pickRecentPhoto | chooses recent image to share | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| pickRecentPhoto | Chooses a recent image to share | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | pinSelf | Pin myself from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | pinUser | Pin user from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | play | Play the recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -732,7 +732,7 @@ The following article contains lists of the properties sent with various events,
 | shareScreen | <ul><li>Start Screen Share</li><li>Stop Screen Share</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | shareTray | User clicks on **Share…** in the action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | simultaneousCallForward | <ul><li>Simultaneous call forward target is set</li><li>Enable simultaneous call forwarding (Calls ring me is enabled & Also ring is set)</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startPresentPhoto | start presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| startPresentPhoto | Start presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | startPresentVideo | Start presenting video | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | startPSTNCall | <ul><li>PSTN Result in Global Search (People)</li><li>PSTN call placed from Device contactCard</li><li>PSTN Call placed from callList</li><li>DialPSTN Number using DialPad</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 | startRecording | Start recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
@@ -771,114 +771,113 @@ The following article contains lists of the properties sent with various events,
 | addToMeeting    |             |      |                       |               |
 | calendarTab | Click on the **Meetings** tab in the bottom rail | Basic | <ul><li>To understand the calendar usage and compare with other apps on the bottom rail</li><li> To determine if there was a failure in rendering the calendar post click from the bottom bar</li></ul> | App key feature success data   |
 | calendarTabClicked | <ul><li>Schedule tab shown</li><li>Click on the **Meetings** tab in the bottom rail</li></ul> | Basic | <ul><li>To understand calendar usage and compare with other navbar apps on the bottom rail</li><li>To determine if there was a failure | App key feature success data   |
-| cancelEditMeeting | Click on the **Close** button while on the meeting scheduler page, after clicking **Edit meeting** | Basic | To log abandoned edit meeting clicks | App Key Feature Success Data   |
-| cancelMeeting | Click on **Cancel event** from the meeting details page | Basic | To get aggregated data on the number of cancelled meetings | App Key Feature Success Data   |
-| cancelNewMeeting | <ul><li>Click on the **Close** button while on meeting scheduler page</li><li>Click on the **Close** button while on meeting scheduler page after clicking **Edit meeting**  | Basic | To log abandoned Create meeting clicks and verify what caused them | App Key Feature Success Data   |
-| chatWithMeetingParticipants | Clicks on **Chat** tab from Meeting Details page | Basic | To understand the usage of Chats as an entry point from the Meeting Details page | App Key Feature Success Data   |
-| deleteMeeting | Click on the **Delete** button from the Meeting Details page | Basic  | To get aggregated data on the number of deleted meetings | App Key Feature Success Data   |
-| editRsvpMeetingOptions | Click on **RSVP** to change from the previous selection | Basic  |     | App Key Feature Success Data  |
+| cancelEditMeeting | Click on the **Close** button while on the meeting scheduler page, after clicking **Edit meeting** | Basic | To log abandoned edit meeting clicks | App key feature success data   |
+| cancelMeeting | Click on **Cancel event** from the meeting details page | Basic | To get aggregated data on the number of cancelled meetings | App key feature success data   |
+| cancelNewMeeting | <ul><li>Click on the **Close** button while on meeting scheduler page</li><li>Click on the **Close** button while on meeting scheduler page after clicking **Edit meeting**  | Basic | To log abandoned Create meeting clicks and verify what caused them | App key feature success data   |
+| chatWithMeetingParticipants | Clicks on **Chat** tab from Meeting Details page | Basic | To understand the usage of Chats as an entry point from the Meeting Details page | App key feature success data   |
+| deleteMeeting | Click on the **Delete** button from the Meeting Details page | Basic  | To get aggregated data on the number of deleted meetings | App key feature success data   |
+| editRsvpMeetingOptions | Click on **RSVP** to change from the previous selection | Basic  |     | App key feature success data   |
 | meetingDetailCalendarList | <ul><li>Meeting Details page tapped from calendarList</li><li>Click on **Details** tab on the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
 | meetingDetailScheduledMeeting | <ul><li>Meeting details page tapped from scheduled meeting object (**…**)</li><li>Click on the **Details** tab of a scheduled meeting | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
-| openEditMeetingForm | Click on the **Edit** button from the Meeting Details page | Basic  | To log whether edit meeting clicks were successful or not | App Key Feature Success Data   |
-| openMeetingDetails | Open the meeting details or the Open Meeting details page of a particular meeting | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data  |
-| openNewMeetingForm | Open the scheduler while setting up a new meeting | Basic  | To understand the number of meetings created from mobile and compare popularity with other clients for meetig creation | App Key Feature Success Data   |
-| refreshCalendarList | Pul down to refresh agenda view | Basic | To check if the Agenda view has been refreshed | App Key Feature Success Data   |
-| removeMeeting | Click on **Remove from Calendar** from the Meeting Details page of a cancelled meeting | Basic | To get a sense of aggregated data of unwanted meetings being pushed on to personal calendars | App Key Feature Success Data   |
-| removeParticipantFromEditMeeting | Remove a participant after clicking on **Edit meeting** from the Meeting Details page | Basic | To log if an added participant was succesfully removed or not | App Key Feature Success Data   |
-| removeParticipantFromNewMeeting | Remove a participant from the scheduler page while setting up a new meeting | Basic | To log if an added participant was succesfully removed or not | App Key Feature Success Data   |
-| saveEditMeeting | Click on the **Save** button while on the meeting scheduler page after updating a meeting | Basic | To log succesfully saved meetings or those that  failed to update | App Key Feature Success Data   |
-| saveNewMeeting | Click on the **Save** button while on the meeting scheduler page | Basic | To log succesfully saved meetings and the percentage of meetings that failed to create due to a client side or service error | App Key Feature Success Data   |
-| searchMeetingParticipants | Search for participants to add within the scheduler form | Basic | To distinguish between the number of appointments created versus the number of meetings created | App Key Feature Success Data   |
-| seeAllMeetingParticipants | <ul><li>Click on **See All** from the meeting details page</li><li>View all participants</li></ul> | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
-| seeMeetingDescription | <ul><li>Opening the Meeting Details page</li><li>Click **See More** on the Meeting description from the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
-| seeRsvpMeetingOptions | <ul><li>Click on **Notify Organizer** from the RSVP pop up</li><li>Click on **Rsvp** options from the Meeting Details page | Basic |     | App Key Feature Success Data   |
-| selectMeetingRsvpOption | Click on the **RSVP** button to choose an option | Basic |     | App Key Feature Success Data   |
-| selectMeetingRsvpOptions | Click on the **RSVP** button to choose an option | Basic |     | App Key Feature Success Data   |
-| viewFullAllDayMeetingList | Agenda view on Mobile | Basic | To log tje popularity of vew tyoe on calendar mobile | App Key Feature Success Data   |
-| viewMeetingDetails | Click on **...** menu on the Meeting Details page | Basic | Understand the usage of the More menu on calendar mobile | App Key Feature Success Data   |
-| viewMeetingOccurrence | Open up meeting details of an instance of a recurring meeting | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App Key Feature Success Data   |
-| navDynamics365  |             |      |                       |               |
-| navNotes        |             |      |                       |               |
-| navOrganization |             |      |                       |               |
-| navOrgChart     |             |      |                       |               |
-| navTasks        |             |      |                       |               |
-| navWiki         |             |      |                       |               |
-| oneNote         |             |      |                       |               |
-| addToList       |             |      |                       |               |
-| actionComposeMenu | <ul><li>Create message extension usage</li><li>Action ME usage</li></ul> | Optional |     |     |
-| Android : null |  Mute or unmute a bot chat. This is enhancing existing telemetry around chats and is only adding app information. | Optional |     |     |
-| blockChat |  Block a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional     |     |     |
-| botClickCardAction |  Connector card usage | Optional |     |     |
-| CardView - No AS assigned |  Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side  | Basic | Teams and channels are essential construct of teams. This item is required to measure error with joining a team | App key feature success data   |
-| chicletExpand |  <ul><li>Understand how users preview cards on mobile</li><li>Understand the preview closure behavior | Optional |     |     |
-| composeSearchResult |  <ul><li>Message extension result selection - helpful to understand the app search result relevance</li><li>Enhances message send telemetry with app data</li></ul> | Optional/Basic  |     | App key feature success data   |
-| composeSelectExtension |  tap on a ME app | Basic |     | Teams setup and inventory data   |
-| composeSendMessage |  Enhances message send telemetry with app data | Basic |     | App key feature success data   |
-| createComposeExtension |  <ul><li>Create message extension usage</li><li>Action ME usage</li></ul> | Optional |     |     |
-| Expected: atMention | @ mention a bot in a compose box | Optional |     |     |
-| Android: chatSendMessage |     |     |     |     |     |
-| iOS: sendMsg |     |     |     |     |     |
-| Expected: botClickCardAction | Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side | Basic |     | App key feature success data   |
-| Android: showCard |     |     |     |     |     |
-| iOS: missing |     |     |     |     |     |
-| Expected: chatSendMessage |      | Basic |     | App key feature success data   |
-| iOS: composeSendMessage |     |     |     |     |     |
-| Expected: composeSendMessage | Tap on reply and reply to a bot chat in a channel | Optional |     |     |
-| Android: replyChannel |     |     |     |     |     |
-| iOS: missing |     |     |     |     |     |
-| Expected: messageLike Android: reactLike_CM | Like a bot message | Optional |     |     |
-| Expected: messageUnread | Message context menu options for a bot message | Optional |     |
-| Android: markAsLastUnread |     |     |     |     |     |
-| linkPreviewCancel | Understand the preview closure behavior | Optional |     |     |
-| markAsLastUnread | Connector card context menu | Optional |     |     |
-| messageLike | Connector card like. Uses existing telemetry with app specific data | Optional |     |     |
-| openApp | Opening a personal app | Basic |     | App key feature success data   |
-| personalAppNavBotChat | navigate to the bot within personal app | Optional |     |     |
-| personalAppNavTab | Navigate to tabs within personal app | Optional |     |     |
-| showCard | Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side | Basic |     | App key feature success data   |
-| tabActionCopyLink | Understand how users discover & use tab copy link on mobile | Optional |     |     |
-| tabActionMoreOptions | Understand ellipsis usage from within a Tab for more option - discoverability & usage | Optional |     |     |
-| tabActionOpenInBrowser | Open in browser usage. This is necessary to understand if users prefer opening tab outside Teams | Optional |     |     |
-| tabActionOpenInBrowserFromTab | Understand open in browser usage from within a Tab for more option - discoverability & usage | Optional |     |     |
-| tabActionOpenInTeams | Open in usage. This is key in understanding if the tab can be by default set to open in Teams | Basic |     | App key feature success data   |
-| tabActionRemove | Understand how discoverable delete option is and the usage of the feature | Optional |     |     |
-| tabActionRename | Understand how discoverable rename is and the usage of the feature | Optional |     |     |
-| tabActionSetting | Understand how users discover & use tab config on mobile | Optional |     |     |
-| Android - fix |     |     |     |     |
-| tabListMoreOptions | Understand the usage of the more options for a tab | Optional |     |     |
-| tabOpen | Tabs are a critical feature for Teams and this will be needed to understand feature success & be ready to see if there are any issues in the way its being used | Basic |     |     |
-| tapChicletExpand | Understand how users preview cards on mobile | Optional |     |     |
-| tapSettings | Understand the number of users re-configuring apps on mobile | Optional |     |     |
-| unblockChat | Unblock a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional |     |     |
+| openEditMeetingForm | Click on the **Edit** button from the Meeting Details page | Basic  | To log whether edit meeting clicks were successful or not | App key feature success data   |
+| openMeetingDetails | Open the meeting details or the Open Meeting details page of a particular meeting | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| openNewMeetingForm | Open the scheduler while setting up a new meeting | Basic  | To understand the number of meetings created from mobile and compare popularity with other clients for meetig creation | App key feature success data   |
+| refreshCalendarList | Pul down to refresh agenda view | Basic | To check if the Agenda view has been refreshed | App key feature success data   |
+| removeMeeting | Click on **Remove from Calendar** from the Meeting Details page of a cancelled meeting | Basic | To get a sense of aggregated data of unwanted meetings being pushed on to personal calendars | App key feature success data   |
+| removeParticipantFromEditMeeting | Remove a participant after clicking on **Edit meeting** from the Meeting Details page | Basic | To log if an added participant was succesfully removed or not | App key feature success data   |
+| removeParticipantFromNewMeeting | Remove a participant from the scheduler page while setting up a new meeting | Basic | To log if an added participant was succesfully removed or not | App key feature success data   |
+| saveEditMeeting | Click on the **Save** button while on the meeting scheduler page after updating a meeting | Basic | To log succesfully saved meetings or those that  failed to update | App key feature success data   |
+| saveNewMeeting | Click on the **Save** button while on the meeting scheduler page | Basic | To log succesfully saved meetings and the percentage of meetings that failed to create due to a client side or service error | App key feature success data   |
+| searchMeetingParticipants | Search for participants to add within the scheduler form | Basic | To distinguish between the number of appointments created versus the number of meetings created | App key feature success data   |
+| seeAllMeetingParticipants | <ul><li>Click on **See All** from the meeting details page</li><li>View all participants</li></ul> | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| seeMeetingDescription | <ul><li>Opening the Meeting Details page</li><li>Click **See More** on the Meeting description from the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| seeRsvpMeetingOptions | <ul><li>Click on **Notify Organizer** from the RSVP pop up</li><li>Click on **Rsvp** options from the Meeting Details page | Basic |     | App key feature success data   |
+| selectMeetingRsvpOption | Click on the **RSVP** button to choose an option | Basic |     | App key feature success data   |
+| selectMeetingRsvpOptions | Click on the **RSVP** button to choose an option | Basic |     | App key feature success data   |
+| viewFullAllDayMeetingList | Agenda view on Mobile | Basic | To log tje popularity of vew tyoe on calendar mobile | App key feature success data   |
+| viewMeetingDetails | Click on **...** menu on the Meeting Details page | Basic | Understand the usage of the More menu on calendar mobile | App key feature success data   |
+| viewMeetingOccurrence | Open up meeting details of an instance of a recurring meeting | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
+| navDynamics365  | Event is triggered when the user open the Dynamics365 app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| navNotes | Event is triggered when the user open the Notes app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| navOrganization | Event is triggered when the user open the Organization app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| navOrgChart | Event is triggered when the user open the Orgchart app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| navTasks | Event is triggered when the user open the Tasks app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| navWiki | Event is triggered when the user open the Wiki app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| oneNote | Event is triggered when the user open the OneNote app | Basic | Provides key success data for app navigation and entrypoint discoverability
+ | App key feature success data   |
+| actionComposeMenu | <ul><li>Create message extension usage</li><li>Action ME usage</li></ul> | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| Android: null | Mute or unmute a bot chat. This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| blockChat | Block a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| botClickCardAction | Connector card usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| CardView - No AS assigned | Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side  | Basic | Teams and channels are essential constructs of Teams. This item is required to measure any error with joining a team | App key feature success data   |
+| chicletExpand | <ul><li>Understand how users preview cards on mobile</li><li>Understand the preview closure behavior | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| composeSearchResult | <ul><li>Message extension result selection - helpful to understand the app search result relevance</li><li>Enhances message send telemetry with app data</li></ul> | Optional/Basic  | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| composeSelectExtension | Tap on a ME app | Basic | Used to track feature success or failure of a feature and customer engagement | Teams setup and inventory data   |
+| composeSendMessage | Enhances message send telemetry with app data | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| createComposeExtension | <ul><li>Create message extension usage</li><li>Action ME usage</li></ul> | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| <ul><li>Expected: atMention</li><li>Android: chatSendMessage</li><li>iOS: sendMsg</li></ul> | @ mention a bot in a compose box | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| <ul><li>Expected: botClickCardAction</li><li>Android: showCard</li><li>iOS: missing</li></ul> | Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| <ul><li>Expected: chatSendMessage</li><li>iOS: composeSendMessage | Tap on **Reply** and reply to a bot chat in a channel | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| <ul><li>Expected: composeSendMessage</li><li>Android: replyChannel</li><li>iOS: missing</li></ul> | Tap on **Reply** and reply to a bot chat in a channel | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| <ul><li>Expected: messageLike</li><li>Android: reactLike_CM</li></ul> | Like a bot message | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| <ul><li>Expected: messageUnread</li><li>Android: markAsLastUnread | Message context menu options for a bot message | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| linkPreviewCancel | Understand the preview closure behavior | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| markAsLastUnread | Connector card context menu | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| messageLike | Connector card like. Uses existing telemetry with app specific data | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| openApp | Opening a personal app | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| personalAppNavBotChat | navigate to the bot within personal app | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| personalAppNavTab | Navigate to tabs within personal app | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| showCard | Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| tabActionCopyLink | Understand how users discover and use tab copy link on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabActionMoreOptions | Understand ellipsis usage from within a Tab for more option - discoverability & usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabActionOpenInBrowser | Open in browser usage. This is necessary to understand if users prefer opening tab outside Teams | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabActionOpenInBrowserFromTab | Understand open in browser usage from within a Tab for more option - discoverability & usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabActionOpenInTeams | Open in usage. This is key in understanding if the tab can be by default set to open in Teams | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| tabActionRemove | Understand how discoverable the delete option is and the usage of the feature | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabActionRename | Understand how discoverable rename is and the usage of the feature | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| <ul><li>tabActionSetting</li><li>Android - fix</li></ul> | Understand how users discover and use tab config on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabListMoreOptions | Understand the usage of the more options for a tab | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tabOpen | Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way its being used | Basic | Used to track feature success or failure of a feature and customer engagement |     |
+| tapChicletExpand | Understand how users preview cards on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| tapSettings | Understand the number of users re-configuring apps on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+| unblockChat | Unblock a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
 
 ### Mobile platform - Other
 
 | Action_Scenario | Team Owner | Description | Type | How the event is used | Basic Subtype |
 |-----------------|------------|-------------|------|-----------------------|---------------|
-| OrgChart - No AS assigned | <ul><li>Mobile platform - orgChart</li><li>Mobile platform - wiki</li></ul> | Basic usage telemetry for org chart/Wiki usage telemetry | Basic |     | App key feature success data   |
-| viewOrgChart | <ul><li>Mobile platform - orgChartQuickActionButton</li><li>Mobile platform - orgChartQuickActionButton</li></ul> | Basic usage telemetry for org chart | Basic |     | App key feature success data   |
-| open edit | Mobile platform - wiki | Wiki usage telemetry | Basic |     | App key feature success data   |
-| Wiki - No AS assigned | Mobile platform - wiki | Wiki usage telemetry | Basic |     | App key feature success data   |
-| activityFeedClick | <ul><li>Mobile platform</li><li>Feeds</li></ul> | Tap on an activity feed item and navigate to bot chat / Captures click information on feed item | Basic | Helps to track if user got the relevant feed item (CTR) and if user can successfully act on a feed. | App key feature success data   |
+| OrgChart - No AS assigned | <ul><li>Mobile platform - orgChart</li><li>Mobile platform - wiki</li></ul> | Basic usage telemetry for org chart | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| viewOrgChart | <ul><li>Mobile platform - orgChartQuickActionButton</li><li>Mobile platform - orgChartQuickActionButton</li></ul> | Basic usage telemetry for org chart | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| open edit | Mobile platform - wiki | Wiki usage telemetry - User clicks to edit wiki | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| Wiki - No AS assigned | Mobile platform - wiki | Wiki usage telemetry | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| activityFeedClick | <ul><li>Mobile platform</li><li>Feeds</li></ul> | <ul><li>Tap on an activity feed item and navigate to bot chat</li><li>Captures click information on feed item</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
 
 ### Not applicable
 
-| Action_Scenario  | Description | Type | How the event is used | Basic Subtype |
-|------------------|-------------|------|-----------------------|---------------|
-| navVaultSettings |             |      |                       |               |
-| navVault         |             |      |                       |               |
-| reactRemoved_HB  |             |      |                       |               |
+| Action_Scenario         | Description | Type  | How the event is used                                                 | Basic Subtype                  |
+|-------------------------|-------------|-------|-----------------------------------------------------------------------|--------------------------------|
+| reactRemoved_HB         |             |       |                                                                       |                                |
+| teamsDeviceCallResumed  |             | Basic | Used to track success or failure of a feature and customer engagement | App key feature success data   |
+| People                  |             |       |                                                                       |                                |
+| reportAbuseSend         |             |       |                                                                       |                                |
+| reportAbuseConfirmation |             |       |                                                                       |                                |
 
 ### Notifications
 
-| Action_Scenario                          | Description | Type | How the event is used | Basic Subtype |
-|------------------------------------------|-------------|------|-----------------------|---------------|
-| navActivity                              |             |      |                       |               |
-| notificationError                        |             |      |                       |               |
-| notificationNavChannelConversation       |             |      |                       |               |
-| notificationNavChannelThreadConversation |             |      |                       |               |
-| notificationSettingTurnedOff             |             |      |                       |               |
-| quickNotificationAction                  |             |      |                       |               |
+| Action_Scenario                          | Description                          | Type  | How the event is used  | Basic Subtype                  |
+|------------------------------------------|--------------------------------------|-------|------------------------|--------------------------------|
+| navActivity                              | Navigate to the activity feeds page  | Basic | Feature success metric | App key feature success data   |
+| notificationError                        |                                      |       |                        |                                |
+| notificationNavChannelConversation       |                                      |       |                        |                                |
+| notificationNavChannelThreadConversation |                                      |       |                        |                                |
+| notificationSettingTurnedOff             |                                      |       |                        |                                |
+| quickNotificationAction                  |                                      |       |                        |                                |
 
 ### People
 
@@ -887,32 +886,106 @@ The following article contains lists of the properties sent with various events,
 | deleteContact       |             |      |                       |               |
 | editContact         |             |      |                       |               |
 | openContactCard     |             |      |                       |               |
-| addUserAsContact    |             |      |                       |               |
-| shortCircuitContactCount |        |      |                       |               |
-| navPeopleSettings   |             |      |                       |               |
-| navPeople           |             |      |                       |               |
-| people              |             |      |                       |               |
+| addUserAsContact | User can add a contact by clicking on 'add contact' icon from the profile card of the contact | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| shortCircuitContactCount | This does not belong to the People area ??? | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| addToList | User adds a contact to a contact list | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
+| navPeopleSettings | This is not being sent in the newer builds |     |     |     |
+| navPeople | Event is triggered when the user opens the People app | Basic | Provides key data success for app navigation and entrypoint discoverability | App key feature success data   |
 | peoplePickerInvoked |             |      |                       |               |
 
 ### Search
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| searchAbandoned | Helps to track if search was successful vs if user abandoned search | Basic | Helps to track if search was successful vs if user abandoned search | App key feature success data   |
+| searchAbandoned | Helps to track if search was successful versus if user abandoned search | Basic | Helps to track if search was successful vs if user abandoned search | App key feature success data   |
 | searchCancelled | <ul><li>Helps to track if search was successful vs if user abandoned search</li><li>Helps to track if search query was successful</li></ul> | Basic | <ul><li>Helps to track if search was successful vs if user abandoned search</li><li>Helps to track if search query was successful</li></ul> | App key feature success data   |
 | searchIcon | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li><li>Helps to track if user can find relevant results successfully</li></ul> | Basic | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li><li>Helps to track if user can find relevant results successfully | App key feature success data   |
 | searchInitiated | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li></ul> | Basic | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li></ul> | App key feature success data   |
 | searchResultsClicked | <ul><li>Helps to track if user can find relevant results successfully</li><li>Tracking usage of core scenario</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | Basic | <ul><li>Helps to track if user can find relevant results successfully</li><li>Tracking usage of core scenario</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | App key feature success data   |
-| searchTab | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if search results was from ALL tab vs individual domain</li><li> | Basic | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | App key feature success data   |
-| searchTabClicked | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if user can find relevant results successfully</li></ul> | Basic | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if user can find relevant results successfully</li></ul> | App key feature success data   |
+| searchTab | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | Basic | <ul><li>Helps to track domain information of the search result - people, chat, messages, files</li><li>Helps to track if search results was from ALL tab versus individual domain</li></ul> | App key feature success data   |
+| searchTabClicked | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if user can find relevant results successfully</li></ul> | Basic | <ul><li>Helps to track domain information of the search result - people, chat, messages, files</li><li>Helps to track if user can find relevant results successfully</li></ul> | App key feature success data   |
 
-### Teams EDU
+### Tasks
 
-| Action_Scenario         | Description | Type | How the event is used | Basic Subtype |
-|-------------------------|-------------|------|-----------------------|---------------|
-| reportAbuseSend         |             |      |                       |               |
-| reportAbuseConfirmation |             |      |                       |               |
-| navAssignments          |             |      |                       |               |
+| Action_Scenario | Description | Type | How the event is used | Basic Subtype |
+|-----------------|-------------|------|-----------------------|---------------|
+| createPersonalPlan | A personal list is created, checks list created with ToDo service | Basic | Confirms a new personal task list is created in ToDo | Key App feature success data   |
+| createPlannerPlan | A shared list is created, checks list created with Planner service | Basic | Confirms a new shared task list is created in Planner | Key App feature success data   |
+| createDefaultPlannerPlan | A shared list is created automatically when the Tasks app is opened for the first time by anyone in that group, checks auto list created with Planner service | Basic | Confirms the default shared task list is successfully created in Planner the first time a user attempts to create a shared task list. | Key App feature success data   |
+| sharePlanToChat | A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via backend messaging  service | Basic | Confirms that a chiclet is successfully sent to the chat when a task list is shared in a group chat | Key App feature success data   |
+| tasksAppLaunchDefault | Tasks app is opened from the bottom drawer, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the app bar | Key App feature success data   |
+| tasksAppLaunchDashboard | Tasks app is opened from the dashboard tile or specific plan, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the dashboard | Key App feature success data   |
+| tasksAppLaunchDashboardSeeAll | Tasks app is opened from the dashboard **See all** button, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the **See All** button of the dashboard | Key App feature success data   |
+| tasksAppLaunchAdaptiveCard | Tasks app is opened from an adaptivecard in a group chat, check app launch via URL of IC3 service | Basic | Confirms that the tasks app is successfully launched by clicking on a chiclet previously sent to the group chat | Key App feature success data   |
+| tasksAppLaunchComposeExtension | Tasks app is opened from the compose extension in a group chat, check app launch via MT service | Basic | Confirms that the tasks app is successfully lanuched from a compose extension | Key App feature success data   |
+| updateTask | Confirms update tasks action failed | Basic | Confirms that a when a user edited or updated a task failed | Key App feature success data   |
+| deleteTask | Verifies with Planner service as to whether a delete action was successful or unsuccessful | Basic | Confirms that a task delete failed, that is, the deletion of a task was unsuccessful | Essential Service - Telemetry   |
+| createTask | Used for when create action fails, checks call to Planner service | Basic | Confirms a task create operation failed | Essential Service - Telemetry   |
+| updatePersonalTask | Confirms a personal task has been successfully updated | Basic | Confirms a personal task has been successfully updated | Essential Service - Telemetry   |
+| deletePersonalTask | Confirms a personal task has been successfully deleted | Basic | Confirms a personal task has been successfully deleted | Essential Service - Telemetry   |
+| createPersonalTask | Confirms a personal task has been successfully created | Basic | Confirms a personal task has been successfully created | Essential Service - Telemetry   |
+| openNewMeetingForm | Confirms a personal sub-task has been successfully updated | Basic | Confirms a personal sub-task has been successfully updated | Essential Service - Telemetry   |
+| deletePersonalSubtask | Confirms a personal sub-task has been successfully deleted | Basic | Confirms a personal sub-task has been successfully deleted | Essential Service - Telemetry   |
+| createPersonalSubtask | Confirms a personal sub-task has been successfully created | Basic | Confirms a personal sub-task has been successfully created | Essential Service - Telemetry   |
+| updatePlannerTask | Confirms that a user has successfully updated a task in a shared taks list | Basic | Confirms that a user has successfully updated a task in a shared taks list | Essential Service - Telemetry  |
+| deletePlannerTask | Confirms that a shared taks delete operation completed succesasfully | Basic | Confirms that a shared taks delete operation completed succesasfully | Essential Service - Telemetry  |
+| createPlannerTask | checks call to Planner service | Basic | Confirms that a user has successfully created a task in a shared taks list | Key App feature success data   |
+| teamChannelChanged | Triggered when user clicks and navigates to a plan from plan list. Only sent to appInsights, not Aria | Optional |     |     |
+| priorityChange | Triggers when priority filter is applied while viewing tasklist | Optional |     |     |
+| assigneeChange | Triggers when new assignee is added to a task item | Optional |     |     |
+| descriptionChanged | Confirms a task description has changed | Optional | Confirms that a shared task description changed successfully |     |
+| createPlan | Confirms that a shared task list has been successfully created | Optional | Confirms that a shared plan has been successfully created through middle tier. |     |
+| dueDateSelected | Triggers when user applies a filter by duedate while viewing a tasklist | Optional |     |     |
+| dueDateUnselected | Triggers when user unapplies a filter by dueddate while viewing a tasklist | Optional |     |     |
+| descriptionClicked | When user clicks to view description from task details | Optional |     |     |
+| priorityPickerClicked | Triggers when user navigates to priority filter picker from task list filter screen | Optional |     |     |
+| checklistSeeAllClicked | When user clicks the **See All** button inside task details to view all checklist items | Optional |     |     |
+| assignmentPickerClicked | When user clicks the **Assign To** button that brings them to assignee picker page | Optional |     |     |
+| assignmentRemoved | Triggers when assignee is removed from task item by clicked the **x** (this is the only way to remove an assignee) | Optional |     |     |
+| importanceToggleClicked | Triggers when **!** field is toggled inside task item details | Optional |     |     |
+| deleteClicked | When user click **Delete** within task details, which brings up the confirmation dialog | Optional |     |     |
+| onBackClicked | Whenever a user clicks the back arrow to navigate back a page | Optional |     |     |
+| checkListAddClicked | User clicks **Add an item** inside task details view for checklist section | Optional |     |     |
+| checkListItemDeleted | User deletes a checklist item from the task | Optional |     |     |
+| checkListItemAdded | User creates a checklist item for task | Optional |     |     |
+| checkListItemUpdated | User updates a checklist item for task | Optional |     |     |
+| titleChanged | Triggers when task item title changes, triggers on every character change | Optional |     |     |
+| dueDatePickerClicked | Triggers when user clicks the **Due Date** button in task details, opens the duedate picker page | Optional |     |     |
+| dueDateChanged | Triggers when user assigns a duedate to a task | Optional |     |     |
+| statusCheckBoxClicked | Triggers when task item is either completed or uncompleted | Optional |     |     |
+| moreOptionsClicked | Triggers when **...** menu on the top-right is clicked on the task item editor screen | Optional |     |     |
+| moveTaskClicked | Option inside task item more options list | Optional |     |     |
+| openInAppClicked | Option inside task item more options list, only available for personal tasks | Optional |     |     |
+| sortChanged | Triggers when user changes sort order while viewing a tasklist | Optional |     |     |
+| clearFilter | When user clears all filters while viewing a tasklist | Optional |     |     |
+| completionStateChange | Triggers when completed/uncompleted filter toggle is clicked in filter view from task list | Optional |     |     |
+| removeAssignee | Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view) | Optional | Confirms that an assignee is removed from  assignment picker view |     |
+| removeUser | Confirms that an assignee is removed from within assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view) | Optional | Confirms that an assignee is removed from within assignment picker view |     |
+| savePlanClicked | Trigger when user cliks **Create** in the new plan creator from default opening of app | Optional |     |     |
+| navSelectPlan | When a user selects a shared plan to navigate to from home view | Optional |     |     |
+| navSelectPersonalList | When a user selects a personal plan to navigate to from home view | Optional |     |     |
+| navSelectSmartList | When a user selects a smart plan to navigate to from home view| Optional |     |     |
+| createTaskList | When user navigates to the create plan view from home view | Optional |     |     |
+| updateTaskState | Confirms that the task state has been updated | Optional | Confirms that the task state has been successfully updated |     |
+| channelPickerClicked | Confirms that the channel picker successfully launched | Optional | Confirms that the channel picker successfully launched. |     |
+| datePickerLaunch | Confirms that date picker was successfully launched | Optional | Confirms that the date picker was successfully launched |     |
+| labelSelected | Confirms that a label has been successfully selected | Optional | Confirms that a label was successfully selected |     |
+| labelUnselected | Confirms that a label has been successfully unselected | Optional | Confirms that a label has been successfully unselected |     |
+| bucketSelected | Confirms that a bucket has been successfully selected | Optional | Confirms that a bucket has been successfully selected |     |
+| bucketUnselected | Confirms that a bucket has been successfully unselected | Optional | Confirms that a bucket has been successfully unselected |     |
+| bucketPickerClicked | Confirms that the bucket picker successfully launched | Optional | Confirms that the bucket picker successfully launched |     |
+| labelPickerClicked | Confirms that the label picker successfully launched | Optional | Confirms that the label picker successfully launched |     |
+| commentsClicked | Confirms that the comments view was  successfully launched | Optional | Confirms that the comments view was  successfully launched |     |
+| attachmentAdded | Confirms that an attachment in a task was successfully added | Optional | Confirms that an attachment in a task was successfully added |     |
+| attachmentDeleted | Confirms that an attachment in a task was successfully deleted | Optional | Confirms that an attachment in a task was successfully deleted |     |
+| attachmentUpdated | Confirms that an attachment in a task was successfully updated | Optional | Confirms that an attachment in a task was successfully updated |     |
+| selectUser | Confirms that an assignee was successfully selected for a task | Optional | Confirms that an assignee was successfully selected for a task |     |
+| channelSelected | Confirms that a channel was successfully selected for a new plan | Optional | Confirms that a channel was successfully selected for a new plan |     |
+| selectPlannerList | Confirms that the user successfully navigated to a shared task list by tapping it | Optional | Confirms that the user successfully navigated to a shared task list by tapping it |     |
+| selectPersonalList | Confirms that the user successfully navigated to a personal task list by tapping it | Optional | Confirms that the user successfully navigated to a personal task list by tapping it |     |
+| commentAdded | Confirms that a comment was added to a task | Optional | Confirms that a comment was added to a task |     |
+| commentUpdated | Confirms that a comments was successfully updated on a task | Optional | Confirms that a comments was successfully updated on a task |     |
+| progressItemClicked | Confirms a user has successfully opened the progress picker for a task | Optional | Confirms a user has successfully opened the progress picker for a task |     |
 
 ### Teams FLW
 
@@ -939,19 +1012,19 @@ The following article contains lists of the properties sent with various events,
 | navShifts                         |             |      |                       |               |
 | navWalkieTalkie                   |             |      |                       |               |
 
-### Teams FLW Android Prod
+### Teams FLW Android Production
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
-| AccessibilityUserConfiguration | When a FLW Manager approves a FLW request to take time off. | Basic | To toggle if this is accessible feature. | App key feature success data   |
+| AccessibilityUserConfiguration | When a FLW Manager approves a FLW request to take time off. | Basic | To toggle if this is an accessible feature. | App key feature success data   |
 | Viewed | User was unable to login. | Basic | Key functionality for schedule feature. | App key feature success data   |
 | ErrorShown | Teams FLW Android Prod | User saves the day availability. | Basic | Key functionality for error shown. | App high value activity error data   |
-| CreateShiftOrTimeOffClicked | This is to track if you clicked  create a shift or time off clicked | Basic | Key functionality for time off feature. | App key feature success data   |
+| CreateShiftOrTimeOffClicked | This is to track if you clicked create a shift or time off clicked | Basic | Key functionality for time off feature. | App key feature success data   |
 | TimeOffReasonClicked | This it to track if you cited a reason for time off. | Basic | Key functionality for time off feature. | App key feature success data   |
 | RequestSent | This is to log if there was a request sent. | Basic | Key functionality for request feature. | App key feature success data   |
 | ShiftDetailsTodaysCoworkers | On the clock in screen, user clicks on Start or End break button. | Basic | Key functionality for shifts details feature | App key feature success data   |
 
-### Teams FLW iOS Prod and Teams FLW Android Prod
+### Teams FLW iOS Prod and Teams FLW Android Production
 
 | Action_Scenario | Description | Type | How the event is used | Basic Subtype |
 |-----------------|-------------|------|-----------------------|---------------|
@@ -975,12 +1048,12 @@ The following article contains lists of the properties sent with various events,
 | MyShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for shift picker feature. | App key feature success data   |
 | TeamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for shift picker feature. | App key feature success data   |
 | OfferRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for offer feature | App key feature success data   |
-| TeamSelectedClicked | When the user clicks on Add on a timesheet | Basic | Key functionality for team selected feature. | App key feature success data   |
+| TeamSelectedClicked | When the user clicks on **Add** on a timesheet | Basic | Key functionality for team selected feature. | App key feature success data   |
 | SendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for request bulk feature. | App key feature success data   |
 | ApproveTimeOffRequest | When an  FLW Manager approves a FLW request to take time off. | Basic | Key functionality of Time Off requests. | App key feature success data   |
 | BadUrlLoginFailed | User was unable to login. | Basic | If a user was unable to login. | Crash data – Unexpected app exit data   |
 | BadUrlLoginSuccess | User was able to login. | Basic | If a user was able to login. | App key feature performance data   |
-| BreakStartEndClicked | On the clock ins creen, user clicks on Start or End break button. | Basic | Key functionality for an FLW requesting a break. | App key feature success data   |
+| BreakStartEndClicked | On the clock ins creen, user clicks on **Start** or **End break** button. | Basic | Key functionality for an FLW requesting a break. | App key feature success data   |
 | BreakStartEndTriggered | Register user's break start or end. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality for break feature within Shifts. | App key feature success data   |
 | ClockInOutClicked | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for a worker clocking in and clocking out | App key feature success data   |
 | ClockInOutTriggered | Register user's clock in or out. This will not trigger until you have checked the location assuming location is required. | Basic | Key functionality if a worker clocked in with location | App key feature success data   |
@@ -994,12 +1067,12 @@ The following article contains lists of the properties sent with various events,
 | DeclineTimeOffRequest | When a user declines the request for time off of work. | Basic | Key functionality for time off, for manager to reject time off request. | App key feature success data   |
 | DeleteShift | Tracks when the user deletes a shift. | Basic | Key functionality for feature, deleting a shift | App key feature success data   |
 | EditShiftClicked | Tracks when a user edits a shift. | Basic | Key functionality for feature, editing a shift. | App key feature success data   |
-| EntryPointClicked | Tracking clicking **Requests** in the **Schedule** tab. Requests are for when an FLW is requesting a shift time, etc. | Basic | Key functionality for requests. | App key feature success data   |
+| EntryPointClicked | Tracking clicking **Requests** in the **Schedule** tab. Requests are for when an FLW is requesting a shift time, etc.. | Basic | Key functionality for requests. | App key feature success data   |
 | FREActionClicked | User clicks on **Get started**, **Try Later**, or **Close** (GPS) in First Run Experience (FRE). | Basic | Key functionality to track success of first run experience feature. | App key feature success data   |
 | FRETriggered | User views the time clock First Run Experience (FRE). | Basic | Key functionality to track success of first run experience within time clock feature. | App key feature success data   |
 | GPSPromptClicked | User clicks on **Allow** or **Don't Allow** in OS prompt. Allowing GPS or not. | Basic | Key functionality for feature, GPS location for user being on site for clocking in/out feature. | App key feature success data   |
 | GroupClicked | Tracks when a user clicks on the group of the shift | Basic | Key functionality for feature, groups of shifts. | App key feature success data   |
-| LogOutClicked | When a user logs out. | Basic | Key functionality for log out. | App key feature success data |
+| LogOutClicked | When a user logs out. | Basic | Key functionality for log out. | App key feature success data   |
 | MessageTriggered | Triggered when the user's device time zone doesn't match the team time zone | Basic | Key functionality for feature of time zone. | App key feature success data   |
 | MyShiftPickerClicked | Only logged if request being sent is a swap or offer. Tracking user clicks into **My Shift** picker. | Basic | Key functionality for feature, my shifts. | App key feature success data   |
 | OfferRecipientClicked | Only logged if request being sent is an offer. Tracking user clicks into the team member picker to offer a shift to. Offering means offering a shift time off. | Basic | Key functionality for feature, offer shifts. | App key feature success data   |
@@ -1012,7 +1085,7 @@ The following article contains lists of the properties sent with various events,
 | RequestActionClicked | When a user requests an action. | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
 | RequestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for feature, request shifts. | App key feature success data   |
 | RequestSent | Tracks when the user requests an open shift | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| RequestTypeClicked | Tracking what type of request people select from the requests picker / Request type that the user clicks | Basic | Key functionality for feature, request shifts. | App key feature success data   |
+| RequestTypeClicked | <ul><li>Tracking what type of request people select from the requests picker</li><li>Request type that the user clicks</li><ul> | Basic | Key functionality for feature, request shifts. | App key feature success data   |
 | RetryButtonClicked | When a user clicks on the retry button. | Basic | Key functionality for feature, retry shifts. | App key feature success data   |
 | SendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for feature, send shifts. | App key feature success data   |
 | SendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for feature, send shifts. | App key feature success data   |
@@ -1021,8 +1094,8 @@ The following article contains lists of the properties sent with various events,
 | ShiftAssigneeClicked | The Shifts Calendar view showing the particular shifts details | Basic | Key functionality for feature, shifts. | App key feature success data   |
 | ShiftDetails | Your own shifts. | Basic | Key functionality for feature, shift shifts. | App key feature success data   |
 | ShiftDetailsCalendar | Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team. | Basic | Key functionality for feature, switch shifts. | App key feature success data   |
-| ShiftDetailsMyShifts | Tracking user tapping on calendar from Schedules Tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
-| SwitchTeamsDialogTriggered | User views **Shifts** tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
+| ShiftDetailsMyShifts | Tracking user tapping on **Calendar** from Schedules Tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
+| SwitchTeamsDialogTriggered | User views Shifts tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
 | TabCalendarClicked | User has chosen a team from the team picker | Basic  | Key functionality for feature, team shifts. | App key feature success data   |
 | TabViewed | Only logged if request being sent is a swap. Tracking user clicks into **Team Shift** picker | Basic | Key functionality for feature, team shifts. | App key feature success data   |
 | TeamSelectedClicked | When the user clicks on Add on a timesheet | Basic  | Key functionality for feature, timesheet shifts. | App key feature success data   |
@@ -1041,6 +1114,27 @@ The following article contains lists of the properties sent with various events,
 | ToggleClicked | To view a declined time off request. | Basic | Key functionality for feature, decline time off. | App key feature success data   |
 | UserConfiguration | To view a pending time off request. | Basic | Key functionality for feature, time of requests. | App key feature success data   |
 
+### TFL
 
-
-| teamsDeviceCallResumed |     |     |     |     |
+| Action_Scenario         | Description | Type | How the event is used | Basic Subtype |
+|-------------------------|-------------|------|-----------------------|---------------|
+| navVaultSettings        |             |      |                       |               |
+| navVault                |             |      |                       |               |
+| active_session_banner_dismissed | User dismissed location sharing active reminder banner | Basic | Confirms that the user successfully dismissed the location sharing banner | Key App feature success data   |
+| center_on_team_clicked | User centers map on groups | Basic | Confirms that user successfully centered the map on the group | Key App feature success data   |
+| duration_picker_dismissed | User dismisses the duration picker | Basic | Confirms that user successfully dismissed duration picker. | Key App feature success data   |
+| get_directions_clicked | User clicks **Get directions** button | Basic | Confirms that user successfully got directions to a location | Key App feature success data   |
+| live_location_in_chats_from_profile_clicked | User clicks **live locations** in profile view | Basic | Confirms that user successfully accessed the list of live location sessions in profile | Key App feature success data   |
+| my_location_button_clicked | User centers the map on himself by clicking on the **My location** button | Basic | Confirms that user successfully centered the map on their location by tapping the "my location" button on the map | Key App feature success data   |
+| my_location_clicked | User centers the map on their location by clicking on the **blue dot** on the map | Basic | Confirms that user successfully centered the map on their location by tapping the **blue dot**  on the map | Key App feature success data   |
+| send_map_pin_clicked | User sends static location | Basic | Confirms that user successfully shared a static location | Key App feature success data   |
+| static_place_selected | User drags map to select a static place | Basic | Confirms that user successfully selected a static place by interacting with the map | Key App feature success data   |
+| suggested_place_selected | User shares a static location by selecting a suggested place | Basic | Confirms that user successfully shared a static location by selecting a suggested place | Key App feature success data   |
+| location_settings_open | User opens location settings | Basic | Confirms location settings dialog was successfully opened | Key App feature success data   |
+| location_group_map_sync | User opens map view | Basic | Confirms that the all available locations are sync-ed successfully | Key App feature success data   |
+| location_message_send | User initiates a location sharing session | Basic | Confirms that the location sharing message was successfully sent | Key App feature success data   |
+| location_active_tracking | User's device is switched to active tracking | Basic | Confirms that user's location services are switched successfully to active tracking | Key App feature success data   |
+| location_map_load | Map view load | Basic | Confirms that the big map view successfully loaded | Key App feature success data   |
+| location_map_markers_load | Map view load | Basic | Confirms that location markers for all users actively sharing are displayed properly on the map view | Key App feature success data   |
+| stop_location_sharing_logout | User logs out of the app | Basic | Confirms that we successfully stopped all location sharing session when the user logged out of the app | Key App feature success data   |
+| location_family_sync | Showing members of a Family group that were created in MSA family app | Basic | Confirms that we are displaying all family members that can be granted consent. We do not send any additional data other than the success confirmation | Key App feature success data   |
