@@ -73,6 +73,3 @@ When you buy Business Voice, you get the following features and more:
 
 You can see everything that's included with Business Voice by visiting [Microsoft 365 Business Voice service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
-## Will Microsoft 365 Business Voice work for my small business?
-
-If you own a small business and are looking to replace a traditional phone system with a VoIP system, Microsoft 365 Business Voice is an excellent choice. It’s a cheap option for voice calling that integrates seamlessly with Office 365 apps. Because you can transfer your original phone number to the service, you won’t need to worry about expensive updates to your website or advertising media. And with Microsoft’s bundle options, it’s easy to find the best plan for your business.
