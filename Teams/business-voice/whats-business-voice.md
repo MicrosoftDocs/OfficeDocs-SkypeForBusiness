@@ -35,7 +35,7 @@ Business Voice is right for you if your organization has 300 or fewer people and
 - Microsoft Apps for Enterprise
 - Microsoft 365 F1
 - Office 365 F1
-- Microsoft 365 and Office 365 Enterprise E1, E3 or E5
+- Microsoft 365 and Office 365 Enterprise E1, E3, or E5
 - Microsoft 365 and Office 365 Education A1, A3, or A5
 - Microsoft 365 and Office 365 Government G1, G3, or G5 (GCC only)
 - Microsoft 365 Nonprofit Business Basic
