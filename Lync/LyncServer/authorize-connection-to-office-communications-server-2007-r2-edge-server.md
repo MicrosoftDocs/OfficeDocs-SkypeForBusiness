@@ -1,8 +1,8 @@
 ---
 title: Authorize connection to Office Communications Server 2007 R2 Edge Server
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
