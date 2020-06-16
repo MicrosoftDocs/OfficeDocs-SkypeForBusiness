@@ -16,7 +16,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 ---
 # Microsoft Teams Rooms
 
-Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that&#39;s simple to use, deploy, and manage.
+Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.
 
 Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.
 
@@ -26,7 +26,7 @@ Select the right system and audio video peripherals from one of our partners: Ye
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![List symbol](https://docs.microsoft.com/office/media/icons/list-123-teams.png)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Deploy symbol](https://docs.microsoft.com/office/media/icons/deploy-teams.png)  | **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Tools/Wrench](https://docs.microsoft.com/office/media/icons/toolbox.png)  | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![List symbol](https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.png)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Deploy symbol](https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.png)  | **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Tools/Wrench](https://docs.microsoft.com/en-us/office/media/icons/toolbox.png)  | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
