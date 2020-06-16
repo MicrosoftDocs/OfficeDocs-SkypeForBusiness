@@ -1,8 +1,8 @@
 ---
 title: Configuring the Various Policies
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configuring the Various Policies
