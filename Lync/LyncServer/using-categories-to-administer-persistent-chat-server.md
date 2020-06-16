@@ -1,8 +1,8 @@
 ---
 title: Using categories to administer Persistent Chat Server
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
