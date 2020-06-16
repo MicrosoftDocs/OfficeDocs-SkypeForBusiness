@@ -1,7 +1,7 @@
 ---
 title: Teams templates for Small and Medium Businesses
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
