@@ -1,8 +1,8 @@
 ---
 title: Install Lync Server administration tools
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install Lync Server administration tools

@@ -1,8 +1,8 @@
 ---
 title: "Phase 2 Prepare for migration"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
