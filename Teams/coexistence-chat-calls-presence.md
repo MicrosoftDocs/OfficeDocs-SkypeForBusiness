@@ -1,7 +1,7 @@
 ---
 title: Coexistence with Skype for Business
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
