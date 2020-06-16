@@ -1,8 +1,8 @@
 ---
 title: Remove the SQL Server database for a Monitoring server
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Monitoring server
