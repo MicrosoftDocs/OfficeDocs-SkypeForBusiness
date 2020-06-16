@@ -1,8 +1,8 @@
 ---
 title: "Deploy clients"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: End User
 ms.topic: quickstart
