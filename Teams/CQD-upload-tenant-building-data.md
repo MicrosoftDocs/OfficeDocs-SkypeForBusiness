@@ -55,7 +55,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 **<font color="red">===QERGuide===<font>**
 
 
-You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
+You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
   
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
@@ -63,28 +63,30 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma delimited):
 
-|Column field name|Data type|Example value|
-|:--- |:--- |:--- |
-|NetworkIP | String | 192.168.1.0 |
-|NetworkName    | String|USA/Seattle/SEATTLE-SEA-1|
-|NetworkRange|Number|26|
-|BuildingName|String|SEATTLE-SEA-1|
-|OwnershipType|String|Contoso|
-|BuildingType|String|IT Termination|
-|BuildingOfficeType|String|Engineering|
-|City   |String| Seattle|
-|ZipCode|String|98001|
-|Country|String|US|
-|State |String|WA|
-|Region|String|MSUS|
-|InsideCorp&dagger;|Boolean|0|
-|ExpressRoute&Dagger;|Boolean|0|
-|VPN (optional)|Boolean|0|
-||||
 
-&dagger; This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes if you decide to.
+| Column name        | Data type | Example                   | Guidance              |
+|--------------------|-----------|---------------------------|-----------------------|
+| NetworkIP          | String    | 192.168.1.0               | Required              |
+| NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required<sup>1</sup>  |
+| NetworkRange       | Number    | 26                        | Required              |
+| BuildingName       | String    | SEATTLE-SEA-1             | Required<sup>1</sup>  |
+| OwnershipType      | String    | Contoso                   | Optional              |
+| BuildingType       | String    | IT Termination            | Optional              |
+| BuildingOfficeType | String    | Engineering               | Optional              |
+| City               | String    | Seattle                   | Recommended           |
+| ZipCode            | String    | 98001                     | Recommended           |
+| Country            | String    | US                        | Recommended           |
+| State              | String    | WA                        | Recommended           |
+| Region             | String    | MSUS                      | Recommended           |
+| InsideCorp<sup>2</sup>         | Bool      | 1             | Required              |
+| ExpressRoute<sup>3</sup>       | Bool      | 0             | Required              |
+| VPN                | Bool      | 0                         | Optional              |
 
-&Dagger; This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes if you decide to.  
+<sup>1</sup>While not required by CQD, the templates are configured to display Building and Network name.
+
+<sup>2</sup>This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes.
+
+<sup>3</sup>This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes.  
 
 **Sample row:**
 
@@ -118,41 +120,6 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 **<font color="red">===============end QERGuide==================<font>**
 
-
-
-The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
-
--   The file must be either a TSV file—which means that for each row, each column is separated by a Tab character—or a CSV file in which each column is separated by a comma.
-
--   The file can't be larger than 50 MB.
-
--   The content of the data file *must not include table headers*. In other words, the first line of the data file must be real data, not column headings such as "Network."
-
--   For each column, the data type can only be String, Number, or Bool. If the data type is Number, the value must be a numeric value; if it's Bool, the value must be either 0 or 1.
-
--   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter—that is, a Tab character or comma). This just assigns that field an empty string value.
-
--   There must be 14 columns for each row (or 15 if you want to add the optional VPN column). Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
-
-| Column name        | Data type | Example                   | Guidance    |
-|--------------------|-----------|---------------------------|-------------|
-| Network            | String    | 192.168.1.0               | Required    |
-| NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required\*  |
-| NetworkRange       | Number    | 26                        | Required    |
-| BuildingName       | String    | SEATTLE-SEA-1             | Required\*  |
-| OwnershipType      | String    | Contoso                   | Optional    |
-| BuildingType       | String    | IT Termination            | Optional    |
-| BuildingOfficeType | String    | Engineering               | Optional    |
-| City               | String    | Seattle                   | Recommended |
-| ZipCode            | String    | 98001                     | Recommended |
-| Country            | String    | US                        | Recommended |
-| State              | String    | WA                        | Recommended |
-| Region             | String    | MSUS                      | Recommended |
-| InsideCorp         | Bool      | 1                         | Required    |
-| ExpressRoute       | Bool      | 0                         | Required    |
-| VPN                | Bool      | 0                         | Optional    |
-
-\*While not required by CQD, the templates are configured to display Building and Network name.
 
 ### Building data file
 
