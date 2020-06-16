@@ -348,7 +348,7 @@ Introduced in this update:
 
 [Support for Microsoft Teams Rooms Current Branch versions](rooms-lifecycle-support.md)
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Known issues](known-issues.md)
 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
