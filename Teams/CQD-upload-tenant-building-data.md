@@ -22,54 +22,38 @@ ms.custom:
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
-description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
+description: Learn how to upload tenant and building data in Call Quality Dashboard (CQD).
 ---
 
 # Upload tenant and building data in Call Quality Dashboard (CQD)
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload tenant, building, and location information, including:
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-- A map of IP address and geographical information
-- A map of each wireless AP and its MAC address
-- A map of Endpoint to Endpoint Make/Model/Type, etc.
+1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-Don't miss the [sample locations template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+    
+2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
+   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
-## Reporting labels
+3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
-Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
+4. After selecting a data file, specify **Start date** and, optionally, specify an end date.
 
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
-2. After you select the file data type, click **Browse** to choose a data file.
+5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it's validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-   - A data file must be a .tsv (tab-separated values) file or a .csv (comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
-   - The data file must be no larger than 50 MB.
-   - Data files have an expanded row limit of 1,000,000 to keep query performance fast. 
-   - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
-3. Next, specify a **Start date** and, optionally, **Specify an end date**.
-4. Finally, select **Upload** to upload the file to the CQD server.
-    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message requests a correction to the file. The following image shows a sample error with an incorrect number of columns in the data file.
+   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
+ 
+6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
-     ![Screenshot: shows an upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
-  
-5. If no errors occur during validation, the file upload succeeds. You can then see the uploaded data file in the **My uploads** table. The bottom of that page also shows a full list of all files uploaded for the current tenant.
-    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table. 
+> [!NOTE]
+> It can take up to four hours to finish processing the building file. <br><br> If you've already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
 
-     ![Screenshot: shows the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+## Building data file structure
 
-6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
+**<font color="red">===QERGuide===<font>**
 
-## Tenant data file format and structure
-Before you can start using CQD, activate it for your Microsoft 365 or Office 365 as follows:
-
-### Building data file
-
-CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
-1. Sign in to your Microsoft 365 or Office 365 using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
-3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
-4. On the page that opens \(https://<span>cqd.teams.microsoft.com<span/>\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
 You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
@@ -131,15 +115,10 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
-===============
-FROM QERGUIDE:
-## Building mapping
 
-In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD, regardless of whether the client was connected on an internal corporate network.
+**<font color="red">===============end QERGuide==================<font>**
 
-When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can't manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
 
-### Building data file structure
 
 The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
 
@@ -175,7 +154,12 @@ The format of the data file you upload must meet the following requirements to p
 
 \*While not required by CQD, the templates are configured to display Building and Network name.
 
-#### Supernetting
+### Building data file
+
+CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+
+
+### Supernetting
 
 You can use supernetting, commonly called Classless Inter-Domain Routing (CIDR,) in place of defining each subnet. A *supernet* is a combination of several subnets that share a single routing prefix. Instead of adding an entry for each subnet, you can use the supernetted address. Supernetting is supported, but we don't recommend using it.
 
@@ -204,7 +188,7 @@ Here are a few things to consider before you implement supernetting:
 > [!IMPORTANT]
 > The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you've previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports.
 
-#### VPN
+### VPN
 
 The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
 
@@ -223,40 +207,14 @@ The quality of experience (QoE) data that clients send to Microsoft 365 or Offic
 > [!NOTE]
 > VPN connections have been known to misidentify the network connection as wired when the underlying internet connection is wireless. When looking at quality over VPN connections, you can't assume that the connection type has been accurately identified.
 
-### Uploading building information
-
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
-
-1. In CQD, select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
-
-   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
-
-2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
-
-   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
-
-3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
-
-4. After selecting a data file, specify **Start date** and, optionally, specify an end date.
-
-5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it's validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
-
-   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
- 
-6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
-
-> [!NOTE]
-> It can take up to four hours to finish processing the building file. <br><br> If you've already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
-
-
-### Updating a building file
+## Update a building file
 
 While gathering building and subnet information, administrators will often upload the building file in multiple iterations over time, adding new subnets and their building information as it becomes available. When this occurs, you'll need to re-upload your building file. This process is like the initial upload as described in the previous section, with a few exceptions as noted in the following section.
 
 > [!Important]
 > Only one building file can be active at a time. Multiple building files aren't cumulative.
 
-#### Adding net new subnets
+## Add net new subnets
 
 There are times when you'll need to add net new subnets to CQD that weren't originally part of your network topology. To add net new subnets, do the following in the CQD Tenant Data Upload portal:
 
@@ -265,18 +223,9 @@ There are times when you'll need to add net new subnets to CQD that weren't orig
 3.  Append the net new subnets to the original building file.
 4.  Upload the newly modified building file following the same process as above, and set the start date for one day after the previous building file ends.
 
-#### Updating the current building file
+## Add missing subnets
 
-If a building file is already uploaded but you need to add missing subnets, do the following in the CQD Tenant Data Upload portal:
-
-1.  Download the original file, if you don't already have an up-to-date copy.
-2.  Remove the current file in CQD.
-3.  Append the new subnets to the original file.
-4.  Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
-
-### Missing subnets
-
-After you upload building information for managed networks, every managed network should have a building association. However, this won't always be the case; typically, a few subnets are missed. This section covers how to validate those missing networks.
+After you upload building information for managed networks, every managed network should have a building association. However, this won't always be the case; typically, a few subnets are missed. This section tells you how to validate those missing networks.
 
 Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that aren't defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
 
@@ -286,11 +235,64 @@ Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Sub
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
+**<font color="red">>SIUNIE: THIS IS A 2ND PROCEDURE. WHICH IS PREFERRED?</font>**
+
+If a building file is already uploaded but you need to add missing subnets, do the following in the CQD Tenant Data Upload portal:
+
+1.  Download the original file, if you don't already have an up-to-date copy.
+2.  Remove the current file in CQD.
+3.  Append the new subnets to the original file.
+4.  Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
+
+
+
+## Building mapping
+
+In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD, regardless of whether the client was connected on an internal corporate network.
+
+When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can't manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
+
 ### Building mapping tools
 
-Let's face it, mapping out subnets in your organization can be difficult. Large global networks are very complex, with different teams managing their respective regions, and there might be no single source of truth for the network topology. There are two tools available to assist with starting the building mapping exercise, described in the following sections.
+**<font color="red">SIUNIE: DO THE POWER BI QUERIES REPLACE THIS? IF WE STILL WANT TO REFERENCE THIS SECTION, LET'S MOVE THE BLOG POST INTO THE MAIN ARTICLE.</font>**
 
-============END FROM QERGUIDE==============
+Let's face it, mapping out subnets in your organization can be difficult. Large global networks are very complex, with different teams managing their respective regions, and there might be no single source of truth for the network topology. You can use some CQD tools to help you with building mapping. These tools are based on PowerShell and can leverage Active Directory (AD) Sites and Services and Microsoft DHCP services to help pre-populate your building file. These tools will help with the following tasks:
+
+1. Query AD Sites and Services, and create a building file based on the information contained within.
+1. Query a Microsoft DHCP server or servers to pull subnet information and automatically create a building file.
+1. Validate an existing building file, checking for duplicates and overlaps.
+1. Find unmapped subnets in CQD.
+
+For more information about this tool, see this [blog post](https://aka.ms/cqdtools).
+
+
+
+
+
+## Reporting labels
+
+Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please don't include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
+
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
+2. After you select the file data type, click **Browse** to choose a data file.
+
+   - A data file must be a .tsv (tab-separated values) file or a .csv (comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
+   - The data file must be no larger than 50 MB.
+   - Data files have an expanded row limit of 1,000,000 to keep query performance fast. 
+   - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
+3. Next, specify a **Start date** and, optionally, **Specify an end date**.
+4. Finally, select **Upload** to upload the file to the CQD server.
+    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message requests a correction to the file. The following image shows a sample error with an incorrect number of columns in the data file.
+
+     ![Screenshot: shows an upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
+  
+5. If no errors occur during validation, the file upload succeeds. You can then see the uploaded data file in the **My uploads** table. The bottom of that page also shows a full list of all files uploaded for the current tenant.
+    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table. 
+
+     ![Screenshot: shows the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+
+6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
+
 
 ## Related topics
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
