@@ -50,7 +50,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you've already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
 
-## Building data file structure
+## Tenant data file structure
 
 **<font color="red">===QERGuide===<font>**
 
