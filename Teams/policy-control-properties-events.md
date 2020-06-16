@@ -1,5 +1,5 @@
 ---
-title: Policy control properties and events for Microsoft Teams
+title: Required diagnostic data for Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,9 +17,9 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Policy control events for Microsoft Teams
+# Required diagnostic data for Microsoft Teams
 
-The following article contains lists of the properties sent with various events, and lists of the events themselves, arranged by product.
+The following article contains lists of the properties sent with various events, and lists of the events themselves, arranged by Teams categories.
 
 ## Property lists
 
