@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; Create network interregion routes
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:

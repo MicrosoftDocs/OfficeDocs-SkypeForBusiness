@@ -1,8 +1,8 @@
 ---
 title: Import policies and settings
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Import policies and settings
