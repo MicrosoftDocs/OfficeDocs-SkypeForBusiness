@@ -24,8 +24,8 @@ f1keywords:
 
 > [!IMPORTANT]
 > **Note the following about one of the features discussed in this article, policy assignment to groups**: 
-> - [Policy assignment to groups using the Microsoft Teams admin center](#groupassignmentadmincenter), hasn't yet been released. It's been announced, and it's coming soon. 
-> - [Policy assignment to groups using PowerShell](#groupassignmentpowershell), is currently only available in private preview. The Powershell cmdlets for this feature are in the pre-release Teams PowerShell module.
+> - [Policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon. 
+> - [Policy assignment to groups using PowerShell](#using-powershell-3), is currently only available in private preview. The Powershell cmdlets for this feature are in the pre-release Teams PowerShell module.
 >
 > To stay on top of the release status of this feature, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -291,8 +291,6 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 
 ### Using the Microsoft Teams admin center
 
-<a name="groupassignmentadmincenter"> </a>
-
 **This feature hasn't yet been released. It's been announced, and it's coming soon.**
 
 > [!NOTE]
@@ -310,9 +308,7 @@ To change the ranking of a group assignment, you have to first unassign the poli
 
 ### Using PowerShell
 
-<a name="groupassignmentpowershell"> </a>
-
-**Policy assignment to groups using PowerShell is currently only available in private preview. The cmdlets for this feature are in the pre-release Teams PowerShell module.**
+**This feature is currently only available in private preview. The cmdlets for this feature are in the pre-release Teams PowerShell module.**
 
 > [!NOTE]
 > Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
