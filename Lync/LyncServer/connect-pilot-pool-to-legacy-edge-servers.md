@@ -1,8 +1,8 @@
 ---
 title: Connect pilot pool to legacy Edge Servers
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers

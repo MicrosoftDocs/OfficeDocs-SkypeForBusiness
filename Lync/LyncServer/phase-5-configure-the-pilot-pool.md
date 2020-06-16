@@ -1,8 +1,8 @@
 ---
 title: 'Phase 5: Configure the pilot pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 5: Configure the pilot pool'
