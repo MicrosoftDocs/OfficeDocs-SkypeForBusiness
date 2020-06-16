@@ -406,7 +406,7 @@ Also, you can make the SigninLogs detections specific to Teams by adding a filte
 | where AppDisplayName startswith "Microsoft Teams"
 ```
 
-To help explain using `where AppDisplayName startswith "Microsoft Teams"` further, the KQL below demonstrates a successful logon from one IP address with failure from a different IP address, but scoped only to Teams sign-ins:
+To help explain using `where AppDisplayName starts with "Microsoft Teams"` further, the KQL below demonstrates a successful logon from one IP address with failure from a different IP address, but scoped only to Teams sign-ins:
 
 ```kusto
 let timeFrame = 1d;
