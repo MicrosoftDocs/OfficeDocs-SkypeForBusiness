@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams User Adoption Plan | Best Practices
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
