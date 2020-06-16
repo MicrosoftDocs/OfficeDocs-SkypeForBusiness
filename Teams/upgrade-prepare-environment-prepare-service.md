@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn about the requirements for preparing your organization for collaboration and cloud voice services with Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -39,7 +39,7 @@ This article gives an overview of the requirements for preparing your organizati
 
 The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
-- [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
+- [Prepare Microsoft 365 or Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
 - [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

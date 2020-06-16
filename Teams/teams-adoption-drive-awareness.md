@@ -50,7 +50,7 @@ Use our resources to deliver end-user training as people begin to use Microsoft 
 - [Administrator training for Teams](itadmin-readiness.md)
 - [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud) 
-- [Day in the Life Microsoft 365 and Office 365 training cheat sheets](https://aka.ms/O365AdoptionTools)
+- [Adoption Tools](https://aka.ms/O365AdoptionTools)
 
 ## Measure and share success
 

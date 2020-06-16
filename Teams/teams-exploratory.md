@@ -28,18 +28,18 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 
 The service plans that an admin will see as part of the Teams Exploratory experience are:
  - Exchange Online (Plan 1)
- - Flow for Office 365
+ - Flow for Microsoft 365 or Office 365
  - Insights by MyAnalytics
  - Microsoft Forms (Plan E1)
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft Stream for O365 E1 SKU
+ - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs
  - Microsoft Teams
- - Mobile Device Management for Office 365
+ - Mobile Device Management for Microsoft 365 or Office 365
  - Office Mobile Apps for Office 365 
  - Office Online
- - PowerApps for Office 365
+ - PowerApps for Microsoft 365 or Office 365
  - SharePoint Online (Plan 1)
  - Sway
  - To-Do (Plan 1)
@@ -149,7 +149,7 @@ As of February, 2020, eligible users can begin using the latest Microsoft Teams 
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Delete a user from your organization](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 ## How long does the Teams Exploratory experience last?
 
@@ -158,3 +158,10 @@ The Microsoft Teams Exploratory experience is available at no additional cost un
 ### What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?
 
 Microsoft Teams Exploratory experience licenses initiated within 90 days of your **agreement anniversary** or **renewal** will not be required to move to a paid license until the subsequent anniversary or renewal cycle. 
+
+### What if my agreement doesn’t have an anniversary or yearly renewal date (for example, month-to-month agreements)?
+
+For agreements without an anniversary or yearly renewal date, the subsequent year after the first end user activates the Microsoft Teams Exploratory experience licenses will be treated as the anniversary or renewal date. Users on the Microsoft Teams Exploratory license must be converted to a paid license by that date each year, according to the policies outlined above.
+
+For example, if the first end user activates Microsoft Teams Exploratory on June 19, 2020, then they and all other eligible users in the customer tenant must convert to a paid license with Teams by June 19, 2021. 
+

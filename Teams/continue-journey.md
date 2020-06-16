@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams User Adoption Plan | Best Practices
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
 description: Learn how to use Teams to monitor network health, keep users engaged, and prepare for new functionality.
 localization_priority: Normal
@@ -43,7 +43,7 @@ The status of your network affects the user experience. When a user has a poor e
 To realize maximum benefit and business outcomes with Teams, users must actually use it. However, initial excitement tends to wane and users easily revert to old ways of working. Encourage user adoption and maintain excitement for Teams with an ongoing adoption plan, which can include:
 
 - Enlisting peer champions to help evangelize and encourage fellow users.
-- Checking the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
+- Checking the [Microsoft 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
 - Leveraging the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) to enhance awareness and share best practices.
 - Implementing a formal [adoption and change management strategy](http://www.successwithteams.com/) to help sustain adoption growth.
 
