@@ -1,8 +1,8 @@
 ---
 title: "Phase 5 Add Skype for Business Server 2019 Edge Server to pilot pool"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
