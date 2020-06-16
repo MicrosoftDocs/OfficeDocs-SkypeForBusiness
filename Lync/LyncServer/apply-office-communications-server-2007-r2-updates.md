@@ -1,8 +1,8 @@
 ---
 title: Apply Office Communications Server 2007 R2 updates
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH

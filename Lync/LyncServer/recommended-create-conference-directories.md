@@ -1,8 +1,8 @@
 ---
 title: (Recommended) Create Conference Directories
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: (Recommended) Create Conference Directories
