@@ -23,9 +23,10 @@ ms.custom: seo-marvel-apr2020
 Information barriers (IB) are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
 
 > [!NOTE]
-> - Information barrier groups cannot be created across tenants.
+> - Information barrier segments cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
 > - Private channels are compliant to information barrier policies that you configure.
+> - Information Barriers policies do not allow blocking communication within the same segments.
 > - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview.
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
