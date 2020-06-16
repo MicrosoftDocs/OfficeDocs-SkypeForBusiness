@@ -1,8 +1,8 @@
 ---
 title: "Phase 3 Deploy Skype for Business Server 2019 pilot pool"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

@@ -1,8 +1,8 @@
 ---
 title: Move Exchange Unified Messaging Contact objects
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
