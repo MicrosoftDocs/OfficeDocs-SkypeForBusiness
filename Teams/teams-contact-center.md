@@ -49,6 +49,7 @@ The following partners are in the process of certifying their solution for Micro
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 This list will be updated as more partners join and meet the certification criteria.
 
