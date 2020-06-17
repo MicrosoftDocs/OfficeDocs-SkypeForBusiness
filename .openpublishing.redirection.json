@@ -1877,6 +1877,11 @@
         "redirect_document_id": true
       },    
       {
+        "source_path": "Teams/known-issues.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams",
+        "redirect_document_id": true
+      },    
+      {
         "source_path": "Teams/devices/index.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
         "redirect_document_id": false
