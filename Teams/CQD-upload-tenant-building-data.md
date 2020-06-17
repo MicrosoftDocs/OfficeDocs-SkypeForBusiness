@@ -27,7 +27,7 @@ description: Learn how to upload tenant and building data in Call Quality Dashbo
 
 # Upload tenant and building data in Call Quality Dashboard (CQD)
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own building and endpoint information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting  **Tenant Data Upload** from the CQD **Settings* menu (a gear icon at the top of CQD). From here, admins can upload their org's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
 
 1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
@@ -55,6 +55,10 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 There are 2 types of tenant data files, [Building](#building-data-file) and [Endpoint](#endpoint-data-file).
 
 You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+
+### Building data file
+
+The first type of tenant data file in CQD is the **Building** data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
   
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
@@ -62,6 +66,7 @@ You can download a sample tenant data template [here](https://github.com/Microso
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma delimited):
 
+**Building data file format**
 
 | Column name        | Data type | Example                   | Guidance              |
 |--------------------|-----------|---------------------------|-----------------------|
@@ -95,10 +100,6 @@ You can download a sample tenant data template [here](https://github.com/Microso
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 >
 > The VPN column is optional and will default to 0. If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
-
-### Building data file
-
-The first type of tenant data file in CQD is the **Building** data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
 
 #### Supernetting

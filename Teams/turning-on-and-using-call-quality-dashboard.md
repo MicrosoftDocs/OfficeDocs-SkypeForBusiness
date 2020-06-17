@@ -63,12 +63,6 @@ For more information about these roles, see [About Office 365 admin roles](/offi
 After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
 
 
-## Use Power BI to analyze CQD data
-
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
-
-Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
-
 ## Migrate reports from previous version of CQD
 
 If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
@@ -79,6 +73,12 @@ If  you created reports or uploaded tenant data (mapping) files to CQD for Skype
 4.    From the links on the left, click **Import** and select the exported file. 
 5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
 
+
+## Use Power BI to analyze CQD data
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
+Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 
 
 ## Related topics
