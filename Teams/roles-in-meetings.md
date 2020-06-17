@@ -29,7 +29,9 @@ The available meeting features are:
 - Meeting Notes
 - Whiteboard
 - Recording
-- Files
+- Files 
+    - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat
+    - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting
 - Schedule a meeting (for meetings only)
 
 This article describes those participant capabilities and what access they have to meeting features.
@@ -63,7 +65,8 @@ The in-tenant participant belongs to the organization and has credentials for th
 | Meeting Notes | Yes | Yes |Yes |
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
-| Files | Yes | Yes | Yes |
+| Files - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat | Yes | Yes | Yes |
+| Files - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting | Yes | Yes | Yes |
 | Schedule a meeting | Yes | N/A | N/A |
 |||||||
 
