@@ -41,28 +41,31 @@ Presenter and producer include the following:
 
 Presenters and producers have access to all live event features.
 
-| Live event |  | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**       | Pre-event | In-event | Post-event |
 | Chat | Yes | Yes| Yes |
 | Meeting Notes | Yes | Yes |Yes |
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
-| Files | Yes | Yes | Yes |
+| Files | Yes |Yes | Yes |
 | Q/A | Yes | Yes | Yes |
 |||||||
 
 ## Live event attendee
 
-A live event attendee is someone who has the link to the live event or event recording. No special permissions are required to attend/view the event. An attendee who views the live event in real-time can participate in Q/A if allowed by the presenter and/or producer. In addition, the presenter and/or producer can provide file downloads.
+A live event attendee is someone who has the link to the live event or event recording. No special permissions are required to attend/view the event. An attendee who views the live event in real-time can participate in Q/A if allowed by the presenter and/or producer. 
 
-| Live event  | | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Feature**        | Pre-event | In-event | Post-event |
-| Q/A | Yes | Yes| Yes |
-| Files | Yes | Yes | Yes|
+|  **Feature**       | Pre-event | In-event | Post-event |
+| Recording | N/A | N/A| Yes |
+| Video playback controls, if enabled by producer | N/A | Yes | Yes |
+| Q/A, if enabled by producer | Yes | Yes | Yes |
 |||||||
 
 ## Related topics
 
-[Plan for live events in Teams](teams-live-events/plan-for-teams-live-events.md)
+- [Plan for live events in Teams](teams-live-events/plan-for-teams-live-events.md)
+
+- [Get started with Microsoft Teams live events](https://support.microsoft.com/en-us/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_productiontypes)
