@@ -64,7 +64,7 @@ The first type of tenant data file in CQD is the **Building** data file, which h
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
 - Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma delimited):
+- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
 
 **Building data file format**
 
