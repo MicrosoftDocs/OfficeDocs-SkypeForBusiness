@@ -129,6 +129,38 @@
 # Meetings and conferencing
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
+## Microsoft Teams Rooms
+### [Overview](rooms/index.md)
+### Plan
+#### [Overview of Microsoft Teams Rooms planning](rooms/rooms-plan.md)
+#### [Version support](rooms/rooms-lifecycle-support.md)
+#### [Release notes](rooms/rooms-release-note.md)
+#### [Prepare your environment](rooms/rooms-prep.md)
+#### [Requirements](rooms/requirements.md)
+#### [Online Licensing](rooms/rooms-licensing.md)
+#### [Plan management with Azure Monitor](rooms/azure-monitor-plan.md)
+#### [Plan management with Managed Meeting Rooms](rooms/managed-meeting-rooms.md)
+### Deploy
+#### [Deployment overview](rooms/rooms-deploy.md)
+#### [Configure accounts](rooms/rooms-configure-accounts.md)
+#### [With Office 365](rooms/with-office-365.md)
+#### [With Skype for Business Server](rooms/with-skype-for-business-server-2015.md)
+#### [With Exchange Online (Hybrid)](rooms/with-exchange-online.md)
+#### [With Exchange on premises (Hybrid)](rooms/with-exchange-on-premises.md)
+#### [Configure a console](rooms/console.md)
+#### [Configure authentication](rooms/rooms-authentication.md)
+#### [By using Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
+#### [Management with Azure Monitor](rooms/azure-monitor-deploy.md)
+#### [Migrate SRS v1 or LRS](rooms/lrs-migration.md)
+#### [Content cameras](rooms/content-camera.md)
+### Manage
+#### [Management overview](rooms/rooms-manage.md)
+#### [Maintenance and operations](rooms/rooms-operations.md)
+#### [Support Teams in your organization](rooms/known-issues.md)
+#### [Devices with Azure Monitor](rooms/azure-monitor-manage.md)
+#### [Settings with an XML file](rooms/xml-config-file.md)
+#### [Use the recovery tool](rooms/recovery-tool.md)
+
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
@@ -145,7 +177,6 @@
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
 ## [Get a meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams Rooms](rooms/index.md)
 ## [Manage the Whiteboard in Teams](manage-whiteboard.md)
 
 
