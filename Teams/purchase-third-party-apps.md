@@ -43,7 +43,7 @@ After you've purchased the app, you can view the following purchase details on t
 - **License activation date**: Date on which your license was activated
 - **Licenses**: Number of licenses you purchased
 
-Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage licenses assignments for users.
+Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.
 
 ## Have an app that you want to list and sell on AppSource?
 
