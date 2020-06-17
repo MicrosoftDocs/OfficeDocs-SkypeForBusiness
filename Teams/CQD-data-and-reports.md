@@ -45,6 +45,23 @@ You can access CQD data by several different avenues. Pick the one that best mee
 |Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
 |Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data.  For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
+## Import the CQD report templates
+
+Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD's capabilities to make an impact on your users' Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+
+**To import the templates (.CQDX) into CQD**
+
+1. In CQD, select **Detailed Reports** from the menu at the top of the page.
+
+2. In the left panel, select **Import**. Browse to the first CQDX template and select **Open**.
+
+3. After the template is uploaded, a pop-up window will display the message "Report import was successful." Select **OK**.
+
+4. Repeat steps 2 and 3 for the second CQD template.
+
+> [!NOTE]
+> Each user must import the CQD templates into their CQD instance. 
+
 
 
 ## EUII data
@@ -240,24 +257,6 @@ From the pull-down list of reports at the top of the screen displayed at login \
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
 
-## Filtering reports
-CQD uses an Endpoint data file. The column values are used in the call record's First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
-
-- The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
-- The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
-- All seven columns use the String data type only. The maximum allowed length is 64 characters.
-- A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- EndpointName must be unique, otherwise the upload fails. If there is a duplicate row or two rows that use the same EndpointName the conflict will  cause incorrect joining.
-- EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as "IT Department designated 2018 Laptop" or "Asset Tag 5678".
-- There must be seven columns for each row and the columns must be in the following order:
-
-  **Field order:**
-
-EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
-
-CQD provides rich filtering and drill-down functionality that you can use to narrow the focus of your investigations. For an in-depth discussion of all the filtering functionality in CQD, read [Report filters](quality-of-experience-review-guide.md#report-filters).
-
-
 
 ## Query filters
 
@@ -272,7 +271,7 @@ Query filters are implemented by using the Query Editor in CQD. These filters ar
 
 ## Report filters
 
-Report filters are implemented by adding a filter to the rendered report either in the Query Editor or directly to the report. The following report filters are used throughout the template.
+Use CQD report filters to narrow the focus of your investigations. Use report filters by adding a filter to the rendered report either in the Query Editor or directly in the report. The following report filters are used throughout the [CQD templates](https://aka.ms/QERtemplates).
 
 
 | Filter     | Description                            | CQD report filter example         |
@@ -282,11 +281,6 @@ Report filters are implemented by adding a filter to the rendered report either 
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
-
-**<font color="red">===========REPORT FILTERS SECTION FROM QERGUIDE===========</font>**
-## Report filters
-
-Use a wide variety of CQD filters to narrow the focus of your investigations.
 
 ### Drill-down filters
 
@@ -391,28 +385,6 @@ You can also find your tenant ID by using PowerShell:
   Login-AzureRmAccount
   ```
 
-
-## Import the CQD report templates
-
-Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD's capabilities to make an impact on your users' Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
-
-**To import the templates (.CQDX) into CQD**
-
-1. In CQD, select **Detailed Reports** from the menu at the top of the page.
-
-2. In the left panel, select **Import**. Browse to the first CQDX template and select **Open**.
-
-3. After the template is uploaded, a pop-up window will display the message "Report import was successful." Select **OK**.
-
-4. Repeat steps 2 and 3 for the second CQD template.
-
-> [!NOTE]
-> Each user must import the CQD templates into their CQD instance. 
-
-
-
-
-**<font color="red">==================END REPORT FILTERS CONTENT FROM QERGUIDE=======</font>**
 
 
 ## Frequently asked questions
