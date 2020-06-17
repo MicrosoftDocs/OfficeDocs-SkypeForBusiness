@@ -3,15 +3,14 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 06/09/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: jowrig
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Teams voice case study for multi-national corporation
@@ -31,7 +30,7 @@ Depending on geographic location and other factors, Contoso had offices using th
 - Site Type C: A combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
 
-To implement a Microsoft Phone System solution for their entire organization, Contoso had to determine--for each site type--which of the following options would be used with Phone System to connect to the Public Switched Telephone Network (PSTN):
+To implement a Microsoft Phone System solution for their entire organization, Contoso had to determine&mdash;for each site type&mdash;which of the following options would be used with Phone System to connect to the Public Switched Telephone Network (PSTN):
 
 - Phone System with Calling Plan 
 
@@ -179,7 +178,7 @@ Contoso attended Ignite to stay current on Office 365 features including those a
 
 To obtain licenses and assign phone numbers to users, Contoso followed the steps in [Set up Calling Plans](set-up-calling-plans.md). 
 
-Due to the number of users that needed to be assigned phone numbers, Contoso decided to use PowerShell to assign the phone numbers. To learn how to assign numbers by using PowerShell--in addition to other settings--Contoso used the [Teams PowerShell Overview](teams-powershell-overview.md).  
+Due to the number of users that needed to be assigned phone numbers, Contoso decided to use PowerShell to assign the phone numbers. To learn how to assign numbers by using PowerShell&mdash;in addition to other settings&mdash;Contoso used the [Teams PowerShell Overview](teams-powershell-overview.md).  
 
 ### Direct Routing sites
 

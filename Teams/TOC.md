@@ -354,9 +354,9 @@
 ### [Manage emergency calling policies](manage-emergency-calling-policies.md)
 ### [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
 
-## Contoso case study
+## Contoso voice migration case study
 ### [Overview](voice-case-study-overview.md)
-### [Teams migration plan](voice-case-study-migration-plan.md)
+### [Teams upgrade plan](voice-case-study-migration-plan.md)
 ### [Phone System](voice-case-study-phone-system.md)
 ### [Location-Based-Routing](voice-case-study-location-based-routing.md)
 ### [Emergency calling](voice-case-study-emergency-calling.md)

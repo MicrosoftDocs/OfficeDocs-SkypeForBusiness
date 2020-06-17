@@ -3,15 +3,14 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 06/09/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: jowrig
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Teams voice case study for multi-national corporation
@@ -22,7 +21,7 @@ appliesto:
 
 # Contoso case study: Emergency calling
 
-To understand the availability of emergency calling and terminology related to emergency calling--Emergency Address, Place, Emergency Location, and Registered address--Contoso reviewed [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+To understand the availability of emergency calling and terminology related to emergency calling&mdash;Emergency Address, Place, Emergency Location, and Registered address&mdash;Contoso reviewed [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 In Office 365, a Calling Plan user is automatically enabled for emergency calling. But only Calling Plan users in the United States can leverage dynamic locations for routing emergency calls. 
 

@@ -3,15 +3,14 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 06/09/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: jowrig
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Teams voice case study for multi-national corporation
@@ -35,7 +34,7 @@ For Skype for Business, LBR was configured with the Session Border Controller (S
 
 - Contoso decided to leverage the main site SBC for the Direct Route to Office 365.  The main site SBC will be the proxy SBC for the remote site.  
 
-- Contoso leveraged a third-party consultant based in India to assist with certification of the LBR configuration with the telephony company in country.  <---Insert link to location of providers --> 
+- Contoso leveraged a third-party consultant based in India to assist with certification of the LBR configuration with the telephony company in country.  
 
 - To support users working from outside of the office to place PSTN calls, the company issued mobile phone was provided to their employees. 
 

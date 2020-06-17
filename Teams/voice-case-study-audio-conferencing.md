@@ -3,15 +3,14 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 06/09/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: jowrig
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Teams voice case study for multi-national corporation
@@ -21,7 +20,7 @@ appliesto:
 
 # Contoso case study: Audio Conferencing
 
-To gain an understanding of audio conferencing--what it is, what it costs, availability, and how it works--Contoso reviewed [Audio Conferencing in Office 365](deploy-audio-conferencing-teams-landing-page.md). 
+To gain an understanding of audio conferencing&mdash;what it is, what it costs, availability, and how it works&mdash;Contoso reviewed [Audio Conferencing in Office 365](deploy-audio-conferencing-teams-landing-page.md). 
 
 ## Overview 
 

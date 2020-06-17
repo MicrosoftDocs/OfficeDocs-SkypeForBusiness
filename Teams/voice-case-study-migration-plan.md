@@ -3,15 +3,14 @@ title: Teams voice Contoso case study
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 06/09/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
-ms.reviewer: crowe
+ms.reviewer: jowrig
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
 description: Teams voice case study for multi-national corporation
@@ -19,11 +18,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Contoso case study: Teams migration plan
+# Contoso case study: Teams upgrade plan
 
 In the decision to migrate from Skype for Business to Teams, Contoso wanted to provide an easy transition experience for end users. Instead of switching everyone to Teams at the same time, they decided to set up hybrid connectivity, and use the overlapping capabilities method to move users to Teams. This allowed users in Teams and Skype for Business on-premises to share presence and communicate. As users entered the pilot for Phone System, they were moved to Teams Only mode.
 
-To understand fundamental concepts about migration, methods, and modes, Contoso read the following articles:
+To understand fundamental concepts about upgrade, methods, and modes, Contoso read the following articles:
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) 
