@@ -27,6 +27,7 @@ description: Learn about the data and reports available in Microsoft Call Qualit
 
 # Data and reports in Call Quality Dashboard (CQD)
 
+**<font color="red">SIUNIE - THIS IS THE NEW LIST YOU GAVE ME RECENTLY. NEED TO FLESH OUT THE REST API INFORMATION.</FONT>**
 
 Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
 
