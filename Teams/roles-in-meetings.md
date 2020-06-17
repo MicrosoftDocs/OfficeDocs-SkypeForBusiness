@@ -29,7 +29,7 @@ The available meeting features are:
 - Meeting Notes
 - Whiteboard
 - Recording
-- Files 
+- Files
     - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat
     - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting
 - Schedule a meeting (for meetings only)
