@@ -1,7 +1,7 @@
 ---
 title: "Security guide for Microsoft Teams"
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
