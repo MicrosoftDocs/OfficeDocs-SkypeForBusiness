@@ -88,8 +88,8 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
-- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Audio message creation**
+- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
+- **Audio message creation** 
   > [!Important]
   > Audio messages are not captured in eDiscovery reporting.
     - **Allowed in chats and channels** This means that users can leave audio messages in both chats and channels.
@@ -104,4 +104,4 @@ Use the following settings to change the global messaging policy or create a new
 
 ### Related topics
 
-[Meeting policies in Teams](meeting-policies-in-teams.md)
+- [Meeting policies in Teams](meeting-policies-in-teams.md)
