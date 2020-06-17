@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, publish or upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -45,14 +45,17 @@ It's important to know that this column represents the allowed and blocked statu
 
 To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
 
-## Upload a new app
+## Publish or upload a new custom app
 
-You can use your app catalog to test and distribute custom applications that are built specifically for your organization. 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). When you have the app package, you can add it to the your app catalog. While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
+You can use your app catalog to test and distribute custom apps that are built specifically for your organization. 
+A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
 
-To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app package in .zip format. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
+You can get the app package in the following ways:
 
-To update an app after it's uploaded, in the list of apps on the **Manage apps** page, click the app name, and then click **Update**. Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app.
+- The developer can submit the app to the tenant app catalog directly through their IDE or using the Apps Submission API. The app will be listed in the table with an **App publishing status** of **Submitted** and an **App status** of **Blocked**. You can then review and publish the app directly from the app details page.
+- The developer can send you the app package in .zip format. To upload the app to your tenant app catalog, click **Upload new app** to upload the app package. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
+
+To update an app after it's published or uploaded, in the list of apps on the **Manage apps** page, click the app name, and then click **Update**. Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app.
 
 To learn more, see [Manage your custom apps in Teams](manage-your-custom-apps.md).
 

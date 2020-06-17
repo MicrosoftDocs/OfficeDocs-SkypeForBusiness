@@ -21,8 +21,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Manage your custom apps in Microsoft Teams
 
-
-This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for IT pros. For more information on developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
+This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
 ![Overview of your app from development to deployment](media/manage-your-lob-apps.png)
 
@@ -41,10 +40,7 @@ Make sure that your developers, whether in-house or external, have accounts in y
 
 ### Allow custom apps in the test tenant
 
-> [!IMPORTANT]
->  Perform this step only if you 
-
-To give developers the access they need for testing, allow all users in the test tenant to upload custom apps (also known as sideloading). This lets developers upload a custom app to be used personally or across the test tenant without having to submit the app to the Teams apps store. Uploading a custom app lets developers test an app before you distribute it more widely.
+To give developers the access they need for testing, allow all users in the test tenant to upload custom apps (also known as sideloading). This lets developers upload a custom app to be used personally or across the test tenant without having to submit the app to the Teams app store. Uploading a custom app lets developers test an app before you distribute it more widely.
 
 To allow users to upload custom apps, follow these steps:
 
@@ -67,20 +63,30 @@ To allow users to upload custom apps, follow these steps:
 
 Developers should now have what they need to create your app. See <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a> for guidance on that.
 
+When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that.
+
+Developers can validate the app package manifest directly from within their IDE. They can use the checklist to make sure the app meets publication guidelines and requirements. Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
+
 ## Step 2: Validate in production
 
-### Get the app package
+### Review the app on the Manage apps page of the Microsoft Teams admin center
 
-When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that. They'll send you the file in .zip format.
+Developers can submit the app package directly from their IDE or by using the App Submission API to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center. 
 
-Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
+In the table, you'll see that an app submitted by a developer from their IDE or by using App Submission API have an **App publishing status** of **Submitted** and an **App status** of **Blocked**. 
+2. Click the app name to go to the app details page. From here, you can view details about the app and download the manifest for validation.
+
+#### If you want to do this manually
+
+Have the developer send you the app package file in .zip format.
 
 ### Allow trusted users to upload custom apps in the production tenant
 
-To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users in your organization to upload custom apps.  Much like in the earlier <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">step</a>, you use app setup policies to do this.
+To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users to upload custom apps in the production tenant. Much like in the earlier <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">step</a>, you use app setup policies to do this.
 
 > [!NOTE]
-> If you're uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to upload the unvalidated app to your tenant app store. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app store to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
+> If you're uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to publish the unvalidated app to your tenant app catalog. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app catalog to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
 
 To allow trusted users to upload custom apps, follow these steps:
 
@@ -98,17 +104,24 @@ To allow trusted users to upload custom apps, follow these steps:
 
     These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
-## Step 3: Upload to the tenant app catalog
+## Step 3: Publish the app
 
-To make the app available to users in the tenant app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
+When you're ready to make the app available to users in the tenant app catalog, publish the app. 
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. 
+2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
+
+### If you want to do this manually
+
+Upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 ![Screenshot of the Manage apps page in the admin center](media/manage-your-lob-apps-upload-new-app.png)
 
-## Step 4: Configure and assign permissions
+## Step 4: Set up and manage
 
 ### Control access to the app
 
-By default, all users have access to this app in the the Teams apps store. To restrict and control who has permission to use the app, you can create and assign a new app permission policy. Follow the steps <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">here</a>.
+By default, all users have access to this app in the Teams apps store. To restrict and control who has permission to use the app, you can create and assign a new app permission policy. Follow the steps <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">here</a>.
 
 ![Screenshot of the "Add app permission policy" page](media/manage-your-lob-apps-new-app-permission-policy.png)
 
@@ -165,9 +178,6 @@ Make sure that your developers, whether in-house or external, have accounts in y
 
 ### Allow custom apps in the test tenant
 
-> [!IMPORTANT]
->  Perform this step only if you 
-
 To give developers the access they need for testing, allow all users in the test tenant to upload custom apps (also known as sideloading). This lets developers upload a custom app to be used personally or across the test tenant without having to submit the app to the Teams apps store. Uploading a custom app lets developers test an app before you distribute it more widely.
 
 To allow users to upload custom apps, follow these steps:
@@ -195,7 +205,7 @@ Developers should now have what they need to create your app. See <a href="https
 
 ### Get the app package
 
-When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that. They'll send you the file in .zip format.
+When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that. They'll send you the file in .zip format. 
 
 Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
 
@@ -204,7 +214,7 @@ Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publi
 To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users in your organization to upload custom apps.  Much like in the earlier <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">step</a>, you use app setup policies to do this.
 
 > [!NOTE]
-> If you're uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to upload the unvalidated app to your tenant app store. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app store to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
+> If you're uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to publish the unvalidated app to your tenant app catalog. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant app catalog to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
 
 To allow trusted users to upload custom apps, follow these steps:
 
@@ -222,9 +232,9 @@ To allow trusted users to upload custom apps, follow these steps:
 
     These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
-## Step 3: Upload to the tenant app catalog
+## Step 3: Publish to your tenant app catalog
 
-To make the app available to users in the tenant app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
+To make the app available to users in the tenant app catalog, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 ![Screenshot of the Manage apps page in the admin center](media/manage-your-lob-apps-upload-new-app.png)
 
