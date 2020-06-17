@@ -101,8 +101,6 @@ To download logs from a Teams Rooms device to your computer, do the following:
     > It can take several minutes for device logs to become available.
 1. Select the **History** tab
 
-
-
 ## View device information
 
 From the Teams admin center, you an view the overall status of all devices in your organization and view details of each device individually.
@@ -113,16 +111,19 @@ The Teams Rooms system dashboard shows you the status and health of all of your 
 
 ### Device details view
 
-To view detailed information about a device, select its name from the device list.
+To view detailed information about a device, select its name from the device list. When in details view, you can see the following information about your device:
 
-#### Peripherals
+- **Peripherals** Shows the peripherals connected to your Teams Room device and their health status. Health status can be either **Connected** or **Disconnected**.
+- **Health** Shows detailed information about the peripherals connected to your Teams Room device, network connectivity, sign in status to required services, and software version information.
+- **Details** Shows manufacturer information, network IP address, and Teams Room device serial/MAC address.
+- **Activity** Shows past meeting details including date and time of the meeting, number of participants, duration, and audio quality. For more information about meeting details, see the [Meeting activity details](#meeting-activity-details) section later in this article.
+- **History** Shows a history of management activity on the Teams Room device, including configuration updates, device restarts, and device log download links.
 
-#### Health
+#### Meeting activity details
 
-#### Details
+The **Activity** tab in Teams Room device details shows high-level and detailed information about all of the meetings the device has participated in over time. In the **Activity** tab, you can see when a meeting was held, how many participants attended the meeting, and the quality of audio during the meeting.
 
-#### Meetings
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Room device activity summary list":::
 
-#### History
-
+To see the detail information about a specific meeting, select the date and time of the meeting you want more information about. 
 
