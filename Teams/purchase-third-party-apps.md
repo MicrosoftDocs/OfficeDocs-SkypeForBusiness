@@ -31,8 +31,8 @@ Here, you can also purchase licenses for third-party apps for users in your orga
     - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the app. If you need more information, click the **learn more** link to go to the app's page in [AppSource](https://appsource.microsoft.com/).  
-4. To buy a plan, click **Purchase now**. You'll be redirected to the AppSource page to complete your purchase. 
+3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the app. If you need more information, click the **learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
+4. To buy a plan, click **Purchase now**. You'll be redirected to the app's page on AppSource to complete your purchase. 
 5. Choose the plan that you want. If the app offers more than one plan, click **Change** to see the list of available plans.
 6. Select your billing term (either **Monthly** or **Yearly**), and then enter the number of user licenses that you want to buy.
 7. When you're ready, select **Place order**.
