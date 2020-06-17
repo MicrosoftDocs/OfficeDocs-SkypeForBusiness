@@ -688,7 +688,6 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
-## [Support Teams in your organization](Known-issues.md)
 ## [Monitor and manage call quality](monitor-call-quality-qos.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Set up QoS in Teams](QoS-in-Teams.md)
@@ -704,6 +703,7 @@
 #### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Issues receiving messages and calls on legacy systems](legacy-login-issues.md)
