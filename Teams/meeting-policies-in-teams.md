@@ -193,6 +193,8 @@ Meeting participants who don't have any policies assigned (for example, anonymou
 |**Outgoing and incoming audio enabled**    |Outgoing and incoming audio is allowed in the meeting. This is the default setting. |
 |**Disabled**     |Outgoing and incoming audio is turned off in the meeting.     |
 
+To learn more, see [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
+
 ### Mode for IP video
 
 This is a per-user policy. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user and whether a user can see videos shared by other meeting participants. If this policy setting is disabled for user, that user can't turn on video or view videos shared by other meeting participants.
@@ -204,11 +206,13 @@ Meeting participants who don't have any policies assigned (for example, anonymou
 |**Outgoing and incoming video enabled**    | Outgoing and incoming video is allowed in the meeting. This is the default setting. |
 |**Disabled**     | Outgoing and incoming video is turned off in the meeting. |
 
+To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
+
 ### Allow IP video
 
 This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. Meetings organized by a user who has this policy setting enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
-Keep in mind that this **Allow IP video** setting controls outgoing video where the **Mode for IP video** setting controls outgoing and incoming video.
+Keep in mind that this **Allow IP video** setting controls outgoing video where the **Mode for IP video** setting controls outgoing and incoming video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
 ![Screenshot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
 
