@@ -63,7 +63,7 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants.
 
 If you upgraded from Skype for Business to Teams, the external communications settings that you configured in the Skype for Business admin center are migrated to Teams.
 
@@ -73,7 +73,7 @@ In the Microsoft Teams admin center, go to **Org-wide settings** > **External ac
 
 ### Using PowerShell
 
-Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users.
+Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. Note that the ```EnablePublicCloudAudioVideoAccess``` parameter can be used to enable/disable audio/video calls.
 
 ## Related topics
 

@@ -35,7 +35,7 @@ Later on, those users may create meetings and invite users from outside the orga
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
-For Skype for Business Server, Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac) are available as replacements for Skype for Business Web App beginning with CU5, but providing the replacement apps requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  If Skype Meetings App and Skype for Business for Mac are enabled, users will download the latest version of the apps from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019, using Skype Meetings App and Skype for Business for Mac is the only option.
+For Skype for Business Server, Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac) are available as replacements for Skype for Business Web App beginning with CU5, but providing the replacement apps requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App and Skype for Business for Mac are enabled, users will download the latest version of the apps from the Microsoft 365 or Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019, using Skype Meetings App and Skype for Business for Mac is the only option.
   
 Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over the Skype for Business Web App for reliability and the meeting experience. 
   
@@ -60,12 +60,12 @@ To use the Skype for Business Web App, a user must have one of the following sup
    
 &#x2776; The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 and 11. Note that Firefox and Safari version 12.0 and later is no longer supported.
   
-&#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.
+&#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.  Also note the web app will not install on OS X 10.15 or later.  We recommend using the latest version of Skype for Business for Mac which supports anonymous join scenarios moving forward.
   
 &#x2778; Accessing the Web App from Chrome on Windows will launch a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
   
 > [!NOTE]
-> Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
+> Microsoft 365 and Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
   
 ### Skype Meetings App
 

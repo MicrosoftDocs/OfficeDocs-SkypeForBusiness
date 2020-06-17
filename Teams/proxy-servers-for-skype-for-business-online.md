@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Optimization
-description: "This article provides information about using a proxy server with Teams or Skype for Business."
+  - seo-marvel-apr2020
+description: This article provides information about using a proxy server with Microsoft Teams or Skype for Business.
 ---
 
 # Proxy servers for Teams or Skype for Business Online
@@ -53,6 +54,6 @@ Following this guidance should minimize potential problems.
   
 ## Related topics
 
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
+[Microsoft 365 and Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
 [Prepare your organization's network for Teams](prepare-network.md)

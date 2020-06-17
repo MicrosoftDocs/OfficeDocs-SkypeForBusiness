@@ -20,8 +20,9 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
+  - seo-marvel-mar2020
 hideEdit: true
-description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
+description: Learn how Microsoft collects census, usage, and error data to understand Teams and Skype for Business usage and problems in order to plan product improvements.
 ---
 
 # Skype for Business and Microsoft Teams data collection practices
@@ -109,7 +110,7 @@ See [Set General options in Skype for Business](https://support.office.com/artic
 
 You can see [Set up your network for Skype for Business Online](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) to set up your network.
 
-If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
+If you are using Microsoft 365 or Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## Related topics
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

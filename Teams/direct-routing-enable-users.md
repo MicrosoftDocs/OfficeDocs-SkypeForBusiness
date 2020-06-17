@@ -32,17 +32,17 @@ For information on all the steps required for setting up Direct Routing, see [Co
 
 When you are ready to enable users for Direct Routing, follow these steps: 
 
-1. Create a user in Office 365 and assign a phone system license. 
+1. Create a user in Microsoft 365 or Office 365 and assign a Phone System license. 
 2. Ensure that the user is homed in Skype for Business Online. 
 3. Configure the phone number and enable enterprise voice and voicemail. 
 4. Assign Teams Only mode to users.
 
-## Create a user in Office 365 and assign the license 
+## Create a user and assign the license 
 
-There are two options for creating a new user in Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
+There are two options for creating a new user in Microsoft 365 or Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
 - Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-- Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Create the user directly in the Microsoft 365 admin center. See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 
 
@@ -75,7 +75,7 @@ To add the phone number and enable for voicemail:
 	For example, to add a phone number for user "Spencer Low," enter the following: 
 
 	```PowerShell
-	Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+	Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 	```
 
 	The phone number used has to be configured as a full E.164 phone number with country code. 

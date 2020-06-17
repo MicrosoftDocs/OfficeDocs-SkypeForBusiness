@@ -14,10 +14,12 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom: 
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams.
+description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
 # Manage policy packages in Microsoft Teams
@@ -28,7 +30,7 @@ When you assign a policy package to users, the policies in the package are creat
 
 Policy packages aren't available for US Government Cloud Community (GCC) organizations.
 
-## What is a policy package?
+## What is a policy package
 
 Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes predefined policies and policy settings that support the collaboration and communication activities that are typical for that role.
 
@@ -40,12 +42,14 @@ Teams currently includes the following policy packages.
 |Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
+|Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
+|Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
+|Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
+|Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
+|Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
 |Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
-|Small and medium business user (without Business Voice) |This policy package is designed to create a set of policies and apply those settings to small and medium sized business users without any Business Voice features.|
+|Small and medium business user (without Business Voice) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Business Voice experience).
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
-|Healthcare (Clinical worker)  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
-|Healthcare (Information worker)  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
@@ -90,6 +94,12 @@ Here are the steps for how to view, assign, and customize policy packages in the
 2. Click **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, click **Save**.
+
+#### Assign a policy package to a large set (batch) of users
+
+Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
+
+A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ### Customize policies in a policy package
 

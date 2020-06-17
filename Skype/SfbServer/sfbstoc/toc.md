@@ -11,13 +11,13 @@
 
 ## [Microsoft telephony solutions](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [Enable users for Phone System with on-premises PSTN connectivity in Skype for Business Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [Enable users for Enterprise Voice on premises](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [Assign a voice routing policy](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [Enable users for Enterprise Voice online and Phone System Voicemail](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [Plan Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
@@ -27,7 +27,7 @@
 #### [Prepare your Cloud Connector appliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md)
 #### [Deploy a single site in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md)
 #### [Deploy multiple sites in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md)
-#### [Configure Cloud Connector integration with your Office 365 tenant](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md)
+#### [Configure Cloud Connector integration with your Office 365 organization](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md)
 #### [Validate your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md)
 #### [Upgrade to a new version of Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md)
 #### [Modify the configuration of an existing Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md)

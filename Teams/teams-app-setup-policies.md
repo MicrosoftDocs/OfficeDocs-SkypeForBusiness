@@ -88,15 +88,21 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to users in a group, such as a security group or distribution group.
 
 ### Assign a custom app setup policy to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
+To assign a policy to one user:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Under **App setup policy**, select the app setup policy you want to assign, and then click **Apply**.
 
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
 
 Or, you can also do the following:
 
@@ -113,7 +119,7 @@ You may want to assign a custom app setup policy to multiple users that you've a
 In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
 
 > [!NOTE]
-> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
 ```PowerShell
@@ -156,7 +162,7 @@ There's no limit on the number of pinned apps you can add to a policy.
 
 #### How long does it take for policy changes to take effect?
 
-After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
 
 ### User experience
 
@@ -177,7 +183,11 @@ With the Teams mobile clients, users will see core Teams apps such as Activity, 
 
 #### Can users change the order of apps pinned through a policy?
 
-Currently, users can change the order of their pinned apps on Teams mobile clients but not on the Teams desktop or web clients.
+Users can change the order of their pinned apps on Teams desktop and mobile clients if the **Allow user pinning** option is turned on. Users can't change the order of their pinned apps on Teams web clients.
+
+#### Does user pinning take precedence?
+
+If the app setup policy assigned to the user is changed to block user app pinning, Teams removes any apps pinned to the app bar. If the policy is then changed to allow user app pinning, users must re-pin their previously pinned apps.
 
 ### Custom Teams apps
 
@@ -188,3 +198,4 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
  ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
+- [Assign policies to your users in Teams](assign-policies.md)

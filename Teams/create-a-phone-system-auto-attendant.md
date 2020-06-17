@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: kenwith
-author: kenwith
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -38,12 +38,12 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 
 ## Step 1 — Get started
 
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
+An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
-> To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## Step 2 — Create auto attendants
 
@@ -78,10 +78,11 @@ If you set an Operator, tell people who call about the option in **Edit menu opt
 You have several ways to set the Operator:
 
 - **No operator** disables the "Operator" and "Press 0" options. This is the current default.
-- **Person in your organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in your organization** and set that account's settings to send calls directly to voicemail.
+- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in organization** and set that account's settings to send calls directly to voicemail.
 
      > [!Note]
-     > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
+     > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. 
+     When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.  
 <!--   
@@ -155,13 +156,14 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 ![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png) **Redirect call** sends the caller to the chosen destination without choosing from options. The possible settings are:
 
-  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
+  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
 
-  > [!Note]
-  > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
+    > [!Note]
+    > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
+    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
 
   - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
-  - **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+  - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
 
@@ -196,11 +198,11 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key. The caller who selects this option is sent to the designated Operator. If Operator isn't set to any key, the voice command "Operator" is also disabled. 
-- **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the person in the **Search by name** field.
+- **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. Search for the person in the **Search by name** field.
 
 - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
 
-- **Voicemail** Select the Office 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Office 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+- **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
     Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
 
@@ -223,7 +225,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 >    - Mobile/MobilePhone
 >    - TelephoneNumber/PhoneNumber
 >    - OtherTelephone
->- The required format to enter the extension in the user phone number field is is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
+>- The required format to enter the extension in the user phone number field is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
 >- Assigning an extension in Teams Admin center is not currently supported. You must either use the [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell command or the Microsoft 365 admin center.
 >- It can take up to 12 hours before changes to the AAD PhoneNumber and MobilePhone attributes are available.
 >- Please do NOT define an extension for the LineUri of a user. This is  not supported currently.
@@ -280,7 +282,7 @@ To customize start or end time for a day of the week, click on **Start at** or *
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)  To set up a break (a lunch break, for example), select **Add new time** for that day of the week to create anew table row, and select new start and end times. You can set multiple breaks within business hours.
+![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)  To set up a break (a lunch break, for example), select **Add new time** for that day of the week to create a new table row, and select new start and end times. You can set multiple breaks within business hours.
 
 The [Call flow](#call-flow) options available after hours are the same as the options available during business hours. Scroll down on the information entry page to set after hours call flow options.
 
@@ -335,7 +337,7 @@ On this page, you can set who is listed in your directory and available for Dial
 
 If you select **All online users**, all eligible users are included in directory search.
 
-**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
+**Custom user groups** This option lets you search for and select a Microsoft 365 group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Microsoft 365 group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Microsoft 365 groups, distribution lists, and security groups to the directory.
 
 <a name="dialscope"> </a>
 
@@ -345,8 +347,7 @@ On this page, you can set up which users in your organization will be listed in 
 
 If you select **None**, all eligible users are included in directory search.
 
-**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
-
+**Custom user group** You can search for a Microsoft 365 group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Microsoft 365 groups, distribution lists, and security groups.
 
 If you leave settings at their default when Dial by Name is enabled, all eligible users are included in directory search.
 
@@ -395,7 +396,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 - [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
 - [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
 - [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
 - [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
@@ -413,7 +414,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 ### More about Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Microsoft Teams from a single point of administration that can simplify your daily work. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Microsoft Teams from a single point of administration that can simplify your daily work. To get started with Windows PowerShell, see these topics:
 
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -421,13 +422,13 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as making setting changes for many users at once. Learn about these advantages in the following topics:
 
-  - [Manage Office 365 with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Manage Microsoft 365 or Office 365 with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## Related topics
 
-[Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
 

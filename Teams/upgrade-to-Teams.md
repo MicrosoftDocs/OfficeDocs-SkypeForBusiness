@@ -5,14 +5,16 @@ ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
-description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
+description: Determine the optimal upgrade path to Microsoft Teams based on your current Skype for Business deployment. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

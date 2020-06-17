@@ -1,5 +1,5 @@
 ---
-title: "Set up the Common Area Phone license for Microsoft Teams"
+title: Set up the Common Area Phone license
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
+  - seo-marvel-mar2020
 description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "
 ---
 
@@ -28,7 +29,7 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 
 A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
 
-In the steps below, we’ll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
+In the steps below, we'll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
 First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
@@ -76,7 +77,7 @@ The Common Area Phone license supports:
 
 1. In the Microsoft 365 admin center, go to **users** > **active users** > **add a user**.
 
-2. Enter a user name like “Main" for the first name and "Reception” for the second name.
+2. Enter a user name like "Main" for the first name and "Reception" for the second name.
 
 3. Enter a display name if it doesn't autogenerate one like "Main Reception."
 
@@ -99,7 +100,7 @@ Use the Teams admin center to assign a number to the user.
 
 1. In the Teams admin center, select **Voice** > **Phone numbers**.
 
-3.	Select a number from the list of phone numbers and click **Assign**.
+3.    Select a number from the list of phone numbers and click **Assign**.
 
 4. On the **Assign** page, in the Voice user box, type the name of the user who will be using the phone, and then select the user in the **Select a voice user** drop-down list.
 
@@ -114,6 +115,4 @@ Use the Teams admin center to assign a number to the user.
 
 For more information, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
-You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
-
+You can also take your phone number that you have with another carrier and "port" or transfer it over to Microsoft 365 or Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

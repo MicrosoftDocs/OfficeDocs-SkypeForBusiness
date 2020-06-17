@@ -1,5 +1,5 @@
 ---
-title: Implement QoS and Monitor Call Analytics in Microsoft Teams
+title: Implement QoS and Monitor Call Analytics
 author: dstrome
 ms.author: dstrome
 manager: Serdars
@@ -16,6 +16,7 @@ f1.keywords:
  - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Implement QoS and Monitor Call Quality in Microsoft Teams
@@ -32,7 +33,7 @@ Ideally you would implement QoS on your internal network while setting up Teams,
 
 [**Call Analytics and Call Quality Dashboard**](difference-between-call-analytics-and-call-quality-dashboard.md) are used to find and troubleshoot problems that come up during ongoing operation.  
 
-**Call Analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in a Microsoft Teams or Skype for Business account. If you're an Office 365 admin, you can use Call Analytics to troubleshoot call quality and connection problems experienced in a specific call. This can help you to identify and eliminate problems.
+**Call Analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in a Microsoft Teams or Skype for Business account. If you're a Microsoft 365 or Office 365 admin, you can use Call Analytics to troubleshoot call quality and connection problems experienced in a specific call. This can help you to identify and eliminate problems.
 
 **Call Quality Dashboard (CQD)** is designed to help admins and network engineers optimize their ***network***, not analyze and troubleshoot a single call. CQD shifts focus from specific users to look at aggregated information for an entire organization. This can also help you to identify and eliminate problems.
 

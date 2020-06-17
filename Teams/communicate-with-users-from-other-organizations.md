@@ -38,7 +38,7 @@ If you want external users to have access to teams and channels, [guest access](
 
 ## Guest access
 
-Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same Teams capabilities as a native team member. To learn more, read [Guest access in Teams](guest-access.md).
+Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Microsoft 365 or Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same Teams capabilities as a native team member. To learn more, read [Guest access in Teams](guest-access.md).
 
 - Guests are added to your organization’s Active Directory.
 - To communicate with a guest, the guest has to be signed in to Teams using their guest account. This means that a guest may have to sign out of their own Teams account to sign in to your Teams account.
@@ -67,6 +67,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | Yes<sup>4</sup> | Yes |
 | Make private calls | Yes | Yes |
+| View the phone number for dial-in meeting participants | No<sup>5</sup> | Yes |
 | Allow IP video | Yes | Yes |
 | Screen sharing mode | Yes<sup>4</sup> | Yes |
 | Allow meet now | No | Yes |
@@ -80,7 +81,8 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.<br>
-<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. 
+<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
+<sup>5</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## Related topics
 

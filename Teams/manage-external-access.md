@@ -1,5 +1,5 @@
 ---
-title: Manage external access (federation) in Microsoft Teams
+title: Manage external access (federation)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,6 +15,7 @@ f1.keywords:
 - CSH
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
+- seo-marvel-mar2020
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
   - Microsoft Teams
@@ -23,7 +24,7 @@ localization_priority: Normal
 Manage external access in Microsoft Teams
 ======================================================
 
-External access is a way for external Teams users from an entire domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on premises) and Skype (in preview).
+External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on-premises) and Skype (in preview).
 
 If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -130,8 +131,8 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 |Let **Teams users**  in your organization  communicate with **Skype for Business Online users**  in the same organization.  |Enable Coexistence mode or choose the Islands upgrade mode to support Skype for Business users in your organization.   |
 |Let **Teams users** in your organization communicate with **Skype for Business Online users** in another (external) organization.      |In External Access, add the external domain to the Allowed list or use open federation. <br><br>Turn on **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same thing. <br><br>**NOTE**: The external domain with Skype for Business users must enable Coexistence mode or choose the Islands upgrade mode to support Skype for Business users in that organization.|
 |Let **Teams users** in your organization communicate with **Skype** users.<br> (in preview)  |Turn on the **Users can communicate with Skype users** setting in External Access. |
-|Let your **Skype for Business Online users** communicate with **Teams users** in another Office 365 organization.| Your Skype for Business Online users can communicate with Teams users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Teams users are in TeamsOnly mode. <br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
-|Let your **Skype for Business Online users** communicate with **Skype for Business Online users** from another Office 365 organization.    | Your Skype for Business Online users can communicate with Skype for Business Online users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Skype for Business Online users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
+|Let your **Skype for Business Online users** communicate with **Teams users** in another Microsoft 365 or Office 365.| Your Skype for Business Online users can communicate with Teams users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Teams users are in TeamsOnly mode. <br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
+|Let your **Skype for Business Online users** communicate with **Skype for Business Online users** from another Microsoft 365 or Office 365.    | Your Skype for Business Online users can communicate with Skype for Business Online users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Skype for Business Online users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
 |Let your **Skype for Business Online users** communicate with **Skype for Business users** from an on-premises organization.     |Your Skype for Business Online users can communicate with Skype for Business users from an on-premises organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Skype for Business Online users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
 |Let your **Skype for Business Online users** communicate with **Skype users** (inside or outside your organization).   |Turn on the **Users can communicate with Skype users** setting in External Access.|
 

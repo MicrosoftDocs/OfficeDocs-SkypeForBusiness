@@ -3,7 +3,7 @@ title: Assign policies to your users in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: tomkau, saragava, ritikag 
+ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,18 +16,20 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn the different ways to assign policies to your users in Microsoft Teams.
 f1keywords: 
+  - ms.teamsadmincenter.bulkoperations.users.edit
+  - ms.teamsadmincenter.bulkoperations.edit
 ---
 
 # Assign policies to your users in Microsoft Teams
 
 > [!NOTE]
-> **One of the Microsoft Teams features discussed in this article, [policy assignment to groups](#assign-a-policy-to-a-group), is currently in preview.**
+> **One of the Microsoft Teams features discussed in this article, [policy assignment to groups](#assign-a-policy-to-a-group), is currently only available in private preview. The Powershell cmdlets for this feature are in the pre-release Teams PowerShell module.** To stay on top of the release status of this feature, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
 As an admin, you use policies to control the Teams features that are available to users in your organization. For example, there are calling policies, meeting policies, and messaging policies, to name just a few.
 
 Organizations have different types of users with unique needs and custom policies that you create and assign let you tailor policy settings to different sets of users based on those needs.
 
-To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. You can assign a policy directly to users, either individually or at scale through a batch assignment, or to a group that the user is a member of. You can also use policy packages to assign a preset collection of policies to users in your organization who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users that you're assigning to.
+To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. You can assign a policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. You can also use policy packages to assign a preset collection of policies to users in your organization who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users that you're assigning to. By setting the global (Org-wide default) policies so that they apply to the largest number of users in your organization, you only have to assign policies to those users that require specialized policies.
 
 This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
 
@@ -55,14 +57,60 @@ To learn more, see [Precedence rules](#precedence-rules).
 
 Here's an overview of the ways that you can assign policies to users and the recommended scenarios for each. Click the links to learn more.
 
+Before assigning policies to individual users or groups, start by [setting the global (Org-wide default) policies](#set-the-global-policies) so that they apply to the largest number of users in your organization.  Once the global policies are set, you will only need to assign policies to those users that require specialized policies.
+
 |Do this  |If...  | Using...
 |---------|---------|----|
 |[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Skype for Business Online PowerShell module
 | [Assign a policy package](#assign-a-policy-package)   | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to teachers in your school to give them full access to chats, calling, and meetings and the Education (Secondary school student) policy package to secondary students to limit certain capabilities like private calling.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
-|[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)   | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |PowerShell cmdlets in the Teams PowerShell module|
+|[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)   | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy to a group](#assign-a-policy-to-a-group) (in preview)   |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.| PowerShell cmdlets in the Teams PowerShell module|
-| Assign a policy package to a batch of users (coming soon) |||
+| [Assign a policy package to a batch of users](#assign-a-policy-package-to-a-batch-of-users)|You need to assign multiple policies to a batch of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to all teachers in your school using batch assignment to give them full access to chats, calling, and meetings and assign the Education (Secondary school student) policy package to a batch of secondary students to limit certain capabilities like private calling.|PowerShell cmdlets in the Teams PowerShell module|
 | Assign a policy package to a group (coming soon)   | ||
+
+## Set the global policies
+
+Follow these steps to set the global (Org-wide default) policies for each policy type.
+
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to the policy page for the policy type you want to update. For example, *Teams > Teams policies* or *Meetings > Meetings policies* or *Messaging policies* or *Voice > Calling policies*.
+2. Select the **Global (Org-wide default)** policy to view the current settings.
+3. Update the policy as needed, and then select **Save**.
+
+### Using PowerShell
+
+To set the global policies using PowerShell, use the Global identifier.  Start by reviewing the current Global policy to determine which setting you want to change.
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+Next, update the Global policy as needed.  You only need to specify values for the settings that you want to change. 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## Assign a policy to individual users
 
@@ -76,8 +124,6 @@ To assign a policy to a user:
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Select the policy you want to assign, and then click **Apply**.
 
-To assign a policy to up to 20 users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
-
 Or, you can also do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page.
@@ -88,7 +134,7 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Each policy type has it's own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
  Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
@@ -116,13 +162,25 @@ When you assign a policy package to users, the policies in the package are creat
 To learn more about policy packages, including step-by-step guidance on how to assign and manage them, see [Manage policy packages in Teams](manage-policy-packages.md).
 
 ## Assign a policy to a batch of users
+
+### Using the Microsoft Teams admin center
+
+To assign a policy to users in bulk:
+
+1. In the left navigation of the Microsoft Teams admin center, select **Users**.
+2. Search for the users you want to assign the policy to or filter the view to show the users you want.
+3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
+
+To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you click **Apply** to submit your policy assignment, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
+
+### Using PowerShell
  
-With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyAssignmentOperationd``` cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch.
+With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch. 
 
-A batch can contain up to 20,000 users. You can specify users by their object Id, user principal name (UPN), Session Initiation Protocol (SIP) address, or email address.
+You can specify users by their object Id or Session Initiation Protocol (SIP) address. Note that a user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this is not required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch. 
 
-> [!IMPORTANT]
-> We're currently recommending that you assign policies in batches of 5,000 users at a time. During these times of increased demand, you may experience delays in processing times. To minimize the impact of these increased processing times, we suggest that you submit smaller batch sizes of up to 5,000 users, and submit each batch only after the previous one is completed. Submitting batches outside your regular business hours can also help.
+A batch can contain up to 5,000 users. For best results, do not submit more than a few batches at a time. Allow batches to complete processing before submitting more batches.
 
 > [!NOTE]
 > Currently, batch policy assignment isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
@@ -164,12 +222,12 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their UPNs.
+In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
 
 ```powershell
 Connect-AzureAD
 $users = Get-AzureADUser
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.UserPrincipalName -OperationName "Example 2 batch"
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
 ```
 
 To learn more, see [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
@@ -192,7 +250,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 ## Assign a policy to a group
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**Policy assignment to groups is currently only available in private preview. The cmdlets for this feature are in the pre-release Teams PowerShell module.**
 
 Policy assignment to groups lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
@@ -348,7 +406,7 @@ Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeeting
 
 The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the policy named Vendor Live Events that's assigned to a group the user belongs to.
 
-```
+```console
 AssignmentType PolicyName         Reference
 -------------- ----------         ---------
 Direct         Employee Events
@@ -368,6 +426,56 @@ You can use following cmdlet in the Teams Powershell module to do this at scale 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
+
+## Assign a policy package to a batch of users
+
+With batch policy package assignment, you can assign a policy package to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch.
+
+You can specify users by their object Id or Session Initiation Protocol (SIP) address. Note that a user's SIP address often has the same value as the User Principal Name (UPN) or email address, but this is not required. If a user is specified using their UPN or email, but it has a different value than their SIP address, then policy assignment will fail for the user. If a batch includes duplicate users, the duplicates will be removed from the batch before processing and status will only be provided for the unique users remaining in the batch. 
+
+A batch can contain up to 5,000 users. For best results, do not submit more than a few batches at a time. Allow batches to complete processing before submitting more batches.
+
+### Install and connect to the Microsoft Teams PowerShell module
+
+Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if you haven't already). Make sure you install version 1.0.5 or later.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Run the following to connect to Teams and start a session.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+When you're prompted, sign in using your admin credentials.
+
+### Assign a policy package to a batch of users
+
+In this example, we use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to assign the Education_PrimaryStudent policy package to a batch of users.
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+To learn more, see [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
+
+### Get the status of a batch assignment
+
+Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the ```New-CsBatchPolicyAssignmentOperation``` cmdlet for a given batch.
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+If the output shows that an error occurred, run the following to get more information about errors, which are in the ```UserState``` property.
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation). 
 
 ## Related topics
 

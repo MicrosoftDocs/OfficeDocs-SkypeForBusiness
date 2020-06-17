@@ -31,7 +31,7 @@ required as part of the service management function for Microsoft Teams.
 
 Service management is a broad topic that covers day-to-day operations of the
 Microsoft Teams service after it has been deployed and enabled for users. The
-Teams service encompasses Microsoft Office 365 and the infrastructure components
+Teams service encompasses Microsoft 365 or Office 365 and the infrastructure components
 that are deployed on-premises (for example, networking).
 
 The notion of service management is most likely not a new concept for most
@@ -42,7 +42,7 @@ the future.
 
 Service management encompasses all the activities and processes involved in
 managing Teams end to end. As noted earlier, some components of service
-management—the infrastructure that the Office 365 service itself comprises—are
+management—the infrastructure that the Microsoft 365 or Office 365 service itself comprises—are
 Microsoft’s responsibility, whereas you, the customer, are accountable to your
 users to manage the various aspects of Teams, the network, and endpoints you
 provide.
@@ -99,7 +99,7 @@ operationalize their roles.
 
 ### Teams service dependencies
 
-Microsoft Teams brings together technologies across Office 365 to provide a hub
+Microsoft Teams brings together technologies across Microsoft 365 or Office 365 to provide a hub
 for teamwork. Examples include:
 
 -   Azure Active Directory (Azure AD) provides authentication and authorization services
@@ -154,7 +154,7 @@ activity and to assist in readiness initiatives.
 It’s important that you understand the overall health of the Microsoft Teams
 service so that you can proactively alert others in your organization of any
 event that affects the service. As described earlier, Teams is dependent on
-other Office 365 services such as Azure Active Directory, Exchange Online,
+other Microsoft 365 or Office 365 services such as Azure Active Directory, Exchange Online,
 SharePoint Online, and OneDrive for Business. Because of this, it’s equally
 important that you monitor the health of the dependent services.
 
@@ -168,25 +168,25 @@ tool, and when you should use each one is included in the following table.
 
 | Monitoring Tool                       | Benefits                                            | When to use                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Office 365 portal                     | Available from any device with a supported browser. | Use when you don’t need real-time notifications.                                          |
-| Office 365 Admin app                  | Provides push notifications to your mobile device.  | Use when you need to be notified of service incidents while you’re on the go.                  |
+| Microsoft 365 admin center                     | Available from any device with a supported browser. | Use when you don’t need real-time notifications.                                          |
+| Microsoft 365 or Office 365 Admin app                  | Provides push notifications to your mobile device.  | Use when you need to be notified of service incidents while you’re on the go.                  |
 | Microsoft System Center               | Integration with Microsoft System Center.           | Use when you need advanced monitoring capabilities and notification support.                       |
-| Office 365 Service Communications API | Programmatic access to Office 365 service health.   | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
+| Microsoft 365 or Office 365 Service Communications API | Programmatic access to Microsoft 365 or Office 365 service health.   | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
 
 > [!NOTE]
 > Only individuals who are assigned the **global admin** or **service
 administrator** role can view service health.
 
-### Monitoring with the Office 365 portal
+### Monitoring with the Microsoft 365 admin center
 
-The [Office 365 portal](https://portal.office.com/) provides a [Service Health
+The [Microsoft 365 admin center](https://portal.office.com/) provides a [Service Health
 dashboard](https://portal.office.com/adminportal/home#/servicehealth) where you
 can view the current health of the Teams service in addition to dependent
 services.
 
 ### Monitoring with the mobile app
 
-The Office 365 Admin app is available on Apple iOS, Android, and Windows (PC and
+The Microsoft 365 or Office 365 Admin app is available on Apple iOS, Android, and Windows (PC and
 mobile). The app provides service administrators information about service
 health and upcoming changes. The app supports push notifications that can alert
 you almost immediately after an advisory has been posted. This helps you stay
@@ -707,11 +707,7 @@ the nature of the issue.
     the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness)
     guidance.
 
-3.  **Check the known issues list:** Consult the [list of known issues for
-    Teams](known-issues.md) to
-    determine whether the user has been negatively affected by one of these
-    issues. Follow the workaround provided (if there is one) to resolve the
-    issue.
+3.  **Check the known issues list:** Consult [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4.  **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
     offers dedicated spaces for Teams. The Teams community provides a discussion
@@ -743,7 +739,7 @@ the nature of the issue.
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Known issues for Microsoft Teams](known-issues.md)
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Verify service health for Microsoft Teams](service-health.md)
 
@@ -863,9 +859,9 @@ organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans
 ### Team creation (optional)
 
 By default, all users with a mailbox in Exchange Online have permissions to
-create Office 365 groups and, therefore, a team in Microsoft Teams. If you want
+create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
 to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
-(and thus the creation of new Office 365 groups), you can delegate group
+(and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.

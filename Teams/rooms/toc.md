@@ -7,6 +7,7 @@
 ### [Requirements](requirements.md)
 ### [Online Licensing](rooms-licensing.md)
 ### [Plan management with Azure Monitor](azure-monitor-plan.md)
+### [Plan management with Managed Meeting Rooms](managed-meeting-rooms.md)
 
 ## Deploy
 ### [Deployment overview](rooms-deploy.md)
@@ -16,6 +17,7 @@
 ### [With Exchange Online (Hybrid)](with-exchange-online.md)
 ### [With Exchange on premises (Hybrid)](with-exchange-on-premises.md)
 ### [Configure a console](console.md)
+### [Configure authentication](rooms-authentication.md)
 ### [By using Microsoft Endpoint Configuration Manager](rooms-scale.md)
 ### [Management with Azure Monitor](azure-monitor-deploy.md)
 ### [Migrate SRS v1 or LRS](lrs-migration.md)
@@ -24,7 +26,7 @@
 ## Manage
 ### [Management overview](rooms-manage.md)
 ### [Maintenance and operations](rooms-operations.md)
-### [Known issues](known-issues.md)
+### [Support Teams in your organization](known-issues.md)
 ### [Devices with Azure Monitor](azure-monitor-manage.md)
 ### [Settings with an XML file](xml-config-file.md)
 ### [Use the recovery tool](recovery-tool.md)

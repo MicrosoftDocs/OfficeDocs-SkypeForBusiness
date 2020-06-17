@@ -1,5 +1,5 @@
 ---
-title: Move your StaffHub teams to Shifts in Microsoft Teams
+title: Move your StaffHub teams to Shifts
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,16 +18,17 @@ ms.collection:
   - SPO_Content
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
+> Effective June 30, 2020, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on June 30, 2020. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. It covers:
+This article walks you through how to move your organization's StaffHub teams and schedule data to Shifts in Teams. It covers:
 
 - [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams)
 - [Prepare](#prepare)
@@ -36,7 +37,7 @@ This article walks you through how to move your organization’s StaffHub teams 
 - [Monitor Teams usage](#monitor-teams-usage)
 - [Troubleshooting](#troubleshooting)
 
-Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+Whether you're a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you'll find the admin guidance you need to help make your transition to Teams successful.
 
 You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have.
 
@@ -44,13 +45,13 @@ You must be a global admin to perform the steps in this article. If you haven't 
 
 ### When to move to Teams
 
-Effective December 31, 2019, StaffHub will be retired. We encourage you to start using Teams today and begin to transition your organization's teams and users from StaffHub. With schedule management being the most commonly-used feature in StaffHub, we recommend you use the Shifts app in Teams moving forward.
+Effective June 30, 2020, StaffHub will be retired. We encourage you to start using Teams today and begin to transition your organization's teams and users from StaffHub. With schedule management being the most commonly-used feature in StaffHub, we recommend you use the Shifts app in Teams moving forward.
 
 ### What is moved to Teams
 
 When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
-Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team is associated with an Office 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have an Office 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
+Every StaffHub team needs a corresponding Microsoft 365 or Microsoft 365 group. If a StaffHub team is associated with a Microsoft 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have a Microsoft 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
 
 As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
@@ -72,7 +73,7 @@ Before you move a StaffHub team to Teams, make sure that:
 
 - The signed-in user is a global admin.
 - Teams is enabled for all users in the tenant.
-- Office 365 Groups creation is enabled in the tenant.
+- Microsoft 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
 - The StaffHub team has at least one team owner.
 - The StaffHub team contains members.
@@ -88,7 +89,7 @@ Each user must have an active Microsoft 365 or Office 365 license from [an eligi
 You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Manage user access to Teams](../../user-access.md).
 
 > [!NOTE]
-> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> If your organization uses Skype for Business and you're not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### Install the prerelease version of the StaffHub PowerShell module
 
@@ -150,7 +151,7 @@ Do one of the following:
 
 Teams includes a built-in FirstlineWorker app setup policy that you can use to customize Teams to highlight the apps that are most important for the Firstline Workers in your organization. When you assign this policy to users, the apps in the policy are pinned to the app bar in Teams for quick and easy access. Other apps added to Teams can be found in the app bar by clicking **... More apps** in the Teams desktop and web clients and by swiping up in the Teams mobile client. By default, the FirstlineWorker app setup policy includes the Activity, Shifts, Chat, and Calling apps.
 
-For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
+For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take a few hours to take effect.
 
 We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
 
@@ -266,7 +267,7 @@ Run the following to get a list of all StaffHub teams in your organization.
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 Then, run the following to move all teams.
@@ -358,7 +359,7 @@ This can occur if the group that's associated with the StaffHub team doesn't hav
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 
-This may occur if you're trying to move files in a private Office 365 group that you're not a member of. If this is the case, use the [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet to add yourself to the StaffHub team, and then move the files. After you move the files, use the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet to remove yourself from the team. 
+This may occur if you're trying to move files in a private Microsoft 365 group that you're not a member of. If this is the case, use the [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet to add yourself to the StaffHub team, and then move the files. After you move the files, use the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet to remove yourself from the team. 
 
 **When you try to move files from StaffHub to Teams, you get an error that says the General folder doesn't exist.**
 

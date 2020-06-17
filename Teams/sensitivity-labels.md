@@ -33,7 +33,7 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 ## Create, manage, and publish sensitivity labels for Teams
 
-For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Office 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Creating, updating and deleting sensitivity labels require careful sequencing with publishing
@@ -115,6 +115,10 @@ Currently, sensitivity labels are not supported in the Microsoft Teams admin cen
 **Support for sensitivity labels in Teams Graph APIs, Powershell cmdlets and templates**
 
 Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, Powershell cmdlets, and templates.
+
+**Support for sensitivity labels in Teams EDU SKUs**
+
+Sensitivity labels are currently unsupported for customers using Teams Education SKUs.
 
 **Editing sensitivity labels directly on a SharePoint site collection for private channels**
 

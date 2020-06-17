@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing with Direct Routing for GCCH and DoD"
+title: "Audio Conferencing with Direct Routing, GCCH and DoD"
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Learn how you can use Audio Conferencing with Direct Routing in GCCH and DoD environments."
+description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCCH and DoD environments.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Audio Conferencing with Direct Routing for GCC High and DoD
 
-Audio Conferencing with Direct Routing for GCC High and DoD enables participants to join Teams meetings in your GCC High or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don’t have access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
+Audio Conferencing with Direct Routing for GCC High and DoD enables participants to join Teams meetings in your GCC High or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don't have access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
 
 With Audio Conferencing with Direct Routing for GCC High and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that's offered to non-GCC High and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
 
@@ -40,7 +41,7 @@ To use Audio Conferencing in GCC High or DoD, your organization and the users in
 A tenant license and at least one user license are required to enable the service. You can't enable the service with only the tenant license or with only user licenses. To get service licenses for your tenant and the users in your organization, contact your account team.
 
 > [!IMPORTANT]
-> Users can’t be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.
+> Users can't be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.
 
 ### Step 2: Set up Direct Routing
 
@@ -55,7 +56,7 @@ To set up Direct Routing, see the following articles:
 
 ### Step 3: Set up dial-in phone numbers
 
-Dial-in phone numbers are the phone numbers that are associated to your Audio Conferencing bridge. These numbers are used by participants to join meetings scheduled by users in your organization. These numbers are also included in the meeting invites of the users who schedule meetings in your organization and on the “Find a local number” page.
+Dial-in phone numbers are the phone numbers that are associated to your Audio Conferencing bridge. These numbers are used by participants to join meetings scheduled by users in your organization. These numbers are also included in the meeting invites of the users who schedule meetings in your organization and on the "Find a local number" page.
 
 #### Define service phone numbers in your tenant
 
@@ -67,7 +68,7 @@ You can use the New-csHybridTelephoneNumber PowerShell cmdlet to define service 
 
 For example:
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
+  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
 #### Assign the service phone numbers to the Audio Conferencing bridge of your organization
@@ -87,7 +88,7 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your users
 
-To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 ### Step 5: (Optional) See a list of Audio Conferencing numbers in Teams
 
@@ -111,8 +112,8 @@ The following are Audio Conferencing capabilities that are not supported in Audi
 
 - Entry and exit notifications using name recording. For Audio Conferencing with Direct Routing, entry and exit notifications are played in the meeting as tones.
 
-- Outbound calling restriction policies for Audio Conferencing. User-level controls to restrict outbound calls aren’t applicable to meeting dial-out calls routed via Direct Routing.
+- Outbound calling restriction policies for Audio Conferencing. User-level controls to restrict outbound calls aren't applicable to meeting dial-out calls routed via Direct Routing.
 
-- Disable the usage of toll-free numbers for the meetings specific organizer. User-level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren’t applicable to calls routed via Direct Routing.
+- Disable the usage of toll-free numbers for the meetings specific organizer. User-level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren't applicable to calls routed via Direct Routing.
 
-- Sending notification emails to users when their settings change. Audio Conferencing notification emails aren’t supported for Audio Conferencing with Direct Routing for GCC High and DoD.
+- Sending notification emails to users when their settings change. Audio Conferencing notification emails aren't supported for Audio Conferencing with Direct Routing for GCC High and DoD.

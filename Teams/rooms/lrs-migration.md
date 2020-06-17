@@ -1,5 +1,5 @@
 ---
-title: "Migrate Lync Room System devices to Microsoft Teams Rooms"
+title: Migrate Lync Room System devices to Microsoft Teams Rooms
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,6 +14,7 @@ ms.collection:
   - M365-collaboration
 ms.assetid: 
 description: "Read this topic to learn how to migrate Lync Room System devices to use the Microsoft Teams Rooms software."
+ms.custom: seo-marvel-mar2020
 ---
 
 # Migrate Lync Room System (LRS) devices to Microsoft Teams Rooms

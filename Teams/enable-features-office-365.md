@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams settings for your organization
+title: Manage settings for your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,10 +8,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Learn how to turn on or off Microsoft Teams org-wide settings for your organization, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
+description: Learn how to turn on or off Microsoft Teams org-wide settings, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
 localization_priority: Priority
-ms.custom: 
-  - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -19,6 +17,8 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
   - ms.teamsadmincenter.teamssettings.overview
+  - NewAdminCenter_Update
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -70,11 +70,11 @@ Turn on this feature so users can send email to a channel in Teams, using the ch
 
 Here you can turn on or turn off file sharing and cloud file storage options.
 
-Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include ShareFile, Dropbox, Box, and Google Drive. Turn on the switch for the cloud storage providers that your organization wants to use.
+Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and Egnyte (coming soon). Turn on the switch for the cloud storage providers that your organization wants to use.
 
 #### Organization
 
-Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user’s organization. For more information, see [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user's organization. For more information, see [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### Devices
 
@@ -117,7 +117,7 @@ Here you can choose the app that users will use to join Skype for Business meeti
 
 Network Planner helps you determine and organize network requirements for connecting Teams users across your organization.  Learn how to [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
-You can also select the “Download the Teams app in the background for Skype for Business users” option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
+You can also select the "Download the Teams app in the background for Skype for Business users" option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
 
 
 ## How can I tell which features are available?

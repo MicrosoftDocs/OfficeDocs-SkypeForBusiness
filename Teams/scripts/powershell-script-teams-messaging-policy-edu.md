@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - Create and assign a messaging policy
+title: PowerShell script sample - Create & assign messaging policy
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -11,10 +11,12 @@ description: Use this PowerShell script to create a messaging policy in Teams an
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-mar2020
 ---
 
 # PowerShell script sample - Create and assign a messaging policy
@@ -23,7 +25,14 @@ Use this PowerShell script to create a messaging policy in Microsoft Teams and a
 
 For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
 
-If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+This script uses the [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) cmdlet which is in the Skype for Business Online PowerShell module. See [Teams PowerShell overview](../teams-powershell-overview.md) to learn more about managing Teams using PowerShell.
+
+
+## Before you start
+
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
+
+To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 
 ## Sample script
@@ -47,4 +56,5 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
  }
 ```
 
-
+> [!NOTE]
+> You can also use batch policy assignment to assign a messaging policy to large sets of users. For more information see [Assign policies to large sets of users in your school](../batch-policy-assignment-edu.md) and [Assign policies to your users in Teams](../assign-policies.md).

@@ -1,5 +1,5 @@
 ---
-title: "Send an email to a user with their Audio Conferencing information in Microsoft Teams"
+title: Email a user their Audio Conferencing information
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
-description: "Send your users an email with their audio conferencing information in Microsoft Teams."
+  - seo-marvel-apr2020
+description: Learn about how to send your users an email with their audio conferencing information in Microsoft Teams.
 ---
 
 # Send an email to a user with their Audio Conferencing information in Microsoft Teams
@@ -68,15 +69,15 @@ Here is an example of the email that is sent:
   
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
     
   
 ## Related topics
 
-[Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

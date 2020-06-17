@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams
+description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams, based on your organization's profile and business requirements.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
@@ -18,6 +18,7 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
   - Microsoft Teams
+  - seo-marvel-apr2020
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams
@@ -29,7 +30,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *New in November 2019*
- - You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
+ - You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Microsoft 365 or Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
  - [Microsoft Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT), including short (8-10 minute) videos that show you how to roll out, configure, and manage Teams.
 
 > [!TIP]
@@ -41,7 +42,7 @@ Before you roll out Teams across your organization, take time to confirm that yo
 
 |Ask yourself|Action |
 |------------|-------|
-|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
+|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Microsoft 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## Core deployment decisions
@@ -91,7 +92,11 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can’t use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+
+> [!NOTE]
+> For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
+
 
 |Ask yourself|Action |
 |------------|-------|
@@ -121,7 +126,7 @@ Teams supports a number of clients from web to desktop to mobile, and the defaul
 
 ### Teams usage reporting
 
-The Global Admin in Office 365, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics articles](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics articles](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -141,16 +146,16 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-Teams is provided as part of many Office 365 licenses. To learn more about Teams licensing, see [Office 365 licensing for Teams](office-365-licensing.md).
+Teams is provided as part of many Microsoft 365 or Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 |Ask yourself|Action |
 |------------|-------|
-|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Office 365 licensing for Teams](office-365-licensing.md).|
+|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
 
-### Exchange and SharePoint interoperability 
+### Exchange and SharePoint interoperability
 
-For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive for Business. 
+For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive for Business.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -166,13 +171,13 @@ When planning an enterprise deployment of Teams, you should take into account an
 | What limits am I likely to hit with my Teams rollout? | To learn more, read [Limits and specifications for Teams](limits-specifications-teams.md). |
 |||
 
-### Office 365 URLs and ports
+### URLs and ports
 
-Organizations that maintain fine-grained control of their internet traffic should read [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Office 365 service and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 and Office 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |Ask yourself|Action |
 |------------|-------|
-| Do I require internet access rules to enable users to use Teams, or is it sufficient to open the minimum required ports? | To learn more, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).|
+| Do I require internet access rules to enable users to use Teams, or is it sufficient to open the minimum required ports? | To learn more, see [URLs and IP address ranges](office-365-urls-ip-address-ranges.md).|
 |||
 
 
@@ -184,7 +189,7 @@ Your organization might require that you implement controls on how teams are nam
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### Teams application policy (side-rail control)
@@ -231,11 +236,11 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Office 365 for Government - GCC (Government Community Cloud) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I need to deploy Teams in a Microsoft 365 Government – GCC environment? | For deployment considerations, see [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md).|
+| Will I need to deploy Teams in a Office 365 for Government – GCC environment? | For deployment considerations, see [Plan for Office 365 Government - GCC deployments](plan-for-government-gcc.md).|
 |||
 
 ## Next steps

@@ -1,5 +1,5 @@
 ---
-title: Quick start guide - Configuring Calling Plans in Microsoft Teams
+title: Quick start guide - Configuring Calling Plans
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -11,13 +11,14 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Quick start guide for configuring calling plans in Microsoft Teams.
+description: Quick start guide for configuring calling plans in Microsoft Teams so you can get a set of users up and running.
 localization_priority: Normal
 ms.collection: 
   - M365-voice
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams
@@ -30,7 +31,7 @@ Read the December 12, 2017, announcement of Calling Plans in Teams: [Intelligent
 > [!NOTE]
 > We recommend that, in parallel with this quick-start guide, you read [Phone System with Calling Plans](calling-plan-landing-page.md) and [FastTrack](https://aka.ms/cloudvoice) to plan and drive a successful rollout.
 
-By adding Calling Plans - an Office 365 feature powered by Skype for Business - you can now use Teams to make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN).
+By adding Calling Plans - a Microsoft 365 and Office 365 feature powered by Skype for Business - you can now use Teams to make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN).
 
 ![Screen shot showing the Contacts page in Teams](media/Calling_in_Teams.png)
 ## Prerequisites for enabling the **Calls** tab in Teams

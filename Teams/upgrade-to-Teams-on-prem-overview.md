@@ -49,7 +49,7 @@ With the overlapping capabilities method, users can use both Teams and Skype for
 - Communication initiated from another user’s Teams client will always land in User A’s Teams client, *if the other user is in the same organization*. 
 - Communication initiated from another user’s Teams client will always land in User A’s Skype for Business client, *if the other user is in a federated organization*.
 
-Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default. (This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.) In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the overlapping capabilities approach. It allows for rapid, end-user driven adoption within an organization.
+Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign a Microsoft 365 or Office 365 license, both Teams and Skype for Business Online licenses are assigned by default. (This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.) In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the overlapping capabilities approach. It allows for rapid, end-user driven adoption within an organization.
 
 For this method to work effectively, it requires all users to run both clients simultaneously. Incoming chats and calls from within the organization to a user in Islands mode can land in either the Skype for Business or Teams client--and this is not under the control of the recipient. It depends on what client the sender uses to initiate the communication. If the sender and recipient are in different organizations, incoming calls and chats to a user in Islands mode always land in the Skype for Business client.  
 
@@ -143,7 +143,7 @@ Users with Skype for Business accounts homed on-premises [must be moved online](
 
 -	2 steps: After running Move-CsUser, grant TeamsOnly mode to the user using TeamsUpgradePolicy.
 
-Unlike other policies, it is not possible to create new instances of TeamsUpgradePolicy in Office 365. All the existing instances are built into the service.  (Note that mode is a property within TeamsUpgradePolicy, rather than the name of a policy instance.) In some--but not all--cases, the name of the policy instance is the same as mode. In particular, to assign TeamsOnly mode to a user, you will grant the “UpgradeToTeams” instance of TeamsUpgradePolicy to that user. To see a list of all instances, you can run the following command:
+Unlike other policies, it is not possible to create new instances of TeamsUpgradePolicy in Microsoft 365 or Office 365. All the existing instances are built into the service.  (Note that mode is a property within TeamsUpgradePolicy, rather than the name of a policy instance.) In some--but not all--cases, the name of the policy instance is the same as mode. In particular, to assign TeamsOnly mode to a user, you will grant the “UpgradeToTeams” instance of TeamsUpgradePolicy to that user. To see a list of all instances, you can run the following command:
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -216,7 +216,7 @@ When assigning TeamsOnly mode at the tenant level, meeting migration is not trig
 - If you would like display notifications in the Skype for Business client for on-premises users, you must use TeamsUpgradePolicy in the on-premises toolset. Only the NotifySfbUsers parameter is relevant for on-premises users.  On-premises users receive their mode from the online instances of TeamsUpgradePolicy. See the notes in [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants without the ability for admins to downgrade. Organizations with Skype for Business Server on-premises that previously never had an Office 365 subscription prior to Sept 3, 2019 will need to contact Microsoft Support to have their tenant downgraded, once they acquire a subscription with Office 365. 
+> Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants unless the organization already has an on-premises deployment of Skype for Business Server. Microsoft uses DNS records to identify on-premises Skype for Business Server organizations. If your organization has on-premises Skype for Business Server with no public DNS entries, you will need to call Microsoft Support to have your new tenant downgraded. 
 
 
 ## Perform the upgrade for your organization
@@ -233,7 +233,7 @@ For the overlapping capabilities upgrade option:
 
 - Consider this option if you can do a fast upgrade for your overall organization.  Since there is potential risk of confusion with running both clients, it’s best if you can minimize this time period. You should ensure your users know to run both clients.
 
-- This option is the out-of-the box model, and doesn’t require administrator action to get started with Teams except to assign the Office 365 license. If your users already have Skype for Business Online, you may already be in this model.
+- This option is the out-of-the box model, and doesn’t require administrator action to get started with Teams except to assign the Microsoft 365 or Office 365 license. If your users already have Skype for Business Online, you may already be in this model.
 
 - It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded 
 users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that have not started using Teams, they will be exposed to missing messages. Furthermore, they won’t see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires waiting until all users are ready to be upgraded.
@@ -282,7 +282,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 1. Find users who are active in Teams as follows:
 
-   1. From the Office 365 Admin Portal, in the left-hand navigation, go to Reports, and then Usage. 
+   1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage. 
    2. In the “Select a report” dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams. 
    3. Click Export, open Excel, and filter to show only the users who are active in Teams.
 
@@ -339,7 +339,7 @@ This article provides a high-level overview only. For more information, see [Pho
 
 This is the simplest upgrade scenario involving voice. 
 
-1. Make sure users have been assigned a Teams license. By default, when you assign an Office 365 license, Teams is enabled, so unless you previously disabled the Teams license, no action should be necessary.
+1. Make sure users have been assigned a Teams license. By default, when you assign a Microsoft 365 or Office 365 license, Teams is enabled, so unless you previously disabled the Teams license, no action should be necessary.
 
 2.  If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy.  Prior to assigning TeamsOnly mode, incoming PSTN calls will land in the user’s Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user’s Teams client.  
 
@@ -362,7 +362,7 @@ TeamsOnly mode.
 
 5. Upgrade the user: These steps should be coordinated. 
 
-   - In Office 365, upgrade the user to TeamsOnly mode (Grant-CsTeamsUpgradePolicy).
+   - In Microsoft 365 or Office 365, upgrade the user to TeamsOnly mode (Grant-CsTeamsUpgradePolicy).
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server.
 
 
@@ -380,7 +380,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested sequenc
 
 4. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
 
-5. Assign the Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
+5. Assign the Microsoft 365 or Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
 
 6. Upgrade the user: These steps should be coordinated. 
 
@@ -388,7 +388,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested sequenc
 
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server. 
 
-   - In Office 365: Assign the relevant OnlineVoiceRoutingPolicy to enable outgoing calls. 
+   - In Microsoft 365 or Office 365: Assign the relevant OnlineVoiceRoutingPolicy to enable outgoing calls. 
 
 
 ### From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan
@@ -403,7 +403,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
 
 3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly. 
 
-4. Assign the Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
+4. Assign the Microsoft 365 or Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
 
 5. Get phone numbers for your users. (For details see [Manage phone numbers for your organization](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).)
 
@@ -553,7 +553,7 @@ In both cases, the transfer of contacts from Skype for Business to Teams is asyn
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configure hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Move users between on-premises and cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

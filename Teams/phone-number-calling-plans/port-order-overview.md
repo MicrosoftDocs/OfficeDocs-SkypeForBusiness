@@ -30,7 +30,9 @@ Review the information in this article to get familiar with number porting. Afte
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+Currently, [the porting wizard](transfer-phone-numbers-to-teams.md) in the Microsoft Teams admin center supports getting phone numbers for the United Kingdom, United States, and Canada. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md).
   
 ## What numbers can be transferred?
 
@@ -105,7 +107,7 @@ For example, you need to submit a unique number porting request for each of the 
 
 - Mobile numbers
 
-- Service numbers that can be used for Audio Conferencing in Office 365.
+- Service numbers that can be used for Audio Conferencing in Microsoft 365 or Office 365.
 
 Here's more information about how to submit number porting requests for each of these types of numbers:
   

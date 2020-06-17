@@ -1,5 +1,5 @@
 ---
-title: Turn on inline message translation in Microsoft Teams
+title: Turn on inline message translation
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -12,11 +12,12 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use inline translation in Microsoft Teams.
+description: Learn how to turn on inline translation in Microsoft Teams using the Microsoft Teams admin center or PowerShell.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -24,7 +25,7 @@ appliesto:
 Turn on inline message translation in Microsoft Teams 
 =================================================
 
-Inline message translation is a new Microsoft Teams feature that lets users translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.
+Inline message translation is a new Microsoft Teams feature that lets users translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings.
 
 Inline message translation is being rolled out by default for your organization. If you want to allow users to use this feature within the Teams client, you must turn this setting on.
 

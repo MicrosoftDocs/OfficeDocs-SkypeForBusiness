@@ -28,7 +28,7 @@ description: "Use Call Analytics details about devices, networks, and connectivi
 
 # Use Call Analytics to troubleshoot poor call quality
 
-Call Analytics helps you troubleshoot call or connection problems with Microsoft Teams and Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Office 365 account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
+Call Analytics helps you troubleshoot call or connection problems with Microsoft Teams and Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Microsoft 365 or Office 365 account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
   
 ## Call Analytics permissions
 
@@ -63,7 +63,7 @@ See your Teams and Skype for Business admin if you need help with permissions.
   
 4. Select the user from the list.
 
-5. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
+5. Select **Call history**, and then select the call or meeting that you want to troubleshoot.  A maximum of 500 records will be returned.
     
     ![Screenshot of the call history page for a user.](media/use-call-analytics-to-troubleshoot-image-2.png)
   

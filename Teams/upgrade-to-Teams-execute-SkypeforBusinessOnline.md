@@ -6,13 +6,15 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from Skype for Business Online 
+ms.reviewer: landerl
+description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business Online deployement. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

@@ -1,5 +1,5 @@
 ---
-title: "Country and region availability for Audio Conferencing and Calling Plans"
+title: "Emergency calling disclaimer labels"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,7 +19,8 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "You can download these labels for emergency calling when you are using Calling Plans in Office 365."
+  - seo-marvel-apr2020
+description: You can download and print these labels for emergency calling when you are using Calling Plans in Microsoft 365 or Office 365.
 ---
 # Emergency Calling Labels
 

@@ -1,7 +1,7 @@
 ---
 title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
-description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
+description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,21 +13,32 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - remotework
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 
 # Meetings and conferencing in Microsoft Teams
 
+> [!NOTE]
+> - For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).
+> - Resources to assist educators and students with remote learning are available in [**Remote teaching and learning in Office 365 Education**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. This article walks you through the rollout of meetings and audio conferencing. Start by watching our Teams meetings, conferencing, and devices video (3:28 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout, including meetings and conferencing. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out meetings and conferencing in Teams.
+To learn more about the meetings experience for your users, see [Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
+
+*New in April 2020*: Meeting organizers can end a meeting for all meeting participants in Teams by clicking **End meeting** in the meeting controls within the meeting.  
+
+*New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout, including meetings and conferencing. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out meetings and conferencing in Teams.
 
 ## Meetings and conferencing deployment decisions
 
@@ -50,11 +61,9 @@ To scale meetings across your organization you should ensure that all user locat
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
 
-You can use the [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) to confirm that your network locations are ready for the voice and video traffic that will support your meetings experience.
-
 | Ask yourself | Action |
 |--------------|--------|
-|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## Core deployment decisions
@@ -103,7 +112,7 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md). |
+|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](devices/device-management.md). |
 |Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 

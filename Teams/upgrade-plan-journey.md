@@ -5,13 +5,15 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
-description: Plan for your upgrade by enlisting stakeholders first, and then scoping the project. 
+description: Learn about how to plan for your upgrade by enlisting stakeholders first, and then scoping the project.
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

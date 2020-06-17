@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - remotework
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
@@ -102,10 +103,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## Assign a policy in bulk
 
-Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 20,000 at a time. For example, if you have more than 20,000 staff and educators, you'll need to submit multiple batches.
+Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 5,000 at a time. For example, if you have more than 5,000 staff and educators, you'll need to submit multiple batches.
 
-> [!IMPORTANT]
-> We're currently recommending that you assign policies in batches of 5,000 users at a time. During these times of increased demand, you may experience delays in processing times. To minimize the impact of these increased processing times, we suggest that you submit smaller batch sizes of up to 5,000 users, and submit each batch only after the previous one is completed. Submitting batches outside your regular business hours can also help.
 
 Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
 
@@ -130,7 +129,7 @@ To view the assignment status of each user in the batch operation, run the follo
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## Assign a policy in bulk if you have more than 20,000 users
+## Assign a policy in bulk if you have more than 5,000 users
 
 First, run the following to see how many staff and educators you have:
 
@@ -138,13 +137,13 @@ First, run the following to see how many staff and educators you have:
 $faculty.count
 ```
 
-Instead of providing the whole list of user IDs, run the following to specify the first 20,000, and then the next 20,000, and so on.
+Instead of providing the whole list of user IDs, run the following to specify the first 5,000, and then the next 5,000, and so on.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..19999``` for the first batch, use ```$faculty[20000..39999``` for the second batch, enter ```$faculty[40000..59999``` for the third batch, and so on.
+You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..4999``` for the first batch, use ```$faculty[5000..9999``` for the second batch, enter ```$faculty[10000..14999``` for the third batch, and so on.
 
 ## Get the policies assigned to a user
 
@@ -156,7 +155,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## FAQ
 
-**I want to make sure that all users that are students, staff, and educators automatically get licenses assigned. How can I do that?**
+**I want to make sure that all users that are students, staff, and educators automatically get policies assigned. How can I do that?**
 
 The Teams product team is doing work to support assigning policies to security groups. At that time, you'll be able to create groups for your students and teachers, and then the appropriate policies to those groups. Note that explicit user assignments (such as the policies that you've assigned using this tutorial) will override policies inherited from a group. When this feature is supported, we'll provide more instructions on how to use policy assignment to groups and update your users to ensure they get the inherited group policies.
 

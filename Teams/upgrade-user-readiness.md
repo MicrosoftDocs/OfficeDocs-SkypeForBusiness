@@ -1,18 +1,20 @@
 ---
-title: Prepare a user readiness plan; upgrade from Skype for Business to Teams
+title: Prepare a user readiness plan for upgrading to Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
-description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams 
+description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+ - Teams-upgrade-guidance
+ - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

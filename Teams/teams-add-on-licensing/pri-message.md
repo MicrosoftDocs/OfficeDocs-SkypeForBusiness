@@ -1,9 +1,9 @@
 ---
-title: "Priority Notifications in Teams Messaging "
-ms.author: tonysmit
-author: tonysmit
+title: "Priority notifications in Teams messaging"
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -18,25 +18,16 @@ localization_priority: Normal
 ms.custom: 
   - Licensing
   - LIL_Placement
-description: "Learn about Priority Notifications in Teams Messaging."
+  - seo-marvel-apr2020
+description: Learn about priority notifications in Microsoft Teams messaging.
 ---
 
 # Messaging policies licensing
 
-Until April 1, 2020, unlimited Priority Notifications in Microsoft Teams are available for all users. This promotion is extended to April 1, 2020 from its original end date of December 31, 2019. After April 1, licensed users will be able to send Priority Notifications according to the terms of their subscription.
+We're hearing from customers around the globe how the COVID-19 (Coronavirus) pandemic has created new challenges as they work to handle drastic shifts in their day-to-day operations. Being able to directly and quickly connect with teammates during fast-changing conditions is essential to maintaining business continuity during the crisis response and as many of us return to the workplace.
 
-As announced in June 2019, users can mark a Teams message as Urgent when they have access to the Priority Notifications feature. Urgent messages are sent with Priority Notifications that notify the recipient every two (2) minutes for a period of 20 minutes or until the recipient reads the message. This feature maximizes the likelihood that a message is acted upon in a timely manner.
+Originally announced in June 2019, [priority notifications](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) for Microsoft Teams grants users the ability to continually send notifications that repeat every two minutes for up to 20 minutes on all messages marked as urgent. Priority notifications had been made available as a promotion to all Teams customers<sup>1</sup> until the second half of 2020.
 
-IT Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited Urgent Messages with Priority Notifications, regardless of license. [Learn more about Priority Notifications](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
+Effective immediately, we have ended this promotion and made priority notifications available to all Teams customers<sup>1</sup> as a basic capability. Users will now be able to send and receive unlimited urgent messages with priority notification. [Learn more about managing priority notifications](../messaging-policies-in-teams.md).
 
-|Segment| |Sending up to 5 messages included per user per month| Sending unlimited messages included per user per month|
-|---|---|---|---|
-|Enterprise||Office 365 F1 / Microsoft 365 F1<br> Office 365 E1 | Office 365 E3 / Microsoft 365 E3 <br>Office 365 E5 / Microsoft 365 E5
-|Education ||Office 365 A1 / Microsoft 365 A1|Office 365 A3 / Microsoft 365 A3<br> Office 365 A5 / Microsoft 365 A5
-|SMB       ||Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business|
-|||||
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<sup>1</sup>Priority notifications are not currently available for GCC, GCC High, or DoD customers.

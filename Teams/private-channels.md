@@ -63,10 +63,12 @@ When a private channel is created, it's linked to the parent team and can't be m
 
 ### Who can create private channels?
 
-By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level:
+By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level.
 
-- On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels.
-- As an admin, you can use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
+ 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+ 2. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
+    Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
@@ -78,7 +80,7 @@ If a team member leaves or is removed from a team, that user will also leave or 
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
-If a private channel owner leaves your organization or if they are removed from the Office 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
+If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
 ### What can team owners and team members see in a private channel?
 
@@ -129,7 +131,7 @@ See [Manage the life cycle of private channels in Teams](private-channels-life-c
 
 ## Private channel SharePoint sites
 
-Each private channel has its own SharePoint site collection optimized for file sharing and fast provisioning. The separate site collection is to ensure access to private channel files is restricted to only members of the private channel compared to the team site where team owners have access to all the assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.  By design, they aren't visible in the SharePoint admin center.
+Each private channel has its own SharePoint site collection. The separate site collection is to ensure access to private channel files is restricted to only members of the private channel compared to the team site where team owners have access to all the assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.  By design, they aren't visible in the SharePoint admin center.
 
 To accommodate a greater number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams. Any changes to the membership of Owner or Member groups in SharePoint Online will be reverted to private channel membership within four hours automatically. In scenarios where certain users need to access documents without needing to access private channel messages, add them to the Visitors group on the site or to a new group that's separate from Owners and Members.
 

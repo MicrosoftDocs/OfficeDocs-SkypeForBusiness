@@ -1,8 +1,8 @@
 ---
 title: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)

@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams"
+title: "Email options when Audio Conferencing settings change"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,6 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Audio Conferencing
+  - seo-marvel-mar2020
 description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes in Microsoft Teams. "
 ---
 
@@ -74,7 +75,7 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powers
     
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     

@@ -22,16 +22,17 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
-description: "Learn what Cloud  auto attendants are and how to use them."
+  - seo-marvel-apr2020
+description: Learn about Cloud auto attendants and how to use them to let callers move through a menu system to locate and place or transfer calls to users or departments.
 ---
 
 # What are Cloud auto attendants?
 
-Phone System in Office 365 provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
+Phone System provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
   
 An auto attendant is most often a node in a system, giving a caller a series of voice prompts or audio files they hear instead of a human operator. When people call a number associated with an auto attendant, their choices can redirect the call to a user or locate someone in your organization and then connect to that user. They can express their choices and interact with the menu system by using a phone keypad (DTMF) or speech recognition. The choices they make can also redirect the call to another auto attendant, or to a call queue.
   
-To set up an auto attendant for the Phone System in Office 365, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+To set up an auto attendant for Phone System, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
 A Cloud auto attendant has the following features:
   
@@ -58,7 +59,7 @@ To get started using auto attendants, it's important to remember that:
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 
    > [!TIP]
-   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
@@ -235,7 +236,7 @@ To assign a service number, you will need to get or port your existing toll or t
   
 ## Related topics
 
-[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
