@@ -708,7 +708,7 @@
 ### Quality of Service (QoS)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-## [Support Teams in your organization](Known-issues.md)
+## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Issues receiving messages and calls on legacy systems](legacy-login-issues.md)
