@@ -24,15 +24,15 @@ Contoso was familiar with auto attendants and call queues from their on-premises
 
 ## Requirements depending on site type
 
-Depending on the site type, Contoso had the followind needs:
+Depending on the site type, Contoso had the following needs:
 
 - Site Type A: Traditional legacy telephony systems 
 
-  Site Type A needed to keep the same phone number associated with the receptionist as the number for their auto attendants. The key departments for each of these sites would have have their own call queues that would route to team members. There was a mixture of sites that used Phone System with Direct Routing and Phone System with Calling Plans.  
+  Site Type A needed to keep the same phone number associated with the receptionist as the number for their auto attendants. The key departments for each of these sites would have their own call queues that would route to team members. There was a mixture of sites that used Phone System with Direct Routing and Phone System with Calling Plans.  
 
 - Site Type B: Skype for Business Enterprise Voice 
 
-  Site Type B had existing auto attendants and call queues that needed to be migrated to Teams. Contoso needed to keep the phone numbers associated with the auto attendants. Contoso moved the majority of these sites to Phone System with Calling Plans. However, in the few locations where Calling Plans was not available, Contoso moved these sites to a Direct Routing configuration.  
+  Site Type B had existing auto attendants and call queues that needed to migrate to Teams. Contoso needed to keep the phone numbers associated with the auto attendants. Contoso moved the majority of these sites to Phone System with Calling Plans. However, in the few locations where Calling Plans was not available, Contoso moved these sites to a Direct Routing configuration.  
 
 - Site Type C: Skype for Business Enterprise Voice & traditional legacy telephony system 
 
@@ -65,24 +65,32 @@ The steps to set up an auto attendant and a call queue include the following out
 
 4. Assign the Phone System or a Phone System - Virtual user license to the resource account. For more information, see [Microsoft 365 Phone System – Virtual User license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user).
 
-5. Assign a service phone number to the resource account you just assigned licenses to. 
+5. Assign a service phone number to the resource account you assigned licenses to. 
 
 6. Create a Phone System call queue or auto attendant 
 
 7. Link the resource account with a call queue or auto attendant. 
 
 
-### Sites with Phones System with Direct routing: 
+### Sites with Phone System with Direct routing 
 
-Step 1. Contoso had to setup the phone number provided by the local carrier as the service number in Office 365.  To set up a phone number available via Direct Routing, Contoso followed the instructions located Manage Resource Accounts to complete. Since Office 365 is not aware of the on-premises phone numbers, Contoso leveraged PowerShell to complete the setup, Create a resource account in Powershell.   
+Contoso had to set up the phone number provided by the local carrier as the service number in Office 365. 
 
-To configure the Cloud auto attendant Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md). To setup a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
+- To set up a phone number available through Direct Routing, Contoso followed the instructions located in [Manage Resource Accounts](manage-resource-accounts.md). Because Office 365 is not aware of the on-premises phone numbers, Contoso used PowerShell to complete the setup.   
+
+- To configure the Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md). 
+
+- To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
 
 
-### Sites with Phones System with Calling plan:  
+### Sites with Phone System with Calling plan
 
-Step 1. Contoso had to port the phone number that was leveraged for Skype for Business Enterprise Voice auto attendants to Office 365 Phone System. This allowed the same number to be assigned as a service number for use as an auto attendant. To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) and obtained additional guidance at [Manage phone numbers for your organization](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+Contoso had to port the phone number that was used for Skype for Business Enterprise Voice auto attendants to Office 365 Phone System. This allowed the same number to be assigned as a service number for use as an auto attendant. 
 
-To configure a Cloud auto attendant Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md) To setup a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
+- To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) and obtained additional guidance at [Manage phone numbers for your organization](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+
+- To configure a Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+
+-  To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
 
  

@@ -24,7 +24,7 @@ This article introduces a case study for how a fictional multi-national corporat
 
 Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for the following: networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security, upgrade from Skype for Business to Teams, Phone System, and Audio Conferencing.  
 
-This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information and details about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide).
+This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide).
 
 https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -53,11 +53,11 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Skype for Business to Teams upgrade 
 
-  Skype for Business was widely deployed within Contoso. With the need to get off of legacy systems, Contoso decided to upgrade their Skype for Business users to Teams. For more information, see [Contoso case study: Teams upgrade plan](voice-case-study-migration-plan.md).
+  Skype for Business was widely deployed within Contoso. With the need to move off legacy systems, Contoso decided to upgrade their Skype for Business users to Teams. For more information, see [Contoso case study: Teams upgrade plan](voice-case-study-migration-plan.md).
 
 - Phone System  
 
-  Skype for Business with enterprise voice was widely deployed within Contoso. With the need to get off of legacy systems that were the next hop for their mediation servers, Contoso migrated their Skype for Business enterprise voice users to Phone System. Contoso sites leveraged Microsoft Calling Plan, Phone System Direct Routing, or a combination of both. For more information, see [Contoso case study: Phone System](voice-case-study-phone-system.md).
+  Skype for Business with enterprise voice was widely deployed within Contoso. With the need to move off legacy systems that were the next hop for their mediation servers, Contoso migrated their Skype for Business enterprise voice users to Phone System. Contoso sites used Microsoft Calling Plan, Phone System Direct Routing, or a combination of both. For more information, see [Contoso case study: Phone System](voice-case-study-phone-system.md).
 
 - Location-Based Routing 
 
@@ -65,7 +65,7 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Emergency Calling 
 
-  Where Direct Routing was implemented, Contoso set up up emergency calling with approved third parties. For more information, see [Contoso case study: Emergency Calling](voice-case-study-emergency-calling.md).
+  Where Direct Routing was implemented, Contoso set up emergency calling with approved third parties. For more information, see [Contoso case study: Emergency Calling](voice-case-study-emergency-calling.md).
 
 - Audio Conferencing 
 
@@ -75,8 +75,8 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
   Contoso took advantage of Local Media Optimization in locations where they had one direct route trunk to Microsoft Phone System that was leveraged by remote sites. For more information, see [Plan for Local Media Optimization](direct-routing-media-optimization.md) and [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).
 
-- Auto Attendants and Call Queues.
+- Auto Attendants and Call Queues
 
-  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso leveraged auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
+  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
 
 

@@ -52,6 +52,6 @@ To plan and configure hybrid connectivity, the first step in moving their on-pre
 
   - Enable shared SIP address space in their Office 365 tenant.
 
-  - Leverage Islands mode during the technical pilot.
+  - Use Islands mode during the technical pilot.
 
   - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing. 

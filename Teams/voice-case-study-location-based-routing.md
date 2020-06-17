@@ -32,9 +32,9 @@ For Skype for Business, LBR was configured with the Session Border Controller (S
 
 - To delay the enablement of Teams LBR until the existing SBC is certified for Media Bypass.   
 
-- Contoso decided to leverage the main site SBC for the Direct Route to Office 365.  The main site SBC will be the proxy SBC for the remote site.  
+- Contoso decided to use the main site SBC for the Direct Route to Office 365.  The main site SBC will be the proxy SBC for the remote site.  
 
-- Contoso leveraged a third-party consultant based in India to assist with certification of the LBR configuration with the telephony company in country.  
+- Contoso used a third-party consultant based in India to assist with certification of the LBR configuration with the telephony company in country.  
 
 - To support users working from outside of the office to place PSTN calls, the company issued mobile phone was provided to their employees. 
 
@@ -53,11 +53,11 @@ The following diagrams show the before and after deployments for a country with 
 
 To configure the network components in Teams, Contoso followed the instructions in [Manage your network topology for cloud voice features](manage-your-network-topology.md). Contoso completed the below steps to configure Location-Based Routing: 
 
-- Define Network regions -  One network region was defined 
+- Define Network regions -  One network region was defined. 
 
-- Define Network sites - Two network sites were defined. One site for each office location in the region 
+- Define Network sites - Two network sites were defined. One site for each office location in the region.
 
-- Define Network subnets - Each floor within an office location has their own subnet for the wired and wireless network. This resulted in 20 subnets for Contoso 
+- Define Network subnets - Each floor within an office location has their own subnet for the wired and wireless network. This configuration resulted in 20 subnets for Contoso. 
 
 - Define trusted IP addresses - The external facing IP addresses for the SBC were added to the trusted IP address.  
 

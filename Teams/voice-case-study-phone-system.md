@@ -38,7 +38,7 @@ To implement a Microsoft Phone System solution for their entire organization, Co
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier through Direct Routing
  
-To determine the right solution for their organization, Contoso leveraged [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+To determine the right solution for their organization, Contoso used [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## Site Type A: Skype for Business Enterprise Voice 
 
@@ -77,11 +77,11 @@ The following diagram shows the initial Skype for Business Enterprise Voice depl
 
 ## Site Type B: Traditional legacy telephony systems
 
-Contoso had many offices that leveraged legacy telephony systems. There were a subset of users that had an E1.64 phone number while others only had an extension.  These numbers resided on the TDM trunk to the PSTN gateway.  Intra-site dialing was configured by leveraging a site code in front of the extension to determine where to route the call.  The users dialing habits was to dial by extension.   
+Contoso had many offices that leveraged legacy telephony systems. There were a subset of users that had an E1.64 phone number while others only had an extension. These numbers resided on the TDM trunk to the PSTN gateway. Intra-site dialing was configured by leveraging a site code in front of the extension to determine where to route the call. The users' dialing habits were to dial by extension.   
 
 Contoso based their decision on the following questions:
 
-- Q. Do we need to to retain functionality provided by our on-premises deployment?<br>
+- Q. Do we need to retain functionality provided by our on-premises deployment?<br>
   A. No 
 
 - Q. Do we need to interoperate with third-party PBX systems and other telephony equipment?<br> 
@@ -138,7 +138,7 @@ Based on the answers to their questions, Contoso decided on the following:
 
 - To support a subset of users moving to Phone System and to allow continued routing through the legacy system, the legacy telephony system was set up as the next hop to the SBC.   
 
-- In addition, to encourage user behavior change and remove the dependency on inter- and intra-site extension dialing, Contoso provided guidance to leverage Teams for all internal calls.  
+- In addition, to encourage user behavior change and remove the dependency on inter- and intra-site extension dialing, Contoso provided guidance to use Teams for all internal calls.  
 
 The following diagrams show the original Skype for Business Enterprise Voice and legacy telephony system deployment and the migration to a mixed deployment using Direct Routing:
 
@@ -165,7 +165,7 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
 
 ## Direct Routing
 
-Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects leverage the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were leveraged: 
+Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects used the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were used: 
 
 - [Plan for success with Microsoft Teams Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
@@ -184,7 +184,7 @@ Due to the number of users that needed to be assigned phone numbers, Contoso dec
 
 To connect Contoso's on-premises telephony infrastructure to Microsoft Teams, Contoso's administrator followed the steps in [Configure Direct Routing](direct-routing-configure.md) and reviewed the video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) for guidance.  Contoso also referred to the Direct routing deployment documentation by the certified SBC vendor. 
 
-Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators leveraged the SIP Tester client that was discussed in the [Updates for Direct Routing session at Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
+Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators used the SIP Tester client that was discussed in the [Updates for Direct Routing session at Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
 
 
 ### Local Media Optimization
@@ -195,17 +195,19 @@ Contoso saw the opportunity to leverage Local Media Optimization in the differen
 
 - Configure the SBC  according to the SBC vendor specification, 
 
-- Add external trusted IP addresses to each site leveraged for Local Media Optimization    
+- Add external trusted IP addresses to each site used for Local Media Optimization    
 
 - Define the network topology 
 
 - Define the virtual network topology 
 
-- Determine the mode : Always Bypass or Only for local users 
+- Determine the mode: Always Bypass or Only for local users 
 
 ## Networking considerations
 
-Contoso was in a situation where a number of users needed to work remotely for an extended period of time after they were enabled for Phone System. The users leveraged VPN to access certain Line of Business applications. While on VPN, the Phone System users experienced a degradation of call quality. To resolve the quality issue, it was necessary to implement VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel).  
+Contoso had a number of users who needed to work remotely for an extended period of time after they were enabled for Phone System. The users used VPN to access certain Line of Business applications. While on VPN, the Phone System users experienced a degradation of call quality. 
+
+To resolve the quality issue, Contoso implemented VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 
  
 
