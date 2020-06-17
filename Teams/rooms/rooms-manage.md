@@ -125,5 +125,16 @@ The **Activity** tab in Teams Room device details shows high-level and detailed 
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Room device activity summary list":::
 
-To see the detail information about a specific meeting, select the date and time of the meeting you want more information about. 
+To see the detail information about a specific meeting, select the date and time of the meeting you want more information about. If a meeting has only two participants, you'll see the participant details page, otherwise you'll see a participant summary page.
 
+##### Participant summary
+
+The participant summary page shows all of the participants that attended the meeting. You can see when each participant joined the meeting, their name, audio quality, and what features were used during their session. To view the details of a participant's session, select the session start time for that participant.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Room device conference details":::
+
+##### Participant details
+
+The participant details page shows end-to-end diagnostic information for that participant's session. As shown in the following graphic, **Device**, **System**, and **Connectivity** information is provided for the participant and for the Teams Rooms device. **Network** diagnostic information between the participant and the Teams Rooms device is also provided. Select the icon for the context you want more information about. For additional diagnostic information, select the **Advanced** tab.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Room device call details":::
