@@ -211,17 +211,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
   
 We recommend that you upload your tenant, building, and location data so CQD can include this information in your reports. If you haven't already uploaded this data, read [Upload tenant and building data](CQD-upload-tenant-building-data.md). 
 
-### Building data file format and structure
-
-CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record's First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
-
-You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
-  
-- The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
-- The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
-- Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
-- If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- There must be 14 columns for each row (or 15 if you want to add the optional column), each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 ## Detailed reports
 
@@ -294,7 +283,7 @@ Report filters are implemented by adding a filter to the rendered report either 
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
 
-===========REPORT FILTERS SECTION FROM QERGUIDE===========
+**<font color="red">===========REPORT FILTERS SECTION FROM QERGUIDE===========</font>**
 ## Report filters
 
 Use a wide variety of CQD filters to narrow the focus of your investigations.
@@ -423,7 +412,7 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 
 
-==================END REPORT FILTERS CONTENT FROM QERGUIDE=======
+**<font color="red">==================END REPORT FILTERS CONTENT FROM QERGUIDE=======</font>**
 
 
 ## Frequently asked questions
