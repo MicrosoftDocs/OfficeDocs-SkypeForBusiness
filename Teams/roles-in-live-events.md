@@ -59,9 +59,9 @@ A live event attendee is someone who has the link to the live event or event rec
 | |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**       | Pre-event | In-event | Post-event |
+| Q/A, if enabled by producer | Yes | Yes | Yes |
 | Recording | N/A | N/A| Yes |
 | Video playback controls, if enabled by producer | N/A | Yes | Yes |
-| Q/A, if enabled by producer | Yes | Yes | Yes |
 |||||||
 
 ## Related topics
