@@ -25,11 +25,11 @@ What the guest experience is like
 
 When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
     
-![Screen shot showing an example of a welcome email message](media/guest-experience-image1.png)
+![Screenshot showing an example of a welcome email message](media/guest-experience-image1.png)
     
 All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel thread indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
 
-![Screen shot showing tag that indicates number of guests on the team](media/guest-experience-image2.png)
+![Screenshot showing tag that indicates number of guests on the team](media/guest-experience-image2.png)
 
 Check out these videos about the guest experience in Teams:
 - [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
