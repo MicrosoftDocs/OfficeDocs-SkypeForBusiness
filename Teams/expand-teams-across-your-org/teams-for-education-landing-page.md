@@ -26,8 +26,8 @@ With Teams, educators and faculty can create collaborative classrooms, connect i
 
 |               |               |
 | ------------- | ------------- |
-| ![Quick start - Teams for Education admins](https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![Assignments in Teams for Education](https://docs.microsoft.com/office/media/icons/sign-up-teams.svg) | [Assignments in Teams for Education](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![Resources for Teams for Education admins](https://docs.microsoft.com/office/media/icons/toolbox.svg)  |  [Resources for Teams for Education admins](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![Governance FAQ for Teams for Education admins](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg)  |  [Governance FAQ for Teams for Education admins](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
+| ![arrow-right-2-teams](https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
+| ![sign-up-teams](https://docs.microsoft.com/office/media/icons/sign-up-teams.svg) | [Assignments in Teams for Education](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![toolbox](https://docs.microsoft.com/office/media/icons/toolbox.svg)  |  [Resources for Teams for Education admins](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
+| ![task-checklist-planning-teams](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg)  |  [Governance FAQ for Teams for Education admins](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 
