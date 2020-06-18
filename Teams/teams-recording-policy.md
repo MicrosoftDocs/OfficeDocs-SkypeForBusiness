@@ -199,12 +199,13 @@ participate in conversations based on the configuration of these
 policies when a communication interaction takes place. Compliance
 recording policies are managed using [<span class="underline">Microsoft
 Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
-and can be applied at the tenant and per-user level for each
+and can be applied at the tenant, per-user, and security group level for each
 organization. You can find more information on Microsoft Docs for
 [<span class="underline">Meeting
-policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
-and [<span class="underline">calling
-policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
+policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams),
+ [<span class="underline">calling
+policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) and  [<span class="underline">group
+policies</span>](https://docs.microsoft.com/en-us/microsoftteams/assign-policies#assign-a-policy-to-a-group).
 
 1. Create an application instance in your tenant.
 
