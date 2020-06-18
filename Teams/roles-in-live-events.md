@@ -24,8 +24,6 @@ Presenter, producer, and attendee capabilities in a Teams live event
 Microsoft Teams supports live events that stream to large online audiences. While the attendee role is passive, the live event presenter and producer have access to several meeting features, including:  
 
 - Chat (includes photos and stickers)
-- Meeting Notes
-- Whiteboard
 - Recording
 - Files
 - Q/A
@@ -45,11 +43,9 @@ Presenters and producers have access to all live event features.
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**       | Pre-event | In-event | Post-event |
 | Chat | Yes | Yes| Yes |
-| Meeting Notes | Yes | Yes |Yes |
-| Whiteboard | Yes | Yes |Yes |
-| Recording | N/A |Yes | Yes |
+| Recording | N/A |N/A | Yes |
 | Files | Yes |Yes | Yes |
-| Q/A | Yes | Yes | Yes |
+| Q/A, if enabled by producer| Yes | Yes | Yes |
 |||||||
 
 ## Live event attendee
@@ -61,7 +57,7 @@ A live event attendee is someone who has the link to the live event or event rec
 |  **Feature**       | Pre-event | In-event | Post-event |
 | Q/A, if enabled by producer | Yes | Yes | Yes |
 | Recording | N/A | N/A| Yes |
-| Video playback controls, if enabled by producer | N/A | Yes | Yes |
+| Video playback controls, if enabled by producer | Yes | Yes | Yes |
 |||||||
 
 ## Related topics
