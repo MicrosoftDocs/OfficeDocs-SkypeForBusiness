@@ -60,7 +60,7 @@ Share these assets and videos with your end users to help them get started quick
 
   - Start your Teams journey with a series of live, **[interactive trainings](https://aka.ms/TeamsLiveTraining)**, designed to get your organization up and running with Teams.
 
-  - Join one of our **[online classes](../instructor-led-training-teams-landing-page.md)** to see Teams in action and get your questions answered.
+  - Join one of our **[online classes](../instructor-led-training-teams-landing-page.yml)** to see Teams in action and get your questions answered.
 
   - Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more.
 

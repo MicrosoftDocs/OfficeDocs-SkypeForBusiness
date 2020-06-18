@@ -1,0 +1,79 @@
+### YamlMime:Hub
+
+title: Instructor-led training for Microsoft Teams # < 60 chars
+summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Not sure where to begin? Take our Teams knowledge check. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
+
+
+metadata:
+  title: Instructor-led training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams. # Required; article description that is displayed in search results. < 160 chars.
+  ms.topic: hub-page # Required
+  author: lolajacobsen #Required; your GitHub user alias, with correct capitalization.
+  ms.author: lolaj #Required; microsoft alias of author; optional team alias.
+  ms.date: 06/16/2020 #Required; mm/dd/yyyy format.
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Teams knowledge check
+      itemType: learn
+      url: https://aka.ms/TeamsKnowledgeCheck
+    # Card
+    - title: On-demand end-user training
+      itemType: video
+      url: https://aka.ms/TeamsOnDemand
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: Say hello to Microsoft Teams
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+      summary: 'What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and to see it in action. (Audience: All)'
+      url: https://microsoftteams.eventbuilder.com/SayHellotoTeams
+    # Card
+    - title: Get started with Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+      summary: 'From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)'
+      url: https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams
+    # Card
+    - title: Run effective meetings with Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+      summary: 'Learn how you can leverage Teams for your pre, during, and post meetings experience. (Audience: End users)'
+      url: https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings
+    # Card
+    - title: Explore teams and channels in Teams
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      summary: 'Learn how you can streamline your project and workgroup collaboration. (Audience: End users)'
+      url: https://microsoftteams.eventbuilder.com/teamschannels
+    # Card
+    - title: Learn to use apps in Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+      summary: ' Understand how to improve teamwork with apps. (Audience: End users)'
+      url: https://aka.ms/LearnTeamsApps
+    # Card
+    - title: Learn how to take Teams to the next level
+      imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+      summary: 'Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)'
+      url: https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks
+    # Card
+    - title: Teams for Education - Webinars
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+      summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
+      url: https://aka.ms/TeamsEduWebinars
+    # Card
+    - title: Master working from home with Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+      summary: ' NEW! Learn best practices for staying connected to your team and maintaining productivity. (Audience: End users, team and department managers)'
+      url: https://aka.ms/TeamsAtHome
+    # Card
+    - title: Upgrade planning workshops
+      imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+      summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
+      url: /MicrosoftTeams/upgrade-workshops-landing-page
