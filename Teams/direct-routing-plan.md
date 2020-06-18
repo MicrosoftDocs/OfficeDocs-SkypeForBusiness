@@ -44,7 +44,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. Ho
 
 Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md). 
 
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that dialing out does not route through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity: 
 
@@ -62,7 +62,7 @@ For detailed information about configuring Direct Routing, see [Configure Direct
 ## Infrastructure requirements
 The infrastructure requirements for the supported SBCs, domains, and other network connectivity requirements to deploy Direct Routing are listed in the following table:  
 
-|**Infrastructure requirement**|**You need the following**|
+|Infrastructure requirement|You need the following|
 |:--- |:--- |
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs](#supported-session-border-controllers-sbcs).|
 |Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, please refer to the SBC vendors or trunk providers.)|
@@ -131,7 +131,7 @@ The SBC domain name must be from one of the names registered in Domains of the t
 
 The following table shows examples of DNS names registered for the tenant, whether the name can be used as an FQDN for the SBC, and examples of valid FQDN names:
 
-|**DNS name**|**Can be used for SBC FQDN**|**Examples of FQDN names**|
+|DNS name|Can be used for SBC FQDN|Examples of FQDN names|
 |:--- |:--- |:--- |
 contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|No|Using *.onmicrosoft.com domains is not supported for SBC names
@@ -253,7 +253,7 @@ You must use the following ports for Microsoft 365 or Office 365 environments wh
 - Office 365 GCC High
 - Office 365 DoD
 
-|**Traffic**|**From**|**To**|**Source port**|**Destination port**|
+|Traffic|From|To|Source port|Destination port|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only port 5061 must be used)|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
@@ -265,7 +265,7 @@ The SBC makes a DNS query to resolve sip.pstnhub.microsoft.com. Based on the SBC
 
 The table below summarizes the relationships between primary, secondary, and tertiary datacenters:
 
-|**If the primary datacenter is**|**EMEA**|**NOAM**|**ASIA**|
+|If the primary datacenter is|EMEA|NOAM|ASIA|
 |:--- |:--- |:--- |:--- |
 |The secondary datacenter (sip2.pstnhub.microsoft.com)|US|EU|US|
 |The tertiary datacenter (sip3.pstnhub.microsoft.com)|ASIA|ASIA|EU|
@@ -294,7 +294,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 ### Port range (applicable to all environments)
 The port range of the Media Processors is shown in the following table: 
 
-|**Traffic**|**From**|**To**|**Source port**|**Destination port**|
+|Traffic|From|To|Source port|Destination port|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|Media Processor|SBC|3478-3481 and 49152 – 53247|Defined on the SBC|
 |UDP/SRTP|SBC|Media Processor|Defined on the SBC|3478-3481 and 49152 – 53247|
