@@ -34,6 +34,7 @@ You can select a country or region to see what cloud voice features are availabl
 ## Select your country or region to see what's available for your organization
 
 > [!div class="op_single_selector"]
+  - [Albania](availability-in-albania.md)
 > - [Algeria](availability-in-algeria.md)
 > - [Antigua and Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentina](availability-in-argentina.md)
@@ -41,6 +42,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Austria](availability-in-austria.md)
 > - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahrain](availability-in-bahrain.md)
+  - [Bangladesh](availability-in-bangladesh.md)
 > - [Barbados](availability-in-barbados.md)
 > - [Belarus](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
@@ -52,6 +54,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgaria](availability-in-bulgaria.md)
 > - [Cambodia](availability-in-cambodia.md)
+  - [Cameroon](availability-in-cameroon.md)
 > - [Canada](availability-in-canada.md)
 > - [Cayman Islands](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
@@ -76,6 +79,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Greece](availability-in-greece.md)
 > - [Grenada](availability-in-grenada.md)
 > - [Guam](availability-in-guam.md)
+  - [Guatemala](availability-in-guatemala.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong Kong](availability-in-hong-kong.md)
 > - [Hungary](availability-in-hungary.md)
@@ -104,6 +108,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [New Zealand](availability-in-new-zealand.md)
 > - [Nicaragua](availability-in-nicaragua.md)
 > - [Nigeria](availability-in-nigeria.md)
+  - [Norther Mariana Islands](availability-in-northern-mariana-islands.md)  
 > - [Norway](availability-in-norway.md)
 > - [Pakistan](availability-in-pakistan.md)
 > - [Panama](availability-in-panama.md)
@@ -134,6 +139,8 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Trinidad and Tobago](availability-in-trinidad-and-tobago.md)
 > - [Tunisia](availability-in-tunisia.md)
 > - [Turkey](availability-in-turkey.md)
+  - [Turks and Caicos Islands](availability-in-turks-and-caicos-islands.md)
+  - [Uganda](availability-in-uganda.md)
 > - [Ukraine](availability-in-the-ukraine.md)
 > - [United Arab Emirates (UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [United Kingdom](availability-in-the-united-kingdom-u-k.md)
