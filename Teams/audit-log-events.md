@@ -182,8 +182,8 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 ## Office 365 Management Activity API
 
-You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
+You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [Search the audit log in the Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
