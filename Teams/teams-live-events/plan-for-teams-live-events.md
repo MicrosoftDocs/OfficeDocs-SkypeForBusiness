@@ -63,6 +63,12 @@ The user must have:
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events.
 
+For a guest to present in a live event, do the following:
+
+1. [Add the user as a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. Have the user accept the guest invitation and join the team.
+3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+
 ## Who can watch live events
 
 |**Attendee visibility**       |**Teams production**  |**External app or device production**  |
