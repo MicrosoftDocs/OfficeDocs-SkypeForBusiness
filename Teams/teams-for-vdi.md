@@ -188,15 +188,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meeting sup
 
 ![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
 
-These calling and meeting features are not supported:
-
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
-- Background blur and effects
-- Broadcast/live events
-- Location-Based Routing (LBR)
-- Call park
-- Call queue
+For information about calling and meeting features that are not supported, see [Known issues and limitations](#known-issues-and-limitations).
 
 > [!IMPORTANT]
 > If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set Citrix policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
@@ -350,6 +342,18 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.
 
 ### Calling and meetings
+
+These calling and meeting features are not supported:
+
+- Enhanced emergency services
+- HID buttons and LED controls between the Teams app and devices
+- Background blur and effects
+- Broadcast/live events
+- Location-Based Routing (LBR)
+- Call park
+- Call queue
+
+These are known issues and limitations with calling and meeting features:
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
 - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
