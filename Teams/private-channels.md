@@ -39,7 +39,7 @@ A lock icon indicates a private channel. Only members of private channels can se
 
 Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
 
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. When making a copy of an existing team, any private channels in that team will not be copied over.
+Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
 
 > [!NOTE]
