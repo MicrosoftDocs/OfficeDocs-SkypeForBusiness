@@ -205,7 +205,7 @@ organization. You can find more information on Microsoft Docs for
 policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams),
  [<span class="underline">calling
 policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) and  [<span class="underline">group
-policies</span>](https://docs.microsoft.com/en-us/microsoftteams/assign-policies#assign-a-policy-to-a-group).
+policies</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group).
 
 1. Create an application instance in your tenant.
 
