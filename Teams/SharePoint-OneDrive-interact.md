@@ -58,7 +58,7 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-Note that for public teams, the "Everyone except external users" group is added to the SharePoint team site. The team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site.
+Note that for public teams, the SharePoint team site is provisioned with "Everyone except external users" access. The team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site.
 
 ## Channel Files tab
 
