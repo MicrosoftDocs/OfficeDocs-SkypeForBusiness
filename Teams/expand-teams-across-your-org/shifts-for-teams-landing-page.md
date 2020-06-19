@@ -42,8 +42,10 @@ Shifts + Power Automate lets you take info from Shifts and create custom workflo
 
 ## Featured training
 
+|               |               |
+| ------------- | ------------- |
 | ![arrow-right-2-teams](../media/arrow-right-2-teams-small.svg)  |  [Video: What is Shifts?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |
 
 | ![clock-teams](../media/clock-teams-small.svg)  |  [Video: What is Shifts?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |
 
-| ![blocks-teams](../media/icons/blocks-teams-small.svg)  |  [Video: Manage a Shifts schedule](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| ![blocks-teams](../media/blocks-teams-small.svg)  |  [Video: Manage a Shifts schedule](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
