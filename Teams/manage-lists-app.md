@@ -25,13 +25,13 @@ ms.custom:
 
 The Lists app in Microsoft Teams helps users in your organization track information and organize work. With Lists, users can track data such as issues, assets, routines, contacts, inventory and more using customizable views, smart rules, and alerts to keep everyone on the team in sync.
 
-In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab to a channel, and then select the Lists app to get started. Users can create new lists or add existing lists. New lists can be created from scratch, from built-in templates, or by importing data from Excel. Lists is available in Teams desktop, web, and mobile clients.
+In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab to a channel, and then select the Lists app to get started. Users can create new lists or add existing lists. New lists can be created from scratch, from ready-made templates, or by importing data from Excel. Lists is available in Teams desktop, web, and mobile clients.
 
 ### Scenarios
 
 ## What you need to know about Lists
 
-With Lists, users get a desktop, web, and mobile experience. It's important to know that that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, the list must first be created or added using Lists on the Teams desktop or web client.
+With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, the list must first be created or added using Lists on the Teams desktop or web client.
 
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
@@ -61,6 +61,8 @@ To allow or block specific users in your organization from using Lists, make sur
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps that you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
 
 To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy.To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+Rest
 
 ## Search the audit log for Lists events?
 
