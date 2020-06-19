@@ -998,191 +998,230 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **scrollDatePicker**
 - **selectCalendarDate**
 - **safeLink** - Link verified as safe.
-| selectDevice | Selecting a particular device in displays app | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| selectGeneralSetting | Go to general settings | Basic | Feature discoverability and success metrics | App key feature success data   |
-| selectSettingOption | Go to settings tab from hamburger menu | Basic | Feature discoverability and success metrics | App key feature success data   |
-| selectTheme | Enable dark theme | Basic | Direct feature success metrics for dark theme. | App key feature success data   |
-| sendForward | User confirms to send forward message from forward picker | Basic | Feature success metrics for forward message feature | App key feature success data   |
-| sendImage | Send image | Basic | Feature success metrics for image attachment | App key feature success data   |
-| sendLocation | Send location | Basic | Feature success metrics for location sharing experience | App key feature success data   |
-| sendMsg | Click on send in reply | NSD | Let us know the success of the main construct of post in Teams | Activity success   |
-| sendVoiceMessage | Record button released | Basic | Feature success metrics for voice messages | App key feature success data   |
-| settingsNavReadReceiptNotice | User went to settings from feature notice | Basic | Feature success metrics for read receipts | App key feature success data   |
-| shareHistory | Share history picker tapped | Basic | Feature success metrics for adding users to group chat and share history feature | App key feature success data   |
-| showBanner | Number of times the **WiFi Connected, No Internet** banner appears | Optional |     |     |
-| shownReadReceiptNotice | User shown feature notice with settings options  | Basic | Feature discoverability and success metrics for read receipts | App key feature success data   |
-| signIn | <ul><li>User taps **Sign in** on welcome page</li><li>Tap **Sign In** button</li></ul> | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign in issues proactively. | App key feature success data   |
-| signUp | Taps **Create a free account**/**Sign up for free** | Basic | Feature success metrics for sign in experience in Teams. Helps us identify sign up issues proactively. | App key feature success data   |
-| skipVerificationForLink | User chose to skip verification | Basic | Feature success metrics for ATP safe link | App key feature success data   |
-| SMSSendMessage | User sends SMS message | Basic | Feature success metrics for send SMS feature | App key feature success data   |
-| startEditing | Edit button pressed |     |     |     |
-| statusMsgCancel | User cancels change to status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| statusMsgExpiry | User sets expiry time | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| statusMsgSet | User sets new status message | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| statusPageViaContactCard | User enters status compose experience via contact card | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| statusPageViaHamburger | User enters status compose experience via hamburger | Basic | Feature success metrics for add status message feature | App key feature success data   |
-| selectActivityType | Captures select gestures on feed item | Basic | <ul><li>Helps to check if user was able to initiate download operation</li><li>Helps to track if user can download file successfully</li></ul> | App key feature success data   |
-| shareFile | <ul><li>User clicks **Share file**</li><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share a file successfully</li></ul> | Basic | <ul><li>Helps to check if user was able to initiate share file operation</li><li>Helps to track if user can share a file successfully</li></ul> | App key feature success data   |
-| structuredMeetingsBannerDismiss | User dismisses banner that informs them about their meeting role | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| scheduledMeetingJoin | **Meeting Join** button tapped from scheduled meeting object | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| searchContacts | Search from Call List | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| selection | <ul><li>Device contact selected</li><li>Company contact selected</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| selectMeetingChicklet | Meeting |     | Used to track feature success or failure of a feature and customer engagement |     |
-| selfLongPress | Long press on myself | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| Send_earlycancelledCQF | User Submits feedback on CQF early cancelled call form | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| Send_ratemycallCQF | User Submits feedback on CQF rate my call form | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| Send_ratemyliveeventCQF | User Submits feedback on CQF rate my live event form | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| Setting/Dismiss | Device contacts setting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| sharePPTFromChannels | User clicks **Teams and Channels** | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| sharePPTFromOneDrive | User clicks **OneDrive** | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| shareRecording | Share recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| shareScreen | <ul><li>Start Screen Share</li><li>Stop Screen Share</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| shareTray | User clicks on **Share…** in the action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| simultaneousCallForward | <ul><li>Simultaneous call forward target is set</li><li>Enable simultaneous call forwarding (Calls ring me is enabled & Also ring is set)</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startPresentPhoto | Start presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startPresentVideo | Start presenting video | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startPSTNCall | <ul><li>PSTN Result in Global Search (People)</li><li>PSTN call placed from Device contactCard</li><li>PSTN Call placed from callList</li><li>DialPSTN Number using DialPad</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startRecording | Start recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| startVoicemailCall | Change Voicemail Greeting tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| stopMeetingButton | Number of times user leaves the lobby without being admitted into the meeting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| stopPresentPhoto | Stop presenting photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| stopPresentVideo | Stop presenting video | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| stopRecording | Stop recording | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| stuckOnConnectingDialInSelected | User tapped Dial in on the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
-| stuckOnConnectingRetrySelected | User tapped retry on the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
-| stuckOnConnectingShownDismissed | User dismissed the drawer | Basic | Used to track feature success or failure of a feature and customer engagement |     |
-| saveEditMeeting | Click on the **Save** button while on the meeting scheduler page after updating a meeting | Basic | To log succesfully saved meetings or those that  failed to update | App key feature success data   |
-| saveNewMeeting | Click on the **Save** button while on the meeting scheduler page | Basic | To log succesfully saved meetings and the percentage of meetings that failed to create due to a client side or service error | App key feature success data   |
-| searchMeetingParticipants | Search for participants to add within the scheduler form | Basic | To distinguish between the number of appointments created versus the number of meetings created | App key feature success data   |
-| seeAllMeetingParticipants | <ul><li>Click on **See All** from the meeting details page</li><li>View all participants</li></ul> | Basic  | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
-| seeMeetingDescription | <ul><li>Opening the Meeting Details page</li><li>Click **See More** on the Meeting description from the Meeting Details page | Basic | Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc.. | App key feature success data   |
-| seeRsvpMeetingOptions | <ul><li>Click on **Notify Organizer** from the RSVP pop up</li><li>Click on **Rsvp** options from the Meeting Details page | Basic |     | App key feature success data   |
-| selectMeetingRsvpOption | Click on the **RSVP** button to choose an option | Basic |     | App key feature success data   |
-| selectMeetingRsvpOptions | Click on the **RSVP** button to choose an option | Basic |     | App key feature success data   |
-| showCard | Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| searchAbandoned | Helps to track if search was successful versus if user abandoned search | Basic | Helps to track if search was successful vs if user abandoned search | App key feature success data   |
-| searchCancelled | <ul><li>Helps to track if search was successful vs if user abandoned search</li><li>Helps to track if search query was successful</li></ul> | Basic | <ul><li>Helps to track if search was successful vs if user abandoned search</li><li>Helps to track if search query was successful</li></ul> | App key feature success data   |
-| searchIcon | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li><li>Helps to track if user can find relevant results successfully</li></ul> | Basic | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li><li>Helps to track if user can find relevant results successfully | App key feature success data   |
-| searchInitiated | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li></ul> | Basic | <ul><li>Helps to track if search can be triggered</li><li>Helps to track source of search trigger</li></ul> | App key feature success data   |
-| searchResultsClicked | <ul><li>Helps to track if user can find relevant results successfully</li><li>Tracking usage of core scenario</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | Basic | <ul><li>Helps to track if user can find relevant results successfully</li><li>Tracking usage of core scenario</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | App key feature success data   |
-| searchTab | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if search results was from ALL tab vs individual domain</li></ul> | Basic | <ul><li>Helps to track domain information of the search result - people, chat, messages, files</li><li>Helps to track if search results was from ALL tab versus individual domain</li></ul> | App key feature success data   |
-| searchTabClicked | <ul><li>Helps to track domain information of the search result - people/chat/messages/files</li><li>Helps to track if user can find relevant results successfully</li></ul> | Basic | <ul><li>Helps to track domain information of the search result - people, chat, messages, files</li><li>Helps to track if user can find relevant results successfully</li></ul> | App key feature success data   |
-| sharePlanToChat | A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via backend messaging  service | Basic | Confirms that a chiclet is successfully sent to the chat when a task list is shared in a group chat | Key App feature success data   |
-| statusCheckBoxClicked | Triggers when task item is either completed or uncompleted | Optional |     |     |
-| sortChanged | Triggers when user changes sort order while viewing a tasklist | Optional |     |     |
-| savePlanClicked | Trigger when user cliks **Create** in the new plan creator from default opening of app | Optional |     |     |
-| selectUser | Confirms that an assignee was successfully selected for a task | Optional | Confirms that an assignee was successfully selected for a task |     |
-| selectPlannerList | Confirms that the user successfully navigated to a shared task list by tapping it | Optional | Confirms that the user successfully navigated to a shared task list by tapping it |     |
-| selectPersonalList | Confirms that the user successfully navigated to a personal task list by tapping it | Optional | Confirms that the user successfully navigated to a personal task list by tapping it |     |
-| shiftDetailsTodaysCoworkers | On the clock in screen, user clicks on Start or End break button. | Basic | Key functionality for shifts details feature | App key feature success data   |
-| shiftDetailsCalendar | On the clock in screen, user clicks on the **Clock In** or **Clock Out** button. | Basic | Key functionality for calendar feature. | App key feature success data   |
-| shiftDetails | This is to see the details of the shift. | Basic | Key functionality for request feature. | App key feature success data   |
-| sendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for request feature. | App key feature success data   |
-| shareShiftsClicked | The details of an open shift. | Basic  | Key functionality for share shifts feature. | App key feature success data   |
-| sendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for request bulk feature. | App key feature success data   |
-| sendRequestBulkClicked | This instrumentation point is logged once for each bulk request send. In addition, each individual request will log an event. | Basic | Key functionality for feature, send shifts. | App key feature success data   |
-| sendRequestClicked | This instrumentation is logged for every individual request | Basic | Key functionality for feature, send shifts. | App key feature success data   |
-| shareShift | The information that is given when a shift is shared. | Basic | Key functionality for feature, share shifts. | App key feature success data   |
-| shareShiftsClicked | The details of an open shift. | Basic | Key functionality for feature,shifts. | App key feature success data   |
-| shiftAssigneeClicked | The Shifts Calendar view showing the particular shifts details | Basic | Key functionality for feature, shifts. | App key feature success data   |
-| shiftDetails | Your own shifts. | Basic | Key functionality for feature, shift shifts. | App key feature success data   |
-| shiftDetailsCalendar | Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team. | Basic | Key functionality for feature, switch shifts. | App key feature success data   |
-| shiftDetailsMyShifts | Tracking user tapping on **Calendar** from Schedules Tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
-| switchTeamsDialogTriggered | User views Shifts tab | Basic | Key functionality for feature, tab shifts. | App key feature success data   |
-| send_map_pin_clicked | User sends static location | Basic | Confirms that user successfully shared a static location | Key App feature success data   |
-| static_place_selected | User drags map to select a static place | Basic | Confirms that user successfully selected a static place by interacting with the map | Key App feature success data   |
-| suggested_place_selected | User shares a static location by selecting a suggested place | Basic | Confirms that user successfully shared a static location by selecting a suggested place | Key App feature success data   |
-| stop_location_sharing_logout | User logs out of the app | Basic | Confirms that we successfully stopped all location sharing session when the user logged out of the app | Key App feature success data   |
+- **selectDevice** - Selecting a particular device in the displays app.
+- **selectGeneralSetting** - Go to general settings.
+- **selectSettingOption** - Go to the settings tab from the hamburger menu.
+- **selectTheme** - Enable dark theme.
+- **sendForward** - A user confirms to send a forward message from the forward picker.
+- **sendImage** - Send image.
+- **sendLocation** - Send location.
+- **sendMsg** - Click on **Send** in reply.
+- **sendVoiceMessage** - Record button released.
+- **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
+- **shareHistory** - Share history picker tapped.
+- **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
+- **shownReadReceiptNotice** - The user shown feature notice with settings options.
+- **signIn** - The user taps **Sign in** on welcome page, or the **Sign In** button is tapped.
+- **signUp** - The user taps **Create a free account** or **Sign up for free**.
+- **skipVerificationForLink** - Thw user chose to skip verification.
+- **SMSSendMessage** - The user sends a SMS message.
+- **startEditing** - **Edit** button pressed.
+- **statusMsgCancel** - The user cancels change to status message.
+- **statusMsgExpiry** - The user sets the expiry time.
+- **statusMsgSet** - The user sets new status message.
+- **statusPageViaContactCard** - The user enters the status compose experience via a contact card.
+- **statusPageViaHamburger** - The user enters the status compose experience via the hamburger.
+- **selectActivityType** - Captures select gestures on feed item.
+- **shareFile** - Triggered when a user clicks **Share file**. Also helps to check if:
+  - The user was able to initiate share file operation.
+  - The user can share a file successfully.
+- **structuredMeetingsBannerDismiss** - User dismisses the banner that informs them about their meeting role.
+- **scheduledMeetingJoin** - The **Meeting Join** button is tapped from the scheduled meeting object.
+- **searchContacts** - Search from the Call List.
+- **selection** - Device contact selected, or company contact selected.
+- **selectMeetingChicklet** | Meeting.
+- **selfLongPress** - Long press on myself.
+- **Send_earlycancelledCQF** - A user submits feedback on CQF early cancelled call form.
+- **Send_ratemycallCQF** - A user submits feedback on CQF rate my call form.
+- **Send_ratemyliveeventCQF** - A user Submits feedback on CQF rate my live event form.
+- **Setting/Dismiss** - Device contacts setting.
+- **sharePPTFromChannels** - A user clicks **Teams and Channels**.
+- **sharePPTFromOneDrive** - A user clicks **OneDrive**.
+- **shareRecording** - Share a recording.
+- **shareScreen** - Start or stop a screen share.
+- **shareTray** - A user clicks on **Share…** in the action sheet.
+- **simultaneousCallForward** - Triggered when:
+  - Simultaneous call forward target is set.
+  - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
+- **startPresentPhoto** - Start presenting photo.
+- **startPresentVideo** - Start presenting video.
+- **startPSTNCall** - Triggerd due to:
+  - PSTN Result in Global Search (People).
+  - PSTN call placed from Device contactCard.
+  - PSTN Call placed from callList.
+  - DialPSTN Number using DialPad.
+- **startRecording** - Start recording.
+- **startVoicemailCall** - **Change voicemail greeting** tapped.
+- **stopMeetingButton** - The number of times user leaves the lobby without being admitted into the meeting.
+- **stopPresentPhoto** - Stop presenting photo.
+- **stopPresentVideo** - Stop presenting video.
+- **stopRecording** - Stop recording.
+- **stuckOnConnectingDialInSelected** - A user tapped **Dial in** on the drawer.
+- **stuckOnConnectingRetrySelected** - A user tapped **Retry** on the drawer.
+- **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
+- **saveEditMeeting** - Click on the **Save** button while on the meeting scheduler page after updating a meeting.
+- **saveNewMeeting** - Click on the **Save** button while on the meeting scheduler page. To log successfully saved meetings and the percentage of meetings that failed to create due to a client side or service error.
+- **searchMeetingParticipants** - Search for participants to add within the scheduler form. To distinguish between the number of appointments created versus the number of meetings created.
+- **seeAllMeetingParticipants** - Click on **See All** from the meeting details page, or view all participants. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
+- **seeMeetingDescription** - Opening the Meeting Details page or clicking **See More** on the Meeting description from the Meeting Details page. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
+- **seeRsvpMeetingOptions** - Click on **Notify Organizer** from the RSVP pop up, or click on **Rsvp** options from the Meeting Details page.
+- **selectMeetingRsvpOption** - Click on the **RSVP** button to choose an option.
+- **selectMeetingRsvpOptions** - Click on the **RSVP** button to choose an option.
+- **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
+- **searchAbandoned** - Helps to track if search was successful versus if a user abandoned search.
+- **searchCancelled** - Helps to track if:
+  - Search was successful or if user abandoned search.
+  - Helps to track if a search query was successful.
+- **searchIcon** - Helps to track:
+  - If search can be triggered.
+  - The source of a search trigger.
+  - If a user can find relevant results successfully.
+- **searchInitiated** - Helps to track if search can be triggered, and helps to track the source of search trigger.
+- **searchResultsClicked** - Helps to track:
+  - If a user can find relevant results successfully.
+  - If search results were from the All tab versus an individual domain.
+- **searchTab** - Helps to track:
+  - Domain information of the search result - for people, chat, messages, and files.
+  - If search results was from ALL tab vs individual domain.
+- **searchTabClicked** - Helps to track:
+  - Domain information of the search result - for people, chat, messages, and files.
+  - If a user can find relevant results successfully.
+- **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via the backend messaging service.
+- **statusCheckBoxClicked** - Triggers when task item is either completed or uncompleted.
+- **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
+- **savePlanClicked** - Triggers when user clicks **Create** in the new plan creator from the default opening of the app.
+- **selectUser** - Confirms that an assignee was successfully selected for a task.
+- **selectPlannerList** - Confirms that the user successfully navigated to a shared task list by tapping it.
+- **selectPersonalList** - Confirms that the user successfully navigated to a personal task list by tapping it.
+- **shiftDetailsTodaysCoworkers** - On the clock in screen, the user clicks on the **Start** or **End break** button.
+- **shiftDetailsCalendar** - On the clock in screen, the user clicks on the **Clock In** or **Clock Out** button.
+- **shiftDetails** - This is to see the details of the shift.
+- **sendRequestClicked** - This is logged for every individual request.
+- **shareShiftsClicked** - The details of an open shift.
+- **sendRequestBulkClicked** - This is logged once for each bulk request send. In addition, each individual request will log an event.
+- **sendRequestBulkClicked** - This is logged once for each bulk request send. In addition, each individual request will log an event.
+- **sendRequestClicked** - This is logged for every individual request.
+- **shareShift** - The information that is given when a shift is shared.
+- **shareShiftsClicked** - The details of an open shift.
+- **shiftAssigneeClicked** - The Shifts Calendar view showing the particular shifts details.
+- **shiftDetails** - Your own shifts.
+- **shiftDetailsCalendar** - Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team.
+- **shiftDetailsMyShifts** - Tracking user tapping on **Calendar** from the Schedules tab.
+- **switchTeamsDialogTriggered** - A user views the Shifts tab.
+- **send_map_pin_clicked** - A user sends a static location.
+- **static_place_selected** - A user drags map to select a static place.
+- **suggested_place_selected** - A user shares a static location by selecting a suggested place.
+- **stop_location_sharing_logout** - A user logs out of the app.
 - **shortCircuitContactCount**
 
 ### T
 
-| teamCreate | User selects the option to create a new team | Basic | Track team creation | App key feature success data   |
-| teamEdit | User edits some aspect of a team that they own or administer | Basic | Track team or channel management | App key feature success data   |
-| tapDatePickerHandle |     |     |     |     |
-| table | Click on table | Basic | How many people tap on table in chat or channel conversation | App key feature success data   |
-| takePhotoPicker | **Take photo** tapped inside image picker | Basic | Feature success metrics for camera integration in image picking experience | App key feature success data   |
-| teamNav | View menu options for team |     |     |     |
-| tenantSwitch | On Switch Tenant | Basic | Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience | App key feature success data   |
-| tenantSwitchUnsupportedError | Tenant Unsupported Error (when user sees the error) | Basic | Feature success metrics for MTMA, provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience | App key feature success data   |
-| toggleChannelsInChat | Turn feature on or off | Basic | Feature success metrics for unified chats and channel experience | App key feature success data   |
-| translateFailed | Translation failed (excluding offline) | Basic | Feature success metrics for message translation feature | App key feature success data   |
-| takePhoto | Take a photo | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| toast | In-app toast clicked | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| transferNow | <ul><li>Taps Transfer > Transfer now</li><li>Transfer target set to Person</li><li>Transfer target set to Phone Number</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| tabActionCopyLink | Understand how users discover and use tab copy link on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabActionMoreOptions | Understand ellipsis usage from within a Tab for more option - discoverability & usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabActionOpenInBrowser | Open in browser usage. This is necessary to understand if users prefer opening tab outside Teams | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabActionOpenInBrowserFromTab | Understand open in browser usage from within a Tab for more option - discoverability & usage | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabActionOpenInTeams | Open in usage. This is key in understanding if the tab can be by default set to open in Teams | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| tabActionRemove | Understand how discoverable the delete option is and the usage of the feature | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabActionRename | Understand how discoverable rename is and the usage of the feature | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| <ul><li>tabActionSetting</li><li>Android - fix</li></ul> | Understand how users discover and use tab config on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabListMoreOptions | Understand the usage of the more options for a tab | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tabOpen | Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way its being used | Basic | Used to track feature success or failure of a feature and customer engagement |     |
-| tapChicletExpand | Understand how users preview cards on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| tapSettings | Understand the number of users re-configuring apps on mobile | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| teamsDeviceCallResumed  |             | Basic | Used to track success or failure of a feature and customer engagement | App key feature success data   |
-| tasksAppLaunchDefault | Tasks app is opened from the bottom drawer, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the app bar | Key App feature success data   |
-| tasksAppLaunchDashboard | Tasks app is opened from the dashboard tile or specific plan, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the dashboard | Key App feature success data   |
-| tasksAppLaunchDashboardSeeAll | Tasks app is opened from the dashboard **See all** button, check app launch via MT service | Basic | Confirms that the tasks app is successfully launched from the **See All** button of the dashboard | Key App feature success data   |
-| tasksAppLaunchAdaptiveCard | Tasks app is opened from an adaptivecard in a group chat, check app launch via URL of IC3 service | Basic | Confirms that the tasks app is successfully launched by clicking on a chiclet previously sent to the group chat | Key App feature success data   |
-| tasksAppLaunchComposeExtension | Tasks app is opened from the compose extension in a group chat, check app launch via MT service | Basic | Confirms that the tasks app is successfully lanuched from a compose extension | Key App feature success data   |
-| teamChannelChanged | Triggered when user clicks and navigates to a plan from plan list. Only sent to appInsights, not Aria | Optional |     |     |
-| titleChanged | Triggers when task item title changes, triggers on every character change | Optional |     |     |
-| timeOffReasonClicked | This it to track if you cited a reason for time off. | Basic | Key functionality for time off feature. | App key feature success data   |
-| toggleClicked | To view a declined time off request. | Basic | Key functionality for shifts reminder feature | App key feature success data   |
-| teamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for shift picker feature. | App key feature success data   |
-| teamSelectedClicked | When the user clicks on **Add** on a timesheet | Basic | Key functionality for team selected feature. | App key feature success data   |
-| tabCalendarClicked | User has chosen a team from the team picker | Basic  | Key functionality for feature, team shifts. | App key feature success data   |
-| tabViewed | Only logged if request being sent is a swap. Tracking user clicks into **Team Shift** picker | Basic | Key functionality for feature, team shifts. | App key feature success data   |
-| teamSelectedClicked | When the user clicks on Add on a timesheet | Basic  | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| teamShiftPickerClicked | When the user adds a new break entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| timesheetAddClicked | When the user adds a note to their break edits. Log the event once the user saves the changes. | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| timesheetBreakAdded | When the user adds a new clock entry. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| timesheetBreakEdited | When the user confirms their timesheet. Log the event when the user hits confirm in the modal | Basic | Key functionality for feature, timesheet. | App key feature success data   |
-| timesheetBreakNoteAdded | When the user deletes their timesheet. Log the event when the user confirms the delete in the modal. | Basic | Key functionality for feature, timesheets. | App key feature success data   |
-| timesheetClockAdded | When the user clicks on Edit for a timesheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
-| timesheetClockEdited | When the user clicks save on an edited timesheet | Basic | Key functionality for feature, timesheet shifts. | App key feature success data   |
-| timesheetConfirmed | When the user adds a note to their timesheet edits. Log the event once the user saves the changes | Basic | Key functionality for feature, timesheetnote shifts. | App key feature success data   |
-| timesheetDeleted | If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted. | Basic | Key functionality for feature, reminders. | App key feature success data   |
-| timesheetEditClicked | User Configuration telemetry. | Basic | Key functionality to set up user information. | App key feature success data   |
-| timesheetEditSaved | User taps on time sheet from a users profile to open that users time sheet. | Basic | Key functionality for feature, time sheets. | App key feature success data   |
-| timesheetNoteAdded | To view an approved time off request. | Basic | Key functionality for feature, approve time off. | App key feature success data   |
-| toggleClicked | To view a declined time off request. | Basic | Key functionality for feature, decline time off. | App key feature success data   |
+- **teamCreate** - A user selects the option to create a new team.
+- **teamEdit** - A user edits some aspect of a team that they own or administer.
+- **tapDatePickerHandle**
+- **table** - Click on a table.
+- **takePhotoPicker** - **Take photo** tapped inside the image picker.
+- **teamNav** - View menu options for a team.
+- **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience.
+- **tenantSwitchUnsupportedError** - Tenant Unsupported Error (when user sees the error). Feature success metrics for MTMA, provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience.
+- **toggleChannelsInChat** - Turn feature on or off. Feature success metrics for unified chats and channel experience.
+- **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
+- **takePhoto** - Take a photo.
+- **toast** - In-app toast is clicked.
+- **transferNow** - Triggered when:
+- A user taps **Transfer** > **Transfer now**.
+- Transfer target is set to a Person.
+- Transfer target is set to a Phone Number.
+- **tabActionCopyLink** - Understand how users discover and use tab copy link on mobile.
+- **tabActionMoreOptions** - Understand ellipsis usage from within a Tab for more option - discoverability and usage.
+- **tabActionOpenInBrowser** - Open in browser usage. This is necessary to understand if users prefer opening a tab outside Teams.
+- **tabActionOpenInBrowserFromTab** - Understand open in browser usage from within a Tab for more option - discoverability and usage.
+- **tabActionOpenInTeams** - Open in usage. This is key in understanding if the tab can be by default set to open in Teams.
+- **tabActionRemove** - Understand how discoverable the delete option is and the usage of the feature.
+- **tabActionRename** - Understand how discoverable rename is and the usage of the feature.
+- **tabActionSetting, Android - fix** - Understand how users discover and use tab config on mobile.
+- **tabListMoreOptions** - Understand the usage of the more options for a tab.
+- **tabOpen** - Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way it's being used.
+- **tapChicletExpand** - Understand how users preview cards on mobile.
+- **tapSettings** - Understand the number of users re-configuring apps on mobile.
+- **teamsDeviceCallResumed**
+- **tasksAppLaunchDefault** - The Tasks app is opened from the bottom drawer, check the app launch via the MT service.
+- **tasksAppLaunchDashboard** - The Tasks app is opened from the dashboard tile or specific plan, check the app launch via the MT service.
+- **tasksAppLaunchDashboardSeeAll** - The Tasks app is opened from the dashboard **See all** button on the dashboard, check the app launch via the MT service.
+- **tasksAppLaunchAdaptiveCard** - The Tasks app is opened from an adaptivecard in a group chat, check the app launch via the URL of the IC3 service.
+- **tasksAppLaunchComposeExtension** - The Tasks app is opened from the compose extension in a group chat, check the app launch via the MT service.
+- **teamChannelChanged** - Triggered when a user clicks and navigates to a plan from plan list. Only sent to appInsights, not Aria.
+- **titleChanged** - Triggers when a task item title changes, triggers on every character change.
+- **timeOffReasonClicked** - This it to track if you cited a reason for time off.
+- **toggleClicked** - To view a declined time off request.
+- **teamShiftPickerClicked** - When the user adds a new break entry. Log the event once the user saves the changes.
+- **teamSelectedClicked** - When the user clicks on **Add** on a timesheet.
+- **tabCalendarClicked** - User has chosen a team from the team picker.
+- **tabViewed** - Only logged if the request being sent is a swap. Tracking user clicks into the **Team Shift** picker.
+- **teamSelectedClicked** - When the user clicks on Add on a timesheet.
+- **teamShiftPickerClicked** - When the user adds a new break entry. The event is logged once the user saves the changes.
+- **timesheetAddClicked** - When the user adds a note to their break edits. The event is logged once the user saves the changes.
+ **timesheetBreakAdded** - When the user adds a new clock entry. The event is logged once the user saves the changes.
+- **timesheetBreakEdited** - When the user confirms their timesheet. The event is logged when the user hits confirm in the modal.
+- **timesheetBreakNoteAdded** - When the user deletes their timesheet. The event is logged when the user confirms the delete in the modal.
+- **timesheetClockAdded** - When the user clicks on Edit for a timesheet.
+- **timesheetClockEdited**  When the user clicks save on an edited timesheet.
+- **timesheetConfirmed** - When the user adds a note to their timesheet edits. The event is logged once the user saves the changes.
+- **timesheetDeleted** - If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted.
+- **timesheetEditClicked** - User Configuration telemetry.
+- **timesheetEditSaved** - User taps on a time sheet from a user's profile to open that user's time sheet.
+- **timesheetNoteAdded** - To view an approved time off request.
+- **toggleClicked** - To view a declined time off request. ???
 
 ### U
 
-| unpinChannel | Unpin a channel | Basic | Track channel engagement | App key feature success data   |
-| unsafeLink | Link was determined to be unsafe | Basic | Feature success metrics for ATP Safe Links | App key feature success data   |
-| upgrade | Taps the **Upgrade** button in **More** menu | Basic | Feature success metrics for freemiums as this would provide information about the number of successful conversations | App key feature success data   |
-| urgentMessageSelect | User selects urgent message from priority context menu | Basic | Feature success metrics for priority messages | App key feature success data   |
-| urgentMessageSend | User sends urgent message | Basic | Feature success metrics for priority messages | App key feature success data   |
-| url | url | Basic | Feature success metrics for url preview | App key feature success data   |
-| urlPreview | Url preview | Basic | Feature success metrics for url preview | App key feature success data   |
-| urlPreviewAdd | URL preview add | Basic | Feature success metrics for url preview | App key feature success data   |
-| urlPreviewOpen | URL preview open | Basic | Feature success metrics for url preview | App key feature success data   |
-| urlPreviewRemove | URL preview removed | Basic | Feature success metrics for url preview | App key feature success data   |
-| uploadSelectedFile | <ul><li>Tracks if user can upload files in channel successfully</li><li>Tracks if user can upload files in chat successfully</li><li>Tracks if user can upload files in the reply window</li><li>Tracks if user can upload files successfully in group chat</li><li>Tracking usage of core scenario</li><li>Tracks the start of upload scenario in channel</li><li>Tracks the start of upload scenario in chat</li><li>Tracks the start of end of upload scenario in channel</li><li>Track if user can upload file into files tab successfully</li><li>Helps to identify is user acted on the prompt during file upload</li><li>Helps to identify if user can upload selected file successfully</li></ul> | Basic/Full | <ul><li>Tracks if user can upload files in channel successfully</li><li>Tracks if user can upload files in chat successfully</li><li>Tracks if user can upload files in the reply window</li><li>Tracks if user can upload files successfully in group chat</li><li>Tracking usage of core scenario</li><li>Tracks the start of upload scenario in channel</li><li>Tracks the start of upload scenario in chat</li><li>Tracks the start of end of upload scenario in channel</li><li>Track if user can upload file into files tab successfully</li><li>Helps to identify is user acted on the prompt during file upload</li><li>Helps to identify if user can upload selected file successfully</li></ul> | App key feature success data   |
-| uploadSelectFile | <ul><li>Tracks if the user can select file successfully</li><li>Tracks if the user can select upload file button successfully</li></ul> | Basic | <ul><li>Tracks if the user can select file successfully</li><li>Tracks if the user can select upload file button successfully</li></ul> | App key feature success data   |
-| userJoinedViaShareLink | User joined a meeting from a link | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| unansweredCallForward | <ul><li>Unanswered call forward target is set</li><li>Enable unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled)</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| unblockCaller | <ul><li>Unblock contact or number from action sheet</li><li>Unblock contact or number from contact card</li><li>Unblock number from settings</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| unpinSelf | Unpin yourself from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| unpinUser | Unpin user from action sheet | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| updatePlaybackSpeedVoicemail | Voicemail playback speed value changed | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| uploadFile | User clicks **Upload from device** | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| userLongPress | Long press on a participant | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| useWifiForAudioDialog | User clicks **OK** while system prompts that while Admin has blocked audio and video calls on cellular | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| useWifiForVideoDialog | <ul><li>User clicks **OK** while system prompts that while Admin has blocked video calls on cellular</li><li>User trying to enable video in meeting while Admin has blocked it on cellular</li><li>User clicks **OK** while system prompts that while Admin has blocked video in meetings on cellular</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| unblockChat | Unblock a bot chat.This is enhancing existing telemetry around chats and is only adding app information. | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| updateTask | Confirms update tasks action failed | Basic | Confirms that a when a user edited or updated a task failed | Key App feature success data   |
-| updatePersonalTask | Confirms a personal task has been successfully updated | Basic | Confirms a personal task has been successfully updated | Essential Service - Telemetry   |
-| updatePlannerTask | Confirms that a user has successfully updated a task in a shared taks list | Basic | Confirms that a user has successfully updated a task in a shared taks list | Essential Service - Telemetry  |
-| updateTaskState | Confirms that the task state has been updated | Optional | Confirms that the task state has been successfully updated |     |
-| update_planner_task_and_nav_to_view | Confirms successful updating of a shared task item and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
-| update_personal_task_and_nav_to_view | Confirms successful updating of a personal task item and how long it took for user to land on resulting view after action | Basic |     | App key feature success data   |
-| userConfiguration | To view a pending time off request. | Basic | Key functionality for feature, time of requests. | App key feature success data   |
+- **unpinChannel** - Unpin a channel.
+- **unsafeLink** - A link was determined to be unsafe.
+- **upgrade** - Tapping the **Upgrade** button in the **More** menu.
+- **urgentMessageSelect** - A user selects an urgent message from the priority context menu.
+- **urgentMessageSend** - A user sends an urgent message.
+- **url** - URL.
+- **urlPreview** - URL preview.
+- **urlPreviewAdd** - URL preview add.
+- **urlPreviewOpen** - URL preview open.
+- **urlPreviewRemove** - URL preview removed.
+- **uploadSelectedFile** - Triggered under these circumstances:
+  - Tracks if user can upload files in channel successfully.
+  - Tracks if user can upload files in chat successfully.
+  - Tracks if user can upload files in the reply window.
+  - Tracks if user can upload files successfully in group chat.
+  - Tracking usage of core scenario.
+  - Tracks the start of upload scenario in channel.
+  - Tracks the start of upload scenario in chat.
+  - Tracks the start of end of upload scenario in channel.
+  - Track if user can upload file into files tab successfully.
+  - Helps to identify is user acted on the prompt during file upload.
+  - Helps to identify if user can upload selected file successfully.
+- **uploadSelectFile** - Tracks if the user can select a file successfully, and tracks if the user can select the **Upload file** button successfully.
+- **userJoinedViaShareLink** - A user joined a meeting from a link.
+- **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
+- **unblockCaller** - Unblock:
+  - Contact or number from the action sheet.
+  - Contact or number from a contact card.
+  - Number from settings.
+- **unpinSelf** - Unpin yourself from the action sheet.
+- **unpinUser** - Unpin a user from the action sheet.
+- **updatePlaybackSpeedVoicemail** - Voicemail playback speed value is changed.
+- **uploadFile** - A user clicks **Upload from device**.
+- **userLongPress** - Long press on a participant.
+- **useWifiForAudioDialog** - A user clicks **OK** while the system prompts, while an Admin has blocked audio and video calls on cellular.
+- **useWifiForVideoDialog** - A user:
+  - Clicks **OK** while the system prompts, while an Admin has blocked video calls on cellular.
+  - Trying to enable video in meeting, while an Admin has blocked it on cellular.
+  - Clicks **OK** while the system prompts, while an Admin has blocked video in meetings on cellular.
+- **unblockChat** - Unblock a bot chat.
+- **updateTask** - Confirms update tasks action failed.
+- **updatePersonalTask** - Confirms a personal task has been successfully updated.
+- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **updateTaskState** - Confirms that the task state has been updated.
+- **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for user to land on resulting view after action.
+- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for the user to land on resulting view after action.
+- **userConfiguration** - To view a pending time off request.
 
 ### V
 
