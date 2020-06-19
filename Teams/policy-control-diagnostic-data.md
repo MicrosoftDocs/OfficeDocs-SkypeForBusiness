@@ -899,33 +899,33 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **pptNextSlide** - Next slide as a presenter or in private viewing.
 - **pptPreviousSlide** - Previous slide as a presenter or in private viewing.
 - **pptReturnToPresenter** - Go to the **Live** slide (the one that the presenter and everyone else is on).
-| pptStopPresenting | Stop presenting | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| pptTakeControl | Take control | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinAddRoom | <ul><li>User clicks the **Add a room** button in pre-join dropdown</li><li>User clicks **Join** in the **Add a room** scenario</li></ul> | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinAudioOff | User clicks the **Audio off** button in pre-join dropdown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinAutoAddRoom | User tapped **Join now** when room is nearby | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinBack | Back or Close button tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinDeviceAudio | User tapped **Join with device audio** from dropdown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinDialIn | User clicks the **Dial in** button in pre-join dropdown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinDialOut | User clicks the **Call me back** button in pre-join dropdown | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| preJoinPSTNOptions | User clicks dropdown for other join options | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| privateMeetingJoin | **Meeting Join** button tapped from Private meeting chat | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| promotedToPresenter | User promotes an attendee - **Change** button in the dialog box | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| proximityPermissionDismissed | Permission banner is dismissed | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| proximityPermissionGranted | Permission is given on the pop-up | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| proximityPermissionViewed | Permission banner is tapped | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| personalAppNavBotChat | navigate to the bot within personal app | Optional | Used to track feature success or failure of a feature and customer engagement |     |
-| personalAppNavTab | Navigate to tabs within personal app | Optional | Used to track feature success or failure of a feature and customer engagement |     |
+- **pptStopPresenting** - Stop presenting.
+- **pptTakeControl** - Take control.
+- **preJoinAddRoom** - User clicks the **Add a room** button in pre-join dropdown, or user clicks **Join** in the **Add a room** scenario.
+- **preJoinAudioOff** - User clicks the **Audio off** button in pre-join dropdown.
+- **preJoinAutoAddRoom** - User tapped **Join now** when room is nearby.
+- **preJoinBack** - Back or Close button tapped.
+- **preJoinDeviceAudio** - User tapped **Join with device audio** from dropdown.
+- **preJoinDialIn** - User clicks the **Dial in** button in the pre-join dropdown.
+- **preJoinDialOut** - User clicks the **Call me back** button the in pre-join dropdown.
+- **preJoinPSTNOptions** - User clicks dropdown for other join options.
+- **privateMeetingJoin** - **Meeting Join** button tapped from Private meeting chat.
+- **promotedToPresenter** - User promotes an attendee - **Change** button in the dialog box.
+- **proximityPermissionDismissed** - Permission banner is dismissed.
+- **proximityPermissionGranted** - Permission is given on the pop-up.
+- **proximityPermissionViewed** - Permission banner is tapped.
+- **personalAppNavBotChat** - Navigate to the bot within personal app.
+- **personalAppNavTab** - Navigate to tabs within personal app.
 - **people**
-| peoplePickerInvoked |             |      |                       |               |
-| priorityChange | Triggers when priority filter is applied while viewing tasklist | Optional |     |     |
-| priorityPickerClicked | Triggers when user navigates to priority filter picker from task list filter screen | Optional |     |     |
-| progressItemClicked | Confirms a user has successfully opened the progress picker for a task | Optional | Confirms a user has successfully opened the progress picker for a task |     |
-| parental_consent_grant            |             |      |                       |               |
-| parental_consent_remove           |             |      |                       |               |
-| pageEntered | User was able to login. | Basic | Key functionality for shifts details feature | App key feature success data   |
-| plusButtonClicked | Triggered when the user closes the banner message of a notification. | Basic | Key functionality for requests feature. | App key feature success data   |
-| plusButtonClicked | <ul><li>Tracking clicking the **plus button** to start a schedule.</li><li>Tracking clicking the **plus button** to start a request on RequestList.sn</li></ul> | Basic | <ul><li>Key functionality for feature, schedule creation</li><li>Key functionality for feature, requests.</li></ul> | App key feature success data   |
+- **peoplePickerInvoked**
+- **priorityChange** - Triggers when priority filter is applied while viewing a tasklist.
+- **priorityPickerClicked** - Triggers when a user navigates to a priority filter picker from the task list filter screen.
+- **progressItemClicked** - Confirms a user has successfully opened the progress picker for a task.
+- **parental_consent_grant**
+- **parental_consent_remove**
+- **pageEntered** - User was able to login.
+- **plusButtonClicked** - Triggered when the user closes the banner message of a notification.
+- **plusButtonClicked** - Tracking clicking the **plus button** to start a schedule, or to start a request on RequestList.sn.
 
 ### Q
 
@@ -937,69 +937,67 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 
 ### R
 
-| removeUser_CM |     |     |     |     |
-| renewTeam | Not used ??? |     |     |     |
-| resolveIssue | Users taps on **Resolve** in the notification troubleshooter flyout to navigate to the blocker app | Basic | Track the success of the notification troubleshooter | App key feature success data   |
-| reorderChannelItem | User reorders pinned channels | Basic | Track pinned channel management | App key feature success data   |
-| reportAbuseOpen |     |     |     |     |
-| reactAngry_CM | React with angry from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactAngry_HB | React with angry from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactHeart_CM | React with heart from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactHeart_HB | React with heart from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactLaugh_CM | React with laugh from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactLaugh_HB | React with laugh from hover bubble | Basic | Feature success telemetry for reactions  | App key feature success data   |
-| reactLike_doubleTap  | React with like from double tap | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactLike_HB | React with like from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSad_CM | React with sad from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSad_HB | React with sad from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSurprised_CM | React with surprise from context menu | Basic | Feature success telemetry for reactions | App key feature success data   |
-| reactSurprised_HB | React with surprise from hover bubble | Basic | Feature success telemetry for reactions | App key feature success data   |
-| readReceipts | User enabled feature | Basic | Feature success telemetry for read receipts | App key feature success data   |
-| redeemInvite | In app redemption | Basic | Feature success metrics for freemium invite | App key feature success data   |
-| removeReplyObject | User removed reply object from compose | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| removeUserConfirm | User confirmed remove user dialog| Basic | Feature success metrics for quoted reply | App key feature success data   |
-| removeUserContextMenu | User removed participant via context menu | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| removeUserSwipe | User removed participant via swipe | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
-| replyChain | New message button or textbox in reply chain (thread) | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
-| replyChannel | Reply button in channels | Basic | Feature success metrics for reply message experience in a channel | App key feature success data   |
-| replyNavigation | User tapped on reply object to navigate to referenced post | Basic | Feature success metrics for quoted reply | App key feature success data   |
-| replyViaMsgOptions | User started reply via context menu | Basic | Feature success and discoverability metrics for quoted reply | App key feature success data   |
-| replyViaSwipe | User started reply via swipe | Basic | Feature success and discoverability metrics for quoted reply | App key feature success data   |
-| requestJoinTeam  | Request button pressed | Basic | Feature success and discoverability metrics for teams and channel | App key feature success data   |
-| requestToJoinTeam | Request to join team (public or private) | Basic | Feature success and discoverability metrics for teams and channel | App key feature success data   |
-| requestToJoinTeamError | Error with join request | Basic | Feature success metrics for teams and channel | App key feature success data   |
-| returnToMessage | User tapped **Return** button to navigate back to message | Basic | Feature success metrics for quoted reply | App key feature success data   |
-| reactLike_CM | <ul><li>React with like from context menu</li><li>Like a bot message</li></ul> | Basic/Optional | Feature success and usage telemetry, see event description. | App key feature success data   |
-| replySendMessage | Send channel reply | NSD/Basic|     | <ul><li>Activity success</li><li>App key feature success data</li></ul>   |
-| runningLate | I am running late | Basic | Used to track feature success or failure of a feature and customer engagement | App key feature success data   |
-| removeMeeting | Click on **Remove from Calendar** from the Meeting Details page of a cancelled meeting | Basic | To get a sense of aggregated data of unwanted meetings being pushed on to personal calendars | App key feature success data   |
-| removeParticipantFromEditMeeting | Remove a participant after clicking on **Edit meeting** from the Meeting Details page | Basic | To log if an added participant was succesfully removed or not | App key feature success data   |
-| removeParticipantFromNewMeeting | Remove a participant from the scheduler page while setting up a new meeting | Basic | To log if an added participant was succesfully removed or not | App key feature success data   |
-| reactRemoved_HB         |             |       |                                                                       |                                |
-| reportAbuseSend         |             |       |                                                                       |                                |
-| reportAbuseConfirmation |             |       |                                                                       |                                |
-| removeAssignee | Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view) | Optional | Confirms that an assignee is removed from  assignment picker view |     |
-| removeUser | Confirms that an assignee is removed from within assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view) | Optional | Confirms that an assignee is removed from within assignment picker view |     |
-| rename_personal_plan | Confirms successful renaming of personal task list | Basic |     | App key feature success data   |
-| rename_planner_plan | Confirms successful renaming of shared task list | Basic |     | App key feature success data   |
-| requestSent | This is to log if there was a request sent. | Basic | Key functionality for request feature. | App key feature success data   |
-| requestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request feature. | App key feature success data   |
-| requestTypeClicked | Tracking what type of request people select from the requests picker | Basic | Key functionality for request type feature. | App key feature success data   |
-| requestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for request feature. | App key feature success data   |
-| requestActedOn | Tracks when the manager acts on open shift requests | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
-| requestActionClicked | When a user requests an action. | Basic | Key functionality for feature, open shifts requests. | App key feature success data   |
-| requestDetailsClicked | When the request for a shift is clicked (either FLW manager viewing or FLW worker) | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| requestSent | Tracks when the user requests an open shift | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| requestTypeClicked | <ul><li>Tracking what type of request people select from the requests picker</li><li>Request type that the user clicks</li><ul> | Basic | Key functionality for feature, request shifts. | App key feature success data   |
-| retryButtonClicked | When a user clicks on the retry button. | Basic | Key functionality for feature, retry shifts. | App key feature success data   |
+- **removeUser_CM**
+- **renewTeam** - Not used. ???
+- **resolveIssue** - Users taps on **Resolve** in the notification troubleshooter flyout to navigate to the blocker app.
+- **reorderChannelItem** - User reorders pinned channels.
+- **reportAbuseOpen**
+- **reactAngry_CM** - React with angry from the context menu.
+- **reactAngry_HB** - React with angry from the hover bubble.
+- **reactHeart_CM** - React with heart from the context menu.
+- **reactHeart_HB** - React with heart from the hover bubble.
+- **reactLaugh_CM** - React with laugh from the context menu.
+- **reactLaugh_HB** - React with laugh from the hover bubble.
+- **reactLike_doubleTap** - React with like from the double tap.
+- **reactLike_HB** - React with like from the hover bubble.
+- **reactSad_CM** - React with sad from the context menu.
+- **reactSad_HB** - React with sad from the hover bubble.
+- **reactSurprised_CM** - React with surprise from the context menu.
+- **reactSurprised_HB** - React with surprise from the hover bubble.
+- **readReceipts** - User enabled feature.
+- **redeemInvite** - In app redemption.
+- **removeReplyObject** - User removed reply object from compose.
+- **removeUserConfirm** - User confirmed remove user dialog.
+- **removeUserContextMenu** - User removed participant via context menu.
+- **removeUserSwipe** - User removed participant via swipe.
+- **replyChain** - Selected **New message** button or textbox in reply chain (thread).
+- **replyChannel** - Selected **Reply** button in channels.
+- **replyNavigation** - User tapped on reply object to navigate to referenced post.
+- **replyViaMsgOptions** - User started reply via context menu.
+- **replyViaSwipe** - User started reply via swipe.
+- **requestJoinTeam** - **Request** button pressed.
+- **requestToJoinTeam** - Request to join team (public or private).
+- **requestToJoinTeamError** - Error with join request.
+- **returnToMessage** - User tapped **Return** button to navigate back to message.
+- **reactLike_CM** - React with like from context menu or like a bot message.
+- **replySendMessage** - Send channel reply.
+- **runningLate** - I am running late.
+- **removeMeeting** - Click on **Remove from Calendar** from the Meeting Details page of a cancelled meeting.
+- **removeParticipantFromEditMeeting** - Remove a participant after clicking on **Edit meeting** from the Meeting Details page.
+- **removeParticipantFromNewMeeting** - Remove a participant from the scheduler page while setting up a new meeting.
+- **reactRemoved_HB**
+- **reportAbuseSend**
+- **reportAbuseConfirmation**
+- **removeAssignee** - Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view).
+- **removeUser** - Confirms that an assignee is removed from within the assignment picker view (as opposed to *assignmentRemoved* which triggers when clicking **x** outside of assignment picker view).
+- **rename_personal_plan** - Confirms the successful renaming of a personal task list.
+- **rename_planner_plan** - Confirms the successful renaming of a shared task list.
+- **requestSent** - Logged if there was a request sent.
+- **requestTypeClicked** - Tracking what type of request people select from the requests picker.
+- **requestDetailsClicked** - When the request for a shift is clicked (either FLW manager viewing or FLW worker)
+- **requestActedOn** - Tracks when the manager acts on open shift requests.
+- **requestActionClicked** - When a user requests an action, such as when the request for a shift is clicked (either FLW manager viewing or FLW worker)
+- **requestSent** - Tracks when the user requests an open shift.
+- **requestTypeClicked** - Tracking what type of request people select from the requests picker, or the request type that the user clicks.
+- **retryButtonClicked** - When a user clicks on the retry button.
 
 ### S
 
 - **scrollCalendarList**
-| shareInto | User shares something from another app into Teams | Basic | Track sharing into Teams | App key feature success data   |
-| scrollDatePicker |     |     |     |     |
-| selectCalendarDate |     |     |     |     |
-| safeLink | Link verified as safe | Basic | Feature success telemetry | App key feature success data   |
+- **shareInto** -- A user shares something from another app into Teams.
+- **scrollDatePicker**
+- **selectCalendarDate**
+- **safeLink** - Link verified as safe.
 | selectDevice | Selecting a particular device in displays app | Basic | Feature success and usage telemetry, see event description. | App key feature success data   |
 | selectGeneralSetting | Go to general settings | Basic | Feature discoverability and success metrics | App key feature success data   |
 | selectSettingOption | Go to settings tab from hamburger menu | Basic | Feature discoverability and success metrics | App key feature success data   |
