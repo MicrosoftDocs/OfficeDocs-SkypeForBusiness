@@ -26,7 +26,9 @@ appliesto:
 Calling policies in Microsoft Teams
 ===================================
 
-In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on. A default global policy is created automatically, but admins can also create and assign custom calling policies.
+In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on. 
+
+A global (Org-wide default) policy is created automatically, but admins can also create and assign custom calling policies.
 
 ## Create a custom calling policy
 
@@ -48,25 +50,7 @@ Follow these steps to modify an existing calling policy.
 
 ## Assign a custom calling policy to users
 
-To assign a policy to one user:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **Calling policy**, select the calling policy you want to assign, and then click **Apply**.
-
-To assign a policy to multiple users at a time:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. After you finish adding users, select **Save**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Calling policy settings
 
@@ -88,8 +72,8 @@ This setting controls whether incoming calls can be forwarded to an external num
 
 This setting enables inbound calls to be sent to voicemail. Valid options are:
 
-- **Enabled** Voicemail is always available for inbound calls. 
-- **Disabled**  Voicemail is not available for inbound calls. 
+- **Enabled** Voicemail is always available for inbound calls.
+- **Disabled**  Voicemail is not available for inbound calls.
 - **User controlled** Users can determine whether they want voicemail to be available.
 
 ### Inbound calls can be routed to call groups 
@@ -120,6 +104,8 @@ This setting enables users to call PSTN numbers using the Teams web client.
 
 This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
 
-## See also
+## Related topics
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[Assign policies to your users in Teams](assign-policies.md)

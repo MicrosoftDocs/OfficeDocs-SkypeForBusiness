@@ -382,7 +382,7 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 #### Change a policy assignment for a group
 
-After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd``` cmdlet to change that group's policy assignment as follows:
+After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignment``` cmdlet to change that group's policy assignment as follows:
 
 - Change the ranking
 - Change the policy of a given policy type
@@ -481,4 +481,4 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 ## Related topics
 
-- [Teams PowerShell Overview](teams-powershell-overview.md)
+[Teams PowerShell Overview](teams-powershell-overview.md)
