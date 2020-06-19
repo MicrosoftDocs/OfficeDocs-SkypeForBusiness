@@ -991,92 +991,24 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **requestTypeClicked** - Tracking what type of request people select from the requests picker, or the request type that the user clicks.
 - **retryButtonClicked** - When a user clicks on the retry button.
 
-### S
-
-- **scrollCalendarList**
-- **shareInto** -- A user shares something from another app into Teams.
-- **scrollDatePicker**
-- **selectCalendarDate**
 - **safeLink** - Link verified as safe.
-- **selectDevice** - Selecting a particular device in the displays app.
-- **selectGeneralSetting** - Go to general settings.
-- **selectSettingOption** - Go to the settings tab from the hamburger menu.
-- **selectTheme** - Enable dark theme.
-- **sendForward** - A user confirms to send a forward message from the forward picker.
-- **sendImage** - Send image.
-- **sendLocation** - Send location.
-- **sendMsg** - Click on **Send** in reply.
-- **sendVoiceMessage** - Record button released.
-- **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
-- **shareHistory** - Share history picker tapped.
-- **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
-- **shownReadReceiptNotice** - The user shown feature notice with settings options.
-- **signIn** - The user taps **Sign in** on welcome page, or the **Sign In** button is tapped.
-- **signUp** - The user taps **Create a free account** or **Sign up for free**.
-- **skipVerificationForLink** - Thw user chose to skip verification.
-- **SMSSendMessage** - The user sends a SMS message.
-- **startEditing** - **Edit** button pressed.
-- **statusMsgCancel** - The user cancels change to status message.
-- **statusMsgExpiry** - The user sets the expiry time.
-- **statusMsgSet** - The user sets new status message.
-- **statusPageViaContactCard** - The user enters the status compose experience via a contact card.
-- **statusPageViaHamburger** - The user enters the status compose experience via the hamburger.
-- **selectActivityType** - Captures select gestures on feed item.
-- **shareFile** - Triggered when a user clicks **Share file**. Also helps to check if:
-  - The user was able to initiate share file operation.
-  - The user can share a file successfully.
-- **structuredMeetingsBannerDismiss** - User dismisses the banner that informs them about their meeting role.
-- **scheduledMeetingJoin** - The **Meeting Join** button is tapped from the scheduled meeting object.
-- **searchContacts** - Search from the Call List.
-- **selection** - Device contact selected, or company contact selected.
-- **selectMeetingChicklet** | Meeting.
-- **selfLongPress** - Long press on myself.
-- **Send_earlycancelledCQF** - A user submits feedback on CQF early cancelled call form.
-- **Send_ratemycallCQF** - A user submits feedback on CQF rate my call form.
-- **Send_ratemyliveeventCQF** - A user Submits feedback on CQF rate my live event form.
-- **Setting/Dismiss** - Device contacts setting.
-- **sharePPTFromChannels** - A user clicks **Teams and Channels**.
-- **sharePPTFromOneDrive** - A user clicks **OneDrive**.
-- **shareRecording** - Share a recording.
-- **shareScreen** - Start or stop a screen share.
-- **shareTray** - A user clicks on **Share…** in the action sheet.
-- **simultaneousCallForward** - Triggered when:
-  - Simultaneous call forward target is set.
-  - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
-- **startPresentPhoto** - Start presenting photo.
-- **startPresentVideo** - Start presenting video.
-- **startPSTNCall** - Triggerd due to:
-  - PSTN Result in Global Search (People).
-  - PSTN call placed from Device contactCard.
-  - PSTN Call placed from callList.
-  - DialPSTN Number using DialPad.
-- **startRecording** - Start recording.
-- **startVoicemailCall** - **Change voicemail greeting** tapped.
-- **stopMeetingButton** - The number of times user leaves the lobby without being admitted into the meeting.
-- **stopPresentPhoto** - Stop presenting photo.
-- **stopPresentVideo** - Stop presenting video.
-- **stopRecording** - Stop recording.
-- **stuckOnConnectingDialInSelected** - A user tapped **Dial in** on the drawer.
-- **stuckOnConnectingRetrySelected** - A user tapped **Retry** on the drawer.
-- **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **saveEditMeeting** - Click on the **Save** button while on the meeting scheduler page after updating a meeting.
 - **saveNewMeeting** - Click on the **Save** button while on the meeting scheduler page. To log successfully saved meetings and the percentage of meetings that failed to create due to a client side or service error.
-- **searchMeetingParticipants** - Search for participants to add within the scheduler form. To distinguish between the number of appointments created versus the number of meetings created.
-- **seeAllMeetingParticipants** - Click on **See All** from the meeting details page, or view all participants. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
-- **seeMeetingDescription** - Opening the Meeting Details page or clicking **See More** on the Meeting description from the Meeting Details page. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
-- **seeRsvpMeetingOptions** - Click on **Notify Organizer** from the RSVP pop up, or click on **Rsvp** options from the Meeting Details page.
-- **selectMeetingRsvpOption** - Click on the **RSVP** button to choose an option.
-- **selectMeetingRsvpOptions** - Click on the **RSVP** button to choose an option.
-- **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
+- **savePlanClicked** - Triggers when user clicks **Create** in the new plan creator from the default opening of the app.
+- **scheduledMeetingJoin** - The **Meeting Join** button is tapped from the scheduled meeting object.
+- **scrollCalendarList**
+- **scrollDatePicker**
 - **searchAbandoned** - Helps to track if search was successful versus if a user abandoned search.
 - **searchCancelled** - Helps to track if:
   - Search was successful or if user abandoned search.
   - Helps to track if a search query was successful.
+- **searchContacts** - Search from the Call List.
 - **searchIcon** - Helps to track:
   - If search can be triggered.
   - The source of a search trigger.
   - If a user can find relevant results successfully.
 - **searchInitiated** - Helps to track if search can be triggered, and helps to track the source of search trigger.
+- **searchMeetingParticipants** - Search for participants to add within the scheduler form. To distinguish between the number of appointments created versus the number of meetings created.
 - **searchResultsClicked** - Helps to track:
   - If a user can find relevant results successfully.
   - If search results were from the All tab versus an individual domain.
@@ -1086,52 +1018,95 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **searchTabClicked** - Helps to track:
   - Domain information of the search result - for people, chat, messages, and files.
   - If a user can find relevant results successfully.
-- **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via the backend messaging service.
-- **statusCheckBoxClicked** - Triggers when task item is either completed or uncompleted.
-- **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
-- **savePlanClicked** - Triggers when user clicks **Create** in the new plan creator from the default opening of the app.
-- **selectUser** - Confirms that an assignee was successfully selected for a task.
-- **selectPlannerList** - Confirms that the user successfully navigated to a shared task list by tapping it.
+- **seeAllMeetingParticipants** - Click on **See All** from the meeting details page, or view all participants. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
+- **seeMeetingDescription** - Opening the Meeting Details page or clicking **See More** on the Meeting description from the Meeting Details page. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate clicks on Dial ins, Teams meetings, RSVP clicks, etc..
+- **seeRsvpMeetingOptions** - Click on **Notify Organizer** from the RSVP pop up, or click on **Rsvp** options from the Meeting Details page.
+- **selectActivityType** - Captures select gestures on feed item.
+- **selectCalendarDate**
+- **selectDevice** - Selecting a particular device in the displays app.
+- **selectGeneralSetting** - Go to general settings.
+- **selection** - Device contact selected, or company contact selected.
+- **selectMeetingChicklet** | Meeting.
+- **selectMeetingRsvpOption** - Click on the **RSVP** button to choose an option.
+- **selectMeetingRsvpOptions** - Click on the **RSVP** button to choose an option.
 - **selectPersonalList** - Confirms that the user successfully navigated to a personal task list by tapping it.
-- **shiftDetailsTodaysCoworkers** - On the clock in screen, the user clicks on the **Start** or **End break** button.
-- **shiftDetailsCalendar** - On the clock in screen, the user clicks on the **Clock In** or **Clock Out** button.
-- **shiftDetails** - This is to see the details of the shift.
-- **sendRequestClicked** - This is logged for every individual request.
-- **shareShiftsClicked** - The details of an open shift.
+- **selectPlannerList** - Confirms that the user successfully navigated to a shared task list by tapping it.
+- **selectSettingOption** - Go to the settings tab from the hamburger menu.
+- **selectTheme** - Enable dark theme.
+- **selectUser** - Confirms that an assignee was successfully selected for a task.
+- **selfLongPress** - Long press on myself.
+- **Send_earlycancelledCQF** - A user submits feedback on CQF early cancelled call form.
+- **send_map_pin_clicked** - A user sends a static location.
+- **Send_ratemycallCQF** - A user submits feedback on CQF rate my call form.
+- **Send_ratemyliveeventCQF** - A user Submits feedback on CQF rate my live event form.
+- **sendForward** - A user confirms to send a forward message from the forward picker.
+- **sendImage** - Send image.
+- **sendLocation** - Send location.
+- **sendMsg** - Click on **Send** in reply.
 - **sendRequestBulkClicked** - This is logged once for each bulk request send. In addition, each individual request will log an event.
 - **sendRequestBulkClicked** - This is logged once for each bulk request send. In addition, each individual request will log an event.
 - **sendRequestClicked** - This is logged for every individual request.
+- **sendVoiceMessage** - Record button released.
+- **Setting/Dismiss** - Device contacts setting.
+- **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
+- **shareFile** - Triggered when a user clicks **Share file**. Also helps to check if:
+  - The user was able to initiate share file operation.
+  - The user can share a file successfully.
+- **shareHistory** - Share history picker tapped.
+- **shareInto** -- A user shares something from another app into Teams.
+- **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via the backend messaging service.
+- **sharePPTFromChannels** - A user clicks **Teams and Channels**.
+- **sharePPTFromOneDrive** - A user clicks **OneDrive**.
+- **shareRecording** - Share a recording.
+- **shareScreen** - Start or stop a screen share.
 - **shareShift** - The information that is given when a shift is shared.
 - **shareShiftsClicked** - The details of an open shift.
+- **shareTray** - A user clicks on **Share…** in the action sheet.
 - **shiftAssigneeClicked** - The Shifts Calendar view showing the particular shifts details.
-- **shiftDetails** - Your own shifts.
-- **shiftDetailsCalendar** - Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team.
+- **shiftDetails** - This allows you to see the details of your own shift.
+- **shiftDetailsCalendar** - On the clock in screen, the user clicks on the **Clock In** or **Clock Out** button. Triggered whenever a user receives a notification from a specific team and potentially wants to switch to that particular team.
 - **shiftDetailsMyShifts** - Tracking user tapping on **Calendar** from the Schedules tab.
-- **switchTeamsDialogTriggered** - A user views the Shifts tab.
-- **send_map_pin_clicked** - A user sends a static location.
-- **static_place_selected** - A user drags map to select a static place.
-- **suggested_place_selected** - A user shares a static location by selecting a suggested place.
-- **stop_location_sharing_logout** - A user logs out of the app.
+- **shiftDetailsTodaysCoworkers** - On the clock in screen, the user clicks on the **Start** or **End break** button.
 - **shortCircuitContactCount**
-
-### T
-
-- **teamCreate** - A user selects the option to create a new team.
-- **teamEdit** - A user edits some aspect of a team that they own or administer.
-- **tapDatePickerHandle**
-- **table** - Click on a table.
-- **takePhotoPicker** - **Take photo** tapped inside the image picker.
-- **teamNav** - View menu options for a team.
-- **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience.
-- **tenantSwitchUnsupportedError** - Tenant Unsupported Error (when user sees the error). Feature success metrics for MTMA, provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience.
-- **toggleChannelsInChat** - Turn feature on or off. Feature success metrics for unified chats and channel experience.
-- **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
-- **takePhoto** - Take a photo.
-- **toast** - In-app toast is clicked.
-- **transferNow** - Triggered when:
-- A user taps **Transfer** > **Transfer now**.
-- Transfer target is set to a Person.
-- Transfer target is set to a Phone Number.
+- **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
+- **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
+- **shownReadReceiptNotice** - The user shown feature notice with settings options.
+- **signIn** - The user taps **Sign in** on welcome page, or the **Sign In** button is tapped.
+- **signUp** - The user taps **Create a free account** or **Sign up for free**.
+- **simultaneousCallForward** - Triggered when:
+  - Simultaneous call forward target is set.
+  - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
+- **skipVerificationForLink** - Thw user chose to skip verification.
+- **SMSSendMessage** - The user sends a SMS message.
+- **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
+- **startEditing** - **Edit** button pressed.
+- **startPresentPhoto** - Start presenting photo.
+- **startPresentVideo** - Start presenting video.
+- **startPSTNCall** - Triggerd due to:
+  - PSTN Result in Global Search (People).
+  - PSTN call placed from Device contactCard.
+  - PSTN Call placed from callList.
+  - DialPSTN Number using DialPad.
+- **startRecording** - Start recording.
+- **startVoicemailCall** - **Change voicemail greeting** tapped.
+- **static_place_selected** - A user drags map to select a static place.
+- **statusCheckBoxClicked** - Triggers when task item is either completed or uncompleted.
+- **statusMsgCancel** - The user cancels change to status message.
+- **statusMsgExpiry** - The user sets the expiry time.
+- **statusMsgSet** - The user sets new status message.
+- **statusPageViaContactCard** - The user enters the status compose experience via a contact card.
+- **statusPageViaHamburger** - The user enters the status compose experience via the hamburger.
+- **stop_location_sharing_logout** - A user logs out of the app.
+- **stopMeetingButton** - The number of times user leaves the lobby without being admitted into the meeting.
+- **stopPresentPhoto** - Stop presenting photo.
+- **stopPresentVideo** - Stop presenting video.
+- **stopRecording** - Stop recording.
+- **structuredMeetingsBannerDismiss** - User dismisses the banner that informs them about their meeting role.
+- **stuckOnConnectingDialInSelected** - A user tapped **Dial in** on the drawer.
+- **stuckOnConnectingRetrySelected** - A user tapped **Retry** on the drawer.
+- **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
+- **suggested_place_selected** - A user shares a static location by selecting a suggested place.
+- **switchTeamsDialogTriggered** - A user views the Shifts tab.
 - **tabActionCopyLink** - Understand how users discover and use tab copy link on mobile.
 - **tabActionMoreOptions** - Understand ellipsis usage from within a Tab for more option - discoverability and usage.
 - **tabActionOpenInBrowser** - Open in browser usage. This is necessary to understand if users prefer opening a tab outside Teams.
@@ -1140,26 +1115,31 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **tabActionRemove** - Understand how discoverable the delete option is and the usage of the feature.
 - **tabActionRename** - Understand how discoverable rename is and the usage of the feature.
 - **tabActionSetting, Android - fix** - Understand how users discover and use tab config on mobile.
+- **table** - Click on a table.
 - **tabListMoreOptions** - Understand the usage of the more options for a tab.
 - **tabOpen** - Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way it's being used.
+- **tabViewed** - Only logged if the request being sent is a swap. Tracking user clicks into the **Team Shift** picker.
+- **takePhoto** - Take a photo.
+- **takePhotoPicker** - **Take photo** tapped inside the image picker.
 - **tapChicletExpand** - Understand how users preview cards on mobile.
+- **tapDatePickerHandle**
 - **tapSettings** - Understand the number of users re-configuring apps on mobile.
-- **teamsDeviceCallResumed**
-- **tasksAppLaunchDefault** - The Tasks app is opened from the bottom drawer, check the app launch via the MT service.
-- **tasksAppLaunchDashboard** - The Tasks app is opened from the dashboard tile or specific plan, check the app launch via the MT service.
-- **tasksAppLaunchDashboardSeeAll** - The Tasks app is opened from the dashboard **See all** button on the dashboard, check the app launch via the MT service.
 - **tasksAppLaunchAdaptiveCard** - The Tasks app is opened from an adaptivecard in a group chat, check the app launch via the URL of the IC3 service.
 - **tasksAppLaunchComposeExtension** - The Tasks app is opened from the compose extension in a group chat, check the app launch via the MT service.
-- **teamChannelChanged** - Triggered when a user clicks and navigates to a plan from plan list. Only sent to appInsights, not Aria.
-- **titleChanged** - Triggers when a task item title changes, triggers on every character change.
-- **timeOffReasonClicked** - This it to track if you cited a reason for time off.
-- **toggleClicked** - To view a declined time off request.
-- **teamShiftPickerClicked** - When the user adds a new break entry. Log the event once the user saves the changes.
-- **teamSelectedClicked** - When the user clicks on **Add** on a timesheet.
+- **tasksAppLaunchDashboard** - The Tasks app is opened from the dashboard tile or specific plan, check the app launch via the MT service.
+- **tasksAppLaunchDashboardSeeAll** - The Tasks app is opened from the dashboard **See all** button on the dashboard, check the app launch via the MT service.
+- **tasksAppLaunchDefault** - The Tasks app is opened from the bottom drawer, check the app launch via the MT service.
 - **tabCalendarClicked** - User has chosen a team from the team picker.
-- **tabViewed** - Only logged if the request being sent is a swap. Tracking user clicks into the **Team Shift** picker.
-- **teamSelectedClicked** - When the user clicks on Add on a timesheet.
+- **teamChannelChanged** - Triggered when a user clicks and navigates to a plan from plan list. Only sent to appInsights, not Aria.
+- **teamCreate** - A user selects the option to create a new team.
+- **teamEdit** - A user edits some aspect of a team that they own or administer.
+- **teamNav** - View menu options for a team.
+- **teamsDeviceCallResumed**
+- **teamSelectedClicked** - When the user clicks on **Add** on a timesheet.
 - **teamShiftPickerClicked** - When the user adds a new break entry. The event is logged once the user saves the changes.
+- **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience.
+- **tenantSwitchUnsupportedError** - Tenant Unsupported Error (when user sees the error). Feature success metrics for MTMA, provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience.
+- **timeOffReasonClicked** - This it to track if you cited a reason for time off.
 - **timesheetAddClicked** - When the user adds a note to their break edits. The event is logged once the user saves the changes.
  **timesheetBreakAdded** - When the user adds a new clock entry. The event is logged once the user saves the changes.
 - **timesheetBreakEdited** - When the user confirms their timesheet. The event is logged when the user hits confirm in the modal.
@@ -1171,20 +1151,34 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **timesheetEditClicked** - User Configuration telemetry.
 - **timesheetEditSaved** - User taps on a time sheet from a user's profile to open that user's time sheet.
 - **timesheetNoteAdded** - To view an approved time off request.
-- **toggleClicked** - To view a declined time off request. ???
-
-### U
-
+- **titleChanged** - Triggers when a task item title changes, triggers on every character change.
+- **toast** - In-app toast is clicked.
+- **toggleChannelsInChat** - Turn feature on or off. Feature success metrics for unified chats and channel experience.
+- **toggleClicked** - To view a declined time off request.
+- **transferNow** - Triggered when:
+- A user taps **Transfer** > **Transfer now**.
+- Transfer target is set to a Person.
+- Transfer target is set to a Phone Number.
+- **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
+- **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
+- **unblockCaller** - Unblock:
+  - Contact or number from the action sheet.
+  - Contact or number from a contact card.
+  - Number from settings.
+- **unblockChat** - Unblock a bot chat.
 - **unpinChannel** - Unpin a channel.
+- **unpinSelf** - Unpin yourself from the action sheet.
+- **unpinUser** - Unpin a user from the action sheet.
 - **unsafeLink** - A link was determined to be unsafe.
+- **updatePersonalTask** - Confirms a personal task has been successfully updated.
+- **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for user to land on resulting view after action.
+- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for the user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **updatePlaybackSpeedVoicemail** - Voicemail playback speed value is changed.
+- **updateTask** - Confirms update tasks action failed.
+- **updateTaskState** - Confirms that the task state has been updated.
+action.
 - **upgrade** - Tapping the **Upgrade** button in the **More** menu.
-- **urgentMessageSelect** - A user selects an urgent message from the priority context menu.
-- **urgentMessageSend** - A user sends an urgent message.
-- **url** - URL.
-- **urlPreview** - URL preview.
-- **urlPreviewAdd** - URL preview add.
-- **urlPreviewOpen** - URL preview open.
-- **urlPreviewRemove** - URL preview removed.
+- **uploadFile** - A user clicks **Upload from device**.
 - **uploadSelectedFile** - Triggered under these circumstances:
   - Tracks if user can upload files in channel successfully.
   - Tracks if user can upload files in chat successfully.
@@ -1198,33 +1192,21 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Helps to identify is user acted on the prompt during file upload.
   - Helps to identify if user can upload selected file successfully.
 - **uploadSelectFile** - Tracks if the user can select a file successfully, and tracks if the user can select the **Upload file** button successfully.
+- **urgentMessageSelect** - A user selects an urgent message from the priority context menu.
+- **urgentMessageSend** - A user sends an urgent message.
+- **url** - URL.
+- **urlPreview** - URL preview.
+- **urlPreviewAdd** - URL preview add.
+- **urlPreviewOpen** - URL preview open.
+- **urlPreviewRemove** - URL preview removed.
+- **userConfiguration** - To view a pending time off request.
 - **userJoinedViaShareLink** - A user joined a meeting from a link.
-- **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
-- **unblockCaller** - Unblock:
-  - Contact or number from the action sheet.
-  - Contact or number from a contact card.
-  - Number from settings.
-- **unpinSelf** - Unpin yourself from the action sheet.
-- **unpinUser** - Unpin a user from the action sheet.
-- **updatePlaybackSpeedVoicemail** - Voicemail playback speed value is changed.
-- **uploadFile** - A user clicks **Upload from device**.
 - **userLongPress** - Long press on a participant.
 - **useWifiForAudioDialog** - A user clicks **OK** while the system prompts, while an Admin has blocked audio and video calls on cellular.
 - **useWifiForVideoDialog** - A user:
   - Clicks **OK** while the system prompts, while an Admin has blocked video calls on cellular.
   - Trying to enable video in meeting, while an Admin has blocked it on cellular.
   - Clicks **OK** while the system prompts, while an Admin has blocked video in meetings on cellular.
-- **unblockChat** - Unblock a bot chat.
-- **updateTask** - Confirms update tasks action failed.
-- **updatePersonalTask** - Confirms a personal task has been successfully updated.
-- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
-- **updateTaskState** - Confirms that the task state has been updated.
-- **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for user to land on resulting view after action.
-- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for the user to land on resulting view after action.
-- **userConfiguration** - To view a pending time off request.
-
-### V
-
 - **videoUserDoubleTap** - Double tap on a video participant.
 - **viewChannelMembers** - View a channel members list to track channel engagement.
 - **viewContactCard** - ContactCard tapped from:
@@ -1243,9 +1225,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **viewRequests** - The **View requests** button is pressed.
 - **voiceDataCollectionOptOut** - A user opts-out of the recording from mobile by clicking the banner.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
-
-### W
-
 - **whiteboardUsed** - User annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
 
