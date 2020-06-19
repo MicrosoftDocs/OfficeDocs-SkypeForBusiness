@@ -236,6 +236,8 @@ For a user, the most restrictive policy setting for video takes precedence. For 
 - If **Allow IP video** is turned on and **Mode for IP video** is set to **Disabled**, the **Mode for IP video** setting takes precedence. This means that the user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.
 - If **Allow IP video** is turned off and **Mode for IP video** is set to **Enable outgoing and incoming video**, the **Allow IP video** setting takes precedence. This means that no one can turn on video in meetings organized by a user who is assigned this policy.
 
+For Teams mobile clients, the ability to share photos and videos is determined by the **Allow IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing on Teams mobile clients, which you configure using a separate [**Screen sharing mode**](#screen-sharing-mode) setting. Additionally, these policy settings can prevent mobile users from using IP video over a cellular connection, which means that they need to use a WiFi connection.
+
 ### Common audio/video scenarios for meetings
 
 |If you want to...  |Set the following policy settings  |
