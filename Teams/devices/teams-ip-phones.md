@@ -68,7 +68,7 @@ The following Collaboration bars are Certified for Microsoft Teams:
 
 ### Product Release Information-Teams Phones
 The following are the latest Teams IP Phone App versions and Firmware version released
-#### Rlease Date: May 13,2020
+#### Release Date: May 13,2020
 #### App Versions
 |App| Version|
 |:---|:---|
