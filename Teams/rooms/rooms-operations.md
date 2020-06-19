@@ -101,7 +101,7 @@ For example, you can enable Remote PowerShell as follows:
 1. Sign in as Admin on a Microsoft Teams Rooms device.
 2. Open an elevated PowerShell command prompt.
 3. Enter the following command: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Open the Local Security Policy and add the *Administrators* security group to *Security Settings > Local Policies > User Rights Assignment > Access this computer from the network*
+4. Open the Local Security Policy and add the *Administrators* security group to **Security Settings** > **Local Policies** > **User Rights Assignment** > **Access this computer from the network**.
 
 To perform a management operation:
   
