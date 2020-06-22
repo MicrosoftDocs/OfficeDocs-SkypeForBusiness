@@ -55,6 +55,7 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you've already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
 
+
 ## Upload building data file
 
 The first type of tenant data file in CQD is the **Building** data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
@@ -181,7 +182,7 @@ While gathering building and subnet information, administrators will often uploa
 
 ## Add net new subnets
 
-There are times when you'll need to add net new subnets to CQD that weren't originally part of your network topology. To add net new subnets, do the following in the CQD Tenant Data Upload portal:
+There are times when you'll need to add net new subnets to CQD that weren't originally part of your network topology. To add net new subnets, do the following from the **Tenant Data Upload** page in CQD:
 
 1.  Edit the original building file and provide an end date that occurs at least one day before the net new subnets were acquired.
 2.  Download the original file, if you don't already have an up-to-date copy.
@@ -210,32 +211,14 @@ If a building file is already uploaded but you need to add missing subnets, do t
 4.  Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
 
 
-
 ## Reporting labels
 
-Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please don't include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
+**<font color="red">>GAGE: WHAT'S THE RELATIONSHIP BETWEEN REPORTING LABELS AND TENANT BUILDING DATA?</font>**
 
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
-2. After you select the file data type, click **Browse** to choose a data file.
+Reporting labels indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center (**Locations** > **Reporting labels**) lets you provide a text file (.csv or .tsv) containing a list of physical locations and their associated network subnets. This file is used by Call Analytics and Call Quality Dashboard for generating reports. When you upload your subnet mapping, the reports provided by these services will contain the location names as well, making the reports easier to understand and use for remediating any potential issues. To learn more, read [Add and update reporting labels](learn-more-about-site-upload.md).
 
-   - A data file must be a .tsv (tab-separated values) file or a .csv (comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
-   - The data file must be no larger than 50 MB.
-   - Data files have an expanded row limit of 1,000,000 to keep query performance fast. 
-   - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
-3. Next, specify a **Start date** and, optionally, **Specify an end date**.
-4. Finally, select **Upload** to upload the file to the CQD server.
-    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message requests a correction to the file. The following image shows a sample error with an incorrect number of columns in the data file.
-
-     ![Screenshot: shows an upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
-  
-5. If no errors occur during validation, the file upload succeeds. You can then see the uploaded data file in the **My uploads** table. The bottom of that page also shows a full list of all files uploaded for the current tenant.
-    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table. 
-
-     ![Screenshot: shows the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
-
-6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
-
-
+> [!IMPORTANT]
+> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please don't include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
 ## Related topics
 

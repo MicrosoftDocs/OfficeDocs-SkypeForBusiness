@@ -27,8 +27,6 @@ description: Learn about the data and reports available in Microsoft Call Qualit
 
 # Data and reports in Call Quality Dashboard (CQD)
 
-**<font color="red">SIUNIE - THIS IS THE NEW LIST YOU GAVE ME RECENTLY. NEED TO FLESH OUT THE REST API INFORMATION.</FONT>**
-
 Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
 
 
@@ -43,7 +41,7 @@ You can access CQD data by several different avenues. Pick the one that best mee
 |---------|---------|
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.       |
-|Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>REST API: Use this method to download your CQD data so you can work on it offline.        |
+|Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>You can also [use the REST API to access CQD data](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api) through Power BI. Use this method if you want to download your CQD data so you can work on it offline.        |
 |Graph API     | Access call quality data yourself using the [Graph API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data.  For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
 ## Import the CQD report templates

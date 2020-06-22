@@ -63,7 +63,7 @@ For more information about these roles, see [About Office 365 admin roles](/offi
 After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
 
 
-## Migrate reports from previous version of CQD
+## Migrate building data and reports from previous version of CQD
 
 If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
 
@@ -72,7 +72,6 @@ If  you created reports or uploaded tenant data (mapping) files to CQD for Skype
 3.    Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
 4.    From the links on the left, click **Import** and select the exported file. 
 5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
-
 
 ## Use Power BI to analyze CQD data
 
