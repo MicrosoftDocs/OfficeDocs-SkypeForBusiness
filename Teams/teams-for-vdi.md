@@ -110,6 +110,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 
 - .txt files
 - Media-stack folder
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
 
 ### Microsoft 365 Apps for enterprise considerations
 
