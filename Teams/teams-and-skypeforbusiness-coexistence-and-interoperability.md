@@ -58,6 +58,8 @@ In this coexistence mode, called **Islands**, each of the client applications op
 
 To avoid a confusing or regressed Skype for Business experience, external (federated) communications, PSTN voice services and voice applications, Office integration, HID controls for USB devices, and several other integrations continue to be handled by Skype for Business and are not available in Teams in **Islands** mode. Phone System is not supported in Teams in **Islands** mode; in this mode, the only Enterprise Voice client is Skype for Business.
 
+To minimize HID device disruption, enable HID interop features in the Skype for Business client from [EnableTeamsHIDInterop for coordination of HID device usage in Microsoft Teams and Skype for Business 2016 in Islands mode](https://support.microsoft.com/en-us/help/4559449).
+
 > [!Important]
 > In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
 
