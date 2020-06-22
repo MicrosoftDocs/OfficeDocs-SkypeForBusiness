@@ -60,7 +60,6 @@
 ### [Manage apps for Teams](manage-apps.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
-### [Purchase third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Resource-specific consent](resource-specific-consent.md)
 ### [Manage your custom apps](manage-your-custom-apps.md)
