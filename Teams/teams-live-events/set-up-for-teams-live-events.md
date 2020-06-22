@@ -67,7 +67,7 @@ You can also do this by using Windows PowerShell. For more information, see [Use
 
 ### Assign a live events policy to users 
 
-If you created a custom live events policy, assign it to users for the policy to be active. [!INCLUDE [assign-policy](includes/assign-policy.md)]
+If you created a custom live events policy, assign it to users for the policy to be active. [!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### Enable users to schedule events that were produced with an external app or device
 
