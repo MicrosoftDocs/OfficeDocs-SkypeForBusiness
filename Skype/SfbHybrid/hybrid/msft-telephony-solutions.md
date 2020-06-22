@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Learn about Microsoft's telephony solutions, including Private Branch Exchange (PBX) and Phone System with Calling Plan options.
+description: "Learn about Microsoft's telephony solutions: Phone System (Private Branch Exchange - PBX) and PSTN connectivity options (Calling Plans and Direct Routing)."
 ms.custom: seo-marvel-jun2020
 ---
 
@@ -47,7 +47,7 @@ For more information, see [What is Phone System in Microsoft 365 or Office 365](
 
 ### Enterprise Voice (Skype for Business Server)
 
-Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This Skype for Business PBX option can only be connected to the Public Switched Telephone Network by using your own telephony carrier.
+Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This Skype for Business option can only be connected to the Public Switched Telephone Network by using your own telephony carrier.
 
 For more information, see [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
