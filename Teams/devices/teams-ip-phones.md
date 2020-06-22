@@ -66,6 +66,39 @@ The following Collaboration bars are Certified for Microsoft Teams:
 |Poly Studio X50 | 3.1.1.216109| June 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
 |Yealink VC210| 118.15.0.14|February 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
 
+### Product Release Information-Teams Phones
+The following are the latest Teams IP Phone App versions and Firmware version released
+#### Release Date: May 13,2020
+#### App Versions
+|App| Version|
+|:---|:---|
+|Teams | .040801|
+|Admin Agent|.210|
+|Company Portal| .4715|
+
+#### Firmware Versions
+|Update #3| Firmware Released to Prod|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### Product Release Information-Collaboration Bar
+The following are the latest Teams Collaboration Bar App versions and Firmware version released
+#### App Versions
+|App| Version|
+|:---|:---|
+|Teams | .040901|
+|Admin Agent|.210|
+|Company Portal| .4715|
+
+#### Firmware Versions
+|Update #3| Firmware Released to Prod|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
