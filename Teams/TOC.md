@@ -703,6 +703,7 @@
 #### [What is CQD?](CQD-what-is-call-quality-dashboard.md)
 #### [Set up CQD](turning-on-and-using-call-quality-dashboard.md)
 #### [Upload tenant and building data](CQD-upload-tenant-building-data.md)
+#### [Create a building map](CQD-building-mapping.md)
 #### [CQD data and reports](CQD-data-and-reports.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 #### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
