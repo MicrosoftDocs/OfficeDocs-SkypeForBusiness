@@ -28,9 +28,7 @@ As an admin, you can use caller ID policies in Microsoft Teams to change or bloc
 
 For example, when users make a call, you can change the caller ID to display your organization's main phone number instead of users' phone numbers.
 
-You manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
-
-You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+You manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 ## Create a custom caller ID policy
 

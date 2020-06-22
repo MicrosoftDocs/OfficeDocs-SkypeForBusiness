@@ -3,7 +3,6 @@ title: Set up for live events in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -37,7 +36,7 @@ Ensure you have correct license assignments for [who can create and schedule liv
 Live events policies are used to control who in your organization can hold live events and the features that are available in the events they create. You can use the default policy or create one or more custom live events policies. After you create a custom policy, assign it to a user or groups of users in your organization.
 
 > [!NOTE]
-> Users in your organization will get the global policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users, live captions and subtitles (transcription) is turned off, everyone in the organization can join live events, and the recording setting is set to always record.
+> Users in your organization will get the global (Org-wide default) policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users, live captions and subtitles (transcription) is turned off, everyone in the organization can join live events, and the recording setting is set to always record.
 
 ### Create or edit a live events policy
 
@@ -65,9 +64,9 @@ Live events policies are used to control who in your organization can hold live 
 
 You can also do this by using Windows PowerShell. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md). 
 
-### Assign a live events policy to users 
+### Assign a live events policy to users
 
-If you created a custom live events policy, assign it to users for the policy to be active. <br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
+If you created a custom live events policy, assign it to users for the policy to be active. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### Enable users to schedule events that were produced with an external app or device
 
@@ -101,9 +100,11 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams. 
 
 ## Next steps
+
 Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 
 ### Related topics
+
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)

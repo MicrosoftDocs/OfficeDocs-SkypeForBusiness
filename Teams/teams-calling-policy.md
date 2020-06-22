@@ -26,9 +26,9 @@ appliesto:
 Calling policies in Microsoft Teams
 ===================================
 
-In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on. 
+In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
-A global (Org-wide default) policy is created automatically, but admins can also create and assign custom calling policies.
+You can use the global (Org-wide default) policy that's created automatically or create and assign custom policies.
 
 ## Create a custom calling policy
 
@@ -40,9 +40,9 @@ Follow these steps to create a custom calling policy.
 4. To control whether users can route inbound calls to voicemail, select **Enabled** or **User controlled**. To prevent routing to voicemail, select **Disabled**.
 5. Select **Save**.
 
-## Modify an existing calling policy
+## Edit a calling policy
 
-Follow these steps to modify an existing calling policy.
+Follow these steps to edit an existing calling policy.
 
 1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
 2. Click next to the policy that you want to modify, and then select **Edit**.
