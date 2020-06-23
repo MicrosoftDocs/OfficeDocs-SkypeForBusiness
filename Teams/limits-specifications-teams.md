@@ -35,17 +35,17 @@ This article describes some of the limits, specifications, and other requirement
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 organization can have    | 500,000&sup2;     |
+|Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
 |Number of members in a Private channel    |250|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
-&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2; This limit includes archived teams.
+<sup>2</sup> This limit includes archived teams.
 
-&sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
@@ -88,7 +88,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses.
 
 ## Channel names
 
@@ -96,7 +96,7 @@ Channel names can't contain the following characters or words.
 
 |||
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 250    |
+|Number of people in a meeting (can chat and call in)  | 300 <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300.   |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -127,7 +127,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Concurrent live events running in an Office 365 organization <sup>1</sup> | 15 |
+|Concurrent live events running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 15 |
 
 <sup>1</sup> You can schedule as many live events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
@@ -150,6 +150,9 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 ## Storage
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+
+> [!NOTE]
+> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site collection.
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 

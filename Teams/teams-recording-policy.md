@@ -199,12 +199,13 @@ participate in conversations based on the configuration of these
 policies when a communication interaction takes place. Compliance
 recording policies are managed using [<span class="underline">Microsoft
 Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
-and can be applied at the tenant and per-user level for each
+and can be applied at the tenant, per-user, and security group level for each
 organization. You can find more information on Microsoft Docs for
 [<span class="underline">Meeting
-policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
-and [<span class="underline">calling
-policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
+policies</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams),
+ [<span class="underline">calling
+policies</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) and  [<span class="underline">group
+policies</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group).
 
 1. Create an application instance in your tenant.
 
@@ -288,7 +289,7 @@ The following partners are in the process of certifying their solution for Micro
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
-|Red Box |[https://hubs.ly/H0qtN7Q0](https://hubs.ly/H0qtN7Q0)  |
+|Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 This list will be updated as more partners join and meet the certification criteria.

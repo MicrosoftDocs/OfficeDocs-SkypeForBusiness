@@ -57,11 +57,11 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 
 ### Bots for private chats and channels
 
-Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in an Office 365 organization.
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom bots in my Office 365 organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### Built-in and custom tabs
@@ -70,16 +70,16 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom tabs in my Office 365 organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 |||
 
-### Office 365 and custom connectors
+### Custom connectors
 
 Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow users to create custom connectors?|For more information, see [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md).|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
 |||
 
 ## Additional deployment decisions
@@ -88,7 +88,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Activity reports
 
-You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
+You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin.
 
 | Ask yourself | Action |
 |--------------|--------|

@@ -1,8 +1,8 @@
 ---
 title: "Migration to Skype for Business Server 2019"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
