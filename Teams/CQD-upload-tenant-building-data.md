@@ -32,7 +32,7 @@ To get the most out of Call Quality Dashboard (CQD), we recommend that you uploa
 
 You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
 
-From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the CQD **Settings* menu (a gear icon at the top of CQD). From here, admins can upload their organization's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
+From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the CQD **Settings** menu (a gear icon at the top of CQD). From here, admins can upload their organization's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
 
 1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
@@ -191,9 +191,14 @@ There are times when you'll need to add net new subnets to CQD that weren't orig
 
 ## Add missing subnets
 
-After you upload building information for managed networks, every managed network should have a building association. However, this won't always be the case; typically, a few subnets are missed. This section tells you how to validate those missing networks.
+After you upload building information for managed networks, every managed network should have a building association. However, this won't always be the case; typically, a few subnets are missed. To find these missing networks, review the **Missing Subnet Report** on the **Quality of Experience Reports** page in CQD. This presents all the subnets with 10 or more audio streams that aren't defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, use the following procedure to update the original building data file and re-upload it to CQD.
 
-Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that aren't defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
+1. Go to the **Tenant Data Upload** page in CQD.
+1. Download the original file, if you don't already have an up-to-date copy.
+1. Remove the current file in CQD.
+1. Append the new subnets to the original file.
+1. Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
+
 
 > [!IMPORTANT]
 > You'll need to add your tenant ID as a query filter for **Second Tenant ID** to this report to filter the report to view only your organization's tenant data. Otherwise, the report will show federated subnets.
@@ -201,24 +206,6 @@ Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Sub
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-**<font color="red">>GAGE: THIS IS A 2ND PROCEDURE. WHICH IS PREFERRED?</font>**
-
-If a building file is already uploaded but you need to add missing subnets, do the following in the CQD Tenant Data Upload portal:
-
-1.  Download the original file, if you don't already have an up-to-date copy.
-2.  Remove the current file in CQD.
-3.  Append the new subnets to the original file.
-4.  Upload the building file. Be sure to set the start date to at least eight months prior so that CQD will process historical data.
-
-
-## Reporting labels
-
-**<font color="red">>GAGE: WHAT'S THE RELATIONSHIP BETWEEN REPORTING LABELS AND TENANT BUILDING DATA?</font>**
-
-Reporting labels indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center (**Locations** > **Reporting labels**) lets you provide a text file (.csv or .tsv) containing a list of physical locations and their associated network subnets. This file is used by Call Analytics and Call Quality Dashboard for generating reports. When you upload your subnet mapping, the reports provided by these services will contain the location names as well, making the reports easier to understand and use for remediating any potential issues. To learn more, read [Add and update reporting labels](learn-more-about-site-upload.md).
-
-> [!IMPORTANT]
-> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please don't include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
 ## Related topics
 
