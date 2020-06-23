@@ -23,6 +23,11 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 
 ## Events
 
+### PanelAction
+
+> [!NOTE]
+> For information on the properties of PanelAction events, see [Properties sent with panelaction events](#properties-sent-with-panelaction-events).
+
 - **accessibilityUserConfiguration** - When a FirstLine Worker Manager approves a FirstLine Worker request to take time off. To toggle if this is an accessible feature. ???
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
@@ -373,11 +378,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity**
 - **conversation**
-- **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for user to land on the resulting view after action.
-- **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for user to land on the resulting view after action.
-- **create_personal_task** - Confirms successful creation of a personal task item.
-- **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for user to land on resulting view after action.
-- **create_planner_task** - Confirms successful creation of shared task item.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when a user:
   - Taps the **Done** button on the **Create Channel** Page.
   - Taps the **Cancel** button on the **Create Channel** Page.
@@ -410,10 +410,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **datePickerLaunch** - Confirms that date picker was successfully launched.
 - **daySaved** - A user saves the day availability, saves a day of Shifts.
 - **declineTimeOffRequest** - When a user declines the request for time off of work. It's a key functionality for time off, for manager to reject time off request.
-- **delete_personal_plan** - Confirms the successful deletion of a personal task list.
-- **delete_personal_task** - Confirms the successful deletion of a personal task item.
-- **delete_planner_plan** - Confirms the successful deletion of a shared task list.
-- **delete_planner_task** - Confirms the successful deletion of a shared task item.
 - **deleteClicked** - When a user clicks **Delete** within task details, which brings up the confirmation dialog.
 - **deleteContact**
 - **deleteMeeting** - Click on the **Delete** button from the Meeting Details page.
@@ -557,7 +553,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **funSelectItem** - Giphy image choosen. Success data for the giphy attachment feature in Teams.
 - **galleryImage** - Image uploaded - gallery.
 - **get_directions_clicked** - A user clicks the **Get directions** button.
-- **get_sender_sub_scenario** - get sender sub scenario in activity.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - A user clicks on **Allow** or **Don't Allow** in OS prompt. Allowing GPS or not.
 - **group_map_closed**
@@ -623,11 +618,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **liveMeetingPushNotificationClicked** - Push notification is clicked.
 - **liveMeetingToastClicked** - In-app toast is clicked.
 - **live_location_in_chats_from_profile_clicked** - A user clicks **live locations** in profile view.
-- **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
-- **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
-- **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
-- **load_shared_task_list** - Confirms the successful fetching of a shared tasklist's tasks for the tasklist view.
-- **load_smart_task_list** - Confirms the successful fetching of a smart tasklist's tasks for the tasklist view.
 - **lobbyPickAudio** - Number of times a user switches audio output from lobby.
 - **lobbyToggleMuted** - Number of times a user turned the mic on or off from lobby.
 - **lobbyToggleVideo** - Number of times a user turned video on or off from lobby.
@@ -719,19 +709,17 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **navCalendar**
 - **nativeChatLink** - User taps on link to native chat.
 - **navActivity**- Navigate to the activity feeds page.
-- **navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname)** - Nav Tab is clicked (or the hamburger menu is clicked - navMore). ???
+- **navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname)** - Nav Tab is clicked (or the hamburger menu is clicked - navMore). ??? - navMore has been deleted as not used
 - **navCallingSettings**
 - **navCalls** - Calls tab tapped.
 - **navCamera** - A user navigates to the Camera tab or app on the bottom bar or app tray.
 - **navChat** - A user navigates to the Chat tab or app on the bottom bar or app tray.
-- **navChatAndChannel** - Not used. ???
 - **navContacts** - A user navigates to the Contacts or People tab or app on the bottom bar or app tray.
 - **navDashboardTab**
 - **navDynamics365** - Triggered when the user open the Dynamics365 app.
 - **navFiles**
 - **navFilesTab**
 - **navMeetings** - Calendar tab tapped.
-- **navMore** - Not used. ???
 - **navNotes** - Triggered when the user open the Notes app.
 - **navOrganization** - Triggered when the user open the Organization app.
 - **navOrgChart** - Triggered when the user open the Orgchart app.
@@ -904,9 +892,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **removeUserConfirm** - User confirmed remove user dialog.
 - **removeUserContextMenu** - User removed participant via context menu.
 - **removeUserSwipe** - User removed participant via swipe.
-- **rename_personal_plan** - Confirms the successful renaming of a personal task list.
-- **rename_planner_plan** - Confirms the successful renaming of a shared task list.
-- **renewTeam** - Not used. ???
 - **reorderChannelItem** - User reorders pinned channels.
 - **reportAbuseConfirmation**
 - **reportAbuseOpen**
@@ -1109,8 +1094,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **unpinUser** - Unpin a user from the action sheet.
 - **unsafeLink** - A link was determined to be unsafe.
 - **updatePersonalTask** - Confirms a personal task has been successfully updated.
-- **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for user to land on resulting view after action.
-- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for the user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
 - **updatePlaybackSpeedVoicemail** - Voicemail playback speed value is changed.
 - **updateTask** - Confirms update tasks action failed.
 - **updateTaskState** - Confirms that the task state has been updated.
@@ -1165,6 +1148,32 @@ action.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
 - **whiteboardUsed** - User annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
+
+### Scenario
+
+> [!NOTE]
+> For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
+
+
+- **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for user to land on the resulting view after action.
+- **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for user to land on the resulting view after action.
+- **create_personal_task** - Confirms successful creation of a personal task item.
+- **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for user to land on resulting view after action.
+- **create_planner_task** - Confirms successful creation of shared task item.
+- **delete_personal_plan** - Confirms the successful deletion of a personal task list.
+- **delete_personal_task** - Confirms the successful deletion of a personal task item.
+- **delete_planner_plan** - Confirms the successful deletion of a shared task list.
+- **delete_planner_task** - Confirms the successful deletion of a shared task item.
+- **get_sender_sub_scenario** - get sender sub scenario in activity.
+- **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
+- **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
+- **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
+- **load_shared_task_list** - Confirms the successful fetching of a shared tasklist's tasks for the tasklist view.
+- **load_smart_task_list** - Confirms the successful fetching of a smart tasklist's tasks for the tasklist view.
+- **rename_personal_plan** - Confirms the successful renaming of a personal task list.
+- **rename_planner_plan** - Confirms the successful renaming of a shared task list.
+- **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for user to land on resulting view after action.
+- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for the user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
 
 ## Property lists
 
