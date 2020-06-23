@@ -34,7 +34,7 @@ You can download a sample tenant data template [here](https://github.com/Microso
 
 From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the CQD **Settings** menu (a gear icon at the top of CQD). From here, admins can upload their organization's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
 
-1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
+1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner and choose **Tenant Data Upload** from the **Summary Reports** page.
 
    ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
     
@@ -58,7 +58,7 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 
 ## Upload building data file
 
-The first type of tenant data file in CQD is the **Building** data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+The first type of tenant data file in CQD is the **Building** data file. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
   
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
@@ -184,10 +184,11 @@ While gathering building and subnet information, administrators will often uploa
 
 There are times when you'll need to add net new subnets to CQD that weren't originally part of your network topology. To add net new subnets, do the following from the **Tenant Data Upload** page in CQD:
 
-1.  Edit the original building file and provide an end date that occurs at least one day before the net new subnets were acquired.
 2.  Download the original file, if you don't already have an up-to-date copy.
-3.  Append the net new subnets to the original building file.
-4.  Upload the newly modified building file following the same process as above, and set the start date for one day after the previous building file ends.
+1.  Remove the current file in CQD.
+1.  Edit the original building file and provide an end date that occurs at least one day before the net new subnets were acquired.
+1.  Append the net new subnets to the original building file.
+1.  Upload the newly modified building file, and set the start date for one day after the previous building file ends.
 
 ## Add missing subnets
 
