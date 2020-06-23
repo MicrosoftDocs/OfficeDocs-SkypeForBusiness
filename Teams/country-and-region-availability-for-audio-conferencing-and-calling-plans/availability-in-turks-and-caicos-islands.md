@@ -64,7 +64,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |**Feature**|**Details**|
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?   | Not applicable<br/> |
-|Are toll numbers available?  <br/> |Non-geographic ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Are toll numbers available?  <br/> |No<br/> |
 |Are toll free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
