@@ -148,7 +148,7 @@ If you'd like further Teams-specific information on configuring content search, 
 
 ### Auditing and Reporting
 
-Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
+Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log search for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
 
 ## Privacy
 
@@ -193,5 +193,7 @@ Details can be found in the [Data Protection Resources](https://servicetrust.mic
 ## Related topics
 
 [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
+
 [Microsoft 365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
+
 [Microsoft compliance offerings](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
