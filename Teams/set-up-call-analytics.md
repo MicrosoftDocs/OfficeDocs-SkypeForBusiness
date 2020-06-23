@@ -48,15 +48,14 @@ To learn how to assign administrative roles in Azure Active Directory, see [View
 
 You can add building, site, and tenant information to per-user call analytics by uploading a .csv or .tsv file. With all this information, call analytics can map IP addresses to physical locations. Admins and helpdesk agents can use this information to help spot trends in call problems. For example, why are users in the same building having similar call quality problems? 
 
-If you're a Teams or Skype for Business admin, you can use an existing data file from the Teams or Skype for Business Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to call analytics. 
+If you're a Teams or Skype for Business admin, you can use an existing tenant and building data file from the Teams or Skype for Business Call Quality Dashboard (CQD). First, you download the file from CQD, then upload it to call analytics. 
 
-- To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
+- To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
 
 - To upload the new file, go to **Microsoft Teams admin center** > **Locations**, and then select **Upload location data** or **Replace location data**.
   
-If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
+If you're creating the .tsv or .csv file from scratch, see [Upload tenant and building data](CQD-upload-tenant-building-data.md).
   
 ## Related topics
-<a name="BKMK_UploadFiles"> </a>
 
 [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
