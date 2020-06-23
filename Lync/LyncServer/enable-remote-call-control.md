@@ -1,8 +1,8 @@
 ---
 title: Enable remote call control
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Enable remote call control

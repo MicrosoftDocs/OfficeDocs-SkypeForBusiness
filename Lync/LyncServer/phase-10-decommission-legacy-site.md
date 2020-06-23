@@ -1,8 +1,8 @@
 ---
 title: 'Phase 10: Decommission legacy site'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 10: Decommission legacy site'

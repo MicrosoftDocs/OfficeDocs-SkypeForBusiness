@@ -41,7 +41,7 @@ Here are the licenses that must be assigned to produce or present a Teams live e
 > [!NOTE]
 > At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
-It's important to know that an Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
+It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
 - **For events produced in Teams**  The user must be assigned a Teams license.
 - **For events produced with an external app or device** The user must be assigned a Stream license.
@@ -62,6 +62,14 @@ The user must have:
 
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events.
+
+For a guest to present in a live event, do the following:
+
+1. [Add the user as a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. Have the user accept the guest invitation and join the team.
+3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event. 
 
 ## Who can watch live events
 
@@ -92,7 +100,7 @@ The following table highlights core capabilities and features offered in live ev
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Maximum number of concurrent live events per Office 365 organization |15  | 15  | 15  |
+|Maximum number of concurrent live events per Microsoft 365 or Office 365 organization |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -112,7 +120,7 @@ The following table highlights core capabilities and features offered in live ev
 |Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
 |Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Partner eCDN Support |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

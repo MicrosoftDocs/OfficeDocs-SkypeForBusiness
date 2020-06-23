@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [Manage tags in Teams](manage-tags.md)
@@ -135,6 +136,7 @@
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Raise your hand option in Teams meetings](raise-hand-meetings.md)
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
@@ -351,6 +353,16 @@
 #### [Emergency call labels](emergency-calling-labels.md)
 ### [Manage emergency calling policies](manage-emergency-calling-policies.md)
 ### [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
+
+## Contoso voice migration case study
+### [Overview](voice-case-study-overview.md)
+### [Teams upgrade plan](voice-case-study-migration-plan.md)
+### [Phone System](voice-case-study-phone-system.md)
+### [Location-Based-Routing](voice-case-study-location-based-routing.md)
+### [Emergency calling](voice-case-study-emergency-calling.md)
+### [Audio Conferencing](voice-case-study-audio-conferencing.md)
+### [Auto attendants and call queues](voice-case-study-call-queues.md)
+
 
 
 
@@ -688,7 +700,6 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
-## [Support Teams in your organization](Known-issues.md)
 ## [Monitor and manage call quality](monitor-call-quality-qos.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Set up QoS in Teams](QoS-in-Teams.md)
@@ -704,6 +715,7 @@
 #### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Issues receiving messages and calls on legacy systems](legacy-login-issues.md)
@@ -907,3 +919,5 @@
 ### [Calling plans in Microsoft 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
+## [Release notes for Teams admin features](release-notes/release-notes.md)

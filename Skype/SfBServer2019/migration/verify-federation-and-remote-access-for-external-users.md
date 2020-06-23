@@ -1,8 +1,8 @@
 ---
 title: "Verify federation and remote access for external users"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

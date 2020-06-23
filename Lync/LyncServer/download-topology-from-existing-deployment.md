@@ -1,8 +1,8 @@
 ---
 title: Download topology from existing deployment
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Download topology from existing deployment

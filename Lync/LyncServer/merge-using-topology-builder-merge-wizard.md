@@ -1,8 +1,8 @@
 ---
 title: Merge using Topology Builder Merge wizard
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
