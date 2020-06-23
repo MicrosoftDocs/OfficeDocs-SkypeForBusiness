@@ -28,23 +28,6 @@ metadata:
   appliesto: 
     - Microsoft Teams
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
-  items:
-    # Card
-    - title: Implementing Teams? Check out our Teams Chalk Talk series
-      itemType: learn
-      url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
-    # Card
-    - title: View these workshops on YouTube
-      itemType: learn
-      url: https://aka.ms/UpgradeOnDemand
-    # Card
-    - title: New to Teams? Learn more
-      itemType: get-started
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
 
 # productDirectory section (optional)
 productDirectory:
@@ -53,22 +36,40 @@ productDirectory:
     - title: Plan your upgrade (Start here!)
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-      summary: Discover everything you need to facilitate a successful upgrade to Teams. **Audience:** All (Business sponsors, IT admins, user readiness/change manager, project lead)
+      summary: Discover everything you need to facilitate a successful upgrade to Teams. Audience: All (Business sponsors, IT admins, user readiness/change manager, project lead)
       url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
     # Card
     - title: Ready your end users
       imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-      summary: Design a user readiness strategy to help your users love and adopt Teams. **Audience:** User readiness/change manager
-      url: file2a.md OR https://docs.microsoft.com/file2a
+      summary: Design a user readiness strategy to help your users love and adopt Teams. Audience: User readiness/change manager
+      url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers​
     # Card
     - title: Identify your upgrade approach
       imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-      summary: Determine the most suitable approach based on your current Skype for Business implementation and upgrade goals. **Audience:** IT admins
+      summary: Determine the most suitable approach based on your current Skype for Business implementation and upgrade goals. Audience: IT admins
       url: https://microsoftteams.eventbuilder.com/UpgradeApproach
     # Card
     - title: Implement your upgrade approach
       imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-      summary: Execute your defined upgrade approach as part of your formal upgrade plan. **Audience:** IT admins
+      summary: Execute your defined upgrade approach as part of your formal upgrade plan. Audience: IT admins
       url: https://microsoftteams.eventbuilder.com/UpgradeImplement
 
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - items:
+        # Card
+        - title: View these workshops 
+          summary: on YouTube
+          url: https://aka.ms/UpgradeOnDemand
+        # Card
+        - title: Implementing Teams? 
+          summary: Check out our Teams Chalk Talk series
+          url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
+        # Card
+        - title: New to Teams? 
+          summary: Learn more
+          url: https://docs.microsoft.com/microsoftteams/teams-overview
 
