@@ -16,8 +16,9 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
   - seo-marvel-apr2020
+  - seo-marvel-may2020
 search.appverid: MET150
-description: Learn more about the Cloud voice feature, and understand the necessary deployment decisions that you will face.
+description: Learn more about the Microsoft Teams cloud voice features and the deployment decisions that you will make for your organization.
 appliesto: 
   - Microsoft Teams
 ---
