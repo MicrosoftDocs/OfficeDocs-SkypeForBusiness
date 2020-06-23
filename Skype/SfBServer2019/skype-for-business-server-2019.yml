@@ -39,7 +39,7 @@ landingContent:
   # Card (optional)
   - title: Plan
     linkLists:
-      - linkListType: deploy
+      - linkListType: overview
         links:
           - text: Topology Basics
             url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
@@ -49,9 +49,9 @@ landingContent:
             url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
 
   # Card
-  - title: Install
+  - title: Install and manage
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: deploy
         links:
           - text: Install Skype for Business Server
             url: /skypeforbusiness/deploy/install/install
@@ -59,17 +59,13 @@ landingContent:
             url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
           - text: Deploy Enterprise Voice
             url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
-  
-  # Card
-  - title: Manage
-    linkLists:
       - linkListType: how-to-guide
         links:
           - text: Manage your topology
             url: /skypeforbusiness/manage/topology/topology
 
   # Card
-  - title: Prior releases
+  - title: Other resources
     linkLists:
       - linkListType: overview
         links:
