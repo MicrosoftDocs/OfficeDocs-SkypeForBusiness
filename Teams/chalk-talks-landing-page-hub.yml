@@ -73,13 +73,13 @@ additionalContent:
     - items:
         # Card
         - title: Still using Skype for Business?
-          summary: Check out our upgrade workshop series
+          summary: Check out our upgrade workshop series.
           url: upgrade-workshops-landing-page.md
         # Card
         - title: View these workshops on your own time
-          summary: Visit Upgrade to Microsoft Teams on YouTube
+          summary: Visit Upgrade to Microsoft Teams on YouTube.
           url: https://aka.ms/UpgradeOnDemand
         # Card
         - title: New to Teams? 
-          summary: Learn more about getting started with Teams
+          summary: Learn more about getting started with Teams.
           url: https://docs.microsoft.com/microsoftteams/teams-overview
