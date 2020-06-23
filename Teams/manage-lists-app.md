@@ -35,10 +35,11 @@ With Lists, users get a desktop, web, and mobile experience. It's important to k
 
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
-If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists. 
+If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists.
 
 Difference between SharePoint lists and Lists lists?
 SharePoint admin controls for lists?  Permissions, locale, views, etc?
+Templates?
 
 ## Set up Lists
 
@@ -60,9 +61,8 @@ To allow or block specific users in your organization from using Lists, make sur
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps that you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
 
-To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy.To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-Rest
 
 ## Search the audit log for Lists events?
 
