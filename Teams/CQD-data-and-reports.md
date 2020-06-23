@@ -46,7 +46,7 @@ You can access CQD data by several different avenues. Pick the one that best mee
 
 ## Import the CQD report templates
 
-Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks), which will accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD's capabilities to make an impact on your users' Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks) to help you get up to speed quickly with CQD. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
 
 **To import the templates (.CQDX) into CQD**
 
@@ -54,7 +54,7 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 2. In the left panel, select **Import**. Browse to the first CQDX template and select **Open**.
 
-3. After the template is uploaded, a pop-up window will display the message "Report import was successful." Select **OK**.
+3. After the template is uploaded, a pop-up window will display the message "Report import was successful." 
 
 4. Repeat steps 2 and 3 for the second CQD template.
 
