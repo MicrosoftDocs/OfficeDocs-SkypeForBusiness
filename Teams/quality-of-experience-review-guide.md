@@ -475,8 +475,6 @@ Irrespective of the answers to the questions above, take the time to investigate
 
 Failures reported here indicate that the call was dropped unexpectedly and resulted in a negative user experience. Unlike the trending reports, these reports provide additional insights into specific subnets that need further investigation.
 
-> [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 ##### Remediation
 
@@ -542,8 +540,6 @@ The quality summary reports give you deeper insight into what contributed to the
 
 Although the dimensions used might differ slightly between report, each report will include measures for total streams, total poor streams, PSR, and poor quality due to. Reports have been created for each area of interest: conferencing, two-party, PSTN calling, VPN, and meeting rooms. The Managed Network template includes additional reports to take advantage of the location information uploaded via the building file.
 
-> [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 > [!Note]
 > Common subnets are difficult to triage due to their widespread use. A separate report that displays the client's public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
@@ -582,9 +578,6 @@ Transmission Control Protocol (TCP) is considered a failback transport and not t
 
 The reports in this section don't make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). Poor stream rates are provided to help compare UDP quality versus TCP quality so that you can focus your efforts where the impact is the greatest. TCP usage is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Microsoft 365 and Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
-> [!Important]
-> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
-
 > [!Note]
 > Audio, video, and VBSS all prefer UDP as their primary transport. The legacy RDP Application Sharing workload only uses TCP.
 
@@ -619,11 +612,6 @@ Although you want TCP usage to be as low as possible, you might see a bit of TCP
 
 In the provided CQD templates, navigate to the TCP Streams by Building and Subnet reports by using either the Managed Networks or All Networks template. For the purpose of investigating TCP usage, the process is the same, so we'll focus the discussion here on conferencing.
 
-> [!IMPORTANT]
-> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded is recommended so you can quickly distinguish inside from outside streams when looking at TCP usage. 
-
-> [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
 ##### Remediation
 
@@ -644,7 +632,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 
 > [!IMPORTANT]
-> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
+> We recommend that you upload a [valid building file](CQD-upload-tenant-building-data.md) so you can distinguish inside from outside audio streams when analyzing proxy usage. 
 
 
 #### HTTP proxy usage
@@ -666,11 +654,6 @@ For organizations that can't bypass the proxy, ensure that the Skype for Busines
 
 This report identifies specific buildings and subnets that are contributing to HTTP usage.
 
-> [!IMPORTANT]
-> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage.
-
-> [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 ##### Remediation
 
@@ -696,8 +679,7 @@ These reports focus on identifying Skype for Business client versions in use and
 
 Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
-> [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
+
 
 #### Remediation
 
@@ -741,8 +723,6 @@ The device reports are used to assess device usage by volume and MOS score (audi
 > [!IMPORTANT]
 > Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
-> [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 > [!Note]
 > You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
