@@ -65,7 +65,6 @@ landingContent:
             url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
           - text: Configure your on-premises deployment for Skype Meeting Broadcast
             url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
-    linkLists:
       - linkListType: how-to-guide
         links:
           - text: Manage Skype for Business Server
