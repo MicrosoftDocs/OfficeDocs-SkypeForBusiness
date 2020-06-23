@@ -69,6 +69,8 @@ For a guest to present in a live event, do the following:
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event. 
+
 ## Who can watch live events
 
 |**Attendee visibility**       |**Teams production**  |**External app or device production**  |
