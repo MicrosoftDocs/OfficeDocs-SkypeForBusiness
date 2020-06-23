@@ -94,7 +94,7 @@ Through proper planning and design before deploying Teams or Skype for Business 
 
 This article focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this article.
+To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, read [Building mapping](CQD-building-mapping.md).
 
 ### Intended audience
 
@@ -291,7 +291,7 @@ CQD, although useful for analyzing trends and subnets, doesn't always provide a 
 
 ### CQD reports overview
 
-Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
+Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](CQD-data-and-reports.md#data-available-in-cqd-reports).
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
@@ -318,7 +318,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
-For more information about URL filters, see [Filtering reports](#report-filters) later in this section.
+For more information about URL filters, read [Filtering reports](CQD-data-and-reports.md#report-filters) later in this section.
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False.
 
@@ -523,7 +523,7 @@ Trending reports display quality information over time and are used to help iden
 > Investigating two-party, PSTN calling, and meeting rooms are similar to investigating conferencing. The focus is to isolate buildings or subnets that have the worst quality and identify the reason for the poor quality.
 
 > [!Important]
-> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don't reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this article](#vpn) for modifying the VPN reports if needed by using the building or network name.
+> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don't reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Modify the [VPN](CQD-upload-tenant-building-data.md#vpn) reports if needed by using the building or network name.
 
 ##### Investigation
 
@@ -583,7 +583,7 @@ Transmission Control Protocol (TCP) is considered a failback transport and not t
 The reports in this section don't make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). Poor stream rates are provided to help compare UDP quality versus TCP quality so that you can focus your efforts where the impact is the greatest. TCP usage is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Microsoft 365 and Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
 > [!Important]
-> Having a [valid building file](#building-mapping) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
+> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
 
 > [!Note]
 > Audio, video, and VBSS all prefer UDP as their primary transport. The legacy RDP Application Sharing workload only uses TCP.
@@ -620,7 +620,7 @@ Although you want TCP usage to be as low as possible, you might see a bit of TCP
 In the provided CQD templates, navigate to the TCP Streams by Building and Subnet reports by using either the Managed Networks or All Networks template. For the purpose of investigating TCP usage, the process is the same, so we'll focus the discussion here on conferencing.
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded is recommended so you can quickly distinguish inside from outside streams when looking at TCP usage. 
+> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded is recommended so you can quickly distinguish inside from outside streams when looking at TCP usage. 
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
@@ -644,7 +644,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
+> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
 
 
 #### HTTP proxy usage
@@ -667,7 +667,7 @@ For organizations that can't bypass the proxy, ensure that the Skype for Busines
 This report identifies specific buildings and subnets that are contributing to HTTP usage.
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage.
+> Having a [valid building file](CQD-upload-tenant-building-data.md) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
@@ -694,7 +694,7 @@ These reports focus on identifying Skype for Business client versions in use and
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. As a result, you don't need to monitor Teams client versions (unless you turn off the auto updating, which we don't recommend).
 
-Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](#url-filters) to exclude federated participant telemetry.
+Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
@@ -739,7 +739,7 @@ By supplying users with devices certified for Teams and Skype for Business, you 
 The device reports are used to assess device usage by volume and MOS score (audio only), and can be found in the accompanying templates under Clients & Devices. 
 
 > [!IMPORTANT]
-> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](#how-to-find-your-tenant-id)). ALternatively, you can use a [URL filter](#url-filters) to exclude federated participant telemetry.
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 > [!NOTE] 
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.

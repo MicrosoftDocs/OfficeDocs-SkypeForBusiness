@@ -232,7 +232,7 @@ We recommend that you upload your tenant, building, and location data so CQD can
 
 |Name  |  |
 |---------|---------|
-|Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
+|Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've [uploaded your tenant data](CQD-upload-tenant-building-data.md).        |
 |Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports         |
 |Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable [CQD templates](https://aka.ms/QERtemplates), focusing on key areas for analyzing audio quality and reliability.         |
 |Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users         |
@@ -473,7 +473,7 @@ These admin roles can access CQD, but they can't view EUII (end-user identifiabl
 - Microsoft 365 Reports Reader
 - Teams Communications Support Specialist
 
-To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](#assign-roles-for-accessing-cqd).
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 

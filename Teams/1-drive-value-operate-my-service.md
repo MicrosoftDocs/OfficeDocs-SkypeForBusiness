@@ -614,7 +614,8 @@ being nominated, they should start to familiarize themselves with [Monitor call 
 
 ### References 
 
-[Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
+
+[Upload tenant and building data in CQD](CQD-upload-tenant-building-data.md)
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 

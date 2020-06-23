@@ -28,7 +28,7 @@ description: Learn how to upload tenant and building data in Call Quality Dashbo
 # Upload tenant and building data in Call Quality Dashboard (CQD)
 
 
-To get the most out of Call Quality Dashboard (CQD), we recommend that you upload your tenant and building data. There are 2 types of tenant data files, [Building](#building-data-file) and [Endpoint](#endpoint-data-file).
+To get the most out of Call Quality Dashboard (CQD), we recommend that you upload your tenant and building data. There are 2 types of tenant data files, [Building](#upload-building-data-file) and [Endpoint](#endpoint-data-file).
 
 You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
 
@@ -126,7 +126,7 @@ Here are a few things to consider before you implement supernetting:
 
 -   It's important to ensure that the supernetted address is correct and isn't catching unwanted subnets.
 
--   It's quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don't include it in your building file because it's difficult to distinguish between home and internal networks by using common subnets. See the section about [common subnets](#common-subnets), earlier in this article.
+-   It's quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don't include it in your building file because it's difficult to distinguish between home and internal networks by using [common subnets](quality-of-experience-review-guide.md#common-subnets). 
 
 > [!IMPORTANT]
 > The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you've previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports.
