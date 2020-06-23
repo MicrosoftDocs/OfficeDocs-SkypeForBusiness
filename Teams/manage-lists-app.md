@@ -35,10 +35,10 @@ With Lists, users get a desktop, web, and mobile experience. It's important to k
 
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
-If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists.
+If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists.?
 
-Difference between SharePoint lists and Lists lists?
-SharePoint admin controls for lists?  Permissions, locale, views, etc?
+Difference between SharePoint lists and Lists lists?<br>
+SharePoint admin controls for lists?  Permissions, locale, views, etc?<br>
 Templates?
 
 ## Set up Lists
