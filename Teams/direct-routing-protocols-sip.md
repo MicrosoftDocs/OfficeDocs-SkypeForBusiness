@@ -39,7 +39,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz;transport=tls> | 
+| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 On receiving the invite, the SIP proxy performs the following steps:
 
@@ -95,13 +95,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 The SIP proxy needs to calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite), and when replying to SIP Options. Either Contact or Record-Route are used. 
 
-According to RFC 3261, Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. 
+According to RFC 3261, Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. If a proxy SBC is in use with [Local Media Optimization for Direct Routing] (https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-media-optimization), a record route will need to be configured as the proxy SBC needs to stay in the route. 
 
-Microsoft recommends using only Contact header for the following reasons:
+Microsoft recommends using only Contact header if a proxy SBC is not used:
 
-- Per RFC 3261, Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential as all traffic goes between the Microsoft SIP proxy and the paired SBC. There is no need for an intermediate proxy server between the SBC and Microsoft SIP proxy.
+- Per RFC 3261, Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential if no proxy SBC is configured as all traffic goes between the Microsoft SIP proxy and the paired SBC. 
 
-- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration.
+- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration if a proxy SBC is not in use. 
 
 To calculate the next hop, the SIP proxy uses:
 
