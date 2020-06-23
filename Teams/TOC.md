@@ -706,6 +706,7 @@
 #### [Create a building map](CQD-building-mapping.md)
 #### [CQD data and reports](CQD-data-and-reports.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+#### [Frequently asked questions](CQD-frequently-asked-questions.md)
 #### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 #### Use Power BI to analyze CQD data
