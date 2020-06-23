@@ -508,7 +508,7 @@
 
 ## Plan your upgrade journey
 
-### Plan for your upgrade - Key requirements
+### Plan your project and requirements
 #### [Overview](upgrade-plan-journey.md)
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
