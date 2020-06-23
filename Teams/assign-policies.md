@@ -298,9 +298,11 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
     1. Search for and add the group you want to assign the policy to.
     2. Set the ranking for the group assignment.
     3. Select the policy that you want to assign. 
-    4. Select **Save**.
+    4. Select **Apply**.
 
-To change the ranking of a group assignment, you have to first unassign the policy from the group. To do this, on the **Manage assigned groups** tab of the policy page, select the group assignment, and then select **Remove**. Then, follow the steps above to assign the policy to a group.
+To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
+
+To change the ranking of a group assignment, you have to first unassign the policy from the group. On the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**. Then, follow the steps above to assign the policy to a group.
 
 ### Using PowerShell
 
