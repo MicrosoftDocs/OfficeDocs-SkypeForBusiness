@@ -76,10 +76,10 @@ additionalContent:
           summary: Check out our upgrade workshop series
           url: upgrade-workshops-landing-page.md
         # Card
-        - title: View these workshops 
-          summary: on YouTube
+        - title: View these workshops on your own time
+          summary: Visit Upgrade to Microsoft Teams on YouTube
           url: https://aka.ms/UpgradeOnDemand
         # Card
         - title: New to Teams? 
-          summary: Learn more
+          summary: Learn more about getting started with Teams
           url: https://docs.microsoft.com/microsoftteams/teams-overview

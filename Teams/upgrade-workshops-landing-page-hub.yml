@@ -61,8 +61,8 @@ additionalContent:
   sections:
     - items:
         # Card
-        - title: View these workshops 
-          summary: on YouTube
+        - title: View these workshops on your own time
+          summary: Visit Upgrade to Microsoft Teams on YouTube
           url: https://aka.ms/UpgradeOnDemand
         # Card
         - title: Implementing Teams? 
@@ -70,6 +70,6 @@ additionalContent:
           url: https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page
         # Card
         - title: New to Teams? 
-          summary: Learn more
+          summary: Learn more about getting started with Teams
           url: https://docs.microsoft.com/microsoftteams/teams-overview
 
