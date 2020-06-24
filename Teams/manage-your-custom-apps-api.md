@@ -32,7 +32,7 @@ To create and manage custom apps in Teams, you'll need two tenants: a test tenan
 > [!NOTE]
 > If you don't already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
 
-## Step 1: Develop and test
+## Develop 
 
 ### Create test users
 
@@ -67,7 +67,7 @@ When the app is ready for use in production, the developer should produce an app
 
 Developers can validate the app package manifest directly from within their IDE. They can use the checklist to make sure the app meets publication guidelines and requirements. Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
 
-## Step 2: Validate in production
+## Validate
 
 ### Review the app on the Manage apps page of the Microsoft Teams admin center
 
