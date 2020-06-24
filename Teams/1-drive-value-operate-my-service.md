@@ -743,7 +743,7 @@ the nature of the issue.
 
 [Verify service health for Microsoft Teams](service-health.md)
 
-[Contact support for business products - Admin Help](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products)
+[Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Contact Premier support](https://support.microsoft.com/premier/contacts)
 
