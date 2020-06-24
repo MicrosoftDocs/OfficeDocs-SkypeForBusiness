@@ -1,5 +1,5 @@
 ---
-title: "Set up per-user call analytics for Microsoft Teams"
+title: "Set up call analytics for Microsoft Teams"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Set up per-user call analytics for to identify and troubleshoot Microsoft Teams call quality problems."
 ---
 
-# Set up per-user call analytics for Microsoft Teams
+# Set up call analytics for Microsoft Teams
 
 As a Microsoft Teams admin, you can use per-user call analytics to troubleshoot Teams call quality and connection problems for **individual users**. To take full advantage of call analytics, set up the following:
   
