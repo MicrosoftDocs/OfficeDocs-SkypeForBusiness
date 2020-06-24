@@ -33,7 +33,7 @@ Other available device updates can be installed either immediately or at a date 
 
 ## Choose automatic device firmware update behavior
 
-Device firmware updates are applied automatically. However, you can decide whether to apply these updates as soon as they're released, or 30 or 90 days after they've been released.
+Device firmware updates are applied automatically. However, you can decide whether to apply these updates as soon as they're released, or 30 or 90 days after they've been released. By default, device firmware updates are installed 30 days after they've been released.
 
 To choose the automatic update behavior for your devices, do the following:
 
