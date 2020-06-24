@@ -71,10 +71,14 @@ Developers can validate the app package manifest directly from within their IDE.
 
 ### Review the app on the Manage apps page of the Microsoft Teams admin center
 
-Developers can submit the app package directly from their IDE through the App Submission API to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center.
+Developers can submit the app package directly to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
-In the table, you'll see that an app submitted by a developer from their IDE or by using App Submission API have an **App publishing status** of **Submitted** and an **App status** of **Blocked**. 
+In the table, you'll see that an app submitted directly by a developer through the Teams App Submission API has the following status:
+
+- **App publishing status**: **Submitted**
+- **App status**: **Blocked**
+
 2. Click the app name to go to the app details page. From here, you can view details about the app and download the manifest for validation.
 
 > [!NOTE]
@@ -107,7 +111,7 @@ To allow trusted users to upload custom apps, follow these steps:
 
 When you're ready to make the app available to users in the tenant app catalog, publish the app. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. 
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
 
 > [!NOTE]
@@ -154,6 +158,10 @@ In most cases, after you complete an app update the new version will automatical
 ![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
 *********************
+
+*********************
+
+## CURRENT VERSION
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for IT pros. For more information on developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
