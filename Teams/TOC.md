@@ -722,7 +722,7 @@
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
-## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Contact support for business products - Admin Help](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
