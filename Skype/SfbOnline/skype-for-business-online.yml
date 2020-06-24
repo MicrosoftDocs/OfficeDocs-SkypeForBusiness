@@ -39,7 +39,7 @@ landingContent:
           - text: Need help signing in to Skype for Business?
             url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
           - text: Troubleshoot problems with Skype for Business Online
-            url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+            url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
           - text: Journey from Skype for Business to Teams
             url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
 
@@ -67,9 +67,9 @@ landingContent:
       - linkListType: overview
         links:
           - text: Audio Conferencing common questions
-            url: https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-common-questions
+            url: /MicrosoftTeams/audio-conferencing-common-questions
           - text: See if Audio Conferencing is available in your country/region
-            url: https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+            url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
       - linkListType: how-to-guide
         links:
           - text: Manage the Audio Conferencing settings for my organization
