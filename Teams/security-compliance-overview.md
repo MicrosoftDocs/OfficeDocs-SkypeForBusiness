@@ -40,7 +40,7 @@ This article will provide further information about Teams-specific security and 
 - [Microsoft Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 > [!IMPORTANT]
-> As a customer of Microsoft 365 or Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn't have access to uploaded content. Like OneDrive for Business and SharePoint Online, customer data stays within the tenant. You can check out more about our trust and security related information at the [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams follows the same guidance and principles as the Microsoft Trust Center.
+> As a customer of Microsoft 365 or Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn't have access to uploaded content. Like OneDrive and SharePoint in Microsoft 365, customer data stays within the tenant. You can check out more about our trust and security related information at the [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams follows the same guidance and principles as the Microsoft Trust Center.
 
 ## Security
 
@@ -48,14 +48,14 @@ Teams enforces team-wide and organization-wide two-factor authentication, single
 
 Read [Identity models and authentication](identify-models-authentication.md) for more insight into authentication and Teams, and [How modern authentication works](sign-in-teams.md) will help with modern authentication in particular.
 
-Because Teams works in partnership with SharePoint, OneNote, Exchange, and more, you should be comfortable managing security in Microsoft 365 or Office 365 all-up. To learn more, read about[how to configure your Microsoft 365 or Office 365 organization for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+Because Teams works in partnership with SharePoint, OneNote, Exchange, and more, you should be comfortable managing security in Microsoft 365 or Office 365 all-up. To learn more, read about [how to configure your Microsoft 365 or Office 365 organization for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 > [!NOTE]
 > Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
 
 ### Advanced Threat Protection (ATP)
 
-Advanced Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive for Business, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
+Advanced Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
 
 How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, the [ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) article will have detailed information on how to get started.
 
@@ -65,13 +65,13 @@ While, at this time, Advanced Threat Protection (ATP) safe links are not availab
 
 ### Safe Attachments
 
-Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint Online, OneDrive for Business, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) have this capability. Read more about Safe Attachments and how they can help protect your organization [here](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
+Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) have this capability. Read more about Safe Attachments and how they can help protect your organization [here](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
 
 ### How Conditional Access policies work for Teams
 
-Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
+Microsoft Teams relies heavily on Exchange Online, SharePoint, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
 
-Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the azure portal, go to: [Azure Active Directory Quickstart](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
+Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the azure portal, go to: [Azure Active Directory Quickstart](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
@@ -148,7 +148,7 @@ If you'd like further Teams-specific information on configuring content search, 
 
 ### Auditing and Reporting
 
-Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
+Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log search for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
 
 ## Privacy
 
@@ -193,5 +193,7 @@ Details can be found in the [Data Protection Resources](https://servicetrust.mic
 ## Related topics
 
 [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
+
 [Microsoft 365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
+
 [Microsoft compliance offerings](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
