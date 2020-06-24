@@ -508,31 +508,31 @@
 
 ## Plan your upgrade journey
 
-### [Upgrade planning overview](upgrade-plan-journey.md)
-### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
-### [Define your project scope](upgrade-define-project-scope.md)
-### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Meetings First](meetings-first.md)
+### Plan your project and requirements 
+#### [Overview](upgrade-plan-journey.md)
+#### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
+#### [Define your project scope](upgrade-define-project-scope.md)
+#### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Plan a user pilot](pilot-essentials.md)
 
-## Prepare your environment for Teams
-### [Technical readiness overview](upgrade-prepare-environment.md)
-### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
-### [Prerequisites](upgrade-plan-journey-prerequisites.md)
-### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
-### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
 
-## Prepare your organization for Teams
-### [Organizational readiness overview](upgrade-prepare-organization.md)
-### [Assess organizational change readiness](upgrade-org-change-readiness.md)
-### [Prepare a user readiness plan](upgrade-user-readiness.md)
+### Prepare your environment for Teams
+#### [Technical readiness overview](upgrade-prepare-environment.md)
+#### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+#### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+#### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+#### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+
+### Prepare your organization for Teams
+#### [Organizational readiness overview](upgrade-prepare-organization.md)
+#### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+#### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
 
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
-### [Conduct a user pilot](pilot-essentials.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +551,9 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [Meetings First](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +722,7 @@
 ## [Use log files in troubleshooting Teams](log-files.md)
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
-## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   

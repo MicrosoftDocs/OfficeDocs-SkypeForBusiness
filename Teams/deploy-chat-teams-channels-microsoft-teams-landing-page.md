@@ -123,10 +123,9 @@ Teams supports a number of clients from web to desktop to mobile, and the defaul
 |Will I customize Teams client settings for my organization?|Learn how to [Install Teams using MSI](msi-deployment.md).|
 |||
 
-
 ### Teams usage reporting
 
-The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics articles](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |Ask yourself|Action |
 |------------|-------|
