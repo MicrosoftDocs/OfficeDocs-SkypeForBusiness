@@ -38,6 +38,8 @@ CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, S
 
 ## Assign admin roles for access to CQD
 
+Assign [roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it.
+
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD. 
 
 
