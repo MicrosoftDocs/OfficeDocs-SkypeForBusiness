@@ -1,5 +1,5 @@
 ---
-title: "Use per-user call analytics to troubleshoot poor call quality"
+title: "Use call analytics to troubleshoot poor call quality"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 description: "Use per-user call analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams calls and meetings."
 ---
 
-# Use per-user call analytics to troubleshoot poor call quality
+# Use call analytics to troubleshoot poor call quality
 
 This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you're a Teams admin or a Teams communications support specialist or engineer.
 
