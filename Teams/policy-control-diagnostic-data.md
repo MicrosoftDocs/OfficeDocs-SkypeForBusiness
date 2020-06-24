@@ -1154,7 +1154,6 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for user to land on the resulting view after action.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
