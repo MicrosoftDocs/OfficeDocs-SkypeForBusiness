@@ -34,7 +34,7 @@ A tag can be added to a person on a specific team. After a tag is added, it can 
 - A hospital administrator wants to send a message to all radiologists in a channel.
 - A marketing manager wants to start a group chat with all designers.
 
-When a tag is @mentioned in a channel conversation, teams members who are associated with a tag will get notified, just like any other @mention. 
+When a tag is @mentioned in a channel conversation, team members associated with a tag will get notified, just like any other @mention.
 
 To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
