@@ -87,3 +87,7 @@ Here, you can create tags and assign them to people on your team.
 ### Delete tags
 
 Remove all team members associated with the tag and the tag will be deleted.
+
+## Related topics
+
+[Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
