@@ -21,19 +21,19 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams app usage report
 
-Accessible to Team’s users in the IT Administrator role, The Teams App Usage report gives insight into Team’s Apps with active users and Teams using those Apps within the Teams app.
+The Teams app usage report in the Microsoft Teams admin center provides you with information about which apps users are using in Teams.  
 
 ## **View the App Usage report**
 
 1.  In the left navigation of the admin center at <https://teams.admin.microsoft.com>, click **Analytics & reports** \> **Usage reports**. On the **View reports** tab, under **Report**, select **Apps Usage**.
 
-![A screenshot of a cell phone
-Description automatically generated](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams\\teams-analytics-and-reports/media/image1.png)
+:::image type="content" source="media/app-usage-report1.png" alt-text="Screenshot of the Usage Reports menu item":::
 
 2.  Under **Date range**, select a range, and then click **Run report**.
 
-![](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams\\teams-analytics-and-reports/media/image2.png)![A screenshot of a social media post
-Description automatically generated](c:\\Users\\lolaj\\OfficeDocs-SkypeForBusiness-pr\\Teams\\teams-analytics-and-reports/media/image3.png)
+
+
+:::image type="content" source="media/app-usage-report2.png" alt-text="Screenshot of the Apps Usage report":::
 
 ## **Interpret the report**
 
