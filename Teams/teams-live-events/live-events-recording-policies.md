@@ -42,11 +42,11 @@ There are two organizer options while scheduling a live event recording:
 
 As part of the broadcast policy, there is a setting that you can toggle to turn on/off recording for a live event.
 
-|                                 | **Recording available for producers and presenters** | **Recording available for attendees** |
+|                                 | Recording available for producers and presenters | Recording available for attendees |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| **Always record**               | Disabled and selected                                | Enabled and selected by default       |
-| **Organizer can record or not** | Enabled and not selected by default                  | Enabled and not selected by default   |
-| **Never record**                | Disabled and not selected                            | Enabled and selected by default       |
+| Always record               | Disabled and selected                                | Enabled and selected by default       |
+| Organizer can record or not | Enabled and not selected by default                  | Enabled and not selected by default   |
+| Never record               | Disabled and not selected                            | Enabled and selected by default       |
 
 When the policy is set to **Always record**, the policy page has the following selected options:
 
@@ -54,7 +54,7 @@ When the policy is set to **Always record**, the policy page has the following s
 
 ## Flags set on client
 
-| **Can be set by user**                                         | **Flag/capability set by client?** | **Flag**                 | **Implications**                                                                                               |
+| Can be set by user                                         | Flag/capability set by client? | Flag                 | Implications                                                                                              |
 | -------------------------------------------------------------- | ---------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | Organizer option: Recording available for attendee             | Yes                                | Capabilities.VOD         | If True, Attendee Service admits user after event is over                                                      |
 | Organizer option: Recording available for producer & presenter | Yes                                | Capabilities.Recording   | If True, generates mp4                                                                                         |
@@ -62,11 +62,11 @@ When the policy is set to **Always record**, the policy page has the following s
 
 ## Storage & persistence behavior
 
-| **Option**                                       | **State**    | **DVR**                                                   | **VOD**                                                     | **Recording**                |
+| Option                                       | State   | DVR                                                   | VOD                                                     | Recording                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **Recording available to producers and presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days | Attendee can access and watch the event                     |                              |
+| Recording available to producers and presenters | Selected     | DVR is available and the AMS asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee will not get access into the event after it's over |                              |
-| **Recording available to producers and presenters** | Selected     |                                                           |                                                             | An MP4 is created and stored |
+| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
 ## Mitigation
@@ -113,19 +113,19 @@ When the policy is set to **Always record**, the policy page has the following s
 
 ### New State
 
-|                                 | **Recording available to producers and presenters** | **Recording available to attendees** |
+|                                 | Recording available to producers and presenters | Recording available to attendees |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| **Always record**               | Enabled and selected by default                      | Enabled and selected by default       |
-| **Organizer can record or not** | Enabled and not selected by default                  | Enabled and not selected by default   |
-| **Never record**                | Disabled                                             | Disabled                              |
+| Always record               | Enabled and selected by default                      | Enabled and selected by default       |
+| Organizer can record or not | Enabled and not selected by default                  | Enabled and not selected by default   |
+| Never record                | Disabled                                             | Disabled                              |
 
 ### New State with options
 
-| **Option**                                       | **State**    | **DVR**                                                       |**VOD**                                                     | **Recording**                |
+| Option                                       | State   | DVR                                                       |VOD                                                     | Recording               |
 | ------------------------------------------------ | ------------ | ------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **Recording available to producers and presenters** | Selected     | DVR is available and the AMS asset is stored for 180 days     | Attendee can access and watch the event                     |                              |
+| Recording available to producers and presenters | Selected     | DVR is available and the AMS asset is stored for 180 days     | Attendee can access and watch the event                     |                              |
 |                                                  | Not selected | DVR is available and the AMS asset is deleted after the event | Attendee will not get access into the event after it's over |                              |
-| **Recording available to producers and presenters** | Selected     |                                                               |                                                             | An MP4 is created and stored |
+| Recording available to producers and presenters | Selected     |                                                               |                                                             | An MP4 is created and stored |
 |                                                  | Not selected |                                                               |                                                             | No file is created           |
 
 ### Phases
