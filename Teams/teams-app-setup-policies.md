@@ -44,7 +44,7 @@ You manage app setup policies in the Microsoft Teams admin center. You can use t
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
 
-![Screenshot showing the App setup policies page](media/app-setup-policies  .png)
+![Screenshot showing the App setup policies page](media/app-setup-policies.png)
 
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
