@@ -71,15 +71,14 @@ Developers can validate the app package manifest directly from within their IDE.
 
 ### Review the app on the Manage apps page of the Microsoft Teams admin center
 
-Developers can submit the app package directly from their IDE or by using the App Submission API to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center. 
+Developers can submit the app package directly from their IDE through the App Submission API to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
 In the table, you'll see that an app submitted by a developer from their IDE or by using App Submission API have an **App publishing status** of **Submitted** and an **App status** of **Blocked**. 
 2. Click the app name to go to the app details page. From here, you can view details about the app and download the manifest for validation.
 
-#### If you want to do this manually
-
-Have the developer send you the app package file in .zip format.
+> [!NOTE]
+> To do this manually, have the developer send you the app package file in .zip format, which you can then upload to your tenant app catalog on the Manage apps page in the Microsoft Teams admin center.
 
 ### Allow trusted users to upload custom apps in the production tenant
 
@@ -111,11 +110,8 @@ When you're ready to make the app available to users in the tenant app catalog, 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. 
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
 
-### If you want to do this manually
-
-Upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
-
-![Screenshot of the Manage apps page in the admin center](media/manage-your-lob-apps-upload-new-app.png)
+> [!NOTE]
+> If you're doing this manually and the developer sent you an app package in .zip format, select **Upload** on the Manage apps page to upload the app to your tenant app catalog. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
 
 ## Step 4: Set up and manage
 
