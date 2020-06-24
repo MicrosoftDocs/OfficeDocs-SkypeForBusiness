@@ -54,7 +54,7 @@ landingContent:
             url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
           - text: Set up Audio Conferencing
             url: /microsoftteams/audio-conferencing-in-office-365
-      - linkListType: concept
+      - linkListType: overview
         links:
           - text: Calling Plans in Canada (General Availability)
             url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
