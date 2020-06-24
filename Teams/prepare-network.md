@@ -46,8 +46,8 @@ If you've already [optimized your network for Microsoft 365 or Office 365](https
     
 2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
     
-      - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Getting Started with Microsoft 365 or Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see [Verify your Microsoft 365 or Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Get started](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+      - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see the [Domains FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Has your organization deployed Exchange Online and SharePoint Online?
     
