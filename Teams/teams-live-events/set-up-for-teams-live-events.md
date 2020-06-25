@@ -45,9 +45,9 @@ Live events policies are used to control who in your organization can hold live 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Live events policies**.
 2. Do one of the following:
 
-- If you want to edit the existing default policy, choose **Global (Org-wide default)**.
-- If you want to create a new custom policy, choose **New policy**.
-- If you want to edit a custom policy, select the policy, and then choose **Edit**.
+    - If you want to edit the existing default policy, choose **Global (Org-wide default)**.
+    - If you want to create a new custom policy, choose **Add**.
+    - If you want to edit a custom policy, select the policy, and then choose **Edit**.
 
     Here are the settings you can change to fit the needs of your organization.
 
@@ -81,6 +81,7 @@ For users to schedule events produced with an external app or device, you must a
 3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with an external app or device) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
 ## Step 4: Set up a video distribution solution for live events in Teams
+
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
 **Purchase and set up your solution outside of Teams**

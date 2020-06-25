@@ -58,7 +58,7 @@ You can edit the global policy or any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
-3. Make the changes that you want, and then click **Save**.
+3. Make the changes that you want, and then click **Apply**.
 
 ### Using PowerShell
 
