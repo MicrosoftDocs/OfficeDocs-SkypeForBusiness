@@ -98,7 +98,7 @@ Information barrier policies are activated when the following Teams events take 
     ![Screenshot showing user char with blocked settings](media/ib-after-screen-share-policy.png)
 
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn't violate the information barrier policies of other team members. If there is any violation, the voice call is blocked.
-- **Guest users in Teams** - Information barrier policies apply to guest users in Teams too. If guest users need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Once guest users are discoverable, you can [define information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Guest users in Teams** - Information barrier policies apply to guest users in Teams too. If guest users need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guest users are discoverable, you can [define information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## How policy changes impact existing chats
 
