@@ -113,7 +113,7 @@ To create a new resource account, click **Add**. In the **Add resource account**
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
-Next, apply a license to the resource account in the Microsoft 365 Admin center, as described in [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+Next, apply a license to the resource account in the Microsoft 365 Admin center, as described in [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Edit resource account 
 
@@ -148,10 +148,10 @@ To assign a direct routing or hybrid number to a resource account you will need 
 
 ## Change an existing resource account to use a Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone System license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+If you decide to switch the licenses on your existing resource account from a Phone System license to a Virtual User license, you'll need to acquire the free Virtual User license, and then follow the steps in the Microsoft 365 admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account. 
+> Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.
 
 ## Create a resource account in Powershell
 
@@ -177,7 +177,7 @@ The application ID's that you need to use while creating the application instanc
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. You will not be able to use the resource account until you apply a license to it. To learn how to apply a license to an account in the Microsoft 365 admin center, see [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. You will not be able to use the resource account until you apply a license to it. To learn how to apply a license to an account in the Microsoft 365 admin center, see[Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 3. (Optional) After the correct license is applied to the resource account, you can assign a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you didn't apply a license to the resource account, the phone number assignment will fail.
 
