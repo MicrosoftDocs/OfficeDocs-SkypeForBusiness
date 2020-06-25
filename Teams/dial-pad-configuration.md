@@ -20,7 +20,7 @@ f1.keywords:
 description: "Learn about how to configure the dial pad in the Teams client so that users can access PSTN functionality."
 ---
 
-# Overview
+# Dial pad configuration
 
 In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they are configured properly. The following criteria are all required for the dial pad to show:
 
