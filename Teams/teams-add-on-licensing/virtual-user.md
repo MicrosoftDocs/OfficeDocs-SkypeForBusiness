@@ -42,25 +42,25 @@ If your organization uses up the available free Microsoft 365 Phone System – V
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 Microsoft 365 Phone System – Virtual User licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Microsoft 365 Phone System – Virtual User licenses and obtain five regular-priced Phone System licenses. 
+Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 Microsoft 365 Phone System – Virtual User licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Microsoft 365 Phone System – Virtual User licenses and obtain five regular-priced Phone System licenses.
 
-Contoso should consider redesigning the auto attendant and call queue system. If they use fewer phone numbers and more nested nodes that don't need a phone number, they simplify the implementation and reduce costs. 
+Contoso should consider redesigning the auto attendant and call queue system. If they use fewer phone numbers and more nested nodes that don't need a phone number, they simplify the implementation and reduce costs.
 
-## How to buy Microsoft 365 Phone System – Virtual User licenses 
+## How to buy Microsoft 365 Phone System – Virtual User licenses
 
 1. Sign in to the Microsoft 365 admin center.
 2. Go to **Billing** > **Purchase services** > **Add-ons**
 3. Scroll to the end to find the **Microsoft 365 Phone System – Virtual User** license. Select **Buy now**.
 
 > [!NOTE]
-> Keep in mind you must still  **Buy** the license even though it has a cost of zero. 
+> Keep in mind you must still  **Buy** the license even though it has a cost of zero.
 
 ## Change an existing resource account to use a Microsoft 365 Phone System – Virtual User license
 
-If you decide to switch the license on your resource account from a Phone System license to a Microsoft 365 Phone System – Virtual User license: 
+If you decide to switch the license on your resource account from a Phone System license to a Microsoft 365 Phone System – Virtual User license:
 
-1. Get the new Microsoft 365 Phone System – Virtual User license. 
-2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+1. Get the new Microsoft 365 Phone System – Virtual User license.
+2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Microsoft 365 Phone System – Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Microsoft 365 Phone System – Virtual User license and remove the broken resource account. 
