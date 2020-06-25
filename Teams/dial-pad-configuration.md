@@ -82,7 +82,7 @@ xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
 </Plan>
   ```
 
-**If the user is enabled for Direct Routing**, the user must be assigned a non-null value for OnlineVoiceRoutingPolicy. To check the attributes, use the following command:
+**If the user is enabled for Direct Routing**, the user must be assigned a non-null value for OnlineVoiceRoutingPolicy. To check the attribute, use the following command:
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
@@ -179,21 +179,3 @@ Get-CsOnlineUser -Identity $user|Select LineUri
 -	 If it has been more than 24 hours and you are still seeing problems, contact Support.
 
 
-
-
-
-
-
-  
-
-  
-
-
-    
-## Related topics
-
-- [Manage emergency calling policies](manage-emergency-calling-policies.md)
-- [Manage emergency call routing policies ](manage-emergency-call-routing-policies.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
-- [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
