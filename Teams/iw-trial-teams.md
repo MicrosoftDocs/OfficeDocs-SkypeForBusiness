@@ -147,4 +147,4 @@ As of April 22, 2019, users can begin claiming the latest Microsoft Teams Commer
 [Remove licenses from user accounts with Microsoft 365 or Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
