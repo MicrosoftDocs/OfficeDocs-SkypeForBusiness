@@ -62,6 +62,10 @@ Upon sign in, mobile users will see a list of all the Microsoft 365 accounts tha
     
 2. If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies.
 
+> [!NOTE]
+> For users to experience the sign on experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
+
+
 ### Adding multiple accounts to Teams
 
 Teams for iOS and Android supports adding multiple accounts from a single device to Teams. The following images show how users can add multiple accounts in Teams.

@@ -128,7 +128,7 @@ Yes, each manager and team member using Teams and Shifts within Teams must have 
  
 #### In StaffHub, I could add a special prefix to all Microsoft 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
 
-You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Microsoft 365 Groups, you can use [Microsoft 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+You won't have the same capability when you move from StaffHub to Teams. If you need to apply name consistency to all your Microsoft 365 Groups, you can use [Groups naming policy](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).
 
 #### Will team names be the same in Teams?
 
