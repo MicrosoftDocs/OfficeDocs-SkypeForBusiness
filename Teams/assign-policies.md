@@ -306,7 +306,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 
-To change the ranking of a group assignment, you have to first unassign the policy from the group. On the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**. Then, follow the steps above to assign the policy to a group.
+To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
 
 ### Using PowerShell
 
