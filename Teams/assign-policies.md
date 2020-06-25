@@ -22,7 +22,7 @@ f1keywords:
 
 # Assign policies to your users in Microsoft Teams
 
-> [!IMPORTANT]
+> [!NOTE]
 > **Note the following about one of the features discussed in this article, policy assignment to groups**: 
 > - [Policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon. 
 > - [Policy assignment to groups using PowerShell](#using-powershell-3), is currently only available in private preview. The Powershell cmdlets for this feature are in the pre-release Teams PowerShell module.
