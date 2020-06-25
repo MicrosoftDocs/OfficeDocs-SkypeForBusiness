@@ -1882,6 +1882,10 @@
         "redirect_document_id": true
       },    
       {
+        "source_path": "Teams/use-network-testing-companion.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out",
+        "redirect_document_id": true
+      },          {
         "source_path": "Teams/devices/index.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
         "redirect_document_id": false

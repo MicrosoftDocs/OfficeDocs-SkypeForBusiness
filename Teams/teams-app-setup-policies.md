@@ -150,7 +150,7 @@ If the app setup policy assigned to the user is changed to block user app pinnin
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## Related topics
+## Related topics
 
 [Admin settings for apps in Teams](admin-settings.md)
 
