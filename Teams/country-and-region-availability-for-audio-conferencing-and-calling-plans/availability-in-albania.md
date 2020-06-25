@@ -1,9 +1,9 @@
 ---
-title: "Availability in Algeria"
-author: LanaChin
-ms.author: v-lanac
+title: "Availability in Albania"
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,20 +23,20 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Albania."
 ---
 
-# Availability in Algeria
+# Availability in Albania
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Albania.
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute only.  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute-only  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
@@ -63,8 +63,8 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?   | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/> |
-|Are toll numbers available?  <br/> |Non-geographic ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|What capitals or major cities can you get toll numbers for?   | Tirana <br/> |
+|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Are toll free numbers available?  <br/> |No  <br/> |
    
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
