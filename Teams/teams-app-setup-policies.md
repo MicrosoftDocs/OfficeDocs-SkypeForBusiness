@@ -162,7 +162,7 @@ There's no limit on the number of pinned apps you can add to a policy.
 
 #### How long does it take for policy changes to take effect?
 
-After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
+After you edit or assign a policy, it can take a few hours for changes to take effect.
 
 ### User experience
 
@@ -195,7 +195,7 @@ If the app setup policy assigned to the user is changed to block user app pinnin
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## Related topics
+## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
 - [Assign policies to your users in Teams](assign-policies.md)
