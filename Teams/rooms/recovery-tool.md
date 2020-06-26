@@ -40,9 +40,7 @@ Download the latest [Microsoft Teams Rooms installation package](https://go.micr
       - Beneath **Reset this PC**, select **Get started**
       - Select **Remove everything**, then **Next** and **Reset**
       - The system will reboot multiple times. When the reset is complete, the system will be at the Windows OOBE screen.
-5) If you are repairing an "out of date" system:
-    - When prompted by the script select option 1: **Repair**.
-    - Upon completion, reboot the Microsoft Teams Rooms device. It will reboot again automatically and come up fully recovered the second time.
+
 
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the  **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
