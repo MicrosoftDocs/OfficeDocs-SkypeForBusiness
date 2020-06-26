@@ -23,13 +23,17 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information and organize work. With Lists, users can track data such as issues, assets, routines, contacts, inventory and more using customizable views, smart rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information and organize work. With Lists, users can track data such as issues, assets, routines, contacts, inventory, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
 In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab to a channel, and then select the Lists app to get started. Users can create new lists or add existing lists. New lists can be created from scratch, from ready-made templates, or by importing data from Excel. Lists is available in Teams desktop, web, and mobile clients.
+
+![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
 ### Scenarios
 
 ## What you need to know about Lists
+
+Lists is pre-installed for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
 
 With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, the list must first be created or added using Lists on the Teams desktop or web client.
 
@@ -39,7 +43,7 @@ If users in your organization created lists using the SharePoint Lists app, thos
 
 Difference between SharePoint lists and Lists lists?<br>
 SharePoint admin controls for lists?  Permissions, locale, views, etc?<br>
-Templates?
+Templates? Patients, Loans, Incidents
 
 ## Set up Lists
 
@@ -59,10 +63,9 @@ To allow or block specific users in your organization from using Lists, make sur
 
 ### Use an app setup policy to pin Lists to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps that you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
+App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps that you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
 
 To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
-
 
 ## Search the audit log for Lists events?
 
@@ -70,7 +73,9 @@ You can search the audit log to view Lists activity in your organization. To lea
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
-## Power Automate?  Graph API?
+## Power Automate, Power Apps, and Graph API
+
+Additionally, the value of existing integrations with the Power Platform continue when you need to further customize list forms with Power Apps and design robust workflows with Power Automate. And for developers, the power and value of the Lists API extends custom solutions to connect the list data as a source via Microsoft Graph.
 
 ## Related topics
 
