@@ -46,6 +46,7 @@ The following phones are Certified for Microsoft Teams:
 |Crestron M100| This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020|
 |Crestron Flex UC-P100-T & UC-P110-T  | This product has been discontinued. For more information, visit [UC Phone]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website. |Discontinued as of 5/11/2020|
 |Lenovo ThinkSmart View|CD-18781Y.200410.067|April 2020|
+|Poly Trio C60|5.9.3.6155|April 2020|
 |Poly CCX400 | 1.0.0.0200 | January 2020|
 |Poly CCX600 | 5.9.12.1111| January 2020|
 |Poly CCX500 | 5.9.12.1111| December 2019|
@@ -66,6 +67,39 @@ The following Collaboration bars are Certified for Microsoft Teams:
 |Poly Studio X50 | 3.1.1.216109| June 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
 |Yealink VC210| 118.15.0.14|February 2020|Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m)|
 
+### Product Release Information-Teams Phones
+The following are the latest Teams IP Phone App versions and Firmware version released
+#### Release Date: May 13,2020
+#### App Versions
+|App| Version|
+|:---|:---|
+|Teams | .040801|
+|Admin Agent|.210|
+|Company Portal| .4715|
+
+#### Firmware Versions
+|Update #3| Firmware Released to Prod|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### Product Release Information-Collaboration Bar
+The following are the latest Teams Collaboration Bar App versions and Firmware version released
+#### App Versions
+|App| Version|
+|:---|:---|
+|Teams | .040901|
+|Admin Agent|.210|
+|Company Portal| .4715|
+
+#### Firmware Versions
+|Update #3| Firmware Released to Prod|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
