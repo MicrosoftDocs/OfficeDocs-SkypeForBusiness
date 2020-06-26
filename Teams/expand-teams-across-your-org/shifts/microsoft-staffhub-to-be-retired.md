@@ -32,7 +32,7 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Effective June 30, 2020, Microsoft StaffHub has been retired.
+Microsoft StaffHub has been retired, effective June 30, 2020.
 
 #### What will happen once StaffHub is retired?
 
