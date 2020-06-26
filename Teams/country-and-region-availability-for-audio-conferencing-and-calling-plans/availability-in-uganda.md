@@ -1,9 +1,9 @@
 ---
-title: "Availability in Algeria"
-author: LanaChin
-ms.author: v-lanac
+title: "Availability in Uganda"
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,14 +23,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Uganda."
 ---
 
-# Availability in Algeria
+# Availability in Uganda
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Uganda.
   
 ## Audio Conferencing
 
