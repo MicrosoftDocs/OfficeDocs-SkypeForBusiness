@@ -31,7 +31,7 @@ Download the latest [Microsoft Teams Rooms installation package](https://go.micr
 1) Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.
 2) Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1 file`, which is included in the files extracted from the Microsoft Teams Rooms installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
 3) Run `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
-4) If you are performing a factory restore:
+4) To perform a factory restore:
    - When prompted by the script select option 2: **Reset**.
    - If BitLocker is on, follow the instructions provided at the end of the script output to disable it.
    - Perform the factory restore.
