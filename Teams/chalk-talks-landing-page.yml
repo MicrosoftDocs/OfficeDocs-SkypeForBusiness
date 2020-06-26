@@ -74,7 +74,7 @@ additionalContent:
         # Card
         - title: Still using Skype for Business?
           summary: Check out our Upgrade Workshop series.
-          url: upgrade-workshops-landing-page.md
+          url: upgrade-workshops-landing-page.yml
         # Card
         - title: Prepare your users
           summary: Get your users up and running with Teams Live Training.
