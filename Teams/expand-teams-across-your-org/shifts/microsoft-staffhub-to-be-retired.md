@@ -1,8 +1,8 @@
 ---
-title: Microsoft StaffHub to be retired
+title: Microsoft StaffHub has been retired
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
@@ -20,9 +20,9 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Microsoft StaffHub to be retired
+# Microsoft StaffHub has been retired
 
-Effective June 30, 2020, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
+Effective June 30, 2020, Microsoft StaffHub is retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
 
 These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Firstline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
@@ -32,27 +32,27 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Microsoft 365 or Office 365 app launcher in existing tenants. Current users will still be able to use the service until December 31, 2019, however no additional features will be made available.
+Effective June 30, 2020, Microsoft StaffHub has been retired.
 
 #### What will happen once StaffHub is retired?
 
-Microsoft StaffHub will stop working for all users on June 30, 2020. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
-
-Between April 2019 and June 2020, StaffHub users will receive in-app notifications encouraging them to use Teams.
+StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open the app is shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
 In January 2019, Teams began offering Shifts which was previously available in Microsoft StaffHub. This feature allows managers to plan and distribute shift schedules, and team members the opportunity to review their schedule and make schedule change requests from their mobile devices. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. For more information on which features will be made available in Teams, see [Firstline Worker features coming soon to Teams](firstline-worker-features-coming-to-teams.md).
-
-#### What do I need to do to prepare for this change?
-
-To learn how to prepare for the transition from StaffHub to Shifts in Teams, go to [Prepare to move your StaffHub teams to Shifts](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams.
 
 #### Why can't users in my organization access their StaffHub team from Shifts in Teams?
 
-Teams that were created with StaffHub can only be viewed and managed in StaffHub. After a StaffHub team is moved to Teams, users will be able to view their schedules in Shifts. We encourage you to communicate this change early and familiarize existing users with Teams.
+To access a StaffHub team from Shifts in Teams, you had to move the StaffHub team to Teams before June 30, 2020 when StaffHub retired.
+
+#### What happens if I didn't move a StaffHub team to Shifts in Teams?
+
+Teams that were created with StaffHub and not migrated can no longer be viewed or migrated effective June 30, 2020 when StaffHub retired. However, you can start using Teams any time and create a shift schedule in the Shifts app.
+
+If you had a StaffHub team associated to an Office 365 group that you didn't move to Teams and now want to create a Teams Shifts schedule associated to that Office 365 group, contact Teams support.
 
 ### About Shifts
 
