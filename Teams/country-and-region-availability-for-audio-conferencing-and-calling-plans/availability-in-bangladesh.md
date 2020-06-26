@@ -1,9 +1,9 @@
 ---
-title: "Availability in Algeria"
-author: LanaChin
-ms.author: v-lanac
+title: "Availability in Bangladesh"
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,20 +23,20 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Bangladesh."
 ---
 
-# Availability in Algeria
+# Availability in Bangladesh
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Algeria.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Bangladash.
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute only.  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute only. <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
