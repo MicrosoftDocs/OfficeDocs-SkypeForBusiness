@@ -35,11 +35,11 @@ In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab
 
 Lists is pre-installed for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
 
-With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, the list must first be created or added using Lists on the Teams desktop or web client.
+With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
 
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
-If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists.?
+If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists without any action needed from the user.
 
 Difference between SharePoint lists and Lists lists?<br>
 SharePoint admin controls for lists?  Permissions, locale, views, etc?<br>
@@ -73,9 +73,9 @@ You can search the audit log to view Lists activity in your organization. To lea
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
-## Power Automate, Power Apps, and Graph API
+## Integration with Power Automate, Power Apps, and Graph API
 
-Additionally, the value of existing integrations with the Power Platform continue when you need to further customize list forms with Power Apps and design robust workflows with Power Automate. And for developers, the power and value of the Lists API extends custom solutions to connect the list data as a source via Microsoft Graph.
+Liss supports [Power Automate](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
 
 ## Related topics
 
