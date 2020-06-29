@@ -84,9 +84,20 @@ The Patients app is built on the Teams extensibility platform and takes advantag
 
 See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
 
-## Templates
+## Teams templates
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+
+## Lists app
+
+The Lists app in Teams helps teams to track information and keep everyone in sync. The Lists app is available as a tab in a channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
+
+Care teams in your Healthcare organization can use the Patient care coordination template to create lists to record the needs of patients to monitor and coordinate care. For example, during rounding sessions, clinicians gather to discuss the latest updates on the progress of patients in the ward. The clinicians can share information about patients with the team using the Lists app in Teams on a large display screen, and care team members who are not on site can join remotely.
+
+To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
+
+
+During the rounds, the nurses and the other care givers for the patient access Microsoft Teams and the Patients app on their mobile devices and update relevant patient information on their device and then everyone else in the care team can see those updates and notes and stay in sync. Twice a day, at the start and end of a shift, they also have multi-disciplinary team meetings to go over the patient list and use the Patients app to ground themselves and share information about each patient using the Patients app on a large display screen. Often times, certain clinicians may also dial in to these Teams meetings remotely and still be part of the discussion.
 
 ## Secure Messaging
 
@@ -100,7 +111,7 @@ Together, these features allow quicker attention to urgent messages and confiden
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
 
-Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (see [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## Firstline Worker integration
 
