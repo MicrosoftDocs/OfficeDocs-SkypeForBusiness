@@ -44,7 +44,7 @@ A local post office is responsible for sorting and delivering mail in their dist
 
 After their huddle, mail carriers pick up their mail and start their delivery route. While delivering mail, incidents can occur in the form of a vehicle accident, dog incident, or social unrest protest. Postal carriers don’t have a secure and compliant way to share incident information with colleagues. When an incident occurs, they have go back to the post office to complete a hard-copy form to report an incident which is entered in an Excel spreadsheet.  
 
-Lists in Teams gives post carriers a mobile first, experience where they can report incidents in the field, share incident information with colleagues, and manage incident information in a list view. 
+Lists in Teams gives post carriers a mobile first, experience where they can use lists to report incidents in the field, share incident information with colleagues, and manage incident information.
 
 ## What you need to know about Lists
 
