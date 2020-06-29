@@ -41,7 +41,7 @@ Share the following resources with your IT staff members, and confirm that they'
 - [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
 - [Use log files in troubleshooting Microsoft Teams](log-files.md)
 
-[//]: # (Ask Debbie to scrutinize:)
+
 
 | | |
 |---|---|
