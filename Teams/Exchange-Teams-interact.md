@@ -76,7 +76,7 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 - To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol, preferably by running the Exchange Hybrid Wizard, as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable users with Exchange on-premises mailbox to schedule Teams meetings on behalf of another user, you must must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
 
 > [!NOTE]
-> The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2013 CU9 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
+> The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2016 CU 3 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
 
 > [!NOTE]
 > For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
@@ -105,7 +105,7 @@ If users want the capability to schedule a Teams meeting using Exchange, then yo
 
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
-- Auto Discover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2013 CU19+.
+- Auto Discover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3+.
 
 - The Exchange Server must be configured with Auth Server for EVOSTS. This is automatically configured as part of the Hybrid Wizard for Exchange (HWA).
 
