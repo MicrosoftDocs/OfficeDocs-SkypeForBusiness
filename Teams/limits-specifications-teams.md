@@ -106,10 +106,12 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300.   |
+|Number of people in a meeting (can chat and call in)  | 300. Meeting overflow allows for unlimited participants in listen-only mode beyond the 300.<sup>1</sup> <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300.   |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+
+<sup>1</sup> An admin policy isn't required to implement meeting overflow.
 
 ### Meeting expiration
 
