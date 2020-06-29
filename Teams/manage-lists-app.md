@@ -56,6 +56,16 @@ Lists data is stored in the SharePoint Online team site. To learn more about how
 
 If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists without any action needed from the user.
 
+ADD: 
+
+- Limitations 
+
+    - guests in private channels can't create, pin, delete, a list or start a new conversation about a list. they can reply to an existing conversation about a list item, add a list item.
+    - guests in standard channel can do this.
+
+- SharePoint list view permissions? someone on the team updates the view, which changes it for all team members. restrict users from editing list views. Team owner and members gets Full Control on list view. SharePoint inherits permissions. 
+- how to get help
+
 ## Set up Lists
 
 ### Enable or disable Lists in your organization
