@@ -59,3 +59,5 @@ If you're creating the .tsv or .csv file from scratch, see [Upload tenant and bu
 ## Related topics
 
 [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -141,3 +141,5 @@ If you see a spike on any of the four charts (Latency, Jitter, Package Loss Rate
 ## Related topics
 
 [Use Power BI to analyze CQD data for Microsoft Teams](CQD-PSTN-report.md)
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

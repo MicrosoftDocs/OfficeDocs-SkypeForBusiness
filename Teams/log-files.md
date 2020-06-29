@@ -108,3 +108,8 @@ Mac OsX:
 |---------|---------|
 |Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

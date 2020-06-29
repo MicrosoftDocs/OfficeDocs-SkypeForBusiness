@@ -39,3 +39,8 @@ Most issues discovered with the Microsoft Teams client can be traced back to fir
 -   Skype for Business Interoperability
 
 -   Skype for Business Client Interoperability
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

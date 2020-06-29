@@ -48,3 +48,4 @@ Currently Teams only has support for State 1 and State 2 types of Guest users [a
 [Guest access in Teams](guest-access.md)
 
 
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -167,3 +167,6 @@ If the add-in still does not show, use the following steps to verify the registr
 If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. As a workaround, your administrator can add the following string to the EWS Allow List: "*SchedulingService*". 
 
 
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -160,3 +160,5 @@ In order to determine, if there are any unexpected differences, you must look at
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
 [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

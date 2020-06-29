@@ -149,3 +149,4 @@ In some cases, encryption software can change files in the %LocalAppData%\Micros
 
 - [Get clients for Teams](get-clients.md)
 - [Teams client updates](teams-client-update.md)
+- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
