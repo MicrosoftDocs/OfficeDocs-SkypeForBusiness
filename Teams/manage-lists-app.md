@@ -19,7 +19,7 @@ appliesto:
 ms.custom: 
 ---
 
-# Manage the Lists app for your organization in Microsoft Teams
+# Manage the Lists app for your organization in Microsoft Teams - WORK IN PROGRESS
 
 ## Overview of Lists
 
@@ -29,7 +29,22 @@ In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab
 
 ![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
-### Scenarios
+Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's a few examples of how teams in your organization can use templates in Lists:
+
+- Track issues and bring them to closure using the Issue tracker template.
+- Organize all your event details with the Event itinerary template.
+- Record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
+- Track the status of loan applications with the Loans template.
+
+To learn more about using Lists, see [LINK TO END-USER DOC].
+
+### Example scenario
+
+A local post office is responsible for sorting and delivering mail in their district every day. Each morning the post office has a team huddle to discuss daily goals, announcements, and known incidents, which are displayed on a cork board.  
+
+After their huddle, mail carriers pick up their mail and start their delivery route. While delivering mail, incidents can occur in the form of a vehicle accident, dog incident, or social unrest protest. Postal carriers don’t have a secure and compliant way to share incident information with colleagues. When an incident occurs, they have go back to the post office to complete a hard-copy form to report an incident which is entered in an Excel spreadsheet.  
+
+Lists in Teams gives post carriers a mobile first, experience where they can report incidents in the field, share incident information with colleagues, and manage incident information in a list view. 
 
 ## What you need to know about Lists
 
@@ -40,10 +55,6 @@ With Lists, users get a desktop, web, and mobile experience. It's important to k
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
 If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists without any action needed from the user.
-
-Difference between SharePoint lists and Lists lists?<br>
-SharePoint admin controls for lists?  Permissions, locale, views, etc?<br>
-Templates? Patients, Loans, Incidents
 
 ## Set up Lists
 
@@ -67,15 +78,15 @@ App setup policies let you customize Teams to highlight the apps that are most i
 
 To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-## Search the audit log for Lists events?
+## Search the audit log for list events
 
-You can search the audit log to view Lists activity in your organization. To learn more about how to search the audit log and to see a list of Lists activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md).
+You can search the audit log to view list activity in your organization. To learn more, see [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
-## Integration with Power Automate, Power Apps, and Graph API
+## Power Automate, Power Apps, and Graph API
 
-Liss supports [Power Automate](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
+Lists supports [Power Automate](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
 
 ## Related topics
 
