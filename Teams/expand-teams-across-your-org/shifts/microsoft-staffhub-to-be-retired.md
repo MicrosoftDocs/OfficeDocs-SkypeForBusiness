@@ -106,7 +106,7 @@ For end-user help, go to [Shifts Help for Firstline Workers](https://support.off
 
 #### What licenses do I need for Teams?
 
-Each user must have an active Microsoft 365 or Office 365 license from an [eligible plan](#which-plans-is-shifts-available-in) and must be assigned a Teams license. 
+Each user must have an active Microsoft 365 or Office 365 license from an eligible plan and must be assigned a Teams license. 
 
 #### How do I enable Teams in my organization?
 
