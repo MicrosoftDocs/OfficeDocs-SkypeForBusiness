@@ -29,11 +29,11 @@ In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab
 
 ![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
-Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's a few examples of how teams in your organization can use templates in Lists:
+Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's some examples of how teams in your organization can use Lists templates to track data and organize work:
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
-- Record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
+- Use the Patient care coordination template to record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
 To learn more about using Lists, see [LINK TO END-USER DOC].
