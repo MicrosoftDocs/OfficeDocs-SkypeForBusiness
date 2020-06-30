@@ -82,7 +82,6 @@ The following are the latest Teams IP Phone App versions and Firmware version re
 |AudioCodes C450HD|C450HD_TEAMS_1.4.208|Update#4|
 |Poly CCX400|1.0.1.0054|Update#3|
 |Poly CCX500/ CCX600|5.9.13.0306|Update#3|
-|Poly Trio C60|5.9.4.6317|Update#4|
 |Yealink T55/T56/T58|58.15.0.107|Update#4|
 |Yealink VP59|91.15.0.42|Update#4|
 |Yealink CP960|	73.15.0.103|Update#4|
