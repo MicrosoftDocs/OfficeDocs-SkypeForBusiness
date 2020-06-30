@@ -2,6 +2,31 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+      },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+      },        
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },       
+      {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },         
+    {
       "source_path": "Teams/edit-user-settings-in-bulk.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-policies", 
       "redirect_document_id": true
