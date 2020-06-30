@@ -30,7 +30,7 @@ Before you can start using PowerShell, you'll need to [install it](teams-powersh
 Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.
 
 - **General Availability (GA)**: Production-ready cmdlets, updated monthly.
-- 
+
 - **Public Preview**: Early access to features. May be updated more frequently than GA.
 
 For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).
