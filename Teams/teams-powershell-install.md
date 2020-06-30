@@ -76,7 +76,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 To install Teams Powershell public preview, run the PowerShell command below.
 
 ```powershell
-Install-Module MicrosoftTeams 
+Install-Module MicrosoftTeams -AllowPrerelease
 ```
 
 ## Install the Skype for Business Online Connector
