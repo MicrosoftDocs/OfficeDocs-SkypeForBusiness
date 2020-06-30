@@ -38,9 +38,7 @@ For detailed information on feature additions and improvements for both releases
 > [!NOTE]
 > For some Teams features for which there are PowerShell cmdlets, the feature itself is available only in Teams public preview. Examples include [private channel management](private-channels-life-cycle-management.md) and team templates for Education and firstline workers.
 
-## Managing Teams with Teams PowerShell
-
-
+## Manage Teams with PowerShell
 
 You'll use both of these PowerShell modules to fully manage Teams:
 
