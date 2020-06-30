@@ -56,7 +56,7 @@ For a full list of the features currently enabled in public preview see: Feature
 
 ## Batch preview settings
 
-note from eng. Please make sure this policy can be assigned via PowerShell / to a group rather than to individual users at a time.
+note from eng. doc. Please make sure this policy can be assigned via PowerShell / to a group rather than to individual users at a time.
 
 ## Related topics
 
