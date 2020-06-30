@@ -128,6 +128,8 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 | On     | On     | Off         | The user can't upload custom apps.       |
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context.       |
 
- ## Related topics
+## Related topics
  
-- [Admin settings for apps in Teams](admin-settings.md)
+[Admin settings for apps in Teams](admin-settings.md)
+
+[Assign policies to your users in Teams](assign-policies.md)
