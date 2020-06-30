@@ -55,13 +55,9 @@ After you plan the dial plans for your organization and figured out all the norm
 2. Select the dial plan by clicking to the left of the dial plan name, and then click **Edit**.
 3. Make the changes that you want, and then click **Save**.
 
-### Add users to a dial plan
+### Assign a dial plan to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking the display name.
-3. Select the **Policies** tab.
-4. Click **Edit** to the right of Assigned policies.
-5. From the **Dial plan** drop-down menu, select the dial plan you want to assign to the user and then click **Apply**.
+You assign a dial plan in the same way you assign policies. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Using PowerShell
   
