@@ -310,7 +310,7 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 ### Using PowerShell
 
-**This feature is currently only available in private preview. The cmdlets for this feature are in the pre-release Teams PowerShell module.**
+**This feature is currently only available in private preview. The cmdlets for this feature are in the Teams PowerShell public preview module.**
 
 > [!NOTE]
 > Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
