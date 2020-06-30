@@ -104,10 +104,4 @@ Also related to secure messaging is the ability to have other tenants federated 
 
 ## Firstline Worker integration
 
-Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.
-
- See the following articles:
-
-- [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more. See [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
