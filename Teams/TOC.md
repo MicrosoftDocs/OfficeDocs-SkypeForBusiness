@@ -781,6 +781,7 @@
 
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
+### [Update your devices remotely](devices/remote-update.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
