@@ -1,6 +1,6 @@
 ---
 title: Manage Teams with Teams PowerShell
-ms.reviewer: 
+ms.reviewer: brandber
 author: BrandonBernier
 ms.author: brandber
 manager: kojiko

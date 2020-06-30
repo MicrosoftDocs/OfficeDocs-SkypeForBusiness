@@ -1,6 +1,6 @@
 ---
 title: Skype for Business Online Admin
-ms.reviewer: 
+ms.reviewer: brandber
 description: Learn how to manage Skype for Business Online for your organization.
 services: skype-for-business-online-admin
 author: tonysmit

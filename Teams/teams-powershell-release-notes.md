@@ -1,6 +1,6 @@
 ---
 title: Teams PowerShell Release Notes
-ms.reviewer: 
+ms.reviewer: brandber
 author: BrandonBernier
 ms.author: brandber
 manager: kojiko

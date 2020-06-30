@@ -1,6 +1,6 @@
 ---
-title: Install Teams PowerShell
-ms.reviewer: 
+title: Install Microsoft Teams PowerShell
+ms.reviewer: brandber
 author: BrandonBernier
 ms.author: brandber
 manager: kojiko
