@@ -155,7 +155,7 @@ In this example, we assign a Teams meeting policy named Student Meeting Policy t
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+To learn more, read [Managing policies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## Assign a policy package
 
