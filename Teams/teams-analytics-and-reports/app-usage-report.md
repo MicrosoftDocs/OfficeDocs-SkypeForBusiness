@@ -25,7 +25,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 ## View the App Usage report
 
-1.  In the left navigation of the admin center at <https://teams.admin.microsoft.com>, click **Analytics & reports** \> **Usage reports**. On the **View reports** tab, under **Report**, select **Apps Usage**.
+1.  In the left navigation of the admin center at <https://admin.teams.microsoft.com>, click **Analytics & reports** \> **Usage reports**. On the **View reports** tab, under **Report**, select **Apps Usage**.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Screenshot of the Usage Reports menu item":::
 
