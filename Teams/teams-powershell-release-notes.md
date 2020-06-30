@@ -26,7 +26,6 @@ This page provides the latest Teams PowerShell change log for both General Avail
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
-| June 2020 | [1.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0) | <li>Added New-CsTeamsBatching<li>Added New-CsTeamsGroupPolicyAssignment</li> |
 | June 2020 | [1.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0-preview) | <li>Skype for Business Online Connector integration<li>Get-Team optimizations<li>Enhanced reliability</li> |
 | June 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Added Cmdlet preloading<li>.Net Framework optimizations</li>   |
 | April 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode and assembly signing<li>Added Get-CsPolicyPackage<li>Added Get-CsUserPolicyPackage<li>Added Get-CsUserPolicyPackageRecommendation<li>Added Grant-CsUserPolicyPackage<li>Added New-CsBatchPolicyPackageAssignmentOperation<li>Added Set-TeamArchivedState<li>Added Set-TeamPicture<li>Removed Get-TeamHelp</li>  |
