@@ -1,5 +1,5 @@
 ---
-title: Teams PowerShell Release Notes
+title: Microsoft Teams PowerShell Release Notes
 ms.reviewer: brandber
 author: BrandonBernier
 ms.author: brandber
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams PowerShell Release Notes
+# Microsoft Teams PowerShell Release Notes
 
 This page provides the latest Teams PowerShell change log for both General Availability and Public Preview releases.
 
