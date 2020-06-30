@@ -102,9 +102,9 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
 - **brbFeedback** ???
-- **brbFormCancelled** ???
-- **brbFormOpened** ???
-- **brbFormSubmit** ???
+- **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
+- **brbFormOpened** - An event sent when the BRB form is opened.
+- **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -755,10 +755,10 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
 - **notificationNavPreCall** - A user gets a notification of a meeting starts that navigates them to the precall screen on selection.
-- **ocvFeedback** ???
-- **ocvFormCancelled** ???
-- **ocvFormOpened** ???
-- **ocvFormSubmit** ???
+- **ocvFeedback** - Relating to the performance of the OCV feedback form.
+- **ocvFormCancelled** - An event sent when the OCV feedback form is cancelled and the user returns to the app.
+- **ocvFormOpened** - An event sent when the OCV form is opened.
+- **ocvFormSubmit** - An event sent when the user clicks submit on the OCV feedback form.
 - **offerRecipientClicked** - Only logged if the request being sent is an offer. The user enters the team member picker to offer a shift. Offering means offering a shift time off.
 - **offerSwapShiftFromL1** - The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed**.
 - **offerSwapShiftFromL1Triggered** - A user offers to swap a shift with another user.
