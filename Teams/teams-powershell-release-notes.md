@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PowerShell Release Notes
 ms.reviewer: brandber
-author: BrandonBernier
+author: BrandBer
 ms.author: brandber
 manager: kojiko
 ms.date: 06/30/2020

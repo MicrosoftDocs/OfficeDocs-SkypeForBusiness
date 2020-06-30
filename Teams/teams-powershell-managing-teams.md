@@ -1,7 +1,7 @@
 ---
 title: Manage Teams with Microsoft Teams PowerShell
 ms.reviewer: brandber
-author: BrandonBernier
+author: brandber
 ms.author: brandber
 manager: kojiko
 ms.date: 06/30/2020
