@@ -23,7 +23,7 @@ appliesto:
 
 ## Overview of Tasks
 
-The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by [Microsoft To Do](https://todo.microsoft.com/tasks/) and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
+The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by [Microsoft To Do](https://todo.microsoft.com/tasks/) and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. **My tasks** and **Shared plans** in Tasks let users view and manage all their personal and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
 
 > [!NOTE]
 > As we roll out the Tasks experience on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**. There may be a short delay in the availability of the mobile experience after the desktop experience is available.
@@ -38,9 +38,9 @@ Tasks is available as an app and as a tab in a channel. Keep in mind that the ap
 
 With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guest users. It's important to know that guests can only access Tasks as an app from the Teams mobile client. Guests will see Tasks tabs on both Teams desktop and web clients.
 
-Personal lists show a user's individual tasks. Team lists show tasks that the whole team is working on and includes any task list that's added as a Tasks tab to a channel. Note the following:
+**My tasks** shows a user's individual tasks. **Shared plans** show tasks that the whole team is working on and includes any task list that's added as a Tasks tab to a channel. Note the following:
 
-- Personal lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, task lists that a user creates in To Do will appear in Personal lists in Tasks for that user. The same is true for individual tasks.
+- Task lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, task lists that a user creates in To Do will appear in **My tasks** in Tasks for that user. The same is true for individual tasks.
 
 - Any Tasks tab that's added to a channel will also appear in Planner clients. When a user creates a plan in Planner, the plan won't show in the Tasks or Planner app unless it's added as a tab to a channel. When a user adds a new Tasks tab, they can create a new list or plan or choose an existing one.
 
@@ -69,9 +69,9 @@ App setup policies let you customize Teams to highlight the apps that are most i
 
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-### Hide users' Personal lists if you don't want users to see them 
+### Hide My tasks if you don't want users to see it 
 
-If you don't want users to see Personal lists, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+If you don't want users to see **My tasks**, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Task publishing
 
