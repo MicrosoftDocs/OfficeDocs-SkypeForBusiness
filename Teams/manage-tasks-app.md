@@ -70,7 +70,7 @@ App setup policies let you customize Teams to highlight the apps that are most i
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 > [!NOTE]
-> Personal lists will be visible for any user licensed for Exchange Online, currently there is no supported way to hide them.
+> Personal lists will be visible for any user licensed for Exchange Online; currently, there is no supported way to hide them.
 
 ## Task publishing
 
