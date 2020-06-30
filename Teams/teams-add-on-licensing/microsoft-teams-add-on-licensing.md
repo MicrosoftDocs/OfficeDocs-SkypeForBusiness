@@ -42,7 +42,7 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |[Microsoft Teams Rooms](../rooms/index.md) isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 
-<sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
+<sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/en-us/microsoft-365/business/business-voice).
 
 ## What voice features are available with my plan?
 
@@ -72,7 +72,7 @@ Here's a summary, based on licensing plan.
 
 If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
-If you already have a Microsoft 365 Enterprise or Office 365 Enterprise plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
+If you already have a Microsoft 365 Enterprise or Office 365 Enterprise plan, you can still buy add-on licenses for individual voice features. However, you have the option to switch to a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Microsoft 365 Business Voice](https://www.microsoft.com/en-us/microsoft-365/business/business-voice). In some cases, depending on the features that you want, it might be more cost effective to get a Microsoft 365 Business plan with Microsoft 365 Business Voice.
 
 > [!NOTE]
 > If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
