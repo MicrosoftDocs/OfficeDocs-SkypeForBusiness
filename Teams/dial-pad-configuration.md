@@ -35,7 +35,7 @@ The following sections describe how to use PowerShell to check the criteria. In 
 
 ## User has an enabled Phone System (“MCOEV”) license
 
-You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability Plan is set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the the Capability Plan starts with MCOEV.
+You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability Plan set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the the Capability Plan starts with MCOEV.
 
 To check that the attributes are set correctly, use the following command:
 
@@ -43,7 +43,7 @@ To check that the attributes are set correctly, use the following command:
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-The output will look like the following. You need to check the **CapbilityStatus** and the **Capability Plan** attributes:
+The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability Plan** attributes:
 
 ```
 <Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
@@ -68,8 +68,9 @@ To check the attributes, use the following command:
 
 ```
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
+```
 
-The output will look like the following. You need to check the **CapbilityStatus** and the **Capability Plan** attributes:
+The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability Plan** attributes:
 
 ```  
 <Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
