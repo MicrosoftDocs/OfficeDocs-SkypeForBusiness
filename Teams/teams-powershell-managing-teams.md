@@ -44,19 +44,19 @@ Find the cmdlets for managing policies in the [Skype for Business cmdlet module]
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
-- GET commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use as well as the custom policies you’ve created.
-   > To find only the custom policies you’ve created in your organization, can use ``-Filter "tag:*"``.
+- **GET** commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use as well as the custom policies you’ve created.
+   - To find only the custom policies you’ve created in your organization, use ``-Filter "tag:*"``.
 
-- NEW commands (for example, ``New-CsTeamsMeetingPolicy``): Creates new policies for your organization to assign to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
+- **NEW** commands (for example, ``New-CsTeamsMeetingPolicy``): Creates new policies for your organization to assign to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
 
-- SET commands (for example, ``Set-CsTeamsMeetingPolicy``): Sets particular values on a given policy. Some policies don't have SET commands available, or they contain parameters that can't be customized in the policy. The PowerShell descriptions tell you which parameters can't be customized. 
-   > To edit the policy that will by default be assigned to users in your organization who do not have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
+- **SET** commands (for example, ``Set-CsTeamsMeetingPolicy``): Sets particular values on a given policy. Some policies don't have SET commands available, or they contain parameters that can't be customized in the policy. The PowerShell descriptions tell you which parameters can't be customized. 
+   - To edit the policy that will by default be assigned to users in your organization who do not have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
 
-- REMOVE commands (for example, ``Remove-CsTeamsMeetingPolicy``): Deletes a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
-   > You can’t actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, run ``Remove-Cs<PolicyName> -Identity Global``.
+- **REMOVE** commands (for example, ``Remove-CsTeamsMeetingPolicy``): Deletes a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
+   - You can’t actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, run ``Remove-Cs<PolicyName> -Identity Global``.
 
-- GRANT command (for example, ``Grant-CsTeamsMeetingPolicy``): Assigns a policy to a particular user.
-   > To remove a custom policy assignment and make the user fall back to the default policy in your organization, run ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``.
+- **GRANT** command (for example, ``Grant-CsTeamsMeetingPolicy``): Assigns a policy to a particular user.
+   - To remove a custom policy assignment and make the user fall back to the default policy in your organization, run ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``.
 
 > [!TIP]
 > Not all policies allow custom policies to be created, and some policies have settings that you can’t customize (so you can view the setting but can’t set a custom value during ``set-`` and ``new-``). The documentation for each cmdlet calls out whether parameters are available for use by customers.
