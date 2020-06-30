@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-## Install Microsoft Teams PowerShell
+# Install Microsoft Teams PowerShell
 
 This article explains how to install the Microsoft Teams PowerShell module using
 [PowerShellGet](/powershell/scripting/gallery/installing-psget). These instructions work on [Azure Cloud Shell](/azure/cloud-shell/overview), Linux, macOS, and Windows platforms.

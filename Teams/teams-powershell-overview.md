@@ -35,8 +35,6 @@ Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgall
 
 For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).
 
-> [!NOTE]
-> For some Teams features, PowerShell management is available only in the Teams PowerShell Public Preview - not in GA. One example is [private channel management](private-channels-life-cycle-management.md). Another example is the New-Team API, which has only been updated in PowerShell public preview to use Education and Firstline Worker team templates, so these templates aren't yet available for New-Team in PowerShell GA.
 
 ## Manage Teams with PowerShell
 
