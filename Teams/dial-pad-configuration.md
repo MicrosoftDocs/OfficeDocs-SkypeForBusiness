@@ -5,7 +5,6 @@ ms.author: crowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -16,8 +15,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- CSH
-description: "Learn about how to configure the dial pad in the Teams client so that users can access PSTN functionality."
+- NOCSH
+description: "Learn about how to configure the dial pad in the Teams client so that users can access Public Switched Telephone Network (PSTN) functionality."
 ---
 
 # Dial pad configuration
@@ -30,11 +29,11 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
 
-The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the Get-CsOnlineUser cmdlet. Examples assume $user is either the UPN or sipaddress of the user.
+The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the Get-CsOnlineUser cmdlet. Examples assume $user is either the UPN or sip address of the user.
 
 ## User has an enabled Phone System (“MCOEV”) license
 
-You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability Plan set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the the Capability Plan starts with MCOEV.
+You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability Plan set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability Plan starts with MCOEV.
 
 To check that the attributes are set correctly, use the following command:
 
@@ -61,7 +60,7 @@ The output will look like the following. You only need to check the **Capability
 
 ## User has Microsoft Calling Plan OR is enabled for Direct Routing
 
-**If the user has Microsoft Calling Plan**, you must ensure that the **CapabilityStatus attribute is set to Enabled** and that the **Capability Plan is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the the Capability Plan starts with MCOPSTN.
+**If the user has Microsoft Calling Plan**, you must ensure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability Plan is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability Plan starts with MCOPSTN.
 
 To check the attributes, use the following command:
 
