@@ -2,7 +2,7 @@
 title: Manage the Shifts app for your organization
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 # Manage the Shifts app for your organization in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective June 30, 2020, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on June 30, 2020. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
+> Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
 
 ## Overview of Shifts
 
@@ -60,7 +60,7 @@ To allow or block specific users in your organization from using Shifts, make su
 
 ### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
+App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
  
 Teams includes a built-in FirstlineWorker app setup policy that you can assign to Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
 
@@ -68,50 +68,9 @@ To view the FirstlineWorker policy, in the left navigation of the Microsoft Team
 
 ![Screenshot of the FirstlineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FirstlineWorker app setup policy in the Microsoft Teams admin center")
 
-#### Assign the FirstlineWorker policy to users
+#### Assign the FirstlineWorker app setup policy to users
 
-To assign the FirstlineWorker app setup policy to one user:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **App setup policy**, select **FirstlineWorker**, and then click **Apply**.
-
-To assign a policy to multiple users at a time:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, under **App setup policy**, select **FirstlineWorker**, and then click **Apply**.  
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Select the FirstlineWorker policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. After you finish adding users, select **Apply**.
-
-#### Assign the FirstlineWorker app setup policy to user members of a group
-
-You can assign the FirstlineWorker app setup policy to user members of a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
-
-In this example, we assign the FirstlineWorker app setup policy to all user members of the Contoso Firstline Team group.
-
-> [!NOTE]
-> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Get the GroupObjectId of the particular group.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-Get the members of the specified group.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Assign the FirstlineWorker app setup policy to all user members of the group.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-Depending on the number of members in the group, this command may take several minutes to execute.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## Search the audit log for Shifts events
 
