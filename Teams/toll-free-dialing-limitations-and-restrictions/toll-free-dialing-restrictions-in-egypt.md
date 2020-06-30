@@ -33,7 +33,7 @@ description: Learn about dialing toll-free numbers in Egypt, including availabil
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |Yes  <br/> |
+|Is toll-free calling available?  <br/> |No  <br/> |
 |Dialing format(s)  <br/> |0800-XXX-XXXX  <br/> |
 |Country/region ISO code  <br/> |EG  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |

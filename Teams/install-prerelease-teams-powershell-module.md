@@ -53,6 +53,7 @@ Use these steps to install the latest pre-release version of the Teams PowerShel
 7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
     ```PowerShell
+    Import-Module -Name MicrosoftTeams
     Get-Module -Name MicrosoftTeams
     ```
 
