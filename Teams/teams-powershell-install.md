@@ -110,25 +110,27 @@ Import-PsSession $session
 
 ## Update Teams PowerShell
 
-> [!WARNING]
-> If Teams PowerShell has already been imported into your PowerShell session, updating the module will fail.
-
 To update Teams PowerShell, open a new elevated PowerShell command prompt and run the following:
 
 ```powershell
 Update-Module MicrosoftTeams
 ```
 
+> [!WARNING]
+> If Teams PowerShell has already been imported into your PowerShell session, updating the module will fail. Close PowerShell and re-open a new elevated PowerShell session.
+
+
 ## Uninstall Teams PowerShell
 
-> [!WARNING]
-> If Teams PowerShell has already been imported into your PowerShell session, uninstalling the module will fail.
+
 
 To uninstall Teams PowerShell, open a new elevated PowerShell command prompt and run the following:
 
 ```powershell
 Uninstall-Module MicrosoftTeams
 ```
+> [!WARNING]
+> If Teams PowerShell has already been imported into your PowerShell session, uninstalling the module will fail. Close PowerShell and re-open a new elevated PowerShell session.
 
 ## Next Steps
 
