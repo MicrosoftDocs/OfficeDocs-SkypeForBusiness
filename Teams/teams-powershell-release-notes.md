@@ -22,7 +22,7 @@ This page provides the latest Teams PowerShell change log for both General Avail
 ## Release Notes
 
 > [!NOTE]
-> <b>-preview</b> in the version column below represents updates to Teams PowerShell public preview.
+> **-preview** in the version column below represents updates to Teams PowerShell public preview.
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
@@ -35,7 +35,7 @@ This page provides the latest Teams PowerShell change log for both General Avail
 ### Cmdlet availability
 
 > [!NOTE]
-> The list in the table below only includes what is natively in the Teams PowerShell module. The Teams cmdlets in the Skype for Business Online Connector module are not displayed. However, as those cmdlets are migrated natively into Teams PowerShell they will be added to this table.
+> The list in the table below only includes cmdlets that are natively part of the Teams PowerShell module. The Teams cmdlets in the Skype for Business Online Connector module are not displayed. However, as those cmdlets are migrated natively into Teams PowerShell, we'll add them to this table.
 
 | Cmdlet | Available in Public Preview | Available in GA |
 | -| -- | --|
@@ -82,10 +82,14 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Yes | <b>No</b> |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Yes | <b>No</b> |
 
-## Learn more
+## Related topics
 
-- [Teams PowerShell Overview](teams-powershell-overview.md)
-- [Installing Teams PowerShell](teams-powershell-install.md)
-- [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md)
-- [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Teams PowerShell Overview](teams-powershell-overview.md)
+
+[Installing Teams PowerShell](teams-powershell-install.md)
+
+[Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md)
+
+[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+
+[Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
