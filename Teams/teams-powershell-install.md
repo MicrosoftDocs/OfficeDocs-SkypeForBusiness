@@ -15,10 +15,10 @@ appliesto:
   - Microsoft Teams
 ---
 
-## Install Teams PowerShell
+## Install Microsoft Teams PowerShell
 
-This article explains how to install the Teams PowerShell module using
-[PowerShellGet](/powershell/scripting/gallery/installing-psget). These instructions work on [Azure Cloud Shell](/azure/cloud-shell/overview), Linux, macOS and Windows platforms.
+This article explains how to install the Microsoft Teams PowerShell module using
+[PowerShellGet](/powershell/scripting/gallery/installing-psget). These instructions work on [Azure Cloud Shell](/azure/cloud-shell/overview), Linux, macOS, and Windows platforms.
 
 ## Requirements
 
@@ -29,15 +29,13 @@ your operating system. Teams PowerShell has no additional requirements when run 
 and later.
 
 > [!WARNING]
-> There are known issues with PowerShell 7 and Teams PowerShell. For the best experience, use PowerShell 5.1.
+> There are known issues with PowerShell 7 and Teams PowerShell. For the best experience, we recommend that you use PowerShell 5.1.
 
 ## Install the Teams PowerShell module
 
-> [!NOTE]
-> For the best experience, you should be using either GA or Public Preview modules. They are not intended to be co-exist together.
-
-> [!NOTE]
-> If you are using the Public Preview version of Teams PowerShell. It is strongly recommended that you uninstall Skype for Business Online Connector prior.
+> [!NOTES]
+> - For the best experience, use either General Availability or Public Preview modules - not both. They're not intended to work together.
+> - If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
 
 Using the PowerShellGet cmdlets is the preferred installation method. By default, the PowerShell gallery isn't configured as a trusted repository for PowerShellGet. The first time you use the PSGallery you see the following prompt:
 
