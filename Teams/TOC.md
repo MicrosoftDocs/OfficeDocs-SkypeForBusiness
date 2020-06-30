@@ -791,6 +791,9 @@
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
+### [Install Teams PowerShell](teams-powershell-install.md)
+### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
+### [Teams PowerShell release notes](teams-powershell-release-notes.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)

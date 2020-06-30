@@ -1,5 +1,5 @@
 ---
-title: Managing Teams with Teams PowerShell
+title: Manage Teams with Teams PowerShell
 ms.reviewer: 
 author: BrandonBernier
 ms.author: brandber
@@ -15,11 +15,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Managing Teams with Teams PowerShell
+# Manage Teams with Teams PowerShell
 
 Teams PowerShell is a powerful ability. You can find detailed instructions on how to use all PowerShell controls for managing Microsoft Teams and Skype for Business, including detailed descriptions of the settings in each policy, in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-## Creating and managing teams via PowerShell
+## Create and manage teams using PowerShell
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
@@ -31,7 +31,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
-# Managing policies via PowerShell
+# Manage policies via PowerShell
 
 > [!NOTE]
 > Skype for Business Online Connector is being consolidated into Teams PowerShell. It is currently available in public preview. In time, Skype for Business Online cmdlets that apply to Teams will be natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
@@ -64,7 +64,7 @@ Common parameters:
 
 - **Identity**: For ``Get-``, ``Set-``, ``New-``, and ``Remove-``, the **Identity** parameter will always refer to a specific policy instance. For ``Grant``, the **Identity** parameter refers to a specific user object to whom the policy is being applied.
 
-## Managing configurations via PowerShell
+## Manage configurations via PowerShell
 
 The cmdlets for managing your configuration are in the [Skype for Business cmdlet module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
@@ -79,10 +79,14 @@ Configurations are buckets of settings maintained in the service that cannot be 
 
 Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to understand which PowerShell cmdlets different admin roles will be able to leverage.
 
-## Learn more
+## Related topics
 
-- [Installing Teams PowerShell](teams-powershell-install.md)
-- [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
-- [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+[Installing Teams PowerShell](teams-powershell-install.md)
+
+[Teams PowerShell Release Notes](teams-powershell-release-notes.md)
+
+[Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+
+[Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+
+[Use Teams admin roles to manage Teams](using-admin-roles.md)
