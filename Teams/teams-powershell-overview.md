@@ -36,12 +36,11 @@ Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgall
 For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).
 
 > [!NOTE]
-> For some Teams features, including private channel management and using all available team templates, PowerShell cmdlets are available only in public preview. 
+> For some Teams features for which there are PowerShell cmdlets, the feature itself is available only in Teams public preview. Examples include [private channel management](private-channels-life-cycle-management.md) and team templates for Education and firstline workers.
 
 ## Managing Teams with Teams PowerShell
 
-> [!NOTE]
-> The latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.
+
 
 You'll use both of these PowerShell modules to fully manage Teams:
 
@@ -51,7 +50,8 @@ You'll use both of these PowerShell modules to fully manage Teams:
 
 For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).
 
-
+> [!NOTE]
+> The latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.
 
 ## Related topics
 
