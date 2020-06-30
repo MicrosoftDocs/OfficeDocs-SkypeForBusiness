@@ -38,7 +38,7 @@ For detailed information on feature additions and improvements for both releases
 > [!NOTE]
 > For some Teams features - such as [private channel management](private-channels-life-cycle-management.md) - for which there are PowerShell cmdlets, the feature itself is available only in Teams public preview. 
 >
-> The New-Team API has only been updated in PowerShell public preview to use Education and Firstline worker team templates, so these templates aren't yet available for New-Team in PowerShell GA.
+> The New-Team API has only been updated in PowerShell public preview to use Education and Firstline Worker team templates, so these templates aren't yet available for New-Team in PowerShell GA.
 
 ## Manage Teams with PowerShell
 
