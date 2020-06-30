@@ -33,7 +33,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
-# Manage policies via PowerShell
+## Manage policies via PowerShell
 
 > [!NOTE]
 > - Skype for Business Online Connector is being consolidated into Teams PowerShell. It is currently available in public preview. In time, Skype for Business Online cmdlets that apply to Teams will be natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
