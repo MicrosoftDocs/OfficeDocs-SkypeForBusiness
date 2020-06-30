@@ -58,7 +58,7 @@ You can edit the global policy or any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
-3. Make the changes that you want, and then click **Save**.
+3. Make the changes that you want, and then click **Apply**.
 
 ### Using PowerShell
 
@@ -66,56 +66,9 @@ See [Set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/mo
 
 ## Assign a custom emergency calling policy to users
 
-### Using the Microsoft Teams admin center
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-To assign a policy to one user:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
-3. Under **Emergency calling policy**, select the policy you want to assign, and then click **Save**.
-
-To assign a policy to multiple users at a time:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
-
-### Using PowerShell
-
-#### Assign a custom emergency calling policy to a user
-
-See [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
-
-#### Assign a custom emergency calling policy to users in a group
-
-You may want to assign a custom emergency calling policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module.
-
-In this example, we assign a policy called Operations Emergency Calling Policy to all users in the Contoso Operations group.  
-
-> [!NOTE]
-> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Get the GroupObjectId of the particular group.
-```powershell
-$group = Get-AzureADGroup -SearchString "Contoso Operations"
-```
-Get the members of the specified group.
-```powershell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Assign all users in the group to a particular teams policy. In this example, it's Operations Emergency Call Routing Policy.
-```powershell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
-``` 
-Depending on the number of members in the group, this command may take several minutes to execute.
+See also [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
 
 ## Assign a custom emergency calling policy to a network site
 
@@ -129,6 +82,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 ## Related topics
 
-- [Manage emergency call routing policies in Teams](manage-emergency-call-routing-policies.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+[Manage emergency call routing policies in Teams](manage-emergency-call-routing-policies.md)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Assign policies to your users in Teams](assign-policies.md)
