@@ -69,37 +69,36 @@ The following Collaboration bars are Certified for Microsoft Teams:
 
 ### Product Release Information-Teams Phones
 The following are the latest Teams IP Phone App versions and Firmware version released
-#### Release Date: May 13,2020
+#### Release Date: June 26,2020
 #### App Versions
-|App| Version|
-|:---|:---|
-|Teams | .040801|
-|Admin Agent|.210|
-|Company Portal| .4715|
+|Product Release | Release Date|Microsoft Teams App Version|Company Portal Version| Admin Agent Version|
+|:---|:---|:---|:---|:---|
+|Update #4|June 30,2020|1449/1.0.94.2020051601| 5.0.4771.0|1.0.0.202005060552|
+|Update #3|May 13,2020|.040801| .4715|1.210|
 
 #### Firmware Versions
-|Update #3| Firmware Released to Prod|
-|:---|:---|
-|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
-|Poly CCX400|1.0.1.0054|
-|Poly CCX500/ CCX600|5.9.13.0306|
-|Yealink T55/T56/T58|58.15.0.104|
-|Yealink VP59|91.15.0.40|
-|Yealink CP960|73.15.0.100|
+|Device Model|Firmware Released to Prod|Update Version On| 
+|:---|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.4.208|Update#4|
+|Poly CCX400|1.0.1.0054|Update#3|
+|Poly CCX500/ CCX600|5.9.13.0306|Update#3|
+|Poly Trio C60|5.9.4.6317|Update#4|
+|Yealink T55/T56/T58|58.15.0.107|Update#4|
+|Yealink VP59|91.15.0.42|Update#4|
+|Yealink CP960|	73.15.0.103|Update#4|
 
 ### Product Release Information-Collaboration Bar
 The following are the latest Teams Collaboration Bar App versions and Firmware version released
 #### App Versions
-|App| Version|
-|:---|:---|
-|Teams | .040901|
-|Admin Agent|.210|
-|Company Portal| .4715|
+|Product Release | Release Date|Microsoft Teams App Version|Company Portal Version| Admin Agent Version|
+|:---|:---|:---|:---|:---|
+|Update #3| May 13,2020|.040901|.4715|.210|
 
 #### Firmware Versions
-|Update #3| Firmware Released to Prod|
-|:---|:---|
-|Yealink VC210|118.15.0.19|
+|Device Model|Firmware Released to Prod|Update Version On| 
+|:---|:---|:---|
+|Yealink VC210|118.15.0.19|Update #3|
+
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
