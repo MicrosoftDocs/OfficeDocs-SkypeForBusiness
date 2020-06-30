@@ -33,7 +33,7 @@ and later.
 
 ## Install the Teams PowerShell module
 
-> [!NOTES]
+> [!NOTE]
 > - For the best experience, use either General Availability or Public Preview modules - not both. They're not intended to work together.
 > - If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
 
