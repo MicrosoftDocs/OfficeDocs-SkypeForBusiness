@@ -44,22 +44,22 @@ Find the cmdlets for managing policies in the [Skype for Business cmdlet module]
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
-- GET commands (for example, ``Get-CsTeamsMeetingPolicy``):  return the policy documents that are available for you to assign in your organization, both the policies created by Microsoft for you to use and the custom policies you’ve created.
-   > If you want to find only the custom policies you’ve created in your organization, you can use ``-Filter "tag:*"``.
+- GET commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use as well as the custom policies you’ve created.
+   > To find only the custom policies you’ve created in your organization, can use ``-Filter "tag:*"``.
 
-- NEW commands (for example, ``New-CsTeamsMeetingPolicy``): let you create new policies for your organization that are then available to be assigned to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
+- NEW commands (for example, ``New-CsTeamsMeetingPolicy``): Creates new policies for your organization to assign to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
 
-- SET commands (for example, ``Set-CsTeamsMeetingPolicy``): lets you set particular values on a given policy. Some policies do not have set commands available, or contain parameters that cannot be customized in the policy. Each PowerShell description will call out which parameters cannot be customized. 
+- SET commands (for example, ``Set-CsTeamsMeetingPolicy``): Sets particular values on a given policy. Some policies don't have SET commands available, or they contain parameters that can't be customized in the policy. The PowerShell descriptions tell you which parameters can't be customized. 
    > To edit the policy that will by default be assigned to users in your organization who do not have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
 
-- REMOVE commands (for example, ``Remove-CsTeamsMeetingPolicy``): you can use this cmdlet to delete a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
-   > You can’t actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, you can run ``Remove-Cs<PolicyName> -Identity Global``.
+- REMOVE commands (for example, ``Remove-CsTeamsMeetingPolicy``): Deletes a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
+   > You can’t actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, run ``Remove-Cs<PolicyName> -Identity Global``.
 
-- GRANT command (for example, ``Grant-CsTeamsMeetingPolicy``): lets you assign a policy to a particular user.
+- GRANT command (for example, ``Grant-CsTeamsMeetingPolicy``): Assigns a policy to a particular user.
    > To remove a custom policy assignment and make the user fall back to the default policy in your organization, run ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``.
 
 > [!TIP]
-> Not all policies allow custom policies to be created, and some policies have settings that you can’t customize (so you can view the setting but can’t set a custom value during ``set-`` and ``new-``). The documentation of the specific cmdlet will call out if parameters are not available for use by customers.
+> Not all policies allow custom policies to be created, and some policies have settings that you can’t customize (so you can view the setting but can’t set a custom value during ``set-`` and ``new-``). The documentation for each cmdlet calls out whether parameters are available for use by customers.
 
 Common parameters:
 
@@ -69,7 +69,7 @@ Common parameters:
 
 Find the cmdlets for managing your configuration in the [Skype for Business cmdlet module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
-Configurations are buckets of settings maintained in the service that cannot be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
+Configurations are buckets of settings maintained in the service that can't be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
 
 - ``Get-Cs<ConfigurationName>`` (for example, ``Get-CsTeamsClientConfiguration``):
 
