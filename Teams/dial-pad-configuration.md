@@ -29,7 +29,6 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User has Enterprise Voice enabled
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
-- User has a phone number assigned
 
 The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the Get-CsOnlineUser cmdlet. Examples assume $user is either the UPN or sipaddress of the user.
 
@@ -125,7 +124,7 @@ To ensure the user is homed online and not in Skype for Business on premises, th
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-The output should look like:
+The output should be similar to:
 
 ```
 RegistrarPool                 HostingProvider
@@ -159,14 +158,6 @@ PreventTollBypass          : False
 BusyOnBusyEnabledType      : Disabled
 MusicOnHoldEnabledType     : Enabled
 ``` 
-
-## User has a phone number assigned
-
-To ensure that the user has a valid phone number assigned, use the following command:
-
-```
-Get-CsOnlineUser -Identity $user
-```
 
 ## Additional notes
 
