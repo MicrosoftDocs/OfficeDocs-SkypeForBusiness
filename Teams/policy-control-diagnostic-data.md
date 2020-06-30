@@ -410,7 +410,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **daySaved** - A user saves the day availability, saves a day of shifts.
 - **declineTimeOffRequest** - When a user declines the request for time off of work. It's a key functionality for time off, for manager to reject time off request.
 - **deleteClicked** - When **Delete** is selected within task details, which brings up the confirmation dialog.
-- **deleteContact** ???
+- **deleteContact** - A user deletes an existing private contact.
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
@@ -477,7 +477,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **dueDateUnselected** - Triggers when a user unapplies a filter by dueddate while viewing a tasklist.
 - **edit** - **Edit** button in a chat message.
 - **editChannel** - A user selects a button to edit a channel that they own or administer.
-- **editContact** ???
+- **editContact** - A user edits an existing private contact, this can be done by navigating to the contact card.
 - **editMeetingResponse** - Edit meeting response from the meeting detail page.
 - **editNavigation** - **Reorder** is selected in the **More** menu to edit the order of bottom bar apps.
 - **editRsvpMeetingOptions** - Select **RSVP** to change from the previous selection.
@@ -727,7 +727,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **navOrganization** - Triggered when the Organization app is opened.
 - **navOrgChart** - Triggered when the Orgchart app is opened.
 - **navPeople** - Event is triggered when the People app is opened.
-- **navPeopleSettings** - This is not being sent in the newer builds. ???
 - **navPersonalFiles** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (Android).
 - **navPhotoTab** - Photo tab.
 - **navSaved** - A user navigates to the Saved tab or app on the bottom bar or app tray.
@@ -785,7 +784,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Determining  if files can be opened successfully from a file list.
 - **openInAppClicked** - Option inside task item more options list, only available for personal tasks.
 - **opensCalendarView** - Tapping on **Open shifts** from the Schedule tab.
-- **openContactCard** ???
+- **openContactCard** - A user taps on a **Contact** icon or a contact in the people app to launch the profile card of that contact.
 - **openContactCard_ReactionSummary** - Navigate to contact card from the reaction summary page.
 - **openFileInApp** - Helps to identify if user opted to open files outside of Teams versus inside of Teams.
 - **openHamburgerMenu** - The **Hamburger** icon (top-left) is selected to open the side menu for access to settings, presence, and tenant switcher.
@@ -807,7 +806,10 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **parental_consent_remove** ???
 - **pauseVoicemail** - **Pause** tapped on a voicemail item.
 - **people** ???
-- **peoplePickerInvoked** ???
+- **peoplePickerInvoked** - People Picker is used across seven places in Teams mobile, including (but not limited to):
+  - New chat picker.
+  - Forward a message.
+  - add participant to a meeting.
 - **personalAppNavBotChat** - Navigate to the bot within personal app.
 - **personalAppNavTab** - Navigate to tabs within personal app.
 - **photoLibraryPicker** - **Open photo library** tapped inside image picker.
