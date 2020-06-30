@@ -101,7 +101,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Numbers from settings.
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
-- **brbFeedback** ???
+- **brbFeedback** - Relating to the performance of the BRB feedback form.
 - **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
 - **brbFormOpened** - An event sent when the BRB form is opened.
 - **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
