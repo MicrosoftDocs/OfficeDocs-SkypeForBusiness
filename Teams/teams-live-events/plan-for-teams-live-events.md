@@ -90,7 +90,7 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 > 
-> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
