@@ -34,8 +34,8 @@ Public preview is enabled on a per-client basis, but the option to turn on publi
 To enable the public preview on a desktop or web client, you need to do the following:
 
 1. Click on your profile to display the Teams menu.
-2. Select About → Public preview.
-3. Select Switch to Public preview.
+2. Select **About** → **Public preview**.
+3. Select **Switch to Public preview**.
 You might need to restart Teams after switching to Public preview.
 
 
@@ -44,7 +44,7 @@ You might need to restart Teams after switching to Public preview.
 To enable the public preview on a mobile client, you need to do the following:
 
 1. Open the hamburger menu, then select Settings.
-2. Select About.
+2. Select **About**.
 3. Click the **Public preview** toggle.
 4. Disable public preview
 5. Use the same menu item under **About** → **Public preview**, and click on it to turn it off.
@@ -52,7 +52,7 @@ You might need to restart Teams after switching to Public preview.
 
 ## Features available in public preview
 
-For a full list of the features currently enabled in public preview see: Features in the public preview.
+For a full list of the features currently enabled in public preview see (I'm guessing here. Features in the public preview.)
 
 ## Batch preview settings
 
