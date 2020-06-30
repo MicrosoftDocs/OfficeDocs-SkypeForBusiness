@@ -34,8 +34,8 @@ and later.
 ## Install the Teams PowerShell module
 
 > [!NOTE]
-> - For the best experience, use either General Availability (GA) or Public Preview modules - not both. They're not intended to work together.
-> - If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
+> For the best experience, use either General Availability (GA) or Public Preview modules - not both. They're not intended to work together.
+
 
 Use the **PowerShellGet** cmdlets to install the Teams PowerShell module. Installing the module for all users on a system requires elevated privileges. Start the PowerShell
 session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux:
@@ -61,8 +61,11 @@ Answer `Yes` or `Yes to All` to continue with the installation.
 
 ## Install Teams PowerShell public preview
 
+> [!NOTE]
+> If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
+
 Installing the Teams PowerShell public preview module for all users on a system requires elevated privileges. Start the PowerShell
-session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux:
+session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux.
 
 If you're using PowerShell 5.1, you must update the **PowerShellGet** module beforehand. After you update **PowerShellGet**, close and reopen an elevated PowerShell session to ensure that the latest **PowerShellGet** is loaded.
 
