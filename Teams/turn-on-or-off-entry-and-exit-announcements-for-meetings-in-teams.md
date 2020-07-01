@@ -38,7 +38,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 You must be an admin to make these changes.
 
-1. Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
 
 2. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
