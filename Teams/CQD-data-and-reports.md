@@ -401,7 +401,10 @@ Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in 
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 
-After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
+After the first time you sign in, CQD will begin collecting and processing data. 
+
+> [!IMPORTANT]
+> As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Sometime in late 2020, we'll turn off the old CQD and you'll no longer be able to access it.
 
 
 ## Related topics

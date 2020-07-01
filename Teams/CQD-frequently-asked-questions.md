@@ -91,7 +91,15 @@ To learn how to use these Power BI templates to analyze and report your CQD data
 
 ### Why is CQD data from Skype for Business different than CQD data from Teams? 
 
+
+> [!IMPORTANT]
+> As of July 1, 2020, the older CQD accesses data from the latest CQD. The older CQD data is no longer available, and you can't export your building or report data.
+
+
 If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
+
+
+
 Here's an example of applying specific filters to compare CQD v2 and CQD v3 data:
 
 1. QoE Record Available = True
@@ -108,6 +116,9 @@ Here's an example of applying specific filters to compare CQD v2 and CQD v3 data
 
 To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
 
+
+> [!IMPORTANT]
+> As of July 1, 2020, the older CQD accesses data from the latest CQD. The older CQD data is no longer available, and you can't export your building or report data.
 
 You’ll likely see more data differences between your older and newer CQD reports at the aggregated or summary level. If you compare data at a more granular level, you’ll get an “apples-to-apples” comparison. For example, if you’re looking at data for an individual building, the Percentage of Poor Quality should be the same between both the older and new CQD reports.
 

@@ -62,18 +62,15 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
 
-After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
+After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the latest CQD.
 
 
 ## Migrate building data and reports from previous version of CQD
 
-If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here's how:
+> [!IMPORTANT]
+> As of July 1, 2020, you can no longer migrate building data and reports from the old CQD (https://CQD.lync.com). 
 
-1.    Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
-2.    Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
-3.    Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
-4.    From the links on the left, click **Import** and select the exported file. 
-5.    After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
+
 
 ## Use Power BI to analyze CQD data
 
