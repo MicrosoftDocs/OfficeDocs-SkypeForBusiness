@@ -317,8 +317,7 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
-These cmdlets are part of the Teams PowerShell public preview. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
-
+These cmdlets are part of the Teams PowerShell public preview module. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
 
 #### Assign a policy to a group
 
