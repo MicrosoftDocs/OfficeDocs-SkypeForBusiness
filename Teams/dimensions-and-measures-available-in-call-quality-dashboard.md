@@ -510,6 +510,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Total Answer Seizure Ratio |Ratio |Ratio of calls with duration less than 5 seconds over the total number of calls. |
 |Total Short Call Percentage |Percentage |Percentage of total calls less than 1 minute long. |
 |Total Media Failure Percentage |Percentage |Percentage of all streams where either media path could not be established or did not terminate normally. |
+|Total Audio Stream Duration (Minutes) |Minutes |Total audio stream duration in minutes in the selected time range. |
 |Media Failed Due To Firewall DPI Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
 |Firewall DPI Media Failure Percentage |Percentage |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
 |Media Failed Due To Firewall IP Blocked Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
@@ -661,15 +662,15 @@ Many Measurement values can also be used as filters. The following table lists t
 | Second User Count|Number|Number of unique or distinct second endpoint users. There is an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | Avg Second Device Glitches Event Ratio|Percentage|Average fraction of the call that the second endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
-| First Device Glitches Event Count|Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
-| Second Device Glitches Event Count|Number of stream where the second endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
+| First Device Glitches Event Count| Number | Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
+| Second Device Glitches Event Count| Number | Number of stream where the second endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | PSTN Total Attempts Count | Number of calls | Total attempted calls, including successful calls and failed calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Total Connected Count | Number of calls | Total successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Inbound Attempts Count | Number of calls | Total inbound attempted calls, including successful calls and failed calls in the select time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Inbound Connected Count | Number of calls | Total inbound successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Outbound Attempts Count | Number of calls | Total outbound attempted calls, including successful calls and failed calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
 |PSTN Outbound Connected Count | Number of Calls | Total outbound successfully connected calls in the selected time range. There is an up to 0.2% error for this measure. See note below for details.|
-|PSTN Total Minutes | Minutes | Total minutes | Total minute usage in the selected time range.|
+|PSTN Total Minutes | Minutes | Total minute usage in the selected time range.|
 |PSTN Inbound Total Minutes | Minutes | Total inbound minute usage in the selected time range.|
 |PSTN Outbound Total Minutes | Minutes | Total outbound minute usage in the selected time range.|
 |PSTN Active User Count | Number of users | The number of users who made at least one connected call during that day.|
