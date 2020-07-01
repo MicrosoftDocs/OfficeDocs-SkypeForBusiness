@@ -155,7 +155,7 @@ In this example, we assign a Teams meeting policy named Student Meeting Policy t
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+To learn more, read [Managing policies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## Assign a policy package
 
@@ -310,40 +310,15 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 ### Using PowerShell
 
-**This feature is currently only available in private preview. The cmdlets for this feature are in the pre-release Teams PowerShell module.**
+**This feature is currently only available in private preview. The cmdlets for this feature are in the Teams PowerShell public preview module.**
 
 > [!NOTE]
 > Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
-The cmdlets are in the pre-release version of the Teams PowerShell module. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+These cmdlets are part of the Teams PowerShell public preview. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
 
-If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Run the following to install the latest Microsoft Teams PowerShell module from the PowerShell Test Gallery.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-When you're prompted, sign in using your admin credentials.
 
 #### Assign a policy to a group
 
