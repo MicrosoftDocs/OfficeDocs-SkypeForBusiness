@@ -30,6 +30,8 @@ The available meeting features are:
 - Whiteboard
 - Recording
 - Files
+    - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat
+    - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting
 - Schedule a meeting (for meetings only)
 
 This article describes those participant capabilities and what access they have to meeting features.
@@ -56,14 +58,15 @@ There are several types of meeting participants:
 
 The in-tenant participant belongs to the organization and has credentials for the tenant. Learn more about this participant in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
-|Meeting  |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes |Yes |
 | Whiteboard | Yes | Yes |Yes |
 | Recording | N/A |Yes | Yes |
-| Files | Yes | Yes | Yes |
+| Files - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat | Yes | Yes | Yes |
+| Files - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting | Yes | Yes | Yes |
 | Schedule a meeting | Yes | N/A | N/A |
 |||||||
 
@@ -71,14 +74,15 @@ The in-tenant participant belongs to the organization and has credentials for th
 
 A guest participant is someone from another organization who has been invited to access Teams or other resources in your organization's tenant, based on the Azure Active Directory B2B platform. Guest users can be invited to join regular meetings and channel meetings. Read more about a guest participant in [What the guest experience is like](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
-| Meeting |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat | Yes | Yes | Yes |
 | Meeting Notes | Yes | Yes | Yes |
 | Whiteboard | No | No |No |
 | Recording | N/A |No | No |
-| Files | Yes | Yes | Yes |
+| Files - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat | Yes | Yes | Yes |
+| Files - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting | Yes | Yes | Yes |
 | Schedule a meeting | No | N/A | N/A |
 |||||||
 
@@ -86,14 +90,15 @@ A guest participant is someone from another organization who has been invited to
 
 An external participant is someone using Teams in another organization who has been invited to join a meeting, but does not otherwise have access to other shared resources from your organization. External user participants appear in the meeting roster with the same identity name as they have in their own organization. Read more about an external participant in [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md#external-access).
 
-| Meeting ||
+|  ||
 |-|-|-|
 | **Feature** |||
 | Chat | Yes |
 | Meeting Notes | N/A |  
 | Whiteboard | N/A |
 | Recording | N/A |  
-| Files | N/A |
+| Files - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat |  |  |  |
+| Files - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting |  |  |  |
 | Schedule a meeting | N/A |
 |||
 
@@ -101,14 +106,15 @@ An external participant is someone using Teams in another organization who has b
 
 The anonymous participant is like an external user, but their identity is not projected into the meeting. At join time, they manually enter a nickname. Learn more about an anonymous participant in [Security and Microsoft Teams](teams-security-guide.md#participant-types).
 
-| Meeting  | | |||
+|   | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Pre-meeting | In-meeting | Post-meeting |
 | Chat | N/A | Yes | N/A |
 | Meeting Notes | N/A | No | N/A |
 | Whiteboard | N/A | No | N/A |
 | Recording | N/A | No | N/A |
-| Files | N/A | No | N/A |
+| Files - sharing a file into a meeting chat and viewing/downloading a file from a meeting chat |  |  |  |
+| Files - presenting a PPT in a meeting (not via screensharing) and viewing a PPT in a meeting |  |  |  |
 | Schedule a meeting | N/A | N/A | N/A |
 |||||||
 
