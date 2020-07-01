@@ -20,7 +20,7 @@ appliesto:
 Manage the Office 365 G1 Trial for US government 
 ==============================
 
-As of July 1, 2020, no new Office 365 G1 Trial licenses are available. If you still need a free Microsoft Teams license, check out [Teams Exploratory](teams-exploratory.md) or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
+As of July 1, 2020, the Office 365 E1 Trial license is not longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. 
 
 Use the guidance in this article to manage your existing Office 365 G1 Trial licenses, including [upgrading to a paid subscription](#upgrade-users-from-the-office-365-g1-trial-license). To learn more, read [Microsoft 365 Government Plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) and the [Microsoft Teams capabilities available in the GCC Cloud](plan-for-government-gcc.md).
 

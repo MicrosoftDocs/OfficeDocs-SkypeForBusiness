@@ -20,9 +20,10 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-As of July 1, 2020, no new Office 365 E1 Trial licenses are available. If you still need a free Microsoft Teams license, check out [Teams Exploratory](teams-exploratory.md) or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
+As of July 1, 2020, the Office 365 E1 Trial license is not longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the [Teams Exploratory](teams-exploratory.md) experience, or employees can activate the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**.
 
-If you're a Teams for Education customer, check out the free t[Office 365 A1 license](teams-edu-licensing.md).
+
+If you're a Teams for Education customer, check out the free [Office 365 A1 license](teams-edu-licensing.md).
 
 Use the guidance in this article to manage your existing Office 365 E1 Trial licenses, including [upgrading to a paid subscription](#upgrade-users-from-the-office-365-e1-trial-license).
 
