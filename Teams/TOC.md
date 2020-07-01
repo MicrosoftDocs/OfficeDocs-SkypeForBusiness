@@ -259,6 +259,7 @@
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
+### [Dial pad configuration](dial-pad-configuration.md)
 
 
 ## Calling Plans
