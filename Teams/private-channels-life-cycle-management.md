@@ -25,7 +25,7 @@ description: Learn how to manage the life cycle of private channels in your orga
 Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.
 
 > [!IMPORTANT]
-> If you're using the PowerShell steps in this article to manage private channels, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Microsoft Teams PowerShell](teams-powershell-install.md). The Generally Available version of the Teams PowerShell module doesn't support managing private channels.
+> If you're using the PowerShell steps in this article to manage private channels, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Microsoft Teams PowerShell](teams-powershell-install.md). The General Availability Teams PowerShell module doesn't support managing private channels.
 
 ## Set whether team members can create private channels
 
