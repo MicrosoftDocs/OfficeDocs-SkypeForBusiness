@@ -26,7 +26,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 
 ## IT admin guidance
 
-- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory]**(teams-exploratory.md) experience.
+- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
