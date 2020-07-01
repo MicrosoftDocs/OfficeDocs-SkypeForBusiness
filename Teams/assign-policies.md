@@ -25,7 +25,7 @@ f1keywords:
 > [!NOTE]
 > **Note the following about one of the features discussed in this article, policy assignment to groups**: 
 > - [Policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon. 
-> - [Policy assignment to groups using PowerShell](#using-powershell-3), is currently only available in private preview. The Powershell cmdlets for this feature are in the pre-release Teams PowerShell module.
+> - [Policy assignment to groups using PowerShell](#using-powershell-3), is currently only available in private preview. The cmdlets for this feature are in the Teams PowerShell public preview module.
 >
 > To stay on top of the release status of this feature, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -317,8 +317,7 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
-These cmdlets are part of the Teams PowerShell public preview. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
-
+These cmdlets are part of the Teams PowerShell public preview module. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
 
 #### Assign a policy to a group
 
