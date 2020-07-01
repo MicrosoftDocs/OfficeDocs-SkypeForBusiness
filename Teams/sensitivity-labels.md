@@ -109,7 +109,7 @@ You can specify whether a team created with a specific label allows guest access
 
 **Child default labels not showing during team creation**
 
-Currently, a child label set as the default label for Teams will not show at the top of the list in the sensitivity labels dropdown in the team creation modal. Team creators can still use the drop down to apply the child label as a workaround.
+Currently, a child label set as the default label for Teams will not show at the top of the list in the sensitivity labels dropdown in the team creation model. Team creators can still use the dropdown to apply the child label as a workaround.
 
 **Support for sensitivity labels in the Microsoft Teams admin center**
 
