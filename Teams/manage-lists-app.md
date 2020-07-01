@@ -82,12 +82,6 @@ Lists is enabled by default for all Teams users in your organization. You can tu
 
 To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-### Use an app setup policy to pin Lists to Teams
-
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps that you set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
-
-To pin the Lists app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
-
 ## Search the audit log for list events
 
 You can search the audit log to view list activity in your organization. To learn more, see [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
