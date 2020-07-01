@@ -94,7 +94,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
 |\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |If true, proximity based meetings are automatically accepted. Disabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
-| \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. | 
+| \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. |
+|\<DisableTacCommunication\> |Boolean &#x2777;  |First &#x2776; |If true, all communication with Teams Admin Center device management will be disabled. |
 |\<SendLogs\> |Container |First &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |String  &#x2778;  | | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
 |\<SendLogsAndFeedback\> |Boolean &#x2777;  | | If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs).  |

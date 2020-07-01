@@ -37,7 +37,7 @@ Your Microsoft 365 or Office 365 organization admins, technical leads, and suppo
 Share the following resources with your IT staff members, and confirm that they're ready to support users before you begin your upgrade to Teams:
 
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
-- [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
 - [Use log files in troubleshooting Microsoft Teams](log-files.md)
 

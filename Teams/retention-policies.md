@@ -54,7 +54,7 @@ The minimum licensing requirement for retention policies is Office 365 E3. To le
 
 ## How Teams retention policies work
 
-Teams chats are stored in a hidden SubstrateHolds folder in the mailbox of each user in the chat, and Teams channel messages are stored in a hidden SubstratesHolds folder in the group mailbox for a team. Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. With a Teams retention policy, when you delete data, the data is permanently deleted from both the Exchange mailboxes and the underlying chat service.
+Teams chats are stored in a hidden folder-Teamschat- in the mailbox of each user in the chat, and Teams channel messages are stored in a hidden folder-Teamschat- in the group mailbox for a team. Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. With a Teams retention policy, when you delete data, the data is permanently deleted from both the Exchange mailboxes and the underlying chat service.
 
 When you apply a retention policy to Teams chats and channel messages, here's what happens:
 
@@ -78,7 +78,7 @@ Here's some considerations and limitations to be aware of when working with Team
 
 - Teams doesn't support advanced retention settings, such as the ability to apply a policy to content that contains keywords or sensitive information. Currently, retention policies in Teams apply to all chat and/or channel message content.
 
-- Teams may take up to three to seven days to clean up expired messages. A Teams retention policy will delete chat and channel messages when the retention period expires. However, it may take up to three to seven days to clean up these messages and permanently delete them. Also, chat and channel messages will be searchable with eDiscovery tools between the time after the retention period expires and when messages are permanently deleted.
+- A Teams retention policy will trigger a process, within a day, to delete chat and channel messages when the retention period expires. However, it may take up to three to seven days to clean up these messages and permanently delete them. Also, chat and channel messages will be searchable with eDiscovery tools between the time after the retention period expires and when messages are permanently deleted.
 
 ### Multiple retention policies and the principles of retention
 

@@ -164,7 +164,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams admin docs</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice feedback</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams client docs</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Microsoft 365 and Office 365 admin docs</a></p>
+                                                     <P><a href="https://docs.microsoft.com/microsoft-365/admin/">Microsoft 365 and Office 365 admin docs</a></p>
                                                 </div>
                                             </div>
                                         </div>
