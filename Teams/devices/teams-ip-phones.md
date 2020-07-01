@@ -75,21 +75,23 @@ The following are the latest Teams IP phone app and firmware versions.
 
 #### App versions
 
-| Product release | Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
-|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #4       | June 30,2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Update #3       | May 13,2020  | .040801                     | .4715                  | 1.210               |
+| Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
+|:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Update #4       | June 30, 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Update #3       | May 13, 2020  | .040801                     | .4715                  | 1.210               |
 
 #### Firmware versions
 
-| Device model        | Firmware version     | Included in app release |
-|:--------------------|:---------------------|:------------------------|
-| AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Update #4               |
-| Poly CCX400         | 1.0.1.0054           | Update #3               |
-| Poly CCX500/ CCX600 | 5.9.13.0306          | Update #3               |
-| Yealink T55/T56/T58 | 58.15.0.107          | Update #4               |
-| Yealink VP59        | 91.15.0.42           | Update #4               |
-| Yealink CP960       | 73.15.0.103          | Update #4               |
+When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
+
+| Device model        | Firmware version     | Included product release |
+|:--------------------|:---------------------|:-------------------------|
+| AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Update #4                |
+| Poly CCX400         | 1.0.1.0054           | Update #3                |
+| Poly CCX500/CCX600  | 5.9.13.0306          | Update #3                |
+| Yealink T55/T56/T58 | 58.15.0.107          | Update #4                |
+| Yealink VP59        | 91.15.0.42           | Update #4                |
+| Yealink CP960       | 73.15.0.103          | Update #4                |
 
 ### Product release information for Collaboration Bars
 
@@ -99,14 +101,15 @@ The following are the latest Teams Collaboration Bar app and firmware versions.
 
 | Product release | Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #3       | May 13,2020  | .040901                     | .4715                  | .210                |
+| Update #3       | May 13, 2020 | .040901                     | .4715                  | .210                |
 
 #### Firmware versions
 
-| Device model  | Firmware version | Included in app release |
-|:--------------|:-----------------|:------------------------|
-| Yealink VC210 | 118.15.0.19      | Update #3               |
+When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
 
+| Device model  | Firmware version | Included product release |
+|:--------------|:-----------------|:-------------------------|
+| Yealink VC210 | 118.15.0.19      | Update #3                |
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
