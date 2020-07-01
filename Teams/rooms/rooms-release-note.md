@@ -66,8 +66,8 @@ Introduced in this update:
 - Quality and reliability fixes
 - Fix for "application won't launch after update to 4.4.41.0" issue
 
-Note: Devices previously in broken state (with app version 4.4.41.0) and not automatically updated to 4.4.63.0, you should download remediation tool [here](https://support.microsoft.com/en-us/help/4565998/teams-rooms-application-does-not-start-after-update). 
-
+> [!NOTE]
+> If your device has an app version of 4.4.41.0 and you can't update to 4.4.63.0, or if your device updates and then downgrades to 4.4.41.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.
 
 ### 4.4.41.0 (05/06/2020)
 
