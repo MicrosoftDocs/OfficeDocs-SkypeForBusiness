@@ -20,7 +20,7 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-As of July 1, 2020, the Office 365 E1 Trial license is not longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the [Teams Exploratory](teams-exploratory.md) experience, or employees can activate the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**.
+As of July 1, 2020, the Office 365 E1 Trial license is not longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory]**(teams-exploratory.md) experience.
 
 
 If you're a Teams for Education customer, check out the free [Office 365 A1 license](teams-edu-licensing.md).
