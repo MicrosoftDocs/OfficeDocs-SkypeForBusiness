@@ -48,7 +48,7 @@ Here's some examples of how you can manage Teams devices in your organization.
 |To do this...  |Do this |
 |---------|---------|
 |Change device information   | Select a device > **Edit**. You can edit details such as device name, asset tag, and add notes.     |
-|Manage software updates   |Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install.    |
+|Manage software updates   |Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. For more information about updating devices, see [Update Microsoft Teams devices remotely](remote-update.md)   |
 |Restart a device   |Select a device > **Restart**.          |
 |View device history  | Select a device > **History**. You can view the update history for the device.     |
 |View diagnostics  | Select a device > **Diagnostics**.        |
