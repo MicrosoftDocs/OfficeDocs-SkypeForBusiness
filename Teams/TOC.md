@@ -703,12 +703,12 @@
 #### [What is CQD?](CQD-what-is-call-quality-dashboard.md)
 #### [Set up CQD](turning-on-and-using-call-quality-dashboard.md)
 #### [Upload tenant and building data](CQD-upload-tenant-building-data.md)
-#### [Create a building map](CQD-building-mapping.md)
 #### [CQD data and reports](CQD-data-and-reports.md)
 #### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 #### [Frequently asked questions](CQD-frequently-asked-questions.md)
 #### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Create a building map](CQD-building-mapping.md)
 #### Use Power BI to analyze CQD data
 ##### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 ##### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)

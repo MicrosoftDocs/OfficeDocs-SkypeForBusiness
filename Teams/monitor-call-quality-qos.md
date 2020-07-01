@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 
 This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
 
-- **Call Quality Dashboard (CQD)**: to analyze org-wide trends or problems
+- **Call Quality Dashboard (CQD)**: to analyze org-wide trends or problems, drive improvements to performance
 
 - **Call analytics**: to analyze call and meeting quality for individual users
 
@@ -32,7 +32,7 @@ This article introduces three key tools you can use to monitor, troubleshoot, ma
 
 
 ## Monitor and troubleshoot call quality
-You'll use per-user **Call analytics** and **Call Quality Dashboard** to find and troubleshoot call-quality problems that come up during ongoing operation. Both of these tools are in the Teams admin center.
+You'll use per-user **Call analytics** and **Call Quality Dashboard** to find and troubleshoot call-quality problems that come up during ongoing operation. This lets you drive performance improvements across your network. Both of these tools are in the Teams admin center.
 
  - **Call analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot call quality and connection problems in a specific call. To learn more, read [Set up call analytics](set-up-call-analytics.md) and [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
  

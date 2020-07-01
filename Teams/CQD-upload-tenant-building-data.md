@@ -122,7 +122,7 @@ Here are a few things to consider before you implement supernetting:
 
 -   Supernetting can only be used in a subnet mapping with 8-bit to 28-bit mask.
 
--   Supernetting takes less time up front, but it comes at the cost of reducing the richness of your data. Let's say there's a quality problem involving subnet 200.1.2.0. If you implemented supernetting, you won't know where in the building the subnet is located or what type of network it is (for example, a lab). If you'd defined all the subnets for a building and uploaded floor location information, you'd be able to see that distinction.
+-   Supernetting takes less time up front, but it comes at the cost of reducing the richness of your data. Let's say there's a quality problem involving subnet 10.1.2.0. If you implemented supernetting, you won't know where in the building the subnet is located or what type of network it is (for example, a lab). If you'd defined all the subnets for a building and uploaded floor location information, you'd be able to see that distinction.
 
 -   It's important to ensure that the supernetted address is correct and isn't catching unwanted subnets.
 
@@ -135,11 +135,11 @@ Here are a few things to consider before you implement supernetting:
 
 The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
 
-- Define a **Network Name** by using the text "VPN" in this field for VPN subnets.
+- Define a **Network Name** by entering "VPN" in this field for VPN subnets.
 
   ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
-- Define a **Building Name** by using the text "VPN" in this field for VPN subnets.
+- Define a **Building Name** by entering "VPN" in this field for VPN subnets.
 
   ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
