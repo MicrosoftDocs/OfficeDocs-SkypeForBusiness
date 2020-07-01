@@ -62,35 +62,16 @@ See [Set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/modul
 
 ## Assign a custom voice routing policy to users
 
-### Using the Microsoft Teams admin center
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-To assign a policy to one user:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
-3. Under **Voice routing policy**, select the policy you want to assign, and then click **Save**.
-
-To assign a policy to multiple users at a time:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
-
-### Using PowerShell
-
-See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+See also [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 ## Related topics
 
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Configure voice routing for Direct Routing](direct-routing-voice-routing.md)
-- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Configure voice routing for Direct Routing](direct-routing-voice-routing.md)
+
+[Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+
+[Assign policies to your users in Teams](assign-policies.md)
