@@ -18,7 +18,7 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ---
-Purchase third-party apps in the Microsoft Teams admin center
+Purchase services for Teams third-party apps in the Microsoft Teams admin center
 ======================================================
 
 Teams apps are free. Service subscriptions for these apps are available for purchase through AppSource and now through the Microsoft Teams admin center. These service subscriptions are called Software as a Service (SaaS) offers.
