@@ -26,7 +26,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 
 ## IT admin guidance
 
-- Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 offer](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
+- Make sure everyone has access to Teams, using [Teams Exploratory](teams-exploratory.md) or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
@@ -76,8 +76,6 @@ Share these assets and videos with your end users to help them get started quick
    - If you work in education and want to set up teachers, students, and administrators on Teams, use Office 365 A1. This free version of Office 365 is available to all educational institutions. Sign up at [Get Office 365 free for your entire school](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
    - Don't miss [Get started with Teams for remote learning](remote-learning-edu.md).
-
-2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
 
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
 
