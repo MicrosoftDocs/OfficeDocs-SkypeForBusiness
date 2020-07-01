@@ -51,41 +51,43 @@ Call park and retrieve is currently supported by the following clients and devic
 | Retrieve a parked call | Yes | Yes | Yes | Yes | Yes | No |
 | Unretrieved call ring back | Yes | Yes | Yes | Yes | Yes | No |
 
-## Configuring call park and retrieve
+## Configure call park and retrieve
 
-You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy) procedure below.
+You must be an admin to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy) procedure below.
 
 For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
 ### Enable a call park policy
 
-Follow these steps to enable a call park policy:
-
-1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
-2. Select **New policy**.
-3. Give the policy a name, and then switch **Allow Call park** to **On**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
+2. Select **Add**.
+3. Give the policy a name, and then switch **Allow call park** to **On**.
 4. Select **Save**.
+
+#### Using PowerShell
+
+See [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps).
+
+### Edit a call park policy
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
+2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
+3. Switch **Allow call park** to **Off** or **On**.
+4. Click **Save**.
+
+#### Using PowerShell
+
+See [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps). For example, to change the default setting, run the following:
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
 
 ### Assign a call park policy
 
-Follow these steps to assign a call park policy to one or more users:
-
-1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you are finished adding users, select **Save**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### Configure call park and retrieve with PowerShell
-
-Use the [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to create a call park policy.
-
-Use the [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to grant a call park policy.
-
-You can change the default setting by using [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) as follows:
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+See also [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps).
 
 ## Troubleshooting
 
@@ -100,6 +102,8 @@ If a user attempts to retrieve a call and is unsuccessful, check the following:
 - Island mode – Call park and retrieve is unavailable in Teams island mode.
 - The call has already been retrieved or terminated.
 
-## More information
+## Related topics
 
-[Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[Assign policies to your users in Teams](assign-policies.md)
