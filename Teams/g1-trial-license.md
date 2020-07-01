@@ -73,7 +73,7 @@ For more information, see [Teams for Government](expand-teams-across-your-org/te
 
   - If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+  - If you would like to remove this license through the admin portal, see: [Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## Related topics
 

@@ -716,7 +716,7 @@ the nature of the issue.
 
 5.  **Contact Microsoft Support:** You can contact Microsoft Support for issues
     with Teams online or by phone. For information, see [Contact support for
-    business products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+    business products](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
     For Premier customers, support requests can be initiated by following the
     guidance at [Contact support for Microsoft Teams (Premier
     customers)](https://support.microsoft.com/premier/contacts).
@@ -743,7 +743,7 @@ the nature of the issue.
 
 [Verify service health for Microsoft Teams](service-health.md)
 
-[Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Contact Premier support](https://support.microsoft.com/premier/contacts)
 

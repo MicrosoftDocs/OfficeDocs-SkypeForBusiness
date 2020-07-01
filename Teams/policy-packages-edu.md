@@ -153,9 +153,20 @@ To ensure that students can’t schedule a meeting to communicate unattended, in
 
 ![Education student in remote learning page, with the General section showing, all options here are turned off.](media/edu-policy-list-a.png)
 
-- And on the same page, in the Participants and Guests in meeting section: **Allow Meet now in private meetings**: Off
+- And on the same page, in the Participants and Guests in meeting section:
+  - **Allow Meet now in private meetings**: Off
+  - **Allow chat in meetings**: Disabled
 
 ![Participants and guests section, with the Allow Meet now in private meetings option set to Off.](media/edu-participants-and-guests.png)
+
+Turning off **Allow Meet now in channels**, **Allow channel meeting scheduling**, **Allow scheduling private meetings**, and **Meet now in private meetings** for students not only blocks students from scheduling a meeting as the organizer, they also provide the following safety measures for education:
+
+- If students attempt to join the meeting before the educator, they won't be able to join the meeting in the latest version of the Teams app.
+- Although meeting creation applies to any users and any licenses, the safety measures on meeting join block described above apply only to education customers in Teams based on the users’ license type.
+
+When you change the **Allow chat in meetings** policy to disabled and block students from scheduling meetings from above while and keep this policy on for educators (for the meetings that are not scheduled from a channel or meet now in a channel), students won't be able to chat before the educator joins the meeting, nor after the meeting. They will still be able to see the chat history before, during, and after the meeting. As an example, they'll be able to see messages from the teacher, or the meeting recording link, if the meeting was recorded.
+
+If both students and educators have the **Allow chat in meetings** policy turned off, no one will be able to chat in the meeting chat window. The safety measure on meeting chat restriction described above only applies to education customers in Teams based on users’ license type.
 
 #### Control whether or not students can share their videos during calls and meetings
 

@@ -36,7 +36,7 @@ Currently, Advanced CQD and CQD are both available for use. Advanced CQD is avai
 
 ## Assign roles for accessing CQD
 
-Assign [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it. 
+Assign [roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it.
 
 This table shows you what each role can do in CQD:
 
