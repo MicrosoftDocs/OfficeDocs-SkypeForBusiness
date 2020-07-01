@@ -40,9 +40,9 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 To see their pre-installed apps, in the app bar, users click **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
-You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. You must be a global admin or Teams service admin to manage these policies.
+You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies.  Users in your organization will automatically get the global policy unless you create and assign a custom policy. You must be a global admin or Teams service admin to manage these policies.
 
-You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
 ![Screenshot showing the App setup policies page](media/app-setup-policies.png)
 
@@ -88,52 +88,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to users in a group, such as a security group or distribution group.
-
-### Assign a custom app setup policy to users
-
-To assign a policy to one user:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **App setup policy**, select the app setup policy you want to assign, and then click **Apply**.
-
-To assign a policy to multiple users at a time:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.  
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. After you finish adding users, select **Save**.
-
-### Assign a custom app setup policy to users in a group
-
-You may want to assign a custom app setup policy to multiple users that you've already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
-
-In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
-
-> [!NOTE]
-> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Get the GroupObjectId of the particular group.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-Get the members of the specified group.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
-``` 
-Depending on the number of members in the group, this command may take several minutes to execute.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## FAQ
 
@@ -197,5 +152,6 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
 
 ## Related topics
 
-- [Admin settings for apps in Teams](admin-settings.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+[Admin settings for apps in Teams](admin-settings.md)
+
+[Assign policies to your users in Teams](assign-policies.md)
