@@ -682,7 +682,8 @@
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
-### [Privacy controls for Teams](overview-teams-policy-controls.md)
+### [Privacy controls overview](policy-control-overview.md)
+### [Privacy control diagnostic data](policy-control-diagnostic-data.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
