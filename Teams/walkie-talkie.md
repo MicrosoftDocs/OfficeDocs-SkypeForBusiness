@@ -34,6 +34,20 @@ During the Public Preview, Walkie Talkie is not pre-installed. To enable this fe
 
 Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
 
+### Adding Walkie Talkie to your app list
+
+In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, you should have **Allow user pinning** set to **On**. Then, under the Pinned Apps section, click **+Add Apps**.
+
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Shows the Pinned apps section and the Add Apps button to be selected.":::
+
+On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie. When you have it as a search result, click the **Add** button to the right of the name to add it to your list.
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Shows the Add pinned apps sidebar with Walkie entered into the search pane and the Walkie Talkie app in the search results, with the Add button next to it.":::
+
+The Walkie Talkie app should now appear on the Pinned Apps list, and be available for use once you click the **Save** button.
+
+:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Shows the Pinned apps list with the Walkie Talkie app added, and the Save button underneath the list.":::
+
 ### Network documentation
 
 Walkie Talkie in Teams requires Internet connectivity and below the network conditions are required for optimal experience.
