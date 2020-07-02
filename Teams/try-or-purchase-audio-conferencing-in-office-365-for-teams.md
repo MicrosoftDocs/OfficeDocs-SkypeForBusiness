@@ -67,7 +67,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 4. [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
 
     > [!NOTE]
-    > If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services).
+    > If you have Audio Conferencing pay-per-minute licenses, you must assign a Communications Credits license separately to each user as well.
 
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
