@@ -53,8 +53,8 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **addMembers** - Add members to a team or private channel.
 - **addToCalendar** - Select the **Add to calendar** button for calendar events missing in private calendar.
 - **addToList** - A contact is added to a contact list.
-- **addToMeeting** ???
-- **addUserAsContact** - A contact can be added by selcting the **Add contact** icon from the profile card of the contact.
+- **addToMeeting** - Select the **Add to meeting** button in the participant list for a meeting (for participants who are a part of the chat).
+- **addUserAsContact** - A contact can be added by selecting the **Add contact** icon from the profile card of the contact.
 - **admitAll** - The number of times the **Admit all** button is selected from the lobby section.
 - **admitParticipant** - The number of times someone is admitted into a meeting from the meeting roster.
 - **alertsNavAlert** - Tapping on a feed item.
@@ -68,7 +68,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **anonymousMeetingToggleMuted** - The number of times the mute toggle button was selected.
 - **anonymousMeetingToggleVideo** - The number of times the video toggle button was selected.
 - **appBG** - Appplication BG. ???
-- **appKilled** - Appplication terminated.
+- **appKilled** - The appplication is terminated.
 - **approveTimeOffRequest** -  When a FirstLine Worker (FLW) Manager approves a FirstLine Worker request to take time off.
 - **assigneeChange** - Triggers when a new assignee is added to a task item.
 - **assignmentPickerClicked** - The **Assign To** button is selected, opening an assignee picker page.
@@ -555,8 +555,8 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **get_directions_clicked** - The **Get directions** button is selected.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - The **Allow** or **Don't Allow** is selected in an OS prompt. either allowing GPS or not.
-- **group_map_closed** ???
-- **group_map_open** ???
+- **group_map_closed** - A user opens the map viw from chat.
+- **group_map_open** - User closes the map view.
 - **groupCallJoin** - A user joins a Group call.
 - **groupClicked** - Tracks when a user selects the shift group.
 - **guideMe** - Users selects a banner that informs them about a 3P app blocking notifications and offers troubleshooting guidance.
@@ -630,11 +630,11 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **location_map_load** - Map view load.
 - **location_map_markers_load** - Map view load. Confirms that location markers for all users actively sharing are displayed properly on the map view.
 - **location_message_send** - A user initiates a location sharing session.
-- **location_data_use_privacy_denied** ???
-- **location_data_use_privacy_granted** ???
+- **location_data_use_privacy_denied** - A user dismisses or selects **Not now** on a popup explaining use of location data by TFL.
+- **location_data_use_privacy_granted** - A user selects **Allow** on the a popup explaining the use of location data by TFL.
 - **location_settings_open** - A user opens location settings.
-- **location_sharing_start** ???
-- **location_sharing_stop** ???
+- **location_sharing_start** - A user shares their live location in a chat.
+- **location_sharing_stop** - A user stops sharing their live location in a chat.
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
@@ -802,8 +802,8 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **openShiftsClicked** - How many people tap the **Calendar** icon.
 - **orgChart - No AS assigned** - Basic usage telemetry for org chart.
 - **pageEntered** - A user entered a page.
-- **parental_consent_grant** ???
-- **parental_consent_remove** ???
+- **parental_consent_grant** - A user grants permission for a minor in their MSFamily to use the Live Location feature in TFL.
+- **parental_consent_remove** - A user revokes permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **pauseVoicemail** - **Pause** tapped on a voicemail item.
 - **people** ???
 - **peoplePickerInvoked** - People Picker is used across seven places in Teams mobile, including (but not limited to):

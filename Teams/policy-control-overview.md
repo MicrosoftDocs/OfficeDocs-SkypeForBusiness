@@ -21,7 +21,7 @@ appliesto:
 
 Microsoft is committed to providing you with the information and controls you need to make choices about how your data is collected and used when you’re using Microsoft Teams, a part of Microsoft 365.
 
-This article is intended to provide you with new, updated, and improved privacy controls for the following areas:
+This article is intended to provide you with information about privacy controls for the following areas:
 
 - **Diagnostic data** that is collected and sent to Microsoft about Teams and Office software being used on computers running Windows in your organization.
 - **Connected experiences** that use cloud-based functionality to provide enhanced Teams and Office features to you and your users.
