@@ -44,6 +44,8 @@ Teams currently includes the following policy packages.
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
 |Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
+|Firstline manager (in preview) |Creates a set of policies and applies those settings to Firstline Managers (FLM) in your organization. |
+|Firstline worker (in preview) |Creates a set of policies and applies those settings to Firstline Workers (FLW) in your organization. |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
