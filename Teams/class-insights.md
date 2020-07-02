@@ -44,7 +44,7 @@ Class Insights has industry-leading compliance commitments, and is classified as
 
 ## Privacy
 
-The information collected and shown through Class Insights does adhere to GDPR and other, similar, privacy-oriented regulation. It's important for IT Admins to know that the information collected is not intended to be at a per-user basis, but on a class level, to allow educators to determine class behavior. While this can be taken down to actions at the student level, there is no positive or negative 'value' assigned to these actions by Microsoft Teams--there is no 'flagging' of individual students based on criteria.
+The information collected and shown through Class Insights does comply with GDPR and other, similar, privacy-oriented regulation. It's important for IT Admins to know that the information collected is not intended to be at a per-user basis, but on a class level, to allow educators to determine class behavior. While this can be taken down to actions at the student level, there is no positive or negative 'value' assigned to these actions by Microsoft Teams--there is no 'flagging' of individual students based on criteria.
 
 The information in Class Insights informs an educator that, for example, a student has not been active in the tool during a certain period in time, or has completed all their assignments last week on-time. It remains the responsibility of the educator to interact with the student and that student's family or guardians to determine the underlying reason for any activity or inactivity detected.
 
