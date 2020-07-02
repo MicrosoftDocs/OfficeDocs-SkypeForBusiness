@@ -90,11 +90,13 @@ New templates for creating Teams were developed to apply to a Hospital setting, 
 
 ## Lists app
 
-The Lists app in Teams helps teams track information and keep everyone in sync. The Lists app is available as a tab in a channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
+The Lists app in Teams helps teams track information and keep everyone in sync. The Lists app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
 
-Care teams in your Healthcare organization can use the Patient care coordination template to create lists to record the needs of patients to monitor and coordinate care. For example, during rounding sessions, clinicians gather to discuss the latest updates on the progress of patients in the ward. They highlight key critical metrics (not necessarily medical or that is explicit on patients’ medical records) and ensure the patient is on the right glide path to discharge based on their diagnosis. Clinicians can share information about patients using the Lists app in Teams on a large display screen, and care team members who are not on site can join remotely.
+Care teams can use the Patient care coordination template to create lists to track the needs and status of patients. These lists can be used for scenarios such as rounds and general patient monitoring to coordinate care.
 
-To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
+For example, a charge nurse creates a patient list in a team that includes all care team members. During rounds, the care team access Teams on their mobile devices and updates patient information in the list, which everyone on the team can view and stay in sync. At rounding sessions where the care team gather to discuss and evaluate key health performance metrics to ensure the patient is on the right glide path to discharge, they can share information using Teams on a large display screen. Care team members who are not on site can join remotely.
+
+To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md) and [LINK TO END USER DOC].
 
 ## Secure Messaging
 
