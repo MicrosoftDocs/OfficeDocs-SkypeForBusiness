@@ -1,0 +1,93 @@
+---
+title: Microsoft Teams Class Insights for IT Admins
+author: MicrosoftHeidi
+ms.author: heidip
+manager: serdars
+ms.topic: reference
+ms.service: msteams
+audience: admin
+ms.reviewer: karsmith
+description: An ITAdmin guide to Class Insights for Microsoft Teams.
+localization_priority: Priority
+search.appverid: MET150
+f1.keywords:
+- NOCSH
+ms.collection: 
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
+---
+
+# Class Insights for IT Admins
+
+With Class Insights in Microsoft Teams, educators can access analytics data on student engagement and performance. Class Insights collects student activity in Teams, like grades, assignment turn-in, communication activity, and file collaboration, creating an analytics dashboard surfacing actionable data visuals.
+
+Class Insights is active in Office 365 Education SKUs A1, A3, and A5.
+
+> [!NOTE]
+> Educators, learn how to use Class Insights [here](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc).
+
+## Permissions
+
+Educators can add Class Insights to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights.
+
+- Educators are defined by faculty licenses. Educators must have a faculty license and be a class team owner to add and see the Insights tab.
+- Students are identified by their license and do not have access to the Insights tab (even if they are an owner of the team).
+- The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
+
+## Compliance
+
+Class Insights has industry-leading compliance commitments, and is classified as a Tier-C service within the Office 365 Compliance Framework.
+
+> [!NOTE]
+> Visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center) to learn more about how Microsoft protects your data.
+
+## Data collection
+
+We collect data for Class Insights when Education Analytics is turned on for the tenant. The data is collected from Teams activity in order to surface actionable insights for teaching and learning.
+
+By default, Education Analytics is turned **On**.
+
+Currently, this data is pulled from the following areas of student and teacher activity in class teams:
+
+|Teams component  |Teacher data collected  |Student data collected  |
+|-----------------|------------------------|------------------------|
+|Assignments |Creating, assigning, updating, and returning assignments. |Opening, turning in, and grade on assignments. |
+|Channel engagement |Visiting a channel, creating a post, replying to and liking a post (not including chat content). |Visiting a channel, creating a post, replying to and liking a post (not including chat content). |
+|Files |Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).  |Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content). |
+|Meetings |Attendance (not including meeting content). |Attendance (not including meeting content). |
+
+## Data location
+
+Class Insights data for European-based tenants is stored on servers in Europe. Data for US-based tenants is stored on servers in the United States. If you use Class Insights and your Office 365 tenant is in a region outside of Europe or the United States, your data will be stored in the appropriate geographic region.
+
+## Performance and reliability
+
+Class Insights is designed to handle a high volume of data collected from Teams activity with optimal performance and reliability.
+
+The data collection process takes place on separate servers regardless of the installation of the Insights tab in Teams. The Class Insights tab does not affect application performance or network bandwidth for teachers and students using the rest of Teams functionality.
+
+> [!TIP]
+> Read [here](edu-remote-low-bandwidth.md) about using Teams for Education when bandwidth is low.
+
+## How to delete your data
+
+Education services stores student and teacher actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or teacher user accounts are deleted from your organization.
+
+> [!NOTE]
+> Deleting data has a negative impact on Insights' ability to analyze class team engagement over time.
+
+- Open a support ticket [here](https://edusupport.microsoft.com/support). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
+- Once filed, the support ticket waits in the queue for one week in order to meet compliance minimal retention policy. You have the opportunity to cancel the operation during this time.
+- After one week, the Education Analytics team takes action to ensure all data related to the user ID is deleted from the service. Microsoft support monitors the ICM ticket and will notify you once the deletion process is complete, in no more than 28 days.
+
+## Turn Insights off and on using School Data Sync (SDS)
+
+School Data Sync (SDS) helps to automate the process of importing and synchronizing Student Information System (SIS) data with Office 365.
+
+The use of Class Insights does not require the use of SDS. However, you may choose to opt out from Education Analytics at any time by turning off the toggle in the SDS Admin Center under **Settings** > **Manage Education Analytics**.
+
+By default, Education Analytics, and therefore Class Insights, is turned on. When you opt out of Analytics, we delete all data collected for the Class Insights tab. Turn Analytics back on, and we start collecting data from the time it's re-enabled.
+
+Learn more:
+[Class insights for teachers](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
