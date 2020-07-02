@@ -144,6 +144,9 @@ Each individual policy is given the name of the policy package so you can easily
 
 #### Turn off the ability to create and start meetings
 
+> [!NOTE]
+> You may not notice this functionality in your tenant right now. That's because this feature is currently being rolled out, and will be available to all users once it's been rolled out to all tenants. Please see the [Teams Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355) for more information.
+
 To ensure that students can’t schedule a meeting to communicate unattended, in meeting policies set to **Off** meeting creation capabilities through these General settings:
 
 - **Allow Meet now in channels**: Off
