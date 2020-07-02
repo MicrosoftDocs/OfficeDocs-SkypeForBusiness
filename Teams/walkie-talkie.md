@@ -53,8 +53,8 @@ Expected data usage from Walkie Talkie is around 20KB/s when sending or receivin
 FirstLine workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
 - Existing phones
-  - Wired headsets (Klein)
-  - Wireless headsets (Jabra BlueParrott)
+  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/))
+  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/))
 - Rugged phones
   - Samsung Galaxy XCover Pro
     - [More info](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
@@ -77,5 +77,6 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie will not work when there is no connectivity at all.
 
 For further reading on the end-user experience, see:
-[Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
-[Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
+
+- [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
