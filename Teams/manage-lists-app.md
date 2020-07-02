@@ -42,9 +42,9 @@ To learn more about using Lists, see [LINK TO END-USER DOC].
 
 A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents.
 
-After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along the route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel.
+After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along the route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Other mail carriers can see this information and stay informed.
 
-Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field, share incident details with team members, and manage incident information.
+Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, and manage incident information.
 
 ## What you need to know about Lists
 
