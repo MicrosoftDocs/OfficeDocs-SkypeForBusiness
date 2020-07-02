@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to set up and manage the Lists app in Teams for users in your organization.
+description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -40,11 +40,11 @@ To learn more about using Lists, see [LINK TO END-USER DOC].
 
 ### Example scenario
 
-A local post office is responsible for sorting and delivering mail in their district every day. Each morning the post office has a team huddle to discuss daily goals, announcements, and known incidents, which are displayed on a cork board.  
+A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle using Teams on a display screen to review daily goals, share announcements, and discuss known incidents.
 
-After their huddle, mail carriers pick up their mail and start their delivery route. While delivering mail, incidents can occur in the form of a vehicle accident, dog incident, or social unrest protest. Postal carriers don’t have a secure and compliant way to share incident information with colleagues. When an incident occurs, they have go back to the post office to complete a hard-copy form to report an incident which is entered in an Excel spreadsheet.  
+After their huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along the routes, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. (Previously, they had go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet.)
 
-Lists in Teams gives post carriers a mobile first, experience where they can use lists to report incidents in the field, share incident information with colleagues, and manage incident information.
+Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field, share incident information with team members, and manage incident information.
 
 ## What you need to know about Lists
 
@@ -52,19 +52,13 @@ Lists is pre-installed for all Teams users and is available directly in the tab 
 
 With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
 
+Guests in [private channels](private-channels.md) can't create or delete a list or start a new conversation about a list item. They can add list items to existing lists and reply to an existing conversations about a list item. Note that these limitations apply only to private channels. 
+
 Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
 
-If users in your organization created lists using the SharePoint Lists app, those lists are automatically moved to Lists without any action needed from the user.
+- In certain scenarios, you may want control the actions that users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner to edit list views. You can customize permissions to allow or restrict what users can do. To learn more, see [Permission levels in SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) and [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
-ADD: 
-
-- Limitations 
-
-    - guests in private channels can't create, pin, delete, a list or start a new conversation about a list. they can reply to an existing conversation about a list item, add a list item.
-    - guests in standard channel can do this.
-
-- SharePoint list view permissions? someone on the team updates the view, which changes it for all team members. restrict users from editing list views. Team owner and members gets Full Control on list view. SharePoint inherits permissions. 
-- how to get help
+The SharePoint Lists app is being retired. If users in your organization created lists using the SharePoint Lists app, those lists will be automatically moved to Lists without any action needed from the user.
 
 ## Set up Lists
 
@@ -91,6 +85,10 @@ Before you can search the audit log, you have to first turn on auditing in the [
 ## Power Automate, Power Apps, and Graph API
 
 Lists supports [Power Automate](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, click **Help** near the bottom of the left navigation in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
 
 ## Related topics
 
