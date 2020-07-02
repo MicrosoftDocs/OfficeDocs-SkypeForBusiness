@@ -32,7 +32,7 @@ Class Insights is active in Office 365 Education SKUs A1, A3, and A5.
 Educators can add Class Insights to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights.
 
 - Educators are defined by faculty licenses. Educators must have a faculty license and be a class team owner to add and see the Insights tab.
-- Students are identified by their license and do not have access to the Insights tab (even if they are an owner of the team).
+- Students are identified by their license and **do not have access to the Insights tab** (even if they are an owner of the team).
 - The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
 
 ## Compliance
@@ -56,12 +56,12 @@ By default, Education Analytics is turned **On**.
 
 Currently, this data is pulled from the following areas of student and educator activity in class teams:
 
-|Teams component  |Educator data collected  |Student data collected  |
+|Teams component  |Data collected  |
 |-----------------|------------------------|------------------------|
-|Assignments |Creating, assigning, updating, and returning assignments. |Opening, turning in, and grade on assignments. |
-|Channel engagement |Visiting a channel, creating a post, replying to and liking a post (not including chat content). |Visiting a channel, creating a post, replying to and liking a post (not including chat content). |
-|Files |Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).  |Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content). |
-|Meetings |Attendance (not including meeting content). |Attendance (not including meeting content). |
+|Assignments |Opening, turning in, and grade on assignments. |
+|Channel engagement |Visiting a channel, creating a post, replying to and liking a post (not including chat content). |
+|Files |Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content). |
+|Meetings |Attendance (not including meeting content). |
 
 ## Data location
 
