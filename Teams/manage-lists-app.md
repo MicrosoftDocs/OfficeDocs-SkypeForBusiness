@@ -29,7 +29,7 @@ In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab
 
 ![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
-Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's some examples of how teams in your organization can use Lists templates to track data and organize work:
+Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's some examples of how teams in your organization can use Lists templates:
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
@@ -38,13 +38,13 @@ Templates in Lists are tailored to common information tracking scenarios. Each t
 
 To learn more about using Lists, see [LINK TO END-USER DOC].
 
-### Example scenario
+## Example scenario
 
-A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle using Teams on a display screen to review daily goals, share announcements, and discuss known incidents.
+A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents.
 
-After their huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along the routes, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. (Previously, they had go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet.)
+After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along the route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel.
 
-Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field, share incident information with team members, and manage incident information.
+Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field, share incident details with team members, and manage incident information.
 
 ## What you need to know about Lists
 
