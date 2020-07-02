@@ -56,7 +56,6 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 - Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md).
 - Conversations are one-on-one only. Group chats aren't supported.
-- Teams users and Skype users can't see each other's presence.
 - Searching for Skype users by using their Skype ID or phone number isn't supported.
 
 ## Set whether Teams users can communicate with Skype users
