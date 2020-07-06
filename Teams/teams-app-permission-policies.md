@@ -40,7 +40,7 @@ If your organization is already on Teams, the app settings you configured in **T
 Say, for example, you want to block all third-party apps and allow specific apps from Microsoft for the HR team in your organization. First, you would go to the [Manage apps](manage-apps.md) page and make sure that the apps that you want to allow for the HR team are allowed at the org level. Then, create a custom policy named HR App Permission Policy, set it to block and allow the apps that you want, and assign it to users on the HR team.
 
 > [!NOTE]
-> If you deployed Teams in a Microsoft 365 Government - GCC environment, see [Manage org-wide app settings for Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) to learn more about third-party app settings that are unique to GCC.
+> If you deployed Teams in a Microsoft 365 Government Community Cloud (GCC) environment, see [Manage org-wide app settings for Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) to learn more about third-party app settings that are unique to GCC.
 
 ## Create a custom app permission policy
 
@@ -81,7 +81,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
-In a Microsoft 365 Government Community Cloud (GCC) deployment of Teams, it's important to know the following about third-party app settings, which are unique to GCC.
+In a Microsoft 365 Government - GCC deployment of Teams, it's important to know the following about third-party app settings, which are unique to GCC.
 
 In GCC, all third-party apps are blocked by default. Additionally, you'll see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
