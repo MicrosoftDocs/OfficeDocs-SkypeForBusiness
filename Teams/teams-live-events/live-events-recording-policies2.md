@@ -52,14 +52,6 @@ When the policy is set to **Always record**, the policy page has the following s
 
 ![Screen shot of live events policy settings](../media/live-event-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
-## Flags set on client
-
-| Can be set by user                                         | Flag/capability set by client? | Flag                 | Implications                                                                                              |
-| -------------------------------------------------------------- | ---------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| Organizer option: Recording available for attendee             | Yes                                | Capabilities.VOD         | If True, Attendee Service admits user after event is over                                                      |
-| Organizer option: Recording available for producer & presenter | Yes                                | Capabilities.Recording   | If True, generates mp4                                                                                         |
-| Admin setting: Never record admin policy setting               | No                                 | Capabilities.DoNotRecord | If DoNotRecord is set, then by definition, MP4, VOD AND DVR must all be disabled – no assets should be stored. |
-
 ## Storage & persistence behavior
 
 | Option                                       | State   | DVR                                                   | VOD                                                     | Recording                |
