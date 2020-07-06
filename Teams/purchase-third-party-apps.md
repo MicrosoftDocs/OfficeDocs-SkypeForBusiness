@@ -21,11 +21,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 Purchase services for Teams third-party apps in the Microsoft Teams admin center
 ======================================================
 
-Teams apps are free. Service subscriptions for these apps are available for purchase through [AppSource](https://appsource.microsoft.com/) and now through the Microsoft Teams admin center. These service subscriptions are called Software as a Service (SaaS) offers.
+Teams apps are free and service subscriptions for these apps are available for purchase through [AppSource](https://appsource.microsoft.com/) and now through the Microsoft Teams admin center. These service subscriptions are called Software as a Service (SaaS) offers.
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. For example, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also purchase licenses for services for third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase.
+Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase. This feature is currently only available in the United States.
 
 ## Search for and purchase services for a third-party app
 
