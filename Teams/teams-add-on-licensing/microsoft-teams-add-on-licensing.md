@@ -159,9 +159,9 @@ To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.m
 
 In response to an increased need for people to work remotely (or work from home), Microsoft has several free Teams trial offers for government, educational, and non-profit organizations. Trials are available for these plans:
 
-- Office 365 Enterprise [E1 trial](../e1-trial-license.md), E3 trial, and E5 trial
+- Office 365 Enterprise [E1 trial](../e1-trial-license.md) (discontinued as of July 1, 2020), E3 trial, and E5 trial
 - Office 365 Education [A1 trial](../teams-edu-licensing.md)
-- Office 365 Government [G1 trial](../g1-trial-license.md)
+- Office 365 Government [G1 trial](../g1-trial-license.md) (discontinued as of July 1, 2020)
 
 To sign up for a trial offer, see [Sign up for a trial offer](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
