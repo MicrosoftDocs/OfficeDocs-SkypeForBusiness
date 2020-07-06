@@ -72,10 +72,7 @@ Teams is available for free through a couple of different programs:
 
 **IT professionals**
 
-- If you work for a business and want to get employees set up on Teams, you can sign up for the six-month [Office 365 E1 Trial](e1-trial-license.md) offer through your Microsoft partner or sales representative.
-
-> [!NOTE]
-> The same free Teams offer is available in the [US Government Cloud](g1-trial-license.md), with the exceptions of GCC High and the Department of Defense.
+- If you work for a business and want to get employees set up on Teams, you can sign up for [Teams Exploratory](teams-exploratory.md).
 
 - If you work in Education and want to set up teachers, students, and administrators on Teams, use Office 365 A1, the free version of Office 365 available to educational institutions. Sign up at [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
