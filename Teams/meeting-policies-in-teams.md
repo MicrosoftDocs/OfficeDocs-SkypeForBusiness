@@ -139,7 +139,7 @@ Channel selection is disabled.
 In the channel posts page, the following will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat.png) 
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png) 
 - **Schedule a meeting** button on the channel header.
 ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
 
