@@ -129,7 +129,7 @@ Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
 
-[Download](https://aka.ms/SaRA-TeamsAddInScenario) and run the [Microsoft Support Recovery Assistant](https://support.microsoft.com/office/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f)
+[Download](https://aka.ms/SaRA-TeamsAddInScenario) and run the [Microsoft Support Recovery Assistant](https://aka.ms/SaRA_Home) to perform automated troubleshooting steps and fixes.
 
 Alternatively, perform the following steps manually:
 
