@@ -23,7 +23,7 @@ f1keywords:
 # Assign policies to your users in Microsoft Teams
 
 > [!NOTE]
-> **One of the features discussed in this article, [policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon.
+> One of the features discussed in this article, [policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon.
 > To stay on top of the release status of this feature, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
 As an admin, you use policies to control the Teams features that are available to users in your organization. For example, there are calling policies, meeting policies, and messaging policies, to name just a few.
@@ -375,6 +375,9 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 #### Change a policy assignment for a group
 
+> [!NOTE]
+> The ```Set-CsGroupPolicyAssignment``` cmdlet will be available soon. In the meantime, to change a group policy assignment, you can remove the current policy assignment from the group, and then add a new policy assignment.
+
 After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignment``` cmdlet to change that group's policy assignment as follows:
 
 - Change the ranking
@@ -388,6 +391,8 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 ```
 
 To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
+
+
 
 #### Change the effective policy for a user
 
