@@ -33,9 +33,6 @@ When you set up Audio Conferencing for Microsoft Teams users, you can view the p
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Microsoft Teams meeting invitations.
   
 You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.
-  
-> [!NOTE]
-> Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
