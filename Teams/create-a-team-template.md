@@ -1,5 +1,5 @@
 ---
-title: Create a team template
+title: Create a team template in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to create a team template.
+description: Learn how to create a team template in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -19,17 +19,15 @@ appliesto:
 ms.custom: seo-marvel-jul2020
 ---
 
-# Create a custom team template in Microsoft Teams
+# Create a team template in Microsoft Teams
 
-A team template is a predefined team structure with a set of channels, tabs, and apps. Team templates enable users to create the right collaboration space quickly. A custom template is one that you create with your preferred settings. 
+A team template is a predefined team structure with a set of channels, tabs, and apps. Team templates enable users to create the right collaboration space quickly. You can create a template from an existing team or build a custom template is one that you create with your preferred settings. 
 
 ## Create your own custom team template
 
 1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
-
-![An image of the Admin center left navigation with Team templates highlighted.](media/teamTemplates1.png)
 
 3. In the **Team templates** section, click **Add**.
 
