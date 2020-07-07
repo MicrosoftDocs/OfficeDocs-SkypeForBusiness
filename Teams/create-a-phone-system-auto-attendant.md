@@ -86,15 +86,15 @@ You have several ways to set the Operator:
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.
 - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
 
-    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
-        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
         - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
     - The outbound phone number that's displayed is determined as follows:
         - For Calling Plan numbers, the original caller's phone number is displayed.
-        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
-    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 <!--   
 
@@ -176,16 +176,16 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
   - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
 
-    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
-        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
         - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
     - The outbound phone number that's displayed is determined as follows:
         - For Calling Plan numbers, the original caller's phone number is displayed.
-        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
-    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
-  - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Micrsofot 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+  - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
 
@@ -227,15 +227,15 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
 
-    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
-        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
         - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
     - The outbound phone number that's displayed is determined as follows:
         - For Calling Plan numbers, the original caller's phone number is displayed.
-        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
-    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 

@@ -277,15 +277,15 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
 
-    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
-        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
         - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
     - The outbound phone number that's displayed is determined as follows:
         - For Calling Plan numbers, the original caller's phone number is displayed.
-        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
-    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 * * *
 
@@ -307,15 +307,15 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
   - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
 
-    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
-        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
         - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
     - The outbound phone number that's displayed is determined as follows:
         - For Calling Plan numbers, the original caller's phone number is displayed.
-        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
-    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 ## Change Caller ID for outbound calls
 
