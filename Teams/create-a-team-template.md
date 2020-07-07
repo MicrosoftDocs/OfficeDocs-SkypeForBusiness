@@ -1,5 +1,5 @@
 ---
-title: Create a Teams template
+title: Create a team template
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to create a Microsoft Teams template.
+description: Learn how to create a team template.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,64 +16,43 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: seo-marvel-jul2020
 ---
 
-# Create custom team template
+# Create a custom team template in Microsoft Teams
 
-## What is a team template? 
+A team template is a predefined team structure with a set of channels, tabs, and apps. Team templates enable users to create the right collaboration space quickly. A custom template is one that you create with your preferred settings. 
 
-A team template is a predefined team structure with a set of channels,
-tabs, and apps. Team templates enable users to create the right
-collaboration space quickly.
+## Create your own custom team template
 
-## How do I create my own custom team templates?
+1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
 
-1.  Navigate to <https://admin.teams.microsoft.com>
+2. In the left navigation, expand **Teams** > **Team templates**.
 
-2.  Login with your Teams service admin credentials
+![An image of the Admin center left navigation with Team templates highlighted.](media/teamTemplates1.png)
 
-3.  Click teams on the left rail
+3. In the **Team templates** section, click **Add**.
 
-4.  Click team templates to open the team templates section
+![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
 
-5.  Click on the “add” button on the template table
-
-![A screenshot of a cell phone Description automatically
-generated](media/image1.png)
-
-6.  Select how you would like to create your team template
-
-![A screenshot of a social media post Description automatically
-generated](media/image2.png)
-
-1.  Create template from scratch
-
-2.  Create template from an existing team
+4. Select **Use an existing team as a template** for your starting point.
     
-    1.  Select the team you would like to use as your new template base
-        from the table
-
-> ![A screenshot of a computer Description automatically
-> generated](media/image3.png)
+5.  Select the team you would like to use as your new template base.
 
 3.  Create template from an existing template
     
     1.  Select the template you would like to use as your new template
         base from the table
 
-> ![A screenshot of a social media post Description automatically
-> generated](media/image4.png)
+
 
 7.  Enter the template details
 
-![A screenshot of a social media post Description automatically
-generated](media/image5.png)
+
 
 1.  Name your template
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image6.png)
+
 
 2.  Give your template a short description (This will show up on the
     template card in the gallery)
@@ -81,8 +60,6 @@ generated](media/image5.png)
 3.  Give your template a long description (this will show up on the
     template details page)
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image7.png)
 
 4.  Enter the locale of your template. This template will only show in
     the template gallery for the locale selected.
@@ -93,41 +70,20 @@ generated](media/image5.png)
     
     1.  Add/remove channels
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image8.png)
+
 
 2.  Add/remove tabs
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image9.png)
-
 3.  Rename tabs
 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image10.png)
-> 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image11.png)
 
 4.  Add bots and other apps to team template
 
-> ![A picture containing drawing Description automatically
-> generated](media/image12.png)
-> 
-> ![A screenshot of a cell phone Description automatically
-> generated](media/image13.png)
+
 
 9.  Click save and your new template will be available in the template
     table
-
-![A screenshot of a social media post Description automatically
-generated](media/image14.png)
-
-## The template will now be available in the template gallery
-
-## ![A screenshot of a cell phone Description automatically generated](media/image15.png) 
-
-## 
+The template will now be available in the template gallery
 
 ## FAQ’s
 
@@ -181,18 +137,3 @@ Yes, you will just need to know the template Id.
 to the templates section, Select a template, and click edit. The
 template Id will be available in this view.*
 
-**Can I get a list of templates using Graph or PowerShell?**
-
-*Not yet, we are working on this feature.*
-
-**Can I preconfigure the apps in the team template?**
-
-*Not yet, we are working on this feature*
-
-**Do templates support private channels?**
-
-*Not yet, we are working on this feature*
-
-**Can I import/export a custom template?**
-
-*Not yet, we are working on this feature.*
