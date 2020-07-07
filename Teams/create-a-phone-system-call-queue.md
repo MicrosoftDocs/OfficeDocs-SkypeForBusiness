@@ -269,20 +269,23 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in organization** An Online user with a Phone System license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
+  - **Person in organization** An online user with a Phone System license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
-  - **External phone number** Enter an external phone number. Note the following:
+  - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
 
-    - The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number.
-    - The outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows: 
-        - If set to Disabled,  the original caller's phone number is displayed. This is the default and recommended setting.
-        - If set to Enabled, the resource account phone number is displayed.
-    - Transfers are done through VoIP and not the PSTN.
-    - Chaining an inbound Calling Plan call to an outbound Direct Routing call or chaining an inbound Direct Routing call to an outbound Calling Plan call isn't supported.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
+        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
 
 * * *
 
@@ -296,20 +299,23 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in organization** An Online user with a Phone System license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
+  - **Person in organization** An online user with a Phone System license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
 
   To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
 
-  - **External phone number** Enter an external phone number. Note the following:
+  - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
 
-    - The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number.
-    - The outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows: 
-        - If set to Disabled,  the original caller's phone number is displayed. This is the default and recommended setting.
-        - If set to Enabled, the resource account phone number is displayed.
-    - Transfers are done through VoIP and not the PSTN.
-    - Chaining an inbound Calling Plan call to an outbound Direct Routing call or chaining an inbound Direct Routing call to an outbound Calling Plan call isn't supported.
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and a Virtual User license assigned, in addition to one of the following required licenses. Note that Phone System licenses aren't supported.
+        - For a resource account with a Calling Plan number, assign a Domestic and International Calling Plan license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan numbers and Direct Routing numbers aren't supported.
 
 ## Change Caller ID for outbound calls
 
