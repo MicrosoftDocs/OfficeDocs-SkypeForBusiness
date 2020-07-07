@@ -19,24 +19,26 @@ search.appverid: MET150
 description: Learn how to take your custom Teams apps from development to deployment. 
 ---
 
-# Manage your custom apps in Microsoft Teams
+# Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
+This article provides end-to-end guidance for how to take your Teams app from development to deployment. You'll get an overview of the connected experiences in the app lifecycle, from how developers submit an app to Teams for you to approve and publish, how to set policies to manage the app in your organization, through to how users discover the app in Teams. 
 
-![Overview of your app from development to deployment](media/manage-your-lob-apps.png)
+![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
-## Get started
+This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For information about developing Teams apps, see the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a>.
+
+## Set up
 
 To create and manage custom apps in Teams, you'll need two tenants: a test tenant for development and a production tenant.
 
 ### Set up your test tenant
 
 > [!NOTE]
-> If you don't already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
+> If you don't already have a test tenant, you can quickly create one and populate it with test data using the <a href="https://developer.microsoft.com/microsoft-365/dev-program" target="_blank">Microsoft 365 Developer Program</a>.
 
 ### Create test users
 
-Make sure that your developers, whether in-house or external, have accounts in your test tenant. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Learn more about adding users</a>.
+Make sure that your developers, whether in-house or external, have accounts in your test tenant. To learn more. see <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide" target="_blank">Add users and assign licenses at the same time</a>.
 
 ### Allow custom apps in the test tenant
 
@@ -45,13 +47,13 @@ To give developers the access they need for testing, allow all users in the test
 To allow users to upload custom apps, follow these steps:
 
 1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
-    1. In the left navigation of the <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams admin center</a>, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
     2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
 
     ![Screenshot of the "Allow interaction with custom apps" org-wide app setting](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Turn on the **Upload custom apps** setting in the global app setup policy. To do this:
-    1. In the left navigation of the <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams admin center</a>, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
     2. Turn on **Upload custom apps**, and then click **Save**.
 
     ![Screenshot of the "Upload custom apps" app setup policy setting](media/manage-your-lob-apps-app-setup-custom-apps.png)
