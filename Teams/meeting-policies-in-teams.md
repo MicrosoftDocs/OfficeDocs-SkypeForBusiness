@@ -124,34 +124,38 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. The default value is True. 
+Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. The default value is True.
 
-If this policy is OFF, users will not be able to create new channel meetings because the channel selection is disabled. However, existing channel meetings can be edited by the organizer of the event. 
+If this policy is OFF, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
-Schedule a meeting will be disabled. 
+Schedule a meeting will be disabled.
 
 ![Screenshot showing the Schedule a meeting option in Teams](media/schedule-meeting-option.png)
 
-Channel selection is disabled. 
+Channel selection is disabled.
 
 ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 In the channel posts page, the following will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png) 
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
 - **Schedule a meeting** button on the channel header.
 ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
 
 In the channel calendar:
+
 - **Add new event** button on channel calendar header will be disabled.
 ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
 - Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
 - Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
 
-The calendar app will show up in the Microsoft Apps section of the admin console, because by default, the Microsoft apps are included.
+**Admin Center**:
+
+The channel calendar app will show up under the **Microsoft apps** section in the admin panel for permission policies.
 
 ![Screenshot showing the Microsoft apps policy in the Teams admin console.](media/manage-microsoft-apps-policy.png)
+
 ### Allow scheduling private meetings
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
@@ -353,7 +357,6 @@ This is a per-organizer policy that allows for leaderless dial in conferencing m
 
 **Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
-
 ### Automatically admit people
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial in users.
@@ -375,7 +378,6 @@ This is a per-organizer policy. This setting controls whether people join a meet
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting.
 
 **Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them.
-
 
 ### Enable live captions
 
