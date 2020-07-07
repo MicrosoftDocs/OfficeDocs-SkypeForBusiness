@@ -56,11 +56,3 @@ Communication compliance policies can be setup for messages sent in Teams at the
 
 - User level : An admin can set up policies at an individual user level or apply it to all the users on the tenant. This will only covers messages that a user sent in 1:1 or Group chats.
 - Team Level: An admin can also set up policies on a team. This covers all the messages sent in the channel in that team (Private channel messages are not supported).
-
-## What do you need to do to enable communication compliance in Teams
-
-Before you get started with communication compliance, you should confirm your [Microsoft 365 subscription](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) and any add-ons. To access and use communication compliance, your organization must have one of the following subscriptions or add-ons:
-
-
-
-UNFINISHED DO NOT PUBLISH ???
