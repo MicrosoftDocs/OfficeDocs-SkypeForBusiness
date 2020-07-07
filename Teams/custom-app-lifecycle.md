@@ -21,7 +21,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment. You'll get an overview of the connected experiences in the app lifecycle&mdash;how developers submit an app to Teams for you to approve and publish, how to set policies to manage the app in your organization, and how users discover the app in Teams. 
+This article provides end-to-end guidance for how to take your Teams app from development to deployment to user discovery. You'll get an overview of the connected experiences in the app lifecycle&mdash;how developers can use the Teams App Submission API to submit an app directly to the Microsoft Teams admin center for you to approve and publish to your tenant app catalog, how to set policies to manage the app for users in your organization, and how users discover the app in Teams.
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
@@ -59,23 +59,23 @@ To allow users to upload custom apps, follow these steps:
     ![Screenshot of the "Upload custom apps" app setup policy setting](media/manage-your-lob-apps-app-setup-custom-apps.png)
 
 > [!NOTE]
-> There's also an upload custom app setting at the team level. By default this setting is on. However, if developers are unable to upload a custom app to a team, check the setting by following the steps <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#configure-the-team-custom-app-setting" target="_blank">here</a>.
+> There's also an upload custom app setting at the team level. By default this setting is on. However, if developers are unable to upload a custom app to a team, check the setting by following the steps <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#team-custom-app-setting" target="_blank">here</a>.
 
 ## Develop
 
-### Create your app
+### Create the app
 
-Developers should now have what they need to create your app. See <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a> for guidance on that.
+Developers should now have what they need to create your app. See the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a> for guidance.
 
-When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that.
+### Submit the app
 
-Developers can validate the app package manifest directly from within their IDE. They can use the checklist to make sure the app meets publication guidelines and requirements. Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
+When the app is ready for use in production, the developer can submit the app directly to the Microsoft Teams admin center by using the Teams App Submission API. The Teams App Submission API can be called from Graph API or an IDE. To learn more. 
 
 Submit via Teams App Submission API, which can be called from Graph API or an IDE. To learn more -> link out to existing docs.
 
-## Validate
-
 Developers can submit the app package directly to your tenant app catalog where you can review and validate the app on the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center.
+
+## Validate
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
 In the table, you'll see that an app submitted directly by a developer has the following status:
@@ -84,6 +84,7 @@ In the table, you'll see that an app submitted directly by a developer has the f
 - **App status**: **Blocked**
 
 2. Click the app name to go to the app details page. From here, you can view details about the app.
+
 
 ## Publish
 
