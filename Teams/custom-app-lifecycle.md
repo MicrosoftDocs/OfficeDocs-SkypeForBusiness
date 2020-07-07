@@ -21,7 +21,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment to user discovery. You'll get an overview of the connected experiences in the app lifecycle&mdash;how developers can use the Teams App Submission API to submit an app directly to the Microsoft Teams admin center for you to approve and publish to your tenant app catalog, how to set policies to manage the app for users in your organization, and how users discover the app in Teams.
+This article provides end-to-end guidance for how to take your Teams app from development to deployment to user discovery. You'll get an overview of the connected experiences in the custom app lifecycle&mdash;how developers can use the Teams App Submission API to submit an app directly to the Microsoft Teams admin center for you to approve and publish to your tenant app catalog, how to set policies to manage the app for users in your organization, and how your users discover the app in Teams.
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
@@ -65,11 +65,11 @@ To allow users to upload custom apps, follow these steps:
 
 ### Create the app
 
-Developers should now have what they need to create your app. See the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a> for guidance.
+Developers should now have what they need to create your app. For more information, see the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a>.
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app directly to the Microsoft Teams admin center by using the Teams App Submission API. The Teams App Submission API can be called from Graph API or an IDE. To learn more. 
+When the app is ready for use in production, the developer can submit the app by using the Teams App Submission API. The Teams App Submission API can be called from Graph API or an IDE. Doing this makes the app available in the Microsoft Teams admin center.
 
 Submit via Teams App Submission API, which can be called from Graph API or an IDE. To learn more -> link out to existing docs.
 
@@ -88,25 +88,22 @@ In the table, you'll see that an app submitted directly by a developer has the f
 
 ## Publish
 
-When you're ready to make the app available to users in the tenant app catalog, publish the app. 
+When you're ready to make the app available to users in your tenant app catalog, publish the app. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
-
-> [!NOTE]
-> If you're doing this manually and the developer sent you an app package in .zip format, select **Upload** on the Manage apps page to upload the app to your tenant app catalog. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
 
 ## Set up and manage
 
 ### Control access to the app
 
-By default, all users have access to this app in the Teams apps store. To restrict and control who has permission to use the app, you can create and assign a new app permission policy. Follow the steps <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">here</a>.
+By default, all users have access to this app in the tenant app catalog. To restrict and control who has permission to use the app, you can create and assign a new app permission policy. Follow the steps <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">here</a>.
 
 ![Screenshot of the "Add app permission policy" page](media/manage-your-lob-apps-new-app-permission-policy.png)
 
 ### Pin the app for users to discover
 
-By default, for users to find this app they would have to go to Teams apps store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create a new app setup policy and assign it to users. Follow the steps  <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies#create-a-custom-app-setup-policy" target="_blank">here</a>.
+By default, for users to find this app they would have to go to your tenant catalog and and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create a new app setup policy and assign it to users. Follow the steps  <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies#create-a-custom-app-setup-policy" target="_blank">here</a>.
 
 ![Screenshot of the "Add pinned apps" pane](media/manage-your-lob-apps-pinned-apps.png)
 
