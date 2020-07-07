@@ -86,12 +86,13 @@ You have several ways to set the Operator:
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.
 - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
 
-    - The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number.
-    - The outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows: 
-        - If set to Disabled,  the original caller's phone number is displayed. This is the default and recommended setting.
+    - REWORK: The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number. ADD: A Phone System license is not supported. 
+        - For a Calling Plan number, you must assign a Calling Plan license.
+        - For a Direct Routing number, you must assign a valid Online Voice Routing Policy (OVRP).
+    - If you're using Direct Routing, the outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows:
+        - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
         - If set to Enabled, the resource account phone number is displayed.
-    - Transfers are done through VoIP and not the PSTN.
-    - Chaining an inbound Calling Plan call to an outbound Direct Routing call or chaining an inbound Direct Routing call to an outbound Calling Plan call isn't supported.
+    - You can't transfer a Direct Routing call to a Calling Plan call or vice versa. Resource accounts can only make the outbound transfer using the same
 
 <!--   
 
