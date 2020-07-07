@@ -69,10 +69,11 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 ## Certified devices
 
-*Table Updated May 2020*
+*Table Updated July 2020*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |NC 700 Headset                                             |6/8/2020        |Certified for Microsoft Teams|
 |Jabra              | Speak 750 speakerphone with Jabra Link 370 USB Dongle       | 5/21/2020 | Certified for Microsoft Teams|
 | EPOS                | Sennheiser Adapt 660 headset                              | 5/15/2020      | Certified for Microsoft Teams                          |
 | EPOS                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certified for Microsoft Teams                          |
