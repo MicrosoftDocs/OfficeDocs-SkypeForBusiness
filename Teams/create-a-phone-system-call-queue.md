@@ -275,7 +275,14 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
-  - **External phone number** Enter an external phone number.
+  - **External phone number** Enter an external phone number. Note the following:
+
+    - The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number.
+    - The outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows: 
+        - If set to Disabled,  the original caller's phone number is displayed. This is the default and recommended setting.
+        - If set to Enabled, the resource account phone number is displayed.
+    - Transfers are done through VoIP and not the PSTN.
+    - Chaining an inbound Calling Plan call to an outbound Direct Routing call or chaining an inbound Direct Routing call to an outbound Calling Plan call isn't supported.
 
 * * *
 
@@ -295,7 +302,14 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
 
-  - **External phone number** Enter an external phone number.
+  - **External phone number** Enter an external phone number. Note the following:
+
+    - The resource account assigned to the application making the transfer must have a Virtual User license, a Calling Plan license or Online Voice Routing Policy (OVRP), and phone number.
+    - The outbound phone number displayed is determined based on the P-Asserted-Identify (PAI) setting on the SBC, as follows: 
+        - If set to Disabled,  the original caller's phone number is displayed. This is the default and recommended setting.
+        - If set to Enabled, the resource account phone number is displayed.
+    - Transfers are done through VoIP and not the PSTN.
+    - Chaining an inbound Calling Plan call to an outbound Direct Routing call or chaining an inbound Direct Routing call to an outbound Calling Plan call isn't supported.
 
 ## Change Caller ID for outbound calls
 
