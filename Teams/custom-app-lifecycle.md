@@ -69,7 +69,7 @@ Developers should now have what they need to create your app. For more informati
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app by using the Teams App Submission API. The Teams App Submission API can be called from Graph API or an IDE. Doing this makes the app available in the Microsoft Teams admin center.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, where you can review and approve it on the Manage apps page of the Microsoft Teams admin center. The Teams App Submission API can be called from Graph API or an IDE. Doing this makes the app available in the Microsoft Teams admin center.
 
 Submit via Teams App Submission API, which can be called from Graph API or an IDE. To learn more -> link out to existing docs.
 
