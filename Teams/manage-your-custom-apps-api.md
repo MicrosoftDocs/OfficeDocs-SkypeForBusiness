@@ -21,7 +21,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment. You'll get an overview of the connected experiences in the app lifecycle, from how developers submit an app to Teams for you to approve and publish, how to set policies to manage the app in your organization, through to how users discover the app in Teams. 
+This article provides end-to-end guidance for how to take your Teams app from development to deployment. You'll get an overview of the connected experiences in the app lifecycle&mdash;how developers submit an app to Teams for you to approve and publish, how to set policies to manage the app in your organization, and how users discover the app in Teams. 
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
