@@ -50,6 +50,7 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 ## [Teams templates for small and medium businesses](smb-templates.md)
+## [Create a Teams template](create-a-team-template.md)
 
 
 
