@@ -26,6 +26,9 @@ Manage external access in Microsoft Teams
 
 External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on-premises) and Skype (in preview).
 
+> [!NOTE]
+> The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
+
 If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Use external access when:
@@ -41,7 +44,7 @@ Use external access when:
 
 ## Plan for external access
 
-By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
+By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is for meetings, if anonymous participants are allowed. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
 - **Open federation**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
