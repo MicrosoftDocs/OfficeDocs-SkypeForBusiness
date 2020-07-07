@@ -150,7 +150,7 @@ In the channel calendar:
 - Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
 - Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
 
-**Admin Center**:
+In the Admin Center:
 
 The channel calendar app will show up under the **Microsoft apps** section in the admin panel for permission policies.
 
