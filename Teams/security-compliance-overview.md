@@ -171,7 +171,7 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 When it comes to information protection capabilities, Microsoft 365 subscriptions, Office 365 subscriptions, and the associated standalone licenses will determine the available feature set.
 
-For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features
+For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 > [!NOTE]
 > Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
 
