@@ -1,9 +1,9 @@
 ---
 title: "Accessibility solutions for Skype for Business Online and Microsoft Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: cichur
+author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, allancar
+ms.reviewer: lshook
 ms.topic: article
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 ms.tgt.pltfrm: cloud
@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Legal
-  - seo-marvel-mar2020
+  - seo-marvel-jul2020
 hideEdit: true
 description: "Fournir des expériences accessibles à tous est au cœur de la mission de Microsoft, qui consiste à  permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion."
 ---
