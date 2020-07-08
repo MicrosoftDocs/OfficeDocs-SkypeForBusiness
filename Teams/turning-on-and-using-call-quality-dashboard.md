@@ -5,7 +5,6 @@ author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
-ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
