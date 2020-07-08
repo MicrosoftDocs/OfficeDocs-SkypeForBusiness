@@ -72,6 +72,9 @@ When you block or allow an app on the **Manage apps** page, that app is blocked 
 
 Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom  apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
+> [!NOTE]
+> The **Manage apps** page isn't available yet in Microsoft 365 Government - GCC deployments of Teams.  To learn how to use org-wide app settings to enable or disable third-party apps, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+
 1. On the **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
     ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
@@ -79,9 +82,6 @@ Use org-wide app settings to control whether users can install third-party apps 
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
-
-        > [!NOTE]
-        > In a Microsoft 365 Government - GCC deployment of Teams, the **Allow third-party apps in Teams** setting is off by default.
 
         When **Allow third-party apps** is off, [outgoing webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users regardless of whether the setting is on or off in the users' app permission policy.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.

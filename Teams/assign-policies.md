@@ -23,10 +23,7 @@ f1keywords:
 # Assign policies to your users in Microsoft Teams
 
 > [!NOTE]
-> **Note the following about one of the features discussed in this article, policy assignment to groups**: 
-> - [Policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon. 
-> - [Policy assignment to groups using PowerShell](#using-powershell-3), is currently only available in private preview. The cmdlets for this feature are in the Teams PowerShell public preview module.
->
+> One of the features discussed in this article, [policy assignment to groups using the Microsoft Teams admin center](#using-the-microsoft-teams-admin-center-3), hasn't yet been released. It's been announced, and it's coming soon.
 > To stay on top of the release status of this feature, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
 As an admin, you use policies to control the Teams features that are available to users in your organization. For example, there are calling policies, meeting policies, and messaging policies, to name just a few.
@@ -68,7 +65,7 @@ Before assigning policies to individual users or groups, start by [setting the g
 |[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Skype for Business Online PowerShell module
 | [Assign a policy package](#assign-a-policy-package)   | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to teachers in your school to give them full access to chats, calling, and meetings and the Education (Secondary school student) policy package to secondary students to limit certain capabilities like private calling.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)   | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
-|[Assign a policy to a group](#assign-a-policy-to-a-group) (in preview/coming soon)|You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.| The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module (in preview)|
+|[Assign a policy to a group](#assign-a-policy-to-a-group) |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.| The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
 | [Assign a policy package to a batch of users](#assign-a-policy-package-to-a-batch-of-users)|You need to assign multiple policies to a batch of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to all teachers in your school using batch assignment to give them full access to chats, calling, and meetings and assign the Education (Secondary school student) policy package to a batch of secondary students to limit certain capabilities like private calling.|PowerShell cmdlets in the Teams PowerShell module|
 | Assign a policy package to a group (coming soon)   | ||
 
@@ -310,14 +307,12 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 ### Using PowerShell
 
-**This feature is currently only available in private preview. The cmdlets for this feature are in the Teams PowerShell public preview module.**
-
 > [!NOTE]
 > Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
-These cmdlets are part of the Teams PowerShell public preview module. For step-by-step guidance, read [Install Teams Powershell](teams-powershell-install.md).
+For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-install.md).
 
 #### Assign a policy to a group
 
@@ -380,6 +375,9 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 #### Change a policy assignment for a group
 
+> [!NOTE]
+> The ```Set-CsGroupPolicyAssignment``` cmdlet will be available soon. In the meantime, to change a group policy assignment, you can remove the current policy assignment from the group, and then add a new policy assignment.
+
 After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignment``` cmdlet to change that group's policy assignment as follows:
 
 - Change the ranking
@@ -393,6 +391,8 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 ```
 
 To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
+
+
 
 #### Change the effective policy for a user
 
