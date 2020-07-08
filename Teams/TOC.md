@@ -383,7 +383,6 @@
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
-
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -519,7 +518,6 @@
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
 
-
 ### Prepare your environment for Teams
 #### [Technical readiness overview](upgrade-prepare-environment.md)
 #### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
@@ -532,12 +530,10 @@
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Operate, adopt, and optimize
 ### [Operational plan overview](continue-journey.md)
@@ -554,7 +550,6 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Meetings First](meetings-first.md)
 
@@ -687,6 +682,7 @@
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Communicatoin compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -768,7 +764,6 @@
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperability with Microsoft 365 and Office 365
 
 ### [Microsoft 365 groups and Teams](office-365-groups.md)
@@ -780,7 +775,6 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
 ### [Update your devices remotely](devices/remote-update.md)
@@ -790,7 +784,6 @@
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
