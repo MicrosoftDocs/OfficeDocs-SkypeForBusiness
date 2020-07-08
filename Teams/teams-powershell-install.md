@@ -42,7 +42,7 @@ Install-Module MicrosoftTeams
 
 By default, the PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**. The first time you use the PSGallery, you'll see the following message:
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -52,7 +52,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Answer `Yes` or `Yes to All` to continue with the installation.
+Answer **Yes** or **Yes to All** to continue with the installation.
 
 
 ## Install Teams PowerShell public preview
