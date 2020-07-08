@@ -120,7 +120,7 @@ Users who have have permissions to the app can find it in your tenant app store.
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
-## Update the app
+## Update
 
 To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
 
