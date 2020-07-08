@@ -19,7 +19,6 @@ f1.keywords:
   - CSH
 ms.custom: 
   - Reporting
-  - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
 description: Learn about the data and reports available in Microsoft Call Quality Dashboard (CQD).

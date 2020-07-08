@@ -177,3 +177,5 @@ Preferably, you capture traffic at the network egress point. You can use port mi
 [Video: Network Planning](https://aka.ms/teams-networking)
 
 [Prepare your organization's network for Microsoft Teams](prepare-network.md)
+
+[Implement QoS in the Teams client](QoS-in-Teams-clients.md)

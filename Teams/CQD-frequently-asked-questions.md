@@ -16,11 +16,9 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - CSH
+  - NOCSH
 ms.custom: 
   - Reporting
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
 description: Read frequently asked questions (FAQ) and answers about Microsoft Teams Call Quality Dashboard (CQD).
 ---

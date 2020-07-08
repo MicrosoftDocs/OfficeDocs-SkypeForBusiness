@@ -1,5 +1,5 @@
 ---
-title: "Stream classification in Call Quality Dashboard"
+title: "Stream classification in Call Quality Dashboard (CQD)"
 ms.author: lolajacobsen
 author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Optimization
-description: "Learn how stream quality is classified in the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
+description: "Learn how stream quality is classified in the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
 ---
 
-# Stream Classification in Call Quality Dashboard
+# Stream Classification in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## Classifier Definitions
 

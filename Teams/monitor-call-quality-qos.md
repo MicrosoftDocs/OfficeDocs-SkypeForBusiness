@@ -23,11 +23,11 @@ ms.custom: seo-marvel-mar2020
 
 This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
 
-- **Call Quality Dashboard (CQD)**: to analyze org-wide trends or problems, drive improvements to performance
+- **Call Quality Dashboard (CQD)**: To analyze org-wide trends or problems, drive improvements to performance
 
-- **Call analytics**: to analyze call and meeting quality for individual users
+- **Call analytics**: To analyze call and meeting quality for individual users
 
-- **Quality of Service (QoS)** to prioritize important network traffic
+- **Quality of Service (QoS)**: To prioritize important network traffic
 
 
 

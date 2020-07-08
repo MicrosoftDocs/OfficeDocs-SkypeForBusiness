@@ -1,5 +1,5 @@
 ---
-title: "Dimensions and measurements - Call Quality Dashboard"
+title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom: 
  - Reporting
  - seo-marvel-mar2020
-description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
+description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
 ---
 
-# Dimensions and measurements available in Call Quality Dashboard
+# Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This topic provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This topic provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 

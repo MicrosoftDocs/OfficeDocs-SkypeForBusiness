@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Learn how to prepare the network for your organization for Quality of Service (QoS) in Microsoft Teams.
+description: Learn how to use Quality of Service (QoS) to optimize network traffic for the Microsoft Teams desktop client.
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
@@ -114,3 +114,8 @@ To verify that the values from the Group Policy object have been set, perform th
    | | | |
 
 1. Verify that the value for the Application Name entry is correct for the client you're using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
+
+
+## Related topics
+
+[Implement Quality of Service (QoS) in Teams](QoS-in-Teams.md)
