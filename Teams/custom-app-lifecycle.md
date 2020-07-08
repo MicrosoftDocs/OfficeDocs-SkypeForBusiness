@@ -83,7 +83,7 @@ Keep in mind that this doesn't publish the app to your tenant app store. This st
 
 ## Validate
 
-The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page notifies you of the number of custom apps submitted for approval.
+The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page notifies you when a custom app is submitted for approval.
 
 In the table, a newly submitted app automatically shows an **App publishing status** of **Submitted** and **App status** of **Blocked**. You can sort the table according to status to quickly find the app.
 
@@ -110,50 +110,49 @@ By default, all users in your organization can access the app in your tenant app
 
 ### Pin the app for users to discover
 
-By default, for users to find the app they would have to go to your tenant app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
+By default, for users to find the app they have to go to your tenant app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
 
 ## Discover and adopt
 
-Users who have have permissions to the app can find it in the tenant app store.
+Users who have have permissions to the app can find it in your tenant app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps. 
 
 ![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
 
-If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who have the policy.
+If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
 ## Update the app
 
 To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
 
-When the developer submits an update to a published custom app, you'll get notified in the **Pending requests** area of the Manage apps page. In the table, the **App publishing status** of the app will be set to **Update submitted**.
+When the developer submits an update to a published custom app, you'll get notified in the **Pending requests** area of the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page. In the table, the **App publishing status** of the app will be set to **Update submitted**.
 
 ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
 
-You can update the app through the tenant app catalog. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**.
 To review and publish an app update:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click the app name to go to the app details page, and then select **Update available** to review details about the update.
+2. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
     ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-app.png)
-3. When you're ready, select **Publish** to publish the date. Doing this replaces the existing app, updates the version number, and changes the **App publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
+3. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **App publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
     If you reject the update, the earlier version of the app remains published.
 
 ### Update experience for users
 
-In most cases, after you complete an app update, the new version will automatically appear for users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
+In most cases, after you publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
 * The bot's "supportsFiles" property changed
-* A Messaging extension was added or removed
+* A messaging extension was added or removed
 * A new connector was added
 * A new static tab was added
 * A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
-![Screenshot of apps list, showing apps that have a new version available](media/manage-your-custom-apps-update1.png)
+![Screenshot showing apps that have a new version available](media/manage-your-custom-apps-update1.png)
 
 ![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
