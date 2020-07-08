@@ -27,7 +27,7 @@ With org-wide teams, global admins can easily create a public team that pulls in
 
 ![Screenshot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
-When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Commercial Cloud Trial license. To learn more about the trial license, check out [Manage the Teams Commercial Cloud Trial offer](iw-trial-teams.md). 
+When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](teams-exploratory.md). 
 
 These types of accounts won't be added to your org-wide team:
 
