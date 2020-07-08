@@ -110,7 +110,7 @@ In this context, quality is a combination of service metrics and user experience
 
 ### Service metrics
 
-Service metrics consist of specific client-based metrics. During each call, the client collects telemetry for the call and submits a report at the end of each call that can later be accessed in CQD or in [per-user call analytics](set-up-call-analytics.md). These metrics include:
+Service metrics consist of specific client-based metrics. During each call, the client collects telemetry for the call and submits a report at the end of each call that can later be accessed in CQD or in [per-user call analytics](set-up-call-analytics.md). These metrics include (but aren't limited to):
 
 -   Poor Stream (incoming and outgoing)
 -   Setup Failure Rate
@@ -139,13 +139,13 @@ The actual measurement in CQD varies by workload, but for the purposes of this a
 
 ##### Why do we prefer to use streams instead of calls?
 
-Streams let us know which particular leg of the call was poor - outcoming or incoming. When you're looking at call analytics for a poor call, determine whether the poor call was due to that user's stream (outbound) or another user's stream (inbound). Determining which stream is impacting call quality is even more important for conferences. If you're only looking at call data, you'll see how many conferences a person participates in, but you won't see which people are active speakers, doing the most screen sharing.
+Streams let us know which particular leg of the call was poor - outgoing or incoming. When you're looking at call analytics for a poor call, determine whether the poor call was due to that caller's stream (outbound) or callee's stream (inbound). Determining which stream is impacting call quality is even more important for conferences. If you're only looking at call data, you'll see how many conferences a person participates in, but you won't see which people are active speakers, doing the most screen sharing.
 
 Call data gives you usage metrics, but it won't necessarily lead you to the root cause for poor call quality. By looking at stream direction, you can identify factors such as a call that's not on a managed network, a call from a non-employee (e.g., a vendor or someone on a different network). In these cases, if the other person's network connection was poor, the entire call will be flagged as poor. You can't do  anything about external factors, so this data isn't helpful.
 
 Stream direction can also help you identify problematic devices or clients.
 
- - For example, If you have a limited budget ofr devices and want to provide devices only for heavy audio users, use the audio usage report (VoIP) and filter for outbound streams and conferencing. Look for high-volume audio users who are speaking into their microphones - these may correlate to poorer call quality (and you might want to provide audio devices for these people). For added clarity, you could filter for packet utilization, which will let you target especially high-volume audio users. 
+ - For example, If you have a limited budget for devices and want to provide devices only for heavy audio users, use the audio usage report (VoIP) and filter for outbound streams and conferencing. Look for high-volume audio users who are speaking into built-in microphones - these may correlate to poorer call quality (and you might want to provide audio devices for these people). For added clarity, you could filter for packet utilization, which will let you target especially high-volume audio users. 
 
   - Another example involves screen sharing. If a customer is using an old Teams client, screen sharing performance may be affected. You could address this problem by prioritizing client upgrades for people who do a lot of screen sharing.
 
