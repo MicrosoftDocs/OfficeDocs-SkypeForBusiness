@@ -21,7 +21,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment to user discovery. You'll get an overview of the connected experiences in the custom app lifecycle&mdash;how developers can use the Teams App Submission API to submit an app directly to the Microsoft Teams admin center for you to approve and publish to your tenant app catalog, how to set policies to manage the app for users in your organization, and how your users discover the app in Teams.
+This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery in your organization. You'll get an overview of the connected experiences that Teams provides across the custom app lifecycle to streamline app development, deployment, and management. For example, you'll learn how developers can use the Teams App Submission API to submit an app directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage the app for users in your organization, and how your users discover the app in Teams.
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
@@ -38,7 +38,7 @@ To create and manage custom apps in Teams, you'll need two tenants: a test tenan
 
 ### Create test users
 
-Make sure that your developers, whether in-house or external, have accounts in your test tenant. To learn more. see <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide" target="_blank">Add users and assign licenses at the same time</a>.
+Make sure that your developers, whether in-house or external, have accounts in your test tenant. To learn more, see <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide" target="_blank">Add users and assign licenses at the same time</a>.
 
 ### Allow custom apps in the test tenant
 
