@@ -83,7 +83,7 @@ Keep in mind that this doesn't publish the app to your tenant app store. This st
 
 ## Validate
 
-The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page notifies you when a custom app is submitted for approval.
+The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page lets you know when a custom app is submitted for approval.
 
 In the table, a newly submitted app automatically shows an **App publishing status** of **Submitted** and **App status** of **Blocked**. You can sort the table according to status to quickly find the app.
 
