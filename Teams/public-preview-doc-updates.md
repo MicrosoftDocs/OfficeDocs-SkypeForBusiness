@@ -21,14 +21,14 @@ localization_priority: Priority
 Public preview in Microsoft Teams
 ======================================================
 
-> [!NOTE] 
-> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for testing and exploration purposes only. In Phase 0, public preview is supported on Windows 10 and Windows 10 browsers. 
+> [!NOTE]
+> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for testing and exploration purposes only. In Phase 0, public preview is supported on Windows 10 and Windows 10 browsers.
 
-Public Preview is a public program for a Microsoft Teams user which provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization. 
+Public Preview is a public program for a Microsoft Teams user which provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization.
 
 ## Enable public preview
 
-Public preview is enabled on a per-client basis, but the option to turn on public preview is controlled in an admin policy. 
+Public preview is enabled on a per-client basis, but the option to turn on public preview is controlled in an admin policy.
 
 ### On a desktop or web client
 
@@ -38,7 +38,6 @@ To enable the public preview on a desktop or web client, you need to do the foll
 2. Select **About** → **Public preview**.
 3. Select **Switch to Public preview**.
 You might need to restart Teams after switching to Public preview.
-
 
 ### On a mobile client
 
@@ -61,4 +60,4 @@ REVIEWERS do you want this notes? note from eng. doc. Please make sure this poli
 
 ## Related topics
 
-[Public developer preview for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
+[Public developer preview for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
