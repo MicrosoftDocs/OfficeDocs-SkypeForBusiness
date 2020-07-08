@@ -83,17 +83,15 @@ Keep in mind that this doesn't publish the app to your tenant app store. This st
 
 ## Validate
 
-The Manage apps page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page shows the number of custom apps submitted for review.
+The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page notifies you of the number of custom apps submitted for approval.
 
-In the table, a custom app that's submitted for approval shows an **App publishing status** of **Submitted** and **App status** of **Blocked**. You can filter the table according to status to easily find the app.
+In the table, a newly submitted app automatically shows an **App publishing status** of **Submitted** and **App status** of **Blocked**. You can sort the table according to status to quickly find the app.
 
 ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-validate-app.png)
 
-Click the app name to go to the app details page. On the **About tab**, you can view details about the app, including description, status, submitter, and app ID.
+Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
 ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
-
-To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage your apps in the Microsoft Teams admin center</a>.
 
 ## Publish
 
@@ -102,29 +100,44 @@ When you're ready to make the app available to users, publish the app.
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
 
-    After you publish the app, the **App publishing status** changes to **Published** and the **App status** changes to **Allowed**. 
-
-To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage your apps in the Microsoft Teams admin center</a>.
+    After you publish the app, the **App publishing status** changes to **Published** and the **App status** changes to **Allowed**.
 
 ## Set up and manage
 
 ### Control access to the app
 
-By default, all users in your organization can access the app in your tenant app catalog. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
+By default, all users in your organization can access the app in your tenant app store. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
 
 ### Pin the app for users to discover
 
-By default, for users to find the app they would have to go to your tenant catalog and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
+By default, for users to find the app they would have to go to your tenant app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
 
 ## Discover and adopt
 
+Users who have have permissions to the app can find it in the tenant app store.
+
 ![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
+
+If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who have the policy.
 
 ## Update the app
 
 To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
 
-You can update the app through the tenant app catalog. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all app permission policies and app setup policies remain enforced for the updated app.
+When the developer submits an update to a published custom app, you'll get notified in the **Pending requests** area of the Manage apps page. In the table, the **App publishing status** of the app will be set to **Update submitted**.
+
+![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
+
+You can update the app through the tenant app catalog. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**.
+To review and publish an app update:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. Click the app name to go to the app details page, and then select **Update available** to review details about the update.
+
+    ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-app.png)
+3. When you're ready, select **Publish** to publish the date. Doing this replaces the existing app, updates the version number, and changes the **App publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
+
+    If you reject the update, the earlier version of the app remains published.
 
 ### Update experience for users
 
