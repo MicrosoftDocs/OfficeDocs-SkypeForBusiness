@@ -108,7 +108,7 @@ To view and test the new app on a mobile device, open the app drawer by tapping 
 
 ## A Sample Manifest.JSON file
 
-The JSO        file you generate will look something like the one below.
+The JSON file you generate will look something like the one below.
 
 ```JSON'
 {
