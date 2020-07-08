@@ -35,7 +35,7 @@ You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 2. Click **Add**.
-3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.on.microsoft.com`, use `sbc.contoso.com` as the SBC name.
+3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name.
 4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
     ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
