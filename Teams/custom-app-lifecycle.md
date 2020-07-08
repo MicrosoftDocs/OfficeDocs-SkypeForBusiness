@@ -21,7 +21,9 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Deploy and manage your custom apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your tenant app catalog. For example, you'll learn how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
+This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your tenant app catalog.
+
+For example, you'll learn how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
@@ -69,7 +71,7 @@ Developers should now have what they need to create your app. For more informati
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API or an integrated development environment (IDE). Doing this makes the app available on the [**Manage apps**](manage-apps.md) page of the Microsoft Teams admin center, where you can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API or an integrated development environment (IDE). Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you can review and approve it.
 
 The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams. To learn more, see [LINK TO DEV DOCS].
 
@@ -77,24 +79,33 @@ Here's an example of what this app submission step looks like in Visual Studio:
 
 ![Screenshot of submitting an app in Visual Studio](media/custom-app-lifecycle-submit-app.png)
 
-Keep in mind that this step doesn't publish the app to your tenant app catalog. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your tenant app catalog.
+Keep in mind that this doesn't publish the app to your tenant app catalog. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your tenant app catalog.
 
 ## Validate
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
-In the table, you'll see that an app submitted directly by a developer has the following status:
+After an app is submitted, review the app on the Manage apps page of the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**).
+
+![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-validate-app.png)
+
+Take note of the following:
+
+- The **Pending requests** area near the top of the page shows you 
 
 - **App publishing status**: **Submitted**
 - **App status**: **Blocked**
 
 2. Click the app name to go to the app details page. From here, you can view details about the app.
 
+    ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
+
 ## Publish
 
-When you're ready to make the app available to users in your tenant app catalog, publish the app.
+When you're ready to make the app available to users, publish the app to your tenant app catalog.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
+
+To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage your apps in the Microsoft Teams admin center</a>.
 
 ## Set up and manage
 
@@ -108,15 +119,17 @@ By default, for users to find the app they would have to go to your tenant catal
 
 ## Discover and adopt
 
+![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
+
 ## Update the app
 
-To update an app, developers should continue to follow [step 1](#step-1-develop-and-test) and [step 2](#step-2-validate-in-production).
+To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
 
-You can update the app through the tenant app catalog. To do this, in the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all app permission policies and app setup policies remain enforced for the updated app.
+You can update the app through the tenant app catalog. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all app permission policies and app setup policies remain enforced for the updated app.
 
-### End user update experience
+### Update experience for users
 
-In most cases, after you complete an app update the new version will automatically appear for end users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
+In most cases, after you complete an app update, the new version will automatically appear for users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
 * A bot was added or removed
 * An existing bot's "botId" property changed
@@ -132,7 +145,7 @@ In most cases, after you complete an app update the new version will automatical
 
 ![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
-## Related apps
+## Related topics
 
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
