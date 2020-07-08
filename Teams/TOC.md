@@ -921,3 +921,4 @@
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
+## [Public preview in Microsoft Teams](public-preview-doc-updates.md)

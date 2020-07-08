@@ -21,7 +21,8 @@ localization_priority: Priority
 Public preview in Microsoft Teams
 ======================================================
 
-> [!NOTE] Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for testing and exploration purposes only. In Phase 0, public preview is supported on Windows 10 and Windows 10 browsers. 
+> [!NOTE] 
+> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for testing and exploration purposes only. In Phase 0, public preview is supported on Windows 10 and Windows 10 browsers. 
 
 Public Preview is a public program for a Microsoft Teams user which provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization. 
 
@@ -56,10 +57,8 @@ For a full list of the features currently enabled in public preview see (I'm gue
 
 ## Batch preview settings
 
-note from eng. doc. Please make sure this policy can be assigned via PowerShell / to a group rather than to individual users at a time.
+REVIEWERS do you want this notes? note from eng. doc. Please make sure this policy can be assigned via PowerShell / to a group rather than to individual users at a time.
 
 ## Related topics
 
-- [Plan for live events in Teams](teams-live-events/plan-for-teams-live-events.md)
-
-- [Get started with Microsoft Teams live events](https://support.microsoft.com/en-us/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_productiontypes)
+[Public developer preview for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
