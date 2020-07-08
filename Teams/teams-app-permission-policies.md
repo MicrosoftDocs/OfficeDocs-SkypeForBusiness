@@ -97,6 +97,8 @@ Use org-wide app settings to control whether users can install third-party apps.
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCC deployment of Teams, this setting is off by default.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
+    
+    NEED TO ADD A DISCLAIMER HERE ABOUT 3rd Party Apps
 
 3. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCC deployment of Teams, all third-party apps are added to this list by default. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies
 4. Click **Save** for org-wide app settings to take effect.
