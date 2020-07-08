@@ -107,7 +107,7 @@ You can specify whether a team created with a specific label allows guest access
 
 ### Sensitivity labels in the Microsoft Teams admin center
 
-You can set sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Sensitivity** column on the Manage teams page of the Microsoft Teams admin center.
+You can set sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Classification** column on the Manage teams page of the Microsoft Teams admin center.
 
 ## Known issues
 
