@@ -40,7 +40,7 @@ If you have more than one Teams Rooms device, you can do most actions on multipl
 
 ### Device settings
 
-You can change settings on one or more devices in your organization. To change settings, select the device or devices you want to manage and then select **Settings**. A new pane will open with all of the settings you can change on your devices. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single device.
+You can change settings on one or more devices in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change on your devices. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single device.
 
 If you select more than one device, settings that support bulk editing show the two following options.
 
@@ -91,15 +91,41 @@ Some changes to device settings will only take effect after the devices have bee
 > [!CAUTION]
 > Devices in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
 
+### Remove or block a device
+
+When you **remove** a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center. However, if the device is still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365.
+
+When you **block** a device, the device is removed from your organization and can't be re-enrolled even if it has a valid username and password. It's still listed in your list of Teams Rooms devices with a status of **Blocked**.
+
+> [!WARNING]
+> If you block **and** remove a device, the device can't be unblocked and can't be re-added to organization. Only block and remove a device if you're sure the device will never need to be re-added to the organization (for example, if the device is being decommissioned and recycled). If you want to prevent a device from connecting to your organization but might want to add it back at a later date, block the device but don't remove it.
+
+To remove one or more devices, do the following:
+
+1. Go to **Devices** > **Teams Rooms** and select the devices you want to remove.
+1. Select **Remove**.
+
+To block a device, do the following:
+
+1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
+1. On the device details page, select **Actions** in the top-right corner of the page.
+1. Select **Block**.
+
+To unblock a device, do the following:
+
+1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
+1. On the device details page, select **Actions** in the top-right corner of the page.
+1. Select **Unblock**.
+
 ## Download device logs
+
+You can download a copy of a device's diagnostic log files if requested to do so by Microsoft support. Log files are compressed into a zip file that can be downloaded from the Teams admin center.
 
 To download logs from a Teams Rooms device to your computer, do the following:
 
 1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to download logs from.
-1. Select **Download device logs**
-    > [!NOTE]
-    > It can take several minutes for device logs to become available.
-1. Select the **History** tab
+1. Select **Download device logs**. It can take several minutes for device logs to become available.
+1. Select the **History** tab and then select log file link under **Diagnostics file**. A zip file containing your device's diagnostic log files will be downloaded to your browser's default Downloads folder.
 
 ## View device information
 
@@ -113,6 +139,9 @@ The Teams Rooms system dashboard shows you the status and health of all of your 
 
 To view detailed information about a device, select its name from the device list. When in details view, you can see the following information about your device:
 
+- **Health status** Shows the overall health of the Teams Room device. Health status can be either **Healthy** or **Unhealthy**.
+- **Offline since** Shows the last time Microsoft 365 was able to communicate with the device.
+- **Device status** Shows the current state of the device: **Idle**, **Teams meeting**, **Skype meeting**, or **Ingest**.
 - **Peripherals** Shows the peripherals connected to your Teams Room device and their health status. Health status can be either **Connected** or **Disconnected**.
 - **Health** Shows detailed information about the peripherals connected to your Teams Room device, network connectivity, sign in status to required services, and software version information.
 - **Details** Shows manufacturer information, network IP address, and Teams Room device serial/MAC address.
