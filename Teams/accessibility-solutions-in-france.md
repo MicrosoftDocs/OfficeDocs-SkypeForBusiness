@@ -1,7 +1,7 @@
 ---
 title: "Accessibility solutions for Skype for Business Online and Microsoft Teams"
-ms.author: cichur
-author: v-cichur
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: lshook
 ms.topic: article
