@@ -163,7 +163,6 @@
 #### [Use the recovery tool](rooms/recovery-tool.md)
 
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
-## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -291,6 +290,7 @@
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
+### [Dial pad configuration](dial-pad-configuration.md)
 
 
 ## Calling Plans
@@ -412,7 +412,6 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
@@ -549,7 +548,6 @@
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
 
-
 ### Prepare your environment for Teams
 #### [Technical readiness overview](upgrade-prepare-environment.md)
 #### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
@@ -562,12 +560,10 @@
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Operate, adopt, and optimize
 ### [Operational plan overview](continue-journey.md)
@@ -584,7 +580,6 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Meetings First](meetings-first.md)
 
@@ -657,12 +652,7 @@
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Bookings app and virtual visits](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Run a report to show active StaffHub usage](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Plan to move your StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Sample email communication to users](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub has been retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams for Healthcare
@@ -694,6 +684,7 @@
 ### [Quickstart for firstline workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -721,6 +712,7 @@
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Communicatoin compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -802,7 +794,6 @@
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperability with Microsoft 365 and Office 365
 
 ### [Microsoft 365 groups and Teams](office-365-groups.md)
@@ -814,9 +805,9 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
+### [Update your devices remotely](devices/remote-update.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
@@ -824,11 +815,12 @@
 ### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
+### [Install Teams PowerShell](teams-powershell-install.md)
+### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
+### [Teams PowerShell release notes](teams-powershell-release-notes.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
