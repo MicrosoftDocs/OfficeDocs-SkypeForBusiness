@@ -51,7 +51,7 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 You must be an admin to make these changes.
 
-1. Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Log in to the Microsoft Teams admin center.
 
 2. In the left navigation, click **Users**.
 
