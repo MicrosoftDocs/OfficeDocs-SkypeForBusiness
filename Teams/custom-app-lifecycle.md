@@ -23,7 +23,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your tenant app catalog.
 
-For example, you'll learn how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
+We'll cover each step of the lifecycle, including how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
 
 ![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
 
@@ -79,31 +79,30 @@ Here's an example of what this app submission step looks like in Visual Studio:
 
 ![Screenshot of submitting an app in Visual Studio](media/custom-app-lifecycle-submit-app.png)
 
-Keep in mind that this doesn't publish the app to your tenant app catalog. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your tenant app catalog.
+Keep in mind that this doesn't publish the app to your tenant app store. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your tenant app store.
 
 ## Validate
 
-After an app is submitted, review the app on the Manage apps page of the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**).
+The Manage apps page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all apps in your tenant catalog. The **Pending requests** area near the top of the page shows the number of custom apps submitted for review.
+
+In the table, a custom app that's submitted for approval shows an **App publishing status** of **Submitted** and **App status** of **Blocked**. You can filter the table according to status to easily find the app.
 
 ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-validate-app.png)
 
-Take note of the following:
+Click the app name to go to the app details page. On the **About tab**, you can view details about the app, including description, status, submitter, and app ID.
 
-- The **Pending requests** area near the top of the page shows you 
+![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
 
-- **App publishing status**: **Submitted**
-- **App status**: **Blocked**
-
-2. Click the app name to go to the app details page. From here, you can view details about the app.
-
-    ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
+To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage your apps in the Microsoft Teams admin center</a>.
 
 ## Publish
 
-When you're ready to make the app available to users, publish the app to your tenant app catalog.
+When you're ready to make the app available to users, publish the app.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
+
+    After you publish the app, the **App publishing status** changes to **Published** and the **App status** changes to **Allowed**. 
 
 To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage your apps in the Microsoft Teams admin center</a>.
 
@@ -111,7 +110,7 @@ To learn more, see <a href="https://docs.microsoft.com/microsoftteams/manage-app
 
 ### Control access to the app
 
-By default, all users in your organization can access the app in your tenant app catalog. To restrict and control who has permission to use the app, you can create and assign app permission policies. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
+By default, all users in your organization can access the app in your tenant app catalog. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
 
 ### Pin the app for users to discover
 
