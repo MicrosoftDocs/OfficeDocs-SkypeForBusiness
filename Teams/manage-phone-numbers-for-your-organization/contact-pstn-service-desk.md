@@ -22,7 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.voice.contactPSTNsupport
   - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
+description: "When you get phone numbers or port (transfer) numbers for your organization, you might need to get help and support at the PSTN service desk."
 ---
 
 # PSTN Service Desk contact information
@@ -45,7 +45,7 @@ If you need assistance to **transfer or port your existing phone numbers to Micr
 If you need assistance to **acquire new phone numbers for Microsoft Teams**, include as many details as possible. For example, include:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
   - The types of phone numbers that you need assistance with **(user, service toll, or service toll-free)**.
-  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to be originated from.
+  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate from.
 
 If you need assistance with something related to **numbers setup; configuration; or licenses, fees, or billing**, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
