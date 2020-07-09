@@ -50,7 +50,7 @@ As part of the broadcast policy, there is a setting that you can toggle to turn 
 
 When the policy is set to **Always record**, the policy page has the following selected options:
 
-![Screen shot of live events policy settings](../media/live-event-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+![Screen shot of live events policy settings](../media/live-events-recording-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
 ## Flags set on client
 
