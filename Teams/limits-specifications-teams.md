@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300. Meeting overflow allows for unlimited participants in listen-only mode beyond the 300.<sup>1</sup> <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300.   |
+|Number of people in a meeting (can chat and call in)  | 300. **Meeting overflow** allows for unlimited participants in listen-only mode beyond the 300.<sup>1</sup> <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow.   |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -137,13 +137,12 @@ For more information about live events and a comparison of Teams live events to 
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
-> 
+>
 > To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out:
+>
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
-
-
 
 ## Presence in Outlook
 
