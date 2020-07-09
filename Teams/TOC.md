@@ -50,8 +50,6 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 ## [Teams templates for small and medium businesses](smb-templates.md)
-## [Cortana voice assistant in Teams](cortana-in-teams.md)
-
 
 
 ## Apps, bots, and connectors
