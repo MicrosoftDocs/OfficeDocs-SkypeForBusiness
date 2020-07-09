@@ -47,7 +47,7 @@ If you need assistance to **acquire new phone numbers for Microsoft Teams**, inc
   - The types of phone numbers that you need assistance with **(user, service toll, or service toll-free)**.
   - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate from.
 
-If you need assistance with something related to **numbers setup; configuration; or licenses, fees, or billing**, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+If you need assistance with something related to **numbers setup/configuration, licenses, fees, or billing**, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 ## Additional resources
 
