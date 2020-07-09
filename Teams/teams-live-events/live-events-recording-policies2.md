@@ -66,3 +66,4 @@ When the policy is set to **Always record**, the policy page has the following s
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
+- [Teams cloud meeting recording](../cloud-recording.md)

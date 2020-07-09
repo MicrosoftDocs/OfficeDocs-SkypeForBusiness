@@ -50,7 +50,7 @@ As part of the broadcast policy, there is a setting that you can toggle to turn 
 
 When the policy is set to **Always record**, the policy page has the following selected options:
 
-![Screen shot of live events policy settings](../media/live-events-recording-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+![Screen shot of live events policy settings](../media/live-events-recording-policies.png)
 
 ## Flags set on client
 
@@ -133,3 +133,4 @@ When the policy is set to **Always record**, the policy page has the following s
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
+- [Teams cloud meeting recording](../cloud-recording.md)
