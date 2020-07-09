@@ -587,8 +587,8 @@
       "redirect_document_id": true 
     },
     {
-      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/monitor-call-quality-qos.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
       "redirect_document_id": true 
     },
     {
@@ -1826,7 +1826,7 @@
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
       },
-   {
+    {
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
@@ -1836,7 +1836,12 @@
         "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here", 
         "redirect_document_id": false
         },
-   {
+    {
+          "source_path": "Teams/environment-readiness.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
           "source_path": "Teams/upgrade-plan-for-quality.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
@@ -1854,6 +1859,11 @@
     {
           "source_path": "Teams/onboarding-checklist-configure-networking.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "Teams/difference-between-call-analytics-and-call-quality-dashboard.md", 
+          "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/monitor-call-quality-qos", 
           "redirect_document_id": false
         },
     {
