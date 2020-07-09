@@ -19,4 +19,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-[!INCLUDE [difference-between-call-analytics-and-call-quality-dashboard](../difference-between-call-analytics-and-call-quality-dashboard.md)]
+[!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]
