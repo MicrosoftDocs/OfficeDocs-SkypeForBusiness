@@ -1,5 +1,5 @@
 ---
-title: Manage your custom apps in Microsoft Teams
+title: Submit and approve custom apps in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to take your custom Teams apps from development to deployment. 
 ---
 
-# Deploy and manage your custom apps in Microsoft Teams
+# Submit and approve custom apps in Microsoft Teams
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your tenant app catalog.
 
