@@ -168,3 +168,4 @@ Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 
 
 [How to roll out Teams](How-to-roll-out-teams.md)
 
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
