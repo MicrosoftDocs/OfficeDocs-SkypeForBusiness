@@ -27,6 +27,9 @@ The **Manage apps** page gives you a view into all available apps in your tenant
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
+> [!NOTE]
+> The **Manage apps** page isn't available yet in Microsoft 365 Government Community Cloud (GCC) deployments of Teams.
+
 ## View apps in your tenant app catalog
 
 You can view every app in your tenant app catalog including the following information about each app.
@@ -79,7 +82,7 @@ You can search for and purchase licenses for third-party apps for users in your 
 Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom  apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 > [!NOTE]
-> The **Manage apps** page isn't available yet in Microsoft 365 Government - GCC deployments of Teams.  To learn how to use org-wide app settings to enable or disable third-party apps, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+> To learn how to use org-wide app settings in Microsoft 365 Government - GCC deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 1. On the **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
