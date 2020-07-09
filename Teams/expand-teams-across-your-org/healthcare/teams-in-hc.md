@@ -98,7 +98,7 @@ For example, a charge nurse creates a patient list in a team that includes all c
 
 Here's an example list which was set up for patient rounding.
 
-![Screen shot of the Patients app on desktop and mobile devices](../../media/lists-patient-rounding-example.png)
+![Screen shot of the Patients app on desktop and mobile devices](../../media/lists-patient-example.png)
 
 To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md) and [LINK TO END USER DOC].
 
