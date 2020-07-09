@@ -40,3 +40,8 @@ See [Sign in to Microsoft Teams using modern authentication](sign-in-teams.md) f
 ## Skype token revocation
 
 When changing/resetting a password, older clients will not receive messages and calls for up to an hour. To resolve this issue, either restart the app or move to newer clients.
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
