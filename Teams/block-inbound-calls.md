@@ -150,7 +150,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Use the **Test-CsInboundBlockedNumberPattern** cmdlet to verify whether a number is blocked in the tenant.
  
-In this example, the **Phonenumber** and **Tenant** parameters are required. The **PhoneNumber** parameter should be a numeric string without any additional characters such as + or -. In TRPS, the **Tenant parameter** is optional. The resulting **isNumberBlocked** parameter returns a value of True if the number is blocked in the tenant and False if it's not blocked.
+In this example, the **PhoneNumber** and **Tenant** parameters are required. The **PhoneNumber** parameter should be a numeric string without any additional characters such as + or -. In TRPS, the **Tenant parameter** is optional. The resulting **isNumberBlocked** parameter returns a value of True if the number is blocked in the tenant and False if it's not blocked.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
