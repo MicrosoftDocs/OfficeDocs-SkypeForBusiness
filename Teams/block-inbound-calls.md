@@ -32,7 +32,7 @@ Admin controls for blocking numbers are provided using PowerShell only. Number b
 
 ## Call blocking PowerShell commands
 
-You manage number patterns by using the **New**, **Get**, **Set**,**Remove** -**CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
+You manage number patterns by using the **New**, **Get**, **Set**, **Remove**-**CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
 
 - [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern)
 returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.
@@ -43,7 +43,7 @@ removes a blocked number pattern from the tenant list.
 - [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern)
 modifies one or more parameters of a blocked number pattern in the tenant list.
 
-Viewing and activating the entire call blocking feature is managed through the **Get**,**Set**-**CsTenantBlockingCallingNumbers** cmdlets.
+Viewing and activating the entire call blocking feature is managed through the **Get**,  **Set**-**CsTenantBlockingCallingNumbers** cmdlets.
 
 - [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the parameters for the global blocked number list including Enabled (True/False). There's a single global tenant policy that can't be modified manually other than to turn the feature on or off.
 - [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) allows modifying the global tenant blocked calls to be turned on and off at the tenant level.
@@ -89,7 +89,7 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 ## Add number exceptions
 
-You can add exceptions to blocked number patterns by using the **New**, **Get**, **Set**, **Remove**-**CsTenantBlockNumberExceptionPattern** cmdlets.
+You can add exceptions to blocked number patterns by using the **New**, **Get**, **Set**,  **Remove**-**CsTenantBlockNumberExceptionPattern** cmdlets.
 
 - [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) adds a number exception pattern to the tenant list. 
 - [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) returns a list of all number exception patterns added to the tenant list.
