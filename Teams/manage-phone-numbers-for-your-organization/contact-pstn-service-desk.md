@@ -25,33 +25,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
 ---
 
-# PSTN Service Desk Contact
+# PSTN Service Desk contact information
 
-The PSTN Service Desk team currently has three email addresses for support, which are presented in the following table:
+To contact the PSTN Service Desk team, see the following table.
 
-| **I want to transfer/port existing numbers..**  | **I want to order new numbers for..** |
+| **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
 |:-----:|:------:|
 | [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**Outside the United States or Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|Due to a large spike in incoming requests, the **North America porting team** is backlogged. We are working to clear this backlog on a FIFO (First In, First Out) basis, and as a result **our response to new requests will be delayed.**|
 
-If you need assistance **transferring/porting your existing phone numbers to Microsoft Teams**, please include as many details as possible:
+> [!NOTE]
+> North America responses might be delayed because of a large increase in incoming requests. The backlog is being cleared out on a FIFO (First In, First Out) basis.
+
+If you need assistance to **transfer or port your existing phone numbers to Microsoft Teams**, include as many details as possible. For example, include:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - What types of phone numbers you need assistance with **(user, service toll, or service toll-free)**.
+  - The types of phone numbers that you need assistance with **(user, service toll, or service toll-free)**.
   - Other important details based on your request.
   
-If you need assistance **acquiring new phone numbers for Microsoft Teams**, please include as many details as possible:
+If you need assistance to **acquire new phone numbers for Microsoft Teams**, include as many details as possible. For example, include:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - What types of phone numbers you need assistance with **(user, service toll, or service toll-free)**.
-  - How many you require and the area code(s)/country/region from which you would like new phone numbers from.
+  - The types of phone numbers that you need assistance with **(user, service toll, or service toll-free)**.
+  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to be originated from.
 
-If you need assistance **on anything related to numbers setup, configuration, licenses/fees/billing**, please reach out to the [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) page and our Technical Team will be happy to assist you.
+If you need assistance with something related to **numbers setup; configuration; or licenses, fees, or billing**, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 ## Additional resources
 
-- To see _if_ and which **Calling Plans** are available in your country or region, read: [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- To assist you on choosing the correct type of phone numbers, read: [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- To get assistance setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- For the **Calling Plans** that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 ## Related topics
 
