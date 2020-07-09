@@ -34,6 +34,8 @@ A tag can be added to a person on a specific team. After a tag is added, it can 
 - A hospital administrator wants to send a message to all radiologists in a channel.
 - A marketing manager wants to start a group chat with all designers.
 
+When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
+
 To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 ## Manage tags for your organization
@@ -72,10 +74,20 @@ If you turned on the **Team owner can override who can apply tags** setting in t
 
 ![Screenshot of the tags setting at the team level](media/manage-tags-team-settings.png)
 
-## Add tags in Teams
+## Use tags
 
-To manage tags, select **Manage teams** on the left side of the app and find your team in the list. Select **More options**, and then choose **Manage tags**.
+### Add tags
+
+To create and assign tags, select **Teams** on the left side of the app, and then find your team in the list. Select **More options**, and then choose **Manage tags**.
 
 Here, you can create tags and assign them to people on your team.
 
 ![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
+
+### Delete tags
+
+Remove all team members associated with the tag and the tag will be deleted.
+
+## Related topics
+
+[Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
