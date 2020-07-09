@@ -24,7 +24,7 @@ This inbound call blocking feature only works on inbound calls that originate fr
 This feature isn't yet available for Direct Routing.
 
 >[!NOTE]
-> Blocked callers may experience slightly different behaviors when they have been blocked. The behavior is based on how the blocked caller’s carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
+> Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller’s carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
 
 ## Call blocking admin controls and information
 
