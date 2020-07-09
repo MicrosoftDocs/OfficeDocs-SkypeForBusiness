@@ -18,11 +18,9 @@ ms.custom: Learn how to use PowerShell to manage inbound call blocking.
 
 # Block inbound calls
 
-Calling Plans support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows a tenant global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
+Phone System Direct Routing and Calling Plans support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows a tenant global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 
 This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant-global basis. It's not available on a per-user basis.  
-
-This feature isn't yet available for Direct Routing.
 
 >[!NOTE]
 > Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller’s carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
