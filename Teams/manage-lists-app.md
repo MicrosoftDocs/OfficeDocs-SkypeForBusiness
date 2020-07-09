@@ -19,24 +19,24 @@ appliesto:
 ms.custom: 
 ---
 
-# Manage the Lists app for your organization in Microsoft Teams - WORK IN PROGRESS
+# Manage the Lists app for your organization in Microsoft Teams
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information and organize work. With Lists, users can track data such as issues, assets, routines, contacts, inventory, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
-In Teams, users access Lists as a tab in a channel. Click **+** to add a new tab to a channel, and then select the Lists app to get started. Users can create new lists or add existing lists. New lists can be created from scratch, from ready-made templates, or by importing data from Excel. Lists is available in Teams desktop, web, and mobile clients.
+In Teams, users can access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started. Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
 **Placeholder only - Will replace screenshot when the Loans template is available**<br>
 ![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
 ## Templates
 
-Templates in Lists are tailored to common information tracking scenarios. Each template comes with a predefined structure, forms, and formatting to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with sample data. Here's some examples of how teams in your organization can use the predefined templates in Lists:
+Templates in Lists are tailored to common information tracking scenarios for users. Each template comes with a predefined list structure, form layouts, and formatting options at both a list view and a details view level to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with some sample data. Here's some examples of how teams in your organization can use the predefined templates in Lists:
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
-- Use the Patient care coordination template to record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
+- Use the Patients template to record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
 To learn more about using Lists, see [LINK TO END-USER DOC].
@@ -47,7 +47,7 @@ A local post office is responsible for sorting and delivering mail in their dist
 
 After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed.
 
-Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, and manage incident information.
+Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident which was entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, have conversations about them on the channel, and drive incidents to resolution.
 
 ## What you need to know about Lists
 
@@ -63,6 +63,9 @@ Permissions set in SharePoint apply to lists created in the Lists app. By defaul
 
 In certain scenarios, you may want restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
+> [!NOTE]
+> At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
+
 ### Limitations
 
 With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
@@ -71,7 +74,7 @@ Guests in [private channels](private-channels.md) can't create or delete a list 
 
 ### Lists and the SharePoint Lists app
 
-The SharePoint Lists app is being retired. If users in your organization created lists using the SharePoint Lists app, those lists will be automatically moved to Lists without any action needed from the user.
+The SharePoint Lists app is being retired. If users in your organization created lists using the SharePoint Lists app, those lists will be automatically moved to Lists without any action needed from the user. Use the Lists app and pin existing lists to get the richest lists integration experience in Teams.
 
 ## Set up Lists
 
@@ -91,7 +94,9 @@ To allow or block specific users in your organization from using Lists, make sur
 
 ## Search the audit log for list events
 
-You can search the audit log to view list activity in your organization. To learn more, see [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+Lists are enabled with enterprise-level auditing so you can search for lists and list item events in the audit log in the Security & Compliance Center. To learn more, see [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+
+For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
