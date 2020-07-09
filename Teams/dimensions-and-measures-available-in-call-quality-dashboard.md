@@ -1,10 +1,10 @@
 ---
-title: "Dimensions and measurements - Call Quality Dashboard"
+title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom: 
  - Reporting
  - seo-marvel-mar2020
-description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
+description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
 ---
 
-# Dimensions and measurements available in Call Quality Dashboard
+# Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This topic provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This topic provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 
@@ -131,8 +131,8 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First Is Server  | Enumeration <br/>**Possible values:** <br/>&bull; Client <br/>&bull; Server  | Indicates if the first endpoint is a server endpoint such as a conferencing server (AVMCU, ASMCU) or other media servers (Mediation Server), or is a client endpoint.  **Example value:** Client | |
 | Second Is Server  | Enumeration <br/>**Possible values:** <br/>&bull; Client <br/>&bull; Server   | Indicates if the second endpoint is a server endpoint, or is a client endpoint. <br/>  **Example value:** Client | |
 | First Is Caller  | Boolean  | True if the first endpoint was the caller who initiated the session.   | |
-| First Network Connection Detail  | Enumeration <br>**Possible values:** <br/>&bull; Wired <br/>&bull; Wifi <br/>&bull; MobileBB <br/>&bull; Tunnel <br/>&bull; Other | Type of network used by the first endpoint.  <br/> **Example value:** Wired  | &bull; Data was not reported by the endpoint  |
-| Second Network Connection Detail  | Enumeration <br/>**Possible values:** <br/>&bull; Wired <br/>&bull; Wifi <br/>&bull; MobileBB <br/>&bull; Tunnel <br/>&bull; Other | Type of network used by the second endpoint.  <br/> **Example value:** Wired  | &bull; Data was not reported by the endpoint  |
+| First Network Connection Detail  | Enumeration <br>**Possible values:** <br/>&bull; Wired <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull; Tunnel <br/>&bull; Other | Type of network used by the first endpoint.  <br/> **Example value:** Wired  | &bull; Data was not reported by the endpoint  |
+| Second Network Connection Detail  | Enumeration <br/>**Possible values:** <br/>&bull; Wired <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull; Tunnel <br/>&bull; Other | Type of network used by the second endpoint.  <br/> **Example value:** Wired  | &bull; Data was not reported by the endpoint  |
 | Stream Direction  | Enumeration <br/>**Possible values:** <br/>&bull; First-to-Second <br/>&bull; Second-to-First <br/> | Indicates the direction of a stream. <br/>&bull; **Example value:** First-to-Second | &bull; No data was reported to indicate the direction of the stream |
 | Payload Description  | String  | Name of last codec used in the stream. <br/> **Example value:** SILKWide | &bull; No data is available |
 | Audio and Video Call  | Boolean  | True if call had both audio and video streams, False otherwise    | &bull; No data was reported to indicate the media types of the stream. |
@@ -165,7 +165,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First User Agent  | String  | User agent string of the first endpoint. <br/> **Example value:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull; No user agent reported by first endpoint   |
 | Second User Agent  | String  | User agent string of the second endpoint. <br/> **Example value:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull; No user agent was reported by second endpoint   |
 | Conference Type  | Enumeration <br/>**Possible values:** <br/>&bull; conf:applicationsharing <br/>&bull; conf:audio-video <br/>&bull; conf:focus | Type of conference URI.  <br/> **Example value:** conf:audio-video | &bull; Non-conference scenario.   |
-| Conference ID  | String | Conference ID (or Call ID) associated with the streams. In cqd.teams.microsoft.com, all calls have a call ID regardless of whether they are a person-to-person (P2P) call or a conference call. In cqd.lync.com, this value is only avialble for Skype for Business conference calls.  This dimension may have too many rows to be used as dimension in a report. It can be used a filter instead.  <br/> **Example value (cqd.lync.com):** 0001P6GK <br/> **Example value (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| Conference ID  | String | Conference ID (or Call ID) associated with the streams. In cqd.teams.microsoft.com, all calls have a call ID regardless of whether they are a person-to-person (P2P) call or a conference call. In cqd.lync.com, this value is only available for Skype for Business conference calls.  This dimension may have too many rows to be used as dimension in a report. It can be used a filter instead.  <br/> **Example value (cqd.lync.com):** 0001P6GK <br/> **Example value (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported.   |
 | Second Client App Version  | String  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported. |
 |Meeting Id (in cqd.teams.microsoft.com) <br/> Conference ID (in cqd.lync.com) |String |The identifier for the meeting, generated when the meeting was created. <br/> **Example value (Skype for Business):** 0001P6GK  <br/> **Example value (Teams):** 19:meeting_MzB...zIw@thread.v2| |
@@ -696,9 +696,18 @@ Many Dimension and Measurement values can also be used as filters. You can use f
 
 ## Related topics
 
-[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Upload tenant and building data](CQD-upload-tenant-building-data.md)
+
+[CQD data and reports](CQD-data-and-reports.md)
+
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
