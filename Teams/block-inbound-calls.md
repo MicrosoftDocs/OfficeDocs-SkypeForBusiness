@@ -5,8 +5,9 @@ author: lanachin
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service: msteams
+ms.collection: 
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
