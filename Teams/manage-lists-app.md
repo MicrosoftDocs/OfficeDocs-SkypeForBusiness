@@ -67,11 +67,15 @@ In certain scenarios, you may want restrict what actions users can do in lists. 
 
 ### Limitations
 
-With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or add existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
+With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
 
 Guests in [private channels](private-channels.md) can't create or delete a list or start a new conversation about a list item. They can add list items to existing lists and reply to an existing conversations about a list item. Keep in mind that these limitations apply only to private channels.
 
-### Lists and the SharePoint Lists app
+### Lists and the SharePoint app
+
+If users in your organization created lists using the SharePoint app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
+
+### Lists and the SharePoint Lists app <-DO WE NEED THIS SECTION?
 
 The SharePoint Lists app is being retired. If users in your organization created lists using the SharePoint Lists app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
 
