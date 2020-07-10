@@ -25,19 +25,17 @@ The Sharelink feature in Microsoft Teams lets users share content with other Tea
 With the Sharelink feature:
 
 - Users can share files from OneDrive and from teams and sites they have access to.
-- Users can share a file either by browsing to the file from OneDrive or teams and channels or by copying and pasting a link in the **Compose** box.
+- Users can share a file either by browsing to the file in OneDrive or in a team or channel, or by copying and pasting a link in the compose box.
 
-When users share a file by browsing through OneDrive and teams and channels in the **Compose** box, all recipients are granted access along with the [default permission set at the organization level](https://docs.microsoft.com/sharepoint/change-default-sharing-link). When a user copies and pastes a file link, the permissions set on that file link is honored and the SharePoint file link is shortened with the file name.
-
-Teams shortens long SharePoint URLs and browser URLs that point to a file. Teams uses just the file name to link to a file. 
+When users share a file by browsing through OneDrive or in a team or channel, all recipients are granted access along with the [default permissions set at the organization level](https://docs.microsoft.com/sharepoint/change-default-sharing-link). When a user copies and pastes a file link, the permissions set on that file link are honored and the SharePoint file link is shortened to the file name. Teams uses just the file name to link to a file.
 
 When users share a file from within Teams, they have the option to manage access to anyone, people within your organization, people with existing access, or specific people, including those in a 1:1 chat, group chat, or channels.
 
-When users share a file in a chat or channel, they're notified if some or all the recipients don't have permission to view the file. They can change permissions before sharing by clicking on the file chiclet.
+When users share a file in a chat or channel, they're notified whether some or all the recipients don't have permission to view the file. They can change permissions before they share the file by clicking on the file chiclet.
 
-Once a file is shared, the file opens by default within Teams and is available as a chiclet with all file actions. In some cases, the file link may not have converted to a chiclet by the time the users send the message. The chiclet will be generated asynchronously, but the file link will not be shortened to the file name in this case.
+When a file is shared, the file opens by default in Teams and is available as a chiclet with all file actions. In some cases, the file link may not have converted to a chiclet by the time the users send the message. The chiclet will be generated asynchronously, but the file link won't be shortened to the file name in this case.
 
-The **Get link** option has been changed to **Copy link**. Users can copy a SharePoint file link and modify sharing permissions like it is across Microsoft 365. The default permission of the link will be same as the default set at organization level unless it is overridden at SharePoint site level.
+The **Get link** option has been changed to **Copy link**. Users can copy a SharePoint file link and modify sharing permissions like it is across Microsoft 365. The default permissions of the link will be same as the default set at organization level unless SharePoint site level permissions override them.
 
 ## Configure sharing in OneDrive and SharePoint
 
