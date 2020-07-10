@@ -21,6 +21,8 @@ ms.custom:
 
 # Manage the Lists app for your organization in Microsoft Teams
 
+
+
 ## Overview of Lists
 
 The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
@@ -74,10 +76,6 @@ Guests in [private channels](private-channels.md) can't create or delete a list 
 ### Lists and the SharePoint app
 
 If users in your organization created lists using the SharePoint app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
-
-### Lists and the SharePoint Lists app <-DO WE NEED THIS SECTION?
-
-The SharePoint Lists app is being retired. If users in your organization created lists using the SharePoint Lists app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
 
 ## Set up Lists
 
