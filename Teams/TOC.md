@@ -256,6 +256,7 @@
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
