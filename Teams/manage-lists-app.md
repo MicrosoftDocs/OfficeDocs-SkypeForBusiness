@@ -21,7 +21,7 @@ ms.custom:
 
 # Manage the Lists app for your organization in Microsoft Teams
 
-
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview of Lists
 

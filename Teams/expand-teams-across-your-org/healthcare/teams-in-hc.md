@@ -90,6 +90,8 @@ New templates for creating Teams were developed to apply to a Hospital setting, 
 
 ## Lists app
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
 
 Care teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
