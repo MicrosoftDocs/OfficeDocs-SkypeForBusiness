@@ -40,8 +40,6 @@ Templates in Lists are tailored to common information tracking scenarios for use
 - Use the Patients template to record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
-To learn more about using Lists, see [LINK TO END-USER DOC].
-
 ## Example scenario
 
 A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents.

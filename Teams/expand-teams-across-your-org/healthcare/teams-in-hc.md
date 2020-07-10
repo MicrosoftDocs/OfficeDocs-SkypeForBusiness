@@ -102,7 +102,7 @@ Here's an example list which was set up for patient rounding.
 
 ![Screen shot of the Patients app on desktop and mobile devices](../../media/lists-patient-example.png)
 
-To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md) and [LINK TO END USER DOC].
+To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
 
 ## Secure Messaging
 
