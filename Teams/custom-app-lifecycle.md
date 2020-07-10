@@ -138,6 +138,11 @@ To review and publish an app update:
 
     If you reject the update, the earlier version of the app remains published.
 
+Keep in mind the following:
+
+- When an app is approved, any one can submit an update to the app. This means that after an app is approved, other developers, including the developer who originally submitted the app, can submit an update to the app.
+- When a developer submits a new app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved. 
+
 ### Update experience for users
 
 In most cases, after you publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
