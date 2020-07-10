@@ -76,7 +76,6 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Yealink |T41S IP Phone |66.9.0.23 |11/30/2017|
 | Yealink |T42S IP Phone |66.9.0.23 |11/30/2017|
 
-||||
 
 ## Additional Resources
 
