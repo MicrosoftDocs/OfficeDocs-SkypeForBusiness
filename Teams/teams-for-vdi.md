@@ -25,12 +25,12 @@ This article describes the requirements and limitations for using Microsoft Team
 ## What is VDI?
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
- 
+
 Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Citrix platform, calling and meeting functionality also are supported.
 
 Teams in a virtualized environment supports multiple configurations. These include VDI, dedicated, shared, persistent, and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
- 
-Using Teams in a virtualized environment might be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution might differ. 
+
+Using Teams in a virtualized environment might be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution might differ.
 
 To ensure an optimal user experience, follow the guidance in this article.
 
@@ -95,9 +95,12 @@ The following is the recommended minimum VM configuration.
 
 In a non-persistent setup, users' local operating system changes are not retained after users log off. Such setups are commonly shared multi-user sessions. VM configuration varies based on the number of users and available physical box resources.
 
-For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session. 
+For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
-Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) is cached during the user session. 
+Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) is cached during the user session. Make sure data in these two folders are synced.  
+
+- C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 There are a variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
@@ -107,6 +110,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 
 - .txt files
 - Media-stack folder
+- meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache)
 
 ### Microsoft 365 Apps for enterprise considerations
 
@@ -134,10 +138,8 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
 
-
-    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.3.00.12058/Teams_windows.msi)
-    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.12058/Teams_windows_x64.msi)
-
+    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
+    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
 
     The minimum version of the Teams desktop app that's required is version 1.3.00.4461. (PSTN hold isn't supported in earlier versions.)
 
@@ -170,6 +172,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       This process uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
 ## Teams on VDI performance considerations
@@ -188,7 +191,15 @@ In addition to chat and collaboration, Teams on VDI with calling and meeting sup
 
 ![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
 
-For information about calling and meeting features that are not supported, see [Known issues and limitations](#known-issues-and-limitations).
+These calling and meeting features are not supported:
+
+- Enhanced emergency services
+- HID buttons and LED controls between the Teams app and devices
+- Background blur and effects
+- Broadcast/live events
+- Location-Based Routing (LBR)
+- Call park
+- Call queue
 
 > [!IMPORTANT]
 > If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set Citrix policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
@@ -254,9 +265,9 @@ Or, you can also do the following:
 1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
     - Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.
     - Go to **Meetings** > **Meeting policies**, and then click **AllOff**.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
+2. Select **Manage users**.
+3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+4. When you're finished adding users, click **Save**.
 
 #### Assign policies using PowerShell
 
@@ -310,9 +321,9 @@ Or, you can also do the following:
 1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
     - Go to **Voice** > **Calling policies**, and then click **AllowCalling**.
     - Go to **Meetings** > **Meeting policies**, and then click **AllOn**.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
+2. Select **Manage users**.
+3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+4. When you're finished adding users, click **Save**.
 
 #### Assign policies using PowerShell
 
@@ -342,18 +353,6 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.
 
 ### Calling and meetings
-
-These calling and meeting features are not supported:
-
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
-- Background blur and effects
-- Broadcast/live events
-- Location-Based Routing (LBR)
-- Call park
-- Call queue
-
-These are known issues and limitations with calling and meeting features:
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
 - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
