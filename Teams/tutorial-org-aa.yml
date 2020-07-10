@@ -282,7 +282,7 @@ items:
     To speak to Manuela Carstens, press 2.
     To speak to Andrey Alexeeva, press 3.
 
-    *Available options not mentioned: zero, and \*.*
+    *Available options not mentioned: zero and \*.*
 
     This script could be omitted if you redesigned using Call Queues.
 
