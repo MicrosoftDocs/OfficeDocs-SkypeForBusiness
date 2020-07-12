@@ -116,7 +116,7 @@ Interoperability is governed by the coexistence mode (also known as upgrade mode
 > When deployed in any coexistence mode except **Islands**, Teams and Skype for Business can [interoperate](#interoperability-of-teams-and-skype-for-business), enabling users to chat with and call one another, and ensuring that communications remain fluid across your organization during your upgrade journey to Teams. Coexistence modes govern interoperability. The coexistence mode of the receiver determines whether interoperability will be available. For example, if the receiver is in a mode in which chat is only available in one client (say, Teams), chat interoperability will generally be available in case the initiator uses the other client (in this case, Skype for Business) to start the chat. On the other hand, if the receiver is in the mode in which chat is available in both clients (Islands mode), interoperability won't be available for the chat. The message will be received by the receiver in the same client in which the initiator started the chat. Therefore, proper communication in **Islands** mode requires Teams adoption saturation; that is, all users actively using and monitoring both clients.
 
 > [!Note]
-> To have the latest coexistence experience, the client version must be the latest available client in the user’s Office deployment channel.
+> **To have the latest coexistence experience, the client version must be the latest available client in the user’s Office deployment channel.**
 
 ### Native interop and interop escalation
 

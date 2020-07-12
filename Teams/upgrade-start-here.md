@@ -53,7 +53,7 @@ Yes, Microsoft offers several options for running Skype for Business Online and 
 
 ## Can we continue to use our on-premises telephony infrastructure?
 
-Yes. With Phone System Direct Routing, you can use Phone System with virtually any telephony carrier. With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
+**Yes. With Phone System Direct Routing, you can use Phone System with virtually any telephony carrier. With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).**
  
 ## How is Microsoft helping customers with their upgrade to Teams? 
 

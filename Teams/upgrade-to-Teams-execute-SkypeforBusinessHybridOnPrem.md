@@ -70,7 +70,7 @@ For more information, see [Move users between on-premises and the cloud](https
 
 ## Step 4: Disable hybrid to complete your migration to the cloud
 
-After you have moved all users from on-premises to the cloud, you can decommission the on-premises Skype for Business deployment. For more information, see [Disable hybrid to complete migration to the cloud](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).
+**After you have moved all users from on-premises to the cloud, you can decommission the on-premises Skype for Business deployment. For more information, see [Disable hybrid to complete migration to the cloud](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).**
 
 ## Phone System and Teams upgrade
 
