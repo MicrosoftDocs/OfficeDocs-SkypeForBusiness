@@ -35,9 +35,9 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 This article gives an overview of the requirements for preparing your organization for collaboration and cloud voice services with Teams. By preparing properly, you can be sure you're ready to provide these capabilities to your organization.
 
-## Onboarding checklists for Microsoft Teams rollout
+## Onboarding checklists and landing pages for Microsoft Teams rollout
 
-The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
+The following checklists and landing pages walk you through the steps for deploying Microsoft Teams in your organization:
 
 - [Prepare Microsoft 365 or Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
@@ -45,9 +45,12 @@ The following checklists walk you through the steps for deploying Microsoft Team
 
 - [Prepare your network](prepare-network.md)
 
-- [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Chat, teams, channels, and apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Configure Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Meetings and audio conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Voice and PSTN connectivity options](cloud-voice-landing-page.md)
+
 
 The tasks and activities in these checklists are the core "to-do" items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
 

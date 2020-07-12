@@ -64,11 +64,13 @@ Depending on your requirements, you can assign the appropriate coexistence mode 
 
 ## Step 3: Move users from Skype for Business on-premises to Teams Only
 
-Ultimately, you'll want to move your users to TeamsOnly mode. This might involve one or two steps depending on your current on-premises environment.  
+Ultimately, you'll want to move your users to TeamsOnly mode. This might involve one or two steps depending on your on-premises environment.  
 
 For more information, see [Move users between on-premises and the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
+## Step 4: Disable hybrid to complete your migration to the cloud
 
+After you have moved all users from on-premises to the cloud, you can decommission the on-premises Skype for Business deployment. For more information, see [Disable hybrid to complete migration to the cloud](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).
 
 ## Phone System and Teams upgrade
 

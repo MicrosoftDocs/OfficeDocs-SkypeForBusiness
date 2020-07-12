@@ -930,4 +930,6 @@
 ### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
+## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
+
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
