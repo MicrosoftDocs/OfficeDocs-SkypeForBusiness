@@ -352,7 +352,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **composeSearchResult** - Message extension result selection, which is helpful to understand the app search result relevance. Also enhances message send telemetry with app data.
 - **composeSelectExtension** - Tap on a ME app.
 - **composeSendMessage** - Enhances message send telemetry with app data.
-- **composeVault** ???
 - **confirmAudioOn** - A user confirms that they want audio on.
 - **confirmFileShare** - **Share** is selected on the confirmation dialog.
 - **consultTransfer** - Triggered when:
@@ -922,7 +921,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **savePlanClicked** - Triggers **Create** is selected in the new plan creator from the default opening of the app.
 - **scheduledMeetingJoin** - The **Meeting Join** button is selected from the scheduled meeting object.
 - **scrollCalendarList** - Measures scrolls in calendar.
-- **scrollDatePicker** ???
+- **scrollDatePicker** - Scroll through the calendar date picker control.
 - **searchAbandoned** - Determines if search was abandoned.
 - **searchCancelled** - Determine if:
   - Search was successful or if the user abandoned search.
@@ -947,7 +946,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **seeMeetingDescription** - Opening the Meeting Details page or selecting **See More** on the Meeting description from the Meeting Details page. Data is logged across the calendar funnel, where calendar meeting details play an important role, this helps validate selections for Dial ins, Teams meetings, RSVPs, etc..
 - **seeRsvpMeetingOptions** - Select **Notify Organizer** from the RSVP pop up, or select **Rsvp** options from the Meeting Details page.
 - **selectActivityType** - Captures select gestures on feed item.
-- **selectCalendarDate** ???
+- **selectCalendarDate** - Select a specific date on the calendar date picker control.
 - **selectDevice** - Selecting a particular device in the displays app.
 - **selectGeneralSetting** - Go to general settings.
 - **selection** - Device contact selected, or company contact selected.
@@ -1048,7 +1047,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **takePhoto** - Take a photo.
 - **takePhotoPicker** - **Take photo** selected inside the image picker.
 - **tapChicletExpand** - How users preview cards on mobile.
-- **tapDatePickerHandle** ???
+- **tapDatePickerHandle** - Expand the calendar date picker control.
 - **tapSettings** - The number of users re-configuring apps on mobile.
 - **tasksAppLaunchAdaptiveCard** - The Tasks app is opened from an adaptivecard in a group chat, check the app launch via the URL of the IC3 service.
 - **tasksAppLaunchComposeExtension** - The Tasks app is opened from the compose extension in a group chat, check the app launch via the MT service.
