@@ -27,7 +27,7 @@ Using the Microsoft Teams admin center, you can update your Teams devices, such 
 Device firmware updates can either be applied automatically or scheduled for a future date and time. Other available device updates aren't applied automatically, but can be applied manually or scheduled for a future date and time.
 
 > [!NOTE]
-> While device firmware updates can be scheduled, if the scheduled date and time falls after the configured maximum 30 or 90 day delay, the firmware update is applied when the maximum delay is reached. The scheduled date and time are ignored. Additionally updating Microsoft Teams devices Remotely is a feature not yet available on US Goverment Cloud tenants (GCC-High).
+> While device firmware updates can be scheduled, if the scheduled date and time falls after the configured maximum 30 or 90 day delay, the firmware update is applied when the maximum delay is reached. The scheduled date and time are ignored. Additionally, updating Microsoft Teams devices remotely is a feature not yet available on US Government Cloud tenants (GCC-High).
 
 ## Choose automatic device firmware update behavior
 
