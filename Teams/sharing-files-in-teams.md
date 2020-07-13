@@ -24,17 +24,17 @@ The Sharelink feature in Microsoft Teams lets users share content with other Tea
 
 ## Overview
 
-With the Sharelink feature:
+With the Sharelink feature, users can share files from OneDrive and from teams and sites they have access to. To share a file, users can do the following:
 
-- Users can share files from OneDrive and from teams and sites they have access to.
-- Users can share a file either by browsing to it in OneDrive, in teams and channels, or by copying and pasting a link in the compose box.
+- In a chat, click **Attach** (the paperclip icon), select **Recent**, **Browse Teams and Channels**, or **OneDrive**, and then choose the file they want to share.  
+- Copy and paste the sharing link in the compose box.
 
     ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-attach-file.png)
     ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-copy-link.png)
 
 ### What you need to know about the Sharelink file sharing experience
 
-### Permissions of a shared file
+### Permissions of a shared file or file link
 
 When users share a file by browsing to it in OneDrive or teams, and channels, all recipients are granted access along with the [default permission that's set at the organization level](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
