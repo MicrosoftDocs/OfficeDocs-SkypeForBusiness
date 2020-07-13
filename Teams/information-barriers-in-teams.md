@@ -1,8 +1,8 @@
 ---
 title: Information barriers in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: chrfox
+ms.author: chrfox
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -138,10 +138,6 @@ Currently, users experience the following if an information barrier policy block
     ![Screenshot showing group chat](media/information-barriers-people-picker.png)
     
 - **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
-
-    Here's an example of the activity tab view.
-
-    ![Screenshot showing the activity tab](media/ib-before-activity-tab-policy.png)
 
     Here's an example of the activity tab view that is blocked.
 

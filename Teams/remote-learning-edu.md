@@ -150,6 +150,7 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
+- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
 - [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
 - [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

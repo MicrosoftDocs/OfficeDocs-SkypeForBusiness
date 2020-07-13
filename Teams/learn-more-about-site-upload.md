@@ -27,7 +27,10 @@ appliesto:
 Add and update reporting labels
 ============================
 
-Reporting labels are used in your organization to indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center lets you provide a text file (.csv or .tsv) containing a list of physical locations and their associated network subnets. This file is used by Call Analytics and Call Quality Dashboard for generating reports. When you upload your subnet mapping, the reports provided by these services will contain the location names as well, making the reports easier to understand and use for remediating any potential issues.
+Reporting labels are used in your organization to indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center lets you provide a text file (.csv or .tsv) containing a list of physical locations and their associated network subnets. This file is used by Call Analytics for generating reports. When you upload your subnet mapping, the reports provided by these services will contain the location names as well, making the reports easier to understand and use for remediating any potential issues.
+
+> [!IMPORTANT]
+> Reporting Labels that you upload will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please don't include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
 The report labels and locations data you provide is a single data structure – there's currently no interface available to make individual edits to the data.
 
@@ -52,7 +55,7 @@ Use the following example to help create your data file.
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
 
-For more information about formatting your data file, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
+For more information about formatting your data file, see [Tenant data file format and Building data file structure](CQD-upload-tenant-building-data.md#upload-building-data-file).
 
 ## Related topics
 
