@@ -78,7 +78,7 @@ The data collection process takes place on separate servers regardless of the in
 
 ## How to delete your data
 
-Education services stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
+Education services stores student and educator actions performed in the context of a class team. This data is considered a co-mingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
 
 > [!NOTE]
 > Deleting data has a negative impact on Insights' ability to analyze class team engagement over time.
