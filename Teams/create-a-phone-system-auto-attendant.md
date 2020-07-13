@@ -211,6 +211,8 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 > [!NOTE]
 > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
+>
+> The # (Back) option is only available within the Directory Search feature.  Pressing # (Back) outside of Directory Search will repeat the current auto attendant.
 
 ![Icon of the number 3, a callout in the previous screenshot](media/teamscallout3.png) To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:
 
