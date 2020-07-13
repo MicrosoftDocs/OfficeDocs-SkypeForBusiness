@@ -258,7 +258,7 @@ There are four additional screens that you can configure or leave at defaults as
 
 ##### Call flow for after hours
 
-By default, an auto attendant's business hours are set to 12am-12pm Sunday through Saturday (24/7), and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. (All hours that aren't during business hours are considered *after hours*.) When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
+By default, an auto attendant's business hours are set to 12 AM-12 PM, Sunday through Saturday (24/7), and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. (All hours that aren't during business hours are considered *after hours*.) When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
 
 A system of auto attendants may only need to set after hours call handling behavior for the first-level auto attendant. Nested auto attendants may not even be called by the first-level auto attendant, but alternately the system can define after-hours behavior for each auto attendant it uses.
 
