@@ -21,7 +21,7 @@ ms.custom: seo-marvel-jul2020
 
 # Create a custom team template in Microsoft Teams
 
-A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template use your preferred settings.
+A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.
 
 To get started:
 
@@ -56,3 +56,7 @@ To get started:
 8. Click **Submit** when completed.
 
 Your new template is displayed in the **Team templates** list.
+
+## Related topics
+
+ - [Make a team from an existing team template](modify-existing-team-template.md)
