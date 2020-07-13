@@ -43,7 +43,7 @@ When users share a file from within Teams, they can set who can access the file 
 
 When users share a file in a chat or channel, they're notified whether some or all recipients don't have permission to view the file. They can change the permissions on the file before they share it by clicking the arrow next to the file preview that now appears in the message.
 
-![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-permissions.png)
+![Screenshot of notification if recipients don't have permissions](media/share-files-permissions.png)
 
 ### Get link is now Copy link
 
