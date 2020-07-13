@@ -51,6 +51,8 @@ To get started:
     4. Search for an app name that you want to addd to the channel.
     5. Click **Apply** when finished.
 
+![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
+
 8. Click **Submit** when completed.
 
 Your new template is displayed in the **Team templates** list.

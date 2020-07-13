@@ -1,5 +1,5 @@
 ---
-title: Modify an existing team template in Microsoft Teams
+title: Make a team from an existing team template in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to modify an existing team template to create a new team in Microsoft Teams.
+description: Learn how to use an existing team template to create a new team in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -19,9 +19,9 @@ appliesto:
 ms.custom: seo-marvel-jul2020
 ---
 
-# Modify an existing team template in Microsoft Teams
+# Make a team from an existing team template in Microsoft Teams
 
-Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs. 
+Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
 ## Open a template
 
@@ -34,11 +34,11 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 ![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
 
 4. Select **Use an existing team as a template** for your starting point.
-    
+
 5.  Select the team you would like to use as your new template base.
 
 3.  Create template from an existing template
-    
+
     1.  Select the template you would like to use as your new template
         base from the table
 
