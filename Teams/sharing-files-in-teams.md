@@ -51,7 +51,7 @@ When a file is shared, the file opens by default in Teams and is available as a 
 
 ### Get link is now Copy link
 
-The **Get link** option in Teams has been changed to **Copy link**. Users can copy a SharePoint sharing link and change sharing permissions just like they do across Microsoft 365. The default permission of the link is the same as the default permission set at the organization level unless SharePoint site level permissions override it.
+The **Get link** option in Teams has been changed to **Copy link**. Users can copy a SharePoint file link and change sharing permissions just like they do across Microsoft 365. The default permission of the link is the same as the default permission set at the organization level unless SharePoint site level permissions override it.
 
   ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-copy-link.png)
 
