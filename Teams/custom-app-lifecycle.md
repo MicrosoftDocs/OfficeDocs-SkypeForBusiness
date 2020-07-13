@@ -71,7 +71,7 @@ Developers should now have what they need to create your app. For more informati
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API, an integrated development environment (IDE), or a partner platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API, an integrated development environment (IDE), or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you can review and approve it.
 
 The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams. To learn more, see [LINK TO DEV DOCS].
 
@@ -140,8 +140,8 @@ To review and publish an app update:
 
 Keep in mind the following:
 
-- When an app is approved, any one can submit an update to the app. This means that after an app is approved, other developers, including the developer who originally submitted the app, can submit an update to the app.
-- When a developer submits a new app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved. 
+- When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
+- When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
 ### Update experience for users
 
