@@ -32,7 +32,7 @@ This section contains an overview of the steps required to prepare your environm
    - If your network runs through a proxy, you'll need the proxy address or script information as well.
     
      > [!IMPORTANT]
-     > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure the Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
+     > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, whitelist these sites:
 
