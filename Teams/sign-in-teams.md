@@ -1,8 +1,8 @@
 ---
 title: Sign in to Teams using modern authentication
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: msteams
