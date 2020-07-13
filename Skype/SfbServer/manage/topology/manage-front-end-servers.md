@@ -18,6 +18,9 @@ description: "Summary: Learn how to add, remove, patch, or update Front End Serv
  
 This article explains how to add or remove Front End Servers and how to apply upgrades or patches to Front End Servers.
 
+  > [!NOTE]
+> Skype for Business Server 2019 does not support Enterprise Edition Front End pools with two Front End Servers, and will not allow the topology to be published in that scenario.
+
 ## Add or remove Front End Servers
   
 When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. 
