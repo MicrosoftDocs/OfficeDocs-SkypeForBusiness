@@ -21,11 +21,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 Purchase services for Teams third-party apps in the Microsoft Teams admin center
 ======================================================
 
+> [!NOTE]
+> This feature is currently only available in the United States.
+
 Teams apps are free and service subscriptions for these apps are available for purchase through [AppSource](https://appsource.microsoft.com/) and now through the Microsoft Teams admin center. These service subscriptions are called Software as a Service (SaaS) offers.
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. For example, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase. This feature is currently only available in the United States.
+Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase.
 
 ## Search for and purchase services for a third-party app
 
@@ -38,15 +41,18 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 4. To buy a plan, click **Purchase now**. You'll be redirected to the purchase experience for the offer associated with the Teams app. This is where you'll complete your purchase of the service or SaaS offer.
 5. Choose the plan that you want. If the SaaS offer includes more than one plan, click **Change** to see the list of available plans.
 6. Select your billing term (either **Monthly** or **Yearly**), and then enter the number of user licenses that you want to buy.
-7. When you're ready, select **Place order**.
-8. Click **Configure now** to activate your subscription on the publisher's website.
+7. Enter your payment method.
+8. When you're ready, select **Place order**.
+9. Click **Configure now** to activate your subscription on the publisher's website.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Manage apps** page.
 
 - **License activation date**: Date on which your license was activated. If your account isn't yet set up, this shows as **Subscription pending activation**.
-- **Licenses**: Number of licenses you purchased
+- **Licenses**: Number of licenses you purchased.
 
 Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.
+
+Global admins can view the purchases made by anyone in the organization whereas Teams service admins can only view the purchases made by themselves.  
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 
