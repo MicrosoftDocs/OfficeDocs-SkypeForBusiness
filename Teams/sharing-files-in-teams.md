@@ -27,14 +27,18 @@ The Sharelink feature in Microsoft Teams lets users share content with other Tea
 With the Sharelink feature:
 
 - Users can share files from OneDrive and from teams and sites they have access to.
-- Users can share a file either by browsing to it in OneDrive, teams, and channels, or by copying and pasting a link in the compose box.
+- Users can share a file either by browsing to it in OneDrive, in teams and channels, or by copying and pasting a link in the compose box.
 
     ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-attach-file.png)
     ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-copy-link.png)
 
 ### What you need to know about the Sharelink file sharing experience
 
-When users share a file by browsing OneDrive, teams, and channels, all recipients are granted access along with the [default permission that's set at the organization level](https://docs.microsoft.com/sharepoint/change-default-sharing-link). When a user copies and pastes a file link, the permissions set on that file link are honored and the SharePoint URL is shortened to the file name. In other words, Teams uses just the file name to link to a file.
+### Permissions of a shared file
+
+When users share a file by browsing to it in OneDrive or teams, and channels, all recipients are granted access along with the [default permission that's set at the organization level](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+
+When a user copies and pastes a file link, the permissions set on that file link are honored and the SharePoint URL is shortened to the file name. In other words, Teams uses just the file name to link to a file.
 
 When users share a file from within Teams, they can set who can access the file. They can give access to anyone, people in your organization, people with existing access, or specific people (which can include the people in a 1:1 chat, group chat, or channel).
 
@@ -42,7 +46,7 @@ When users share a file in a chat or channel, they're notified whether some or a
 
 ![Diagram showing how Teams, SharePoint, and OneDrive work together](media/sharelink-permissions.png)
 
-When a file is shared, the file opens by default in Teams and is available as a file preview in the message, along with all available file actions. In some cases, the file link may not have converted to a preview by the time a user sends the message. The file preview will be generated asynchronously, but in this scenario, the file link won't be shortened to the file name.
+When a file is shared, the file opens by default in Teams and is available as a file preview in the message, along with all available file actions. In some cases, the file link may not have converted to a preview by the time a user sends the message. The file preview will be generated asynchronously, but in this scenario, the file link won't be shortened to the only the file name.
 
 ### Get link is now Copy link
 
