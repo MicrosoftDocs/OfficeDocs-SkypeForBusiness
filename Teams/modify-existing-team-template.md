@@ -21,9 +21,9 @@ ms.custom: seo-marvel-jul2020
 
 # Modify an existing team template in Microsoft Teams
 
-A team template is a predefined team structure with a set of channels, tabs, and apps. Team templates enable users to create the right collaboration space quickly. You can create a template from an existing team or build a custom template is one that you create with your preferred settings. 
+Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs. 
 
-## Create your own custom team template
+## Open a template
 
 1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
 
