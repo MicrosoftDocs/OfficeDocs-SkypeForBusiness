@@ -130,5 +130,5 @@ If you are a manufacturer and want to join the certification program, see [How t
 | Polycom             | Elara                                                     | 11/06/2019     | Certified for Microsoft Teams                          |
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Certified for Microsoft Teams                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Certified for Microsoft Teams                          |
-| Jabra               | PanaCast                                                  | 08/14/2019     | Certified for Microsoft                                |
+| Jabra               | PanaCast                                                  | 08/14/2019     | Certified for Microsoft Teams                          |
 
