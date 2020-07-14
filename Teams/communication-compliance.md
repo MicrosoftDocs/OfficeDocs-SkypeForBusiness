@@ -1,8 +1,8 @@
 ---
 title: Communication compliance for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: robmazz
+ms.author: robmazz
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
