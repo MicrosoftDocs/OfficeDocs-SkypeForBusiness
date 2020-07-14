@@ -211,6 +211,8 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 > [!NOTE]
 > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
+>
+> The # (Back) option is only available within the Directory Search feature.  Pressing # (Back) outside of Directory Search will repeat the current auto attendant.
 
 ![Icon of the number 3, a callout in the previous screenshot](media/teamscallout3.png) To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:
 
@@ -293,12 +295,9 @@ There are four additional screens that you can configure or leave at defaults as
 
 ##### Call flow for after hours
 
-By default, an auto attendant's business hours are set to 9am-5pm, Monday to Friday  <!--24/7-->, and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
+By default, an auto attendant's business hours are set to 12 AM-12 AM, Sunday through Saturday (24/7), and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. (All hours that aren't during business hours are considered *after hours*.) When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
 
 A system of auto attendants may only need to set after hours call handling behavior for the first-level auto attendant. Nested auto attendants may not even be called by the first-level auto attendant, but alternately the system can define after-hours behavior for each auto attendant it uses.
-
-Initially, the business hours are defined to start at 12:00 am and end at 12:00 pm, Sunday through Saturday. All hours that aren't during business hours are considered *after hours*.
-
 
 ![screenshot of the after hours call flow settings](media/aa-afterhour.png)
  * * *
