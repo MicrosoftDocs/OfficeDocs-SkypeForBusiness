@@ -27,7 +27,11 @@ ms.custom:
 
 The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
-In Teams, users access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started. Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
+In Teams, users access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started. 
+
+![Screenshot of Lists app in tab gallery](media/lists-tab.png)
+
+Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
 ![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
 
