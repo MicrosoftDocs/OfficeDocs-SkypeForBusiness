@@ -292,7 +292,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
       Turn on transcription to enable voice-to-text transcription of voicemail messages.
 
-      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by going to the group in Outlook.
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 * * *
 
@@ -329,7 +329,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
       Turn on transcription to enable voice-to-text transcription of voicemail messages.
 
-      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by going to the group in Outlook.
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 ## Change Caller ID for outbound calls
 
