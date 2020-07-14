@@ -54,7 +54,7 @@ Shared line appearance is currently supported by the following apps and devices.
 
 | Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Set up delegation | Yes | Yes | Yes | No | No |
+| Set up delegation | Yes | Yes | Yes | No | Yes |
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
