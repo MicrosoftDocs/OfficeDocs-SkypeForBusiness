@@ -44,7 +44,7 @@ In order to build a report and run queries, you will first need to connect to th
 
 1.  In the Home tab of Power BI Desktop, click on *Get Data*.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector1-resize.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image1_screenshot.png)
 
 2.  The *Get Data* window should appear at this point. Navigate to *Online Services*, then select *Microsoft Call Quality (Beta)* and hit *Connect*.
 
