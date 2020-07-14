@@ -1,12 +1,12 @@
 ---
-title: "Security guide for Microsoft Teams"
-author: MicrosoftHeidi
+title: Security guide for Microsoft Teams
+author: MSFTTracyP
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: pawa
 description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
