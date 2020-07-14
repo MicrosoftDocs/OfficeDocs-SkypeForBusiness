@@ -671,17 +671,17 @@
 
 # Security, privacy, and compliance
 ## [Overview](security-compliance-overview.md)
-## Security and privacy
+## Security
 ### [Security Guide](teams-security-guide.md)
+### [Azure Sentinel and Teams](teams-sentinel-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Privacy and Microsoft Teams](teams-privacy.md)
-### [Location of data in Teams](location-of-data-in-teams.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
-### [Communicatoin compliance](communication-compliance.md)
+### [Communication compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -690,7 +690,9 @@
 ### Content Search
 #### [Use Content Search](content-search.md)
 #### [Search the audit log for events](audit-log-events.md)
-### [AppLocker application control policies](applocker-in-teams.md)
+## Privacy
+### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot

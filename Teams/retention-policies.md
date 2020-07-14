@@ -1,9 +1,9 @@
 ---
 title: Retention policies in Microsoft Teams 
-author: LanaChin
-ms.author: anwara
+author: cabailey
+ms.author: cabailey
 ms.reviewer: anwara
-manager: prvijay
+manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

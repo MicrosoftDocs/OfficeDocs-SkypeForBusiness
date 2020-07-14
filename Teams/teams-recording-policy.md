@@ -1,8 +1,8 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: microsoftheidi
-ms.author: heidip
-manager: serdars
+author: cabailey
+ms.author: cabailey
+manager: laurawi
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
