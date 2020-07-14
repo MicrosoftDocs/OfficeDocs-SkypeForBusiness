@@ -44,11 +44,11 @@ In order to build a report and run queries, you will first need to connect to th
 
 1.  In the Home tab of Power BI Desktop, click on *Get Data*.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector1.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image1_screenshot.png)
 
 2.  The *Get Data* window should appear at this point. Navigate to *Online Services*, then select *Microsoft Call Quality (Beta)* and hit *Connect*.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector2.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image2_screenshot.png)
 
 3.  You will be prompted to login next. Use the same credentials that you use for CQD.<sup>2</sup>
 
@@ -66,18 +66,18 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 1.  Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we will be using the *Table* visualization.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector3.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image3_screenshot.png)
 
 2.  Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector4.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image4_screenshot.png)
 
     > [!IMPORTANT] 
     > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
 
 3.  Next, select any dimensions you want to filter on and drag them to the *Filters on this visual* field in the *Filters* pane. The CQD Power BI Connector currently supports *Basic filtering* (select values from a list of possible dimension values), *Advanced filtering* (manually specify values and operands to filter on, similar to Advanced CQD), and *Relative date filtering* (only available for the *End Time* and *Start Time* dimensions). Filtering according to *Top N* is not supported by CQD.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector5.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image5_screenshot.png)
 
 4.  Finally, select the *Format* tab within the *Visualizations* pane to style and format your query.
 
@@ -92,11 +92,11 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 2.  Select the dimension you want to use as a drillthrough filter and drag them onto the *Drillthrough* field under on the *Visualizations* pane.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector6.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image6_screenshot.png)
 
 3.  **That's it\!** Any other query on another page that uses that dimension can now drillthrough to that page, automatically applying the drillthrough dimension's value as a filter.
 
-    ![Screenshot: Power BI Connector](media/CQD-power-bi-connector7.png)
+    ![Screenshot: Power BI Connector](media/DMC_PowerBIConnector_image7_screenshot.png)
 
 Unlike Advanced CQD, Power BI supports non-sequential drillthrough. So long as a query includes the necessary dimension, it can drillthrough to any other page.
 
