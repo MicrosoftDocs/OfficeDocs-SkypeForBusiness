@@ -1,8 +1,8 @@
 ---
 title: Information barriers in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: chrfox
+ms.author: chrfox
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
