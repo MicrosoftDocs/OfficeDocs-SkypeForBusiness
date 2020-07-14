@@ -1,8 +1,8 @@
 ---
 title: AppLocker control policies
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.topic: article
 audience: admin
 ms.service: msteams

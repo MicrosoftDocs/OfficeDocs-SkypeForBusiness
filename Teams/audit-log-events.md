@@ -1,8 +1,8 @@
 ---
 title: Search the audit log for events in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 description: Learn how to retrieve Microsoft Teams data from the audit log.
 appliesto: 
