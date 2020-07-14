@@ -27,7 +27,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 ## Hardware requirements for Teams on a Windows PC
 
-|**Component**|**Requirement**  |
+| Component | Requirement |
 |---------|---------|
 |Computer and processor    | Minimum 1.6 GHz (or higher) (32-bit or 64-bit).        |
 |Memory     |    2.0 GB RAM     |
@@ -43,7 +43,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 ## Hardware requirements for Teams on a Mac
 
-|**Component**|**Requirement**  |
+| Component | Requirement |
 |---------|---------|
 |Processor    | Minimum Intel processor, Core 2 Duo or higher |
 |Memory     |   2.0 GB RAM      |
@@ -56,7 +56,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 ## Hardware requirements for Teams on Linux
 
-|**Component**|**Requirement**  |
+| Component | Requirement |
 |---------|---------|
 |Computer and processor    | Minimum 1.6 GHz (or higher) (32-bit or 64-bit).        |
 |Memory     |    2.0 GB RAM     |
