@@ -536,11 +536,7 @@
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## Operate, adopt, and optimize
-### [Operational plan overview](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -698,6 +694,8 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
+## [Operate your service](upgrade-operate-my-service.md)
+## [Enhance your service](upgrade-enhance-my-service.md)
 ## Monitor and manage call quality
 ### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
@@ -721,6 +719,9 @@
 ### Quality of Service (QoS)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
