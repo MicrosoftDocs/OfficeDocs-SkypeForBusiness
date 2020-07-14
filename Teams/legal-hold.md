@@ -1,14 +1,14 @@
 ---
 title: Place a Microsoft Teams user or team on legal hold
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH

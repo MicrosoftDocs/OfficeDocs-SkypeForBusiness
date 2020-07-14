@@ -1,13 +1,13 @@
 ---
 title: Sign in to Teams using modern authentication
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: 
+ms.reviewer: anwara
 description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication. Includes how to tell Teams to ignore the prefill of the user's name (UPN) at sign in.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
