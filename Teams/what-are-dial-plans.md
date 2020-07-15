@@ -103,7 +103,7 @@ One or more normalization rules must be assigned to the dial plan. Normalization
 Because any tenant dial plan is effectively merged with a given user's service country dial plan, it is likely that the service country dial plan's normalization rules need to be evaluated in order to determine which tenant dial plan normalization rules are needed. The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and will return all normalization rules that are applicable to the user.
 
 ### Creating normalization rules
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format. Normalization rules can be created by specifying the regular expression for the match and the translation to be done when a match is found. When you finish, you can enter a test number to verify that the normalization rule works as expected.
 
@@ -116,7 +116,6 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
 <a name="regularexpression"> </a>
-
  **Normalization rules using .NET Framework regular expressions**
 
 | Rule name<br/> | Description<br/> | Number pattern<br/> | Translation<br/> | Example<br/> |
