@@ -81,7 +81,7 @@ You have several ways to set the Operator:
 - **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365.
 
      > [!Note]
-     > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server. When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+     > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.
 - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
@@ -170,8 +170,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
   - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365.
 
     > [!Note]
-    > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server. When selecting
-    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+    > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
   - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
