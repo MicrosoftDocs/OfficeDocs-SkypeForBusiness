@@ -69,6 +69,7 @@ If you select more than one device, settings that support bulk editing show the 
 | **Bluetooth beaconing**                                      | On<br>Off                                              | Yes                |
 | **Automatically accept proximity-based meeting invitations** | Selected<br>Unselected                                 | Yes                |
 | **Send logs with feedback**                                  | On<br>Off                                              | Yes                |
+| **Email address for logs and feedback**                      | Email address                                          | Yes                |
 | *Peripherals*                                                |                                                        |                    |
 | **Conferencing microphone**                                  | List of available microphones                          | No                 |
 | **Conferencing speaker**                                     | List of available speakers                             | No                 |
@@ -76,12 +77,14 @@ If you select more than one device, settings that support bulk editing show the 
 | **Default speaker**                                          | List of available speakers                             | No                 |
 | **Default volume**                                           | 0-100                                                  | No                 |
 | **Content camera**                                           | List of available cameras                              | No                 |
+| **Content Camera Enhancements**                              | On<br>Off                                              | No                 |
+| **Rotate Content Camera 180 degrees**                        | On<br>Off                                              | No                 |
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
 ### Device restart options
 
-Some changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
+Changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
 
 - **Immediate restart** If you choose this option, all of the devices you're making changes to will restart as soon as you select this option.
 - **Scheduled restart** If you choose this option, you can restart the devices you're making changes to at a time that's less disruptive to your organization.
