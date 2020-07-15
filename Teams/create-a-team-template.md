@@ -44,19 +44,20 @@ To get started:
 
 6. In the **channels, tabs, and apps** section, add any channels and apps that your team needs.
 
-7. In the **Channels** section, click **Add**.
-    1. In the **Add** dialog, name the channel.
-    2. Add a description.
-    3. Decide if the channel should be shown by default.
-    4. Search for an app name that you want to addd to the channel.
-    5. Click **Apply** when finished.
+    1. In the **Channels** section, click **Add**.
+    2. In the **Add** dialog, name the channel.
+    3. Add a description.
+    4. Decide if the channel should be shown by default.
+    5. Search for an app name that you want to addd to the channel.
+    6. Click **Apply** when finished.
 
 ![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
 
 8. Click **Submit** when completed.
 
-Your new template is displayed in the **Team templates** list.
+Your new template is displayed in the **Team templates** list. The template can be used by other admins to create a team.
 
 ## Related topics
 
  - [Make a team from an existing team template](modify-existing-team-template.md)
+ - [Get started with a team template](get-started-with-teams-templates.md)

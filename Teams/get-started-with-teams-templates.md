@@ -53,7 +53,7 @@ Most properties in a team are included and supported by templates. But there are
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
-## What are base template types?
+## What are base template types
 
 Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
