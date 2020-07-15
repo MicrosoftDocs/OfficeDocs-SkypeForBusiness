@@ -87,7 +87,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Announce the official launch of Teams** | Generate excitement and momentum by sending an official launch announcement when Teams is ready. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **Enable the appropriate coexistence mode for your users** | Follow steps to set the right coexistence mode(s) for your organization. | [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **Implement your upgrade** | The steps you take depend on your current deployment of Skype for Business. | [Implement your upgrade](upgrade-to-teams.md) |
 | **3** | **Stay informed about the Teams roadmap** | Monitor the Teams roadmap to identify the right time for your organization to move to Teams. | [Teams roadmap](https://aka.ms/teamsroadmap) |
 | **4** | **Send additional communications and engage Teams champions to drive excitement and adoption of Teams** | Encourage user adoption and maintain excitement for Teams with ongoing communications and champions. | [Microsoft 365 Champions Program](https://aka.ms/O365Champions) |
 
