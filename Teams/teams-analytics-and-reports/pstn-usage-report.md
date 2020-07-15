@@ -25,7 +25,7 @@ The Teams PSTN usage report in the Microsoft Teams admin center gives you an ove
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
 > [!NOTE]
-> If you have a Telstra or Softbank calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra or Softbank for your reporting needs.
+> If you have a Telstra or Softbank calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra or Softbank for your reporting needs. 
 
 ## View the PSTN usage report
 
