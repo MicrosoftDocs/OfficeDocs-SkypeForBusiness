@@ -286,7 +286,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
   - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
       - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB. 
-      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters).
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type in "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
 
       Turn on transcription to enable voice-to-text transcription of voicemail messages.
 
@@ -321,7 +321,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
     - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
       - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB.
-      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters).
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type in "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
 
       Turn on transcription to enable voice-to-text transcription of voicemail messages.
 
