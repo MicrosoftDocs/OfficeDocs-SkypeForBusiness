@@ -33,7 +33,7 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 
 ![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
 
-4. Select **Use an existing team as a template** for your starting point.
+4. Select **Start with an existing team as a template** for your starting point.
 
 5.  Select the team you would like to use as your new template base.
 
