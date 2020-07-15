@@ -115,7 +115,7 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
-<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a>
 
  **Normalization rules using .NET Framework regular expressions**
 
