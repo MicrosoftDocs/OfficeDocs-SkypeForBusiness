@@ -90,7 +90,6 @@ The following table shows the calling and meeting features available to guests, 
 | Can have delegates | No | No | Yes |
 |  Can be a delegate | No | No | Yes |
 
-
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
@@ -99,26 +98,33 @@ The following table shows the calling and meeting features available to guests, 
 ## Frequently asked questions
 
 ### How do I leave an organization that I've been invited to?
+
 If you've been invited to an organization that you don't want to be a guest of, you can choose to leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternatively, you can ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in the future.
 
 ### Do guests have the same capabilities as team members?
+
 No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
 
 ### Do guests have access to OneDrive for Business?
+
 No.
 
 ### Do guests have access to SharePoint files?
+
 Yes.
 
 ### Can guests search within files?
+
 No.
 
 ### Can guests attach files?
+
 Yes, a guest can attach files in these two ways:
 
   - Select **Files** in the left pane, and then browse to the file location.
   - Upload files from their computer.
 
 ### Can a guest download a file in a private chat?
+
 Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
 
