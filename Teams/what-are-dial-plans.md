@@ -53,6 +53,9 @@ The following are the possible effective dial plans:
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
+> [!NOTE]
+> In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country code of the dialing user's usage location. This applies to Calling Plans, Direct Routing and PSTN Conference dial-out scenarios.
+
 ## Planning for tenant dial plans
 
 To plan custom dial plans, follow these steps:
