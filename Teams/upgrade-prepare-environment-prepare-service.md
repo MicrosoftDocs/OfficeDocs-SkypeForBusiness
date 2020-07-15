@@ -49,7 +49,7 @@ The following checklists and landing pages walk you through the steps for deploy
 
 - **[Meetings and audio conferencing](deploy-meetings-microsoft-teams-landing-page.md)**
 
-- **[Voice and PSTN connectivity options](cloud-voice-landing-page.md)**
+- **[Phone System and PSTN connectivity options](cloud-voice-landing-page.md)**
 
 
 The tasks and activities in these checklists are the core "to-do" items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
