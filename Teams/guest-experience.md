@@ -122,6 +122,3 @@ Yes, a guest can attach files in these two ways:
 ### Can a guest download a file in a private chat?
 Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
 
-### Can guests access Microsoft Graph?
-
-If the **Guest users permissions are limited** setting is enabled in the Azure AD portal, guests in Teams won't have access to Graph. This doesn't affect their Teams experience in any way. To learn more, see 
