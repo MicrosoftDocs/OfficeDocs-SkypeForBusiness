@@ -115,11 +115,12 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
- **Normalization rules using .NET Framework regular expressions**<a name="#regularexpression"> </a>
+<a name="#regularexpression"></a>
 
-||||||
+ **Normalization rules using .NET Framework regular expressions**
+
+| Rule name<br/> | Description<br/> | Number pattern<br/> | Translation<br/> | Example<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Rule name** <br/> |**Description** <br/> |**Number pattern** <br/> |**Translation** <br/> |**Example** <br/> |
 |4digitExtension  <br/> |Translates 4-digit extensions.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 is translated to +14255550100  <br/> |
 |5digitExtension  <br/> |Translates 5-digit extensions.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 is translated to +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Translates 7-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/>|
@@ -133,9 +134,8 @@ The following table shows sample normalization rules that are written as .NET Fr
 
  The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Redmond dial plan** <br/>                                                                                                                              |
+| Redmond dial plan<br/> |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                                                                      |
 | 5digitExtension <br/>                                                                                                                                    |
 | 7digitcallingRedmond <br/>                                                                                                                               |
 | RedmondSitePrefix <br/>                                                                                                                                  |
