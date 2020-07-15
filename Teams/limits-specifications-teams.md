@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300.   |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -120,6 +120,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Regular with end time     |End time + 60 days         |60 days         |
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+
+> [!NOTE]
+> Microsoft Teams meetings have a time limit of 24 hours. 
 
 ## Teams live events
 
