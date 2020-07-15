@@ -66,8 +66,9 @@ To get started using auto attendants, it's important to remember that:
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
 
-- A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
-- It is possible to apply more than one phone number to an auto attendant by associating more than one resource account to an auto attendant.
+- A complete auto attendant system will usually involve multiple auto attendants.
+- It's possible to apply more than one phone number to entry-level auto attendants.
+- Non-entry level auto-attendants or call queues in the complete system will only need a phone number if they will be making outbound PSTN calls.
   
 ## Feature overview
 

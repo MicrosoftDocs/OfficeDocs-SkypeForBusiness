@@ -60,7 +60,7 @@ The Common Area Phone license supports:
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
-|Phone Systems |    &#x2714; |
+|Phone System |    &#x2714; |
 |Audio Conferencing |       &#x2718; &sup1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
 |Worldwide Availability |    &#x2714; |
@@ -92,7 +92,7 @@ The Common Area Phone license supports:
 > [!NOTE]
 > If you are using Microsoft Phone System Direct Routing, you do not need to assign a Calling Plan license.
 
-For more information, see [Add a user](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
+For more information, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Step 3 - Assign a phone number to the Common Area Phone user account
 
