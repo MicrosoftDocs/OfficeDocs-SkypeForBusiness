@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
 ### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -255,6 +257,7 @@
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
@@ -381,7 +384,6 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
@@ -518,7 +520,6 @@
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
 
-
 ### Prepare your environment for Teams
 #### [Technical readiness overview](upgrade-prepare-environment.md)
 #### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
@@ -531,12 +532,10 @@
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Operate, adopt, and optimize
 ### [Operational plan overview](continue-journey.md)
@@ -553,7 +552,6 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Meetings First](meetings-first.md)
 
@@ -647,6 +645,7 @@
 ### [Teams EDU policies and policy packages](policy-packages-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
+### [Class Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
@@ -676,16 +675,17 @@
 
 # Security, privacy, and compliance
 ## [Overview](security-compliance-overview.md)
-## Security and privacy
+## Security
 ### [Security Guide](teams-security-guide.md)
+### [Azure Sentinel and Teams](teams-sentinel-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Privacy and Microsoft Teams](teams-privacy.md)
-### [Location of data in Teams](location-of-data-in-teams.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Communication compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -694,25 +694,35 @@
 ### Content Search
 #### [Use Content Search](content-search.md)
 #### [Search the audit log for events](audit-log-events.md)
-### [AppLocker application control policies](applocker-in-teams.md)
+## Privacy
+### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
-## [Monitor and manage call quality](monitor-call-quality-qos.md)
-### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
+## Monitor and manage call quality
+### [Monitor and improve call quality](monitor-call-quality-qos.md)
+### Call Quality Dashboard (CQD)
+#### [What is CQD?](CQD-what-is-call-quality-dashboard.md)
+#### [Set up CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [Upload tenant and building data](CQD-upload-tenant-building-data.md)
+#### [CQD data and reports](CQD-data-and-reports.md)
+#### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+#### [Frequently asked questions](CQD-frequently-asked-questions.md)
+#### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Create a building map](CQD-building-mapping.md)
+#### Use Power BI to analyze CQD data
+##### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
+##### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
+##### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
+##### [Use the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
+### Call Analytics
+#### [Set up call analytics](set-up-call-analytics.md)
+#### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Quality of Service (QoS)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### Use Power BI to analyze CQD data
-#### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
-#### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
-#### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
-#### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
@@ -721,6 +731,7 @@
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
 ## [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -767,7 +778,6 @@
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperability with Microsoft 365 and Office 365
 
 ### [Microsoft 365 groups and Teams](office-365-groups.md)
@@ -779,7 +789,6 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
 ### [Update your devices remotely](devices/remote-update.md)
@@ -789,7 +798,6 @@
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
