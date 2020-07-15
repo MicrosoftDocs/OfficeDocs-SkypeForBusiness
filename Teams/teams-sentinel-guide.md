@@ -2,7 +2,7 @@
 title: "Azure Sentinel and Microsoft Teams"
 author: MicrosoftHeidi
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
