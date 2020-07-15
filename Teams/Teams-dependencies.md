@@ -72,7 +72,6 @@ Adding the user guest account manually to Azure AD B2B is not required, as the a
 ### Licensing for guest access
 Guest access licensing is part of Azure AD licensing. Guest access is included with all Microsoft 365 Business Standard and Office 365 Enterprise subscriptions. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
-
 > [!NOTE]
 > Users in your organization who have standalone Office 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Microsoft 365 Business Standard, Office 365 Enterprise, or Office 365 Education subscription. 
 
