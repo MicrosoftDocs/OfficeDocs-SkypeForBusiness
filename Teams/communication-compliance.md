@@ -1,8 +1,8 @@
 ---
 title: Communication compliance for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: robmazz
+ms.author: robmazz
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -44,7 +44,7 @@ Use this template to configure specific communication channels, individual detec
 Use trainable classifiers when one of the out of the box classifiers won't meet your needs. A Microsoft 365 classifier is a tool you can train to recognize various types of content by giving it samples to look at. Training the classifier involves first giving it samples that are human picked and positively match the category. Then, after it has processed those samples, you test the predictions by giving it a mix of positive and negative samples. To Lean more about this refer to the [M365 article](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) for more on this topic.
 
 > [!NOTE]
-> Communication compliance does not support Exchange hybrid deployments.
+> Communication compliance now supports Exchange hybrid deployments.
 
 Communication compliance supports conversation history for any messages that match the polices. This provides context to the investigating admin.
 

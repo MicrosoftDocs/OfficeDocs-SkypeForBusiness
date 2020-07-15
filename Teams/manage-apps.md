@@ -27,21 +27,33 @@ The **Manage apps** page gives you a view into all available apps in your tenant
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
+> [!NOTE]
+> The **Manage apps** page isn't available yet in Microsoft 365 Government Community Cloud (GCC) deployments of Teams.
+
 ## View apps in your tenant app catalog
 
 You can view every app in your tenant app catalog including the following information about each app.
 
 ![Screenshot of the Managed apps page](media/manage-apps.png)
 
-- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:<br> 
-![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
+- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
+
+  ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
+  
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
+
 - **Categories**: Categories that apply to the app.
+
 - **App status**: Status of the app at the org level, which can be one of the following:
+
     - **Allowed**: The app is available for all users in your organization.
+    
     - **Blocked**: The app is blocked and not available for any users in your organization.
-    - **Blocked org-wide**: The app is blocked in org-wide app settings. <br>
-It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
+    
+    - **Blocked org-wide**: The app is blocked in org-wide app settings.
+    
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
+
 - **Version**: App version.
 
 To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
@@ -49,7 +61,7 @@ To see the information that you want in the table, click **Edit Column** in the 
 ## Upload a new app
 
 You can use your app catalog to test and distribute custom applications that are built specifically for your organization. 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). When you have the app package, you can add it to the your app catalog. While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
+A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). When you have the app package, you can add it to your app catalog. While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
 
 To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app package in .zip format. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
 
@@ -73,7 +85,7 @@ When you block or allow an app on the **Manage apps** page, that app is blocked 
 Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom  apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 > [!NOTE]
-> The **Manage apps** page isn't available yet in Microsoft 365 Government - GCC deployments of Teams.  To learn how to use org-wide app settings to enable or disable third-party apps, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+> To learn how to use org-wide app settings in Microsoft 365 Government - GCC deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 1. On the **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
@@ -83,7 +95,8 @@ Use org-wide app settings to control whether users can install third-party apps 
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
 
-        When **Allow third-party apps** is off, [outgoing webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users regardless of whether the setting is on or off in the users' app permission policy.
+        > [!NOTE]
+        > When **Allow third-party apps** is off, [outgoing webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users and you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md). <br><br>Note that if you have existing [app permission policies](teams-app-permission-policies.md) for **Microsoft apps** that use the **Allow specific apps and block all others** setting, and you want to enable outgoing webhooks for users, add the Outgoing Webhook app to the list.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).

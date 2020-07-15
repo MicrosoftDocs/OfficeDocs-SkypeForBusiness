@@ -22,11 +22,7 @@ This article explains how to install the Microsoft Teams PowerShell module using
 
 ## Requirements
 
-Teams PowerShell works with PowerShell 6.2.4 and later on all platforms. It is also supported with
-PowerShell 5.1 on Windows. Install the
-[latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for
-your operating system. Teams PowerShell has no additional requirements when run on PowerShell 6.2.4
-and later.
+Teams PowerShell requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system.
 
 > [!WARNING]
 > There are known issues with PowerShell 7 and Teams PowerShell. For the best experience, we recommend that you use PowerShell 5.1.
@@ -46,7 +42,7 @@ Install-Module MicrosoftTeams
 
 By default, the PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**. The first time you use the PSGallery, you'll see the following message:
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -56,7 +52,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Answer `Yes` or `Yes to All` to continue with the installation.
+Answer **Yes** or **Yes to All** to continue with the installation.
 
 
 ## Install Teams PowerShell public preview
@@ -73,7 +69,7 @@ If you're using PowerShell 5.1, you must update the **PowerShellGet** module bef
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-To install Teams Powershell public preview, run the PowerShell command below.
+To install Teams PowerShell public preview, run the PowerShell command below.
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease

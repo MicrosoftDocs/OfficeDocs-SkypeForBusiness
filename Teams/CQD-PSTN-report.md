@@ -14,12 +14,12 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-description: "Use the CQD PSTN Direct Routing report to monitor and troubleshoot PSTN calling in Microsoft Teams."
+description: "Use the Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct Routing report to monitor and troubleshoot PSTN calling in Microsoft Teams."
 ---
 
 # Using the CQD PSTN Direct Routing report
 
-New in March 2020, we've added a CQD PSTN Direct Routing report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+New in March 2020, we've added a Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 The CQD PSTN Direct Routing report (CQD PSTN Direct Routing Report.pbit) helps you understand the usage patterns and quality of your PSTN services. Use this report to monitor service usage, information about your Session Border Controller (SBC), the telephony service, network parameters, and Network Effectiveness Ratio details. This information can help you identify issues, including the reason for dropped calls. For example, you'll be able to see when volume drops, or how many calls get affected and for what reason.
@@ -141,3 +141,5 @@ If you see a spike on any of the four charts (Latency, Jitter, Package Loss Rate
 ## Related topics
 
 [Use Power BI to analyze CQD data for Microsoft Teams](CQD-PSTN-report.md)
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
