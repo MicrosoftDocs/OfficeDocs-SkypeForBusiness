@@ -38,5 +38,5 @@ If you're a small business, or if you want to roll out Teams starting with chat,
 Adoption plans can be simple to complex, depending on your environment. For large-scale deployments, step through the guidance below to ensure your organization has a smooth transition to Teams.
 
 |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
 | <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | [Start](/MicrosoftTeams/teams-adoption-phase1) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | [Experiment](/MicrosoftTeams/teams-adoption-phase2-experiment) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | [Scale](/MicrosoftTeams/teams-adoption-phase3-enable) |
