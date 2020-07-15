@@ -269,9 +269,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and is enabled for Enterprise Voice or has a Calling Plan.
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
@@ -306,9 +304,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans.
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
 
