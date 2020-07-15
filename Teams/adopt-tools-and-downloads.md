@@ -2,11 +2,9 @@
 title: Tools and Downloads for Adoption
 ms.reviewer: karuanag
 description: Use these adoption resources to help you drive adoption of Microsoft Teams and other Microsoft 365 or Office 365 services.
-ms.topic: landing-page
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 11/20/2018
 audience: admin 
 ms.service: msteams
