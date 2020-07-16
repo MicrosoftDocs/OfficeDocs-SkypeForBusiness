@@ -112,7 +112,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
-<sup>1</sup> Meeting overflow is on by default. You can use PowerShell to disable meeting overflow.
+<sup>1</sup> Meeting overflow is on by default. You can use PowerShell "insert link to powershell script" to disable meeting overflow.
 
 ### Meeting expiration
 
