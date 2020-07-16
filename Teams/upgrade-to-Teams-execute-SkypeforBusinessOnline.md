@@ -100,10 +100,10 @@ Phone System with Teams is supported after the user is in TeamsOnly mode. (If th
 
 ### PSTN connectivity options
 
-**When considering Public Switched Telephone Network (PSTN) connectivity options, there are two possible scenarios when moving from Skype for Business Online to TeamsOnly mode:**
+When considering Public Switched Telephone Network (PSTN) connectivity options, there are two possible scenarios when moving from Skype for Business Online to TeamsOnly mode:
 
-- **A user in Skype for Business Online, with a Microsoft Calling Plan**. **Upon upgrade, this user will continue to have a Microsoft Calling plan. This is the simplest scenario requiring only a couple of steps. For more information, see [From Skype for Business Online with Microsoft Calling Plans](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).**
+- A user in Skype for Business Online, with a Microsoft Calling Plan. Upon upgrade, this user will continue to have a Microsoft Calling plan. This is the simplest scenario requiring only a couple of steps. For more information, see [From Skype for Business Online with Microsoft Calling Plans](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- **A user in Skype for Business Online, with on-premises voice functionality through Skype for Business on-premises or Cloud Connector Edition**. **The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.  For more information see, [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).**
+- A user in Skype for Business Online, with on-premises voice functionality through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.  For more information see, [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
 
 
