@@ -269,9 +269,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in organization** An online user with a Phone System license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and is enabled for Enterprise Voice or has a Calling Plan.
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
@@ -286,6 +284,13 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+  - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
+      - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB. 
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
+
+      Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.
+
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 * * *
 
@@ -299,9 +304,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in organization** An online user with a Phone System license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans.
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
 
@@ -316,6 +319,13 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
+      - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB.
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
+
+      Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.
+
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 ## Change Caller ID for outbound calls
 
