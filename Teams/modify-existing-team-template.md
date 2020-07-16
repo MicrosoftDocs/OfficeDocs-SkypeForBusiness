@@ -23,9 +23,7 @@ ms.custom: seo-marvel-jul2020
 
 Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
-## Open a template
-
-1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
+1. Log in to the admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
@@ -35,11 +33,15 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 
 ![An image of the Team templates dialog with Add highlighted.](media/template-duplicate.png)
 
-5.  In the **Select the template to use as a starting point** screen, click **Next**.
-    
+(Alternatively, you can click **Add** > **Start with an existing template** to open the **Select the template to use as a starting point** screen.)
+
+![An image of the Team templates starting point screen with Start with an existing template highlighted.](media/template-start-existing-template.png)
+
+5. In the **Select the template to use as a starting point** screen, click **Next**.
+
     The duplicated template opens, and the word **Copy** is appended to the name.
 
-6.  Complete the following fields and then click **Next**:
+6. Complete the following fields and then click **Next**:
     - Template name
     - Template short and long descriptions
     - Locale visibility  
@@ -47,9 +49,9 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 7. In the **channels, tabs, and apps** section, modify any existing channels and apps that your team needs.
 
     1. Select a channel to edit, and click **Edit**.
-    2. **Apply** your changes when finished. 
+    2. **Apply** your changes when finished.
 
-8.  Add any channels or apps that your team needs. 
+8. Add any channels or apps that your team needs.
 
     1. In the **Channels** section, click **Add**.
     2. In the **Add** dialog, name the channel.
@@ -58,6 +60,6 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
     5. Search for an app name that you want to addd to the channel.
     6. Click **Apply** when finished.
 
-7.  Click **Submit** when you're finished adding channels and apps. 
-    
+7. Click **Submit** when you're finished adding channels and apps.
+
     The new template is saved to the template library.
