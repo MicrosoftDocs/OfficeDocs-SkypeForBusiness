@@ -64,5 +64,4 @@ All matters related to your existing collaboration infrastructure and Microsoft 
 
 Ensure that you've engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakeholders](upgrade-enlist-stakeholders.md).
 
-
-After you evaluate your environment, proceed to the next step: [Prepare your network](prepare-network.md).
+After you evaluate your environment, proceed to the next step: [Prepare your service](upgrade-prepare-environment-prepare-service.md).

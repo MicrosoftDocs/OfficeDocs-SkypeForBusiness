@@ -53,7 +53,7 @@ Yes, Microsoft offers several options for running Skype for Business Online and 
 
 ## Is Phone System available for Teams users?
 
-Yes. Phone System is available to all Teams users after they are moved to TeamsOnly mode.  In addition, Microsoft provides options for connecting to the Public Switched Telephone Network (PSTN) so that users can make phone calls anywhere in the world. For more information, see [Phone System and PSTN connectivity](cloud-voice-landing-page.md).
+Yes. Phone System is available to all Teams users after they are moved to TeamsOnly mode.  In addition, Microsoft provides options for connecting to the Public Switched Telephone Network (PSTN) so that users can make phone calls anywhere in the world. For more information, see [Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md).
 
 ## Can we continue to use our on-premises telephony infrastructure?
 

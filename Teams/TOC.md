@@ -227,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# Cloud voice 
+# Voice - Phone System and PSTN connectivity 
 
 ## [Plan your deployment](cloud-voice-landing-page.md)
 
