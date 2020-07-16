@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  |300. Under the Adv Comms SKU, **Meeting Overflow** allows for up to 20,000 streaming participants to join in a listen-only mode.<sup>1</sup> <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow.   |
+|Number of people in a meeting (can chat and call in)  |300. **Meeting overflow** allows for up to 20,000 streaming participants to join in a listen-only mode for any user with a license for the Advanced Communications add-on SKU.<sup>1</sup> <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow.   |
 |Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
@@ -125,7 +125,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
 > [!NOTE]
-> Microsoft Teams meetings have a time limit of 24 hours. 
+> Microsoft Teams meetings have a time limit of 24 hours.
 
 ## Teams live events
 
