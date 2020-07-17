@@ -86,6 +86,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Update #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Update #4                |
 | Poly CCX400         | 1.0.1.0054           | Update #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | Update #3                |
