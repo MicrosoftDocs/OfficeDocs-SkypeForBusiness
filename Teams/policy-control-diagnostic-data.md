@@ -401,7 +401,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Shows team or channel creation acknowledgement.
 - **crossCloudDialogCancel** - **Cancel** is selected for a cross-cloud dialog.
 - **crossCloudDialogJoin** - **Join as guest** is selected for a cross-cloud dialog.
-- **dashboardNav** ???
+- **dashboardNav** - A user navigates to a tile on the chat dashboard.
 - **dateChanged** - A user modified a shift date.
 - **datePickerLaunch** - Confirms that date picker was successfully launched.
 - **dayClicked** - Selecting the day view when user is seeing their shifts.
@@ -520,7 +520,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **Expected: messageUnread - Android: markAsLastUnread** - Message context menu options for a bot message.
 - **federatedUpgradeNewChat** - Legacy chat is upgraded to native.
 - **files** - Tracks if the file listing is done successfully in the chat and channel files tab.
-- **files, conversation, oneNote, etc.** - Tab selected. Relevant to the **About** tab discoverability. ???
 - **fileSelected** - A PowerPoint presentation is selected.
 - **fileThumbnailPreviewDownloaded** - Helps to identify if a thumbnail was rendered successfully for a file.
 - **fileThumbnailPreviewFromCache** - Captures if thumbnail shows from cache successfully and helps to identify if thumbnail was rendered successfully for a file.
@@ -716,7 +715,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **navCamera** - A user navigates to the Camera tab or app on the bottom bar or app tray.
 - **navChat** - A user navigates to the Chat tab or app on the bottom bar or app tray.
 - **navContacts** - A user navigates to the Contacts or People tab or app on the bottom bar or app tray.
-- **navDashboardTab** ???
+- **navDashboardTab** - A user navigates to the dashboard tab within a conversation.
 - **navDynamics365** - Triggered when the Dynamics365 app is opened.
 - **navFiles** - Files app is selected, tracks if a user can launch the files app in the app tray (iOS).
 - **navFilesTab** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (iOS).
@@ -763,7 +762,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - A user tries to take a photo and upload directly to the gallery.
 - **officeLens or cameraImage** - Camera picture selected - standard camera or office lens.
 - **onBackClicked** - Whenever the back arrow is selected to navigate back a page.
-- **oneNote** - Triggered when the OneNote app is opened.
+- **oneNote** - When a user opens the OneNote app.
 - **open** - Notification Settings tap.
 - **open edit** - Wiki usage telemetry - User selects to edit the wiki.
 - **openApp** - Opening a personal app.
