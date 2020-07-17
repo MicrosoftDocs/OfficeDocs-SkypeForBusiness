@@ -29,6 +29,10 @@ description: "Caller ID can be controlled for both inbound and outbound calls fo
 Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.
   
 The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
+
+- Teams Calling Plans 
+
+- Teams Direct Routing 
   
 - Online PSTN Connectivity
     
