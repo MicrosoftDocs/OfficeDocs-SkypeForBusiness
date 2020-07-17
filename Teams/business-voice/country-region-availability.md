@@ -31,7 +31,7 @@ In countries and regions **with** support for Calling Plans and the Getting Star
 - You no longer need to subscribe to a third-party telephone provider to manage your phone numbers.
 - You no longer need any on-premises telephony equipment (other than end-user devices such as desk phones).
 
-If your tenant is located in a country or region that supports Calling Plans and the Getting Started Wizard, check out [What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?](what-to-buy.md).
+If your tenant is located in a country or region that supports Calling Plans and the Getting Started Wizard, check out [What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?](what-to-buy.md)
 
 In countries and regions **without** support for Calling Plans and the Getting Started Wizard, you need to purchase Business Voice from a Microsoft partner or reseller. After you've purchased Business Voice, you need to then work with your partner or reseller and your third-party telephone provider to set up Direct Routing between your on-premises telephony hardware and Microsoft 365.
 
