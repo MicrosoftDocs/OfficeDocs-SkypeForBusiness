@@ -373,7 +373,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **contactOrganizer** - Selected **Contact organizer**.
 - **conversation, tabs** - Tab selected.
 - **copyLink** - Copy a link to a channel post.
-- **contactActivity** ???
+- **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the Chat or Posts tab.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
@@ -536,7 +536,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **flipCamera** - Flip camera.
 - **forcedUpdateAccept** - A user accepts to update the app version in the force update dialog.
 - **forcedUpdateExit** - A user closes the app instead of updating the app version in the force update dialog.
-- **forcedUpdatePrompt** ???
+- **forcedUpdatePrompt** - Used in situations where users on older versions, that may not have the latest security and privacy fixes, need to be reached.
 - **formattingBold** - A user selects bold formatting.
 - **formattingHighlight** - A user selects highlight formatting.
 - **formattingImportant** - A user selects importance.
@@ -732,7 +732,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **navSelectPlan** - When a user selects a shared plan to navigate to from home view.
 - **navSelectPersonalList** - When a user selects a personal plan to navigate to from home view.
 - **navSelectSmartList** - When a user selects a smart plan to navigate to from home view.
-- **navShifts** ???
 - **navTasks** - Triggered when the Tasks app is opened.
 - **navTeams** - Tap **See all**.
 - **navVideocamera** - A user navigates to the Camera tab or app on the bottom bar or app tray.
@@ -748,7 +747,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **notBlockedDevice** - A user doesn't reach the threshold for background activity failures in 30 days.
 - **notNow** - **Not now** is selected in reminder.
 - **notNowUpdate** - UpdateDefer.
-- **notificationError** ???
 - **notificationNavChannelConversation** - Launch the app using a notification for a channel conversation.
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
@@ -861,7 +859,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Push notification selected.
   - Reconnecting push notification is tapped.
   - **Reconnect failed** push notification is tapped.
-- **quickNotificationAction** ???
+- **quickNotificationAction** - When a user interacts with one of the quick action responses on a notification (such as the ability to like a message directly from the push notification).
 - **quickSelectImagePicker** - Quick select.
 - **quickStartLiveEventJoin** - Quick start live event is joined by a user.
 - **quietHoursValues** - Capture Quiet Hours State on back button navigation.
