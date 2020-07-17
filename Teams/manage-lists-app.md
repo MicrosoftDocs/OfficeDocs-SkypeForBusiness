@@ -41,7 +41,7 @@ Templates in Lists are tailored to common information tracking scenarios for use
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
-- Use the Patients template to record the needs and status of patients so care teams in your healthcare organization can monitor and coordinate care.
+- Use the Patients template to record the needs and status of patients for care teams in your healthcare organization to monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
 ## Example scenario
