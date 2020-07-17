@@ -176,7 +176,7 @@ Learn how to manage Skype for Business Online for your organization.
 </ul>
 
 ---
-
+<p>Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the hub for teamwork in Microsoft 365. <a href=https://aka.ms/sfboannounce>Learn more</a>. </p>
 <h2>Featured Articles</h2>
 <ul class="panelContent cardsW">
     <li>
