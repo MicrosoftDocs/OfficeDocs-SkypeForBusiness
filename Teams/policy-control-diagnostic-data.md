@@ -32,7 +32,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
   - Create message extension usage.
-  - Action ME usage. ???
+  - Action message extension usage.
 - **active_session_banner_dismissed** - The location sharing active reminder banner was dismissed.
 - **activityChatClicked** - Triggered when non-live chat is selected in the Activity tab or a split view is shown.
 - **activityContextMenu** - Overflow actions in the activity feed.
@@ -279,11 +279,11 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - Selecting the **Done** button when adding a user to a chat.
   - A chat list filter is selected, to filter by unread.
 - **chatAddChat** - Add a member to chat button tapped (this will be same for 1:1 chat and group chat).
-- **chatAvatarEdit** ???
-- **chatAvatarEditCamera** ???
-- **chatAvatarEditGallery** ???
-- **chatAllowJoinViaLink** ???
-- **chatAvatarEditView** ???
+- **chatAllowJoinViaLink** - Turns the Join Link capabilities in the Chat Details page on or off.
+- **chatAvatarEdit** - Tracks how many groups change their avatar from the Chat Details page.
+- **chatAvatarEditCamera** - Triggered when a user edits the avatar from a live camera feed.
+- **chatAvatarEditGallery** - Triggered when a user edits the avatar from the phone's gallery.
+- **chatAvatarEditView** - Triggered when a user views the existing avatar image.
 - **chatListNavConversations** - ChatList navConversations. ???
 - **chatCancelAudioCall** - Cancel a group audio call - Confirm dialog.
 - **chatCancelVideoCall** - Cancel a group video call - Confirm dialog.
@@ -300,7 +300,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - A chat detail page is navigated to.
 - **chatRecentEnter** - The chat recent tab is entered.
 - **chatSendMessage** - Send a chat message.
-- **chatShareLink** ???
+- **chatShareLink** Tracks how many users send a group invite link.
 - **chatStartAudioCall** - Triggered when:
   - 1:1 audio call button tapped.
   - Taps the **Audio** button on a search result.
@@ -375,7 +375,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **conversation, tabs** - Tab selected.
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** ???
-- **conversation** ???
+- **conversation** - When a user navigates to the Chat or Posts tab.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -423,8 +423,8 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **descriptionChanged** - Confirms a shared task description has changed successfully.
 - **descriptionClicked** - When a user selects **View description** from task details.
 - **detailsTabClicked** - The **Details** tab is selected on the meeting.
-- **deviceAddressBookSync** ???
-- **deviceAddressBookUnsync** ???
+- **deviceAddressBookSync** - Fired when address book sync is turned on from the settings page.
+- **deviceAddressBookUnsync** - Fired when address book sync is turned off from the settings page.
 - **dialIn** - A user chooses to Dial in into a meeting (various locations).
 - **dialInBadNetworkBanner** - **Dial in** is selected for a poor connection banner.
 - **dialInBadNetworkBannerCancel** - The **Dial in** is cancelled on the native dialog.
@@ -878,7 +878,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **reactSad_HB** - React with sad from the hover bubble.
 - **reactSurprised_CM** - React with surprise from the context menu.
 - **reactSurprised_HB** - React with surprise from the hover bubble.
-- **reactRemoved_HB** ???
+- **reactRemoved_HB** - When a user removes a reaction through the reaction summary page experience.
 - **readReceipts** - User enabled feature.
 - **redeemInvite** - In app redemption.
 - **refreshCalendarList** - Pull down to refresh agenda view.
@@ -888,7 +888,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **removeParticipantFromNewMeeting** - Remove a participant from the scheduler page while setting up a new meeting.
 - **removeReplyObject** - A user removed reply object from compose.
 - **removeUser** - Confirms that an assignee is removed from within the assignment picker view (as opposed to *assignmentRemoved* which triggers when selecting **x** outside of assignment picker view).
-- **removeUser_CM** ???
+- **removeUser_CM** - When a user removes someone via the chat participant list.
 - **removeUserConfirm** - A user confirmed a remove user dialog.
 - **removeUserContextMenu** - A user removed a participant via context menu.
 - **removeUserSwipe** - A user removed a participant via swipe.
