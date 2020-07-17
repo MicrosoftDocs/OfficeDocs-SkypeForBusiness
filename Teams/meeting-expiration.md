@@ -31,7 +31,7 @@ The meeting policy settings that control whether users can start and schedule me
 - [Allow scheduling private meetings](meeting-policies-in-teams.md#allow-scheduling-private-meetings): Controls whether a user can schedule a private meeting. A meeting is private when it's not published to a channel in a team.
 - [Allow Meet now in private meetings](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
 
-By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule a meeting of that type. At the same time, all existing meetings of that type that the user previously scheduled are expired.
+By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, all existing meetings of that type that the user previously scheduled are expired.
 
 <!-- As an admin, you can use meeting policies to control the expiration of meetings scheduled by users in your organization *who are no longer* allowed to start or schedule meetings. -->
 
