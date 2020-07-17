@@ -22,26 +22,25 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Cloud voice in Microsoft Teams
+# Voice - Phone System and PSTN connectivity options
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice capabilities for your users. 
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add voice capabilities for your users. 
 
-Cloud voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
+Voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
 
-This article helps you decide whether you need to change any of the default cloud voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+This article helps you decide whether you need to change any of the default voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
 
 
 
-## Learn more about cloud voice
+## Learn more about voice
 
-The following articles provide more information about deploying and using cloud voice features in Teams:
+The following articles provide more information about deploying and using voice features in Teams:
 
 - [Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
 - [Phone System with Calling Plans](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
-- [Cloud voice deployment](cloud-voice-deployment.md)
 - [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
 
