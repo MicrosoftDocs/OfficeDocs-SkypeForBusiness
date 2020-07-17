@@ -50,6 +50,7 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | United Kingdom       | X                                    | X<sup>1</sup>                                               | X                      |
 | United States        | X                                    | X<sup>1</sup>                                               | X                      |
 | Argentina            |                                      | X                                                           |                        |
+| Australia            |                                      | X                                                           |                        |
 | Austria              |                                      | X                                                           |                        |
 | Belgium              |                                      | X                                                           |                        |
 | Bosnia & Herzegovina |                                      | X                                                           |                        |

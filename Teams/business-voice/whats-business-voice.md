@@ -33,12 +33,12 @@ Business Voice is right for you if your organization has 300 or fewer people and
 - Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
-- Microsoft and Office 365 Enterprise E1, E3 or E5
-- Microsoft 365 and Office 365 Education A1, A3, or A5
-- Microsoft 365 and Office 365 Government G1, G3, or G5 (GCC only)
+- Microsoft and Office 365 Enterprise E1 or E3
+- Microsoft 365 and Office 365 Education A1 or A3
+- Microsoft 365 and Office 365 Government G1 or G3
 - Microsoft 365 Nonprofit Business Basic
 - Microsoft 365 Nonprofit Business Standard
-- Microsoft 365 and Office 365 Nonprofit E1, E3, or E5
+- Microsoft 365 and Office 365 Nonprofit E1 or E3
 
 Business Voice is available in over 70 countries and regions. Whether you can set up Business Voice on your own, transfer phone numbers to Microsoft 365, and manage your phone numbers in Microsoft 365, depends on the country or region in which your Microsoft 365 tenant is located. For more information, check out [Country and region availability for Business Voice](country-region-availability.md).
 
