@@ -60,29 +60,6 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 |Row3     |         |         |
 |Row4     |         |         |
 
-### Channel meetings
-
-### Private meetings
- 
-### Allow Meet now in channels
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel. The default value is True.
-
-### Allow channel meeting scheduling
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add channel** option is disabled for users in Teams. The default value is True.
-
-
-### Allow scheduling private meetings
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
-
-Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. The default value is True.
-
-### Allow Meet now in private meetings
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  The default value is True.
-
 ## Related topics
 
 [Manage meeting policies in Teams](meeting-policies-in-teams.md)
