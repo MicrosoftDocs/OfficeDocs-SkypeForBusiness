@@ -67,8 +67,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **anonymousMeetingSignInWelcome** - The **Sign in and join** is selected on an anonymous join meeting landing page.
 - **anonymousMeetingToggleMuted** - The number of times the mute toggle button was selected.
 - **anonymousMeetingToggleVideo** - The number of times the video toggle button was selected.
-- **appBG** - Appplication BG. ???
-- **appKilled** - The appplication is terminated.
+- **appKilled** - The application is terminated.
 - **approveTimeOffRequest** -  When a FirstLine Worker (FLW) Manager approves a FirstLine Worker request to take time off.
 - **assigneeChange** - Triggers when a new assignee is added to a task item.
 - **assignmentPickerClicked** - The **Assign To** button is selected, opening an assignee picker page.
@@ -79,7 +78,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **audioOnlyLowBatteryBanner** - The **Audio only** option is selected due to a low battery banner.
 - **audioOnlyPoorNetworkBanner** - The **Video off** option is selected due to a poor connection banner.
 - **audioUserDoubleTap** - Double tap on an audio participant.
-- **autoReconnectCallmebackCallDrop** - The number of times the **Callmeback** button was selectd at a call end screen.
+- **autoReconnectCallmebackCallDrop** - The number of times the **Callmeback** button was selected at a call end screen.
 - **autoReconnectDialIn**
   - The **Dial in** button is selected on the reconnect UFD.
   - The number of times the **Dial In** button was selected while a reconnect is happening.
@@ -549,7 +548,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **freDone** - First-run experience (FRE) has been done.
 - **freTriggered** - A user views the time clock on the First-run experience (FRE).
 - **funSearchQueryEntered** - Giphy query entered. Success data for the giphy attachment feature in Teams.
-- **funSelectItem** - Giphy image choosen. Success data for the giphy attachment feature in Teams.
+- **funSelectItem** - Giphy image chosen. Success data for the giphy attachment feature in Teams.
 - **galleryImage** - Image uploaded - gallery.
 - **get_directions_clicked** - The **Get directions** button is selected.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
@@ -726,6 +725,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **navOrganization** - Triggered when the Organization app is opened.
 - **navOrgChart** - Triggered when the Orgchart app is opened.
 - **navPeople** - Event is triggered when the People app is opened.
+- **navPeopleSettings** - Triggered when you navigate to the **People** category in the Settings menu.
 - **navPersonalFiles** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (Android).
 - **navPhotoTab** - Photo tab.
 - **navSaved** - A user navigates to the Saved tab or app on the bottom bar or app tray.
@@ -778,10 +778,10 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - To identify open files can be opened from a channel list.
   - Determining if files can be opened from group chats.
   - Determining if a file can be successfully opened from files app.
-  - Determining if a message file can be opened from the chiclet successfully.
+  - Determining if a message file can be opened from the chicklet successfully.
   - Determining if files from recent list can be opened successfully.
   - Determining if a file from file list can be opened successfully.
-  - Determining if a file can be opened from a messages file chiclet.
+  - Determining if a file can be opened from a messages file chicklet.
   - Determining  if files can be opened successfully from a file list.
 - **openInAppClicked** - Option inside task item more options list, only available for personal tasks.
 - **opensCalendarView** - Tapping on **Open shifts** from the Schedule tab.
@@ -806,7 +806,6 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **parental_consent_grant** - A user grants permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **parental_consent_remove** - A user revokes permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **pauseVoicemail** - **Pause** tapped on a voicemail item.
-- **people** ???
 - **peoplePickerInvoked** - People Picker is used across seven places in Teams mobile, including (but not limited to):
   - New chat picker.
   - Forward a message.
@@ -980,7 +979,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
   - The user can share a file successfully.
 - **shareHistory** - Share history picker selected.
 - **shareInto** -- A user shares something from another app into Teams.
-- **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chiclet, check chicklet sent via the backend messaging service.
+- **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chicklet, check chicklet sent via the backend messaging service.
 - **sharePPTFromChannels** - **Teams and Channels** is selected.
 - **sharePPTFromOneDrive** - **OneDrive** is selected.
 - **shareRecording** - Share a recording.
@@ -993,7 +992,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **shiftDetailsCalendar** - User goes to shift details.
 - **shiftDetailsMyShifts** - Tapping on **Calendar** from the Schedules tab.
 - **shiftDetailsTodaysCoworkers** - On the clock in screen, the **Start** or **End break** button is selected.
-- **shortCircuitContactCount** ???
+- **shortCircuitContactCount** - The number of address book matched short circuited contacts received from a contacts fetch.
 - **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
 - **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
@@ -1008,7 +1007,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
-- **startPSTNCall** - Triggerd due to:
+- **startPSTNCall** - Triggered due to:
   - PSTN Result in Global Search (People).
   - PSTN call placed from Device contactCard.
   - PSTN Call placed from callList.
