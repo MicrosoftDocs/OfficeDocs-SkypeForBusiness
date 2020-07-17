@@ -41,7 +41,7 @@ For example, if a user is assigned a meeting policy in which these meeting polic
 
 When a meeting is expired, no one can join the meeting, either through the meeting join link or by phone. When a user tries to join the meeting through the meeting join link or by dialing in, [WHAT HAPPENS???]. Conversations, files, whiteboards, and other content related to the meeting are retained and users can still access them.
 
-## What happens when you turn on and turn off meeting policy settings?
+## What happens when you turn on and turn off a meeting policy setting?
 
 ### Switch a meeting policy setting from on to off
 
@@ -55,10 +55,10 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 
 |If you want to... |Do this  |More information  |
 |---------|---------|---------|
-|Expire Meet now channel meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join Meet now channel meetings started by the user that occurred in the past.         |
-|Expire scheduled channel meetings for a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Scheduled channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future.</li><li>Future instances of recurring channel meetings scheduled by the user.</li></ul>       |
-|Row3     |         |         |
-|Row4     |         |         |
+|Expire channel Meet now meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join channel Meet now meetings started by the user.         |
+|Expire channel meetings scheduled by a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>       |
+|Expire private meetings scheduled by a user    |Turn off **Allow scheduling private meetings** *and* turn off **Allow the Outlook add-in**.          |No one can join private meetings scheduled by the user. This prevents people from joining the following: <ul><li>Private meetings that occurred in the past.</li> <li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul>         |
+|Expire private Meet now meetings   |Turn off **Allow Meet now in private meetings**.          |No one can join private Meet now meetings started by the user.         |
 
 ## Related topics
 
