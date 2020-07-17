@@ -25,6 +25,10 @@ Microsoft 365 Business Voice makes it easy for small and medium organizations to
 
 Business Voice does all of this by wrapping Microsoft 365 Phone System features into an easy-to-manage bundle. You don't need to worry about choosing the right plan or feature; they're all there and set up for you. Because Phone System is a part of Teams, you can turn any PC, Mac, or mobile device into a phone that can use your Business Voice phone number.
 
+Here's a short video that gives you an overview of Business Voice (2:13 minutes):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
+
 Business Voice is right for you if your organization has 300 or fewer people and you have one the following Microsoft 365 subscriptions:
 
 - Microsoft 365 Business Basic
