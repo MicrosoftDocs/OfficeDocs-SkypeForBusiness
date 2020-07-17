@@ -227,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# Cloud voice 
+# Voice - Phone System and PSTN connectivity 
 
 ## [Plan your deployment](cloud-voice-landing-page.md)
 
@@ -517,6 +517,7 @@
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
 #### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Understand Phone System and PSTN connectivity options](cloud-voice-landing-page.md)
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
 
@@ -537,11 +538,7 @@
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## Operate, adopt, and optimize
-### [Operational plan overview](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -701,6 +698,8 @@
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
+## [Operate your service](upgrade-operate-my-service.md)
+## [Enhance your service](upgrade-enhance-my-service.md)
 ## Monitor and manage call quality
 ### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
@@ -724,6 +723,9 @@
 ### Quality of Service (QoS)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
@@ -935,5 +937,7 @@
 ### [Calling plans in Microsoft 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
+## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
