@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams user activity report
 
-The Teams user activity report gives insight into the types of activities that users in your organization perform in Teams. For example, one can see how many users communicate on an ad hoc basis through unscheduled meetings commonly referred to as 1:1 and group calls, meetings a Teams user has organized, and meetings a Teams user participated in. We share details about screen, video, and audio minutes, and chat communication statistics, such as how many users communicate through channel messages via reply and post to a channel message, and how many users engage in 1:1 or group chat messages.
+The Teams user activity report gives insight into the types of activities that users in your organization perform in Teams. For example, one can see how many users communicate on an ad hoc basis through unscheduled meetings commonly referred to as 1:1 and group calls, meetings a Teams user has organized, and meetings a Teams user participated in. We share details about screen, video, and audio minutes, and chat communication statistics, such as how many users reply to and post channel messages, and how many users engage in 1:1 or group chat messages.
 
 ## View the user activity report
 
