@@ -39,7 +39,7 @@ For example, if a user is assigned a meeting policy in which these meeting polic
 
 ## What happens when a meeting expires?
 
-When a meeting is expired, no one can join the meeting, either through the meeting join link or by phone. When a user tries to join the meeting through the meeting join link or by dialing in, [WHAT HAPPENS???]. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
+When a meeting expires, no one can join the meeting, either through the meeting join link or by phone. When a user tries to join the meeting through the meeting join link or by dialing in, [WHAT HAPPENS???]. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
 
 ## What happens when you turn on and turn off a meeting policy setting?
 
