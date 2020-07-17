@@ -62,10 +62,15 @@ Here's a summary of how meeting expiration works for each of the meeting policy 
 |Expire channel Meet now meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join channel Meet now meetings started by the user.         |
 |Expire channel meetings scheduled by a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>       |
 |Expire private meetings scheduled by a user    |Turn off **Allow scheduling private meetings** *and* turn off **Allow the Outlook add-in**.          |No one can join private meetings scheduled by the user. This prevents people from joining the following: <ul><li>Private meetings that occurred in the past.</li> <li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul> Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, existing meetings remain active and won't be expired.      |
-|Expire private Meet now meetings   |Turn off **Allow Meet now in private meetings**.          |No one can join private Meet now meetings started by the user.         |
+|Expire private Meet now meetings started by a user  |Turn off **Allow Meet now in private meetings**.          |No one can join private Meet now meetings started by the user.         |
+
+If you want people to access meetings that were previously scheduled or started by a particular user, you can:
+
+- Turn on the meeting policy setting for that user.
+- Turn off the meeting policy setting for that user and have another user who has the policy setting enabled create a new meeting to replace the expired meeting.
 
 > [!NOTE]
-> If you want people to access meetings scheduled or started by a particular user, you can turn on the meeting policy setting for that user or have another user who has the policy setting enabled create a new meeting to replace the expired meeting.
+> If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).
 
 ## Related topics
 
