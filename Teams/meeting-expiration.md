@@ -57,7 +57,7 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 
 Here's a summary of how meeting expiration works for each of the meeting policy settings discussed in this article. 
 
-|If you want to... |Do this  |Behavior  |
+|If you want to... |Do this  |Meeting join behavior  |
 |---------|---------|---------|
 |Expire channel Meet now meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join channel Meet now meetings started by the user.         |
 |Expire channel meetings scheduled by a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>       |
