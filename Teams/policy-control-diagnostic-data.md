@@ -284,7 +284,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **chatAvatarEditCamera** - Triggered when a user edits the avatar from a live camera feed.
 - **chatAvatarEditGallery** - Triggered when a user edits the avatar from the phone's gallery.
 - **chatAvatarEditView** - Triggered when a user views the existing avatar image.
-- **chatListNavConversations** - ChatList navConversations. ???
+- **chatListNavConversations** - When a user taps into a chat list item.
 - **chatCancelAudioCall** - Cancel a group audio call - Confirm dialog.
 - **chatCancelVideoCall** - Cancel a group video call - Confirm dialog.
 - **chatCM_CopyText** - Tap **Copy text** on a chat context menu.
@@ -499,7 +499,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **enabled, notNow** - Notification permission prompt **Accept** button, First-run experience (FRE) Notifications Permission (iOS). This captures how many people have enabled the notification feature and provides information.
 - **enablediOSPrompt** - A user actually enables notifications in the iOS notifications permissions prompt. This gives information about users who actually enable notifications in iOS from notifications permissions prompt.
 - **enabledQuietDays** - Quiet Days enabled.
-- **enableLocationPermission** - Enable location services (TBD). ???
+- **enableLocationPermission** - When a user enables location permissions for the share location feature.
 - **enableQuietDays** - A user enables quiet days.
 - **enableQuietHours** - Quiet Hours enabled.
 - **endEditing** - **Save** button pressed.
@@ -637,7 +637,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
-- **mapAppPicker** - Choose map app from map picker (TBD). ???
+- **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
 - **markAsUnread** - Mark as unread.
 - **markChannelRead** - A user marks a channel read.
@@ -760,7 +760,9 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **offerRecipientClicked** - Only logged if the request being sent is an offer. The user enters the team member picker to offer a shift. Offering means offering a shift time off.
 - **offerSwapShiftFromL1** - The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed**.
 - **offerSwapShiftFromL1Triggered** - A user offers to swap a shift with another user.
-- **officeLens** ???
+- **officeLens** - Fires when the app launches the officeLens camera feature, either when:
+  - A user tries to attach a photo to their message
+  - A user tries to take a photo and upload directly to the gallery.
 - **officeLens or cameraImage** - Camera picture selected - standard camera or office lens.
 - **onBackClicked** - Whenever the back arrow is selected to navigate back a page.
 - **oneNote** - Triggered when the OneNote app is opened.
