@@ -55,17 +55,10 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 
 |If you want to... |Do this  |More information  |
 |---------|---------|---------|
-|Expire Meet now channel meetings started by a user  |Turn off **Allow Meet now in channels**|No one can join Meet now channel meetings started by the user that occurred in the past.         |
-|Expire scheduled channel meetings for a user   |Turn off **Allow channel meeting scheduling**         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Scheduled channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future.</li><li>Future instances of recurring channel meetings scheduled by the user.</li></ul>       |
+|Expire Meet now channel meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join Meet now channel meetings started by the user that occurred in the past.         |
+|Expire scheduled channel meetings for a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Scheduled channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future.</li><li>Future instances of recurring channel meetings scheduled by the user.</li></ul>       |
 |Row3     |         |         |
 |Row4     |         |         |
-|Row5     |         |         |
-|Row6     |         |         |
-|Row7     |         |         |
-|Row8     |         |         |
-|Row9     |         |         |
-|Row10     |         |         |
-
 
 ### Channel meetings
 
