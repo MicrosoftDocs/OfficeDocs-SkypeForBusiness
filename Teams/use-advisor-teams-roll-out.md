@@ -50,7 +50,7 @@ The first time you use Advisor for Teams, it'll create a Deployment team for you
 
 ## Available Advisor for Teams plans
 
-While Advisor for Teams is in public preview, we're providing the following two plans:
+While Advisor for Teams is in public preview, we're providing the following plans:
 
 1. Chat, teams, channels, and apps
     - Tenant assessment
