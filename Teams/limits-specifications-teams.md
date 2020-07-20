@@ -64,7 +64,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
 
-<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 250    |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -120,6 +120,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Regular with end time     |End time + 60 days         |60 days         |
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+
+> [!NOTE]
+> Microsoft Teams meetings have a time limit of 24 hours. 
 
 ## Teams live events
 
@@ -136,7 +139,7 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 > 
-> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out:
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast

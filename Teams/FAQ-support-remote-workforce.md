@@ -72,10 +72,7 @@ Teams is available for free through a couple of different programs:
 
 **IT professionals**
 
-- If you work for a business and want to get employees set up on Teams, you can sign up for the six-month [Office 365 E1 Trial](e1-trial-license.md) offer through your Microsoft partner or sales representative.
-
-> [!NOTE]
-> The same free Teams offer is available in the [US Government Cloud](g1-trial-license.md), with the exceptions of GCC High and the Department of Defense.
+- If you work for a business and want to get employees set up on Teams, you can sign up for [Teams Exploratory](teams-exploratory.md).
 
 - If you work in Education and want to set up teachers, students, and administrators on Teams, use Office 365 A1, the free version of Office 365 available to educational institutions. Sign up at [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
@@ -101,6 +98,10 @@ After you activate one of the free Teams offers, you'll still need to turn it on
 
 If you're licensing or enabling a user for the first time but you've had Microsoft 365 for a while, you might need to [Turn on Teams](Office-365-set-up.md) for your organization. Check [I have Microsoft 365 already, but I don't use Teams. Are you providing trial licenses?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) in this article.
 
+### In meetings, attendees are having trouble joining by dialing in - calls aren't getting through.
+
+During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network. 
+
 ### Can I use Calling Plans with the Office 365 E1 Trial that Microsoft is offering? Can I assign a telephone number to my users? How much am I going to pay?
 
 Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee, you'll need [Phone System](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
@@ -117,4 +118,6 @@ IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-t
 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
-Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+
+Also be sure to visit [Responding to COVID-19 together](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) on Microsoft.com.

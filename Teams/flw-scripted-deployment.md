@@ -44,7 +44,7 @@ Download the assets from [this location](https://aka.ms/flwteamsscale).
 
 ## Technical requirements
 
-- Your tenant must have the appropriate number of licenses available that include Microsoft Teams. If you do not already have these licenses, follow the instructions here to activate the [Office 365 E1 Free Trial](e1-trial-license.md).
+- Your tenant must have the appropriate number of licenses available that include Microsoft Teams. If you do not already have these licenses, check out [Teams Exploratory](teams-exploratory.md) for a free trial subscription.
 - The user taking these steps must have these roles assigned: Global Admin, User Admin, and Teams Service Admin, in Azure AD.
 - User must have the rights to install and configure software on their local machine.
 
