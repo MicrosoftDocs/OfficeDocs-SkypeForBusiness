@@ -151,7 +151,7 @@ For Channel messages, the end users (channel members) will see the deleted messa
 <Insert screenshot for Channel retention>
 
 > [!NOTE]
-> The end user messaging is not user or admin modifyable at this time
+> End user messaging is not user or admin modifiable at this time.
 
 
 ### Using PowerShell
