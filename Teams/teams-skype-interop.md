@@ -16,8 +16,6 @@ localization_priority: Normal
 
 # Teams and Skype interoperability
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
 Teams users in your organization can chat with and call Skype users by using their email address and vice versa.
