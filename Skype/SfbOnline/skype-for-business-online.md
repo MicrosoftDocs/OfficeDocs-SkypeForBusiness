@@ -18,7 +18,7 @@ f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ---
 # Skype for Business Online Admin
 
-<p>Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the hub for teamwork in Microsoft 365. <a href=https://aka.ms/sfboannounce>Learn more</a>. </p>
+Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the hub for teamwork in Microsoft 365. <a href=https://aka.ms/sfboannounce>Learn more</a>. 
 
 Learn how to manage Skype for Business Online for your organization.
 
