@@ -129,6 +129,10 @@ Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
 
+[Download](https://aka.ms/SaRA-TeamsAddInScenario) and run the [Microsoft Support Recovery Assistant](https://aka.ms/SaRA_Home) to perform automated troubleshooting steps and fixes.
+
+Alternatively, perform the following steps manually:
+
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
 - Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) for more details.
@@ -167,3 +171,6 @@ If the add-in still does not show, use the following steps to verify the registr
 If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. As a workaround, your administrator can add the following string to the EWS Allow List: "*SchedulingService*". 
 
 
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
