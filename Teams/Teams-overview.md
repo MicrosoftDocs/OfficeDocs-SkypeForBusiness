@@ -95,7 +95,7 @@ See a [weekly list of Teams topics that have been updated](teams-updates.md).
 
 ## Teams known issues
 
-See [Support Teams in your organization](Known-issues.md).
+See [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams).
 
 ## Teams client release notes
 

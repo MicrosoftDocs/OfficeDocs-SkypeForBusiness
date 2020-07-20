@@ -41,11 +41,11 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in a Private channel    |250|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
-&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2; This limit includes archived teams.
+<sup>2</sup> This limit includes archived teams.
 
-&sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
@@ -64,7 +64,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
 
-<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -106,7 +106,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 250    |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -120,6 +120,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Regular with end time     |End time + 60 days         |60 days         |
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+
+> [!NOTE]
+> Microsoft Teams meetings have a time limit of 24 hours. 
 
 ## Teams live events
 
@@ -136,7 +139,7 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 > 
-> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
+> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out:
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
@@ -150,6 +153,9 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 ## Storage
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+
+> [!NOTE]
+> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site collection.
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 

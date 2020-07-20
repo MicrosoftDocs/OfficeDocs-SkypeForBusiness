@@ -40,10 +40,6 @@ To find out more about Teams versions and their capabilities, see [Compare Teams
 
 ## Get the right Teams trial
 
-Microsoft is making trial Office 365 licenses (which include Teams) available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
-
-- [E1 trial](e1-trial-license.md): This offer is intended for any customer - including nonprofits - that's managed by a Microsoft account rep.
-
-- For US government (GCC), check out the [Office 365 G1 Trial](g1-trial-license.md). 
+- As an alternative to Teams Free, check out [Teams Exploratory](teams-exploratory.md).
 
 - EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).

@@ -1,8 +1,8 @@
 ---
 title: Understanding Persistent Chat membership
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Understanding Persistent Chat membership

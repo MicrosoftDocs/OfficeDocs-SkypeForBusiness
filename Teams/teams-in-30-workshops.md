@@ -29,7 +29,7 @@ appliesto:
            <p><font color="#6264A7">Ready to jump in?</font> We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session. Click a session title below to sign up.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30GetStarted"target="_blank">
+        <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -49,7 +49,7 @@ appliesto:
         </a>
     </li>
    <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -68,7 +68,7 @@ appliesto:
         </a>
     </li>
         <li> 
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -86,7 +86,7 @@ appliesto:
         </div>
         </a>
     </li> <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareII"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -105,7 +105,7 @@ appliesto:
         </a>
     </li> 
  <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

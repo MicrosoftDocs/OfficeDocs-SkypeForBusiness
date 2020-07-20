@@ -1,8 +1,8 @@
 ---
 title: "Migrating multiple sites and pools"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

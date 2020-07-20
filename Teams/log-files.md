@@ -39,6 +39,7 @@ The following table outlines the various clients, and their associated logs. Log
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -67,11 +68,17 @@ The debug logs are produced using the following OS specific methods:
 
       Keyboard shortcut: Option + Command + Shift+1
 
+-   Linux:
+
+      Keyboard shortcut: Ctrl + Alt + Shift + 1
+
 The debug logs are automatically downloaded to the following folders.
 
 -   Windows: %userprofile%\\Downloads
 
 -   Mac OSX: Downloads
+
+-   Linux: ~/Downloads
 
 -   Browser: You will be prompted to save the debug log to default save location
 
@@ -88,6 +95,8 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 |            |%appdata%\Microsoft\Teams\media-stack\\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
 |            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
 
 
 
@@ -98,13 +107,24 @@ Desktop logs, also known as bootstrapper logs, contains log data that occurs bet
 
 Windows:
 
-1.  Right-click **the Microsoft Teams icon in** your system tray, select **Get Logs**
+1.  Right-click the **Microsoft Teams** icon in your system tray, select **Get Logs**
 
 Mac OsX:
 
 1.  Choosing **Get Logs** from the **Help** pull-down menu
 
+Linux:
+
+1.  Click on the **Microsoft Teams** icon in your system tray, select **Get Logs**
+
 |Client |Location |
 |---------|---------|
 |Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

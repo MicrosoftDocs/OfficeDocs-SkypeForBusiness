@@ -1,8 +1,8 @@
 ---
 title: Cmdlets in Skype for Business Online that use only the global scope
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH

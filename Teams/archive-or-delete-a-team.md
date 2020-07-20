@@ -43,7 +43,7 @@ Follow these steps to archive a team.
 
     ![Screenshot of Teams archive message](media/teams-archive-message.png)
 
-4. If you would like to make the SharePoint site for the team read-only, select the check box.
+4. To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**. (Teams owners will still be able to edit this content.)
 5. Select **Archive** to archive the team. The team’s status will change to **Archived**.
 
 ## Make an archived team active
@@ -67,7 +67,7 @@ If the team will not be required in the future, then you can delete it rather th
 
 Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team. Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.
 
-By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### Install the AzureADPreview module
 

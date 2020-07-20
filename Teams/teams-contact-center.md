@@ -47,8 +47,10 @@ The following partners are in the process of certifying their solution for Micro
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
+| Landis Technologies | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 This list will be updated as more partners join and meet the certification criteria.
 

@@ -56,7 +56,7 @@ upon in the following sections.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review [Monitor call quality](monitor-call-quality-qos.md).</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -415,7 +415,7 @@ ensure that the next batch of sites or users don’t encounter the same issues.
 First, pinpoint whether this is an adoption or technical problem. Begin by
 investigating the items below, in order, to determine where the problem is.
 
-1.  Validate quality by performing a [Quality of Experience Review](#quality-of-experience-review-guide).
+1.  Validate quality by performing a Quality of Experience Review (see [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) for more detail).
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends
@@ -431,8 +431,7 @@ investigating the items below, in order, to determine where the problem is.
 | Activity                         | Description                                                                                                                      | Cadence   | Team assigned |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Measure usage (enablement phase) | Measure and assess Teams usage as sites continue to be onboarded during the enablement phase. Address usage issues as required. | Weekly    |               |
-| Measure usage                    | Measure and assess Teams usage in the Drive Value phase (after deployment has been completed). Address usage issues as required. | Biweekly  |               |
-| (drive value phase)              |                                                                                                                                  |           |               |
+| Measure usage (drive value phase)                           | Measure and assess Teams usage in the Drive Value phase (after deployment has been completed). Address usage issues as required. | Biweekly  |               |
 | Update adoption plan             | Update your adoption plan based on how measured usage compares to your planning targets.                                         | As needed |               |
 
 ### References 
@@ -586,22 +585,20 @@ the organization’s size and complexity, this could be any person or group with
 passion for ensuring a high-quality user experience.
 
 The quality champion leverages existing tools and documented processes, such as
-Call Quality Dashboard (CQD) and the Quality of Experience Review Guide, to monitor
+Call Quality Dashboard (CQD), to monitor
 user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions, and report to a steering committee about progress and any open issues.
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes activities
+Read [Improve and monitor call quality for Teams](monitor-call-quality-qos.md), which describes includes activities
 that assess and provide remediation guidance in key areas that have the greatest
-impact on improving user experience. The guidance provided in the Quality
-Experience Review Guide focuses on using CQD Online as the primary tool to
+impact on improving user experience. The guidance provided in this article focuses on using CQD as the primary tool to
 report and investigate each area, with a focus on audio to maximize adoption and
 impact. Any optimizations made to the network to improve the audio experience
 will also directly translate to improvements in video and desktop sharing.
 
 We strongly recommend that you nominate the quality champion early on. After
-being nominated, they should start to familiarize themselves with the content in
-the Quality of Experience Review Guide and associated training materials.
+being nominated, they should start to familiarize themselves with [Monitor call quality](monitor-call-quality-qos.md) content and associated training materials.
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -617,9 +614,10 @@ the Quality of Experience Review Guide and associated training materials.
 
 ### References 
 
-[Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
-[Quality of Experience Review Guide](https://aka.ms/qerguide)
+[Upload tenant and building data in CQD](CQD-upload-tenant-building-data.md)
+
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -661,7 +659,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality of Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It’s essential to
+driver might be discovered through a Quality of Experience Review (see [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
@@ -707,7 +705,7 @@ the nature of the issue.
     the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness)
     guidance.
 
-3.  **Check the known issues list:** Consult [Support Teams in your organization](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
+3.  **Check the known issues list:** Consult [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4.  **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
     offers dedicated spaces for Teams. The Teams community provides a discussion
@@ -716,7 +714,7 @@ the nature of the issue.
 
 5.  **Contact Microsoft Support:** You can contact Microsoft Support for issues
     with Teams online or by phone. For information, see [Contact support for
-    business products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+    business products](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
     For Premier customers, support requests can be initiated by following the
     guidance at [Contact support for Microsoft Teams (Premier
     customers)](https://support.microsoft.com/premier/contacts).
@@ -727,7 +725,7 @@ the nature of the issue.
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements    | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md).                                                                                                                                                                                       | Monthly   |               |
 | Endpoint firewalls       | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed |               |
-| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | As needed |               |
+| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Improve and monitor call quality for Teams](monitor-call-quality-qos.md)).                                                                                                                                                                                                                                                                   | As needed |               |
 | Endpoint management      | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies.                                                                                                                                                                                                        | Monthly   |               |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors.                                                                                                                                                                                               | As needed |               |
 
@@ -739,11 +737,11 @@ the nature of the issue.
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Known issues for Microsoft Teams](known-issues.md)
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Verify service health for Microsoft Teams](service-health.md)
 
-[Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Contact Premier support](https://support.microsoft.com/premier/contacts)
 
@@ -878,9 +876,9 @@ users to submit requests that are processed by an assigned team.
 
 <!--ENDOFSECTION-->
 
-## Quality of Experience Review Guide
+## Improve and monitor call quality
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on
 improving the user experience, as illustrated below.
 
 ![Diagram of areas to examine during a Quality of Experience Review](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")
@@ -902,14 +900,13 @@ following categories:
 
 -   Problematic subnets or network devices
 
-The guidance provided in the Quality of Experience Review Guide focuses on using
+The guidance provided in [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) focuses on using
 Call Quality Dashboard (CQD) Online as the primary tool to report and
 investigate each area described, with a focus on audio to maximize adoption and
 impact. Any optimizations made to the network to improve the audio experience
 will also directly translate to improvements in video and desktop sharing.
 
 We highly recommend that you nominate the quality champion early on. After being
-nominated, they should start to familiarize themselves with the content in the
-[Quality of Experience Review Guide](https://aka.ms/qerguide).
+nominated, they should start to familiarize themselves with the content in [Improve and monitor call quality for Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

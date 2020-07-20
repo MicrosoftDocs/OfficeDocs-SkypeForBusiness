@@ -1,8 +1,8 @@
 ---
 title: Standard migration scenario - high-level
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Standard migration scenario - high-level

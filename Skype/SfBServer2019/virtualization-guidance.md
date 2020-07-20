@@ -37,3 +37,13 @@ For third-party hypervisors, you need a hypervisor that has passed the Server Vi
 
 - See the [Windows Server 2016 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
 - See the [Windows Server 2019 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
+
+## Stress and performance tool
+
+The Skype for Business Server 2019 Stress and Performance Tool includes tools that simplify capacity planning for Skype for Business Server 2019. The Skype for Business Server 2019 Stress and Performance Tool will help you to:
+
+- Simplify your hardware planning for Skype for Business Server 2019
+- Provide you with increased knowledge and best practices for performance tuning
+- Measure the performance of your intended Skype for Business Server 2019 deployments
+ 
+You can download the tool from [here](https://www.microsoft.com/download/details.aspx?id=101447).

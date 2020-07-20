@@ -36,7 +36,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute only.  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
@@ -73,7 +73,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   

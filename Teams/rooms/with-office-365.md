@@ -111,53 +111,55 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
 5. If you do not want the password to expire, use the following syntax:
 
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-    ```
-<!--
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
+   ```
+   <!--
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
    This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    You can also set a phone number for the account by running the following command:
 
-  ``` PowerShell
-    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
-  ```
-<!-- 
-   ``` PowerShell
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+   ```
+   <!-- 
+   ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
 6. The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:
 
-  ``` Powershell
-  Get-MsolAccountSku
-  ```
-<!--
-   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
    Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
 
-  ``` PowerShell
+   ```PowerShell
+   $acctUpn="Rigel1@contoso.onmicrosoft.com"
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-  ``` 
-<!-- 
-   ``` Powershell
+   ``` 
+   <!-- 
+   ```Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
@@ -178,19 +180,19 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ``` Powershell
+   $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
 
     ``` Powershell
+    $rm="Rigel1@contoso.onmicrosoft.com"
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
     > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device. Using the Microsoft 365 admin center, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
 
 ### Assign a license to your account
 

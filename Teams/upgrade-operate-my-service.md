@@ -59,7 +59,9 @@ upon in the following sections.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization's goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
+
 </table>
 
 ### Operational role mapping
@@ -535,12 +537,12 @@ the organization's size and complexity, this could be any person or group with a
 passion for ensuring a high-quality user experience.
 
 The quality champion leverages existing tools and documented processes, such as
-Call Quality Dashboard (CQD) and the Quality of Experience Review Guide, to monitor
+Call Quality Dashboard (CQD) and [Improve and monitor call quality for Teams](monitor-call-quality-qos.md), to monitor
 user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions and report to a steering committee about progress and any open issues.
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes activities
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) includes activities
 that assess and provide remediation guidance in key areas that have the greatest
 impact on improving user experience. The guidance provided in the Quality
 Experience Review Guide focuses on using CQD Online as the primary tool to
@@ -550,7 +552,7 @@ will also directly translate to improvements in video and desktop sharing.
 
 We strongly recommend that you nominate the quality champion early on. After
 being nominated, they should start to familiarize themselves with the content in
-the Quality of Experience Review Guide and associated training materials.
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) and associated training materials.
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -566,7 +568,7 @@ the Quality of Experience Review Guide and associated training materials.
 
 [Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Quality of Experience Review Guide](https://aka.ms/qerguide)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -607,7 +609,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality of Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It's essential to
+driver might be discovered through a Quality of Experience Review (see [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they're tested before being deployed to the general user population.
 
@@ -637,11 +639,11 @@ the nature of the issue.
 
 2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 
-3. **Check the known issues list:** Consult [Support Teams in your organization](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
+3. **Check the known issues list:** Consult [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4. **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offers dedicated spaces for Teams. The Teams community provides a discussion list, blog posts, and announcements centered around Teams. You can post a question or search previous discussions for solutions to your issue.
 
-5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
+5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -649,7 +651,7 @@ the nature of the issue.
 |---|---|---|---|
 | Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
 | Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed | |
-| Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)). | As needed | |
+| Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Improve and monitor call quality for Teams](monitor-call-quality-qos.md)). | As needed | |
 | Endpoint management | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies. | Monthly | |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors. | As needed | |
 
@@ -661,7 +663,7 @@ the nature of the issue.
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Support Teams in your organization](known-issues.md)
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Verify service health for Microsoft Teams](service-health.md)
 

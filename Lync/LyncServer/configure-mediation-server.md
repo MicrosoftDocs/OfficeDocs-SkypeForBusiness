@@ -1,8 +1,8 @@
 ---
 title: Configure Mediation Server
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server

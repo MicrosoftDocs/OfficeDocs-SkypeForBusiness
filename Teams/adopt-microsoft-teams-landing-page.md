@@ -3,8 +3,8 @@ title: Adopt Microsoft Teams
 ms.reviewer: karuanag
 description: Learn about the adoption resources available to help you plan and deploy Microsoft Teams in your organization.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
