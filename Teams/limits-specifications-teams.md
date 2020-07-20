@@ -121,6 +121,9 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with no end time     |Start time + 60 days         |60 days         |
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
+> [!NOTE]
+> Microsoft Teams meetings have a time limit of 24 hours. 
+
 ## Teams live events
 
 |Feature     | Maximum limit |
