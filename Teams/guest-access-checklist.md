@@ -108,7 +108,7 @@ Make sure that users can add guests. Here's how:
     ![Active sites in the SharePoint admin center](media/guest-access-checklist-SPOSettings0.png)
 
 3. Select the site, and then click **Sharing**.
-4. Make sure that the option is set to **Anyone** or **New and existing guests**.
+4. Make sure that the option is set to **Anyone**, **New and existing guests**, or **Existing guests**.
 
      ![Screenshot shows an example of a SharePoint Online settings toggle](media/guest-access-checklist-SPOSettings1.png)
 
