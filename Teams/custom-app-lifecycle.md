@@ -1,5 +1,5 @@
 ---
-title: Submit and approve custom apps in Microsoft Teams
+title: Use the Teams App Submission API to submit and approve your custom apps
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,10 +16,10 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to take your custom Teams apps from development to deployment. 
+description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
 
-# Submit and approve custom apps in Microsoft Teams
+# Use the Teams App Submission API to submit and approve your custom apps
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your organization's app store.
 
@@ -107,15 +107,15 @@ When you're ready to make the app available to users, publish the app.
 
 ### Control access to the app
 
-By default, all users in your organization can access the app in your tenant app store. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
+By default, all users in your organization can access the app in your organization's app store. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
 
 ### Pin and install the app for users to discover
 
-By default, for users to find the app they have to go to your tenant app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
+By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
 
 ## Discover and adopt
 
-Users who have permissions to the app can find it in your tenant app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
+Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
 ![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
 

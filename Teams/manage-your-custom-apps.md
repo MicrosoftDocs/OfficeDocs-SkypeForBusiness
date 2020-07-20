@@ -1,5 +1,5 @@
 ---
-title: Manage your custom apps in Microsoft Teams
+title: Upload your custom apps in the Microsoft Teams admin center
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,25 +16,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to take your custom Teams apps from development to deployment. 
+description: Learn how to upload your custom apps in the Microsoft Teams admin center. 
 ---
 
-# Manage your custom apps in Microsoft Teams
+# Upload your custom apps in Microsoft Teams admin center
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
 ![Overview of your app from development to deployment](media/manage-your-lob-apps.png)
 
-## Getting started
+<!-- ## Getting started
 
 To create and manage custom apps in Teams, you'll need two tenants: a test tenant for development and a production tenant.
 
 > [!NOTE]
 > If you don't already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
 
-## Step 1: Develop and test
-
-### Create test users
+<!-- ### Create test users
 
 Make sure that your developers, whether in-house or external, have accounts in your test tenant. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Learn more about adding users</a>.
 
@@ -59,30 +57,21 @@ To allow users to upload custom apps, follow these steps:
 > [!NOTE]
 > There's also an upload custom app setting at the team level. By default this setting is on. However, if developers are unable to upload a custom app to a team, check the setting by following the steps <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#configure-the-team-custom-app-setting" target="_blank">here</a>.
 
+-->
+
+## Step 1: Develop
+
 ### Create your app
 
-Developers should now have what they need to create your app. See <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a> for guidance on that.
+The Microsoft Teams developer platform makes it easy for developers to integrate your own apps and services to improve productivity, make decisions faster, and create collaboration around existing content and workflows. Apps built on the Teams platform are bridges between the Teams client and your services and workflows, bringing them directly into the context of your collaboration platform. For more information, go to the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a>.
 
-When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that.
+## Step 2: Validate
 
-Developers can validate the app package manifest directly from within their IDE. They can use the checklist to make sure the app meets publication guidelines and requirements. Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
+### Get the app package
 
-## Step 2: Validate in production
+When the app is ready for use in production, the developer should produce an app package. They can use <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio</a> for that. They'll send you the file in .zip format.
 
-### Review the app on the Manage apps page of the Microsoft Teams admin center
-
-Developers can submit the app package directly to your tenant app catalog where you can review and validate the app using the [**Manage apps**](manage-apps.md) page in the Microsoft Teams admin center.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. <br>
-In the table, you'll see that an app submitted directly by a developer through the Teams App Submission API has the following status:
-
-- **App publishing status**: **Submitted**
-- **App status**: **Blocked**
-
-2. Click the app name to go to the app details page. From here, you can view details about the app and download the manifest for validation.
-
-> [!NOTE]
-> To do this manually, have the developer send you the app package file in .zip format, which you can then upload to your tenant app catalog on the Manage apps page in the Microsoft Teams admin center.
+Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">these guidelines</a> to ensure apps comply with the quality and security standards of the global Teams apps store.
 
 ### Allow trusted users to upload custom apps in the production tenant
 
@@ -107,37 +96,27 @@ To allow trusted users to upload custom apps, follow these steps:
 
     These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
-## Step 3: Publish the app
+## Step 3: Upload to your organization's app store
 
-When you're ready to make the app available to users in the tenant app catalog, publish the app. 
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click the app name to go to the app details page, and then in the **App publishing status** box, select **Published**.
-
-> [!NOTE]
-> If you're doing this manually and the developer sent you an app package in .zip format, select **Upload** on the Manage apps page to upload the app to your tenant app catalog. The app isn't highlighted after it's uploaded so you'll need to search your app catalog to find it.
+To make the app available to users in your organization's app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
 
 ## Step 4: Set up and manage
 
 ### Control access to the app
 
-By default, all users have access to this app in the Teams apps store. To restrict and control who has permission to use the app, you can create and assign a new app permission policy. Follow the steps <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">here</a>.
+By default, all users in your organization can access the app in your organization's app store. To restrict and control who has permission to use the app, you can create and assign an app permission policy. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">Manage app permission policies in Teams</a>.
 
-![Screenshot of the "Add app permission policy" page](media/manage-your-lob-apps-new-app-permission-policy.png)
+### Pin and install the app for users to discover
 
-### Pin the app for users to discover
-
-By default, for users to find this app they would have to go to Teams apps store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create a new app setup policy and assign it to users. Follow the steps  <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies#create-a-custom-app-setup-policy" target="_blank">here</a>.
-
-![Screenshot of the "Add pinned apps" pane](media/manage-your-lob-apps-pinned-apps.png)
+By default, for users to find the app they have to go to your organization's app store and browse or search for it. To make it easy for users to get to the app, you can pin the app to the app bar in Teams. To do this, create an app setup policy and assign it to users. To learn more, see <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Manage app setup policies in Teams</a>.
 
 ## Step 5: Update the app
 
 ![Overview of your app from development to deployment](media/manage-your-lob-apps-update.png)
 
-To update an app, developers should continue to follow [step 1](#step-1-develop-and-test) and [step 2](#step-2-validate-in-production).
+To update an app, developers should continue to follow [step 1](#step-1-develop) and [step 2](#step-2-validate).
 
-You can update the app through the tenant app catalog. To do this, in the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. In the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app in the tenant app catalog, and all app permission policies and app setup policies remain enforced for the updated app.
+You can update the app on the Manage apps page in the Microsoft Teams admin center. To do this, in the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. Click the app name, and then click **Update**. Doing this replaces the existing app, and all app permission policies and app setup policies remain enforced for the updated app.
 
 ### End user update experience
 
