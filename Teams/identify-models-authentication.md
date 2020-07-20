@@ -1,12 +1,12 @@
 ---
 title: Identity models and authentication
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 localization_priority: Normal
 search.appverid: MET150

@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
 ### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -225,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# Cloud voice 
+# Voice - Phone System and PSTN connectivity 
 
 ## [Plan your deployment](cloud-voice-landing-page.md)
 
@@ -255,6 +257,7 @@
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
@@ -514,6 +517,7 @@
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
 #### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Understand Phone System and PSTN connectivity options](cloud-voice-landing-page.md)
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
 
@@ -534,11 +538,7 @@
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## Operate, adopt, and optimize
-### [Operational plan overview](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -642,6 +642,7 @@
 ### [Teams EDU policies and policy packages](policy-packages-edu.md)
 ### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
+### [Class Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
@@ -671,17 +672,17 @@
 
 # Security, privacy, and compliance
 ## [Overview](security-compliance-overview.md)
-## Security and privacy
+## Security
 ### [Security Guide](teams-security-guide.md)
+### [Azure Sentinel and Teams](teams-sentinel-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Privacy and Microsoft Teams](teams-privacy.md)
-### [Location of data in Teams](location-of-data-in-teams.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
-### [Communicatoin compliance](communication-compliance.md)
+### [Communication compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -690,10 +691,14 @@
 ### Content Search
 #### [Use Content Search](content-search.md)
 #### [Search the audit log for events](audit-log-events.md)
-### [AppLocker application control policies](applocker-in-teams.md)
+## Privacy
+### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
+## [Operate your service](upgrade-operate-my-service.md)
+## [Enhance your service](upgrade-enhance-my-service.md)
 ## Monitor and manage call quality
 ### [Monitor and improve call quality](monitor-call-quality-qos.md)
 ### Call Quality Dashboard (CQD)
@@ -717,6 +722,9 @@
 ### Quality of Service (QoS)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
@@ -928,5 +936,7 @@
 ### [Calling plans in Microsoft 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
+## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
