@@ -147,7 +147,7 @@ For private chats (1:1 chats) or group chats, the end users will see that chats 
 <insert screenshot for chat retention>
   < Insert screenshot for group chat retention>
 
-For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message saying "This message has been deleted because of a Retention Policy" will be shown.
+For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
 <Insert screenshot for Channel retention>
 
 > [!NOTE]
