@@ -36,11 +36,26 @@ In this tutorial, students will get the Global meeting policy and we use PowerSh
 
 Follow these steps to assign a custom meeting policy to staff and educators in bulk.
 
-## Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
+## Assign a policy to a batch of users
+
+### Using the Microsoft Teams admin center
+
+To assign a policy to users in bulk:
+
+1. In the left navigation of the Microsoft Teams admin center, select **Users**.
+2. Search for the users you want to assign the policy to or filter the view to show the users you want.
+3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
+4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
+
+To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you click **Apply** to submit your policy assignment, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
+
+### Using PowerShell
+
+#### Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
 
 Before you perform the steps in this article, you'll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the Microsoft Teams PowerShell module (to assign the policies to those users).
 
-### Install and connect to the Azure AD PowerShell for Graph module
+##### Install and connect to the Azure AD PowerShell for Graph module
 
 Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an administrator), and then run the following to install the Azure Active Directory PowerShell for Graph module.
 
@@ -58,7 +73,7 @@ When you're prompted, sign in using your admin credentials.
 
 To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-### Install and connect to the Microsoft Teams PowerShell module
+##### Install and connect to the Microsoft Teams PowerShell module
 
 Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
 
@@ -73,7 +88,7 @@ Connect-MicrosoftTeams
 ```
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
-## Identify your users
+#### Identify your users
 
 First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
@@ -101,7 +116,7 @@ Next, we run the following to identify the users that have this license and coll
 $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
-## Assign a policy in bulk
+#### Assign a policy in bulk
 
 Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 5,000 at a time. For example, if you have more than 5,000 staff and educators, you'll need to submit multiple batches.
 
@@ -115,7 +130,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 > [!NOTE]
 > To assign a different policy type in bulk, like TeamsMessagingPolicy, you'll need to change ```PolicyType``` to the policy that you're assigning and ```PolicyName``` to the policy name.
 
-## Get the status of a bulk assignment
+#### Get the status of a bulk assignment
 
 Each bulk assignment returns an operation ID, which you can use to track the progress of the policy assignments or identify any failures that might occur. For example, run the following:
 
@@ -129,7 +144,7 @@ To view the assignment status of each user in the batch operation, run the follo
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## Assign a policy in bulk if you have more than 5,000 users
+#### Assign a policy in bulk if you have more than 5,000 users
 
 First, run the following to see how many staff and educators you have:
 
@@ -145,13 +160,42 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..4999``` for the first batch, use ```$faculty[5000..9999``` for the second batch, enter ```$faculty[10000..14999``` for the third batch, and so on.
 
-## Get the policies assigned to a user
+#### Get the policies assigned to a user
 
 Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to hannah@contoso.com.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ```
+
+## Assign a policy to a security group
+
+### Create a security group
+
+[School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS) allows you to [easily create security groups for the educators and students](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) in your school.  We recommend that you use SDS to create the security groups you need to manage policies for your school.
+
+If you're unable to deploy SDS within your environment, you can use the following steps and PowerShell script to generate two security groups, one for all staff and educators who have a Faculty license assigned another for all students who have a Student license assigned.  This script will need to be run routinely to keep the groups fresh and up to date.
+
+### Using the Microsoft Teams admin center
+
+**This feature hasn't yet been released. It's been announced, and it's coming soon.**
+
+> [!NOTE]
+> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
+2. Select the **Group policy assignment** tab.
+3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
+    1. Search for and add the group you want to assign the policy to.
+    2. Set the ranking for the group assignment.
+    3. Select the policy that you want to assign. 
+    4. Select **Apply**.
+
+To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
+
+To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
+
+### Using PowerShell
 
 ## FAQ
 
