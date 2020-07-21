@@ -75,7 +75,7 @@ This hybrid approach allows you to either use SDS to create groups for each clas
 - Reduces the number of unused and unnecessary teams. The classes are prepared and suggested but not created unless the teacher intends to use them. We recommend this option for large institutions that have more than 500,000 teams to reduce clutter.
 - SDS
     - Membership sync with SIS/LMS to maintain student membership changes
-    - EDU Customer Success Team available for free deployment assistance 
+    - EDU Customer Success Team available for free deployment assistance
     - Optionally creates users and applies Office 365 licenses
     - Creates security groups for use across Office 365 including Teams policy
     - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset) 
@@ -103,18 +103,43 @@ To use the Graph API method, see [Graph API](https://docs.microsoft.com/graph/ap
 > [!NOTE]
 > To use this method with SDS, you'll need to turn the automatic team creation toggle off in your SDS profile. You can also use a combination of automatic and teacher-led team creation for required and optional class teams by using two SDS profiles.
 
-##
+## PowerShell script using Graph APIs
 
-Additional support resources include:
+With PowerShell, you can write a script to create teams, channels and configure settings automatically. It requires the admin to first create the group, add teachers and students, and then create the team as outlined [here](https://docs.microsoft.com/graph/teams-create-group-and-team). You can also use the Microsoft Graph API to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview), [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams) and [Create a class team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type). Using Graph APIs is a great way to have more control and flexibility, however, it requires high level of technical expertise and takes more time to set up initially.  
 
-- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-- [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
-- [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
-- [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
-- [Student Help center](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
-- [Teams for Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
-- [How to quickly optimize Office 365 traffic for remote staff](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Verify service health for Teams](service-health.md)
-- [Support resources for Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [Teams help center](https://support.office.com/teams)
+### Benefits
+
+- Additional flexibility and control
+- Option to create early teacher access teams or immediate student access to teams  
+- If you [create teams from groups](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), teachers will have early access and student membership changes will be synced
+
+### Considerations
+
+- Requires a high level of technical expertise and time to create and run the script and fix any issues when creating class groups
+- No built-in error handling or retry logic
+- Membership changes are not synced with SIS  
+
+> [!NOTE]
+> Class teams require hidden group membership so only teachers and students within the class can see the members of that class. To create an Office 365 class group, see [Create a class team](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http) to meet the same privacy requirements.
+
+## Manual team creation
+
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams. Educators set up their own class type team and invite students as shown [here](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b). Educators can invite students by [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added to a team.
+
+### Benefits
+
+- Additional flexibility for teachers
+- Immediate team creation and access  
+
+### Considerations
+
+- Requires teacher action and time.
+- Student membership is not synced with SIS and requires manual management.
+- Doesn't give teachers early access to their teams. Students will gain immediate access.
+
+## Recommended best practices
+
+- Deploy early! Deploy early to ensure everything is working reliably and ready for the first day of school. If you’re using SDS,you don't need the full student membership in order to start SDS deployment. It will sync the students when that information is available in your SIS.
+- If you have more than 500,000 teams, we recommend using the [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups). It reduces unused teams and clutter by only creating class teams that are relevant and needed.  
+- If there are any issues (for example, classes are missing) with SDS automatic team creation and teachers need them immediately, then they can use the  [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups) to retry. [Manual team creation](#manual-team-creation) is another solution, however, it won't keep your team membership updated.  
+- The tenant team limit is 500,000 teams. Therefore, admins should proactively try to reduce the number of unused teams to avoid hitting these limits and extending their setup time. For more information about limits, see [limits and specifications for Microsoft Teams](limits-specifications-teams.md).  
