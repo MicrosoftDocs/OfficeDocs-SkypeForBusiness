@@ -29,14 +29,19 @@ To manage device tags, you need to be either a Global admin or a Teams service a
 > [!IMPORTANT]
 > Device tags are assigned to the resource account that's logged into a device. If you sign a resource account out of one device and then use it to sign into another devices, the device tags are applied to new device.
 
-## Modify device tags
+## Create, remove, or rename device tags
 
-To modify device tags, do the following:
+Using the device tag management panel, you can:
+
+- See all your device tags.
+- Create multiple device tags easily and then assign them to devices at a later time.
+- Remove device tags that are no longer needed. Before you can remove a device tag, you'll need to remove it from all of the devices it has been added to.
+- Rename device tags. When you rename a device tag, that change is reflected on all the devices it's been added to.
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose any device pane, such as **Phones**
 3. Select **Actions** in the upper-right corner of the page and select **All device tags**
-4. To add a new device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon
+4. To create a device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon
 5. To remove a device tag, select the ellipsis **...** next to the device tag you want to remove, and select **Delete**
     > [!NOTE]
     > If you try to remove a device tag that's been added to devices, you'll receive a message asking if you want to remove it from all devices. If you want to do this and continue to remove the device tag, select **Untag devices**.
@@ -48,15 +53,14 @@ To add or remove tags on a single device, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose the device pane that contains the device you want to add or remove tags on
-3. Select the resource account of the device you want to add or remote tags on
-4. On the device details page, select **Actions** in the upper-right corner of the page and then select **Manage tags**.
-5. If you want to add a tag:
+3. Place a check mark next to the device you want to add or remove tags on and select **Manage tags**
+4. If you want to add a tag:
     1. Start typing the tag name you want to add
     2. If the tag already exists, select it from the list of tags that are returned
     3. If the tag doesn't exist, select **Add "\<tag name>" as a new tag**
-6. If you want to remove a tag, select **X** next to the tag you want to remove
-7. Repeat the steps above if you want to add or remove more tags
-8. Select **Apply**
+5. If you want to remove a tag, select **X** next to the tag you want to remove
+6. Repeat the steps above if you want to add or remove more tags
+7. Select **Apply**
 
 ## Add or remove tags on multiple devices
 
