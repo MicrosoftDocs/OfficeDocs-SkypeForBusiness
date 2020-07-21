@@ -68,9 +68,9 @@ Expected data usage from Walkie Talkie is around 20KB/s when sending or receivin
 
 FirstLine workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
-- Existing phones
-  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/))
-  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Peripherals
+  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Rugged phones
   - Samsung Galaxy XCover Pro
     - [More info](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
