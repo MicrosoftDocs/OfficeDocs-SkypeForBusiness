@@ -68,7 +68,7 @@ After you turn on guest access, it may take a few hours for the changes to take 
 
 ## Use PowerShell to turn guest access on or off
 
-Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
+Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off).
 
 ## External access (federation) vs. guest access
 
