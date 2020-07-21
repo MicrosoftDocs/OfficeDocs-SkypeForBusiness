@@ -32,9 +32,9 @@ The meeting policy settings that control whether users can start and schedule me
 - [Allow the Outlook add in](meeting-policies-in-teams.md#allow-the-outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
 - [Allow Meet now in private meetings](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
 
-By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, all existing meetings of that type that the user previously started or scheduled are expired.
+By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, the meeting join links and conference IDs of all existing meetings of that type that the user previously started or scheduled expire.
 
-For example, if a user is assigned a meeting policy in which these meeting policy settings are set to **On**, and then you turn off the **Allow Meet now in channels** setting, that user can no longer start impromptu meetings in channels, and all channel Meet now meetings that the user previously created are expired. The user can still start and schedule other meeting types and join meetings organized by other people.
+For example, if a user is assigned a meeting policy in which these meeting policy settings are set to **On**, and then you turn off the **Allow Meet now in channels** setting, that user can no longer start impromptu meetings in channels, and the channel Meet now join links that the user previously created are expired. The user can still start and schedule other meeting types and join meetings organized by other people.
 
 <!-- As an admin, you can use meeting policies to control the expiration of meetings scheduled by users in your organization *who are no longer* allowed to start or schedule meetings. -->
 
