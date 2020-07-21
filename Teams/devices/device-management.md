@@ -29,12 +29,28 @@ As an admin, you can manage devices used with Microsoft Teams in your organizati
 
 You can manage any device that's certified for, and enrolled in, Teams. A device is automatically enrolled the first time a user signs into Teams on the device. For a list of certified devices that can be managed, see:
 
+- [Microsoft Teams Rooms](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20)
 - [Conference phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73)
 - [Desk phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
-- [Microsoft Teams Rooms](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20)
 - [Collaboration bars](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=16)
 
 These devices are managed the in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and have their own respective sections in the left navigation under **Devices**. This lets you manage each type of device separately.
+
+## Manage Teams Rooms devices
+
+You can use the Teams admin center to view and remotely manage your Teams Rooms devices across your organization. The Teams admin center makes it easy to see, at a glance, which devices are healthy and which need attention, and lets you focus on specific devices to see detailed information about device health, meeting performance, call quality, and peripherals. 
+
+Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Devices** > **Teams Rooms**.
+
+For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](../rooms/rooms-manage.md).
+
+| To do this... | Do this|
+|---------------|--------|
+| Change settings on one or more devices | Select one or more devices > **Edit settings**. If you select multiple devices, the values you change will replace the values on all the selected devices. |
+| Restart devices | Select one or more devices > **Restart**. When you restart a device, you can choose whether to restart the device immediately or select **Schedule restart** to restart the device at a specific date and time. The date and time you select are local to the device being restarted.|
+| View meeting activity | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.|
+| View meeting details |  Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time.|
+
 
 ## Manage phones and collaboration bars in Teams
 
@@ -51,21 +67,6 @@ Here are some examples of how you can manage phones and collaboration bars in yo
 |Restart a device   |Select a device > **Restart**.          |
 |View device history  | Select a device > **History**. You can view the update history for the device.     |
 |View diagnostics  | Select a device > **Diagnostics**.        |
-
-## Manage Teams Rooms devices
-
-You can use the Teams admin center to view and remotely manage your Teams Rooms devices across your organization. The Teams admin center makes it easy to see, at a glance, which devices are healthy and which need attention, and lets you focus on specific devices to see detailed information about device health, meeting performance, call quality, and peripherals. 
-
-Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Devices** > **Teams Rooms**.
-
-For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](../rooms/rooms-manage.md).
-
-| To do this... | Do this|
-|---------------|--------|
-| Change settings on one or more devices | Select one or more devices > **Edit settings**. If you select multiple devices, the values you change will replace the values on all the selected devices. |
-| Restart devices | Select one or more devices > **Restart**. When you restart a device, you can choose whether to restart the device immediately or select **Schedule restart** to restart the device at a specific date and time. The date and time you select are local to the device being restarted.|
-| View meeting activity | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.|
-| View meeting details |  Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time.|
 
 ### Use configuration profiles in Teams
 
@@ -84,3 +85,4 @@ Use configuration profiles to manage settings and features for Teams phones and 
 2. Select the **Configuration profile** you want to assign, and then click **Assign to device**.  
 3. In the **Assign devices to a configuration profile** pane, search for and select the devices you want to assign.
 4. Click **Save**.
+
