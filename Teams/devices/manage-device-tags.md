@@ -29,6 +29,19 @@ To manage device tags, you need to be either a Global admin or a Teams service a
 > [!IMPORTANT]
 > Device tags are assigned to the resource account that's logged into a device. If you sign a resource account out of one device and then use it to sign into another devices, the device tags are applied to new device.
 
+## Modify device tags
+
+To modify device tags, do the following:
+
+1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
+2. Navigate to **Devices** and then choose any device pane, such as **Phones**
+3. Select **Actions** in the upper-right corner of the page and select **All device tags**
+4. To add a new device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon
+5. To remove a device tag, select the ellipsis **...** next to the device tag you want to remove, and select **Delete**
+    > [!NOTE]
+    > If you try to remove a device tag that's been added to devices, you'll receive a message asking if you want to remove it from all devices. If you want to do this and continue to remove the device tag, select **Untag devices**.
+6. To rename a device tag, select the ellipsis **...** next to the device tag you want to rename, and select **Edit**. Provide a new value for the device tag and select the **Save** icon
+
 ## Add or remove tags on a single device
 
 To add or remove tags on a single device, do the following:
@@ -62,19 +75,6 @@ To add or remove devices on multiple devices, do the following:
     3. Select **X** next to the tag you want to remove
 6. Repeat the steps above if you want to add or remove more tags
 7. Select **Apply**
-
-## Modify device tags
-
-To modify device tags, do the following:
-
-1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
-2. Navigate to **Devices** and then choose any device pane, such as **Phones**
-3. Select **Actions** in the upper-right corner of the page and select **All device tags**
-4. To add a new device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon
-5. To remove a device tag, select the ellipsis **...** next to the device tag you want to remove, and select **Delete**
-    > [!NOTE]
-    > If you try to remove a device tag that's been added to devices, you'll receive a message asking if you want to remove it from all devices. If you want to do this and continue to remove the device tag, select **Untag devices**.
-6. To rename a device tag, select the ellipsis **...** next to the device tag you want to rename, and select **Edit**. Provide a new value for the device tag and select the **Save** icon
 
 ## Use filters to return devices with a specific tag
 
