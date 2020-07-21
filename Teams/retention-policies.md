@@ -151,6 +151,19 @@ To delete a Teams retention policy, do the following:
 2. In the list of retention policies, select the check box next to the retention policy you want to delete.
 3. Select **Delete policy**.
 
+### End user experience
+
+For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messaged due to your org's retention policy" is shown on top of yet undeleted messages.
+<insert screenshot for chat retention>
+  < Insert screenshot for group chat retention>
+
+For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
+<Insert screenshot for Channel retention>
+
+> [!NOTE]
+> End user messaging is not user or admin modifiable at this time.
+
+
 ### Using PowerShell
 
 To create and manage Teams retention policies by using [Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell), use the following cmdlets:
