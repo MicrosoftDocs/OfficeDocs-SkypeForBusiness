@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -59,6 +60,17 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.5.33.0 (07/20/2020)
+Introduced in this update:
+- Join Cisco Webex meetings from Teams Rooms with direct guest join
+- Teams Admin Center enablement and auto-enrollment
+- Windows 10 1909 release support
+- Switch to video gallery layout even when content is present
+- Virtual raise hands support for attendee and controls for presenter
+- Adjustable default volume setting for conferencing and default speaker
+- Search and call federated users (tenant) from Teams Room
+	
 
 ### 4.4.63.0 (06/25/2020)
 
