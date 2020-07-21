@@ -96,12 +96,11 @@ Changes to device settings will only take effect after the devices have been res
 
 ### Remove or block a device
 
-When you **remove** a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center. However, if the device is still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365.
+When you **remove** a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center. 
 
-When you **block** a device, the device is removed from your organization and can't be re-enrolled even if it has a valid username and password. It's still listed in your list of Teams Rooms devices with a status of **Blocked**.
+When you **block** a device, Teams no longer communicates with the device. Blocked devices won't be sent commands even if they're included in a group of devices that are being bulk-edited. It's still listed in your list of Teams Rooms devices with a status of **Blocked**.
 
-> [!WARNING]
-> If you block **and** remove a device, the device can't be unblocked and can't be re-added to organization. Only block and remove a device if you're sure the device will never need to be re-added to the organization (for example, if the device is being decommissioned and recycled). If you want to prevent a device from connecting to your organization but might want to add it back at a later date, block the device but don't remove it.
+Regardless of whether a device is blocked or removed, if it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365.
 
 To remove one or more devices, do the following:
 
