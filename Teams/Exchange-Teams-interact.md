@@ -25,23 +25,15 @@ appliesto:
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. Integration with on-premises Exchange requires an Exchange hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
+Users' Exchange mailboxes can be hosted online or on-premises. For integration with on-premises, it's recommended that you have an Exchange full Classic Hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots.
+Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots. For a more comprehensive list of available features, see the table below.
 
 Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
-Users with mailboxes hosted on-premises can make use of all the features in the above scenario, but additionally they can also change the user profile picture (if the Outlook on the web mailbox policy allows them to do so), and manage meetings. They have to meet the following requirements:
-- They must be synchronized to Azure Active Directory. 
-- Mailbox must be hosted in Exchange Server 2016 Cumulative Update 3 or later.
-- OAuth configured (preferably via the Exchange Hybrid Configuration Wizard) as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
-- To enable calendar delegation for these users, you must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
-- Autodiscover and EWS URLs should be available from the Internet (Pre-Authentication is not supported).
+Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory, and OAuth authentication should be configured as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) and working between you Exchange Online and Exchange on-premises (We highly recommended to run Hybrid Configuration Wizard to configure full hybrid mode). They can make use of all the features in the Exchange Online or vNext scenario except access Outlook contacts. To enable calendar delegation for these users, you must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
-
-> [!NOTE]
-> Feature integration between on-premises Exchange and Teams requires an Exchange hybrid deployment. This requirement is in addition to version-specific requirements called out in some features in the following table.
 
 **Actions supported:**
 
@@ -50,9 +42,9 @@ The following table provides a helpful quick reference to feature availability b
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
-|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2</sup> |Yes <sup>4|Yes|Yes <sup>1</sup>|Yes <sup>1</sup>|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
-<sup>1</sup> Exchange 2016 CU3 and above supported.  
+<sup>1</sup> Mailboxes should be located on Exchange 2016 Cumulative Update 3 or later. Autodiscover and EWS URLs should be available from the Internet (Pre-Authentication is not supported).
 
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
