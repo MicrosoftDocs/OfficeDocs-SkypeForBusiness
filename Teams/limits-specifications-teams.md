@@ -111,7 +111,6 @@ In April, [we announced](https://techcommunity.microsoft.com/t5/microsoft-teams-
 
 Live events hosted in Teams, Stream, and Yammer will continue to temporarily support events for up to 20,000 attendees, 16 hours in length, and 50 events happening simultaneously.
 
-Additionally, customers can host a live event in Stream for up to 100,000 attendees when planned though the [Microsoft live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/).
 
 |Feature     | Maximum limit |
 |------------|---------------|
