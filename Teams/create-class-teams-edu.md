@@ -1,5 +1,5 @@
 ---
-title: Recommended methods and best practices for creating class teams for secure classroom use  
+title: Recommended methods and best practices for creating class teams  
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: lakuan
-description: Learn about the recommended methods for how to create class teams for your school. 
+description: Learn about the recommended methods and best practices for how to create class teams for your school. 
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Recommended methods and best practices for creating class teams for secure classroom use  
+# Recommended methods and best practices for creating class teams
 
 Microsoft Teams for Education offers [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classroom use and comes with specific features that support classroom needs including:  
 
@@ -61,7 +61,7 @@ SDS creates teams in two steps. The first step creates a Microsoft 365 group in 
 
 To get started, go to [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) and contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) deployment assistance.  
 
-## Teacher-led team creation using Office 365 class groups 
+## Teacher-led team creation from Office 365 class groups
 
 **This feature is coming soon, by mid-August 2020.**
 
