@@ -1,5 +1,5 @@
 ---
-title: Managed Meeting Rooms in Microsoft Teams
+title: Microsoft Teams Rooms Premium
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,21 +14,21 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about Managed Meeting Rooms in Microsoft Teams.
+description: Learn about Microsoft Teams Rooms Premium.
 f1keywords: 
 ---
 
-# Managed Meeting Rooms in Microsoft Teams
+# Microsoft Teams Rooms Premium
 
-Managed Meeting Rooms is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
+Microsoft Teams Rooms Premium is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
 
-Managed Meeting Rooms is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
+Microsoft Teams Rooms Premium is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
 
-The Managed Meeting Rooms service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. Managed Meeting Rooms helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
+The Microsoft Teams Rooms Premium service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. Microsoft Teams Rooms Premium helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
 
 ## Service capabilities
 
-Here's an overview of the capabilities of the Managed Meeting Rooms service.
+Here's an overview of the capabilities of the Microsoft Teams Rooms Premium service.
 
 |Capabilities  |Description  |
 |---------|---------|
@@ -37,30 +37,30 @@ Here's an overview of the capabilities of the Managed Meeting Rooms service.
 |**Update management**    |Management and delivery of application and firmware updates for room systems and their peripherals performed by Microsoft.         |
 |**Insights and recommendations**     |Insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
-|**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Managed Rooms Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
+|**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Teams Rooms Premium Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
 |**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.         |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available integration with customer-hosted Service Now.         |
 
 ## Service features
 
-Here's a summary of important features the Managed Meeting Rooms service provides to support the above capabilities.
+Here's a summary of important features the Microsoft Teams Rooms Premium service provides to support the above capabilities.
 
 |Feature  |Description  |
 |---------|---------|
 |**Inventory management**   |Room inventory tracking with a bulk export option that lists room devices, peripherals, makes, and models.         |
-|**Room enrollment**   |Easy onboarding with self-enrollment of room devices to the Managed Meeting Rooms service.          |
+|**Room enrollment**   |Easy onboarding with self-enrollment of room devices to the Microsoft Teams Rooms Premium service.          |
 |**Room administration**     |Customer portal for managed service capabilities, insights, administrative settings, and room group management.         |
-|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring. Automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Managed Meeting Rooms portal.|
-|**Troubleshooting and remediation**     |Automated diagnostics and auto-remediation where applicable. Managed Meeting Rooms SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
+|**Monitoring**    |Application, operating system, peripheral and firmware health monitoring. Automated incident detection for issues affecting meeting experiences due to issues such as peripheral health. Health overview of the entire room real estate and incidents through the Microsoft Teams Rooms Premium portal.|
+|**Troubleshooting and remediation**     |Automated diagnostics and auto-remediation where applicable. Microsoft Teams Rooms Premium SOC-assisted incident remediation for non-automated cases. Service Now integration for incident coordination.         |
 |**Update management**   |Automated meeting application and firmware update orchestration based on customer configurable deployment rings         |
 |**Insights and recommendations**   |Usage, incidents, health, and overall reporting (historical views)         |
 
 ## Service prerequisites
 
-The Managed Meeting Room service is an add-on per room license. Microsoft Teams Rooms requires a separate user or Microsoft Teams Room license.
+The Microsoft Teams Rooms Premium service is an add-on per room license. Microsoft Teams Rooms requires a separate user or Microsoft Teams Room license.
 
-For Managed Meeting Rooms to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
+For Microsoft Teams Rooms Premium to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 As provider of a managed service, Microsoft needs to work with responsible stakeholders for rooms in your organization to keep rooms healthy and recover from issues. You're responsible for uncertified devices used in meeting rooms, third-party or custom software that you've chosen to deploy in your meeting room devices, and adhering to change management practices recommended by Microsoft.
 
@@ -68,26 +68,26 @@ Your organization or a partner contracted by your organization must be prepared 
 
 ## Customer support
 
-The Managed Meeting Rooms service is supported through a dedicated Managed Meeting Rooms SOC. The primary mode for communication from the Managed Meeting Rooms SOC to customers is through the Managed Meeting Rooms portal. The Managed Meeting Rooms SOC provides first response and appropriate escalation on tickets raised by the system or by your organization.
+The Microsoft Teams Rooms Premium service is supported through a dedicated Microsoft Teams Rooms Premium SOC. The primary mode for communication from the Microsoft Teams Rooms Premium SOC to customers is through the Microsoft Teams Rooms Premium portal. The Microsoft Teams Rooms Premium SOC provides first response and appropriate escalation on tickets raised by the system or by your organization.
 
 |  |  |
 |---------|---------|
-|**Scope**   |Incidents related to the meeting room app, room devices, and peripherals are included in Managed Meeting Rooms support.|
+|**Scope**   |Incidents related to the meeting room app, room devices, and peripherals are included in Microsoft Teams Rooms Premium support.|
 |**Audience**  |IT Operations only         |
 |**Supported languages**    |English         |
 |**Support availability through the portal**   | 24X7      |
-|**Initial response time for the Managed Meeting Rooms SOC**   |  4 hours       |
+|**Initial response time for the Microsoft Teams Rooms Premium SOC**   |  4 hours       |
 |**Automated closure of tickets in cases of customer inactivity**    |Customer-initiated tickets: 3 business days<br>System-initiated tickets: 15 business days</li>   </ul>      |
-|**Redirection to broader Microsoft Support**   |Issues related to another Microsoft product outside the scope of Managed Meeting Rooms are directed to the appropriate support team.         |
-|**Redirection to Original Equipment Manufacturer (OEM) support**    |The Managed Meeting Rooms SOC works to understand the issue and where applicable, helps coordinate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.         |
+|**Redirection to broader Microsoft Support**   |Issues related to another Microsoft product outside the scope of Microsoft Teams Rooms Premium are directed to the appropriate support team.         |
+|**Redirection to Original Equipment Manufacturer (OEM) support**    |The Microsoft Teams Rooms Premium SOC works to understand the issue and where applicable, helps coordinate support with the OEM. In some cases, you may be responsible for engaging directly with your OEM.         |
 
-Additionally, keep in mind that the Managed Meeting Rooms SOC will assist IT Operations in your organization and isn't a replacement for help desk services for your end users.
+Additionally, keep in mind that the Microsoft Teams Rooms Premium SOC will assist IT Operations in your organization and isn't a replacement for help desk services for your end users.
 
-For more details on Managed Meeting Rooms support coverage, see [Support inclusions and exclusions](#support-inclusions-and-exclusions).
+For more details on Microsoft Teams Rooms Premium support coverage, see [Support inclusions and exclusions](#support-inclusions-and-exclusions).
 
 ## Supported regions
 
-Managed Meeting Rooms is available in the following countries and regions.
+Microsoft Teams Rooms Premium is available in the following countries and regions.
 
 - Australia
 - Austria
@@ -129,14 +129,14 @@ Managed Meeting Rooms is available in the following countries and regions.
 |**Meeting experience**   |         |         |
 |Investigating issues within the meeting settings on Microsoft Teams Room app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network-related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
-|Customers receive guidance to bring their rooms to standards that are recommended by Managed Meeting Rooms at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Managed Meeting Rooms aren't in scope.          |         |
+|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms Premium at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms Premium aren't in scope.          |         |
 
 ## Data collection
 
-The Managed Meeting Room service monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Managed Meeting Room service doesn't access the live content of a meeting.
+The Microsoft Teams Rooms Premium service monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Microsoft Teams Rooms Premium service doesn't access the live content of a meeting.
 
 Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](https://aka.ms/privacy).  
 
 ## Related topics
 
-- [Managed Meeting Rooms](https://rooms.microsoft.com)
+- [Microsoft Teams Rooms Premium](https://rooms.microsoft.com)
