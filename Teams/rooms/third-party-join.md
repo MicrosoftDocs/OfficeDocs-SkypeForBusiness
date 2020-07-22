@@ -69,14 +69,14 @@ The last step you need to do is allow each Teams Rooms device to join third-part
 
 ### Use device settings
 
-1. On the Microsoft Team Rooms device, select **More** **...**
+1. On the Microsoft Team Rooms device, select **More ...**
 2. Select **Settings**, and then enter the device administrator username and password
 3. Go to the **Meetings** tab, turn on **Cisco WebEx**, **Zoom**<sup>1</sup>, or both
 4. Optionally, enter username and email address you'd like to use to join third-party meetings and then select **Save and exit**
 
 ### Use the SkypeSettings.xml configuration file
 
-The following settings can be added to the 'SkypeSettings.xml' file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState'.
+The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
 To enable Cisco WebEx meetings, set the `WebExMeetingsEnabled` XML element to **True**, as follows.
 
