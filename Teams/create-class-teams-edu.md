@@ -26,7 +26,7 @@ Microsoft Teams for Education offers  [specific team types](https://support.of
 - Assignments
 - Grades
 - OneNote classroom notebook  
-- [Class Materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) for securing read-only content for students
+- [Class Materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  for securing read-only content for students
 - [Early teacher access](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) to set up the class before students are added 
 - The ability to mute disruptive students and other special permissions  
 
