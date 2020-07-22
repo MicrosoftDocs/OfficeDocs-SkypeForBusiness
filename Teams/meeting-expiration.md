@@ -24,7 +24,7 @@ description: Learn how to use meeting policy settings to control meeting expirat
 
 [Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control whether users in your organization can start and schedule meetings and the features that are available to meeting participants for meetings that are scheduled by users. You can use the global (Org-wide default) policy or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [Get](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingpolicy), [New](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy), [Set](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlets.
 
-The meeting policy settings that control whether users can start and schedule meetings also control expiration of meetings scheduled by users. When a meeting join link and conference ID for a meeting expires, no one can join the meeting. The following meeting policy settings determine whether users can start and schedule meetings in Teams, and we'll be referring to them throughout this article.
+The meeting policy settings that control whether users can start and schedule meetings also control expiration of meetings scheduled by users. When a meeting join link and conference ID for a meeting expires, no one can join the meeting. The following meeting policy settings determine whether users can start and schedule meetings in Teams, and we refer to them throughout this article.
 
 - [Allow Meet now in channels](meeting-policies-in-teams.md#allow-meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
 - [Allow channel meeting scheduling](meeting-policies-in-teams.md#allow-channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
@@ -36,17 +36,15 @@ By default, these settings are on. When any of these settings are turned off, an
 
 For example, if a user is assigned a meeting policy in which these meeting policy settings are set to **On**, and then you turn off the **Allow Meet now in channels** setting, that user can no longer start impromptu meetings in channels, and the channel Meet now join links that the user previously created are expired. The user can still start and schedule other meeting types and join meetings organized by other people.
 
-<!-- As an admin, you can use meeting policies to control the expiration of meetings scheduled by users in your organization *who are no longer* allowed to start or schedule meetings. -->
+## What happens when the meeting join link and conference ID expire?
 
-## What happens when a meeting expires?
-
-When a meeting expires, no one can join the meeting, either through the meeting join link or by phone. When a user tries to join the meeting through the meeting join link or by dialing in, they'll get a message that says the meeting is no longer available. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
+When the meeting join link and conference ID for a meeting expires, no one can join the meeting. When a user tries to join the meeting through the meeting join link or by phone, they'll get a message that says the meeting is no longer available. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
 
 ## What happens when you turn on and turn off a meeting policy setting?
 
 ### Switch a meeting policy setting from on to off
 
-When a meeting policy setting is set to **On**, users who are assigned the policy can start or schedule meetings of that type and everyone can join. When you switch the meeting policy setting to **Off**, users who are assigned the policy can't start or schedule new meetings of that type, and existing meetings that the user previously scheduled are expired. 
+When a meeting policy setting is set to **On**, users who are assigned the policy can start or schedule meetings of that type and everyone can join. When you switch the meeting policy setting to **Off**, users who are assigned the policy can't start or schedule new meetings of that type, and the meeting join links and conference IDs of existing meetings that the user previously scheduled are expired.
 
 Keep in mind that the user can still join meetings organized by other people.
 
@@ -62,7 +60,7 @@ Here's a summary of how meeting expiration works for each of the meeting policy 
 |---------|---------|---------|
 |Expire channel Meet now meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join channel Meet now meetings started by the user.         |
 |Expire channel meetings scheduled by a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>       |
-|Expire private meetings scheduled by a user    |Turn off **Allow scheduling private meetings** *and* turn off **Allow the Outlook add-in**.          |No one can join private meetings scheduled by the user. This prevents people from joining the following: <ul><li>Private meetings that occurred in the past.</li> <li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul> Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, existing meetings remain active and won't be expired.      |
+|Expire private meetings scheduled by a user    |Turn off **Allow scheduling private meetings** *and* turn off **Allow the Outlook add-in**.          |No one can join private meetings scheduled by the user. This prevents people from joining the following: <ul><li>Private meetings that occurred in the past.</li> <li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul> Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.      |
 |Expire private Meet now meetings started by a user  |Turn off **Allow Meet now in private meetings**.          |No one can join private Meet now meetings started by the user.         |
 
 If you want people to access meetings that were previously scheduled or started by a particular user, you can:
