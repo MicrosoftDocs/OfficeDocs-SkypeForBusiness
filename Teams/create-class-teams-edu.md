@@ -41,8 +41,8 @@ Automating team creation saves both IT admins and teachers time. It ensures that
 ### Benefits
 
 - Automatic creation and maintenance of class teams – teachers will be able to sign in to  Teams and immediately start teaching.
-- Membership sync with SIS/LMS to maintain student membership changes .
-- EDU Customer Success Team available for free deployment assistance. 
+- Membership sync with SIS/LMS to maintain student membership changes.
+- EDU Customer Success Team available for free deployment assistance.
 - [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students.  
 - Optionally creates users and applies Office 365 licenses.
 - Creates security groups for use across Office 365 including Teams policy.
