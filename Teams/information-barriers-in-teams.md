@@ -2,6 +2,7 @@
 title: Information barriers in Microsoft Teams
 author: chrfox
 ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -172,6 +173,9 @@ Click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments
 ## Required licenses and permissions
 
 For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+## Known Issues
+- **Users cant join meetings** : If IB policies are enabled, users are not allowed to join meetings IF meeting roster size is more than 250 users. Root cause is that we IB checks rely on whether users can be added to meeting chat roster and take that signal to allow user to join meeting. Joining a meeting once will add that user to roster, hence for recurring meetings, the roster fills up fast. Once it reaches to a count of 250 users, no additional users are allowed to be added to meeting chat roster. If IB is enables, users are not allowed to join meeting, but if IB is not enabled, users are allowed to join meeting, though they wont be added to meeting chat roster. Short term solution is to remove inactive members from meeting chat roster to make space for new users. Later, we are going to increase roster size of meeting chat and will fix engg code.
 
 ## More information
 
