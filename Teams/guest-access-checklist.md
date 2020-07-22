@@ -33,6 +33,9 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
+> [!IMPORTANT]
+> To get Teams to work with external/anonymous users, the **Anonymous users can join a meeting setting** must be turned on, which by default is off."
+
 ## Step 1: Turn on guest access at the Teams org-wide level
 
 To turn on guest access, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
