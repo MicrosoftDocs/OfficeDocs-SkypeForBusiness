@@ -68,7 +68,7 @@ You must be an admin to make these changes. See [Use Teams administrator roles t
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-In the left navigation of the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
+In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   
 ## Assign phone numbers to users
 
