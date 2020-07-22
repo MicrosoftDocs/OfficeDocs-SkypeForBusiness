@@ -69,6 +69,8 @@ Teacher-led team creation is a great deployment option if you want to make it ea
 
 This hybrid approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) to create them on your own. After class groups are prepared, educators can convert their groups into teams by using the **Suggested classes** icon.
 
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot showing Suggested classes icon":::
+
 ### Benefits
 
 - [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students  
