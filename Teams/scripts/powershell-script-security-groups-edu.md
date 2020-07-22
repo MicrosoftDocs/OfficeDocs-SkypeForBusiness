@@ -21,15 +21,17 @@ ms.custom: seo-marvel-mar2020
 
 # PowerShell script sample - Create security groups for educators and students in your school
 
-Use this PowerShell script to create two security groups, one group for staff and educators educators and another group for students in your school, based on license type. This script does the following:
+[Policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) in Microsoft Teams lets you assign a Teams policy to a group of users, such as a security group. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
+
+Use this PowerShell script to create two security groups, one group for staff and educators educators and another group for students in your school, based on license type. You can then assign policies to the groups that you created. For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).
+
+This script does the following:
 
 - Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.
 - Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.
 - Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.
 
 You'll need to run this script regularly to keep the security groups fresh and up to date.
-
-For more information about using this PowerShell script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md)).
 
 ## Before you start
 
@@ -262,3 +264,7 @@ else {
 }
 Stop-Transcript
 ```
+
+## Related topics
+
+[Assign policies to your users in Teams](../assign-policies.md)
