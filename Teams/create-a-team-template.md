@@ -16,7 +16,6 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-jul2020
 ---
 
 # Create a custom team template in Microsoft Teams
