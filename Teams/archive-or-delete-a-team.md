@@ -35,7 +35,7 @@ When you delete a team, team activity in standard and private channels (and asso
 
 ## Archive a team
 
-Follow these steps to archive a team. You must be an admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
