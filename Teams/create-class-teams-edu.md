@@ -40,18 +40,18 @@ Automating team creation saves both IT admins and teachers time. It ensures that
 
 ### Benefits
 
-- Automatic creation and maintenance of class teams – teachers will be able to sign in to  Teams and immediately start teaching
-- Membership sync with SIS/LMS to maintain student membership changes 
-- EDU Customer Success Team available for free deployment assistance 
-- [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students  
-- Optionally creates users and applies Office 365 licenses
-- Creates security groups for use across Office 365 including Teams policy
-- Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset) 
-- Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins  
-- Built-in cleanup capabilities to rename and archive groups and teams once they expire 
-- [Grade Sync](https://docs.microsoft.com/schooldatasync/grade-sync) so teachers can do all their grading in Teams and have it automatically written grades from Teams back to the SIS gradebook 
-- [Student Data Protection](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) to prevent students from using non-Microsoft apps and track and manage parent consent 
-- Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data  
+- Automatic creation and maintenance of class teams – teachers will be able to sign in to  Teams and immediately start teaching.
+- Membership sync with SIS/LMS to maintain student membership changes .
+- EDU Customer Success Team available for free deployment assistance. 
+- [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students.  
+- Optionally creates users and applies Office 365 licenses.
+- Creates security groups for use across Office 365 including Teams policy.
+- Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset). 
+- Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins.  
+- Built-in cleanup capabilities to rename and archive groups and teams once they expire. 
+- [Grade Sync](https://docs.microsoft.com/schooldatasync/grade-sync) so teachers can do all their grading in Teams and have it automatically written grades from Teams back to the SIS gradebook. 
+- [Student Data Protection](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) to prevent students from using non-Microsoft apps and track and manage parent consent. 
+- Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data.  
 
 ### Considerations
 
@@ -73,28 +73,28 @@ This hybrid approach allows you to either use SDS to create groups for each clas
 
 ### Benefits
 
-- [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students  
+- [Early teacher access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students.  
 - Reduces the number of unused and unnecessary teams. The classes are prepared and suggested but not created unless the teacher intends to use them. We recommend this option for large institutions that have more than 500,000 teams to reduce clutter.
 - SDS
-    - Membership sync with SIS/LMS to maintain student membership changes
-    - EDU Customer Success Team available for free deployment assistance
-    - Optionally creates users and applies Office 365 licenses
-    - Creates security groups for use across Office 365 including Teams policy
-    - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset) 
-    - Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins  
-    - Built-in cleanup capabilities to rename and archive groups and teams once they expire 
-    - [Grade Sync](https://docs.microsoft.com/schooldatasync/grade-sync) so teachers can do all their grading in Teams and have it automatically written grades from Teams back to the SIS gradebook 
-    - [Student Data Protection](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) to prevent students from using non-Microsoft apps and track and manage parent consent 
-    - Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data
+    - Membership sync with SIS/LMS to maintain student membership changes.
+    - EDU Customer Success Team available for free deployment assistance.
+    - Optionally creates users and applies Office 365 licenses.
+    - Creates security groups for use across Office 365 including Teams policy.
+    - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset).
+    - Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins. 
+    - Built-in cleanup capabilities to rename and archive groups and teams once they expire. 
+    - [Grade Sync](https://docs.microsoft.com/schooldatasync/grade-sync) so teachers can do all their grading in Teams and have it automatically written grades from Teams back to the SIS gradebook. 
+    - [Student Data Protection](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data) to prevent students from using non-Microsoft apps and track and manage parent consent. 
+    - Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data.
 - Graph API
-    - Additional flexibility and control
-    - Doesn't require integration with SDS
+    - Additional flexibility and control.
+    - Doesn't require integration with SDS.
 
 ### Considerations
 
-- Not fully automated and requires some teacher action
-- Teachers who don't have permission to create teams can still create teams from existing groups as shown [here](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)
-- Graph API requires a high level of  technical expertise and time to create and run the script and fix any issues when creating class groups
+- Not fully automated and requires some teacher action.
+- Teachers who don't have permission to create teams can still create teams from existing groups as shown [here](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+- Graph API requires a high level of  technical expertise and time to create and run the script and fix any issues when creating class groups.
 
 ### Get started
 
@@ -111,15 +111,15 @@ With PowerShell, you can write a script to create teams, channels and configure 
 
 ### Benefits
 
-- Additional flexibility and control
-- Option to create early teacher access teams or immediate student access to teams  
-- If you [create teams from groups](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), teachers will have early access and student membership changes will be synced
+- Additional flexibility and control.
+- Option to create early teacher access teams or immediate student access to teams.  
+- If you [create teams from groups](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), teachers will have early access and student membership changes will be synced.
 
 ### Considerations
 
-- Requires a high level of technical expertise and time to create and run the script and fix any issues when creating class groups
-- No built-in error handling or retry logic
-- Membership changes are not synced with SIS  
+- Requires a high level of technical expertise and time to create and run the script and fix any issues when creating class groups.
+- No built-in error handling or retry logic.
+- Membership changes are not synced with SIS. 
 
 > [!NOTE]
 > Class teams require hidden group membership so only teachers and students within the class can see the members of that class. To create an Office 365 class group, see [Create a class team](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http) to meet the same privacy requirements.
@@ -130,8 +130,8 @@ Students and educators will get the most out of Teams when they can use it with 
 
 ### Benefits
 
-- Additional flexibility for teachers
-- Immediate team creation and access  
+- Additional flexibility for teachers.
+- Immediate team creation and access.  
 
 ### Considerations
 
@@ -141,7 +141,7 @@ Students and educators will get the most out of Teams when they can use it with 
 
 ## Recommended best practices
 
-- Deploy early! Deploy early to ensure everything is working reliably and ready for the first day of school. If you’re using SDS,you don't need the full student membership in order to start SDS deployment. It will sync the students when that information is available in your SIS.
+- Deploy early! Deploy early to ensure everything is working reliably and ready for the first day of school. If you’re using SDS, you don't need the full student membership in order to start SDS deployment. It will sync the students when that information is available in your SIS.
 - If you have more than 500,000 teams, we recommend using the [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups). It reduces unused teams and clutter by only creating class teams that are relevant and needed.  
 - If there are any issues (for example, classes are missing) with SDS automatic team creation and teachers need them immediately, then they can use the  [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups) to retry. [Manual team creation](#manual-team-creation) is another solution, however, it won't keep your team membership updated.  
-- The tenant team limit is 500,000 teams. Therefore, admins should proactively try to reduce the number of unused teams to avoid hitting these limits and extending their setup time. For more information about limits, see [limits and specifications for Microsoft Teams](limits-specifications-teams.md).  
+- The tenant team limit is 500,000 teams. Therefore, admins should proactively try to reduce the number of unused teams to avoid hitting these limits and extending their setup time. For more information about limits, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).  
