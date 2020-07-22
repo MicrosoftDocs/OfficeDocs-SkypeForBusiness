@@ -32,7 +32,7 @@ Audio Conferencing in Microsoft 365 and Office 365 enables users in your organiz
 A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
   
 > [!NOTE]
-> There can be a maximum of one toll and one toll-free phone number on the meeting invite for a meeting organizer, but there is also a link located at the bottom of each meeting invite that opens the full list of all dial-in phone numbers that can be used to join a meeting. 
+> There can be a maximum of one toll and one toll-free phone number on the meeting invite for a meeting organizer, but there is also a link located at the bottom of each meeting invite that opens the full list of all dial-in phone numbers that can be used to join a meeting.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -49,7 +49,7 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-You must be an admin to make these changes.
+You must be an admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
 1. Log in to the Microsoft Teams admin center.
 
@@ -59,27 +59,25 @@ You must be an admin to make these changes.
 
 3. Click the user name from the list of available users.
 
-4. Next to **Audio Conferencing**, click **Edit**. 
-    
+4. Next to **Audio Conferencing**, click **Edit**.
+
     ![Click Edit next to Audio conferencing](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
-
 > [!IMPORTANT]
-> When you change a user's audio conferencing settings, recurring and future Microsoft Teams meetings must be updated and sent to attendees. 
+> When you change a user's audio conferencing settings, recurring and future Microsoft Teams meetings must be updated and sent to attendees.
 
-## Want to use Windows PowerShell?
+## Want to use Windows PowerShell
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information. 
+
+- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
-    
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
