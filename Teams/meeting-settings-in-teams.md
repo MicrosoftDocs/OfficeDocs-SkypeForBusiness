@@ -33,7 +33,9 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a>.
+You must be an admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+
+1. Go to the admin center.
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
@@ -60,7 +62,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>..
+1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
@@ -84,7 +86,7 @@ If you're using Quality of Service (QoS)to prioritize network traffic, you can e
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
  ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
+1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Network**, do the following:
 
