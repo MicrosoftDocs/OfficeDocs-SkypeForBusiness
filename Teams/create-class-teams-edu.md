@@ -55,7 +55,7 @@ Automating team creation saves both IT admins and teachers time. It ensures that
 
 ### Considerations
 
-SDS creates teams in two steps. The first step creates a Microsoft 365 group in Azure Active Directory and the second step automatically turns that group into a team. The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. We recommend institutions with 500,000 teams or more to turn off the automatic team creation toggle in SDS and use the [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups).  
+SDS creates teams in two steps. The first step creates a Microsoft 365 group in Azure Active Directory (Azure AD) and the second step automatically turns that group into a team. The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. We recommend institutions with 500,000 teams or more to turn off the automatic team creation toggle in SDS and use the [teacher-led team creation method](#teacher-led-team-creation-using-office-365-class-groups).  
 
 ### Get started
 
@@ -107,13 +107,13 @@ To use the Graph API method, see [Graph API](https://docs.microsoft.com/graph/ap
 
 ## PowerShell script using Graph APIs
 
-With PowerShell, you can write a script to create teams, channels and configure settings automatically. It requires the admin to first create the group, add teachers and students, and then create the team as outlined [here](https://docs.microsoft.com/graph/teams-create-group-and-team). You can also use the Microsoft Graph API to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview), [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams) and [Create a class team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type). Using Graph APIs is a great way to have more control and flexibility, however, it requires high level of technical expertise and takes more time to set up initially.  
+With PowerShell, you can write a script to create teams, channels and configure settings automatically. It requires the admin to first create the group, add teachers and students, and then create the team as outlined [here](https://docs.microsoft.com/graph/teams-create-group-and-team). You can also use the Microsoft Graph API to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview), [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams) and [Create a class team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type). Using Graph APIs is a great way to have more control and flexibility, however, it requires a high level of technical expertise and takes more time to set up initially.  
 
 ### Benefits
 
 - Additional flexibility and control.
 - Option to create early teacher access teams or immediate student access to teams.  
-- If you [create teams from groups](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), teachers will have early access and student membership changes will be synced.
+- If you [create teams from groups](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group), teachers will have early access and student membership changes to the Azure AD group will be synced.
 
 ### Considerations
 
@@ -126,7 +126,7 @@ With PowerShell, you can write a script to create teams, channels and configure 
 
 ## Manual team creation
 
-Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams. Educators set up their own class type team and invite students as shown [here](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b). Educators can invite students by [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added to a team.
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams. Educators set up their own class type team and invite students as shown [here](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Educators can invite students by [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added to a team.
 
 ### Benefits
 
