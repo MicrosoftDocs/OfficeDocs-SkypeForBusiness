@@ -48,7 +48,7 @@ Automating team creation saves both IT admins and teachers time. It ensures that
 - Creates security groups for use across Office 365 including Teams policy.
 - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset). 
 - Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins.  
-- Built-in cleanup capabilities to rename and archive groups and teams once they are obselete. 
+- Built-in cleanup capabilities to rename and archive groups and teams once they are obsolete.
 - [Grade Sync](https://docs.microsoft.com/schooldatasync/grade-sync): Teachers can do all their grading in Teams and have it automatically write grades from Teams back to the SIS gradebook. 
 - [Student Data Protection](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data): Prevent students from using non-Microsoft apps and to track and manage parent consent. 
 - Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data.  
