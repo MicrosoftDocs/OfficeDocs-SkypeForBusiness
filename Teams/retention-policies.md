@@ -154,11 +154,16 @@ To delete a Teams retention policy, do the following:
 ### End user experience
 
 For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messaged due to your org's retention policy" is shown on top of yet undeleted messages.
-<insert screenshot for chat retention>
-  < Insert screenshot for group chat retention>
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot of chat retention":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Screenshot of group chat retention":::
 
 For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
-<Insert screenshot for Channel retention>
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot of channel before retention":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot of channel after retention":::
 
 > [!NOTE]
 > End user messaging is not user or admin modifiable at this time.
