@@ -1057,7 +1057,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **teamCreate** - A user selects the option to create a new team.
 - **teamEdit** - A user edits some aspect of a team that they own or administer.
 - **teamNav** - View menu options for a team.
-- **teamsDeviceCallResumed** ???
+- **teamsDeviceCallResumed** - A user with a bluetooth connected peripheral (mobile phone dock) reactivates a call from hold.
 - **teamSelectedClicked** - When a user selects **Team selected** for a timesheet.
 - **teamShiftPickerClicked** - When a user adds a new break entry. The event is logged once the user saves the changes.
 - **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience.
