@@ -46,6 +46,10 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -91,6 +95,10 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
+|\<WebExMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings.|
+|\<UseCustomInfoForThirdPartyMeetings\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both \<CustomDisplayNameForThirdPartyMeetings\>, \<CustomDisplayEmailForThirdPartyMeetings\> must be specified.|
+|\<CustomDisplayNameForThirdPartyMeetings\> |String  &#x2778;  |First &#x2776;  |Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service.|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |String  &#x2778;  |First &#x2776;  |Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service.|
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
 |\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |If true, proximity based meetings are automatically accepted. Disabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
