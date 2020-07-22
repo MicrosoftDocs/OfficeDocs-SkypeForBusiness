@@ -38,7 +38,7 @@ For example, if a user is assigned a meeting policy in which these meeting polic
 
 ## What happens when the meeting join link and conference ID expire?
 
-When the meeting join link and conference ID for a meeting expires, no one can join the meeting. When a user tries to join the meeting through the meeting join link or by phone, they'll get a message that says the meeting is no longer available. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
+When the meeting join link and conference ID for a meeting expires, no one can join the meeting. When a user tries to join the meeting through the link or by phone, they'll get a message that says the meeting is no longer available. Conversations, files, whiteboards, recordings, transcripts, and other content related to the meeting are retained and users can still access them.
 
 ## What happens when you turn on and turn off a meeting policy setting?
 
