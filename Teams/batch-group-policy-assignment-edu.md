@@ -128,7 +128,7 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 5,000 at a time. For example, if you have more than 5,000 staff and educators, you'll need to submit multiple batches.
 
-Run the following to assign the meeting policy named EducatorMeetingPolicy to your staff and educators.
+Run the following to assign a custom meeting policy named EducatorMeetingPolicy to your staff and educators.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
@@ -183,7 +183,7 @@ Follow these steps to create a security group for your staff and educators, and 
 
 When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
-Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure that you read and understand the concepts in** [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
 ### Create security groups
 
