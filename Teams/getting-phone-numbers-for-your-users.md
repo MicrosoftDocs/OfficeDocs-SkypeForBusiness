@@ -29,7 +29,7 @@ Before you can set up users in your organization to make and receive phone calls
 There are three ways to get user numbers:
 
 - **Use the Microsoft Teams admin center.** For some countries and regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
-    
+
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams Admin Center or you'll need specific phone numbers or area codes. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
@@ -41,14 +41,16 @@ There are three ways to get user numbers:
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Go to the Microsoft Teams Admin Center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
+You must be an admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+
+1. Go to the Microsoft Teams Admin Center.
 2. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
 3. Enter a name for the order and add a description.
 4. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
     2. Under **Number type**, select **User (subscriber)**.
     3. Under **Location**, select a location. If you need to create a new location, click **Add a location**.
-    4. Under **Area code**, select an area code. 
+    4. Under **Area code**, select an area code.
     5. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
 5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 6. When you're ready to place your order, click **Place order**.
@@ -64,9 +66,9 @@ There are three ways to get user numbers:
 
 ## View the phone numbers for your organization
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** 
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-In the left navigation of the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
+In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   
 ## Assign phone numbers to users
 
