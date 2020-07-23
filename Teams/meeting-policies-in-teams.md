@@ -236,11 +236,11 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 
 |Allow IP video setting |Mode for IP video setting |Meeting experience|
 |---------|---------|---------|
-|User: **On**</br>Participant: **On**        |User: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by that user or other users.|
+|User: **On**</br>Participant: **On**        |User: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.|
 |User: **On**</br>Participant: **On**     |User: **Outgoing and incoming video enabled**          |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users.         |
-|User: **Off**    |       |The **Allow IP video** setting is most restrictive and takes precedence because it's turned off for the user (organizer). No one can turn on video in meetings organized by the user who is assigned this policy.         |
 |User: **On**</br>Participant: **Off**    |Participant: **Outgoing and incoming video**         |The **Allow IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.         |
 |User: **On**</br>Participant: **Off**      |Participant: **Disabled**         |The **Mode for IP video** setting takes precedence. Participants can't see incoming or outgoing video.      |
+|User: **Off**    |       |The **Allow IP video** setting is most restrictive and takes precedence because it's turned off for the user (organizer). No one can turn on video in meetings organized by the user who is assigned this policy.         |
 
 **OPTION 2: TEXT**
 
@@ -249,14 +249,14 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 - If **Mode for IP video** is set to **Disabled** for the user, the **Mode for IP video** setting takes precedence. This means that only the user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.
 - If **Mode IP video** is set to **Outgoing and incoming video enabled**, the user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users. 
 
-##### If Allow IP video is turned off for the organizer
-
-The **Allow IP video** setting is more restrictive in this case and takes precedence because the organizer's setting is turned off. This means that no one can turn on video in meetings organized by the user who is assigned this policy.
-
 ##### If Allow IP video is turned on for the organizer and turned off for the participant
 
 - If **Mode for IP video** is set to **Outgoing and incoming video enabled** for the meeting participant, the **Allow IP video** setting is the more restrictive setting and takes precedence. As a result, participants can only see incoming video. They can't send outgoing video.
 - If **Mode for IP video** is set to **Disabled**, this setting is more restrictive in this case and takes precedence. As a result, meeting participants can't see incoming or outgoing video.
+
+##### If Allow IP video is turned off for the organizer
+
+The **Allow IP video** setting is more restrictive in this case and takes precedence because the organizer's setting is turned off. This means that no one can turn on video in meetings organized by the user who is assigned this policy.
 
 *****************
 
