@@ -21,4 +21,7 @@ appliesto:
 
 [!INCLUDE [prepare-network](prepare-network.md)]
 
-<!-- This file is a short-term fix to a problem with 404s in Advisor for Teams. We will delete this file and redirect correctly once the code change is made in Advisor for Teams -->
+
+
+<!-- This file needs to remain in the repo as a workaround for a product dependency. Ignore the redirection warning. For details, contact lolaj. -->
+

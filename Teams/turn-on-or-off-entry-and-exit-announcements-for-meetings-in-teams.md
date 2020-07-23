@@ -25,7 +25,7 @@ description: Admin can learn about how to turn entry and exit announcements on o
 
 # Turn on or off entry and exit announcements for meetings in Microsoft Teams
 
-When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that people will use to call in to a Microsoft Teams meeting. 
+When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that people will use to call in to a Microsoft Teams meeting.
   
 The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone. The conferencing bridge answers the caller with voice prompts from a conferencing auto attendant, and then, depending on your settings, can play notifications, ask callers to record their name, and set up the PIN security. A PIN is given to a Microsoft Teams meeting organizer, and it allows them to start a meeting if they can't start the meeting using the Microsoft Teams app. You can, however, set it so that a PIN isn't required to start a meeting.
 
@@ -36,33 +36,33 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-You must be an admin to make these changes.
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
-1. Log in to the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>.
+1. Log in to the admin center.
 
-2. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+2. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-3. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+3. At the top of the **Conference Bridges** page, click **Bridge Settings**.
 
 4. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
-    
+
 5. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
 
    > [!NOTE]
    > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
-    
+
 6. If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.
-    
+
 7. Click **Save**.
 
-## Want to know more about Windows PowerShell?
+## Want to know more about Windows PowerShell
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Microsoft 365 or Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
+
+- [Why you need to use Microsoft 365 or Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics
