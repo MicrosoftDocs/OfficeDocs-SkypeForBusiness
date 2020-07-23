@@ -40,7 +40,7 @@ Keep in mind that the Global policy will apply to all users in your school until
 
 In this tutorial, students will get the Global meeting policy and we'll assign a custom meeting policy named EducatorMeetingPolicy to staff and educators. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
 
-![Screenshot of the Meeting policies page in the Teams admin center](media/edu-batch-policy-assignment.png)
+![Screenshot of the Meeting policies page in the Teams admin center](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## Assign a policy to a batch of users
 
@@ -51,9 +51,11 @@ Follow these steps to assign a custom meeting policy named EducatorMeetingPolicy
 To assign a policy to users in bulk:
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
-2. Search for the users you want to assign the policy to or filter the view to show the users you want.
-3. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-4. Click **Edit settings**, make the changes that you want, and then click **Apply**.
+2. Search for the staff and educators you want to assign the policy to or filter the view to show the users you want.
+3. In the **&#x2713;** (check mark) column, select the users, and then click **Edit settings**.
+5. In the **Edit settings** pane, under **Meeting policy**, select **EducatorMeetingPolicy**, and then click **Apply**.
+
+    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-batch.png)
 
 To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you click **Apply** to submit your policy assignment, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
 
@@ -205,9 +207,11 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
+
+    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
     1. Search for and add the security group that contains your staff and educators.
-    2. Set the ranking for the group assignment.
-    3. Select the policy that you want to assign.
+    2. In the **select rank** box, enter **1**.
+    3. In the **Select a policy** box, select **EducatorMeetingPolicy**.
     4. Select **Apply**.
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
