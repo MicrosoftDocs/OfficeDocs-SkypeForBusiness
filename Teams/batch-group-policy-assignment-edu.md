@@ -259,14 +259,15 @@ Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 
 **I'm not familiar with PowerShell for Teams. Where can I learn more?**
 
-See [Teams Powershell overview](teams-powershell-overview.md).
+For an overview of using PowerShell to manage Teams, see [Teams Powershell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
 
-## Related topics
-
-- [Assign policies to your users](assign-policies.md)
-- [Teams policies and policy packages for Education](policy-packages-edu.md)
 - [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 - [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 - [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
 - [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
+
+## Related topics
+
+- [Assign policies to your users](assign-policies.md)
+- [Teams policies and policy packages for Education](policy-packages-edu.md)
