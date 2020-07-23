@@ -31,8 +31,8 @@ To contact the PSTN Service Desk team, see the following table.
 
 | **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
 |:-----:|:------:|
-| [**Inside** the **United States** or **Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|[**Outside** the **United States** or **Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+| **Inside** the **United States** or **Canada**, send email to [ptn@microsoft.com](mailto:ptn@microsoft.com).| **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, send email to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).|
+|**Outside** the **United States** or **Canada**, send email to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).| **Rest of the world**, send email to [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).|
 
 > [!NOTE]
 > North America responses might be delayed because of a large increase in incoming requests. The backlog is being cleared out on a FIFO (First In, First Out) basis.
