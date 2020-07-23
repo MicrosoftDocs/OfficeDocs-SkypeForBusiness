@@ -28,8 +28,6 @@ A policy package in Microsoft Teams is a collection of predefined policies and p
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of the policies in the package to meet your organization's needs.
 
-Policy packages aren't available for US Government Cloud Community (GCC) organizations.
-
 ## What is a policy package
 
 Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes predefined policies and policy settings that support the collaboration and communication activities that are typical for that role.
@@ -44,8 +42,8 @@ Teams currently includes the following policy packages.
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
 |Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
-|Firstline manager (in preview) |Creates a set of policies and applies those settings to Firstline Managers in your organization. |
-|Firstline worker (in preview) |Creates a set of policies and applies those settings to Firstline Workers in your organization. |
+|Firstline manager |Creates a set of policies and applies those settings to Firstline Managers in your organization. |
+|Firstline worker |Creates a set of policies and applies those settings to Firstline Workers in your organization. |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|

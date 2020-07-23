@@ -155,6 +155,7 @@
 #### [With Exchange on premises (Hybrid)](rooms/with-exchange-on-premises.md)
 #### [Configure a console](rooms/console.md)
 #### [Configure authentication](rooms/rooms-authentication.md)
+#### [Join third-party meetings](rooms/third-party-join.md)
 #### [By using Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
 #### [Management with Azure Monitor](rooms/azure-monitor-deploy.md)
 #### [Migrate SRS v1 or LRS](rooms/lrs-migration.md)
