@@ -47,7 +47,7 @@ Include as many details as possible, such as:
 Include as many details as possible, such as:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
-  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate from.
+  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate.
 
 ## Need assistance that's related to numbers setup/configuration, licenses, fees, or billing
 For information, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
