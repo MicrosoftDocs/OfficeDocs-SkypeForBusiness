@@ -43,7 +43,7 @@ Send email to the appropriate email alias from the above table. Include as many 
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - Other important details based on your request.
 
-## Acquire new phone numbers for Microsoft Teams
+## Get new phone numbers for Microsoft Teams
 Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
