@@ -35,7 +35,7 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 ## Step 1: Turn on guest access at the Teams org-wide level
 
-You must be an admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
