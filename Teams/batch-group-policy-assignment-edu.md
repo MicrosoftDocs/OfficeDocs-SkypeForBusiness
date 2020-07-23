@@ -209,8 +209,8 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
 
     ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
-    1. Search for and add the security group that contains your staff and educators.
-    2. In the **select rank** box, enter **1**.
+    1. In the **Select a group** box, search for and add the security group that contains your staff and educators.
+    2. In the **Select rank** box, enter **1**.
     3. In the **Select a policy** box, select **EducatorMeetingPolicy**.
     4. Select **Apply**.
 
