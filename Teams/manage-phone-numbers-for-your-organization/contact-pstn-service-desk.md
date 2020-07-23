@@ -38,13 +38,13 @@ To contact the PSTN Service Desk team, see the following table.
 > North America responses might be delayed because of a large increase in incoming requests. The backlog is being cleared out on a FIFO (First In, First Out) basis.
 
 ## Transfer or port your existing phone numbers to Microsoft Teams
-Include as many details as possible, such as:
+Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - Other important details based on your request.
 
 ## Acquire new phone numbers for Microsoft Teams
-Include as many details as possible, such as:
+Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate.
