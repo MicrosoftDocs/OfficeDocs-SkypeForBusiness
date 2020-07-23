@@ -6,7 +6,7 @@
 
 # [Support remote workers (WFH)](support-remote-work-with-teams.md)
 
-# Training 
+# Training
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
@@ -51,9 +51,9 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 ## [Get started with Teams templates using the Admin center](get-started-with-teams-templates-in-the-admin-console.md)
+### [Create a team template](create-a-team-template.md)
+### [Modify an existing team template to create a new team](modify-existing-team-template.md)
 ## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
-## [Create a team template](create-a-team-template.md)
-## [Modify an existing team template to create a new team](modify-existing-team-template.md)
 
 
 
