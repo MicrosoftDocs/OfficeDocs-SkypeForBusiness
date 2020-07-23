@@ -27,7 +27,7 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 
 # PSTN Service Desk contact information
 
-To contact the PSTN Service Desk team, see the following table.
+To contact the PSTN Service Desk team, send email to the appropriate alias listed in the following table.
 
 | **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
 |:-----:|:------:|
