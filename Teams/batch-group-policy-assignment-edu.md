@@ -241,10 +241,10 @@ When you're prompted, sign in using your admin credentials.
 
 ##### Assign a policy to a group
 
-Run the following to assign the meeting policy named EducatorMeetingPolicy to the security group that contains your staff and educators and set the assignment ranking to 1. You can specify a group by using the object Id, Session Initiation Protocol (SIP) address, or email address.
+Run the following to assign the meeting policy named EducatorMeetingPolicy to the security group that contains your staff and educators and set the assignment ranking to 1. You can specify a security group by using the object Id, Session Initiation Protocol (SIP) address, or email address.
 
 ```powershell
-New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
+New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d18 -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
 ```
 
 ##### Get policy assignments for a group
@@ -252,7 +252,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
 
 ```powershell
-Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
+Get-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d18
 ```
 
 ## FAQ
