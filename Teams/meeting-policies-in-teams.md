@@ -181,9 +181,7 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 ### Mode for IP audio
 
-This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. If this policy setting is disabled for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone.
-
-Meeting participants who don't have any policies assigned (for example, anonymous participants) have the **Outgoing and incoming audio enabled** setting by default.
+This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. If this policy setting is disabled for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -196,7 +194,7 @@ To learn more, see [Common audio/video scenarios for meetings](#common-audiovide
 
 ### Mode for IP video
 
-This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. If this policy setting is disabled for user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have the **Outgoing and incoming video enabled** setting by default.
+This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. If this policy setting is disabled for user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -230,12 +228,20 @@ If Daniela calls Amanda with video on, Amanda can answer the call with audio onl
 
 #### Which IP video policy setting takes precedence?
 
-For a user, the most restrictive policy setting for video takes precedence. Here are some examples.
+For a user, the most restrictive policy setting for video takes precedence. Here's some examples.
+
+|Allow IP video setting |Mode for IP video setting |Meeting experience|
+|---------|---------|---------|
+|User: **On**<br>Participant: **On**        |User: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by that user or other users.|
+|User: **On**<br>Participant: **On**     |User: **Outgoing and incoming video enabled**          |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users.         |
+|User: **Off**    |       |The **Allow IP video** setting is most restrictive and takes precedence because it's turned off for the user (organizer). No one can turn on video in meetings organized by the user who is assigned this policy.         |
+|User: **On**<br>Participant: **Off**    |Participant: **Outgoing and incoming video**         |The **Allow IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.         |
+|User: **On**<br>Participant: **Off**      |Participant: **Disabled**         |The **Mode for IP video** setting takes precedence. Participants can't see incoming or outgoing video.      |
 
 ###### If Allow IP video is turned on for the organizer and turned on for the participant
 
 - If **Mode for IP video** is set to **Disabled** for the user, the **Mode for IP video** setting takes precedence. This means that only the user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.
-- If **Mode IP video** is set to **Enable outgoing and incoming video**, the user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users. 
+- If **Mode IP video** is set to **Outgoing and incoming video enabled**, the user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users. 
 
 ##### If Allow IP video is turned off for the organizer
 
@@ -243,7 +249,7 @@ The **Allow IP video** setting is more restrictive in this case and takes preced
 
 ##### If Allow IP video is turned on for the organizer and turned off for the participant
 
-- If **Mode for IP video** is set to **Enabled outgoing and incoming video** for the meeting participant, the **Allow IP video** setting is the more restrictive setting and takes precedence. As a result, participants can only see incoming video. They can't send outgoing video.
+- If **Mode for IP video** is set to **Outgoing and incoming video enabled** for the meeting participant, the **Allow IP video** setting is the more restrictive setting and takes precedence. As a result, participants can only see incoming video. They can't send outgoing video.
 - If **Mode for IP video** is set to **Disabled**, this setting is more restrictive in this case and takes precedence. As a result, meeting participants can't see incoming or outgoing video. 
 
 #### Teams mobile clients
@@ -254,9 +260,9 @@ For Teams mobile clients, the ability to share photos and videos is determined b
 
 |If you want to...  |Set the following policy settings  |
 |---------|---------|
-|Disable audio and video in meetings  |Mode for IP Audio: **Disabled**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A       |
+|Disable audio and video in meetings  |Mode for IP audio: **Disabled**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A       |
 |Enable only incoming video and audio in meetings  |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **Off**       |
-|Disable video in meetings and enable audio-only calls |  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP Video: N/A        
+|Disable video in meetings and enable audio-only calls |  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A        
 |Enable audio and video in meetings (default)    |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **On**     |
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
