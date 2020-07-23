@@ -50,7 +50,8 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Work with Teams templates]
+
+## Work with Teams templates
 ### [Get started with Teams templates using the Admin center](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Create a team template](create-a-team-template.md)
 ### [Modify an existing team template to create a new team](modify-existing-team-template.md)
