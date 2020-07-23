@@ -66,7 +66,7 @@ Blocking access helps provide security and protects secure data. When access is 
 
     ![The image shows that use app enforced restrictions is enabled.](media/no-sharepoint-access6.png)
 
-To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see policy
+To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see the policy
 working.
 
 See also [Control access for unmanaged devices in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
