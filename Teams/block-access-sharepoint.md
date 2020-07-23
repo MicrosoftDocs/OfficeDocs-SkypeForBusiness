@@ -1,44 +1,62 @@
-Block Access to SharePoint for specific users
+---
+title: Block access to SharePoint for specific users
+author: cichur
+ms.author: v-cichur
+manager: serdars
+ms.reviewer: Nigolc
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
+appliesto: 
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: Learn about how to block access to SharePoint for specific users
+---
 
-1.  Open SharePoint Admin Center -
-    [<span class="underline">https://admin.microsoft.com/sharepoint?page=accessControl\&modern=true</span>](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)
+# Block access to SharePoint for specific users
 
-> Open: “Policies” - “Access Policies” – “Unmanaged Devices” Set: “Block
-> Access” and click “Save”
-> 
-> ![](media/image1.jpg)
+1.  Open SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
-2.  Navigate to Azure Active Directory – Conditional Access Policies
-    [<span class="underline">https://portal.azure.com/\#blade/Microsoft\_AAD\_IAM/ConditionalAccessBlade/Policies</span>](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)
+2.  Expand **Policies** > **Access Policies**. 
+ 
+3. In the **Unmanaged Devices** section,  select **Block Access** and click **Save**.
+ 
+   ![The image shows the Unmanaged devices section for Policies](media/no-sharepoint-access1.png)
 
-> You should see a new policy has been created by SharePoint similar to
-> this example
+4.  Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies** section. 
 
-![](media/image2.jpg)
+    You'll see a new policy has been created by SharePoint that's similar to this example:
 
-3.  Update the policy to target only specific users/group
+    ![The screenshot shows a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
 
-> ![](media/image3.jpg)
+5.  Update the policy to target only specific users/group.
 
-4.  Make sure that only SharePoint Online is selected as targeted Cloud
-    App
+    ![The images shows the Sharepoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
 
-> ![](media/image4.jpg)
+6.  Verify that only SharePoint Online is selected as targeted Cloud App
 
-5.  Update “Conditions” to include desktop clients as well
+    ![The images shows the Sharepoint online is selected as the targeted app.](media/no-sharepoint-access3.png)
 
-![](media/image5.jpg)
+7.  Update **Conditions** to include desktop clients, as well.
 
-6.  Make sure that Grant Access is enabled
+    ![The image shows desktop and mobile apps highlighted.](media/no-sharepoint-access4.png)
 
-![](media/image6.jpg)
+8.  Make sure that **Grant access** is enabled
 
-7.  Make sure “Use app enforced restrictions” is enabled
+    ![The image shows that grant access is enabled.](media/no-sharepoint-access5.png)
 
-![](media/image7.jpg)
+9.  Make sure **Use app enforced restrictions** is enabled.
+ 
+10. Enable your policy and click **Save**.
 
-8.  Enable your policy and click “Save”
+    ![The image shows that use app enforced restrictions is enabled.](media/no-sharepoint-access6.png)
 
-To test your policy, you need to **sign out** from any client like Teams
-desktop app or onedrive sync client and sign in again to see policy
+To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see policy
 working.
