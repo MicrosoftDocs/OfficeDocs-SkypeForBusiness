@@ -21,9 +21,9 @@ ms.custom: seo-marvel-mar2020
 
 # PowerShell script sample - Create security groups for educators and students in your school
 
-[Policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) in Microsoft Teams lets you assign a Teams policy to a group of users, such as a security group. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
+Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school. The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
-Use this PowerShell script to create two security groups, one for staff and educators and another for students in your school, based on license type. You can then assign policies to the security groups that you created. For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).
+This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type. You can then assign policies to the security groups that you created. For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).
 
 This script does the following:
 
@@ -32,6 +32,9 @@ This script does the following:
 - Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.
 
 You'll need to run this script regularly to keep the security groups fresh and up to date.
+
+> [!IMPORTANT]
+> Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 ## Before you start
 
