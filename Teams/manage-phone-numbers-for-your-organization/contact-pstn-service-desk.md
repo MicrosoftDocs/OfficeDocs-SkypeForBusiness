@@ -49,11 +49,9 @@ Send email to the appropriate email alias from the above table. Include as many 
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate.
 
-## Need assistance that's related to numbers setup/configuration, licenses, fees, or billing
-For information, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
-
 ## Additional resources
 
+- For assistance that's related to numbers setup/configuration, licenses, fees, or billing, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 - For information about the calling plans that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 - For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
