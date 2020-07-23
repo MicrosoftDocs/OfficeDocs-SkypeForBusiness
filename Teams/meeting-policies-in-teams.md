@@ -234,7 +234,7 @@ If Daniela calls Amanda with video on, Amanda can answer the call with audio onl
 
 For a user, the most restrictive policy setting for video takes precedence. Here's some examples.
 
-|Allow IP video setting |Mode for IP video setting |Meeting experience|
+|Allow IP video|Mode for IP video|Meeting experience|
 |---------|---------|---------|
 |User: **On**</br>Participant: **On** |User: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.|
 |User: **On**</br>Participant: **On** |User: **Outgoing and incoming video enabled**          |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users.         |
