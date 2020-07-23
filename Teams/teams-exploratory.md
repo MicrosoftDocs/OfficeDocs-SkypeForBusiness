@@ -76,7 +76,7 @@ Admins can disable the ability for end users to run the Teams Exploratory experi
 
 You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience. 
 
-1. From the Microsoft 365 admin center, go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
+1. From the Microsoft 365 admin center, go to **Settings** > **Org settings**, select **Services**, and then select **User owned apps and services**.
 
     ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
