@@ -72,7 +72,6 @@ Introduced in this update:
 - Virtual raise hands support for attendee and controls for presenter
 - Adjustable default volume setting for conferencing and default speaker
 - Search and call federated users (tenant) from Teams Room
-- Improvements for one-touch-join experience for Cisco WebEx meetings
 
 > [!IMPORTANT]
 > Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows 10 release support](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support).
