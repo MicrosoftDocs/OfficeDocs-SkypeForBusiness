@@ -24,7 +24,7 @@ appliesto:
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and will soon be available in Public Preview on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
+The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available in Public Preview on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
 
 With Walkie Talkie in Teams, firstline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -68,9 +68,9 @@ Expected data usage from Walkie Talkie is around 20KB/s when sending or receivin
 
 FirstLine workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
-- Existing phones
-  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/))
-  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Headsets
+  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Rugged phones
   - Samsung Galaxy XCover Pro
     - [More info](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
