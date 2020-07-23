@@ -35,9 +35,9 @@ When you delete a team, team activity in standard and private channels (and asso
 
 ## Archive a team
 
-Follow these steps to archive a team.
+Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
-1. In the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, select **Teams**.
+1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Archive**. The following message will appear.
 
@@ -50,7 +50,7 @@ Follow these steps to archive a team.
 
 Follow these steps to make an archived team active again.
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.
+1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Unarchive**. The team’s status will change to **Active**.
 
@@ -58,7 +58,7 @@ Follow these steps to make an archived team active again.
 
 If the team will not be required in the future, then you can delete it rather than archiving it. Follow these steps to delete a team.
 
-1.	In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.
+1.	In the admin center, select **Teams**.
 2.	Select a team by clicking the team name.
 3.	Select **Delete**. A confirmation message will appear.
 4.	Select **Delete** to permanently delete the team.
@@ -74,7 +74,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 1. Open Windows PowerShell as an admin.
 2. If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -85,7 +85,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### Restore the deleted Microsoft 365 group
 
@@ -97,7 +97,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 2. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. Find the group that you want to restore, and then make a note of the Id.
 4. Run the following to restore the group, where [Id] is the group Id.
     ```PowerShell
