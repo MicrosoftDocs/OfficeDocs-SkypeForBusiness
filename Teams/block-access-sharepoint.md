@@ -22,7 +22,15 @@ description: Learn about how to block access to SharePoint for specific users
 
 # Block access to SharePoint for specific users
 
-1. Open SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+You can block or limit access for:
+
+- Users in the organization or only some users or security groups.
+
+- All sites in the organization or only some sites.
+
+Blocking access helps provide security and protects secure data. When access is blocked, users will see an error message.
+
+1. Open the SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
 2. Expand **Policies** > **Access Policies**.
 
@@ -60,3 +68,5 @@ description: Learn about how to block access to SharePoint for specific users
 
 To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see policy
 working.
+
+See also [Control access for unmanaged devices in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
