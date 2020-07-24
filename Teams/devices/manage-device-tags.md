@@ -34,9 +34,9 @@ To manage device tags, you need to be either a Global admin or a Teams service a
 Using the device tag management panel, you can:
 
 - See all your device tags.
-- Create multiple device tags easily and then assign them to devices at a later time.
+- Create multiple device tags easily and then assign them to devices at a later time. Tags can be up to 25 characters.
 - Remove device tags that are no longer needed. Before you can remove a device tag, you'll need to remove it from all of the devices it has been added to.
-- Rename device tags. When you rename a device tag, that change is reflected on all the devices it's been added to.
+- Rename device tags. When you rename a device tag, that change is reflected on all the devices it's been added to. Tags can be up to 25 characters.
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose any device pane, such as **Phones**
@@ -49,7 +49,7 @@ Using the device tag management panel, you can:
 
 ## Add or remove tags on a single device
 
-To add or remove tags on a single device, do the following:
+When you add tags to a device, you can either select an existing tag or create a new one. Tags can be up to 25 characters.
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose the device pane that contains the device you want to add or remove tags on
@@ -57,14 +57,14 @@ To add or remove tags on a single device, do the following:
 4. If you want to add a tag:
     1. Start typing the tag name you want to add
     2. If the tag already exists, select it from the list of tags that are returned
-    3. If the tag doesn't exist, select **Add "\<tag name>" as a new tag**
+    3. If the tag doesn't exist, select **Add "\<tag name>" as a new tag**. Tags can be up to 25 characters.
 5. If you want to remove a tag, select **X** next to the tag you want to remove
 6. Repeat the steps above if you want to add or remove more tags
 7. Select **Apply**
 
 ## Add or remove tags on multiple devices
 
-To add or remove devices on multiple devices, do the following:
+When you add tags to a device, you can either select an existing tag or create a new one. Tags can be up to 25 characters. If you want to remove a tag from multiple devices, you need to select the Teams user that's associated with the device and remove the tag from the user.
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose the device pane that contains the devices you want to add or remove tags on
@@ -83,8 +83,6 @@ To add or remove devices on multiple devices, do the following:
 ## Use filters to return devices with a specific tag
 
 If you've added device tags to your devices, you can use them to filter the device list to return only the devices that have had a specified tag added to them. This can be helpful if you just want to view all the devices in a specific room, all the devices of a certain type, or any other criteria you used when adding your tags. You can also perform bulk actions on returned devices, such as applying updates in waves, or setting different configuration policies depending on the groups of devices identified using device tags.
-
-To filter devices using device tags, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
 2. Navigate to **Devices** and then choose the device pane that contains the devices you want to filter
