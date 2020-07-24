@@ -27,7 +27,7 @@ Microsoft Teams guest access checklist
 Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 
 > [!IMPORTANT]
-> You may have to wait a few hours for your changes to take effect. 
+> You may have to wait a few hours for your changes to take effect.
 
 Watch this short video (5:31 minutes) to see how to turn on guest access throughout Microsoft 365, including Teams.
 
@@ -35,7 +35,7 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 ## Step 1: Turn on guest access at the Teams org-wide level
 
-To turn on guest access, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. 
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
@@ -69,7 +69,7 @@ These are the Azure AD settings that support guest access in Teams. Once these s
      - **Collaboration restrictions**: For more information about allowing or blocking invitations to specific domains, see [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
         > [!NOTE]
         > For collaboration restrictions, see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-      
+
     For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## Step 3: Configure Microsoft 365 Groups
@@ -84,18 +84,18 @@ These are the Azure AD settings that support guest access in Teams. Once these s
 
 For detailed instructions about configuring these settings, see [Manage guest access in Microsoft 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Microsoft 365 Groups](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
-## Step 4: Configure sharing in Microsoft 365 
+## Step 4: Configure sharing in Microsoft 365
 
 Make sure that users can add guests. Here's how:
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Org Settings**, click **Security & privacy**, and then select **Sharing**.
 
      ![Screenshot shows an example of services settings](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. Select the **Let users add new guests to this organization** check box, and then click **Save changes**.
 
      ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > This setting is equivalent to the **Members can invite** setting in **User settings** > **External users** in Azure AD.  
 

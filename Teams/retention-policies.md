@@ -55,7 +55,7 @@ The minimum licensing requirement for retention policies is Office 365 E3. To le
 
 ## How Teams retention policies work
 
-Teams chats are stored in a hidden folder (Teamschat) in the mailbox of each user in the chat, and Teams channel messages are stored in a hidden folder(Teamschat) in the group mailbox for a team. Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. With a Teams retention policy, when you delete data, the data is permanently deleted from both the Exchange mailboxes and the underlying chat service.
+Teams chats are stored in a hidden folder (Teamschat) in the mailbox of each user in the chat, and Teams channel messages are stored in a hidden folder (Teamschat) in the group mailbox for a team. Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. With a Teams retention policy, when you delete data, the data is permanently deleted from both the Exchange mailboxes and the underlying chat service.
 
 When you apply a **retention-hold** policy to Teams chats or channel messages, here's what happens:
 
@@ -150,6 +150,24 @@ To delete a Teams retention policy, do the following:
 1. In the left navigation of the Security & Compliance Center, go to **Information governance** > **Retention**.
 2. In the list of retention policies, select the check box next to the retention policy you want to delete.
 3. Select **Delete policy**.
+
+### End user experience
+
+For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messaged due to your org's retention policy" is shown on top of yet undeleted messages.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot of chat retention":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Screenshot of group chat retention":::
+
+For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot of channel before retention":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot of channel after retention":::
+
+> [!NOTE]
+> End user messaging is not user or admin modifiable at this time.
+
 
 ### Using PowerShell
 
