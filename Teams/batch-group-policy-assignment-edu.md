@@ -28,19 +28,102 @@ Do you need to give your students and educators access to different features in 
 
 You can assign a meeting policy directly to users at scale through a batch policy assignment or to a security group that the users are members of. You'll learn how to:
 
-- Use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy to users in bulk. With this method, you can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches.
 - Use [policy assignment to groups](#assign-a-policy-to-a-group) to assign a meeting policy to a security group. This method is recommended for security groups of up to 50,000 users but will also work with larger groups.
+
+- Use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy to users in bulk. With this method, you can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches.
 
 Remember that in Teams, users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
 
-- Edit and apply the Global (Org-wide default) policy to restrict capabilities for students.
 - Create a custom policy that allows core capabilities such as private chat and meeting scheduling and assign the policy to your staff and educators.
+- Assign the custom policy to your staff and educators.
+- Edit and apply the Global (Org-wide default) policy to restrict capabilities for students.
 
 Keep in mind that the Global policy will apply to all users in your school until you create a custom policy and assign it to your staff and educators.
 
-In this tutorial, students will get the Global meeting policy and we'll assign a custom meeting policy named EducatorMeetingPolicy to staff and educators. We assume that you've edited the Global policy to tailor meeting settings for students and created a custom policy that defines the meeting experience for staff and educators.
+In this tutorial, students will get the Global meeting policy and we'll assign a custom meeting policy named EducatorMeetingPolicy to staff and educators. We assume that you've edited the Global policy to tailor meeting settings for students and [created a custom policy](policy-packages-edu.md) that defines the meeting experience for staff and educators.
 
 ![Screenshot of the Meeting policies page in the Teams admin center](media/batch-group-policy-assignment-edu-meeting-policies.png)
+
+## Assign a policy to a group
+
+Follow these steps to create a security group for your staff and educators, and then assign a custom meeting policy named EducatorMeetingPolicy to that security group.
+
+### Before you get started
+
+> [!IMPORTANT]
+> When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+
+Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+
+### Create security groups
+
+First, create a security group for your staff and educators.
+
+With [School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS), you can [easily create security groups educators and students](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) in your school. We recommend that you use SDS to create the security groups you need to manage policies for your school.
+
+If you're unable to deploy SDS within your environment, use [this PowerShell script](scripts/powershell-script-security-groups-edu.md) to create two security groups, one for all staff and educators who have a Faculty license assigned and another for all students who have a Student license assigned. You'll need to run this script routinely to keep the groups fresh and up to date.
+
+### Assign a policy a security group
+
+<!--#### Using the Microsoft Teams admin center
+
+**This feature hasn't yet been released. It's been announced, and it's coming soon.**
+
+> [!NOTE]
+> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
+2. Select the **Group policy assignment** tab.
+3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
+
+    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
+    1. In the **Select a group** box, search for and add the security group that contains your staff and educators.
+    2. In the **Select rank** box, enter **1**.
+    3. In the **Select a policy** box, select **EducatorMeetingPolicy**.
+    4. Select **Apply**.
+
+To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
+
+To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
+
+-->
+
+#### Using PowerShell
+
+> [!NOTE]
+> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
+
+##### Install and connect to the Microsoft Teams PowerShell module
+
+Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Run the following to connect to Teams and start a session.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+When you're prompted, sign in using your admin credentials.
+
+##### Assign a policy to a group
+
+Run the following to assign the meeting policy named EducatorMeetingPolicy to the security group that contains your staff and educators and set the assignment ranking to 1. You can specify a security group by using the object Id, Session Initiation Protocol (SIP) address, or email address. In this example, we use an email address (staff-faculty@contoso.com).
+
+```powershell
+New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
+```
+
+##### Get policy assignments for a group
+
+Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
+
+```powershell
+Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
+```
 
 ## Assign a policy to a batch of users
 
@@ -177,95 +260,17 @@ Run the following to see all the policies that are assigned to a specific user. 
 Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ```
 
-## Assign a policy to a group
-
-Follow these steps to create a security group for your staff and educators, and then assign a custom meeting policy named EducatorMeetingPolicy to that security group.
-
-### Before you get started
-
-When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
-
-Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
-
-### Create security groups
-
-First, create a security group for your staff and educators.
-
-With [School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS), you can [easily create security groups educators and students](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) in your school. We recommend that you use SDS to create the security groups you need to manage policies for your school.
-
-If you're unable to deploy SDS within your environment, use [this PowerShell script](scripts/powershell-script-security-groups-edu.md) to create two security groups, one for all staff and educators who have a Faculty license assigned and another for all students who have a Student license assigned. You'll need to run this script routinely to keep the groups fresh and up to date.
-
-### Assign a policy a security group
-
-#### Using the Microsoft Teams admin center
-
-**This feature hasn't yet been released. It's been announced, and it's coming soon.**
-
-> [!NOTE]
-> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select the **Group policy assignment** tab.
-3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
-
-    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
-    1. In the **Select a group** box, search for and add the security group that contains your staff and educators.
-    2. In the **Select rank** box, enter **1**.
-    3. In the **Select a policy** box, select **EducatorMeetingPolicy**.
-    4. Select **Apply**.
-
-To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
-
-To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
-
-#### Using PowerShell
-
-> [!NOTE]
-> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
-
-##### Install and connect to the Microsoft Teams PowerShell module
-
-Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
-
-```powershell
-Install-Module -Name MicrosoftTeams
-```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-When you're prompted, sign in using your admin credentials.
-
-##### Assign a policy to a group
-
-Run the following to assign the meeting policy named EducatorMeetingPolicy to the security group that contains your staff and educators and set the assignment ranking to 1. You can specify a security group by using the object Id, Session Initiation Protocol (SIP) address, or email address.
-
-```powershell
-New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d18 -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
-```
-
-##### Get policy assignments for a group
-
-Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
-
-```powershell
-Get-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d18
-```
-
 ## FAQ
 
 **I'm not familiar with PowerShell for Teams. Where can I learn more?**
 
 For an overview of using PowerShell to manage Teams, see [Teams Powershell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
 
+- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
+- [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
 - [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 - [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 - [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
-- [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
 
 ## Related topics
 
