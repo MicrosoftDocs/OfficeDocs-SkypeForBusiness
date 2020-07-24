@@ -35,6 +35,8 @@ Check out these videos about the guest experience in Teams:
 - [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Microsoft 365 and Office 365 admins control the features available to guests.
 
 ## Comparison of team member and guest capabilities
 
@@ -59,7 +61,6 @@ The following table compares the Teams functionality available for an organizati
 |Use inline translation  <br/> |&#x2713;||
 |Become team owner  <br/> |&#x2713;||
 
-   
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 
 | Calling feature | Guest | E1 and E3 user | E5 and Enterprise Voice user |
@@ -93,7 +94,7 @@ The following table shows the calling and meeting features available to guests, 
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> Microsoft 365 and Office 365 admins control the features available to guests. 
+> If the **Guest users permissions are limited** setting in Azure Active Directory (Azure AD) is set to **Yes**, guests don't have permission for certain directory tasks, such as enumerating users, groups, or other directory resources. For example, guests can't access Microsoft Graph or search for users in email. To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493). Additionally, guests can't be assigned to administrative roles in your directory.
 
 ## Frequently asked questions
 
