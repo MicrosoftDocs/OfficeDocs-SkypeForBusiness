@@ -82,7 +82,7 @@ Connect-MicrosoftTeams
 ```
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
-#### Remove a policy that was directly assigned to users
+#### Unassign a policy that was directly assigned to users
 
 Run the following to remove a meeting policy from users who were directly assigned that policy. You can specify users by email address or object ID.
 
