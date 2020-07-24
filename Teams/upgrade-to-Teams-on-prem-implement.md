@@ -24,7 +24,7 @@ appliesto:
 
 This section describes the following upgrade options:
 
-- [Overlapping capabilities upgrade (using Islands mode)](#overlapping-capabilities-upgrade-(using-islands-mode))
+- [Overlapping capabilities upgrade (using Islands mode)](#overlapping-capabilities-upgrade-using-islands-mode)
 - [A select capabilities upgrade for an organization that has not yet started using Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [A select capabilities upgrade for an organization that is already using Teams in Islands mode](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
