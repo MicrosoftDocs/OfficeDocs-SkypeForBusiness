@@ -53,7 +53,7 @@ Follow these steps to create a security group for your staff and educators, and 
 > [!IMPORTANT]
 > When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
-Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure** that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
 ### Create security groups
 
@@ -65,7 +65,7 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 
 ### Assign a policy a security group
 
-<!--#### Using the Microsoft Teams admin center
+#### Using the Microsoft Teams admin center
 
 **This feature hasn't yet been released. It's been announced, and it's coming soon.**
 
@@ -85,8 +85,6 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 
 To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
-
--->
 
 #### Using PowerShell
 
@@ -129,9 +127,9 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 
 Follow these steps to assign a custom meeting policy named EducatorMeetingPolicy directly to your staff and educators in bulk.
 
-### Using the Microsoft Teams admin center
+<!-- ### Using the Microsoft Teams admin center
 
-To assign a policy to users in bulk:
+ To assign a policy to users in bulk:
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
 2. Search for the staff and educators you want to assign the policy to or filter the view to show the users you want.
@@ -141,6 +139,8 @@ To assign a policy to users in bulk:
     ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-batch.png)
 
 To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you click **Apply** to submit your policy assignment, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
+
+-->
 
 ### Using PowerShell
 
