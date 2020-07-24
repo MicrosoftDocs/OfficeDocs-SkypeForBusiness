@@ -2,6 +2,36 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/rooms/managed-meeting-rooms.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium",
+      "redirect_document_id": true 
+      },    
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+      },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+      },        
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },       
+      {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": false 
+       },         
+    {
       "source_path": "Teams/edit-user-settings-in-bulk.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-policies", 
       "redirect_document_id": true
@@ -244,11 +274,6 @@
     {
       "source_path": "Teams/location-based-routing-terminology.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-network-settings", 
-      "redirect_document_id": true
-      },
-    {
-      "source_path": "Teams/sharing-files-in-teams.md", 
-      "redirect_url": "https://aka.ms/SharePoint/Blog/FilesInTeams", 
       "redirect_document_id": true
       },
     {
@@ -562,8 +587,8 @@
       "redirect_document_id": true 
     },
     {
-      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/monitor-call-quality-qos.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
       "redirect_document_id": true 
     },
     {
@@ -1801,7 +1826,7 @@
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
       },
-   {
+    {
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
@@ -1811,7 +1836,12 @@
         "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here", 
         "redirect_document_id": false
         },
-   {
+    {
+          "source_path": "Teams/environment-readiness.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
           "source_path": "Teams/upgrade-plan-for-quality.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
@@ -1829,6 +1859,11 @@
     {
           "source_path": "Teams/onboarding-checklist-configure-networking.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "Teams/difference-between-call-analytics-and-call-quality-dashboard.md", 
+          "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/monitor-call-quality-qos", 
           "redirect_document_id": false
         },
     {
@@ -1881,6 +1916,16 @@
         "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams",
         "redirect_document_id": true
       },    
+      {
+        "source_path": "Teams/use-network-testing-companion.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out",
+        "redirect_document_id": true
+      },          
+      {
+        "source_path": "Teams/install-prerelease-teams-powershell-module.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-overview",
+        "redirect_document_id": true
+      },          
       {
         "source_path": "Teams/devices/index.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",

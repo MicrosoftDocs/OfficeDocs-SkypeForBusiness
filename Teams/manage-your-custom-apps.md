@@ -36,7 +36,7 @@ To create and manage custom apps in Teams, you'll need two tenants: a test tenan
 
 ### Create test users
 
-Make sure that your developers, whether in-house or external, have accounts in your test tenant. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Learn more about adding users</a>.
+Make sure that your developers, whether in-house or external, have accounts in your test tenant. <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">Learn more about adding users</a>.
 
 ### Allow custom apps in the test tenant
 

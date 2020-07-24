@@ -64,7 +64,7 @@ To get started using call queues, it's important to remember a few things:
   > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
-> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to people in your organization who are online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true.
 
 - To learn more about Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md).
 
@@ -169,11 +169,11 @@ Call agents selected must be one of the following:
 - On-premises Skype for Business Server users
 
   > [!NOTE]
-  > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a **Phone System** license and Enterprise Voice enabled *or* have a Calling Plan. For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a Phone System license and Enterprise Voice enabled *or* have a Calling Plan. For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Users with a **Phone System** license or a Calling Plan that are added to a Microsoft 365 Group, a mail-enabled Distribution List, or a Security Group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
+- Users with a Phone System license or a Calling Plan that are added to a Microsoft 365 Group, a mail-enabled distribution list, or a security group. When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Microsoft 365 Groups are available almost immediately.
 
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
@@ -269,11 +269,28 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 - **Disconnect** The call is disconnected.
 - **Redirect to** When you choose this, select one of the following:
 
-  - **Person in organization** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the caller can be sent to voicemail. To do this, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and is enabled for Enterprise Voice or has a Calling Plan.
 
   - **Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+
+  - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
+
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+  - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
+      - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB. 
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
+
+      Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.
+
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 * * *
 
@@ -287,11 +304,28 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 - **Disconnect** The call is disconnected.
 - **Redirect this call to** When you choose this, you have these options:
-  - **Person in organization** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. To set it up so the person calling in can be sent to voicemail, select a person in your organization and set this person to have their calls forwarded directly to voicemail.
-
-  To learn about licenses required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans.
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
+
+  - **External phone number** Choose this to transfer the caller to an external phone number that you specify. Note the following:
+
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
+      - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB.
+      - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
+
+      Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.
+
+      Voicemail messages are sent to the Microsoft 365 group you specify. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
 ## Change Caller ID for outbound calls
 

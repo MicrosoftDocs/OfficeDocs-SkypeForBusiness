@@ -1,13 +1,13 @@
 ---
 title: Sign in to Teams using modern authentication
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: 
+ms.reviewer: anwara
 description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication. Includes how to tell Teams to ignore the prefill of the user's name (UPN) at sign in.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
@@ -61,6 +61,10 @@ Upon sign in, mobile users will see a list of all the Microsoft 365 accounts tha
 1. If the selected account is currently signed in to other Office 365 or Microsoft 365 apps, then the user will be taken straight to Teams. There is no need for the user to enter their credentials.
     
 2. If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies.
+
+> [!NOTE]
+> For users to experience the sign on experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
+
 
 ### Adding multiple accounts to Teams
 
@@ -119,3 +123,8 @@ Teams requires connectivity to the Internet. To understand endpoints that should
 Modern authentication is available for every organization that uses Teams, so if users are not able to complete the process, there might be something wrong with your domain or your organization's Microsoft work or school account.
 
 For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
