@@ -84,10 +84,19 @@ When you're prompted, sign in using the same admin credentials you used to conne
 
 #### Remove a policy that was directly assigned to users
 
-Run the following to remove a meeting policy from users who were directly assigned that policy. You can specify users by object ID or email address.
+Run the following to remove a meeting policy from users who were directly assigned that policy. You can specify users by email address or object ID.
+
+In this example, the meeting policy is removed from users specified by their email address.
 
 ```powershell
-$users_ids = @("2bdb15a9-2cf1-4b27-b2d5-fcc1d13eebc9", "d928e0fc-c957-4685-991b-c9e55a3534c7", "967cc9e4-4139-4057-9b84-1af80f4856fc")
+$users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
+```
+
+In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt. 
+
+```powershell
+$user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
