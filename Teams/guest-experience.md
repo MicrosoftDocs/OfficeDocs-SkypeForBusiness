@@ -94,7 +94,7 @@ The following table shows the calling and meeting features available to guests, 
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> If the **Guest users permissions are limited** setting in Azure Active Directory (Azure AD) is set to **Yes**, guests don't have permission for certain directory tasks, such as enumerating users, groups, or other directory resources. For example, guests can't access Microsoft Graph or search for users in email. To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493). Additionally, guests can't be assigned to administrative roles in your directory.
+> If the **Guest users permissions are limited** setting in Azure Active Directory (Azure AD) is set to **Yes**, guests don't have permission for certain directory tasks, such as enumerating users, groups, or other directory resources. For example, guests can't access Microsoft Graph or search for users in email. Additionally, guests can't be assigned to administrative roles in your directory. To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493).
 
 ## Frequently asked questions
 
