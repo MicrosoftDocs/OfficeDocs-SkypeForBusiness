@@ -32,7 +32,7 @@ The caller ID functionality is available to all Phone System users regardless of
 
 - Teams Calling Plans 
 
-- Teams Direct Routing 
+- Phone System Direct Routing 
   
 - Online PSTN Connectivity
     
