@@ -30,7 +30,7 @@ Caller ID can be controlled for both inbound and outbound calls for Phone System
   
 The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
 
-- Teams Calling Plans 
+- Microsoft Calling Plans 
 
 - Phone System Direct Routing 
   
