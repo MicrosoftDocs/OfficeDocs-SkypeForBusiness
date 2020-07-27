@@ -55,7 +55,7 @@ Most properties in a team are included and supported by templates. But there are
 
 ## What are base template types
 
-Base template types are special templates that Microsoft created for specific industries. (Is this true from templates in the admin console?)These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that are available in the apps store.
 
 Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden.
 

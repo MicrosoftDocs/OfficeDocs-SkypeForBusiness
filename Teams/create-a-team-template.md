@@ -55,7 +55,7 @@ To get started:
 
 8. Click **Submit** when completed.
 
-Your new template is displayed in the **Team templates** list. The template can be used by other admins to create a team.
+Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
 
 ## Related topics
 

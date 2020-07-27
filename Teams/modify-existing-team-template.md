@@ -1,5 +1,5 @@
 ---
-title: Make a team from an existing team template in Microsoft Teams
+title: Create a team from an existing team template in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -19,7 +19,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Make a team from an existing team template in Microsoft Teams
+# Create a team from an existing team template in Microsoft Teams
 
 Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
