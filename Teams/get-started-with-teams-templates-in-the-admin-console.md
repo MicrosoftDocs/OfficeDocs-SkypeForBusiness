@@ -83,5 +83,5 @@ Once a base template type is defined, you can extend or override these special t
 ## Related topics
 
 - [Create a team template](create-a-team-template.md)
-- [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
-- [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Create a team from an existing team template](modify-existing-team-template.md)
+- [Create a team from an existing team](create-team-from-existing-team.md)

@@ -61,4 +61,4 @@ Your new template is displayed in the **Team templates** list. The template can 
 
 - [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a team from an existing team ](create-team-from-existing-team.md)
-- [Create a team from an existing team ](create-team-from-existing-team.md)
+- [Create a team from an existing team template](modify-existing-team-template.md)
