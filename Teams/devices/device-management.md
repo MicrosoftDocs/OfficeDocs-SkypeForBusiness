@@ -34,7 +34,7 @@ You can manage any device that's certified for, and enrolled in, Teams. A device
 - [Desk phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Collaboration bars](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=16)
 
-These devices are managed the in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and have their own respective sections in the left navigation under **Devices**. This lets you manage each type of device separately.
+These devices are managed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and have their own respective sections in the left navigation under **Devices**. This lets you manage each type of device separately.
 
 ## Manage Teams Rooms devices
 
