@@ -48,8 +48,8 @@ The following phones are Certified for Microsoft Teams:
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
-| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | January 2020                 |
-| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | December 2019                |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
 | Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                                                                                                                                                                                                                                | June 2019                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | March 2020                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | June 2019                    |
@@ -86,6 +86,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Update #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Update #4                |
 | Poly CCX400         | 1.0.1.0054           | Update #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | Update #3                |

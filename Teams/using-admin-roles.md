@@ -27,15 +27,13 @@ appliesto:
 
 # Use Microsoft Teams administrator roles to manage Teams
 
-Using Azure Active Directory (Azure AD), you can designate administrators who need different levels of access for managing Microsoft Teams. Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs. 
+Using Azure Active Directory (Azure AD), you can designate administrators who need different levels of access for managing Microsoft Teams. Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs.
 
 ## Teams roles and capabilities
 
 There are four Teams admin roles available: Teams service administrator, Teams communications administrator, Teams communications support specialist, and Teams communications support engineer. Review the following table to understand what each role can do and which tools the admin can use in the Microsoft Teams admin center and PowerShell.
 
-To follow along, go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
-
-
+To follow along, you must be an admin. The instructions for getting the permissions are in this article.
 
 <!-- add Global admin role? -->
 
