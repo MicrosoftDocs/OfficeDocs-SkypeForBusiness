@@ -55,3 +55,9 @@ Microsoft Teams lets you create a team from an existing team that can be saved a
 10. In the **Manage Teams** window, edit the **Members**, **Channels**, and **Settings** fields.
 
 ![An image of the Team templates dialog with Add highlighted.](media/teams-edit-channel-settings.png)
+
+## Related articles:
+
+- [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a team from an existing team template](modify-existing-team-template.md)
+- [Create a team template](create-a-team-template.md)
