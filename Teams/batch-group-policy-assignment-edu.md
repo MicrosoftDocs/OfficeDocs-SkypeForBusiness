@@ -30,7 +30,7 @@ You can assign a meeting policy to a security group that the users are members o
 
 - **Use [policy assignment to groups](#assign-a-policy-to-a-group) to assign a meeting policy to a security group (recommended)**. This method lets you assign a policy based on group membership. As members are added to or removed from a group, their policy assignments are updated accordingly. We recommend you use this method because it reduces the time to manage policies for new users or when users' roles change. This method works best for groups of up to 50,000 users but will also work with larger groups.
 
-- **Use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy directly to users in bulk**. You can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches. Keep in mind that with this method, you'll need to re-run the batch assignment whenever you have new users to assign the policy to those users.
+- **Use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy directly to users in bulk**. You can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches. With this method, when you have new users, you'll need to re-run the batch assignment to assign the policy to those new users.
 
 Remember that in Teams, users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
 
@@ -65,7 +65,11 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 
 ### Remove a policy that was directly assigned to users
 
-A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user was directly assigned a policy (either individually or through a batch assignment), that user won't inherit a meeting policy from a security group. This also means that if a user has a meeting policy that was directly assigned to them, you'll have to first remove that meeting policy from the user before they can inherit a meeting policy from a security group. To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user was directly assigned a policy (either individually or through a batch assignment), that user won't inherit a meeting policy from a security group.
+
+This also means that if a user has a meeting policy that was directly assigned to them, you'll have to first remove that meeting policy from the user before they can inherit a meeting policy from a security group.
+
+To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
@@ -163,21 +167,6 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 ## Assign a policy to a batch of users
 
 Follow these steps to assign a custom meeting policy named EducatorMeetingPolicy directly to your staff and educators in bulk.
-
-<!-- ### Using the Microsoft Teams admin center
-
- To assign a policy to users in bulk:
-
-1. In the left navigation of the Microsoft Teams admin center, select **Users**.
-2. Search for the staff and educators you want to assign the policy to or filter the view to show the users you want.
-3. In the **&#x2713;** (check mark) column, select the users, and then click **Edit settings**.
-5. In the **Edit settings** pane, under **Meeting policy**, select **EducatorMeetingPolicy**, and then click **Apply**.
-
-    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-batch.png)
-
-To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you click **Apply** to submit your policy assignment, click **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, click **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
-
--->
 
 ### Using PowerShell
 
