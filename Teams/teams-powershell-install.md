@@ -97,7 +97,7 @@ To start working with Teams PowerShell, sign in with your Azure credentials.
 > If you're using the latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credentials $credential
