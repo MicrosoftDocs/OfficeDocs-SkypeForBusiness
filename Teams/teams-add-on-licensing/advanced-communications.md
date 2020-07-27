@@ -1,5 +1,5 @@
 ---
-title: Advanced Communications Teams add-on license
+title: Advanced Communications add-on for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -9,8 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
-f1.keywords:
+description: Learn about the Advanced Communications add-on SKU for Microsoft Teams. 
 - NOCSH
 ms.collection: 
   - M365-collaboration
@@ -18,22 +17,26 @@ appliesto:
   - Microsoft Teams
 ---
 
-Advanced Communications Teams add-on license
+Advanced Communications add-on for Microsoft Teams
 =============================================
 
-Starting August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on license to any paid Microsoft 365 or Office 365 subscription. 
+Starting August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on license to any paid Microsoft 365 or Office 365 subscription. If your organization is looking to further enhance your communication experience, get Advanced Communications for enhanced calling and meeting capabilities that include large meetings, meeting customization, communications integrations and workflows, and advanced tools to manage your organization's communications policies.
 
 ## What is Advanced Communications?
 
-Advanced Communications offers enhanced calling and meeting capabilities and addresses a spectrum of communications needs, including the following:
+Advanced Communications provides calling and meeting capabilities that address a spectrum of communications needs, including the following:
 
 - **Reach larger audiences**: Help your users stay connected with live events for up to 20,000 participants and interactive meetings for 1,000 participants with the capability to enable up to 20,000 participants in a view-only meeting experience.
-- **Tailor and customize meetings**: Drive standardization across meetings  for your internal and custom-facing scenarios, with features such as custom branded meeting lobby. 
+- **Tailor and customize meetings**: Drive standardization across meetings for your internal and custom-facing scenarios, with features such as custom branded meeting lobby. Implement with flexibility across your organization's departments. 
 - **Connect meetings and calling to workflows**: Integrate workflows to your communication system. For example, have your compliance recording policy automated, and become part of the communication workflow, without the need for manual intervention.  
 - **Manage your organization communications**: Monitor, track, and analyze data on users and devices to ensure a smooth experience.
 
 > [!NOTE]
-> Advanced Communications is not yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments. We're planning on make it available later.
+> Advanced Communications isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments. We're planning on make it available later.
+
+## Feature availability
+
+
 
 ### What's the differeence between overflow meetings and live events?
 
