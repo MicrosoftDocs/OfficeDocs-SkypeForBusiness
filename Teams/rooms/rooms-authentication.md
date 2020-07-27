@@ -70,7 +70,7 @@ For more information about disabling basic authentication in Exchange Online, se
 
 To ensure successful authentication to your on-premises Exchange server and/or Skype for Business server, you must make sure the resource account that's used with Microsoft Teams Rooms is configured to get authorization from Azure AD. 
 
-Teams Rooms authentication flows vary depending on your authenitcation configuration. For customers using managed domain, Teams Rooms uses [OAuth 2.0 Resouece Owner Password Credentials](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc) with Azure Active Diretory, however for customers using federated domain, [OAuth 2.0 SAML bearer assertion flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-saml-bearer-assertion) is used.
+Teams Rooms authentication flows vary depending on your authentication configuration. For customers using a managed domain, Teams Rooms uses [OAuth 2.0 Resouece Owner Password Credentials](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc) with Azure Active Directory, however for customers using a federated domain, [OAuth 2.0 SAML Bearer Assertion Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-saml-bearer-assertion) is used.
 
 > [!NOTE]
 > Your identity provider may need specific configurations or settings for integration with Azure Active Directory or Office 365. Contact your identity provider if you need help with configurating authentication with Teams Rooms.
@@ -85,7 +85,7 @@ However, because Microsoft Teams Rooms uses [resource owner password credentials
 - You must have Exchange Server 2016 CU8 or later, or Exchange Server 2019 CU1 or later.
 - You must have Skype for Business Server 2015 CU5 or later, or Skype for Business Server 2019 or later.
 - MFA isn't supported regardless of the topology you have.
-- If you use a third-party authentication provider that's supported by Azure AD, it must support OAuth 2.0 and active authentication flows throgh WS-Trust or WS-Federation. 
+- If you use a third-party authentication provider that's supported by Azure AD, it must support an active authentication flow through WS-Trust.
 - Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published in [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 
 ### Configure Exchange Server
