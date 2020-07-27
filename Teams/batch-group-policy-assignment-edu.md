@@ -24,6 +24,8 @@ f1keywords:
 > [!NOTE]
 > For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
 
+## Overview
+
 Do you need to give your students and educators access to different features in Microsoft Teams? You can quickly identify the users in your organization by license type and then assign them the appropriate policy. This tutorial shows you how to assign a meeting policy to large sets of users in your school. You can assign policies using the Microsoft Teams admin center and PowerShell and we'll show you both ways.
 
 You can assign a meeting policy to a security group that the users are members of or directly to users at scale through a batch policy assignment. You'll learn how to:
