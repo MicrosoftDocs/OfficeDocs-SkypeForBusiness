@@ -46,7 +46,7 @@ Microsoft Teams lets you create a team from an existing team that can be saved a
     - Privacy
     - Classification
 
-8. Modify the **Channels** and **Conversations** tabs as necessary. See [Manage team policies](media/teams-policie.md) for information on completing those fields.
+8. Modify the **Channels** and **Conversations** tabs as necessary. See [Manage team policies](teams-policies.md) for information on completing those fields.
 
  ![An image of the Team templates dialog with Add highlighted.](media/teams-edit-dialog-apply.png)
 
