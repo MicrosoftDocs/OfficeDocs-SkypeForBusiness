@@ -236,11 +236,11 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 
 |Allow IP video|Mode for IP video|Meeting experience|
 |---------|---------|---------|
-|User: **On**</br>Participant: **On** |User: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.|
-|User: **On**</br>Participant: **On** |User: **Outgoing and incoming video enabled**          |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users.         |
-|User: **On**</br>Participant: **Off** |Participant: **Outgoing and incoming video enabled**         |The **Allow IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.         |
-|User: **On**</br>Participant: **Off** |Participant: **Disabled**         |The **Mode for IP video** setting takes precedence. Participants can't see incoming or outgoing video.|
-|User: **Off**    |       |The **Allow IP video** setting takes precedence because it's turned off for the user (organizer). No one can turn on video in meetings organized by the user who is assigned this policy.         |
+|Organizer: **On**</br>Participant: **On** |Organizer: **Disabled**        |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can't turn on or view videos shared by meeting participants in meetings organized by the user or other users.|
+|Organizer: **On**</br>Participant: **On** |Organizer: **Outgoing and incoming video enabled**          |The **Mode for IP video** setting takes precedence. The user who is assigned this policy can turn on or view videos shared by meeting participants in meetings organized by the user and other users.         |
+|Organizer: **On**</br>Participant: **Off** |Participant: **Outgoing and incoming video enabled**         |The **Allow IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.         |
+|Organizer: **On**</br>Participant: **Off** |Participant: **Disabled**         |The **Mode for IP video** setting takes precedence. Participants can't see incoming or outgoing video.|
+|Organizer: **Off**    |       |The **Allow IP video** setting takes precedence because it's turned off for the user (organizer). No one can turn on video in meetings organized by the user who is assigned this policy.         |
 
 **OPTION 2: TEXT**
 
@@ -271,7 +271,7 @@ For Teams mobile clients, the ability to share photos and videos is determined b
 |Disable audio and video in meetings  |Mode for IP audio: **Disabled**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A       |
 |Enable only incoming video and audio in meetings  |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **Off**       |
 |Disable video in meetings and enable audio-only calls |  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A        
-|Enable audio and video in meetings (default)    |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **On**     |
+|Enable audio and video in meetings    |Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for IP video: **Outgoing and incoming video enabled** (default)<br>Allow IP video: **On**     |
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
 
