@@ -36,7 +36,7 @@ The image shows sending a chat in Cortana on a mobile device.
 
 ## Admin control and Limitations
 
-Cortana voice assistance in Teams is delivered using services that fully comply with Office 365’s enterprise-level privacy, security, and compliance promises as reflected in the Online Services Terms (OST). The feature will be enabled by default for tenants. 
+Cortana voice assistance in Teams is delivered using services that fully comply with the Office 365 enterprise-level privacy, security, and compliance promises as reflected in the Online Services Terms (OST). The feature will be enabled by default for tenants. 
 
 Tenant admins can control who in their tenant can use Cortana voice assistance in Teams using a policy (TeamsCortanaPolicy). This policy can be set at either a user account level or tenant level. Admins can use the CortanaVoiceInvocationMode field within this policy control to determine whether Cortana is disabled, enabled with push button invocation only, or with wake word invocation as well (applicable to devices that support it).
 
@@ -54,19 +54,19 @@ Admins can use the following PowerShell cmdlets to manage this policy (the polic
 
 For example, the command below creates a new policy with name "EmployeeCortanaPolicy" where Cortana voice assistant in Microsoft Teams is disabled.  
 
-```DOS
+```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled 
 ```
 
-This example shows updating an existing policy with name "EmployeeCortanaPolicy" and enabling Cortana voice assistant in Microsoft Teams with push button invocation only. Users will be able to invoke Cortana by tapping on the Cortana mic button in Teams. Wake word (‘Hey Cortana”) invocation will be disabled.  
+This example shows updating an existing policy with name "EmployeeCortanaPolicy" and enabling Cortana voice assistant in Microsoft Teams with push button invocation only. Users will be able to invoke Cortana by tapping on the Cortana mic button in Teams. Wake word ("Hey Cortana”) invocation will be disabled.  
 
-```DOS
+```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride 
 ```
 
 This example shows updating the policy and enabling Cortana voice assistant with both push button and wake-word invocation. 
 
-```DOS
+```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride 
 ```
 
