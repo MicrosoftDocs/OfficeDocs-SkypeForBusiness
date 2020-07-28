@@ -20,7 +20,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Cortana voice assistance in Teams
