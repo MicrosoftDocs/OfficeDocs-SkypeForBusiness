@@ -70,7 +70,7 @@ For more information about disabling basic authentication in Exchange Online, se
 
 To ensure successful authentication to your on-premises Exchange server and/or Skype for Business server, you must make sure the resource account that's used with Microsoft Teams Rooms is configured to get authorization from Azure AD. 
 
-Teams Rooms authentication flows vary depending on your authentication configuration. For customers using a managed domain, Teams Rooms uses [OAuth 2.0 Resouece Owner Password Credentials](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc) with Azure Active Directory, however for customers using a federated domain, [OAuth 2.0 SAML Bearer Assertion Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-saml-bearer-assertion) is used.
+Teams Rooms authentication flows vary depending on your authentication configuration. For customers using a managed domain, Teams Rooms uses [OAuth 2.0 Resource Owner Password Credentials](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) with Azure Active Directory. However, for customers using a federated domain, [OAuth 2.0 SAML Bearer Assertion Flow](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) is used.
 
 > [!NOTE]
 > Your identity provider may need specific configurations or settings for integration with Azure Active Directory or Office 365. Contact your identity provider if you need help with configurating authentication with Teams Rooms.
