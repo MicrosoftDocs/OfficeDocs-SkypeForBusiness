@@ -43,4 +43,4 @@ Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.micros
 In the **Microsoft Teams admin center**, select **Messaging Policies** from the left navigation, then either create a new policy or edit an existing policy, and set the **Translate messages** option to **On**.
 
 > [!NOTE]
-> The service does the translation and delivers it to the client with no effect on the content captured in the compliance records. To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+> The service does the translation and delivers it to the client with no effect on the content captured in the compliance records. To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
