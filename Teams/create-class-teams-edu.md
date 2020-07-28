@@ -55,17 +55,17 @@ Automating team creation saves both IT admins and teachers time. It ensures that
 
 ### Considerations
 
-SDS creates teams in two steps. The first step creates a Microsoft 365 group in Azure Active Directory (Azure AD) and the second step automatically turns that group into a team. The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. We recommend institutions with 500,000 teams or more to turn off the automatic team creation toggle in SDS and use the [teacher-led team creation method](#teacher-led-team-creation-from-office-365-class-groups).  
+SDS creates teams in two steps. The first step creates a Microsoft 365 group in Azure Active Directory (Azure AD) and the second step automatically turns that group into a team. The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. We recommend institutions with 500,000 teams or more to turn off the automatic team creation toggle in SDS and use the [educator-led team creation method](#educator-led-team-creation-from-office-365-class-groups).  
 
 ### Get started
 
 To get started, go to [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) and contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) deployment assistance.  
 
-## Teacher-led team creation from Office 365 class groups
+## Educator-led team creation from Office 365 class groups
 
 **This feature is coming soon, by mid-August 2020.**
 
-Teacher-led team creation is a great deployment option if you want to make it easy for teachers to quickly create the classes they need. We also recommend that institutions with more than 500,000 teams use this method to minimize the number of extraneously-created teams.  
+Educator-led team creation is a great deployment option if you want to make it easy for teachers to quickly create the classes they need. We also recommend that institutions with more than 500,000 teams use this method to minimize the number of extraneously-created teams.  
 
 This hybrid approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes) to create them on your own. After class groups are prepared, educators can convert their groups into teams by using the **Suggested classes** icon.
 
@@ -103,7 +103,7 @@ To get started with the SDS method, go to [School Data Sync (SDS)](https://docs.
 To use the Graph API method, see [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) and [Create a class team](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http).  
 
 > [!NOTE]
-> To use this method with SDS, you'll need to turn the automatic team creation toggle off in your SDS profile. You can also use a combination of automatic and teacher-led team creation for required and optional class teams by using two SDS profiles.
+> To use this method with SDS, you'll need to turn the automatic team creation toggle off in your SDS profile. You can also use a combination of automatic and educator-led team creation for required and optional class teams by using two SDS profiles.
 
 ## PowerShell script using Graph APIs
 
@@ -142,6 +142,6 @@ Students and educators will get the most out of Teams when they can use it with 
 ## Recommended best practices
 
 - Deploy early! Deploy early to ensure everything is working reliably and ready for the first day of school. If you’re using SDS, you don't need the full student membership in order to start SDS deployment. It will sync the students when that information is available in your SIS.
-- If you have more than 500,000 teams, we recommend using the [teacher-led team creation method](#teacher-led-team-creation-from-office-365-class-groups). It reduces unused teams and clutter by only creating class teams that are relevant and needed.  
-- If there are any issues (for example, classes are missing) with SDS automatic team creation and teachers need them immediately, then they can use the  [teacher-led team creation method](#teacher-led-team-creation-from-office-365-class-groups) to retry. [Manual team creation](#manual-team-creation) is another solution, however, it won't keep your team membership updated.  
+- If you have more than 500,000 teams, we recommend using the [educator-led team creation method](#educator-led-team-creation-from-office-365-class-groups). It reduces unused teams and clutter by only creating class teams that are relevant and needed.  
+- If there are any issues (for example, classes are missing) with SDS automatic team creation and teachers need them immediately, then they can use the  [educator-led team creation method](#educator-led-team-creation-from-office-365-class-groups) to retry. [Manual team creation](#manual-team-creation) is another solution, however, it won't keep your team membership updated.  
 - The tenant team limit is 500,000 teams. Therefore, admins should proactively try to reduce the number of unused teams to avoid hitting these limits and extending their setup time. For more information about limits, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).  
