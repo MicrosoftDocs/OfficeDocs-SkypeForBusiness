@@ -47,7 +47,7 @@ At release on August 1, 2020, the following features are available:
 - Compliance recording integration (ISV)
 - Contact Center solution integration (ISV)
 
-The following features will be available later in 2020:
+The following features will be available later this year:
 
 - Interactive Teams meetings for up to 1,000 participants
 - Interactive Teams meetings for 1,000 participants with the capability to enable up to 20,000 in a view-only meeting experience
