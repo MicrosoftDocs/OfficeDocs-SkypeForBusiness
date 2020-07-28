@@ -62,7 +62,7 @@ Before you begin, make sure you understand the identity models to use with Offic
 
 To turn on modern authentication for Exchange Online, see [Enable modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). If you use Skype for Business Online, you should also make sure that modern authentication is turned on for Skype for Business Online. To learn more, see [Skype for Business Online: Enable your tenant for modern authentication](https://aka.ms/SkypeModernAuth).
 
-We recommended that you do not remove basic authentication policies for Exchange Online or disable basic authentication for your tenant until you have validated that Microsoft Teams Rooms devices can successfully sign in with Exchange Online, Teams and Skype for Business Online.
+We recommended that you do not remove basic authentication policies for Exchange Online or disable basic authentication for your tenant until you have validated that Microsoft Teams Rooms devices can successfully sign in with Exchange Online, Teams, and Skype for Business Online.
 
 For more information about disabling basic authentication in Exchange Online, see [Disable Basic authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online).
 
