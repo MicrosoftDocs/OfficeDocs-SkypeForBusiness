@@ -96,9 +96,14 @@ To allow trusted users to upload custom apps, follow these steps:
 
     These users can now upload the app manifest to validate that the app is working correctly in the production tenant.
 
-## Upload to your organization's app store
+## Upload
 
 To make the app available to users in your organization's app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. Click **Upload**, click **Select a file**, and then select the app package that you received from the developer.
+
+   ![Screenshot of uploading an app in the admin center](media/manage-your-lob-apps-upload-new-app.png) 
 
 ## Set up and manage
 
