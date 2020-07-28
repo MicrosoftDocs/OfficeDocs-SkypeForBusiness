@@ -33,30 +33,27 @@ Microsoft Teams lets you create a team from an existing team that can be saved a
 
  ![An image of the Team templates starting point screen with Start with an existing template highlighted.](media/team-existing-team-as-template.png)
 
-5. Select a team to use as a starting point.
+5. Select a team to use as a starting point by clicking next to the team name, and then click **Next**.
 
-6. In the selected team window, click **Edit**.
+![An image of the list of teams with one team highlighted.](media/team-existing-team-selection.png)
 
- ![An image of the Team templates dialog with Add highlighted.](media/teams-existing-team-edit.png)
+6. In the **Template settings** section, complete the following fields and then click **Next**:
+    - Template name
+    - Template short and long descriptions
+    - Locale visibility  
+  
+7. In the **channels, tabs, and apps** section, add any channels and apps that your team needs.
 
-7. In the team profile window, complete the following fields:
+    1. In the **Channels** section, click **Add**.
+    2. In the **Add** dialog, name the channel.
+    3. Add a description.
+    4. Decide if the channel should be shown by default.
+    5. Search for an app name that you want to addd to the channel.
+    6. Click **Apply** when finished.
 
-    - Team name
-    - Description
-    - Privacy
-    - Classification
+8. Click **Submit** to save your changes.
 
-8. Modify the **Channels** and **Conversations** tabs as necessary. See [Manage team policies](teams-policies.md) for information on completing those fields.
-
- ![An image of the Team templates dialog with Add highlighted.](media/teams-edit-dialog-apply.png)
-
-9. Click **Apply** to save your changes.
-
-10. In the **Manage Teams** window, edit the **Members**, **Channels**, and **Settings** fields.
-
-![An image of the Team templates dialog with Add highlighted.](media/teams-edit-channel-settings.png)
-
-## Related articles:
+## Related articles
 
 - [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a team from an existing team template](modify-existing-team-template.md)
