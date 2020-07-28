@@ -38,7 +38,6 @@ Advanced Communications is available in all Microsoft 365 markets as an add-on t
 > [!NOTE]
 > Advanced Communications isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments. We're planning on make it available later.
 
-
 ## Feature availability
 
 At release on August 1, 2020, the following features are available:
@@ -55,7 +54,7 @@ The following features will be available later this year:
 
 We'll be adding more customizations, tools, and communications enhancements in the coming months. 
 
-Note that communications compliance and communications data loss prevention (DLP) isn't included in Advanced Communications.
+Note that Advanced Communications doesn't include communications compliance and communications data loss prevention (DLP).
 
 ## Pricing
 
@@ -69,8 +68,6 @@ A 60-day trial is available starting August 4, 2020. You can get the trial throu
 
 With Advanced Communications overflow meetings, any meeting with more than 300 attendees will provide a way for up to 20,000 total participants to join the meeting in a view-only experience. Live events enable additional capabilities. With live events, 20,000 attendees can watch the broadcast, plus interact with Q&A in Teams, conversations in Yammer, or view-only in Microsoft Stream. Additionally, with Advanced Communications, the length of the live events is increased from 4 hours to 16 hours and you can host up to 50 simultaneous live events per tenant.
 
-
-
 ## Related topics
 
-- [Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
+[Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
