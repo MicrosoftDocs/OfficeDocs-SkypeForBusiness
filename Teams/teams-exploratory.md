@@ -74,7 +74,7 @@ Admins can disable the ability for end users to run the Teams Exploratory experi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience. 
+You can turn off a user's ability to install trial apps and services, which would prevent the user from running the Teams Exploratory experience. 
 
 1. From the Microsoft 365 admin center, go to **Settings** > **Org settings**, select **Services**, and then select **User owned apps and services**.
 
@@ -166,4 +166,3 @@ Microsoft Teams Exploratory experience licenses initiated within 90 days of your
 For agreements without an anniversary or yearly renewal date, the subsequent year after the first end user activates the Microsoft Teams Exploratory experience licenses will be treated as the anniversary or renewal date. Users on the Microsoft Teams Exploratory license must be converted to a paid license by that date each year, according to the policies outlined above.
 
 For example, if the first end user activates Microsoft Teams Exploratory on June 19, 2020, then they and all other eligible users in the customer tenant must convert to a paid license with Teams by June 19, 2021. 
-
