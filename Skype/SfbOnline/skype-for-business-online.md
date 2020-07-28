@@ -1,6 +1,6 @@
 ---
 title: Skype for Business Online Admin
-ms.reviewer: 
+ms.reviewer: brandber
 description: Learn how to manage Skype for Business Online for your organization.
 services: skype-for-business-online-admin
 author: tonysmit
@@ -14,12 +14,11 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1.keywords: 
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ---
 # Skype for Business Online Admin
+
+Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the hub for teamwork in Microsoft 365. <a href=https://aka.ms/sfboannounce>Learn more</a>. 
 
 Learn how to manage Skype for Business Online for your organization.
 
@@ -153,6 +152,7 @@ Learn how to manage Skype for Business Online for your organization.
                         <h3>New features</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Calling Plans in Canada (General Availability)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Calling Plans in Australia (Preview only)</a></p>
+                        <p><a href="/MicrosoftTeams/teams-powershell-overview.md">Skype for Business Online Connector integration with Teams PowerShell (Preview only)</a></p>
                     </div>
                 </div>
             </div>

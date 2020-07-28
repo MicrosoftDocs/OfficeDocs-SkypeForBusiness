@@ -32,6 +32,8 @@ It's a good idea to read this article before you start the wizard. When you're r
 
 > [!IMPORTANT]
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes on on-premises Exchange Server.
+>
+> The Getting Started Wizard doesn't support Skype for Business hybrid deployments. If you have a Skype for Business hybrid deployment and want to set up Business Voice, check out [Set up Phone System in your organization](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
@@ -44,7 +46,7 @@ If you don't want to customize anything immediately, you're done! You can start 
 
 <table>
     <tr>
-        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td> 
+        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -54,7 +56,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>In addition to a new local phone number, you can purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you need to purchase a calling plan. To port one or more numbers to Microsoft 365, go to the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
+        <td>In addition to a new local phone number, you can purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you need to purchase Communications Credits. To port one or more numbers to Microsoft 365, go to the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

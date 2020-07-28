@@ -20,8 +20,6 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
-
 ## Overview of Location-Based Routing
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. This article describes how to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Phone System Direct Routing.
@@ -246,6 +244,10 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed. 
 If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.  
+
+### Media bypass requirement for Location-Based Routing
+
+If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
 ## Next steps
 

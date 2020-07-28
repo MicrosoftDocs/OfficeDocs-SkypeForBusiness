@@ -40,9 +40,9 @@ A customer with a VLA must know their VLSC credentials, which will be used to ad
   
 To obtain a MAK, access the Volume Licensing Service Center to view agreements and download product keys (MAK). For more information, go to the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
-## MAK for Office 365 without VLSC access
+## MAK for Microsoft 365 or Office 365 without VLSC access
 
-If the customer doesn't have a Volume License Agreement, Skype for Business activations will be much more difficult to manage. However, Office 365 customers without VLSC access can obtain a promotional MAK by providing the following information to the OEM selling the Skype Room System:
+If the customer doesn't have a Volume License Agreement, Skype for Business activations will be much more difficult to manage. However, Microsoft 365 and Office 365 customers without VLSC access can obtain a promotional MAK by providing the following information to the OEM selling the Skype Room System:
   
 - Company name
     

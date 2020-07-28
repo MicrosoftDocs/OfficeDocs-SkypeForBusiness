@@ -24,14 +24,14 @@ description: "Learn about using Azure ExpressRoute to have a network with bandwi
 
 # ExpressRoute and QoS in Skype for Business Online
 
-Connect to Office 365 over a dedicated network connection using Azure ExpressRoute for Office 365 and Skype for Business Online. Your dedicated connection for your Skype for Business apps will give you reliable and predictable performance as well as privacy away from the public internet. You can now buy a better network connection to Office 365 and Skype for Business Online that adds predictability, business class reliability and comes with an uptime SLA.
+Connect to Microsoft 365 or Office 365 over a dedicated network connection using Azure ExpressRoute for Microsoft 365 or Office 365 and Skype for Business Online. Your dedicated connection for your Skype for Business apps will give you reliable and predictable performance as well as privacy away from the public internet. You can now buy a better network connection to Microsoft 365 or Office 365 and Skype for Business Online that adds predictability, business class reliability and comes with an uptime SLA.
   
 > [!NOTE]
 > A new version of the bandwidth calculator is available: [Skype for Business, Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkId=715766). However, the directions in this document use the Lync 2010 and 2013 Bandwidth Calculator. 
   
 ## Skype for Business Online and ExpressRoute
 
-Working with a Microsoft's ExpressRoute partner, you can connect a variety of Office 365 applications including Skype for Business Online in the cloud over a dedicated connection. However, the real-time voice and video communications capabilities for Skype for Business require network services that are specifically configured to support these Office 365 real-time workloads. This includes a network that has sufficient bandwidth to carry the required volume of traffic and be capable of supporting Quality of Service (QoS) to deliver a business class experience for your users.
+Working with a Microsoft's ExpressRoute partner, you can connect a variety of Microsoft 365 and Office 365 applications including Skype for Business Online in the cloud over a dedicated connection. However, the real-time voice and video communications capabilities for Skype for Business require network services that are specifically configured to support these Microsoft 365 or Office 365 real-time workloads. This includes a network that has sufficient bandwidth to carry the required volume of traffic and be capable of supporting Quality of Service (QoS) to deliver a business class experience for your users.
   
 This document is designed to help you, administrators and network designers understand the special challenges needed to support real-time communications, the tools provided by Microsoft to assist you in designing a network capable of supporting those requirements, and to walk you through the design process using a case study. 
   
@@ -87,7 +87,7 @@ To deliver consistent and high quality real-time services for Dewey Law LLC., th
     
 Now that you have the basics covered, to deliver business grade voice services for Dewey Law LLC., we recommend using Multi-Protocol Label Switching (MPLS) IP service from a network service partner that will connect to the Azure ExpressRoute service. MPLS provides an IP service with performance guarantees for delay, jitter and packet loss. However, if MPLS isn't available, Ethernet connected to one of our ExpressRoute data exchange partners can also be used.
   
-MPLS providers offer several class of service levels but each use different terms to identify them. You will have to work closely with your provider to ensure they understand the data that you have input into the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the options available and are recommended for the different Office 365 real-time workload applications.
+MPLS providers offer several class of service levels but each use different terms to identify them. You will have to work closely with your provider to ensure they understand the data that you have input into the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the options available and are recommended for the different Microsoft 365 and Office 365 real-time workload applications.
   
 There are two options for how data from Skype for Business applications can be mapped to the appropriate MPLS classes of service:
   
@@ -117,7 +117,7 @@ This also requires that the association of the Layer 3 and Layer 2 QoS prioritie
 
 Once you have the QoS network prerequisites and mechanisms in place to support ExpressRoute, the next step is to place an order for the ExpressRoute network access services. When ordering ExpressRoute access services for Dewey Law LLC from the Microsoft network services provider partner, you will need to provide two things:
   
-- The total amount of bandwidth required to connect each site to ExpressRoute and Office 365.
+- The total amount of bandwidth required to connect each site to ExpressRoute and Microsoft 365 or Office 365.
     
 - The total bandwidth required for each class of service that is required to support Skype for Business apps that are being used at Dewey Law LLC. The class of service bandwidth requirement is driven by the volume of traffic you expect from each of the various Skype for Business applications like voice, video, IM, presence, and screen sharing.
     
@@ -153,7 +153,7 @@ We have defined three personas for Dewey Law LLC., 'Executive/Partner', 'Associa
    
 You will need to enter the information in the **Distribution of users by locations and positions** table above in the 'Sites' worksheet of the Lync 2010 and 2013 Bandwidth Calculator. As the number of users in the regional offices is identical, they are defined for one 'Site' and specified that there were three instances of it. The same was done for the large and small branches where there were 24 and 50 users in sites respectively.
   
-After specifying the settings for each persona, you need to enter the number of users in each persona at each site in the 'Sites' worksheet. The total users for all sites is updated automatically. Since there aren't users at the Office 365 location, they should all be entered in the 'Branches' rows of the worksheet. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
+After specifying the settings for each persona, you need to enter the number of users in each persona at each site in the 'Sites' worksheet. The total users for all sites is updated automatically. Since there aren't users at the Microsoft 365 or Office 365 location, they should all be entered in the 'Branches' rows of the worksheet. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
   
 > [!TIP]
 >  The full spreadsheet also includes the maximum number of simultaneous sessions for each application, but we deleted those columns to save space.
@@ -206,7 +206,7 @@ We can calculate the total bandwidth that will traverse the WAN and the amount o
    
 This means that Skype for Business Online traffic which will traverse the express route will be approximately 114 Mbps, so Dewey will need at least the 200 Mbps subscription for ExpressRoute. Multiple ExpressRoute circuits may be purchased at different ExpressRoute peering locations. This could be recommended if Dewey's sites are in different geographical regions, or to provide resiliency in the event that connection to the ExpressRoute circuit fails. If you purchase ExpressRoute circuits in multiple Azure regions, the ExpressRoute premium add-on will be required to receive global connectivity over ExpressRoute.
   
-Now that you have the total amount of required bandwidth, and class of service (CoS) bandwidth numbers you can place your orders with the selected network service provider(s). Don't forget to include estimates for traffic for other applications and services. We offer network planning guidance for other Office 365 services, including bandwidth calculators for Exchange and OneDrive. Bandwidth subscription for network service provider will be higher because intra-site traffic will need to be added back in. The Lync 2010 and 2013 Bandwidth Calculator provides only an estimate of the expected traffic, therefore it is recommended to confirm the network's ability to support that volume of traffic conducting a stress test. 
+Now that you have the total amount of required bandwidth, and class of service (CoS) bandwidth numbers you can place your orders with the selected network service provider(s). Don't forget to include estimates for traffic for other applications and services. We offer network planning guidance for other Microsoft 365 and Office 365 services, including bandwidth calculators for Exchange and OneDrive. Bandwidth subscription for network service provider will be higher because intra-site traffic will need to be added back in. The Lync 2010 and 2013 Bandwidth Calculator provides only an estimate of the expected traffic, therefore it is recommended to confirm the network's ability to support that volume of traffic conducting a stress test. 
   
 > [!TIP]
 > Stress testing your network is a highly recommended when you are performing a network pre-assessment. 
@@ -219,7 +219,7 @@ Stress testing provides some reassurance that the network can support the traffi
 
 Microsoft's ExpressRoute service provides a dedicated connection to the Azure cloud, but Office 365 Real Time Workloads' communication services will require network services with sufficient bandwidth to carry the volume of traffic and are capable of supporting Quality of Service (QoS) to deliver a business grade user experience. A QoS capable connection must be configured end-to-end (PC, network switches and routers to the cloud) as any part in the path that fails to support QoS could degrade the quality of the entire call.
   
-The purpose of this section is to help you understand the challenges when supporting real-time traffic in an IP network and configuring and supporting a successful ExpressRoute deployment of Office 365 Real Time Workloads using a Microsoft's ExpressRoute Exchange Provider or Network Service Provider partner.
+The purpose of this section is to help you understand the challenges when supporting real-time traffic in an IP network and configuring and supporting a successful ExpressRoute deployment of Microsoft 365 or Office 365 Real Time Workloads using a Microsoft's ExpressRoute Exchange Provider or Network Service Provider partner.
   
 QoS is accepted from your networks exclusively over ExpressRoute network circuits and is used within the Microsoft network for Skype for Business traffic. Today, portions of some outbound connections from Microsoft have missing DSCP values for Skype for Business. Until outbound traffic is fully marked with DSCP values, you are encouraged to follow the guidelines for adding QoS markings to traffic at your network boundary as described in the **Implementing QoS using Network Access Control List (ACL)** section of this article.
   
@@ -229,7 +229,7 @@ Delivering business quality voice and video services places special demands on a
   
 Knowing the impact of lost voice packets, designers came up with two approaches to improve the performance of voice and video over IP:
   
-- Make the voice coding/decoding more resilient when packets are lost. This can be done by either using forward error correction (FEC) to correct a percentage of the encountered errors which is a capability found in Office 365 Real Time Transport, or by designing voice decoding systems that attempt to mask the effect of lost packets which is a characteristic of Microsoft codecs. 
+- Make the voice coding/decoding more resilient when packets are lost. This can be done by either using forward error correction (FEC) to correct a percentage of the encountered errors which is a capability found in Microsoft 365 or Office 365 Real Time Transport, or by designing voice decoding systems that attempt to mask the effect of lost packets which is a characteristic of Microsoft codecs. 
     
 - Use transport services that use quality of service mechanisms to guarantee the network's performance with respect to delay, packet loss and jitter and the variation in delay between packets.
     
@@ -387,7 +387,7 @@ When a packet is sent into the MPLS network the network service provider's edge 
   
 Beside simplifying the forwarding process, the other advantage MPLS provides is that the network management system will know what connections are being carried on every link in the network. By controlling the way traffic is routed through the network, the operator can guarantee the QoS each path will provide. So unlike the best effort performance of traditional or basic IP, MPLS operators can provide an IP service with predictable performance. That LSP also makes MPLS inherently more secure than traditional Internet services. So with basic IP service we can hope that the network will perform well enough to provide good quality voice and use techniques like FEC and more resilient voice coding to improve the odds, but by using MPLS, we can be sure of it.
   
-MPLS providers offer several class of service gradients that unfortunately uses different terms to identify them. You will have to work closely with your provider to ensure they understand the outputs from the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the recommended options for different Office 365 Real Time Workloads applications.
+MPLS providers offer several class of service gradients that unfortunately uses different terms to identify them. You will have to work closely with your provider to ensure they understand the outputs from the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the recommended options for different Microsoft 365 or Office 365 Real Time Workloads applications.
   
 ## Conclusion
 

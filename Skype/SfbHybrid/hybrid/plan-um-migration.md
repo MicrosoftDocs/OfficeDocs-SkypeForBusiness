@@ -28,7 +28,7 @@ Unified Messaging (UM) has been deprecated in Exchange 2019. This means that Exc
 - Voicemail
 - Auto attendant
 
-If you've deployed the UM role in Exchange 2013 or the UM service in Exchange 2016 and you want to upgrade to Exchange 2019, you'll need to migrate your voicemail to the Microsoft Cloud Voicemail service in Office 365. If you want to migrate your voicemail to Cloud Voicemail, take a look at the [Exchange 2013/Exchange 2016 and Skype for Business 2015 to Exchange 2019 and Skype for Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) section below.
+If you've deployed the UM role in Exchange 2013 or the UM service in Exchange 2016 and you want to upgrade to Exchange 2019, you'll need to migrate your voicemail to the Microsoft Cloud Voicemail service in Microsoft 365 or Office 365. If you want to migrate your voicemail to Cloud Voicemail, take a look at the [Exchange 2013/Exchange 2016 and Skype for Business 2015 to Exchange 2019 and Skype for Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) section below.
 > [!IMPORTANT]
 > If users on your Exchange 2013 or Exchange 2016 servers have UM-enabled mailboxes, don't move them to Exchange 2019 before you upgrade your Skype for Business servers to Skype for Business Server 2019 and move users to them to avoid a voice messaging outage.
 
@@ -50,13 +50,13 @@ We support the following scenarios that will enable you to migrate users both to
 - Exchange 2013/Exchange 2016 and Skype for Business Server 2015 to Exchange 2019 and Skype for Business Server 2019
 - Skype for Business Server 2015 to Skype for Business Server 2019 with Exchange 2013/Exchange 2016
 
-The following scenarios require that no PBX or SBC configurations exist as part of your current deployment and assume that you have UM configured on your on-premises Exchange servers. Each of these solutions also assumes that you've decided to configure a hybrid deployment between your on-premises Skype for Business servers and Office 365. For more information about Skype for Business hybrid deployments, see [Plan hybrid connectivity](plan-hybrid-connectivity.md).
+The following scenarios require that no PBX or SBC configurations exist as part of your current deployment and assume that you have UM configured on your on-premises Exchange servers. Each of these solutions also assumes that you've decided to configure a hybrid deployment between your on-premises Skype for Business servers and Microsoft 365 or Office 365. For more information about Skype for Business hybrid deployments, see [Plan hybrid connectivity](plan-hybrid-connectivity.md).
 
 ### Exchange 2013/Exchange 2016 and Skype for Business 2015 to Exchange 2019 and Skype for Business 2019
 
 In this scenario, you want to migrate your existing Exchange 2013, Exchange 2016, and Skype for Business 2015 servers to Exchange 2019 and Skype for Business 2019.
 
-As mentioned earlier in this topic, Exchange 2019 no longer includes the UM service. This means that, for any mailboxes that you want to move to Exchange 2019, you need to use Cloud Voicemail to replace the functionality that was provided by the UM service. When you set up Skype for Business Server 2019 and a hybrid deployment between it and Office 365, Cloud Voicemail replaces these Exchange UM voicemail services.
+As mentioned earlier in this topic, Exchange 2019 no longer includes the UM service. This means that, for any mailboxes that you want to move to Exchange 2019, you need to use Cloud Voicemail to replace the functionality that was provided by the UM service. When you set up Skype for Business Server 2019 and a hybrid deployment between it and Microsoft 365 or Office 365, Cloud Voicemail replaces these Exchange UM voicemail services.
 
 The order in which you move users to Exchange 2019 and Skype for Business Server 2019 is critical to ensuring that voicemail functionality remains available to all users. Where voicemail is processed is also determined by where the Exchange and Skype for Business mailboxes and users are located. Take a look at the following table to see which combinations of Exchange and Skype for Business Server are supported and where voicemail is processed.
 

@@ -82,9 +82,9 @@ There are typically three reasons why your connection attempt might fail with th
     Start-Service "msoidsvc"
     ```
 
-    If the service is running, you might be encountering problems with the network connection between your computer and the Microsoft Live ID Authentication Server. To check this, open Internet Explorer and navigate to [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Try logging on to Office 365 from there. If this fails, you are probably experiencing network connection issues.
+    If the service is running, you might be encountering problems with the network connection between your computer and the Microsoft Live ID Authentication Server. To check this, open Internet Explorer and navigate to [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Try logging on to Microsoft 365 or Office 365 from there. If this fails, you are probably experiencing network connection issues.
   
-    Less commonly, it is possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you are not experiencing network connectivity issues, this might be the issue. In this case, contact Office 365 Support.
+    Less commonly, it is possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you are not experiencing network connectivity issues, this might be the issue. In this case, contact Microsoft Support.
   
 ## Failed to load Live ID module
 <a name="BKMKFailedLoad"> </a>
@@ -102,7 +102,7 @@ When you attempt to make a remote connection to Skype for Business Online, you m
 
 - **Error**: *Get-CsWebTicket : Logon failed for the user 'kenmyer@litwareinc.com'. Please create a new PSCredential object, making sure that you have used the correct user name and password.*
 
-- **Resolution**: If you think that you are using a valid user account and that you have the correct password, try logging on again. If that fails, use the same credentials and try to log on at [https://login.microsoftonline.com/](https://login.microsoftonline.com/). If you are unable to log on there, contact Office 365 Support. 
+- **Resolution**: If you think that you are using a valid user account and that you have the correct password, try logging on again. If that fails, use the same credentials and try to log on at [https://login.microsoftonline.com/](https://login.microsoftonline.com/). If you are unable to log on there, contact Microsoft Support. 
 
   
 ## The user does not have permission to manage this tenant
@@ -112,7 +112,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 - **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
-- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Office 365 Support.
+- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Microsoft Support.
   
 ## Ability to connect to tenant has been disabled in Skype for Business Online
 <a name="BKMKAbilityConnect"> </a>
@@ -121,7 +121,7 @@ To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShel
 
 - **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
-- **Resolution**: If you see this error message, you'll need to contact Office 365 Support and get remote PowerShell access enabled.
+- **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
   
 ## The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded
 <a name="BKMKMaxNumberShellsUser"> </a>

@@ -1,12 +1,12 @@
 ---
-title: "Security guide for Microsoft Teams"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+title: Security guide for Microsoft Teams
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: pawa
 description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -20,13 +20,13 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ---
+
+# Security and Microsoft Teams
+
 > [!IMPORTANT]
 > The Teams service model is subject to change in order to improve customer experience. For example, the default access or refresh token expiration times may be subject to modification in order to improve performance and authentication resiliency for those using Teams. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design.
-<p>
 
- # Security and Microsoft Teams
-
-Microsoft Teams, as part of the Microsoft 365 (M365) service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
+Microsoft Teams, as part of the Microsoft 365 and Office 365 services, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
 ## Trustworthy by Design
 
@@ -58,7 +58,7 @@ Teams mitigates against these attacks by running Azure DDOS network protection a
 
 Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
-Teams uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+Teams uses mutual TLS (MTLS) for server communications within Microsoft 365 and Office 365, and also uses TLS from clients to the service, rendering this attack very difficult or impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
 The TURN protocol is used for real time media purposes. The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The Teams service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
@@ -92,7 +92,7 @@ This section gives an overview of fundamental elements that form a security fram
 
 Core elements are:
 
-- Azure Active Directory (AAD), which provides a single trusted back-end repository for user accounts. User profile information is stored in AAD through the actions of Microsoft Graph.
+- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
   - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
 - Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
@@ -101,11 +101,11 @@ The next sections discuss some of these core technologies.
 
 ### Azure Active Directory
 
-Azure Active Directory functions as the directory service for Office 365 (O365). It stores all user directory information and policy assignments.
+Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments.
 
 #### CRL Distribution Points
 
-O365 traffic takes place over TLS/HTTPS encrypted channels, meaning that certificates are used for encryption of all traffic. Teams requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
+Microsoft 365 and Office 365 traffic takes place over TLS/HTTPS encrypted channels, meaning that certificates are used for encryption of all traffic. Teams requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
 
 #### Enhanced Key Usage
 
@@ -154,26 +154,26 @@ Teams uses FIPS (Federal Information Processing Standard) compliant algorithms f
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by AAD in Office 365 / Microsoft 365.
+A trusted user is one whose credentials have been authenticated by Azure AD in Microsoft 365 or Office 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
-- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
+- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as Multi-Factor Authentication and Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
 
 > [!NOTE]
 > If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
 
-Teams authentication is accomplished through AAD and OAuth. The process of authentication can be simplified to:
+Teams authentication is accomplished through Azure AD and OAuth. The process of authentication can be simplified to:
 
 - User Login > Token issuance > subsequent request use issued token.
 
-Requests from client to server are authenticated and authorized via AAD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
+Requests from client to server are authenticated and authorized via Azure AD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
 ### Windows PowerShell and Team Management Tools
 
-In Teams, IT Admins can manage their service via the O365 Admin portal or by using Tenant Remote PowerShell (TRPS). Tenant admins use Modern Authentication to authenticate to TRPS.
+In Teams, IT Admins can manage their service via the Microsoft 365 admin center or by using Tenant Remote PowerShell (TRPS). Tenant admins use Modern Authentication to authenticate to TRPS.
 
 ### Configuring Access to Teams at your Internet Boundary
 
@@ -183,13 +183,9 @@ For Teams to function properly (for users to be able to join meetings etc.), cus
 
 The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel.
 
-### UDP/TCP 50,000–59,999 (Optional)
-
-Ports in the high range don't use Transport Relay. Because they are optional ports, you won't find them listed in  Office 365 URLs and IP address ranges. This also means that Teams will function if these ports are blocked, due to the traffic using the port ranges 3478-3481 (Transport Relay). They are used for media transit, but even if these ranges are unblocked, the reduction in delay will be minimal (a few milliseconds). For the most part, issues with media quality will not be impacted by unblocking and using these ports. Any investigation of those issues would need to focus elsewhere.
-
 ### Federation Safeguards for Teams
 
-Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the O365 Admin portal.
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In Teams federation is on by default. However, tenant admins have the ability to control this via the Microsoft 365 admin center.
 
 ## Addressing Threats to Teams Meetings
 
@@ -197,31 +193,30 @@ There are two options to control who arrives in Teams meetings and who will have
 
 1. You can control who joins your meetings through settings for the **lobby**.</p>
 
-|"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
-|---------|---------|---------|
-|People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
-|People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
-|Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
-
+    |"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
+    |---------|---------|---------|
+    |People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+    |People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+    |Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
-|Actions  |Presenters  |Attendees  |
-|---------|---------|---------|
-|Speak and share their video     |   Y      |   Y      |
-|Participate in meeting chat     |   Y    |    Y     |
-|Change settings in meeting options     |   Y      |  N       |
-|Mute other participants| Y | N |
-|Remove other participants      |  Y       |   N      |
-|Share content     |     Y    |     N    |
-|Admit other participants from the lobby|  Y       |   N      |
-|Make other participants presenters or attendees     |   Y      | N        |
-|Start or stop recording     |     Y    |    N     |
-|Take control when another participant shares a PowerPoint     |  Y         | N        |
+    |Actions  |Presenters  |Attendees  |
+    |---------|---------|---------|
+    |Speak and share their video     |   Y      |   Y      |
+    |Participate in meeting chat     |   Y    |    Y     |
+    |Change settings in meeting options     |   Y      |  N       |
+    |Mute other participants| Y | N |
+    |Remove other participants      |  Y       |   N      |
+    |Share content     |     Y    |     N    |
+    |Admit other participants from the lobby|  Y       |   N      |
+    |Make other participants presenters or attendees     |   Y      | N        |
+    |Start or stop recording     |     Y    |    N     |
+    |Take control when another participant shares a PowerPoint     |  Y         | N        |
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an AAD/Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who do not have an Azure AD, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
-For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.  
+For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.
 
 > [!NOTE]
 > The term *anonymous users* means users that are not authenticated to the organizations tenant. In this context all external users are considered anonymous. Authenticated users include tenant users and Guest users of the tenant.
@@ -232,6 +227,9 @@ Enabling external users to participate in Teams meetings can be very useful, but
 - Participant types allow you to limit access to specific meetings.
 - Scheduling meetings is restricted to users who have an AAD account and a Teams license.
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference, dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On* then they also need to wait until a presenter or authenticated user joins the meeting.
+
+  > [!CAUTION]
+  > If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
 
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
@@ -263,6 +261,9 @@ Meeting participants are also categorized by location and credentials. You can u
 Many meetings involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a meeting. The next section describes how Teams limits meeting access to those user types that have been explicitly allowed, and requires all user types to present appropriate *credentials* when entering a meeting.
 
 ### Participant Admittance
+
+> [!CAUTION]
+> If you do not wish for Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
 
 In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out.
 
@@ -296,6 +297,6 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimize Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunnelling for Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)

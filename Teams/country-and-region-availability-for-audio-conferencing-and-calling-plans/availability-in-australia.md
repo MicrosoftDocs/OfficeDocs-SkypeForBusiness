@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Australia."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Australia."
 ---
 
 # Availability in Australia
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Australia.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Australia.
 
 ## Audio Conferencing
 
@@ -54,14 +54,14 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutes available for Calling Plans  <br/> |See [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|Can make outbound calls to?  <br/> |See [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Calling](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes available for Calling Plans  <br/> |See [Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
+|Can make outbound calls to?  <br/> |See [Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
 > To delete Australian subscriber numbers (provided by Telstra), contact Telstra directly.
 > To update emergency address information for Australian subscriber numbers (provided by Telstra), contact Telstra directly.
-> For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+> For more information, see [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ### If your tenant is located outside Australia
 
@@ -73,7 +73,7 @@ Starting September 1, 2019, if your tenant is located outside Australia, you can
 |APAC     |Bangladesh, Bhutan, Brunei, Cambodia, Hong Kong, Indonesia, Laos, Macao, Malaysia, Maldives, Myanmar, Nepal, Philippines, Singapore, Sri Lanka, Thailand, Timor-Leste, Vietnam|
 |EMEA    |Åland Islands, Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jan Mayen, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Svalbard, Sweden, Switzerland, United Kingdom, Vatican City  |
 
-Note that Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia and the countries and regions listed above, once provisioned by Telstra. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+Note that Telstra Calling will show up as an add-on only for users who are located in Australia and the countries and regions listed above, once provisioned by Telstra. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ## Toll and toll-free numbers for services
 

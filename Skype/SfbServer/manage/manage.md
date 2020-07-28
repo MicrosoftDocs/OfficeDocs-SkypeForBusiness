@@ -52,6 +52,6 @@ The following resources about how to plan for Skype for Business Server are avai
 |:-----|:-----|:-----|
 |![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visit the  resource center to access videos, community sites, documentation, downloads, and more. |
 |![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server for developers  <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs. |
-|![Icon for news, blogs, and so on](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 Technical Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Keep up with news from the teams that create and document Skype for Business Server.  |
+|![Icon for news, blogs, and so on](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Keep up with news from the teams that create and document Skype for Business Server.  |
    
 

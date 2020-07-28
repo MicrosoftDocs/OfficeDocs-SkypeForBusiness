@@ -10,11 +10,12 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: This article will help you pick the coexistence mode and set other coexistence settings.
+description: Learn about how to set coexistence and upgrade settings for all users in your organization at once, or for a single or set of users in your organization.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---

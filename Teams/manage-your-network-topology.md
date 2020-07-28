@@ -35,11 +35,11 @@ You define network regions, network sites, and subnets on the **Network sites** 
 #### Add and configure a network site
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
-2. Click **New**, and then enter a name and description for the site.
+2. Click **Add**, and then enter a name and description for the site.
 
     ![Screenshot of the Add network site page](media/manage-network-topology-add-site.png)
 
-3. To associate the site with a network region, click **Link network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
+3. To associate the site with a network region, click **Add network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
 5. To assign emergency services policies to the site, do one or both of the following:
 

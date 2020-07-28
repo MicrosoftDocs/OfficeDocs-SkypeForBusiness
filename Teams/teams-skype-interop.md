@@ -16,8 +16,6 @@ localization_priority: Normal
 
 # Teams and Skype interoperability
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
 Teams users in your organization can chat with and call Skype users by using their email address and vice versa.
@@ -63,7 +61,7 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants.
 
 If you upgraded from Skype for Business to Teams, the external communications settings that you configured in the Skype for Business admin center are migrated to Teams.
 

@@ -39,7 +39,7 @@ On May 12th, 2015 there will be another monthly update from Office that includes
 ## What client experience do you want for your users?
 <a name="clientexperience"> </a>
 
-With the new Skype for Business client, you can control which client experience your users get, either Lync or Skype for Business. The default client experience depends on whether you are using Lync or Skype for Business on-premises or online. If you are using Skype for Business Online (Lync Online) today with Office 365 ProPlus, Office 365 Business Premium or Office 2013, the updated Skype for Business client experience—inspired by the look and feel of Skype—will be the default user experience. If you are using Lync Server on-premises today, the Lync client experience will be the default.
+With the new Skype for Business client, you can control which client experience your users get, either Lync or Skype for Business. The default client experience depends on whether you are using Lync or Skype for Business on-premises or online. If you are using Skype for Business Online (Lync Online) today with Microsoft 365 Apps for enterprise, Microsoft 365 Business Standard or Office 2013, the updated Skype for Business client experience—inspired by the look and feel of Skype—will be the default user experience. If you are using Lync Server on-premises today, the Lync client experience will be the default.
   
 You can configure which client experience your users get by using client policies. A client policy is a set of configuration settings that are applied to users when they login to Lync or Skype for Business.
   

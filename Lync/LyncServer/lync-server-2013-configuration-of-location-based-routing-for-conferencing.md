@@ -48,7 +48,9 @@ For additional information on deploying and configuring Lync Server 2013 Locatio
 
 The Location-Based Routing Conferencing application is disabled by default. Before enabling this application, you need to determine the right priority to assign for the application. To determine this priority, run the following cmdlet in Lync Server Management Shell:
 
-Get-CsServerApplication -Identity Service:Registrar:\<Pool FQDN\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
 In this cmdlet, \<Pool FQDN\> is the pool in which the Location-Based Routing Conferencing application is to be enabled.
 
@@ -58,11 +60,15 @@ For example, if the “UdcAgent” application has a priority value of “2”, 
 
 After you find the correct priority value for the Location-Based Routing Conferencing application, type the following cmdlet for each Front-End pool or Standard Edition Server that homes users enabled for Location-Based Routing:
 
-New-CsServerApplication -Identity Service:Registrar:\<Pool FQDN\>/LBRouting -Priority \<Application Priority\> -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 For example:
 
-New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 After using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing Conferencing application has been enabled.
 

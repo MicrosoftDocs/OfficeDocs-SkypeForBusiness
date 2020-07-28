@@ -2,7 +2,7 @@
 title: Small business example — Set up an Auto Attendant 
 metadata:
   title: Small business example — Set up an Auto Attendant
-  description: For IT admins, plan Auto Attendants across your organization.
+  description: IT administrators can use Phone System in teams to set up Auto Attendants, and automated menu system for incoming calls.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -147,6 +147,8 @@ items:
     > [!Important]
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
     "Repeat" and \# will correspond with the "Back" voice commands.
+    >
+    > The \# (Back) option is only available within the Directory Search feature.  Pressing \# (Back) outside of Directory Search will repeat the current auto attendant.
   
 
     ## Do a design mockup 
@@ -232,11 +234,13 @@ items:
     > [!Important]
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* is equivalent to  
     "Repeat" and \# is equivalent to the "Back" voice commands.
+    >
+    > The \# (Back) option is only available within the Directory Search feature.  Pressing \# (Back) outside of Directory Search will repeat the current auto attendant.
 
     These scripts reflect the design chosen earlier, and the suggested guidelines for writing Auto Attendant scripts. 
 
     #### Script 1: company greeting
-    Thanks for calling VanArsdel, Ltd. At any time you can press zero to transfer to the Operator, press star to repeat the menu, or press pound to return to the previous menu.
+    Thanks for calling VanArsdel, Ltd. At any time you can press zero to transfer to the Operator or press star to repeat the menu.
     
     (Optional, use if Dial by Name is enabled) If you know the name of the person you're calling, say their name at any time to transfer to their extension.
 
@@ -249,21 +253,21 @@ items:
     For hours and location, press 3.
     For more options, press 4.
 
-    *Available options not mentioned: zero, \*, and \#.*
+    *Available options not mentioned: zero and \*.*
 
     #### Script 4: billing
     To speak to Jakob Roth, press 1.
     To speak to Laura Heinrich, press 2.
 
-    *Available options not mentioned: zero, \*, and \#.*
+    *Available options not mentioned: zero and \*.*
 
      This script could be omitted if you redesigned using Call Queues.
 
     #### Script 5: hours and Location
-    We are open for business from 8:30am to 5:30 pm, Tuesday through Saturday at 1234 Green Street near Central avenue, Planktown Pennsylvania, 
+    We are open for business from 8:30 am to 5:30 pm, Tuesday through Saturday at 1234 Green Street near Central Avenue, Planktown Pennsylvania, 
     directly across from City Hall.
 
-    Available options not mentioned: zero, *, and #.
+    *Available options not mentioned: zero and \*.*
 
     #### Script 6: more menu options
     To speak to one of the lawyers, press 1.
@@ -271,14 +275,14 @@ items:
     To speak to one of the paralegals, press 3.
     For other options, press 4.
 
-    *Available options not mentioned: zero, \*, and \#.*
+    *Available options not mentioned: zero and \*.*
 
     #### Script 7: lawyer menu
     To speak to Olga Gerasimova, press 1.
-    To speak to for Manuela Carstens, press 2.
-    To speak to for Andrey Alexeeva, press 3.
+    To speak to Manuela Carstens, press 2.
+    To speak to Andrey Alexeeva, press 3.
 
-    *Available options not mentioned: zero, \*, and \#.* 
+    *Available options not mentioned: zero and \*.*
 
     This script could be omitted if you redesigned using Call Queues.
 
@@ -290,7 +294,7 @@ items:
     To speak to Dariya Polyakova, press 5.
     To speak to Milana Nikolaeva, press 6.
 
-    *Available options not mentioned: zero, \*, and \#.*
+    *Available options not mentioned: zero and \*.*
 
      This script could be omitted if you redesigned using Call Queues.
 
@@ -298,7 +302,7 @@ items:
     To speak to our investigator, press 1.
     To request a copy of your records, press 2.
 
-    *Available options not mentioned: zero, \*, and \#.*
+    *Available options not mentioned: zero and \*.*
 
 
 

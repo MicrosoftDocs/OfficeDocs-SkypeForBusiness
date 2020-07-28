@@ -28,7 +28,7 @@ description: "Learn how to assign Skype for Business licenses for Phone System, 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> See [Skype for Business add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and **how to buy** them - depending on your Office 365 plan - so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
+> See [Skype for Business add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and **how to buy** them - depending on your Microsoft 365 or Office 365 plan - so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
 
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses
@@ -37,7 +37,7 @@ What you need to know before assigning Audio Conferencing, Phone System and Call
 
 - **Using on-premises PSTN connectivity for hybrid users?** If so, you only need to assign a **Phone System** license. You should **NOT** assign a Calling Plan.
 
-- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Latency after assigning licenses**: Because of the latency between Microsoft 365 or Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
     
@@ -45,7 +45,7 @@ What you need to know before assigning Audio Conferencing, Phone System and Call
     
 ### How to assign a Phone System and Calling Plan license to one user
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+The steps are the same as assigning a Microsoft 365 or Office 365 license. See [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### How to assign Phone System and Calling Plan licenses in bulk
 
@@ -60,7 +60,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
    The name of the licenses or product names in the script are listed in italics text (see **Phone System and Calling Plan product names or SKUs used for scripting**, after the example).
 
    ```powershell
-   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
 
    #Example of text file:
    #user1@domain.com
@@ -118,7 +118,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 ### How to assign an Audio Conferencing license to one user
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+The steps are the same as assigning a Microsoft 365 or Office 365 license. See [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### How to assign Audio Conferencing licenses in bulk
 
@@ -133,7 +133,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
 	```powershell
-	#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+	#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
 	#Example of text file:
 	#user1@domain.com
 	#user2@domain.com
@@ -189,7 +189,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     
 ### How to assign a Communications Credits license to one user
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+The steps are the same as assigning a Microsoft 365 or Office 365 license. See [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### How to assign Communications Credits licenses in bulk
 

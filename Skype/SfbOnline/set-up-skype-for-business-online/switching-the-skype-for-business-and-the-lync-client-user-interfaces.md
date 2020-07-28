@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: "Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 "
+description: "Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Microsoft 365 or Office 365 "
 ---
 
 # Switching between the Skype for Business and the Lync client user interfaces
 
-For Skype for Business Online organizations, you can use the Remote PowerShell in Office 365 to enable your Skype for Business users to use the Skype for Business client or the Skype for Business (Lync) client user interface. The default setting is for users to use the Skype for Business client user interface. If you'd prefer to use the Lync client experience, you can manage the first launch client behavior to display the Lync user interface by following the steps later in this topic.
+For Skype for Business Online organizations, you can use the Remote PowerShell in Microsoft 365 or Office 365 to enable your Skype for Business users to use the Skype for Business client or the Skype for Business (Lync) client user interface. The default setting is for users to use the Skype for Business client user interface. If you'd prefer to use the Lync client experience, you can manage the first launch client behavior to display the Lync user interface by following the steps later in this topic.
   
 > [!NOTE]
 > The Lync 2013 client experience isn't an option for Skype for Business 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x. 
@@ -162,9 +162,9 @@ This table shows all the Online custom policies available. There are new policie
    
 To get started with Windows PowerShell, see these topics:
   
-- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Why you need to use Microsoft 365 or Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## First launch client behaviors
 

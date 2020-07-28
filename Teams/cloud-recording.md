@@ -13,11 +13,12 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: How to turn on and manage meeting recording in Microsoft Teams.
+description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
 ms.collection: 
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 # Teams cloud meeting recording
@@ -26,9 +27,12 @@ In Microsoft Teams, users can record their Teams meetings and group calls to cap
 
 Related: [Teams meeting recording end user documentation](https://aka.ms/recordmeeting)
 
+> [!NOTE]
+> For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+
 ## Prerequisites for Teams cloud meeting recording
 
-For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
+For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
 - User needs to be licensed for Microsoft Stream<sup>1</sup> 
@@ -37,11 +41,12 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 - User has sufficient storage in Microsoft Stream for recordings to be saved
 - User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
 - User is not an anonymous, Guest, or federated user in the meeting
+- To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
-> [!NOTE]
-> Additionally, to allow the person initiating the recording to choose whether to automatically transcribe the recording, the user's TeamsMeetingPolicy -AllowTranscription setting must be set to true
+<sup>1</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
-<sup>1</sup>User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
+> [!IMPORTANT] 
+> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
@@ -49,9 +54,9 @@ This section explains how you can set up and plan for recording Teams meetings.
 
 ### Turn on Microsoft Stream for users in the organization
 
-Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Office 365 Business Premium, and Office 365 Business Essentials.
+Microsoft Stream is available as part of eligible Microsoft 365 and Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Microsoft 365 Business Standard, and Microsoft 365 Business Basic.
 
-Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
+Learn more about how you can [assign licenses to users in Microsoft 365 or Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [Block sign-ups for Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
 ### Make sure users have upload video permissions in Microsoft Stream
 
@@ -69,15 +74,22 @@ In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recor
 
 Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording disabled by default.
+Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording enabled by default.
+
+> [!NOTE]
+> For more information about using Teams roles to configure who has permission to record a meeting, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
@@ -95,11 +107,13 @@ Meeting recordings are stored in Microsoft Stream cloud storage. Once you record
 
 To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-To learn more about where data is stored across services in Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
+To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### Turn on or turn off recording transcription
 
-When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If you disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator won't get a choice to transcribe the meeting recordings.
+This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+
+**Note** that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
@@ -111,11 +125,15 @@ Unless you have assigned a custom policy to the users, users get the Global poli
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
+```
 </br>
 </br>
 
@@ -129,7 +147,7 @@ To change value of AllowCloudRecording in the Global policy, use the following c
 
 ### Planning for storage
 
-The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [this article](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
+The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [Microsoft Stream Licensing overview](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
 
 ## Manage meeting recordings
 
@@ -138,10 +156,9 @@ The meeting recordings are considered tenant-owned content. If the owner of the 
 > [!NOTE]
 > See [Manage user data in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) and [Permissions and privacy in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) for additional information on managing recordings and user access.
 
-
 ## Compliance and eDiscovery for meeting recordings
 
-The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+The meeting recordings are stored in Microsoft Stream, which is Microsoft 365 and Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
 ## Related topics
 

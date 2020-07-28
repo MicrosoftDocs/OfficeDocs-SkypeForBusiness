@@ -24,7 +24,7 @@ description: "Learn how to get the Skype for Business Activity reports, what it 
 
 # Activity report
 
-The Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business activity** report to see how much your users are using peer-to-peer or organized conferencing sessions, or how much they're participating in conferencing sessions. 
+The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business activity** report to see how much your users are using peer-to-peer or organized conferencing sessions, or how much they're participating in conferencing sessions. 
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
@@ -85,7 +85,7 @@ The table shows you a breakdown of all the conferencing activities per user. Thi
 * **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used.
 * **Organized conferences** shows the total number of conferences that were organized by that user.
 * **Participated-in conferences** shows the total number of conferences that this user participated in.
-* **Product assigned** is the Office 365 products that are assigned to this user.<br/>
+* **Product assigned** is the Microsoft 365 or Office 365 products that are assigned to this user.<br/>
 
 If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

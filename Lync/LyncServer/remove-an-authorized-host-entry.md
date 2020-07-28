@@ -1,8 +1,8 @@
 ---
 title: Remove an authorized host entry
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove an authorized host entry

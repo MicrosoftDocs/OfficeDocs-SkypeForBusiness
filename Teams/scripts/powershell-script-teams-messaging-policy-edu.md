@@ -11,6 +11,7 @@ description: Use this PowerShell script to create a messaging policy in Teams an
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -56,4 +57,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> You can also use batch policy assignment to assign a messaging policy to large sets of users. For more information see [Assign policies to large sets of users in your school](../batch-policy-assignment-edu.md) and [Assign policies to your users in Teams](../assign-policies.md).
+> You can also assign a messaging policy directly to users at scale through a batch policy assignment or to a group that the users are members of. For more information see [Assign policies to large sets of users in your school](../batch-policy-assignment-edu.md) and [Assign policies to your users in Teams](../assign-policies.md).

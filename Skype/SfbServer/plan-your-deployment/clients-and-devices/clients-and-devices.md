@@ -31,7 +31,7 @@ Skype for Business Server supports several types of clients, including computer-
 
 ### Skype for Business (2019)
 
-Skype for Business (2019) is the recommended full-featured client for Skype for Business Server 2015 and 2019. See [Follow the latest updates in Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/Skype-for-business). This client is included when a user installs Office 365.
+Skype for Business (2019) is the recommended full-featured client for Skype for Business Server 2015 and 2019. See [Follow the latest updates in Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/Skype-for-business). This client is included when a user installs Microsoft 365 or Office 365.
 
 A free basic client supporting fewer features is also available. Both versions are available for download at [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3). The differences between Full and Basic clients are described in the [Basic client limitations](desktop-feature-comparison.md#Full-Basic) section.
 
@@ -86,7 +86,7 @@ Microsoft Surface Hub is an all-in-one productivity device that is intended for 
 
 If your organization bought the appropriate licenses, choose the Full client, otherwise choose the Basic client.
 
-Your users can install the client for themselves from [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3). The client is also installed when users install Office 365 on Windows. If some of your users have Macs, those users will have a different set of features as described in earlier sections.
+Your users can install the client for themselves from [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3). The client is also installed when users install Microsoft 365 or Office 365 on Windows. If some of your users have Macs, those users will have a different set of features as described in earlier sections.
 
 Some features available with Skype for Business Server 2015 are not available in Skype for Business Online or Skype for Business Server 2019, see [Online or Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid) or [Online or Hybrid user account limitations for 2019](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
 

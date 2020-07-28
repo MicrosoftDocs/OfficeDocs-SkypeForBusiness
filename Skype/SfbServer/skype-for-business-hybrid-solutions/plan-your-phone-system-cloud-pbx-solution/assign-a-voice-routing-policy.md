@@ -18,27 +18,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: "Summary: Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity."
+description: "Summary: Read this topic to learn how to assign a voice policy for users using Phone System with on-premises PSTN connectivity."
 ---
 
 # Assign a Voice Routing Policy
  
-**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity. 
+**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System with on-premises PSTN connectivity. 
   
-Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them. One is an on-premises voice routing policy that you will assign on premises. This policy can be global or user-specific and defines what PSTN usage records are associated with the user. This topic explains how to assign this policy.
+Once a user is on Skype for Business Online and using Phone System with on-premises PSTN connectivity, two voice policies will apply to them. One is an on-premises voice routing policy that you will assign on premises. This policy can be global or user-specific and defines what PSTN usage records are associated with the user. This topic explains how to assign this policy.
   
-The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System in Office 365 with on-premises PSTN connectivity users. It is automatically assigned to Phone System in Office 365 users.
+The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System with on-premises PSTN connectivity users. It is automatically assigned to Phone System users.
   
-||**On-premises user**|**Phone System in Office 365 with on-premises PSTN connectivity user**|
+||**On-premises user**|**Phone System with on-premises PSTN connectivity user**|
 |:-----|:-----|:-----|
-|Calling features defined in  <br/> |Voice policy  <br/> |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System in Office 365.  <br/> |
+|Calling features defined in  <br/> |Voice policy  <br/> |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System.  <br/> |
 |PSTN usage records associated with  <br/> |Voice policy  <br/> |Voice routing policy, assigned while the user is still homed on-premises.  <br/> |
    
 You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.
   
 ## Using a global voice routing policy
 
-Before using a global voice routing policy for your Phone System in Office 365 with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.
+Before using a global voice routing policy for your Phone System with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.
   
 ### To assign PSTN usage records to the global voice routing policy
 

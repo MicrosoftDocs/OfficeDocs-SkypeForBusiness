@@ -28,8 +28,8 @@ To get an IP Relay account set up for Canada, please complete the information in
 |||
 |:-----|:-----|
 |First & Last Name:||
-|Office 365 Tenant Domain Name: <br/>(Example: Contoso.com)||
-|Office 365 User phone number: <br/>Example: +1 XXX XXX XXXX) ||
+|Microsoft 365 or Office 365 Organization Domain Name: <br/>(Example: Contoso.com)||
+|Microsoft 365 or Office 365 User phone number: <br/>Example: +1 XXX XXX XXXX) ||
 |Password (8 to 16 characters): ||
 |Most likely physical address <br/>at the time of an emergency:||
 |Street Number & Name:||
@@ -38,7 +38,7 @@ To get an IP Relay account set up for Canada, please complete the information in
 |Province / State:||
 |Postal Code / Zip Code:||
 |Phone Number:||
-|Office 365 Email Address:||
+|Microsoft 365 or Office 365 Email Address:||
 |||
 
 > [!NOTE]

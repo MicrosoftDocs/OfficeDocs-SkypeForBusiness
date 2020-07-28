@@ -40,7 +40,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
-You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
+You must be a [global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Legacy portal**. Once in the legacy portal, select **Audio conferencing**, and then click **Microsoft bridge**.
     
@@ -59,7 +59,7 @@ You must be an [Office 365 global admin](https://support.office.com/article/da58
     
 - Languages can be set for dedicated but not for shared phone numbers.
     
-- To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).
+- To see a list of countries/regions in which Audio Conferencing in Microsoft 365 or Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).
     
 ## Want to use Windows PowerShell?
 
@@ -69,4 +69,4 @@ To learn more, see [Using Windows PowerShell to do common Skype for Business Onl
   
 ## Related topics
 
-[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure Microsoft Phone System Direct Routing."
+description: Learn how to configure Microsoft Phone System Direct Routing to connect your on-premises telephony infrastructure to Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure Direct Routing
@@ -49,7 +50,7 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
 
-## See also
+## Related topics
 
 [Phone System Direct Routing](direct-routing-landing-page.md)
 

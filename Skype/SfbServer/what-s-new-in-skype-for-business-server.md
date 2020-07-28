@@ -20,7 +20,7 @@ description: "Summary: Read this topic to learn about new features in Skype for 
 
 **Summary:** Read this topic to learn about new features in Skype for Business Server 2015. For detailed information about the new client experience, see [Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
-Lync is now Skype for Business, a communications and collaboration platform that brings together an experience inspired by Skype with the enterprise-grade security, compliance, and control of Lync. Skype for Business offers features including presence, IM, voice and video calls, and online meetings. Skype for Business provides a new client experience, a new server release, and updates to the service in Office 365. If users in your organization are already familiar with Skype, they'll appreciate the power and simplicity of Skype for Business where it's easy to find and connect with co-workers. If users in your organization are coming to Skype for Business from Lync, they'll recognize all of the features they already use but in a fresh new interface with simplified controls and new additions. In addition to the new client experience, Skype for Business Server 2015 provides several new features to improve manageability of on-premises servers and hybrid solutions.
+Lync is now Skype for Business, a communications and collaboration platform that brings together an experience inspired by Skype with the enterprise-grade security, compliance, and control of Lync. Skype for Business offers features including presence, IM, voice and video calls, and online meetings. Skype for Business provides a new client experience, a new server release, and updates to the service in Microsoft 365 or Office 365. If users in your organization are already familiar with Skype, they'll appreciate the power and simplicity of Skype for Business where it's easy to find and connect with co-workers. If users in your organization are coming to Skype for Business from Lync, they'll recognize all of the features they already use but in a fresh new interface with simplified controls and new additions. In addition to the new client experience, Skype for Business Server 2015 provides several new features to improve manageability of on-premises servers and hybrid solutions.
   
 New features in Skype for Business Server 2015 include improvements to:
   
@@ -141,9 +141,9 @@ The Snooper debugging tool has also been updated to allow debugging of mobility 
 
 Skype for Business Server 2015 enables hybrid deployment administration and management capabilities by introducing the following features:
   
-- Recommendations for hybrid deployments based on the state of the customer's on-premises assets, as determined by the OnRamp for O365 automated assistance tool.
+- Recommendations for hybrid deployments based on the state of the customer's on-premises assets, as determined by the OnRamp for Office 365 automated assistance tool.
 - Enhancements to the Skype for Business Server Control Panel and the Skype for Business Server Admin Center so that administrators can use these tools to manage a hybrid deployment.
-- Control Panel enhancements that let administrators sign in to an O365 tenant and set up hybrid with Skype for Business Online using the hybrid configuration wizard.
+- Control Panel enhancements that let administrators sign in to a Microsoft 365 or Office 365 tenant and set up hybrid with Skype for Business Online using the hybrid configuration wizard.
 - Control Panel support for moving on-premises users to Skype for Business Online or moving Skype for Business Online users back to on-premises.
 - Control Panel features to identify and filter on-premises user objects that have been moved to Skype for Business Online (that is, hybrid users) from on-premises users.
 - Admin Center features to identify and filter cloud users initially created in Skype for Business Online from hybrid users migrated from on-premises to Online.
@@ -167,4 +167,4 @@ The Skype for Business multi-factor authentication experience is seamless regard
   
 - Geographic Location - Whether the user is signing in from inside or outside the organization 
 - Client/Device Type - Which Skype for Business client is used and which device the client is running on (PC, mobile, iPad, etc.)
-- Account Location - Whether the user is hosted in an on-premises Active Directory or in Azure Active Directory Online (O365)
+- Account Location - Whether the user is hosted in an on-premises Active Directory or in Azure Active Directory Online.

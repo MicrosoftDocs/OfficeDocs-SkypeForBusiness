@@ -10,13 +10,14 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use service health reporting in your Teams adoption.
+description: Learn how to use service health reviews in your Teams adoption to share insights on usage, health, capability/project roadmap, and other updates.
 f1.keywords:
 - CSH
 ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto: 
 - Microsoft Teams
 ---

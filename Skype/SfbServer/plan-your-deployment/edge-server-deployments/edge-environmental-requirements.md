@@ -126,11 +126,11 @@ Let's look at some additional things to think about while planning.
 - Skype for Business Server 2015:
     - Lync Server 2010
     - Lync Server 2013
-    - Microsoft Office O365
+    - Microsoft 365 or Office 365
 - Skype for Business Server 2019:
     - Lync Server 2013
     - Skype for Business Server 2015
-    - Microsoft Office 365.
+    - Microsoft 365 or Office 365
     
 ## DNS planning
 <a name="DNSPlan"> </a>

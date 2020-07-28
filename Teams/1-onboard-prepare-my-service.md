@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
+description: Use onboarding checklists to prepare Microsoft 365 or Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -29,7 +29,7 @@ This article gives an overview of the requirements for preparing cloud voice ser
 
 The following checklists walk you through the steps for implementing Audio Conferencing, Phone System with Calling Plans ("Calling Plans"), and Phone System Direct Routing ("Direct Routing") capabilities in Microsoft Teams.
 
-*  [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
+*  [Prepare Microsoft 365 or Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
 *  [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

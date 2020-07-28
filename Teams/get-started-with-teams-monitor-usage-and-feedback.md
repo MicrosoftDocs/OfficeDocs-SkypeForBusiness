@@ -33,7 +33,7 @@ Here's how to get reports to view Teams usage.
 
 Teams reports in the Microsoft Teams admin center give you insights into how Teams is used in your organization. Use the reports to get a view into Teams usage, user activity, and device usage across your organization. 
 
-To view these reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin. Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+To view these reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 
 - **Teams usage report**: This report gives you an overview of usage activity in Teams, including the total active users and channels, and the number of active users and channels, guests, and messages in each team. 
 
@@ -49,7 +49,7 @@ To view these reports, you must be a global admin in Office 365, Teams service a
 To learn more, check out [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md). 
 
 ### Teams activity reports (Microsoft 365 admin center)
-You can also view Teams activity through reports that are available from the Microsoft 365 admin center. These reports are part of the Office 365 reports in the Microsoft 365 admin center and provide information about user activity and device usage. 
+You can also view Teams activity through reports that are available from the Microsoft 365 admin center. These reports are part of the Microsoft 365 reports in the Microsoft 365 admin center and provide information about user activity and device usage. 
 
 To view these reports, go to the Microsoft 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
 
@@ -57,7 +57,7 @@ To learn more, go to [Use activity reports for Teams](teams-activity-reports.md)
 
 ### Microsoft 365 usage analytics
 
-You can use Microsoft 365 usage analytics in Power BI to view and analyze usage data for Teams and other Office 365 products and services. Microsoft 365 usage analytics is a content pack that includes a pre-built dashboard and a number of pre-built reports. Each report gives you specific usage data and insights. To connect to the content pack, you need Power BI and must be a global admin in Office 365 or reports reader. If you don't already have Power BI, [sign up for the free Power BI service](https://powerbi.microsoft.com). 
+You can use Microsoft 365 usage analytics in Power BI to view and analyze usage data for Teams and other Microsoft 365 or Office 365 products and services. Microsoft 365 usage analytics is a content pack that includes a pre-built dashboard and a number of pre-built reports. Each report gives you specific usage data and insights. To connect to the content pack, you need Power BI and must be a global admin in Microsoft 365, Office 365, or reports reader. If you don't already have Power BI, [sign up for the free Power BI service](https://powerbi.microsoft.com). 
 
 To learn more, see [Microsoft 365 usage analytics](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 

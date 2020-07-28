@@ -43,8 +43,13 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -90,9 +95,15 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas. |
 |\<TeamsMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time. |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
+|\<WebExMeetingsEnabled\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings.|
+|\<UseCustomInfoForThirdPartyMeetings\> |Boolean &#x2777;  |First &#x2776;  |Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both \<CustomDisplayNameForThirdPartyMeetings\>, \<CustomDisplayEmailForThirdPartyMeetings\> must be specified.|
+|\<CustomDisplayNameForThirdPartyMeetings\> |String  &#x2778;  |First &#x2776;  |Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service.|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |String  &#x2778;  |First &#x2776;  |Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service.|
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
+|\<AutoAcceptProximateMeetingInvitations> |Boolean &#x2777;  |First &#x2776;  |If true, proximity based meetings are automatically accepted. Disabled by default. |
 |\<DualScreenMode\>  |Boolean &#x2777;  |First &#x2776;  |If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
-| \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. | 
+| \<DuplicateIngestDefault\> |Boolean &#x2777;  |First &#x2776; |If true, content is shown on both screens in dual screen mode, when out of meeting. |
+|\<DisableTacCommunication\> |Boolean &#x2777;  |First &#x2776; |If true, all communication with Teams Admin Center device management will be disabled. |
 |\<SendLogs\> |Container |First &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |String  &#x2778;  | | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
 |\<SendLogsAndFeedback\> |Boolean &#x2777;  | | If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs).  |

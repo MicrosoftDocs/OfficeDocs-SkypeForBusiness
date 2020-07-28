@@ -6,8 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
+ms.reviewer: landerl
+description: Learn about how to prepare IT staff in your organization for deploying and supporting Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,6 +16,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 ---
@@ -31,16 +32,16 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience. This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.
+Your Microsoft 365 or Office 365 organization admins, technical leads, and support desk are accountable for driving a high-quality user experience. This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.
 
 Share the following resources with your IT staff members, and confirm that they're ready to support users before you begin your upgrade to Teams:
 
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
-- [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
 - [Use log files in troubleshooting Microsoft Teams](log-files.md)
 
-[//]: # (Ask Debbie to scrutinize:)
+
 
 | | |
 |---|---|

@@ -16,7 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Get started with Teams for Healthcare organizations
+description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Get started with Teams for Healthcare organizations
@@ -52,7 +53,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 <br>
 
-The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
+The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams' secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
 - Siloed information that creates administrative burdens
@@ -83,9 +84,25 @@ The Patients app is built on the Teams extensibility platform and takes advantag
 
 See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
 
-## Templates
+## Teams templates
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+
+## Lists app
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
+
+Care teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
+
+For example, a charge nurse creates a patient list in a team that includes all care team members. During rounds, the care team access Teams on their mobile devices and update patient information in the list, which everyone on the team can view to stay in sync. At rounding sessions where the care team gathers to discuss and evaluate key health performance metrics to ensure a patient is on the right glide path to discharge, they can share this information using Teams on a large display screen. Care team members who aren't on site can join remotely.
+
+Here's an example list which was set up for patient rounding.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot of example list for patient rounding":::
+
+To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
 
 ## Secure Messaging
 
@@ -99,14 +116,8 @@ Together, these features allow quicker attention to urgent messages and confiden
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
 
-Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (see [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## Firstline Worker integration
 
-Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.
-
- See the following articles:
-
-- [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more. See [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

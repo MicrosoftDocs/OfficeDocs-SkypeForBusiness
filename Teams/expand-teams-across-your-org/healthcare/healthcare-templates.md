@@ -1,7 +1,7 @@
 ---
 title: "Templates for Healthcare organizations"
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Get started with Teams templates for Healthcare organizations
+description: Use Microsoft Teams templates to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
 ms.custom: seo-marvel-mar2020
 ---
 

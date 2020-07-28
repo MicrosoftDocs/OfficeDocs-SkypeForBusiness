@@ -36,13 +36,13 @@ You should use this article along with the associated technical diagram, which p
 
 ## Private Branch Exchange (PBX) options
 
-### Phone System (Office 365)
+### Phone System (Microsoft 365 or Office 365)
   
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud with Microsoft Teams and/or Skype for Business Online. 
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams and/or Skype for Business Online. 
 
-Phone System works with Teams or Skype for Business Online clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience. To connect Phone System to the Public Switched Telephone Network (PSTN), you can choose Microsoft’s Calling Plan or your own telephony carrier.
+Phone System works with Teams or Skype for Business Online clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365 or Office 365 and tightly integrated into the company’s cloud productivity experience. To connect Phone System to the Public Switched Telephone Network (PSTN), you can choose Microsoft’s Calling Plan or your own telephony carrier.
 
-For more information, see [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
+For more information, see [What is Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### Enterprise Voice (Skype for Business Server)
 
@@ -54,18 +54,18 @@ For more information, see [Plan for Enterprise Voice in Skype for Business Serve
 
 You can choose to connect to the Public Switched Telephone Network (PSTN) by:
 
-- Using Microsoft Calling Plan in Office 365 
+- Using Microsoft Calling Plan in Microsoft 365 or Office 365 
 - Connecting your own telephony carrier
 
-### Calling Plan (Office 365)
+### Calling Plan (Microsoft 365 or Office 365)
 
-This option connects Microsoft’s Office 365 Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier.
+This option connects the Microsoft 365 or Office 365 Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier.
 
-For more information, see [Calling Plans for Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+For more information, see [Calling Plans for Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
-### Connect your own telephony carrier (Office 365 and Skype for Business on-premises)
+### Connect your own telephony carrier (Microsoft 365 or Office 365 and Skype for Business on-premises)
 
-This option connects either Phone System in Office 365 or Enterprise Voice system in Skype for Business on-premises to your telephony network. This option requires a supported Session Border Controller (SBC). In some cases, this option might require additional Microsoft software deployed on-premises.
+This option connects either Phone System in Microsoft 365 or Office 365 or Enterprise Voice system in Skype for Business on-premises to your telephony network. This option requires a supported Session Border Controller (SBC). In some cases, this option might require additional Microsoft software deployed on-premises.
 
 ## Which solution is right for your organization?
 
@@ -111,12 +111,12 @@ Phone System with Calling Plan is an all-in-the-cloud option for Teams or Skype 
 
 
 - Microsoft Phone System with added Domestic or International Calling Plans that enables calling to  phones around the world (depending on the level of service being licensed). 
-- Because PSTN Calling Plan operates out of Office 365, this option does not require deployment or maintenance of any on-premises deployment.
+- Because PSTN Calling Plan operates out of Microsoft 365 or Office 365, this option does not require deployment or maintenance of any on-premises deployment.
 - Customers can connect a supported SBC via Direct Routing for interoperability with 3rd party PBX, analog devices, and other 3rd party telephony equipment supported by the SBC.
 
 | Infrastructure requirements                   | Required?|
 | :----------------------------------------------------| ---------:|
-| Requires uninterrupted connection to Office 365 | Yes |
+| Requires uninterrupted connection to Microsoft 365 or Office 365 | Yes |
 | Available worldwide*                            | No  |
 | Requires deploying and maintaining a supported Session Border Controller (SBC) | No |
 | Requires contract with third-party carrier      | No   |
@@ -133,7 +133,7 @@ If you answer yes to the following questions, then this is the right solution fo
 - You do not want to manage Session Border Controllers on your own.
 - Teams and/or Skype for Business Online has all the features that your organization requires.
 
-For more information, see [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) and [Calling Plans for Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+For more information, see [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) and [Calling Plans for Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ## Phone System with own carrier via Direct Routing
 
@@ -148,7 +148,7 @@ This option provides Microsoft Phone System in the cloud with virtually any tele
 
 | Infrastructure requirements                   | Required?|
 | :----------------------------------------------------| ---------:|
-| Requires uninterrupted connection to Office 365 | Yes |
+| Requires uninterrupted connection to Microsoft 365 or Office 365 | Yes |
 | Available worldwide                            | Yes  |
 | Requires deploying and maintaining a supported Session Border Controller (SBC) | Yes |
 | Requires contract with third-party carrier*      | Yes   |
@@ -164,7 +164,7 @@ If you answer yes to the following questions, then this is the right solution fo
 - You need to interoperate with 3rd party PBXs and/or equipment such us overhead pagers, analog devices
 - Teams has all the features that your organization requires.
 
-For more information, see [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) and [Plan Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
+For more information, see [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) and [Plan Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
 
 
 ## Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition
@@ -180,7 +180,7 @@ This option provides Microsoft Phone System in the cloud with connectivity to an
 
 | Infrastructure requirements                   | Required?|
 | :----------------------------------------------------| ---------:|
-| Requires uninterrupted connection to Office 365 | Yes |
+| Requires uninterrupted connection to Microsoft 365 or Office 365 | Yes |
 | Available worldwide                            | Yes  |
 | Requires deploying and maintaining a supported Session Border Controller (SBC) | Yes |
 | Requires contract with third-party carrier      | Yes   |
@@ -194,7 +194,7 @@ If you answer yes to the following questions, then this is the right solution fo
 - PSTN Calling Plan is not available in your region.
 - You need to retain your current PSTN carrier.
 
-For more information, see [What is Phone System in Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019), and [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+For more information, see [What is Phone System in Microsoft 365 and Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019), and [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
@@ -213,7 +213,7 @@ This option provides Enterprise Voice on-premises with connectivity to an on-pre
 
 | Infrastructure requirements                   | Required?|
 | :----------------------------------------------------| ---------:|
-| Requires uninterrupted connection to Office 365 | No |
+| Requires uninterrupted connection to Microsoft 365 or Office 365 | No |
 | Available worldwide                            | Yes  |
 | Requires deploying and maintaining a supported Session Border Controller (SBC) | Yes |
 | Requires contract with third-party carrier      | Yes   |
@@ -224,15 +224,3 @@ For more information, see [Plan for Enterprise Voice in Skype for Business Serve
 Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
 - Have access to the latest features released by Microsoft
-
-
-
-
-
-
-
-
-
-
-
-  

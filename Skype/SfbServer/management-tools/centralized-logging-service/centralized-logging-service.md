@@ -107,7 +107,7 @@ The Centralized Logging Service is configured to define what the logging service
 |:-----|:-----|
 |**Identity** <br/> |Identifies the scope and name for this configuration. There is only one Global configuration, and one configuration per site.  <br/> |
 |**Scenarios** <br/> |Listing of all scenarios that are defined for this configuration.  <br/> |
-|**SearchTerms** <br/> |Defined search terms for the configuration. Office 365, not on-premises deployments.  <br/> |
+|**SearchTerms** <br/> |Defined search terms for the configuration. Microsoft 365 or Office 365, not on-premises deployments.  <br/> |
 |**SecurityGroups** <br/> |Defined security groups that control who (that is, members of the security groups) can see computers based on the site they are located in. Site, in this context, is the site as defined in Topology Builder.  <br/> |
 |**Regions** <br/> |Defined regions are used to collect SecurityGroups into a region, for example EMEA.  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |The parameter indicates the maximum size of the log file before a new event trace log (.etl) file is created. A new log file is created when the defined size is reached even if the maximum time set in EtlFileRolloverMinutes has not yet been reached.  <br/> |
@@ -119,6 +119,6 @@ The Centralized Logging Service is configured to define what the logging service
 |**CacheFileMaxDiskUsage** <br/> |Defined as the percentage of disk space that can be used by the cache files.  <br/> |
 |**ComponentThrottleLimit** <br/> |Defined as the maximum number of traces per second that a component can produce before the automatic throttle limiter is triggered.  <br/> |
 |**ComponentThrottleSample** <br/> |Number of times in 60 seconds that the ComponentThrottleLimit can be exceeded.  <br/> |
-|**MinimumClsAgentServiceVersion** <br/> |The minimum version of the CLSAgent allowed to run. This element is intended for Office 365.  <br/> |
+|**MinimumClsAgentServiceVersion** <br/> |The minimum version of the CLSAgent allowed to run. This element is intended for Microsoft 365 or Office 365.  <br/> |
    
 

@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Get started with Secure Messaging for Healthcare organizations
+description: Learn how to customize a Secure Messaging policy that can include read receipts and priority notifications.
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -47,8 +47,6 @@ For Healthcare applications, choose either **User controlled** or **On for every
 *Usage example with read receipts:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and starts an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses. Jakob's patient outcomes are near-optimal and he goes home sooner because his care team communicates smoothly.
 
 ## Send urgent messages using priority notifications
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 A user can mark a message as *urgent* when sending chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular *important* messages, [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notify users every two minutes for up to 20 minutes or until the message is picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
 

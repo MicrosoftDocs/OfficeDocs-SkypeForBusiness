@@ -46,7 +46,7 @@ This article compares the features and capabilities among Skype for Business mob
     
 -  Modern Authentication
     
-The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
+The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server. The same features are also available to Skype for Business Online and Microsoft 365 or Office 365 users, unless otherwise indicated in the table footnotes.
   
 > [!NOTE]
 > For online help and resources for end users, see [Discover Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
@@ -121,7 +121,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 |Display or hide contact photos  <br/> |&#x2714;|&#x2714;|||
 |Pin a contact to your home screen  <br/> ||&#x2714;|||
    
- &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
+ &#x2776;  Not available to Skype for Business Online and/or Microsoft 365 or Office 365 users.
   
 ## Instant Messaging support
 
@@ -177,7 +177,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 |View more information about meeting participants  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Start an unscheduled group conversation with multiple participants directly from your client or device  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776;  For Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
+ &#x2776;  For Microsoft 365 or Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
   
  &#x2777;  Requires a WiFi connection by default.
  
@@ -204,7 +204,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
    
  &#x2776;  Available to Skype for Business Online and/or Office 365 E5 users, and users homed on Skype for Business Server or Lync Server 2013 with Enterprise Voice enabled.
   
- &#x2777;  For Skype for Business Online and/or Office 365 users, this feature is supported by Microsoft partners.
+ &#x2777;  For Skype for Business Online and/or Microsoft 365 or Office 365 users, this feature is supported by Microsoft partners.
   
  &#x2778;  Windows Desktop client only.
   
@@ -237,7 +237,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 |Provide client-side archiving  <br/> |&#x2714;||||
 |Provide client-side recording  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
+ &#x2776;  Not available to Skype for Business Online and/or Microsoft 365 or Office 365 users.
   
 ## Modern Authentication
 

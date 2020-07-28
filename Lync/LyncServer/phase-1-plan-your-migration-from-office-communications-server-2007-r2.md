@@ -1,8 +1,8 @@
 ---
 title: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'

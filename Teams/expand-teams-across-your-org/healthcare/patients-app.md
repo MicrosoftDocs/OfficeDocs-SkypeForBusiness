@@ -16,15 +16,13 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Learn about integrating electronic healthcare records into Microsoft Teams using FHIR APIs on top of a medical information system to connect to Microsoft Teams.
-ms.custom: seo-marvel-mar2020
+description: Learn about integrating Electronic Healthcare Records into the Microsoft Teams Patients app using FHIR APIs.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-To participate in the private preview, see [Enroll in the private preview](#enroll-in-the-private-preview).
 
 This article is intended for a general healthcare IT developer interested in using FHIR APIs on top of a medical information system to connect to Microsoft Teams. This would enable care coordination scenarios that match the needs of a healthcare organization.
 
@@ -48,7 +46,6 @@ The following sections explain the requirements of the FHIR-only data access lay
 - Expectations around performance and reliability
 - Expectations around FHIR resources to be supported for the Patients app
 - Process for integration and the expected engagement model
-- How to enroll yourself and your customer in the private preview of the Patients app
 - How to get started with FHIR and some common challenges faced with the Patients app
 - Future requirements for the next iteration of the Patients app
 
@@ -177,26 +174,4 @@ While the Patients app is in private preview, there are no guarantees on the end
 
 If you're new to FHIR and need easy access to a FHIR Server that you can expose to the Microsoft Teams EHR integration interface, Microsoft has an open-source FHIR Server available for all developers to use. Please see the [What is FHIR Server for Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) article to learn more about the open source FHIR Server available from Microsoft and deploy it for your organizations.
 
-You can also use the HSPC Open sandbox EHR environment to create an an EHR which also supports an open FHIR Server and use this to play around with the Patients app. We recommend that you read through the [HSPC Sandbox documentation](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Not only does the sandbox provide an easy, UI oriented, and user friendly way of creating, adding and editing Patients, it also gives you several samples to get started.  
-
-## Enroll in the private preview
-
-Once you've created the open source FHIR Server, it's really easy to connect to the Patients app inside of your tenant by following the steps mentioned below:
-
-1. [Contact us](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) with the following initial details:  
-    - Your Name
-    - Your Position
-    - The company or organization you represent
-    - Why you are interested in the Patients app for EHR integration
-
-    We will get back to you as soon as possible with more questions and guide you through a process to get set up for the private preview.
-
-2. Ensure that sideloading of custom apps is enabled in the tenant where you are going to try out the Patients app. Please refer to [App permission policies](../../admin-settings.md) to learn how to turn this on from the Teams Admin center for your or your customer's tenant.
-
-3. Sideload the Patients app manifest that you will get from Microsoft (after we process your email to us) into a team in the tenant that is going to be used for care-coordination and patient rounding scenarios. Detailed instructions around how to side-load an app are in [Upload an app package to Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-upload)
-
-4. Navigate to the general channel as the Team owner and then click on the Patients tab. You should see a first run experience that will present two options i.e. EHR Mode and Manual Mode. Please select the **EHR mode** and copy the FHIR Server endpoint (that you've just setup earlier with all the required data and resources per the specifications above) into the Link field and give the connection a name that well represents the FHIR Server. Click on Connect, and everything should be ready to go.
-
-    ![Screen shot of Patients app server settings](../../media/patients-server.png)
-
-5. Start using the app to search for Patients from the FHIR Server/EHR and add them to a list and please [give us feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) if something doesn't work. Also, to establish a fully authenticated version of the Patients app -> FHIR Server flow, please engage in offline dialogue with Microsoft Teams for healthcare product engineering, through the email request mentioned earlier to clarify requirements and we will help enable this for you per the Authentication requirements described above in the FHIR Interface document.  
+You can also use the HSPC Open sandbox EHR environment to create an an EHR which also supports an open FHIR Server and use this to play around with the Patients app. We recommend that you read through the [HSPC Sandbox documentation](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Not only does the sandbox provide an easy, UI oriented, and user friendly way of creating, adding and editing Patients, it also gives you several samples to get started. 

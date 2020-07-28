@@ -76,7 +76,7 @@ The following are known limitations when you use Lync 2013 in a VDI environment:
     
       - Customized ringtones and music-on-hold features.
 
-  - The Lync VDI plug-in is not supported in an Office 365 environment.
+  - The Lync VDI plug-in is not supported in a Microsoft 365 or Office 365 environment.
 
 </div>
 

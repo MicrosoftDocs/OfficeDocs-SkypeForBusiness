@@ -7,12 +7,14 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Teams client experience and conformance to coexistence modes
+description: Learn about Teams client experience and conformance to coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

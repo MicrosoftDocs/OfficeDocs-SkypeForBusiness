@@ -33,7 +33,7 @@ description: "See how to configure Skype for Business to let users talk to users
 # Allow users to contact external Skype for Business users
 
 > [!NOTE]
-> Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
+> Skype for Business federation isn't available to Microsoft 365 or Office 365 operated by 21Vianet and Microsoft 365 or Office 365 Germany organizations. 
   
 Use the steps in this article when:
   
@@ -46,11 +46,11 @@ Use the steps in this article when:
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 or Office 365 in both organizations to do this.
 
 ![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Teams admin center**
   
-1. Sign in with your Office 365 admin account. 
+1. Sign in with your Microsoft 365 or Office 365 admin account. 
     
 2. In the admin center, go to **Admin Centers** > **Teams**.
     
@@ -111,7 +111,7 @@ After you enable external communication with other Skype for Business users, you
     
 - To configure federation between Lync and Skype for Business Online, see this  article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/library/hh202193.aspx).
     
-- When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
+- When two Skype for Business users in Microsoft 365 or Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
     
 - If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
     
@@ -120,7 +120,7 @@ After you enable external communication with other Skype for Business users, you
 
 After you enable external communication for your entire business, you can turn it off for only specific individuals.
   
-1. Sign in with your Office 365 admin account.
+1. Sign in with your Microsoft 365 or Office 365 admin account.
     
 2. In the admin center, go to **Users** > **Active users**.
     

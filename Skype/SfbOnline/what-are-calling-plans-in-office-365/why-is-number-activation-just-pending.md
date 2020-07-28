@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: "Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services."
+description: "Address validation is an important part of setting up Calling Plans. It provides a user in your organization an emergency calling address that can be used by emergency response services."
 ---
 
 # Why is number activation just pending?
 
-Address validation is an important part of setting up Calling Plans in Office 365. If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request. How you do this is based on the size of your organization.
+Address validation is an important part of setting up Calling Plans. If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request. How you do this is based on the size of your organization.
   
 ## For organizations 150 or less follow these steps
 1. In the admin center, choose **Need help**?
@@ -34,10 +34,10 @@ Address validation is an important part of setting up Calling Plans in Office 36
 3. If the results in the **View solutions** section don't help, choose one of the following:
     - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
     - **Email us**: Confirm your email address, then choose **Send**. The call response time is indicated in the **Need help?** pane.
-
+ 
 ## For organizations with more than 150 users, create a service request to validate an emergency address
 
-1. Sign in as an administrator to Office 365 with your work or school account.
+1. Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.
     
 2. In the admin center, in the left navigation, click **Support** > **New service request**.
     
@@ -64,7 +64,7 @@ Address validation is an important part of setting up Calling Plans in Office 36
       - Country or region
     
      > [!IMPORTANT]
-     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
+     > **Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**
   
       - Postal or zip code
     

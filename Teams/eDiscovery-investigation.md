@@ -1,15 +1,15 @@
 ---
 title: Conduct an eDiscovery investigation of content
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
   - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -33,19 +33,17 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 
 | Content type | eDiscoverable | Notes |
 |:--- | --- |:--- |
-| Teams chat messages | Yes | Chat messages from chats where guest users are the only participants in a 1:1 or 1:N chat are not eDiscoverable. |
+| Teams chat messages | Yes |  |
 | Audio recordings | No | |
-| Time stamp showing when a message was read by each user | No | |
-| Audio recordings | No | |
-| Private channel messages | No | |
+| Private channel messages | Yes | |
 | Emojis, GIFs, stickers | Yes | |
 | Code snippets | No | |
-| Chat links | No | |
+| Chat links | Yes | |
 | Reactions (likes, hearts, and so on) | No | |
 | Edited messages | Yes | If the user is on hold, previous versions of edited messages are preserved. |
 | Inline images | Yes | |
-| Tables | No | |
-| Subject | No | |
+| Tables | Yes | |
+| Subject | Yes | |
 | Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 | Name of channel | No | |
 
@@ -157,7 +155,7 @@ A conversation review set provides a more intuitive, threaded view of the conver
 
 Functionality such as redaction is available in both types of review sets.
 
-For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### Collection options
 

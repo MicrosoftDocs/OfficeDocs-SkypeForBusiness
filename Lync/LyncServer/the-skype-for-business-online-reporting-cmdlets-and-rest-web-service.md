@@ -1,8 +1,8 @@
 ---
 title: The Skype for Business Online reporting cmdlets and REST web service
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service

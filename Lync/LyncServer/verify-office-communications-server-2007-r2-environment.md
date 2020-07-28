@@ -1,8 +1,8 @@
 ---
 title: Verify Office Communications Server 2007 R2 environment
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment

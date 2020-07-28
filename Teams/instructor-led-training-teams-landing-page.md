@@ -2,9 +2,9 @@
 layout: HubPage
 ms.topic: hub-page
 title: Instructor-led training and videos for users
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
-description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -12,9 +12,10 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
+search.appverid: MET150
 ms.custom: 
  - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
@@ -33,7 +34,7 @@ ms.collection:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols3">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
+        <a href="https://aka.ms/SayhelloTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -53,7 +54,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
+        <a href="https://aka.ms/GetstartedwithMSTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -73,7 +74,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
+        <a href="https://aka.ms/RunmeetingsTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -93,7 +94,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/teamschannels"target="_blank">
+        <a href="https://aka.ms/TeamsandchannelsinTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +114,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
+        <a href="https://aka.ms/IntegrateappsinTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -133,7 +134,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <a href="https://aka.ms/GodeeperwithTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -173,27 +174,7 @@ ms.collection:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Empower your Firstline Workers with Teams</h3>
-                        <p>Learn how Teams enables digital transformation that brings limitless potential to your entire workforce.</p>
-                        <p><i>Audience: Business decision makers, IT decision makers</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <a href="https://aka.ms/WorkathomewithTeams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -2,7 +2,8 @@
 title: Meetings in Microsoft Teams
 metadata:
   title: Meetings in Microsoft Teams
-  description: Interactive tutorial walks you through meetings in Microsoft Teams.
+  description: Use this interactive tutorial to learn the types, planning steps, and reporting for meetings in Microsoft Teams.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -145,8 +146,7 @@ items:
     phone, requires an additional license. This will be addressed in a dedicated
     training on Audio Conferencing.
 
-    For more information, see [Office 365 licensing for Microsoft
-    Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).
+    For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
     ### Bandwidth and media flow
     In Teams, there are two ways to initiate real-time communication:
@@ -169,7 +169,7 @@ items:
     Planning bandwidth isn’t covered in this training, but it will be crucial for
     the user experience.
 
-    For more information, see [Prepare your organization's network for Microsoft
+    For more information, see [Prepare your organization's network for 
     Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
 
     ### Exchange dependencies
@@ -186,6 +186,18 @@ items:
     Meeting organizers can end a meeting for all participants by clicking **End meeting** from within the meeting. This is helpful in scenarios such as the following:
     -   Educators can ensure that students don't stay in a meeting unsupervised after a class is finished.
     -   For meetings that are being recorded, such as webinars, meeting organizers can ensure that the recording ends when the meeting ends.  
+
+    To learn more, see [End a Teams meeting for everyone in attendance](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971).
+
+    ### Change participant settings for a meeting
+
+    Meeting organizers can change the default participant settings for a specific meeting in **Meeting options**. There are three ways to get there:
+    -   Go to the Calendar in Teams,  select a meeting, and then select **Meeting options**. 
+    -   In a meeting invitation, select **Meeting options**.
+    -   Select **Show participants** to open the **People** pane, and then select **Manage Permissions**. 
+
+    To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+
 
 - title: Meeting configuration options
   durationInMinutes: 20
@@ -216,7 +228,7 @@ items:
     out.
 
     ### Requirements
-    -   An Office 365 tenant with appropriate licenses to use Teams
+    -   An Office 365 organization with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
         -   If you don’t have a test tenant, you can sign up for a trial tenant at
         [Office 365 Enterprise E5
@@ -261,7 +273,7 @@ items:
     -   Low quality, on the other hand, means that there are issues with
         connectivity between users and Office 365. Low quality can lead to bad user
         experience and lower usage.
-    Refer to [Office 365 Reports in the Admin Center - Microsoft Teams user
+    Refer to [Microsoft 365 Reports in the Admin Center - Microsoft Teams user
     activity](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
     (estimated reading time 5 minutes) to learn more about the usage reports.
 

@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Read this topic to learn how to configure media bypass with Phone System Direct Routing."
+description: Learn how to configure media bypass with Phone System Direct Routing for Microsoft Teams by switching all users at once or implementing a phased approached (recommended).
+ms.custom: seo-marvel-apr2020
 ---
 
 # Configure media bypass with Direct Routing
@@ -24,11 +25,11 @@ Before configuring media bypass with Direct Routing, be sure you have read [Plan
 
 To turn on media bypass, the following conditions must be met:
 
-1.	Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC. Please refer to the certification page to learn about SBCs, which ones support media bypass, and for instructions.
+1.    Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC. Please refer to the certification page to learn about SBCs, which ones support media bypass, and for instructions.
 
-2.	You need to turn on media bypass on the trunk using the following command:  **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true**.
+2.    You need to turn on media bypass on the trunk using the following command:  **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true**.
 
-3.	Make sure that the required ports are opened. 
+3.    Make sure that the required ports are opened. 
 
 
 ## Migrate from non-bypassed trunks to bypass-enabled trunks
@@ -54,7 +55,7 @@ For a list of Session Border Controllers (SBCs) certified for Direct Routing, se
 
 
 
-## See also
+## Related topics
 
 [Plan media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 

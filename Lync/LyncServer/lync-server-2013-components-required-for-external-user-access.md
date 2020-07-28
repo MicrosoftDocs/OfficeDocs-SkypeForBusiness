@@ -101,7 +101,7 @@ The reverse proxy is required for the following:
 
   - To enable mobile devices to automatically discover Front End Servers offering mobility services
 
-  - To enable push notifications to mobile devices from the Office 365 or Apple push notification services
+  - To enable push notifications to mobile devices from the Microsoft 365, Office 365, or Apple push notification services
 
 For additional information related to reverse proxies and the requirements that reverse proxies must meet, see the details in [Configuration requirements for reverse proxy in Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 

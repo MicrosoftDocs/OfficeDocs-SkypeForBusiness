@@ -2,7 +2,7 @@
 title: Quick start - Microsoft Teams for Education admins
 metadata:
   title: Quick start - Microsoft Teams for Education admins
-  description: For IT admins in Education, deploy Microsoft Teams across your organization.
+  description: Learn how IT administrators at education institutions can deploy Microsoft Teams across an organization.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,6 +20,7 @@ metadata:
   - CSH
   ms.custom:
   - NewAdminCenter_Update
+  - seo-marvel-mar2020
   appliesto: 
   - Microsoft Teams
 items:

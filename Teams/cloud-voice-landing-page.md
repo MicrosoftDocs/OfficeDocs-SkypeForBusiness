@@ -15,32 +15,32 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+  - seo-marvel-apr2020
 search.appverid: MET150
-description: Landing page to deploying cloud voice in Teams
+description: Learn more about the Cloud voice feature, and understand the necessary deployment decisions that you will face.
 appliesto: 
   - Microsoft Teams
 ---
 
-# Cloud voice in Microsoft Teams
+# Voice - Phone System and PSTN connectivity options
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice capabilities for your users. 
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add voice capabilities for your users. 
 
-Cloud voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
+Voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
 
-This article helps you decide whether you need to change any of the default cloud voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+This article helps you decide whether you need to change any of the default voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
 
 
 
-## Learn more about cloud voice
+## Learn more about voice
 
-The following articles provide more information about deploying and using cloud voice features in Teams:
+The following articles provide more information about deploying and using voice features in Teams:
 
-- [Phone System in Office 365](what-is-phone-system-in-office-365.md)
+- [Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
 - [Phone System with Calling Plans](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
-- [Cloud voice deployment](cloud-voice-deployment.md)
 - [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
 
@@ -51,12 +51,12 @@ These are the settings that most organizations want to change (if the Teams defa
 
 ## Phone System (Office 365)
 
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Microsoft 365 or Office 365 and tightly integrated into the company's cloud productivity experience.
 
 
 |Ask yourself|Action |
 |:------------|:-------|
-|In which user locations or offices will I implement Phone System? |For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|In which user locations or offices will I implement Phone System? |For more information about Phone System, see [What is Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## Connection to the Public Switched Telephone Network (PSTN)
@@ -84,7 +84,7 @@ You may want to change settings for the following, based on your organization's 
 
 ### Voicemail
 
-Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
+Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn't support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
 
 |Ask yourself|Action |
 |:------------|:-------|
@@ -114,7 +114,7 @@ How do I port existing phone numbers to Teams?|For more information, see [Transf
 
 ### Dial plans
 
-A dial plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
+A dial plan in the Phone System feature of Microsoft 365 or Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
 
 For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
@@ -145,7 +145,7 @@ Cloud auto attendants can be used to create a menu system for your organization 
 
 For more information about supported devices, see the following:
 
-- [Manage your devices in Microsoft Teams](device-management.md)
+- [Manage your devices in Microsoft Teams](devices/device-management.md)
 - [IP Phones](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Intelligent communications for devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)

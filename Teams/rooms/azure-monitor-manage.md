@@ -14,7 +14,7 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: 
   - M365-collaboration
 description: "This article discusses how to manage Microsoft Teams Rooms devices in an integrated manner using Azure Monitor."
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Manage Microsoft Teams Rooms devices with Azure Monitor
@@ -39,7 +39,7 @@ Understanding these event descriptions alerts you to problems quickly, and provi
 | 3001  <br> Error Event  | This is a hardware error event. The Microsoft Teams Rooms app has a process that checks the health of connected hardware components (front of room, microphone, speaker, camera) every 5 minutes. If one or more of the components are unhealthy, it writes EventID 3001 into the event log. This event is written every 5 minutes until the issue with the device is fixed.   | {"Description":" **Front of Room Display status : Unhealthy.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"} <br><br>  Hardware peripherals are shown as either Healthy or Unhealthy. <br> In this example, there are two front of room displays configured, and currently neither of them is available. The Conference Microphone status is unhealthy, which could have several possible causes. Since at least one resource did not pass the check, the ResourceState is listed as Unhealthy. Send a technician to investigate further. |
 | 4000  <br> Information  <br> | This is an App Restart event. Every time the app is restarted, it will log this event into the Windows event log.  <br> | {"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"} <br><br> The app may restart for various reasons. Compare the restart frequency of devices in the same building and in different buildings. Keep in mind known issues like power fluctuations and failures, as this may provide clues to infrastructure problems.|
 
-## See also
+## Related topics
  
 
 [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md)

@@ -18,7 +18,7 @@ description: "Summary: Learn how to turn on the Smart contacts list feature in t
 
 **Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
 
-The Smart contacts list feature allows automatic population of contact lists for your end users. Upon first using Skype for Business, your users will automatically see their manager and other people on their team. This feature is turned on by default for Office 365 users, but you must explicitly enable this feature for your on-premises users by configuring the client policy setting.
+The Smart contacts list feature allows automatic population of contact lists for your end users. Upon first using Skype for Business, your users will automatically see their manager and other people on their team. This feature is turned on by default for Microsoft 365 and Office 365 users, but you must explicitly enable this feature for your on-premises users by configuring the client policy setting.
 
 Keep the following in mind when configuring this feature:
 

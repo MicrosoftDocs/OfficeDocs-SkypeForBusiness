@@ -1,8 +1,8 @@
 ---
 title: Verify configuration settings
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings

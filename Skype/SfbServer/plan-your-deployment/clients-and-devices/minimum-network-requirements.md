@@ -16,14 +16,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
-description: "Summary: Information for organizations who don't use Office 365 and need to access meetings hosted by organizations that do."
+description: "Summary: Information for organizations who don't use Microsoft 365 or Office 365 and need to access meetings hosted by organizations that do."
 ---
 
 # Skype Meetings App minimum network requirements
  
-**Summary:**  Information for organizations who don't use Office 365 and need to access meetings hosted by organizations that do. This article is not intended for the users of these apps.
+**Summary:**  Information for organizations who don't use Microsoft 365 or Office 365 and need to access meetings hosted by organizations that do. This article is not intended for the users of these apps.
   
-To allow users to use Skype Meetings App to  attend meetings hosted in Skype for Business Online, network administrators of organizations who don't use Office 365 should whitelist or otherwise make available the FQDNs, IPs, and ports mentioned below.
+To allow users to use Skype Meetings App to  attend meetings hosted in Skype for Business Online, network administrators of organizations who don't use Microsoft 365 or Office 365 should whitelist or otherwise make available the FQDNs, IPs, and ports mentioned below.
 
 ## Requirements for Skype Meetings App connectivity
 

@@ -11,11 +11,12 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn how to use Teams templates to create team structures designed for retailer needs."
+description: Learn how to use Teams templates to create team structures designed for retailer needs by providing predefined settings, channels, and pre-installed apps.
 f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -58,7 +59,7 @@ The Manager Collaboration template is another one of the Teams templates designe
 
 Recommended ways to customize the Manager Collaboration template for your organization:
 
-- If your organization has any internal websites (for example, a SharePoint site) that are relevant for managers, consider pinning them as tabs in a relevant team channel (refer to documentation [here](get-started-with-teams-templates.md) for instructions).
+- If your organization has any internal websites (for example, a SharePoint site) that are relevant for managers, consider pinning them as tabs in a relevant team channel. You can take a look at the [Microsoft Teams Template documentation](get-started-with-teams-templates.md) for instructions.
 
 ## How to use first party templates
 

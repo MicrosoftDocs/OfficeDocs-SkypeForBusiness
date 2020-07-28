@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Deploying and implementing your upgrade to Teams from a Skype for Business Server or Microsoft Lync on-premises deployment.  
+description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business on-premises deployment.  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: 
- - Teams-upgrade-guidance
- - seo-marvel-mar2020
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -37,7 +37,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
-If you've deployed Skype for Business Server or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You need to set up hybrid connectivity with your Office 365 tenant, and determine coexistence requirements if you are moving your users to Teams in phases. 
+If you've deployed Skype for Business Server or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You need to set up hybrid connectivity with your Microsoft 365 or Office 365 organization, and determine coexistence requirements if you are moving your users to Teams in phases. 
 
 > [!IMPORTANT]
 > Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
@@ -64,14 +64,24 @@ Depending on your requirements, you can assign the appropriate coexistence mode 
 
 ## Step 3: Move users from Skype for Business on-premises to Teams Only
 
-Ultimately, you'll want to move your users to TeamsOnly mode. This might involve one or two steps depending on your current on-premises environment.  
+Ultimately, you'll want to move your users to TeamsOnly mode. This might involve one or two steps depending on your on-premises environment.  
 
 For more information, see [Move users between on-premises and the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
+## Step 4: Disable hybrid to complete your migration to the cloud
+
+After you have moved all users from on-premises to the cloud, you can decommission the on-premises Skype for Business deployment. For more information, see [Disable hybrid to complete migration to the cloud](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).
 
 
-## Phone System and Teams upgrade
+## Phone System and PSTN connectivity options
 
-If you are transitioning your Skype for Business deployment to Phone System with Calling Plans, Microsoft will be your public switched telephone network (PSTN) provider. Assuming that you've completed the phone number porting--upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+Phone System with Teams is supported after the user is in TeamsOnly mode. (If the user is in Islands mode, Phone System is only supported with Skype for Business.) 
 
-If you are transitioning your Skype for Business deployment to Phone System but are not using Calling Plans, you  need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
+### PSTN connectivity options
+
+When considering Public Switched Telephone Network (PSTN) connectivity options, there are two possible scenarios when moving from Skype for Business on premises to TeamsOnly mode:
+
+- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and using a Microsoft Calling plan. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.  For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
+
+- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and keeping on-premises PSTN connectivity. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
+

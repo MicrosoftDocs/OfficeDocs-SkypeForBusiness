@@ -6,13 +6,15 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: Tasks and activities required for monitoring quality and usage of Microsoft Teams 
+ms.reviewer: landerl
+description: Admin can learn about the tasks and activities required for monitoring quality and usage of Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: 
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -26,7 +28,9 @@ appliesto:
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
+## Improve and monitor call quality
+
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
 
 ![Illustration of the key areas to examine during a Review.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")
 
@@ -44,8 +48,8 @@ By continually assessing and remediating the areas described in the guide, you c
 
 - Problematic subnets or network devices
 
-The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+The guidance provided in [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-We highly recommend that you nominate the quality champion early on. After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).
+We highly recommend that you nominate the quality champion early on. After being nominated, they should start to familiarize themselves with the content in [Improve and monitor call quality for Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

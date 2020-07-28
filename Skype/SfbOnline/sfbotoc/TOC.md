@@ -220,8 +220,8 @@
 
 ## [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### License options based on your plan
-#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-#### [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Microsoft 365 Business Standard](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Microsoft 365 Business Standard, Microsoft 365 Apps for enterprise, or Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 Enterprise E1, E3, and E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 #### [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -269,9 +269,9 @@
 ### [ExpressRoute and QoS in Skype for Business Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Media Quality and Network Connectivity Performance](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Proxy Servers for Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
-### [Use the Network Testing Companion](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
-## [Call Analytics and Call Quality Dashboard](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
+## [Call Analytics and Call Quality Dashboard](/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Dimensions and measures available in Call Quality Dashboard](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Set up Skype for Business Call Analytics](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Turning on and using Call Quality Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

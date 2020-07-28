@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about Skype for Business Online retirement. 
+description: Learn about the retirement plan for Skype for Business Online and how Microsoft is helping customers migrate to Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -17,6 +17,7 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
+ms.custom: seo-marvel-apr2020
 ---
 
 
@@ -26,7 +27,7 @@ Skype for Business Online will be retired on July 31, 2021. This article provide
  
 ## What is the Skype for Business retirement plan?
 
-Skype for Business Online will be retired on July 31, 2021, and after that date the service will no longer be accessible. Between now and then, current Skype for Business Online customers will experience no change in service, and they’ll be able to continue to add new users as needed. However, starting September 1, 2019, we will onboard all new Office 365 customers directly to Teams for chat, meetings, and calling. Please note that the Skype Consumer service and Skype for Business Server will both be unaffected by this announcement.  
+Skype for Business Online will be retired on July 31, 2021, and after that date the service will no longer be accessible. Between now and then, current Skype for Business Online customers will experience no change in service, and they’ll be able to continue to add new users as needed. However, starting September 1, 2019, we will onboard all new Microsoft 365 or Office 365 customers directly to Teams for chat, meetings, and calling. Please note that the Skype Consumer service and Skype for Business Server will both be unaffected by this announcement.  
 
 ## Why are we making this announcement now?
 

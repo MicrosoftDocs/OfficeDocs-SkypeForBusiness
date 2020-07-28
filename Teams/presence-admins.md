@@ -7,7 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Information for Admins about Presence in Teams.
+description: Learn the Presence states in Teams, as well as the administrative settings for the Presence feature.
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -20,7 +21,7 @@ appliesto:
 
 # User presence in Teams
 
-Presence is part of a user's profile in Microsoft Teams (and throughout Office 365) that indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online.
+Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365 or Office 365) that indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online.
 
 Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
 

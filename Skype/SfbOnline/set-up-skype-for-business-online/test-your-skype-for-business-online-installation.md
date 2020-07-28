@@ -27,7 +27,7 @@ Save time, reduce support calls, and increase user satisfaction by testing your 
 
 Here's what you need:
 
-- At least three Office 365 accounts (yours and at least two others).
+- At least three Microsoft 365 or Office 365 accounts (yours and at least two others).
 
 - A computer for each test account. Set them up like a typical computer would be in your organization.
 
@@ -46,7 +46,7 @@ Here's what you need:
 ## Set up test accounts
 <a name="__toc328126910"> </a>
 
-1. Go to **Admin** > **Office 365** > **Users and groups**, and then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
+1. Go to **Admin** > **Microsoft 365** or **Office 365** > **Users and groups**, and then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
 
 2. When you come to Step 4 (Email), enter your own email address. You'll then have a record of the new user's name and password.
 
@@ -57,7 +57,7 @@ Here's what you need:
 
 On each test computer:
 
-1. Go to the Office 365 home page and sign in with credentials from one of your test accounts.
+1. Go to the Microsoft 365 or Office 365 home page and sign in with credentials from one of your test accounts.
 
 2. Go to **Settings**![Settings: update your profile, install software and connect it to the cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), and then click **Install software and connect it to the cloud**.
 
@@ -109,7 +109,7 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
 |[Send an IM in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |The Skype for Business conversation window appears, you type something, and you receive a response from the person you contacted.  <br/> |
 |[Send an IM in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |The Skype for Business conversation window appears, you type something, and everyone in the conversation responds.  <br/> |
 |[Search for a contact by using their first or last name](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Your search results begin to appear as soon as you start typing.  <br/> |
-|[FAQ about Lync for Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |The contact you added appears in the Contacts group you chose.  <br/> |
+|[FAQ about Lync for Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |The contact you added appears in the Contacts group you chose.  <br/> |
 |[Change your presence status in Lync](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Your new presence status is reflected in other people's Contacts list.  <br/> |
 |[Use the contact card](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |The person's contact card appears near their name.  <br/> |
 

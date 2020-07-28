@@ -1,8 +1,8 @@
 ---
 title: How user photos are displayed in Lync
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync

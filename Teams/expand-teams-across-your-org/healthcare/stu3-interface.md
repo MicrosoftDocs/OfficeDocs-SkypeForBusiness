@@ -16,8 +16,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Learn about the STU3 interface specification in Teams, including setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app.
-ms.custom: seo-marvel-mar2020
+description: Learn about integrating Electronic Health Records into the Microsoft Teams Patients app and the STU3 interface specification.
+ms.custom: seo-marvel-apr2020
 ---
 
 # STU3 interface specification

@@ -26,9 +26,17 @@ In some countries and regions, you may have to manually submit a service request
 
 Use the steps in this article to manually create and submit a port order if your country or region isn't listed in the [porting wizard in the Microsoft Teams admin center](transfer-phone-numbers-to-teams.md).
 
-## Manually submit a port order request
+## Manually submit a new port order request
 
-You can manually submit a port order by creating a service request in the Microsoft 365 admin center or by sending your completed Letter of Authorization (LOA) form directly to the PSTN service desk for your region.
+You can manually submit a new port order by creating a service request by sending your completed Letter of Authorization (LOA) form directly to the PSTN service desk for your region or in the Microsoft 365 admin center.
+
+### Send your Letter of Authorization directly to the PSTN service desk
+
+Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
+
+- In the United States and Canada, [send your request](mailto:ptn@microsoft.com).
+- In Europe, [send your request](mailto:ptneu@microsoft.com).
+- In Asia, [send your request](mailto:ptnapac@microsoft.com).
 
 ### Submit a service request in the Microsoft 365 admin center
 
@@ -39,15 +47,7 @@ You can manually submit a port order by creating a service request in the Micros
     1. Enter a title (for example, Port order request) and description for your request, confirm your phone number and email address, and select your preferred contact method.
     2. Under **Attachments**, click **Add a file**, and then upload your completed [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Click **Contact me**.
-
-### Send your Letter of Authorization directly to the PSTN service desk
-
-Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
-
-- In the United States, [send your request](mailto:ptn@microsoft.com).
-- In Europe, [send your request](mailto:ptneu@microsoft.com).
-- In Asia, [send your request](mailto:ptnapac@microsoft.com).
-  
+    
 ## What else should you know about number porting?
 
 - To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
