@@ -113,7 +113,12 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
-<sup>1</sup> View-only is on by default. You can use PowerShell "insert link to powershell script" to disable meeting overflow. View-only attendees will be unable to join a meeting if there is no longer view-only capacity in the meeting or the attendee doesn't have permission to bypass the Lobby based on set Lobby Policies or Options. View-only participants won't be able to see native PPT share files.
+<sup>1</sup> View-only is on by default. You can use PowerShell to disable meeting overflow. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+View-only attendees will be unable to join a meeting if there is no longer view-only capacity in the meeting or the attendee doesn't have permission to bypass the Lobby based on set Lobby Policies or Options. View-only participants won't be able to see native PPT share files.
 
 ### Meeting expiration
 
