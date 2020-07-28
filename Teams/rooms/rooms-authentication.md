@@ -73,7 +73,7 @@ To ensure successful authentication to your on-premises Exchange server and/or S
 Teams Rooms authentication flows vary depending on your authentication configuration. For customers using a managed domain, Teams Rooms uses [OAuth 2.0 Resource Owner Password Credentials](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) with Azure Active Directory. However, for customers using a federated domain, [OAuth 2.0 SAML Bearer Assertion Flow](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) is used.
 
 > [!NOTE]
-> Your identity provider may need specific configurations or settings for integration with Azure Active Directory or Office 365. Contact your identity provider if you need help with configurating authentication with Teams Rooms.
+> Your identity provider may need specific configurations or settings for integration with Azure Active Directory or Office 365. Contact your identity provider if you need help with configuring authentication with Teams Rooms.
 
 
 ### Prerequisites specific to Microsoft Teams Rooms
