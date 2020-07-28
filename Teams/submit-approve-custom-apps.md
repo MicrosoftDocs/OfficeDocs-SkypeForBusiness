@@ -29,41 +29,6 @@ We'll cover each step of the lifecycle, including how developers can use the Tea
 
 This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For information about developing Teams apps, see the <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams developer documentation</a>.
 
-<!-- ## Set up
-
-To create and manage custom apps in Teams, you'll need two tenants: a test tenant for development and a production tenant.
-
-### Set up your test tenant
-
-> [!NOTE]
-> If you don't already have a test tenant, you can quickly create one and populate it with test data using the <a href="https://developer.microsoft.com/microsoft-365/dev-program" target="_blank">Microsoft 365 Developer Program</a>.
-
-### Create test users
-
-Make sure that your developers, whether in-house or external, have accounts in your test tenant. To learn more, see <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide" target="_blank">Add users and assign licenses at the same time</a>.
-
-### Allow custom apps in the test tenant
-
-To give developers the access they need for testing, allow all users in the test tenant to upload custom apps (also known as sideloading). This lets developers upload a custom app to be used personally or across the test tenant without having to submit the app to the Teams app store. Uploading a custom app lets developers test an app before you distribute it more widely.
-
-To allow users to upload custom apps, follow these steps:
-
-1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
-
-    ![Screenshot of the "Allow interaction with custom apps" org-wide app setting](media/custom-app-lifecycle-org-wide-custom-apps.png)
-
-2. Turn on the **Upload custom apps** setting in the global app setup policy. To do this:
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    2. Turn on **Upload custom apps**, and then click **Save**.
-
-    ![Screenshot of the "Upload custom apps" app setup policy setting](media/custom-app-lifecycle-upload-custom-apps.png)
-
-> [!NOTE]
-> There's also an upload custom app setting at the team level. By default this setting is on. However, if developers are unable to upload a custom app to a team, check the setting by following the steps <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#team-custom-app-setting" target="_blank">here</a>. 
--->
-
 ## Develop
 
 ### Create the app
@@ -74,19 +39,19 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API, an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you, the admin, can review and approve it.
 
-The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams. To learn more, see [LINK TO DEV DOCS].
+The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
 Here's an example of what this app submission step looks like in Visual Studio:
 
 ![Screenshot of submitting an app in Visual Studio](media/custom-app-lifecycle-submit-app.png)
 
-Keep in mind that this doesn't publish the app to your organization's app store. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
+Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
 ## Validate
 
 The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all Teams apps for your organization. The **Pending approval** widget at the top of the page lets you know when a custom app is submitted for approval.
 
-In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the table according to status to quickly find the app.
+In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
 ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-validate-app.png)
 
