@@ -84,4 +84,4 @@ Once a base template type is defined, you can extend or override these special t
 
 - [Create a team template](create-a-team-template.md)
 - [Create a team from an existing team template](modify-existing-team-template.md)
-- [Create a team from an existing team](create-team-from-existing-team.md)
+- [Create a template from an existing team](create-team-from-existing-team.md)

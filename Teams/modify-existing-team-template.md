@@ -67,5 +67,5 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 ## Related articles
 
 - [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team from an existing team ](create-team-from-existing-team.md)
+- [Create a template from an existing team ](create-team-from-existing-team.md)
 - [Create a team template](create-a-team-template.md)
