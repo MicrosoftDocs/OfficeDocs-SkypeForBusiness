@@ -21,6 +21,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Create a team from an existing team template in Microsoft Teams
 
+[!INCLUDE [template](includes/preview-feature.md)]
+
 Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
 1. Log in to the admin center.

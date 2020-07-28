@@ -21,8 +21,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Create a template from an existing team in Microsoft Teams
 
+[!INCLUDE [template](includes/preview-feature.md)]
 
-Microsoft Teams lets you create a [template](includes/preview-feature.md) from an existing team that can be saved and modified to meet your particular organizational needs.
+Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
 
 1. Log in to the admin center.
 

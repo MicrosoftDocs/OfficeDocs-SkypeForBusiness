@@ -23,6 +23,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Get started with Teams templates in the Teams admin console
 
+[!INCLUDE [template](includes/preview-feature.md)]
+
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 

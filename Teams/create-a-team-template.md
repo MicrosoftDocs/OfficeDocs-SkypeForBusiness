@@ -21,7 +21,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Create a custom team template in Microsoft Teams
 
-A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.
+[!INCLUDE [template](includes/preview-feature.md)]
+
+A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
 To get started:
 
