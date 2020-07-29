@@ -66,7 +66,10 @@ A 60-day trial is available starting August 4, 2020. You can get the trial throu
 
 ## Difference between overflow meetings and live events
 
-With Advanced Communications overflow meetings, any meeting with more than 300 attendees will provide a way for up to 20,000 total participants to join the meeting in a view-only experience. Live events enable additional capabilities. With live events, 20,000 attendees can watch the broadcast, plus interact with Q&A in Teams, conversations in Yammer, or view-only in Microsoft Stream. Additionally, with Advanced Communications, the length of the live events is increased from 4 hours to 16 hours and you can host up to 50 simultaneous live events per tenant.
+With Advanced Communications, any meeting with more than 300 attendees will provide a way for up to 1,000 participants to have an interactive experience, and up to 20,000 participants to join the meeting in a view-only experience. Live event enables additional capabilities. In live events, 20,000 attendees can watch the broadcast, and interact with Q&A in Teams, conversations in Yammer, or view-only in Microsoft Stream. Additionally, we're increasing the length of the live events from 4 hours to 16 hours and enabling up to 50 concurrent live events per tenant.  
+
+> [!NOTE]
+> Enterprise and Education SKUs can temporarily hold live events for up to 20,000 attendees, with an event duration of 16 hours per broadcast, and 50 concurrent events within a tenant until October 1, 2020.
 
 ## Related topics
 
