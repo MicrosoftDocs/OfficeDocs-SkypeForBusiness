@@ -17,9 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Publish a custom app submitted through the Teams App Submission API
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview
 
