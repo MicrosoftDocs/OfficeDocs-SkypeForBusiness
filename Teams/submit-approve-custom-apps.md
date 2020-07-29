@@ -100,7 +100,7 @@ To review and publish an app update:
 2. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
     ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-app.png)
-3. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **APublishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
+3. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **Publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
     If you reject the update, the earlier version of the app remains published.
 
