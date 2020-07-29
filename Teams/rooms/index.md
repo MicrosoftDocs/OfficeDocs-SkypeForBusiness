@@ -16,13 +16,16 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 ---
 # Microsoft Teams Rooms
 
-Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.
-
-Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.
-
-Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="A conference table with Microsoft Teams Rooms equipment":::
+:::row:::
+    :::column:::
+       Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage. <br> 
+       Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.<br> 
+       Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.
+    :::column-end:::
+    :::column:::
+       ![A conference table with Microsoft Teams Rooms equipment](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
