@@ -120,7 +120,7 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 6. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the CQD Power BI Connector will work when using Power BI Desktop. The CQD Power BI connector is not currently compatible with the Power BI service for GCC customers.
 
-Please note, although the Connector is in preview, these limitations are unlikely to change with the final release of the Connector. Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
+Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
 ## Troubleshooting
 
