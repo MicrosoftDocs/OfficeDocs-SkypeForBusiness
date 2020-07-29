@@ -42,9 +42,9 @@ You can view every app in your organization's app store including the following 
   
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
 
-- **Categories**: Categories that apply to the app.
-
-- **App status**: Status of the app at the org level, which can be one of the following:
+- **Publisher**: Name of the publisher.
+- **Publishing status**: Publishing status of custom apps.
+- **Status**: Status of the app at the org level, which can be one of the following:
 
     - **Allowed**: The app is available for all users in your organization.
     
@@ -52,7 +52,11 @@ You can view every app in your organization's app store including the following 
     
     - **Blocked org-wide**: The app is blocked in org-wide app settings.
     
-      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
+
+- **Custom app**: Whether the app is a custom app.
+
+- **Categories**: Categories that apply to the app.
 
 - **Version**: App version.
 
@@ -67,11 +71,11 @@ Use the Manage apps page to publish apps that are built specifically for your or
 
 ###  Approve a custom app
 
-The developer submits the app directly using the Teams App Submission API. A newly submitted app is listed on the **Manage apps** page with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish the app, set **Publishing status** to **Published**.
+The **Pending approvals** widget on the **Manage apps** page notifies you when a developer submits an app by using the Teams App Submission API. A newly submitted app is listed with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish it, set **Publishing status** to **Publish**.
 
-You're notified on the **Manage apps** page when a developer submits an update to a custom app. You can then review and publish (or reject) the update on the app details page. All app permission policies and app setup policies remain enforced for the updated app.
+You're also notified when a developer submits an update to a custom app. You can then review and publish (or reject) the update on the app details page. All app permission policies and app setup policies remain enforced for the updated app.
 
-To learn more, see [Use the Teams App Submission API to submit and approve your custom apps](submit-approve-custom-apps.md).
+To learn more, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
 
 ### Upload an app package
 
@@ -81,7 +85,7 @@ To upload a new custom app, select **Upload** to upload the app package. The app
 
 To update an app after it's uploaded, in the list of apps on the **Manage apps** page, click the app name, and then click **Update**. Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app.
 
-To learn more, see [Upload your custom apps in the Microsoft Teams admin center](upload-custom-apps.md).
+To learn more, see [Publish a custom app by uploading an app package](upload-custom-apps.md).
 
 ## Allow and block apps
 

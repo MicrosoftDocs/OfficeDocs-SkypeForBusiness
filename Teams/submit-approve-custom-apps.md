@@ -75,7 +75,7 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 When you're ready to make the app available to users, publish the app.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click the app name to go to the app details page, and then in the **Publishing status** box, select **Published**.
+2. Click the app name to go to the app details page, and then in the **Publishing status** box, select **Publish**.
 
     After you publish the app, the **Publishing status** changes to **Published** and the **Status** automatically changes to **Allowed**.
 
