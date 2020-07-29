@@ -33,7 +33,9 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a>.
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+
+1. Go to the admin center.
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
@@ -60,7 +62,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>..
+1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
@@ -84,7 +86,7 @@ If you're using Quality of Service (QoS)to prioritize network traffic, you can e
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
  ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
+1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Network**, do the following:
 
@@ -92,7 +94,7 @@ If you're using Quality of Service (QoS)to prioritize network traffic, you can e
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
         > [!NOTE]
-        > Turning on **Insert Quality of Service (QoS) markers for real-time media traffic** will also enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video) and 3481 (Sharing).
+        > DSCP tagging is typically done via Source Ports and UDP traffic will route to Transfport Relay with destination port of 3478 by default.  If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video) and 3481 (Sharing).
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
         > [!IMPORTANT]
         > If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. Use this option only when not implementing QoS.

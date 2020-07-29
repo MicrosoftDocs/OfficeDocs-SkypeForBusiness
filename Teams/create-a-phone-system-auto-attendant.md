@@ -78,10 +78,10 @@ If you set an Operator, tell people who call about the option in **Edit menu opt
 You have several ways to set the Operator:
 
 - **No operator** disables the "Operator" and "Press 0" options. This is the current default.
-- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in organization** and set that account's settings to send calls directly to voicemail.
+- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365.
 
      > [!Note]
-     > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server. When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+     > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
 - **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.
 - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
@@ -167,11 +167,10 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 ![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png) **Redirect call** sends the caller to the chosen destination without choosing from options. The possible settings are:
 
-  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365. You can set it up so the caller can be sent to voicemail. Select **Person in organization** and set that account to have calls forwarded directly to voicemail.
+  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365.
 
     > [!Note]
-    > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server. When selecting
-    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+    > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
   - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
   - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
