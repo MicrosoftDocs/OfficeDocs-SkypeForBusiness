@@ -53,7 +53,6 @@
 ## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
 
 
-
 ## Apps, bots, and connectors
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
