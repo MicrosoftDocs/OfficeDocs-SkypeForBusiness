@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/rooms/managed-meeting-rooms.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium",
+      "redirect_document_id": true 
+      },    
+    {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
       "redirect_document_id": false 
