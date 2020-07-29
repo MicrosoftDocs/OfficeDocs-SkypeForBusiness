@@ -60,18 +60,16 @@ To see the information that you want in the table, click **Edit Column** in the 
 
 ## Publish a custom app to your organization's app store
 
-Use the Manage apps page to publish custom apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store.
-
-There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
+Use the Manage apps page to publish custom apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
 
 - [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the **Manage apps** page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
 - [Upload a custom app](#upload-a-custom-app): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
 
 ### Approve a custom app
 
-The developer submits the app directly using the Teams App Submission API. A newly submitted app is listed on the **Manage apps** with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish the app, set **Publishing status** to **Published**.
+The developer submits the app directly using the Teams App Submission API. A newly submitted app is listed on the **Manage apps** page with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish the app, set **Publishing status** to **Published**.
 
-You're notified on the **Manage apps** page when a developer submits an update to a published custom app. You can then review and publish (or reject) the update on the app details page.
+You're notified on the **Manage apps** page when a developer submits an update to a custom app. You can then review and publish (or reject) the update on the app details page. All app permission policies and app setup policies remain enforced for the updated app.
 
 To learn more, see [Use the Teams App Submission API to submit and approve your custom apps](submit-approve-custom-apps.md).
 
