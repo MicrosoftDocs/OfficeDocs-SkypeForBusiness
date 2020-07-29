@@ -33,9 +33,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
-| Yealink| CP960| 73.8.0.27| 6/30/2018|
-| Polycom| RealPresence Trio 8800/8500| 5.5.2.11338 | 10/9/2018|
-||||
+
 
 ## Desk phones
 
