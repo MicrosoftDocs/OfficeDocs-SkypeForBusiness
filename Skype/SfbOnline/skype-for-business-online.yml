@@ -1,0 +1,140 @@
+### YamlMime:Landing
+
+title: Skype for Business Online Admin # < 60 chars
+summary: Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the hub for teamwork in Microsoft 365.
+
+metadata:
+  title: Skype for Business Online Admin  # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to manage Skype for Business Online for your organization. # Required; article description that is displayed in search results. < 160 chars.
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: landing-page # Required
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit #Required; your GitHub user alias, with correct capitalization.
+  ms.author: tonysmit #Required; microsoft alias of author; optional team alias.
+  f1.keywords: 
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Skype for Business Online
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Skype for Business Online to Be Retired in 2021
+            url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+      - linkListType: get-started
+        links:
+          - text: Get started
+            url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+      - linkListType: overview
+        links:
+          - text: We're here to help
+            url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+          - text: Need help signing in to Skype for Business?
+            url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+          - text: Troubleshoot problems with Skype for Business Online
+            url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+          - text: Journey from Skype for Business to Teams
+            url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+
+  # Card (optional)
+  - title: What's new
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up Phone System in your organization
+            url: /microsoftteams/setting-up-your-phone-system
+          - text: Third-party integration with Audio Conferencing
+            url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+          - text: Set up Audio Conferencing
+            url: /microsoftteams/audio-conferencing-in-office-365
+      - linkListType: overview
+        links:
+          - text: Calling Plans in Canada (General Availability)
+            url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+          - text: Calling Plans in Australia (Preview only)
+            url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+
+  # Card
+  - title: Audio Conferencing
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Audio Conferencing common questions
+            url: /MicrosoftTeams/audio-conferencing-common-questions
+          - text: See if Audio Conferencing is available in your country/region
+            url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+      - linkListType: how-to-guide
+        links:
+          - text: Manage the Audio Conferencing settings for my organization
+            url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+          - text: Compare audio conferencing providers
+            url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+
+  # Card
+  - title: Set up
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Set up Skype for Business Online
+            url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+          - text: Allow users to contact external Skype for Business users
+            url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+          - text: Let Skype for Business users add Skype contacts
+            url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+  
+  # Card
+  - title: Add-on licensing
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Skype for Business and Microsoft Teams add-on licensing
+            url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+          - text: What are Communications Credits?
+            url: /MicrosoftTeams/what-are-communications-credits
+
+  # Card
+  - title: Calling Plans
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What are Calling Plans?
+            url: /MicrosoftTeams/calling-plan-landing-page
+          - text: See if Calling Plans are available in your country/region
+            url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+      - linkListType: how-to-guide
+        links:
+          - text: Set up Calling Plans
+            url: /MicrosoftTeams/set-up-calling-plans
+  
+   # Card
+  - title: Phone System
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Phone System?
+            url: /MicrosoftTeams/what-is-phone-system-in-office-365
+          - text: Here's what you get with Phone System
+            url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+  
+  # Card
+  - title: Improve call and video quality
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Troubleshoot connection issues in Skype for Business
+            url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+          - text: Troubleshoot audio and video in Skype for Business
+            url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+          - text: Tune Skype for Business Online performance
+            url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
