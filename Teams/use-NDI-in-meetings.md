@@ -23,15 +23,28 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Network Device Interface (NDI) is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI enables connectivity over a local intranet, including on a local machine.
 
-NDI has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
+NewTek NDI® has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
 
-Skype previously adding NDI-Out functionality to Skype in late 2018. Microsoft Teams leverages this functionality to improve the meeting experience.
+Skype previously added NDI-Out functionality to Skype in late 2018. Microsoft Teams leverages this functionality to improve the meeting experience.
 
-NDI is not a broadcast solution for Teams by creating a streaming solution. NDI is limited to a local network and should only be considered a part of the production workflow, not a broadcast solution.
+NDI is limited to a local network and should only be considered a part of the production workflow, not a broadcast solution.
 
-To initiate NDI, enable the feature flag enableStreamingCallsOverNdi.
+## Turn on NDI
 
-When a user joins a meeting, they'll see a message that notifies them that the meeting is being broadcast. They can either opt in or out of being included in the broadcast. The following image shows the banner message that a user sees in a Teams meeting.
+NDI requires two steps to be turned on for a user.
+
+1.	The tenant admin must enable the feature flag enableStreamingCallsOverNdi.
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+```
+
+2. After this change has populated, the end user must turn on NDI for their specific client from **Settings** > **Permissions**.
+
+
+When a user joins a meeting, they'll see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting. 
+
+The following image shows the banner message that a user sees in a Teams meeting.
 
 ![An image of the NDI banner that displays in a Teams meeting.](media/NDI-disclosure.png)
 
