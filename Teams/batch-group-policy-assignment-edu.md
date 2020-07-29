@@ -171,7 +171,7 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 
 ```
 
-#### Get the policies assigned to a user
+##### Get the policies assigned to a user
 
 Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to reda@contoso.com.
 
