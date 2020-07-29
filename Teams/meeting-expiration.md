@@ -80,4 +80,4 @@ If you want people to access meetings that were previously scheduled or started 
 
 [Assign policies to your users in Teams](assign-policies.md)
 
-[Teams PowerShell Overview](teams-powershell-overview.md)
+[Teams PowerShell overview](teams-powershell-overview.md)
