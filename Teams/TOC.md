@@ -6,7 +6,7 @@
 
 # [Support remote workers (WFH)](support-remote-work-with-teams.md)
 
-# Training 
+# Training
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates for small and medium businesses](smb-templates.md)
+## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Get started with Teams templates using Microsoft Graph](get-started-with-teams-templates.md)
 ## [Bookings app and virtual visits](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub has been retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
