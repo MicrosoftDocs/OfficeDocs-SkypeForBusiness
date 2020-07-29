@@ -1,5 +1,5 @@
 
-# [Skype for Business Online Admin](../skype-for-business-online.md)
+# [Skype for Business Online Admin](../skype-for-business-online.yml)
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Argentina](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

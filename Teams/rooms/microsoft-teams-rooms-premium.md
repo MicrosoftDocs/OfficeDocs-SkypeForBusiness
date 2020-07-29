@@ -20,7 +20,7 @@ f1keywords:
 
 # Microsoft Teams Rooms Premium
 
-Microsoft Teams Rooms Premium is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
+Microsoft Teams Rooms Premium includes a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.
 
 Microsoft Teams Rooms Premium is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
 
