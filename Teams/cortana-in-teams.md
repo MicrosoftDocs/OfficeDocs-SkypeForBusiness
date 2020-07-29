@@ -25,6 +25,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Cortana voice assistance in Teams
 
+[!INCLUDE [template](includes/preview-feature.md)]
+
 > [!Note]
 > Cortana voice assistance is supported on Microsoft Teams iOS and Android mobile apps only for users in the United States. It isn't currently available for GCC, GCC-High, DoD, EDU tenants. Expansion to additional languages and regions will happen as part of future releases.
 
