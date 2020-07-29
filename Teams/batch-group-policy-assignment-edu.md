@@ -65,52 +65,9 @@ With [School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS), you c
 
 If you're unable to deploy SDS within your environment, use [this PowerShell script](scripts/powershell-script-security-groups-edu.md) to create two security groups, one for all staff and educators who have a Faculty license assigned and another for all students who have a Student license assigned. You'll need to run this script routinely to keep the groups fresh and up to date.
 
-### Remove a policy that was directly assigned to users
-
-A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user was directly assigned a policy (either individually or through a batch assignment), that user won't inherit a meeting policy from a security group.
-
-This also means that if a user has a meeting policy that was directly assigned to them, you'll have to first remove that meeting policy from the user before they can inherit a meeting policy from a security group.
-
-To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
-
-#### Install and connect to the Microsoft Teams PowerShell module
-
-Run the following to install the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if it's not already installed). Make sure you install version 1.0.5 or later.
-
-```powershell
-Install-Module -Name MicrosoftTeams
-```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
-
-#### Unassign a policy that was directly assigned to users
-
-Run the following to remove a meeting policy from users who were directly assigned that policy. You can specify users by email address or object ID.
-
-In this example, the meeting policy is removed from users specified by their email address.
-
-```powershell
-$users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
-```
-
-In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt. 
-
-```powershell
-$user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
-```
-
 ### Assign a policy a security group
 
 #### Using the Microsoft Teams admin center
-
-**This feature hasn't yet been released. It's been announced, and it's coming soon.**
 
 > [!NOTE]
 > Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
@@ -158,12 +115,62 @@ Run the following to assign the meeting policy named EducatorMeetingPolicy to th
 New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
 ```
 
+### Remove a policy that was directly assigned to users
+
+A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user was directly assigned a policy (either individually or through a batch assignment), that user won't inherit a meeting policy from a security group.
+
+This also means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
+
+To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+
+#### Install and connect to the Microsoft Teams PowerShell module
+
+Run the following to install the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if it's not already installed). Make sure you install version 1.0.5 or later.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Run the following to connect to Teams and start a session.
+
+```powershell
+Connect-MicrosoftTeams
+```
+When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
+
+#### Unassign a policy that was directly assigned to users
+
+Run the following to remove a meeting policy from users who were directly assigned that policy. You can specify users by email address or object ID.
+
+In this example, the meeting policy is removed from users specified by their email address.
+
+```powershell
+$users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
+```
+
+In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt. 
+
+```powershell
+$user_ids = Get-Content .\users_ids.txt
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
+```
+
 ##### Get policy assignments for a group
 
 Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
 
 ```powershell
 Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
+
+```
+
+#### Get the policies assigned to a user
+
+Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to reda@contoso.com.
+
+```powershell
+Get-CsUserPolicyAssignment -Identity reda@contoso.com
 ```
 
 ## Assign a policy to a batch of users
