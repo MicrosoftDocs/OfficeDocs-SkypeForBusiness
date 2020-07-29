@@ -21,6 +21,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Use NDI in Microsoft Teams
 
+[!INCLUDE [template](includes/preview-feature.md)]
+
 Network Device Interface (NDI) is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI enables connectivity over a local intranet, including on a local machine.
 
 NewTek NDI® has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
