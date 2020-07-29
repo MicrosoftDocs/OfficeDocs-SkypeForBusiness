@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to upload your custom apps to your organization's app store in the Microsoft Teams admin center. 
 ---
 
-# Upload your custom apps in the Microsoft Teams admin center
+# Publish a custom app by uploading an app package
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
