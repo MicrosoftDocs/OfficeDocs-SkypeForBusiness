@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
 description: Learn how to use meeting policy settings to control meeting expiration in Microsoft Teams.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 # Meeting policies and meeting expiration in Microsoft Teams
 
