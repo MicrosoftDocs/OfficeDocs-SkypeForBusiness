@@ -46,9 +46,9 @@ When the app is ready for use in production, the developer can submit the app us
 
 The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
-Here's an example of what this app submission step looks like in Visual Studio:
+Here's an example of what this app submission step looks like in Visual Studio Code:
 
-![Screenshot of submitting an app in Visual Studio](media/custom-app-lifecycle-submit-app.png)
+![Screenshot of submitting an app in Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
