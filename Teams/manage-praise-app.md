@@ -20,13 +20,16 @@ Admins can control what badges are available to their organization from the Team
 ## Use built-in badge sets
 
 Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins.
+<a name="default-badges"></br></a>
 
-### <a name="default-badges">Default badges</a>
+### Default badges
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 ![Preview of the default badge set](media/default-set.png)
 
-### <a name="sel-edu-badges">Social and emotional learning badges for education</a>
+<a name="sel-edu-badges"></br></a>
+
+### Social and emotional learning badges for education
 
 Social and emotional learning badges for Teams for education: Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
 
@@ -36,7 +39,9 @@ The Default badges are already enabled and available in the Praise app. To chang
 
 [ADD SCREENSHOT HERE]
 
-## <a name="create-your-own-badges">Create your own badges</a>
+<a name="create-your-own-badges"></br></a>
+
+## Create your own badges
 
 To create your own badges, switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
 To create your own badges, switch the Custom badges toggle to On and select Add badges. From there, you can design a custom badge in the panel.
@@ -47,6 +52,9 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 > [!TIP] If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them to  set the text and background colors of your badge.
 
 3. Upload a badge image. The accepted file type is .PNG.
+
+![better alt text needed](media/praise-app-badge-fields.png)
+
 4. Localize your badge name: Under Locales, select Add items +. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
 5. Exclude your badge from specific locales: Under Exclusion list, select Add items +.Select the locales you want to exclude from the drop-down list. 
 6. Select **Apply**. Your new badge will now appear in the Custom badges table.
@@ -56,7 +64,9 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 >
 > When you’re finished making changes to your badge selection, make sure to select **Save**. It may take up to a few hours a while before these changes are available to your organization.
 
-## <a name="hex-colors-intro">Hex values: a quick introduction</a>
+<a name="hex-colors-intro"></br></a>
+
+## Hex values: a quick introduction
 
 Hex color values are strings of six hexadecimal digits that represent the intensity of red (RR), green (GG), and blue (BB) in a specific color on a scale of 00 to FF. When you put the values of all three colors together, you get a hex value: #RRGGBB
 
@@ -73,7 +83,9 @@ Below is a list of example colors to get you started:
 |<code style="background:#800080;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #800080   |
 |<code style="background:#000000;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #000000   |
 
-## <a name="best-practices">Best practices for creating custom badges</a>
+<a name="best-practices"></br></a>
+
+## Best practices for creating custom badges
 
 **Submit all your badges at once.** Because it takes a while for new badges to be processed, it’s best to add all your custom badges to the table before submitting them.
 
@@ -83,13 +95,15 @@ Below is a list of example colors to get you started:
 
 **If your badge image isn’t rectangular, make the image transparent.** You’ll need to do this before uploading the image file to Praise.
 
-[ADD IMAGE HERE]
+![Left: badge with non-transparent image, right: badge with transparent image](media/praise-app-best-practices.png)
 
 ## Badge set assets
 
-[explain why admin would want this info]
+[explain why admin might use this]
 
 ### Default badges assets
+
+</br>
 
 |Badge name     |Image file  |Text color | Background color |
 |---------------|------------|---------- |--------|
@@ -106,7 +120,11 @@ Below is a list of example colors to get you started:
 |Team Player    |[Team Player.PNG](downloads/praise-app/default-set/TeamPlayer.PNG)       |#8B8DC0    |#F4EEC0|
 |Thank You      |[Thank You.PNG](downloads/praise-app/default-set/ThankYou.PNG)           |#469CA4    |#BACCB6|
 
+</br>
+
 ### Social and emotional learning badges for education assets
+
+</br>
 
 |Badge name        |Image file  |Text color | Background color |
 |------------------|------------|---------- |--------|
