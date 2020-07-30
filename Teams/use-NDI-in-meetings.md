@@ -35,7 +35,7 @@ NDI is limited to a local network and should only be considered a part of the pr
 
 NDI requires two steps to be turned on for a user.
 
-1. The tenant admin must enable the feature flag enableStreamingCallsOverNdi.
+1. The tenant admin must enable 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -49,13 +49,13 @@ The following image shows the banner message that a user sees in a Teams meeting
 
 ![An image of the NDI banner that displays in a Teams meeting.](media/NDI-disclosure.png)
 
-The banner has a link to the [Microsoft privacy policy](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamsprivacy).
 
 ## Supported locales and user types
 
 NDI is supported in all locales. The following users are supported in an NDI meeting:
 
-- In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy + Feature Flag)
+- In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
 - Federated – no (even when they have NDI on)<sup>1</sup>
 - Freemium - no (default value)
 - Anonymous – no (default value)
