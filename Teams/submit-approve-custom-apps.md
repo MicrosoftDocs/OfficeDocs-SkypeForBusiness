@@ -134,6 +134,7 @@ In most cases, after you publish an app update, the new version automatically ap
 
 ## Related topics
 
+- [Publish a custom app by uploading an app package](upload-custom-apps.md)
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
