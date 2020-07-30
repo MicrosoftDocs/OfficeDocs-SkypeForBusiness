@@ -19,7 +19,7 @@ Admins can control what badges are available to their organization from the Team
 
 ## Use built-in badge sets
 
-Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins.
+Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins.The Default badge set is already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off.
 <a name="default-badges"></br></a>
 
 ### Default badges
@@ -35,10 +35,6 @@ Social and emotional learning badges for Teams for education: Educators can reco
 
 ![Preview of the Social and emotional learning badges for  education](media/sel-edu-badges-praise.png)
 
-The Default badges are already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off.
-
-[ADD SCREENSHOT HERE]
-
 <a name="create-your-own-badges"></br></a>
 
 ## Create your own badges
@@ -49,7 +45,8 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise. 
 2. Set your badge colors. To set the text and background colors of your badge, you need to enter the colors as hexadecimal (hex) values.
 
-> [!TIP] If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them to  set the text and background colors of your badge.
+> [!TIP]
+> If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them to  set the text and background colors of your badge.
 
 3. Upload a badge image. The accepted file type is .PNG.
 
