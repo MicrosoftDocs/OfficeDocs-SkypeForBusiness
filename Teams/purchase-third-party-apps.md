@@ -29,6 +29,8 @@ The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is wh
 
 Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase.
 
+:::image type="content" source="media/purchase-third-party-apps.png" alt-text="Screenshot of Manage apps page showing third-party apps that have SaaS subscriptions":::
+
 ## Search for and purchase services for a third-party app
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
@@ -44,7 +46,9 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 8. When you're ready, select **Place order**.
 9. Click **Configure now** to activate your subscription on the publisher's website.
 
-After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Manage apps** page.
+After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
+
+:::image type="content" source="media/purchase-third-party-apps-details.png" alt-text="Screenshot of Plans and pricing tab of app details page":::
 
 - **License activation date**: Date on which your license was activated. If your account isn't yet set up, this shows as **Subscription pending activation**.
 - **Licenses**: Number of licenses you purchased.
