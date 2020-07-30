@@ -487,8 +487,9 @@
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
-## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
+
+## Practical guidance for large organizations
 ### [Cloud voice guidance](cloud-voice-landing-page.md)
 #### [Define my success](1-envision-define-my-success-cloud-voice.md)
 #### [Make my service decisions - Phone System with Calling Plans](calling-plan-landing-page.md)
