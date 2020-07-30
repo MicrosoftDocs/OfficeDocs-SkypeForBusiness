@@ -26,7 +26,7 @@ If you're running Microsoft Teams as part of Office 365 for Government, use this
 
 Learn how to get Teams ready in your organization:
 
-  - Make sure everyone has access to Teams, using the free 6-month **[Office 365 G1 offer](../g1-trial-license.md)**. Reach out to your Microsoft account team or partner if you need help.
+  - Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
   - If you already have a subscription, make sure that **[Teams is turned on](../user-access.md)** for everyone.
 

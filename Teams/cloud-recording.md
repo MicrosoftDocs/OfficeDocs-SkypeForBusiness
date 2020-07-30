@@ -41,7 +41,7 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User has sufficient storage in Microsoft Stream for recordings to be saved
 - User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
 - User is not an anonymous, Guest, or federated user in the meeting
-- To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have -AllowTranscription setting must be set to true.
+- To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
 <sup>1</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
@@ -74,7 +74,7 @@ In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recor
 
 Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording disabled by default.
+Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording enabled by default.
 
 > [!NOTE]
 > For more information about using Teams roles to configure who has permission to record a meeting, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -113,7 +113,7 @@ To learn more about where data is stored across services in Microsoft 365 or Off
 
 This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
-Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+**Note** that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 

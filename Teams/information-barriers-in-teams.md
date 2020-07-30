@@ -1,8 +1,8 @@
 ---
 title: Information barriers in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: chrfox
+ms.author: chrfox
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -26,7 +26,7 @@ Information barriers (IB) are policies that an admin can configure to prevent in
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
 > - Private channels are compliant to information barrier policies that you configure.
-> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview.
+> - New: For Information about barriers support for SharePoint site connected to Teams, click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
@@ -87,17 +87,34 @@ Information barrier policies are activated when the following Teams events take 
 
     ![Screenshot showing user blocked from meeting](media/information-barriers-meeting.png)
 
-- **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn't violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won't be allowed.
+- **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn't violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won't be allowed. 
+ 
+    Here's an example of screen share before the policy is applied. 
+
+    ![Screenshot showing a user chat](media/ib-before-screen-share-policy.png)
+
+    Here's an example of screen share after the policy is applied. The screen share and call icons aren't visible.
+
+    ![Screenshot showing user char with blocked settings](media/ib-after-screen-share-policy.png)
+
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn't violate the information barrier policies of other team members. If there is any violation, the voice call is blocked.
-- **Guest users in Teams** - Information barrier policies apply to guest users in Teams too. If guest users need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Once guest users are discoverable, you can [define information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Guest users in Teams** - Information barrier policies apply to guest users in Teams too. If guest users need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guest users are discoverable, you can [define information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## How policy changes impact existing chats
 
 When the information barrier policy administrator makes changes to a policy, or a policy change kicks into effect because of a change to a user's profile (such as for a job change or a similar reason), the Information Barrier Policy Evaluation Service automatically searches the members to ensure that members of the Team are not violating any policies.
 
-If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, the service evaluates existing communications to make sure that the communications are still allowed to occur.
+If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, the service evaluates existing communications to make sure that the communications are still allowed to occur. 
 
-- **1:1 chat** - If communication between the two users is no longer allowed (if a policy blocking communication is applied to one or both users), further communication is blocked and the chat conversation will become read-only.
+- **1:1 chat** - If communication between the two users is no longer allowed (if a policy blocking communication is applied to one or both users), further communication is blocked and the chat conversation will become read-only. 
+
+    Here's an example that shows the chat is visible.
+
+    ![Screenshot showing user chat is available](media/ib-before-1-1chat-policy.png)
+
+    Here's an example that shows the chat is disabled.
+
+    ![Screenshot showing user chat is disabled](media/ib-after-1-1chat-policy.png)
 
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations.
 
@@ -121,11 +138,26 @@ Currently, users experience the following if an information barrier policy block
     ![Screenshot showing group chat](media/information-barriers-people-picker.png)
     
 - **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
+
+    Here's an example of the activity tab view that is blocked.
+
+    ![Screenshot showing the activity tab that is blocked](media/ib-after-activity-tab-policy.png)
+
+
 - **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user will not appear on the org chart and an error message will appear instead.
 - **People card** - If a user participates in a conversation and the user is subsequently blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
 - **Suggested contacts** - Blocked users do not appear on the suggested contacts list (the initial contact list that appears for new users).
 - **Chat contacts** - A user can see blocked users on the chats contact list, but the blocked users will be identified and the only action the user can perform is to delete them. The user can also click on them to view their past conversation.
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
+
+    Here's an example of a blocked user in the calls contact list.
+
+    ![Screenshot showing user user chat](media/ib-before-chat-contacts-policy.png)
+
+    Here's an example of the chat being disabled for a user on the calls content list.
+
+    ![Screenshot showing user blocked from chat](media/ib-after-chat-contacts-policy.png)
+
 - **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
 
 ## Teams policies and SharePoint sites
@@ -134,6 +166,8 @@ When a team is created, a SharePoint site is provisioned and associated with the
 
 For example: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to segment Advisory. The organization's IB policy blocks communication and collaboration between these two segments.
 When user Sesha creates a team for Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can't access that site even if she has the site link.
+
+Click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) for more details.
 
 ## Required licenses and permissions
 
