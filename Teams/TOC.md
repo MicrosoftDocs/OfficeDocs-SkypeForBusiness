@@ -65,6 +65,7 @@
 ### [Manage your custom apps](manage-your-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ### [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ### [Manage the Tasks app for your organization](manage-tasks-app.md)
 ### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
