@@ -21,12 +21,12 @@ Admins can control what badges are available to their organization from the Team
 
 Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins.
 
-### Default badges
+### <a name="default-badges">Default badges</a>
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 ![Preview of the default badge set](media/default-set.png)
 
-### Social and emotional learning badges for education
+### <a name="sel-edu-badges">Social and emotional learning badges for education</a>
 
 Social and emotional learning badges for Teams for education: Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
 
@@ -36,7 +36,7 @@ The Default badges are already enabled and available in the Praise app. To chang
 
 [ADD SCREENSHOT HERE]
 
-## Create your own badges
+## <a name="create-your-own-badges">Create your own badges</a>
 
 To create your own badges, switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
 To create your own badges, switch the Custom badges toggle to On and select Add badges. From there, you can design a custom badge in the panel.
@@ -56,7 +56,7 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 >
 > When you’re finished making changes to your badge selection, make sure to select **Save**. It may take up to a few hours a while before these changes are available to your organization.
 
-## Hex values: a quick introduction
+## <a name="hex-colors-intro">Hex values: a quick introduction</a>
 
 Hex color values are strings of six hexadecimal digits that represent the intensity of red (RR), green (GG), and blue (BB) in a specific color on a scale of 00 to FF. When you put the values of all three colors together, you get a hex value: #RRGGBB
 
@@ -73,7 +73,7 @@ Below is a list of example colors to get you started:
 |<code style="background:#800080;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #800080   |
 |<code style="background:#000000;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #000000   |
 
-## Best practices for creating custom badges
+## <a name="best-practices">Best practices for creating custom badges</a>
 
 **Submit all your badges at once.** Because it takes a while for new badges to be processed, it’s best to add all your custom badges to the table before submitting them.
 
@@ -91,22 +91,34 @@ Below is a list of example colors to get you started:
 
 ### Default badges assets
 
-|Badge name  |Image file  |Text color | Background color |
-|------------|------------|---------- |------------------|
+|Badge name     |Image file  |Text color | Background color |
+|---------------|------------|---------- |--------|
+|Achiever       |[Achiever.PNG](downloads/praise-app/default-set/Achiever.PNG)            |#D36E70    |#E3F4FC|
+|Awesome        |[Awesome.PNG](downloads/praise-app/default-set/Awesome.PNG)              |#8283B2    |#D1EFF2|
+|Coach          |[Coach.PNG](downloads/praise-app/default-set/Coach.PNG)                  |#6AA55A    |#DBF1D6|
+|Courage        |[Courage.PNG](downloads/praise-app/default-set/Courage.PNG)              |#DC5041    |#FCF6C8|
+|Creative       |[Creative.PNG](downloads/praise-app/default-set/Creative.PNG)            |#CF9D50    |#FCF6C8|
+|Inclusive      |[Inclusive.PNG](downloads/praise-app/default-set/Inclusive.PNG)          |#3C77BB    |#E2F4FC|
+|Kind Heart     |[Kind Heart.PNG](downloads/praise-app/default-set/KindHeart.PNG)         |#D36D6E    |#F4DEDE|
+|Leadership     |[Leadership.PNG](downloads/praise-app/default-set/Leadership.PNG)        |#419098    |#D2EAEC|
+|Optimism       |[Optimism.PNG](downloads/praise-app/default-set/Optimism.PNG)            |#D8338C    |#F4DDDE|
+|Problem Solver |[Problem Solver.PNG](downloads/praise-app/default-set/ProblemSolver.PNG) |#B8916E    |#CBDADF|
+|Team Player    |[Team Player.PNG](downloads/praise-app/default-set/TeamPlayer.PNG)       |#8B8DC0    |#F4EEC0|
+|Thank You      |[Thank You.PNG](downloads/praise-app/default-set/ThankYou.PNG)           |#469CA4    |#BACCB6|
 
-### Social and emotional learning badges for education assets 
+### Social and emotional learning badges for education assets
 
 |Badge name        |Image file  |Text color | Background color |
 |------------------|------------|---------- |--------|
-|Goal pursuit      |            |#FFFFFF    |#006F95|
-|Respect           |------------|#FFFFFF    |#8251A0|
-|Thoughtfulness    |------------|#FFFFFF    |#EE4086|
-|Curiosity         |------------|#FFFFFF    |#008078|
-|Critical thinking |------------|#FFFFFF    |#084D26|
-|Persistence       |------------|#FFFFFF    |#167D3E|
-|Self-awareness    |------------|#FFFFFF    |#1680E5|
-|Responsibility    |------------|#FFFFFF    |#B05DA3|
-|Motivation        |------------|#FFFFFF    |#C52127|
-|Self-management   |------------|#FFFFFF    |#4C144D|
-|Communication     |------------|#FFFFFF    |#173B65|
-|Empathy           |------------|#FFFFFF    |#650B35|
+|Communication     |[Communication.PNG](downloads/praise-app/sel-edu-set/Communication.PNG)        |#FFFFFF    |#173B65|
+|Critical thinking |[Critical Thinking.PNG](downloads/praise-app/sel-edu-set/CriticalThinking.PNG) |#FFFFFF    |#084D26|
+|Curiosity         |[Curiosity.PNG](downloads/praise-app/sel-edu-set/Curiosity.PNG)                |#FFFFFF    |#008078|
+|Empathy           |[Empathy.PNG](downloads/praise-app/sel-edu-set/Empathy.PNG)                    |#FFFFFF    |#650B35|
+|Goal pursuit      |[Goal pursuit.PNG](downloads/praise-app/sel-edu-set/GoalPursuit.PNG)           |#FFFFFF    |#006F95|
+|Motivation        |[Motivation.PNG](downloads/praise-app/sel-edu-set/Motivation.PNG)              |#FFFFFF    |#C52127|
+|Persistence       |[Persistence.PNG](downloads/praise-app/sel-edu-set/Persistence.PNG)            |#FFFFFF    |#167D3E|
+|Respect           |[Respect.PNG](downloads/praise-app/sel-edu-set/Respect.PNG)                    |#FFFFFF    |#8251A0|
+|Responsibility    |[Responsibility.PNG](downloads/praise-app/sel-edu-set/Responsibility.PNG)      |#FFFFFF    |#B05DA3|
+|Self-awareness    |[Self-Awareness.PNG](downloads/praise-app/sel-edu-set/SelfAwareness.PNG)       |#FFFFFF    |#1680E5|
+|Self-management   |[Self-Management.PNG](downloads/praise-app/sel-edu-set/SelfManagement.PNG)     |#FFFFFF    |#4C144D|
+|Thoughtfulness    |[Thoughtfulness.PNG](downloads/praise-app/sel-edu-set/Thoughtfulness.PNG)      |#FFFFFF    |#EE4086|
