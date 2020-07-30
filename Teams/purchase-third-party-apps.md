@@ -48,10 +48,10 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
-:::image type="content" source="media/purchase-third-party-apps-details.png" alt-text="Screenshot of Plans and pricing tab of app details page":::
-
 - **License activation date**: Date on which your license was activated. If your account isn't yet set up, this shows as **Subscription pending activation**.
 - **Licenses**: Number of licenses you purchased.
+
+:::image type="content" source="media/purchase-third-party-apps-details.png" alt-text="Screenshot of Plans and pricing tab of app details page":::
 
 Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.
 
