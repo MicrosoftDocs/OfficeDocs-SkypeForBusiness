@@ -57,11 +57,11 @@ Follow these steps to create a security group for your staff and educators, and 
 
 Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
-You'll need to complete all these steps in this section for your staff and educators to get the group policy assignment:
+You'll need to complete all these steps for your staff and educators to inherit a meeting policy from a security group.
 
- - [Create security groups](#create-security-groups)
- - [Assign a policy to a security group](#assign-a-policy-to-a-security-group)
- - [Remove a policy that was directly assigned to users](#remove-a-policy-that-was-directly-assigned-to-users)
+1. [Create security groups](#create-security-groups).
+2. [Assign a policy to a security group](#assign-a-policy-to-a-security-group).
+3. [Remove a policy that was directly assigned to users](#remove-a-policy-that-was-directly-assigned-to-users).
 
 ### Create security groups
 
@@ -123,7 +123,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### Remove a policy that was directly assigned to users
 
-Remember that if a user was directly assigned a policy (either individually or through a batch assignment), that user won't inherit a meeting policy from a security group. This means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
+Remember that if a user was directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. This means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
 
 To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
