@@ -25,7 +25,7 @@ description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui 
 # EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 
-## Section 1 Champ d’application
+### Section 1 Champ d’application
 
 La présente attestation de conformité à la norme
 [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
@@ -34,17 +34,17 @@ fonctionnelles en matière
 d’accessibilité](http://mandate376.standards.eu/standard/scope)
 applicables aux produits et services TIC de Microsoft.
 
-## Section 2 Références
+### Section 2 Références
 
 Références
 [EN 301 549](http://mandate376.standards.eu/standard/references)
 
-## Section 3 Définitions et abréviations
+### Section 3 Définitions et abréviations
 
 Définitions et abréviations
 [EN 301 549](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
 
-## Section 4 Déclarations de conformité aux exigences fonctionnelles
+### Section 4 Déclarations de conformité aux exigences fonctionnelles
 
 [Déclarations de conformité aux exigences
 fonctionnelles](http://mandate376.standards.eu/standard/functional-statements)
@@ -84,9 +84,9 @@ de la norme EN 301 549
 > 4.2.11 [Respect de la vie
 > privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
 
-# Exigences fonctionnelles d’accessibilité
+## Exigences fonctionnelles d’accessibilité
 
-## Section 5 Exigences génériques
+### Section 5 Exigences génériques
 
 <table>
 <caption>Section 5</caption>
@@ -166,7 +166,7 @@ de la norme EN 301 549
 </tbody>
 </table>
 
-## Section 6 TIC avec communication voix bidirectionnelle
+### Section 6 TIC avec communication voix bidirectionnelle
 
 <table>
 <caption>Section 6</caption>
@@ -268,23 +268,23 @@ de la norme EN 301 549
 </tbody>
 </table>
 
-## Section 7 TIC avec fonctions vidéo
+### Section 7 TIC avec fonctions vidéo
 
 Cette section ne s’applique pas à Skype Entreprise 2016.
 
-## Section 8 Matériel informatique
+### Section 8 Matériel informatique
 
 Cette section ne s’applique pas à Skype Entreprise 2016.
 
-## Section 9 Web
+### Section 9 Web
 
 Cette section ne s’applique pas à Skype Entreprise 2016.
 
-## Section 10 Documents non basés dans le Web 
+### Section 10 Documents non basés dans le Web 
 
 Cette section ne s’applique pas à Skype Entreprise 2016.
 
-## Section 11 Logiciel
+### Section 11 Logiciel
 
 <table>
 <caption>Section 11</caption>
@@ -701,7 +701,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tbody>
 </table>
 
-## Section 12 Documentation et services d’assistance
+### Section 12 Documentation et services d’assistance
 
 <table>
 <caption>Section 5</caption>
@@ -748,7 +748,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tbody>
 </table>
 
-## Section 13 TIC assurant le relais ou l’accès à des services d’urgence
+### Section 13 TIC assurant le relais ou l’accès à des services d’urgence
 
 Cette section ne s’applique pas à Skype Entreprise2016.
 
