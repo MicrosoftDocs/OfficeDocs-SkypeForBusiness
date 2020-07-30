@@ -65,4 +65,5 @@ Third-party app developers can go to [Create a new Saas offer in the commercial 
 
 ## Related topics
 
-
+- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+- [Create a new Saas offer in the commercial marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
