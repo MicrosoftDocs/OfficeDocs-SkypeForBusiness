@@ -62,7 +62,7 @@ Advanced Communications is $12 per user/month. Keep in mind that only meeting or
 
 ## Trial offer
 
-A 60-day trial is available starting August 4, 2020. You can get the trial through the Microsoft 365 admin center. 
+A 60-day trial is available starting August 4, 2020. You can get the trial through the Microsoft 365 admin center.
 
 ## Difference between overflow meetings and live events
 
