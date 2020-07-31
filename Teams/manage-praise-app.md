@@ -19,19 +19,20 @@ Admins can control what badges are available to their organization from the Team
 
 ## Use built-in badge sets
 
-Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins.The Default badge set is already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off.
+Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins. The default badge set is already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off.
 <a name="default-badges"></br></a>
 
 ### Default badges
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
+
 ![Preview of the default badge set](media/default-set.png)
 
 <a name="sel-edu-badges"></br></a>
 
 ### Social and emotional learning badges for education
 
-Social and emotional learning badges for Teams for education: Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
+Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
 
 ![Preview of the Social and emotional learning badges for  education](media/sel-edu-badges-praise.png)
 
@@ -39,7 +40,7 @@ Social and emotional learning badges for Teams for education: Educators can reco
 
 ## Create your own badges
 
-To create your own badges, switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
+Switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
 To create your own badges, switch the Custom badges toggle to On and select Add badges. From there, you can design a custom badge in the panel.
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise. 
@@ -52,14 +53,14 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 
 ![better alt text needed](media/praise-app-badge-fields.png)
 
-4. Localize your badge name: Under Locales, select Add items +. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
-5. Exclude your badge from specific locales: Under Exclusion list, select Add items +.Select the locales you want to exclude from the drop-down list. 
-6. Select **Apply**. Your new badge will now appear in the Custom badges table.
+4. Localize your badge name: Under **Locales**, select **Add +**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
+5. Exclude your badge from specific locales: Under **Exclude these locales**, select **Add +**. Select the locales you want to exclude from the drop-down list.
+6. Select **Apply**. Your new badge will now appear in the custom badges table.
 
 > [!NOTE]
 > If steps 4 and 5 are skipped, the badge will be in the default language for all locales.
 >
-> When you’re finished making changes to your badge selection, make sure to select **Save**. It may take up to a few hours a while before these changes are available to your organization.
+> When you’re finished making changes to your badge selection, make sure to select **Save**. It may take up to a few hours before these changes are available to your organization.
 
 <a name="hex-colors-intro"></br></a>
 
