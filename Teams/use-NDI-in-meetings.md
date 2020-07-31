@@ -35,7 +35,7 @@ NDI is limited to a local network and should only be considered a part of the pr
 
 NDI requires two steps to be turned on for a user.
 
-1. The tenant admin must enable 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
+1. The tenant admin must enable the 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
