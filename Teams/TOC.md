@@ -492,14 +492,14 @@
 
 ## Practical guidance for large organizations
 ### [Define my success](cloud-voice-landing-page.md)
-#### [Evaluate my environment](prepare-network.md)
-#### [Plan my service management](upgrade-operate-my-service.md)
-#### [Document my success plan](cloud-voice-landing-page.md)
-#### [Prepare my service](cloud-voice-landing-page.md)
-#### [Prepare my users](cloud-voice-landing-page.md)
-#### [Deploy my service](cloud-voice-landing-page.md)
-#### [Operate my service](upgrade-operate-my-service.md)
-#### [Enhance my service](upgrade-operate-my-service.md)
+### [Evaluate my environment](prepare-network.md)
+### [Plan my service management](upgrade-operate-my-service.md)
+### [Document my success plan](cloud-voice-landing-page.md)
+### [Prepare my service](cloud-voice-landing-page.md)
+### [Prepare my users](cloud-voice-landing-page.md)
+### [Deploy my service](cloud-voice-landing-page.md)
+### [Operate my service](upgrade-operate-my-service.md)
+### [Enhance my service](upgrade-operate-my-service.md)
 <!-- ============================================================ -->
 
 
