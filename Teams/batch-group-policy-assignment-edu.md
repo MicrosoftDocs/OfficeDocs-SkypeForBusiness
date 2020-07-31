@@ -305,7 +305,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **I'm not familiar with PowerShell for Teams. Where can I learn more?**
 
-For an overview of using PowerShell to manage Teams, see [Teams Powershell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
+For an overview of using PowerShell to manage Teams, see [Teams PowerShell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
 
 - [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
