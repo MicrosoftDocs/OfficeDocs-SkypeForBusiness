@@ -3,19 +3,19 @@ title: Manage the Praise app in the Teams admin center
 author: CaitlynZawideh
 ms.author: t-cazaw
 manager: serdars
-audience: ITPro 
+audience: admin 
 ms.topic: article 
-ms.prod: 
+ms.service: msteams
 localization_priority: Normal 
-description: 
-ms.custom: 
-ms.collection: 
+description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
+
+
 ---
 # Manage the Praise app in the Teams admin center
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers.
 
-Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](/Teams/manage-apps.md#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
+Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](/manage-apps#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
 
 ## Use built-in badge sets
 
@@ -26,7 +26,7 @@ Built-in sets are collections of badges designed by Microsoft for the Praise app
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 
-![Preview of the default badge set](media/default-set-praise.png)
+![Preview of default badge set](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -34,7 +34,7 @@ The default badge set is designed to help Teams users recognize their peers for 
 
 Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
 
-![Preview of the Social and emotional learning badges for  education](media/sel-edu-badges-praise.png)
+![Preview of the Social and emotional learning badges for  education](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -50,9 +50,7 @@ To create your own badges, switch the Custom badges toggle to On and select Add 
 > If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them to  set the text and background colors of your badge.
 
 3. Upload a badge image. The accepted file type is .PNG.
-
-![better alt text needed](media/praise-app-badge-fields.png)
-
+![Badge with background, text, and image labeled](media/praise-app-badge-fields.png)
 4. Localize your badge name: Under **Locales**, select **Add +**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
 5. Exclude your badge from specific locales: Under **Exclude these locales**, select **Add +**. Select the locales you want to exclude from the drop-down list.
 6. Select **Apply**. Your new badge will now appear in the custom badges table.
@@ -97,7 +95,7 @@ Below is a list of example colors to get you started:
 
 ## Badge set assets
 
-[explain why admin might use this]
+Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, recreate the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
 
 ### Default badges assets
 
