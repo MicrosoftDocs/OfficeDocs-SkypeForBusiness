@@ -17,6 +17,19 @@ appliesto:
 
 # Grant admin consent to apps in Microsoft Teams
 
+*****************
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+2. Search for the app you want, and then click the app name go to the app details page. 
+3. 
+
+
+
+
+
+
+*****************
+
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data. Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs.
