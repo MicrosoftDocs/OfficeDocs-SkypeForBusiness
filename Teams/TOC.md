@@ -491,7 +491,7 @@
 #### [Plan my users' experience](5-envision-plan-my-users-experience.md)
 
 ## Practical guidance for large organizations
-#### [Define my success](cloud-voice-landing-page.md)
+### [Define my success](cloud-voice-landing-page.md)
 #### [Evaluate my environment](prepare-network.md)
 #### [Plan my service management](upgrade-operate-my-service.md)
 #### [Document my success plan](cloud-voice-landing-page.md)
