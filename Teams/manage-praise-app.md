@@ -26,7 +26,7 @@ Built-in sets are collections of badges designed by Microsoft for the Praise app
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 
-![Preview of the default badge set](media/default-set.png)
+![Preview of the default badge set](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -74,12 +74,12 @@ Below is a list of example colors to get you started:
 
 |Color  |Hex value|
 |-------|---------|
-|<code style="background:#ff6666;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #FF6666   |
-|<code style="background:#7fffd4;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #7FFFD4   |
-|<code style="background:#ff75f0;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #FF75F0   |
-|<code style="background:#00bfff;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #00BFFF   |
-|<code style="background:#800080;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #800080   |
-|<code style="background:#000000;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>|  #000000   |
+|![hex color #FF6666](media/hexColor1.png)|  #FF6666   |
+|![hex color #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
+|![hex color #FF75F0](media/hexColor3.png)|  #FF75F0   |
+|![hex color #00BFFF](media/hexColor4.png)|  #00BFFF   |
+|![hex color #800080](media/hexColor5.png)|  #800080   |
+|![hex color #000000](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
