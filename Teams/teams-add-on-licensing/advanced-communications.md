@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-description: Learn about the Advanced Communications add-on SKU for Microsoft Teams. 
+description: "Learn about the Advanced Communications add-on SKU for Microsoft Teams." 
 - NOCSH
 ms.collection: 
   - M365-collaboration
@@ -17,8 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Advanced Communications add-on for Microsoft Teams
-=============================================
+# Advanced Communications add-on for Microsoft Teams
 
 Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription. 
 
