@@ -24,6 +24,9 @@ The Teams PSTN usage report in the Microsoft Teams admin center gives you an ove
 
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
+> [!NOTE]
+> If you have a Telstra or Softbank calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra or Softbank for your reporting needs. 
+
 ## View the PSTN usage report
 
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**.
@@ -33,7 +36,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ### Calling Plans
 
-![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts")
+[ ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts") ](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |Description  |
 |--------|-------------|
@@ -48,7 +51,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ### Direct Routing
 
-![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts")
+[ ![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts") ](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |Description  |
 |--------|-------------|
