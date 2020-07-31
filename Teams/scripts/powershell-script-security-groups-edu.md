@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
+description: Use this PowerShell script to create the security groups that you need to manage Teams policies for educators and students in your school. 
 f1.keywords:
 - NOCSH
 localization_priority: Normal

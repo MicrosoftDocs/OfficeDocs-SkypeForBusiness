@@ -671,6 +671,7 @@
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Teams EDU policies and policy packages](policy-packages-edu.md)
 ### [Assign policies to large sets of users](batch-group-policy-assignment-edu.md)
+### [PowerShell script to create security groups for educators and students in your school](scripts/powershell-script-security-groups-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Class Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
