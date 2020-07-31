@@ -26,7 +26,7 @@ To set up Coordinated Meetings, you need to make sure your Teams Rooms devices a
 
 After you've confirmed that your Teams Rooms devices and Surface Hubs can automatically accept meetings and join them successfully, you can set up Coordinated Meetings.
 
-The following steps should be completed for each meeting room separately. Devices in one meeting room shouldn't be set up for Coordinated Meetings with devices in other meeting rooms. 
+The following steps should be completed for each meeting room separately. Devices in one meeting room shouldn't be set up for Coordinated Meetings with devices in other meeting rooms.
 
 ## Step 1: Plan your Coordinated Meeting experience
 
@@ -59,37 +59,89 @@ After you've planned your Coordinated Meeting experience and gathered a list of 
 
 In a spreadsheet app, add rows for the following in the first column:
 
-- **Audio default** Determines on which device the microphone will be active when a meeting starts. Only one device (typically a Teams Rooms device) can have this field set to `true` while the rest of the devices must have this field set to `false` to avoid audio echo and feedback.
-- **Audio enabled** Determines whether participants in a meeting can toggle the microphone on or off. This should be set to `true` on the same device as **Audio default** to allow participants to mute the microphone as needed. The rest of the defaults should be set to `false` so that participants can't accidentally turn on a microphone and cause audio echo or feedback.
-- **Video default** Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.
-- **Video enabled** Determines whether participants in a meeting can toggle the camera on or off. This should be set to `true` on the same device as **Video default** to allow participants to turn off the camera as needed. You can also set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.
-- **Whiteboard default**
-- **Whiteboard enabled**
-- **Trusted accounts** This is a comma-separated list of UPNs for each Teams Room device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent.
+| Setting                | Description      |
+|------------------------|-----------------|
+| **Audio default**      | Determines on which device the microphone will be active when a meeting starts. Only one device (typically a Teams Rooms device) can have this field set to `true` while the rest of the devices must have this field set to `false` to avoid audio echo and feedback.          |
+| **Audio enabled**      | Determines whether participants in a meeting can toggle the microphone on or off. Devices on which **Audio default** is set to `false` should have this setting set to `false` so that participants can't accidentally turn on a microphone and cause audio echo or feedback.<p>If **Audio default** is set to `true`, this setting is ignored and participants can mute or unmute the microphone.          |
+| **Video default**      | Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.          |
+| **Video enabled**      | Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, this setting is ignored and participants can turn the camera on or off.         |
+| **Whiteboard default** | Determines whether the Teams Rooms device will display a whiteboard shared by one of the meeting participants. We recommend that you set this to `false` if you have a Surface Hub and `true` if you don't have one. This setting has no effect on Surface Hubs. Surface Hubs will always display a whiteboard shared by meeting participants.         |
+| **Trusted accounts**   | This is a comma-separated list of UPNs for each Teams Room device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |
 
-In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In each column, fill out the values that correspond to the experience you want for the meeting room. Here's an example with three devices: one Teams Rooms device and two Surface Hubs:
+In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In each column, fill out the values that correspond to the experience you want for the meeting room. Here's an example with one Teams Rooms device and one Surface Hub:
 
-- Audio and video are turned on and can be toggled on or off on the Teams Rooms device
-- Audio is turned off and can't be toggled on either Surface Hubs
-- Video is turned off but can be toggled on or off on both Surface Hubs
-- Whiteboard is turned on only on Surface Hub 1 and can be toggled on or off on both Surface Hubs.
+- Teams device
+  - Audio and video are turned **on** when a meeting starts. Participants **can** toggle audio and video on or off.
+  - Displaying a shared whiteboard is turned off.
+- Surface Hub
+  - Audio is turned **off** when a meeting starts. Participants **can't** toggle audio on or off.
+  - Video is turned **off** when a meeting starts. Participants **can** toggle video on or off.
 
+| Setting                | Teams Room      | Surface Hub      |
+|------------------------|-----------------|------------------|
+| **Audio default**      | `true`          | `false`          |
+| **Audio enabled**      | `true`          | `false`          |
+| **Video default**      | `true`          | `false`          |
+| **Video enabled**      | `true`          | `true`           |
+| **Whiteboard default** | `false`         | Not applicable   |
+| **Trusted accounts**   | hub@contoso.com | room@contoso.com |
 
-| Fields             | Teams Room                         | Surface Hub 1                      | Surface Hub 2                      |
-|--------------------|------------------------------------|------------------------------------|------------------------------------|
-| Audio default      | true                               | false                              | false                              |
-| Audio enabled      | true                               | false                              | false                              |
-| Video default      | true                               | false                              | false                              |
-| Video enabled      | true                               | true                               | true                               |
-| Whiteboard default | false                              | true                               | false                              |
-| Whiteboard enabled | false                              | true                               | true                               |
-| Trusted accounts   | hub1@contoso.com, hub2@contoso.com | room@contoso.com, hub2@contoso.com | room@contoso.com, hub1@contoso.com |
+## Step 4: Configure Teams Rooms device
 
+You can either set up Coordinated Meetings using the Teams Rooms device's touch screen or, if you need to set up many devices and want to do so from a central location, you can use an XML configuration file.
 
+Use the worksheet you created in the previous step to help you set up your devices.
 
-## Step 2: Configure Teams Rooms
+### Use the Teams Rooms device's touch screen
 
-## Step 3: Configure Surface Hub
+To set up Coordinated Meetings on a device, do the following:
+
+1. Select **... More** > **Settings**
+2. Enter the Administrator password and select **Yes**
+3. Select **Coordinated Meetings**
+4. Under **Options**, set **Coordinated Meeting** to on
+5. If **Audio default** in your worksheet is `true`, set **Turn on this device's microphone** to on, otherwise leave it off
+6. If **Audio enabled** in your worksheet is `true`, select **Let people enable when joining a meeting** under **Turn on this device's microphone**. This option can't be turned off if **Turn on this device's microphone** is set to on.
+7. If **Video default** in your worksheet is `true`, set **Turn on this device's camera** to on, otherwise leave it off
+8. If **Video enabled** in your worksheet is `true`, select **Let people enable when joining a meeting** under **Turn on this device's camera**. This option can't be turned off if **Turn on this device's camera** is set to on.
+9. If **Whiteboard default** in your worksheet is `true`, set **Turn on whiteboarding on this device** to on, otherwise leave it off
+10. Under **Trusted device accounts**, type each UPN listed in **Trusted accounts** in your worksheet. Separate multiple UPNs with commas.
+11. Select **Save and exit**
+
+After you select **Save and exit**, the device will restart and it'll be ready to participate in Coordinated Meetings.
+
+### Use the Teams Rooms XML configuration file
+
+Coordinated Meetings can be set up using the Teams Rooms device's `SkypeSettings.xml` XML configuration file. The `SkypeSettings.xml` file isn't a static file. When the Teams Rooms device start, it checks in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` for a file named `SkypeSettings.xml`. If the file exists, the device reads and applies the configuration specified in the file. After it's done applying the configuration, the file is deleted. For more information about the `SkypeSettings.xml` file, see [Manage console settings with an XML configuration file](../rooms/xml-config-file.md#manage-console-settings-with-an-xml-configuration-file).
+
+The following is the syntax of the Coordinated Meetings settings in the configuration file:
+
+```xml
+<CoordinatedMeetings enabled="true">
+    <Settings>
+        <Audio default="true" enabled="true"/>
+        <Video default="true" enabled="true"/>
+        <Whiteboard default="false"/>
+    </Settings>
+    <TrustedAccounts>room@contoso.com, hub@contoso.com</TrustedAccounts>
+</CoordinatedMeetings>
+```
+
+To set up Coordinated Meetings on a device, do the following:
+
+1. In a text file editor, such as Visual Studio Code or Notepad, paste the above XML into a new file
+2. Set each of the XML elements to the corresponding `true` or `false` value in your spreadsheet. For example, if **Audio default** is `true`, set `<Audio default="true">`.
+3. Be sure to change `TrustedAccounts` to your list of UPNs
+4. Save the file with the name `SkypeSettings.xml`
+5. Place the file in the Teams Rooms device's `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder. You can do this a few ways:
+    - **Copy the file to your Teams Rooms device** You'll need to enable file sharing and create a network share before you can copy files to your device. After you do that, you can connect to network share and copy the file to the device. For more information, see [Microsoft Teams Rooms maintenance and operations](../rooms/rooms-operations.md).
+    - **Use a Group Policy** Create a group policy to copy the file to device. For more information, see [Group Policy Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
+    - **Download the file on the Teams Rooms device** You can log into the device using Admin mode and then copy the file to the device from a network share or USB drive. For more information, see [Switching to Admin mode](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+6. Restart the device. You can do this a few ways:
+    - **Remote PowerShell** You can run the Shutdown command on the device using Remote PowerShell. For more information, see [Remote Management using PowerShell](../rooms/rooms-operations.md).
+    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
+
+## Step 5: Configure Surface Hub
 
 To make the necessary changes to set up Coordinated Meetings on Surface Hub, you need to use Windows Configuration Designer or Microsoft Intune. For more information about these options, see the following articles:
 
