@@ -19,7 +19,7 @@ appliesto:
 
 # Advanced Communications add-on for Microsoft Teams
 
-Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription. 
+Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription.
 
 If your organization is looking to further enhance your communication experience, get Advanced Communications for calling and meeting capabilities that include large meetings, meeting customization, communications integrations and workflows, and tools to manage your organization's communications policies.
 
