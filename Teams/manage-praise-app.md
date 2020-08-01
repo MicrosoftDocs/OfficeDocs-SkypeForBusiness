@@ -15,7 +15,7 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers.
 
-Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](/manage-apps#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
+Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
 
 ## Use built-in badge sets
 
@@ -101,9 +101,11 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 
 </br>
 
+<!-- |Achiever       |[Achiever.PNG](downloads/praise-app/default-set/Achiever.PNG)            |#D36E70    |#E3F4FC| -->
+
 |Badge name     |Image file  |Text color | Background color |
 |---------------|------------|---------- |--------|
-|Achiever       |[Achiever.PNG](downloads/praise-app/default-set/Achiever.PNG)            |#D36E70    |#E3F4FC|
+|Achiever       |<a href="downloads/praise-app/default-set/Achiever.PNG" download>Achiever PNG</a>            |#D36E70    |#E3F4FC|
 |Awesome        |[Awesome.PNG](downloads/praise-app/default-set/Awesome.PNG)              |#8283B2    |#D1EFF2|
 |Coach          |[Coach.PNG](downloads/praise-app/default-set/Coach.PNG)                  |#6AA55A    |#DBF1D6|
 |Courage        |[Courage.PNG](downloads/praise-app/default-set/Courage.PNG)              |#DC5041    |#FCF6C8|
