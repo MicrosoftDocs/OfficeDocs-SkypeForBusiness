@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-description: "Learn about the Advanced Communications add-on SKU for Microsoft Teams." 
+description: Learn about the Advanced Communications add-on SKU for Microsoft Teams.
 - NOCSH
 ms.collection: 
   - M365-collaboration
@@ -72,4 +72,4 @@ With Advanced Communications, any meeting with more than 300 attendees will prov
 
 ## Related topics
 
-[Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
+[Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy) 
