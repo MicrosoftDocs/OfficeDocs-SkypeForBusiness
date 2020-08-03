@@ -40,28 +40,26 @@ The following table provides a helpful quick reference to feature availability b
 
 **Actions supported:**
 
-| User's mailbox is hosted in: | eDiscovery| Legal&nbsp;Hold | Retention| Team and Channel mgmt |Create and view meetings in Teams| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes<sup>8</sup>|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
-|**Exchange On-premises** (Sync to Azure AD & OAuth config required)|Yes <sup>2</sup>| Yes <sup>2</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+| User's mailbox is hosted in:                                        | eDiscovery       | Legal&nbsp;Hold    | Retention  | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail  | Add and configure connectors | Add and configure tabs | Add and configure bots |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
+| **Exchange Online Dedicated vNext**                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
+| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3 | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4 | Yes <sup>5                   | Yes                    | Yes                    |
+| **Exchange On-premises** (Sync to Azure AD & OAuth config required) | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes <sup>3 | Yes                   | Yes (Exchange 2016 CU3+)          | No                          | Yes          | Yes             | No                      | Yes <sup>4 | Yes <sup>5                   | Yes                    | Yes                    |
 
-<sup>1</sup> Exchange 2016 CU3 and above supported.  
+<sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
-<sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
+<sup>2</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
 
-<sup>3</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
+<sup>3</sup> Retention will use a shadow mailbox for the online user to store messages.
 
-<sup>4</sup> Retention will use a shadow mailbox for the online user to store messages. [Microsoft Teams Supports eDiscovery for Teams user in an Exchange Hybrid environment](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
-<sup>5</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
+<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
 
-<sup>6</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
+<sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-<sup>7</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
-
-<sup>8</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads a picture that's inappropriate, change the picture according to your organization's internal policies.
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads a picture that's inappropriate, change the picture according to your organization's internal policies.
 
 ## Requirements to get the most out of Microsoft Teams
 
