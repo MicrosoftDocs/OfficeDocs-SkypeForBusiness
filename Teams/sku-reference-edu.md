@@ -66,4 +66,4 @@ This article lists Education Faculty and Student licensing plans (SKUs) and SKU 
 
 ## Related topics
 
-- [Assign policies to large sets of users in your school](batch-policy-assignment-edu.md)
+- [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md)
