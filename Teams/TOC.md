@@ -808,6 +808,7 @@
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
+### [Advanced Communications](teams-add-on-licensing/advanced-communications.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
