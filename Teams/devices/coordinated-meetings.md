@@ -137,7 +137,7 @@ To set up Coordinated Meetings on a device, do the following:
     - **Copy the file to your Teams Rooms device** You'll need to enable file sharing and create a network share before you can copy files to your device. After you do that, you can connect to network share and copy the file to the device. For more information, see [Microsoft Teams Rooms maintenance and operations](../rooms/rooms-operations.md).
     - **Use a Group Policy** Create a group policy to copy the file to device. For more information, see [Group Policy Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
     - **Download the file on the Teams Rooms device** You can log into the device using Admin mode and then copy the file to the device from a network share or USB drive. For more information, see [Switching to Admin mode](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
-6. Restart the device. You can do this a few ways:
+6. Restart the device. You can do this a couple ways:
     - **Remote PowerShell** You can run the Shutdown command on the device using Remote PowerShell. For more information, see [Remote Management using PowerShell](../rooms/rooms-operations.md).
     - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
 
