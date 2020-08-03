@@ -120,7 +120,7 @@ The signing key to enable auto-updating using the system's package manager is in
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
 
-You can launch Teams via Activities or via Terminal by typing `Teams`. 
+You can launch Teams via Activities or via Terminal by typing `teams`. 
 
 #### Install Teams using RPM package
 
@@ -129,7 +129,7 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
-You can launch Teams via Activities or via Terminal by typing `Teams`.
+You can launch Teams via Activities or via Terminal by typing `teams`.
 
 #### Install manually from the command line
 
