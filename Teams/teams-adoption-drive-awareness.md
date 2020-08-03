@@ -46,7 +46,7 @@ If your company has a central intranet portal for news, information, or support,
 
 Use our resources to deliver end-user training as people begin to use Microsoft Teams and other Microsoft 365 or Office 365 services. Visit our resource pages to learn more:
 
-- [Instructor-led end-user training for Teams](instructor-led-training-teams-landing-page.md)
+- [Instructor-led end-user training for Teams](instructor-led-training-teams-landing-page.yml)
 - [Administrator training for Teams](itadmin-readiness.md)
 - [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud) 
