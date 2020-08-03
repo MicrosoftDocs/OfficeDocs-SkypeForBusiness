@@ -23,9 +23,9 @@ appliesto:
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | [Admin training](/microsoftteams/itadmin-readiness) </br> Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | [Instructor-led training](/microsoftteams/instructor-led-training-teams-landing-page) </br> Microsoft-hosted free, live, online training classes designed to get you up and running with Teams. Join us to see Teams in action, get your questions answered, and interact with our live instructors. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | [End user training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) </br> Use these training resources to help users in your org get the most out of Teams. |
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Admin training](/microsoftteams/itadmin-readiness)** </br> Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Instructor-led training](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft-hosted free, live, online training classes designed to get you up and running with Teams. Join us to see Teams in action, get your questions answered, and interact with our live instructors. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[End user training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use these training resources to help users in your org get the most out of Teams. |
 
 ## Don't miss this key training
 
