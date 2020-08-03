@@ -198,6 +198,10 @@ After conference mode is enabled on a call queue, calls will benefit from the fa
 
 The majority of calls are received via one of the methods listed above. If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.
 
+> [!NOTE]
+> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
+
+
 ![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
 **Routing method** You can choose either **Attendant**, **Serial**, **Longest idle**, or **Round Robin** as the distribution method. All new and existing call queues have attendant routing selected by default. When attendant routing is used, the first call in the queue rings all call agents at the same time. The first call agent to pick up the call gets the call.
 
