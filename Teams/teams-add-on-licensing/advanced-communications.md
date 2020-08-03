@@ -10,7 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: Learn about the Advanced Communications add-on SKU for Microsoft Teams.
-- NOCSH
+f1.keywords:
+  - NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
