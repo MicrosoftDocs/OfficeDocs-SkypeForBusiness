@@ -88,7 +88,7 @@ In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In
 
 ## Step 4: Configure Teams Rooms device
 
-You can either set up Coordinated Meetings using the Teams Rooms device's touch screen or, if you need to set up many devices and want to do so from a central location, you can use an XML configuration file.
+You can either set up Coordinated Meetings on a Teams Rooms device using the device's touch screen or, if you need to set up many devices and want to do so from a central location, you can use an XML configuration file.
 
 Use the worksheet you created in the previous step to help you set up your devices.
 
@@ -123,7 +123,7 @@ The following is the syntax of the Coordinated Meetings settings in the configur
         <Video default="true" enabled="true"/>
         <Whiteboard default="false"/>
     </Settings>
-    <TrustedAccounts>room@contoso.com, hub@contoso.com</TrustedAccounts>
+    <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
 ```
 
@@ -143,8 +143,60 @@ To set up Coordinated Meetings on a device, do the following:
 
 ## Step 5: Configure Surface Hub
 
-To make the necessary changes to set up Coordinated Meetings on Surface Hub, you need to use Windows Configuration Designer or Microsoft Intune. For more information about these options, see the following articles:
+You can either set up Coordinated Meetings on a Surface Hub using Windows Configuration Designer or Microsoft Intune. Knowledge of Windows Configuration Designer or Windows Intune is required to complete these steps. For more information about these options, see the following articles:
 
 - [Create a provisioning package for Windows 10](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-create-package)
 - [What is Microsoft Intune device management?](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
+
+Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Windows Intune if its deployed in your organization.
+
+### Use Windows Configuration Designer
+
+You can use Windows Configuration Designer to create a provisioning package that you can use to apply Coordinating Meetings settings to your Surface Hubs. To create a provisioning package, you first need to create the XML that defines the Coordinated Configuration. After you create the XML, you'll paste it into Windows Configuration Designer to create the provisioning package.
+
+The following is the syntax of the Coordinated Meetings settings that'll be provided to Windows Configuration Designer.
+
+```xml
+<SurfaceHubSettings>​
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
+    <CoordinatedMeetings enabled="true"> ​
+        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
+        <Settings> ​
+            <Audio default="false" enabled="false" />​
+            <Video default="false" enabled="true" /> ​
+        </Settings> ​
+    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+```
+
+First, do the following to prepare the XML for Windows Configuration Designer:
+
+1. In a text file editor, such as Visual Studio Code or Notepad, paste the above XML into a new file
+2. Set each of the XML elements to the corresponding `true` or `false` value in your spreadsheet. For example, if **Audio default** is `true`, set `<Audio default="true">`.
+3. Be sure to change `TrustedAccounts` to your list of UPNs
+4. Windows Configuration Designer requires that the XML be on a single line. Remove all the line breaks between each line so that the XML looks like `<SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...`
+5. Save the file on your computer
+
+After you've prepared the XML, do the following to create the provisioning package in Windows Configuration Designer:
+
+1. Download Windows Configuration Designer from the Windows Store on your local computer and open it
+2. Select **Provision Surface Hub devices** and then **Switch to advanced editor**
+3. On the next screen, expand **WindowsTeamSettings** > **Teams** and select **Configurations**
+4. In the field next to **Configurations** in the middle pane, paste the single line of XML you created above
+5. Select **Export** > **Provisioning package**
+6. Provide a name for the provisioning package in **Name** and select **Next** > **Next**
+7. Specify a location to save the provisioning package and select **Next**
+8. Select **Build** to create the provisioning package and then **Finish**
+
+Finally, after you've created the provisioning package, do the following to apply the provisioning package to your Surface Hub:
+
+1. Save the provisioning package you created above to a USB drive
+2. Insert the USB drive into your Surface Hub
+3. On your Surface Hub, open the Start menu, select **All apps**, and then select **Settings**
+4. Provide your admin username and password and then select **Yes**
+5. Select **Surface Hub**, **Device management**, **Add or remove a provisioning package**, and then **Add a package**
+6. Under **Select a package**, select **Add** next to your provisioning package, and then restart your Surface Hub
+
+### Use Windows Intune
 
