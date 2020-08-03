@@ -43,11 +43,7 @@ Teams currently includes the following healthcare policy packages:
 |Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Patient room devices|Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
 
-> [!NOTE]
-> We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
-
-Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
-For example, when you assign the Education (Teacher) policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
 ![Screenshot of the Education (Teacher) policy package](media/policy-packages-education_teacher.png)
 
