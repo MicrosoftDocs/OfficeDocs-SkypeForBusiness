@@ -20,7 +20,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Perform the upgrade for your organization &mdash; for IT administrators
+# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+
+## Perform the upgrade for your organization &mdash; for IT administrators
 
 This section describes the following upgrade options:
 

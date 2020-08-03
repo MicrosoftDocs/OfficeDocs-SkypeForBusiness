@@ -20,7 +20,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade to Teams &mdash; PSTN calling considerations
+# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+
+## PSTN calling considerations
 
 This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.
 

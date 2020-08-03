@@ -22,6 +22,8 @@ appliesto:
 
 # Upgrade from Skype for Business to Teams &mdash; for IT administrators
 
+## Coexistence with Teams and Skype for Business
+
 This article summarizes behavior that may be experienced when running both Teams and Skype for Business clients in the same organization, regardless of what mode and what upgrade method is used:
 
 - [Meetings](#meetings)

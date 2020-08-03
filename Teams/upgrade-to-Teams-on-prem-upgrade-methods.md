@@ -20,7 +20,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade methods &mdash; for IT administrators
+# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+
+## Upgrade methods
 
 There are two methods for migrating an existing organization with Skype for Business (whether online or on-premises) to Teams: Overlapping capabilities method, and the Select capabilities method.  This article helps you choose the right method for your organization by describing both methods and presenting the pros and cons of each. 
 

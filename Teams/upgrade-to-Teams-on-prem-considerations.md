@@ -20,9 +20,9 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Upgrade from Skype for Business to Teams &mdash; for IT administrators
 
-
-# Additional considerations for organizations with Skype for Business Server on-premises
+## Additional considerations for organizations with Skype for Business Server on-premises
 
 - Setting up Skype for Business hybrid is a prerequisite to migrate to TeamsOnly mode. While it is possible to use Teams in Islands mode without hybrid, the transition to TeamsOnly mode cannot be made until the user is moved from Skype for Business on-premises to Skype for Business Online (using [Move-CsUser](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)). For more information, see [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity).
 
