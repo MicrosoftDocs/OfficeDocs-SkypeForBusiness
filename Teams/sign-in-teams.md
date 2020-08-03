@@ -49,7 +49,6 @@ Modern authentication is a process that lets Teams know that users have already 
     > [!NOTE]
     > Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off.
 
-
 ### Mac users
 
 On MacOS, Teams will prompt users to enter their username and credentials and may prompt for multi-factor authentication depending on your organization's settings. Once users enter their credentials, they won't be required to provide them again. From that point on, Teams automatically starts whenever they're working on the same computer.
@@ -57,19 +56,18 @@ On MacOS, Teams will prompt users to enter their username and credentials and ma
 ## Teams for iOS and Android users
 
 Upon sign in, mobile users will see a list of all the Microsoft 365 accounts that are either currently signed in or were previously signed in on their device. Users can tap on any of the accounts to sign in. There are two scenarios for mobile sign in:
-    
+
 1. If the selected account is currently signed in to other Office 365 or Microsoft 365 apps, then the user will be taken straight to Teams. There is no need for the user to enter their credentials.
-    
+
 2. If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies.
 
 > [!NOTE]
 > For users to experience the sign on experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
 
-
 ### Adding multiple accounts to Teams
 
 Teams for iOS and Android supports adding multiple accounts from a single device to Teams. The following images show how users can add multiple accounts in Teams.
-    
+
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams":::
 
 ### Use enterprise mobility management to control which accounts can sign in to Teams
@@ -82,7 +80,6 @@ Once account setup configuration has been setup in the MDM provider, and after t
 
 Set the following configuration parameters in the Azure Intune portal for managed devices.
 
-
 |Platform |Key  |Value  |
 |---------|---------|---------|
 |iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Enabled**: The only account allowed is the managed user account defined by the IntuneMAMUPN key.<br> **Disabled** (or any value that is not a case insensitive match to **Enabled**): Any account is allowed.        |
@@ -94,7 +91,6 @@ Once the account setup configuration has been set, Teams will restrict the abili
 To create an app configuration policy for managed iOS/iPadOS devices, see [Add app configuration policies for managed iOS/iPadOS devices](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
 
 To create an app configuration policy for managed Android devices, see [Add app configuration policies for managed Android devices](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
-
 
 ## Switching accounts after completing modern authentication
 
@@ -111,6 +107,16 @@ Mobile users can sign out of Teams by going to the menu and choosing the **More*
 > [!NOTE]
 > Teams for Android uses single sign-on (SSO) to simplify the sign in experience. Users should make sure to log out of **all** Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
 
+## Global sign in and sign out
+
+Microsoft Teams android app now supports Global sign in and sign out, to provide a hassle free sign-in and sign-out experience for first-line workers. Employees can pick a device from the shared device pool and perform a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally log out on the device, with all of their personal and company information removed so they can return it to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode).
+
+The sign-in experience looks similar to our standard Teams sign experience, while sign out will look like the following two images:
+
+![Screenshot of global sign out first step.](media/global-sign-out1.png)
+
+![Screenshot of global sign out first step.](media/global-sign-out2.png)
+
 ## URLs and IP address ranges
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government and other clouds, read [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
@@ -123,7 +129,6 @@ Teams requires connectivity to the Internet. To understand endpoints that should
 Modern authentication is available for every organization that uses Teams, so if users are not able to complete the process, there might be something wrong with your domain or your organization's Microsoft work or school account.
 
 For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
-
 
 ## Related topics
 
