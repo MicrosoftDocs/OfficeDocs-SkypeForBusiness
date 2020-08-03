@@ -45,15 +45,19 @@ Educators can recognize individual students for social and emotional learning (S
 Switch the **Custom badges** toggle to On and select **Create a custom badge**. From there, you can design a custom badge in the side panel.
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise.
+
 2. Set your badge colors. To set the text and background colors of your badge, you need to enter the colors as hexadecimal (hex) values.
 
-> [!TIP]
-> If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them.
+   > [!TIP]
+   > If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them.
 
 3. Upload a badge image. The accepted file type is .PNG. The file must be less than 25kb.
 ![Badge with background, text, and image fields labeled](media/praise-app-badge-fields.png)
+
 4. Localize your badge name: Under **Localized badge names**, select **Add**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
+
 5. Exclude your badge from specific locales: Under **Exclude badge from these locales**, select **Add**. Select the locales you want to exclude from the drop-down list.
+
 6. Select **Apply**. Your new badge will now appear in the custom badges table.
 
 > [!NOTE]
