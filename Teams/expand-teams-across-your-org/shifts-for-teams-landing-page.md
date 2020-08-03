@@ -23,68 +23,9 @@ appliesto:
 
 Teams gives Firstline Workers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
 
-### Move from StaffHub to Shifts in Teams
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about StaffHub retirement and the transition to Shifts in Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan to move your StaffHub teams to Shifts in Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Move your StaffHub teams to Shifts in Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### Set up and manage Shifts for your organization
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -115,6 +56,68 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                     </div>
                     <div class="cardText">
                         <h3>Shifts Help for Firstline Workers</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### Shifts extensions
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Shift Graph APIs</h3>
+                        <p>Shifts Graph APIs allow you to integrate Shifts data with external workforce management systems, providing you the flexibility to build custom Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workforce management integrations</h3>
+                        <p>If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling, time, and attendance, you can integrate directly with Shifts through Shifts Graph APIs and SDK with open source integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Shifts + Power Automate</h3>
+                        <p>Shifts + Power Automate lets you take info from Shifts and create custom workflows with other apps and perform operations at scale. Automate key processes with little to no code. The triggers and templates support a variety of scenarios such as enabling auto-approvals for shift requests when a manager’s approval isn't needed.</p>
                     </div>
                 </div>
             </div>

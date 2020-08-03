@@ -1,8 +1,8 @@
 ---
 title: Configuring Persistent Chat Server by using Windows PowerShell cmdlets
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configuring Persistent Chat Server by using Windows PowerShell cmdlets

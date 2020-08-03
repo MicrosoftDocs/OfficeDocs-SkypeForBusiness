@@ -25,7 +25,7 @@ This article describes how Direct Routing implements the Session Initiation Prot
 
 ## Processing the incoming request: finding the tenant and user
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 organizations.  
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
 This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
@@ -39,7 +39,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz;transport=tls> | 
+| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 On receiving the invite, the SIP proxy performs the following steps:
 
@@ -51,11 +51,11 @@ On receiving the invite, the SIP proxy performs the following steps:
 
 2. Try to find a tenant using the full FQDN name presented in the Contact header.  
 
-   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Office 365 organization. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
+   Check if the FQDN name from the Contact header (sbc1.adatum.biz) is registered as a DNS name in any Microsoft 365 or Office 365 organization. If found, the lookup of the user is performed in the tenant that has the SBC FQDN registered as a Domain name. If not found, Step 3 applies.   
 
 3. Step 3 only applies if Step 2 failed. 
 
-   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Office 365 organization. If found, the user lookup is performed in this tenant. If not found, the call fails.
+   Remove the host portion from the FQDN, presented in the Contact header (FQDN: sbc12.adatum.biz, after removing the host portion: adatum.biz), and check if this name is registered as a DNS name in any Microsoft 365 or Office 365 organization. If found, the user lookup is performed in this tenant. If not found, the call fails.
 
 4. Using the phone number presented in the Request-URI, perform the reverse number lookup within the tenant found in Step 2 or 3. Match the presented phone number to a user SIP URI within the tenant found on the previous step.
 
@@ -95,13 +95,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 The SIP proxy needs to calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite), and when replying to SIP Options. Either Contact or Record-Route are used. 
 
-According to RFC 3261, Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. 
+According to RFC 3261, Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. If a proxy SBC is in use with [Local Media Optimization for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization), a record route will need to be configured as the proxy SBC needs to stay in the route. 
 
-Microsoft recommends using only Contact header for the following reasons:
+Microsoft recommends using only Contact header if a proxy SBC is not used:
 
-- Per RFC 3261, Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential as all traffic goes between the Microsoft SIP proxy and the paired SBC. There is no need for an intermediate proxy server between the SBC and Microsoft SIP proxy.
+- Per RFC 3261, Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential if no proxy SBC is configured as all traffic goes between the Microsoft SIP proxy and the paired SBC. 
 
-- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration.
+- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration if a proxy SBC is not in use. 
 
 To calculate the next hop, the SIP proxy uses:
 

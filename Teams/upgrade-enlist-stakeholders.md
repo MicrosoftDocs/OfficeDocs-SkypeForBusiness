@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn how to structure your organization's stakeholders to ensure that the Microsoft Teams upgrade is successful. 
 localization_priority: Normal
 search.appverid: MET150

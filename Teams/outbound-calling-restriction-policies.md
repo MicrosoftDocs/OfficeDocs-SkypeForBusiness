@@ -37,7 +37,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 To find out which countries/regions are considered Zone A, see [Zone A countries/regions](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
 
    > [!NOTE]
-   > A call is considered domestic if the number dialed is in the same country/region where Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls). 
+   > A call is considered domestic if the number dialed is in the same country where Microsoft 365 or Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -64,7 +64,7 @@ To find out which countries/regions are considered Zone A, see [Zone A countries
 
 3.    Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-    ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
+    ![The Restrictions to dial-outs options](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
 

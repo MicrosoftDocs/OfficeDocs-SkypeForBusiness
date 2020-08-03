@@ -1,8 +1,8 @@
 ---
 title: Remove the Archiving server association
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Archiving server association

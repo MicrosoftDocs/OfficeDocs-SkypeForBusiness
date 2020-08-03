@@ -20,19 +20,22 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
-
 ## Overview of Location-Based Routing
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. This article describes how to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Phone System Direct Routing.
 
 Here you'll get an overview of Location-Based Routing and guidance to help you plan for it. When you're ready to apply and enable Location-Based Routing, see:
+
 - [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
-Location-Based Routing is a feature that lets you restrict toll bypass based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. 
+> [!NOTE]
+> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High deployments.
+
+Location-Based Routing is a feature that lets you restrict toll bypass based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. Location-Based Routing is intended to provide a mechanism to prevent toll bypass. It shouldn't be used as a mechanism to dynamically route PSTN calls based on the location of the user or unintended consequences may result.
 
 When a Teams user is enabled for Location-Based Routing, the following applies:
+
 - To make an outbound PSTN call, one of the following must be true:
     - The user's endpoint is located in a network site that's enabled for Location-Based Routing and calls egress through the corresponding gateway that's enabled for Location-Based Routing. 
     - The user's endpoint is located in a network site that's not enabled for Location-Based Routing and calls egress through a gateway that's not enabled for Location-Based Routing.

@@ -22,16 +22,16 @@ description: "Learn what is needed to migrate to Direct Routing from a Skype for
 
 This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following: 
  
-- Office 365 Phone System with Calling Plans (for Teams and Skype for Business Online) 
-- Office 365 Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
-- Office 365 Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
+- Phone System with Calling Plans (for Teams and Skype for Business Online) 
+- Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
+- Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
 
 
 In addition to these configuration steps, configuration is also required on the Session Border Controller (SBC) to route the calls to the new route. That is outside the scope of this document. For more information, see your SBC vendor documentation.  
 
 ## User provisioning end-state for various PSTN connectivity options 
 
-The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Office 365 Phone System. Only attributes relevant for voice are shown.
+The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Phone System. Only attributes relevant for voice are shown.
 
 |User object attributes |Phone System with Calling Plans|Phone System with on-premises PSTN connectivity via Skype for Business Server|Phone System with on-premises PSTN connectivity via Cloud Connector|Phone System with on-premises PSTN connectivity via Direct Routing|
 |---|---|---|---|---|

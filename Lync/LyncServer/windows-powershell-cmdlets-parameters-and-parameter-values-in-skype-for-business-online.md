@@ -1,8 +1,8 @@
 ---
 title: Windows PowerShell cmdlets, parameters, and parameter values in Skype for Business Online
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Windows PowerShell cmdlets, parameters, and parameter values

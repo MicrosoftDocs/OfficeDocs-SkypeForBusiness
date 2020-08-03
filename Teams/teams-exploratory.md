@@ -28,18 +28,18 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 
 The service plans that an admin will see as part of the Teams Exploratory experience are:
  - Exchange Online (Plan 1)
- - Flow for Office 365
+ - Flow for Microsoft 365 or Office 365
  - Insights by MyAnalytics
  - Microsoft Forms (Plan E1)
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft Stream for O365 E1 SKU
+ - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs
  - Microsoft Teams
- - Mobile Device Management for Office 365
+ - Mobile Device Management for Microsoft 365 or Office 365
  - Office Mobile Apps for Office 365 
  - Office Online
- - PowerApps for Office 365
+ - PowerApps for Microsoft 365 or Office 365
  - SharePoint Online (Plan 1)
  - Sway
  - To-Do (Plan 1)
@@ -74,9 +74,9 @@ Admins can disable the ability for end users to run the Teams Exploratory experi
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience. You must have admin privileges. To learn more about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](teams-exploratory.md)
+You can turn off a user's ability to install trial apps and services, which would prevent the user from running the Teams Exploratory experience. 
 
-1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
+1. From the Microsoft 365 admin center, go to **Settings** > **Org settings**, select **Services**, and then select **User owned apps and services**.
 
     ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
@@ -93,7 +93,7 @@ A user who is assigned a license that includes Teams isn't eligible for the Team
 
 To turn off access to Teams:
 
-1. In the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), select **Users** > **Active users**.
+1. In the Microsoft 365 admin center, select **Users** > **Active users**.
 
 2. Select the box next to the name of the user.
 
@@ -143,13 +143,15 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 
 As of February, 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience. All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.
 
+When a user signs in to their expired Teams Commercial Cloud Trial for the first time, we automatically assign a Teams Exploratory experience license to that user. Users aren't converted until they sign in.
+
 ### Remove a Teams Exploratory license
 
 - If you would like to remove this license by using PowerShell, see:
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## How long does the Teams Exploratory experience last?
 
@@ -164,4 +166,3 @@ Microsoft Teams Exploratory experience licenses initiated within 90 days of your
 For agreements without an anniversary or yearly renewal date, the subsequent year after the first end user activates the Microsoft Teams Exploratory experience licenses will be treated as the anniversary or renewal date. Users on the Microsoft Teams Exploratory license must be converted to a paid license by that date each year, according to the policies outlined above.
 
 For example, if the first end user activates Microsoft Teams Exploratory on June 19, 2020, then they and all other eligible users in the customer tenant must convert to a paid license with Teams by June 19, 2021. 
-

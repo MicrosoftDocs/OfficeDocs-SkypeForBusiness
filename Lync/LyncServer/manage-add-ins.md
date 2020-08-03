@@ -1,8 +1,8 @@
 ---
 title: Manage add-ins
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage add-ins

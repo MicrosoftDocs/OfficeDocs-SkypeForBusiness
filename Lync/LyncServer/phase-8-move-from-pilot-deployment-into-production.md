@@ -1,8 +1,8 @@
 ---
 title: 'Phase 8: Move from pilot deployment into production'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Move from pilot deployment into production'

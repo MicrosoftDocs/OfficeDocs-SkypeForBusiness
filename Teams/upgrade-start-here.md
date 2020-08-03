@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: This article will help you with getting started on upgrading from Skype for Business to Microsoft Teams.
 localization_priority: Normal
@@ -50,6 +50,14 @@ Skype for Business Online will be retired on July 31, 2021, after which it will 
 ## Can we continue to use Skype for Business Online as we prepare for and execute our upgrade to Teams?
 
 Yes, Microsoft offers several options for running Skype for Business Online and Teams together. These coexistence modes allow your users to become familiar with Teams today while helping accelerate your upgrade to Teams Only. For more information, see [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+
+## Is Phone System available for Teams users?
+
+Yes. Phone System is available to all Teams users after they are moved to TeamsOnly mode.  In addition, Microsoft provides options for connecting to the Public Switched Telephone Network (PSTN) so that users can make phone calls anywhere in the world. For more information, see [Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md).
+
+## Can we continue to use our on-premises telephony infrastructure?
+
+Yes. With Phone System Direct Routing, you can use Phone System with virtually any telephony carrier. With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
  
 ## How is Microsoft helping customers with their upgrade to Teams? 
 

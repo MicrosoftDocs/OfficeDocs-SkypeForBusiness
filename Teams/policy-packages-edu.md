@@ -95,7 +95,7 @@ Once your policy definition is created or updated, you can assign it to a user b
 You can also assign a policy to a user by navigating to Users, selecting the user you wish to update policies for, selecting Policies, then Edit. From there, you can select the policy definition you’d like to use assign to the user for each capability area.
 
 > [!IMPORTANT]
-> If you're part of a large educational institute, using the Microsoft Teams admin portal experience to set policies for each user may be difficult. It'll be better for you to assign policies in batches via PowerShell. We have some EDU-specific information on how to [Assign policies to large sets of users in your educational institute](batch-policy-assignment-edu.md) if you need it, and you can also check out the section below on policy packages, which are another great way to manage policies and settings for large groups of users.
+> If you're part of a large educational institute, using the Microsoft Teams admin portal experience to set policies for each user may be difficult. It'll be better for you to assign policies in batches via PowerShell. We have some EDU-specific information on how to [Assign policies to large sets of users in your educational institute](batch-group-policy-assignment-edu.md) if you need it, and you can also check out the section below on policy packages, which are another great way to manage policies and settings for large groups of users.
 
 ![Edit user policies pane, on the right side over the Assigned policies page.](media/edu-edit-user-policies-pane.png)
 
@@ -144,6 +144,9 @@ Each individual policy is given the name of the policy package so you can easily
 
 #### Turn off the ability to create and start meetings
 
+> [!NOTE]
+> You may not notice this functionality in your tenant right now. That's because this feature is currently being rolled out, and will be available to all users once it's been rolled out to all tenants. Please see the [Teams Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355) for more information.
+
 To ensure that students can’t schedule a meeting to communicate unattended, in meeting policies set to **Off** meeting creation capabilities through these General settings:
 
 - **Allow Meet now in channels**: Off
@@ -153,9 +156,20 @@ To ensure that students can’t schedule a meeting to communicate unattended, in
 
 ![Education student in remote learning page, with the General section showing, all options here are turned off.](media/edu-policy-list-a.png)
 
-- And on the same page, in the Participants and Guests in meeting section: **Allow Meet now in private meetings**: Off
+- And on the same page, in the Participants and Guests in meeting section:
+  - **Allow Meet now in private meetings**: Off
+  - **Allow chat in meetings**: Disabled
 
 ![Participants and guests section, with the Allow Meet now in private meetings option set to Off.](media/edu-participants-and-guests.png)
+
+Turning off **Allow Meet now in channels**, **Allow channel meeting scheduling**, **Allow scheduling private meetings**, and **Meet now in private meetings** for students not only blocks students from scheduling a meeting as the organizer, they also provide the following safety measures for education:
+
+- If students attempt to join the meeting before the educator, they won't be able to join the meeting in the latest version of the Teams app.
+- Although meeting creation applies to any users and any licenses, the safety measures on meeting join block described above apply only to education customers in Teams based on the users’ license type.
+
+When you change the **Allow chat in meetings** policy to disabled and block students from scheduling meetings from above while and keep this policy on for educators (for the meetings that are not scheduled from a channel or meet now in a channel), students won't be able to chat before the educator joins the meeting, nor after the meeting. They will still be able to see the chat history before, during, and after the meeting. As an example, they'll be able to see messages from the teacher, or the meeting recording link, if the meeting was recorded.
+
+If both students and educators have the **Allow chat in meetings** policy turned off, no one will be able to chat in the meeting chat window. The safety measure on meeting chat restriction described above only applies to education customers in Teams based on users’ license type.
 
 #### Control whether or not students can share their videos during calls and meetings
 

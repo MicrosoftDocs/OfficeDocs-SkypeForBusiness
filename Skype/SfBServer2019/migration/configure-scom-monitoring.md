@@ -1,8 +1,8 @@
 ---
 title: "Configure SCOM monitoring"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

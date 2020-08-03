@@ -33,9 +33,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
-| Yealink| CP960| 73.8.0.27| 6/30/2018|
-| Polycom| RealPresence Trio 8800/8500| 5.5.2.11338 | 10/9/2018|
-||||
+
 
 ## Desk phones
 
@@ -75,9 +73,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Yealink |T48S IP Phone |66.9.0.23 |4/21/2018|
 | Yealink |T41S IP Phone |66.9.0.23 |11/30/2017|
 | Yealink |T42S IP Phone |66.9.0.23 |11/30/2017|
-| Yealink |T41P IP Phone |x.8.1.62 |7/04/2017|
-| Yealink |T42G IP Phone |x.8.1.62 |7/04/2017|
-||||
+
 
 ## Additional Resources
 
