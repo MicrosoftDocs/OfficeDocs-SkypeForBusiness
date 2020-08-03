@@ -18,6 +18,7 @@ search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Limits and specifications for Microsoft Teams
@@ -104,15 +105,20 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 ## Meetings and calls
 
-> [!IMPORTANT]
-> In April, [we announced](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) that temporary default limit increases would be enabled for Microsoft 365 live events to help better support customers, through July 1st. To continue meeting the needs of customers, we will extend the temporary default limits until October 1, 2020. Live events hosted in Teams, Stream, and Yammer will continue to temporarily support events for up to 20,000 attendees, 16 hours in length, and 50 events happening simultaneously. Additionally, customers can host a live event in Stream for up to 100,000 attendees when planned though the [Microsoft live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/).
-
 |Feature     | Maximum limit |
 |------------|---------------|
+|Number of people in a meeting (can chat and call in)  |300. **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow.   |
 |Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+
+<sup>1</sup> View-only is on by default. You can use PowerShell to disable meeting overflow. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+View-only attendees will be unable to join a meeting if there is no longer view-only capacity in the meeting or the attendee doesn't have permission to bypass the Lobby based on set Lobby Policies or Options. View-only participants won't be able to see native PPT share files.
 
 ### Meeting expiration
 
