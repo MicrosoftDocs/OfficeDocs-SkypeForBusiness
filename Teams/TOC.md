@@ -583,9 +583,7 @@
 #### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
 #### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 #### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
-
-
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
