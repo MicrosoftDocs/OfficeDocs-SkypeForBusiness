@@ -12,7 +12,7 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 ---
 
-# Manage the Praise app in the Teams admin center
+# Admin settings for the Praise app in the Microsoft Teams admin center
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers.
 
@@ -42,7 +42,7 @@ Educators can recognize individual students for social and emotional learning (S
 
 ## Create your own badges
 
-Switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
+Switch the **Custom badges** toggle to On and select **+ Add a badge**. From there, you can design a custom badge in the side panel.
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise.
 2. Set your badge colors. To set the text and background colors of your badge, you need to enter the colors as hexadecimal (hex) values.
@@ -59,7 +59,7 @@ Switch the **Custom badges** toggle to On and select **+ Create a custom badge**
 > [!NOTE]
 > If steps 4 and 5 are skipped, the badge will be in the default language for all locales.
 >
-> When you’re finished making changes to your badge selection, make sure to select **Save**. It may take up to a few hours before these changes are available to your organization.
+> When you’re finished making changes to your badge selection, make sure to select **Submit**. It may take up to a few hours before these changes are available to your organization.
 
 <a name="hex-colors-intro"></br></a>
 
