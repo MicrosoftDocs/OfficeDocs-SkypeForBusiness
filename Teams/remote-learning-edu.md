@@ -21,8 +21,14 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
+For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
+
+Resources to assist educators and students with remote learning are available in [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+This article covers the actual steps to take in order to get your educational institution set up for remote learning.
+
 > [!NOTE]
-> This article is a great resource for getting your educational institution set up for remote learning. If you're an educator, educational leader, or IT professional, these resources may help:
+> If you're an educator, educational leader, or IT professional, these resources may help:
 >
 > - Get your entire educational institute up and running on Teams quickly with the [**Getting Started one-pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for security and change management.
@@ -63,9 +69,9 @@ These are the two things you need to do to get up and running with Teams:
 
 ### 1. Allow users to create teams
 
-Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams that meet their needs. **By default, everyone can create Microsoft 365 groups and Teams**. There are times when this capability may not be appropriate; for example, some customers may want to restrict primary-secondary students from creating Teams. If needed, Office 365 group and Team creation can be [restricted to certain security groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) within your environment.
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams that meet their needs. **By default, everyone can create Microsoft 365 groups and Teams**. There are times when this capability may not be appropriate; for example, some customers may want to restrict primary-secondary students from creating Teams. If needed, Microsoft 365 group and Team creation can be [restricted to certain security groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) within your environment.
 
-Higher education institutions benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary schools may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Office 365 group and Team creation can be restricted to all educators and staff.
+Higher education institutions benefit when you let everyone, including students, create teams for classes, research, group projects, and study groups. Primary-secondary schools may want to restrict students from creating Teams to make sure that all student to student communications are happening within a forum that include an adult. In this case, Microsoft 365 group and Team creation can be restricted to all educators and staff.
 
 For a walkthrough of how to create Teams, check out: [Create a class team in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 
@@ -86,7 +92,7 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 > [!IMPORTANT]
 > For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu.md).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
 ## Start using Teams
 
@@ -144,6 +150,7 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
+- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
 - [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
 - [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

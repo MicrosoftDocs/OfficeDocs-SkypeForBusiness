@@ -36,7 +36,7 @@ The following concepts and definitions all affect the decisions you make for lif
 
 **Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Office 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Microsoft 365 or Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Channels**
 
@@ -136,7 +136,7 @@ Teams can originate from a variety of methods, including:
 
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
--   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
+-   Add a team to an existing Microsoft 365 group, which also gives the team access to its mailbox and SharePoint site.
 -   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 Use these links to get more information about organizing your teams:

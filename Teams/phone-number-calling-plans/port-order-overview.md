@@ -107,7 +107,7 @@ For example, you need to submit a unique number porting request for each of the 
 
 - Mobile numbers
 
-- Service numbers that can be used for Audio Conferencing in Office 365.
+- Service numbers that can be used for Audio Conferencing in Microsoft 365 or Office 365.
 
 Here's more information about how to submit number porting requests for each of these types of numbers:
   

@@ -40,7 +40,7 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Import a group to make a team**: When you import a group with up to 3,500 members into Teams, Teams automatically calculates the total number of members in the group. This is a one-time import only and future changes in the group will not automatically be updated in Teams.
 
-**Create a team from a large Office 365 group**: When you create a team from a large Office 365 group, members are automatically part of the Office 365 group **and** the team. In the future, as team members join or leave the Office 365 group, they're automatically added or removed from the team.
+**Create a team from a large Microsoft 365 group**: When you create a team from a large Microsoft 365 group, members are automatically part of the Microsoft 365 group **and** the team. In the future, as team members join or leave the Microsoft 365 group, they're automatically added or removed from the team.
 
 ## Create channels to focus discussions
 

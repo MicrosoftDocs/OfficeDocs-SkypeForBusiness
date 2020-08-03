@@ -1,7 +1,7 @@
 ---
-title: Teams templates for Small and Medium Businesses
-author: kenwith
-ms.author: kenwith
+title: Teams templates for Small and Medium Businesses built with Microsoft Graph
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ f1.keywords:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: lavenkat
-description: Use Microsoft Teams predefined templates to quickly and easily create teams for small and medium businesses.
+description: Use Microsoft Teams predefined templates built in Microsoft Graph to quickly and easily create teams for small and medium businesses.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Get started with Teams templates for Small and Medium Businesses
+# Teams templates built in Microsoft Graph for Small and Medium Businesses
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 For small and medium businesses, templates can be especially powerful, as they help administrators to quickly deploy Teams across their organization. Templates also help orient users and get started with using Teams effectively. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
-We currently offer three first party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll-out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, please see [Get started with Teams templates](get-started-with-teams-templates.md).
+We currently offer three first-party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll-out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, please see [Get started with Teams templates](get-started-with-teams-templates.md).
 
 ## Company-Wide template
 The Company-Wide template is meant for communication and collaboration that are relevant for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training and development. The Fun Stuff channel provides a social platform for all random and fun posts.

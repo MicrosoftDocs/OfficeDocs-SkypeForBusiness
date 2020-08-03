@@ -37,13 +37,13 @@ The PSTN Service Desk team currently has three email addresses for support, whic
 
 If you need assistance **transferring/porting your existing phone numbers to Microsoft Teams**, please include as many details as possible:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - What types of phone numbers you need assistance with (**User/Subscriber** or **Service/Toll/Toll-Free**).
+  - What types of phone numbers you need assistance with **(user, service toll, or service toll-free)**.
   - Other important details based on your request.
   
 If you need assistance **acquiring new phone numbers for Microsoft Teams**, please include as many details as possible:
   - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - What types of phone numbers you would like to acquire (**User/Subscriber** or **Service/Toll/Toll-Free**).
-  - How many you require and the Area Code(s)/Country/Region from which you would like new phone numbers from.
+  - What types of phone numbers you need assistance with **(user, service toll, or service toll-free)**.
+  - How many you require and the area code(s)/country/region from which you would like new phone numbers from.
 
 If you need assistance **on anything related to numbers setup, configuration, licenses/fees/billing**, please reach out to the [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) page and our Technical Team will be happy to assist you.
 

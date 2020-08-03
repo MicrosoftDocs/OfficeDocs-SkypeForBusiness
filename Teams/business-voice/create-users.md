@@ -25,7 +25,7 @@ To use :::no-loc text="Microsoft 365 Business Voice":::, you need a :::no-loc te
 
 ## Create and license users
 
-Follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Follow the steps in [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > In the **Assign product licenses** pane,  select **:::no-loc text="Microsoft 365 Business Voice":::**.

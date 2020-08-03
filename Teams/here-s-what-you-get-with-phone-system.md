@@ -1,5 +1,5 @@
 ---
-title: "Here's what you get with Phone System in Office 365"
+title: "Here's what you get with Phone System"
 ms.reviewer: 
 author: CarolynRowe
 ms.author: crowe
@@ -24,20 +24,20 @@ ms.custom:
 description: "Learn about the features, availability, and how to plan and set up Microsoft Phone System for your business. "
 ---
 
-# Here's what you get with Phone System in Office 365
+# Here's what you get with Phone System
 
-This article describes Phone System in Office 365 features. For more information about using Phone System as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).
+This article describes Phone System features. For more information about using Phone System as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Phone System](what-is-phone-system-in-office-365.md).
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
   
-## Phone System in Office 365 features
+## Phone System features
 
 Phone System provides the following features. Unless otherwise noted, features are available in both Teams and Skype for Business Online.
   
 |||
 |:-----|:-----|
-|**Phone System in Office 365 feature** <br/> |**Description** <br/> |
+|**Phone System feature** <br/> |**Description** <br/> |
 |[Cloud auto attendants](what-are-phone-system-auto-attendants.md) <br/> |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> |
 |[Cloud call queues](create-a-phone-system-call-queue.md) <br/> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> |
 |Music on hold | Plays default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. This feature is configurable by the administrator but [currently only via PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Hold music is also not supported in consultative transfer of a PSTN call.|
@@ -77,7 +77,7 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 
 ## Related topics
 
-- [What is Phone System in Office 365](what-is-phone-system-in-office-365.md)
+- [What is Phone System](what-is-phone-system-in-office-365.md)
 - [Cloud voice in Microsoft Teams](cloud-voice-landing-page.md)
 - [Set up Phone System](setting-up-your-phone-system.md)
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)

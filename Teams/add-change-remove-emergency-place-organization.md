@@ -34,7 +34,7 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, click the name of the location for which you want to add a place.
-3. On the **Places** tab, click **Add place**.
+3. On the **Places** tab, click **Add**.
 4. Enter a place name, and then click **Apply**.
 
 ### Using PowerShell
