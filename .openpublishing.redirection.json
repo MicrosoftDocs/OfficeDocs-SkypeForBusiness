@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/batch-policy-assignment-edu.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/batch-group-policy-assignment-edu",
+      "redirect_document_id": true 
+      },     
+    {
       "source_path": "Teams/rooms/managed-meeting-rooms.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": true 
