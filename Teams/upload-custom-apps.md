@@ -22,45 +22,11 @@ description: Learn how to upload your custom apps to your organization's app sto
 # Publish a custom app by uploading an app package
 
 > [!NOTE]
-> When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. **This article focuses on how to publish a custom app by uploading an app package (in .zip format) that a developer sends you**. The other method, approving a custom app, is used when a developer submits an app directly to the **Manage apps** page through the Teams App Submission API. To learn more about that method, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
+> When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. **This article focuses on how to publish a custom app by uploading an app package (in .zip format) that a developer sends you**. The other method, approving a custom app, is used when a developer submits an app directly to the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page through the Teams App Submission API. To learn more about that method, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
 ![Overview of your app from development to deployment](media/upload-custom-apps.png)
-
-<!-- ## Getting started
-
-To create and manage custom apps in Teams, you'll need two tenants: a test tenant for development and a production tenant.
-
-> [!NOTE]
-> If you don't already have a test tenant, you can quickly create one and populate it with test data using the Office 365 Developer Program. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Learn more here</a>.
-
-<!-- ### Create test users
-
-Make sure that your developers, whether in-house or external, have accounts in your test tenant. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Learn more about adding users</a>.
-
-### Allow custom apps in the test tenant
-
-To give developers the access they need for testing, allow all users in the test tenant to upload custom apps (also known as sideloading). This lets developers upload a custom app to be used personally or across the test tenant without having to submit the app to the Teams app store. Uploading a custom app lets developers test an app before you distribute it more widely.
-
-To allow users to upload custom apps, follow these steps:
-
-1. Turn on the **Allow interaction with custom apps** org-wide app setting. To do this:
-    1. In the left navigation of the <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams admin center</a>, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.
-    2. Under **Custom apps**, turn on **Allow interaction with custom apps**, and then click **Save**.
-
-    ![Screenshot of the "Allow interaction with custom apps" org-wide app setting](media/manage-your-lob-apps-org-wide-custom-apps.png)
-
-2. Turn on the **Upload custom apps** setting in the global app setup policy. To do this:
-    1. In the left navigation of the <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams admin center</a>, go to **Teams apps** > **Setup policies**, and then click the **Global (Org-wide default)** policy.
-    2. Turn on **Upload custom apps**, and then click **Save**.
-
-    ![Screenshot of the "Upload custom apps" app setup policy setting](media/manage-your-lob-apps-app-setup-custom-apps.png)
-
-> [!NOTE]
-> There's also an upload custom app setting at the team level. By default this setting is on. However, if developers are unable to upload a custom app to a team, check the setting by following the steps <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#configure-the-team-custom-app-setting" target="_blank">here</a>.
-
--->
 
 ## Develop
 
@@ -101,7 +67,7 @@ To allow trusted users to upload custom apps, follow these steps:
 
 ## Upload
 
-To make the app available to users in your organization's app store, upload the app. You can do this on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.
+To make the app available to users in your organization's app store, upload the app. You can do this on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click **Upload**, click **Select a file**, and then select the app package that you received from the developer.
