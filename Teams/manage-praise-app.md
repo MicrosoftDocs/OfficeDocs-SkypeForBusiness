@@ -106,18 +106,18 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 
 |Badge name     |Image file  |Text color | Background color |
 |---------------|------------|---------- |--------|
-|Achiever       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever.png" download>Achiever.PNG</a>|#D36E70    |#E3F4FC|
-|Awesome        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome.png" download>Awesome.PNG</a>|#8283B2    |#D1EFF2|
-|Coach          |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach.png" download>Coach.PNG</a>|#6AA55A    |#DBF1D6|
-|Courage        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage.png" download>Courage.PNG</a>|#DC5041    |#FCF6C8|
-|Creative       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative.png" download>Creative.PNG</a>|#CF9D50    |#FCF6C8|
-|Inclusive      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive.png" download>Inclusive.PNG</a>|#3C77BB    |#E2F4FC|
-|Kind Heart     |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart.png" download>KindHeart.PNG</a>|#D36D6E    |#F4DEDE|
+|Achiever       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png" download>Achiever.PNG</a>|#D36E70    |#E3F4FC|
+|Awesome        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png" download>Awesome.PNG</a>|#8283B2    |#D1EFF2|
+|Coach          |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png" download>Coach.PNG</a>|#6AA55A    |#DBF1D6|
+|Courage        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png" download>Courage.PNG</a>|#DC5041    |#FCF6C8|
+|Creative       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png" download>Creative.PNG</a>|#CF9D50    |#FCF6C8|
+|Inclusive      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png" download>Inclusive.PNG</a>|#3C77BB    |#E2F4FC|
+|Kind Heart     |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png" download>KindHeart.PNG</a>|#D36D6E    |#F4DEDE|
 |Leadership     |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.png" download>Leadership.PNG</a>|#419098    |#D2EAEC|
-|Optimism       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism.png" download>Optimism.PNG</a>|#D8338C    |#F4DDDE|
-|Problem Solver |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver.png" download>ProblemSolver.PNG</a>|#B8916E    |#CBDADF|
-|Team Player    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player.png" download>TeamPlayer.PNG</a>|#8B8DC0    |#F4EEC0|
-|Thank You      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you.png" download>ThankYou.PNG</a>|#469CA4    |#BACCB6|
+|Optimism       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png" download>Optimism.PNG</a>|#D8338C    |#F4DDDE|
+|Problem Solver |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png" download>ProblemSolver.PNG</a>|#B8916E    |#CBDADF|
+|Team Player    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png" download>TeamPlayer.PNG</a>|#8B8DC0    |#F4EEC0|
+|Thank You      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png" download>ThankYou.PNG</a>|#469CA4    |#BACCB6|
 
 </br>
 
@@ -127,15 +127,15 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 
 |Badge name        |Image file  |Text color | Background color |
 |------------------|------------|---------- |--------|
-|Communication     |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication.png" download>Communication.PNG</a>|#FFFFFF    |#173B65|
-|Critical thinking |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking.png" download>CriticalThinking.PNG</a>|#FFFFFF    |#084D26|
-|Curiosity         |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity.png" download>Curiosity.PNG</a>|#FFFFFF    |#008078|
-|Empathy           |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy.png" download>Empathy.PNG</a>|#FFFFFF    |#650B35|
-|Goal pursuit      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit.png" download>GoalPursuit.PNG</a>|#FFFFFF    |#006F95|
-|Motivation        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation.png" download>Motivation.PNG</a>|#FFFFFF    |#C52127|
-|Persistence       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence.png" download>Persistence.PNG</a>|#FFFFFF    |#167D3E|
-|Respect           |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect.png" download>Respect.PNG</a>|#FFFFFF    |#8251A0|
-|Responsibility    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility.png" download>Responsibility.PNG</a>|#FFFFFF    |#B05DA3|
-|Self-awareness    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness.png" download>Self-awareness.PNG</a>|#FFFFFF    |#1680E5|
-|Self-management   |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management.png" download>Self-management.PNG</a>|#FFFFFF    |#4C144D|
-|Thoughtfulness    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness.png" download>Thoughtfulness.PNG</a>|#FFFFFF    |#EE4086|
+|Communication     |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png" download>Communication.PNG</a>|#FFFFFF    |#173B65|
+|Critical thinking |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png" download>CriticalThinking.PNG</a>|#FFFFFF    |#084D26|
+|Curiosity         |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png" download>Curiosity.PNG</a>|#FFFFFF    |#008078|
+|Empathy           |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png" download>Empathy.PNG</a>|#FFFFFF    |#650B35|
+|Goal pursuit      |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png" download>GoalPursuit.PNG</a>|#FFFFFF    |#006F95|
+|Motivation        |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png" download>Motivation.PNG</a>|#FFFFFF    |#C52127|
+|Persistence       |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png" download>Persistence.PNG</a>|#FFFFFF    |#167D3E|
+|Respect           |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png" download>Respect.PNG</a>|#FFFFFF    |#8251A0|
+|Responsibility    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png" download>Responsibility.PNG</a>|#FFFFFF    |#B05DA3|
+|Self-awareness    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png" download>Self-awareness.PNG</a>|#FFFFFF    |#1680E5|
+|Self-management   |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png" download>Self-management.PNG</a>|#FFFFFF    |#4C144D|
+|Thoughtfulness    |<a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png" download>Thoughtfulness.PNG</a>|#FFFFFF    |#EE4086|
