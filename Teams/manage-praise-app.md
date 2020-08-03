@@ -43,16 +43,15 @@ Educators can recognize individual students for social and emotional learning (S
 ## Create your own badges
 
 Switch the **Custom badges** toggle to On and select **+ Create a custom badge**. From there, you can design a custom badge in the side panel.
-To create your own badges, switch the Custom badges toggle to On and select Add badges. From there, you can design a custom badge in the panel.
 
-1. Enter a badge name. This is the name that will appear on the badge when users send praise. 
+1. Enter a badge name. This is the name that will appear on the badge when users send praise.
 2. Set your badge colors. To set the text and background colors of your badge, you need to enter the colors as hexadecimal (hex) values.
 
 > [!TIP]
 > If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them.
 
-3. Upload a badge image. The accepted file type is .PNG. The file must be less than 25kb, and the image size must be less than 288x288 pixels.
-![Badge with background, text, and image labeled](media/praise-app-badge-fields.png)
+3. Upload a badge image. The accepted file type is .PNG. The file must be less than 25kb.
+![Badge with background, text, and image fields labeled](media/praise-app-badge-fields.png)
 4. Localize your badge name: Under **Locales**, select **Add +**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
 5. Exclude your badge from specific locales: Under **Exclude these locales**, select **Add +**. Select the locales you want to exclude from the drop-down list.
 6. Select **Apply**. Your new badge will now appear in the custom badges table.
@@ -70,7 +69,7 @@ Hex color values are strings of six hexadecimal digits that represent the intens
 
 For example, the hex value for the color red is #FF0000 because red is set at the highest possible value, FF, and green and blue are each set at the lowest possible value, 00.
 
-To explore different colors and their hex value, see [Bing color picker](https://www.bing.com/search?q=color+picker).
+To explore different colors and their hex values, check out [Bing color picker](https://www.bing.com/search?q=color+picker).
 
 Below is a list of example colors to get you started:
 
