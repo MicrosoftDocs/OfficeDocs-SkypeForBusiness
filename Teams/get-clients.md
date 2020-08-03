@@ -134,7 +134,8 @@ You can launch Teams via Activities or via Terminal by typing `teams`.
 #### Install manually from the command line
 
 Install manually on Debian and Ubuntu distributions:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -144,7 +145,8 @@ sudo apt install teams
 ```
 
 Install manually on RHEL, Fedora and CentOS based distributions:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -154,13 +156,15 @@ sudo dnf install teams
 ```
 
 Alternatively, to use yum instead of dnf:
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 Install manually on openSUSE based distributions:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
