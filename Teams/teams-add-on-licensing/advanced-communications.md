@@ -73,4 +73,4 @@ With Advanced Communications, any meeting with more than 300 attendees will prov
 
 ## Related topics
 
-[Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy) 
+[Teams policy-based recording for calling and meetings](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
