@@ -21,16 +21,16 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
+As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
 > [!NOTE]
-> The **Manage apps** page isn't available yet in Microsoft 365 Government Community Cloud (GCC) deployments of Teams.
+> The Manage apps page isn't available yet in Microsoft 365 Government Community Cloud (GCC) deployments of Teams.
 
-## View apps in your tenant app catalog
+## View apps
 
 You can view every app including the following information about each app.
 
@@ -42,7 +42,7 @@ You can view every app including the following information about each app.
   
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Publisher**: Name of the publisher.
-
+- **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
 
     - **Allowed**: The app is available for all users in your organization.
@@ -62,16 +62,30 @@ You can view every app including the following information about each app.
 
 To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
 
-## Upload a new app
+## Publish a custom app to your organization's app store
 
-You can use your app catalog to test and distribute custom applications that are built specifically for your organization. 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). When you have the app package, you can add it to your app catalog. While all users in your organization can view the app catalog, only global admins and Teams service admins can publish and manage it.
+Use the Manage apps page to publish apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
 
-To upload a new custom app to your organization's app store, click **Upload new app** to upload your app package in .zip format. The app isn't highlighted after it's uploaded so you'll need to search the list of apps to find it.
+- [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
+- [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
 
-To update an app after it's uploaded, in the list of apps, click the app name, and then click **Update**. Doing this replaces the existing app and all app permission policies and app setup policies remain enforced for the updated app.
+###  Approve a custom app
 
-To learn more, see [Manage your custom apps in Teams](manage-your-custom-apps.md).
+The **Pending approvals** widget on the Manage apps page notifies you when a developer submits an app by using the Teams App Submission API. A newly submitted app is listed with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish it, set **Publishing status** to **Publish**.
+
+You're also notified when a developer submits an update to a custom app. You can then review and publish (or reject) the update on the app details page. All app permission policies and app setup policies remain enforced for the updated app.
+
+To learn more, see [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md).
+
+### Upload an app package
+
+The developer creates a Teams app package using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio), and then sends it to you in .zip format. When you have the app package, you can upload it to your organization's app store.
+
+To upload a new custom app, select **Upload** to upload the app package. The app isn't highlighted after it's uploaded so you'll need to search the list of apps on the Manage apps page to find it.
+
+To update an app after it's uploaded, in the list of apps on the Manage apps page, click the app name, and then click **Update**. Doing this replaces the existing app and all app permission policies and app setup policies remain enforced for the updated app.
+
+To learn more, see [Publish a custom app by uploading an app package](upload-custom-apps.md).
 
 ## Allow and block apps
 
