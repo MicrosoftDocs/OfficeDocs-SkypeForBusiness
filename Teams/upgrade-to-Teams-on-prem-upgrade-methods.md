@@ -26,18 +26,20 @@ There are two methods for migrating an existing organization with Skype for Busi
 
 - [Overlapping capabilities method (using Islands mode)](#overlapping-capabilities-method-using-islands-mode)
 
-Users in an existing Skype for Business organization are introduced to Teams so that they can use both clients during a transitional phase. During this period, most--but not all--functionality of Teams is available to them. The mode for this configuration is referred to as Islands, and this is the default mode for any existing organization with Skype for Business. Once the organization is ready, the administrator moves the users to TeamsOnly mode.
+   Users in an existing Skype for Business organization are introduced to Teams so that they can use both clients during a transitional phase. During this period, most--but not all--functionality of Teams is available to them. The mode for this configuration is referred to as Islands, and this is the default mode for any existing organization with Skype for Business. Once the organization is ready, the administrator moves the users to TeamsOnly mode.
 
 - [Select capabilities method (using one or more of the Skype for Business modes)](#select-capabilities-method-using-skype-for-business-modes)
 
-The administrator manages the transition (from Skype for Business to Teams) of chat, calling, and meeting scheduling functionality for users in their organization.  Each of these functions is available either in Skype for Business or Teams, but not both. Administrators use TeamsUpgradePolicy to control when to shift this functionality to Teams for their users. Users who are not yet in TeamsOnly mode continue to use Skype for Business for chat and calling, and the two sets of users can communicate via interop functionality. Administrators manage the transition by progressively migrating more users into TeamsOnly mode.  
+   The administrator manages the transition (from Skype for Business to Teams) of chat, calling, and meeting scheduling functionality for users in their organization.  Each of these functions is available either in Skype for Business or Teams, but not both. Administrators use TeamsUpgradePolicy to control when to shift this functionality to Teams for their users. Users who are not yet in TeamsOnly mode continue to use Skype for Business for chat and calling, and the two sets of users can communicate via interop functionality. Administrators manage the transition by progressively migrating more users into TeamsOnly mode.  
 
 ## Overlapping capabilities method (using Islands mode)
 
 With the overlapping capabilities method, users can use both Teams and Skype for Business clients for chat, VoIP calling, and meetings. This state is referred to as “Islands” mode because the communication traffic for Skype for Business and Teams remains separate (even for the same user) and the two different clients never communicate with each other (for users within the same organization). For example, assume recipient User A is in Islands mode:
 
 - Communication initiated from another user’s Skype for Business client will always land in User A’s Skype for Business client.
+
 - Communication initiated from another user’s Teams client will always land in User A’s Teams client, *if the other user is in the same organization*. 
+
 - Communication initiated from another user’s Teams client will always land in User A’s Skype for Business client, *if the other user is in a federated organization*.
 
 Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign a Microsoft 365 or Office 365 license, both Teams and Skype for Business Online licenses are assigned by default. (This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.) In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the overlapping capabilities approach. It allows for rapid, end-user driven adoption within an organization.
