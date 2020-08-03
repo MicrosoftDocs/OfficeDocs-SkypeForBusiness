@@ -575,7 +575,15 @@
 ## [FAQ](FAQ-journey.md)
 
 ## Technical library
-### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
+### Upgrade guidance for IT administrators
+#### [Overview](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+#### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
+#### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+
+
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
