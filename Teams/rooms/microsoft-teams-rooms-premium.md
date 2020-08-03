@@ -58,8 +58,6 @@ Here's a summary of important features the Microsoft Teams Rooms Premium service
 
 ## Service prerequisites
 
-The Microsoft Teams Rooms Premium service is an add-on per room license. Microsoft Teams Rooms requires a separate user or Microsoft Teams Room license.
-
 For Microsoft Teams Rooms Premium to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 As provider of a managed service, Microsoft needs to work with responsible stakeholders for rooms in your organization to keep rooms healthy and recover from issues. You're responsible for uncertified devices used in meeting rooms, third-party or custom software that you've chosen to deploy in your meeting room devices, and adhering to change management practices recommended by Microsoft.
