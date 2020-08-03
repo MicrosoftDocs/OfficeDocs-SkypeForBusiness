@@ -122,7 +122,7 @@ To learn more about guest access, see [Guest access in Teams](guest-access.md) a
 
 ## Step 7: Turn on "Anonymous users can join a meeting" if you want guests to join meetings
 
-If you want guests to join meetings, turn on the **Anonymouse users can join a meeting** setting in the Microsoft Teams admin center. 
+If you want guests to join meetings, turn on the **Anonymous users can join a meeting** setting in the Microsoft Teams admin center. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting settings**.
 
