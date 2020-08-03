@@ -8,7 +8,7 @@
 
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -669,7 +669,8 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Teams EDU policies and policy packages](policy-packages-edu.md)
-### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
+### [Assign policies to large sets of users](batch-group-policy-assignment-edu.md)
+### [PowerShell script to create security groups for educators and students](scripts/powershell-script-security-groups-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
 ### [Class Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
@@ -806,6 +807,7 @@
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
+### [Advanced Communications](teams-add-on-licensing/advanced-communications.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 
