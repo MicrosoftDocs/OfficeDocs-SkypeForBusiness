@@ -109,7 +109,7 @@ Mobile users can sign out of Teams by going to the menu and choosing the **More*
 
 ## Global sign in and sign out
 
-Microsoft Teams android app now supports Global sign in and sign out, to provide a hassle free sign-in and sign-out experience for first-line workers. Employees can pick a device from the shared device pool and perform a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally log out on the device, with all of their personal and company information removed so they can return it to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode).
+The Teams Android app now supports Global sign in and sign out, to provide a hassle free sign-in and sign-out experience for first-line workers. Employees can pick a device from the shared device pool and perform a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally log out on the device, with all of their personal and company information removed so they can return it to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode).
 
 The sign-in experience looks similar to our standard Teams sign experience, while sign out will look like the following two images:
 
