@@ -12,7 +12,7 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 ---
 
-# Admin settings for the Praise app in the Microsoft Teams admin center
+# Manage the Praise app in the Microsoft Teams admin center
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers.
 
