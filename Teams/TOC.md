@@ -578,6 +578,7 @@
 ### Upgrade guidance for IT administrators
 #### [Overview](upgrade-to-teams-on-prem-overview.md)
 #### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
 #### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
 #### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
 #### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
