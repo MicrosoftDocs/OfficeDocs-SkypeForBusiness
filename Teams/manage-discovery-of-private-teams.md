@@ -22,7 +22,7 @@ description: Learn how to control whether private teams can be discovered by Mic
 # Manage discovery of private teams in Microsoft Teams
 
 > [!IMPORTANT]
-> Based on customer feedback, we're cancelling this feature, effective August 31, 2020. This means that after August 31, 2020, you can no longer set whether private teams are discoverable and whether users can discover private teams. To learn more, see the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370). 
+> Based on customer feedback, we're disabling this feature, effective August 31, 2020. This means that after August 31, 2020, you will no longer be able to set private teams to be discoverable and all existing and new private teams will no longer be discoverable. To learn more, see the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370).
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
