@@ -86,7 +86,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 ## Purchase services for third-party apps
 
-You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Click **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
+You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Click **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase services for Teams third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
 
 ## Manage org-wide app settings
 
