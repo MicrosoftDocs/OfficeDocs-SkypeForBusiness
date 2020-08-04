@@ -27,7 +27,7 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 > [!NOTE]
 > Common area phones do not support voicemail.
 
-A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
+A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a Common Area Phone license. The TeamsIPPhone policy must also be appropriately set for the phone to have a common area user experience.
 
 In the steps below, we'll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
