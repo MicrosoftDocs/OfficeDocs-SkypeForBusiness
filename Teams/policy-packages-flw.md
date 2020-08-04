@@ -39,16 +39,16 @@ Policy packages predefine policies for the following:
 
 Teams currently includes the following policy packages for the Firstline Workforce.
 
-![Screenshot of Healthcare policy packages](media/policy-packages-flw.png)
-
 |Package name in the Microsoft Teams admin center  |Best used for|Description |
 |---------|---------|---------|
 |Firstline manager |Firstline Managers in your organization|Creates a set of policies and applies those settings to Firstline Managers in your organization. |
 |Firstline worker |Firstline Workers in your organization|Creates a set of policies and applies those settings to Firstline Workers in your organization. |
 
+![Screenshot of Firstline Worker and Firstline Manager policy packages](media/policy-packages-flw.png)
+
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Firstline worker policy package to Firstline Workers in your organization, a policy named Firstline_Worker is created for each policy in the package.
 
-![Screenshot of Healthcare policy packages](media/policy-packages-flw-firstline-worker.png)
+![Screenshot of policies in the Firstline Worker package ](media/policy-packages-flw-firstline-worker.png)
 
 ## Use policy packages
 
@@ -64,7 +64,7 @@ Assign the policy package to users. Remember that policies in a policy package a
 
 To assign a policy package to one or multiple users, click **Manage users**. You can also use PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
-![Screenshot of Healthcare policy packages](media/policy-packages-flw-assign.png)
+![Screenshot of how to assign a policy package in the admin center](media/policy-packages-flw-assign.png)
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
