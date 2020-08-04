@@ -171,7 +171,7 @@ items:
     
     If you have a large volume of users to which you want to assign a policy, a more efficient option is to assign a policy package by using PowerShell. To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
-    #### Customize the policy settings in the policy package
+    #### Customize policy settings in the policy package
 
     Customize the settings of policies in the policy package, as needed, to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package. You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center. To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package).
 
