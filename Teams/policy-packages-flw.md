@@ -50,7 +50,7 @@ Each individual policy is given the name of the policy package so you can easily
 
 ![Screenshot of policies in the Firstline Worker package ](media/policy-packages-flw-firstline-worker.png)
 
-## Use policy packages
+## Manage policy packages
 
 ### View
 

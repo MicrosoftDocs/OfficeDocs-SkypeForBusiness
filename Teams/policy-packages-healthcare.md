@@ -51,7 +51,7 @@ Each individual policy is given the name of the policy package so you can easily
 
 ![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-healthcare-clinical-worker.png)
 
-## Use policy packages
+## Manage policy packages
 
 ### View
 
