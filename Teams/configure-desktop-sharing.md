@@ -57,7 +57,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
 5. Turn the following settings on or off:
 
     - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.
-    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter's desktop or application.
+    - **Allow an external participant to give or request control** – This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.
     - **Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
     - **Allow whiteboard** – lets users share a whiteboard.
     - **Allow shared notes** – lets users take shared notes.
