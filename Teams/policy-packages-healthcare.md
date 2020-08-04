@@ -27,7 +27,7 @@ A [policy package](manage-policy-packages.md) in Microsoft Teams is a collection
 
 When you assign a policy package to a set of users, the policies in the package are created, and you can then customize the settings of the policies in the package to suite of the needs of that set of users. When you update settings in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
-Policy packages predefine policies for the following, depending on the package:
+Policy packages pre-define policies for the following, depending on the package:
 
 - Meetings
 - Live events
