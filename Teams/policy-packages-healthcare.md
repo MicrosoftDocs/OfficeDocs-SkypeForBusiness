@@ -1,5 +1,5 @@
 ---
-title: Manage policy packages for your healthcare organization
+title: Teams policy packages for healthcare
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,14 +17,16 @@ f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
+description: Learn how to use and manage policy packages in Teams to simplify, streamline, and help provide consistency when managing policies for your healthcare organization.
 ---
 
-# Manage policy packages for your healthcare organization
+# Teams policy packages for healthcare
+
+## Overview
 
 A [policy package](business-voice/policy-packages.md) in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies.
 
-When you assign a policy package to a set of users, the policies in the package are created, and you can then customize the settings of the policies in the package to suite of the needs of that set of users. When you update settings in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell. 
+When you assign a policy package to a set of users, the policies in the package are created, and you can then customize the settings of the policies in the package to suite of the needs of that set of users. When you update settings in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
 Policy packages predefine policies for the following:
 
@@ -35,76 +37,45 @@ Policy packages predefine policies for the following:
 - Teams
 - App permissions
 
-Teams currently includes the following healthcare policy packages:
+Teams currently includes the following healthcare policy packages.
 
-|**Package name listed in the Microsoft Teams admin center**  |Best used for|**Description** |
+![Screenshot of Healthcare policy packages](media/policy-packages-healthcare.png)
+
+|**Package name in the Microsoft Teams admin center**  |Best used for|**Description** |
 |---------|---------|---------|
 |Healthcare clinical worker  |Clinical workers in your healthcare organization  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Patient room devices|Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
 
-Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to clinicians in your organization, a policy named Healthcare_ClinicalWorker is created for each policy in the package.
 
-![Screenshot of the Education (Teacher) policy package](media/policy-packages-education_teacher.png)
+![Screenshot of Healthcare policy packages](media/policy-packages-healthcare-clinical-worker.png)
 
-## How to use policy packages
+## Use policy packages
 
-The following outlines how to use policy packages in your organization.
+### View
 
-![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
+View the settings of each policy in a policy package before you assign a package. In the left navigation of the Microsoft Teams admin center, click **Policy packages**, and then click to the left of the package name.
 
-- **[View](#view-the-settings-of-a-policy-in-a-policy-package)**: View the settings of each policy in a policy package before you assign a package. Make sure that you understand each setting and then decide whether the predefined values are appropriate for your organization or whether you need to change them to be more restrictive or lenient based on your organization's needs.
+Decide whether the predefined values are appropriate for your organization or whether you need to customize them to be more restrictive or lenient based on your organization's needs.
 
-    If a policy is deleted, you can still view the settings but you won't be able to change any settings. A deleted policy is re-created with the predefined settings when you assign the policy package.
+### Assign
 
-- **[Assign](#assign-a-policy-package)**: Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package.  
+Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package. 
 
-- **[Customize](#customize-policies-in-a-policy-package)**: Customize the settings of policies in the policy package to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package.
+To assign a policy package to one or multiple users, click **Manage users**. You can also user PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
-Here are the steps for how to view, assign, and customize policy packages in the Microsoft Teams admin center.
+![Screenshot of Healthcare policy packages](media/policy-packages-healthcare-assign.png)
 
-### View the settings of a policy in a policy package
 
-1. In the left navigation of the Microsoft Teams admin center, click **Policy packages**, and then select a policy package by clicking to the left of the package name.
-2. Click the policy you want to view.
+If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
-### Assign a policy package
+### Customize
 
-#### Assign a policy package to one user
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. On the user's page, click **Policies**, and then next to **Policy package**, click **Edit**.
-3. In the **Assign policy package** pane, select the package you want to assign, and then click **Save**.
-
-#### Assign a policy package to multiple users
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
-2. Click **Manage users**.
-3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-4. When you're finished adding users, click **Save**.
-
-#### Assign a policy package to a large set (batch) of users
-
-Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
-
-A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
-
-### Customize policies in a policy package
-
-You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center.
-
-1. In the left navigation of the Microsoft Teams admin center, do one of the following:
-    - Click **Policy packages**, and then select the policy package by clicking to the left of the package name.
-    - Click the policy type.  For example, click **Messaging policies**.
-2. Click the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
-3. Make the changes that you want, and then click **Save**.
-
-## Troubleshooting
-
-**You receive an error when you assign a policy package**
-
-This may occur if one or more policies in the package weren't created or applied successfully. Reassign the policy package to your users. Retrying the operation typically fixes this issue.
+Customize the settings of policies in the policy package to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package. You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center. To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package).
 
 ## Related topics
 
-[Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
+[Manage policy packages in Teams](policy-packages-edu.md)
+
+[Assign policies to your users in Teams](assign-policies.md)]
