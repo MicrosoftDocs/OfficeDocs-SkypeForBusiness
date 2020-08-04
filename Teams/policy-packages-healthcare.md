@@ -17,7 +17,7 @@ f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Teams to simplify, streamline, and help provide consistency when managing policies for your healthcare organization.
+description: Learn how to use and manage Teams policy packages for your healthcare organization.
 ---
 
 # Teams policy packages for healthcare
