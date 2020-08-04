@@ -13,7 +13,6 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
