@@ -41,10 +41,10 @@ Teams currently includes the following policy packages for the Firstline Workfor
 
 ![Screenshot of Healthcare policy packages](media/policy-packages-flw.png)
 
-|**Package name in the Microsoft Teams admin center**  |Best used for|**Description** |
+|Package name in the Microsoft Teams admin center  |Best used for|Description |
 |---------|---------|---------|
-|Firstline manager |Creates a set of policies and applies those settings to Firstline Managers in your organization. |
-|Firstline worker |Creates a set of policies and applies those settings to Firstline Workers in your organization. |
+|Firstline manager |Firstline Managers in your organization|Creates a set of policies and applies those settings to Firstline Managers in your organization. |
+|Firstline worker |Firstline Workers in your organization|Creates a set of policies and applies those settings to Firstline Workers in your organization. |
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Firstline worker policy package to Firstline Workers in your organization, a policy named Firstline_Worker is created for each policy in the package.
 

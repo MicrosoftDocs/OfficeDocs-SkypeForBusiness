@@ -41,7 +41,7 @@ Teams currently includes the following healthcare policy packages.
 
 ![Screenshot of Healthcare policy packages](media/policy-packages-healthcare.png)
 
-|**Package name in the Microsoft Teams admin center**  |Best used for|**Description** |
+|Package name in the Microsoft Teams admin center|Best used for|Description |
 |---------|---------|---------|
 |Healthcare clinical worker  |Clinical workers in your healthcare organization  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
