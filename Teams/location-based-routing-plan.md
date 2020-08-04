@@ -30,7 +30,7 @@ Here you'll get an overview of Location-Based Routing and guidance to help you p
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
 > [!NOTE]
-> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High deployments.
+> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments.
 
 Location-Based Routing is a feature that lets you restrict toll bypass based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. Location-Based Routing is intended to provide a mechanism to prevent toll bypass. It shouldn't be used as a mechanism to dynamically route PSTN calls based on the location of the user or unintended consequences may result.
 
