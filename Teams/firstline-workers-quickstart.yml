@@ -105,48 +105,98 @@ items:
   durationInMinutes: 25
   content: |
 
-    If you haven't done so now, please complete the technical prerequisites highlighted at the beginning of this document [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial Pilot Team Efficient technical planning is the foundation of a great user experience. This will include creating the Team and inviting the identified Firstline Workers.
+    If you haven't done so now, please complete the technical prerequisites highlighted at the beginning of this document [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial Pilot team, efficient technical planning is the foundation of a great user experience. This will include creating the team and inviting the identified Firstline Workers.
 
     ### App Policy Configuration
-    Create a custom App Setup Policy based on the decisions in Step 2.
+    Create a custom app setup policy based on the decisions in Step 2.
 
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
-    1. In the left navigation of the Microsoft Teams admin center, go to **Teams Apps > Setup Policies**.
-    1. Select **New Policy** (There is a default FirstLineWorker policy you may choose to use instead of creating a custom policy).
-    1. Enter a descriptive name for the policy. Remove and re-arrange the pinned apps to match your desired state. Click **Add apps** to add any third party applications or custom line of business applications you would like to include.
+    1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps > Setup policies**.
+    1. Select **Add** (There is a default FirstLineWorker policy you may choose to use instead of creating a custom policy).
+    1. Enter a descriptive name for the policy. Remove and re-arrange the pinned apps to match your desired state. Click **Add apps** to add any third-party applications or custom line of business applications you would like to include.
 
-    ![A list of pinned apps.](media/firstline-worker-pinned-apps.png)
+      ![A list of pinned apps.](media/firstline-worker-pinned-apps.png)
 
     ### Messaging Policy Configuration
-    Create a custom Messaging policy based on the decisions in Step 2. If you are choosing to enable Priority Notifications, Voice messages, or the “Show favorite channels in chat” configuration, then you will need to set up a Firstline Worker specific messaging policy.
+    Create a custom messaging policy based on the decisions in Step 2. If you are choosing to enable priority notifications, voice messages, or the “Show favorite channels in chat” configuration, then you will need to set up a Firstline Worker specific messaging policy.
 
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
-    1. Select **New policy**.
+    1. Select **Add**.
     1. Enter a descriptive name for the policy and configure the settings as desired to meet the decisions in Step 2.
 
+    ### Policy Configuration Using Policy Packages
+    A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies.
+    When you assign a policy package to a set of users, the policies in the package are created, and you can then customize the settings of the policies in the package to suite of the needs of that set of users. When you update settings in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
+
+    Policy packages predefine policies for the following:
+    - Meetings
+    - Live events
+    - Calling
+    - Messaging
+    - Teams
+    - App permissions
+
+    Teams currently includes the following policy packages for the Firstline Workforce.
+
+    |Package name in the Microsoft Teams admin center  |Best used for|Description |
+    |---------|---------|---------|
+    |Firstline manager |Firstline Managers in your organization|Creates a set of policies and applies those settings to Firstline Managers in your organization. |
+    |Firstline worker |Firstline Workers in your organization|Creates a set of policies and applies those settings to Firstline Workers in your organization. |
+
+    ![Screenshot of Firstline Worker and Firstline Manager policy packages](media/policy-packages-flw.png)
+
+    Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Firstline worker policy package to Firstline Workers in your organization, a policy named Firstline_Worker is created for each policy in the package.
+
+    ![Screenshot of policies in the Firstline Worker package ](media/policy-packages-flw-firstline-worker.png)
+
+    #### View the policy settings in the policy package
+
+    View the settings of each policy in a policy package before you assign a package. In the left navigation of the Microsoft Teams admin center, click **Policy packages**, and then click to the left of the package name.
+    Decide whether the predefined values are appropriate for your organization or whether you need to customize them to be more restrictive or lenient based on your organization's needs.
+
+    #### Assign the policy package
+
+    Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
+    
+    ##### Using the Microsoft Teams admin center
+
+    1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
+    2. Select **Manage users**.
+        ![Screenshot of how to assign a policy package in the admin center](media/policy-packages-flw-assign.png)
+    3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each pilot user that you want to add (for up to 20 users).
+    4. When you're finished adding users, click **Apply**.
+
+    ##### Using PowerShell
+    
+    If you have a large volume of users to which you want to assign a policy, a more efficient option is to assign a policy package by using PowerShell. To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+
+    #### Customize the policy settings in the policy package
+
+    Customize the settings of policies in the policy package, as needed, to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package. You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center. To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package).
+
     ### Pilot Team Configuration
-    Configure the initial Team for the Pilot users identified in Step 2.
+    Configure the initial team for the Pilot users identified in Step 2.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Teams.
 
-    ![Teams menu selection.](media/firstline-worker-teams-bar.png)
+      ![Teams menu selection.](media/firstline-worker-teams-bar.png)
 
-    3. Select **New Team** from the Teams page.
+    3. Select **New team** from the Teams page.
 
-    ![Teams page.](media/firstline-worker-teams-page.png)
+      ![Teams page.](media/firstline-worker-teams-page.png)
 
-    4. Fill in the required fields, including Team name, description, and select an appropriate Team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several Teams. Select **Create Team**.
+    4. Fill in the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several Teams. Select **Create team**.
    
-    ![Teams Create a new Team menu.](media/firstline-worker-create-new-team.png)
+      ![Teams Create a new team menu.](media/firstline-worker-create-new-team.png)
 
     5. Select the team you created to open the **Team Details** page.
 
-    ![Teams detail page.](media/firstline-worker-team-details-page.png)
+      ![Teams detail page.](media/firstline-worker-team-details-page.png)
 
     6. Select **Channels** to view the current list of channels.
     7. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
-    ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
+      ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
 
     ### Decision Point
 
@@ -159,25 +209,25 @@ items:
     ![Channels tab contents are shown in Teams.](media/firstline-worker-channels-tab.png)
 
     ### User Configuration: Admin Console
-    Apply the App Setup Policy and Messaging Setting policy you created above to your Pilot users.
+    Apply the app setup policy and Messaging Setting policy you created above to your Pilot users.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Users.
 
-    ![Teams user menu selection.](media/firstline-worker-users-bar.png)
+      ![Teams user menu selection.](media/firstline-worker-users-bar.png)
 
     3. Search for the pilot users by name.
 
-    ![Teams user information page.](media/firstline-worker-users-page.png)
+      ![Teams user information page.](media/firstline-worker-users-page.png)
 
     4. Click on the user's Display Name to open their User Details screen.
     5. Select **Edit** next to Assigned policies.
 
-    ![Teams user details page.](media/firstline-worker-user-details-page.png)
+      ![Teams user details page.](media/firstline-worker-user-details-page.png)
 
     6. Click on the **Teams App Setup policy** drop down, select the policy created for your Pilot, and click Save.
     7. Click on the **Teams Messaging policy** drop down, select the policy created for your Pilot, and click Save.
 
-    ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
+      ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
 
     8. Repeat these steps for all pilot users.
 
@@ -202,16 +252,16 @@ items:
     Depending on the number of members in the group, this command may take several minutes to execute.
 
     #### Invite the Manager and FirstLine Workers
-    Now that the Team structure is in place and the user policies are applied, it’s time to start inviting your Firstline Workers.
+    Now that the team structure is in place and the user policies are applied, it’s time to start inviting your Firstline Workers.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Teams.
 
-    ![Teams menu selection.](media/firstline-worker-teams-bar.png)
+      ![Teams menu selection.](media/firstline-worker-teams-bar.png)
 
-    3. Search for the team created during the Pilot Team Configuration phase.
-    4. Select the team you created to open the Team details page.
+    3. Search for the team created during the Pilot team Configuration phase.
+    4. Select the team you created to open the team details page.
 
-    ![Teams details page.](media/firstline-worker-team-details-page.png)
+      ![Teams details page.](media/firstline-worker-team-details-page.png)
 
     5. Select **Add members**.
     6. Search for the pilot members' names and click **Save**.
@@ -240,7 +290,7 @@ items:
     Now that you’ve successfully completed your first pilot with an initial group of Firstline workers, it’s time to expand! It’s time to go back to Step 1 with one of the several expansion options below. We recommend working through this process as many times as needed to arrive at a solution, set of best practices, and training documentation for all of your Firstline Workers.
 
     -   Expand the number of teams
-        -   Instead of one location, can you do one region? Would you want one Team for the whole region or individual Teams for each location?
+        -   Instead of one location, can you do one region? Would you want one team for the whole region or individual Teams for each location?
     -   Expand the features provided.
        -   Was there a key feature that your Firstline Workers suggested I your feedback forms, like Shifts, that you didn’t include in your initial feature set?
 
