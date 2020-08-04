@@ -62,7 +62,8 @@
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Resource-specific consent](resource-specific-consent.md)
-### [Manage your custom apps](manage-your-custom-apps.md)
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Lists app for your organization in Teams](manage-lists-app.md)
@@ -808,6 +809,7 @@
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
+### [Advanced Communications](teams-add-on-licensing/advanced-communications.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
 

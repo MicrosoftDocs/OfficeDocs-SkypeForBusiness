@@ -99,7 +99,7 @@ The following table is an example of one configuration.
 To configure the base and subdomains, please follow the steps described below. In the example, we will configure a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
 
 > [!NOTE]
-> Use sbcX.customers.adatum.biz to enable voice in the carrier tenant.
+> Use sbcX.customers.adatum.biz to enable voice in the carrier tenant. sbcX can be any unique and valid alphanumeric hostname.
 
 ## Register a base domain name in the carrier tenant
 
