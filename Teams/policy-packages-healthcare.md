@@ -63,10 +63,9 @@ Decide whether the predefined values are appropriate for your organization or wh
 
 Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package. 
 
-To assign a policy package to one or multiple users, click **Manage users**. You can also user PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+To assign a policy package to one or multiple users, click **Manage users**. You can also use PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
 ![Screenshot of Healthcare policy packages](media/policy-packages-healthcare-assign.png)
-
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
@@ -78,4 +77,4 @@ Customize the settings of policies in the policy package to fit the needs of you
 
 [Manage policy packages in Teams](policy-packages-edu.md)
 
-[Assign policies to your users in Teams](assign-policies.md)]
+[Assign policies to your users in Teams](assign-policies.md)
