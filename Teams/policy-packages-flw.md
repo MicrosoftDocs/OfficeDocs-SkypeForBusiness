@@ -1,5 +1,5 @@
 ---
-title: Teams policy packages for healthcare
+title: Teams policy packages for Firstline Workers and Firstline Managers
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,10 +17,10 @@ f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage Teams policy packages for your healthcare organization.
+description: Learn how to use and manage Teams policy packages for Firstline Workers and Firstline Managers in your organization.
 ---
 
-# Teams policy packages for healthcare
+# Teams policy packages for Firstline Workers and Firstline Managers
 
 ## Overview
 
@@ -39,17 +39,16 @@ Policy packages predefine policies for the following:
 
 Teams currently includes the following healthcare policy packages.
 
-![Screenshot of Healthcare policy packages](media/policy-packages-healthcare.png)
+![Screenshot of Healthcare policy packages](media/policy-packages-flw.png)
 
 |**Package name in the Microsoft Teams admin center**  |Best used for|**Description** |
 |---------|---------|---------|
-|Healthcare clinical worker  |Clinical workers in your healthcare organization  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
-|Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-|Healthcare patient room  |Patient room devices|Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
+|Firstline manager |Creates a set of policies and applies those settings to Firstline Managers in your organization. |
+|Firstline worker |Creates a set of policies and applies those settings to Firstline Workers in your organization. |
 
-Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to clinicians in your organization, a policy named Healthcare_ClinicalWorker is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Firstline worker policy package to Firstline Workers in your organization, a policy named Firstline_Worker is created for each policy in the package.
 
-![Screenshot of Healthcare policy packages](media/policy-packages-healthcare-clinical-worker.png)
+![Screenshot of Healthcare policy packages](media/policy-packages-flw-firstline-worker.png)
 
 ## Use policy packages
 
@@ -65,7 +64,7 @@ Assign the policy package to users. Remember that policies in a policy package a
 
 To assign a policy package to one or multiple users, click **Manage users**. You can also use PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
-![Screenshot of Healthcare policy packages](media/policy-packages-healthcare-assign.png)
+![Screenshot of Healthcare policy packages](media/policy-packages-flw-assign.png)
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
