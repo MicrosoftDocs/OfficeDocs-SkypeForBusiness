@@ -37,7 +37,7 @@ Policy packages predefine policies for the following:
 - Teams
 - App permissions
 
-Teams currently includes the following healthcare policy packages.
+Teams currently includes the following policy packages for the Firstline Workforce.
 
 ![Screenshot of Healthcare policy packages](media/policy-packages-flw.png)
 
