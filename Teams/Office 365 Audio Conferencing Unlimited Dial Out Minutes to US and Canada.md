@@ -21,7 +21,7 @@ appliesto:
 
 # Office 365 Audio Conferencing Extended Dial Out Minutes to US and Canada
 
-For customers adopting our Audio Conferencing service and have a high business needs to dialing out to US and Canada, Microsoft now provides an add-on offer that allows virtually unlimited with fair use policy US and Canada dial-out minutes for any Audio Conferencing user. Meeting organizer with this add-on SKU can make virtually unlimited with fair use policy dial-out calls to US and Canada without deducting their tenant’s Zone A country dial-out usage pool or Communications Credits.
+For customers who are adopting our Audio Conferencing service and have a high business needs for dialing out to US and Canada, Microsoft now provides an add-on offer that allows virtually unlimited with fair use policy US and Canada dial-out minutes for any Audio Conferencing user. Meeting organizer with this add-on SKU can make virtually unlimited with fair use policy dial-out calls to US and Canada without deducting their tenant’s Zone A country dial-out usage pool or Communications Credits.
 
 |Offer Name | Unlimited dial out minutes to US Canada |
 |-----|------|
