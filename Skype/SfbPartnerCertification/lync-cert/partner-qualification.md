@@ -1,7 +1,7 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
-ms.author: v-mapenn
-author: mattpennathe3rd
+title: Solutions qualified with Lync Online Dedicated
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -18,9 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788951
-description: "Partner qualification requirements for Lync include Infrastructure,
-Services, Video Interoperability Program, and
-Compatible Devices Program."
+description: Partner qualification requirements for Lync include Infrastructure, Services, Video Interoperability Program, and Compatible Devices Program.
 ---
 
 
