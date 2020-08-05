@@ -660,7 +660,7 @@
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Teams policy packages for healthcare](policy-packages-healthcare.md)
+### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
 ### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
