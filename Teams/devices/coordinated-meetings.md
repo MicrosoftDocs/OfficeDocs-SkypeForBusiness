@@ -175,7 +175,12 @@ Do the following to prepare the XML for Windows Configuration Designer or Micros
 1. In a text file editor, such as Visual Studio Code or Notepad, paste the above XML into a new file
 2. Set each of the XML elements to the corresponding `true` or `false` value in your spreadsheet. For example, if **Audio default** is `true`, set `<Audio default="true">`.
 3. Be sure to change `TrustedAccounts` to your list of UPNs
-4. Windows Configuration Designer requires that the XML be on a single line. Remove all the line breaks between each line so that the XML looks like `<SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...`
+4. Windows Configuration Designer requires that the XML be on a single line. Remove all the line breaks between each line so that the XML looks like the following:
+
+    ```xml
+    <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
+    ```
+
 5. Save the file on your computer
 
 ### Use Windows Configuration Designer
