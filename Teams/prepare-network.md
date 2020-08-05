@@ -113,7 +113,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="odd">
 <td>Intrusion Detection and Prevention Guidance</td>
-<td>If your environment has an <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Microsoft 365 or Office 365 URLs.</td>
+<td>If your environment has an <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to allow all Microsoft 365 or Office 365 URLs.</td>
 </tr>
 <tr class="even">
 <td>Configure split-tunnel VPN</td>

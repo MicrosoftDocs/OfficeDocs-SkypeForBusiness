@@ -125,7 +125,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
 > [!NOTE]
-> Microsoft Teams meetings have a time limit of 24 hours. 
+> Microsoft Teams meetings have a time limit of 24 hours.
 
 ## Teams live events
 
@@ -141,13 +141,12 @@ For more information about live events and a comparison of Teams live events to 
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
-> 
+>
 > To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out:
+>
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
-
-
 
 ## Presence in Outlook
 
@@ -170,7 +169,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
-|File upload limit  (per file)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
