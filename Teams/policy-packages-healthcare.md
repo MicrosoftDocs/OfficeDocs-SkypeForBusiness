@@ -34,7 +34,7 @@ Policy packages pre-define policies for the following, depending on the package:
 - Calling
 - Messaging
 - Teams
-- App permissions
+- App setup
 
 Teams currently includes the following healthcare policy packages.
 
