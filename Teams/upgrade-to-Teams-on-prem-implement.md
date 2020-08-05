@@ -22,7 +22,7 @@ appliesto:
 
 # Upgrade from Skype for Business to Teams &mdash; for IT administrators
 
-## Perform the upgrade for your organization &mdash; for IT administrators
+## Implement your upgrade
 
 This section describes the following upgrade options:
 
