@@ -107,12 +107,10 @@ items:
 
     If you haven't done so now, please complete the technical prerequisites highlighted at the beginning of this document [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial Pilot team, efficient technical planning is the foundation of a great user experience. This will include creating the team and inviting the identified Firstline Workers.
 
-    You can configure and assign individual policies or assign a policy package, which is a collection of predefined policies and policy settings.
-
     ### Configure and assign an app setup policy and a messaging policy
 
     > [!NOTE]
-    > As an alternative to configuring and assigning individual policies, you can configure and assign a policy package to Firstline Workers and Firstline Managers. To learn more, see the "Configure and assign policy packages" section.
+    > As an alternative to configuring and assigning individual policies, you can configure and assign a policy package to Firstline Workers and Firstline Managers. To learn more, see the "Configure and assign policy packages" section later in this article.
 
     #### Configure an app setup policy
     Create a custom app setup policy based on the decisions in Step 2.
@@ -252,6 +250,7 @@ items:
 
     5. Select **Channels** to view the current list of channels.
     6. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
+    
       ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
 
     ### Decision Point
