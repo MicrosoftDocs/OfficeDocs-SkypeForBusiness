@@ -30,10 +30,10 @@ The following steps should be completed for each meeting room separately. Device
 
 ## Step 1: Plan your Coordinated Meeting experience
 
-Before you make any configuration changes, you need to decide which devices will do what in each meeting room. That is, for a given meeting room, you need to decide which device will have the active microphone, camera, and whiteboard. You don't need to choose a single device. For example, you could enable the microphone on a Teams Rooms device but enable the camera on your Surface Hub. How you configure your devices depends on your specific environment, but here are some general recommendations to start with:
+Before you make any configuration changes, you need to decide which devices will do what in each meeting room. That is, for a given meeting room, you need to decide which device will have the active microphone, camera, and whiteboard. How you configure your devices depends on your specific environment, but here are some general recommendations to start with:
 
 - **Microphone** Teams Rooms device
-- **Camera** Teams Rooms device and "allow users to activate" Surface Hub
+- **Camera** Teams Rooms device (on by default) and Surface Hub (off by default, but allowed to be turned on by participants)
 - **Whiteboard** Surface Hub
 
 > [!IMPORTANT]
