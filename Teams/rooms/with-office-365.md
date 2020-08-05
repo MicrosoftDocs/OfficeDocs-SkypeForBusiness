@@ -39,6 +39,9 @@ To enable Skype for Business, you must have the following:
 
 For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
+   > [!NOTE]
+   >  The Teams Room account will still need BasicAuth, so you have to create a separate AuthenticationPolicy where the Teams Room account can still use BasicAuth to login.
+
 ### Add a device account
 
 1. Connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
