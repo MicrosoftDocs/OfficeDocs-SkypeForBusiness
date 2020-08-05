@@ -60,7 +60,7 @@ Decide whether the predefined values are appropriate for your organization or wh
 
 Customize the settings of policies in the policy package, as needed, to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package. To edit the settings of a policy in a policy package, in the Microsoft Teams admin center, select the policy package, select the name of the policy you want to edit, and then select **Edit**.
 
-To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package). Keep in mind that you can also change the settings of policies after you assign the policy package.
+Keep in mind that you can also change the settings of policies in a package after you assign the policy package. To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package). 
 
 ### Assign
 
