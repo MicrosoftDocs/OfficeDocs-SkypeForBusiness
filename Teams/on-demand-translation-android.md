@@ -42,3 +42,6 @@ The following screenshot shows the sequencing of the translation.
 ## Set the on-demand translation option
 
 The admin sets the on-demand translation option by setting a message policy. By default, the option is on. 
+
+## Current supported languages
+
