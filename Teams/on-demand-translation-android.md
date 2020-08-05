@@ -45,3 +45,5 @@ The admin sets the on-demand translation option by setting a message policy. By 
 
 ## Current supported languages
 
+Related resource
+[Turn on inline message translation](inline-message-translation-teams.md)
