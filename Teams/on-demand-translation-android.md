@@ -1,7 +1,7 @@
 ---
 title: Mobile on-demand translation for Android
 ms.author: cichur
-author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: chashar
 ms.topic: conceptual
