@@ -1,5 +1,5 @@
 ---
-title: "Download and install the Skype for Business Online Connector module"
+title: Download and install the Skype for Business Online Connector module
 ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
@@ -18,8 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: "Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-"
+description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
 ---
 
 # Download and install the Skype for Business Online Connector module
