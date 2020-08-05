@@ -167,7 +167,7 @@ The following is the syntax of the Coordinated Meetings XML configuration file.
             <Video default="false" enabled="true" /> ​
         </Settings> ​
     </CoordinatedMeetings>​
-<SurfaceHubSettings>
+</SurfaceHubSettings>
 ```
 
 Do the following to prepare the XML for Windows Configuration Designer or Microsoft Intune:
