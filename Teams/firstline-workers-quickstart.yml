@@ -165,7 +165,7 @@ items:
 
     #### Assign the policy package
 
-    Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
+    Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
     
     ##### Using the Microsoft Teams admin center
 
