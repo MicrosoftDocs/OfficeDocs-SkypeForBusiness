@@ -109,7 +109,6 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  |300. <br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow.   |
 |Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
@@ -170,7 +169,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
-|File upload limit  (per file)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
