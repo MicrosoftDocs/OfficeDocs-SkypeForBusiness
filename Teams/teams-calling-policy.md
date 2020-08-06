@@ -1,6 +1,6 @@
 ---
 title: Calling policies in Microsoft Teams
-author: LolaJacobsen
+author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
 ms.topic: conceptual
