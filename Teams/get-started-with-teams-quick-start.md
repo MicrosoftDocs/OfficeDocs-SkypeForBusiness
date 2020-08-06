@@ -1,7 +1,7 @@
 ---
 title: Get started with Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
