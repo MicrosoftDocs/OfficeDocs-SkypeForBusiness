@@ -1,8 +1,8 @@
 ---
 title: Verify service health for Microsoft Teams
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
