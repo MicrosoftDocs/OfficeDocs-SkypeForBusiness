@@ -1,7 +1,7 @@
 ---
 title: Native chat experience for external (federated) users in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
