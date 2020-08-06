@@ -40,7 +40,7 @@ These are the links to the MSI files:
 > Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
 
 > [!NOTE]
-> If the customer tenant is on the GCCH or DoD clouds, the customer should set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connect to the correct cloud endpoint for pre-sign-in connectivity with Teams.  
+> If the customer tenant is on the GCCH or DoD clouds, the customer should set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams.  
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
