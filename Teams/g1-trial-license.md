@@ -1,7 +1,7 @@
 ---
 title: Manage the free Office 365 G1 Trial for US government
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: Admin

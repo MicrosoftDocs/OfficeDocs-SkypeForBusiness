@@ -1,7 +1,7 @@
 ---
 title: Get started with Teams templates using Microsoft Graph
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual

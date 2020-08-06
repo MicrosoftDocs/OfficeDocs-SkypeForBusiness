@@ -1,7 +1,7 @@
 ---
 title: Manage Teams transitioning to the new Teams admin center
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
