@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams scoped directory search
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 audience: Admin
