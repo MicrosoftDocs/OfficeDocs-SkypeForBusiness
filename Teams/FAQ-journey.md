@@ -41,7 +41,7 @@ Your organization's journey from Skype for Business to Teams can be defined by y
 
 
 **Is there a recommended upgrade path for Skype for Business?**
-We encourage you to plan the journey from Skype for Business to Teams leveraging the guidance and resources at [aka.ms/SkypetoTeams](aka.ms/SkypetoTeams) and attend a free [upgrade planning workshop](upgrade-workshops-landing-page.md) to identify and implement the upgrade path that best meets the needs of your organization.
+We encourage you to plan the journey from Skype for Business to Teams leveraging the guidance and resources at [aka.ms/SkypetoTeams](upgrade-start-here.md) and attend a free [upgrade planning workshop](upgrade-workshops-landing-page.yml) to identify and implement the upgrade path that best meets the needs of your organization.
 
 **Where can I learn more about coexistence modes in the Microsoft Teams admin center?**
 Within the Microsoft Teams admin center, you'll notice options for coexistence modes, enabling your organization to manage the Skype for Business to Teams journey that's right for your organization. Learn more about [coexistence and upgrade modes](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -49,7 +49,7 @@ Within the Microsoft Teams admin center, you'll notice options for coexistence m
 **Who can I contact if I have questions about the upgrade process?**
 For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by clicking the **Need help** button.
 
-![Need help button](need-help-button.png)
+![Need help button](media/need-help-button.png)
 
 
 **Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?**
