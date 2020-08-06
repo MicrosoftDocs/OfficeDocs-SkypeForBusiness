@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
 ms.reviewer: Kyle Blevins
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
