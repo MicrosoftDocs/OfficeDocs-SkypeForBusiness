@@ -1,7 +1,7 @@
 ---
 title: Get help in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams

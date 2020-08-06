@@ -52,7 +52,7 @@ This article describes configuration for Microsoft components. For information o
 Local Media Optimization is supported by the following SBC vendors:
 
 | Vendor | Product |	Software version |
-|:------------|:-------|:-------| :-------|
+|:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
 |            |	Mediant 800 SBC |	7.20A.256 |	
 |            |	Mediant 2600 SBC |	7.20A.256 |	
@@ -66,7 +66,9 @@ Local Media Optimization is supported by the following SBC vendors:
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 (build 239) |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
