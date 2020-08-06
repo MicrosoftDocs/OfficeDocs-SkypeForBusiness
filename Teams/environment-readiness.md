@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams | Environment Readiness | Adoption, Discovery
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin

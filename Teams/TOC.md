@@ -675,7 +675,7 @@
 ### [Assign policies to large sets of users](batch-group-policy-assignment-edu.md)
 ### [PowerShell script to create security groups for educators and students](scripts/powershell-script-security-groups-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
-### [Class Insights](class-insights.md)
+### [Get started with Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)

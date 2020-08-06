@@ -1,7 +1,7 @@
 ---
 title: Tools & workshops - Plan, deliver, & adopt Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
