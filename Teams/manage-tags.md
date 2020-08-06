@@ -21,6 +21,7 @@ description: Learn to manage how tags are used in your organization in Microsoft
 # Manage tags in Microsoft Teams
 
 ************************
+
 Tags in Microsoft Teams let users quickly connect with a subset of people. With tags, you can categorize people based on attributes, such as role, project, or location. After a tag is added to a team member, it can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
 
 There are two kinds of tags in Teams. Tags that you ma
