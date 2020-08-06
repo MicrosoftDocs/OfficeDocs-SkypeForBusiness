@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams administrator roles to manage Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article

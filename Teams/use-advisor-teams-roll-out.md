@@ -1,7 +1,7 @@
 ---
 title: Use Advisor for Teams (public preview) to help you roll out Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article

@@ -73,8 +73,15 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |NC 700 Headset                                             |6/8/2020        |Certified for Microsoft Teams|
-|Jabra              | Speak 750 speakerphone with Jabra Link 370 USB Dongle       | 5/21/2020 | Certified for Microsoft Teams|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certified for Skype for Business                        |
+|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Certified for Skype for Business                        |
+|Jabra                |Engage 75 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Engage 65 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Engage 50 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Avocor               |WCD- AVW-6555                                              |7/30/2020       |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 85 Headset                                         |7/17/2020       |Certified for Microsoft Teams                           |
+|Bose                 |NC 700 Headset                                             |6/8/2020        |Certified for Microsoft Teams                           |
+|Jabra                | Speak 750 speakerphone with Jabra Link 370 USB Dongle     | 5/21/2020       | Certified for Microsoft Teams                         |
 | EPOS                | Sennheiser Adapt 660 headset                              | 5/15/2020      | Certified for Microsoft Teams                          |
 | EPOS                | Sennheiser Adapt 560 Headset                              | 5/15/2020      | Certified for Microsoft Teams                          |
 | EPOS                | Sennheiser Adapt 460T headset                             | 5/15/2020      | Certified for Microsoft Teams                          |
