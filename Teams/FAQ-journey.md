@@ -47,21 +47,17 @@ A successful upgrade will include validating technical readiness in addition to 
 Microsoft also offers live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation. [Learn about upgrade planning workshops](https://aka.ms/SkypeToTeamsPlanning).
 
 
-
-**My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?**
+**My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?**<br>
 No, you'll want to switch users to Teams Only mode to complete the upgrade to Teams. If your organization is ready to upgrade to Teams, take time to communicate to users to let them know what's happening and allow them to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
 
 
-
-
-
-**Who can I contact if I have questions about the upgrade process?**
+**Who can I contact if I have questions about the upgrade process?**<br>
 For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by clicking the **Need help** button.
 
 ![Need help button](media/need-help-button.png)
 
 
-**Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?**
+**Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?**<br>
 You have the flexibility to upgrade users to Teams as it makes sense for you, whether it's individuals, groups of users, or your entire organization. To help understand the optimal approach for your organization, review the various [coexistence and upgrade modes](teams-and-skypeforbusiness-coexistence-and-interoperability.md) you can enable.
 
 
