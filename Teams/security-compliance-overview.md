@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 audience: admin
-description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
+description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -18,6 +18,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
   - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -152,7 +153,11 @@ Audit log search plugs right into the Microsoft 365 Compliance Center and gives 
 
 ## Privacy
 
-At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
+At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read:  
+
+- [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy)
+- [Our commitment to privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [For IT professionals: Privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## Information Protection Architecture
 
@@ -186,7 +191,7 @@ If you need to see which region houses data for your tenant, go to the [Microsof
 
 ## Compliance standards
 
-Teams uses the following standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 and SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech), and [EU Model Clauses (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
+Teams uses the following standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1 and SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), and [EU Model Clauses (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Microsoft Teams is also fully compliant with [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech) standards. Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
 
 Details can be found in the [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams also supports Cloud Security Alliance compliance.
 
