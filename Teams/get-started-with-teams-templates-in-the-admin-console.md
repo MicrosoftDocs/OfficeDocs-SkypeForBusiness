@@ -25,6 +25,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
+Templates are not yet supported for EDU customers.
+
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 
@@ -85,5 +87,5 @@ Once a base template type is defined, you can extend or override these special t
 ## Related topics
 
 - [Create a team template](create-a-team-template.md)
-- [Create a team from an existing team template](modify-existing-team-template.md)
+- [Create a team template from an existing team template](modify-existing-team-template.md)
 - [Create a template from an existing team](create-team-from-existing-team.md)
