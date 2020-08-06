@@ -1,7 +1,7 @@
 ---
 title: "Using the CQD PSTN Direct Routing report"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article

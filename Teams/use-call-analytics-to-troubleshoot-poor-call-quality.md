@@ -1,7 +1,7 @@
 ---
 title: "Use call analytics to troubleshoot poor call quality"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
