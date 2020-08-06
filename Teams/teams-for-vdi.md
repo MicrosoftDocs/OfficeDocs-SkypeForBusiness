@@ -49,7 +49,7 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure that you meet the minimum requirements.
   
-Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure that you meet both Citrix and Teams requirements for proper functionality.
+Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix and VMware. Review the information in this section to ensure that you meet the requirements for both the virtualization provider and Teams for proper functionality.
 
 ### Partners certified for Teams
 
@@ -58,6 +58,7 @@ The following partners have virtual desktop infrastructure solutions for Teams.
 |Partner|Partner solution|
 |----|---|
 |![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![The logo representing VMware](media/vm-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -66,6 +67,10 @@ Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provi
 You can download the latest version of Citrix Virtual Apps and Desktops at [the Citrix downloads site](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the [Citrix Workspace app (CWA)](https://www.citrix.com/downloads/workspace-app/) and Virtual Delivery Agent (VDA) by default. You don't need to install any additional components or plugins on CWA or the VDA.
 
 For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+
+### VMware Horizon Workspace and Desktop requirements
+
+VMware Horizon provides optimized AV support for Teams on VDI for improved productivity across virtual desktops. You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page.
 
 ## Install or update the Teams desktop app on VDI
 
