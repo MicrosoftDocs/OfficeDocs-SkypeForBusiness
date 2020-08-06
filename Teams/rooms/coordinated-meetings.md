@@ -143,12 +143,7 @@ To set up Coordinated Meetings on a device, do the following:
 
 ## Step 5: Configure Surface Hub
 
-You can either set up Coordinated Meetings on a Surface Hub using Windows Configuration Designer or Microsoft Intune in Microsoft Endpoint Manager. Knowledge of Windows Configuration Designer or Microsoft Intune is required to complete these steps. For more information about these options, see the following articles:
-
-- [Create a provisioning package for Windows 10](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-create-package)
-- [What is Microsoft Intune device management?](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
-
-Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file for Coordinated Meetings on Surface Hub.
+You can use Windows Configuration Designer to create a provisioning package that you can use to apply Coordinating Meetings settings to your Surface Hubs. You'll paste the XML file you created above into Windows Configuration Designer to create the provisioning package.
 
 ### Create Coordinated Meetings XML configuration file for Surface Hub
 
@@ -183,52 +178,4 @@ Do the following to prepare the XML for Windows Configuration Designer or Micros
 
 5. Save the file on your computer
 
-### Use Windows Configuration Designer
-
-You can use Windows Configuration Designer to create a provisioning package that you can use to apply Coordinating Meetings settings to your Surface Hubs. You'll paste the XML file you created above into Windows Configuration Designer to create the provisioning package.
-
-Do the following to create the provisioning package in Windows Configuration Designer:
-
-1. Install Windows Configuration Designer from the Windows Store on your local computer and open it
-2. Select **Provision Surface Hub devices** and then **Switch to advanced editor**
-3. On the next screen, expand **WindowsTeamSettings** > **Teams** and select **Configurations**
-4. In the field next to **Configurations** in the middle pane, paste the single line of XML you created above
-5. Select **Export** > **Provisioning package**
-6. Provide a name for the provisioning package in **Name** and select **Next** > **Next**
-7. Specify a location to save the provisioning package and select **Next**
-8. Select **Build** to create the provisioning package and then **Finish**
-
-Finally, after you've created the provisioning package, do the following to apply the provisioning package to your Surface Hub:
-
-1. Save the provisioning package you created above to a USB drive
-2. Insert the USB drive into your Surface Hub
-3. On your Surface Hub, open the Start menu, select **All apps**, and then select **Settings**
-4. Provide your admin username and password and then select **Yes**
-5. Select **Surface Hub**, **Device management**, **Add or remove a provisioning package**, and then **Add a package**
-6. Under **Select a package**, select **Add** next to your provisioning package, and then restart your Surface Hub
-
-### Use Windows Intune
-
-If your Surface Hubs are managed using Microsoft Intune in Microsoft Endpoint Management, you can use it to apply Coordinated Meetings settings to your Surface Hubs. You'll create a new configuration profile and then paste the XML file you created above into it.
-
-> [!IMPORTANT]
-> Your Surface Hubs need to be in a device group so that the Microsoft Intune can identify which devices to apply the configuration profile to. For information about how to create a device group, see [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
-
-Do the following to create a configuration profile to apply Coordinated Meetings configuration to your Surface Hubs:
-
-1. Sign in to Microsoft Endpoint Manager by visiting https://endpoint.microsoft.com/
-2. Navigate to **Devices** > **Configuration profiles** and select **Create profile**
-3. Under **Platform**, select **Windows 10 and later**
-4. Under **Profile**, select **Custom**, and then click **Create**
-5. On the **Basics** tab, in **Name**, provide a descriptive name for your configuration profile and select **Next**
-6. On the **Configuration settings** tab, select **Add**
-7. In the **Add row** pane, do the following:
-    1. Provide a descriptive name and, optionally, a description of the Coordinated Meetings setting you're adding
-    2. In **OMA-URI**, enter `./Vendor/MSFT/SurfaceHub/InBoxApps/Teams/Configurations`
-    3. In **Data type**, select **String (XML file)**
-    4. Open the file browser, select the XML file you created above, and **Open**
-8. Select **Add** and then **Next**
-9. On the **Assignments** tab, make sure **Assign to** is set to **Selected groups**
-10. Under **Selected groups**, select **Select groups to include** and choose the group that contains your Surface Hubs, and then select **Select**
-11. Select **Next**, **Next**
-12. On the **Review + create**, select **Create**
+After you've created your XML configuration file, use the steps in [Manage Microsoft Teams settings on Surface Hub](surface-hub-manage-config.md) to apply it to your Surface Hubs.
