@@ -3,8 +3,8 @@ title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
 description: Get started quickly with meetings and live events in Microsoft Teams.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.service: msteams
 audience: admin

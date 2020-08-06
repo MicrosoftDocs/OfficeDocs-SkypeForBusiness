@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT architecture and telephony solutions posters
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
