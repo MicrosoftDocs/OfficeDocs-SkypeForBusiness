@@ -20,7 +20,7 @@ appliesto:
 
 # Insights in Teams for Education for IT Admins
 
-With Insights in Microsoft Teams for Education, educators and leaders can access analytics data about digital engagement, assignment workload, grades, communications and more.
+With Insights in Microsoft Teams for Education, educators can access analytics data about digital engagement, assignment workload, grades, communication and more.
 
 Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
@@ -29,13 +29,11 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
 ## Permissions
 
-- Students are identified by their license and **do not have access to the Insights tab** (even if they are an owner of the team).
-- Educators are defined by faculty licenses. Educators must have a faculty license and be a class team owner to add and see the Insights tab. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
-- Leader’s basic definition is by faculty license. IT global admin is identified by its role. Leaders must have a faculty license and be given explicit permissions from the IT global admin to view the reports in the Insights app.
+Educators can add Insights to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights.
 
-We provide Insights in two forms:
-- Tabs - educators can add Insights to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights.
-- Personal app - leaders can add the Insights app as a personal app (appears on Teams left menu) by navigating to Apps in the Teams app bar and searching for Insights.
+- Students are identified by their license and **do not have access to the Insights tab** (even if they are an owner of the team).
+- Educators are defined by faculty licenses.
+- Educators must have a faculty license and be a class team owner to add and see the Insights tab. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
 
 ## Compliance
 
@@ -46,7 +44,7 @@ Insights has industry-leading compliance commitments, and is classified as a Tie
 
 ## Privacy
 
-The information collected and shown through Insights does meets more than 90 regulatory and industry standards, including GDPR and the Family Education Rights and Privacy Act (FERPA) for the security of students and children and other, similar, privacy-oriented regulations. It's important for ITAdmins to know that the information collected on a per-student basis is intended to be used in a class context only, to allow educators and leaders to determine class behavior. The information is collected for meaningful learning activities, such as class meetings attendance, posting messages, responding to classmates' posts, working on assignments, editing files, and more. We don't show information about private chat or a Teams login, as an example.
+The information collected and shown through Insights does meets more than 90 regulatory and industry standards, including GDPR and the Family Education Rights and Privacy Act (FERPA) for the security of students and children and other, similar, privacy-oriented regulations. It's important for ITAdmins to know that the information collected on a per-student basis is intended to be used in a class context only, to allow educators to determine class behavior. The information is collected for meaningful learning activities, such as class meetings attendance, posting messages, responding to classmates' posts, working on assignments, editing files, and more. We don't show information about private chat or a Teams login, as an example.
 
 Our goal is to help educators to understand engagement and shine a spotlight on student learning. While these class activities can be focussed down to actions at the student level, there is no positive or negative value assigned to these actions by Microsoft Teams, and there is no judgmental identification of individual students based on criteria. The information in  Insights informs an educator that, for example, a student has not been active in the tool during a certain period in time, or has completed all their assignments last week on-time. It remains the responsibility of the educator to interact with the student and that student's family or guardians to determine the underlying reason for any activity or inactivity detected.
 
