@@ -4,8 +4,8 @@ ms.reviewer:
 description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 audience: admin
 manager: serdars
 ms.service: msteams

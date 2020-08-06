@@ -1,7 +1,7 @@
 ---
 title: Set up the Common Area Phone license
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/13/2018
 ms.reviewer: kponnus
