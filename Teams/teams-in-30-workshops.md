@@ -1,7 +1,7 @@
 ---
 title: Teams in 30
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 
 ms.date: 7/1/19
