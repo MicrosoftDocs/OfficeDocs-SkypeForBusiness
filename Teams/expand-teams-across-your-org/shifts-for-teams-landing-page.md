@@ -1,6 +1,6 @@
 ---
 title: Shifts for Teams
-description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
+description: Use the list of links on this page to find the admin guidance for setting up and managing Shifts, or migrate from StaffHub to Shifts in Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -17,6 +17,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-jun2020
 ---
 
 # Shifts for Teams
