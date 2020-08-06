@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams for Healthcare organizations"
+title: Get started with Teams telehealth for Healthcare organizations
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,13 +16,15 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
-ms.custom: seo-marvel-apr2020
+description: Learn about health care features like Microsoft Teams telehealth, EHR integration, firstline worker system integration, and the Patients app.
+ms.custom: 
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 ---
 
 # Get started with Teams for Healthcare organizations
 
-Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
+Microsoft Teams offers a number of telemedicine features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
 
 - Care Coordination and collaboration
 - Secure Messaging
@@ -65,7 +67,7 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 - Being part of a single virtualized team that works and collaborates on Office documents
 - Having persistent conversations about different patients needing attention
 - Using channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources
-- Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
+- Using telehealth channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
 - Using the Patients app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system. The Patients app itself adds the following features to Microsoft Teams:
 
     - Ability to create multiple patient lists within a single channel.
@@ -82,7 +84,7 @@ The Patients app is built on the Teams extensibility platform and takes advantag
 
 ![Screen shot of the Patients app on desktop and mobile devices](../../media/ehr-2.png)
 
-See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
+See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details.
 
 ## Templates
 
