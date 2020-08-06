@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-Templates are not yet supported for EDU customers.
+**Custom templates are not yet supported for EDU customers.**
 
 Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
 
@@ -70,6 +70,6 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 
 ## Related articles
 
-- [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a template from an existing team ](create-team-from-existing-team.md)
+- [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a template from an existing team](create-template-from-existing-team.md)
 - [Create a team template](create-a-team-template.md)
