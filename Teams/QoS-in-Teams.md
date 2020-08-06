@@ -1,7 +1,7 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: article
 ms.service: msteams
