@@ -1,6 +1,6 @@
 ---
 title: Office 365 Government - DoD deployments
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article

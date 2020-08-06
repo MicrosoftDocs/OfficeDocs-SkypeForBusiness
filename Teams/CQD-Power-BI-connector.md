@@ -1,7 +1,7 @@
 ---
 title: "Install Power BI Connector to use CQD query templates"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article

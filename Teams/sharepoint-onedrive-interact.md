@@ -1,7 +1,7 @@
 ---
 title: How SharePoint Online and OneDrive for Business interact with Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

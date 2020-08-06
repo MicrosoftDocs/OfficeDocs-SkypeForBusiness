@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot connectivity issues with Teams client
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: troubleshooting
 ms.service: msteams
