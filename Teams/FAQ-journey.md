@@ -31,6 +31,7 @@ appliesto:
 > - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop) (53 minutes)
 > - [Administrator experience](https://aka.ms/teams-upgrade-admin) (24 minutes)
 
+## General questions
 
 **Is there a firm deadline by which customers need to move from Skype for Business Online to Teams?**
 Yes. [Skype for Business Online will be retired](skype-for-business-online-retirement.md) on July 31, 2021, at which point it will no longer be accessible or supported. We encourage Skype for Business Online customers to start using Teams and begin planning their upgrades now to allow ample time to complete upgrade prior to the retirement date.
@@ -46,6 +47,20 @@ We encourage you to plan the journey from Skype for Business to Teams leveraging
 **Where can I learn more about coexistence modes in the Microsoft Teams admin center?**
 Within the Microsoft Teams admin center, you'll notice options for coexistence modes, enabling your organization to manage the Skype for Business to Teams journey that's right for your organization. Learn more about [coexistence and upgrade modes](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
+## What should I do to prepare for my upgrade?
+A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn't quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey[(https://aka.ms/skypetoteams-home) today.
+
+Microsoft also offers live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation. [Learn about upgrade planning workshops](https://aka.ms/SkypeToTeamsPlanning).
+
+
+
+**My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?**
+No, you'll want to switch users to Teams Only mode to complete the upgrade to Teams. If your organization is ready to upgrade to Teams, take time to communicate to users to let them know what's happening and allow them to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
+
+
+
+
+
 **Who can I contact if I have questions about the upgrade process?**
 For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by clicking the **Need help** button.
 
@@ -56,12 +71,12 @@ For questions related to your upgrade, reach out to your current points of conta
 You have the flexibility to upgrade users to Teams as it makes sense for you, whether it's individuals, groups of users, or your entire organization. To help understand the optimal approach for your organization, review the various [coexistence and upgrade modes](teams-and-skypeforbusiness-coexistence-and-interoperability.md) you can enable.
 
 
-**What happens after my users are upgraded?**
-After your users are upgraded to Teams (**Teams Only** mode):
+**What happens after my users are upgraded?**<br>>
+After your users are upgraded to Teams (**Teams Only** mode)
 
-- Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app.
+Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app.
 
-- Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams. If users attempt to sign-in to Skype for Business, they'll get a notification from their client that they've been upgraded to Teams. Users will need to manually uninstall the Skype for Business client on their mobile device.
+Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams. If users attempt to sign-in to Skype for Business, they'll get a notification from their client that they've been upgraded to Teams. Users will need to manually uninstall the Skype for Business client on their mobile device.
 
 
 
