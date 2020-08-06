@@ -22,6 +22,17 @@ appliesto:
 
 # Upgrade from Skype for Business to Teams &mdash; for IT administrators
 
+This article describes tools for migrating to Teams. This article is the first of several that describe upgrade concepts and implementation for IT administrators.  
+
+- [Upgrade methods](upgrade-to-teams-upgrade-methods.md)
+- **Tools for managing your upgrade**   (This article)
+- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem.md)
+- [Implementing your upgrade](upgrade-to-teams-implement.md)
+- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-pstn-considerations.md)
+- [Coexistence of Teams and Skype for Business](upgrade-to-teams-coexistence.md)
+- [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+- [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 ## Tools for managing the upgrade
 
 Whichever upgrade method you choose, you manage the transition to TeamsOnly using [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), which controls a user’s coexistence mode. For more information on each of the modes, see [Coexistence modes](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes).
