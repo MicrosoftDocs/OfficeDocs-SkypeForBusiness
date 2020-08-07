@@ -35,7 +35,7 @@ For more information on communication compliance and how to configure policies f
 
 ## How to use communication compliance in Microsoft Teams
 
-Communication compliance and Microsoft Teams are tightly integrated and can help minimize communication risks in your organization. After you've configured your first communication compliance policies, you can actively manage inappropriate Microsoft Teams messages and content that are automatically flagged in alerts.
+Communication compliance and Microsoft Teams are tightly integrated and can help minimize communication risks in your organization. After you've configured your first communication compliance policies, you can actively manage inappropriate Microsoft Teams messages and content that is automatically flagged in alerts.
 
 ### Getting started
 
@@ -44,11 +44,11 @@ Getting started with communication compliance in Microsoft Teams begins with [pl
 Teams administrators can configure communication compliance policies at the following levels:
 
 - **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats.
-- **Teams level**: Policies at this level apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only. Private Teams channel messages aren’t supported.
+- **Teams level**: Policies at this level apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only. Private Teams channel messages aren't supported.
 
 ### Act on inappropriate messages in Microsoft Teams
 
-After youve configured your policies and have received communication compliance alerts for Microsoft Teams messages, it's time for compliance reviewers in your organization to take action on these messages. Reviewers can help safeguard your organization by reviewing communication compliance alerts and removing flagged messages from view in Microsoft Teams.
+After you have configured your policies and have received communication compliance alerts for Microsoft Teams messages, it's time for compliance reviewers in your organization to take action on these messages. Reviewers can help safeguard your organization by reviewing communication compliance alerts and removing flagged messages from view in Microsoft Teams.
 
 ![Remove a message in Teams](./media/communication-compliance-remove-teams-message.png)
 
