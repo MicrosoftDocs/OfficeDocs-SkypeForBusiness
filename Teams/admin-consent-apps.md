@@ -19,9 +19,16 @@ appliesto:
 
 *****************
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
-2. Search for the app you want, and then click the app name go to the app details page. 
-3. 
+[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
+
+As an admin you can review and accept the permissions that an app requires for all users in your organization. You would do this so users won’t have to review and accept the permissions for the app individually when they start the app.
+
+## Grant admin consent to apps at the org level
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. Search for the app you want, and then click the app name to go to the app details page.
+3. Click the **Permissions** tab.
+4. Under **Org-wide permissions**, 
 
 
 
