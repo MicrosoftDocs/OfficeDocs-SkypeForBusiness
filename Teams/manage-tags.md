@@ -47,7 +47,7 @@ A tag can be manually added or automatically assigned to a person on a specific 
 
 When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
 
-## Manage tags for your organization
+## Manage custom tags for your organization
 
 As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center.
 
