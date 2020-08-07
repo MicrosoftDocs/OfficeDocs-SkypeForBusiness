@@ -36,11 +36,11 @@ These are the links to the MSI files:
 |Federal Government - GCC High    | [32-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Federal Government - DoD     | [32-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
+**To ensure a successful deployment, be aware of the following:**
 
-> [!NOTE]
-> If the customer tenant is on the GCCH or DoD clouds, the customer should set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams.  
+- Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and currently you won't receive an error message.
+
+- If the customer tenant is on the GCCH or DoD clouds, the customer should set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams.  
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
@@ -49,10 +49,9 @@ value type = DWORD
 0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD
 ```
 
-Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
+- Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
 
-> [!Note]
-> To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## Deployment procedure (recommended)
 
