@@ -58,7 +58,7 @@ The following partners have virtual desktop infrastructure solutions for Teams.
 |Partner|Partner solution|
 |----|---|
 |![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
-|![The logo representing VMware](media/vm-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![The logo representing VMware](media/vmware.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### Citrix Virtual Apps and Desktops requirements
 
