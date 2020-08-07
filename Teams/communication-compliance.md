@@ -22,14 +22,14 @@ appliesto:
 
 Communication compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.
 
-For Microsoft Teams, communication compliance helps identify the following types of inappropriate content in Teams channels or in 1:1 and group chats:
+For Microsoft Teams, communication compliance helps identify the [following types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels or in 1:1 and group chats:
 
 - Offensive, profane, and harassing language
 - Adult, racy, and gory images
 - Sharing of sensitive information
 
 >[!IMPORTANT]
->Private Microsoft Teams channels are not supported by communication compliance.
+>Private Microsoft Teams channels are not supported by communication compliance. Chat communications sent by guest users to Teams users aren't monitored for inappropriate content.
 
 For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
@@ -43,8 +43,8 @@ Getting started with communication compliance in Microsoft Teams begins with [pl
 
 Teams administrators can configure communication compliance policies at the following levels:
 
-- **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats.
-- **Teams level**: Policies at this level apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only. Private Teams channel messages aren't supported.
+- **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
+- **Teams level**: Policies at this level apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only.
 
 ### Act on inappropriate messages in Microsoft Teams
 
@@ -52,4 +52,16 @@ After you have configured your policies and have received communication complian
 
 ![Remove a message in Teams](./media/communication-compliance-remove-teams-message.png)
 
-Removed messages and content are replaced with notifications for viewers explaining that the message or content has been removed and what policy is applicable to the removal. The sender of the removed message or content is also notified of the removal status and provided with original message content for context relating to its removal.
+Removed messages and content are replaced with notifications for viewers explaining that the message or content has been removed and what policy is applicable to the removal. The sender of the removed message or content is also notified of the removal status and provided with original message content for context relating to its removal. The sender can also view the specific policy condition that applies to the message removal.
+
+Example of policy tip seen by sender:
+
+![Policy tip for sender](./media/communication-compliance-warning-1.png)
+
+Example of policy condition notification seen by the sender:
+
+![Policy condition info for sender](./media/communication-compliance-warning-2.png)
+
+Example of policy tip seen by recipient:
+
+![Policy tip for recipient](./media/communication-compliance-warning-3.png)
