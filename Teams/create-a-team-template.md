@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-Templates are not yet supported for EDU customers.
+**Custom templates are not yet supported for EDU customers.**
 
 A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
@@ -63,6 +63,6 @@ Your new template is displayed in the **Team templates** list. The template can 
 
 ## Related topics
 
-- [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team template from an existing team ](create-team-from-existing-team.md)
-- [Create a team from an existing team template](modify-existing-team-template.md)
+- [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a template from an existing team](create-template-from-existing-team.md)
+- [Create a team template from an existing team template](create-template-from-existing-template.md)
