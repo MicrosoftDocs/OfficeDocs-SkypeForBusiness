@@ -142,13 +142,13 @@ items:
 
       ![Teams user information page.](media/firstline-worker-users-page.png)
 
-    3. Click on the user's Display Name to open their User Details screen.
-    4. Select **Edit** next to Assigned policies.
+    3. Click the user's display name to open the user details page.
+    4. Select the **Policies** tab, and then next to **Assigned policies**, select **Edit**.
 
       ![Teams user details page.](media/firstline-worker-user-details-page.png)
 
-    5. Click on the **Teams App Setup policy** drop down, select the policy created for your Pilot, and click Save.
-    6. Click on the **Teams Messaging policy** drop down, select the policy created for your Pilot, and click Save.
+    5. Under **App setup policy**, select the policy created for your Pilot, and then click **Apply**.
+    6. Under **Messaging policy**, select the policy created for your Pilot, and then click **Apply**.
 
       ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
 
