@@ -794,7 +794,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **openPhotoLibrary** - Select a photo library.
 - **openQuietDays** - Navigate to Quiet Days page.
 - **openQuietHours** - Navigate to Quiet Hours Page.
-- **openReactionHoverBubble** - Press the **Add reaction** button on reaction summary page.
+- **openReactionHoverBubble** - Press the **Add reaction** button on the reaction summary page.
 - **openReactionSummary** - Invoke reaction summary drawer.
 - **openSettingsSetUpInstructions** - Open **Settings** from instructions.
 - **openShiftsClicked** - How many people tap the **Calendar** icon.
