@@ -20,48 +20,44 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-************************
-
-Tags in Microsoft Teams let users quickly connect with a subset of people. With tags, you can categorize people based on attributes, such as role, project, or location. After a tag is added to a team member, it can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
-
-There are two kinds of tags in Teams. Tags that you ma
-
-- 
-- **Tagging by shift**: With t
-
-
 > [!NOTE]
-> Tags are not yet supported in private channels. Tags are not yet available in US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
+> On of the features discussed in this article, tagging by shift, hasn't yet been released. It's been announced, and it's coming soon. If you're an admin, you can find out when this feature will be released in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
-************************
+## Overview
 
-Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be added to one or multiple team members to easily connect with the right subset of people. Team owners and members (if the feature is enabled for them) can add one or more tags to a person. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
+Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (coming soon). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
+
+As we mentioned earlier, there are two kinds of tags in Teams.
+
+- **Custom tags**: Team owners and team members (if the feature is enabled for them) can manually create and assign tags to people. For example, a "Designer", "Manager", or "Radiologist" tag will reach those sets of people on a team without having to type every single name.
+- **Tagging by shift** (coming soon): With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) in Teams. For example, the "Engineer On Call" tag reaches the engineers who are scheduled in Shifts to work at that specific time. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams. 
 
 > [!NOTE]
 > Tags are not yet supported in private channels. Tags are not yet available in US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
 
 ## How tags work
 
-A tag can be added to a person on a specific team. After a tag is added, it can be used in @mentions in a chat or in any standard channel of the team. Here's some examples of how tags can be used in Teams:
+A tag can be manually added or automatically assigned to a person on a specific team. It can then be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team. Here's some examples of how tags can be used in Teams:
 
-- A store manager wants to post an announcement to a channel and notify all cashiers.
-- A group product manager wants to message all product managers in a channel.
-- A hospital administrator wants to send a message to all radiologists in a channel.
-- A marketing manager wants to start a group chat with all designers.
+- A store manager posts an announcement to a channel to notify all cashiers.
+- A hospital administrator sends a message to all radiologists in a channel.
+- A marketing manager starts a group chat with all designers.
+- A nurse sends a message to all on-call cardiologists. (coming soon)
+- A system engineer posts an announcement to a channel to notify all on-shift field engineers. (coming soon)
 
-When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
-
-To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
+When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention. To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 ## Manage tags for your organization
 
-As an admin, you can control who can add tags and how tags are used across your organization in the Microsoft Teams admin center.
+As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center.
 
 ![Screenshot of tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
 
 A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user. 
 
-### Set who can add tags
+### Custom tags
+
+#### Set who can add tags
 
 By default, team owners can add tags. You can change this setting to allow team owners and team members to add tags or you can turn off tags for your organization.
 
@@ -72,9 +68,9 @@ By default, team owners can add tags. You can change this setting to allow team 
     - **Team owners**: Allow team owners to add tags.
     - **Disabled**: Turn off tags.
 
-### Configure tags settings
+#### Configure tags settings
 
-You can configure the following tags settings to control how tags are used across your organization.
+You can configure the following tags settings to control how custom tags are used across your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Tagging**, set the following, depending on the needs of your organization.
@@ -85,13 +81,17 @@ You can configure the following tags settings to control how tags are used acros
 
 ## Manage tags settings for a team
 
+### Custom tags
+
 If you turned on the **Team owner can override who can apply tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
 ![Screenshot of the tags setting at the team level](media/manage-tags-team-settings.png)
 
 ## Use tags
 
-### Add tags
+### Custom tags
+
+#### Add tags
 
 To create and assign tags, select **Teams** on the left side of the app, and then find your team in the list. Select **More options**, and then choose **Manage tags**.
 
@@ -99,10 +99,16 @@ Here, you can create tags and assign them to people on your team.
 
 ![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
 
-### Delete tags
+#### Delete tags
 
 Remove all team members associated with the tag and the tag will be deleted.
+
+### Tagging by shift
+
+
 
 ## Related topics
 
 [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
+
+[Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
