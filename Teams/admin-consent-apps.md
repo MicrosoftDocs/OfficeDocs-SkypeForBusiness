@@ -23,16 +23,19 @@ appliesto:
 
 As an admin you can review and accept the permissions that an app requires for all users in your organization. You would do this so users won’t have to review and accept the permissions for the app individually when they start the app.
 
+Any app that has Azure AD permissions are listed in the Permissions column on the Manage apps page. This is for third-party app registered in Azure AD that requests permissions. 
+
 ## Grant admin consent to apps at the org level
+
+You have to be a global admin to grant org-level permissions. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Search for the app you want, and then click the app name to go to the app details page.
-3. Click the **Permissions** tab.
-4. Under **Org-wide permissions**, 
+3. Click the **Permissions** tab, and then in the **Permissions** column, select **View details**.
+4. Under **Org-wide permissions**, select **Review permissions and consent**. 
+Select **Azure Active Directory** to go to the app page in the Azure AD portal to view more information about the permissions. Review the permissions listed on the page. 
 
-
-
-
+RSC permissions are defined in the manifest (not in Azure AD)
 
 
 *****************
