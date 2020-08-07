@@ -62,11 +62,12 @@ You have the flexibility to upgrade users to Teams as it makes sense for you, wh
 
 
 **What happens after my users are upgraded?**<br>
-After your users are upgraded to Teams (**Teams Only** mode)
 
-Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app.
+After your users are upgraded to Teams (**Teams Only** mode):
 
-Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams. If users attempt to sign-in to Skype for Business, they'll get a notification from their client that they've been upgraded to Teams. Users will need to manually uninstall the Skype for Business client on their mobile device.
+- Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app.
+
+- Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams. If users attempt to sign-in to Skype for Business, they'll get a notification from their client that they've been upgraded to Teams. Users will need to manually uninstall the Skype for Business client on their mobile device.
 
 
 
