@@ -1,7 +1,7 @@
 ---
 title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -165,10 +165,10 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First User Agent  | String  | User agent string of the first endpoint. <br/> **Example value:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull; No user agent reported by first endpoint   |
 | Second User Agent  | String  | User agent string of the second endpoint. <br/> **Example value:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull; No user agent was reported by second endpoint   |
 | Conference Type  | Enumeration <br/>**Possible values:** <br/>&bull; conf:applicationsharing <br/>&bull; conf:audio-video <br/>&bull; conf:focus | Type of conference URI.  <br/> **Example value:** conf:audio-video | &bull; Non-conference scenario.   |
-| Conference ID  | String | Conference ID (or Call ID) associated with the streams. In cqd.teams.microsoft.com, all calls have a call ID regardless of whether they are a person-to-person (P2P) call or a conference call. In cqd.lync.com, this value is only available for Skype for Business conference calls.  This dimension may have too many rows to be used as dimension in a report. It can be used a filter instead.  <br/> **Example value (cqd.lync.com):** 0001P6GK <br/> **Example value (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| Conference ID  | String | Conference ID (or Call ID) associated with the streams. In cqd.teams.microsoft.com, all calls have a call ID regardless of whether they are a person-to-person (P2P) call or a conference call. This dimension may have too many rows to be used as dimension in a report. It can be used a filter instead.   <br/> **Example value (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported.   |
 | Second Client App Version  | String  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported. |
-|Meeting Id (in cqd.teams.microsoft.com) <br/> Conference ID (in cqd.lync.com) |String |The identifier for the meeting, generated when the meeting was created. <br/> **Example value (Skype for Business):** 0001P6GK  <br/> **Example value (Teams):** 19:meeting_MzB...zIw@thread.v2| |
+|Meeting Id |String |The identifier for the meeting, generated when the meeting was created.  <br/> **Example value:** 19:meeting_MzB...zIw@thread.v2| |
 |**Network**||| 
 | Transport  | Enumeration <br/>**Possible values:** <br/>&bull; UDP <br/>&bull; TCP <br/>&bull; Unrecognized  | Network transport type used by stream.  Unrecognized indicates that the system could not determine if the transport type was TCP or UDP.  | &bull; Transport type was not reported <br/>&bull; The media path was not established  |
 | First Connectivity Ice  | Enumeration <br/>**Possible values:** <br/>&bull; DIRECT= Direct network path <br/>&bull; RELAY = through relay <br/>&bull; HTTP = through HTTP proxy <br/>&bull; FAILED = connectivity failed | ICE connectivity type used by the first endpoint.  |&bull; Transport type was not reported <br/>&bull; The media path was not established   |

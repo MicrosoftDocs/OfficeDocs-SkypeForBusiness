@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Government - GCC High deployments
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article

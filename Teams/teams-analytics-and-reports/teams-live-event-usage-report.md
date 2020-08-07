@@ -41,6 +41,9 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 |**4**   |The table gives you a breakdown of each live event. <ul><li>**Event** is the display name of the live event. Click the the event name to [get more details](#view-event-details) about the event. </li> <li>**Start Time** refers to the start date and time of the event.</li> <li>**Event Status** shows whether the event has taken place.  </li><li>**Organizer** is the name of the event organizer.</li> <li>**Presenters** are the names of the  event presenters.</li><li>**Producers** are the names of the event producers.</li><li>**Views** is the number of unique views.</li><li>**Recording** shows whether the recording setting is on or off.</li><li>**Production Type** shows whether the event is produced in Teams or by an external application or device.</li></li> </ul>Note that if a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**5**   |Select **Edit columns** to add or remove columns in the table.|
 
+## Notes
+Showing up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size.
+
 ## View event details
 
 The live event details page gives you a summary of the details of a live event and lists all the files, including transcripts and recordings, associated with the event. Click a file name to view or download the file.

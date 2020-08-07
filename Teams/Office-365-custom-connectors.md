@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft 365 and custom connectors
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
