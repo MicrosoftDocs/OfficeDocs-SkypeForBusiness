@@ -46,7 +46,7 @@ These are the links to the MSI files:
     HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
     Value = CloudType
     value type = DWORD
-      0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD
+    0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD
     ```
 - Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
 
