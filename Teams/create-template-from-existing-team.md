@@ -23,6 +23,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
+**Custom templates are not yet supported for EDU customers.**
+
 Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
 
 1. Log in to the admin center.
@@ -59,6 +61,6 @@ Your new template is displayed in the **Team templates** list. The template can 
 
 ## Related articles
 
-- [Get started with teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team from an existing team template](modify-existing-team-template.md)
+- [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a template from an existing team template](create-template-from-existing-template.md)
 - [Create a team template](create-a-team-template.md)
