@@ -27,7 +27,7 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (coming soon). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
 
-As we mentioned earlier, there are two kinds of tags in Teams.
+As mentioned earlier, there are two kinds of tags in Teams.
 
 - **Custom tags**: Team owners and team members (if the feature is enabled for them) can manually create and assign tags to people. For example, a "Designer" or "Radiologist" tag will reach those sets of people on a team without having to type their names.
 - **Tagging by shift** (coming soon): With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) in Teams. For example, the "EngineerOnCall" tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams.
@@ -55,11 +55,9 @@ As an admin, you can control how tags are used across your organization in the M
 
 A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user. 
 
-### Custom tags
+### Set who can add custom tags
 
-#### Set who can add tags
-
-By default, team owners can add tags. You can change this setting to allow team owners and team members to add tags or you can turn off tags for your organization.
+By default, team owners can add custom tags. You can change this setting to allow team owners and team members to add tags or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Tagging**, next to **Tagging is enabled for**, select one of the following options:
@@ -68,7 +66,7 @@ By default, team owners can add tags. You can change this setting to allow team 
     - **Team owners**: Allow team owners to add tags.
     - **Disabled**: Turn off tags.
 
-#### Configure tags settings
+### Configure custom tags settings
 
 You can configure the following tags settings to control how custom tags are used across your organization.
 
@@ -79,9 +77,7 @@ You can configure the following tags settings to control how custom tags are use
     - **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
     - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
-## Manage tags settings for a team
-
-### Custom tags
+## Manage custom tags settings for a team
 
 If you turned on the **Team owner can override who can apply tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
@@ -91,23 +87,19 @@ If you turned on the **Team owner can override who can apply tags** setting in t
 
 Here's how to add custom tags and how to set up tagging by shift (if you're using the Shifts app in Teams). To learn more, check out [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
-### Custom tags
+### Create and assign custom tags
 
-#### Add tags
-
-To create and assign tags, select **Teams** on the left side of the app, and then find your team in the list. Select **More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
+To create and assign custom tags, select **Teams** on the left side of the app, and then find your team in the list. Select **More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
 
 ![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
 
-#### Delete tags
+To delete a tag, remove all team members associated with the tag.
 
-Remove all team members associated with the tag and the tag will be deleted.
-
-### Tagging by shift (coming soon)
+### Set up tagging by shift (coming soon)
 
 1. In Teams, go to the Shifts app.
 2. Create [shift groups](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) and name them by attribute such as role. For example, EngineerOnCall. The shift group name will be the name of the tag.
-3. [Fill out a schedule](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup)by assigning shifts to members of you teams. When you're finished, in the upper-right corner of the Shifts app, select **Share with team**.
+3. [Fill out a schedule](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) by assigning shifts to members of you teams. When you're finished, in the upper-right corner of the Shifts app, select **Share with team**.
 4. Wait 15 minutes for the scheduled shifts to populate the tagging service.
 5. Use the tag anywhere you use tags in Teams.
 
