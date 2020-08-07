@@ -146,7 +146,7 @@
 ### Deploy
 #### [Deployment overview](rooms/rooms-deploy.md)
 #### [Configure accounts](rooms/rooms-configure-accounts.md)
-#### [Surface Hub]
+#### Surface Hub
 ##### [Set up Coordinated Meetings](rooms/coordinated-meetings.md)
 ##### [Manage Microsoft Teams settings](rooms/surface-hub-manage-config.md)
 #### [With Office 365](rooms/with-office-365.md)
