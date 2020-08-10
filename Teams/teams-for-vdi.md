@@ -26,7 +26,7 @@ This article describes the requirements and limitations for using Microsoft Team
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Citrix platform, calling and meeting functionality also are supported.
+Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Windows Virtual Desktop or Citrix platforms, calling and meeting functionality also are supported.
 
 Teams in a virtualized environment supports multiple configurations. These include VDI, dedicated, shared, persistent, and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
 
@@ -49,16 +49,21 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure that you meet the minimum requirements.
   
-Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix and VMware. Review the information in this section to ensure that you meet the requirements for both the virtualization provider and Teams for proper functionality.
+Currently, Teams on VDI with audio/video (AV) optimization is certified with Windows Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
 
-### Partners certified for Teams
+### Platforms certified for Teams
 
-The following partners have virtual desktop infrastructure solutions for Teams.
+The following platforms have virtual desktop infrastructure solutions for Teams.
 
-|Partner|Partner solution|
+|Platform|Solution|
 |----|---|
+|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
 |![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![The logo representing VMware](media/vmware.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+
+### Windows Virtual Desktop
+
+Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -360,19 +365,19 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 ### Calling and meetings
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
-- Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
 - Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience.
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Outgoing screen sharing:
-    - Screen sharing from chat is not supported.
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
-- When screen sharing in a multi-monitor setup, only the main monitor is shared.
-- High DPI scaling on CWA is not supported.
+- Citrix-only limitations
+    - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
+    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
+    - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](Known-issues.md).
 
