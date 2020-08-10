@@ -58,8 +58,8 @@ The following platforms have virtual desktop infrastructure solutions for Teams.
 |Platform|Solution|
 |----|---|
 |![The logo representing Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
-|![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
-|![The logo representing VMware](media/vmware.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![The logo representing Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![The logo representing VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### Windows Virtual Desktop
 
