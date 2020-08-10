@@ -197,24 +197,12 @@ There are a variety of virtualized setup configurations, each with a different f
 
 ## Teams on VDI with calling and meetings
 
-In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation. The following diagram provides an overview of the architecture.
+In addition to chat and collaboration, Teams on VDI with calling and meetings is available with supported virtualization provider platforms. Supported features are based on the WebRTC media stack and virtualization provider implementation. The following diagram provides an overview of the architecture.
 
 ![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
 
-These calling and meeting features are not supported:
-
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
-- Background blur and effects
-- Broadcast/live events
-- Location-Based Routing (LBR)
-- Call park
-- Call queue
-
 > [!IMPORTANT]
-> If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set Citrix policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
-
-We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+> If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set virtualization provider policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, contact your virtualization provider.
 
 ### Network requirements
 
@@ -243,7 +231,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. This feature level doesn't require Citrix Virtual Apps and Desktops.
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
 
 ### Set policies to turn off calling and meeting functionality
 
@@ -365,8 +353,22 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 ### Calling and meetings
 
+The following calling and meeting features are not supported:
+
+- Enhanced emergency services
+- HID buttons and LED controls between the Teams app and devices
+- Background blur and effects
+- Broadcast/live events
+- Location-Based Routing (LBR)
+- Call park
+- Call queue
+
+> [!NOTE]
+> We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+
+The following are known issues and limitations for calling and meetings:
+
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
-- Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience.
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
