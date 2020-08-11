@@ -57,7 +57,7 @@ Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object Tea
 
 ### Use the New-CsBatchPolicyAssignmentOperation cmdlet
 
-With [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users), The maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit more than a few batches at a time. Allow batches to complete processing before submitting more batches. 
+With [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users), the maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit more than a few batches at a time. Allow batches to complete processing before submitting more batches. 
 
 Run the following commands to remove the RestrictedAnonymousAccess meeting policy from a batch of users.
 
