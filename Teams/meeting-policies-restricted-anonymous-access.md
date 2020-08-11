@@ -39,12 +39,12 @@ Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object Tea
 
 In this example, the following output is returned, which shows that two users are assigned the RestrictedAnonymousAccess meeting policy.
 
-```
-|Count |Name  |Group  |
-|--------:|---------|---------|
-|233    | Education_HigherEducationStudent      | {@{ObjectId=755e0d21-0737-4219-b68a-23423497f61f; TeamsMeetingPolicy=Education_HigherEducationStudent...        |
-|20     |         |{@{ObjectId=e27fdfb5-bb38-4032-bb33-8e8bdf086eff; TeamsMeetingPolicy=}, @{ObjectId=91c330...         |
-|2     | RestrictedAnonymousAccess        |{@{ObjectId=38b35ebf-cc8b-4b61-a2db-f6e67c3f614b; TeamsMeetingPolicy=RestrictedAnonymousAccess...         |
+```console
+Count  Name                               Group
+------ ----------                         ---------
+233    Education_HigherEducationStudent   {@{ObjectId=755e0d21-0737-4219-b68a-23423497f61f; TeamsMeetingPolicy=Education_HigherEducationStudent...
+20                                        {@{ObjectId=e27fdfb5-bb38-4032-bb33-8e8bdf086eff; TeamsMeetingPolicy=}, @{ObjectId=91c330...
+2      RestrictedAnonymousAccess          {@{ObjectId=38b35ebf-cc8b-4b61-a2db-f6e67c3f614b; TeamsMeetingPolicy=RestrictedAnonymousAccess...
 ```
 
 ## Unassign the RestrictedAnonymous meeting policy from users
