@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: cebulnes
+ms.reviewer: cebulnes, anyada
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
