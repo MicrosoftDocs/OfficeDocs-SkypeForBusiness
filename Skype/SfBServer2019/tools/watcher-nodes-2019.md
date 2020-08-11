@@ -14,4 +14,4 @@ ms.collection: IT_Skype16
 description: "Summary: Install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-[!INCLUDE [Back up Response Group Service (RGS) data](../backup-rgs-data.md)]
+[!INCLUDE [Manage Skype for Business Server 2019 using SCOM Management pack](scom-management-pack-use-2019.md)]
