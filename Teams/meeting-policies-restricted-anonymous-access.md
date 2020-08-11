@@ -21,15 +21,15 @@ description: Learn how to remove the RestrictedAnonymousAccess Teams meeting pol
 
 [Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. 
 
-Teams includes a built-in policy named RestrictedAnonymousAccess, which includes pre-defined settings that include restricting anonymous users from starting a meeting. (Anonymous users are users who haven't been authenticated.) The predefined settings in the RestrictedAnonymousAccess meeting policy can't be edited or changed by admins. This article shows you how to remove the RestrictedAnonymousAccess meeting policy from users who are assigned this policy.
+Teams includes a built-in policy named RestrictedAnonymousAccess, which contains pre-defined settings that include restricting anonymous users from starting a meeting. (Anonymous users are users who haven't been authenticated.) These predefined settings in the meeting policy can't be edited or changed by admins. 
 
-For example, you may want to do this if...???
+This article shows you how to remove the RestrictedAnonymousAccess meeting policy from users who are assigned this policy. For example, you may want to do this if...???
 
 ## Before you start
 
-Install and connect to the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) and the [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366). 
+Install and connect to the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) and the [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md). 
 
-For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md). To learn more about how to manage Teams using PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
+To learn more about how to manage Teams using PowerShell, see [Teams PowerShell overview](teams-powershell-overview.md).
 
 ## Get the Teams meeting policy assignments for your organization
 
