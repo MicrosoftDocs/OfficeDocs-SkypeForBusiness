@@ -56,7 +56,7 @@ To remove the the RestrictedAnonymous meeting policy from users, you can use the
 Run the following to remove the RestrictedAnonymous meeting policy from users.
 
 ```powershell
-Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
+Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
 ```
 
 ### Use the New-CsBatchPolicyAssignmentOperation cmdlet
