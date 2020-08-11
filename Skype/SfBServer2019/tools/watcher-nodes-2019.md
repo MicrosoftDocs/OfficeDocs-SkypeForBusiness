@@ -14,4 +14,4 @@ ms.collection: IT_Skype16
 description: "Summary: Install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-[!INCLUDE [Manage Skype for Business Server 2019 using SCOM Management pack](scom-management-pack-use-2019.md)]
+[!INCLUDE [manage-policy-packages](../../../Teams/manage-policy-packages.md)]
