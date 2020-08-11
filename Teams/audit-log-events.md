@@ -185,6 +185,11 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
+
+## Attribution in Teams audit logs
+
+Currently, there is a known issue with attribution in Teams audit logs and control messages: an owner may be incorrectly attributed with the removal or addition of users. This happens when the change occurs outside of Teams. In these cases, we recommend using the [Office 365 audit logs](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+
 ## Related topics
 
 - [Search the audit log in the Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
