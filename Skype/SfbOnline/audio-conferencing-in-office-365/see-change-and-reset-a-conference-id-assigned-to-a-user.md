@@ -98,7 +98,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
 - The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
 
-- The conference ID for all of your audio conferencing users will be 7 digits by default, and the number of digits can't be changed.
+- The conference ID for all of your audio conferencing users will be 9 digits by default, and the number of digits can't be changed.
 
 
 ## Want to know how to manage with Windows PowerShell?
