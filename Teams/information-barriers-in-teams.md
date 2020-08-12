@@ -2,6 +2,7 @@
 title: Information barriers in Microsoft Teams
 author: chrfox
 ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -162,16 +163,19 @@ Currently, users experience the following if an information barrier policy block
 
 ## Teams policies and SharePoint sites
 
-When a team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization's IB, i.e., only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
+When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies are not honored on this SharePoint site and files by default. To enable Information Barrier policies, the administrator has already filled out a form, requesting that IB policies be enabled on SharePoint and OneDrive (see the *Prerequisite* section in [Information barriers](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). If the Information Barrier policy is turned on in SharePoint and OneDrive, then the IB policies will work on SharePoint sites provisioned when a team is created with Microsoft Teams.
 
-For example: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to segment Advisory. The organization's IB policy blocks communication and collaboration between these two segments.
+**Example of IB policies on SharePoint site of a team**: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to segment Advisory. The organization's IB policy blocks communication and collaboration between these two segments.
 When user Sesha creates a team for Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can't access that site even if she has the site link.
 
-Click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) for more details.
+See the [Information barriers](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) article for more details.
 
 ## Required licenses and permissions
 
 For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+## Known Issues
+- **Users can't join meetings**: If IB policies are enabled, users are not allowed to join meetings IF the meeting roster size is more than 250 users. The root cause is that IB checks rely on whether users can be added to a meeting chat roster and takes that signal to allow users to join meetings. Joining a meeting once will add that user to the roster, hence for recurring meetings, the roster fills up fast. Once it reaches a count of 250 users, no additional users are allowed to be added to the meeting chat roster. If IB is enabled, users are not allowed to join the meeting, but if IB is not enabled, users are allowed to join the meeting, though they won't be added to the meeting chat roster. A short term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
 
 ## More information
 

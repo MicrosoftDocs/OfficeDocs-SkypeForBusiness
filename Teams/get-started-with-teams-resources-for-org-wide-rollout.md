@@ -1,7 +1,7 @@
 ---
 title: Choose a path to your organization-wide rollout
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
