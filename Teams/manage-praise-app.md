@@ -1,14 +1,13 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin 
 ms.topic: article 
 ms.service: msteams
 localization_priority: Normal 
 description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
-ROBOTS: NOINDEX, NOFOLLOW
 
 ---
 
