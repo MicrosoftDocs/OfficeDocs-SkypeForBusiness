@@ -18,13 +18,13 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 ---
-Public preview in Microsoft Teams
+Microsoft Teams Public Preview
 ======================================================
 
 > [!NOTE]
-> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for testing and exploration purposes only. In Phase 0, public preview is supported on Windows 10 and Windows 10 browsers.
+> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for evaluation and exploration purposes only. 
 
-Public Preview is a public program for a Microsoft Teams user which provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization.
+Public Preview for a Microsoft Teams user provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization.
 
 ## Enable public preview
 
