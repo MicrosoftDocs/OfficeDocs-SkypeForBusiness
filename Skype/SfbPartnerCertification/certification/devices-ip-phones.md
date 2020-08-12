@@ -29,13 +29,8 @@ In the meantime, Skype for Business supports backwards compatibility with all of
 
 Basic functionalities will continue to work on Skype for Business certified devices when a user switches to Microsoft Teams. However, in order to be Teams certified, phone vendors would need to meet the new requirements for Teams certification.
 
-## Conference phones
 
-|Manufacturer | Model| Version| Qualification Date|
-|:--- |:--- |:--- |:--- |
-
-
-## Desk phones
+## Certified Skype for Business devices
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
@@ -48,6 +43,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Crestron |Flex UC-P100-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Crestron |Flex UC-P110-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 |Poly| Trio C60|5.9.3.7392|4/15/2020|
+|Poly| CCX 400 IP Phone|6.2.11.1475|8/10/2020|
 | Poly| CCX 600 IP Phone|5.9.12.1111 |2/3/2020 |
 | Poly| CCX 500 IP Phone| 1.0.0.2535 | 01/10/2020|
 | Polycom |VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
@@ -79,6 +75,6 @@ Basic functionalities will continue to work on Skype for Business certified devi
 
 Browse all [devices Certified for Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Learn about [Skype for Business certification](overview.md)
+Learn about [Skype for Business certification](overview.md).
 
-Find details of our [qualified IP Phones](../lync-cert/ip-phones.md)
+Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
