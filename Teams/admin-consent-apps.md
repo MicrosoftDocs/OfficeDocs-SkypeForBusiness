@@ -24,29 +24,34 @@ appliesto:
 
 
 
-## Grant admin consent to apps at the org level
+## Grant org-wide admin consent to an app
 
-As an admin you can review and accept the permissions that an app requires for all users in your organization. You do this so users won’t have to review and accept the permissions for the app individually when they start the app. 
+As an admin you can review and accept the permissions that an app requires for all users in your organization. You do this so users won’t have to review and accept the permissions for the app individually when they start the app.
 
 Any app that has Azure AD permissions is listed in the **Permissions** column on the Manage apps page. This is for third-party apps registered in Azure AD that request permissions from users and admins, who must approve the request before the app can access data or act on a user's behalf. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent).
 
-You have to be a global admin to grant org-level permissions.
+
+
+You have to be a global admin to grant org-wide consent to an app.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Do one of the following:
-    - Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
+    - Search for and find the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
     - Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
 4. Review the permissions requested by the app.
-5. To accept the permissions, click **Accept**. You'll see a banner at the top of the page to let you know that the requested permissions have been granted for the app. When you accept the permissions, the app gets access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
-After you accept the permissions, you'll see a message under **Org-wide permissions** on the **Permissions** tab of the app details page to let you know that the app has been granted consent for permissions. 
+    > [!Warning]
+    > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
+5. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
-To view more details of the permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
+After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that the app has been granted consent for permissions.
 
-## Grant Microsoft Graph resource-specific consent (RSC) permissions
+To view details about the app's permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
 
-RSC permissions lets admins and team owners grant consent for an app to access and modify a team's data. RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add an app to a team. To learn more, see [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+## Grant Microsoft Graph resource-specific consent permissions
+
+Resource-specific consent (RSC) permissions lets admins and team owners grant consent for an app to access team data. RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add an app to a team. To learn more, see [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
 
 *****************
