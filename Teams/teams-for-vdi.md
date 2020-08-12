@@ -184,6 +184,9 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
       ```
 
       This process uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
+      
+    > [!NOTE]
+    > To prevent auto launch see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](teams-for-vdi.md).
 
 ## Teams on VDI performance considerations
 
