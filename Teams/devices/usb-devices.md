@@ -75,8 +75,8 @@ If you are a manufacturer and want to join the certification program, see [How t
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certified for Skype for Business                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Certified for Skype for Business                        |
-|Jabra                |Engage 75 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
-|Jabra                |Engage 65 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Engage 50 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |Certified for Microsoft Teams                           |
