@@ -1,7 +1,7 @@
 ---
 title: Use PowerShell to control guest access to a team
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
