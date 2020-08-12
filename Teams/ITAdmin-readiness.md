@@ -1,6 +1,6 @@
 ---
 title: Admin training resources - Microsoft Teams
-ms.reviewer: 
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
