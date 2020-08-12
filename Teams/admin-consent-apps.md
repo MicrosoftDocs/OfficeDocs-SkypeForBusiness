@@ -8,29 +8,26 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to give admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
+description: Learn how to grant admin  consent to apps on the Manage apps page of the Microsoft Teams admin center. 
 localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Grant admin consent to apps in Microsoft Teams
+# Grant org-wide admin consent and view resource-specific consent permissions for apps in the Microsoft Teams admin center
 
-*****************
+The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
 
-> [!NOTE]
-> [!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
-
+Here, you can also grant org-wide admin consent to third-party apps that request permissions to access data, view resource-specific consent (RSC) permissions for apps, and install apps to a team.
 
 
 ## Grant org-wide admin consent to an app
 
 As an admin you can review and accept the permissions that an app requires for all users in your organization. You do this so users won’t have to review and accept the permissions for the app individually when they start the app.
 
-Any app that has Azure AD permissions is listed in the **Permissions** column on the Manage apps page. This is for third-party apps registered in Azure AD that request permissions from users and admins, who must approve the request before the app can access data or act on a user's behalf. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent).
-
-
+Any app that has Azure AD permissions is listed in the **Permissions** column on the Manage apps page. This is for third-party apps registered in Azure AD that request permissions from users and admins, who must approve the request before the app can access data. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent).
 
 You have to be a global admin to grant org-wide consent to an app.
 
@@ -129,8 +126,8 @@ When uploading a custom app (also known sideloading) that uses resource-specific
 
 ## Related topics
 
+- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Resource-specific consent in Teams](resource-specific-consent.md)
 - [Available RSC permissions](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [Manage app permission policies in Teams](teams-app-permission-policies.md)
+
