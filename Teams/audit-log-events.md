@@ -188,7 +188,7 @@ You can use the Office 365 Management Activity API to retrieve information about
 
 ## Attribution in Teams audit logs
 
-Currently, there is a known issue with attribution in Teams audit logs and control messages: an owner may be incorrectly attributed with the removal or addition of users. This happens when the change occurs outside of Teams. In these cases, we recommend using the [Office 365 audit logs](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (AAD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult AAD or [Microsoft 365 Group audit logs](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
 
 ## Related topics
 
