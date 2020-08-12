@@ -20,6 +20,9 @@ appliesto:
 
 # Manage Microsoft Teams device tags
 
+> [!NOTE]
+> The ability to add tags to devices is being made available to Microsoft Teams customers in waves. If you don't see the option to manage tags in the Teams admin center, device tags haven't been enabled on your tenant yet. Check back again at a later date.
+
 Device tags in Microsoft Teams let you group, organize, and more easily manage the devices you've deployed in your organization. With the Microsoft Teams admin center, you can add one or more tags to devices, use filters to view devices that match the tag you specify, and then perform actions the devices that have that tag.
 
 You can add a device tag to more than one device type. However, when you open a device pane in the admin center, only the devices of that type are returned. For example, you can assign the "Corporate" tag to both phones and Teams Rooms devices. If you search for the "Corporate" tag while in **Devices** > **Phones**, only phones are returned. Similarly, if you search for the "Corporate" tag in **Devices** > **Teams Rooms**, only Teams Rooms devices are returned.
