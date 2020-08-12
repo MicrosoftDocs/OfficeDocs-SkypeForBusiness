@@ -113,7 +113,7 @@ The Teams Android app now supports Global sign in and sign out, to provide a has
 
 The sign-in experience looks similar to our standard Teams sign experience, while sign out will look like the following two images:
 
-![Screenshot of global sign out first step.](media/global-sign-out-merged.png)
+![image  is the mobile phone with sign out demonstrated](media/global-SignOut.png)  
 
 ## URLs and IP address ranges
 
