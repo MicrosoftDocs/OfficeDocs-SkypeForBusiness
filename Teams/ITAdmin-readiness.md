@@ -26,7 +26,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-| ![An icon depicting a hand and an upward arrow](media/get-started-blue-small.svg)  | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting a check mark](media/success-small.svg)  | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![An icon depicting two users](media/users-people-small.svg)  | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![An icon depicting a hand and an upward arrow](media/get-started-blue-small.svg)  | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting a check mark](media/success-small.svg)  | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![An icon depicting two users](media/users-people-small.svg)  | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
 
 <h2>Technical training</h2>
 
