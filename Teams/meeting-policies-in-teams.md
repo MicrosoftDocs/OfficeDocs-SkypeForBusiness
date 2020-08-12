@@ -493,3 +493,4 @@ To specify whether users can customize their video background in a meeting, set 
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)
+- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
