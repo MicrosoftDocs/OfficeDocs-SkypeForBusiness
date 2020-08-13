@@ -46,11 +46,9 @@ To grant org-wide consent to an app, follow these steps:
     > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
 5. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
-After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted.
+After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
 
 :::image type="content" source="media/admin-consent-apps-org-wide-accepted.png" alt-text="Screenshot of message displayed when consent granted":::
-
-To view details about the app's permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
 
 ## View resource-specific consent permissions of an app
 
