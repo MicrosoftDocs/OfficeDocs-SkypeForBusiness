@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# Chat, teams, channels, and apps
+# Chat, teams, and channels
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 ## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
-
-
-## Apps, bots, and connectors
-
-### [Overview](deploy-apps-microsoft-teams-landing-page.md)
-### [Apps permissions and considerations](app-permissions.md)
-### [Manage apps for Teams](manage-apps.md)
-### [Admin settings for apps in Teams](admin-settings.md)
-### [Use built-in and custom tabs](built-in-custom-tabs.md)
-### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
-### [Resource-specific consent](resource-specific-consent.md)
-### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-### [Publish a custom app by uploading an app package](upload-custom-apps.md)
-### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Lists app for your organization in Teams](manage-lists-app.md)
-### [Manage the Tasks app for your organization](manage-tasks-app.md)
-### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,27 @@
 
 <!-- ============================================================ -->
 
+# Apps, bots, and connectors
+
+## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Apps permissions and considerations](app-permissions.md)
+## [Manage apps for Teams](manage-apps.md)
+## [Admin settings for apps in Teams](admin-settings.md)
+## [Use built-in and custom tabs](built-in-custom-tabs.md)
+## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
+## [Resource-specific consent](resource-specific-consent.md)
+## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
+## [Manage the Tasks app for your organization](manage-tasks-app.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
+## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # Meetings and conferencing
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
@@ -167,6 +169,7 @@
 
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
+## [Remove the RestrictedAnonymousAccess meeting policy from users](meeting-policies-restricted-anonymous-access.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -684,7 +687,7 @@
 ### [Education SKU reference](sku-reference-edu.md)
 
 ## Teams for Firstline Workers
-### [Quickstart for firstline workers](firstline-workers-quickstart.yml)
+### [Quickstart for Firstline Workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
@@ -828,6 +831,7 @@
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
 ### [Update your devices remotely](devices/remote-update.md)
+### [Manage Teams device tags](devices/manage-device-tags.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)

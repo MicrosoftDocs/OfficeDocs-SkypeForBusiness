@@ -1,7 +1,7 @@
 ---
 title: Plan for governance in Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -98,6 +98,34 @@ For technical guidance on how to implement these settings, see:
 
 - [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
+## Group and team membership management
+
+Consistently managing members of project based, or restricted groups are necessary for teams that require rapid onboarding and offboarding or users and guests. Your organization may also need to make sure all current members have the business justification to be in a team. Managing members can be hard because team owners can leave and users don’t usually leave groups on their own accord when a project ends or when they change roles. The best way to manage group membership that allows users to get access when needed but ensure the group doesn't have a risk of inappropriate access is through two district processes: entitlement management and access reviews.
+
+[Entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) allows you to delegate to someone, such as a project manager, to collect all the resources that are needed, including teams memberships, into a single package. They can also define who can make requests: either users in your tenant or from other connected organizations. The project manager will receive access requests in their email and approve or deny requests in the MyAccess portal. Administrators can configure the conditions of access to include an expiry date or period by when the user or guest will be removed from the team unless access is renewed. Administrators can also set up the groups associated with teams to take part in access reviews. For [access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), the group owners will receive regular reminders to review the members of a team. Access reviews include recommendations, which makes it easier for group owners to go through their regular attestation process.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Decision points | Does your organization require a consistent process for managing membership of one or more teams? <br> Does your organization require owners, or the members themselves, to justify their continued membership of one or more teams on a regular basis? <br> Does your organization require approval for users and guests to request access to resources including teams, groups, SharePoint sites, and apps? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Next steps? | Document your organizations requirements for each team or specific teams for membership expiry.<br>Plan how your organization can bundle teams, groups, SharePoint sites, and apps together in access packages.<br>Plan which people, such as the requestor's manager, a project manager, a sponsor for a connected organization or a security officer in your organization will need to approve or deny access requests. |
+
+> [!TIP]
+> Use the following table to capture your organization’s requirements.
+
+| Capability | Details | Azure AD Premium license required | Decision |
+|:-|:-|:-|:-|
+| Access reviews | Setup access reviews to recertify the membership of specific teams at regular interval | P2 | TBD |
+| Entitlement management | Setup access package to allow users and guests to request access to teams | P2 | TBD |
+
+> [!NOTE]
+> To help you plan ahead, [learn more about what licenses they require](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### Additional information
+
+For technical guidance on how to implement these settings, see:
+
+- [Entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## Teams feature management
 
