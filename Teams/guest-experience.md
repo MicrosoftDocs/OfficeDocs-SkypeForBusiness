@@ -94,11 +94,12 @@ The following table shows the calling and meeting features available to guests, 
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> The **Guest user access restrictions** policy determines permissions for guests in your directory. There are three policy options.
+> The **Guest user access restrictions** policy in Azure Active Directory (Azure AD) determines permissions for guests in your directory. There are three policy options.
 >  - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
 >  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
 >  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
->To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>
+>To learn more, see [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## Frequently asked questions
 
