@@ -22,6 +22,64 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## August 17, 2020
+
+### Tagging by Shift
+
+With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. 
+
+## August 14, 2020
+
+### Cortana voice skills in Teams
+
+Cortana voice skills in Teams mobile app help users perform meeting, communication and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and generally navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
+
+Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
+
+### Teams Devices Administrator
+
+Users with this role can manage Teams certified devices from the Teams admin center. They can check details of each device including the account that is signed in, and the make and model of the device. They can change the settings on the device, update the software, and restart devices remotely. [Learn more](../using-admin-roles)
+
+## August 12, 2020
+
+### Lists App in Teams
+
+Teams users can now directly manage, create and maintain their lists using the Lists App tab. The Lists App works on all Teams clients and enables collaboration and communication around list items.
+
+## July 31, 2020
+
+### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers.
+
+Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. 
+
+## July 29, 2020
+
+### Enhanced Manageability using Device Tagging functionality 
+
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags).
+
+## July 9, 2020
+
+### Voicemail support in call queues
+
+We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue).
+
+## July 2, 2020
+
+### Suggested replies
+
+We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams#messaging-policy-settings).
+
+### Transferring incoming calls
+
+We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number.  [Learn more](../business-voice/set-up-auto-attendants.md).
+
+## June 29, 2020
+
+### Walkie Talkie app in Microsoft Teams
+
+Instant voice communication using push-to-talk.
+
 ## June 11, 2020
 
 ### Call queues - Presence-based routing
@@ -38,7 +96,7 @@ When you choose this, incoming calls will be routed to call agents who haven't a
 
 ### Raise hand in meetings
 
-Users can now raise a virtual hand in a meeting! Other participants will see your raised hand next to your name in the meeting stage and next to your name in the roster.
+Users can now raise a virtual hand in a meeting! Other participants will see your raised hand next to your name in the meeting stage and next to your name in the roster. [Learn more](../raise-hand-meetings.md).
 
 ## May 15, 2020
 
