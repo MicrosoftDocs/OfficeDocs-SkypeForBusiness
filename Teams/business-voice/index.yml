@@ -21,15 +21,13 @@ productDirectory:
       links:
         - url: whats-business-voice.md
           text: What's Business Voice
-        - url: https://www.microsoft.com/microsoft-365/business-voice
-          text: Microsoft 365 Business Voice
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
+        - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
           text: Service description
     # Card
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
       links:
-        - url: what-to-buy.md
+        - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
           text: How to get Business Voice
         - url: get-ready-internet.md
           text: Check your Internet connection
@@ -67,7 +65,7 @@ productDirectory:
     - title: Resources for partners
       imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
       links:
-        - url: /partner-center
+        - url: https://docs.microsoft.com/partner-center/
           text: Get Microsoft 365 Business from Partner Center
         - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
           text: Microsoft 365 Business Voice for Partners
