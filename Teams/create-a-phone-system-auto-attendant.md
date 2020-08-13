@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -25,7 +25,7 @@ description: "Learn how to set up and test Cloud auto attendants for Microsoft T
 
 # Set up a Cloud auto attendant
 
-Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with Powershell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -426,7 +426,7 @@ You can use the Summary page to review the settings you've created.
 
 Press the **Create** button to finish setup of your new auto attendant. -->
 
-### Create an auto attendant with Powershell
+### Create an auto attendant with PowerShell
 
 You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
 
