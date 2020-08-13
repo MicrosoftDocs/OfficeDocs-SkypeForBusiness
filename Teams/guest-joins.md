@@ -1,7 +1,7 @@
 ---
 title: How a guest joins a team
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
