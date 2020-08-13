@@ -140,4 +140,14 @@ If you applied Teams settings to a Surface Hub using Microsoft Intune in Microso
 
 1. Sign in to Microsoft Endpoint Manager by visiting https://endpoint.microsoft.com/
 2. Navigate to **Devices** > **Configuration profiles**
-3. 
+3. Select the configuration profile that contains the Coordinated Meeting settings you want to remove
+4. On the configuration profile details page, select **Delete** and then **OK**
+
+After you've removed configuration profile that contained the Coordinated Meeting settings for your Surface Hub, use the following steps to reset the Teams app on the Surface Hub:
+
+1. On your Surface Hub, open the Start menu, select **All apps**, and then select **Settings**
+2. Provide your admin username and password and then select **Yes**
+3. Go to **Surface Hub** and then **Apps & features**
+4. Find **Microsoft Teams for Surface Hub** and then select **Advanced Options**
+5. Select **Reset**, and then **Reset** again
+6. Restart your Surface Hub
