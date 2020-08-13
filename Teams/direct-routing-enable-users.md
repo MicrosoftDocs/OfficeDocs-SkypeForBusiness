@@ -48,9 +48,9 @@ If your Skype for Business Online deployment coexists with Skype for Business 20
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
-## Ensure that the user is homed in Skype for Business Online 
+## Ensure that the user is homed online 
 
-Direct Routing requires the user to be homed in Skype for Business Online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain.
+Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain.
 
 1. Connect to remote PowerShell.
 2. Issue the command: 
