@@ -52,7 +52,7 @@ After you accept the permissions, you'll see a message under **Org-wide permissi
 
 To view details about the app's permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
 
-## View resource-specific consent permissions
+## View resource-specific consent permissions of an app
 
 RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs. RSC permissions are defined in the app manifest and not in Azure AD. 
 
