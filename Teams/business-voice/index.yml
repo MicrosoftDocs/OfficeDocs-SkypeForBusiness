@@ -90,5 +90,5 @@ productDirectory:
           text: Microsoft Teams UserVoice feedback
         - url: https://support.office.com/teams
           text: Microsoft Teams client docs
-        - url: /office365/admin
+        - url: https://docs.microsoft.com/office365/admin
           text: Microsoft 365 and Office 365 admin docs
