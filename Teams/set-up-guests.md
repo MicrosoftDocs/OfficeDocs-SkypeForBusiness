@@ -1,7 +1,7 @@
 ---
 title: Turn on or turn off guest access to Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
