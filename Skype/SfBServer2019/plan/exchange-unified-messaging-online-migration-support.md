@@ -240,12 +240,7 @@ Subscriber access might continue to work for your tenant until the service is co
 
 #### Auto Attendant Call Transfer to PSTN
 
-Customers are encouraged to configure a temporary workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number or to an RGS instance.
-
-An issue was identified during quality assurance with the "Transfer out to PSTN number" feature, which will not be fixed in time for customers to start migrating off the Exchange UMO service before its scheduled retirement date of Feb 28, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premises user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. The expected experience is:
-
-- Administrators can manipulate the caller ID that the PSTN receiver sees by assigning the desired number to the user or using the SBC digit manipulation capabilities.
-- PSTN callers will not experience any delay during the call transfer and will continue to see the caller ID of the auto attendant after the transfer is successful.
+To transfer an auto attendant call to an external PSTN phone number via Skype for Business Server or a Response Group service (RGS) on Skype for Business Server, create a new on-premises user with call forwarding set to the PSTN or RGS SIP address. The user must be enabled and correctly configured for Enterprise Voice and have a voice policy assigned.
 
 #### Shared mailbox is still accessible
 
