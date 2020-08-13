@@ -1,8 +1,8 @@
 ---
 title: Plan for Microsoft 365 Groups when creating teams
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual

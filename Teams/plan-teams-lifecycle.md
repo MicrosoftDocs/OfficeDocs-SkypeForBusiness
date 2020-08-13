@@ -1,7 +1,7 @@
 ---
 title: Plan for lifecycle management
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/26/2018
 ms.topic: reference
