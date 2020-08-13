@@ -20,7 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also grant org-wide admin consent to third-party apps that request permissions to access data, view resource-specific consent (RSC) permissions for apps, and install apps to a team.
+Here, you can also grant org-wide admin consent to apps that request permissions to access data, view resource-specific consent (RSC) permissions for apps, and install apps to a team.
 
 ## Grant org-wide admin consent to an app
 
@@ -28,7 +28,7 @@ As an admin, you can review and grant consent to apps that request Graph API per
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-The **Permissions** column indicates whether an app has permissions that require consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that require consent. You have to be a global admin to grant org-wide consent to an app.
+The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. You have to be a global admin to grant org-wide consent to an app.
 
 To grant org-wide consent to an app, follow these steps:
 
@@ -39,7 +39,7 @@ To grant org-wide consent to an app, follow these steps:
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
 4. Review the permissions requested by the app.
 
-    > [!Warning]
+    > [!IMPORTANT]
     > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
 5. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
