@@ -240,7 +240,7 @@ Subscriber access might continue to work for your tenant until the service is co
 
 #### Auto Attendant Call Transfer to PSTN
 
-To transfer an auto attendant call to an external PSTN phone number via Skype for Business Server or a Response Group service (RGS) on Skype for Business Server, create a new on-premises user with call forwarding set to the PSTN or RGS SIP address. The user must be enabled and correctly configured for Enterprise Voice and have a voice policy assigned.
+To transfer an auto attendant call to an external PSTN phone number via Skype for Business Server or a Response Group service (RGS) on Skype for Business Server, create a new on-premises user with call forwarding set to the PSTN phone number or RGS phone number. The user must be enabled and correctly configured for Enterprise Voice and have a voice policy assigned.
 
 #### Shared mailbox is still accessible
 
