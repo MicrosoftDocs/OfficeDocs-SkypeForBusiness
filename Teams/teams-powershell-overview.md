@@ -17,7 +17,7 @@ appliesto:
 
 # Microsoft Teams PowerShell Overview
 
-Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line. Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows,PowerShell 6.x and higher on all platforms including Azure Shell.
+Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line. Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.
 
 Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md). 
 
