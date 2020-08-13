@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article

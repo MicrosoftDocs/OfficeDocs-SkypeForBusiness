@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
