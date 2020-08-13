@@ -51,7 +51,6 @@ For details about how to manage your Teams Rooms devices, see [Manage Microsoft 
 | View meeting activity | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.|
 | View meeting details |  Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time.|
 
-
 ## Manage phones and collaboration bars in Teams
 
 In the Teams admin center, you can view and manage phones and collaboration bars enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
@@ -59,14 +58,18 @@ In the Teams admin center, you can view and manage phones and collaboration bars
 Phones and collaboration bars are automatically enrolled in Microsoft Intune, if you've signed up for it. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
 
 Here are some examples of how you can manage phones and collaboration bars in your organization.  
-    
+
 |To do this...  |Do this |
 |---------|---------|
-|Change device information   | Select a device > **Edit**. You can edit details such as device name, asset tag, and add notes.     |
-|Manage software updates   |Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. For more information about updating devices, see [Update Microsoft Teams devices remotely](remote-update.md)   |
-|Restart a device   |Select a device > **Restart**.          |
-|View device history  | Select a device > **History**. You can view the update history for the device.     |
-|View diagnostics  | Select a device > **Diagnostics**.        |
+| Change device information               | Select a device > **Edit**. You can edit details such as device name, asset tag, and add notes.     |
+| Manage software updates                 | Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. For more information about updating devices, see [Update Microsoft Teams devices remotely](remote-update.md)   |
+| Assign or change configuration policies | Select one or more devices > **Assign configuration**.                                                                                                                                                                                                                   |
+| Add or remove device tags               | Select one or more devices > **Manage tags**. For more information about device tags, see [Manage Manage and filter Microsoft Teams device](manage-device-tags.md).                                                                                                      |
+| Restart devices                         | Select one or more devices > **Restart**.                                                                                                                                                                                                                                |
+| Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag).|
+| View device history                     | Select a device > **History**. You can view the update history for the device.                                                                                                                                                                                |
+| View diagnostics                        | Select a device > **Diagnostics**.                                                                                                                                                                                                                            |
+
 
 ### Use configuration profiles in Teams
 
