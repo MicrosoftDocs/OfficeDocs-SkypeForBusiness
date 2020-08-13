@@ -1,7 +1,7 @@
 ---
 title: Add a guest to a team
-author: somakbhattacharyya
-ms.author: sbhatta
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.topic: article
