@@ -59,9 +59,13 @@ These are the Azure AD settings that support guest access in Teams. Once these s
    > The **External collaboration settings** are also available from the **Organizational relationships** page. In Azure Active Directory, under **Manage**, go to **Organizational relationships** > **Settings**.
 4. On the **External collaboration settings** page, choose the policies you want to enable.
 
-    - **Guest users permissions are limited**: This policy determines permissions for guests in Microsoft Graph. Select **Yes** to block guests from accessing Microsoft Graph. To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)  Select **No** to give guests the same access to directory data as regular users in your directory.
+    - **Guest user access restrictions**: This policy determines permissions for guests in your directory. There are three policy options.
+        - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
+        - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
+        - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
+        To learn more see, [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
      - **Admins and users in the guest inviter role can invite**: To allow admins and users in the "Guest Inviter" role to invite guests, set this policy to **Yes**.
-     - **Members can invite**: To allow non-admin members of your directory to invite guests, set this policy to **Yes** (recommended). If you prefer that only admins be able to add guests, you can set this policy to **No**. Keep in mind that setting **No** will limit the guest experience for non-admin teams owners; they'll only be able to add guests in Teams that have already been added in AAD by the admin.
+     - **Members can invite**: To allow non-admin members of your directory to invite guests, set this policy to **Yes** (recommended). If you prefer that only admins be able to add guests, you can set this policy to **No**. Keep in mind that setting **No** will limit the guest experience for non-admin teams owners; they'll only be able to add guests in Teams that have already been added in Azure AD by the admin.
      - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
          > [!IMPORTANT]
          > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
