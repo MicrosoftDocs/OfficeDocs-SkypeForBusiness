@@ -54,7 +54,7 @@ After you accept the permissions, you'll see a message under **Org-wide permissi
 
 RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs. RSC permissions are defined in the app manifest and not in Azure AD. 
 
-You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent) and [Resource-specific consent in Teams](resource-specific-consent.md).
 
 To view RSC permissions for an app, follow these steps:
 
@@ -67,6 +67,8 @@ To view RSC permissions for an app, follow these steps:
     :::image type="content" source="media/admin-consent-apps-rsc.png" alt-text="Screenshot of RSC permissions for an app":::
 
 ### Add an app to a team
+
+You use the **Add to team** button on the Manage apps page to add an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Search for the app you want, and then select the app by clicking to the left of the app name.
