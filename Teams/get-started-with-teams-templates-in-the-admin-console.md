@@ -1,5 +1,5 @@
 ---
-title: Use Teams templates in the admin console
+title: Use Teams templates to create a new team
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -30,7 +30,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 
-Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can use a template in the admin console or using [Microsoft Graph](get-started-with-teams-templates.md).
+Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can create a team from a template in Teams or using [Microsoft Graph](get-started-with-teams-templates.md).
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
 

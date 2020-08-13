@@ -125,6 +125,7 @@
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
 ## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -168,6 +169,7 @@
 
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
+## [Remove the RestrictedAnonymousAccess meeting policy from users](meeting-policies-restricted-anonymous-access.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +831,7 @@
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
 ### [Update your devices remotely](devices/remote-update.md)
+### [Manage Teams device tags](devices/manage-device-tags.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
