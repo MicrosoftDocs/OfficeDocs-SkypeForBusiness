@@ -1,5 +1,5 @@
 ---
-title: Access control to the Microsoft Teams Room Premium service 
+title: Role-based access control to the Microsoft Teams Room Premium service 
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,24 +14,24 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about access control to the Microsoft Teams Room Premium Service.
+description: Learn about role-based access control to the Microsoft Teams Rooms managed service.
 f1keywords: 
 ---
 
-# Access control to the Microsoft Teams Room Premium service 
+# Role-based access control to the Microsoft Teams Rooms managed service 
 
-Role-based access control (RBAC) in the Microsoft Teams Rooms Premium service helps you manage user access to room resource data in your organization. By assigning roles to your service portal users, you can limit what they can see and change. Each role has a set of permissions that determine what users with that role can access and change within your organization.
+Role-based access control (RBAC) in the Microsoft Teams Rooms managed service helps you manage user access to room resource data in your organization. By assigning roles to your service portal users, you can limit what they can see and change. Each role has a set of permissions that determine what users with that role can access and change within your organization.
 
 To create, edit, or assign roles, your account must have one of the following permissions:
 
 - Global Administrator through Azure Active Directory (Azure AD)
-- Managed Service Administrator through the Microsoft Teams Rooms Premium service portal
+- Managed Service Administrator through the Microsoft Teams Rooms managed service portal
 
 ## What is a role?
 
-A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Premium  service has three built-in roles: **Managed Service Administrator**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
+A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms managed service has three built-in roles: **Managed Service Administrator**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
 
-To see roles, in the left navigation of the Microsoft Teams Rooms Premium portal, go to **Roles**, and then select any of the roles to see the role’s properties, permissions, and assignments.  
+To see roles, in the left navigation of the Microsoft Teams Rooms managed service portal, go to **Roles**, and then select any of the roles to see the role’s properties, permissions, and assignments.  
 
 - **Properties**: The name, role type, and description
 - **Permissions**: Lists features and level of permissions to which the role has access.
@@ -64,7 +64,7 @@ The following table summarizes what each role can do.
 |Ticket management   |Create customer incident         |&#10004;           |&#10004;           |&#10004;  |
 |    |View         |&#10004;           |&#10004;           |&#10004;  |
 |    |Update         |&#10004;           |&#10004;           |&#10004;  |
-|Microsoft Teams Rooms Premium settings    |View         |&#10004;           |         ||
+|Microsoft Teams Rooms managed service settings    |View         |&#10004;           |         ||
 |    |Modify        |&#10004;           |         ||
 |Role management    |View         |&#10004;           |         ||
 |    |Modify         |&#10004;           |         ||
@@ -73,7 +73,7 @@ The following table summarizes what each role can do.
 
 To assign roles, you must be a Global Administrator or Managed Service Administrator.
 
-1. In the left navigation of the Microsoft Teams Rooms Premium portal, go to **Roles**.
+1. In the left navigation of the Microsoft Teams Rooms managed service portal, go to **Roles**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot of Access control page showing roles":::
 
@@ -89,4 +89,4 @@ To assign roles, you must be a Global Administrator or Managed Service Administr
 
 ## Related topics
 
-- [Microsoft Teams Rooms Premium](microsoft-teams-rooms-premium.md) 
+- [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md) 
