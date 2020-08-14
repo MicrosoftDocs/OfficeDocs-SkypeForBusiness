@@ -22,12 +22,12 @@ appliesto:
   - Microsoft Teams
 ---
 
-Turn on inline message translation in Microsoft Teams 
+Turn on inline message translation in Microsoft Teams
 =================================================
 
 Inline message translation is a new Microsoft Teams feature that lets users translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings.
 
-Inline message translation is being rolled out by default for your organization. If you want to allow users to use this feature within the Teams client, you must turn this setting on.
+Inline message translation is being rolled out by default for your organization. You don't need to make changes if you want to allow users to use this feature within the Teams client.
 
 > [!NOTE]
 >This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.
