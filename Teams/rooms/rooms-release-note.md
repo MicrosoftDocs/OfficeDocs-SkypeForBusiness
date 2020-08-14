@@ -65,7 +65,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 ### 4.5.37.0 (08/14/2020)
 
 Introduced in this update:
-- Coordinated Teams meetings w/ Surface Hub 2S 
+- Coordinated Meetings between Microsoft Teams and Surface Hub 2S 
 - Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) is installed
 
 ### 4.5.35.0 (07/23/2020)
