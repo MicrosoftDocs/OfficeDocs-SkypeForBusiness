@@ -31,8 +31,9 @@ To contact the PSTN Service Desk team, send email to the appropriate alias liste
 
 | **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
 |:-----:|:------:|
-| **Inside** the **United States** or **Canada**, send email to [ptn@microsoft.com](mailto:ptn@microsoft.com).| **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, send email to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).|
-|**Outside** the **United States** or **Canada**, send email to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).| **Rest of the world**, send email to [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).|
+| [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Outside the United States or Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Due to a large spike in incoming requests, the **North America porting team** is backlogged. We are working to clear this backlog on a FIFO (First In, First Out) basis, and as a result **our response to new requests will be delayed.**|Due to a large spike in incoming requests, the **EU porting team** is backlogged. We are working to clear this backlog on a FIFO (First In, First Out) basis, and as a result **our response to new requests will be delayed.**|
 
 > [!NOTE]
 > North America responses might be delayed because of a large increase in incoming requests. The backlog is being cleared out on a FIFO (First In, First Out) basis.
