@@ -1,5 +1,5 @@
 ---
-title: Required diagnostic data for Microsoft Teams
+title: Required mobile diagnostic data for Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
-description: A list of properties and events for the policy controls for Microsoft Teams.
+description: A list of mobile properties and events for the policy controls for Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -17,9 +17,9 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Required diagnostic data for Microsoft Teams
+# Required mobile diagnostic data for Microsoft Teams
 
-The following article contains a list of Microsoft Teams events, and lists of properties each event collects.
+The following article contains a list of Microsoft Teams mobile events, and lists of properties each event collects.
 
 ## Events
 
@@ -595,7 +595,8 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **labelPickerClicked** - Confirms that the label picker successfully launched.
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
-- **Launch source such as direct, link, appShortcut** - Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users).
+- **launchLinksGallery** - When a user enters the links gallery from the dashboard.
+- **Launch source such as direct, link, appShortcut** - Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users). ???
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
 - **likeAppDismiss** - When the prompt that asks whether a user likes the app or not is dismissed without a response.
@@ -797,6 +798,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **openReactionHoverBubble** - Press the **Add reaction** button on the reaction summary page.
 - **openReactionSummary** - Invoke reaction summary drawer.
 - **openSettingsSetUpInstructions** - Open **Settings** from instructions.
+- **openSharedLink** - When a user opens a link from the dashboard links tile or the links gallery.
 - **openShiftsClicked** - How many people tap the **Calendar** icon.
 - **orgChart - No AS assigned** - Basic usage telemetry for org chart.
 - **pageEntered** - A user entered a page.
@@ -880,6 +882,7 @@ The following article contains a list of Microsoft Teams events, and lists of pr
 - **readReceipts** - User enabled feature.
 - **redeemInvite** - In app redemption.
 - **refreshCalendarList** - Pull down to refresh agenda view.
+- **refreshLinksGallery** - When a user swipes down to refresh the links gallery.
 - **removeAssignee** - Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when selecting **x** outside of assignment picker view).
 - **removeMeeting** - Select **Remove from Calendar** from the Meeting Details page of a cancelled meeting.
 - **removeParticipantFromEditMeeting** - Remove a participant after selecting **Edit meeting** from the Meeting Details page.
