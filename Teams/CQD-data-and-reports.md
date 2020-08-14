@@ -61,7 +61,7 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 ## EUII data
 
-For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
+For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 28 days. As NRT data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
 
 - Full IP address
 - Media Access Control (MAC) Address
