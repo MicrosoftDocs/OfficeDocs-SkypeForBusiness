@@ -658,8 +658,8 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
-| First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. There is an up to 0.2% error for this measure. See note below for details.|
-| Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. There is an up to 0.2% error for this measure. See note below for details.|
+| First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There is an up to 0.2% error for this measure. See note below for details.|
+| Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data. There is an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | Avg Second Device Glitches Event Ratio|Percentage|Average fraction of the call that the second endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
 | First Device Glitches Event Count| Number | Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
