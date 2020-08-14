@@ -26,7 +26,7 @@ These release notes provide information about new admin features for Microsoft T
 
 ### Tagging by Shift
 
-With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. 
+With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams.
 
 ## August 14, 2020
 
@@ -48,13 +48,13 @@ Teams users can now directly manage, create and maintain their lists using the L
 
 ## July 31, 2020
 
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers.
+### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
 
-Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. 
+Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
 
 ## July 29, 2020
 
-### Enhanced Manageability using Device Tagging functionality 
+### Enhanced Manageability using Device Tagging functionality
 
 As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags.md).
 
@@ -101,6 +101,7 @@ When turned off, calls will be routed to agents who have opted in to receive cal
 ## June 10, 2020
 
 ### Call queues - Longest-idle routing
+
 When you choose this, incoming calls will be routed to call agents who haven't answered an incoming call for the longest period of time. [Learn more](../create-a-phone-system-call-queue.md).
 
 ## June 1, 2020
@@ -157,7 +158,7 @@ Microsoft Teams client for RealWear enables Firstline Workers using RealWear's r
 
 ## March 31, 2020
 
-### Tag, you're it!
+### Tag, you're it
 
 Create tags and assign people to them so you can @mention a group, role, department, etc. Team owners, try it out for yourselves. Go to a team, select **More options** > **Manage tags**. [Learn more](../manage-tags.md).
 
