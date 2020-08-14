@@ -74,10 +74,14 @@ The following table summarizes what each role can do.
 To assign roles, you must be a Global Administrator or Managed Service Administrator.
 
 1. In the left navigation of the Microsoft Teams Rooms Premium portal, go to **Roles**.
+
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot of Access control page showing roles":::
+
 2. Select the role you want to assign.
 3. In the role pane, select **Assignments** > **Add**.
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Screenshot of Add option to add a role. ":::
+
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Screenshot of Add option to add a role.":::
+
 4. On the **General settings** page, under **Assignment properties**, enter a name for this assignment. The description is optional. Choose **Next.**
 5. On the **Members** page, in the **Search for user or security group** box, enter the name of a user or security group in your tenant to which you want to give permissions, and then complete the selection. Choose **Next**. 
 6. On the **Scope** page, in the **Search for room or room group** box, type the name of either a room or room group that the user will be allowed to manage. Choose **Next**.
