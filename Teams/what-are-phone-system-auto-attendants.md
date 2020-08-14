@@ -1,7 +1,7 @@
 ---
 title: "What are Cloud auto attendants?"
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019

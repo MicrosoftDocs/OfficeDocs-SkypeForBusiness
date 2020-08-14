@@ -1,7 +1,7 @@
 ---
 title: "Create a call queue"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
