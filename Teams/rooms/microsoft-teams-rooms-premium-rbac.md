@@ -1,5 +1,5 @@
 ---
-title: Role-based access control to the Microsoft Teams Room Premium service 
+title: Role-based access control with the Microsoft Teams Room Premium service 
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,11 +14,11 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about role-based access control to the Microsoft Teams Rooms managed service.
+description: Learn about role-based access control with the Microsoft Teams Rooms managed service.
 f1keywords: 
 ---
 
-# Role-based access control to the Microsoft Teams Rooms managed service 
+# Role-based access control with the Microsoft Teams Rooms managed service
 
 Role-based access control (RBAC) in the Microsoft Teams Rooms managed service helps you manage user access to room resource data in your organization. By assigning roles to your service portal users, you can limit what they can see and change. Each role has a set of permissions that determine what users with that role can access and change within your organization.
 
@@ -89,4 +89,4 @@ To assign roles, you must be a Global Administrator or Managed Service Administr
 
 ## Related topics
 
-- [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md) 
+- [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md)
