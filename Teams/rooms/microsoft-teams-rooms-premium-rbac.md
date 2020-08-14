@@ -24,12 +24,12 @@ Role-based access control (RBAC) in the Microsoft Teams Rooms Premium service he
 
 To create, edit, or assign roles, your account must have one of the following permissions:
 
-- Global Administrator in Azure Active Directory
-- Managed Service Administrator in the Microsoft Teams Rooms Premium service portal
+- Global Administrator through Azure Active Directory (Azure AD)
+- Managed Service Administrator through the Microsoft Teams Rooms Premium service portal
 
 ## What is a role?
 
-A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Premium  service has three built-in roles: Managed Service Administrator, Site Lead, and Site Tech. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
+A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Premium  service has three built-in roles: **Managed Service Administrator**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
 
 To see roles, in the left navigation of the Microsoft Teams Rooms Premium portal, go to **Roles**, and then select any of the roles to see the role’s properties, permissions, and assignments.  
 
