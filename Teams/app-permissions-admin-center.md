@@ -28,7 +28,7 @@ As an admin, you can review and grant consent to apps that request permissions o
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. You have to be a global admin to grant org-wide consent to an app.
+You have to be a global admin to grant org-wide consent to an app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. This applies to custom and third-party apps. You won't see this link next to apps published by Microsoft. 
 
 To grant org-wide consent to an app, follow these steps:
 
