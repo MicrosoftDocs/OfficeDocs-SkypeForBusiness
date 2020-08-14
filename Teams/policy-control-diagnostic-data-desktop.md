@@ -448,43 +448,198 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 
 ### Properties sent with all events
 
-| Property name                    | Description                                                          |
-|----------------------------------|----------------------------------------------------------------------|
-| EventInfo_Time                   | Event generation time                                                |
-| EventInfo_Name                   | Event name - Used to differentiate between event types               |
-| EventInfo_BaseType/name          | Event type - Used to differentiate between event types in an event   |
-| EventInfo_Source                 | Source of the event generation                                       |
-| AppInfo_Language                 | App language                                                         |
-| AppInfo_ETag                     | Experiment ID assigned to a user                                     |
-| DeviceInfo_OsBuild               | Build version of the OS                                              |
-| UserInfo_Mri                     | Type a user ID                                                       |
-| Session_RunId                    | Type of a session ID                                                 |
-| DeviceInfo_DetailModel           | Model of the device                                                  |
-| UserInfo_TimeZone                | Time zone of the user                                                |
-| DeviceInfo_OsName                | Device OS name                                                       |
-| DeviceInfo_NetworkProvider       | Device network provider                                              |
-| DeviceInfo_Model                 | Device Model                                                         |
-| DeviceInfo_NetworkType           | Device network type                                                  |
-| UserInfo_Language                | User language - similar to app language                              |
-| client_ring/UserInfo_Ring        | User ring that helps to release features to early adopters           |
-| UserInfo_Id                      | User ID                                                              |
-| UserInfo_TenantId                | Tenant ID                                                            |
-| EventInfo_SdkVersion             | SDK version used to generate the event                               |
-| DeviceInfo_Id                    | Device ID provided by device OS                                      |
-| eventpriority                    | Priority of an event                                                 |
-| DeviceInfo_Make                  | Device manufacturer                                                  |
-| AppInfo_Version                  | Version of the app                                                   |
-| DeviceInfo_OsVersion             | Device OS version                                                    |
-| Session_Id/SessionId             | Session ID of the request                                            |
-| Session_Environment              | Session Environment                                                  |
-| isNetworkIssue                   | Captures info if there was a network issue while serving the request |
-| UserRole                         | User role in a tenant                                                |
-| Tenant_Model                     | Captures if the account is a freemium or enterprise account          |
-| licenseType/UserInfo_LicenseType | Licence type assigned to the user                                    |
-| UserLocale                       | Locale in which app is being accessed                                |
-| Intune_sdkVersion                | Version of the Intune SDK                                            |
-| Intune_sdkBundleVersion          | Detailed version of the Intune SDK                                   |
-| AppInfo_Environment              | Environment in which the app is being access                         |
+| Property name                              | Description                                                        |
+|--------------------------------------------|--------------------------------------------------------------------|
+| EventInfo_Time                             | Event generation time                                              |
+| EventInfo_Name                             | Event name - Used to differentiate between event types             |
+| EventInfo_BaseType/name                    | Event type - Used to differentiate between event types in an event |
+| EventInfo_Sequence                         | Sequence of the event                                              |
+| userAgent                                  | Browser agent string                                               |
+| userpdclevel                               | Privacy data control setting of the user                           |
+| eventpdclevel                              | Privacy data control categorization level of the event             |
+| AppInfo_Language                           | App language                                                       |
+| clientType/AppInfo_ClientType              | Client type where the app is running                               |
+| environment/AppInfo_Environment            | Engineering environment that served the user request               |
+| clientVersion/appversion/AppInfo_Version/desktopBuildVersion | Version of the app                               |
+| buildtime                                  | timestamp that the app was built in engineering systems            |
+| osversion/DeviceInfo_OsVersion             | OS version                                                         |
+| AppInfo_ProcessArchitecture                | System architecture (32bit/64bit)                                  |
+| preferredLocales                           | preferred locale for the user                                      |
+| locale/AppInfo_Locale                      | App locale                                                         |
+| os/DeviceInfo_OsName                       | OS Name                                                            |
+| UserInfo_Language                          | Selected user language                                             |
+| UserInfo_Id                                | User ID                                                            |
+| UserInfo_TenantId/TenantId                 | Tenant ID                                                          |
+| ring/UserInfo_Ring                         | Concept that helps deliver application in a phased manner          |
+| region                                     | Datacenter region that served user's request                       |
+| UserInfo_ConfigIds/UserInfo_Etag           | ID that helps identify users in different experiments/rollouts     |
+| DeviceInfo_BrowserName                     | Browser name                                                       |
+| DeviceInfo_BrowserVersion                  | Browser version                                                    |
+| DeviceInfo_Id/machineId/DeviceInfo_IdV2    | ID that helps identify the device                                  |
+| totalMemory                                | Hardware memory of the device                                      |
+| cores                                      | Hardware cores of the device                                       |
+| cpuspeed                                   | Hardware cpu speed of the device                                   |
+| DeviceInfo_CpuArchitecture/cpuarchitecture | CPU architecture of the device                                     |
+| UserRole                                   | Helps identify user role in a tenant                               |
+| DeviceInfo_WindowsMode                     | Helps identify Windows security mode                               |
+| desktopSession/Session_Id                  | Helps identify a session                                           |
+| dbOpen                                     | Captures state of the local database                               |
+| UserInfo_Upn                               | One sided hash of user identifier                                  |
+
+### Properties sent with tracking events
+
+| Property name                      | Description                                                                      |
+|------------------------------------|----------------------------------------------------------------------------------|
+| name2                              | Captures name of the tracking event                                              |
+| type3                              | amitsri to provide details ???                                                      |
+| numVisibleNotifications            | Number of visible application notifications                                      |
+| giphyEnabled                       | Whether giphy service was enabled                                                |
+| giphyRating                        | amitsri to provide details ???                                                      |
+| stickersEnabled                    | amitsri to provide details ???                                                      |
+| customTabsCount                    | amitsri to provide details ???                                                      |
+| error                              | Captures error details related to the tracking event                             |
+| method                             | amitsri to provide details ???                                                      |
+| channel                            | amitsri to provide details ???                                                      |
+| count                              | amitsri to provide details ???                                                      |
+| windowTitle                        | amitsri to provide details ???                                                      |
+| message                            | amitsri to provide details ???                                                      |
+| tpcFailureCode                     | amitsri to provide details ???                                                      |
+| crashSession/crashDesktopSession/crashId/Session_DesktopId/Session_DesktopBackgroundId | Captures unique ID for session debug purposes |
+| responseCode                       | Captures response code for the service call                                      |
+| errorUrl                           | amitsri to provide details ???                                                      |
+| errorCode                          | Captures error code ???                                                             |
+| debug                              | amitsri to provide details ???                                                      |
+| ssoEventData                       | amitsri to provide details ???                                                      |
+| correlationId                      | ID to correlate events with service side for debug purposes                      |
+| errorDescription                   | Captures description of the errorcode                                            |
+| source                             | amitsri to provide details ???                                                      |
+| loginIsEmail                       | amitsri to provide details ???                                                      |
+| windowIsDestroyed                  | True/False state of Application Windows during event                             |
+| windowIsFocused                    | True/False state of Application Windows during event                             |
+| windowIsVisible                    | Was the application visible when event happened                                  |
+| windowIsMinimized                  | True/False state of Application Windows during event                             |
+| windowIsMaximized                  | True/False state of Application Windows during event                             |
+| windowIsFullscreen                 | True/False state of Application Windows during event                             |
+| distSrc                            | Captures the distribution source of user landing into the app                    |
+| retries                            | ???                                                                                 |
+| uses_slimcore                      | amitsri to provide details ???                                                      |
+| persistCookieExpiresIn             | Time remaining in validity of web application cookie                             |
+| waStatus                           | amitsri to provide details ???                                                      |
+| isOnCloud                          | amitsri to provide details ???                                                      |
+| tenantName                         | Name of Tenant for user of the application                                       |
+| isSipEnabled                       | amitsri to provide details ???                                                      |
+| appStartReason                     | How the application session started such as user initiated, after updating, etc. |
+| machineLocked                      | Whether machine was locked or not locked during the event                        |
+| data                               | amitsri to provide details ???                                                      |
+| appRuntime                         | Captures runtime of the app                                                      |
+| activities                         | Last 50 user scenario names which happened before crash                          |
+| timeSinceActivity                  | amitsri to provide details ???                                                      |
+| appStates                          | records a list of app states that the app went through. This helps with crash investigation because we can see what state the app was in |
+| timeSinceAppState                  | Time since the app state changed                                                 |
+| webAppStates                       | similar to appStates except appStates is Desktop app states and webAppStates is web client states |
+| timeSinceWebAppState               | Time since the web app state changed                                             |
+| diagnosticEvents                   | Last 50 web app diagnostic events before app crash                               |
+| timeSinceLastDiagnosticEvent       | amitsri to provide details ???                                                      |
+| timeSinceSecondLastDiagnosticEvent | amitsri to provide details ???                                                      |
+| appInitialized                     | Whether webapplication has started                                               |
+| targetVersion                      | Version application is going to be updated to                                    |
+| port                               | amitsri to provide details ???                                                      |
+| originalUrl                        | Original location of page being rendered                                         |
+| deeplinkId                         | amitsri to provide details ???                                                      |
+| appSessionEnd                      | Whether event occurred at end of application session                                |
+| eventData                          | amitsri to provide details ???                                                      |
+| deeplinkType                       | Type of the deeplink (chat, meeting, channel)                                    |
+| previousUpdateUrl                  | Location where application last retrieved its update from                        |
+| previousUpdateVersion              | Last version application was updated to                                          |
+| previousUpdateTime                 | When application was binaries were last updated                                  |
+| protocol                           | amitsri to provide details ???                                                      |
+| files                              | amitsri to provide details ???                                                      |
+| Perf_WorkingSetSizeKB              | amitsri to provide details ???                                                      |
+| isTimeboxingWebAppInitialize       | amitsri to provide details ???                                                      |
+| isExp                              | amitsri to provide details ???                                                      |
+| deviceType                         | Captures type of the device                                                      |
+| sanitizedErr                       | Captures sanitized version of the error information                              |
+| rigelVersion                       | Captures version of rigel device                                                 |
+| DeviceInfo_OsSku                   | Captures OS SKU information                                                      |
+| listing                            | amitsri to provide ???details                                                       |
+| isLoggedOut                        | Captures if the user is logged out                                               |
+| complianceEnvironmentType          | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                           |
+| restartTimes                       | amitsri to provide details ???                                                      |
+| Skype_ResultCode                   | Captures result of interop communication between Skype and Teams                 |
+| cpumodel                           | Captures model of CPU                                                            |
+| isSlimCoreRunningOutproc           | Whether Slimcore component is running in its own process                         |
+| isSlimCoreStartedAsync             | amitsri to provide details ???                                                      |
+| peopleSearchId                     | amitsri to provide details ???                                                      |
+| networkState                       | Captures state of the network                                                    |
+| desktopBuildAge                    | How old the application build is at event time                                   |
+| vdiMode                            | Captures if the app is running in VDI mode                                       |
+
+### Properties sent with logging events
+
+| Property name         | Description                                                        |
+|-----------------------|--------------------------------------------------------------------|
+| message               | Captures a detailed message about the log                          |
+
+### Properties sent with scenario events
+
+| Property Name                     | Description                                                                        |
+|-----------------------------------|------------------------------------------------------------------------------------|
+| Scenario_Status                   | Status of a scenario                                                               |
+| Scenario_Step                     | Step in a scenario                                                                 |
+| sequence                          | Sequence number of the scenario                                                    |
+| delta                             | Time taken to complete different steps in a scenario                               |
+| elapsed                           | Time since the scenario started                                                    |
+| scenario                          | Uniquely identify a scenario                                                       |
+| Scenario_Name                     | Name of the scenario                                                               |
+| errorInfo                         | Info of the error that might have occurred during a scenario                       |
+| session                           | Unique session ID                                                                  |
+| freeMemory                        | Captures free memory available                                                     |
+| processMemory                     | Captures process memory                                                            |
+| scenarioDelta                     | Captures time different between 2 scenario steps                                   |
+| Session_DesktopId                 | Unique session ID                                                                  |
+| machineLocked                     | Captures if the machine was locked or not                                          |
+| windowIsVisible                   | Captures if the app window was visible to use                                      |
+| appStates/webAppStates            | records a list of app states that the app went through. This helps with crash investigation because we can see what state the app was in |
+| crashDesktopSession               | Captures ID of the crashed session                                                 |
+| appRuntime                        | Captures runtime of the app                                                        |
+| diagnosticEvents                  | Last 50 web app diagnostic events before app crash                                 |
+| activities                        | Last 50 user scenario names which happened before crash                            |
+| crashSession                      | Captures ID of the crashed session                                                 |
+| crashId                           | Captures ID of the crashed session                                                 |
+| isPreviousLifecycleValid          | Whether previous app was fully initialized and terminated successfully             |
+| isSettingValid                    | Whether preauth settings are valid                                                 |
+| rollbackReason                    | Reason due to which app was rolled back                                            |
+| deeplinkType                      | Type of the deeplink                                                               |
+| watchdogCrash                     | Whether app crashed due to hang                                                    |
+| protocols                         | Protocol used to launch the app                                                    |
+| electronBuild                     | Build version of electron app                                                      |
+| distribution                      |  whether Teams was installed via exe or msi or dmg or pkg, etc.                    |
+| updateTimeOfDay                   | Time the app was updated                                                           |
+| launchPath                        | whether Teams is installed in %LOCALAPPDATA%, %PROGRAMFILES%, or other locations   |
+| loggedIn                          | If the user was logged in                                                          |
+| envType/complianceEnvironmentType | ommercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
+| cpuusage                          | CPU usage                                                                          |
+| installationSource                | Type of installation user has                                                      |
+| adalVersion                       | Version of the auth library                                                        |
+| asyncStart                        | Is the app using synchronous or asynchronous start                                 |
+| attempts                          | Number of online check attempts made for the user before showing a blocking screen |
+
+### Properties sent with userbi panelview events
+
+| Property           | Description                                              |
+|--------------------|----------------------------------------------------------|
+| Panel_Uri          | Uri of the panel delivered to the user                   |
+| Panel_Type         | Panel type accessed by the user                          |
+| Team_Id            | ID of the team in which action was performed by the user |
+| Thread_Id          | ID of the thread that was accessed by user               |
+| Panel_PreviousUri  | URI of the previous panel                                |
+| Panel_Region       | Region where the panel was hosted in the app             |
+| Panel_LaunchMethod | Method through which the panel was launched              |
+| Panel_PreviousType | Type of the previous panel                               |
+| Thread_Type        | Type of thread accessed by user                          |
+| Panel_LaunchSource | Source information of the panel that was launched        |
+| Tab_Type           | Type of the tab accessed by user                         |
+| Team_Type          | Type of team accessed by user                            |
 
 ### Properties sent with panelaction events
 
@@ -499,7 +654,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | Team_Id               | ID of the team in which action was performed by the user           |
 | Module_Type           | Type of the module which hosted user action                        |
 | Module_Name           | Name of the module which hosted user action                        |
-| Module_Summary        | Summary of the module that hosted user action                      |
+| Module_Summary        | Summary of the module that hosed user action                       |
 | Thread_Id             | ID of the thread that was accessed by user                         |
 | Panel_PreviousUri     | URI of the previous panel                                          |
 | Panel_Region          | Region where the panel was hosted in the app                       |
@@ -512,32 +667,55 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | Tab_Type              | Type of the tab accessed by user                                   |
 | Team_Type             | Type of team accessed by user                                      |
 
-### Properties sent with panelview events
+### Properties sent with addin events
 
-| Panel_Uri          | Uri of the panel delivered to the user                   |
-|--------------------|----------------------------------------------------------|
-| Panel_Type         | Panel type accessed by the user                          |
-| Team_Id            | ID of the team in which action was performed by the user |
-| Thread_Id          | ID of the thread that was accessed by user               |
-| Panel_PreviousUri  | URI of the previous panel                                |
-| Panel_Region       | Region where the panel was hosted in the app             |
-| Panel_LaunchMethod | Method through which the panel was launched              |
-| Panel_PreviousType | Type of the previous panel                               |
-| Thread_Type        | Type of thread accessed by user                          |
-| Panel_LaunchSource | Source information of the panel that was launched        |
-| Tab_Type           | Type of the tab accessed by user                         |
-| Team_Type          | Type of team accessed by user                            |
-
-### Properties sent with scenario events
-
-| Property name        | Description |
-|----------------------|-------------|
-| Scenario_Status      | Status of a scenario - Abandon/OK/ERROR |
-| Scenario_Step        | When a scenario contains multiple steps with different failure points, this property captures details about the step |
-| Scenario_StatusCode  | Property records status code of the scenario based on scenario success or failure |
-
-### Properties sent with trace events
-
-| Property name | Description                                                                                    |
-|---------------|------------------------------------------------------------------------------------------------|
-| Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+| Property Name                   | Description                                                              |
+|---------------------------------|--------------------------------------------------------------------------|
+| AccountComparisonFailedReason   | Addin compares the account with Teams account to see if creation is allowed. If this comparison fails we send the event |
+| AccountComparisonSuccessful     | If the above is successful ???                                              |
+| AdalVersion                     | Version of the authentication library used                               |
+| AddinBitness                    | Version of addin                                                         |
+| AddinLanguage                   | Language of addin strings being used                                     |
+| AggregatorSetupCompletedTime    | Setup time for addin loader                                              |
+| AppDomainCreatedTime            | Time when addin loader initializes app domain                            |
+| AppointmentDisplayTime          | Time at which the appointment item was displayed during meeting creation |
+| AuthenticationCompletedTime     | Time at which authentication was provided for a given request            |
+| ConnectionMode                  | Indicates the connection mode of the user's primary Exchange account     |
+| ConnectionStartedTime           | Time when Outlook calls OnConnection                                     |
+| ErrorDetails                    | Captures details of the error                                            |
+| ErrorName                       | Captures name of the error                                               |
+| ExchangeVersion                 | Captures version of Exchange                                             |
+| IsSmtpFormatError               | Error in SMTP address                                                    |
+| IsTeamsRunning                  | Captures if there is a Teams process running                             |
+| IsTeamsUserLoggedOut            | Captures if the user is logged out of Teams                              |
+| LanguageSetupCompletedTime      | Time at which language setup got completed                               |
+| ManagedConnectTime              | Time when the managed add-in received the connect callback               |
+| ManagedOnStartupTime            | Time when managed started the startup                                    |
+| MTFetchCompleted                | Time when MT meeting options request is completed                        |
+| NetFrameworkVersion             | .nET framework used                                                      |
+| NetworkAvailable                | Is network available                                                     |
+| OperationStartTime              |  Time when different operations started                                  |
+| OsBitness                       | Bitness of OS                                                            |
+| OutlookLanguage                 | Captures language of the Outlook app                                     |
+| OutlookVersion                  | Captures version of Outlook app                                          |
+| OwnerResolutionTime             | Time to resolve the meeting owner                                        |
+| ParseResponseCompletedTime      | Time when parsing of response completed                                  |
+| RecipientResolutionError        | Error details when resolving a recipient                                 |
+| RecipientsResolutionTime        | Total time to resolve all recipients                                     |
+| RehydrateCompletedTime          | Time when properties are read from Outlook                               |
+| SaveToOutlookCompletedTime      | Time when properties are saved to Outlook                                |
+| ServiceRequestStartTime         | Start time of the service request                                        |
+| ServiceResponseReceiveTime      | Time of response from the service                                        |
+| SettingsInitializeCompletedTime | Time when settings initialized                                           |
+| SetupLoggingCompletedTime       | Time when logging was set up                                             |
+| ShutdownBeginTime               | Time when shutdown of addin begins                                       |
+| ShutdownCompletedTime           | Time when shutdown completed                                             |
+| StartupBeginTime                | Time when startup of addin begins                                        |
+| StartupCompletedTime            | Time when startup completed                                              |
+| TeamsDeployment                 | Deployment of Teams client (Dev, Prod)                                   |
+| TeamsRing                       | Ring of current user logged into Teams client                            |
+| TeamsVersion                    | Captures version of Teams app                                            |
+| TelemetrySetupCompletedTime     | Time when telemetry setup is completed                                   |
+| UpnMismatch                     | Whether theres a upn mismatch between outlook and teams                  |
+| UserDomain                      | Domain of the user                                                       |
+| ViewUpdatedTime                 | Time when the view got updated                                           |
