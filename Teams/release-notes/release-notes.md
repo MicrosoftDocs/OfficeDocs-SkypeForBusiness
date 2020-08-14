@@ -24,6 +24,10 @@ These release notes provide information about new admin features for Microsoft T
 
 ## August 17, 2020
 
+### Manage the praise app
+
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
+
 ### Tagging by Shift
 
 With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams.
@@ -46,6 +50,12 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 Teams users can now directly manage, create and maintain their lists using the Lists App tab. The Lists App works on all Teams clients and enables collaboration and communication around list items.
 
+## August 3, 2020
+
+### Purchase services for Teams third-party apps in the Microsoft Teams admin center
+
+Teams apps are free to install and some may require purchasing service subscriptions to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers, which are available for purchase through AppSource and now through the Microsoft Teams admin center. [Learn more](../purchase-third-party-apps.md).
+
 ## July 31, 2020
 
 ### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
@@ -58,11 +68,23 @@ Admins can configure their firstline workers to have shift-based presence states
 
 As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags.md).
 
+## July 20, 2020
+
+### Admins can control outgoing webhooks at the user level 
+
+Admins can control outgoing webhooks at the user level by allowing or blocking the Outgoing Webhooks app in app permission policies. [Learn more](../manage-apps.md).
+
 ## July 9, 2020
 
 ### Voicemail support in call queues
 
 We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue.md).
+
+## July 7, 2020
+
+### Sensitivity labels for Teams
+
+Sensitivity labels allow Teams admins to regulate access to sensitive organizational content created during collaboration within teams. [Learn more](../sensitivity-labels.md).
 
 ## July 2, 2020
 
@@ -91,6 +113,12 @@ Instant voice communication using push-to-talk.
 ### Enable suggested replies
 
 Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+
+## June 21, 2020
+
+### Use inline message translation for mobile devices
+
+Inline message translation is a new Microsoft Teams feature that lets users translate Teams messages into the language specified by their personal language settings. [Learn more](https://docs.microsoft.com/en-us/microsoftteams/inline-message-translation-teams).
 
 ## June 11, 2020
 
