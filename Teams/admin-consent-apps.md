@@ -1,5 +1,5 @@
 ---
-title: View permissions requested by apps and grant admin consent to apps in the Microsoft Teams admin center
+title: View app permissions and grant admin consent to apps in the Microsoft Teams admin center
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: vaibhava
@@ -16,7 +16,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# View permissions requested by apps and grant admin consent to apps in the Microsoft Teams admin center
+# View app permissions and grant admin consent to apps in the Microsoft Teams admin center
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
 
