@@ -72,4 +72,4 @@ To assign roles, you must be a Global Administrator or Managed Service Administr
 
 ## Related topics
 
-- [Microsoft Teams Rooms Premium](microsoft-teams-rooms-premium.md)
+- [Microsoft Teams Rooms Premium](microsoft-teams-rooms-premium.md) 
