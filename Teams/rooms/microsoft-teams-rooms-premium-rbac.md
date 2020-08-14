@@ -45,18 +45,27 @@ You can assign built-in roles to groups or users without further configuration. 
 - **Site Lead**: Organizes rooms, has access to reports and can manage tickets. Can't reset enrollment key or make changes to the configuration of the service.  
 - **Site Tech**: Manages tickets for specific rooms. Doesn't have permissions to modify the service or organize rooms in the service.
 
-|Column1  |Column2  |Column3  |Column4  |Column4  |
+|Feature  |Permission |Managed Service Administrator  |Site Lead  |Site Tech  |
 |---------|---------|---------|---------|---------|
-|Row1     |         |         |         ||
-|Row2     |         |         |         ||
-|Row3     |         |         |         ||
-|Row4     |         |         |         ||
-|Row5     |         |         |         ||
-|Row6     |         |         |         ||
-|Row7     |         |         |         ||
-|Row8     |         |         |         ||
-|Row9     |         |         |         ||
-|Row10    |         |         |         ||
+|Rooms     |View        |&#10004;           |&#10004;           |&#10004;  |
+|    |Modify         |&#10004;           |&#10004;           |&#10004; |
+|    |Reset key         |&#10004;           |         ||
+|    |Download key         |&#10004;           |&#10004;          |&#10004; |
+|    |Unenroll         |&#10004;           |&#10004;           |&#10004; |
+|Group management   |Create         |&#10004;           |&#10004;           ||
+|    |View       |&#10004;          |&#10004;           ||
+|    |Modify         |&#10004;           |&#10004;           ||
+|Update ring management    |Create         |&#10004;           |&#10004;           ||
+|    |View         |&#10004;           |&#10004;           ||
+|    |Modify         |&#10004;           |&#10004;           ||
+|Reports   |View        |&#10004;           |&#10004;           ||
+|Ticket management   |Create customer incident         |&#10004;           |&#10004;           |&#10004;  |
+|    |View         |&#10004;           |&#10004;           |&#10004;  |
+|    |Update         |&#10004;           |&#10004;           |&#10004;  |
+|Microsoft Teams Rooms Premium settings    |View         |&#10004;           |         ||
+|    |Modify        |&#10004;           |         ||
+|Role management    |View         |&#10004;           |         ||
+|    |Modify         |&#10004;           |         ||
 
 ## Assign a role
 
