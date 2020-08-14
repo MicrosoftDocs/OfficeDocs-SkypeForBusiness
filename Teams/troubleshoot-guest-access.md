@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot problems with guest access in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -1,7 +1,7 @@
 ---
 title: Support remote workers using Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -110,7 +110,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md).
 
-   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered.
+   - Join one of our [online classes](instructor-led-training-teams-landing-page.yml) to see Teams in action and get your questions answered.
 
    - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
 

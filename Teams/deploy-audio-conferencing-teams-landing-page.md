@@ -3,8 +3,8 @@ title: Configure Audio Conferencing settings - Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out audio conferencing as part of the meetings workload in Microsoft Teams.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 ms.date: 01/28/2019

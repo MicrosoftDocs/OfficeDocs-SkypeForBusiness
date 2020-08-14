@@ -262,7 +262,7 @@ To use PowerShell to control who can give control or accept requests for control
 
 ### Allow an external participant to give or request control
 
-This is a per-user policy. This setting controls whether external participants in a meeting can give control of their shared desktop or window to other participants in the meeting. External participants in Teams meetings can be categorized as follows:  
+This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
 - Anonymous user
 - Guest users  
@@ -437,3 +437,4 @@ To specify whether users can customize their video background in a meeting, set 
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)
+- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
