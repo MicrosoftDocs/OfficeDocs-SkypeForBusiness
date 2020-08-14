@@ -6,10 +6,10 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: jambirk
-  manager: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.date: 03/28/2019
-  ms.reviewer: lolaj
+  ms.reviewer:
   ms.service: 
   - skype-for-business-online
   - msteams
