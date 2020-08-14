@@ -38,7 +38,7 @@ Cortana in Teams meets the same enterprise-level privacy, security, and complian
 
 ### Teams Devices Administrator
 
-Users with this role can manage Teams certified devices from the Teams admin center. They can check details of each device including the account that is signed in, and the make and model of the device. They can change the settings on the device, update the software, and restart devices remotely. [Learn more](../using-admin-roles)
+Users with this role can manage Teams certified devices from the Teams admin center. They can check details of each device including the account that is signed in, and the make and model of the device. They can change the settings on the device, update the software, and restart devices remotely. [Learn more](../using-admin-roles.md)
 
 ## August 12, 2020
 
@@ -56,23 +56,29 @@ Admins can configure their firstline workers to have shift-based presence states
 
 ### Enhanced Manageability using Device Tagging functionality 
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags.md).
 
 ## July 9, 2020
 
 ### Voicemail support in call queues
 
-We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue).
+We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue.md).
 
 ## July 2, 2020
 
 ### Suggested replies
 
-We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams#messaging-policy-settings).
+We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams#messaging-policy-settings.md).
 
 ### Transferring incoming calls
 
 We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number.  [Learn more](../business-voice/set-up-auto-attendants.md).
+
+## June 30, 2020
+
+### Install apps on behalf of others
+
+You choose which apps are installed by default for users when they start Teams. [Learn more](..//teams-app-setup-policies.md)
 
 ## June 29, 2020
 
@@ -80,12 +86,17 @@ We added the ability for auto attendants and call queue incoming calls to be tra
 
 Instant voice communication using push-to-talk.
 
+## July 15, 2020
+
+### Enable suggested replies
+
+Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+
 ## June 11, 2020
 
 ### Call queues - Presence-based routing
 
 When turned off, calls will be routed to agents who have opted in to receive calls, regardless of their presence state. When turned on, opted-in agents will receive calls only when their presence state is Available. [Learn more](../create-a-phone-system-call-queue.md).
-
 
 ## June 10, 2020
 
