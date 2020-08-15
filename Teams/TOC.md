@@ -63,7 +63,6 @@
 
 ### Guest access
 #### [About guest access](guest-access.md)
-#### [Guest access checklist](guest-access-checklist.md)
 #### [How a guest joins a team](guest-joins.md)
 #### [What the guest experience is like](guest-experience.md)
 #### [Authorize guest access in Teams](teams-dependencies.md)

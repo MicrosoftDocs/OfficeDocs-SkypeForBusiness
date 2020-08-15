@@ -45,7 +45,7 @@ Use **guest access** to add an individual user (regardless of domain) to a team,
 - Guest users have access to more resources in Teams - such as files, teams, and channels - than external-access (federated) users.
 - The Teams admin controls everything that a guest can (or can’t) do in the Teams admin center. To learn more, read [Manage guest access](manage-guests.md).
 
-If you're ready to turn on guest access in your organization, start with the [Guest access checklist](guest-access-checklist.md).
+If you're ready to turn on guest access in your organization, start with the [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 
 ## Compare external and guest access
