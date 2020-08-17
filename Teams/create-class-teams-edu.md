@@ -161,8 +161,8 @@ Teams created from groups (through SDS, educator-led or Graph API) automatically
 
 ### How do I check if a class is activated?
 
-In the [team resource type](https://docs.microsoft.com/graph/api/resources/team), we added a new property, **isMembershipLimitedToOwners**, to determine whether a class is activated. Use the [Get Team API](https://docs.microsoft.com/graph/api/team-get) to query the **isMembershipLimitedToOwners** property for a specific class. If the team is activated, it will return a va value of false. If the team isn't yet activated by the team owner, it will return a value of true.
+In the [team resource type](https://docs.microsoft.com/graph/api/resources/team), we added a new property, ```isMembershipLimitedToOwners```, to determine whether a class is activated. Use the [Get Team API](https://docs.microsoft.com/graph/api/team-get) to query the ```isMembershipLimitedToOwners``` property for a specific class. If the team is activated, it will return a va value of false. If the team isn't yet activated by the team owner, it will return a value of true.
 
 ### How do I activate a class for an educator?
 
-Use the [Update Team API](https:/docs.microsoft.com/graph/api/team-update) and set the **isMembershipLimitedToOwners** property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
+Use the [Update Team API](https:/docs.microsoft.com/graph/api/team-update) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
