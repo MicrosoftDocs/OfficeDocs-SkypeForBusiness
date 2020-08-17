@@ -64,13 +64,14 @@ Teams apps are free to install and some may require purchasing service subscript
 
 ### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
 
-Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](../firstline-workers-quickstart.md).
+Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
+[Learn more](../firstline-workers-quickstart.yml).
 
 ## July 29, 2020
 
 ### Enhanced Manageability using Device Tagging functionality
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../manage-device-tags.md).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](../../manage-device-tags.md).
 
 ## July 20, 2020
 
@@ -100,7 +101,7 @@ Sensitivity labels allow Teams admins to regulate access to sensitive organizati
 
 ### Suggested replies
 
-We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams#messaging-policy-settings.md).
+We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams.md#messaging-policy-settings).
 
 ### Transferring incoming calls
 
