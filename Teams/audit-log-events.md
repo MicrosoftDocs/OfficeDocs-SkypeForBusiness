@@ -97,7 +97,7 @@ As mentioned earlier, you can monitor deletion scenarios. It's possible to creat
 
 As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy on, depending on your organizational needs.
 
-After you established a policy that works for your business, you can review the results in the activity log as events are triggered:
+After you establish a policy that works for your business, you can review the results in the activity log as events are triggered:
 
 ![Screenshot of a list of events triggered by mass deletions](media/TeamsMassDeleteList.png)
 
