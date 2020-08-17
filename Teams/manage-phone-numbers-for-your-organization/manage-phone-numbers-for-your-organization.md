@@ -45,14 +45,20 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 **Select your country or region to find the downloadable PDF LOA forms you will need**
 > [!div class="op_single_selector"]
 > - [Australia](phone-number-management-for-australia.md)
+> - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Denmark](phone-number-management-for-denmark.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
 > - [Ireland](phone-number-management-for-ireland.md)
+> - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
 > - [Netherlands](phone-number-management-for-the-netherlands.md)
+> - [Portugal](phone-number-management-for-the-portugal.md)
 > - [Spain](phone-number-management-for-spain.md)
+> - [Sweden](phone-number-management-for-sweden.md)
+> - [Switzerland](phone-number-management-for-switzerland.md)
 > - [U.K.](phone-number-management-for-the-u-k.md)
 > - [U.S. & Puerto Rico](phone-number-management-for-the-u-s.md)
 
