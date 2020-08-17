@@ -39,7 +39,7 @@ The table below lists devices certified for Direct Routing.
 
 [Learn more about Direct Routing](https://aka.ms/dr). 
 If you have any questions about SBC certification program for Direct Routing please contact drsbccertification@microsoft.com.
-
+<br/>
 
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | Validated with E911 providers | ELIN capable
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
@@ -74,7 +74,7 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1r      |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise ( ASBCE)    |     &#10004;     |           |       Release 8.1.1       |     |    | 
 
-
+<br/>
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
 |                                                       Vendor                                                        |       Product       | Verified
