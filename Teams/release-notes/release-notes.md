@@ -28,6 +28,10 @@ These release notes provide information about new admin features for Microsoft T
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
 
+### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
+
+If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeting room, you can set up Coordinated Meetings. Coordinated Meetings lets you set up your Teams Rooms devices and Surface Hubs so that when you join a meeting on one device, the other devices in the room are also joined to the same meeting. [Learn more](../rooms/coordinated-meetings).
+
 ### Tagging by Shift
 
 With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags).
@@ -60,7 +64,7 @@ Teams apps are free to install and some may require purchasing service subscript
 
 ### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
 
-Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
+Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](../firstline-workers-quickstart).
 
 ## July 29, 2020
 
