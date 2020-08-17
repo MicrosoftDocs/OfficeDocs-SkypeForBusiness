@@ -30,11 +30,11 @@ The Praise app in Microsoft Teams helps users show appreciation to members of th
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
-If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeting room, you can set up Coordinated Meetings. Coordinated Meetings lets you set up your Teams Rooms devices and Surface Hubs so that when you join a meeting on one device, the other devices in the room are also joined to the same meeting. [Learn more](../rooms/coordinated-meetings).
+If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeting room, you can set up Coordinated Meetings. Coordinated Meetings lets you set up your Teams Rooms devices and Surface Hubs so that when you join a meeting on one device, the other devices in the room are also joined to the same meeting. [Learn more](../rooms/coordinated-meetings.md).
 
 ### Tagging by Shift
 
-With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags).
+With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags.md).
 
 ## August 14, 2020
 
@@ -64,7 +64,7 @@ Teams apps are free to install and some may require purchasing service subscript
 
 ### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
 
-Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](../firstline-workers-quickstart).
+Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](../firstline-workers-quickstart.md).
 
 ## July 29, 2020
 
@@ -74,7 +74,7 @@ As part of enhanced manageability, we are releasing Device Tagging functionality
 
 ## July 20, 2020
 
-### Admins can control outgoing webhooks at the user level 
+### Admins can control outgoing webhooks at the user level
 
 Admins can control outgoing webhooks at the user level by allowing or blocking the Outgoing Webhooks app in app permission policies. [Learn more](../manage-apps.md).
 
@@ -82,7 +82,7 @@ Admins can control outgoing webhooks at the user level by allowing or blocking t
 
 ### NDI-out for Teams meetings
 
-We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for the audio and video of a meeting to be utilized by video production tools. [Learn more](../use-ndi-in-meetings).
+We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for the audio and video of a meeting to be utilized by video production tools. [Learn more](../use-ndi-in-meetings.md).
 
 ## July 9, 2020
 
@@ -128,7 +128,7 @@ Turn this setting on to enable suggested replies for chat messages. [Learn more]
 
 ### Sign-in restrictions for Android and iOS users
 
-If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams).
+If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams.md).
 
 ## June 11, 2020
 
