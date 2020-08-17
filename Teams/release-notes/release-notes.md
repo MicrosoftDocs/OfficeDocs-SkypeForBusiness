@@ -101,7 +101,7 @@ Sensitivity labels allow Teams admins to regulate access to sensitive organizati
 
 ### Suggested replies
 
-We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams#messaging-policy-settings).
+We added the ability for Teams users to have a suggested reply to their conversations. These suggestions will appear at the bottom of a chat message if they are enabled. They make replying to messages quick and easy! [Learn more](../messaging-policies-in-teams.md#messaging-policy-settings).
 
 ### Transferring incoming calls
 
