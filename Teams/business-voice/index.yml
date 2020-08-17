@@ -21,6 +21,8 @@ productDirectory:
       links:
         - url: whats-business-voice.md
           text: What's Business Voice
+        - url: https://www.microsoft.com/microsoft-365/business-voice
+          text: Microsoft 365 Business Voice          
         - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
           text: Service description
     # Card
