@@ -30,7 +30,7 @@ The Praise app in Microsoft Teams helps users show appreciation to members of th
 
 ### Tagging by Shift
 
-With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams.
+With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags).
 
 ## August 14, 2020
 
@@ -42,7 +42,7 @@ Cortana in Teams meets the same enterprise-level privacy, security, and complian
 
 ### Teams Devices Administrator
 
-Users with this role can manage Teams certified devices from the Teams admin center. They can check details of each device including the account that is signed in, and the make and model of the device. They can change the settings on the device, update the software, and restart devices remotely. [Learn more](../using-admin-roles.md)
+Users with this role can manage Teams certified devices from the Teams admin center. They can check details of each device including the account that is signed in, and the make and model of the device. They can change the settings on the device, update the software, and restart devices remotely. [Learn more](../using-admin-roles.md).
 
 ## August 12, 2020
 
@@ -74,6 +74,12 @@ As part of enhanced manageability, we are releasing Device Tagging functionality
 
 Admins can control outgoing webhooks at the user level by allowing or blocking the Outgoing Webhooks app in app permission policies. [Learn more](../manage-apps.md).
 
+## July 17, 2020
+
+### NDI-out for Teams meetings
+
+We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for the audio and video of a meeting to be utilized by video production tools. [Learn more](../use-ndi-in-meetings).
+
 ## July 9, 2020
 
 ### Voicemail support in call queues
@@ -100,7 +106,7 @@ We added the ability for auto attendants and call queue incoming calls to be tra
 
 ### Install apps on behalf of others
 
-You choose which apps are installed by default for users when they start Teams. [Learn more](..//teams-app-setup-policies.md)
+You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md)
 
 ## June 29, 2020
 
@@ -116,9 +122,9 @@ Turn this setting on to enable suggested replies for chat messages. [Learn more]
 
 ## June 21, 2020
 
-### Use inline message translation for mobile devices
+### Sign-in restrictions for Android and iOS users
 
-Inline message translation is a new Microsoft Teams feature that lets users translate Teams messages into the language specified by their personal language settings. [Learn more](https://docs.microsoft.com/en-us/microsoftteams/inline-message-translation-teams).
+If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams).
 
 ## June 11, 2020
 
