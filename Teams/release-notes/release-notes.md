@@ -24,6 +24,12 @@ These release notes provide information about new admin features for Microsoft T
 
 ## August 17, 2020
 
+### Group chat size increase
+
+Group chat increase
+
+We added the ability to now have 250 participants in a group chat.
+
 ### Manage the praise app
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
@@ -85,11 +91,23 @@ Admins can control outgoing webhooks at the user level by allowing or blocking t
 
 We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for the audio and video of a meeting to be utilized by video production tools. [Learn more](../use-ndi-in-meetings.md).
 
+## July 15, 2020
+
+### Enable suggested replies
+
+Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+
 ## July 9, 2020
 
 ### Voicemail support in call queues
 
 We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue.md).
+
+## July 8, 2020
+
+### Policy packaging batch assignment
+
+We made it possible to use PowerShell to batch assign a Policy Package for user and groups.
 
 ## July 7, 2020
 
@@ -119,11 +137,15 @@ You choose which apps are installed by default for users when they start Teams. 
 
 Instant voice communication using push-to-talk.
 
-## July 15, 2020
+## June 25, 2020
 
-### Enable suggested replies
+### Teams filter option
 
-Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+We added a new filter option in the command bar so you can set specific parameters when searching for specific teams.
+
+### Users widgets
+
+We added a new User summary widget that is available when you are adding teams and channels.
 
 ## June 21, 2020
 
