@@ -78,6 +78,8 @@ Creating a resource account that uses a phone number would require performing th
     ```
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+    
+    Note-at this point, the account may have synced, but provisioning may not be complete.  Check the output of [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  If the synced endpoint has not completed provisioning yet, then it will not appear here.  You can check the status of the provisioning requests in the M365 portal under [Teams Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  This provisioning phase can take up to 24 hours.
 
 5. Assign the Phone System - Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
