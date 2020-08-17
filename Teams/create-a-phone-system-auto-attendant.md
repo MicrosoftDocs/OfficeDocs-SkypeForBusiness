@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -25,7 +25,7 @@ description: "Learn how to set up and test Cloud auto attendants for Microsoft T
 
 # Set up a Cloud auto attendant
 
-Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with Powershell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -95,6 +95,7 @@ You have several ways to set the Operator:
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 <!--   
 
@@ -184,6 +185,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
   - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
@@ -237,6 +239,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
@@ -423,7 +426,7 @@ You can use the Summary page to review the settings you've created.
 
 Press the **Create** button to finish setup of your new auto attendant. -->
 
-### Create an auto attendant with Powershell
+### Create an auto attendant with PowerShell
 
 You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
 
