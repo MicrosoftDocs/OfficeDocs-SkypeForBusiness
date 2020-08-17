@@ -101,4 +101,4 @@ The use of Insights does not require the use of SDS. However, you may choose to 
 By default, Education Analytics, and therefore Insights, is turned on. When you opt out of Analytics, we delete all data collected for the Insights tab. Turn Analytics back on, and we start collecting data from the time it's re-enabled.
 
 Learn more:
-[Educator's guide to Insights](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f5015718)
+[Educator's guide to Insights](https://support.microsoft.com/en-us/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
