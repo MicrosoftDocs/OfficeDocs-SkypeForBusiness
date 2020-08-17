@@ -144,7 +144,7 @@
 #### [Online Licensing](rooms/rooms-licensing.md)
 #### [Plan management with Azure Monitor](rooms/azure-monitor-plan.md)
 #### Microsoft Teams Rooms managed service
-#### [Plan management with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium.md)
+##### [Plan management with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium.md)
 ##### [Role-based access control with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### Deploy
 #### [Deployment overview](rooms/rooms-deploy.md)
