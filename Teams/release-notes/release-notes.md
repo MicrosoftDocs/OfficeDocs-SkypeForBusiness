@@ -26,8 +26,6 @@ These release notes provide information about new admin features for Microsoft T
 
 ### Group chat size increase
 
-Group chat increase
-
 We added the ability to now have 250 participants in a group chat.
 
 ### Manage the praise app
