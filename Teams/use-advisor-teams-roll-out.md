@@ -1,5 +1,5 @@
 ---
-title: Use Advisor for Teams (public preview) to help you roll out Microsoft Teams
+title: Use Advisor for Teams to help you roll out Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: brandber
@@ -20,37 +20,35 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom:
-description: "Use Advisor for Teams (public preview) to help you plan and complete your Microsoft Teams deployment."
+description: "Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment."
 ---
 
 # Use Advisor for Teams to help you roll out Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams service admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
-Advisor for Teams (public preview) walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 or Office 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Microsoft 365 or Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
-
-Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need an Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
+Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need a Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
 > [!IMPORTANT]
-> Advisor for Teams isn't available for Microsoft 365 Government - GCC High or DoD deployments.
+> Advisor for Teams isn't available for Microsoft 365 Government (GCC High or DoD) deployments.
 
 For a guided overview of the Advisor for Teams experience, check out the [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics video.
 
-## Using Advisor for Teams (public preview)
+## Using Advisor for Teams
 
-**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
+**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments). However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
 > [!IMPORTANT]
-> If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams. This behavior will change in the future.
+> If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams.
 
 The first time you use Advisor for Teams, it'll create a Deployment team for you in Teams. It adds a channel for each workload you select.
 
 > [!IMPORTANT]
-> If a Deployment team has already been created and a different user tries to create it, they'll get an error telling them to contact the support team. This prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
+> If a Deployment team has already been created and a different user tries to create it, they'll get an error telling them to contact their support team. This prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
 
 ## Available Advisor for Teams plans
 
-While Advisor for Teams is in public preview, we're providing the following plans:
+Advisor for Teams currently provides the following plans:
 
 1. Chat, teams, channels, and apps
     - Tenant assessment
@@ -78,7 +76,7 @@ Each plan includes a tenant readiness assessment that you can use to quickly ide
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, a Microsoft 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
-> Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours. This is temporary - as soon as Advisor for Teams leaves the public preview and is generally available, the assessments will update in near real time.
+> Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours.
 
 The sections below describe each assessment, including whether something is a prerequisite or best practices, what each assessment checks is doing and why, and guidance for remediation as needed.
 
@@ -90,7 +88,7 @@ The sections below describe each assessment, including whether something is a pr
 |Teams licenses     |This is a prerequisite - you **must have** Teams licenses in order to roll out Teams. Queries the Microsoft Graph to see whether you have Teams licenses (with at least one license available to assign). For more information, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant and validate whether you have subscriptions with an eligible Exchange Online license (with at least one license available to assign). For more information, read [How Exchange and Teams interact](exchange-teams-interact.md).    |
 |SharePoint Online licenses     |Whether you have an active subscription with available SharePoint Online licenses. We recommend per-user SharePoint Online licenses to provide OneDrive for Business for file storage in chats. Queries the Microsoft Graph to see whether you have SharePoint Online licenses (with at least one license available to assign). For more information, read [How SharePoint Online and OneDrive for Business interact with Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
-|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. Use the [Teams guest access checklist](guest-access-checklist.md) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
+|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
 |External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on, with open federation. |
 
 ### Assessments for chat, teams, channels, and apps
@@ -140,7 +138,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 At a minimum, you'll need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team?
-After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the public preview period and becomes generally available.
+After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists.
 
 ### Can I add or remove channels in the Deployment team?
 Yes, once the Deployment team has been created, you'll manage the channels the same way as any other team.
@@ -178,5 +176,4 @@ Go to the [Forms help center](https://support.office.com/forms).
 
 [Best practices for organizing teams in Teams](best-practices-organizing.md)
 
-[Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-)
+[Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
