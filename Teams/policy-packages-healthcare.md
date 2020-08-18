@@ -30,7 +30,6 @@ Policy packages pre-define policies for the following, depending on the package:
 - Messaging
 - Meetings
 - Calling
-- Teams
 - App setup
 - Live events
 
@@ -64,7 +63,9 @@ Keep in mind that you can also change the settings of policies in a package afte
 
 ### Assign
 
-Assign the policy package to users. To assign a policy package to one or multiple users, click **Manage users**. You can also use PowerShell to assign a policy package to large batches of users. For steps on how to assign a policy package, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+Assign the policy package to users. To assign a policy package to one or multiple users, click **Manage users**. You can also [use PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) to assign a policy package to large batches of users. 
+
+For steps on how to assign a policy package using the Microsoft Teams admin center or PowerShell, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
 ![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
 
