@@ -24,9 +24,13 @@ These release notes provide information about new admin features for Microsoft T
 
 ## August 17, 2020
 
+### Group chat size increase
+
+We added the ability to now have 250 participants in a group chat.
+
 ### Manage the praise app
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
+The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
@@ -50,9 +54,15 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ## August 12, 2020
 
-### Lists App in Teams
+### Lists app in Teams
 
-Teams users can now directly manage, create and maintain their lists using the Lists App tab. The Lists App works on all Teams clients and enables collaboration and communication around list items.
+Teams users can now directly manage, create and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items.
+
+## August 6, 2020
+
+### Approve custom apps
+
+Approve custom apps submitted through the Teams App Submission API. [Learn more](../submit-approve-custom-apps.md).
 
 ## August 3, 2020
 
@@ -60,18 +70,17 @@ Teams users can now directly manage, create and maintain their lists using the L
 
 Teams apps are free to install and some may require purchasing service subscriptions to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers, which are available for purchase through AppSource and now through the Microsoft Teams admin center. [Learn more](../purchase-third-party-apps.md).
 
-## July 31, 2020
-
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
-
-Admins can configure their Firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
-[Learn more](../firstline-workers-quickstart.yml).
-
 ## July 29, 2020
 
 ### Enhanced Manageability using Device Tagging functionality
 
 As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+
+## July 28, 2020
+
+### Create your own Teams template
+
+You can now use templates from the Admin console to create your own Teams template or create a Teams template from existing templates. [Learn more](../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## July 20, 2020
 
@@ -97,6 +106,12 @@ Turn this setting on to enable suggested replies for chat messages. [Learn more]
 
 We added support for call queues to use a shared voicemail box. [Learn more](../create-a-phone-system-call-queue.md).
 
+## July 8, 2020
+
+### Policy packaging batch assignment
+
+We made it possible to use PowerShell to batch assign a Policy Package for user and groups.
+
 ## July 7, 2020
 
 ### Sensitivity labels for Teams
@@ -117,13 +132,23 @@ We added the ability for auto attendants and call queue incoming calls to be tra
 
 ### Install apps on behalf of others
 
-You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md)
+You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md).
 
 ## June 29, 2020
 
 ### Walkie Talkie app in Microsoft Teams
 
 Instant voice communication using push-to-talk.
+
+## June 25, 2020
+
+### Teams filter option
+
+We added a new filter option in the command bar so you can set specific parameters when searching for specific teams.
+
+### Users widgets
+
+We added a new User summary widget that is available when you are adding teams and channels.
 
 ## June 21, 2020
 
