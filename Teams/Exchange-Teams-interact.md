@@ -120,4 +120,4 @@ To complete the integration, follow Steps 1-3 in [How do you configure OAuth aut
 
 ## Troubleshooting
 
-For a full troubleshooting guide on the topic, make sure to check [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/en-us/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)
+For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
