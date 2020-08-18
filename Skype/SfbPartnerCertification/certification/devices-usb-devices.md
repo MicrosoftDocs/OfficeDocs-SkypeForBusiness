@@ -31,11 +31,12 @@ The peripherals certification program ensures that USB peripherals such as heads
 > Looking for certified devices for Microsoft Teams? Check out [USB audio and video devices certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/usb-devices).
 
 ## Device qualifications
-##### *Updated April 2020*
+##### *Updated August 2020*
 
 | Manufacturer | Model                                    | Qualified  | Certified Program  |
 |:-------------|:-----------------------------------------|:-----------|:-------------------|
 | Crestron     | CCS-UCA-MIC                              | 12/18/2019 | Skype for Business |
+| Sharp        | WCD PN-CD701                             | 10/15/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB A                             | 09/29/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB C                             | 09/29/2019 | Skype for Business |
 | Sennheiser   | TeamsConnect Ceiling 2                   | 09/19/2019 | Skype for Business |
