@@ -48,7 +48,7 @@ Then assign the policy to users.
 
 ## Edit a messaging policy
 
-You can edit the global policy an any custom policies that you create. 
+You can edit the global policy and any custom policies that you create. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
