@@ -30,12 +30,12 @@ A [policy package](manage-policy-packages.md) in Microsoft Teams is a collection
 
 Policy packages pre-define policies for the following, depending on the package:
 
-- Meetings
-- Live events
-- Calling
 - Messaging
+- Meetings
+- Calling
 - Teams
 - App setup
+- Live events
 
 Teams currently includes the following policy packages for government.
 
