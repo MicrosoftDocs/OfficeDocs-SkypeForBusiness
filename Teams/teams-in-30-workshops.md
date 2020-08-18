@@ -1,10 +1,9 @@
 ---
 title: Teams in 30
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
+
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
@@ -22,18 +21,13 @@ ROBOTS: NOINDEX
 appliesto: 
   - Microsoft Teams
 ---
+
+# Teams in 30
 <div id="main" class="v2">
     <div class="container">
-        <h1>Teams in 30</h1>
-           <p>Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
+        <p>Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
            <p><font color="#6264A7">Ready to jump in?</font> We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session. Click a session title below to sign up.
-        <ul class="pivots">
-            <li>
-                <a href="#home" data-linktype="self-bookmark"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all" data-linktype="self-bookmark"></a>
-                        <ul id="home-all" class="panelContent cardsF cols cols2">        
+ <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
@@ -41,7 +35,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +55,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -80,7 +74,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -98,7 +92,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +111,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -137,7 +131,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,9 +144,5 @@ appliesto:
             </div>
         </div>
         </a>
-    </li>
-
-</ul>
-
-    
+    </li>    
 </ul>

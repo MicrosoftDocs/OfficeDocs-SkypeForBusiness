@@ -1,7 +1,7 @@
 ---
 title: "What are Cloud auto attendants?"
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -104,7 +104,7 @@ People can search for names in your organization using the following search form
 |FirstName  |Full   |Amos#   |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName |Full |Marble#  |Press 1 for Amos Marble  <br/> Press 2 for Mary Marble |
 |FirstName or LastName |Partial |Mar# |Press 1 for Mary Marble  <br/> Press 2 for Mary Jones  <br/> Press 3 for Amos Marcus |
-|FirsName + LastName |Partial |Mar0Amos# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
+|FirsName + LastName |Partial |Amos0Mar# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName + FirstName |Partial |Mar0Am# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 
 There are several special characters that are used when searching for people using a phone keypad. For example, the person will be asked to use the pound key (#), while the zero (0) key is used for a space between names. Pressing the star key (*) will repeat the list of matching names to the person.

@@ -1,7 +1,7 @@
 ---
 title: Set up the Common Area Phone license
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/13/2018
 ms.reviewer: kponnus
@@ -27,7 +27,7 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 > [!NOTE]
 > Common area phones do not support voicemail.
 
-A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
+A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a Common Area Phone license. The TeamsIPPhone policy must also be appropriately set for the phone to have a common area user experience.
 
 In the steps below, we'll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
@@ -51,7 +51,7 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 > [!NOTE]
 > You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
-For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information on licenses, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 The Common Area Phone license supports: 
 

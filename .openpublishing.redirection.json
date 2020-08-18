@@ -2,6 +2,21 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/manage-your-custom-apps.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/upload-custom-apps",
+      "redirect_document_id": true 
+    },
+    {    
+      "source_path": "Teams/batch-policy-assignment-edu.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/batch-group-policy-assignment-edu",
+      "redirect_document_id": true 
+    },     
+    {
+      "source_path": "Teams/rooms/managed-meeting-rooms.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium",
+      "redirect_document_id": true 
+      },    
+    {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
       "redirect_document_id": false 
@@ -1919,6 +1934,11 @@
       {
         "source_path": "Teams/install-prerelease-teams-powershell-module.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-overview",
+        "redirect_document_id": true
+      },          
+      {
+        "source_path": "Teams/guest-access-checklist.md",
+        "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team",
         "redirect_document_id": true
       },          
       {

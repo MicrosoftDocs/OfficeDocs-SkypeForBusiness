@@ -3,8 +3,8 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 
 |Browser  |Calling - audio, video, and sharing  |Meetings - audio, video, and sharing<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
-|Internet Explorer 11     |Not supported         |Meetings are supported only if the meeting includes PSTN coordinates. To attend a meeting on IE11 without PSTN coordinates, users must download the Teams desktop client.<br><br>Video: Not supported<br><br>Sharing: Incoming sharing only (no outgoing)     |
-|Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
+|Internet Explorer 11     |Not supported         |Meetings are supported only if the meeting includes PSTN coordinates. To attend a meeting on IE11 without PSTN coordinates, users must download the Teams desktop client.<br><br>Video: Not supported<br><br>Sharing: Incoming sharing only (no outgoing)  <br><br> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://www.microsoft.com/edge/business). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.    |
+|Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing<sup>4</sup>         |Fully supported, except no outgoing sharing         |
 |Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Fully supported    |Fully supported         |
 |Google Chrome, the latest version plus two previous versions       |Fully supported |Fully supported <br> <br>Sharing is supported without any plug-ins or extensions on Chrome version 72 or later.       |
 |Safari 13+     |1:1 calls not supported. Group calls supported with full audio support.<br><br>Video: Not supported<br><br>Sharing: Incoming sharing only (no outgoing)         |Meetings are supported with full audio support.<br><br>Video: Not supported<br><br>Sharing: Incoming sharing only (no outgoing)     |
@@ -16,6 +16,8 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 <sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
 
 <sup>3</sup> Teams meetings on browsers are limited to a single incoming video feed of active speaker.
+
+<sup>4</sup> Edge RS2 or later doesn't support sending real-time audio and video traffic through HTTP proxies.
 
 > [!NOTE]
 > As long as an operating system can run the supported browser, Teams is supported on desktop computers. For example, running Firefox on the Linux operating system is an option for using Teams.

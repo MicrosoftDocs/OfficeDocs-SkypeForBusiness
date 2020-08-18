@@ -47,7 +47,7 @@ You can get a view into your user's Skype for Business PSTN usage by looking at 
   
 This is what the report looks like.
   
-![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[ ![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.

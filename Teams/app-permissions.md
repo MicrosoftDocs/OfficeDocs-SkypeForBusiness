@@ -55,7 +55,7 @@ None
 
 - An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.
 
-- [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](https://docs.microsoft.com/graph/permissions-reference).
+- [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
 - Apps may also need permissions other than resource-specific consent permissions. After an app is installed, the app may request Graph permissions through a consent prompt. To learn more, see [Understanding Azure AD application consent experiences](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). You can configure API permissions and consent in the Azure portal. To learn more, see [Azure Active Directory consent framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 

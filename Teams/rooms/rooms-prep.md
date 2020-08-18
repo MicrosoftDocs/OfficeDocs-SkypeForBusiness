@@ -34,7 +34,7 @@ This section contains an overview of the steps required to prepare your environm
      > [!IMPORTANT]
      > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
   
-3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, whitelist these sites:
+3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
    - Telemetry client endpoint: https://vortex.data.microsoft.com/
    - Telemetry settings endpoint: https://settings.data.microsoft.com/
