@@ -25,18 +25,15 @@ appliesto:
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. Integration with on-premises Exchange requires an Exchange hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
+Users' Exchange mailboxes can be hosted online or on-premises. For integration with on-premises, it's recommended that you have an Exchange full Classic Hybrid deployment. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots.
+Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots. For a more comprehensive list of available features, see the table below.
 
 Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
-Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture (if the Outlook on the web mailbox policy allows them to do so), and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or later, is running on-premises with OAuth configured (preferably via the Exchange Hybrid Configuration Wizard) as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable calendar delegation for these users, you must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
+Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or later, is running on-premises with OAuth configured (preferably via the Exchange Hybrid Configuration Wizard) as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable calendar delegation for these users, you must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
-
-> [!NOTE]
-> Feature integration between on-premises Exchange and Teams requires an Exchange hybrid deployment. This requirement is in addition to version-specific requirements called out in some features in the following table.
 
 **Actions supported:**
 
@@ -71,10 +68,10 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
-- To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol, preferably by running the Exchange Hybrid Wizard, as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To enable users with Exchange on-premises mailbox to schedule Teams meetings on behalf of another user, you must must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
+- To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol, preferably by running the Exchange Hybrid Wizard, as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). To make calendar access work for your on-premises mailboxes, Teams needs access to your Exchange on-premises organization for both Autodiscover and EWS, and mailboxes should be located on Exchange 2016 CU3 or later. To enable users with Exchange on-premises mailboxes to schedule Teams meetings on behalf of another user, you must also complete steps 2 and 3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
 
 > [!NOTE]
-> The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2013 CU9 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
+> The Outlook Teams add-in can be used to schedule a Teams meeting for mailboxes hosted in Exchange on-premises. However, scheduling a Teams meeting on behalf of another user with Exchange on-premises requires Exchange 2016 CU3 and above and the new Exchange OAuth authentication protocol. Both delegate and delegator must have a mailbox on Exchange on-premises.
 
 > [!NOTE]
 > For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
@@ -103,7 +100,7 @@ If users want the capability to schedule a Teams meeting using Exchange, then yo
 
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
-- Auto Discover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2013 CU19+.
+- Auto Discover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3+.
 
 - The Exchange Server must be configured with Auth Server for EVOSTS. This is automatically configured as part of the Hybrid Wizard for Exchange (HWA).
 
@@ -116,3 +113,8 @@ If users want the capability to schedule a Teams meeting using Exchange, then yo
   - Exchange management role assignment of **UserApplication**.
 
 To complete the integration, follow Steps 1-3 in [How do you configure OAuth authentication between your on-premises Exchange and Exchange Online organizations?](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Note that step 2 includes role assignment for ArchiveApplication which is not required for Delegation, but is for Archiving SfB Online Chat to an Exchange mailbox.
+
+
+## Troubleshooting
+
+For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
