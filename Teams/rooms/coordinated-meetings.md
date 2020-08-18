@@ -121,7 +121,7 @@ The following is the syntax of the Coordinated Meetings settings in the configur
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
