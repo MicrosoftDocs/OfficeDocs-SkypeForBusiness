@@ -115,7 +115,7 @@ You can only apply this policy to users who are in Islands mode and have the **A
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 
-- The Teams Meeting add-in requires an Exchange mailbox for the primary user scheduling the meeting.  Ensure you have at least one Exchange mailbox configured in your Outlook profile and use it to schedule Teams Meetings with the add-in.  For Exchange requirements refer to How Exchange and Microsoft Teams interact https://docs.microsoft.com/en-us/microsoftteams/exchange-teams-interact
+- The Teams Meeting add-in requires an Exchange mailbox for the primary user scheduling the meeting. Ensure that you have at least one Exchange mailbox configured in your Outlook profile and use it to schedule Teams meetings with the add-in. For Exchange requirements, see [How Exchange and Teams interact](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams.
 - The add-in will not work if an Authentication Proxy is in the network path of the user's PC and Teams Services.
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
