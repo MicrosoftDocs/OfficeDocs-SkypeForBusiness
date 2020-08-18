@@ -386,7 +386,16 @@ For Teams known issues that aren't related to VDI, see [Support Teams in your or
 
 ## Troubleshooting
 
-#### Troubleshoot Citrix components
+### Control fallback mode in Teams
+
+When users connect from an unsupported endpoint, the users are in fallback mode, in which AV isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
+
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+To disable fallback mode, set the value to **1**. To enable audio only, set the value to **2**. If the value isn't present or is set to **0** (zero), fallback mode is enabled.
+
+### Troubleshoot Citrix components
 
 For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
