@@ -132,7 +132,7 @@ We added the ability for auto attendants and call queue incoming calls to be tra
 
 ### Install apps on behalf of others
 
-You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md)
+You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md).
 
 ## June 29, 2020
 
