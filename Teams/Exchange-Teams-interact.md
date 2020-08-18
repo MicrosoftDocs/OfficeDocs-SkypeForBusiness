@@ -116,3 +116,8 @@ If users want the capability to schedule a Teams meeting using Exchange, then yo
   - Exchange management role assignment of **UserApplication**.
 
 To complete the integration, follow Steps 1-3 in [How do you configure OAuth authentication between your on-premises Exchange and Exchange Online organizations?](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Note that step 2 includes role assignment for ArchiveApplication which is not required for Delegation, but is for Archiving SfB Online Chat to an Exchange mailbox.
+
+
+## Troubleshooting
+
+For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
