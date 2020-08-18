@@ -83,7 +83,7 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams for Virtualized Desktop Infrastructure with callings and meetings](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
