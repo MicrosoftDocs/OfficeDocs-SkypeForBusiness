@@ -37,7 +37,7 @@ Policy packages pre-define policies for the following, depending on the package:
 - Teams
 - App setup
 
-Teams currently includes the following healthcare policy packages.
+Teams currently includes the following policy packages for government.
 
 |Package name in the Microsoft Teams admin center|Best used for|Description |
 |---------|---------|---------|
