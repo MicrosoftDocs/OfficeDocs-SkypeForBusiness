@@ -85,6 +85,12 @@ Admins can control outgoing webhooks at the user level by allowing or blocking t
 
 We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for the audio and video of a meeting to be utilized by video production tools. [Learn more](../use-ndi-in-meetings.md).
 
+## July 15, 2020
+
+### Enable suggested replies
+
+Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+
 ## July 9, 2020
 
 ### Voicemail support in call queues
@@ -118,12 +124,6 @@ You choose which apps are installed by default for users when they start Teams. 
 ### Walkie Talkie app in Microsoft Teams
 
 Instant voice communication using push-to-talk.
-
-## July 15, 2020
-
-### Enable suggested replies
-
-Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
 
 ## June 21, 2020
 
