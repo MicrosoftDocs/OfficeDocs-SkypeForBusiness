@@ -66,6 +66,7 @@ In a spreadsheet app, add rows for the following in the first column:
 | **Video default**      | Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.          |
 | **Video enabled**      | Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, this setting is ignored and participants can turn the camera on or off.         |
 | **Whiteboard default** | Determines whether the Teams Rooms device will display a whiteboard shared by one of the meeting participants. We recommend that you set this to `false` if you have a Surface Hub and `true` if you don't have one. This setting has no effect on Surface Hubs. Surface Hubs will always display a whiteboard shared by meeting participants.         |
+| **Whiteboard enabled** | Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`. <p>If **Whiteboard default** is set to `true`, this setting is ignored and participants can turn the whiteboard on or off.
 | **Trusted accounts**   | This is a comma-separated list of UPNs for each Teams Room device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |
 
 In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In each column, fill out the values that correspond to the experience you want for the meeting room. Here's an example with one Teams Rooms device and one Surface Hub:
@@ -83,7 +84,7 @@ In subsequent columns, add each of your Teams Rooms devices and Surface Hubs. In
 | **Audio enabled**      | `true`          | `false`          |
 | **Video default**      | `true`          | `false`          |
 | **Video enabled**      | `true`          | `true`           |
-| **Whiteboard default** | `false`         | Not applicable   |
+| **Whiteboard default** | `false`         | `false`          |
 | **Trusted accounts**   | hub@contoso.com | room@contoso.com |
 
 ## Step 4: Configure Teams Rooms device
