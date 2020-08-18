@@ -94,7 +94,7 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 > If you use the BlockWindowsAuthExternally parameter to externally block NTLM, be aware this also blocks NTLM internally for the SIP channel. However, Skype for Business and Lync clients newer than 2010 will still be able to login because they will use NTLM over HTTP for signin, internally, and then fetch a certificate to login over SIP. However, clients older than 2010 will not be able to login internally in this circumstance, and you may want to consider upgrading these applications so that your users can resume secure functionality.
 
 > [!IMPORTANT] 
-> Some of the Skype for Business Web Applications don't support MA. So by using the Scenario BlockWindowsAuthExternallyAndInternally you won't be able to access these Application. Application without MA support are WebScheduler, Dial-In Page, Skype for Business Control Panel (CSCP) and Response Group Settings Page. 
+> Some of the Skype for Business web applications don't support MA. So by using the BlockWindowsAuthExternallyAndInternally scenario, you won't be able to access these applications. Applications without MA support are Web Scheduler, Dial-In Page, Skype for Business Control Panel (CSCP), and Response Group Settings Page. 
 
 ## Links 
 - For more PowerShell information:
