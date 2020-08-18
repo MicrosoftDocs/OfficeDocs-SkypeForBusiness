@@ -77,4 +77,4 @@ If a user has a policy assigned, and then later you assign a different policy, t
 
 [Manage policy packages in Teams](manage-policy-packages.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](assign-policies.md) 
