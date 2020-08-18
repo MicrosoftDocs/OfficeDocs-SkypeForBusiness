@@ -40,9 +40,9 @@ Teams currently includes the following policy packages for government.
 
 |Package name in the Microsoft Teams admin center|Best used for|Description |
 |---------|---------|---------|
-|Public safety officer  |Public safety officers in your healthcare organization  |Creates a set of policies and policy settings that apply to public safety officers in your organization. |
-|Firstline manager  |Firstline Managers in your healthcare organization |Creates a set of policies and applies those settings to Firstline Managers in your organization.|
-|Firstline worker  |Firstline Workers in your healthcare organization |Creates a set of policies and applies those settings to Firstline Workers in your organization.|
+|Public safety officer  |Public safety officers in your government organization  |Creates a set of policies and policy settings that apply to public safety officers in your organization. |
+|Firstline manager  |Firstline Managers in your government organization |Creates a set of policies and applies those settings to Firstline Managers in your organization.|
+|Firstline worker  |Firstline Workers in your government organization |Creates a set of policies and applies those settings to Firstline Workers in your organization.|
 
 ![Screenshot of healthcare policy packages](media/policy-packages-gov.png)
 
