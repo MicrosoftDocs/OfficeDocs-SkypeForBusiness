@@ -1,5 +1,5 @@
 ---
-title: Teams policy packages for healthcare
+title: Teams policy packages for government
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,10 +16,13 @@ f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage Teams policy packages for your healthcare organization.
+description: Learn how to use and manage Teams policy packages for your government organization.
 ---
 
-# Teams policy packages for healthcare
+# Teams policy packages for government
+
+> [!NOTE]
+> Policy packages are currently not available in Microsoft 365 Government GCC High or DoD deployments.
 
 ## Overview
 
@@ -33,19 +36,19 @@ Policy packages pre-define policies for the following, depending on the package:
 - App setup
 - Live events
 
-Teams currently includes the following healthcare policy packages.
+Teams currently includes the following policy packages for government.
 
 |Package name in the Microsoft Teams admin center|Best used for|Description |
 |---------|---------|---------|
-|Healthcare clinical worker  |Clinical workers in your healthcare organization  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
-|Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
-|Healthcare patient room  |Patient room devices|Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
+|Public safety officer  |Public safety officers in your government organization  |Creates a set of policies and policy settings that apply to public safety officers in your organization. |
+|Firstline manager  |Firstline Managers in your government organization |Creates a set of policies and applies those settings to Firstline Managers in your organization.|
+|Firstline worker  |Firstline Workers in your government organization |Creates a set of policies and applies those settings to Firstline Workers in your organization.|
 
-![Screenshot of healthcare policy packages](media/policy-packages-healthcare.png)
+![Screenshot of healthcare policy packages](media/policy-packages-gov.png)
 
-Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to clinicians in your organization, a policy named Healthcare_ClinicalWorker is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Public safety officer policy package to users in your organization, a policy named PublicSafety_Officer is created for each policy in the package.
 
-![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-healthcare-clinical-worker.png)
+![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-public-safety-officer.png)
 
 ## Manage policy packages
 
@@ -67,7 +70,7 @@ Assign the policy package to users. To assign a policy package to one or multipl
 
 For steps on how to assign a policy package using the Microsoft Teams admin center or PowerShell, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 
-![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
+![Screenshot of how to assign a policy package in the admin center](media/policy-packages-gov-assign.png)
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
@@ -75,4 +78,4 @@ If a user has a policy assigned, and then later you assign a different policy, t
 
 [Manage policy packages in Teams](manage-policy-packages.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](assign-policies.md) 
