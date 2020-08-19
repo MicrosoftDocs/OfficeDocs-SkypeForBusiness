@@ -30,22 +30,22 @@ Examples of permissions requested by apps include the ability to read informatio
 
 You have to be a global admin to grant org-wide consent to an app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps and. You won't see this link or need to grant admin consent for apps published by Microsoft.
 
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page":::
+
 To grant org-wide consent to an app, follow these steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Do one of the following:
     - Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
     - Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
-    
-        :::image type="content" source="media/admin-consent-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page":::
 
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
 
-    :::image type="content" source="media/admin-consent-apps-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
 
 4. On the **Permissions** tab, review the permissions requested by the app.
 
-    :::image type="content" source="media/admin-consent-apps-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app":::
 
     > [!IMPORTANT]
     > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
@@ -53,7 +53,7 @@ To grant org-wide consent to an app, follow these steps:
 
 After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
 
-:::image type="content" source="media/admin-consent-apps-org-wide-accepted.png" alt-text="Screenshot of message displayed when consent granted":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Screenshot of message displayed when consent granted":::
 
 > [!NOTE]
 > If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll only see the message to let you know that consent was granted and the Azure Active Directory link. 
@@ -70,7 +70,7 @@ To view RSC permissions for an app, follow these steps:
 2. Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
 3. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
-    :::image type="content" source="media/admin-consent-apps-rsc.png" alt-text="Screenshot of RSC permissions for an app":::
+    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot of RSC permissions for an app":::
 
 ## Related topics
 
