@@ -163,4 +163,4 @@ In the [team resource type](https://docs.microsoft.com/graph/api/resources/team?
 
 ### How do I activate a class for an educator?
 
-Use the [Update Team API](https:/docs.microsoft.com/graph/api/team-update?view=graph-rest-beta&tabs=http) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
+Use the [Update Team API](https://docs.microsoft.com/graph/api/team-update?view=graph-rest-beta&tabs=http) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
