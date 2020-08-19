@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
+As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, and manage org-wide app settings.
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -96,7 +96,15 @@ To allow or block an app, select it, and then click **Allow** or **Block**. When
 When you block or allow an app on the Manage apps page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the Manage apps page and in the app permission policy that's assigned to the user.
 
  > [!NOTE]
- > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side. 
+ > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
+
+## Add an app to a team
+
+You use the **Add to team** button to add an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
+
+1. Search for the app you want, and then select the app by clicking to the left of the app name.
+2. Select **Add to team**.
+3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
 ## Manage org-wide app settings
 

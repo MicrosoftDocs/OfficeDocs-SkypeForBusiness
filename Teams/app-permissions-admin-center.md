@@ -1,5 +1,5 @@
 ---
-title: View app permissions and grant admin consent to apps in the Microsoft Teams admin center
+title: View app permissions and grant admin consent in the Microsoft Teams admin center
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: vaibhava
@@ -16,19 +16,19 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# View app permissions and grant admin consent to apps in the Microsoft Teams admin center
+# View app permissions and grant admin consent in the Microsoft Teams admin center
 
 The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, and manage org-wide app settings.
 
-Here, you can also grant org-wide admin consent to apps that request permissions to access data, view resource-specific consent (RSC) permissions for apps, and install apps to a team.
+Here, you can also grant org-wide admin consent to apps that request permissions to access data and view resource-specific consent (RSC) permissions for apps.
 
 ## Grant org-wide admin consent to an app
 
-As an admin, you can review and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's settings in Azure Active Directory (Azure AD), some users may not be allowed to grant consent to apps that access company data.
+As an admin, you can review and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's [consent settings](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) in Azure Active Directory (Azure AD), some users may not be allowed to grant consent to apps that access company data.
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-You have to be a global admin to grant org-wide consent to an app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. This applies to custom and third-party apps. You won't see this link next to apps published by Microsoft. 
+You have to be a global admin to grant org-wide consent to an app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps and. You won't see this link or need to grant admin consent for apps published by Microsoft.
 
 To grant org-wide consent to an app, follow these steps:
 
@@ -46,9 +46,12 @@ To grant org-wide consent to an app, follow these steps:
     > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
 5. If you agree with the permissions requested by the app, click **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
-After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click **Azure Active Directory** to go to the app's page in the Azure AD portal. 
+After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
 
 :::image type="content" source="media/admin-consent-apps-org-wide-accepted.png" alt-text="Screenshot of message displayed when consent granted":::
+
+> [!NOTE]
+> If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll only see the message to let you know that consent was granted and the Azure Active Directory link. 
 
 ## View resource-specific consent permissions of an app
 
@@ -59,23 +62,10 @@ You grant consent to RSC permissions when you add the app to a team. To learn mo
 To view RSC permissions for an app, follow these steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Do one of the following:
-    - Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
-    - Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
+2. Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
 3. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
     :::image type="content" source="media/admin-consent-apps-rsc.png" alt-text="Screenshot of RSC permissions for an app":::
-
-### Add an app to a team
-
-You use the **Add to team** button on the Manage apps page to add an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Search for the app you want, and then select the app by clicking to the left of the app name.
-3. Select **Add to team**.
-4. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
-
-    :::image type="content" source="media/admin-consent-apps-add-app.png" alt-text="Screenshot of adding an app to a team":::
 
 ## Related topics
 
