@@ -9,7 +9,7 @@ audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: ritikag
+ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, and manage org-wide app settings.
+As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -41,7 +41,6 @@ You can view every app including the following information about each app.
   ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
   
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
-
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
@@ -52,12 +51,13 @@ You can view every app including the following information about each app.
     
     - **Blocked org-wide**: The app is blocked in org-wide app settings.
     
-      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the Manage apps page.
-
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
+- **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
+    - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+    - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+    - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
-
 - **Categories**: Categories that apply to the app.
-
 - **Version**: App version.
 
 To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
@@ -107,6 +107,10 @@ You use the **Add to team** button to add an app to a team. Keep in mind that th
 1. Search for the app you want, and then select the app by clicking to the left of the app name.
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
+
+## Purchase services for third-party apps
+
+You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Click **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase services for Teams third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
 
 ## Manage org-wide app settings
 
