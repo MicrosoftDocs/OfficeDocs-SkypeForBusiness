@@ -1,8 +1,8 @@
 ---
 title: Search the audit log for events in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -10,9 +10,9 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
-description: Learn how to retrieve Microsoft Teams data from the audit log.
+description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft 365 compliance center."
 appliesto: 
   - Microsoft Teams
 ---
@@ -36,7 +36,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help turning on auditing, read [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help with turning on auditing, read [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on auditing.
@@ -60,8 +60,11 @@ Here are tips for searching for Teams activities in the audit log.
 
 - You can select specific activities to search for by clicking the activity name. Or you can search for all activities in a group (such as **File and folder activities**) by clicking the group name. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.<br>
     ![Screenshot of audit log search](media/audit-log-search.png)
+
 - To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+
 - To clear the current search criteria, click **Clear**. The date range returns to the default of the last seven days. You can also click **Clear all to show results for all activities** to cancel all selected activities.
+
 - If 5,000 results are found, you can probably assume that there are more than 5,000 events that met the search criteria. You can refine the search criteria and rerun the search to return fewer results, or you can export all the search results by selecting **Export results** > **Download all results**.
 
 Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audio log search. Join Ansuman Acharya, a program manager for Teams, as he demonstrates how to do an audit log search for Teams.
@@ -92,13 +95,13 @@ As mentioned earlier, you can monitor deletion scenarios. It's possible to creat
 
 ![Screenshot of the policy create page showing the setting up of a policy for mass team deletion detection](media/TeamsMassDeletePolicy.png)
 
-As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy off, depending on your organizational needs.
+As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy on, depending on your organizational needs.
 
-Once you've established a policy that will work for your business, you can then review the results in the activity log as events are triggered:
+After you establish a policy that works for your business, you can review the results in the activity log as events are triggered:
 
 ![Screenshot of a list of events triggered by mass deletions](media/TeamsMassDeleteList.png)
 
-You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing a lot of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
+You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
 
 ### Alert and governance scenario
 
@@ -110,7 +113,7 @@ You can set alerts and send emails to admins and other users when an activity po
 
 [Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
 
-We're working to integrate Teams events into anomaly detection policies. For now you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
+We're working to integrate Teams events into anomaly detection policies. For now, you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
 ## Teams activities
 
@@ -133,6 +136,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted channel     |ChannelDeleted         |A user deletes a channel from a team.         |
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Installed app |AppInstalled         |An app was installed.   |
+|Performed action on card|PerformedCardAction|A user took action on an adaptive card within a chat. Adaptive cards are typically used by bots to allow the rich display of information and interaction in chats. <br/><br/>**Note:** Only inline input actions on an adaptive card inside a chat will be available in the audit log. For example, when a user submits a poll response in a channel conversation on an adaptive card generated by a Poll bot. User actions such as "View result", which will open a dialog, or user actions inside dialogs won't be available in the audit log.|
 |Published app |AppPublishedToCatalog           |An app was added to the catalog.     |
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
@@ -175,7 +179,7 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 |Deleted Time clock entry    |TimeClockEntryDeleted              |A user successfully deletes a Time clock entry on Time Sheet.          |
 |Added shift request         |RequestAdded              |A user added a shift request.          |
 |Responded to shift request     |RequestRespondedTo                  |A user responded to a shift request.          |
-|Canceled shift request         |RequestCanceled               |A user canceled a shift request.          |
+|Canceled shift request         |RequestCancelled               |A user canceled a shift request.          |
 |Changed schedule setting      |ScheduleSettingChanged          |A user changes a setting in Shifts settings.         |
 |Added workforce integration      |WorkforceIntegrationAdded                  | The Shifts app is integrated with a third-party system.         |
 |Accepted off shift message         |OffShiftDialogAccepted          |A user acknowledges the off-shift message to access Teams after shift hours.           |
@@ -184,6 +188,10 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
+## Attribution in Teams audit logs
+
+Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
+
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Search the audit log in the Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

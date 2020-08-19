@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot connectivity issues with Teams client
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
@@ -39,3 +39,8 @@ Most issues discovered with the Microsoft Teams client can be traced back to fir
 -   Skype for Business Interoperability
 
 -   Skype for Business Client Interoperability
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

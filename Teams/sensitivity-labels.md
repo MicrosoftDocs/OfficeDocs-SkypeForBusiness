@@ -105,11 +105,15 @@ A team owner can change the sensitivity label and the privacy setting of the tea
 
 You can specify whether a team created with a specific label allows guest access. Teams created with a label that doesn't allow guest access are only available to users in your organization. People outside your organization can't be added to the team.
 
+### Sensitivity labels in the Microsoft Teams admin center
+
+You can set sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Classification** column on the Manage teams page of the Microsoft Teams admin center.
+
 ## Known issues
 
-**Support for sensitivity labels in the Microsoft Teams admin center**
+**Child default labels not showing during team creation**
 
-Currently, sensitivity labels are not supported in the Microsoft Teams admin center. If you use sensitivity labels, you won't be able to set sensitivity labels when you create or edit a team. Sensitivity labels are also not visible in team properties and won't be visible in the **Classification** column in the Microsoft Teams admin center.
+Currently, a child label set as the default label for Teams will not show at the top of the list in the sensitivity labels dropdown in the team creation model. Team creators can still use the dropdown to apply the child label as a workaround.
 
 **Support for sensitivity labels in Teams Graph APIs, Powershell cmdlets and templates**
 

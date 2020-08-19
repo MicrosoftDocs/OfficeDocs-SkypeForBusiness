@@ -1,8 +1,8 @@
 ---
 title: View guest users in a team
 ms.reviewer: 
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -1,7 +1,7 @@
 ---
 title: Support remote workers using Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -26,7 +26,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 
 ## IT admin guidance
 
-- Make sure everyone has access to Teams, using the free 6-month **[Office 365 E1 offer](e1-trial-license.md)** or the **[Freemium version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Reach out to your Microsoft account team or partner if you need help.
+- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
@@ -77,8 +77,6 @@ Share these assets and videos with your end users to help them get started quick
 
    - Don't miss [Get started with Teams for remote learning](remote-learning-edu.md).
 
-2. In addition to the [Office 365 E1 Trial](e1-trial-license.md) and [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) may also be an option if you need free Teams licenses.
-
 1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
 
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
@@ -112,7 +110,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md).
 
-   - Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered.
+   - Join one of our [online classes](instructor-led-training-teams-landing-page.yml) to see Teams in action and get your questions answered.
 
    - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
 

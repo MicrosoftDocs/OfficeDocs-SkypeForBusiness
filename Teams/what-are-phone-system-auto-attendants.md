@@ -1,7 +1,7 @@
 ---
 title: "What are Cloud auto attendants?"
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -66,8 +66,9 @@ To get started using auto attendants, it's important to remember that:
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
 
-- A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
-- It is possible to apply more than one phone number to an auto attendant by associating more than one resource account to an auto attendant.
+- A complete auto attendant system will usually involve multiple auto attendants.
+- It's possible to apply more than one phone number to entry-level auto attendants.
+- Non-entry level auto-attendants or call queues in the complete system will only need a phone number if they will be making outbound PSTN calls.
   
 ## Feature overview
 
@@ -103,7 +104,7 @@ People can search for names in your organization using the following search form
 |FirstName  |Full   |Amos#   |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName |Full |Marble#  |Press 1 for Amos Marble  <br/> Press 2 for Mary Marble |
 |FirstName or LastName |Partial |Mar# |Press 1 for Mary Marble  <br/> Press 2 for Mary Jones  <br/> Press 3 for Amos Marcus |
-|FirsName + LastName |Partial |Mar0Amos# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
+|FirsName + LastName |Partial |Amos0Mar# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName + FirstName |Partial |Mar0Am# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 
 There are several special characters that are used when searching for people using a phone keypad. For example, the person will be asked to use the pound key (#), while the zero (0) key is used for a space between names. Pressing the star key (*) will repeat the list of matching names to the person.

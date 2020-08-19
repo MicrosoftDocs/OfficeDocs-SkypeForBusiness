@@ -92,7 +92,7 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 > [!IMPORTANT]
 > For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators via batch policy assignment](batch-policy-assignment-edu.md).
+**Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
 ## Start using Teams
 
@@ -150,6 +150,7 @@ IT professionals and support staff can get up to speed with Teams architecture a
 
 Additional support resources include:
 
+- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
 - [File a support ticket (can be used by educators and staff)](https://aka.ms/edusupport)
 - [Support and Help center for educators using Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

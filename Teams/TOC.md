@@ -6,9 +6,9 @@
 
 # [Support remote workers (WFH)](support-remote-work-with-teams.md)
 
-# Training 
+# Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# Chat, teams, channels, and apps
+# Chat, teams, and channels
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
@@ -41,6 +41,7 @@
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
+## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Teams and Outlook email integration](teams-outlook-email-integration.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
@@ -49,25 +50,7 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates for small and medium businesses](smb-templates.md)
-
-
-
-## Apps, bots, and connectors
-
-### [Overview](deploy-apps-microsoft-teams-landing-page.md)
-### [Apps permissions and considerations](app-permissions.md)
-### [Manage apps for Teams](manage-apps.md)
-### [Admin settings for apps in Teams](admin-settings.md)
-### [Use built-in and custom tabs](built-in-custom-tabs.md)
-### [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
-### [Resource-specific consent](resource-specific-consent.md)
-### [Manage your custom apps](manage-your-custom-apps.md)
-### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Tasks app for your organization](manage-tasks-app.md)
-### [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -80,7 +63,6 @@
 
 ### Guest access
 #### [About guest access](guest-access.md)
-#### [Guest access checklist](guest-access-checklist.md)
 #### [How a guest joins a team](guest-joins.md)
 #### [What the guest experience is like](guest-experience.md)
 #### [Authorize guest access in Teams](teams-dependencies.md)
@@ -127,12 +109,71 @@
 
 <!-- ============================================================ -->
 
+# Apps, bots, and connectors
+
+## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Apps permissions and considerations](app-permissions.md)
+## [Manage apps for Teams](manage-apps.md)
+## [Admin settings for apps in Teams](admin-settings.md)
+## [Use built-in and custom tabs](built-in-custom-tabs.md)
+## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
+## [Resource-specific consent](resource-specific-consent.md)
+## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
+## [Manage the Tasks app for your organization](manage-tasks-app.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
+## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # Meetings and conferencing
 ## [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
+## Microsoft Teams Rooms
+### [Overview](rooms/index.md)
+### Plan
+#### [Overview of Microsoft Teams Rooms planning](rooms/rooms-plan.md)
+#### [Version support](rooms/rooms-lifecycle-support.md)
+#### [Release notes](rooms/rooms-release-note.md)
+#### [Prepare your environment](rooms/rooms-prep.md)
+#### [Requirements](rooms/requirements.md)
+#### [Online Licensing](rooms/rooms-licensing.md)
+#### [Plan management with Azure Monitor](rooms/azure-monitor-plan.md)
+#### Microsoft Teams Rooms managed service
+##### [Plan management with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium.md)
+##### [Role-based access control with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium-rbac.md)
+### Deploy
+#### [Deployment overview](rooms/rooms-deploy.md)
+#### [Configure accounts](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [Set up Coordinated Meetings](rooms/coordinated-meetings.md)
+##### [Manage Microsoft Teams settings](rooms/surface-hub-manage-config.md)
+#### [With Office 365](rooms/with-office-365.md)
+#### [With Skype for Business Server](rooms/with-skype-for-business-server-2015.md)
+#### [With Exchange Online (Hybrid)](rooms/with-exchange-online.md)
+#### [With Exchange on premises (Hybrid)](rooms/with-exchange-on-premises.md)
+#### [Configure a console](rooms/console.md)
+#### [Configure authentication](rooms/rooms-authentication.md)
+#### [Join third-party meetings](rooms/third-party-join.md)
+#### [By using Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
+#### [Management with Azure Monitor](rooms/azure-monitor-deploy.md)
+#### [Migrate SRS v1 or LRS](rooms/lrs-migration.md)
+#### [Content cameras](rooms/content-camera.md)
+### Manage
+#### [Management overview](rooms/rooms-manage.md)
+#### [Maintenance and operations](rooms/rooms-operations.md)
+#### [Support Teams in your organization](rooms/known-issues.md)
+#### [Devices with Azure Monitor](rooms/azure-monitor-manage.md)
+#### [Settings with an XML file](rooms/xml-config-file.md)
+#### [Use the recovery tool](rooms/recovery-tool.md)
+
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
-## [Presenter and participant capabilities in a Teams meeting](roles-in-meetings.md)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
+## [Remove the RestrictedAnonymousAccess meeting policy from users](meeting-policies-restricted-anonymous-access.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -146,7 +187,6 @@
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
 ## [Get a meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams Rooms](rooms/index.md)
 ## [Manage the Whiteboard in Teams](manage-whiteboard.md)
 
 
@@ -218,7 +258,6 @@
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 ### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Presenter, producer, and attendee capabilities in a live event](roles-in-live-events.md)
 ### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
@@ -226,7 +265,7 @@
 <!-- ============================================================ -->
 
 
-# Cloud voice 
+# Voice - Phone System and PSTN connectivity 
 
 ## [Plan your deployment](cloud-voice-landing-page.md)
 
@@ -256,10 +295,12 @@
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
+### [Dial pad configuration](dial-pad-configuration.md)
 
 
 ## Calling Plans
@@ -381,7 +422,6 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
@@ -515,9 +555,9 @@
 #### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 #### [Define your project scope](upgrade-define-project-scope.md)
 #### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Understand Phone System and PSTN connectivity options](cloud-voice-landing-page.md)
 #### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Plan a user pilot](pilot-essentials.md)
-
 
 ### Prepare your environment for Teams
 #### [Technical readiness overview](upgrade-prepare-environment.md)
@@ -531,18 +571,12 @@
 #### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 #### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-
-## Operate, adopt, and optimize
-### [Operational plan overview](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -553,7 +587,6 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Meetings First](meetings-first.md)
 
@@ -623,15 +656,10 @@
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Get started with Teams templates using Microsoft Graph](get-started-with-teams-templates.md)
 ## [Bookings app and virtual visits](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Run a report to show active StaffHub usage](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Plan to move your StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Sample email communication to users](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub has been retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams for Healthcare
@@ -639,6 +667,7 @@
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
 ### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
@@ -650,8 +679,10 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Get Started with remote learning](remote-learning-edu.md)
 ### [Teams EDU policies and policy packages](policy-packages-edu.md)
-### [Assign policies to large sets of users](batch-policy-assignment-edu.md)
+### [Assign policies to large sets of users](batch-group-policy-assignment-edu.md)
+### [PowerShell script to create security groups for educators and students](scripts/powershell-script-security-groups-edu.md)
 ### [Low bandwidth guidance for Education admins](edu-remote-low-bandwidth.md)
+### [Get started with Insights](class-insights.md)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
@@ -660,9 +691,10 @@
 ### [Education SKU reference](sku-reference-edu.md)
 
 ## Teams for Firstline Workers
-### [Quickstart for firstline workers](firstline-workers-quickstart.yml)
+### [Quickstart for Firstline Workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -675,21 +707,23 @@
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 ### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [Teams policy packages for Government](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
 # Security, privacy, and compliance
 ## [Overview](security-compliance-overview.md)
-## Security and privacy
+## Security
 ### [Security Guide](teams-security-guide.md)
+### [Azure Sentinel and Teams](teams-sentinel-guide.md)
 ### [Identity models and authentication](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Privacy and Microsoft Teams](teams-privacy.md)
-### [Location of data in Teams](location-of-data-in-teams.md)
+### [AppLocker application control policies](applocker-in-teams.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
+### [Communication compliance](communication-compliance.md)
 ### [Policy-based recording for callings & meetings](teams-recording-policy.md)
 ### [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -698,25 +732,40 @@
 ### Content Search
 #### [Use Content Search](content-search.md)
 #### [Search the audit log for events](audit-log-events.md)
-### [AppLocker application control policies](applocker-in-teams.md)
+## Privacy
+### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
-## [Monitor and manage call quality](monitor-call-quality-qos.md)
-### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
+## [Operate your service](upgrade-operate-my-service.md)
+## [Enhance your service](upgrade-enhance-my-service.md)
+## Monitor and manage call quality
+### [Monitor and improve call quality](monitor-call-quality-qos.md)
+### Call Quality Dashboard (CQD)
+#### [What is CQD?](CQD-what-is-call-quality-dashboard.md)
+#### [Set up CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [Upload tenant and building data](CQD-upload-tenant-building-data.md)
+#### [CQD data and reports](CQD-data-and-reports.md)
+#### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+#### [Frequently asked questions](CQD-frequently-asked-questions.md)
+#### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Create a building map](CQD-building-mapping.md)
+#### Use Power BI to analyze CQD data
+##### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
+##### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
+##### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
+##### [Use the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
+### Call Analytics
+#### [Set up call analytics](set-up-call-analytics.md)
+#### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Quality of Service (QoS)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### Use Power BI to analyze CQD data
-#### [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
-#### [Install Power BI Connector to use CQD query templates](CQD-Power-BI-connector.md)
-#### [Get CQD data on Teams utilization](CQD-teams-utilization-report.md)
-#### [Using the CQD PSTN Direct Routing report](CQD-PSTN-report.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
+
+
 ## [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
@@ -725,6 +774,7 @@
 ## [FAQ: Support your remote workforce](FAQ-support-remote-workforce.md)
 ## [Verify service health for Teams](service-health.md)
 ## [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -768,9 +818,9 @@
 ### [Manage the Teams Exploratory experience](teams-exploratory.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Upgrade Teams free to subscription version](upgrade-freemium.md)
+### [Advanced Communications](teams-add-on-licensing/advanced-communications.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System – Virtual User license](teams-add-on-licensing/virtual-user.md)
-
 
 ## Interoperability with Microsoft 365 and Office 365
 
@@ -783,9 +833,10 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Supported devices
 ### [Manage your devices in Teams](devices/device-management.md)
+### [Update your devices remotely](devices/remote-update.md)
+### [Manage Teams device tags](devices/manage-device-tags.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
@@ -793,11 +844,12 @@
 ### [IP phones certified for Microsoft Teams](devices/teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
+### [Install Teams PowerShell](teams-powershell-install.md)
+### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
+### [Teams PowerShell release notes](teams-powershell-release-notes.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Install the pre-release version of the Teams PowerShell module](install-prerelease-teams-powershell-module.md)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
@@ -927,5 +979,7 @@
 ### [Calling plans in Microsoft 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Calling plans in Microsoft 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
+## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Release notes for Teams admin features](release-notes/release-notes.md)

@@ -1,7 +1,7 @@
 ---
 title: How a guest joins a team
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
@@ -26,7 +26,7 @@ How a guest joins a team
 A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams, with full access to team chats, meetings, and files. Only people who are outside of your organization, such as partners or consultants, can be added as guests. People from within your organization can join as regular team members.
   
 > [!NOTE]
-> By default, guest access is turned off. So, before guests can join a team, an admin must turn on guest access in Teams. To do that, use the [Guest access checklist](guest-access-checklist.md). 
+> By default, guest access is turned off. So, before guests can join a team, an admin must turn on guest access in Teams. To do that, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
   
 ## How a guest becomes a member of a team
 

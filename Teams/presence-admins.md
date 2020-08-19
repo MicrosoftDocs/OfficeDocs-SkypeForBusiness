@@ -1,7 +1,7 @@
 ---
 title: User presence in Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -48,7 +48,7 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office|
 |||
 
-App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting).
+App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). Note that when you are in focus mode based on your calendar, Focusing will be the state people see in Teams but will show as Do not disturb in other products.
 
 Your current presence state changes to Away when you lock your computer or when it enters idle or sleep mode. On mobile, your presence status changes to Away whenever the Teams app is in the background.
 

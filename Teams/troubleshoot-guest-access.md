@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot problems with guest access in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -48,3 +48,4 @@ Currently Teams only has support for State 1 and State 2 types of Guest users [a
 [Guest access in Teams](guest-access.md)
 
 
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

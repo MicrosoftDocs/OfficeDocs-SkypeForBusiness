@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -25,14 +25,14 @@ description: "Learn how to set up and test Cloud auto attendants for Microsoft T
 
 # Set up a Cloud auto attendant
 
-Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with Powershell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
 
-Phone numbers are not directly assigned to the auto attendant, but rather to a [resource account](manage-resource-accounts.md) that is associated to the auto attendant.
+Phone numbers aren't directly assigned to the auto attendant, but rather to a [resource account](manage-resource-accounts.md) that is associated to the auto attendant.
 
 Auto attendant implementations often involve several auto attendants. A *first-level* auto attendant usually has a resource account with an assigned phone number. A nested auto attendant is used as a second-level menu that the *first-level* auto attendant connects  as call to. A *nested* auto attendant isn't required to  have a phone number assigned to its resource account.
 
@@ -43,7 +43,7 @@ An auto attendant is required to have an associated resource account. See [Manag
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
-> To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to an operator or a menu option that is an online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## Step 2 — Create auto attendants
 
@@ -78,13 +78,25 @@ If you set an Operator, tell people who call about the option in **Edit menu opt
 You have several ways to set the Operator:
 
 - **No operator** disables the "Operator" and "Press 0" options. This is the current default.
-- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. You can also set it up so the caller is sent to voicemail. To send a caller to voicemail, select **Person in organization** and set that account's settings to send calls directly to voicemail.
+- **Person in organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365.
 
      > [!Note]
-     > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. 
-     When selecting **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+     > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
-- **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.  
+- **Voice app**  Select the name of the resource account linked to an auto attendant or call queue that has already been created. Callers that request an operator are redirected there.
+- **External phone number** transfers the caller to an external phone number that you specify. Note the following:
+
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -156,16 +168,28 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 ![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png) **Redirect call** sends the caller to the chosen destination without choosing from options. The possible settings are:
 
-  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
+  - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Microsoft 365 or Office 365.
 
     > [!Note]
-    > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. When selecting
-    > **Person in organization** you can select an account with a shared mailbox or with a user mailbox.
+    > **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server.
 
-  - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
-  - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
+  - **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
+  - **External phone number** transfers the caller to an external phone number that you specify. Note the following:
+
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+  - **Voicemail** Select the Microsoft 365 Group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
       Switch **Transcription** to **on** to enable voice-to-text transcription of voicemail messages.
+
 
  * * *
 
@@ -188,6 +212,8 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 > [!NOTE]
 > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
+>
+> The # (Back) option is only available within the Directory Search feature.  Pressing # (Back) outside of Directory Search will repeat the current auto attendant.
 
 ![Icon of the number 3, a callout in the previous screenshot](media/teamscallout3.png) To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:
 
@@ -198,9 +224,22 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key. The caller who selects this option is sent to the designated Operator. If Operator isn't set to any key, the voice command "Operator" is also disabled. 
-- **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. Search for the person in the **Search by name** field.
+- **Person in organization** can be an online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Microsoft 365 or Office 365. Search for the person in the **Search by name** field.
 
-- **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
+- **Voice app** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
+
+- **External phone number** transfers the caller to an external phone number that you specify. Note the following:
+
+    - The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license. Phone System licenses aren't supported. Additionally, the resource account must have one of the following:
+        - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+        - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+    - The outbound phone number that's displayed is determined as follows:
+        - For Calling Plan numbers, the original caller's phone number is displayed.
+        - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+            - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+            - If set to Enabled, the resource account phone number is displayed.
+    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    - In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this auto attendant. Voicemail messages are sent to the Microsoft 365 group you specified. To access voicemail messages, members of the group can open them by navigating to the group in Outlook.
 
@@ -258,12 +297,9 @@ There are four additional screens that you can configure or leave at defaults as
 
 ##### Call flow for after hours
 
-By default, an auto attendant's business hours are set to 9am-5pm, Monday to Friday  <!--24/7-->, and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
+By default, an auto attendant's business hours are set to 12 AM-12 AM, Sunday through Saturday (24/7), and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*. (All hours that aren't during business hours are considered *after hours*.) When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours. The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.
 
 A system of auto attendants may only need to set after hours call handling behavior for the first-level auto attendant. Nested auto attendants may not even be called by the first-level auto attendant, but alternately the system can define after-hours behavior for each auto attendant it uses.
-
-Initially, the business hours are defined to start at 12:00 am and end at 12:00 pm, Sunday through Saturday. All hours that aren't during business hours are considered *after hours*.
-
 
 ![screenshot of the after hours call flow settings](media/aa-afterhour.png)
  * * *
@@ -390,7 +426,7 @@ You can use the Summary page to review the settings you've created.
 
 Press the **Create** button to finish setup of your new auto attendant. -->
 
-### Create an auto attendant with Powershell
+### Create an auto attendant with PowerShell
 
 You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
 

@@ -1,8 +1,8 @@
 ---
 title: Verify service health for Microsoft Teams
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -28,3 +28,8 @@ Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft
 ![Screenshot of the Service Health page.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Screenshot showing the Microsoft Teams service is healthy.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
