@@ -143,7 +143,9 @@
 #### [Requirements](rooms/requirements.md)
 #### [Online Licensing](rooms/rooms-licensing.md)
 #### [Plan management with Azure Monitor](rooms/azure-monitor-plan.md)
-#### [Plan management with Microsoft Teams Room Premium](rooms/microsoft-teams-rooms-premium.md)
+#### Microsoft Teams Rooms managed service
+##### [Plan management with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium.md)
+##### [Role-based access control with the Microsoft Teams Rooms managed service](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### Deploy
 #### [Deployment overview](rooms/rooms-deploy.md)
 #### [Configure accounts](rooms/rooms-configure-accounts.md)
@@ -703,6 +705,7 @@
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 ### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [Teams policy packages for Government](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
