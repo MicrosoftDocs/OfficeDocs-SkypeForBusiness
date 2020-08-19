@@ -47,11 +47,11 @@ Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-nu
     1. Enter a title (for example, Port order request) and description for your request, confirm your phone number and email address, and select your preferred contact method.
     2. Under **Attachments**, click **Add a file**, and then upload your completed [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Click **Contact me**.
-    
-## What else should you know about number porting?
 
-- To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+## What else should you know about number porting
+
+- To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
 - You must assign the new phone numbers you have to each of your users. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Related topics

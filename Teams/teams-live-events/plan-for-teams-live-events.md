@@ -49,7 +49,7 @@ It's important to know that a Microsoft 365 or Office 365 license is required to
 > [!NOTE]
 > Teams live events is now available for US Government Cloud Community (GCC) organizations.
 
-For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information about licensing, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 The user must have:
 
