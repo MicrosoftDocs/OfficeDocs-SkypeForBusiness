@@ -47,6 +47,23 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Direct Routing | [Video 1: Planning for Direct Routing in Teams ](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 
+<h3>Teams Rooms Foundations for IT & AV Pros</h3>
+
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks, on  Microsoft Teams Rooms.  
+
+| Module | Video | PowerPoint deck  |
+| ------------ | -------------------- | -------------------- |
+| Module 1: Introduction to Microsoft Teams Rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf) |
+| Module 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-2-network-readiness.pdf) |
+| Module 3: Choosing the right device for the right space (18:45 min) | [Video](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf) |
+| Module 4: Deploying Microsoft Teams Rooms (56:36 min) | [Video](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-4-deployment.pdf) |
+| Module 5: Configuring and starting Microsoft Teams Rooms (32:27 min) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf) |
+| Module 6: Managing Microsoft Teams Rooms, Part 1 (18:31 min) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf) |
+| Module 7: Managing Microsoft Teams Rooms, Part 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf) |
+| Module 8: Microsoft Teams Rooms -- Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf)|
+| One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf)  |
+
+
 <h2>Quick start guides</h2>
 
 - [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
