@@ -52,7 +52,7 @@ Here's an example of what this app submission step looks like in Visual Studio C
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
-For more information about using the Graph API to submit apps, <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">see here</a>.
+For more information about using the Graph API to submit apps, see <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">here</a>.
 
 ## Validate
 
@@ -66,7 +66,7 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 
 ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
 
-For more information about using the Graph API to check the **Publishing status**, <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">see here</a>.
+For more information about using the Graph API to check the **Publishing status**, <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">see here</a>.
 
 ## Publish
 
@@ -124,7 +124,7 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
-For more information about using the Graph API to update apps, <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">see here</a>.
+For more information about using the Graph API to update apps, see <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
 
 ### Update experience for users
 
