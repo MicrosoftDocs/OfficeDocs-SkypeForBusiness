@@ -80,4 +80,17 @@ Global admins and Teams service admin can view RSC permissions. To view RSC perm
 - [Resource-specific consent in Teams](resource-specific-consent.md)
 - [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 
+If users can , set the Users can consent to apps accessing company data for the groups they own (This capability is enabled by default).
+in Azure AD. For more information, see resource-specific consent.
 
+    The "Users can consent to apps accessing company data on their behalf" setting
+    This setting controls whether users in your organization can consent to apps on their behalf. To enable team owners to give consent, this setting must be set to Yes. To manage this setting, do the following:
+
+    In the Azure portal, go to Enterprise applications > User settings.
+    Under Enterprise applications, set Users can consent to apps accessing company data on their behalf to No or Yes.
+    You can also manage this setting using PowerShell. To learn more, see Configure user content to applications. 
+
+- Add Teams Service admin + images for org-wide in two places.
+- Add Known issues
+- 
+- We're working with ISV to enable this feature for their app. Currently, it's not available for all third-party apps that are registered in AAD that request permissions. 
