@@ -155,7 +155,7 @@ You can select a country or region to see what cloud voice features are availabl
 
 ***
 
-After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to help you buy licenses and assign them to your users.
+After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) to help you buy licenses and assign them to your users.
 
 > [!NOTE]
 >
@@ -203,7 +203,7 @@ Use the drop-down list at the top of the page to search for a country or region 
 
 Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
 
-You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
+You can also see [Phone System and Calling Plans licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) for licensing information.
 
 > [!NOTE]
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
