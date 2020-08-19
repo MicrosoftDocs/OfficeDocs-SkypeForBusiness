@@ -66,7 +66,7 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 
 ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
 
-For more information about using the Graph API to check the **Publishing status**, <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">see here</a>.
+For more information about using the Graph API to check the **Publishing status**, see <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">here</a>.
 
 ## Publish
 
