@@ -36,9 +36,14 @@ To grant org-wide consent to an app, follow these steps:
 2. Do one of the following:
     - Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
     - Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
+    
+        :::image type="content" source="media/admin-consent-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page":::
+
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
+
     :::image type="content" source="media/admin-consent-apps-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
-4. Review the permissions requested by the app.
+
+4. On the **Permissions** tab, review the permissions requested by the app.
 
     :::image type="content" source="media/admin-consent-apps-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app":::
 

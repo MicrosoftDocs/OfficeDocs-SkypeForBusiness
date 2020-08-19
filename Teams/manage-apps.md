@@ -36,7 +36,7 @@ You can view every app including the following information about each app.
 
 ![Screenshot of the Managed apps page](media/manage-apps.png)
 
-- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
+- **Name**: The app name. Click the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
 
   ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
   
