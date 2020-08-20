@@ -69,10 +69,10 @@ If you're using PowerShell 5.1, you must update the **PowerShellGet** module bef
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-To install Teams PowerShell public preview, run the PowerShell command below.
+To install Teams PowerShell public preview (current version is 1.1.3-preview), run the PowerShell command below.
 
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion 1.1.3-preview
 ```
 
 ## Install the Skype for Business Online Connector
