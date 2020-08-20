@@ -60,7 +60,10 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 - **windowmanager.js:this._loggingService.logError** - Records the occurrence of cookie issues, whitescreen issues, issues between desktop and shell communication, url issues,errors with loading page messages, errors with process rendering, and network connectivity issues.
 - **windowmanager.js:loggingService.getInstance** - Records information to indicate when the recovery window cannot br shown.
 
-### Outlook Addin
+### Outlook addin
+
+> [!NOTE]
+> For information on the properties of Outlook addin events, see [Properties sent with Outlook addin events](#properties-sent-with-outlook-addin-events).
 
 - **joinmeetingoperation** - Records information needed to join a user to a meeting.
 - **meetingaddinapplifecycle** - Records information regarding app state such as Launch or Exit.
@@ -110,17 +113,24 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 - **unexpected_sfb_ipc_disconnection** - Records information needed to determine a failure to connect to the service.
 - **unregister_failed** - Records information needed to determine errors in de-registering the Outlook meeting add-in.
 
-### UserBI
+## UserBI panelaction
 
 > [!NOTE]
-> For information on the properties of UserBI events, see [Properties sent with userbi panelview events](#properties-sent-with-userbi-panelview-events).
+> For information on the properties of UserBI panelaction events, see [Properties sent with UserBI panelaction events](#properties-sent-with-userbi-panelaction-events).
 
 - **inlinereply** - Records information whether a user has replied from the notification.
 - **toastclick** - Records a user's click to navigate to the message entry to toast notifications to monitor service SLA and to load the appropriate response to toast notification.
 - **toastdismiss** - Records information needed to determine errors and delays when the user dismisses the rendering of a toast notification.
-- **toastshow** - Records information needed to determine that a toast was rendered.
+
 - **toast_skip** - Records information needed to avoid transmitting a delayed toast notification.
 - **toasttimeout** - Records information needed to determine errors and delays when the rendering of a toast notification has timed out.
+
+### UserBI panelview
+
+> [!NOTE]
+> For information on the properties of UserBI panelview events, see [Properties sent with UserBI panelview events](#properties-sent-with-userbi-panelview-events).
+
+- **toastshow** - Records information needed to determine that a toast was rendered.
 
 ## Property lists
 
@@ -302,7 +312,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | desktopBuildAge                    | How old the application build is at event time                                   |
 | vdiMode                            | Captures if the app is running in VDI mode                                       |
 
-### Properties sent with userbi panelview events
+### Properties sent with UserBI panelview events
 
 | Property           | Description                                              |
 |--------------------|----------------------------------------------------------|
@@ -319,7 +329,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | Tab_Type           | Type of the tab accessed by user                         |
 | Team_Type          | Type of team accessed by user                            |
 
-### Properties sent with panelaction events
+### Properties sent with UserBI panelaction events
 
 | Property name         | Description                                                        |
 |-----------------------|--------------------------------------------------------------------|
@@ -345,7 +355,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | Tab_Type              | Type of the tab accessed by user                                   |
 | Team_Type             | Type of team accessed by user                                      |
 
-### Properties sent with addin events
+### Properties sent with Outlook addin events
 
 | Property Name                   | Description                                                              |
 |---------------------------------|--------------------------------------------------------------------------|
