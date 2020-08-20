@@ -22,7 +22,7 @@ Microsoft Teams Public Preview
 ======================================================
 
 > [!NOTE]
-> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for evaluation and exploration purposes only. 
+> Features included in preview may not be complete, and may undergo changes before becoming available in the public release. They are provided for evaluation and exploration purposes only.
 
 Public Preview for a Microsoft Teams user provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization.
 
