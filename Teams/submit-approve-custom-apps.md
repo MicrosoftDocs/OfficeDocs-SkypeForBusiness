@@ -124,7 +124,7 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
-For more information about using the Graph API to update apps, see <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
+For more information about using the Graph API to update apps, see <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
 
 ### Update experience for users
 
@@ -151,4 +151,4 @@ In most cases, after you publish an app update, the new version automatically ap
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- <a href="https://docs.microsoft.com/en-us/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">Microsoft Graph API for Teams apps</a>
+- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">Microsoft Graph API for Teams apps</a>
