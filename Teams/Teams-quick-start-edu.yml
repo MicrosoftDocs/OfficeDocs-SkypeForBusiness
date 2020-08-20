@@ -26,7 +26,6 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-  
     [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
 
     With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, communicate with school staff, coordinate research across institutions, or more easily facilitate student life efforts like clubs or extracurricular activities – all from a single experience in Office 365 for Education.
@@ -52,8 +51,6 @@ items:
 - title: Quick start - Teams planning guide
   durationInMinutes: 4
   content: |
-
-
     ## Step 1: Get your people together
 
     Assemble a group of individuals from staff, educators, and the educator community to act as the stakeholder & decision-making group for your Teams deployment. 
@@ -88,7 +85,6 @@ items:
 - title: Turn on or off Microsoft Teams Licenses
   durationInMinutes: 2
   content: |
-
     Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Office 365 Admin Center to enable Microsoft Teams for your school.
     ## Turn on Microsoft Teams for your school
 
@@ -113,7 +109,6 @@ items:
 - title: Configure Teams for your school
   durationInMinutes: 7
   content: |
-   
    > [!IMPORTANT]
    > Starting June 2019, all Teams for Education admins should use the Microsoft Teams admin center to manage all their Teams policies. Teams for Education policies can no longer be managed in the Microsoft 365 Admin Center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
      
@@ -153,7 +148,6 @@ items:
 - title: Distribute to clients
   durationInMinutes: 1
   content: |
-
     Teams has clients available for web, desktop (Windows, Mac, and Linux), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
 
     The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
@@ -175,7 +169,6 @@ items:
 - title: Resources, feedback, and support
   durationInMinutes: 1
   content: |
-
     [Microsoft 365 Education deployment overview](https://docs.microsoft.com/microsoft-365/education/deploy/)
 
     [Teams resources for Education admins](resources-teams-edu.md)
