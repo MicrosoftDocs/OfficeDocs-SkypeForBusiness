@@ -1,5 +1,5 @@
 ---
-title: Custom app store
+title: Custom apps store
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,64 +17,36 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about the custom app store in Microsoft Teams. 
+description: Learn about the custom apps store in Microsoft Teams. 
 ---
 
-# Custom app store in Microsoft Teams
+# Custom apps store in Microsoft Teams
 
+Now you can customize the Teams Apps store with your organizational branding by adding your organization logo, custom backgrounds or colors.
 
-## Customize your app 1
+ > [!Note] Changes to branding will require 24 hours to take effect.
+
+## Customize your organization logo
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
+
+## Customize your organizational mark
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="textcolor"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="custombackground"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-## Customize your app 2
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogo"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
+## Customize the text color of your organization's name
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="custombackground"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-### Customize your app 1a
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogo"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="textcolor"> </a>
-<!-- Do not remove the bookmark link above. -->
+## Customize the background color
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
-
 
 ## Related article
-
-
