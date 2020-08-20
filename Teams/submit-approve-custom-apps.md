@@ -42,15 +42,17 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from Graph API, an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you, the admin, can review and approve it.this 
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Graph API</a>, an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center, where you, the admin, can review and approve it.this 
 
-The Teams App Submission API, built on Microsoft Graph, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
+The Teams App Submission API, <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">built on Microsoft Graph</a>, allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
 ![Screenshot of submitting an app in Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
+
+For more information about using the Graph API to submit apps, see <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">here</a>.
 
 ## Validate
 
@@ -63,6 +65,8 @@ In the table, a newly submitted app automatically shows a **Publishing status** 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
 ![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
+
+For more information about using the Graph API to check the **Publishing status**, see <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">here</a>.
 
 ## Publish
 
@@ -120,6 +124,8 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
+For more information about using the Graph API to update apps, see <a href="https://docs.microsoft.com/en-us/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
+
 ### Update experience for users
 
 In most cases, after you publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
@@ -145,3 +151,4 @@ In most cases, after you publish an app update, the new version automatically ap
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
+- <a href="https://docs.microsoft.com/en-us/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">Microsoft Graph API for Teams apps</a>
