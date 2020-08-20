@@ -72,7 +72,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 To install Teams PowerShell public preview, run the PowerShell command below.
 
 > [!NOTE]
-> The latest preview version can be found on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
+> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
