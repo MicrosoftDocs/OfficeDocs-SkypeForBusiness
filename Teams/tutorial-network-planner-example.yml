@@ -19,7 +19,6 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    
     The Network Planner tool is available in the Teams admin center. It helps you determine network requirements for your organization. This example scenario shows how you can use the tool to create sites, personas, and running reports for a company called Contoso. 
   
     ## Before you begin
