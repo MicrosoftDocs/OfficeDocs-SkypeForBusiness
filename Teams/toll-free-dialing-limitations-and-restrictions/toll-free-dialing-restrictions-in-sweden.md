@@ -1,11 +1,10 @@
 ---
 title: "Toll-free dialing restrictions in Sweden"
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 2d5f5cf4-1068-4a6d-a9e5-3dc4c67f1105
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -26,6 +25,8 @@ description: "This will help you find out how to dial toll free numbers in each 
 ---
 
 # Toll-free dialing restrictions in Sweden
+
+## ??? GET INFO ON WHAT NEEDS TO BE UPDATED 
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 

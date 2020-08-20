@@ -1,11 +1,10 @@
 ---
 title: "Toll-free dialing restrictions in Denmark"
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -22,11 +21,12 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
-  - seo-marvel-mar2020
-description: Learn about dialing toll-free numbers in China south, including availability, wired/fixed-line and mobile network availability, and restrictions.
+description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
 # Toll-free dialing restrictions in Denmark
+
+## ??? GET INFO ON WHAT NEEDS TO BE UPDATED 
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
@@ -45,7 +45,7 @@ description: Learn about dialing toll-free numbers in China south, including ava
 ## Related topics
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numberss](/microsoftteams/getting-service-phone-numbers)
 
   
  
