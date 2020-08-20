@@ -25,58 +25,54 @@ description: Learn about the custom app store in Microsoft Teams.
 
 ## Customize your app 1
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogo"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogomark"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="textcolor"> </a>
+<!-- Do not remove the bookmark link above. -->
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
 ## Customize your app 2
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogo"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogomark"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="textcolor"> </a>
+<!-- Do not remove the bookmark link above. -->
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
 ### Customize your app 1a
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogo"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="orglogomark"> </a>
-
 <!-- Do not remove the bookmark link above. -->
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="custombackground"> </a>
+<!-- Do not remove the bookmark link above. -->
 
 
 ## Related article
