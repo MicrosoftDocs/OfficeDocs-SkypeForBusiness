@@ -171,6 +171,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Tenant-Admin Features | Voicemail policy    |   | Y | Y    |
 | VM | Tenant-Admin Features | Web portal administration   |  | CY19   | Y    |
 | VM | Tenant-Admin Features | PowerShell   |  | Y | Y    |
+| UM | User Features | Message Waiting Indicator (MWI) on Skype for Business certified phones   |May be provided by phone partner  | No | Yes    |
 | AA | Service Features | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Service Features | Support Skype for Business Server   |  | Y | Y    |
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |
