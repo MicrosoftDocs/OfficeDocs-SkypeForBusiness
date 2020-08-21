@@ -66,7 +66,6 @@ Once a base template type is defined, you can extend or override these special t
 > [!NOTE]
 > Pre-defined base templates provided in Microsoft Teams can be duplicated but not edited.
 
-
 | Base template type | Properties that come with this base template |
 | ------------------ |----------------------------------------------------- |
 | Adopt Office 365 |  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li> |
@@ -86,9 +85,9 @@ Once a base template type is defined, you can extend or override these special t
 
 ## Template size limits
 
-Templates are limited to a specific number of channels, tabs, and apps. 
+Templates are limited to a specific number of channels, tabs, and apps.
 
- > [!Note] 
+ > [!Note]
  > You can add more channels, tabs, and apps to the team after it's been created from a template.
 
 |Feature | Limit|
