@@ -88,7 +88,8 @@ Once a base template type is defined, you can extend or override these special t
 
 Templates are limited to a specific number of channels, tabs, and apps. 
 
-> [!Note] You can add more channels, tabs, and apps to the team after it's been created from a template.
+ > [!Note] 
+ > You can add more channels, tabs, and apps to the team after it's been created from a template.
 
 |Feature | Limit|
 |-|-|
