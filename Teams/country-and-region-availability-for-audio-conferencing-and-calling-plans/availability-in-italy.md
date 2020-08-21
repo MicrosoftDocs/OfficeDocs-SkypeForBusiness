@@ -52,6 +52,8 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Calling Plans
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
