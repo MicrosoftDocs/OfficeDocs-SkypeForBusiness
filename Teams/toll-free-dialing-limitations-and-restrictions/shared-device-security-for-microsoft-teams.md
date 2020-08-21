@@ -28,7 +28,7 @@ When possible, it is *recommended* Enterprises make use of a Zero Trust approach
 
 :::image type="content" source="../media/tp_ZeroTrustPrinciples.PNG" alt-text="Zero trust picture showing verify explicitly, least privilege, and assume breach -- the core zero trust principles -- in blue circles.":::
 
-Administrators can create very secure conditions by *insisting* on verification, least privilege, and by assuming compromise, standards that lead to actions that minimize risk to both users and data.
+Administrators can create very secure conditions by *insisting* on verification, least privilege, and by assuming compromise -- standards that lead to actions that minimize risk to both users and data.
 
 > [!TIP]
 > For a deeper examination of Zero Trust principles, see [these videos](https://docs.microsoft.com/en-us/security/ciso-workshop/ciso-workshop-module-3#part-2-zero-trust-definition-and-models-1537).
@@ -68,6 +68,7 @@ The items above are not a comprehensive list of best practices or security contr
 [Endpoint security in Intune](https://docs.microsoft.com/mem/intune/protect/endpoint-security)
 
 [Enable](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus#ensure-microsoft-defender-antivirus-is-enabled-in-the-windows-security-app) Microsoft Defender Antivirus in your Windows Security and [run scans](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus#run-a-scan-with-the-windows-security-app)
-[More information here](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
+
+[Microsoft Defender security center article](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
 [Teams web client/teams web app](../get-clients.md#web-client)
