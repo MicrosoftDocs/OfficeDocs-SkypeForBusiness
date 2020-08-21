@@ -84,6 +84,20 @@ Once a base template type is defined, you can extend or override these special t
 |Retail - manager collaboration |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 |||
 
+## Template size limits
+
+Templates are limited to a specific number of channels, tabs, and apps. 
+
+> [!Note] You can add more channels, tabs, and apps to the team after it's been created from a template.
+
+|||
+|-|-|
+|Channels per template | 15 |
+|Tabs per template | 20 |
+|Apps per template | 50|
+|||
+See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
+
 ## Related topics
 
 - [Create a custom team template](create-a-team-template.md)
