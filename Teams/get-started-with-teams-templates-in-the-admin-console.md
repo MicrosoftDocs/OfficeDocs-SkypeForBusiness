@@ -90,12 +90,13 @@ Templates are limited to a specific number of channels, tabs, and apps.
 
 > [!Note] You can add more channels, tabs, and apps to the team after it's been created from a template.
 
-|||
+|Feature | Limit|
 |-|-|
 |Channels per template | 15 |
 |Tabs per template | 20 |
 |Apps per template | 50|
 |||
+
 See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
 
 ## Related topics
