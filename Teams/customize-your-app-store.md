@@ -22,9 +22,9 @@ description: Learn about the custom apps store in Microsoft Teams.
 
 # Custom apps store in Microsoft Teams
 
-Now you can customize the Teams Apps store with your organizational branding by adding your organization logo, custom backgrounds, and colors to make it more inviting to the end users. 
+Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
 
- > [!Note] Changes to branding will require 24 hours to take effect.
+> [!Note] Changes to branding will require 24 hours to take effect.
 
 ## Customize your organization logo
 
@@ -77,7 +77,7 @@ The background should have enough contrast with the text so the users can read t
 Your options are:
 
 - Use Teams client default background theme
-- Choose a picture. When you select the backgroun picture, you can upload the file of your choice. The background should be 1212x100 pixels, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
+- Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212x100 pixels, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
   - .svg
   - .png
   - .jpg
@@ -85,8 +85,8 @@ Your options are:
 
 ## Complete the customization of your team apps store
 
-When you've finished customizing your apps store, be sure to click **Save** to save your changes. 
-To preview your changes, click **Preview apps store** to see a representation of your customized apps store. 
+When you've finished customizing your apps store, be sure to click **Save** to save your changes.
+To preview your changes, click **Preview apps store** to see a representation of your customized apps store.
 
 > [!Note]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
