@@ -83,7 +83,7 @@ Global admins can convert an existing team to an org-wide team by editing it in 
 
 ### Can I create an org-wide team using a team template?
 
-Team templates cannot be used to create an org-wide team. Work for this feature is currently in progress. 
+Team templates can't be used to create an org-wide team. Work for this feature is currently in progress. 
 
 ## See also
 
