@@ -24,7 +24,8 @@ description: Learn about the custom apps store in Microsoft Teams.
 
 Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
 
-> [!Note] Changes to branding will require 24 hours to take effect.
+> [!Note] 
+> Changes to branding will require 24 hours to take effect.
 
 ## Customize your organization logo
 
