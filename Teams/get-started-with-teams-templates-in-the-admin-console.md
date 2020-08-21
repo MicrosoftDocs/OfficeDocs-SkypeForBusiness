@@ -94,7 +94,7 @@ Templates are limited to a specific number of channels, tabs, and apps.
 |Feature | Limit|
 |-|-|
 |Channels per template | 15 |
-|Tabs per template | 20 |
+|Tabs per channel in a template | 20 |
 |Apps per template | 50|
 |||
 
