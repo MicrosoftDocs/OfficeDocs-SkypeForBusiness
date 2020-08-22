@@ -26,7 +26,7 @@ appliesto:
 
 When possible, it is *recommended* Enterprises make use of a Zero Trust approach to client devices making use of device management capabilities, device health checks and policy enforcement, device-level encryption, and other security features.
 
-:::image type="content" source="../media/tp_ZeroTrustPrinciples.PNG" alt-text="Zero trust picture showing verify explicitly, least privilege, and assume breach -- the core zero trust principles -- in blue circles.":::
+:::image type="content" source="media/tp_ZeroTrustPrinciples.PNG" alt-text="Zero trust picture showing verify explicitly, least privilege, and assume breach -- the core zero trust principles -- in blue circles.":::
 
 Administrators can create very secure conditions by *insisting* on verification, least privilege, and by assuming compromise -- standards that lead to actions that minimize risk to both users and data.
 
@@ -72,3 +72,5 @@ The items above are not a comprehensive list of best practices or security contr
 [Microsoft Defender security center article](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
 [Teams web client/teams web app](../get-clients.md#web-client)
+
+[Security and Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide)
