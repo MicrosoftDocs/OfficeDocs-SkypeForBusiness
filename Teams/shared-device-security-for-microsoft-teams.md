@@ -73,4 +73,4 @@ The items above are not a comprehensive list of best practices or security contr
 
 [Teams web client/teams web app](../get-clients.md#web-client)
 
-[Security and Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-security-guide)
+[Security and Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
