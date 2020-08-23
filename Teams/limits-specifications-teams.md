@@ -183,7 +183,7 @@ Microsoft Teams for Education provides templates designed for unique education s
 A class team is a template type with additional apps included, and with limits separate to the number of team members.
 
 > [!NOTE]
-> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site collection.
+> Using class teams requires an [Office 365 Education license](https://www.microsoft.com/education/products/office).
 
 Limits for class teams are listed in the following table:
 
@@ -195,7 +195,6 @@ Limits for class teams are listed in the following table:
 
 A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
-Note that using class teams requires an [Office 365 Education license](https://www.microsoft.com/education/products/office).
 
 ## Tags
 
