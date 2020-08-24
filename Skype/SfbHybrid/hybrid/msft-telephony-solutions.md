@@ -17,7 +17,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Describes Microsoft telephony solutions."
+description: "This article describes Microsoft telephony solutions including several pbx options along with questions to determine the best solution for your organization."
 ---
 
 
