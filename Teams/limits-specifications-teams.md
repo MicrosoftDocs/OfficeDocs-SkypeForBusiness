@@ -176,6 +176,26 @@ Channels are backed by folders within the SharePoint Online site collection crea
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
+## Class teams
+
+Microsoft Teams for Education provides templates designed for unique education scenarios, such as classroom teaching. More information about team types, including class teams, is available in [Choose a team type to collaborate in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+
+A class team is a template type with additional apps included, and with limits separate to the number of team members.
+
+> [!NOTE]
+> Using class teams requires an [Office 365 Education license](https://www.microsoft.com/education/products/office).
+
+Limits for class teams are listed in the following table:
+
+|Feature  |Maximum limit  |
+|---------|---------|
+|Number of members in a team    | See the [Teams and channels](#teams-and-channels) section of this article        |
+|Number of members to use Assignments in a class team    | 200        |
+|Number of members to use a OneNote Class Notebook in a class team     |200         |
+
+A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+
+
 ## Tags
 
 |Feature  |Maximum limit  |
