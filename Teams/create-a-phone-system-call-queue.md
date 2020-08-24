@@ -231,7 +231,7 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > Conference mode: Auto<br>
 > Routing method: Attendant routing<br>
 > Presence-based routing: On<br>
->Agent alert time: 20 seconds
+> Agent alert time: 20 seconds
 
 
 ### Select an agent opt-out option
