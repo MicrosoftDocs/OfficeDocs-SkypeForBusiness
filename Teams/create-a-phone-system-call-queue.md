@@ -228,7 +228,7 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!IMPORTANT]
 > For high volume calls queues the recommended setttings are:
 >
->Conference mode: Auto<br>
+> Conference mode: Auto<br>
 >Routing method: Attendant routing<br>
 >Presence-based routing: On<br>
 >Agent alert time: 20 seconds
