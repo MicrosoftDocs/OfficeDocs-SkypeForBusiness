@@ -22,7 +22,7 @@ description: "This article provides an overview of and features suppprted by Mic
 
 Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
 
-Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a high-quality microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
+Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
 For the latest information on Teams devices, check out [Teams Marketplace](https://office.com/teamsdevices).
 
@@ -31,7 +31,7 @@ For the latest information on Teams devices, check out [Teams Marketplace](https
 ### Features specific to Teams displays
 
 - **Dedicated displays for Teams**: Users can access all core Teams features including chat, meetings, calls, teams and channels, files and more.
-- **Ambient experience**: Users can easily stay on top of their busy work with always-on and glanceable displays to know most important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
+- **Ambient experience**: Users can easily stay on top of their busy work with always-on and glanceable displays to see important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
 - **Hands-free with Cortana**: Users can interact with Teams displays using their voice to effortlessly join and present in meetings, dictate replies to a Teams chat, check what’s on the calendar, and more.
 - **Leave a note on lock screen**: Guests can choose to leave audio,video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
 
