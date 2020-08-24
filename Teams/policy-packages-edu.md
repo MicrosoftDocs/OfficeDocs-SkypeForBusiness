@@ -245,7 +245,7 @@ To ensure that students can’t make private calls with other students or educat
   ![Education student in remote learning page, settings for sent messages for students and educators.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> For more information on this topic, check out [Mute student comments in a class team.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> For more information on this topic, check out [Mute student comments in a class team](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### Control whether students can chat privately
 
@@ -280,7 +280,7 @@ To ensure that students can’t create a private channel as personal space to co
 ![Teams policy page with New teams policy panel overlaid on the right of the page, with Create private channels on that panel set to Off.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it [here](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it in [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 ### App permission policies
 
@@ -395,4 +395,4 @@ You can control when students can post and reply in the class team and meeting c
 
 ## Further reading
 
-Please review the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8) for more information on protecting students.
+For more information on protecting students, review [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
