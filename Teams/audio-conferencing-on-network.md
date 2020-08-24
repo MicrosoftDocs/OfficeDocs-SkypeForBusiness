@@ -70,7 +70,7 @@ The OnlineAudioConferencingRoutingPolicy policy is equivalent to the CsOnlineVoi
 - Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
 
-For more information about routing for Direct Routing, see [Configure voice routing for Direct Routing](direct-routing-voice-routing).
+For more information about routing for Direct Routing, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md).
 
 
 To enable the routing of meeting dial-out calls through Direct Routing, you need to: 
@@ -79,7 +79,7 @@ To enable the routing of meeting dial-out calls through Direct Routing, you need
 - Configure the routing on the telephony equipment of your organization
 - (Optional) Configure a dial plan
 
-Dial-out calls from Teams meetings are coming from the default service number on the conference bridge. For additional information on the default service number of your Audio Conferencing bridge, see [Change the phone numbers on your Audio Conferencing bridge](ange-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+Dial-out calls from Teams meetings are coming from the default service number on the conference bridge. For additional information on the default service number of your Audio Conferencing bridge, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ### Configure Audio Conferencing routing policies
 
