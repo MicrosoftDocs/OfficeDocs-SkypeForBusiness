@@ -23,6 +23,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 
 ## Events
 
+> [!NOTE]
+> There are common properties for all events listed below, to review them, see [Properties sent with all events](#properties-sent-with-all-events).
+
 ### PanelAction
 
 > [!NOTE]

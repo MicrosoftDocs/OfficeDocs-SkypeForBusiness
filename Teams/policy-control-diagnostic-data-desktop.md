@@ -106,7 +106,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 - **registration_failed** - Records information needed to resolve add-in registration failures.
 - **registration_success** - Records information needed to determine whether add-in registrations where successful.
 - **security_unsupported_ipc_channel** - Interprocess message that was not permitted was inbound.
-- **sfb_running_not_connected** - Detected that Skype for Business app is not running. ???
+- **sfb_running_not_connected** - Detected that the Skype for Business app is not running.
 - **sfb_not_running** - Records that the 'wait for response' from call to Skype of Business timed out.
 - **sfb_never_replied** - Tracks no API response when communicating with Skype for Business.
 - **server_error_hit** - Tracks that an error from the ipc pipes communicating with Skype for Business.
