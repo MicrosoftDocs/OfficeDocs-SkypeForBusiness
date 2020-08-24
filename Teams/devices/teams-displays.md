@@ -15,7 +15,7 @@ ms.collection:
   - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: "This article covers the list of displays for Microsoft Teams and the features supported in the displays for Microsoft Teams."
+description: "This article provides an overview of and features suppprted by Microsoft Teams displays."
 ---
 
 # Microsoft Teams displays
