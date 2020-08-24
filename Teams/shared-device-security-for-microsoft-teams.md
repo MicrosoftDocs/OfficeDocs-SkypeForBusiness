@@ -71,6 +71,6 @@ The items above are not a comprehensive list of best practices or security contr
 
 [Microsoft Defender security center article](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams web client/teams web app](../get-clients.md#web-client)
+[Teams web client/teams web app](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [Security and Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
