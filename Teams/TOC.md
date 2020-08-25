@@ -411,9 +411,9 @@
 
 
 ## Reference
-### Country phone number management 
-#### [Phone number management for Austria](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
+### Country phone number management
 #### [Phone number management for Australia](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Phone number management for Austria](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [Phone number management for Belgium](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Phone number management for Canada](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Phone number management for Denmark](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
@@ -427,8 +427,8 @@
 #### [Phone number management for Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [Phone number management for Sweden](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
 #### [Phone number management for Switzerland](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
-#### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+#### [Phone number management for the United Kingdom](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
+#### [Phone number management for the United States.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
@@ -486,7 +486,7 @@
 #### [Slovenia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [South Africa](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [South Korea](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [Spain]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [Spain](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [Sweden](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
 #### [Switzerland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
