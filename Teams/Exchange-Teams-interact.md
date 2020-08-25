@@ -29,12 +29,12 @@ Users' Exchange mailboxes can be hosted online or on-premises.
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots. For a more comprehensive list of available features, see the table below.
 
-Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can't modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they cannot modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 > [!IMPORTANT]
 > For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later to meet the requirements below. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section are meet.
+Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section are met.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
@@ -59,15 +59,15 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads a picture that's inappropriate, change the picture according to your organization's internal policies.
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change the picture according to your organization's internal policies.
 
 <sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section.
 
 ## Requirements to get the most out of Microsoft Teams
 
-Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with a rich experience. To support this experience, you need to enable certain features or services and assign licenses.
+Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
 
-- Users must be assigned a Exchange Online license.
+- Users must be assigned an Exchange Online license.
 
 - SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
@@ -96,15 +96,11 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
 > [!NOTE]
-> Exchange trusts OAuth Token from Teams service which is known as EVOSTS. Step 1 for Oauth, but just the evoSTS should be enough; ACS is used for Free/Busy lookup in calendar.
+> Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
-- For calendar app support and Teams Outlook Add-In for Mac, Exchange web service URL’s for EWS must be configured as SPN’s in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following manual steps for Hybrid Modern Auth. The Exchange Hybrid Modern Authentication documentation includes steps to configure:
-  - EVO STS Auth Server on Exchange.
-  - EWS URL's as service principal names (SPN’s) for the Exchange Service Principal in Azure AD.
-  
-  These two steps are minimum requirements. However, there is no requirement to enable Hybrid Modern Authentication as a user authentication method on Exchange Server.
+- For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 To enable calendar delegation for these users:
 
@@ -113,7 +109,7 @@ To enable calendar delegation for these users:
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
 > [!NOTE]
-> Step 2 includes role assignment for ArchiveApplication which is not required for delegation.
+> Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
 ## Additional considerations
 
