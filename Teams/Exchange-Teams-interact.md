@@ -107,7 +107,7 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - For calendar app support and Teams Outlook Add-In for Mac, Exchange web service URL’s for EWS must be configured as SPN’s in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following manual steps for Hybrid Modern Auth. The Exchange Hybrid Modern Authentication documentation includes steps to configure:
   - EVO STS Auth Server on Exchange.
-  - EWS URL's as service principal names (SPNs) for the Exchange Service Principal in Azure AD.
+  - EWS URL's as service principal names (SPN’s) for the Exchange Service Principal in Azure AD.
 These two steps are minimum requirements. However, there is no requirement to enable Hybrid Modern Authentication as a user authentication method on Exchange Server.
 
 To enable calendar delegation for these users:
