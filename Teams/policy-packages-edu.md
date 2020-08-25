@@ -69,7 +69,9 @@ Before you assign policies to your users, you need to first add and create your 
 By default, every new user (student or educator) will be assigned the Global (Org-wide default) policy definition for each capability area. We recommend you follow these steps:
 
 1. Create a custom policy definition for each Teams capability area that can then be assigned to your educators (without this, any changes you make to the Global policy will restrict educators until they have their own policy).
+
 1. Assign your educators to this new policy definition.
+
 1. Update the Global (Org-wide default) policy definition, then assign it to your students.
 
 To create or edit policy definitions, go to the policy capability area you want to work in (for example, Messaging policies). Select **Add** if you want to create a new custom policy definition (which you'll do for the custom policy definition you create for educators). Otherwise, to change an existing policy definition, then select **Edit** (which will be what you do if you choose to update the Global policy for students).
@@ -150,26 +152,52 @@ Each individual policy is given the name of the policy package so you can easily
 To ensure that students can’t schedule a meeting to communicate unattended, in meeting policies set to **Off** meeting creation capabilities through these General settings:
 
 - **Allow Meet now in channels**: Off
+
 - **Allow the Outlook add-in**: Off
+
 - **Allow channel meeting scheduling**: Off
+
 - **Allow scheduling private meetings**: Off
 
-![Education student in remote learning page, with the General section showing, all options here are turned off.](media/edu-policy-list-a.png)
+  ![Education student in remote learning page, with the General section showing, all options here are turned off.](media/edu-policy-list-a.png)
 
 - And on the same page, in the Participants and Guests in meeting section:
+
   - **Allow Meet now in private meetings**: Off
   - **Allow chat in meetings**: Disabled
 
-![Participants and guests section, with the Allow Meet now in private meetings option set to Off.](media/edu-participants-and-guests.png)
+  ![Participants and guests section, with the Allow Meet now in private meetings option set to Off.](media/edu-participants-and-guests.png)
 
 Turning off **Allow Meet now in channels**, **Allow channel meeting scheduling**, **Allow scheduling private meetings**, and **Meet now in private meetings** for students not only blocks students from scheduling a meeting as the organizer, they also provide the following safety measures for education:
 
 - If students attempt to join the meeting before the educator, they won't be able to join the meeting in the latest version of the Teams app.
+
 - Although meeting creation applies to any users and any licenses, the safety measures on meeting join block described above apply only to education customers in Teams based on the users’ license type.
+
+Here is a table to describe the logic for each meeting creation policy:
+
+| Meeting creation policy | Create a meeting | Start a meeting unattended | Bypass lobby when joining | End the meeting |
+| --- | --- | --- | --- | --- |
+| **On (e.g. educator)** | Yes | Yes | Determined by [meeting options](https://go.microsoft.com/fwlink/?linkid=2093366) | Yes, as organizer
+| **Off (e.g. student)** | No | No\*\* | Determined by [meeting options](https://go.microsoft.com/fwlink/?linkid=2093366) | No
+
+> [!NOTE]
+> \*\* This applies to EDU licensed users only and applies to meetings, channel meetings, instant meetings, and instant channel meetings.
 
 When you change the **Allow chat in meetings** policy to disabled and block students from scheduling meetings from above while and keep this policy on for educators (for the meetings that are not scheduled from a channel or meet now in a channel), students won't be able to chat before the educator joins the meeting, nor after the meeting. They will still be able to see the chat history before, during, and after the meeting. As an example, they'll be able to see messages from the teacher, or the meeting recording link, if the meeting was recorded.
 
 If both students and educators have the **Allow chat in meetings** policy turned off, no one will be able to chat in the meeting chat window. The safety measure on meeting chat restriction described above only applies to education customers in Teams based on users’ license type.
+
+Here is a table to describe the logic for allow chat in meetings:
+
+| ‘Allow chat in meetings’ policy | See chat history anytime | Post messages during the meeting | Post messages before or after the meeting |
+| --- | --- | --- | --- | 
+| **On for all** | Yes | Yes | Yes |
+| **Off for all** | N/A | N/A | N/A |
+| **On for educators and Off for students** | Educator: Yes<br>Student Yes | Educator: Yes<br>Student Yes | Educator: Yes<br>Student No\*\* | 
+
+> [!NOTE]
+> \*\* This applies to EDU licensed users only and applies to meetings and instant meetings. It does not apply to any channel meetings nor instant channel meetings.
 
 #### Control whether or not students can share their videos during calls and meetings
 
@@ -204,17 +232,20 @@ To ensure that students can’t make private calls with other students or educat
 #### Turn off the ability to delete or edit sent messages
 
 - For students: To make sure the messages that students send aren’t deleted or altered, students should have these settings turned **Off**:
+
   - **Delete sent messages**
   - **Edit sent messages**
+  
 - For educators: To make sure that educators can moderate or delete inappropriate messages students sent, educators should have these settings turned **On**:
+
   - **Owners can delete sent messages** (This setting allows educators to delete inappropriate student messages)
   - **Delete sent messages**
   - **Edit sent messages**
 
-![Education student in remote learning page, settings for sent messages for students and educators.](media/edu-delete-edit-sent.png)
+  ![Education student in remote learning page, settings for sent messages for students and educators.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> For more information on this topic, check out [Mute student comments in a class team.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> For more information on this topic, check out [Mute student comments in a class team](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### Control whether students can chat privately
 
@@ -249,7 +280,7 @@ To ensure that students can’t create a private channel as personal space to co
 ![Teams policy page with New teams policy panel overlaid on the right of the page, with Create private channels on that panel set to Off.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it [here](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> Likely you will also want to ensure students don't have the ability to create new teams in Microsoft Teams. This is actually an M365 groups setting, and you can read more about it in [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 ### App permission policies for students
 
@@ -307,7 +338,9 @@ Meeting options allow you to control if meeting participants join your meetings 
 ![Join Microsoft Teams meeting invite, the Meeting options is on the far right underneath the invite link.](media/edu-join-meeting-options.png)
 
 - Control who can enter the meeting directly with the **Who can bypass the lobby** selection. Set it to **People in my organization** to keep external users from having the option to enter, and turn **Always let callers bypass the lobby** to **Off** to have participants wait to be admitted to the meeting instead of joining immediately. You also have the option to **Announce when callers join or leave**, and this should be set to **On** so you're always aware of who's in the meeting.
+
 - Control who joins the meeting as a presenter or attendee.​ You can select **Only Me** to designate all other participants as attendees. This is the safest set-up for meetings held in a classroom setting.
+
   - If you expect to have more than one presenter in your meeting, select **Specific people** and pick the other participants who should join as presenters. Select **Everyone** if you want all participants to join the meeting as a presenter.
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="Who can bypass the lobby dropdown with People in my organization selected and Who can present dropdown with Only me selected.":::
@@ -334,11 +367,11 @@ Every participant in a meeting is assigned a role as presenter or attendee. A pa
 
 - To change a participant's role, click or tap to **Show participants** in your call controls. Right-click on the participant whose role needs to be changed, and then select **Make an attendee** or **Make a presenter**.
 
-![People bar with a menu option showing, Make an attendee is the fourth option on the menu.](media/edu-make-attendee-menu.png)
+  ![People bar with a menu option showing, Make an attendee is the fourth option on the menu.](media/edu-make-attendee-menu.png)
 
 - To quickly access your Meeting options and change the meeting role settings for both current participants and anyone joining your meeting in the future, click or tap **More actions** in your call controls, and then **Show meeting details**. You can find the link to your **Meeting options** near the join link for the meeting.
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="Meeting window with Meeting details pane on the right hand side.":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="Meeting window with Meeting details pane on the right hand side.":::
 
 ### Mute student comments
 
@@ -362,4 +395,4 @@ You can control when students can post and reply in the class team and meeting c
 
 ## Further reading
 
-Please review the [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8) for more information on protecting students.
+For more information on protecting students, review [Keeping students safe while using meetings in Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
