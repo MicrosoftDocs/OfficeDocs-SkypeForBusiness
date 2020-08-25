@@ -49,8 +49,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **activityLiveDetailsClicked** - Triggered when **Details** is selected from a live meeting on the Activity tab.
 - **activityTabClicked** - Helps to determine if:
   - The Activity tab is shown.
-  - Teams captures an activity tab event.
-- **activityTypeDropdown** - Captures activity filter usage to switch between My Activity and Feeds.
+  - Teams captures an Activity tab event.
+- **activityTypeDropdown** - Captures activity filter usage to switch between **My Activity** and **Feeds**.
 - **addChannel** - Adding a channel. This item provides success data around the successful creation of a channel.
 - **addMember** - Triggered the **Invite people** button is selected in the **More** menu.
 - **addMembers** - Add members to a team or private channel.
@@ -112,9 +112,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
 - **bucketUnselected** - Confirms that a bucket has been successfully unselected.
 - **bucketPickerClicked** - Confirms that the bucket picker successfully launched.
-- **BYOELiveEventJoin** - BYOE live event is joined by a user.
+- **BYOELiveEventJoin** - BYOE (broadcast your own event) live event is joined by a user.
 - **calendarLiveChatClicked** - Chat from live meeting on the Schedule tab.
-- **calendarMeetingJoin** - **Meeting Join** button selected from a Calendar.
+- **calendarMeetingJoin** - **Meeting Join** button selected from a calendar.
 - **calendarTab** - Select the **Meetings** tab in the bottom rail. Useful in understanding the calendar usage and comparing with other apps on the bottom rail, or determining if there was a failure in rendering the calendar post after selecting from the bottom bar.
 - **calendarTabClicked** - In the circumstances listed below, this will show calendar usage and allow you to compare with other navbar apps on the bottom rail. This can be used to determine if there was a failure when:
   - The Schedule tab is shown.
@@ -599,7 +599,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
-- **Launch source such as direct, link, appShortcut** - Launch directly or via link (record MAM/MDM telemetry on app launch to collect data for active users). ???
+- **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
 - **likeAppDismiss** - When the prompt that asks whether a user likes the app or not is dismissed without a response.
@@ -711,7 +711,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **nativeTimeClockBreak** - A break on the time clock.
 - **nativeChatLink** - A link to native chat is selected.
 - **navActivity**- Navigate to the activity feeds page.
-- **navActivity, navChat, navTeams, navMore, navOrg, navFiles, navSaved, nav+(Appname)** - Nav Tab is selected (or the hamburger menu is selected - navMore). ??? - navMore has been deleted as not used (WHAT ABOUT THE OTHERS, SOME ARE DUPES)
+
 - **navBookmark** - A user navigates to the Saved tab or app on the bottom bar or app tray.
 - **navCalendar** - Measures if a user navigates to a calendar.
 - **navCallingSettings** - A user navigates to the calling settings.
