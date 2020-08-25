@@ -157,9 +157,9 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 |Friendly name  |Operation  |Description  |
 |---------|---------|---------|
-|Added scheduling group      |SchedulingGroupAdded          |A user successfully adds a new scheduling group to the schedule.          |
-|Edited scheduling group     |SchedulingGroupEdited         |A user successfully edits a scheduling group.          |
-|Deleted scheduling group         |SchedulingGroupDeleted              |A user successfully deletes a scheduling group from the schedule.|
+|Added scheduling group |ScheduleGroupAdded          |A user successfully adds a new scheduling group to the schedule.|
+|Edited scheduling group     |ScheduleGroupEdited         |A user successfully edits a scheduling group.          |
+|Deleted scheduling group         |ScheduleGroupDeleted              |A user successfully deletes a scheduling group from the schedule.|
 |Added shift      |ShiftAdded          |A user successfully adds a shift.           |
 |Edited shift       |ShiftEdited       |A user successfully edits a shift.        |
 |Deleted shift          |ShiftDeleted          | A user successfully deletes a shift.               |
