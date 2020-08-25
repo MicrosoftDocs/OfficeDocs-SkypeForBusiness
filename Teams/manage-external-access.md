@@ -37,7 +37,7 @@ Use external access when:
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
 > [!IMPORTANT]
-> To use the Teams client to communicate with an external user, the Teams user must be homed in Skype for Business Online.
+> To use the Teams client to communicate with an external user (whether that user is using Teams or Skype for Business), the Teams user must be homed in Skype for Business Online.
 
 ## Plan for external access
 
@@ -106,15 +106,19 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 ## Common external access scenarios
 
+The following sections describe how to enable federation for common external access scenarios, and how the TeamsUpgradePolicy determines delivery of incoming chats and calls.
+
+### Enable federation
+
 To enable users in your organization to communicate with users in another organization, both organizations must enable federation. The steps to enable federation for a given organization depend on whether the organization is purely online, hybrid, or purely on-premises.
 
 |**If your organization is** |**Enable federation as follows**  |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the **Users can communicate with other Skype for Business and Teams users** setting is enabled in External Access.<br>- If you are not using open federation (which allows federation with any other domain), then add the external domain to the Allowed list.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: Get-CsTenantFederationConfiguration must show AllowFederatedUsers=true. <br>- Ensure the user’s effective value of CsExternalAccessPolicy has EnableFederationAccess=true.<br>- If you are not using open federation, ensure the target domain is listed in AllowedDomains of CsTenantFederationConfiguration. |
-|Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in CsAccessEdgeConfiguration.<br>- Ensure federation for the user is enabled through ExternalAccessPolicy (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in AllowedDomains. |
+|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the **Users can communicate with other Skype for Business and Teams users** setting is enabled in External Access.<br>- If you are not using open federation (which allows federation with any other domain), then add the external domain to the Allowed list.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
+|Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`. |
 |Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
 
-
+### Delivery of incoming chats and calls 
 
 Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy.
 
@@ -124,12 +128,14 @@ Incoming chats and calls from a federation organization will land in the user’
 | Ensure incoming federated chats and calls arrive in the user’s Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
 
 
+### Enable federation between users in your organization and consumer users of Skype
+
 To enable federation between users in your organization and consumer users of Skype:
 
 |**If your organization is** |**Enable consumer federation as follows**  |
 |:---------|:-----------------------|
-| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Users can communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: Get- CsTenantFederationConfiguration must show AllowPublicUsers=true. <br> - Ensure the user’s effective value of CsExternalAccessPolicy has EnablePublicCloudAccess=true. |
-| Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure EnablePublicCloudAccess =true for the user via ExternalAccessPolicy (either via global policy, site policy, or user assigned policy).|
+| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Users can communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
+| Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
 | Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
 
 
