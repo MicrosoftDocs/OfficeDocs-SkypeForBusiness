@@ -13,7 +13,6 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # View app permissions and grant admin consent in the Microsoft Teams admin center
