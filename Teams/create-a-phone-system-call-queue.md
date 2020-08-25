@@ -225,6 +225,15 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!IMPORTANT]
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status. Agents who aren't in the call routing list won't receive calls. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
+> [!IMPORTANT]
+> For high volume calls queues the recommended setttings are:
+>
+> Conference mode: Auto<br>
+> Routing method: Attendant routing<br>
+> Presence-based routing: On<br>
+> Agent alert time: 20 seconds
+
+
 ### Select an agent opt-out option
 
 ![Screenshot of agent opt-out options, with numbered callouts](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
