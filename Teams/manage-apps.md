@@ -103,7 +103,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 ## Add an app to a team
 
-You use the **Add to team** button to add an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
+You use the **Add to team** button to install an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 
 ![Screenshot of Add to team button](media/manage-apps-add-app-team.png)
 
