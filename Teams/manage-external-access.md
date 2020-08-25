@@ -37,7 +37,7 @@ Use external access when:
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
 > [!IMPORTANT]
-> Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of February 25, 2019, Teams doesn't support **native** federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> To use the Teams client to communicate with an external user, the Teams user must be homed in Skype for Business Online.
 
 ## Plan for external access
 
