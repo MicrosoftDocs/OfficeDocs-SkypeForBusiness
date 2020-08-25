@@ -110,7 +110,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel. The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel. The default value is On.
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
@@ -124,7 +124,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add channel** option is disabled for users in Teams. The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add channel** option is disabled for users in Teams. The default value is On.
 
 ![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -134,11 +134,11 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
-Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. The default value is True.
+Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. The default value is On.
 
 ### Allow Meet now in private meetings
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  The default value is On.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -171,8 +171,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow cloud recording |
 |---------|---------|---------|
-|Daniela | Global   | False |
-|Amanda | Location1MeetingPolicy | True|
+|Daniela | Global   | Off |
+|Amanda | Location1MeetingPolicy | On|
 |John (external user) | Not applicable | Not applicable|
 
 Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded, however,  Daniela, who has the policy setting disabled and John who is an external user, can't record meetings organized by Amanda.
@@ -217,8 +217,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow IP video |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda    | Location1MeetingPolicy        | False      |
+|Daniela   | Global   | On       |
+|Amanda    | Location1MeetingPolicy        | Off      |
 
 Meetings hosted by Daniela allow video to be turned on. Daniela can join the meeting and turn on video. Amanda can't turn on video in Daniela's meeting because Amanda's policy is set to not allow video. Amanda can see videos shared by other participants in the meeting.
 
@@ -307,8 +307,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow participant to give or request control |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Babek    | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | On       |
+|Babek    | Location1MeetingPolicy        | Off   |
 
 Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek whereas Babek can't give control to other participants.
 
@@ -338,8 +338,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow PowerPoint sharing |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy        | Off   |
 
 Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
@@ -351,8 +351,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow whiteboard|
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy        | Off   |
 
 Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
 
@@ -364,8 +364,8 @@ Let's look at the following example.
 
 |User |Meeting policy  |Allow shared notes |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy | False |
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy | Off |
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
@@ -384,9 +384,9 @@ These settings control which meeting participants wait in the lobby before they 
 
 ### Let anonymous people start a meeting
 
-This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting. 
+This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is Off which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting. 
 
-**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users. 
+**Note** If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed-in users. 
 
 
 ### Automatically admit people
@@ -407,7 +407,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ### Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting. 
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is Off. When this setting is turned off, dial-in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial in users will automatically join the meeting when an organization user joins the meeting. 
 
 **Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. 
 
