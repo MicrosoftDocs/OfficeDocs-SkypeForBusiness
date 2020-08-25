@@ -35,4 +35,5 @@ For customers who are adopting our Audio Conferencing service and have a high bu
 | What is the segment availability? | It is available for Commercial (including WW Commercial Public Sectors), Education, Nonprofit, and US GCC |
 | What if a user with Extended Dial-out Minutes to USA/CAN is located in the US and travels to another country outside of an Audio-Conferencing sell-to market? Will their dial-out service work? | Yes. If a user based in the US (meaning their Office 365 license is assigned in the US) traveled to Zimbabwe (a market currently not in a sell-to location for Audio Conferencing), all dial-out minutes made to the US or Canada would continue to apply to their Extended Dial-out Minutes to USA/CAN add-on regardless of where the call takes place. |
 |||
+
 <sup>1</sup> Microsoft reserves the right to limit or terminate use of the capability in the event of abnormal usage or suspicion of use for fraudulent purposes.
