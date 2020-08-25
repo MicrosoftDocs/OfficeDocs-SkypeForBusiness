@@ -22,6 +22,11 @@ description: Learn about how to block access to SharePoint for specific users
 
 # Block access to SharePoint for specific users
 
+Applying any Conditional Access (CA) policy on SharePoint Online (SPO) is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking SPO would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while blocking file download, upload, edit, and create operations on unmanaged devices.
+
+> [!Note]
+> If you would like to block copy & paste on the web, then use additional MCAS policies (insert link to MCAS policies here)
+
 You can block or limit access for:
 
 - Users in the organization or only some users or security groups.
