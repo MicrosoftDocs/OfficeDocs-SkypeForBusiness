@@ -81,6 +81,10 @@ Teams Android-based devices are managed by in Intune via Android Device Administ
 3. Assign licenses to users. Users of Teams devices enrolling to Intune must be assigned a valid Intune license. For more information, see [Assign licenses to users so they can enroll devices in Intune](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
 4. Assign Device Administrator compliance policies.  Create an Android Device Administrator compliance policy and assign it to the Azure Active Directory group that contains the users that will be signing into the Teams devices. For more information, see [Use compliance policies to set rules for devices you manage with Intune](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
 
+## Manage Teams displays in your organization
+
+Admins can manage and keep all your Teams devices up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](device-management.md).
+
 ## See also
 
 [Introducing Microsoft Teams displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
