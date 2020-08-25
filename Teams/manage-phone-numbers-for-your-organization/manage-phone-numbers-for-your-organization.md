@@ -36,13 +36,6 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 - [Transfer or _Port_ your existing phone numbers with us](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
 - Use a request form for new phone numbers that aren't listed in the Microsoft Teams admin center.
 
-> [!IMPORTANT]
-> In Austria, Belgium, Denmark, France, Germany, Italy, Ireland, the Netherlands, Portugal, Spain, Sweden, and Switzerland, you can't get phone new phone numbers using the Microsoft Teams admin center. You have to download and fill out a form. For new phone numbers in Australia, see [**Telstra Voice Services**](https://aka.ms/TelstraVoicePlan).
-
-> [!IMPORTANT]
-> For new phone numbers in Australia, see [**Telstra Voice Services**](https://aka.ms/TelstraVoicePlan).
-
-
 ***
 If you know what kind of forms you are looking for, use the drop-down to select the country/region where you're getting numbers.
 
