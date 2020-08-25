@@ -131,7 +131,7 @@ Here are a few things to consider before you implement supernetting:
 
 ### VPN
 
-The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. Use the VPN column discussed above to accurately mark and identify VPN subnets.  It a also good practice to label your VPN networks for easy identification in your reports.  Below are two examples of how to label your VPN subnets:
+The quality of experience (QoE) data that clients send to Microsoft 365 or Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors' reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. Use the VPN column discussed above to accurately mark and identify VPN subnets. It a also good practice to label your VPN networks for easy identification in your reports. Below are two examples of how to label your VPN subnets:
 
 - Define a **Network Name** by entering "VPN" in this field for VPN subnets.
 
