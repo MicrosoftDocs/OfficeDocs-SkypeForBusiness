@@ -111,12 +111,12 @@ To enable users in your organization to communicate with users in another organi
 |**If your organization is** |**Enable federation as follows**  |
 |:---------|:-----------------------|
 |Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the **Users can communicate with other Skype for Business and Teams users** setting is enabled in External Access.<br>- If you are not using open federation (which allows federation with any other domain), then add the external domain to the Allowed list.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: Get-CsTenantFederationConfiguration must show AllowFederatedUsers=true. <br>- Ensure the user’s effective value of CsExternalAccessPolicy has EnableFederationAccess=true.<br>- If you are not using open federation, ensure the target domain is listed in AllowedDomains of CsTenantFederationConfiguration. |
-|Pure on-premises organization | In on-premises tools: <br>- Ensure federation is enabled in CsAccessEdgeConfiguration.<br>- Ensure federation for the user is enabled through ExternalAccessPolicy (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in AllowedDomains. |
-|Hybrid organization with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both Online and on-premises orgs. |
+|Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in CsAccessEdgeConfiguration.<br>- Ensure federation for the user is enabled through ExternalAccessPolicy (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in AllowedDomains. |
+|Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
 
 
 
-Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy:
+Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy.
 
 |**If you want to** |**Do this:**  |
 |:---------|:-----------------------|
@@ -129,8 +129,8 @@ To enable federation between users in your organization and consumer users of Sk
 |**If your organization is** |**Enable consumer federation as follows**  |
 |:---------|:-----------------------|
 | Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Users can communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: Get- CsTenantFederationConfiguration must show AllowPublicUsers=true. <br> - Ensure the user’s effective value of CsExternalAccessPolicy has EnablePublicCloudAccess=true. |
-| Pure on-premises organization | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure EnablePublicCloudAccess =true for the user via ExternalAccessPolicy (either via global policy, site policy, or user assigned policy).|
-| Hybrid organization with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
+| Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure EnablePublicCloudAccess =true for the user via ExternalAccessPolicy (either via global policy, site policy, or user assigned policy).|
+| Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
 
 
 > [!IMPORTANT]
