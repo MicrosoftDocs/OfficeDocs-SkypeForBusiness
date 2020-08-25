@@ -89,6 +89,8 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
 
+- Users must be synchronized to Azure Active Directory. For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Hybrid identity documentation](https://docs.microsoft.com/azure/active-directory/hybrid/).
+
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
 - Autodiscover and Exchange Web Services is published externally.
@@ -104,14 +106,15 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
 - For calendar app support and Teams Outlook Add-In for Mac, Exchange web service URL’s for EWS must be configured as SPN’s in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following manual steps for Hybrid Modern Auth. The Exchange Hybrid Modern Authentication documentation includes steps to configure:
-* EVO STS Auth Server on Exchange.
-* EWS URL's as service principal names (SPNs) for the Exchange Service Principal in Azure AD.
+  - EVO STS Auth Server on Exchange.
+  - EWS URL's as service principal names (SPNs) for the Exchange Service Principal in Azure AD.
 These two steps are minimum requirements. However, there is no requirement to enable Hybrid Modern Authentication as a user authentication method on Exchange Server.
 
 To enable calendar delegation for these users:
 
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
+- You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
 > [!NOTE]
 > Step 2 includes role assignment for ArchiveApplication which is not required for delegation.
@@ -127,9 +130,6 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
-
-> [!TIP]
-> For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Hybrid identity documentation](https://docs.microsoft.com/azure/active-directory/hybrid/).
 
 ## Troubleshooting
 
