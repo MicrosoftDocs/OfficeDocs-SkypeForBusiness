@@ -61,12 +61,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads a picture that's inappropriate, change the picture according to your organization's internal policies.
 
-<sup>8</sup> You need to meet the following requirements:
-
-- Exchange 2016 CU3 or later.
-- OAuth configured.
-- Autodiscover and EWS is published externally.
-- Exchange Hybrid Mode checkbox set in Azure AD Connect.
+<sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section.
 
 ## Requirements to get the most out of Microsoft Teams
 
