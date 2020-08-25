@@ -1,5 +1,5 @@
 ---
-title: "On-network conferencing for Audio Conferencing"
+title: "On-network Conferencing for Audio Conferencing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,15 +20,15 @@ ms.custom:
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
 ---
 
-# On-network conferencing for Audio Conferencing
+# On-network Conferencing for Audio Conferencing
 
 
 > [!NOTE]
-> On-network conferencing for Audio Conferencing is currently in Open Preview. Capabilities that are in Open Preview are intended to be used by customers who would like to be early adopters of the functionality. Please evaluate if your organization would like to be an early adopter of On-network Conferencing for Audio Conferencing before enabling this capability.
+> On-network Conferencing for Audio Conferencing is currently in Open Preview. Functionality that is in Open Preview is intended for customers who would like to be early adopters of the functionality. Before enabling On-network Conferencing for Audio Conferencing, you should evaluate if your organization would like to be an early adopter of this functionality.
 
 On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers.
 
-This article describes the configuration steps required to enable On-net Conferencing for your organization.
+This article describes the configuration steps required to enable On-network Conferencing for your organization.
 
 > [!IMPORTANT]
 > On-network Conferencing must NOT be deployed with any telephony equipment in India.
@@ -58,7 +58,7 @@ You can find the service numbers in Teams admin center under **Meetings -> Confe
 
 ## Enable the routing of Teams meeting dial-out calls through Direct Routing
 
-Teams meeting dial-out calls are calls that are initiated from within a meeting in your organization to PSTN numbers, including call-me-at calls and calls to bring new participants to a meeting. 
+Teams meeting dial-out calls are initiated from within a meeting in your organization to PSTN numbers, including call-me-at calls and calls to bring new participants to a meeting. 
 
 To enable Teams meeting dial-out routing through Direct Routing, you need to create and assign an Audio Conferencing routing policy called “OnlineAudioConferencingRoutingPolicy”. 
 
@@ -86,7 +86,7 @@ Dial-out calls from Teams meetings are coming from the default service number on
 The Audio Conferencing routing policy OnlineAudioConferencingRoutingPolicy determines which meeting dial-out calls are routed to Direct Routing trunks. If you are familiar with the CsOnlineVoiceRoutingPolicy policy, this policy works in a very similar way.
 
 The following steps are needed to set up Audio Conferencing routing policies:
-1.	Create PSTN usages.
+1.	Create PSTN usages
 2.	Configure voice routes
 3.	Create Audio Conferencing voice routing policies
 4.	Assign a policy to your users
@@ -122,31 +122,31 @@ You can create an Audio Conferencing voice routing policy by using the “New- C
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
-Once the policy is assigned to a user and when a meeting dial-out call is initiated from one of his/her meetings, the voice routes in the PSTN usages that are associated to the organizer through his/her voice routing policy will be evaluated. If the meeting dial-out call destination matches a regex in one of the voice routes that are associated to the organizer, the meeting dial-out call will be routed to the PSTN gateway defined in the voice route. If the meeting dial-out call destination does not match any of the voice routes associated to the organizer, the meeting dial-out call will be routed by Microsoft.
+After the policy is assigned to a user, and when a meeting dial-out call is initiated from one of the user's meetings, the voice routes in the PSTN usages that are associated to the organizer through the user's voice routing policy will be evaluated. If the meeting dial-out call destination matches a regex in one of the voice routes that are associated to the organizer, the meeting dial-out call will be routed to the PSTN gateway defined in the voice route. If the meeting dial-out call destination does not match any of the voice routes associated to the organizer, the meeting dial-out call will be routed by Microsoft.
 
 #### Assign a policy to your users
 
-Once the Audio Conferencing routing policies are defined, you will now need to assign it to users. Once policies are assigned to them, the meeting dial-out calls will be evaluated against it to determine their routing path. Audio Conferencing routing policies are always evaluated based on the organizer of the meeting, independently from the user in the meeting that initiates a meeting dial-out call.
+After the Audio Conferencing routing policies are defined, you can now assign them to users. After policies are assigned to them, the meeting dial-out calls will be evaluated against it to determine their routing path. Audio Conferencing routing policies are always evaluated based on the organizer of the meeting, independently from the user in the meeting that initiates a meeting dial-out call.
 
-You can assign an Audio Conferencing voice routing policy to a user by using the “Grant-CsOnlineAudioConferencingRoutingPolicy” cmdlet. For example
+You can assign an Audio Conferencing voice routing policy to a user by using the “Grant-CsOnlineAudioConferencingRoutingPolicy” cmdlet. For example:
 
 ```
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
-### Configuration of routing on the telephony equipment of your organization
+### Configure routing on the telephony equipment of your organization
 
-On the telephony equipment of your organization, you need to ensure that the meeting dial-out calls routed via Direct Routing are routed to their intended destination appropriately.
+On the telephony equipment of your organization, you need to ensure that the meeting dial-out calls routed through Direct Routing are routed to the intended destination.
 
 
 ### (Optional) Configure a dial plan
 
 A dial plan is a set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and call routing.
 
-By default, Teams users can dial-out to PSTN numbers in E.164 format, i.e. +<country code><number>. However, dial plans can be used to allow users to dial phone numbers in other formats, for instance 4 digit extensions.
+By default, Teams users can dial-out to PSTN numbers in E.164 format, that is, +\<country code\>\<number\>. However, dial plans can be used to allow users to dial phone numbers in other formats, for instance 4-digit extensions.
 
-If you would like to enable extension-based dialing via On-network conferencing, you can set up dial plans to match the extension dialing pattern to the phone number ranges of the phone number of your organization. To set up dial plans, see [Create and manage dial plans](create-and-manage-dial-plans.md).
+If you would like to enable extension-based dialing through On-network conferencing, you can set up dial plans to match the extension dialing pattern to the phone number ranges of the phone number of your organization. To set up dial plans, see [Create and manage dial plans](create-and-manage-dial-plans.md).
 
 
 ## Known issues in Open Preview
@@ -155,7 +155,7 @@ The following is a list of known issues that are currently present in the Open P
 
 | Issue | Workaround |
 | :--- | :--- |
-| Dial-in calls with anonymous/hidden caller IDs that are routed through On-network Conferencing cannot be connected to the meeting. | If possible, set a configuration in your PBX or SBC to always send a caller ID for calls routed via On-network Conferencing.|
+| Dial-in calls with anonymous/hidden caller IDs that are routed through On-network conferencing cannot be connected to the meeting. | If possible, set a configuration in your PBX or SBC to always send a caller ID for calls routed via On-network conferencing.|
 | In some cases, the welcome message that is played to users when they dial in to the service (“Welcome to the Audio Conferencing service…”) is truncated and users do not hear the “Welcome” word.| There are no workarounds for this issue at the moment. |
 
 
