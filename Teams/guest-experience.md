@@ -35,6 +35,8 @@ Check out these videos about the guest experience in Teams:
 - [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Microsoft 365 and Office 365 admins control the features available to guests.
 
 ## Comparison of team member and guest capabilities
 
@@ -59,7 +61,6 @@ The following table compares the Teams functionality available for an organizati
 |Use inline translation  <br/> |&#x2713;||
 |Become team owner  <br/> |&#x2713;||
 
-   
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 
 | Calling feature | Guest | E1 and E3 user | E5 and Enterprise Voice user |
@@ -90,34 +91,46 @@ The following table shows the calling and meeting features available to guests, 
 | Can have delegates | No | No | Yes |
 |  Can be a delegate | No | No | Yes |
 
-
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> Microsoft 365 and Office 365 admins control the features available to guests. 
+> The **Guest user access restrictions** policy in Azure Active Directory (Azure AD) determines permissions for guests in your directory. There are three policy options.
+>  - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
+>  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
+>  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
+>
+>To learn more, see [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## Frequently asked questions
 
 ### How do I leave an organization that I've been invited to?
+
 If you've been invited to an organization that you don't want to be a guest of, you can choose to leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternatively, you can ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in the future.
 
 ### Do guests have the same capabilities as team members?
+
 No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
 
 ### Do guests have access to OneDrive for Business?
+
 No.
 
 ### Do guests have access to SharePoint files?
+
 Yes.
 
 ### Can guests search within files?
+
 No.
 
 ### Can guests attach files?
+
 Yes, a guest can attach files in these two ways:
 
-   - Select **Files** in the left pane, and then browse to the file location.
-   - Upload files from their computer.
+  - Select **Files** in the left pane, and then browse to the file location.
+  - Upload files from their computer.
 
 ### Can a guest download a file in a private chat?
+
 Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
+

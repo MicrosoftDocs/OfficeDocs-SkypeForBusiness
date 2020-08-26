@@ -112,7 +112,6 @@
 # Apps, bots, and connectors
 
 ## [Overview](deploy-apps-microsoft-teams-landing-page.md)
-## [Apps permissions and considerations](app-permissions.md)
 ## [Manage apps for Teams](manage-apps.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 ## [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Apps permissions and considerations](app-permissions.md)
+## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
@@ -707,6 +708,7 @@
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 ### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [Teams policy packages for Government](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
