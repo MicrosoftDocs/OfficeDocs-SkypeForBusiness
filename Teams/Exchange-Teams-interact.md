@@ -61,7 +61,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change it according to your organization's internal policies.
 
-<sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-for-mailboxes-hosted-on-premises) section.
+<sup>8</sup> You need to meet the requirements listed on [Requirements to create and view meetings for mailboxes hosted on-premises](#Requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
 ## Requirements to get the most out of Microsoft Teams
 
@@ -78,9 +78,9 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
 
-## Requirements for mailboxes hosted on-premises
+## Requirements to create and view meetings for mailboxes hosted on-premises
 
-If users want the capability to schedule a Teams meeting using Exchange Server on-premises, the following requirements must be meet:
+If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be meet:
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
 
@@ -88,10 +88,10 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
-- Autodiscover and Exchange Web Services is published externally.
- 
 > [!NOTE]
-> Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
+> Exchange 2016 CU3 adds support for REST API integration with Microsoft 365 and Autodiscover (AutoD) V2. REST is required to support Calendar application in Teams, for more information, see [Use REST APIs to access mailboxes in Exchange hybrid deployments](https://docs.microsoft.com/graph/hybrid-rest-support). Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox, and also to support scheduling in Outlook for Teams. 
+
+- Autodiscover and Exchange Web Services is published externally.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
@@ -103,7 +103,6 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 - For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 To enable calendar delegation for these users:
-
 
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
