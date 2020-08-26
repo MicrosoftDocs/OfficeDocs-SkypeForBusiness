@@ -90,13 +90,13 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - Autodiscover and Exchange Web Services is published externally.
  
-  > [!NOTE]
-  > Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
+> [!NOTE]
+> Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
-  > [!NOTE]
-  > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
+> [!NOTE]
+> Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
@@ -104,12 +104,13 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 To enable calendar delegation for these users:
 
+
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
-  > [!NOTE]
-  > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
+> [!NOTE]
+> Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
 ## Additional considerations
 
