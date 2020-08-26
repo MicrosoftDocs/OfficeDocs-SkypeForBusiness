@@ -48,7 +48,7 @@ Before you get started, be aware that a user who has been migrated to Teams no l
  
 You manage your user's transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), which is a property of [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). A user who has been migrated to Teams as described above is in “TeamsOnly” mode.  For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
 
-OK. Let's get started.  The first step is understanding the [upgrade methods available to you](upgrade-to-teams-upgrade-methods.md).
+OK. Let's get started.  The first step is understanding the [upgrade methods available to you](upgrade-to-teams-on-prem-upgrade-methods.md).
 
 
 
