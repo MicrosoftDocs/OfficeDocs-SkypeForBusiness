@@ -34,7 +34,7 @@ Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure
 > [!IMPORTANT]
 > For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later to meet the requirements below. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section are met.
+Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-for-mailboxes-hosted-on-premises) section are met.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
@@ -61,7 +61,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change it according to your organization's internal policies.
 
-<sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#Requirements-for-mailboxes-hosted-on-premises) section.
+<sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-for-mailboxes-hosted-on-premises) section.
 
 ## Requirements to get the most out of Microsoft Teams
 
@@ -90,13 +90,13 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - Autodiscover and Exchange Web Services is published externally.
  
-> [!NOTE]
-> Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
+  > [!NOTE]
+  > Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
-> [!NOTE]
-> Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
+  > [!NOTE]
+  > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
@@ -108,8 +108,8 @@ To enable calendar delegation for these users:
 
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
-> [!NOTE]
-> Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
+  > [!NOTE]
+  > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
 ## Additional considerations
 
