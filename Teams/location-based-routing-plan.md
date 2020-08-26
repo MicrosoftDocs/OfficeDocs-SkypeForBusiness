@@ -254,6 +254,10 @@ If the user has a conferencing license, the user must start a conference with th
 
 If you're deploying Location-Based Routing in India, it's a requirement to also configure media bypass. To learn more, see [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md) and [Local Media Optimization for Direct Routing](direct-routing-media-optimization.md).
 
+### Direct Voice over IP (VoIP)
+
+Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
+
 ## Next steps
 
 Go to [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
