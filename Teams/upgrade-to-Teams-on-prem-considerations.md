@@ -26,10 +26,10 @@ This article describes additional considerations for organizations with Skype fo
 
 - [Overview](upgrade-to-teams-on-prem-overview.md)
 - [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools for managing your upgrade](upgrade-to-teams-tools.md)
+- [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
 - **Additional considerations for organizations with Skype for Business on-premises** (this article)
-- [Implementing your upgrade](upgrade-to-teams-implement.md)
-- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-pstn-considerations.md)
+- [Implementing your upgrade](upgrade-to-teams-on-prem-implement.md)
+- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 

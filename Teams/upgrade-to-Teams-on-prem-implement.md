@@ -26,14 +26,14 @@ This article describes how to implement your upgrade. This article is the fifth 
 
 - [Overview](upgrade-to-teams-on-prem-overview.md)
 - [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools for managing your upgrade](upgrade-to-teams-tools.md)
-- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem.md)
+- [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
 - **Implement your upgrade** (this article)
-- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-pstn-considerations.md)
+- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
-- [Coexistence of Teams and Skype for Business](upgrade-to-teams-coexistence.md)
+- [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
 - [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
