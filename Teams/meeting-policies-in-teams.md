@@ -30,7 +30,7 @@ description: Learn to manage meeting policy settings in Teams and use them to co
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
-> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
@@ -70,7 +70,7 @@ Then assign the policy to the users.
 
 ## Edit a meeting policy
 
-You can edit the global policy an any custom policies that you create. 
+You can edit the global policy an any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
@@ -96,7 +96,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 - [Content sharing](#meeting-policy-settings---content-sharing)
 - [Participants & guests](#meeting-policy-settings---participants--guests)
 
-::: zone-end 
+::: zone-end
 
 <a name="bkgeneral"> </a>
 
@@ -124,11 +124,37 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add channel** option is disabled for users in Teams. The default value is True.
+Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. The default value is True.
 
-![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
+If this policy is OFF, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
-![Screenshot showing the Select a channel to meet in option](media/meeting-policies-select-a-channel-to-meet-in.png)
+Schedule a meeting will be disabled.
+
+![Screenshot showing the Schedule a meeting option in Teams](media/schedule-meeting-option.png)
+
+Channel selection is disabled.
+
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)
+
+In the channel posts page, the following will be disabled:
+
+- **Schedule a meeting** button on the channel reply compose box.
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
+- **Schedule a meeting** button on the channel header.
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
+
+In the channel calendar:
+
+- **Add new event** button on channel calendar header will be disabled.
+![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
+- Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
+- Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
+
+In the Admin Center:
+
+The channel calendar app will show up under the **Microsoft apps** section in the admin panel for permission policies.
+
+![Screenshot showing the Microsoft apps policy in the Teams admin console.](media/manage-microsoft-apps-policy.png)
 
 ### Allow scheduling private meetings
 
@@ -151,7 +177,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ### Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription. 
+This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
 Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
@@ -161,7 +187,7 @@ Note that transcription for recorded meetings is currently only supported for us
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
 
-People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording. 
+People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
 
 ![Screenshot showing recording options](media/meeting-policies-recording.png)
 
@@ -202,7 +228,7 @@ This is a per-user policy. This setting determines the media bit rate for audio,
 
 If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
-For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
+For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario.
 
 ## Meeting policy settings - Content sharing
 
@@ -236,9 +262,9 @@ Currently, users can't play video or share their screen in a Teams meeting if th
 
 ### Allow a participant to give or request control
 
-This is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen. 
+This is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
 
-If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session. 
+If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
 ![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
 
@@ -258,7 +284,7 @@ Daniela can give control of the shared desktop or window to other participants i
 To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
 
 > [!NOTE]
-> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix. 
+> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
 
 ### Allow an external participant to give or request control
 
@@ -288,7 +314,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ### Allow whiteboard
 
-This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. 
+This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -319,27 +345,26 @@ These settings control which meeting participants wait in the lobby before they 
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Enable live captions ](#enable-live-captions)
-- [Allow chat in meetings ](#allow-chat-in-meetings)
+- [Enable live captions](#enable-live-captions)
+- [Allow chat in meetings](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### Let anonymous people start a meeting
 
-This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting. 
+This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting.
 
-**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users. 
-
+**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### Automatically admit people
 
-This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial in users. 
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial in users.
 
 ![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
- 
+
  **Note** In the meeting options the setting is labeled "Who can bypass the lobby"
   
 |Setting value  |Join behavior |
@@ -350,10 +375,9 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ### Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting. 
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting.
 
-**Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. 
-
+**Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them.
 
 ### Enable live captions
 
