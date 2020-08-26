@@ -37,7 +37,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Create message extension usage.
   - Action message extension usage.
 - **active_session_banner_dismissed** - The location sharing active reminder banner was dismissed.
-- **activityChatClicked** - Triggered when non-live chat is selected in the Activity tab or a split view is shown.
+- **activityChatClicked** - Triggered when non-live chat is selected in the **Activity** tab or a split view is shown.
 - **activityContextMenu** - Overflow actions in the activity feed.
 - **activityFeedClick** - An activity feed item is tapped on and a bot chat is navigated to.
 - **activityFeedLongPress** - Captures long press gestures on feed items.
@@ -45,11 +45,11 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **activityFilterClick** - Captures activity filter usage.
 - **activityFilterOptionsClick** - Captures activity filter usage.
 - **activityFilterOptionsClicked** - Captures activity filter usage.
-- **activityLiveChatClicked** - Triggered when chat is selected from a live meeting on the Activity tab.
-- **activityLiveDetailsClicked** - Triggered when **Details** is selected from a live meeting on the Activity tab.
+- **activityLiveChatClicked** - Triggered when chat is selected from a live meeting on the **Activity** tab.
+- **activityLiveDetailsClicked** - Triggered when **Details** is selected from a live meeting on the **Activity** tab.
 - **activityTabClicked** - Helps to determine if:
-  - The Activity tab is shown.
-  - Teams captures an Activity tab event.
+  - The **Activity** tab is shown.
+  - Teams captures an **Activity** tab event.
 - **activityTypeDropdown** - Captures activity filter usage to switch between **My Activity** and **Feeds**.
 - **addChannel** - Adding a channel. This item provides success data around the successful creation of a channel.
 - **addMember** - Triggered the **Invite people** button is selected in the **More** menu.
@@ -113,20 +113,20 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **bucketUnselected** - Confirms that a bucket has been successfully unselected.
 - **bucketPickerClicked** - Confirms that the bucket picker successfully launched.
 - **BYOELiveEventJoin** - BYOE (broadcast your own event) live event is joined by a user.
-- **calendarLiveChatClicked** - Chat from live meeting on the Schedule tab.
+- **calendarLiveChatClicked** - Chat from live meeting on the **Schedule** tab.
 - **calendarMeetingJoin** - **Meeting Join** button selected from a calendar.
 - **calendarTab** - Select the **Meetings** tab in the bottom rail. Useful in understanding the calendar usage and comparing with other apps on the bottom rail, or determining if there was a failure in rendering the calendar post after selecting from the bottom bar.
 - **calendarTabClicked** - In the circumstances listed below, this will show calendar usage and allow you to compare with other navbar apps on the bottom rail. This can be used to determine if there was a failure when:
-  - The Schedule tab is shown.
+  - The **Schedule** tab is shown.
   - The **Meetings** tab is selected in the bottom rail.
-- **calendarUpcomingChatClicked** - Chat from an upcoming meeting on the Schedule tab.
+- **calendarUpcomingChatClicked** - Chat from an upcoming meeting on the **Schedule** tab.
 - **callAccepted** - Call accepted.
 - **callAcceptedSFB** - Call accepted.
 - **callAppPreference** - A preferred calling App is selected.
 - **callControlsManualDismiss** - Call controls are dismissed manually.
 - **callControlsManualInvoke** - Call controls are invoked manually.
-- **callHistoryItemExpand** - Call History Item expanded.
-- **callHistoryTab** - CallHistoryTab is selected in Calls.
+- **callHistoryItemExpand** - Call History item expanded.
+- **callHistoryTab** - **CallHistory** tab is selected in Calls.
 - **callInProgressShown** - A ***Call in progress** banner is shown.
 - **callMePSTNConnected** - **Call me** is successful.
 - **callOrMeetUpAddParticipants** - Triggered when:
@@ -223,7 +223,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **callPreferenceSetting** - Call preference app setting.
 - **callsTabNewCall** - **New Call** is selected in the **Calls** tab.
 - **callTransfer** - A call transfer is started.
-- **callVoicemailTab** - VoicemailTab selected in Calls.
+- **callVoicemailTab** - **Voicemail** tab selected in Calls.
 - **cameraPermissionCancel** - **Cancel** is selected the camera permission dialog.
 - **cameraPermissionGoToSettings** - **Settings** is navigated to from the camera permissions dialog.
 - **cancelEditMeeting** - Select the **Close** button while on the meeting scheduler page, after selecting **Edit meeting**. This logs when a user abandons the edit meeting selection.
@@ -296,11 +296,11 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **chatCM_markUnread** - Tap **Mark as unread** on a chat context menu.
 - **chatCM_save** - Tap **Save** on a chat context menu.
 - **chatCM_SeenBy** - Tap on **Seen** on a context menu option. Read Receipts, such as read by (readby).
-- **chatContactsEnter** - The chat contacts tab is entered.
+- **chatContactsEnter** - The **Chat Contacts** tab is entered.
 - **chatDetails** - Provides success and discoverability data for a chat details page when:
   - A chat header is selected.
   - A chat detail page is navigated to.
-- **chatRecentEnter** - The chat recent tab is entered.
+- **chatRecentEnter** - The **Chat Recent** tab is entered.
 - **chatSendMessage** - Send a chat message.
 - **chatShareLink** Tracks how many users send a group invite link.
 - **chatStartAudioCall** - Triggered when:
@@ -377,7 +377,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **conversation, tabs** - Tab selected.
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
-- **conversation** - When a user navigates to the Chat or Posts tab.
+- **conversation** - When a user navigates to the **Chat** or **Posts** tab.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -578,8 +578,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **install** - Install or Install Event.
 - **installReferrer** - Record app install referrer parameters after first time install.
 - **invisionWhiteboardClicked** - Invision whiteboard is selected:
-  - The channel files tab.
-  - The meeting chat files tab.
+  - The **Channel Files** tab.
+  - The meeting **Chat Files** tab.
 - **inviteFreemium** - Tapping the **+** button in the Invite screen.
 - **inviteGuest** - Tapping the **+** button in the Invite screen.
 - **joinFromDeeplinkInTeams** - A user joined through a deeplink from within the Teams app.
@@ -662,7 +662,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingNotesCreatedInChatLink** - The **Meeting notes created** chicklet is selected in private meeting chat or in channel meeting chat.
 - **meetingNotesMentionCharLink** - The @mention link is selected in private meeting chat.
 - **meetingNotesMentionChatLink** - The @mention link is selected in channel meeting chat.
-- **meetingNotesTabEntryPoint** - The Meeting notes tab is selected in private meeting or in a channel.
+- **meetingNotesTabEntryPoint** - The **Meeting Notes** tab is selected in private meeting or in a channel.
 - **meetingNotificationSettingsAccepted** - Notification settings option was changed to Accepted only.
 - **meetingNotificationSettingsAll** - Notification settings option was changed to All.
 - **meetingNotificationSettingsNone** - Notification settings option was changed to None.
@@ -693,7 +693,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **messageTriggered** - This is when a notification is triggered for a message.
 - **micPermissionCancel** - **Cancel** is selected on the mic permission dialog.
 - **micPermissionGoToSettings** - A user navigates to settings from the mic permissions dialog.
-- **MicrosoftWhiteboardClicked** - Microsoft whiteboard is selected on the Channel Files tab or the Meeting Chat Files tab.
+- **MicrosoftWhiteboardClicked** - Microsoft whiteboard is selected on the **Channel Files** tab or the **Meeting Chat Files** tab.
 - **moreOptionsClicked** - Triggers when **...** menu on the top-right is selected on the task item editor screen.
 - **moveTaskClicked** - Option inside task item more options list.
 - **multiCallEndFromUFD** - Number of times a user ends the call on hold in a multi-call scenario.
@@ -712,33 +712,33 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **nativeChatLink** - A link to native chat is selected.
 - **navActivity**- Navigate to the activity feeds page.
 
-- **navBookmark** - A user navigates to the Saved tab or app on the bottom bar or app tray.
+- **navBookmark** - A user navigates to the **Saved** tab or app on the bottom bar or app tray.
 - **navCalendar** - Measures if a user navigates to a calendar.
 - **navCallingSettings** - A user navigates to the calling settings.
-- **navCalls** - Calls tab tapped.
-- **navCamera** - A user navigates to the Camera tab or app on the bottom bar or app tray.
-- **navChat** - A user navigates to the Chat tab or app on the bottom bar or app tray.
-- **navContacts** - A user navigates to the Contacts or People tab or app on the bottom bar or app tray.
-- **navDashboardTab** - A user navigates to the dashboard tab within a conversation.
+- **navCalls** - **Calls** tab tapped.
+- **navCamera** - A user navigates to the **Camera** tab or app on the bottom bar or app tray.
+- **navChat** - A user navigates to the **Chat** tab or app on the bottom bar or app tray.
+- **navContacts** - A user navigates to the **Contacts** or **People** tab or app on the bottom bar or app tray.
+- **navDashboardTab** - A user navigates to the **Dashboard** tab within a conversation.
 - **navDynamics365** - Triggered when the Dynamics365 app is opened.
 - **navFiles** - Files app is selected, tracks if a user can launch the files app in the app tray (iOS).
 - **navFilesTab** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (iOS).
-- **navMeetings** - Calendar tab tapped.
+- **navMeetings** - **Calendar** tab tapped.
 - **navNotes** - Triggered when the Notes app is opened.
 - **navOrganization** - Triggered when the Organization app is opened.
 - **navOrgChart** - Triggered when the Orgchart app is opened.
 - **navPeople** - Event is triggered when the People app is opened.
 - **navPeopleSettings** - Triggered when you navigate to the **People** category in the Settings menu.
 - **navPersonalFiles** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (Android).
-- **navPhotoTab** - Photo tab.
-- **navSaved** - A user navigates to the Saved tab or app on the bottom bar or app tray.
+- **navPhotoTab** - **Photo** tab.
+- **navSaved** - A user navigates to the **Saved** tab or app on the bottom bar or app tray.
 - **navSelectPlan** - When a user selects a shared plan to navigate to from home view.
 - **navSelectPersonalList** - When a user selects a personal plan to navigate to from home view.
 - **navSelectSmartList** - When a user selects a smart plan to navigate to from home view.
 - **navTasks** - Triggered when the Tasks app is opened.
 - **navTeams** - Tap **See all**.
-- **navVideocamera** - A user navigates to the Camera tab or app on the bottom bar or app tray.
-- **navVideoTab** - Video tab.
+- **navVideocamera** - A user navigates to the **Camera** tab or app on the bottom bar or app tray.
+- **navVideoTab** - **Video** tab.
 - **navVoicemail** - A user navigates to the voicemail page.
 - **navWalkieTalkie** A user has opened the walkie talkie app.
 - **navWiki** - Triggered when the Wiki app is opened.
@@ -785,7 +785,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Determining if a file can be opened from a messages file chicklet.
   - Determining  if files can be opened successfully from a file list.
 - **openInAppClicked** - Option inside task item more options list, only available for personal tasks.
-- **opensCalendarView** - Tapping on **Open shifts** from the Schedule tab.
+- **opensCalendarView** - Tapping on **Open shifts** from the **Schedule** tab.
 - **openContactCard** - A user taps on a **Contact** icon or a contact in the people app to launch the profile card of that contact.
 - **openContactCard_ReactionSummary** - Navigate to contact card from the reaction summary page.
 - **openFileInApp** - Helps to identify if user opted to open files outside of Teams versus inside of Teams.
@@ -959,7 +959,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **selectMeetingRsvpOptions** - Select the **RSVP** button to choose an option.
 - **selectPersonalList** - Confirms that the user successfully navigated to a personal task list by tapping it.
 - **selectPlannerList** - Confirms that the user successfully navigated to a shared task list by tapping it.
-- **selectSettingOption** - Go to the settings tab from the hamburger menu.
+- **selectSettingOption** - Go to the **Settings** tab from the hamburger menu.
 - **selectTheme** - Enable dark theme.
 - **selectUser** - Confirms that an assignee was successfully selected for a task.
 - **selfLongPress** - Long press on myself.
@@ -993,7 +993,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **shiftAssigneeClicked** - The Shifts Calendar view showing the particular shifts details.
 - **shiftDetails** - This allows you to see the details of a shift.
 - **shiftDetailsCalendar** - User goes to shift details.
-- **shiftDetailsMyShifts** - Tapping on **Calendar** from the Schedules tab.
+- **shiftDetailsMyShifts** - Tapping on **Calendar** from the **Schedules** tab.
 - **shiftDetailsTodaysCoworkers** - On the clock in screen, the **Start** or **End break** button is selected.
 - **shortCircuitContactCount** - The number of address book matched short circuited contacts received from a contacts fetch.
 - **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
@@ -1035,9 +1035,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
 - **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
-- **switchTeamsDialogTriggered** - A user views the Shifts tab.
+- **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
-- **tabActionMoreOptions** - Understand ellipsis (**...**) usage from within a Tab.
+- **tabActionMoreOptions** - Understand ellipsis (**...**) usage from within a tab.
 - **tabActionOpenInBrowser** - Open in browser usage. This is necessary to understand if users prefer opening a tab outside Teams.
 - **tabActionOpenInBrowserFromTab** - Understand open in browser usage from within a Tab for more option - discoverability and usage.
 - **tabActionOpenInTeams** - Open in usage. This is key in understanding if the tab can be by default set to open in Teams.
@@ -1046,7 +1046,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **tabActionSetting, Android - fix** - How users discover and use tab config on mobile.
 - **table** - Select a table.
 - **tabListMoreOptions** - Understand the usage of the more options for a tab.
-- **tabOpen** - Tabs are a critical feature for Teams and this will be needed to understand feature success and be ready to see if there are any issues in the way it's being used.
+- **tabOpen** - Notes success in opening tabs, or if there are issues in the way tabs open.
 - **tabViewed** - Only logged if the request being sent is a swap, for entries into the **Team Shift** picker.
 - **takePhoto** - Take a photo.
 - **takePhotoPicker** - **Take photo** selected inside the image picker.
@@ -1116,7 +1116,7 @@ action.
   - The start of upload scenario in channel.
   - The start of upload scenario in chat.
   - The start of end of upload scenario in channel.
-  - Upload a file into the files tab successfully.
+  - Upload a file into the **Files** tab successfully.
   - If a prompt is acted on during file upload.
   - If a selected file is uploaded successfully.
 - **uploadSelectFile** - Select a file successfully; Select the **Upload file** button successfully.
