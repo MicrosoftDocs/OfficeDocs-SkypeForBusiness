@@ -104,6 +104,7 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 To enable calendar delegation for these users:
 
+
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
