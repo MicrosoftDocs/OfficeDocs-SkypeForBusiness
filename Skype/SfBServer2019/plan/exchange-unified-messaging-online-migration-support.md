@@ -144,7 +144,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Record personal greetings (PSTN) — play on phone |  | N | Y    |
 | VM | User Features | User setting to disable transcription |  | N | Y    |
 | VM | User Features | Transcription  |  | Y | Y    |
-| VM | User Features | Visual voicemail on all endpoints   | With user control to play, delete, message waiting indicator, and status-toggle, on all supported endpoints  | Y | Y    |
+| VM | User Features | MWI (Message Waiting Indicator) using SIP notify messages |  | N | Y    |
 | VM | User Features | MP3 audio file format in Outlook    |  | Y | Y    |
 | VM | User Features | Variable speed play control |  | Y | Y    |
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |
@@ -171,6 +171,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Tenant-Admin Features | Voicemail policy    |   | Y | Y    |
 | VM | Tenant-Admin Features | Web portal administration   |  | CY19   | Y    |
 | VM | Tenant-Admin Features | PowerShell   |  | Y | Y    |
+| UM | User Features | Message Waiting Indicator (MWI) on Skype for Business certified phones   |May be provided by phone partner  | No | Yes    |
 | AA | Service Features | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Service Features | Support Skype for Business Server   |  | Y | Y    |
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |

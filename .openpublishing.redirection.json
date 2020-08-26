@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/create-class-teams-edu.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/remote-learning-edu#start-using-teams",
+      "redirect_document_id": true 
+    },
+    {
       "source_path": "Teams/manage-your-custom-apps.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upload-custom-apps",
       "redirect_document_id": true 
