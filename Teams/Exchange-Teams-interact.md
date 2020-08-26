@@ -102,7 +102,7 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 - For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
-To enable calendar delegation for these users:
+To also enable calendar delegation for these users:
 
 - Both delegate and delegator must have a mailbox on the Exchange Server.
 
