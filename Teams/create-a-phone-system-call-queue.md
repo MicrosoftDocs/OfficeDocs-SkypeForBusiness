@@ -30,9 +30,13 @@ description: Learn how to set up Phone System for Cloud call queues with Microso
 Cloud call queues can provide:
 
 - A greeting message.
+
 - Music while people are waiting on hold.
+
 - Redirecting calls to call agents in mail-enabled distribution lists and security groups.
+
 - Setting different parameters such as queue maximum size, timeout, and call handling options.
+
 - Shared voicemail for callers to leave a message for an organization.
 
 You don't directly associate a phone number to a call queue, instead the phone number is associated to a [resource account](manage-resource-accounts.md). A call queue can be dialed directly or accessed by a selection on an auto attendant.
@@ -42,8 +46,11 @@ The caller hears music while they are on hold, and the call connects to the call
 All calls in the queue are sent to agents by one of the following methods:
 
 - With attendant routing, the first call in the queue rings all agents at the same time.
+
 - With serial routing, the first call in the queue rings all call agents one by one.
+
 - With longest idle routing, the call agent whose has been idle the longest time receives the next available call. The idle time is defined as the length of time a call agent's presence state is set to **Available** or **Away** (if less than 10 minutes), at the time of the call. If a call agent's presence is **Away** for more than 10 minutes, the idle timer resets.
+
 - With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.
 
 You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.
@@ -58,13 +65,14 @@ Only one incoming call notification (for the call at the head of the queue) at a
 To get started using call queues, it's important to remember a few things:
 
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+
 - When you assign a phone number to a resource account, you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md). Phone System allows phone numbers at the organizational level for use with low-cost auto attendant and call queue services.
 
   > [!NOTE]
   > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
-> [!NOTE]
-> To redirect calls to people in your organization who are online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true.
+  > [!NOTE]
+  > To redirect calls to people in your organization who are online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true.
 
 - To learn more about Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md).
 
@@ -183,8 +191,10 @@ Call agents selected must be one of the following:
 Conference mode is disabled by default but can be enabled at any time if the following requirements are met:
 
 - Agents added to the call queue need to use one of the following clients:
+
   - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
   - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+  
 - Agents' Teams accounts need to be set to Teams-only mode
 
 > [!IMPORTANT]
@@ -280,6 +290,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 **When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 
 - **Disconnect** The call is disconnected.
+
 - **Redirect to** When you choose this, select one of the following:
 
   - **Person in organization** An online user with a Phone System license and is enabled for Enterprise Voice or has a Calling Plan.
@@ -297,6 +308,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
             - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
             - If set to Enabled, the resource account phone number is displayed.
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+    
   - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
       - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB. 
       - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
@@ -316,7 +328,9 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 **When call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to the call:
 
 - **Disconnect** The call is disconnected.
+
 - **Redirect this call to** When you choose this, you have these options:
+
   - **Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans.
 
   - **Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.
@@ -334,6 +348,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
     - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
     - **Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:
       - **Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message. The recording can be no larger than 5 MB.
+      
       - **Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters). For example, you can type "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
 
       Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.
@@ -344,13 +359,13 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
 To protect a call agent's identity, change their caller ID for outbound calls to a call queue, auto attendant, or any service number with the **New-CsCallingLineIdentity** cmdlet as in the following example:
 
-``` Powershell
+```powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 Then apply the policy to the user with the **Grant-CallingLineIdentity** cmdlet as in the following example: 
 
-``` Powershell
+```powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
