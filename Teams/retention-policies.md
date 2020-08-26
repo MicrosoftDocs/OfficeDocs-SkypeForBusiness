@@ -148,7 +148,7 @@ To edit a Teams retention policy, do the following:
 > 
 > For example, if you have specified one Teams chat user to include in your retention policy that's configured to delete data, and then edit the policy to remove this user, by default all users will then be subject to the retention policy that permanently deletes their Teams chat messages. The same applies to includes for Teams channel messages.
 > 
-> In this scenario, toggle the location off if you don't want the **All** setting for the Teams channel messages or Teams chat messages to be subject to the retention policy.
+> In this scenario, toggle the location off if you don't want the **All** setting for the Teams channel messages or Teams chat messages to be subject to the retention policy. Alternatively, specify excludes to be exempt from the policy.
 
 
 #### Delete a retention policy
