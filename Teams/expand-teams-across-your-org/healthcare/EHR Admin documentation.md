@@ -19,13 +19,9 @@ ms.reviewer:
 description: Use Microsoft Teams to set up your Telehealth system
 ---
 
-# Telehealth and Teams
+# Telehealth and Teams integration into Electronic Health Record admin
 
-
-**Integration into EHR Admin**
-
-
-Microsoft Teams EHR connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. The communication and collaboration of platform of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Teams can help provide advanced security and empower healthcare customers to achieve their HIPAA, HITRUST compliance, and more.
+Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. The communication and collaboration of platform of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Teams can help provide advanced security and empower healthcare customers to achieve their HIPAA, HITRUST compliance, and more.
 
 -   Launch Teams meetings from both provider and patient portals.
 
@@ -53,7 +49,7 @@ This integration supports the following virtual visit use cases in web and mobil
 
 -   Organizations must have a current integration into Epic
 
--   Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app).
+-   Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
 ### **Getting started** 
 
@@ -69,7 +65,7 @@ In this step your O365 administrator must receive a valid FHIR base URL and the 
 
 -   Configuration approver name: name of the Epic system administrator who will be responsible of approving the configuration Overall process
 
-<img src="c:\Users\v-cichur\GitHub\OfficeDocs-SkypeForBusiness-pr\Teams\expand-teams-across-your-org\healthcare/media/image1.png" style="width:5in;height:2.8125in" />
+ [!Image of the Epic administrator configuration screen](../../media/ehr-connector-1.png)
 
 #### **Verify and Approve configuration** 
 
