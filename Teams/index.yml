@@ -47,8 +47,22 @@ highlightedContent:
       itemType: get-started
       url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
 
-
-
+# productDirectory section (optional)
+productDirectory:
+  title: Expanding Teams with other services # < 60 chars (optional)
+  summary: Leverage Teams integration with Microsoft 365 services to provide enhance capabilities to your users and improve collaboration # < 160 chars (optional)
+  items:
+    # Card
+    - title: Integrate with Power Platform
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: /media/guidance_SkypeforBusiness_image3.png
+      summary: Implement business processes and drive value with Power Platform
+      url: deploy-apps-microsoft-teams-landing-page.md
+    # Card
+    - title: Collaboration governance in Microsoft 365
+      imageSrc: /media/audio_conferencing_image4.png
+      summary: Develop a governance strategy for Microsoft 365 collaboration services that suits the needs of your organization.
+      url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
 
 
 # additionalContent section (optional)
