@@ -37,7 +37,7 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 - Use a request form for new phone numbers that aren't listed in the Microsoft Teams admin center.
 
 > [!IMPORTANT]
-> For new phone numbers in Australia, see [**Telstra Voice Services**](https://aka.ms/TelstraVoicePlan). For new phone numbers in Japan, see [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan).
+> For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). For new phone numbers in Japan, see [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan).
 
 ***
 If you know what kind of forms you are looking for, use the drop-down to select the country/region where you're getting numbers.
