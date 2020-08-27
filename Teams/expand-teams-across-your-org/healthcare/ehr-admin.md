@@ -71,8 +71,8 @@ In this step your O365 administrator must receive a valid FHIR base URL and the 
 
 In this step the Epic administrator for your healthcare organization that was added as an approver in the previous step must use the EHR Connector URL \[link\] to login using their Microsoft credentials. After successful validation, the user is going to be asked to login to Epic to validate the level of access for the user.
 
-> ![Note] 
-> O365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You will still need to login to Epic to validate your access.
+ > [!Note] 
+ > O365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You will still need to login to Epic to validate your access.
 
 ![Image of the Epic administrator configuration screen](../../media/ehr-connector-2.png)
 
@@ -84,8 +84,8 @@ After a successful Epic login, the Epic administrator must approve the configura
 
 When the configuration information is approved by the Epic admin, you will have the opportunity to review the mapping and modify any configuration if needed. Finally, when the configuration mapping is correctly approved, you will see key data elements that you will need to complete the telehealth configuration in Epic.
 
-> ![Note] 
-> Download and read the Epic-Microsoft Teams Telehealth Integration Guide found in AppOrchard for configuration steps.
+ > [!Note] 
+ > Download and read the Epic-Microsoft Teams Telehealth Integration Guide found in AppOrchard for configuration steps.
 
 ![Image of the Epic administrator configuration screen](../../media/ehr-connector-4.png)
 
@@ -140,6 +140,6 @@ A very important feature supported by the integration is the real-time updates i
 
 ### Privacy and Location of Data
 
-Teams integration into EHR systems optimized the process to reduce the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined here: <https://docs.microsoft.com/en-us/microsoftteams/teams-privacy>
+Teams integration into EHR systems optimized the process to reduce the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in [Teams Privacy](https://docs.microsoft.com/microsoftteams/teams-privacy).
 
-Throughout the integration into EHR systems, Microsoft does not store any identifiable personal data of patients or healthcare providers. Medical data is not transferred or stored by any Microsoft service. For the service to effectively work the only data that is stored by Microsoft is the healthcare provider Epic identifier, that is used to mapped providers to meeting links. Sign-in and authentication actions are handled by each EHR system.
+Throughout the integration into EHR systems, Microsoft does not store any identifiable personal data of patients or healthcare providers. Medical data is not transferred or stored by any Microsoft service. For the service to effectively work, the only data that is stored by Microsoft is the healthcare provider Epic identifier, which is used to mapped providers to meeting links. Sign-in and authentication actions are handled by each EHR system.
