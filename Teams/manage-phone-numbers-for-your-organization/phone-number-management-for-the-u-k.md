@@ -23,7 +23,7 @@ ms.custom:
 description: "Use this table to find information on getting and managing phone numbers in the United Kingdom for Microsoft Teams."
 ---
 
-# Phone number management for the United Kingdom.
+# Phone number management for the United Kingdom
 
 Use this table to find information on getting and managing phone numbers in the United Kingdom for Microsoft Teams. 
   
