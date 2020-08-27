@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+# PSTN considerations when upgrading to Teams &mdash; for IT administrators
 
 This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams. This article is the sixth of several that describe upgrade concepts and implementation for IT administrators.  
 
@@ -38,13 +38,13 @@ In addition, the following articles describe important upgrade concepts and coex
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 
-## PSTN calling considerations
+ > [!NOTE]
+ > Using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
 
-This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.
 
-Note that using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
+## PSTN calling scenarios
 
-There are four possible scenarios when moving to TeamsOnly mode:
+There are four possible calling scenarios when moving to TeamsOnly mode:
 
 - [A user in Skype for Business Online, with a Microsoft Calling Plan](#from-skype-for-business-online-with-microsoft-calling-plans). Upon upgrade, this user will continue to have a Microsoft Calling plan.
 
@@ -56,7 +56,7 @@ There are four possible scenarios when moving to TeamsOnly mode:
 
 This article provides a high-level overview only. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md) and [Calling Plans](calling-plan-landing-page.md). 
 
-## From Skype for Business Online with Microsoft Calling Plans 
+### From Skype for Business Online with Microsoft Calling Plans 
 
 This is the simplest upgrade scenario involving voice. 
 
@@ -64,7 +64,7 @@ This is the simplest upgrade scenario involving voice.
 
 2.  If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy.  Prior to assigning TeamsOnly mode, incoming PSTN calls will land in the user’s Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user’s Teams client.  
 
-## From Skype for Business Online with on-premises voice
+### From Skype for Business Online with on-premises voice
 
 In this scenario, the user is already in Skype for Business Online, but their PSTN connectivity is on-premises, either using Skype for Business Server in hybrid mode or Cloud Connector Edition. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing, in which PSTN trunks connect directly to the Direct Routing service in the cloud, via your on-premises Session Border Controller (SBC).
 
@@ -87,7 +87,7 @@ TeamsOnly mode.
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server.
 
 
-## From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing
+### From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing
 
 In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing and then moving the user to the cloud. 
  
@@ -112,7 +112,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested sequenc
    - In Microsoft 365 or Office 365: Assign the relevant OnlineVoiceRoutingPolicy to enable outgoing calls. 
 
 
-## From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan
+### From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan
 
 In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means moving the user to the cloud and either porting their number from the old carrier to a Microsoft Calling plan or assigning the user a new number. 
 

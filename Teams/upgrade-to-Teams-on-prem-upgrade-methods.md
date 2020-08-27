@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+# Upgrade methods &mdash; for IT administrators
 
 This article describes upgrade methods for migrating to Teams. This article is the second of several that describe upgrade concepts and implementation for IT administrators.  
 
@@ -40,7 +40,7 @@ In addition, the following articles describe important upgrade concepts and coex
 
 ## Upgrade methods
 
-There are two methods for migrating an existing organization with Skype for Business (whether online or on-premises) to Teams: Overlapping capabilities method, and the Select capabilities method.  This article helps you choose the right method for your organization by describing both methods and presenting the pros and cons of each. 
+There are two methods for upgrading an existing organization with Skype for Business (whether online or on-premises) to Teams: Overlapping capabilities method, and the Select capabilities method.  This article helps you choose the right method for your organization by describing both methods and presenting the pros and cons of each. 
 
 - [Overlapping capabilities method (using Islands mode)](#overlapping-capabilities-method-using-islands-mode)
 
@@ -49,6 +49,8 @@ There are two methods for migrating an existing organization with Skype for Busi
 - [Select capabilities method (using one or more of the Skype for Business modes)](#select-capabilities-method-using-skype-for-business-modes)
 
    The administrator manages the transition (from Skype for Business to Teams) of chat, calling, and meeting scheduling functionality for users in their organization.  Each of these functions is available either in Skype for Business or Teams, but not both. Administrators use TeamsUpgradePolicy to control when to shift this functionality to Teams for their users. Users who are not yet in TeamsOnly mode continue to use Skype for Business for chat and calling, and the two sets of users can communicate via interop functionality. Administrators manage the transition by progressively migrating more users into TeamsOnly mode.  
+
+After you understand and choose your upgrade method, you can learn about the [tools for managing your organization's upgrade to Teams](upgrade-to-teams-on-prem-tools.md).
 
 ## Overlapping capabilities method (using Islands mode)
 

@@ -20,15 +20,15 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Upgrade from Skype for Business to Teams &mdash; for IT administrators
+# Tools for upgrading to Teams &mdash; for IT administrators
 
-This article describes tools for migrating to Teams. This article is the third of several that describe upgrade concepts and implementation for IT administrators.  
+This article describes tools for upgrading to Teams. This article is the third of several that describe upgrade concepts and implementation for IT administrators.  
 
 - [Overview](upgrade-to-teams-on-prem-overview.md)
 - [Upgrade methods](upgrade-to-teams-upgrade-methods.md)
 - **Tools for managing your upgrade**   (This article)
 - [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem.md)
-- [Implementing your upgrade](upgrade-to-teams-implement.md)
+- [Implement your upgrade](upgrade-to-teams-implement.md)
 - [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-pstn-considerations.md)
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
