@@ -30,10 +30,9 @@ Anyone with a business or consumer email account, such as Outlook, Gmail, or oth
 As an admin, you can add a new guest user to the organization in a couple of ways:
 - Global admins or Teams admins and team owners add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
-> [!NOTE] 
-> This does not apply when **Admins and users in the guest inviter role can invite** is enabled. This is because the guest inviter role isn't supported in Teams.
-
 - Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. Azure AD B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=826383).
+
+Admins can also delegate permissions to add guest to others in their organization by assigning the Guest Inviter role. For more information, see [Configure external sharing](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations)
 
 With Azure AD B2B collaboration, organizations can enforce conditional access and multi-factor authentication (MFA) policies for B2B users. These policies can be enforced at the tenant, app, or individual user level, the same way that they are enabled for full-time employees and members of the organization. Such policies are enforced at the resource organization. For more information, see  [Conditional access for B2B collaboration users](https://go.microsoft.com/fwlink/?linkid=857454). Individual guest users can't be blocked.
 
