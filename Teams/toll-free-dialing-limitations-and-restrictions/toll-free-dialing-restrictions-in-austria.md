@@ -26,7 +26,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 # Toll-free dialing restrictions in Austria
 
-## ??? NEW PAGE - GET INFO FOR TABLE 
+## NEW PAGE - GET INFO FOR TABLE 
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
