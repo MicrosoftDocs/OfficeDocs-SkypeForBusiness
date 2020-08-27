@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Audio Conferencing
-description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
+description: "The following describes Open Preview functionality for On-network for Audio Conferencing."
 ---
 
-# On-network Conferencing for Audio Conferencing
+# Open Preview of On-network Conferencing for Audio Conferencing
 
 
 > [!NOTE]
 > On-network Conferencing for Audio Conferencing is currently in Open Preview. Functionality that is in Open Preview is intended for customers who would like to be early adopters of the functionality. Before enabling On-network Conferencing for Audio Conferencing, you should evaluate if your organization would like to be an early adopter of this functionality.
 
-On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers.
+On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers.
 
-This article describes the configuration steps required to enable On-network Conferencing for your organization.
+This article describes the prerequisites and configuration steps required to enable On-network Conferencing for your organization.
 
 > [!IMPORTANT]
 > On-network Conferencing must NOT be deployed with any telephony equipment in India.
@@ -37,7 +37,7 @@ This article describes the configuration steps required to enable On-network Con
 
 Before configuring On-network Conferencing, make sure your organization meets the following prerequisites: 
 
-- Ensure that all meeting organizers who will be using On-network Conferencing are in Teams Only mode. On-network Conferencing is only supported for Teams meetings.
+- Ensure that all users in your organization who are enabled, or will be enabled, for Audio Conferencing are in Teams Only mode. The routing of inbound and outboud Audio Conferencing calls through On-network Conferencing is only supported for Teams meetings.
 
 - Assign Audio Conferencing licenses to all users who will be using On-network Conferencing.
 
