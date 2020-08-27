@@ -38,8 +38,8 @@ For the latest information on Teams devices, check out [Teams Marketplace](https
 - **User delegation** Executive assistants and admins can manage their executives' Teams displays&ndash;intercept incoming calls, make calls on behalf of the executive, take over calls that the executive has placed on hold, and monitor whether the executive is on a call, on hold, and so on.
 - **Hot desking** Users can get their contacts, meetings, and other preferences, just by signing in to the device. When they're done, they can sign out and leave the device ready for the next user.
 - **Video** Teams displays with video support let users join calls and video conferences just like they were at their computers. Users can keep their privacy by using the device's camera shutter and microphone mute switch when available.
-- **Better together** In addition to the ability to lock and unlock Teams displays when connected to their Windows PC, users can also open files or messages and then easily transition to their PC, and join meetings from either device with a distributed meeting experience across both devices.
-- **Accessibility** In addition to high contrast text, Teams displays also support other accessibility features such as screen readers like TalkBack.
+- **Better together** Users can lock and unlock Teams displays when connected to their Windows PC. Users can also open files or messages and then easily transition to their PC, and join meetings from either device with a distributed meeting experience across both devices.
+- **Accessibility** Teams displays include accessibility features such as high contrast text and support for screen readers such as TalkBack.
 
 ## Required licenses
 
