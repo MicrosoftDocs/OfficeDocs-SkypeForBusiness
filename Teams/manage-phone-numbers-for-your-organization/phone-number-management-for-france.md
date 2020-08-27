@@ -34,7 +34,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Get phone numbers transferred to us.  <br/> |Download one of these forms. <br/><br/> For user phone numbers:<br/>[Letter of Authorization (LOA) for France (geographic numbers) (v.3.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/><br/>For toll-free phone numbers: <br/>[Letter of Authorization (LOA) for France (freephone numbers) (v.3.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/> <br/> Fill it out and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Directory service updates |For directory service updates that aren't available in the Microsoft Teams admin center, contact [the PSTN service desk](contact-pstn-service-desk.md). |
+|Directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
 
 ## Related topics
 

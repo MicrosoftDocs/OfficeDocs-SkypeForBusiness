@@ -39,7 +39,7 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |Get phone numbers transferred to Microsoft 365 or Office 365 for use with Audio Conferencing.  |[Please contact us](mailto:ptnapac@microsoft.com) |
 |Change emergency addressing assigned to users that have a Call Plan phone number. |Please contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) to make emergency address changes. They can update this information for you.|
 |Change a user number to a service number. |Supported when using Telstra Calling.|
-|Directory service updates |For directory service updates that aren't available in the Microsoft Teams admin center, contact [the PSTN service desk](contact-pstn-service-desk.md). |
+|Directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
 
 ## Related topics
 
