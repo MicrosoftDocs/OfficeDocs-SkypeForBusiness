@@ -49,8 +49,8 @@ highlightedContent:
 
 # productDirectory section (optional)
 productDirectory:
-  title: Expanding Teams with other services # < 60 chars (optional)
-  summary: Leverage Teams integration with Microsoft 365 services to provide enhance capabilities to your users and improve collaboration # < 160 chars (optional)
+  # title: Expanding Teams with other services # < 60 chars (optional)
+  # summary: Leverage Teams integration with Microsoft 365 services to provide enhance capabilities to your users and improve collaboration # < 160 chars (optional)
   items:
     # Card
     - title: Integrate with Power Platform
@@ -58,6 +58,11 @@ productDirectory:
       imageSrc: ./media/blocks-teams.svg
       summary: Implement business processes and drive value with Power Platform
       url: deploy-apps-microsoft-teams-landing-page.md
+    # Card
+    - title: Contoso case study - Teams voice migration
+      imageSrc: ./media/instructor-led-training-teams-landing-page-image9.svg
+      summary: See how a fictional multi-national corporation implemented Teams voice solution for their organization.
+      url: voice-case-study-overview.md
     # Card
     - title: Collaboration governance in Microsoft 365
       imageSrc: ./media/users-people.svg
