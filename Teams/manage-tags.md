@@ -57,13 +57,13 @@ A team can have up to 100 tags, up to 100 team members can be assigned to a tag,
 
 ### Set who can add custom tags
 
-By default, team owners can add custom tags. You can change this setting to allow team owners and team members to add tags or you can turn off tags for your organization.
+By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
-2. Under **Tagging**, next to **Tagging is enabled for**, select one of the following options:
+2. Under **Tagging**, next to **Tags are managed by**, select one of the following options:
 
-    - **Team owners and members**: Allow team owners and members to add tags.
-    - **Team owners**: Allow team owners to add tags.
+    - **Team owners and members**: Allow team owners and members to manage tags.
+    - **Team owners**: Allow team owners to manage tags.
     - **Disabled**: Turn off tags.
 
 ### Configure custom tags settings
@@ -73,9 +73,9 @@ You can configure the following tags settings to control how custom tags are use
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
-    - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
-    - **Members can add additional tags**: If you allow team members to add tags, turn this on to let team members add tags other than the suggested default tags that you set. If this is turned off, team members can only use the default tags.
+    - **Let team owners override who can manage tags**: When this is turned on, team owners can allow or disallow members to add tags in team settings.
     - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
+    - **Let custom tags be created**: Turn this on to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the default tags.
 
 ## Manage custom tags settings for a team
 
