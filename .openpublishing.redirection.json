@@ -1950,6 +1950,11 @@
         "source_path": "Teams/devices/index.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/devices/device-management",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "Teams/iw-trial-teams.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
+        "redirect_document_id": true
       }
   ] 
 }
