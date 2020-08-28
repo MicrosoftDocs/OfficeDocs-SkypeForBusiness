@@ -106,6 +106,7 @@ Prior to your first video visit with a patient or colleague, you need to verify 
 In MyChart, patients will be able to schedule appointments as they regularly do. Patient must select Microsoft virtual visit during the scheduling. When day and time for the appointment comes, the patient can launch a virtual visit from MyChart.
 
 ![Image of the Epic administrator configuration screen](../../media/ehr-connector-5.png)
+
 Key features of the patient experience includes:
 
 - Patients are not required to create a Microsoft account or login to launch a virtual visit.
