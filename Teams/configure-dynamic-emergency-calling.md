@@ -37,7 +37,11 @@ For dynamic emergency calling, the following must occur:
 
    - If there's a network settings site match – emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).
 
-   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.
+   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
+       - WAP
+       - Ethernet Switch/Port
+       - Ethernet Switch
+       - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
@@ -54,7 +58,8 @@ This article contains the following sections.
 
 The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
-For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology, see the following:
+For more information about emergency calling, including information about emergency addresses and emergency call routing, information spec
+ic to countries, and information about network settings and network topology, see the following:
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
