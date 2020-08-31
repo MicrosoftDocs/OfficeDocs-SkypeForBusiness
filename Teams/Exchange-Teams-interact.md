@@ -91,7 +91,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 > [!NOTE]
 > Exchange 2016 CU3 adds support for REST API integration with Microsoft 365 and Autodiscover (AutoD) V2. REST is required to support the Calendar application in Teams. For more information, see [Use REST APIs to access mailboxes in Exchange hybrid deployments](https://docs.microsoft.com/graph/hybrid-rest-support). Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox, and also to support scheduling in Outlook for Teams. 
 
-- Autodiscover and Exchange Web Services is published externally.
+- Autodiscover and Exchange Web Services are published externally.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
