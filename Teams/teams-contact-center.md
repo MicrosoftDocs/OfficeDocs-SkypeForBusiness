@@ -192,7 +192,7 @@ Please review the table below for an overview of the integration models that Mic
 <td>Users with Teams calling?</td>
 <td>Informal, SME</td>
 <td>Informal, SME</td>
-<td>Informal, SME, Formal*</td>
+<td>Informal, SME, Formal</td>
 <td>Informal, SME, Formal</td>
 </tr>
 <tr class="odd">
