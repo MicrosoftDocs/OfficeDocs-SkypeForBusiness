@@ -80,7 +80,7 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 ## Requirements to create and view meetings for mailboxes hosted on-premises
 
-If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be meet:
+If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
 
