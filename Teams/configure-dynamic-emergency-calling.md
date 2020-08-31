@@ -58,8 +58,7 @@ This article contains the following sections.
 
 The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
-For more information about emergency calling, including information about emergency addresses and emergency call routing, information spec
-ic to countries, and information about network settings and network topology, see the following:
+For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology, see the following:
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
