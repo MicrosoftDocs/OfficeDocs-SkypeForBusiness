@@ -32,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 02 XXX XXXX <br/>  0200 XX XXXX <br/> |
+|Dialing format(s)  <br/> | 020 <br/> |
 |Country/region ISO code  <br/> |SE  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |

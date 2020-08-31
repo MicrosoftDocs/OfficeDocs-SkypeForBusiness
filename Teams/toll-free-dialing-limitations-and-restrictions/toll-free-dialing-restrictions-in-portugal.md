@@ -32,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> |800 XXX XXX  <br/> |
+|Dialing format(s)  <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
 |Country/region ISO code  <br/> |PT  <br/> |
 |Island/territory covered  <br/> | Azores, Madeira <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |

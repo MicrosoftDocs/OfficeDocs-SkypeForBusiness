@@ -32,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|Dialing format(s)  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |Country/region ISO code  <br/> |DK  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | No access from Faroe Islands or Greenland. <br/> |

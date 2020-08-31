@@ -26,20 +26,18 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 # Toll-free dialing restrictions in Italy
 
-## NEW PAGE - GET INFO FOR TABLE 
-
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 0 800 XX XXX <br>|
+|Dialing format(s)  <br/> | 801 <br>803 <br>|
 |Country/region ISO code  <br/> |IT  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | Not applicable  <br/>  |
 |Wired/fixed line availability  <br/> |Yes  <br/> |
-|Mobile network availability  <br/> | Yes, at premium rate. <br/> |
+|Mobile network availability  <br/> | Yes (some numbers may be premium) <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
 
 ## Related topics

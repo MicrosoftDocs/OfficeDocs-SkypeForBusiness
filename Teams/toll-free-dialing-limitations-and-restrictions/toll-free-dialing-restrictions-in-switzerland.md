@@ -39,7 +39,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | Not applicable  <br/>  |
 |Wired/fixed line availability  <br/> |Yes  <br/> |
-|Mobile network availability  <br/> | Yes, at premium rate. <br/> |
+|Mobile network availability  <br/> | Yes (some numbers may be premium) <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
 
 ## Related topics
