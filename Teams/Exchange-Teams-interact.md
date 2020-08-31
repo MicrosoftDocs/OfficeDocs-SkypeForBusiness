@@ -89,7 +89,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
 > [!NOTE]
-> Exchange 2016 CU3 adds support for REST API integration with Microsoft 365 and Autodiscover (AutoD) V2. REST is required to support Calendar application in Teams, for more information, see [Use REST APIs to access mailboxes in Exchange hybrid deployments](https://docs.microsoft.com/graph/hybrid-rest-support). Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox, and also to support scheduling in Outlook for Teams. 
+> Exchange 2016 CU3 adds support for REST API integration with Microsoft 365 and Autodiscover (AutoD) V2. REST is required to support the Calendar application in Teams. For more information, see [Use REST APIs to access mailboxes in Exchange hybrid deployments](https://docs.microsoft.com/graph/hybrid-rest-support). Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox, and also to support scheduling in Outlook for Teams. 
 
 - Autodiscover and Exchange Web Services is published externally.
 
