@@ -79,7 +79,7 @@ You can configure the following tags settings to control how custom tags are use
 
 ## Manage custom tags settings for a team
 
-If you turned on the **Team owner can override who can apply tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
+If you turned on the **Let team owners override who can manage tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
 ![Screenshot of the tags setting at the team level](media/manage-tags-team-settings.png)
 
