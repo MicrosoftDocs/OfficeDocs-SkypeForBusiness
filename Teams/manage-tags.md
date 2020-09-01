@@ -75,7 +75,7 @@ You can configure the following tags settings to control how custom tags are use
 
     - **Let team owners override who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off this setting, the **Tags are managed by** setting can't be changed per team.
     - **Suggested default tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
-    - **Let custom tags be created**: Turn this on to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the default tags.
+    - **Let custom tags be created**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the suggested default tags. If you turn this off, make sure that you add one or more default tags.
 
 ## Manage custom tags settings for a team
 
