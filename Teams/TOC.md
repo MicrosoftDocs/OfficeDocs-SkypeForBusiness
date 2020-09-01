@@ -310,6 +310,7 @@
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
+### [Dial out minutes for the U.S. and Canada](dial-out-minutes-canada-us.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
