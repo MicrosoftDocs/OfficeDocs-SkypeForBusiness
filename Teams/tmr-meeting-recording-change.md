@@ -19,7 +19,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-## Use OneDrive/SharePoint or Stream for meeting recordings
+# Use OneDrive/SharePoint or Stream for meeting recordings
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
@@ -37,7 +37,7 @@ ADD TABLE From Hao
 
     c. Restart your machine.
 
-3. Launch Powershell as an admin
+Launch Powershell as an admin
 
 4. Import the SkypeOnline Connector and log in as a Teams admin.
 
