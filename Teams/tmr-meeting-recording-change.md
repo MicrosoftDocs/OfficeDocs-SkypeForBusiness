@@ -62,4 +62,4 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 ```
 
 > [!Note]
-> Only guaranteeing the closed captions connected to the file for a max of 60 days, after 60 days its possible the transcript might not show on the video recording. The CELA disclaimer around transcript and closed captions??
+> Outstanding questions: Only guaranteeing the closed captions connected to the file for a max of 60 days, after 60 days its possible the transcript might not show on the video recording. The CELA disclaimer around transcript and closed captions??
