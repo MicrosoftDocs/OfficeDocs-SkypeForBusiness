@@ -21,12 +21,11 @@ description: Lists the supported rate centers and coverage for Calling Plans.
 
 # Supported rate centers and coverage for Calling Plans
 
-This article lists the supported rate centers and coverage for Calling Plans. A rate center is a geographical area that's used to determine boundaries for calling, billing rates, and assigning phone numbers for the Public Switched Telephone Network (PSTN).
+This article lists the supported rate centers and coverage for Calling Plans. A rate center is a geographical area that defines boundaries for calling, billing rates, and assigning phone numbers for the Public Switched Telephone Network (PSTN).
 
-Use this information when you're getting new phone numbers for your organization. Download the spreadsheet for your country or region and use it to search for rate centers. Do not use this for area codes (NPA) or prefixes (NXX).
+Download this spreadsheet and use this to look up rate centers and associated area codes (NPAs) and prefixes (NXX) when you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Microsoft Teams.
 
-- [Supported rate centers and coverage matrix for North America](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/calling-plans/supported-rate-centers-and-coverage-matrix-(v-07012020)-(en-us).xlsx?raw=true)
-
+[Supported rate centers and coverage matrix for North America](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/calling-plans/supported-rate-centers-and-coverage-matrix-(v-07012020)-(en-us).xlsx?raw=true)
 
 ## Related topics
 
