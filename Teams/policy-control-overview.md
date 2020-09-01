@@ -39,8 +39,11 @@ Diagnostic data is used to:
 - Detect, diagnose and remediate problems.
 - Make product improvements.
 
-This data does not include ADD TEAMS SPECIFIC STUFF THAT'S NOT INCLUDED HERE.
-**ADD STUFF**
+An example of some of the collected data includes:
+
+- Application language
+- User type
+- Build version of the OS 
 
 ## Clients that adhere to diagnostic controls
 
@@ -72,14 +75,7 @@ As an admin for your organization, you’ll be able to use a policy setting to c
 
 Your users won’t be able to change the diagnostic data level for their devices if they are signed in to Teams with their organizational credentials, which is sometimes referred to as a work or school account.
 
-
-IS CONTENT FILES CORRECT HERE? NEED SPECIFIC INFO AGAIN.
 This diagnostic data doesn’t include names of users, their email addresses, or the content of their Office files. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that the Teams app crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.
-
-HOW MANY LINKS TO INCLUDE HERE?
-
-I HAVE NOT INCLUDED CONNECTED EXPERIENCES.
-
 
 ## Required service data for connected experiences
 
