@@ -61,7 +61,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change it according to your organization's internal policies.
 
-<sup>8</sup> You need to meet the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-for-mailboxes-hosted-on-premises) section.
+<sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
 ## Requirements to get the most out of Microsoft Teams
 
@@ -78,9 +78,9 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
 
-## Requirements for mailboxes hosted on-premises
+## Requirements to create and view meetings for mailboxes hosted on-premises
 
-If users want the capability to schedule a Teams meeting using Exchange Server on-premises, the following requirements must be meet:
+If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
 
@@ -89,14 +89,11 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
 - Autodiscover and Exchange Web Services is published externally.
- 
-> [!NOTE]
-> Autodiscover (AutoD) V2 is required to allow the Teams service to perform an unauthenticated discovery of the user's mailbox. AutoD V2 is supported in Exchange 2016 CU3 and later.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
-> [!NOTE]
-> Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
+ > [!NOTE]
+ > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
@@ -104,13 +101,12 @@ If users want the capability to schedule a Teams meeting using Exchange Server o
 
 To enable calendar delegation for these users:
 
-
-- Both delegate and delegator must have a mailbox on the Exchange Server.
-
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
-> [!NOTE]
-> Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
+ > [!NOTE]
+ > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
+
+- Teams Scheduling add-in for Outlook when scheduling a meeting on behalf of someone, requires Exchange 2013 CU19 or later. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
 ## Additional considerations
 
