@@ -37,7 +37,11 @@ For dynamic emergency calling, the following must occur:
 
    - If there's a network settings site match – emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).
 
-   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.
+   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
+       - WAP
+       - Ethernet Switch/Port
+       - Ethernet Switch
+       - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
