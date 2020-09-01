@@ -42,7 +42,17 @@ Diagnostic data is used to:
 This data does not include ADD TEAMS SPECIFIC STUFF THAT'S NOT INCLUDED HERE.
 **ADD STUFF**
 
+## Clients that adhere to diagnostic controls
 
+The following clients adhere to diagnostic controls and will submit data:
+
+- iOS
+- Android
+- Desktop (only the component that is using the win32 API)
+
+For required mobile data diagnostics, see [Policy control diagnostic data for mobile](policy-control-diagnostic-data-mobile.md).
+
+For required desktop data diagnostics, see [Policy control diagnostic data for desktop](policy-control-diagnostic-data-desktop.md).
 
 ## Diagnostic data sent from the Teams app to Microsoft
 
@@ -65,9 +75,6 @@ Your users won’t be able to change the diagnostic data level for their devices
 
 IS CONTENT FILES CORRECT HERE? NEED SPECIFIC INFO AGAIN.
 This diagnostic data doesn’t include names of users, their email addresses, or the content of their Office files. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that the Teams app crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.
-
-To see what diagnostic data is being sent to Microsoft, you can use the Diagnostic Data Viewer, which you can download and install for free [from the Microsoft Store](https://www.microsoft.com/store/p/diagnostic-data-viewer/9n8wtrrsq8f7?rtc=1).
-
 
 HOW MANY LINKS TO INCLUDE HERE?
 
