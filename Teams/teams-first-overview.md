@@ -115,7 +115,7 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <tr class="even">
 <td>Calling Features<br />
 VoIP / PSTN in Teams</td>
-<td><p>VoIP internally and externally to the tenant is available</p>
+<td><p>VoIP internally and externally to the tenant is available.</p>
 <p>PSTN services can be configured via Microsoft Phone System, plus adding a Microsoft Calling Plan or Direct Routing.</p></td>
 </tr>
 <tr class="odd">
@@ -135,11 +135,11 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Security and Compliance features</td>
 <td><ul>
-<li><p>Retention policies are available</p></li>
+<li><p>Retention policies are available.</p></li>
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available</p></li>
+<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
-<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a> for full list.</p></td>
+<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <tbody>
 <tr class="odd">
 <td>Tenant Teams configuration</td>
-<td>Islands mode</td>
+<td>Islands mode.</td>
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
@@ -194,7 +194,7 @@ set-csteamsmeetingpolicy</a>.</p>
 <tr class="even">
 <td>Calling Features<br />
 VoIP / PSTN in Teams</td>
-<td><p>VoIP internally to the tenant is available</p>
+<td><p>VoIP internally to the tenant is available.</p>
 <p>PSTN or Calling Plan services are not available until the user is moved to Teams Only experience.</p></td>
 </tr>
 <tr class="odd">
@@ -218,10 +218,9 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
 <li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
-<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
+<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a complete list, see 
+<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
 <ul>
-<li><p>for full list</p></li>
 </ul></td>
 </tr>
 </tbody>
