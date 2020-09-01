@@ -53,12 +53,12 @@ The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamspriv
 
 ## Supported locales and user types
 
-NDI® technology is supported in all locales. The following users are supported in an NDI® technology meeting:
+NDI® technology is supported in all locales. The following users are included in an NDI® technology stream, but not all users can access the NDI® technology stream:
 
 - In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
-- Federated – no (even when they have NDI® technology on)<sup>1</sup>
-- Freemium - no
-- Anonymous – no
-- Guest – no  
+- Federated – no stream access (even when they have NDI® technology on)<sup>1</sup>
+- Freemium - no stream access
+- Anonymous – no stream access
+- Guest – no stream access  
 
 <sup>1</sup> Devices have an NDI® technology setting that is on by default. If a meeting participant is using a device with NDI® technology off, they'll need to turn on NDI® technology.
