@@ -101,7 +101,7 @@ Below is a list of example colors to get you started:
 
 ## Badge set assets
 
-Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, recreate the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
+Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, re-create the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
 
 ### Default badges assets
 
