@@ -81,9 +81,9 @@ To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-
 
 Read [How Exchange and Microsoft Teams interact](exchange-teams-interact.md) to learn which compliance features are available in your scenario.
 
-## Organizations **<span class="underline">without</span>** Skype for Business or Lync server
+## Organizations **<span class="underline">without</span>** Skype for Business or Lync Server
 
-This starting point assumes that your organization does not utilize Skype for Business or Lync server currently and Teams will be your first application in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
+This starting point assumes that your organization does not utilize Skype for Business or Lync Server currently and Teams will be your first application in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
 <table>
 <thead>
@@ -95,20 +95,22 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <tbody>
 <tr class="odd">
 <td>Tenant Teams configuration</td>
-<td>Teams Only mode, all chat and calling features are in Teams Only</td>
+<td>Teams Only mode, all chat and calling features are in Teams Only.</td>
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td><p>Internal (intra Microsoft 365 or Office 365 organization) and external chat communication possible from Teams</p>
-<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises, or in Microsoft 365 or Office 365, to allow federation with Lync and Skype for Business environments.<br />
+<td><p>Internal (intra Microsoft 365 or Office 365 organization) and external chat communication possible from Teams.</p>
+<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises, or in Microsoft 365 or Office 365, to allow federation with Lync and Skype for Business environments:<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>Create and view Meetings in Teams</em></td>
-<td><p><em>Able to create meetings via Outlook add-in</em></p>
-<p><em>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.<br />
-Note: Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard</a><br />
-In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations</a></em></p></td>
+<td>Create and view Meetings in Teams</td>
+<td><p>Able to create internal and external meetings via Outlook add-in.</p>
+<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
+<p>In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: Configure OAuth authentication between Exchange and Exchange Online organizations.</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>Calling Features<br />
@@ -134,7 +136,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <td>Security and Compliance features</td>
 <td><ul>
 <li><p>Retention policies are available</p></li>
-<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported</p></li>
+<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
 <li><p>Data Loss Prevention policies (DLP) are available</p></li>
 </ul>
 <p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a> for full list.</p></td>
@@ -177,20 +179,23 @@ This starting point assumes that your organization utilizes Skype for Business 2
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td>Internal within your own tenant only, external communication (federation) is via your Skype for Business or Lync server deployment</td>
+<td>Internal within your own tenant only, external communication (federation) is via your Skype for Business or Lync server deployment.</td>
 </tr>
 <tr class="odd">
 <td>Create and view Meetings in Teams</td>
-<td><p>Able to create meetings via Outlook add-in</p>
-<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.<br />
-Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard</a></p></td>
+<td><p>Able to create internal and external meetings via Outlook add-in.</p>
+<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute.
+set-csteamsmeetingpolicy documentation.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>Calling Features<br />
 VoIP / PSTN in Teams</td>
 <td><p>VoIP internally to the tenant is available</p>
-<p>PSTN or Calling Plan services are not available until the user is moved to Teams Only experience</p></td>
+<p>PSTN or Calling Plan services are not available until the user is moved to Teams Only experience.</p></td>
 </tr>
 <tr class="odd">
 <td>Teams and Channels collaboration in Teams</td>
@@ -209,12 +214,12 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Security and Compliance features</td>
 <td><ul>
-<li><p>Retention policies are available</p></li>
-<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available</p></li>
+<li><p>Retention policies are available.</p></li>
+<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
+<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
 <p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a></p>
+<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
 <ul>
 <li><p>for full list</p></li>
 </ul></td>
