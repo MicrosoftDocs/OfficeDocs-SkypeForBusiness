@@ -57,8 +57,8 @@ NDI® technology is supported in all locales. The following users are supported 
 
 - In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
 - Federated – no (even when they have NDI® technology on)<sup>1</sup>
-- Freemium - no (default value)
-- Anonymous – no (default value)
-- Guest – no  (default value)
+- Freemium - no
+- Anonymous – no
+- Guest – no  
 
 <sup>1</sup> Devices have an NDI® technology setting that is on by default. If a meeting participant is using a device with NDI® technology off, they'll need to turn on NDI® technology.
