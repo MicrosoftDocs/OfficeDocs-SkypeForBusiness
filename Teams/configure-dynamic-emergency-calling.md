@@ -37,7 +37,11 @@ For dynamic emergency calling, the following must occur:
 
    - If there's a network settings site match – emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).
 
-   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.
+   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
+       - WAP
+       - Ethernet Switch/Port
+       - Ethernet Switch
+       - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
@@ -76,7 +80,7 @@ The following clients are currently supported.  Check back often to see updates 
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported; support for Ethernet switch/port is pending).
+You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
