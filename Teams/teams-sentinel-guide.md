@@ -178,7 +178,7 @@ O365API_CL
 ```
  Save the parser as a KQL function, with an alias of TeamsData. It will be used for the queries to follow. Details on configuring and using a KQL function as a parser can be found in this [Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## Helfpul hunting KQL queries
+## Helpful hunting KQL queries
 
 Use these queries to familiarize yourself with your Teams data and Teams environment. Knowing how the environment should look and behave is a good first step in recognizing suspicious activity. From there, you can branch out into threat hunting.
 
