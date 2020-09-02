@@ -59,7 +59,7 @@ Blocked Skype users, along with other people and public switched telephone netwo
 - Teams users and Skype users can't see each other's presence.
 - Searching for Skype users by using their Skype ID or phone number isn't supported.
 - Skype users can't call Teams users who set up call forwarding to another user's number, a delegate's number, or a Public Switched Telephone Network (PSTN) number.  Only voicemail is supported.
-- Interop escalation, group calls and meetings aren't supported.
+- Interop escalation, group calls, and meetings aren't supported.
 - The ability for a delegate to call a Skype user on behalf of a Teams user isn't supported.
 - Screen sharing with chat isn't supported.
 
