@@ -43,7 +43,7 @@ An example of some of the collected data includes:
 
 - Application language
 - User type
-- Build version of the OS 
+- Build version of the OS
 
 ## Clients that adhere to diagnostic controls
 
