@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive/SharePoint (ODSP) and offers many benefits:
 
-ADD TABLE From Hao
+ADD TABLE From HAO
 
 ## Set up the meeting recording option for OneDrive/SharePoint
 
